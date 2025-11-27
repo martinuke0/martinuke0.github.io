@@ -72,16 +72,11 @@ params:
   homeInfoParams:
     Title: "{{< terminal-prompt >}}"
     Content: |
-      ### Hey! I'm Martinuke
       Welcome to my corner of the internet. This website is a personal blog which I use as a platform to document my learning journey and showcase it for the world to see.
 
   socialIcons:
     - name: github
       url: "https://github.com/martinuke0"
-    - name: twitter
-      url: "https://twitter.com/martinuke0"
-    - name: linkedin
-      url: "https://linkedin.com/in/martinuke0"
     - name: buymeacoffee
       url: "https://buymeacoffee.com/martiniuc"
 
