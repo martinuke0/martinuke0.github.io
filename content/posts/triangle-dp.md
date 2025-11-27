@@ -5,30 +5,30 @@ draft: false
 tags: ["leetcode", "dynamic-programming", "algorithm", "system-design", "optimization"]
 ---
 
-## 🎯 Problem Overview: Triangle Minimum Path Sum
+# 🎯 Problem Overview: Triangle Minimum Path Sum
 
 **Problem 120**: Given a triangle array, return the minimum path sum from top to bottom.
 
 **Key Constraint**: From position `(i, j)`, you can only move to `(i+1, j)` or `(i+1, j+1)`.
 
 **Example**:
-text
+```
 [2]
 [3,4]
 [6,5,7]
 [4,1,8,3]
+```
 
-text
 Minimum path: 2 → 3 → 5 → 1 = **11**
 
 ---
 
-## 🚀 Quick Start: The 5-Minute Solution
+# 🚀 Quick Start: The 5-Minute Solution
 
-### Intuition (Think Like a Human)
+## Intuition (Think Like a Human)
 Imagine you're at the top and need to reach the bottom with minimum cost. At each step, ask: **"Which path below me is cheaper?"**
 
-### The Simplest Working Solution
+## The Simplest Working Solution
 ```python
 def minimumTotal(triangle):
     # Start from bottom and work upwards
@@ -38,24 +38,25 @@ def minimumTotal(triangle):
             triangle[row][col] += min(triangle[row+1][col], triangle[row+1][col+1])
     
     return triangle[0][0]
-How it works:
+```
 
-Start from the bottom row
+### How it works:
+1. Start from the bottom row
+2. For each cell, add the minimum of the two possible next steps
+3. Bubble up the minimum cost to the top
 
-For each cell, add the minimum of the two possible next steps
-
-Bubble up the minimum cost to the top
-
-Usage:
-
-python
+### Usage:
+```python
 triangle = [[2],[3,4],[6,5,7],[4,1,8,3]]
 print(minimumTotal(triangle))  # Output: 11
+```
+
 🎉 You just solved a Medium LeetCode problem!
 
-📚 Multiple Solution Approaches
-Approach 1: Brute Force (Recursive)
-python
+# 📚 Multiple Solution Approaches
+
+## Approach 1: Brute Force (Recursive)
+```python
 def minimumTotal(triangle):
     def dfs(row, col):
         if row == len(triangle) - 1:
@@ -67,10 +68,12 @@ def minimumTotal(triangle):
         return triangle[row][col] + min(left, right)
     
     return dfs(0, 0)
-Complexity: Time O(2ⁿ), Space O(n) - Too slow!
+```
 
-Approach 2: Top-Down DP with Memoization
-python
+**Complexity**: Time O(2ⁿ), Space O(n) - Too slow!
+
+## Approach 2: Top-Down DP with Memoization
+```python
 def minimumTotal(triangle):
     memo = {}
     
@@ -88,19 +91,23 @@ def minimumTotal(triangle):
         return memo[(row, col)]
     
     return dfs(0, 0)
-Complexity: Time O(n²), Space O(n²)
+```
 
-Approach 3: Bottom-Up DP (Modifies Input)
-python
+**Complexity**: Time O(n²), Space O(n²)
+
+## Approach 3: Bottom-Up DP (Modifies Input)
+```python
 def minimumTotal(triangle):
     for row in range(len(triangle)-2, -1, -1):
         for col in range(len(triangle[row])):
             triangle[row][col] += min(triangle[row+1][col], triangle[row+1][col+1])
     return triangle[0][0]
-Complexity: Time O(n²), Space O(1) - But modifies input
+```
 
-Approach 4: Bottom-Up DP (O(n) Space - RECOMMENDED)
-python
+**Complexity**: Time O(n²), Space O(1) - But modifies input
+
+## Approach 4: Bottom-Up DP (O(n) Space - RECOMMENDED)
+```python
 def minimumTotal(triangle):
     if not triangle:
         return 0
@@ -115,44 +122,53 @@ def minimumTotal(triangle):
             dp[j] = triangle[i][j] + min(dp[j], dp[j+1])
     
     return dp[0]
-Complexity: Time O(n²), Space O(n) - Optimal!
+```
 
-🔍 Detailed Walkthrough & Visualization
-Example Execution
-text
-Initial Triangle:
+**Complexity**: Time O(n²), Space O(n) - Optimal!
+
+# 🔍 Detailed Walkthrough & Visualization
+
+## Example Execution
+
+### Initial Triangle:
+```
     [2]
    [3,4]
   [6,5,7]
  [4,1,8,3]
+```
 
-Step-by-step calculation:
+### Step-by-step calculation:
 
-Step 1: dp = [4, 1, 8, 3]  (bottom row)
+**Step 1**: dp = [4, 1, 8, 3]  (bottom row)
 
-Step 2: Process row 2 (index 2)
-  dp[0] = 6 + min(4, 1) = 6 + 1 = 7
-  dp[1] = 5 + min(1, 8) = 5 + 1 = 6  
-  dp[2] = 7 + min(8, 3) = 7 + 3 = 10
-  dp = [7, 6, 10]
+**Step 2**: Process row 2 (index 2)
+- dp[0] = 6 + min(4, 1) = 6 + 1 = 7
+- dp[1] = 5 + min(1, 8) = 5 + 1 = 6
+- dp[2] = 7 + min(8, 3) = 7 + 3 = 10
+- dp = [7, 6, 10]
 
-Step 3: Process row 1 (index 1)
-  dp[0] = 3 + min(7, 6) = 3 + 6 = 9
-  dp[1] = 4 + min(6, 10) = 4 + 6 = 10
-  dp = [9, 10]
+**Step 3**: Process row 1 (index 1)
+- dp[0] = 3 + min(7, 6) = 3 + 6 = 9
+- dp[1] = 4 + min(6, 10) = 4 + 6 = 10
+- dp = [9, 10]
 
-Step 4: Process row 0 (index 0)
-  dp[0] = 2 + min(9, 10) = 2 + 9 = 11
+**Step 4**: Process row 0 (index 0)
+- dp[0] = 2 + min(9, 10) = 2 + 9 = 11
 
-Result: 11 ✅
-Why Bottom-Up is Better
-Approach	Time	Space	Pros	Cons
-Brute Force	O(2ⁿ)	O(n)	Simple	Exponential time
-Top-Down DP	O(n²)	O(n²)	Intuitive	Recursion overhead
-Bottom-Up DP	O(n²)	O(n)	Optimal	Less intuitive
-🎯 Advanced Optimizations & Variations
-Variation 1: Return the Actual Path
-python
+**Result**: 11 ✅
+
+## Why Bottom-Up is Better
+
+| Approach | Time | Space | Pros | Cons |
+|----------|------|-------|------|------|
+| Brute Force | O(2ⁿ) | O(n) | Simple | Exponential time |
+| Top-Down DP | O(n²) | O(n²) | Intuitive | Recursion overhead |
+| Bottom-Up DP | O(n²) | O(n) | Optimal | Less intuitive |
+# 🎯 Advanced Optimizations & Variations
+
+## Variation 1: Return the Actual Path
+```python
 def minimumTotalWithPath(triangle):
     n = len(triangle)
     dp = triangle[-1][:]
@@ -175,18 +191,22 @@ def minimumTotalWithPath(triangle):
         actual_path.append(current_col)
     
     return dp[0], actual_path
+```
 
 # Example: Returns (11, [0, 0, 1, 0]) for our triangle
-Variation 2: Maximum Path Sum
-python
+
+## Variation 2: Maximum Path Sum
+```python
 def maximumTotal(triangle):
     dp = triangle[-1][:]
     for i in range(len(triangle)-2, -1, -1):
         for j in range(len(triangle[i])):
             dp[j] = triangle[i][j] + max(dp[j], dp[j+1])
     return dp[0]
-Variation 3: Space-Optimized with Single Array
-python
+```
+
+## Variation 3: Space-Optimized with Single Array
+```python
 def minimumTotalOptimized(triangle):
     dp = [0] * (len(triangle) + 1)  # Extra space for boundary
     
@@ -195,20 +215,24 @@ def minimumTotalOptimized(triangle):
             dp[i] = row[i] + min(dp[i], dp[i+1])
     
     return dp[0]
-🏗️ System Design Applications
-Real-World Analogies
-1. Network Routing Protocol
-python
+# 🏗️ System Design Applications
+
+## Real-World Analogies
+
+### 1. Network Routing Protocol
+```python
 # Think of triangle as network hops with different costs
 network_costs = [
     [2],           # Source node
     [3, 4],        # First hop routers
-    [6, 5, 7],     # Second hop routers  
+    [6, 5, 7],     # Second hop routers
     [4, 1, 8, 3]   # Destination nodes
 ]
 # Minimum total = Cheapest network path
-2. Supply Chain Optimization
-python
+```
+
+### 2. Supply Chain Optimization
+```python
 # Manufacturing process with multiple stages
 manufacturing_stages = [
     [raw_material_cost],
@@ -216,9 +240,12 @@ manufacturing_stages = [
     [shipping_cost_X, shipping_cost_Y, shipping_cost_Z]
 ]
 # Find minimum production-to-delivery cost
-Large-Scale System Considerations
-Problem Scaling: From 200 to 2 Million Rows
-python
+```
+
+## Large-Scale System Considerations
+
+### Problem Scaling: From 200 to 2 Million Rows
+```python
 class ScalableTriangleSolver:
     def __init__(self):
         self.memory_limit = 1000000  # 1MB chunks
@@ -244,8 +271,10 @@ class ScalableTriangleSolver:
             dp = new_dp  # Move up one row
         
         return dp[0]
-Distributed Computing Approach
-python
+```
+
+### Distributed Computing Approach
+```python
 # MapReduce style solution for massive triangles
 class DistributedTriangleSolver:
     def map_phase(self, triangle_chunk):
@@ -257,38 +286,41 @@ class DistributedTriangleSolver:
         """Combine results from multiple workers"""
         # Merge overlapping boundaries
         return min(mapped_results)  # Simplified example
-Database Query Optimization
-sql
+```
+
+### Database Query Optimization
+```sql
 -- SQL representation of the triangle problem
 WITH RECURSIVE triangle_paths AS (
-    SELECT 
-        row_idx, 
+    SELECT
+        row_idx,
         col_idx,
         value,
         value as total_sum,
         CAST(col_idx AS TEXT) as path
-    FROM triangle 
+    FROM triangle
     WHERE row_idx = 0
     
     UNION ALL
     
-    SELECT 
+    SELECT
         t.row_idx,
         t.col_idx,
         t.value,
         tp.total_sum + t.value,
         tp.path || '->' || CAST(t.col_idx AS TEXT)
     FROM triangle t
-    JOIN triangle_paths tp ON 
-        t.row_idx = tp.row_idx + 1 
+    JOIN triangle_paths tp ON
+        t.row_idx = tp.row_idx + 1
         AND (t.col_idx = tp.col_idx OR t.col_idx = tp.col_idx + 1)
 )
 SELECT MIN(total_sum) as min_path_sum
 FROM triangle_paths
 WHERE row_idx = (SELECT MAX(row_idx) FROM triangle);
-📊 Performance Analysis & Big Data Considerations
-Time Complexity Deep Dive
-python
+# 📊 Performance Analysis & Big Data Considerations
+
+## Time Complexity Deep Dive
+```python
 def analyze_complexity(triangle):
     n = len(triangle)
     operations = 0
@@ -301,8 +333,10 @@ def analyze_complexity(triangle):
     return operations
 
 # For n=200: 200*201/2 ≈ 20,100 operations (very efficient)
-Memory Optimization Strategies
-python
+```
+
+## Memory Optimization Strategies
+```python
 class MemoryEfficientSolver:
     def __init__(self, triangle):
         self.triangle = triangle
@@ -324,31 +358,33 @@ class MemoryEfficientSolver:
             dp = self.process_compressed(compressed_row, dp)
         
         return self.decompress_result(dp)
-🎓 Advanced Algorithm Insights
-Mathematical Formulation
-Let dp[i][j] represent the minimum path sum to reach cell (i,j).
+# 🎓 Advanced Algorithm Insights
 
-Recurrence Relation:
+## Mathematical Formulation
 
-text
+Let `dp[i][j]` represent the minimum path sum to reach cell (i,j).
+
+### Recurrence Relation:
+```
 dp[i][j] = triangle[i][j] + min(dp[i+1][j], dp[i+1][j+1])
-Base Case:
+```
 
-text
+### Base Case:
+```
 dp[n-1][j] = triangle[n-1][j]  # Bottom row
-Graph Theory Perspective
+```
+
+## Graph Theory Perspective
+
 The triangle can be viewed as a Directed Acyclic Graph (DAG):
 
-Nodes: Each cell in the triangle
+- **Nodes**: Each cell in the triangle
+- **Edges**: From (i,j) to (i+1,j) and (i+1,j+1)
+- **Weights**: Cell values
+- **Problem**: Find shortest path from top to bottom
 
-Edges: From (i,j) to (i+1,j) and (i+1,j+1)
-
-Weights: Cell values
-
-Problem: Find shortest path from top to bottom
-
-Parallel Processing Potential
-python
+## Parallel Processing Potential
+```python
 import multiprocessing as mp
 
 class ParallelTriangleSolver:
@@ -358,9 +394,10 @@ class ParallelTriangleSolver:
             chunks = self.split_triangle(triangle)
             results = pool.map(self.process_chunk, chunks)
             return self.merge_results(results)
-🛠️ Production-Ready Implementation
-Enterprise-Grade Solution
-python
+# 🛠️ Production-Ready Implementation
+
+## Enterprise-Grade Solution
+```python
 from typing import List
 import logging
 
@@ -400,8 +437,10 @@ class TrianglePathSolver:
 # Usage in production
 solver = TrianglePathSolver()
 result = solver.minimum_total([[2],[3,4],[6,5,7],[4,1,8,3]])
-Testing Suite
-python
+```
+
+## Testing Suite
+```python
 import unittest
 
 class TestTriangleSolver(unittest.TestCase):
@@ -418,16 +457,21 @@ class TestTriangleSolver(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-📈 Comparative Analysis & Decision Framework
-When to Use Each Approach
-Scenario	Recommended Approach	Reason
-Interview Setting	Bottom-Up DP O(n) space	Demonstrates optimal thinking
-Memory Constraints	In-place modification	Minimal extra space
-Readability Focus	Top-Down with memoization	More intuitive
-Large Datasets	Chunk processing	Handles memory limits
-Learning/Teaching	All approaches	Understand progression
-Performance Characteristics
-text
+# 📈 Comparative Analysis & Decision Framework
+
+## When to Use Each Approach
+
+| Scenario | Recommended Approach | Reason |
+|----------|---------------------|--------|
+| Interview Setting | Bottom-Up DP O(n) space | Demonstrates optimal thinking |
+| Memory Constraints | In-place modification | Minimal extra space |
+| Readability Focus | Top-Down with memoization | More intuitive |
+| Large Datasets | Chunk processing | Handles memory limits |
+| Learning/Teaching | All approaches | Understand progression |
+
+## Performance Characteristics
+
+```
 n=200 (LeetCode constraint):
 - Brute Force: ~2²⁰⁰ operations → IMPOSSIBLE
 - DP solutions: ~20,000 operations → INSTANT
@@ -435,33 +479,28 @@ n=200 (LeetCode constraint):
 n=10,000 (Large scale):
 - DP solutions: ~50M operations → ~1-2 seconds
 - Memory: ~80KB for O(n) approach
-✅ Summary & Key Takeaways
-Core Insights
-Bottom-Up DP is optimal for this problem (O(n²) time, O(n) space)
+```
 
-Start from the base case (bottom row) and build upwards
+# ✅ Summary & Key Takeaways
 
-Each decision affects future choices - classic DP property
+## Core Insights
+- Bottom-Up DP is optimal for this problem (O(n²) time, O(n) space)
+- Start from the base case (bottom row) and build upwards
+- Each decision affects future choices - classic DP property
 
-Pattern Recognition
+## Pattern Recognition
 This problem teaches:
 
-Optimal substructure: Global optimum depends on local optima
+- **Optimal substructure**: Global optimum depends on local optima
+- **Overlapping subproblems**: Same calculations repeated
+- **State transition**: How to move between states efficiently
 
-Overlapping subproblems: Same calculations repeated
+## Beyond the Algorithm
+- **System design applications**: Network routing, supply chain optimization
+- **Scalability considerations**: Memory, distributed processing
+- **Real-world adaptations**: Path reconstruction, constraint variations
 
-State transition: How to move between states efficiently
-
-Beyond the Algorithm
-System design applications: Network routing, supply chain optimization
-
-Scalability considerations: Memory, distributed processing
-
-Real-world adaptations: Path reconstruction, constraint variations
-
-Next Steps to Master DP
-Practice similar problems: Minimum Falling Path Sum, Unique Paths
-
-Learn advanced DP patterns: Knapsack, Longest Common Subsequence
-
-Explore graph-based interpretations of DP problems
+## Next Steps to Master DP
+- **Practice similar problems**: Minimum Falling Path Sum, Unique Paths
+- **Learn advanced DP patterns**: Knapsack, Longest Common Subsequence
+- **Explore graph-based interpretations** of DP problems
