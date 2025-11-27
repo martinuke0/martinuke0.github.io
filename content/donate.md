@@ -9,4 +9,4 @@ summary: "donate"
 
 If you find my content helpful, consider supporting me!
 
-- [Buy Me a Coffee](https://buymeacoffee.com/martinuke0)
+- [Buy Me a Coffee](https://buymeacoffee.com/martiniuc)
