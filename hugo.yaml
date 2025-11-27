@@ -1,5 +1,5 @@
 baseURL: "https://martinuke0.github.io/"
-title: "Martinuke's Blog"
+title: "martinuke0's Blog"
 pagination:
   pagerSize: 5
 theme: ["PaperMod"]
@@ -13,10 +13,10 @@ minifyOutput: true
 
 params:
   env: production
-  title: Martinuke's Blog
-  description: "Martinuke's personal blog"
+  title: martinuke0's Blog
+  description: "martinuke0's personal blog"
   keywords: [Blog, Portfolio, PaperMod]
-  author: Martinuke
+  author: martinuke0
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
@@ -56,7 +56,7 @@ params:
   # profile-mode
   profileMode:
     enabled: false # needs to be explicitly set
-    title: Martinuke
+    title: martinuke0
     subtitle: "Welcome to my blog"
     imageUrl: "<img location>"
     imageWidth: 120
@@ -74,12 +74,8 @@ params:
     Content: Welcome to my blog
 
   socialIcons:
-    - name: twitter
-      url: "https://twitter.com/martinuke0"
     - name: github
       url: "https://github.com/martinuke0"
-    - name: linkedin
-      url: "https://linkedin.com/in/martinuke0"
 
   cover:
     hidden: true # hide everywhere but not in structured data
