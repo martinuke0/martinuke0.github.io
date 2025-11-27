@@ -6,11 +6,9 @@ tags: ["GitHub Actions", "CI/CD", "DevOps", "Automation", "Tutorial"]
 categories: ["Development"]
 ---
 
-# GitHub Actions: From Zero to Hero
-
 GitHub Actions is like having a robot assistant that automatically does tasks for you whenever something happens in your GitHub repository. This tutorial will take you from complete beginner to advanced user, putting you ahead of 90% of developers.
 
-## Table of Contents
+### Table of Contents
 1. [What is GitHub Actions? (ELI5)](#what-is-github-actions-eli5)
 2. [Core Concepts](#core-concepts)
 3. [Your First Workflow](#your-first-workflow)
@@ -22,7 +20,7 @@ GitHub Actions is like having a robot assistant that automatically does tasks fo
 
 ---
 
-## What is GitHub Actions? (ELI5)
+### What is GitHub Actions? (ELI5)
 
 Imagine you have a lemonade stand. Every time you make lemonade, you need to:
 1. Squeeze lemons
@@ -39,7 +37,7 @@ Imagine you have a lemonade stand. Every time you make lemonade, you need to:
 
 ---
 
-## Core Concepts
+### Core Concepts
 
 ### 1. **Workflows**
 A YAML file (`.github/workflows/name.yml`) that defines when and what to run.
@@ -63,7 +61,7 @@ The computer that runs your workflow (GitHub-hosted or self-hosted).
 
 ---
 
-## Your First Workflow
+### Your First Workflow
 
 Let's create a simple workflow that runs tests when you push code.
 
@@ -114,7 +112,7 @@ jobs:
 
 ---
 
-## Intermediate Techniques
+### Intermediate Techniques
 
 ### 1. **Matrix Builds** (Test Multiple Versions)
 
@@ -195,7 +193,7 @@ steps:
 
 ---
 
-## Advanced Patterns
+### Advanced Patterns
 
 ### 1. **Reusable Workflows**
 
@@ -334,7 +332,7 @@ jobs:
 
 ---
 
-## Real-World Examples
+### Real-World Examples
 
 ### Example 1: Complete CI/CD Pipeline
 
@@ -472,7 +470,7 @@ jobs:
 
 ---
 
-## Pro Tips & Best Practices
+### Pro Tips & Best Practices
 
 ### 1. **Use `workflow_dispatch` for Manual Triggers**
 
@@ -560,7 +558,7 @@ permissions:
 
 ---
 
-## Useful Resources
+### Useful Resources
 
 ### Official Documentation
 - [GitHub Actions Documentation](https://docs.github.com/en/actions) - Official docs
@@ -583,7 +581,7 @@ permissions:
 
 ---
 
-## Conclusion
+### Conclusion
 
 You now know:
 - ✅ What GitHub Actions is and why it's powerful
@@ -599,4 +597,3 @@ Start small, experiment, and gradually build more complex workflows. The key is 
 
 ---
 
-**What's your first automation going to be?** Drop a comment below!
