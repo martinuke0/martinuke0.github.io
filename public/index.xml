@@ -1,4 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>martinuke0's Blog</title><link>http://localhost:59893/</link><description>Recent content on martinuke0's Blog</description><image><title>martinuke0's Blog</title><url>http://localhost:59893/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url><link>http://localhost:59893/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link></image><generator>Hugo -- 0.152.2</generator><language>en</language><lastBuildDate>Fri, 28 Nov 2025 01:58:00 +0200</lastBuildDate><atom:link href="http://localhost:59893/index.xml" rel="self" type="application/rss+xml"/><item><title>Elite Context Engineering: The R&amp;D Agent Strategy</title><link>http://localhost:59893/posts/expert-agents/</link><pubDate>Fri, 28 Nov 2025 01:58:00 +0200</pubDate><guid>http://localhost:59893/posts/expert-agents/</guid><description>&lt;p&gt;&lt;strong&gt;Master the art of context window management to build high-performance AI agents&lt;/strong&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>martinuke0's Blog</title><link>http://localhost:59893/</link><description>Recent content on martinuke0's Blog</description><image><title>martinuke0's Blog</title><url>http://localhost:59893/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url><link>http://localhost:59893/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link></image><generator>Hugo -- 0.152.2</generator><language>en</language><lastBuildDate>Fri, 28 Nov 2025 15:32:00 +0200</lastBuildDate><atom:link href="http://localhost:59893/index.xml" rel="self" type="application/rss+xml"/><item><title>28 Nov</title><link>http://localhost:59893/journal/best-productivity-tips/</link><pubDate>Fri, 28 Nov 2025 15:32:00 +0200</pubDate><guid>http://localhost:59893/journal/best-productivity-tips/</guid><description>&lt;ol&gt;
+&lt;li&gt;Every 15 minutes write what you have done, do it for a week.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;ol start="2"&gt;
+&lt;li&gt;Schedule today a block of time for working on your business no matter what.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;</description></item><item><title>Elite Context Engineering: The R&amp;D Agent Strategy</title><link>http://localhost:59893/posts/expert-agents/</link><pubDate>Fri, 28 Nov 2025 01:58:00 +0200</pubDate><guid>http://localhost:59893/posts/expert-agents/</guid><description>&lt;p&gt;&lt;strong&gt;Master the art of context window management to build high-performance AI agents&lt;/strong&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;em&gt;&amp;ldquo;A focused agent is a performant agent. Context engineering is the name of the game for high-value engineering in the age of agents.&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -58,7 +65,9 @@ Time is ticking.&lt;/p&gt;
 &lt;p&gt;Every man is addicted to something Khabib said, choose to be addicted to discipline.
 Your ego is telling you&amp;rsquo;re special. But you&amp;rsquo;re not.
 We are all the same.
-How much do you want it?&lt;/p&gt;</description></item><item><title>The Complete Guide to Triangle Minimum Path Sum: From Brute Force to System Design</title><link>http://localhost:59893/posts/triangle-dp/</link><pubDate>Fri, 28 Nov 2025 01:07:00 +0200</pubDate><guid>http://localhost:59893/posts/triangle-dp/</guid><description>&lt;p&gt;&lt;strong&gt;Triangle Minimum Path Sum&lt;/strong&gt;: Given a triangle array, return the minimum path sum from top to bottom.&lt;/p&gt;
+How much do you want it?&lt;/p&gt;</description></item><item><title>The Complete Guide to Building Chrome Extensions: From Beginner to Hero</title><link>http://localhost:59893/posts/chrome-extension/</link><pubDate>Fri, 28 Nov 2025 01:07:00 +0200</pubDate><guid>http://localhost:59893/posts/chrome-extension/</guid><description>&lt;h2 id="-the-complete-guide-to-building-chrome-extensions-from-beginner-to-hero"&gt;🚀 The Complete Guide to Building Chrome Extensions: From Beginner to Hero&lt;/h2&gt;
+&lt;p&gt;Chrome extensions allow you to deeply customize and enhance your browsing experience. Whether you want to modify webpages, create productivity tools, automate tasks, or publish to the Chrome Web Store, extensions provide a powerful yet beginner-friendly platform.&lt;/p&gt;
+&lt;p&gt;This guide takes you from the fundamentals to a fully functioning extension, using &lt;strong&gt;Manifest V3&lt;/strong&gt;, the current standard for Chrome and Chromium-based browsers.&lt;/p&gt;</description></item><item><title>The Complete Guide to Triangle Minimum Path Sum: From Brute Force to System Design</title><link>http://localhost:59893/posts/triangle-dp/</link><pubDate>Fri, 28 Nov 2025 01:07:00 +0200</pubDate><guid>http://localhost:59893/posts/triangle-dp/</guid><description>&lt;p&gt;&lt;strong&gt;Triangle Minimum Path Sum&lt;/strong&gt;: Given a triangle array, return the minimum path sum from top to bottom.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Key Constraint&lt;/strong&gt;: From position &lt;code&gt;(i, j)&lt;/code&gt;, you can only move to &lt;code&gt;(i+1, j)&lt;/code&gt; or &lt;code&gt;(i+1, j+1)&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;:&lt;/p&gt;
 &lt;pre tabindex="0"&gt;&lt;code&gt;[2]
@@ -69,7 +78,21 @@ How much do you want it?&lt;/p&gt;</description></item><item><title>The Complete
 &lt;hr&gt;
 &lt;h3 id="quick-start-the-5-minute-solution"&gt;Quick Start: The 5-Minute Solution&lt;/h3&gt;
 &lt;h4 id="intuition-think-like-a-human"&gt;Intuition (Think Like a Human)&lt;/h4&gt;
-&lt;p&gt;Imagine you&amp;rsquo;re at the top and need to reach the bottom with minimum cost. At each step, ask: &lt;strong&gt;&amp;ldquo;Which path below me is cheaper?&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>The Complete SSH Guide for GitHub: From Beginner to Expert</title><link>http://localhost:59893/posts/github-ssh-deep-dive/</link><pubDate>Thu, 27 Nov 2025 22:46:00 +0200</pubDate><guid>http://localhost:59893/posts/github-ssh-deep-dive/</guid><description>&lt;h2 id="quick-start-ssh-for-github-in-5-minutes"&gt;Quick Start: SSH for GitHub in 5 Minutes&lt;/h2&gt;
+&lt;p&gt;Imagine you&amp;rsquo;re at the top and need to reach the bottom with minimum cost. At each step, ask: &lt;strong&gt;&amp;ldquo;Which path below me is cheaper?&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>The Complete Guide to WebSockets and Socket.IO: From Beginner to Hero</title><link>http://localhost:59893/posts/websockets/</link><pubDate>Fri, 28 Nov 2025 01:07:00 +0200</pubDate><guid>http://localhost:59893/posts/websockets/</guid><description>&lt;h1 id="the-complete-guide-to-websockets-and-socketio-from-beginner-to-hero"&gt;The Complete Guide to WebSockets and Socket.IO: From Beginner to Hero&lt;/h1&gt;
+&lt;h2 id="table-of-contents"&gt;Table of Contents&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href="#introduction"&gt;Introduction: Why Real-Time Communication Matters&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#understanding-http"&gt;Understanding HTTP First (The Foundation)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#websocket-protocol"&gt;The WebSocket Protocol (The Game Changer)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#socket-io"&gt;Socket.IO (WebSockets on Steroids)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#first-application"&gt;Building Your First WebSocket Application&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#advanced-patterns"&gt;Advanced Patterns and Architectures&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#production"&gt;Production Considerations and Scaling&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#resources"&gt;Useful Resources&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id="introduction"&gt;Introduction: Why Real-Time Communication Matters&lt;/h2&gt;
+&lt;p&gt;Imagine you&amp;rsquo;re having a conversation with a friend. In the old days of the web (and still today for most websites), it was like passing notes back and forth:&lt;/p&gt;</description></item><item><title>The Complete SSH Guide for GitHub: From Beginner to Expert</title><link>http://localhost:59893/posts/github-ssh-deep-dive/</link><pubDate>Thu, 27 Nov 2025 22:46:00 +0200</pubDate><guid>http://localhost:59893/posts/github-ssh-deep-dive/</guid><description>&lt;h2 id="quick-start-ssh-for-github-in-5-minutes"&gt;Quick Start: SSH for GitHub in 5 Minutes&lt;/h2&gt;
 &lt;h3 id="what-is-ssh-in-simple-terms"&gt;What is SSH in Simple Terms?&lt;/h3&gt;
 &lt;p&gt;Think of SSH keys like a &lt;strong&gt;secure key and lock system&lt;/strong&gt; for your computer to talk to GitHub:&lt;/p&gt;
 &lt;ul&gt;
