@@ -1,6 +1,6 @@
 ---
 title: "Journal"
-layout: "archives"
+layout: "journal"
 url: "/journal/"
 summary: "Personal thoughts and reflections"
 ---

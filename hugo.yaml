@@ -3,7 +3,7 @@ title: "martinuke0's Blog"
 pagination:
   pagerSize: 5
 theme: ["PaperMod"]
-mainSections: ["posts", "journal"]
+mainSections: ["posts"]
 
 outputs:
   home:
@@ -40,7 +40,12 @@ params:
   UseHugoToc: true
   disableSpecial1stPost: false
   disableScrollToTop: false
-  comments: false
+  comments: true
+  utterances:
+    repo: "martinuke0/martinuke0.github.io"
+    issueTerm: "pathname"
+    theme: "preferred-color-scheme"
+    crossorigin: "anonymous"
   hidemeta: false
   hideSummary: false
   showtoc: false

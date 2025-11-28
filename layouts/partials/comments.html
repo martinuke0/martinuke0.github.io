@@ -1,0 +1,15 @@
+{{- /* Comments area start */ -}}
+{{- if .Site.Params.comments -}}
+<div id="comments">
+  {{- if .Site.Params.utterances.repo -}}
+  <script src="https://utteranc.es/client.js"
+    repo="{{ .Site.Params.utterances.repo }}"
+    issue-term="{{ .Site.Params.utterances.issueTerm | default "pathname" }}"
+    theme="{{ .Site.Params.utterances.theme | default "preferred-color-scheme" }}"
+    crossorigin="{{ .Site.Params.utterances.crossorigin | default "anonymous" }}"
+    async>
+  </script>
+  {{- end -}}
+</div>
+{{- end -}}
+{{- /* Comments area end */ -}}
