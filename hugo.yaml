@@ -3,6 +3,7 @@ title: "martinuke0's Blog"
 pagination:
   pagerSize: 5
 theme: ["PaperMod"]
+mainSections: ["posts", "journal"]
 
 outputs:
   home:
