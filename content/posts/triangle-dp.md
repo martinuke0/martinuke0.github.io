@@ -5,9 +5,7 @@ draft: false
 tags: ["leetcode", "dynamic-programming", "algorithm", "system-design", "optimization"]
 ---
 
-# 🎯 Problem Overview: Triangle Minimum Path Sum
-
-**Problem 120**: Given a triangle array, return the minimum path sum from top to bottom.
+**Triangle Minimum Path Sum**: Given a triangle array, return the minimum path sum from top to bottom.
 
 **Key Constraint**: From position `(i, j)`, you can only move to `(i+1, j)` or `(i+1, j+1)`.
 
@@ -23,39 +21,39 @@ Minimum path: 2 → 3 → 5 → 1 = **11**
 
 ---
 
-# 🚀 Quick Start: The 5-Minute Solution
+### Quick Start: The 5-Minute Solution
 
-## Intuition (Think Like a Human)
+#### Intuition (Think Like a Human)
 Imagine you're at the top and need to reach the bottom with minimum cost. At each step, ask: **"Which path below me is cheaper?"**
 
-## The Simplest Working Solution
+#### The Simplest Working Solution
 ```python
 def minimumTotal(triangle):
-    # Start from bottom and work upwards
-    for row in range(len(triangle)-2, -1, -1):  # From second last row to top
+    ### Start from bottom and work upwards
+    for row in range(len(triangle)-2, -1, -1):  ### From second last row to top
         for col in range(len(triangle[row])):
-            # Choose the cheaper path below
+            ### Choose the cheaper path below
             triangle[row][col] += min(triangle[row+1][col], triangle[row+1][col+1])
     
     return triangle[0][0]
 ```
 
-### How it works:
+##### How it works:
 1. Start from the bottom row
 2. For each cell, add the minimum of the two possible next steps
 3. Bubble up the minimum cost to the top
 
-### Usage:
+##### Usage:
 ```python
 triangle = [[2],[3,4],[6,5,7],[4,1,8,3]]
-print(minimumTotal(triangle))  # Output: 11
+print(minimumTotal(triangle))  ### Output: 11
 ```
 
 🎉 You just solved a Medium LeetCode problem!
 
-# 📚 Multiple Solution Approaches
+### 📚 Multiple Solution Approaches
 
-## Approach 1: Brute Force (Recursive)
+#### Approach 1: Brute Force (Recursive)
 ```python
 def minimumTotal(triangle):
     def dfs(row, col):
@@ -72,7 +70,7 @@ def minimumTotal(triangle):
 
 **Complexity**: Time O(2ⁿ), Space O(n) - Too slow!
 
-## Approach 2: Top-Down DP with Memoization
+#### Approach 2: Top-Down DP with Memoization
 ```python
 def minimumTotal(triangle):
     memo = {}
@@ -95,7 +93,7 @@ def minimumTotal(triangle):
 
 **Complexity**: Time O(n²), Space O(n²)
 
-## Approach 3: Bottom-Up DP (Modifies Input)
+#### Approach 3: Bottom-Up DP (Modifies Input)
 ```python
 def minimumTotal(triangle):
     for row in range(len(triangle)-2, -1, -1):
@@ -106,17 +104,17 @@ def minimumTotal(triangle):
 
 **Complexity**: Time O(n²), Space O(1) - But modifies input
 
-## Approach 4: Bottom-Up DP (O(n) Space - RECOMMENDED)
+#### Approach 4: Bottom-Up DP (O(n) Space - RECOMMENDED)
 ```python
 def minimumTotal(triangle):
     if not triangle:
         return 0
     
     n = len(triangle)
-    # Start with the bottom row
+    ### Start with the bottom row
     dp = triangle[-1][:]
     
-    # Work upwards
+    ### Work upwards
     for i in range(n-2, -1, -1):
         for j in range(len(triangle[i])):
             dp[j] = triangle[i][j] + min(dp[j], dp[j+1])
@@ -126,11 +124,11 @@ def minimumTotal(triangle):
 
 **Complexity**: Time O(n²), Space O(n) - Optimal!
 
-# 🔍 Detailed Walkthrough & Visualization
+### 🔍 Detailed Walkthrough & Visualization
 
-## Example Execution
+#### Example Execution
 
-### Initial Triangle:
+##### Initial Triangle:
 ```
     [2]
    [3,4]
@@ -138,7 +136,7 @@ def minimumTotal(triangle):
  [4,1,8,3]
 ```
 
-### Step-by-step calculation:
+##### Step-by-step calculation:
 
 **Step 1**: dp = [4, 1, 8, 3]  (bottom row)
 
@@ -158,16 +156,16 @@ def minimumTotal(triangle):
 
 **Result**: 11 ✅
 
-## Why Bottom-Up is Better
+#### Why Bottom-Up is Better
 
 | Approach | Time | Space | Pros | Cons |
 |----------|------|-------|------|------|
 | Brute Force | O(2ⁿ) | O(n) | Simple | Exponential time |
 | Top-Down DP | O(n²) | O(n²) | Intuitive | Recursion overhead |
 | Bottom-Up DP | O(n²) | O(n) | Optimal | Less intuitive |
-# 🎯 Advanced Optimizations & Variations
+### 🎯 Advanced Optimizations & Variations
 
-## Variation 1: Return the Actual Path
+#### Variation 1: Return the Actual Path
 ```python
 def minimumTotalWithPath(triangle):
     n = len(triangle)
@@ -177,13 +175,13 @@ def minimumTotalWithPath(triangle):
     for i in range(n-2, -1, -1):
         for j in range(len(triangle[i])):
             if dp[j] < dp[j+1]:
-                path[i][j] = j  # Go left
+                path[i][j] = j  ### Go left
                 dp[j] = triangle[i][j] + dp[j]
             else:
-                path[i][j] = j + 1  # Go right
+                path[i][j] = j + 1  ### Go right
                 dp[j] = triangle[i][j] + dp[j+1]
     
-    # Reconstruct path
+    ### Reconstruct path
     actual_path = [0]
     current_col = 0
     for i in range(1, n):
@@ -193,9 +191,9 @@ def minimumTotalWithPath(triangle):
     return dp[0], actual_path
 ```
 
-# Example: Returns (11, [0, 0, 1, 0]) for our triangle
+### Example: Returns (11, [0, 0, 1, 0]) for our triangle
 
-## Variation 2: Maximum Path Sum
+#### Variation 2: Maximum Path Sum
 ```python
 def maximumTotal(triangle):
     dp = triangle[-1][:]
@@ -205,50 +203,50 @@ def maximumTotal(triangle):
     return dp[0]
 ```
 
-## Variation 3: Space-Optimized with Single Array
+#### Variation 3: Space-Optimized with Single Array
 ```python
 def minimumTotalOptimized(triangle):
-    dp = [0] * (len(triangle) + 1)  # Extra space for boundary
+    dp = [0] * (len(triangle) + 1)  ### Extra space for boundary
     
     for row in triangle[::-1]:
         for i in range(len(row)):
             dp[i] = row[i] + min(dp[i], dp[i+1])
     
     return dp[0]
-# 🏗️ System Design Applications
+### 🏗️ System Design Applications
 
-## Real-World Analogies
+#### Real-World Analogies
 
-### 1. Network Routing Protocol
+##### 1. Network Routing Protocol
 ```python
-# Think of triangle as network hops with different costs
+### Think of triangle as network hops with different costs
 network_costs = [
-    [2],           # Source node
-    [3, 4],        # First hop routers
-    [6, 5, 7],     # Second hop routers
-    [4, 1, 8, 3]   # Destination nodes
+    [2],           ### Source node
+    [3, 4],        ### First hop routers
+    [6, 5, 7],     ### Second hop routers
+    [4, 1, 8, 3]   ### Destination nodes
 ]
-# Minimum total = Cheapest network path
+### Minimum total = Cheapest network path
 ```
 
-### 2. Supply Chain Optimization
+##### 2. Supply Chain Optimization
 ```python
-# Manufacturing process with multiple stages
+### Manufacturing process with multiple stages
 manufacturing_stages = [
     [raw_material_cost],
     [assembly_cost_A, assembly_cost_B],
     [shipping_cost_X, shipping_cost_Y, shipping_cost_Z]
 ]
-# Find minimum production-to-delivery cost
+### Find minimum production-to-delivery cost
 ```
 
-## Large-Scale System Considerations
+#### Large-Scale System Considerations
 
-### Problem Scaling: From 200 to 2 Million Rows
+##### Problem Scaling: From 200 to 2 Million Rows
 ```python
 class ScalableTriangleSolver:
     def __init__(self):
-        self.memory_limit = 1000000  # 1MB chunks
+        self.memory_limit = 1000000  ### 1MB chunks
     
     def solve_large_triangle(self, triangle_stream):
         """
@@ -257,10 +255,10 @@ class ScalableTriangleSolver:
         if not triangle_stream:
             return 0
         
-        # Initialize with last available row
+        ### Initialize with last available row
         dp = triangle_stream[-1]
         
-        # Process upwards in chunks
+        ### Process upwards in chunks
         for i in range(len(triangle_stream)-2, -1, -1):
             current_row = triangle_stream[i]
             new_dp = [0] * len(current_row)
@@ -268,27 +266,27 @@ class ScalableTriangleSolver:
             for j in range(len(current_row)):
                 new_dp[j] = current_row[j] + min(dp[j], dp[j+1])
             
-            dp = new_dp  # Move up one row
+            dp = new_dp  ### Move up one row
         
         return dp[0]
 ```
 
-### Distributed Computing Approach
+##### Distributed Computing Approach
 ```python
-# MapReduce style solution for massive triangles
+### MapReduce style solution for massive triangles
 class DistributedTriangleSolver:
     def map_phase(self, triangle_chunk):
         """Process individual chunks of the triangle"""
-        # Each worker processes a section
+        ### Each worker processes a section
         return self.minimumTotal(triangle_chunk)
     
     def reduce_phase(self, mapped_results):
         """Combine results from multiple workers"""
-        # Merge overlapping boundaries
-        return min(mapped_results)  # Simplified example
+        ### Merge overlapping boundaries
+        return min(mapped_results)  ### Simplified example
 ```
 
-### Database Query Optimization
+##### Database Query Optimization
 ```sql
 -- SQL representation of the triangle problem
 WITH RECURSIVE triangle_paths AS (
@@ -317,9 +315,9 @@ WITH RECURSIVE triangle_paths AS (
 SELECT MIN(total_sum) as min_path_sum
 FROM triangle_paths
 WHERE row_idx = (SELECT MAX(row_idx) FROM triangle);
-# 📊 Performance Analysis & Big Data Considerations
+### 📊 Performance Analysis & Big Data Considerations
 
-## Time Complexity Deep Dive
+#### Time Complexity Deep Dive
 ```python
 def analyze_complexity(triangle):
     n = len(triangle)
@@ -327,15 +325,15 @@ def analyze_complexity(triangle):
     
     for i in range(n-2, -1, -1):
         for j in range(len(triangle[i])):
-            operations += 1  # Each min operation
+            operations += 1  ### Each min operation
     
     print(f"Rows: {n}, Operations: {operations}, O(n²): {n*n}")
     return operations
 
-# For n=200: 200*201/2 ≈ 20,100 operations (very efficient)
+### For n=200: 200*201/2 ≈ 20,100 operations (very efficient)
 ```
 
-## Memory Optimization Strategies
+#### Memory Optimization Strategies
 ```python
 class MemoryEfficientSolver:
     def __init__(self, triangle):
@@ -349,8 +347,8 @@ class MemoryEfficientSolver:
             return self._standard_solution()
     
     def _compressed_solution(self):
-        # Store only differences between rows
-        # Reduces memory by 50-70% for large datasets
+        ### Store only differences between rows
+        ### Reduces memory by 50-70% for large datasets
         dp = self.compress_row(self.triangle[-1])
         
         for i in range(len(self.triangle)-2, -1, -1):
@@ -358,23 +356,23 @@ class MemoryEfficientSolver:
             dp = self.process_compressed(compressed_row, dp)
         
         return self.decompress_result(dp)
-# 🎓 Advanced Algorithm Insights
+### 🎓 Advanced Algorithm Insights
 
-## Mathematical Formulation
+#### Mathematical Formulation
 
 Let `dp[i][j]` represent the minimum path sum to reach cell (i,j).
 
-### Recurrence Relation:
+##### Recurrence Relation:
 ```
 dp[i][j] = triangle[i][j] + min(dp[i+1][j], dp[i+1][j+1])
 ```
 
-### Base Case:
+##### Base Case:
 ```
-dp[n-1][j] = triangle[n-1][j]  # Bottom row
+dp[n-1][j] = triangle[n-1][j]  ### Bottom row
 ```
 
-## Graph Theory Perspective
+#### Graph Theory Perspective
 
 The triangle can be viewed as a Directed Acyclic Graph (DAG):
 
@@ -383,20 +381,20 @@ The triangle can be viewed as a Directed Acyclic Graph (DAG):
 - **Weights**: Cell values
 - **Problem**: Find shortest path from top to bottom
 
-## Parallel Processing Potential
+#### Parallel Processing Potential
 ```python
 import multiprocessing as mp
 
 class ParallelTriangleSolver:
     def solve_parallel(self, triangle):
         with mp.Pool(processes=mp.cpu_count()) as pool:
-            # Process multiple rows in parallel
+            ### Process multiple rows in parallel
             chunks = self.split_triangle(triangle)
             results = pool.map(self.process_chunk, chunks)
             return self.merge_results(results)
-# 🛠️ Production-Ready Implementation
+### 🛠️ Production-Ready Implementation
 
-## Enterprise-Grade Solution
+#### Enterprise-Grade Solution
 ```python
 from typing import List
 import logging
@@ -434,12 +432,12 @@ class TrianglePathSolver:
             self.logger.error(f"Error solving triangle: {e}")
             raise
 
-# Usage in production
+### Usage in production
 solver = TrianglePathSolver()
 result = solver.minimum_total([[2],[3,4],[6,5,7],[4,1,8,3]])
 ```
 
-## Testing Suite
+#### Testing Suite
 ```python
 import unittest
 
@@ -457,9 +455,9 @@ class TestTriangleSolver(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-# 📈 Comparative Analysis & Decision Framework
+### 📈 Comparative Analysis & Decision Framework
 
-## When to Use Each Approach
+#### When to Use Each Approach
 
 | Scenario | Recommended Approach | Reason |
 |----------|---------------------|--------|
@@ -469,7 +467,7 @@ if __name__ == "__main__":
 | Large Datasets | Chunk processing | Handles memory limits |
 | Learning/Teaching | All approaches | Understand progression |
 
-## Performance Characteristics
+#### Performance Characteristics
 
 ```
 n=200 (LeetCode constraint):
@@ -481,26 +479,26 @@ n=10,000 (Large scale):
 - Memory: ~80KB for O(n) approach
 ```
 
-# ✅ Summary & Key Takeaways
+### ✅ Summary & Key Takeaways
 
-## Core Insights
+#### Core Insights
 - Bottom-Up DP is optimal for this problem (O(n²) time, O(n) space)
 - Start from the base case (bottom row) and build upwards
 - Each decision affects future choices - classic DP property
 
-## Pattern Recognition
+#### Pattern Recognition
 This problem teaches:
 
 - **Optimal substructure**: Global optimum depends on local optima
 - **Overlapping subproblems**: Same calculations repeated
 - **State transition**: How to move between states efficiently
 
-## Beyond the Algorithm
+#### Beyond the Algorithm
 - **System design applications**: Network routing, supply chain optimization
 - **Scalability considerations**: Memory, distributed processing
 - **Real-world adaptations**: Path reconstruction, constraint variations
 
-## Next Steps to Master DP
+#### Next Steps to Master DP
 - **Practice similar problems**: Minimum Falling Path Sum, Unique Paths
 - **Learn advanced DP patterns**: Knapsack, Longest Common Subsequence
 - **Explore graph-based interpretations** of DP problems

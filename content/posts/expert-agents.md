@@ -4,15 +4,13 @@ date: 2025-11-28T01:58:00+02:00
 draft: false
 ---
 
-# Elite Context Engineering Tutorial: The R&D Agent Strategy
-
 **Master the art of context window management to build high-performance AI agents**
 
 > *"A focused agent is a performant agent. Context engineering is the name of the game for high-value engineering in the age of agents."*
 
 ---
 
-## Table of Contents
+#### Table of Contents
 
 1. [Foundation](#foundation)
    - [What is Context Engineering?](#what-is-context-engineering)
@@ -34,29 +32,29 @@ draft: false
 
 ---
 
-## Foundation
+#### Foundation
 
-### What is Context Engineering?
+##### What is Context Engineering?
 
 **Context Engineering** is the discipline of managing your AI agent's context window to maximize performance, minimize waste, and scale your agent systems effectively.
 
-#### Why It Matters
+###### Why It Matters
 
 - **Performance Degrades with Context Growth**: Language models have inherent scaling laws where performance decreases as context windows grow
 - **Token Efficiency**: Every token counts—wasteful context loading impacts speed and cost
 - **Agent Focus**: A cluttered context window creates confused, slow, error-prone agents
 - **Scalability**: Poor context management prevents you from scaling to multi-agent systems
 
-#### Core Principle
+###### Core Principle
 
 > **A focused engineer is a performant engineer.**  
 > **A focused agent is a performant agent.**
 
-### The R&D Framework
+##### The R&D Framework
 
 There are only **two ways** to manage your context window:
 
-#### **R = REDUCE**
+###### **R = REDUCE**
 Minimize unnecessary context entering your primary agent. Keep only task-specific, relevant information loaded.
 
 **Techniques:**
@@ -65,7 +63,7 @@ Minimize unnecessary context entering your primary agent. Keep only task-specifi
 - Use dynamic context priming
 - Selective information loading
 
-#### **D = DELEGATE**
+###### **D = DELEGATE**
 Offload context-heavy work to sub-agents or separate primary agents, keeping intensive tasks outside your main agent's context window.
 
 **Techniques:**
@@ -78,21 +76,21 @@ Offload context-heavy work to sub-agents or separate primary agents, keeping int
 
 ---
 
-## Level 1: Beginner - Reduction Techniques
+#### Level 1: Beginner - Reduction Techniques
 
 **Goal:** Clean up your primary agent's context window by eliminating waste
 
-### 1.1 Eliminate Wasteful MCP Server Loading
+##### 1.1 Eliminate Wasteful MCP Server Loading
 
-#### The Problem
+###### The Problem
 
 MCP (Model Context Protocol) servers can consume **24,100+ tokens** (12% of context window) when loaded unnecessarily through default configurations.
 
-#### Step-by-Step Implementation
+###### Step-by-Step Implementation
 
 **Step 1: Audit Current Context Usage**
 ````bash
-# Check your current token consumption
+### Check your current token consumption
 claude context
 ````
 
@@ -107,9 +105,9 @@ MCP Tools: 24,100 tokens
 
 **Step 2: Remove Default MCP Configuration**
 ````bash
-# Delete default MCP configuration files
+### Delete default MCP configuration files
 rm .claude/mcp.json
-# or
+### or
 rm defaultmcp.json
 ````
 
@@ -117,16 +115,16 @@ rm defaultmcp.json
 
 **Step 3: Load MCP Servers Explicitly When Needed**
 ````bash
-# Fire up specific MCP server configuration
+### Fire up specific MCP server configuration
 claude-mcp config path/to/firecrawl-4k.json
 
-# For strict configuration (override globals)
+### For strict configuration (override globals)
 claude -d-strict mcp config path/to/specific-config.json
 ````
 
 **Step 4: Verify Context Savings**
 ````bash
-# Check context after cleanup
+### Check context after cleanup
 claude context
 ````
 
@@ -139,14 +137,14 @@ Available: 194,000 tokens (97%)
 MCP Tools: 6,000 tokens (firecrawl only)
 ````
 
-#### Best Practices
+###### Best Practices
 
 - ✅ **Be purposeful**: Only load MCP servers you actively need
 - ✅ **Suffix configs**: Name configs by token size (e.g., `firecrawl-4k.json`)
 - ✅ **Explicit over implicit**: Manually reference each required server
 - ❌ **Never use default autoload configs** for production workflows
 
-#### Prompt Template
+###### Prompt Template
 ````markdown
 Load only the [SERVER_NAME] MCP server for this task:
 
@@ -157,9 +155,9 @@ Task: [DESCRIBE YOUR TASK]
 
 ---
 
-### 1.2 Context Priming Over Large Memory Files
+##### 1.2 Context Priming Over Large Memory Files
 
-#### The Problem
+###### The Problem
 
 **Large `claude.md` memory files** (23,000+ tokens, 10% of context) that:
 - Constantly grow as projects evolve
@@ -167,7 +165,7 @@ Task: [DESCRIBE YOUR TASK]
 - Are always loaded regardless of task relevance
 - Impact agent performance
 
-#### The claude.md Paradox
+###### The claude.md Paradox
 
 > `claude.md` is **incredible** because it's a reusable memory file always loaded into your agent's context.
 > 
@@ -175,14 +173,14 @@ Task: [DESCRIBE YOUR TASK]
 
 The problem: **Always-on context is not dynamic or controllable.** Engineering work changes constantly, but `claude.md` only grows.
 
-#### Step-by-Step Implementation
+###### Step-by-Step Implementation
 
 **Step 1: Audit Your Current claude.md**
 ````bash
-# Check file size
+### Check file size
 wc -l .claude/claude.md
 
-# Check token consumption
+### Check token consumption
 claude context | grep "claude.md"
 ````
 
@@ -198,19 +196,19 @@ Keep **ONLY** what you're 100% sure you want loaded 100% of the time.
 
 **Example Minimal claude.md (43 lines, 350 tokens):**
 ````markdown
-# Universal Project Standards
+### Universal Project Standards
 
-## Code Style
+#### Code Style
 - Use descriptive variable names
 - Follow language-specific conventions
 - Include error handling
 
-## Communication
+#### Communication
 - Provide clear status updates
 - Ask clarifying questions when uncertain
 - Summarize actions taken
 
-## File Operations
+#### File Operations
 - Always verify file paths before operations
 - Create backups for destructive changes
 - Report all file modifications
@@ -233,24 +231,24 @@ Context priming uses **dedicated reusable prompts** (custom slash commands) to s
 
 **Example: `commands/prime.md`**
 ````markdown
-# Prime: General Codebase Understanding
+### Prime: General Codebase Understanding
 
-## Purpose
+#### Purpose
 Gain comprehensive understanding of codebase structure, patterns, and current state for general development tasks.
 
-## Run Steps
+#### Run Steps
 1. Read project README
 2. Scan directory structure
 3. Identify key architectural patterns
 4. Review recent changes
 
-## Read
+#### Read
 - README.md
 - package.json / requirements.txt / Cargo.toml
 - src/ directory structure
 - docs/ folder overview
 
-## Report
+#### Report
 Provide concise summary of:
 - Project purpose and tech stack
 - Key directories and their roles
@@ -260,29 +258,29 @@ Provide concise summary of:
 
 **Example: `commands/prime-bug.md`**
 ````markdown
-# Prime: Bug Investigation
+### Prime: Bug Investigation
 
-## Purpose
+#### Purpose
 Set up context for investigating and fixing reported bugs.
 
-## Variables
+#### Variables
 - BUG_ID: {{bug_id}}
 - SYMPTOMS: {{symptoms}}
 - AFFECTED_FILES: {{files}}
 
-## Run Steps
+#### Run Steps
 1. Review bug report details
 2. Locate relevant code sections
 3. Identify potential root causes
 4. Plan investigation approach
 
-## Read
+#### Read
 - Issue tracker entry for {{bug_id}}
 - Files: {{files}}
 - Related test files
 - Recent commits to affected areas
 
-## Report
+#### Report
 - Bug reproduction steps
 - Suspected root cause
 - Investigation plan
@@ -291,22 +289,22 @@ Set up context for investigating and fixing reported bugs.
 
 **Step 4: Use Context Priming in Practice**
 ````bash
-# Start new agent session
+### Start new agent session
 claude opus --yolo
 
-# Prime for general development
+### Prime for general development
 /prime
 
-# Or prime for specific task
+### Or prime for specific task
 /prime-bug
 
-# Or prime for feature work
+### Or prime for feature work
 /prime-feature
 ````
 
 **Step 5: Verify Context Efficiency**
 ````bash
-# Check context after priming
+### Check context after priming
 claude context
 ````
 
@@ -321,32 +319,32 @@ Prime command: 1,200 tokens
 Loaded files: 6,950 tokens
 ````
 
-#### Context Priming Prompt Structure
+###### Context Priming Prompt Structure
 
 All prime commands should follow this structure:
 ````markdown
-# Prime: [TASK_TYPE]
+### Prime: [TASK_TYPE]
 
-## Purpose
+#### Purpose
 [One sentence describing the goal]
 
-## Variables (optional)
+#### Variables (optional)
 - VAR_NAME: {{description}}
 
-## Run Steps
+#### Run Steps
 1. [Action step 1]
 2. [Action step 2]
 3. [Action step 3]
 
-## Read
+#### Read
 - [File or directory to read]
 - [Another file]
 
-## Report
+#### Report
 [What the agent should summarize after priming]
 ````
 
-#### Best Practices
+###### Best Practices
 
 - ✅ **Keep claude.md under 50 lines** (universal essentials only)
 - ✅ **Create task-specific prime commands** for different work areas
@@ -355,7 +353,7 @@ All prime commands should follow this structure:
 - ❌ **Never let claude.md become a dumping ground**
 - ❌ **Don't include task-specific info in claude.md**
 
-#### Comparison: claude.md vs Context Priming
+###### Comparison: claude.md vs Context Priming
 
 | Aspect | Large claude.md | Context Priming |
 |--------|-----------------|-----------------|
@@ -367,17 +365,17 @@ All prime commands should follow this structure:
 
 ---
 
-## Level 2: Intermediate - Delegation with Sub-Agents
+#### Level 2: Intermediate - Delegation with Sub-Agents
 
 **Goal:** Offload context-heavy work to specialized sub-agents
 
-### 2.1 Understanding Sub-Agents
+##### 2.1 Understanding Sub-Agents
 
-#### What Are Sub-Agents?
+###### What Are Sub-Agents?
 
 Sub-agents are specialized agent instances spawned by your primary agent to handle specific tasks. They create a **partially forked context window**, keeping heavy computational work isolated.
 
-#### The System Prompt Advantage
+###### The System Prompt Advantage
 
 **Key Difference:**
 - **User Prompts** → Added to primary agent's context window
@@ -385,7 +383,7 @@ Sub-agents are specialized agent instances spawned by your primary agent to hand
 
 This is a **massive advantage** for the **D (Delegate)** in the R&D framework.
 
-#### Token Math Example
+###### Token Math Example
 
 **Without Sub-Agents:**
 ````
@@ -409,9 +407,9 @@ Sub-Agent Contexts (isolated):
 
 **Savings:** 38,800 tokens freed in primary agent context
 
-### 2.2 Implementing Sub-Agent Workflows
+##### 2.2 Implementing Sub-Agent Workflows
 
-#### Step-by-Step Implementation
+###### Step-by-Step Implementation
 
 **Step 1: Define Sub-Agent System Prompts**
 
@@ -426,24 +424,24 @@ Sub-Agent Contexts (isolated):
 
 **Example: `agents/doc-scraper.md`**
 ````markdown
-# Doc Scraper Sub-Agent
+### Doc Scraper Sub-Agent
 
-## Role
+#### Role
 Specialized web documentation scraper that fetches and processes documentation pages.
 
-## Capabilities
+#### Capabilities
 - Web fetching with firecrawl or web_fetch
 - HTML content extraction
 - Markdown conversion
 - Clean output formatting
 
-## Constraints
+#### Constraints
 - Maximum 5,000 tokens per scrape
 - Focus on main content only
 - Remove navigation and boilerplate
 - Preserve code blocks and examples
 
-## Output Format
+#### Output Format
 Save to: `docs/scraped/[domain]-[page-slug].md`
 
 Include:
@@ -452,7 +450,7 @@ Include:
 - Cleaned content
 - Key sections identified
 
-## Error Handling
+#### Error Handling
 - Retry failed fetches once
 - Report inaccessible pages
 - Skip authentication-required content
@@ -462,34 +460,34 @@ Include:
 
 **File: `.claude/commands/load-ai-docs.md`**
 ````markdown
-# Load AI Documentation
+### Load AI Documentation
 
-## Purpose
+#### Purpose
 Fetch and process AI documentation from multiple sources using specialized doc-scraper sub-agents.
 
-## Variables
+#### Variables
 - DOCS_LIST: ai-docs-urls.txt
 
-## Workflow
+#### Workflow
 
-### 1. Check Freshness
+##### 1. Check Freshness
 Read existing docs in `docs/scraped/`
 Identify files older than 24 hours
 
-### 2. Remove Stale Docs
+##### 2. Remove Stale Docs
 Delete outdated documentation files
 
-### 3. Spawn Doc Scrapers
+##### 3. Spawn Doc Scrapers
 For each URL in {{DOCS_LIST}}:
 - Launch doc-scraper sub-agent
 - Pass URL and output path
 - Run in parallel
 
-### 4. Verify Completion
+##### 4. Verify Completion
 Wait for all sub-agents to complete
 Check all expected output files exist
 
-## Report Format
+#### Report Format
 - Total URLs processed
 - Successful scrapes
 - Failed URLs (with reasons)
@@ -499,13 +497,13 @@ Check all expected output files exist
 
 **Step 3: Execute Sub-Agent Workflow**
 ````bash
-# Start primary agent
+### Start primary agent
 claude opus --yolo
 
-# Load MCP server for web fetching (if needed)
+### Load MCP server for web fetching (if needed)
 claude-mcp config configs/firecrawl-config.json
 
-# Execute delegation command
+### Execute delegation command
 /load-ai-docs
 ````
 
@@ -535,7 +533,7 @@ claude-mcp config configs/firecrawl-config.json
 
 **Step 5: Verify Context Savings**
 ````bash
-# Check primary agent context
+### Check primary agent context
 claude context
 ````
 
@@ -549,11 +547,11 @@ Sub-agents spawned: 10
 Sub-agent token usage: 38,450 tokens (NOT in primary context)
 ````
 
-#### Sub-Agent Delegation Patterns
+###### Sub-Agent Delegation Patterns
 
 **Pattern 1: Parallel Processing**
 ````markdown
-## Workflow
+#### Workflow
 For each item in {{LIST}}:
 - Spawn sub-agent
 - Process independently
@@ -565,7 +563,7 @@ Aggregate results
 
 **Pattern 2: Sequential Chain**
 ````markdown
-## Workflow
+#### Workflow
 1. Spawn preprocessor sub-agent
 2. Wait for completion
 3. Spawn analyzer sub-agent with preprocessor output
@@ -575,7 +573,7 @@ Aggregate results
 
 **Pattern 3: Conditional Delegation**
 ````markdown
-## Workflow
+#### Workflow
 If {{CONDITION}}:
   - Spawn specialized-sub-agent-A
 Else:
@@ -584,7 +582,7 @@ Else:
 Process results based on which agent ran
 ````
 
-#### Best Practices
+###### Best Practices
 
 - ✅ **Isolate heavy tasks** to sub-agents (web scraping, file processing)
 - ✅ **Keep sub-agent prompts focused** on one responsibility
@@ -595,7 +593,7 @@ Process results based on which agent ran
 - ❌ **Don't lose track** of context flow between agents
 - ❌ **Don't nest sub-agents** more than 2 levels deep
 
-#### When to Use Sub-Agents
+###### When to Use Sub-Agents
 
 **Good Use Cases:**
 - Web scraping multiple URLs
@@ -610,7 +608,7 @@ Process results based on which agent ran
 - Sequential dependent tasks
 - Tasks requiring primary agent context
 
-#### Managing Context Flow
+###### Managing Context Flow
 
 **Critical Concept:** The flow of information in multi-agent systems
 ````
@@ -633,13 +631,13 @@ Process results based on which agent ran
 
 ---
 
-## Level 3: Advanced - Active Context Management
+#### Level 3: Advanced - Active Context Management
 
 **Goal:** Maintain context continuity across agent sessions
 
-### 3.1 Context Bundles
+##### 3.1 Context Bundles
 
-#### What Are Context Bundles?
+###### What Are Context Bundles?
 
 Context bundles are **append-only logs** of agent work that capture:
 - User prompts executed
@@ -650,7 +648,7 @@ Context bundles are **append-only logs** of agent work that capture:
 
 They provide a **trail of work** that enables subsequent agents to understand what previous agents accomplished without loading their full context.
 
-#### Why Context Bundles Matter
+###### Why Context Bundles Matter
 
 **Problem:** Agent context windows eventually explode
 - Long sessions accumulate tokens
@@ -664,7 +662,7 @@ They provide a **trail of work** that enables subsequent agents to understand wh
 - Avoid re-reading entire codebases
 - Maintain continuity across sessions
 
-#### How Context Bundles Work
+###### How Context Bundles Work
 
 **Automatic Generation via Claude Code Hooks:**
 - Hook into tool calls (reads, writes, searches)
@@ -672,20 +670,20 @@ They provide a **trail of work** that enables subsequent agents to understand wh
 - Unique by date, hour, and session ID
 - Trim to essential operations only
 
-### 3.2 Session Recovery Workflows
+##### 3.2 Session Recovery Workflows
 
-#### Step-by-Step Implementation
+###### Step-by-Step Implementation
 
 **Step 1: Enable Context Bundle Generation**
 
 Context bundles are typically auto-generated when using Claude Code with proper hooks. Verify they're being created:
 ````bash
-# Check for context bundles directory
+### Check for context bundles directory
 ls -la .claude/agents/context-bundles/
 
-# Expected output:
-# 2025-11-28-01-session-abc123.bundle
-# 2025-11-28-02-session-def456.bundle
+### Expected output:
+### 2025-11-28-01-session-abc123.bundle
+### 2025-11-28-02-session-def456.bundle
 ````
 
 **Step 2: Generate a Context Bundle (Manual Process)**
@@ -694,18 +692,18 @@ If your setup doesn't auto-generate bundles, create them manually:
 
 **File: `.claude/agents/context-bundles/2025-11-28-01-session-abc123.bundle`**
 ````markdown
-# Context Bundle: Feature Development Session
+### Context Bundle: Feature Development Session
 Session ID: abc123
 Started: 2025-11-28 01:00:00
 Agent: Claude Opus
 
-## User Prompt
+#### User Prompt
 /prime
 Prepare for implementing new authentication system
 
-## Operations Log
+#### Operations Log
 
-### Read Operations
+##### Read Operations
 - README.md (overview)
 - src/auth/current-auth.ts (existing implementation)
 - src/database/user-schema.ts (user model)
@@ -714,12 +712,12 @@ Prepare for implementing new authentication system
 - src/middleware/auth-middleware.ts (current middleware)
 - tests/auth.test.ts (existing tests)
 
-### Search Operations
+##### Search Operations
 - "authentication" across src/ → 23 results
 - "JWT" across src/ → 15 results
 - "session" across src/auth/ → 8 results
 
-### Plans Created
+##### Plans Created
 Created quick plan:
 1. Analyze current authentication implementation
 2. Identify security gaps
@@ -728,7 +726,7 @@ Created quick plan:
 5. Update middleware
 6. Write comprehensive tests
 
-### Key Findings
+##### Key Findings
 - Current system uses basic session cookies
 - No token refresh mechanism
 - Passwords hashed with bcrypt (good)
@@ -738,10 +736,10 @@ Created quick plan:
 
 **Step 3: Load Context Bundle in New Session**
 ````bash
-# Start new agent session
+### Start new agent session
 claude opus --yolo
 
-# Load previous context bundle
+### Load previous context bundle
 /loadbundle .claude/agents/context-bundles/2025-11-28-01-session-abc123.bundle
 ````
 
@@ -766,7 +764,7 @@ What would you like to work on next?
 
 **Step 4: Verify Context Efficiency**
 ````bash
-# Check new agent's context
+### Check new agent's context
 claude context
 ````
 
@@ -788,7 +786,7 @@ With bundle: 4,200 tokens
 Savings: 40,800 tokens (90% reduction)
 ````
 
-#### Context Bundle Best Practices
+###### Context Bundle Best Practices
 
 **What to Include:**
 - ✅ User prompts and commands executed
@@ -807,59 +805,59 @@ Savings: 40,800 tokens (90% reduction)
 
 **Structure Template:**
 ````markdown
-# Context Bundle: [TASK_NAME]
+### Context Bundle: [TASK_NAME]
 Session ID: [SESSION_ID]
 Started: [TIMESTAMP]
 Agent: [AGENT_NAME]
 
-## User Prompt
+#### User Prompt
 [Initial prompt that started the session]
 
-## Operations Log
+#### Operations Log
 
-### Read Operations
+##### Read Operations
 - [file-path] ([brief context])
 - [file-path] ([brief context])
 
-### Search Operations
+##### Search Operations
 - "[query]" across [scope] → [count] results
 
-### Write Operations (High-Level Only)
+##### Write Operations (High-Level Only)
 - Created: [file-path]
 - Modified: [file-path]
 
-### Plans Created
+##### Plans Created
 [Brief summary of plans made]
 
-### Key Findings
+##### Key Findings
 - [Finding 1]
 - [Finding 2]
 - [Finding 3]
 
-### Next Steps
+##### Next Steps
 - [Step 1]
 - [Step 2]
 ````
 
-#### Advanced Context Bundle Patterns
+###### Advanced Context Bundle Patterns
 
 **Pattern 1: Chained Context Bundles**
 
 For multi-day projects, chain bundles together:
 ````markdown
-# Context Bundle: Day 3 - Authentication Testing
+### Context Bundle: Day 3 - Authentication Testing
 Session ID: xyz789
 Previous Bundles:
 - 2025-11-28-01-session-abc123 (initial design)
 - 2025-11-28-02-session-def456 (implementation)
 
-## Inherited Context
+#### Inherited Context
 From previous sessions:
 - JWT system implemented
 - Middleware refactored
 - Database migrations complete
 
-## Today's Work
+#### Today's Work
 [Current session operations]
 ````
 
@@ -867,27 +865,27 @@ From previous sessions:
 
 Create comprehensive bundles at project milestones:
 ````markdown
-# Context Bundle: Authentication System - Milestone 1 Complete
+### Context Bundle: Authentication System - Milestone 1 Complete
 Milestone: MVP JWT Authentication
 Sessions Included: 5
 Total Time: 12 hours
 
-## What Was Accomplished
+#### What Was Accomplished
 - JWT token generation and validation
 - Refresh token system
 - Updated middleware
 - 95% test coverage
 
-## Key Files
+#### Key Files
 - src/auth/jwt.service.ts (core implementation)
 - src/middleware/jwt-auth.middleware.ts
 - tests/auth-integration.test.ts
 
-## Known Issues
+#### Known Issues
 - Token expiration edge case in timezone handling
 - Need rate limiting on refresh endpoint
 
-## Next Phase Context
+#### Next Phase Context
 Ready to begin:
 - OAuth2 integration
 - Multi-factor authentication
@@ -896,13 +894,13 @@ Ready to begin:
 
 ---
 
-## Level 4: Agentic - Multi-Agent Orchestration
+#### Level 4: Agentic - Multi-Agent Orchestration
 
 **Goal:** Scale to multiple primary agents working in parallel and background
 
-### 4.1 Primary Multi-Agent Delegation
+##### 4.1 Primary Multi-Agent Delegation
 
-#### What is Primary Multi-Agent Delegation?
+###### What is Primary Multi-Agent Delegation?
 
 Unlike sub-agents (which are forked from your primary agent), **primary multi-agent delegation** involves spawning completely independent top-level agents that:
 - Run in parallel
@@ -911,7 +909,7 @@ Unlike sub-agents (which are forked from your primary agent), **primary multi-ag
 - Report back via files or APIs
 - Enable true "out of the loop" workflows
 
-#### Multi-Agent Delegation Methods
+###### Multi-Agent Delegation Methods
 
 | Method | Complexity | Control | Use Case |
 |--------|------------|---------|----------|
@@ -921,34 +919,34 @@ Unlike sub-agents (which are forked from your primary agent), **primary multi-ag
 | **Custom UI** | High | Very High | Production systems |
 | **Wrapper Scripts** | Low | Medium | Batch processing |
 
-### 4.2 Background Agent Workflows
+##### 4.2 Background Agent Workflows
 
-#### The Lightweight Delegation Pattern
+###### The Lightweight Delegation Pattern
 
 The simplest way to achieve primary multi-agent delegation is through a **reusable custom command** that spawns background Claude Code instances.
 
-#### Step-by-Step Implementation
+###### Step-by-Step Implementation
 
 **Step 1: Create Background Command**
 
 **File: `.claude/commands/background.md`**
 ````markdown
-# Background Agent Launcher
+### Background Agent Launcher
 
-## Purpose
+#### Purpose
 Launch a full Claude Code instance in the background to execute one focused task without blocking the primary agent.
 
-## Arguments
+#### Arguments
 - {{prompt}}: The task prompt for the background agent
 - {{model}}: claude-opus or claude-sonnet (default: opus)
 - {{report_file}}: Path to write completion report
 
-## Workflow
+#### Workflow
 
-### 1. Create Report File
+##### 1. Create Report File
 Create empty report file at {{report_file}}
 
-### 2. Launch Background Agent
+##### 2. Launch Background Agent
 Execute:
 ```bash
 claude {{model}} --yolo << EOF > {{report_file}} 2>&1 &
@@ -956,18 +954,18 @@ claude {{model}} --yolo << EOF > {{report_file}} 2>&1 &
 EOF
 ```
 
-### 3. Create Context Bundle
+##### 3. Create Context Bundle
 Generate context bundle for background session in:
 `.claude/agents/background/{{timestamp}}-{{task}}.bundle`
 
-### 4. Return Immediately
+##### 4. Return Immediately
 Report to user:
 - Background task launched
 - Task ID / Session ID
 - Report file location
 - How to monitor progress
 
-## Report Format
+#### Report Format
 Background Task Launched:
 - Task: {{brief_description}}
 - Model: {{model}}
@@ -982,21 +980,21 @@ Monitor progress: tail -f {{report_file}}
 
 **File: `.claude/agents/background/quick-plan.md`**
 ````markdown
-# Background Task: Quick Plan Generation
+### Background Task: Quick Plan Generation
 
-## Purpose
+#### Purpose
 Generate a detailed implementation plan for a new feature or component.
 
-## Prompt Template
+#### Prompt Template
 You are a focused planning agent. Your sole purpose is to create a detailed implementation plan.
 
-## Context
+#### Context
 Project: {{project_name}}
 Task: {{task_description}}
 
-## Required Output Format
+#### Required Output Format
 
-### Plan Structure
+##### Plan Structure
 1. Overview
 2. Technical Approach
 3. File Structure
@@ -1004,17 +1002,17 @@ Task: {{task_description}}
 5. Testing Strategy
 6. Risks and Mitigations
 
-## Output Location
+#### Output Location
 Write plan to: `plans/{{task_name}}-plan.md`
 
-## Report Requirements
+#### Report Requirements
 When complete:
 1. Rename report file to include timestamp
 2. Report success/failure
 3. List plan file location
 4. Provide next steps
 
-## Constraints
+#### Constraints
 - Single execution, no follow-up prompts
 - Complete within 5 minutes
 - Use existing codebase patterns
@@ -1023,10 +1021,10 @@ When complete:
 
 **Step 3: Execute Background Agent**
 ````bash
-# Start primary agent
+### Start primary agent
 claude opus --yolo
 
-# Launch background planning agent
+### Launch background planning agent
 /background "Generate implementation plan for OAuth2 integration" opus plans/oauth2-plan-progress.md
 ````
 
@@ -1049,7 +1047,7 @@ Context bundle:
 
 **Step 4: Monitor Background Agent Progress**
 ````bash
-# In another terminal
+### In another terminal
 tail -f plans/oauth2-plan-progress.md
 ````
 
@@ -1072,28 +1070,28 @@ Output: plans/oauth2-implementation-plan.md
 
 Once background task completes:
 ````bash
-# Primary agent continues
+### Primary agent continues
 /read plans/oauth2-implementation-plan.md
 
-# Or kick off implementation with new background agent
+### Or kick off implementation with new background agent
 /background "Implement OAuth2 following plans/oauth2-implementation-plan.md" opus implementation-progress.md
 ````
 
-#### Advanced Background Patterns
+###### Advanced Background Patterns
 
 **Pattern 1: Agent Chains**
 
 Launch sequential background agents where each uses the previous output:
 ````markdown
-## Multi-Stage Background Pipeline
+#### Multi-Stage Background Pipeline
 
-### Stage 1: Research
+##### Stage 1: Research
 /background "Research OAuth2 providers and compare features" sonnet research/oauth2-research.md
 
-### Stage 2: Planning (after Stage 1 completes)
+##### Stage 2: Planning (after Stage 1 completes)
 /background "Create implementation plan using research/oauth2-research.md" opus plans/oauth2-plan.md
 
-### Stage 3: Implementation (after Stage 2 completes)
+##### Stage 3: Implementation (after Stage 2 completes)
 /background "Implement OAuth2 following plans/oauth2-plan.md" opus implementation/oauth2-progress.md
 ````
 
@@ -1101,32 +1099,32 @@ Launch sequential background agents where each uses the previous output:
 
 Launch multiple independent agents simultaneously:
 ````markdown
-## Parallel Background Tasks
+#### Parallel Background Tasks
 
-# Start all at once
+### Start all at once
 /background "Write unit tests for auth module" sonnet tests/auth-test-progress.md
 /background "Update API documentation" sonnet docs/api-docs-progress.md
 /background "Refactor error handling" opus refactor/error-handling-progress.md
 /background "Performance optimization analysis" opus analysis/perf-analysis.md
 
-# All run in parallel, report independently
+### All run in parallel, report independently
 ````
 
 **Pattern 3: Scheduled Background Monitoring**
 
 Set up recurring background agents:
 ````bash
-# Cron job or scheduled task
+### Cron job or scheduled task
 0 */6 * * * claude opus --yolo --one-shot "Scan codebase for security vulnerabilities and update reports/security-scan.md" >> logs/security-scan.log 2>&1
 ````
 
-### 4.3 Agent Experts Pattern
+##### 4.3 Agent Experts Pattern
 
-#### What Are Agent Experts?
+###### What Are Agent Experts?
 
 **Agent Experts** are highly specialized, single-purpose agents designed to do one thing extraordinarily well. They represent the ultimate evolution of context engineering through extreme specialization.
 
-#### The Specialization Advantage
+###### The Specialization Advantage
 
 **Why Specialization Matters:**
 - Focused context = Maximum performance
@@ -1137,7 +1135,7 @@ Set up recurring background agents:
 **Performance Principle:**
 > As context windows grow, performance decreases. Therefore, many small specialized agents outperform one large general agent.
 
-#### Building Agent Experts
+###### Building Agent Experts
 **Step 1:
 Identify Expert Domains**
 Look for repeating tasks in your workflow:
@@ -1173,9 +1171,9 @@ Step 2: Create Expert Directory Structure
             └── remediation-guides/
 Step 3: Define Expert System Prompts
 Example: agents/experts/python-reviewer/system-prompt.md
-markdown# Expert: Python Code Reviewer
+markdown### Expert: Python Code Reviewer
 
-## Identity
+#### Identity
 You are an expert Python code reviewer specializing in:
 - PEP 8 compliance
 - Type safety (mypy/pyright)
@@ -1184,7 +1182,7 @@ You are an expert Python code reviewer specializing in:
 - Pythonic idioms
 - Test coverage
 
-## Expertise Areas
+#### Expertise Areas
 - Python 3.10+ features
 - FastAPI / Flask patterns
 - SQLAlchemy best practices
@@ -1192,84 +1190,84 @@ You are an expert Python code reviewer specializing in:
 - Error handling
 - Dependency management
 
-## Review Process
+#### Review Process
 
-### 1. Structural Analysis
+##### 1. Structural Analysis
 - Module organization
 - Import structure
 - Dependency cycles
 - Package architecture
 
-### 2. Code Quality
+##### 2. Code Quality
 - PEP 8 compliance
 - Type annotations
 - Docstring completeness
 - Naming conventions
 
-### 3. Logic Review
+##### 3. Logic Review
 - Algorithm efficiency
 - Error handling
 - Edge cases
 - Race conditions
 
-### 4. Security Scan
+##### 4. Security Scan
 - SQL injection risks
 - XSS vulnerabilities
 - Authentication issues
 - Secrets in code
 
-### 5. Performance Check
+##### 5. Performance Check
 - N+1 queries
 - Unnecessary loops
 - Memory leaks
 - Blocking operations
 
-## Output Format
+#### Output Format
 
-### Summary
+##### Summary
 [High-level assessment: Excellent/Good/Needs Work/Critical Issues]
 
-### Critical Issues (Blockers)
+##### Critical Issues (Blockers)
 - [Issue 1 with file:line]
 - [Issue 2 with file:line]
 
-### Improvements (Should Fix)
+##### Improvements (Should Fix)
 - [Improvement 1 with suggestion]
 - [Improvement 2 with suggestion]
 
-### Suggestions (Nice to Have)
+##### Suggestions (Nice to Have)
 - [Suggestion 1]
 - [Suggestion 2]
 
-### Positives
+##### Positives
 - [Good practice 1]
 - [Good practice 2]
 
-## Constraints
+#### Constraints
 - Review files provided only
 - Reference checklist.md for standards
 - Provide code examples for fixes
 - Prioritize critical security issues
 Step 4: Create Expert Launch Commands
 File: .claude/commands/review-python.md
-markdown# Launch Python Review Expert
+markdown### Launch Python Review Expert
 
-## Purpose
+#### Purpose
 Spawn specialized Python code review expert agent for comprehensive code analysis.
 
-## Arguments
+#### Arguments
 - {{files}}: Files or directories to review
 - {{focus}}: Optional focus area (security/performance/style)
 
-## Workflow
+#### Workflow
 
-### 1. Prepare Context
+##### 1. Prepare Context
 Create review session context:
 - Files to review: {{files}}
 - Focus area: {{focus or "comprehensive"}}
 - Timestamp: {{now}}
 
-### 2. Launch Expert Agent
+##### 2. Launch Expert Agent
 ```bash
 claude opus \
   --system-prompt .claude/agents/experts/python-reviewer/system-prompt.md \
@@ -1278,41 +1276,41 @@ claude opus \
   > reviews/python-review-{{timestamp}}.md 2>&1 &
 ```
 
-### 3. Create Tracking
+##### 3. Create Tracking
 Report file: `reviews/python-review-{{timestamp}}.md`
 Session bundle: `.claude/agents/background/review-{{timestamp}}.bundle`
 
-## Report
+#### Report
 Expert agent launched:
 - Type: Python Code Reviewer
 - Files: {{file_count}} files
 - Focus: {{focus}}
 - Report: reviews/python-review-{{timestamp}}.md
 Step 5: Execute Expert Agent
-bash# Launch Python review expert
+bash### Launch Python review expert
 /review-python src/api/*.py security
 
-# Launch multiple experts in parallel
+### Launch multiple experts in parallel
 /review-python src/ performance
 /test-generator src/api/auth.py
 /security-auditor src/
 Expert Agent Orchestration
 Multi-Expert Pipeline Example:
-markdown# Full Code Quality Pipeline
+markdown### Full Code Quality Pipeline
 
-## Stage 1: Security Audit (Blocking)
+#### Stage 1: Security Audit (Blocking)
 /security-auditor src/ → reports/security-audit.md
 If critical issues found → STOP
 Else → Continue to Stage 2
 
-## Stage 2: Parallel Expert Reviews
+#### Stage 2: Parallel Expert Reviews
 Launch simultaneously:
 - /review-python src/ → reviews/python-review.md
 - /test-generator src/ → tests/generated-tests.md  
 - /api-designer src/api/ → docs/api-review.md
 - /performance-analyzer src/ → reports/performance.md
 
-## Stage 3: Documentation Expert
+#### Stage 3: Documentation Expert
 After all reviews complete:
 /doc-generator using:
 - reviews/python-review.md
@@ -1320,7 +1318,7 @@ After all reviews complete:
 - reports/performance.md
 → docs/comprehensive-docs.md
 
-## Stage 4: Integration Report
+#### Stage 4: Integration Report
 Aggregate all expert findings:
 /integration-reporter → reports/final-quality-report.md
 Expert Agent Best Practices
@@ -1494,19 +1492,19 @@ Source: Elite Context Engineering with Claude Code
 License: MIT
 
 Get Started Now:
-bash# 1. Check your current context
+bash### 1. Check your current context
 claude context
 
-# 2. Create your context engineering directory
+### 2. Create your context engineering directory
 mkdir -p .claude/{commands,agents/experts,agents/background,agents/context-bundles}
 
-# 3. Shrink your claude.md
-# (Keep only absolute essentials)
+### 3. Shrink your claude.md
+### (Keep only absolute essentials)
 
-# 4. Create your first prime command
+### 4. Create your first prime command
 touch .claude/commands/prime.md
 
-# 5. Launch your first optimized session
+### 5. Launch your first optimized session
 claude opus --yolo
 /prime
 You now have everything you need to master context engineering. Ship with focused agents. 

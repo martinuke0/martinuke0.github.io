@@ -5,4 +5,5 @@ draft: false
 ---
 
 1. TodoList app - 15 minutes increment tasks
-2. 
+2. Cloudflare openai proxy
+3.
