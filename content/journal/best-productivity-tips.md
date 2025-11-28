@@ -1,5 +1,5 @@
 ---
-title: "28 Nov"
+title: "Productivity"
 date: 2025-11-28T15:32:00+02:00
 draft: false
 ---

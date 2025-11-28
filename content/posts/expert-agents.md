@@ -89,53 +89,59 @@ MCP (Model Context Protocol) servers can consume **24,100+ tokens** (12% of cont
 ###### Step-by-Step Implementation
 
 **Step 1: Audit Current Context Usage**
-````bash
-### Check your current token consumption
+
+```bash
+# Check your current token consumption
 claude context
-````
+```
 
 **Expected Output:**
-````
+
+```
 Context Window: 200,000 tokens
 Used: 24,100 tokens (12.05%)
 Available: 175,900 tokens (87.95%)
 
 MCP Tools: 24,100 tokens
-````
+```
 
 **Step 2: Remove Default MCP Configuration**
-````bash
-### Delete default MCP configuration files
+
+```bash
+# Delete default MCP configuration files
 rm .claude/mcp.json
-### or
+# or
 rm defaultmcp.json
-````
+```
 
 **Result:** Immediate context window cleanup, saving ~20,000+ tokens
 
 **Step 3: Load MCP Servers Explicitly When Needed**
-````bash
-### Fire up specific MCP server configuration
+
+```bash
+# Fire up specific MCP server configuration
 claude-mcp config path/to/firecrawl-4k.json
 
-### For strict configuration (override globals)
+# For strict configuration (override globals)
 claude -d-strict mcp config path/to/specific-config.json
-````
+```
 
 **Step 4: Verify Context Savings**
-````bash
-### Check context after cleanup
+
+```bash
+# Check context after cleanup
 claude context
-````
+```
 
 **Expected Output:**
-````
+
+```
 Context Window: 200,000 tokens
 Used: 6,000 tokens (3%)
 Available: 194,000 tokens (97%)
 
 MCP Tools: 6,000 tokens (firecrawl only)
-````
+```
 
 ###### Best Practices
 
@@ -145,13 +151,14 @@ MCP Tools: 6,000 tokens (firecrawl only)
 - ❌ **Never use default autoload configs** for production workflows
 
 ###### Prompt Template
-````markdown
+
+```markdown
 Load only the [SERVER_NAME] MCP server for this task:
 
 claude-mcp config configs/[SERVER_NAME]-config.json
 
 Task: [DESCRIBE YOUR TASK]
-````
+```
 
 ---
 
@@ -176,13 +183,14 @@ The problem: **Always-on context is not dynamic or controllable.** Engineering w
 ###### Step-by-Step Implementation
 
 **Step 1: Audit Your Current claude.md**
-````bash
-### Check file size
+
+```bash
+# Check file size
 wc -l .claude/claude.md
 
-### Check token consumption
+# Check token consumption
 claude context | grep "claude.md"
-````
+```
 
 **Red Flags:**
 - File exceeds 50 lines
@@ -195,7 +203,8 @@ claude context | grep "claude.md"
 Keep **ONLY** what you're 100% sure you want loaded 100% of the time.
 
 **Example Minimal claude.md (43 lines, 350 tokens):**
-````markdown
+
+```markdown
 ### Universal Project Standards
 
 #### Code Style
@@ -212,14 +221,15 @@ Keep **ONLY** what you're 100% sure you want loaded 100% of the time.
 - Always verify file paths before operations
 - Create backups for destructive changes
 - Report all file modifications
-````
+```
 
 **Step 3: Create Context Priming Commands**
 
 Context priming uses **dedicated reusable prompts** (custom slash commands) to set up task-specific context dynamically.
 
 **Directory Structure:**
-````
+
+```
 .claude/
 ├── claude.md (minimal, universal)
 └── commands/
@@ -227,10 +237,11 @@ Context priming uses **dedicated reusable prompts** (custom slash commands) to s
     ├── prime-bug.md
     ├── prime-feature.md
     └── prime-refactor.md
-````
+```
 
 **Example: `commands/prime.md`**
-````markdown
+
+```markdown
 ### Prime: General Codebase Understanding
 
 #### Purpose
@@ -254,10 +265,11 @@ Provide concise summary of:
 - Key directories and their roles
 - Notable patterns or conventions
 - Current development focus
-````
+```
 
 **Example: `commands/prime-bug.md`**
-````markdown
+
+```markdown
 ### Prime: Bug Investigation
 
 #### Purpose
@@ -285,31 +297,34 @@ Set up context for investigating and fixing reported bugs.
 - Suspected root cause
 - Investigation plan
 - Estimated complexity
-````
+```
 
 **Step 4: Use Context Priming in Practice**
-````bash
-### Start new agent session
+
+```bash
+# Start new agent session
 claude opus --yolo
 
-### Prime for general development
+# Prime for general development
 /prime
 
-### Or prime for specific task
+# Or prime for specific task
 /prime-bug
 
-### Or prime for feature work
+# Or prime for feature work
 /prime-feature
-````
+```
 
 **Step 5: Verify Context Efficiency**
-````bash
-### Check context after priming
+
+```bash
+# Check context after priming
 claude context
-````
+```
 
 **Expected Output:**
-````
+
+```
 Context Window: 200,000 tokens
 Used: 8,500 tokens (4.25%)
 Available: 191,500 tokens (95.75%)
@@ -317,12 +332,13 @@ Available: 191,500 tokens (95.75%)
 claude.md: 350 tokens
 Prime command: 1,200 tokens
 Loaded files: 6,950 tokens
-````
+```
 
 ###### Context Priming Prompt Structure
 
 All prime commands should follow this structure:
-````markdown
+
+```markdown
 ### Prime: [TASK_TYPE]
 
 #### Purpose
@@ -342,7 +358,7 @@ All prime commands should follow this structure:
 
 #### Report
 [What the agent should summarize after priming]
-````
+```
 
 ###### Best Practices
 
@@ -386,15 +402,17 @@ This is a **massive advantage** for the **D (Delegate)** in the R&D framework.
 ###### Token Math Example
 
 **Without Sub-Agents:**
-````
+
+```
 Primary Agent Context:
 - Base context: 5,000 tokens
 - Web scraping task: 40,000 tokens (10 pages × 4,000 tokens)
 - Total: 45,000 tokens in primary agent
-````
+```
 
 **With Sub-Agents:**
-````
+
+```
 Primary Agent Context:
 - Base context: 5,000 tokens
 - Sub-agent definitions: 1,200 tokens
@@ -403,7 +421,7 @@ Primary Agent Context:
 Sub-Agent Contexts (isolated):
 - 10 sub-agents × 4,000 tokens each
 - Total: 40,000 tokens NOT in primary agent
-````
+```
 
 **Savings:** 38,800 tokens freed in primary agent context
 
@@ -414,16 +432,18 @@ Sub-Agent Contexts (isolated):
 **Step 1: Define Sub-Agent System Prompts**
 
 **Directory Structure:**
-````
+
+```
 .claude/
 └── agents/
     ├── doc-scraper.md
     ├── code-reviewer.md
     └── data-processor.md
-````
+```
 
 **Example: `agents/doc-scraper.md`**
-````markdown
+
+```markdown
 ### Doc Scraper Sub-Agent
 
 #### Role
@@ -454,12 +474,13 @@ Include:
 - Retry failed fetches once
 - Report inaccessible pages
 - Skip authentication-required content
-````
+```
 
 **Step 2: Create Delegation Command**
 
 **File: `.claude/commands/load-ai-docs.md`**
-````markdown
+
+```markdown
 ### Load AI Documentation
 
 #### Purpose
@@ -493,24 +514,26 @@ Check all expected output files exist
 - Failed URLs (with reasons)
 - Total tokens consumed by sub-agents
 - Updated documentation list
-````
+```
 
 **Step 3: Execute Sub-Agent Workflow**
-````bash
-### Start primary agent
+
+```bash
+# Start primary agent
 claude opus --yolo
 
-### Load MCP server for web fetching (if needed)
+# Load MCP server for web fetching (if needed)
 claude-mcp config configs/firecrawl-config.json
 
-### Execute delegation command
+# Execute delegation command
 /load-ai-docs
-````
+```
 
 **Step 4: Monitor Sub-Agent Execution**
 
 **Expected Console Output:**
-````
+
+```
 [Primary Agent] Reading ai-docs-urls.txt...
 [Primary Agent] Found 10 URLs to process
 [Primary Agent] Checking existing docs...
@@ -529,28 +552,31 @@ claude-mcp config configs/firecrawl-config.json
 
 [Primary Agent] All sub-agents completed successfully
 [Primary Agent] Total: 10/10 successful, 38,450 tokens (isolated in sub-agents)
-````
+```
 
 **Step 5: Verify Context Savings**
-````bash
-### Check primary agent context
+
+```bash
+# Check primary agent context
 claude context
-````
+```
 
 **Expected Output:**
-````
+
+```
 Context Window: 200,000 tokens
 Used: 9,200 tokens (4.6%)
 Available: 190,800 tokens (95.4%)
 
 Sub-agents spawned: 10
 Sub-agent token usage: 38,450 tokens (NOT in primary context)
-````
+```
 
 ###### Sub-Agent Delegation Patterns
 
 **Pattern 1: Parallel Processing**
-````markdown
+
+```markdown
 #### Workflow
 For each item in {{LIST}}:
 - Spawn sub-agent
@@ -559,20 +585,22 @@ For each item in {{LIST}}:
 
 Wait for all completions
 Aggregate results
-````
+```
 
 **Pattern 2: Sequential Chain**
-````markdown
+
+```markdown
 #### Workflow
 1. Spawn preprocessor sub-agent
 2. Wait for completion
 3. Spawn analyzer sub-agent with preprocessor output
 4. Wait for completion
 5. Spawn reporter sub-agent with analyzer output
-````
+```
 
 **Pattern 3: Conditional Delegation**
-````markdown
+
+```markdown
 #### Workflow
 If {{CONDITION}}:
   - Spawn specialized-sub-agent-A
@@ -580,7 +608,7 @@ Else:
   - Spawn specialized-sub-agent-B
 
 Process results based on which agent ran
-````
+```
 
 ###### Best Practices
 
@@ -611,8 +639,9 @@ Process results based on which agent ran
 ###### Managing Context Flow
 
 **Critical Concept:** The flow of information in multi-agent systems
-````
-[User] 
+
+```
+[User]
   ↓ (prompts)
 [Primary Agent]
   ↓ (spawns & prompts)
@@ -621,7 +650,7 @@ Process results based on which agent ran
 [Primary Agent]
   ↓ (aggregates & responds)
 [User]
-````
+```
 
 **Key Points:**
 - Sub-agents respond to PRIMARY AGENT, not to you
@@ -677,21 +706,23 @@ They provide a **trail of work** that enables subsequent agents to understand wh
 **Step 1: Enable Context Bundle Generation**
 
 Context bundles are typically auto-generated when using Claude Code with proper hooks. Verify they're being created:
-````bash
-### Check for context bundles directory
+
+```bash
+# Check for context bundles directory
 ls -la .claude/agents/context-bundles/
 
-### Expected output:
-### 2025-11-28-01-session-abc123.bundle
-### 2025-11-28-02-session-def456.bundle
-````
+# Expected output:
+# 2025-11-28-01-session-abc123.bundle
+# 2025-11-28-02-session-def456.bundle
+```
 
 **Step 2: Generate a Context Bundle (Manual Process)**
 
 If your setup doesn't auto-generate bundles, create them manually:
 
 **File: `.claude/agents/context-bundles/2025-11-28-01-session-abc123.bundle`**
-````markdown
+
+```markdown
 ### Context Bundle: Feature Development Session
 Session ID: abc123
 Started: 2025-11-28 01:00:00
@@ -732,19 +763,21 @@ Created quick plan:
 - Passwords hashed with bcrypt (good)
 - Need to add JWT support
 - Middleware tightly coupled to old system
-````
+```
 
 **Step 3: Load Context Bundle in New Session**
-````bash
-### Start new agent session
+
+```bash
+# Start new agent session
 claude opus --yolo
 
-### Load previous context bundle
+# Load previous context bundle
 /loadbundle .claude/agents/context-bundles/2025-11-28-01-session-abc123.bundle
-````
+```
 
 **Agent Response:**
-````
+
+```
 [Agent] Loading context bundle: session-abc123
 
 [Agent] Summary of previous session:
@@ -760,16 +793,18 @@ claude opus --yolo
 [Agent] Context restored. Ready to continue authentication system implementation.
 
 What would you like to work on next?
-````
+```
 
 **Step 4: Verify Context Efficiency**
-````bash
-### Check new agent's context
+
+```bash
+# Check new agent's context
 claude context
-````
+```
 
 **Expected Output:**
-````
+
+```
 Context Window: 200,000 tokens
 Used: 4,200 tokens (2.1%)
 Available: 195,800 tokens (97.9%)
@@ -777,14 +812,15 @@ Available: 195,800 tokens (97.9%)
 claude.md: 350 tokens
 Context bundle summary: 850 tokens
 Current session: 3,000 tokens
-````
+```
 
 Compare to reloading everything manually:
-````
+
+```
 Without bundle: 45,000+ tokens
 With bundle: 4,200 tokens
 Savings: 40,800 tokens (90% reduction)
-````
+```
 
 ###### Context Bundle Best Practices
 
@@ -804,7 +840,8 @@ Savings: 40,800 tokens (90% reduction)
 - ❌ Debugging details
 
 **Structure Template:**
-````markdown
+
+```markdown
 ### Context Bundle: [TASK_NAME]
 Session ID: [SESSION_ID]
 Started: [TIMESTAMP]
@@ -837,14 +874,15 @@ Agent: [AGENT_NAME]
 ##### Next Steps
 - [Step 1]
 - [Step 2]
-````
+```
 
 ###### Advanced Context Bundle Patterns
 
 **Pattern 1: Chained Context Bundles**
 
 For multi-day projects, chain bundles together:
-````markdown
+
+```markdown
 ### Context Bundle: Day 3 - Authentication Testing
 Session ID: xyz789
 Previous Bundles:
@@ -859,12 +897,13 @@ From previous sessions:
 
 #### Today's Work
 [Current session operations]
-````
+```
 
 **Pattern 2: Milestone Bundles**
 
 Create comprehensive bundles at project milestones:
-````markdown
+
+```markdown
 ### Context Bundle: Authentication System - Milestone 1 Complete
 Milestone: MVP JWT Authentication
 Sessions Included: 5
@@ -890,7 +929,7 @@ Ready to begin:
 - OAuth2 integration
 - Multi-factor authentication
 - Admin permission system
-````
+```
 
 ---
 
@@ -930,7 +969,8 @@ The simplest way to achieve primary multi-agent delegation is through a **reusab
 **Step 1: Create Background Command**
 
 **File: `.claude/commands/background.md`**
-````markdown
+
+```markdown
 ### Background Agent Launcher
 
 #### Purpose
@@ -974,12 +1014,13 @@ Background Task Launched:
 - Status: Running
 
 Monitor progress: tail -f {{report_file}}
-````
+```
 
 **Step 2: Create Task-Specific Background Prompts**
 
 **File: `.claude/agents/background/quick-plan.md`**
-````markdown
+
+```markdown
 ### Background Task: Quick Plan Generation
 
 #### Purpose
@@ -1017,19 +1058,21 @@ When complete:
 - Complete within 5 minutes
 - Use existing codebase patterns
 - No interactive questions
-````
+```
 
 **Step 3: Execute Background Agent**
-````bash
-### Start primary agent
+
+```bash
+# Start primary agent
 claude opus --yolo
 
-### Launch background planning agent
+# Launch background planning agent
 /background "Generate implementation plan for OAuth2 integration" opus plans/oauth2-plan-progress.md
-````
+```
 
 **Primary Agent Response:**
-````
+
+```
 Background Task Launched ✓
 
 Task: Generate OAuth2 implementation plan
@@ -1043,16 +1086,18 @@ Monitor progress:
 
 Context bundle:
   .claude/agents/background/2025-11-28-02-oauth2-plan.bundle
-````
+```
 
 **Step 4: Monitor Background Agent Progress**
-````bash
-### In another terminal
+
+```bash
+# In another terminal
 tail -f plans/oauth2-plan-progress.md
-````
+```
 
 **Real-time Output:**
-````
+
+```
 [02:15:01] Background planning agent initialized
 [02:15:02] Reading project structure...
 [02:15:08] Analyzing existing authentication system...
@@ -1064,25 +1109,27 @@ tail -f plans/oauth2-plan-progress.md
 Task Status: ✓ COMPLETE
 Duration: 1m 54s
 Output: plans/oauth2-implementation-plan.md
-````
+```
 
 **Step 5: Integrate Results**
 
 Once background task completes:
-````bash
-### Primary agent continues
+
+```bash
+# Primary agent continues
 /read plans/oauth2-implementation-plan.md
 
-### Or kick off implementation with new background agent
+# Or kick off implementation with new background agent
 /background "Implement OAuth2 following plans/oauth2-implementation-plan.md" opus implementation-progress.md
-````
+```
 
 ###### Advanced Background Patterns
 
 **Pattern 1: Agent Chains**
 
 Launch sequential background agents where each uses the previous output:
-````markdown
+
+```markdown
 #### Multi-Stage Background Pipeline
 
 ##### Stage 1: Research
@@ -1093,30 +1140,32 @@ Launch sequential background agents where each uses the previous output:
 
 ##### Stage 3: Implementation (after Stage 2 completes)
 /background "Implement OAuth2 following plans/oauth2-plan.md" opus implementation/oauth2-progress.md
-````
+```
 
 **Pattern 2: Parallel Background Agents**
 
 Launch multiple independent agents simultaneously:
-````markdown
+
+```markdown
 #### Parallel Background Tasks
 
-### Start all at once
+# Start all at once
 /background "Write unit tests for auth module" sonnet tests/auth-test-progress.md
 /background "Update API documentation" sonnet docs/api-docs-progress.md
 /background "Refactor error handling" opus refactor/error-handling-progress.md
 /background "Performance optimization analysis" opus analysis/perf-analysis.md
 
-### All run in parallel, report independently
-````
+# All run in parallel, report independently
+```
 
 **Pattern 3: Scheduled Background Monitoring**
 
 Set up recurring background agents:
-````bash
-### Cron job or scheduled task
+
+```bash
+# Cron job or scheduled task
 0 */6 * * * claude opus --yolo --one-shot "Scan codebase for security vulnerabilities and update reports/security-scan.md" >> logs/security-scan.log 2>&1
-````
+```
 
 ##### 4.3 Agent Experts Pattern
 
@@ -1136,20 +1185,23 @@ Set up recurring background agents:
 > As context windows grow, performance decreases. Therefore, many small specialized agents outperform one large general agent.
 
 ###### Building Agent Experts
-**Step 1:
-Identify Expert Domains**
+
+**Step 1: Identify Expert Domains**
+
 Look for repeating tasks in your workflow:
 
-Code review (by language or framework)
-Test generation
-Documentation writing
-Bug analysis
-Performance optimization
-Security auditing
-API design
-Database optimization
+- Code review (by language or framework)
+- Test generation
+- Documentation writing
+- Bug analysis
+- Performance optimization
+- Security auditing
+- API design
+- Database optimization
 
-Step 2: Create Expert Directory Structure
+**Step 2: Create Expert Directory Structure**
+
+```
 .claude/
 └── agents/
     └── experts/
@@ -1169,9 +1221,14 @@ Step 2: Create Expert Directory Structure
             ├── system-prompt.md
             ├── vulnerability-checklist.md
             └── remediation-guides/
-Step 3: Define Expert System Prompts
-Example: agents/experts/python-reviewer/system-prompt.md
-markdown### Expert: Python Code Reviewer
+```
+
+**Step 3: Define Expert System Prompts**
+
+**Example: `agents/experts/python-reviewer/system-prompt.md`**
+
+```markdown
+### Expert: Python Code Reviewer
 
 #### Identity
 You are an expert Python code reviewer specializing in:
@@ -1248,9 +1305,14 @@ You are an expert Python code reviewer specializing in:
 - Reference checklist.md for standards
 - Provide code examples for fixes
 - Prioritize critical security issues
-Step 4: Create Expert Launch Commands
-File: .claude/commands/review-python.md
-markdown### Launch Python Review Expert
+```
+
+**Step 4: Create Expert Launch Commands**
+
+**File: `.claude/commands/review-python.md`**
+
+```markdown
+### Launch Python Review Expert
 
 #### Purpose
 Spawn specialized Python code review expert agent for comprehensive code analysis.
@@ -1286,17 +1348,26 @@ Expert agent launched:
 - Files: {{file_count}} files
 - Focus: {{focus}}
 - Report: reviews/python-review-{{timestamp}}.md
-Step 5: Execute Expert Agent
-bash### Launch Python review expert
+```
+
+**Step 5: Execute Expert Agent**
+
+```bash
+# Launch Python review expert
 /review-python src/api/*.py security
 
-### Launch multiple experts in parallel
+# Launch multiple experts in parallel
 /review-python src/ performance
 /test-generator src/api/auth.py
 /security-auditor src/
-Expert Agent Orchestration
-Multi-Expert Pipeline Example:
-markdown### Full Code Quality Pipeline
+```
+
+###### Expert Agent Orchestration
+
+**Multi-Expert Pipeline Example:**
+
+```markdown
+### Full Code Quality Pipeline
 
 #### Stage 1: Security Audit (Blocking)
 /security-auditor src/ → reports/security-audit.md
@@ -1321,190 +1392,185 @@ After all reviews complete:
 #### Stage 4: Integration Report
 Aggregate all expert findings:
 /integration-reporter → reports/final-quality-report.md
-Expert Agent Best Practices
-Design Principles:
+```
 
-✅ One responsibility per expert (single purpose)
-✅ Deep domain knowledge in system prompt
-✅ Consistent output formats (parseable)
-✅ Clear success criteria (when is review "complete"?)
-✅ Composable with other experts (standard interfaces)
-✅ Fast execution (focused scope)
+###### Expert Agent Best Practices
 
-Anti-Patterns:
+**Design Principles:**
 
-❌ Generic "reviewer" experts (too broad)
-❌ Experts that need follow-up prompts (should be one-shot)
-❌ Overlapping expert domains (creates confusion)
-❌ Experts without checklists (inconsistent quality)
+- ✅ One responsibility per expert (single purpose)
+- ✅ Deep domain knowledge in system prompt
+- ✅ Consistent output formats (parseable)
+- ✅ Clear success criteria (when is review "complete"?)
+- ✅ Composable with other experts (standard interfaces)
+- ✅ Fast execution (focused scope)
 
+**Anti-Patterns:**
 
-Resources & Next Steps
-Key Takeaways
+- ❌ Generic "reviewer" experts (too broad)
+- ❌ Experts that need follow-up prompts (should be one-shot)
+- ❌ Overlapping expert domains (creates confusion)
+- ❌ Experts without checklists (inconsistent quality)
 
-Master the R&D Framework
+---
 
-Reduce: Keep primary agent context lean
-Delegate: Offload work to sub-agents and background agents
+## Resources & Next Steps
 
+### Key Takeaways
 
-Progress Through Levels
+**Master the R&D Framework:**
+- **Reduce**: Keep primary agent context lean
+- **Delegate**: Offload work to sub-agents and background agents
 
-Level 1 (Beginner): Clean up MCP servers, use context priming
-Level 2 (Intermediate): Implement sub-agent delegation
-Level 3 (Advanced): Use context bundles for session recovery
-Level 4 (Agentic): Build multi-agent orchestration systems
+**Progress Through Levels:**
+- Level 1 (Beginner): Clean up MCP servers, use context priming
+- Level 2 (Intermediate): Implement sub-agent delegation
+- Level 3 (Advanced): Use context bundles for session recovery
+- Level 4 (Agentic): Build multi-agent orchestration systems
 
+**Performance Principle:**
+- Agent performance degrades as context grows
+- Better agents → More focused agents → Specialized expert agents
 
-Performance Principle
+**Scale Strategy:**
+- Start with single agent optimization
+- Add sub-agents for parallel work
+- Build background agent workflows
+- Create expert agent libraries
 
-Agent performance degrades as context grows
-Better agents → More focused agents → Specialized expert agents
+---
 
+### Further Reading & Links
 
-Scale Strategy
+**Official Documentation:**
+- Anthropic Claude API Documentation
+- Claude Prompt Engineering Guide
+- Model Context Protocol (MCP) Specification
 
-Start with single agent optimization
-Add sub-agents for parallel work
-Build background agent workflows
-Create expert agent libraries
+**Related Tutorials:**
+- **Agentic Prompt Engineering (Extended Lesson)**
+  - Purpose, Variables, Workflow, Report Format
+  - Prompt chaining patterns
+  - Multi-step reasoning workflows
 
+- **Claude Code Advanced Workflows (TAC Course)**
+  - In-loop vs. out-loop patterns
+  - Zero-touch execution (ZTE)
+  - Multi-agent orchestration UIs
 
+**Community Resources:**
+- Claude Code GitHub
+- MCP Servers Directory
+- Agent Engineering Patterns
 
-Further Reading & Links
-Official Documentation
+---
 
-Anthropic Claude API Documentation
-Claude Prompt Engineering Guide
-Model Context Protocol (MCP) Specification
+### Implementation Checklist
 
-Related Tutorials
+**Week 1: Foundation**
+- ☐ Audit current context usage (`claude context`)
+- ☐ Remove default MCP configurations
+- ☐ Shrink `claude.md` to essentials (<50 lines)
+- ☐ Create first context priming command
+- ☐ Measure baseline token savings
 
-Agentic Prompt Engineering (Extended Lesson)
+**Week 2: Intermediate**
+- ☐ Define first sub-agent system prompt
+- ☐ Create sub-agent delegation command
+- ☐ Test parallel sub-agent execution
+- ☐ Monitor sub-agent token isolation
+- ☐ Document sub-agent patterns
 
-Purpose, Variables, Workflow, Report Format
-Prompt chaining patterns
-Multi-step reasoning workflows
+**Week 3: Advanced**
+- ☐ Enable context bundle generation
+- ☐ Test session recovery workflow
+- ☐ Create milestone bundle
+- ☐ Chain context bundles across days
 
+**Week 4: Agentic**
+- ☐ Create background agent launcher
+- ☐ Build first expert agent
+- ☐ Test parallel background agents
+- ☐ Create expert orchestration pipeline
+- ☐ Measure end-to-end performance
 
-Claude Code Advanced Workflows (TAC Course)
+---
 
-In-loop vs. out-loop patterns
-Zero-touch execution (ZTE)
-Multi-agent orchestration UIs
+### Next Steps
 
+**Start with One Technique:**
+- Pick the technique with highest immediate impact for your workflow
+- Implement fully before moving to next technique
+- Measure improvement (tokens saved, time saved, error reduction)
 
+**Build Your Context Engineering Library:**
+- Create `.claude/` directory structure
+- Document your patterns
+- Share with your team
 
-Community Resources
+**Measure and Iterate:**
+- Track context usage over time
+- Identify bottlenecks
+- Optimize high-frequency workflows first
 
-Claude Code GitHub
-MCP Servers Directory
-Agent Engineering Patterns
+**Scale Gradually:**
+- Master single agent → sub-agents → background agents → expert agents
+- Don't skip levels
+- Build confidence at each stage
 
-Implementation Checklist
-Week 1: Foundation
+---
 
- Audit current context usage (claude context)
- Remove default MCP configurations
- Shrink claude.md to essentials (<50 lines)
- Create first context priming command
- Measure baseline token savings
+### Questions to Guide Your Journey
 
-Week 2: Intermediate
+- Are you wasting tokens on unused MCP servers?
+- Is your `claude.md` growing out of control?
+- Could sub-agents handle your parallel processing tasks?
+- Do you need context bundles for long-running projects?
+- Would expert agents improve your code quality pipeline?
 
- Define first sub-agent system prompt
- Create sub-agent delegation command
- Test parallel sub-agent execution
- Monitor sub-agent token isolation
- Document sub-agent patterns
+---
 
-Week 3: Advanced
+## Final Thoughts
 
- Enable context bundle generation
- Test session recovery workflow
- Create milestone bundle
- Chain context bundles across days
-
-Week 4: Agentic
-
- Create background agent launcher
- Build first expert agent
- Test parallel background agents
- Create expert orchestration pipeline
- Measure end-to-end performance
-
-Next Steps
-
-Start with One Technique
-
-Pick the technique with highest immediate impact for your workflow
-Implement fully before moving to next technique
-Measure improvement (tokens saved, time saved, error reduction)
-
-
-Build Your Context Engineering Library
-
-Create .claude/ directory structure
-Document your patterns
-Share with your team
-
-
-Measure and Iterate
-
-Track context usage over time
-Identify bottlenecks
-Optimize high-frequency workflows first
-
-
-Scale Gradually
-
-Master single agent → sub-agents → background agents → expert agents
-Don't skip levels
-Build confidence at each stage
-
-
-
-Questions to Guide Your Journey
-
-Are you wasting tokens on unused MCP servers?
-Is your claude.md growing out of control?
-Could sub-agents handle your parallel processing tasks?
-Do you need context bundles for long-running projects?
-Would expert agents improve your code quality pipeline?
-
-Final Thoughts
-
-"Context engineering is the name of the game for high-value engineering in the age of agents."
+> "Context engineering is the name of the game for high-value engineering in the age of agents."
 
 Investing in context engineering is a safe bet because:
+- Performance decreases as context windows grow (fundamental limitation)
+- Tokens are expensive (cost optimization)
+- Focus improves quality (fewer errors)
+- Specialization enables scale (orchestrate more agents)
 
-Performance decreases as context windows grow (fundamental limitation)
-Tokens are expensive (cost optimization)
-Focus improves quality (fewer errors)
-Specialization enables scale (orchestrate more agents)
+**A focused agent is a performant agent.**
 
-A focused agent is a performant agent.
 The limits of what an engineer can do with well-orchestrated agents are unknown. Ignore the pessimists. Investigate the optimists. Build, ship, and scale with elite context engineering.
 
-Tutorial Version: 1.0
-Last Updated: 2025-11-28
-Source: Elite Context Engineering with Claude Code
-License: MIT
+---
 
-Get Started Now:
-bash### 1. Check your current context
+**Tutorial Version:** 1.0
+**Last Updated:** 2025-11-28
+**Source:** Elite Context Engineering with Claude Code
+**License:** MIT
+
+---
+
+## Get Started Now
+
+```bash
+# 1. Check your current context
 claude context
 
-### 2. Create your context engineering directory
+# 2. Create your context engineering directory
 mkdir -p .claude/{commands,agents/experts,agents/background,agents/context-bundles}
 
-### 3. Shrink your claude.md
-### (Keep only absolute essentials)
+# 3. Shrink your claude.md
+# (Keep only absolute essentials)
 
-### 4. Create your first prime command
+# 4. Create your first prime command
 touch .claude/commands/prime.md
 
-### 5. Launch your first optimized session
+# 5. Launch your first optimized session
 claude opus --yolo
 /prime
+```
+
 You now have everything you need to master context engineering. Ship with focused agents. 

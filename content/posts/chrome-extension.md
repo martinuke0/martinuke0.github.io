@@ -1,11 +1,9 @@
 ---
 title: "The Complete Guide to Building Chrome Extensions: From Beginner to Hero"
-date: 2025-11-28T01:07:00+02:00
+date: 2025-11-28T16:07:00+02:00
 draft: false
 tags: ["chrome-extension", "browser", "web-development", "javascript", "manifest-v3"]
 ---
-
-## 🚀 The Complete Guide to Building Chrome Extensions: From Beginner to Hero
 
 Chrome extensions allow you to deeply customize and enhance your browsing experience. Whether you want to modify webpages, create productivity tools, automate tasks, or publish to the Chrome Web Store, extensions provide a powerful yet beginner-friendly platform.
 
@@ -26,16 +24,16 @@ Every Chrome extension is built from the following core components:
 
 A typical extension structure looks like this:
 
+```
 my-extension/
 │
 ├── manifest.json
 ├── background.js
 ├── content.js
 └── popup/
-├── popup.html
-└── popup.js
-
-yaml
+    ├── popup.html
+    └── popup.js
+```
 
 
 ---
@@ -44,21 +42,20 @@ yaml
 
 Create a folder called:
 
+```
 my-chrome-extension/
-
-sql
-
+```
 
 Inside it, add the following initial files:
 
+```
 manifest.json
 background.js
 content.js
 popup/
 ├── popup.html
 └── popup.js
-
-pgsql
+```
 
 
 ---
@@ -92,28 +89,42 @@ Create `manifest.json`:
     }
   ]
 }
-🧠 Step 3: Create a Background Script
-background.js runs behind the scenes.
+```
+
+---
+
+## 🧠 Step 3: Create a Background Script
+
+`background.js` runs behind the scenes.
+
 Add something simple:
 
-js
-
+```js
 chrome.runtime.onInstalled.addListener(() => {
   console.log("Extension installed!");
 });
-📝 Step 4: Write a Content Script
-content.js runs inside webpages you specify.
+```
 
-js
+---
 
+## 📝 Step 4: Write a Content Script
+
+`content.js` runs inside webpages you specify.
+
+```js
 console.log("Content script loaded on:", window.location.href);
 
 // Example DOM manipulation
 document.body.style.border = "5px solid red";
-🎨 Step 5: Create the Popup UI
-popup.html
-html
+```
 
+---
+
+## 🎨 Step 5: Create the Popup UI
+
+**popup.html**
+
+```html
 <!DOCTYPE html>
 <html>
   <head>
@@ -127,72 +138,88 @@ html
     <script src="popup.js"></script>
   </body>
 </html>
-popup.js
-js
+```
 
+**popup.js**
+
+```js
 document.getElementById("btn").addEventListener("click", () => {
   alert("Button clicked from the popup!");
 });
-🧪 Step 6: Load the Extension in Chrome
-Open chrome://extensions/
+```
 
-Enable Developer mode (top-right toggle)
+---
 
-Click Load unpacked
+## 🧪 Step 6: Load the Extension in Chrome
 
-Select your my-chrome-extension/ folder
+1. Open `chrome://extensions/`
+2. Enable **Developer mode** (top-right toggle)
+3. Click **Load unpacked**
+4. Select your `my-chrome-extension/` folder
 
 Your extension is now active!
 
 You should see:
 
-The extension icon (with popup)
+- The extension icon (with popup)
+- Console logs in DevTools
+- Borders injected into webpages via `content.js`
 
-Console logs in DevTools
+---
 
-Borders injected into webpages via content.js
+## 🛠️ Step 7: Add Messaging (Optional but Powerful)
 
-🛠️ Step 7: Add Messaging (Optional but Powerful)
 Extensions often need communication between popup → background → content scripts.
 
 Example of popup → background:
 
-popup.js
-js
+**popup.js**
 
+```js
 chrome.runtime.sendMessage({ action: "ping" });
-background.js
-js
+```
 
+**background.js**
+
+```js
 chrome.runtime.onMessage.addListener((msg, sender, sendResponse) => {
   if (msg.action === "ping") {
     console.log("Popup says hello!");
   }
 });
-📦 Step 8: Package Your Extension
+```
+
+---
+
+## 📦 Step 8: Package Your Extension
+
 When ready to publish:
 
-Go to chrome://extensions/
+1. Go to `chrome://extensions/`
+2. Click **Pack extension**
+3. Upload `.zip` to the Chrome Web Store Developer Dashboard
 
-Click Pack extension
+---
 
-Upload .zip to the Chrome Web Store Developer Dashboard
+## 📚 Recommended Learning Resources
 
-📚 Recommended Learning Resources
-Official Chrome Extensions Docs
-https://developer.chrome.com/docs/extensions/
+- **Official Chrome Extensions Docs**
+  https://developer.chrome.com/docs/extensions/
 
-Manifest V3 Guide
-https://developer.chrome.com/docs/extensions/mv3/intro/
+- **Manifest V3 Guide**
+  https://developer.chrome.com/docs/extensions/mv3/intro/
 
-Chrome APIs Reference
-https://developer.chrome.com/docs/extensions/reference/
+- **Chrome APIs Reference**
+  https://developer.chrome.com/docs/extensions/reference/
 
-Chrome Web Store Publishing Guide
-https://developer.chrome.com/docs/webstore/publish/
+- **Chrome Web Store Publishing Guide**
+  https://developer.chrome.com/docs/webstore/publish/
 
-Open-source example extensions
-https://github.com/GoogleChrome/chrome-extensions-samples
+- **Open-source example extensions**
+  https://github.com/GoogleChrome/chrome-extensions-samples
+
+---
 
 Happy building! 🚀
+
 This foundation is enough to build a wide range of powerful Chrome extensions—from simple UI tools to advanced automation and user-script systems.
