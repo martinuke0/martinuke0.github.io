@@ -15,3 +15,5 @@ You're giving everything you've got today to be perfect, but tomorrow is another
 
 ---
 
+You give your children broccoli because you don't want to be nice to them today, you want to be nice 
+to their future self. Also be nice to your future self, do something your future self would thank you
