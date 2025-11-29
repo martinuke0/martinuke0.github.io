@@ -5,8 +5,6 @@ draft: false
 tags: ["cloudflare-workers", "openai", "api", "javascript", "web-development", "proxy"]
 ---
 
-# The Complete Guide to Building a Cloudflare Workers OpenAI Proxy: From Beginner to Hero
-
 Using OpenAI APIs in frontend code is risky — exposing your API key is a security hazard.  
 The solution is a **Cloudflare Worker** that acts as a secure proxy. Your frontend calls the worker; the worker calls OpenAI with your key. The key stays secret.
 

@@ -5,8 +5,6 @@ draft: false
 tags: ["websockets", "socket.io", "real-time", "networking", "web-development"]
 ---
 
-# The Complete Guide to WebSockets and Socket.IO: From Beginner to Hero
-
 ## Table of Contents
 1. [Introduction: Why Real-Time Communication Matters](#introduction)
 2. [Understanding HTTP First (The Foundation)](#understanding-http)
