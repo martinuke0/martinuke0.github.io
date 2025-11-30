@@ -11,7 +11,7 @@ This guide takes you from the fundamentals to a fully functioning extension, usi
 
 ---
 
-## 🧠 Understanding the Chrome Extension Architecture
+## Understanding the Chrome Extension Architecture
 
 Every Chrome extension is built from the following core components:
 
@@ -38,7 +38,7 @@ my-extension/
 
 ---
 
-## 📁 Step 1: Create the Project Folder
+## Step 1: Create the Project Folder
 
 Create a folder called:
 
@@ -60,7 +60,7 @@ popup/
 
 ---
 
-## 🧩 Step 2: Write `manifest.json`
+## Step 2: Write `manifest.json`
 
 This file tells Chrome what your extension is, what it does, and what permissions it needs.
 
@@ -93,7 +93,7 @@ Create `manifest.json`:
 
 ---
 
-## 🧠 Step 3: Create a Background Script
+## Step 3: Create a Background Script
 
 `background.js` runs behind the scenes.
 
@@ -107,7 +107,7 @@ chrome.runtime.onInstalled.addListener(() => {
 
 ---
 
-## 📝 Step 4: Write a Content Script
+## Step 4: Write a Content Script
 
 `content.js` runs inside webpages you specify.
 
@@ -120,7 +120,7 @@ document.body.style.border = "5px solid red";
 
 ---
 
-## 🎨 Step 5: Create the Popup UI
+## Step 5: Create the Popup UI
 
 **popup.html**
 
@@ -150,7 +150,7 @@ document.getElementById("btn").addEventListener("click", () => {
 
 ---
 
-## 🧪 Step 6: Load the Extension in Chrome
+## Step 6: Load the Extension in Chrome
 
 1. Open `chrome://extensions/`
 2. Enable **Developer mode** (top-right toggle)
@@ -167,7 +167,7 @@ You should see:
 
 ---
 
-## 🛠️ Step 7: Add Messaging (Optional but Powerful)
+## Step 7: Add Messaging (Optional but Powerful)
 
 Extensions often need communication between popup → background → content scripts.
 
@@ -191,7 +191,7 @@ chrome.runtime.onMessage.addListener((msg, sender, sendResponse) => {
 
 ---
 
-## 📦 Step 8: Package Your Extension
+## Step 8: Package Your Extension
 
 When ready to publish:
 
@@ -201,7 +201,7 @@ When ready to publish:
 
 ---
 
-## 📚 Recommended Learning Resources
+## Recommended Learning Resources
 
 - **Official Chrome Extensions Docs**
   https://developer.chrome.com/docs/extensions/

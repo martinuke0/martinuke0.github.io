@@ -5,8 +5,6 @@ draft: false
 tags: ["cloudflare", "saas", "workers", "serverless", "web-development", "tutorial"]
 ---
 
-## Introduction: Why Cloudflare for SaaS?
-
 Imagine you're building a house. You could buy land, lay the foundation, install plumbing, wire electricity, build walls, and so on. **Or** you could move into a fully-equipped building where infrastructure is already handled, and you just focus on decorating and living.
 
 Cloudflare is that fully-equipped building for the internet. It's a platform that handles the hard infrastructure problems (speed, security, scaling) so you can focus on building your SaaS product.

@@ -46,10 +46,10 @@ HTTP (HyperText Transfer Protocol) is like a waiter at a restaurant:
 
 1. **You (Client)**: "Can I have a menu?" *(Request)*
 2. **Waiter (Server)**: "Here's the menu" *(Response)*
-3. **Connection closes** 🚪
+3. **Connection closes**
 4. **You**: "Can I order a burger?" *(New Request)*
 5. **Waiter**: "One burger coming up" *(Response)*
-6. **Connection closes** 🚪
+6. **Connection closes**
 
 Every interaction requires a new request. The waiter never comes to your table unless you call them.
 
@@ -65,10 +65,13 @@ setInterval(() => {
     .then(response => response.json())
     .then(data => updateScore(data));
 }, 1000);
+
+// ❌ Wastes bandwidth (99% of requests return "no change")
+// ❌ High server load
+// ❌ Not truly real-time (delay between updates)
+
 ```
-❌ Wastes bandwidth (99% of requests return "no change")
-❌ High server load
-❌ Not truly real-time (delay between updates)
+
 
 **2. Long Polling (The Patient Waiter)**
 ```javascript
@@ -80,11 +83,12 @@ function getUpdate() {
       getUpdate(); // Immediately ask again
     });
 }
+
+// Better, but still:
+// ❌ Complex server implementation
+// ❌ HTTP overhead on every request
+// ❌ Not bi-directional (server can't initiate)
 ```
-Better, but still:
-❌ Complex server implementation
-❌ HTTP overhead on every request
-❌ Not bi-directional (server can't initiate)
 
 **3. Server-Sent Events (One-Way Street)**
 ```javascript
@@ -92,10 +96,11 @@ const eventSource = new EventSource('/api/stream');
 eventSource.onmessage = (event) => {
   updateScore(JSON.parse(event.data));
 };
+
+// ✅ Server can push updates
+// ❌ Only one direction (server → client)
+// ❌ HTTP-based (still has overhead)
 ```
-✅ Server can push updates
-❌ Only one direction (server → client)
-❌ HTTP-based (still has overhead)
 
 ---
 
@@ -113,7 +118,7 @@ Think of WebSocket as installing a **telephone line** between your browser and t
 
 **Step 1: Knock on the door (Upgrade request)**
 ```
-Client: "Hey server! 🙋 Can we upgrade from HTTP to WebSocket?"
+Client: "Hey server! Can we upgrade from HTTP to WebSocket?"
 GET /chat HTTP/1.1
 Host: example.com
 Upgrade: websocket
@@ -124,14 +129,14 @@ Sec-WebSocket-Version: 13
 
 **Step 2: Server agrees**
 ```
-Server: "Sure! Let's switch! 🤝"
+Server: "Sure! Let's switch!"
 HTTP/1.1 101 Switching Protocols
 Upgrade: websocket
 Connection: Upgrade
 Sec-WebSocket-Accept: HSmrc0sMlYUkAGmm5OPpG2HaGWk=
 ```
 
-**Step 3: Connection established** 🎉
+**Step 3: Connection established** 
 Now they have a persistent, full-duplex connection (like a phone call where both can talk).
 
 ### Basic WebSocket API
@@ -143,7 +148,7 @@ const socket = new WebSocket('ws://localhost:8080');
 
 // Connection opened
 socket.addEventListener('open', (event) => {
-  console.log('Connected! 🎉');
+  console.log('Connected!');
   socket.send('Hello Server!');
 });
 
@@ -159,7 +164,7 @@ socket.addEventListener('error', (error) => {
 
 // Connection closed
 socket.addEventListener('close', (event) => {
-  console.log('Disconnected 👋');
+  console.log('Disconnected');
 });
 
 // Send messages anytime
@@ -176,7 +181,7 @@ const WebSocket = require('ws');
 const wss = new WebSocket.Server({ port: 8080 });
 
 wss.on('connection', (ws) => {
-  console.log('New client connected! 👋');
+  console.log('New client connected!');
 
   // Listen for messages from this client
   ws.on('message', (message) => {
@@ -188,7 +193,7 @@ wss.on('connection', (ws) => {
 
   // Client disconnected
   ws.on('close', () => {
-    console.log('Client disconnected 😢');
+    console.log('Client disconnected');
   });
 
   // Send a welcome message
@@ -278,20 +283,7 @@ http.listen(3000, () => {
 ```
 
 **Client (Browser)**
-```html
-
-
-
-  Chat App
-
-
-  
-  
-  Send
-
-  
-  
-  
+```javascript
     const socket = io();
 
     // Send message
@@ -317,8 +309,6 @@ http.listen(3000, () => {
       console.log('Disconnected');
     });
   
-
-
 ```
 
 ### Key Socket.IO Concepts
@@ -553,32 +543,32 @@ http.listen(PORT, () => {
 
 **public/index.html**
 ```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Collaborative Drawing</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Collaborative Drawing</h1>
+      <div class="info">
+        <span id="user-count">Users: 1</span>
+        <span>Your color: <span class="color-box" id="your-color"></span></span>
+        <button id="clear-btn">Clear Canvas</button>
+      </div>
+    </div>
+    <canvas id="canvas"></canvas>
+    <div id="status" class="status">Connecting...</div>
+  </div>
 
-
-
-  
-  
-  Collaborative Drawing
-  
-
-
-  
-    
-      🎨 Collaborative Drawing
-      
-        Users: 1
-        Your color: 
-        Clear Canvas
-      
-    
-    
-    Connecting...
-  
-
-  
-  
-
-
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
 ```
 
 **public/style.css**
@@ -831,7 +821,7 @@ npm install
 node server.js
 ```
 
-Open `http://localhost:3000` in multiple browser windows and draw! 🎨
+Open `http://localhost:3000` in multiple browser windows and draw!
 
 ---
 
@@ -1351,4 +1341,4 @@ socket.on('connect_error', (err) => {});
 
 ## Conclusion
 
-Congratulations! 🎉 You've journeyed from HTTP basics to building production-ready real-time applications. WebSockets and Socket.IO open up a world of interactive possibilities - from chat apps to multiplayer games to collaborative tools. Now go build something amazing!
+Congratulations! You've journeyed from HTTP basics to building production-ready real-time applications. WebSockets and Socket.IO open up a world of interactive possibilities - from chat apps to multiplayer games to collaborative tools. Now go build something amazing!

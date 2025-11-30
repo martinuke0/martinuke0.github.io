@@ -132,7 +132,7 @@ menu:
       name: Useful Links
       url: /useful-links/
       weight: 5
-    - identifier: donate
-      name: Donate
-      url: /donate/
+    - identifier: support
+      name: Support
+      url: /support/
       weight: 6

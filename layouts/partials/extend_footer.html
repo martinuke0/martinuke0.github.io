@@ -1,3 +1,69 @@
 <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
     data-id="martiniuc" data-description="Support me on Buy me a coffee!" data-message="" data-color="#5F7FFF"
     data-position="Right" data-x_margin="18" data-y_margin="18"></script>
+
+<!-- Feedback Button -->
+<a href="https://forms.gle/7GmvvjW6juLP6ith7" target="_blank" id="feedback-button" aria-label="Give Feedback">
+    <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+        <path d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-7 12h-2v-2h2v2zm0-4h-2V6h2v4z"/>
+    </svg>
+    <span>Feedback</span>
+</a>
+
+<!-- Go Down Button -->
+<a href="#bottom" aria-label="go to bottom" title="Go to Bottom" class="top-link" id="bottom-link">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M0 0h12L6 6z" />
+    </svg>
+</a>
+
+<span id="bottom"></span>
+
+<style>
+#feedback-button {
+    position: fixed;
+    left: 18px;
+    bottom: 18px;
+    background-color: #5F7FFF;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+    z-index: 9999;
+}
+
+#feedback-button:hover {
+    background-color: #4d6ae6;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
+
+#feedback-button svg {
+    width: 20px;
+    height: 20px;
+}
+
+/* Position go to top button on left side above feedback */
+#top-link {
+    left: 18px !important;
+    right: auto !important;
+    bottom: 145px !important;
+}
+
+/* Position go down button on left side */
+#bottom-link {
+    left: 18px !important;
+    right: auto !important;
+    bottom: 85px !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+</style>

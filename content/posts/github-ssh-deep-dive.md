@@ -5,8 +5,6 @@ draft: false
 tags: ["git", "github", "ssh", "security", "advanced", "beginners", "cryptography"]
 ---
 
-## Quick Start: SSH for GitHub in 5 Minutes
-
 ### What is SSH in Simple Terms?
 Think of SSH keys like a **secure key and lock system** for your computer to talk to GitHub:
 - **Private Key** = Your actual house key (keep it secret!)

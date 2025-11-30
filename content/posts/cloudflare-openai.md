@@ -12,7 +12,7 @@ This guide is **beginner-friendly**, ELI5 style, and gradually moves to advanced
 
 ---
 
-## 🧒 Beginner: Why You Need a Proxy
+## Beginner: Why You Need a Proxy
 
 Imagine you have a magic key that unlocks a powerful AI genie.  
 If you give that key to everyone, anyone can spend your genie’s wishes. That’s what happens if you put your API key in frontend code.  
@@ -21,7 +21,7 @@ Solution: Keep the key in a secret backend (Cloudflare Worker). Your app only ta
 
 ---
 
-## 🏗 Setting Up a Cloudflare Worker
+## Setting Up a Cloudflare Worker
 
 ### Step 1: Sign Up and Install Wrangler
 
@@ -47,7 +47,7 @@ cd openai-proxy
 
 ---
 
-## 💻 Beginner: Basic Worker Proxy
+## Beginner: Basic Worker Proxy
 
 ### Creating Your First Proxy
 
@@ -80,7 +80,7 @@ export default {
 
 ---
 
-## 🔒 Adding Secrets
+## Adding Secrets
 
 Set your OpenAI key securely:
 
@@ -92,7 +92,7 @@ Type your API key when prompted. Now, your Worker can access it securely as `env
 
 ---
 
-## 🚀 Deploying Your Worker
+## Deploying Your Worker
 
 Deploy your Worker:
 
@@ -110,7 +110,7 @@ Your frontend can now call this URL instead of OpenAI directly.
 
 ---
 
-## 🧠 Intermediate: Using Chat Completions
+## Intermediate: Using Chat Completions
 
 ### Making Requests from Your Frontend
 
@@ -174,7 +174,7 @@ export default {
 
 ---
 
-## ⚡ Advanced: Streaming Responses
+## Advanced: Streaming Responses
 
 For real-time streaming (like ChatGPT):
 
@@ -256,7 +256,7 @@ while (true) {
 
 ---
 
-## ⚙️ Pro: Rate Limiting & Security
+## Pro: Rate Limiting & Security
 
 ### Rate Limiting with Cloudflare KV
 
@@ -400,7 +400,7 @@ export default {
 
 ---
 
-## 🔧 Complete Production-Ready Example
+## Complete Production-Ready Example
 
 Here's a full-featured Worker with all the bells and whistles:
 
@@ -523,7 +523,7 @@ export default {
 
 ---
 
-## 📚 Resources
+## Resources
 
 ### Official Documentation
 
@@ -545,7 +545,7 @@ export default {
 
 ---
 
-## 🎉 Conclusion
+## Conclusion
 
 You now have a production-ready OpenAI proxy with:
 - ✅ Secure API key management

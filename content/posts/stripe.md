@@ -144,18 +144,7 @@ Let's build a simple checkout flow. This is the foundation for everything else.
 ### Example: Simple Product Purchase
 
 #### Frontend (HTML + Vanilla JS)
-```html
-
-
-
-  Buy Coffee Mug - $25
-  
-
-
-  Premium Coffee Mug - $25
-  Buy Now
-
-  
+```
     // Initialize Stripe with your publishable key
     const stripe = Stripe('pk_test_YOUR_PUBLISHABLE_KEY');
 
@@ -179,8 +168,6 @@ Let's build a simple checkout flow. This is the foundation for everything else.
       }
     });
   
-
-
 ```
 
 **What's happening here?**
@@ -287,21 +274,21 @@ function CheckoutForm() {
   };
 
   return (
-    
-      
-      
+    <form onSubmit={handleSubmit}>
+      <CardElement />
+      <button type="submit" disabled={!stripe || processing}>
         {processing ? 'Processing...' : 'Pay $25'}
-      
-      {error && {error}}
-    
+      </button>
+      {error && <div style={{ color: 'red' }}>{error}</div>}
+    </form>
   );
 }
 
 function App() {
   return (
-    
-      
-    
+    <Elements stripe={stripePromise}>
+      <CheckoutForm />
+    </Elements>
   );
 }
 
@@ -366,10 +353,7 @@ Product: "Enterprise Plan"
 ### Step 2: Create Subscription Checkout
 
 #### Frontend
-```html
-Subscribe to Pro - $29/mo
-
-
+```javascript
   const stripe = Stripe('pk_test_YOUR_KEY');
 
   document.getElementById('subscribe-button').addEventListener('click', async () => {
@@ -549,9 +533,7 @@ app.post('/create-portal-session', async (req, res) => {
 ```
 
 #### Frontend Button
-```html
-Manage Subscription
-
+```javascript
 
   document.getElementById('manage-subscription').addEventListener('click', async () => {
     const response = await fetch('/create-portal-session', {
