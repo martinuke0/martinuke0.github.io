@@ -2,356 +2,372 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://martinuke0.github.io/tags/bitcoin/</loc>
+    <loc>http://localhost:56312/tags/business/</loc>
+    <lastmod>2025-12-02T23:58:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/tags/fastapi/</loc>
+    <lastmod>2025-12-02T23:58:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/</loc>
+    <lastmod>2025-12-02T23:58:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/posts/</loc>
+    <lastmod>2025-12-02T23:58:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/tags/python/</loc>
+    <lastmod>2025-12-02T23:58:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/tags/sales-funnels/</loc>
+    <lastmod>2025-12-02T23:58:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/tags/</loc>
+    <lastmod>2025-12-02T23:58:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/posts/funnel/</loc>
+    <lastmod>2025-12-02T23:58:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/tags/web-development/</loc>
+    <lastmod>2025-12-02T23:58:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/tags/bitcoin/</loc>
     <lastmod>2025-12-01T23:20:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/tags/blockchain/</loc>
+    <loc>http://localhost:56312/tags/blockchain/</loc>
     <lastmod>2025-12-01T23:20:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/tags/cryptography/</loc>
+    <loc>http://localhost:56312/tags/cryptography/</loc>
     <lastmod>2025-12-01T23:20:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/tags/data-structures/</loc>
+    <loc>http://localhost:56312/tags/data-structures/</loc>
     <lastmod>2025-12-01T23:20:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/</loc>
+    <loc>http://localhost:56312/posts/merkle-tree/</loc>
     <lastmod>2025-12-01T23:20:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/posts/merkle-tree/</loc>
+    <loc>http://localhost:56312/tags/merkle-trees/</loc>
     <lastmod>2025-12-01T23:20:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/tags/merkle-trees/</loc>
+    <loc>http://localhost:56312/tags/tutorial/</loc>
     <lastmod>2025-12-01T23:20:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/posts/</loc>
-    <lastmod>2025-12-01T23:20:00+02:00</lastmod>
-  </url>
-  <url>
-    <loc>https://martinuke0.github.io/tags/</loc>
-    <lastmod>2025-12-01T23:20:00+02:00</lastmod>
-  </url>
-  <url>
-    <loc>https://martinuke0.github.io/tags/tutorial/</loc>
-    <lastmod>2025-12-01T23:20:00+02:00</lastmod>
-  </url>
-  <url>
-    <loc>https://martinuke0.github.io/journal/1dec/</loc>
+    <loc>http://localhost:56312/journal/1dec/</loc>
     <lastmod>2025-12-01T19:09:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/journal/</loc>
+    <loc>http://localhost:56312/journal/</loc>
     <lastmod>2025-12-01T19:09:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/tags/api/</loc>
+    <loc>http://localhost:56312/tags/api/</loc>
     <lastmod>2025-12-01T00:45:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/tags/bot/</loc>
+    <loc>http://localhost:56312/tags/bot/</loc>
     <lastmod>2025-12-01T00:45:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/posts/telegram/</loc>
+    <loc>http://localhost:56312/posts/telegram/</loc>
     <lastmod>2025-12-01T00:45:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/tags/messaging/</loc>
+    <loc>http://localhost:56312/tags/messaging/</loc>
     <lastmod>2025-12-01T00:45:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/tags/python/</loc>
+    <loc>http://localhost:56312/tags/telegram/</loc>
     <lastmod>2025-12-01T00:45:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/tags/telegram/</loc>
+    <loc>http://localhost:56312/tags/webhook/</loc>
     <lastmod>2025-12-01T00:45:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/tags/webhook/</loc>
-    <lastmod>2025-12-01T00:45:00+02:00</lastmod>
-  </url>
-  <url>
-    <loc>https://martinuke0.github.io/tags/learning-path/</loc>
+    <loc>http://localhost:56312/tags/learning-path/</loc>
     <lastmod>2025-12-01T00:40:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/posts/bitcoin-bible-part3/</loc>
+    <loc>http://localhost:56312/posts/bitcoin-bible-part3/</loc>
     <lastmod>2025-12-01T00:40:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/tags/finance/</loc>
+    <loc>http://localhost:56312/tags/finance/</loc>
     <lastmod>2025-11-30T23:30:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/tags/proof-of-work/</loc>
+    <loc>http://localhost:56312/tags/proof-of-work/</loc>
     <lastmod>2025-11-30T23:30:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/posts/bitcoin-bible-part2/</loc>
+    <loc>http://localhost:56312/posts/bitcoin-bible-part2/</loc>
     <lastmod>2025-11-30T23:30:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/tags/investment/</loc>
+    <loc>http://localhost:56312/tags/investment/</loc>
     <lastmod>2025-11-30T23:20:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/tags/philosophy/</loc>
+    <loc>http://localhost:56312/tags/philosophy/</loc>
     <lastmod>2025-11-30T23:20:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/tags/sovereignty/</loc>
+    <loc>http://localhost:56312/tags/sovereignty/</loc>
     <lastmod>2025-11-30T23:20:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/posts/bitcoin-bible-part1/</loc>
+    <loc>http://localhost:56312/posts/bitcoin-bible-part1/</loc>
     <lastmod>2025-11-30T23:20:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/journal/30nov/</loc>
+    <loc>http://localhost:56312/journal/30nov/</loc>
     <lastmod>2025-11-30T12:39:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/tags/javascript/</loc>
+    <loc>http://localhost:56312/tags/javascript/</loc>
     <lastmod>2025-11-29T17:09:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/tags/nodejs/</loc>
+    <loc>http://localhost:56312/tags/nodejs/</loc>
     <lastmod>2025-11-29T17:09:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/tags/payments/</loc>
+    <loc>http://localhost:56312/tags/payments/</loc>
     <lastmod>2025-11-29T17:09:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/tags/saas/</loc>
+    <loc>http://localhost:56312/tags/saas/</loc>
     <lastmod>2025-11-29T17:09:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/tags/stripe/</loc>
+    <loc>http://localhost:56312/tags/stripe/</loc>
     <lastmod>2025-11-29T17:09:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/posts/stripe/</loc>
+    <loc>http://localhost:56312/posts/stripe/</loc>
     <lastmod>2025-11-29T17:09:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/tags/web-development/</loc>
-    <lastmod>2025-11-29T17:09:00+02:00</lastmod>
-  </url>
-  <url>
-    <loc>https://martinuke0.github.io/journal/29nov/</loc>
+    <loc>http://localhost:56312/journal/29nov/</loc>
     <lastmod>2025-11-29T17:01:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/tags/authentication/</loc>
+    <loc>http://localhost:56312/tags/authentication/</loc>
     <lastmod>2025-11-28T17:17:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/tags/postgresql/</loc>
+    <loc>http://localhost:56312/tags/postgresql/</loc>
     <lastmod>2025-11-28T17:17:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/tags/realtime/</loc>
+    <loc>http://localhost:56312/tags/realtime/</loc>
     <lastmod>2025-11-28T17:17:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/tags/storage/</loc>
+    <loc>http://localhost:56312/tags/storage/</loc>
     <lastmod>2025-11-28T17:17:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/tags/supabase/</loc>
+    <loc>http://localhost:56312/tags/supabase/</loc>
     <lastmod>2025-11-28T17:17:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/posts/supabase/</loc>
+    <loc>http://localhost:56312/posts/supabase/</loc>
     <lastmod>2025-11-28T17:17:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/tags/cloudflare/</loc>
+    <loc>http://localhost:56312/tags/cloudflare/</loc>
     <lastmod>2025-11-28T17:00:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/tags/serverless/</loc>
+    <loc>http://localhost:56312/tags/serverless/</loc>
     <lastmod>2025-11-28T17:00:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/posts/cloudflare/</loc>
+    <loc>http://localhost:56312/posts/cloudflare/</loc>
     <lastmod>2025-11-28T17:00:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/tags/workers/</loc>
+    <loc>http://localhost:56312/tags/workers/</loc>
     <lastmod>2025-11-28T17:00:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/tags/cloudflare-workers/</loc>
+    <loc>http://localhost:56312/tags/cloudflare-workers/</loc>
     <lastmod>2025-11-28T16:15:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/tags/openai/</loc>
+    <loc>http://localhost:56312/tags/openai/</loc>
     <lastmod>2025-11-28T16:15:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/tags/proxy/</loc>
+    <loc>http://localhost:56312/tags/proxy/</loc>
     <lastmod>2025-11-28T16:15:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/posts/cloudflare-openai/</loc>
+    <loc>http://localhost:56312/posts/cloudflare-openai/</loc>
     <lastmod>2025-11-28T16:15:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/tags/networking/</loc>
+    <loc>http://localhost:56312/tags/networking/</loc>
     <lastmod>2025-11-28T16:10:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/tags/real-time/</loc>
+    <loc>http://localhost:56312/tags/real-time/</loc>
     <lastmod>2025-11-28T16:10:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/tags/socket.io/</loc>
+    <loc>http://localhost:56312/tags/socket.io/</loc>
     <lastmod>2025-11-28T16:10:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/posts/websockets/</loc>
+    <loc>http://localhost:56312/posts/websockets/</loc>
     <lastmod>2025-11-28T16:10:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/tags/websockets/</loc>
+    <loc>http://localhost:56312/tags/websockets/</loc>
     <lastmod>2025-11-28T16:10:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/tags/browser/</loc>
+    <loc>http://localhost:56312/tags/browser/</loc>
     <lastmod>2025-11-28T16:07:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/tags/chrome-extension/</loc>
+    <loc>http://localhost:56312/tags/chrome-extension/</loc>
     <lastmod>2025-11-28T16:07:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/tags/manifest-v3/</loc>
+    <loc>http://localhost:56312/tags/manifest-v3/</loc>
     <lastmod>2025-11-28T16:07:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/posts/chrome-extension/</loc>
+    <loc>http://localhost:56312/posts/chrome-extension/</loc>
     <lastmod>2025-11-28T16:07:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/journal/best-productivity-tips/</loc>
+    <loc>http://localhost:56312/journal/best-productivity-tips/</loc>
     <lastmod>2025-11-28T15:32:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/posts/expert-agents/</loc>
+    <loc>http://localhost:56312/posts/expert-agents/</loc>
     <lastmod>2025-11-28T01:58:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/journal/todolist/</loc>
+    <loc>http://localhost:56312/journal/todolist/</loc>
     <lastmod>2025-11-28T01:36:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/journal/28nov/</loc>
+    <loc>http://localhost:56312/journal/28nov/</loc>
     <lastmod>2025-11-28T01:32:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/tags/algorithm/</loc>
+    <loc>http://localhost:56312/tags/algorithm/</loc>
     <lastmod>2025-11-28T01:07:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/tags/dynamic-programming/</loc>
+    <loc>http://localhost:56312/tags/dynamic-programming/</loc>
     <lastmod>2025-11-28T01:07:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/tags/leetcode/</loc>
+    <loc>http://localhost:56312/tags/leetcode/</loc>
     <lastmod>2025-11-28T01:07:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/tags/optimization/</loc>
+    <loc>http://localhost:56312/tags/optimization/</loc>
     <lastmod>2025-11-28T01:07:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/tags/system-design/</loc>
+    <loc>http://localhost:56312/tags/system-design/</loc>
     <lastmod>2025-11-28T01:07:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/posts/triangle-dp/</loc>
+    <loc>http://localhost:56312/posts/triangle-dp/</loc>
     <lastmod>2025-11-28T01:07:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/tags/advanced/</loc>
+    <loc>http://localhost:56312/tags/advanced/</loc>
     <lastmod>2025-11-27T22:46:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/tags/beginners/</loc>
+    <loc>http://localhost:56312/tags/beginners/</loc>
     <lastmod>2025-11-27T22:46:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/tags/git/</loc>
+    <loc>http://localhost:56312/tags/git/</loc>
     <lastmod>2025-11-27T22:46:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/tags/github/</loc>
+    <loc>http://localhost:56312/tags/github/</loc>
     <lastmod>2025-11-27T22:46:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/tags/security/</loc>
+    <loc>http://localhost:56312/tags/security/</loc>
     <lastmod>2025-11-27T22:46:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/tags/ssh/</loc>
+    <loc>http://localhost:56312/tags/ssh/</loc>
     <lastmod>2025-11-27T22:46:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/posts/github-ssh-deep-dive/</loc>
+    <loc>http://localhost:56312/posts/github-ssh-deep-dive/</loc>
     <lastmod>2025-11-27T22:46:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/journal/my-first-journal-entry/</loc>
+    <loc>http://localhost:56312/journal/my-first-journal-entry/</loc>
     <lastmod>2025-11-27T13:46:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/tags/automation/</loc>
+    <loc>http://localhost:56312/tags/automation/</loc>
     <lastmod>2025-11-27T13:38:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/categories/</loc>
+    <loc>http://localhost:56312/categories/</loc>
     <lastmod>2025-11-27T13:38:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/tags/ci/cd/</loc>
+    <loc>http://localhost:56312/tags/ci/cd/</loc>
     <lastmod>2025-11-27T13:38:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/categories/development/</loc>
+    <loc>http://localhost:56312/categories/development/</loc>
     <lastmod>2025-11-27T13:38:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/tags/devops/</loc>
+    <loc>http://localhost:56312/tags/devops/</loc>
     <lastmod>2025-11-27T13:38:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/tags/github-actions/</loc>
+    <loc>http://localhost:56312/tags/github-actions/</loc>
     <lastmod>2025-11-27T13:38:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/posts/github-actions-tutorial/</loc>
+    <loc>http://localhost:56312/posts/github-actions-tutorial/</loc>
     <lastmod>2025-11-27T13:38:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/posts/hello-world/</loc>
+    <loc>http://localhost:56312/posts/hello-world/</loc>
     <lastmod>2025-11-25T20:58:04+02:00</lastmod>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/search/</loc>
+    <loc>http://localhost:56312/search/</loc>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/Support/</loc>
+    <loc>http://localhost:56312/Support/</loc>
   </url>
   <url>
-    <loc>https://martinuke0.github.io/useful-links/</loc>
+    <loc>http://localhost:56312/useful-links/</loc>
   </url>
 </urlset>

@@ -2,22 +2,50 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on martinuke0&#39;s Blog</title>
-    <link>https://martinuke0.github.io/posts/</link>
+    <link>http://localhost:56312/posts/</link>
     <description>Recent content in Posts on martinuke0&#39;s Blog</description>
     <image>
       <title>martinuke0&#39;s Blog</title>
-      <url>https://martinuke0.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://martinuke0.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:56312/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:56312/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 01 Dec 2025 23:20:00 +0200</lastBuildDate>
-    <atom:link href="https://martinuke0.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Dec 2025 23:58:00 +0200</lastBuildDate>
+    <atom:link href="http://localhost:56312/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Complete Guide to Python Sales Funnels with FastAPI: From Beginner to Hero</title>
+      <link>http://localhost:56312/posts/funnel/</link>
+      <pubDate>Tue, 02 Dec 2025 23:58:00 +0200</pubDate>
+      <guid>http://localhost:56312/posts/funnel/</guid>
+      <description>&lt;h1 id=&#34;the-complete-guide-to-python-sales-funnels-with-fastapi-from-beginner-to-hero&#34;&gt;The Complete Guide to Python Sales Funnels with FastAPI: From Beginner to Hero&lt;/h1&gt;
+&lt;p&gt;Learn how to build professional, high-performance sales funnels using FastAPI. This guide takes you from zero to deployed funnel in under an hour.&lt;/p&gt;
+&lt;h2 id=&#34;what-youll-build&#34;&gt;What You&amp;rsquo;ll Build&lt;/h2&gt;
+&lt;p&gt;By the end of this tutorial, you&amp;rsquo;ll have a complete, production-ready sales funnel system that includes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;High-performance landing pages with email capture&lt;/li&gt;
+&lt;li&gt;Async request handling for better scalability&lt;/li&gt;
+&lt;li&gt;Automatic API documentation&lt;/li&gt;
+&lt;li&gt;Email integration ready for customization&lt;/li&gt;
+&lt;li&gt;CSV-based lead storage (easily upgradeable to database)&lt;/li&gt;
+&lt;li&gt;Mobile-responsive design&lt;/li&gt;
+&lt;li&gt;Type-safe code with Pydantic validation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Python 3.8+ installed&lt;/li&gt;
+&lt;li&gt;Basic understanding of Python (variables, functions)&lt;/li&gt;
+&lt;li&gt;A text editor (VS Code recommended)&lt;/li&gt;
+&lt;li&gt;30-60 minutes of your time&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;part-1-understanding-sales-funnels&#34;&gt;Part 1: Understanding Sales Funnels&lt;/h2&gt;
+&lt;p&gt;A sales funnel guides potential clients through stages:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Merkle Trees: From Zero to Hero - A Complete Guide to Cryptographic Data Structures</title>
-      <link>https://martinuke0.github.io/posts/merkle-tree/</link>
+      <link>http://localhost:56312/posts/merkle-tree/</link>
       <pubDate>Mon, 01 Dec 2025 23:20:00 +0200</pubDate>
-      <guid>https://martinuke0.github.io/posts/merkle-tree/</guid>
+      <guid>http://localhost:56312/posts/merkle-tree/</guid>
       <description>&lt;h2 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;a href=&#34;#introduction&#34;&gt;Introduction&lt;/a&gt;&lt;/li&gt;
@@ -40,9 +68,9 @@
     </item>
     <item>
       <title>Building Telegram Bots with Python: A Complete Guide</title>
-      <link>https://martinuke0.github.io/posts/telegram/</link>
+      <link>http://localhost:56312/posts/telegram/</link>
       <pubDate>Mon, 01 Dec 2025 00:45:00 +0200</pubDate>
-      <guid>https://martinuke0.github.io/posts/telegram/</guid>
+      <guid>http://localhost:56312/posts/telegram/</guid>
       <description>&lt;p&gt;Welcome to the comprehensive guide on building Telegram bots with Python! This tutorial will take you from absolute beginner to advanced bot developer, covering everything from basic concepts to production-ready deployments.&lt;/p&gt;
 &lt;h2 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h2&gt;
 &lt;ol&gt;
@@ -64,27 +92,27 @@
     </item>
     <item>
       <title>The Bitcoin Bible - Part 3 - A Structured Learning Path from Fundamentals to Mastery</title>
-      <link>https://martinuke0.github.io/posts/bitcoin-bible-part3/</link>
+      <link>http://localhost:56312/posts/bitcoin-bible-part3/</link>
       <pubDate>Mon, 01 Dec 2025 00:40:00 +0200</pubDate>
-      <guid>https://martinuke0.github.io/posts/bitcoin-bible-part3/</guid>
+      <guid>http://localhost:56312/posts/bitcoin-bible-part3/</guid>
       <description>&lt;p&gt;This guide provides a structured journey into the heart of Bitcoin. We will move from the abstract problem of digital trust to the concrete cryptographic and economic mechanisms that make Bitcoin works. Each section builds upon the last, using core terminology and providing clear, simple explanations for complex ideas. The goal is not just to know what Bitcoin is, but to understand how and why it works.&lt;/p&gt;
 &lt;h2 id=&#34;1-foundation-the-trust-problem-in-digital-cash&#34;&gt;1. Foundation: The Trust Problem in Digital Cash&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Core Learning Objective:&lt;/strong&gt; Understand why traditional digital payments require intermediaries and the fundamental problem Bitcoin solves.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Bitcoin Bible - Part 2 - A Systematic Deconstruction of Satoshi&#39;s Whitepaper</title>
-      <link>https://martinuke0.github.io/posts/bitcoin-bible-part2/</link>
+      <link>http://localhost:56312/posts/bitcoin-bible-part2/</link>
       <pubDate>Sun, 30 Nov 2025 23:30:00 +0200</pubDate>
-      <guid>https://martinuke0.github.io/posts/bitcoin-bible-part2/</guid>
+      <guid>http://localhost:56312/posts/bitcoin-bible-part2/</guid>
       <description>&lt;p&gt;This guide provides a structured, pedagogical journey through the foundational document of cryptocurrency: &lt;strong&gt;&amp;ldquo;Bitcoin: A Peer-to-Peer Electronic Cash System&amp;rdquo;&lt;/strong&gt; by Satoshi Nakamoto. We will deconstruct its core concepts, progressing from first principles to the advanced technical and cryptographic mechanisms that constitute the Bitcoin protocol.&lt;/p&gt;
 &lt;h3 id=&#34;prologue-the-pre-bitcoin-paradigm&#34;&gt;Prologue: The Pre-Bitcoin Paradigm&lt;/h3&gt;
 &lt;p&gt;Prior to 2008, the transfer of digital value was predicated on a model of trusted third parties. Financial institutionsâ€”banks, credit card networks, payment processorsâ€”served as essential intermediaries. They maintained the canonical ledger, verified the legitimacy of transactions, and solved the fundamental &lt;strong&gt;double-spending problem&lt;/strong&gt;: the risk that a digital asset could be replicated and spent more than once. This architectural dependency introduced inherent costs, delays, potential for censorship, and systemic vulnerability.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Bitcoin Bible - Part 1 - Michael Saylor&#39;s Bitcoin Philosophy: 21 Rules to Financial Sovereignty</title>
-      <link>https://martinuke0.github.io/posts/bitcoin-bible-part1/</link>
+      <link>http://localhost:56312/posts/bitcoin-bible-part1/</link>
       <pubDate>Sun, 30 Nov 2025 23:20:00 +0200</pubDate>
-      <guid>https://martinuke0.github.io/posts/bitcoin-bible-part1/</guid>
+      <guid>http://localhost:56312/posts/bitcoin-bible-part1/</guid>
       <description>&lt;p&gt;Michael Saylor, the Executive Chairman of MicroStrategy, is one of the most prominent and vocal proponents of Bitcoin. His &amp;ldquo;21 Rules&amp;rdquo; are not just investment tips; they are a philosophical framework for understanding Bitcoin&amp;rsquo;s role in the modern digital economy.&lt;/p&gt;
 &lt;p&gt;This guide will break down each rule, explaining its deeper meaning and how you can apply it to your own journey.&lt;/p&gt;
 &lt;hr&gt;
@@ -94,9 +122,9 @@
     </item>
     <item>
       <title>The Complete Guide to Stripe Payments in JavaScript: From Beginner to Hero</title>
-      <link>https://martinuke0.github.io/posts/stripe/</link>
+      <link>http://localhost:56312/posts/stripe/</link>
       <pubDate>Sat, 29 Nov 2025 17:09:00 +0200</pubDate>
-      <guid>https://martinuke0.github.io/posts/stripe/</guid>
+      <guid>http://localhost:56312/posts/stripe/</guid>
       <description>&lt;h2 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;a href=&#34;#introduction&#34;&gt;Introduction: Why Stripe for Your SaaS&lt;/a&gt;&lt;/li&gt;
@@ -117,9 +145,9 @@
     </item>
     <item>
       <title>The Complete Guide to Building SaaS with Supabase: From Beginner to Hero</title>
-      <link>https://martinuke0.github.io/posts/supabase/</link>
+      <link>http://localhost:56312/posts/supabase/</link>
       <pubDate>Fri, 28 Nov 2025 17:17:00 +0200</pubDate>
-      <guid>https://martinuke0.github.io/posts/supabase/</guid>
+      <guid>http://localhost:56312/posts/supabase/</guid>
       <description>&lt;h2 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;a href=&#34;#what-is-supabase&#34;&gt;What is Supabase?&lt;/a&gt;&lt;/li&gt;
@@ -149,17 +177,17 @@
     </item>
     <item>
       <title>The Complete Guide to Building SaaS with Cloudflare: From Beginner to Hero</title>
-      <link>https://martinuke0.github.io/posts/cloudflare/</link>
+      <link>http://localhost:56312/posts/cloudflare/</link>
       <pubDate>Fri, 28 Nov 2025 17:00:00 +0200</pubDate>
-      <guid>https://martinuke0.github.io/posts/cloudflare/</guid>
+      <guid>http://localhost:56312/posts/cloudflare/</guid>
       <description>&lt;p&gt;Imagine you&amp;rsquo;re building a house. You could buy land, lay the foundation, install plumbing, wire electricity, build walls, and so on. &lt;strong&gt;Or&lt;/strong&gt; you could move into a fully-equipped building where infrastructure is already handled, and you just focus on decorating and living.&lt;/p&gt;
 &lt;p&gt;Cloudflare is that fully-equipped building for the internet. It&amp;rsquo;s a platform that handles the hard infrastructure problems (speed, security, scaling) so you can focus on building your SaaS product.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Complete Guide to Building a Cloudflare Workers OpenAI Proxy: From Beginner to Hero</title>
-      <link>https://martinuke0.github.io/posts/cloudflare-openai/</link>
+      <link>http://localhost:56312/posts/cloudflare-openai/</link>
       <pubDate>Fri, 28 Nov 2025 16:15:00 +0200</pubDate>
-      <guid>https://martinuke0.github.io/posts/cloudflare-openai/</guid>
+      <guid>http://localhost:56312/posts/cloudflare-openai/</guid>
       <description>&lt;p&gt;Using OpenAI APIs in frontend code is risky â€” exposing your API key is a security hazard.&lt;br&gt;
 The solution is a &lt;strong&gt;Cloudflare Worker&lt;/strong&gt; that acts as a secure proxy. Your frontend calls the worker; the worker calls OpenAI with your key. The key stays secret.&lt;/p&gt;
 &lt;p&gt;This guide is &lt;strong&gt;beginner-friendly&lt;/strong&gt;, ELI5 style, and gradually moves to advanced techniques like streaming, caching, and rate-limiting.&lt;/p&gt;
@@ -170,9 +198,9 @@ If you give that key to everyone, anyone can spend your genieâ€™s wishes. Thatâ€
     </item>
     <item>
       <title>The Complete Guide to WebSockets and Socket.IO: From Beginner to Hero</title>
-      <link>https://martinuke0.github.io/posts/websockets/</link>
+      <link>http://localhost:56312/posts/websockets/</link>
       <pubDate>Fri, 28 Nov 2025 16:10:00 +0200</pubDate>
-      <guid>https://martinuke0.github.io/posts/websockets/</guid>
+      <guid>http://localhost:56312/posts/websockets/</guid>
       <description>&lt;h2 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;a href=&#34;#introduction&#34;&gt;Introduction: Why Real-Time Communication Matters&lt;/a&gt;&lt;/li&gt;
@@ -190,9 +218,9 @@ If you give that key to everyone, anyone can spend your genieâ€™s wishes. Thatâ€
     </item>
     <item>
       <title>The Complete Guide to Building Chrome Extensions: From Beginner to Hero</title>
-      <link>https://martinuke0.github.io/posts/chrome-extension/</link>
+      <link>http://localhost:56312/posts/chrome-extension/</link>
       <pubDate>Fri, 28 Nov 2025 16:07:00 +0200</pubDate>
-      <guid>https://martinuke0.github.io/posts/chrome-extension/</guid>
+      <guid>http://localhost:56312/posts/chrome-extension/</guid>
       <description>&lt;p&gt;Chrome extensions allow you to deeply customize and enhance your browsing experience. Whether you want to modify webpages, create productivity tools, automate tasks, or publish to the Chrome Web Store, extensions provide a powerful yet beginner-friendly platform.&lt;/p&gt;
 &lt;p&gt;This guide takes you from the fundamentals to a fully functioning extension, using &lt;strong&gt;Manifest V3&lt;/strong&gt;, the current standard for Chrome and Chromium-based browsers.&lt;/p&gt;
 &lt;hr&gt;
@@ -201,9 +229,9 @@ If you give that key to everyone, anyone can spend your genieâ€™s wishes. Thatâ€
     </item>
     <item>
       <title>Elite Context Engineering: The R&amp;D Agent Strategy</title>
-      <link>https://martinuke0.github.io/posts/expert-agents/</link>
+      <link>http://localhost:56312/posts/expert-agents/</link>
       <pubDate>Fri, 28 Nov 2025 01:58:00 +0200</pubDate>
-      <guid>https://martinuke0.github.io/posts/expert-agents/</guid>
+      <guid>http://localhost:56312/posts/expert-agents/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Master the art of context window management to build high-performance AI agents&lt;/strong&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;em&gt;&amp;ldquo;A focused agent is a performant agent. Context engineering is the name of the game for high-value engineering in the age of agents.&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
@@ -251,9 +279,9 @@ If you give that key to everyone, anyone can spend your genieâ€™s wishes. Thatâ€
     </item>
     <item>
       <title>The Complete Guide to Triangle Minimum Path Sum: From Brute Force to System Design</title>
-      <link>https://martinuke0.github.io/posts/triangle-dp/</link>
+      <link>http://localhost:56312/posts/triangle-dp/</link>
       <pubDate>Fri, 28 Nov 2025 01:07:00 +0200</pubDate>
-      <guid>https://martinuke0.github.io/posts/triangle-dp/</guid>
+      <guid>http://localhost:56312/posts/triangle-dp/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Triangle Minimum Path Sum&lt;/strong&gt;: Given a triangle array, return the minimum path sum from top to bottom.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Key Constraint&lt;/strong&gt;: From position &lt;code&gt;(i, j)&lt;/code&gt;, you can only move to &lt;code&gt;(i+1, j)&lt;/code&gt; or &lt;code&gt;(i+1, j+1)&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;:&lt;/p&gt;
@@ -269,9 +297,9 @@ If you give that key to everyone, anyone can spend your genieâ€™s wishes. Thatâ€
     </item>
     <item>
       <title>The Complete SSH Guide for GitHub: From Beginner to Expert</title>
-      <link>https://martinuke0.github.io/posts/github-ssh-deep-dive/</link>
+      <link>http://localhost:56312/posts/github-ssh-deep-dive/</link>
       <pubDate>Thu, 27 Nov 2025 22:46:00 +0200</pubDate>
-      <guid>https://martinuke0.github.io/posts/github-ssh-deep-dive/</guid>
+      <guid>http://localhost:56312/posts/github-ssh-deep-dive/</guid>
       <description>&lt;h3 id=&#34;what-is-ssh-in-simple-terms&#34;&gt;What is SSH in Simple Terms?&lt;/h3&gt;
 &lt;p&gt;Think of SSH keys like a &lt;strong&gt;secure key and lock system&lt;/strong&gt; for your computer to talk to GitHub:&lt;/p&gt;
 &lt;ul&gt;
@@ -299,9 +327,9 @@ If you give that key to everyone, anyone can spend your genieâ€™s wishes. Thatâ€
     </item>
     <item>
       <title>GitHub Actions: From Zero to Hero - A Complete Tutorial</title>
-      <link>https://martinuke0.github.io/posts/github-actions-tutorial/</link>
+      <link>http://localhost:56312/posts/github-actions-tutorial/</link>
       <pubDate>Thu, 27 Nov 2025 13:38:00 +0200</pubDate>
-      <guid>https://martinuke0.github.io/posts/github-actions-tutorial/</guid>
+      <guid>http://localhost:56312/posts/github-actions-tutorial/</guid>
       <description>&lt;p&gt;GitHub Actions is like having a robot assistant that automatically does tasks for you whenever something happens in your GitHub repository. This tutorial will take you from complete beginner to advanced user, putting you ahead of 90% of developers.&lt;/p&gt;
 &lt;h3 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h3&gt;
 &lt;ol&gt;
@@ -320,9 +348,9 @@ If you give that key to everyone, anyone can spend your genieâ€™s wishes. Thatâ€
     </item>
     <item>
       <title>Hello World</title>
-      <link>https://martinuke0.github.io/posts/hello-world/</link>
+      <link>http://localhost:56312/posts/hello-world/</link>
       <pubDate>Tue, 25 Nov 2025 20:58:04 +0200</pubDate>
-      <guid>https://martinuke0.github.io/posts/hello-world/</guid>
+      <guid>http://localhost:56312/posts/hello-world/</guid>
       <description>&lt;p&gt;Welcome to my new blog! This is the first post.&lt;/p&gt;</description>
     </item>
   </channel>
