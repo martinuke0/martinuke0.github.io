@@ -18,6 +18,9 @@ buildExpired: false
 
 minifyOutput: true
 
+minify:
+  disableXML: true
+
 params:
   env: production
   title: martinuke0's Blog

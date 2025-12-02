@@ -1,94 +1,177 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>martinuke0's Blog</title><link>https://martinuke0.github.io/</link><description>Recent content on martinuke0's Blog</description><image><title>martinuke0's Blog</title><url>https://martinuke0.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url><link>https://martinuke0.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link></image><generator>Hugo -- 0.152.2</generator><language>en</language><lastBuildDate>Mon, 01 Dec 2025 23:20:00 +0200</lastBuildDate><atom:link href="https://martinuke0.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Merkle Trees: From Zero to Hero - A Complete Guide to Cryptographic Data Structures</title><link>https://martinuke0.github.io/posts/merkle-tree/</link><pubDate>Mon, 01 Dec 2025 23:20:00 +0200</pubDate><guid>https://martinuke0.github.io/posts/merkle-tree/</guid><description>&lt;h2 id="table-of-contents"&gt;Table of Contents&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>martinuke0&#39;s Blog</title>
+    <link>https://martinuke0.github.io/</link>
+    <description>Recent content on martinuke0&#39;s Blog</description>
+    <image>
+      <title>martinuke0&#39;s Blog</title>
+      <url>https://martinuke0.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://martinuke0.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 01 Dec 2025 23:20:00 +0200</lastBuildDate>
+    <atom:link href="https://martinuke0.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Merkle Trees: From Zero to Hero - A Complete Guide to Cryptographic Data Structures</title>
+      <link>https://martinuke0.github.io/posts/merkle-tree/</link>
+      <pubDate>Mon, 01 Dec 2025 23:20:00 +0200</pubDate>
+      <guid>https://martinuke0.github.io/posts/merkle-tree/</guid>
+      <description>&lt;h2 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h2&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;a href="#introduction"&gt;Introduction&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#prerequisites"&gt;Prerequisites&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#chapter-1-the-foundation"&gt;Chapter 1: The Foundation - Understanding Hash Functions&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#chapter-2-the-problem"&gt;Chapter 2: The Problem We&amp;rsquo;re Solving&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#chapter-3-building-your-first-merkle-tree"&gt;Chapter 3: Building Your First Merkle Tree&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#chapter-4-the-mathematics"&gt;Chapter 4: The Mathematics Behind Merkle Trees&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#chapter-5-merkle-proofs"&gt;Chapter 5: Merkle Proofs - The Real Magic&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#chapter-6-implementation"&gt;Chapter 6: Implementation from Scratch&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#chapter-7-advanced-concepts"&gt;Chapter 7: Advanced Concepts&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#chapter-8-real-world-applications"&gt;Chapter 8: Real-World Applications&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#chapter-9-optimizations"&gt;Chapter 9: Optimizations and Variants&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#chapter-10-security"&gt;Chapter 10: Security Considerations&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#resources"&gt;Resources and Further Learning&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#introduction&#34;&gt;Introduction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#prerequisites&#34;&gt;Prerequisites&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#chapter-1-the-foundation&#34;&gt;Chapter 1: The Foundation - Understanding Hash Functions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#chapter-2-the-problem&#34;&gt;Chapter 2: The Problem We&amp;rsquo;re Solving&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#chapter-3-building-your-first-merkle-tree&#34;&gt;Chapter 3: Building Your First Merkle Tree&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#chapter-4-the-mathematics&#34;&gt;Chapter 4: The Mathematics Behind Merkle Trees&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#chapter-5-merkle-proofs&#34;&gt;Chapter 5: Merkle Proofs - The Real Magic&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#chapter-6-implementation&#34;&gt;Chapter 6: Implementation from Scratch&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#chapter-7-advanced-concepts&#34;&gt;Chapter 7: Advanced Concepts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#chapter-8-real-world-applications&#34;&gt;Chapter 8: Real-World Applications&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#chapter-9-optimizations&#34;&gt;Chapter 9: Optimizations and Variants&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#chapter-10-security&#34;&gt;Chapter 10: Security Considerations&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#resources&#34;&gt;Resources and Further Learning&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;hr&gt;
-&lt;h2 id="introduction"&gt;Introduction&lt;/h2&gt;
-&lt;p&gt;A Merkle tree, named after Ralph Merkle who patented it in 1979, is one of the most elegant and powerful data structures in computer science. If you&amp;rsquo;ve ever wondered how Bitcoin can efficiently verify transactions, how Git tracks file changes, or how distributed systems ensure data integrity across thousands of nodes, you&amp;rsquo;re about to discover the answer.&lt;/p&gt;</description></item><item><title>1 Dec</title><link>https://martinuke0.github.io/journal/1dec/</link><pubDate>Mon, 01 Dec 2025 19:09:00 +0200</pubDate><guid>https://martinuke0.github.io/journal/1dec/</guid><description>&lt;p&gt;Nobody is above work. Those who acknowledge it, are rich.&lt;/p&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;A Merkle tree, named after Ralph Merkle who patented it in 1979, is one of the most elegant and powerful data structures in computer science. If you&amp;rsquo;ve ever wondered how Bitcoin can efficiently verify transactions, how Git tracks file changes, or how distributed systems ensure data integrity across thousands of nodes, you&amp;rsquo;re about to discover the answer.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>1 Dec</title>
+      <link>https://martinuke0.github.io/journal/1dec/</link>
+      <pubDate>Mon, 01 Dec 2025 19:09:00 +0200</pubDate>
+      <guid>https://martinuke0.github.io/journal/1dec/</guid>
+      <description>&lt;p&gt;Nobody is above work. Those who acknowledge it, are rich.&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;Work is my best friend. Only the disciplined ones are free in life. If not, you&amp;rsquo;re a slave to your passions.&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;Your brain loves rewards - find ways to give yourself rewards for everything positive you do&lt;/p&gt;
-&lt;hr&gt;</description></item><item><title>Building Telegram Bots with Python: A Complete Guide</title><link>https://martinuke0.github.io/posts/telegram/</link><pubDate>Mon, 01 Dec 2025 00:45:00 +0200</pubDate><guid>https://martinuke0.github.io/posts/telegram/</guid><description>&lt;p&gt;Welcome to the comprehensive guide on building Telegram bots with Python! This tutorial will take you from absolute beginner to advanced bot developer, covering everything from basic concepts to production-ready deployments.&lt;/p&gt;
-&lt;h2 id="table-of-contents"&gt;Table of Contents&lt;/h2&gt;
+&lt;hr&gt;</description>
+    </item>
+    <item>
+      <title>Building Telegram Bots with Python: A Complete Guide</title>
+      <link>https://martinuke0.github.io/posts/telegram/</link>
+      <pubDate>Mon, 01 Dec 2025 00:45:00 +0200</pubDate>
+      <guid>https://martinuke0.github.io/posts/telegram/</guid>
+      <description>&lt;p&gt;Welcome to the comprehensive guide on building Telegram bots with Python! This tutorial will take you from absolute beginner to advanced bot developer, covering everything from basic concepts to production-ready deployments.&lt;/p&gt;
+&lt;h2 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h2&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;a href="#introduction"&gt;Introduction to Telegram Bots&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#getting-started"&gt;Getting Started - Your First Bot&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#understanding-api"&gt;Understanding the Telegram Bot API&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#interactive-bots"&gt;Building Interactive Bots&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#advanced-features"&gt;Advanced Features&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#database-integration"&gt;Database Integration&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#deployment"&gt;Deployment and Hosting&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#best-practices"&gt;Best Practices and Security&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#real-world-project"&gt;Real-World Project&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#resources"&gt;Resources and Further Learning&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#introduction&#34;&gt;Introduction to Telegram Bots&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#getting-started&#34;&gt;Getting Started - Your First Bot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#understanding-api&#34;&gt;Understanding the Telegram Bot API&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#interactive-bots&#34;&gt;Building Interactive Bots&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#advanced-features&#34;&gt;Advanced Features&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#database-integration&#34;&gt;Database Integration&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#deployment&#34;&gt;Deployment and Hosting&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#best-practices&#34;&gt;Best Practices and Security&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#real-world-project&#34;&gt;Real-World Project&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#resources&#34;&gt;Resources and Further Learning&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;hr&gt;
-&lt;h2 id="introduction"&gt;1. Introduction to Telegram Bots&lt;/h2&gt;
-&lt;h3 id="what-is-a-telegram-bot"&gt;What is a Telegram Bot?&lt;/h3&gt;
-&lt;p&gt;A Telegram bot is an automated program that runs on the Telegram messaging platform. Bots can interact with users through messages, commands, inline queries, and custom keyboards. They&amp;rsquo;re powered by the Telegram Bot API, which provides a simple HTTP-based interface.&lt;/p&gt;</description></item><item><title>The Bitcoin Bible - Part 3 - A Structured Learning Path from Fundamentals to Mastery</title><link>https://martinuke0.github.io/posts/bitcoin-bible-part3/</link><pubDate>Mon, 01 Dec 2025 00:40:00 +0200</pubDate><guid>https://martinuke0.github.io/posts/bitcoin-bible-part3/</guid><description>&lt;p&gt;This guide provides a structured journey into the heart of Bitcoin. We will move from the abstract problem of digital trust to the concrete cryptographic and economic mechanisms that make Bitcoin works. Each section builds upon the last, using core terminology and providing clear, simple explanations for complex ideas. The goal is not just to know what Bitcoin is, but to understand how and why it works.&lt;/p&gt;
-&lt;h2 id="1-foundation-the-trust-problem-in-digital-cash"&gt;1. Foundation: The Trust Problem in Digital Cash&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Core Learning Objective:&lt;/strong&gt; Understand why traditional digital payments require intermediaries and the fundamental problem Bitcoin solves.&lt;/p&gt;</description></item><item><title>The Bitcoin Bible - Part 2 - A Systematic Deconstruction of Satoshi's Whitepaper</title><link>https://martinuke0.github.io/posts/bitcoin-bible-part2/</link><pubDate>Sun, 30 Nov 2025 23:30:00 +0200</pubDate><guid>https://martinuke0.github.io/posts/bitcoin-bible-part2/</guid><description>&lt;p&gt;This guide provides a structured, pedagogical journey through the foundational document of cryptocurrency: &lt;strong&gt;&amp;ldquo;Bitcoin: A Peer-to-Peer Electronic Cash System&amp;rdquo;&lt;/strong&gt; by Satoshi Nakamoto. We will deconstruct its core concepts, progressing from first principles to the advanced technical and cryptographic mechanisms that constitute the Bitcoin protocol.&lt;/p&gt;
-&lt;h3 id="prologue-the-pre-bitcoin-paradigm"&gt;Prologue: The Pre-Bitcoin Paradigm&lt;/h3&gt;
-&lt;p&gt;Prior to 2008, the transfer of digital value was predicated on a model of trusted third parties. Financial institutions—banks, credit card networks, payment processors—served as essential intermediaries. They maintained the canonical ledger, verified the legitimacy of transactions, and solved the fundamental &lt;strong&gt;double-spending problem&lt;/strong&gt;: the risk that a digital asset could be replicated and spent more than once. This architectural dependency introduced inherent costs, delays, potential for censorship, and systemic vulnerability.&lt;/p&gt;</description></item><item><title>The Bitcoin Bible - Part 1 - Michael Saylor's Bitcoin Philosophy: 21 Rules to Financial Sovereignty</title><link>https://martinuke0.github.io/posts/bitcoin-bible-part1/</link><pubDate>Sun, 30 Nov 2025 23:20:00 +0200</pubDate><guid>https://martinuke0.github.io/posts/bitcoin-bible-part1/</guid><description>&lt;p&gt;Michael Saylor, the Executive Chairman of MicroStrategy, is one of the most prominent and vocal proponents of Bitcoin. His &amp;ldquo;21 Rules&amp;rdquo; are not just investment tips; they are a philosophical framework for understanding Bitcoin&amp;rsquo;s role in the modern digital economy.&lt;/p&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;1. Introduction to Telegram Bots&lt;/h2&gt;
+&lt;h3 id=&#34;what-is-a-telegram-bot&#34;&gt;What is a Telegram Bot?&lt;/h3&gt;
+&lt;p&gt;A Telegram bot is an automated program that runs on the Telegram messaging platform. Bots can interact with users through messages, commands, inline queries, and custom keyboards. They&amp;rsquo;re powered by the Telegram Bot API, which provides a simple HTTP-based interface.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Bitcoin Bible - Part 3 - A Structured Learning Path from Fundamentals to Mastery</title>
+      <link>https://martinuke0.github.io/posts/bitcoin-bible-part3/</link>
+      <pubDate>Mon, 01 Dec 2025 00:40:00 +0200</pubDate>
+      <guid>https://martinuke0.github.io/posts/bitcoin-bible-part3/</guid>
+      <description>&lt;p&gt;This guide provides a structured journey into the heart of Bitcoin. We will move from the abstract problem of digital trust to the concrete cryptographic and economic mechanisms that make Bitcoin works. Each section builds upon the last, using core terminology and providing clear, simple explanations for complex ideas. The goal is not just to know what Bitcoin is, but to understand how and why it works.&lt;/p&gt;
+&lt;h2 id=&#34;1-foundation-the-trust-problem-in-digital-cash&#34;&gt;1. Foundation: The Trust Problem in Digital Cash&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Core Learning Objective:&lt;/strong&gt; Understand why traditional digital payments require intermediaries and the fundamental problem Bitcoin solves.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Bitcoin Bible - Part 2 - A Systematic Deconstruction of Satoshi&#39;s Whitepaper</title>
+      <link>https://martinuke0.github.io/posts/bitcoin-bible-part2/</link>
+      <pubDate>Sun, 30 Nov 2025 23:30:00 +0200</pubDate>
+      <guid>https://martinuke0.github.io/posts/bitcoin-bible-part2/</guid>
+      <description>&lt;p&gt;This guide provides a structured, pedagogical journey through the foundational document of cryptocurrency: &lt;strong&gt;&amp;ldquo;Bitcoin: A Peer-to-Peer Electronic Cash System&amp;rdquo;&lt;/strong&gt; by Satoshi Nakamoto. We will deconstruct its core concepts, progressing from first principles to the advanced technical and cryptographic mechanisms that constitute the Bitcoin protocol.&lt;/p&gt;
+&lt;h3 id=&#34;prologue-the-pre-bitcoin-paradigm&#34;&gt;Prologue: The Pre-Bitcoin Paradigm&lt;/h3&gt;
+&lt;p&gt;Prior to 2008, the transfer of digital value was predicated on a model of trusted third parties. Financial institutions—banks, credit card networks, payment processors—served as essential intermediaries. They maintained the canonical ledger, verified the legitimacy of transactions, and solved the fundamental &lt;strong&gt;double-spending problem&lt;/strong&gt;: the risk that a digital asset could be replicated and spent more than once. This architectural dependency introduced inherent costs, delays, potential for censorship, and systemic vulnerability.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Bitcoin Bible - Part 1 - Michael Saylor&#39;s Bitcoin Philosophy: 21 Rules to Financial Sovereignty</title>
+      <link>https://martinuke0.github.io/posts/bitcoin-bible-part1/</link>
+      <pubDate>Sun, 30 Nov 2025 23:20:00 +0200</pubDate>
+      <guid>https://martinuke0.github.io/posts/bitcoin-bible-part1/</guid>
+      <description>&lt;p&gt;Michael Saylor, the Executive Chairman of MicroStrategy, is one of the most prominent and vocal proponents of Bitcoin. His &amp;ldquo;21 Rules&amp;rdquo; are not just investment tips; they are a philosophical framework for understanding Bitcoin&amp;rsquo;s role in the modern digital economy.&lt;/p&gt;
 &lt;p&gt;This guide will break down each rule, explaining its deeper meaning and how you can apply it to your own journey.&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id="rule-1-the-great-divide"&gt;Rule 1: The Great Divide&lt;/h2&gt;
+&lt;h2 id=&#34;rule-1-the-great-divide&#34;&gt;Rule 1: The Great Divide&lt;/h2&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Those who understand buy Bitcoin. Those who don’t criticize Bitcoin.&lt;/em&gt;&lt;/p&gt;</description></item><item><title>30 Nov</title><link>https://martinuke0.github.io/journal/30nov/</link><pubDate>Sun, 30 Nov 2025 12:39:00 +0200</pubDate><guid>https://martinuke0.github.io/journal/30nov/</guid><description>&lt;p&gt;Blame as a service, is a thing that most of us do at some point. Feels like passing the blame to others
+&lt;p&gt;&lt;em&gt;Those who understand buy Bitcoin. Those who don’t criticize Bitcoin.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>30 Nov</title>
+      <link>https://martinuke0.github.io/journal/30nov/</link>
+      <pubDate>Sun, 30 Nov 2025 12:39:00 +0200</pubDate>
+      <guid>https://martinuke0.github.io/journal/30nov/</guid>
+      <description>&lt;p&gt;Blame as a service, is a thing that most of us do at some point. Feels like passing the blame to others
 makes us more cleaner and gives us reason&amp;rsquo;s for our own unsuccess. It&amp;rsquo;s almost like we are getting paid
 to do it, it&amp;rsquo;s amazing.&lt;/p&gt;
 &lt;p&gt;The real miracles will happen in your life&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;Ideas are worthless. Even trivial. Everybody has ideas. Execution is the differentiator.
-Add speed to that, you&amp;rsquo;ll be unstoppable.&lt;/p&gt;</description></item><item><title>The Complete Guide to Stripe Payments in JavaScript: From Beginner to Hero</title><link>https://martinuke0.github.io/posts/stripe/</link><pubDate>Sat, 29 Nov 2025 17:09:00 +0200</pubDate><guid>https://martinuke0.github.io/posts/stripe/</guid><description>&lt;h2 id="table-of-contents"&gt;Table of Contents&lt;/h2&gt;
+Add speed to that, you&amp;rsquo;ll be unstoppable.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Complete Guide to Stripe Payments in JavaScript: From Beginner to Hero</title>
+      <link>https://martinuke0.github.io/posts/stripe/</link>
+      <pubDate>Sat, 29 Nov 2025 17:09:00 +0200</pubDate>
+      <guid>https://martinuke0.github.io/posts/stripe/</guid>
+      <description>&lt;h2 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h2&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;a href="#introduction"&gt;Introduction: Why Stripe for Your SaaS&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#core-concepts"&gt;Core Concepts: Understanding Payment Processing&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#setup"&gt;Setup: Getting Started&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#one-time-payments"&gt;One-Time Payments: The Foundation&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#subscriptions"&gt;Subscriptions: The SaaS Backbone&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#webhooks"&gt;Webhooks: Listening to Stripe Events&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#customer-management"&gt;Customer Management: Building Relationships&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#security"&gt;Security: Protecting Your Business&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#testing"&gt;Testing: Getting It Right&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#production-checklist"&gt;Production Checklist: Going Live&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#resources"&gt;Resources: Your Arsenal&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#introduction&#34;&gt;Introduction: Why Stripe for Your SaaS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#core-concepts&#34;&gt;Core Concepts: Understanding Payment Processing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#setup&#34;&gt;Setup: Getting Started&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#one-time-payments&#34;&gt;One-Time Payments: The Foundation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#subscriptions&#34;&gt;Subscriptions: The SaaS Backbone&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#webhooks&#34;&gt;Webhooks: Listening to Stripe Events&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#customer-management&#34;&gt;Customer Management: Building Relationships&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#security&#34;&gt;Security: Protecting Your Business&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#testing&#34;&gt;Testing: Getting It Right&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#production-checklist&#34;&gt;Production Checklist: Going Live&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#resources&#34;&gt;Resources: Your Arsenal&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;hr&gt;
-&lt;h2 id="introduction"&gt;Introduction: Why Stripe for Your SaaS&lt;/h2&gt;
-&lt;p&gt;Stripe is the payment infrastructure that powers millions of businesses worldwide. For SaaS founders, it&amp;rsquo;s the gold standard because:&lt;/p&gt;</description></item><item><title>29 Nov</title><link>https://martinuke0.github.io/journal/29nov/</link><pubDate>Sat, 29 Nov 2025 17:01:00 +0200</pubDate><guid>https://martinuke0.github.io/journal/29nov/</guid><description>&lt;p&gt;Maybe you are not lazy to start a new business, maybe you are just afraid to be too successfull.
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction: Why Stripe for Your SaaS&lt;/h2&gt;
+&lt;p&gt;Stripe is the payment infrastructure that powers millions of businesses worldwide. For SaaS founders, it&amp;rsquo;s the gold standard because:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>29 Nov</title>
+      <link>https://martinuke0.github.io/journal/29nov/</link>
+      <pubDate>Sat, 29 Nov 2025 17:01:00 +0200</pubDate>
+      <guid>https://martinuke0.github.io/journal/29nov/</guid>
+      <description>&lt;p&gt;Maybe you are not lazy to start a new business, maybe you are just afraid to be too successfull.
 Maybe you are your greatest enemy and should conspire more for your own good.&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;You need to sleep and need to plan for your future because this is a not a sprint, is a marathon.
-You&amp;rsquo;re giving everything you&amp;rsquo;ve got today to be perfect, but tomorrow is another day to try again.&lt;/p&gt;</description></item><item><title>The Complete Guide to Building SaaS with Supabase: From Beginner to Hero</title><link>https://martinuke0.github.io/posts/supabase/</link><pubDate>Fri, 28 Nov 2025 17:17:00 +0200</pubDate><guid>https://martinuke0.github.io/posts/supabase/</guid><description>&lt;h2 id="table-of-contents"&gt;Table of Contents&lt;/h2&gt;
+You&amp;rsquo;re giving everything you&amp;rsquo;ve got today to be perfect, but tomorrow is another day to try again.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Complete Guide to Building SaaS with Supabase: From Beginner to Hero</title>
+      <link>https://martinuke0.github.io/posts/supabase/</link>
+      <pubDate>Fri, 28 Nov 2025 17:17:00 +0200</pubDate>
+      <guid>https://martinuke0.github.io/posts/supabase/</guid>
+      <description>&lt;h2 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h2&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;a href="#what-is-supabase"&gt;What is Supabase?&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#setting-up"&gt;Setting Up Your First Supabase Project&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#database-fundamentals"&gt;Database Fundamentals&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#authentication"&gt;Authentication (Auth)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#row-level-security"&gt;Row Level Security (RLS)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#realtime-subscriptions"&gt;Realtime Subscriptions&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#storage"&gt;Storage (File Uploads)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#edge-functions"&gt;Edge Functions&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#building-saas"&gt;Building a Complete SaaS Application&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#production-best-practices"&gt;Production Best Practices&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#resources"&gt;Resources&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#what-is-supabase&#34;&gt;What is Supabase?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#setting-up&#34;&gt;Setting Up Your First Supabase Project&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#database-fundamentals&#34;&gt;Database Fundamentals&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#authentication&#34;&gt;Authentication (Auth)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#row-level-security&#34;&gt;Row Level Security (RLS)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#realtime-subscriptions&#34;&gt;Realtime Subscriptions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#storage&#34;&gt;Storage (File Uploads)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#edge-functions&#34;&gt;Edge Functions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#building-saas&#34;&gt;Building a Complete SaaS Application&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#production-best-practices&#34;&gt;Production Best Practices&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#resources&#34;&gt;Resources&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;hr&gt;
-&lt;h2 id="what-is-supabase"&gt;What is Supabase?&lt;/h2&gt;
+&lt;h2 id=&#34;what-is-supabase&#34;&gt;What is Supabase?&lt;/h2&gt;
 &lt;p&gt;Supabase is an open-source Firebase alternative built on PostgreSQL. Think of it as your &lt;strong&gt;entire backend in a box&lt;/strong&gt;:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;PostgreSQL Database&lt;/strong&gt;: A real, powerful SQL database (not a limited NoSQL solution)&lt;/li&gt;
@@ -98,89 +181,145 @@ You&amp;rsquo;re giving everything you&amp;rsquo;ve got today to be perfect, but
 &lt;li&gt;&lt;strong&gt;Edge Functions&lt;/strong&gt;: Serverless backend logic&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Auto-generated APIs&lt;/strong&gt;: REST and GraphQL APIs created automatically from your database&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Why Supabase for SaaS?&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>The Complete Guide to Building SaaS with Cloudflare: From Beginner to Hero</title><link>https://martinuke0.github.io/posts/cloudflare/</link><pubDate>Fri, 28 Nov 2025 17:00:00 +0200</pubDate><guid>https://martinuke0.github.io/posts/cloudflare/</guid><description>&lt;p&gt;Imagine you&amp;rsquo;re building a house. You could buy land, lay the foundation, install plumbing, wire electricity, build walls, and so on. &lt;strong&gt;Or&lt;/strong&gt; you could move into a fully-equipped building where infrastructure is already handled, and you just focus on decorating and living.&lt;/p&gt;
-&lt;p&gt;Cloudflare is that fully-equipped building for the internet. It&amp;rsquo;s a platform that handles the hard infrastructure problems (speed, security, scaling) so you can focus on building your SaaS product.&lt;/p&gt;</description></item><item><title>The Complete Guide to Building a Cloudflare Workers OpenAI Proxy: From Beginner to Hero</title><link>https://martinuke0.github.io/posts/cloudflare-openai/</link><pubDate>Fri, 28 Nov 2025 16:15:00 +0200</pubDate><guid>https://martinuke0.github.io/posts/cloudflare-openai/</guid><description>&lt;p&gt;Using OpenAI APIs in frontend code is risky — exposing your API key is a security hazard.&lt;br&gt;
+&lt;p&gt;&lt;strong&gt;Why Supabase for SaaS?&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Complete Guide to Building SaaS with Cloudflare: From Beginner to Hero</title>
+      <link>https://martinuke0.github.io/posts/cloudflare/</link>
+      <pubDate>Fri, 28 Nov 2025 17:00:00 +0200</pubDate>
+      <guid>https://martinuke0.github.io/posts/cloudflare/</guid>
+      <description>&lt;p&gt;Imagine you&amp;rsquo;re building a house. You could buy land, lay the foundation, install plumbing, wire electricity, build walls, and so on. &lt;strong&gt;Or&lt;/strong&gt; you could move into a fully-equipped building where infrastructure is already handled, and you just focus on decorating and living.&lt;/p&gt;
+&lt;p&gt;Cloudflare is that fully-equipped building for the internet. It&amp;rsquo;s a platform that handles the hard infrastructure problems (speed, security, scaling) so you can focus on building your SaaS product.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Complete Guide to Building a Cloudflare Workers OpenAI Proxy: From Beginner to Hero</title>
+      <link>https://martinuke0.github.io/posts/cloudflare-openai/</link>
+      <pubDate>Fri, 28 Nov 2025 16:15:00 +0200</pubDate>
+      <guid>https://martinuke0.github.io/posts/cloudflare-openai/</guid>
+      <description>&lt;p&gt;Using OpenAI APIs in frontend code is risky — exposing your API key is a security hazard.&lt;br&gt;
 The solution is a &lt;strong&gt;Cloudflare Worker&lt;/strong&gt; that acts as a secure proxy. Your frontend calls the worker; the worker calls OpenAI with your key. The key stays secret.&lt;/p&gt;
 &lt;p&gt;This guide is &lt;strong&gt;beginner-friendly&lt;/strong&gt;, ELI5 style, and gradually moves to advanced techniques like streaming, caching, and rate-limiting.&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id="beginner-why-you-need-a-proxy"&gt;Beginner: Why You Need a Proxy&lt;/h2&gt;
+&lt;h2 id=&#34;beginner-why-you-need-a-proxy&#34;&gt;Beginner: Why You Need a Proxy&lt;/h2&gt;
 &lt;p&gt;Imagine you have a magic key that unlocks a powerful AI genie.&lt;br&gt;
-If you give that key to everyone, anyone can spend your genie’s wishes. That’s what happens if you put your API key in frontend code.&lt;/p&gt;</description></item><item><title>The Complete Guide to WebSockets and Socket.IO: From Beginner to Hero</title><link>https://martinuke0.github.io/posts/websockets/</link><pubDate>Fri, 28 Nov 2025 16:10:00 +0200</pubDate><guid>https://martinuke0.github.io/posts/websockets/</guid><description>&lt;h2 id="table-of-contents"&gt;Table of Contents&lt;/h2&gt;
+If you give that key to everyone, anyone can spend your genie’s wishes. That’s what happens if you put your API key in frontend code.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Complete Guide to WebSockets and Socket.IO: From Beginner to Hero</title>
+      <link>https://martinuke0.github.io/posts/websockets/</link>
+      <pubDate>Fri, 28 Nov 2025 16:10:00 +0200</pubDate>
+      <guid>https://martinuke0.github.io/posts/websockets/</guid>
+      <description>&lt;h2 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h2&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;a href="#introduction"&gt;Introduction: Why Real-Time Communication Matters&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#understanding-http"&gt;Understanding HTTP First (The Foundation)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#websocket-protocol"&gt;The WebSocket Protocol (The Game Changer)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#socket-io"&gt;Socket.IO (WebSockets on Steroids)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#first-application"&gt;Building Your First WebSocket Application&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#advanced-patterns"&gt;Advanced Patterns and Architectures&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#production"&gt;Production Considerations and Scaling&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#resources"&gt;Useful Resources&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#introduction&#34;&gt;Introduction: Why Real-Time Communication Matters&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#understanding-http&#34;&gt;Understanding HTTP First (The Foundation)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#websocket-protocol&#34;&gt;The WebSocket Protocol (The Game Changer)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#socket-io&#34;&gt;Socket.IO (WebSockets on Steroids)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#first-application&#34;&gt;Building Your First WebSocket Application&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#advanced-patterns&#34;&gt;Advanced Patterns and Architectures&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#production&#34;&gt;Production Considerations and Scaling&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#resources&#34;&gt;Useful Resources&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;hr&gt;
-&lt;h2 id="introduction"&gt;Introduction: Why Real-Time Communication Matters&lt;/h2&gt;
-&lt;p&gt;Imagine you&amp;rsquo;re having a conversation with a friend. In the old days of the web (and still today for most websites), it was like passing notes back and forth:&lt;/p&gt;</description></item><item><title>The Complete Guide to Building Chrome Extensions: From Beginner to Hero</title><link>https://martinuke0.github.io/posts/chrome-extension/</link><pubDate>Fri, 28 Nov 2025 16:07:00 +0200</pubDate><guid>https://martinuke0.github.io/posts/chrome-extension/</guid><description>&lt;p&gt;Chrome extensions allow you to deeply customize and enhance your browsing experience. Whether you want to modify webpages, create productivity tools, automate tasks, or publish to the Chrome Web Store, extensions provide a powerful yet beginner-friendly platform.&lt;/p&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction: Why Real-Time Communication Matters&lt;/h2&gt;
+&lt;p&gt;Imagine you&amp;rsquo;re having a conversation with a friend. In the old days of the web (and still today for most websites), it was like passing notes back and forth:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Complete Guide to Building Chrome Extensions: From Beginner to Hero</title>
+      <link>https://martinuke0.github.io/posts/chrome-extension/</link>
+      <pubDate>Fri, 28 Nov 2025 16:07:00 +0200</pubDate>
+      <guid>https://martinuke0.github.io/posts/chrome-extension/</guid>
+      <description>&lt;p&gt;Chrome extensions allow you to deeply customize and enhance your browsing experience. Whether you want to modify webpages, create productivity tools, automate tasks, or publish to the Chrome Web Store, extensions provide a powerful yet beginner-friendly platform.&lt;/p&gt;
 &lt;p&gt;This guide takes you from the fundamentals to a fully functioning extension, using &lt;strong&gt;Manifest V3&lt;/strong&gt;, the current standard for Chrome and Chromium-based browsers.&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id="understanding-the-chrome-extension-architecture"&gt;Understanding the Chrome Extension Architecture&lt;/h2&gt;
-&lt;p&gt;Every Chrome extension is built from the following core components:&lt;/p&gt;</description></item><item><title>Productivity</title><link>https://martinuke0.github.io/journal/best-productivity-tips/</link><pubDate>Fri, 28 Nov 2025 15:32:00 +0200</pubDate><guid>https://martinuke0.github.io/journal/best-productivity-tips/</guid><description>&lt;ol&gt;
+&lt;h2 id=&#34;understanding-the-chrome-extension-architecture&#34;&gt;Understanding the Chrome Extension Architecture&lt;/h2&gt;
+&lt;p&gt;Every Chrome extension is built from the following core components:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Productivity</title>
+      <link>https://martinuke0.github.io/journal/best-productivity-tips/</link>
+      <pubDate>Fri, 28 Nov 2025 15:32:00 +0200</pubDate>
+      <guid>https://martinuke0.github.io/journal/best-productivity-tips/</guid>
+      <description>&lt;ol&gt;
 &lt;li&gt;Every 15 minutes write what you have done, do it for a week.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;hr&gt;
-&lt;ol start="2"&gt;
+&lt;ol start=&#34;2&#34;&gt;
 &lt;li&gt;Schedule today a block of time tomorrow - for working on your business no matter what.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;hr&gt;
-&lt;ol start="3"&gt;
+&lt;ol start=&#34;3&#34;&gt;
 &lt;li&gt;What would You Tomorrow want You Today To Do?&lt;/li&gt;
-&lt;/ol&gt;</description></item><item><title>Elite Context Engineering: The R&amp;D Agent Strategy</title><link>https://martinuke0.github.io/posts/expert-agents/</link><pubDate>Fri, 28 Nov 2025 01:58:00 +0200</pubDate><guid>https://martinuke0.github.io/posts/expert-agents/</guid><description>&lt;p&gt;&lt;strong&gt;Master the art of context window management to build high-performance AI agents&lt;/strong&gt;&lt;/p&gt;
+&lt;/ol&gt;</description>
+    </item>
+    <item>
+      <title>Elite Context Engineering: The R&amp;D Agent Strategy</title>
+      <link>https://martinuke0.github.io/posts/expert-agents/</link>
+      <pubDate>Fri, 28 Nov 2025 01:58:00 +0200</pubDate>
+      <guid>https://martinuke0.github.io/posts/expert-agents/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Master the art of context window management to build high-performance AI agents&lt;/strong&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;em&gt;&amp;ldquo;A focused agent is a performant agent. Context engineering is the name of the game for high-value engineering in the age of agents.&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;hr&gt;
-&lt;h4 id="table-of-contents"&gt;Table of Contents&lt;/h4&gt;
+&lt;h4 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h4&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;a href="#foundation"&gt;Foundation&lt;/a&gt;
+&lt;li&gt;&lt;a href=&#34;#foundation&#34;&gt;Foundation&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="#what-is-context-engineering"&gt;What is Context Engineering?&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#the-rd-framework"&gt;The R&amp;amp;D Framework&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#what-is-context-engineering&#34;&gt;What is Context Engineering?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#the-rd-framework&#34;&gt;The R&amp;amp;D Framework&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;a href="#level-1-beginner---reduction-techniques"&gt;Level 1: Beginner - Reduction Techniques&lt;/a&gt;
+&lt;li&gt;&lt;a href=&#34;#level-1-beginner---reduction-techniques&#34;&gt;Level 1: Beginner - Reduction Techniques&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="#11-eliminate-wasteful-mcp-server-loading"&gt;1.1 Eliminate Wasteful MCP Server Loading&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#12-context-priming-over-large-memory-files"&gt;1.2 Context Priming Over Large Memory Files&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#11-eliminate-wasteful-mcp-server-loading&#34;&gt;1.1 Eliminate Wasteful MCP Server Loading&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#12-context-priming-over-large-memory-files&#34;&gt;1.2 Context Priming Over Large Memory Files&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;a href="#level-2-intermediate---delegation-with-sub-agents"&gt;Level 2: Intermediate - Delegation with Sub-Agents&lt;/a&gt;
+&lt;li&gt;&lt;a href=&#34;#level-2-intermediate---delegation-with-sub-agents&#34;&gt;Level 2: Intermediate - Delegation with Sub-Agents&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="#21-understanding-sub-agents"&gt;2.1 Understanding Sub-Agents&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#22-implementing-sub-agent-workflows"&gt;2.2 Implementing Sub-Agent Workflows&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#21-understanding-sub-agents&#34;&gt;2.1 Understanding Sub-Agents&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#22-implementing-sub-agent-workflows&#34;&gt;2.2 Implementing Sub-Agent Workflows&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;a href="#level-3-advanced---active-context-management"&gt;Level 3: Advanced - Active Context Management&lt;/a&gt;
+&lt;li&gt;&lt;a href=&#34;#level-3-advanced---active-context-management&#34;&gt;Level 3: Advanced - Active Context Management&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="#31-context-bundles"&gt;3.1 Context Bundles&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#32-session-recovery-workflows"&gt;3.2 Session Recovery Workflows&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#31-context-bundles&#34;&gt;3.1 Context Bundles&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#32-session-recovery-workflows&#34;&gt;3.2 Session Recovery Workflows&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;a href="#level-4-agentic---multi-agent-orchestration"&gt;Level 4: Agentic - Multi-Agent Orchestration&lt;/a&gt;
+&lt;li&gt;&lt;a href=&#34;#level-4-agentic---multi-agent-orchestration&#34;&gt;Level 4: Agentic - Multi-Agent Orchestration&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="#41-primary-multi-agent-delegation"&gt;4.1 Primary Multi-Agent Delegation&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#42-background-agent-workflows"&gt;4.2 Background Agent Workflows&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#43-agent-experts-pattern"&gt;4.3 Agent Experts Pattern&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#41-primary-multi-agent-delegation&#34;&gt;4.1 Primary Multi-Agent Delegation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#42-background-agent-workflows&#34;&gt;4.2 Background Agent Workflows&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#43-agent-experts-pattern&#34;&gt;4.3 Agent Experts Pattern&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;a href="#resources--next-steps"&gt;Resources &amp;amp; Next Steps&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#resources--next-steps&#34;&gt;Resources &amp;amp; Next Steps&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;hr&gt;
-&lt;h4 id="foundation"&gt;Foundation&lt;/h4&gt;
-&lt;h5 id="what-is-context-engineering"&gt;What is Context Engineering?&lt;/h5&gt;
-&lt;p&gt;&lt;strong&gt;Context Engineering&lt;/strong&gt; is the discipline of managing your AI agent&amp;rsquo;s context window to maximize performance, minimize waste, and scale your agent systems effectively.&lt;/p&gt;</description></item><item><title>Todo</title><link>https://martinuke0.github.io/journal/todolist/</link><pubDate>Fri, 28 Nov 2025 01:36:00 +0200</pubDate><guid>https://martinuke0.github.io/journal/todolist/</guid><description>&lt;ol&gt;
+&lt;h4 id=&#34;foundation&#34;&gt;Foundation&lt;/h4&gt;
+&lt;h5 id=&#34;what-is-context-engineering&#34;&gt;What is Context Engineering?&lt;/h5&gt;
+&lt;p&gt;&lt;strong&gt;Context Engineering&lt;/strong&gt; is the discipline of managing your AI agent&amp;rsquo;s context window to maximize performance, minimize waste, and scale your agent systems effectively.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Todo</title>
+      <link>https://martinuke0.github.io/journal/todolist/</link>
+      <pubDate>Fri, 28 Nov 2025 01:36:00 +0200</pubDate>
+      <guid>https://martinuke0.github.io/journal/todolist/</guid>
+      <description>&lt;ol&gt;
 &lt;li&gt;TodoList app - 15 minutes increment tasks&lt;/li&gt;
 &lt;li&gt;Cloudflare openai proxy&lt;/li&gt;
 &lt;li&gt;Screenshot analyzer chrome extension&lt;/li&gt;
 &lt;li&gt;&lt;/li&gt;
-&lt;/ol&gt;</description></item><item><title>28 Nov</title><link>https://martinuke0.github.io/journal/28nov/</link><pubDate>Fri, 28 Nov 2025 01:32:00 +0200</pubDate><guid>https://martinuke0.github.io/journal/28nov/</guid><description>&lt;p&gt;It&amp;rsquo;s easy to be lazy when you only think about yourself.
+&lt;/ol&gt;</description>
+    </item>
+    <item>
+      <title>28 Nov</title>
+      <link>https://martinuke0.github.io/journal/28nov/</link>
+      <pubDate>Fri, 28 Nov 2025 01:32:00 +0200</pubDate>
+      <guid>https://martinuke0.github.io/journal/28nov/</guid>
+      <description>&lt;p&gt;It&amp;rsquo;s easy to be lazy when you only think about yourself.
 When you love others things change.
 When things don&amp;rsquo;t change, you don&amp;rsquo;t love enough.
 Time is ticking.&lt;/p&gt;
@@ -192,42 +331,63 @@ Time is ticking.&lt;/p&gt;
 &lt;p&gt;Every man is addicted to something Khabib said, choose to be addicted to discipline.
 Your ego is telling you&amp;rsquo;re special. But you&amp;rsquo;re not.
 We are all the same.
-How much do you want it?&lt;/p&gt;</description></item><item><title>The Complete Guide to Triangle Minimum Path Sum: From Brute Force to System Design</title><link>https://martinuke0.github.io/posts/triangle-dp/</link><pubDate>Fri, 28 Nov 2025 01:07:00 +0200</pubDate><guid>https://martinuke0.github.io/posts/triangle-dp/</guid><description>&lt;p&gt;&lt;strong&gt;Triangle Minimum Path Sum&lt;/strong&gt;: Given a triangle array, return the minimum path sum from top to bottom.&lt;/p&gt;
+How much do you want it?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Complete Guide to Triangle Minimum Path Sum: From Brute Force to System Design</title>
+      <link>https://martinuke0.github.io/posts/triangle-dp/</link>
+      <pubDate>Fri, 28 Nov 2025 01:07:00 +0200</pubDate>
+      <guid>https://martinuke0.github.io/posts/triangle-dp/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Triangle Minimum Path Sum&lt;/strong&gt;: Given a triangle array, return the minimum path sum from top to bottom.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Key Constraint&lt;/strong&gt;: From position &lt;code&gt;(i, j)&lt;/code&gt;, you can only move to &lt;code&gt;(i+1, j)&lt;/code&gt; or &lt;code&gt;(i+1, j+1)&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre tabindex="0"&gt;&lt;code&gt;[2]
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;[2]
 [3,4]
 [6,5,7]
 [4,1,8,3]
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Minimum path: 2 → 3 → 5 → 1 = &lt;strong&gt;11&lt;/strong&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id="quick-start-the-5-minute-solution"&gt;Quick Start: The 5-Minute Solution&lt;/h3&gt;
-&lt;h4 id="intuition-think-like-a-human"&gt;Intuition (Think Like a Human)&lt;/h4&gt;
-&lt;p&gt;Imagine you&amp;rsquo;re at the top and need to reach the bottom with minimum cost. At each step, ask: &lt;strong&gt;&amp;ldquo;Which path below me is cheaper?&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>The Complete SSH Guide for GitHub: From Beginner to Expert</title><link>https://martinuke0.github.io/posts/github-ssh-deep-dive/</link><pubDate>Thu, 27 Nov 2025 22:46:00 +0200</pubDate><guid>https://martinuke0.github.io/posts/github-ssh-deep-dive/</guid><description>&lt;h3 id="what-is-ssh-in-simple-terms"&gt;What is SSH in Simple Terms?&lt;/h3&gt;
+&lt;h3 id=&#34;quick-start-the-5-minute-solution&#34;&gt;Quick Start: The 5-Minute Solution&lt;/h3&gt;
+&lt;h4 id=&#34;intuition-think-like-a-human&#34;&gt;Intuition (Think Like a Human)&lt;/h4&gt;
+&lt;p&gt;Imagine you&amp;rsquo;re at the top and need to reach the bottom with minimum cost. At each step, ask: &lt;strong&gt;&amp;ldquo;Which path below me is cheaper?&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Complete SSH Guide for GitHub: From Beginner to Expert</title>
+      <link>https://martinuke0.github.io/posts/github-ssh-deep-dive/</link>
+      <pubDate>Thu, 27 Nov 2025 22:46:00 +0200</pubDate>
+      <guid>https://martinuke0.github.io/posts/github-ssh-deep-dive/</guid>
+      <description>&lt;h3 id=&#34;what-is-ssh-in-simple-terms&#34;&gt;What is SSH in Simple Terms?&lt;/h3&gt;
 &lt;p&gt;Think of SSH keys like a &lt;strong&gt;secure key and lock system&lt;/strong&gt; for your computer to talk to GitHub:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Private Key&lt;/strong&gt; = Your actual house key (keep it secret!)&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Public Key&lt;/strong&gt; = A copy of your lock that you give to GitHub&lt;/li&gt;
 &lt;li&gt;When you connect, GitHub tests your key in their lock - if it fits, you&amp;rsquo;re in!&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id="step-by-step-setup-5-minutes"&gt;Step-by-Step Setup (5 minutes)&lt;/h3&gt;
-&lt;h4 id="1-create-your-ssh-key"&gt;1. Create Your SSH Key&lt;/h4&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;ssh-keygen -t ed25519 -C &lt;span style="color:#e6db74"&gt;&amp;#34;your_email@example.com&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Press Enter 3 times (uses default locations, no password)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Creates two files: id_ed25519 (private) and id_ed25519.pub (public)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id="2-add-key-to-ssh-agent"&gt;2. Add Key to SSH Agent&lt;/h4&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Start the SSH agent&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;eval &lt;span style="color:#e6db74"&gt;&amp;#34;&lt;/span&gt;&lt;span style="color:#66d9ef"&gt;$(&lt;/span&gt;ssh-agent -s&lt;span style="color:#66d9ef"&gt;)&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Add your private key&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;ssh-add ~/.ssh/id_ed25519
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id="3-add-public-key-to-github"&gt;3. Add Public Key to GitHub&lt;/h4&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Copy your public key to clipboard&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;cat ~/.ssh/id_ed25519.pub | pbcopy &lt;span style="color:#75715e"&gt;# macOS&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# OR&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;cat ~/.ssh/id_ed25519.pub | xclip -selection clipboard &lt;span style="color:#75715e"&gt;# Linux&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Then:&lt;/p&gt;</description></item><item><title>My First Journal Entry</title><link>https://martinuke0.github.io/journal/my-first-journal-entry/</link><pubDate>Thu, 27 Nov 2025 13:46:00 +0200</pubDate><guid>https://martinuke0.github.io/journal/my-first-journal-entry/</guid><description>&lt;p&gt;This is my personal journal space - a place for thoughts, reflections, and ideas that don&amp;rsquo;t fit into structured blog posts.&lt;/p&gt;
-&lt;h2 id="why-i-started-this-journal"&gt;Why I Started This Journal&lt;/h2&gt;
+&lt;h3 id=&#34;step-by-step-setup-5-minutes&#34;&gt;Step-by-Step Setup (5 minutes)&lt;/h3&gt;
+&lt;h4 id=&#34;1-create-your-ssh-key&#34;&gt;1. Create Your SSH Key&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ssh-keygen -t ed25519 -C &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;your_email@example.com&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Press Enter 3 times (uses default locations, no password)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Creates two files: id_ed25519 (private) and id_ed25519.pub (public)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;2-add-key-to-ssh-agent&#34;&gt;2. Add Key to SSH Agent&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Start the SSH agent&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;eval &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;$(&lt;/span&gt;ssh-agent -s&lt;span style=&#34;color:#66d9ef&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Add your private key&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ssh-add ~/.ssh/id_ed25519
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;3-add-public-key-to-github&#34;&gt;3. Add Public Key to GitHub&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Copy your public key to clipboard&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cat ~/.ssh/id_ed25519.pub | pbcopy  &lt;span style=&#34;color:#75715e&#34;&gt;# macOS&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# OR&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cat ~/.ssh/id_ed25519.pub | xclip -selection clipboard  &lt;span style=&#34;color:#75715e&#34;&gt;# Linux&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Then:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My First Journal Entry</title>
+      <link>https://martinuke0.github.io/journal/my-first-journal-entry/</link>
+      <pubDate>Thu, 27 Nov 2025 13:46:00 +0200</pubDate>
+      <guid>https://martinuke0.github.io/journal/my-first-journal-entry/</guid>
+      <description>&lt;p&gt;This is my personal journal space - a place for thoughts, reflections, and ideas that don&amp;rsquo;t fit into structured blog posts.&lt;/p&gt;
+&lt;h2 id=&#34;why-i-started-this-journal&#34;&gt;Why I Started This Journal&lt;/h2&gt;
 &lt;p&gt;I wanted a space separate from my technical blog where I could:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Write freely without worrying about structure&lt;/li&gt;
@@ -235,21 +395,52 @@ How much do you want it?&lt;/p&gt;</description></item><item><title>The Complete
 &lt;li&gt;Reflect on daily experiences&lt;/li&gt;
 &lt;li&gt;Capture random thoughts and ideas&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="todays-thoughts"&gt;Today&amp;rsquo;s Thoughts&lt;/h2&gt;
+&lt;h2 id=&#34;todays-thoughts&#34;&gt;Today&amp;rsquo;s Thoughts&lt;/h2&gt;
 &lt;p&gt;&lt;em&gt;This is where you write your personal thoughts&amp;hellip;&lt;/em&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Journal entries are more personal and less polished than blog posts. They&amp;rsquo;re meant to be authentic snapshots of my thinking at a particular moment.&lt;/p&gt;</description></item><item><title>GitHub Actions: From Zero to Hero - A Complete Tutorial</title><link>https://martinuke0.github.io/posts/github-actions-tutorial/</link><pubDate>Thu, 27 Nov 2025 13:38:00 +0200</pubDate><guid>https://martinuke0.github.io/posts/github-actions-tutorial/</guid><description>&lt;p&gt;GitHub Actions is like having a robot assistant that automatically does tasks for you whenever something happens in your GitHub repository. This tutorial will take you from complete beginner to advanced user, putting you ahead of 90% of developers.&lt;/p&gt;
-&lt;h3 id="table-of-contents"&gt;Table of Contents&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Journal entries are more personal and less polished than blog posts. They&amp;rsquo;re meant to be authentic snapshots of my thinking at a particular moment.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>GitHub Actions: From Zero to Hero - A Complete Tutorial</title>
+      <link>https://martinuke0.github.io/posts/github-actions-tutorial/</link>
+      <pubDate>Thu, 27 Nov 2025 13:38:00 +0200</pubDate>
+      <guid>https://martinuke0.github.io/posts/github-actions-tutorial/</guid>
+      <description>&lt;p&gt;GitHub Actions is like having a robot assistant that automatically does tasks for you whenever something happens in your GitHub repository. This tutorial will take you from complete beginner to advanced user, putting you ahead of 90% of developers.&lt;/p&gt;
+&lt;h3 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h3&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;a href="#what-is-github-actions-eli5"&gt;What is GitHub Actions? (ELI5)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#core-concepts"&gt;Core Concepts&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#your-first-workflow"&gt;Your First Workflow&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#intermediate-techniques"&gt;Intermediate Techniques&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#advanced-patterns"&gt;Advanced Patterns&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#real-world-examples"&gt;Real-World Examples&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#pro-tips--best-practices"&gt;Pro Tips &amp;amp; Best Practices&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#useful-resources"&gt;Useful Resources&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#what-is-github-actions-eli5&#34;&gt;What is GitHub Actions? (ELI5)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#core-concepts&#34;&gt;Core Concepts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#your-first-workflow&#34;&gt;Your First Workflow&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#intermediate-techniques&#34;&gt;Intermediate Techniques&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#advanced-patterns&#34;&gt;Advanced Patterns&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#real-world-examples&#34;&gt;Real-World Examples&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#pro-tips--best-practices&#34;&gt;Pro Tips &amp;amp; Best Practices&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#useful-resources&#34;&gt;Useful Resources&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;hr&gt;
-&lt;h3 id="what-is-github-actions-eli5"&gt;What is GitHub Actions? (ELI5)&lt;/h3&gt;
-&lt;p&gt;Imagine you have a lemonade stand. Every time you make lemonade, you need to:&lt;/p&gt;</description></item><item><title>Hello World</title><link>https://martinuke0.github.io/posts/hello-world/</link><pubDate>Tue, 25 Nov 2025 20:58:04 +0200</pubDate><guid>https://martinuke0.github.io/posts/hello-world/</guid><description>&lt;p&gt;Welcome to my new blog! This is the first post.&lt;/p&gt;</description></item><item><title>Support</title><link>https://martinuke0.github.io/Support/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://martinuke0.github.io/Support/</guid><description>Support</description></item><item><title>Useful Links</title><link>https://martinuke0.github.io/useful-links/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://martinuke0.github.io/useful-links/</guid><description>useful-links</description></item></channel></rss>
+&lt;h3 id=&#34;what-is-github-actions-eli5&#34;&gt;What is GitHub Actions? (ELI5)&lt;/h3&gt;
+&lt;p&gt;Imagine you have a lemonade stand. Every time you make lemonade, you need to:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hello World</title>
+      <link>https://martinuke0.github.io/posts/hello-world/</link>
+      <pubDate>Tue, 25 Nov 2025 20:58:04 +0200</pubDate>
+      <guid>https://martinuke0.github.io/posts/hello-world/</guid>
+      <description>&lt;p&gt;Welcome to my new blog! This is the first post.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Support</title>
+      <link>https://martinuke0.github.io/Support/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://martinuke0.github.io/Support/</guid>
+      <description>Support</description>
+    </item>
+    <item>
+      <title>Useful Links</title>
+      <link>https://martinuke0.github.io/useful-links/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://martinuke0.github.io/useful-links/</guid>
+      <description>useful-links</description>
+    </item>
+  </channel>
+</rss>
