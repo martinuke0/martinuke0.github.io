@@ -1,6 +1,6 @@
 ---
 title: "Redis Zero to Hero: Complete Guide to Mastering Redis for Modern System Design"
-date: "2024-01-15T10:00:00Z"
+date: "2025-12-04T23:13:00Z"
 draft: false
 tags: ["redis", "database", "system-design", "caching", "nosql", "performance"]
 ---
