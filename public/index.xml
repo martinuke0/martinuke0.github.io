@@ -561,31 +561,6 @@ How much do you want it?&lt;/p&gt;</description>
       <description>&lt;p&gt;Welcome to my new blog! This is the first post.&lt;/p&gt;</description>
     </item>
     <item>
-      <title></title>
-      <link>http://localhost:56312/posts/top50sd/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:56312/posts/top50sd/</guid>
-      <description>&lt;p&gt;title: &amp;ldquo;Top 50 Technologies for Mastering System Design: Complete Guide with Resources&amp;rdquo; date: 2024-01-15 draft: false tags: [&amp;ldquo;system-design&amp;rdquo;, &amp;ldquo;architecture&amp;rdquo;, &amp;ldquo;technology&amp;rdquo;, &amp;ldquo;software-engineering&amp;rdquo;, &amp;ldquo;scalability&amp;rdquo;, &amp;ldquo;distributed-systems&amp;rdquo;]
-Table of Contents
-Introduction
-Database Technologies
-Caching Technologies
-Message Queue Technologies
-Load Balancing &amp;amp; CDN
-Container &amp;amp; Orchestration
-API Gateway &amp;amp; Service Mesh
-Search Technologies
-Monitoring &amp;amp; Observability
-Streaming Technologies
-Storage Technologies
-Security Technologies
-Additional Essential Technologies
-Resources &amp;amp; Learning Materials
-Conclusion
-Introduction
-System design is a critical skill for software engineers, architects, and technical leaders. Whether you&amp;rsquo;re preparing for technical interviews at FAANG companies or building scalable production systems, understanding the right technologies and when to use them is essential. This comprehensive guide covers the top 50 technologies you need to master for system design, organized by category with practical insights into their use cases and trade-offs.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Support</title>
       <link>http://localhost:56312/Support/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
