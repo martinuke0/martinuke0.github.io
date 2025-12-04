@@ -11,41 +11,209 @@
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 02 Dec 2025 16:10:00 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 04 Dec 2025 15:00:00 +0200</lastBuildDate>
     <atom:link href="http://localhost:56312/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Agents</title>
+      <link>http://localhost:56312/tags/agents/</link>
+      <pubDate>Thu, 04 Dec 2025 15:00:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/agents/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ai</title>
+      <link>http://localhost:56312/tags/ai/</link>
+      <pubDate>Thu, 04 Dec 2025 15:00:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Langchain</title>
+      <link>http://localhost:56312/tags/langchain/</link>
+      <pubDate>Thu, 04 Dec 2025 15:00:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/langchain/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Llm</title>
+      <link>http://localhost:56312/tags/llm/</link>
+      <pubDate>Thu, 04 Dec 2025 15:00:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/llm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Machine-Learning</title>
+      <link>http://localhost:56312/tags/machine-learning/</link>
+      <pubDate>Thu, 04 Dec 2025 15:00:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>http://localhost:56312/tags/python/</link>
+      <pubDate>Thu, 04 Dec 2025 15:00:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Entrepreneurship</title>
+      <link>http://localhost:56312/tags/entrepreneurship/</link>
+      <pubDate>Thu, 04 Dec 2025 14:56:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/entrepreneurship/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Future</title>
+      <link>http://localhost:56312/tags/future/</link>
+      <pubDate>Thu, 04 Dec 2025 14:56:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/future/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Innovation</title>
+      <link>http://localhost:56312/tags/innovation/</link>
+      <pubDate>Thu, 04 Dec 2025 14:56:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/innovation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Startups</title>
+      <link>http://localhost:56312/tags/startups/</link>
+      <pubDate>Thu, 04 Dec 2025 14:56:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/startups/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Technology</title>
+      <link>http://localhost:56312/tags/technology/</link>
+      <pubDate>Thu, 04 Dec 2025 14:56:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/technology/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Distributed-Systems</title>
+      <link>http://localhost:56312/tags/distributed-systems/</link>
+      <pubDate>Thu, 04 Dec 2025 12:51:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/distributed-systems/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Message-Queue</title>
+      <link>http://localhost:56312/tags/message-queue/</link>
+      <pubDate>Thu, 04 Dec 2025 12:51:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/message-queue/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Microservices</title>
+      <link>http://localhost:56312/tags/microservices/</link>
+      <pubDate>Thu, 04 Dec 2025 12:51:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/microservices/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nodejs</title>
+      <link>http://localhost:56312/tags/nodejs/</link>
+      <pubDate>Thu, 04 Dec 2025 12:51:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/nodejs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rabbitmq</title>
+      <link>http://localhost:56312/tags/rabbitmq/</link>
+      <pubDate>Thu, 04 Dec 2025 12:51:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/rabbitmq/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>System-Design</title>
+      <link>http://localhost:56312/tags/system-design/</link>
+      <pubDate>Thu, 04 Dec 2025 12:51:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/system-design/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Human-Centered</title>
+      <link>http://localhost:56312/tags/human-centered/</link>
+      <pubDate>Wed, 03 Dec 2025 20:23:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/human-centered/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Magentic-Ui</title>
+      <link>http://localhost:56312/tags/magentic-ui/</link>
+      <pubDate>Wed, 03 Dec 2025 20:23:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/magentic-ui/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Microsoft-Research</title>
+      <link>http://localhost:56312/tags/microsoft-research/</link>
+      <pubDate>Wed, 03 Dec 2025 20:23:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/microsoft-research/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>React</title>
+      <link>http://localhost:56312/tags/react/</link>
+      <pubDate>Wed, 03 Dec 2025 20:23:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/react/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web-Development</title>
+      <link>http://localhost:56312/tags/web-development/</link>
+      <pubDate>Wed, 03 Dec 2025 20:23:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/web-development/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Event-Streaming</title>
+      <link>http://localhost:56312/tags/event-streaming/</link>
+      <pubDate>Wed, 03 Dec 2025 20:17:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/event-streaming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kafka</title>
+      <link>http://localhost:56312/tags/kafka/</link>
+      <pubDate>Wed, 03 Dec 2025 20:17:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/kafka/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kafkajs</title>
+      <link>http://localhost:56312/tags/kafkajs/</link>
+      <pubDate>Wed, 03 Dec 2025 20:17:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/kafkajs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Messaging</title>
+      <link>http://localhost:56312/tags/messaging/</link>
+      <pubDate>Wed, 03 Dec 2025 20:17:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/messaging/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Business</title>
       <link>http://localhost:56312/tags/business/</link>
-      <pubDate>Tue, 02 Dec 2025 16:10:00 +0200</pubDate>
+      <pubDate>Tue, 02 Dec 2025 23:58:00 +0200</pubDate>
       <guid>http://localhost:56312/tags/business/</guid>
       <description></description>
     </item>
     <item>
       <title>Fastapi</title>
       <link>http://localhost:56312/tags/fastapi/</link>
-      <pubDate>Tue, 02 Dec 2025 16:10:00 +0200</pubDate>
+      <pubDate>Tue, 02 Dec 2025 23:58:00 +0200</pubDate>
       <guid>http://localhost:56312/tags/fastapi/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Python</title>
-      <link>http://localhost:56312/tags/python/</link>
-      <pubDate>Tue, 02 Dec 2025 16:10:00 +0200</pubDate>
-      <guid>http://localhost:56312/tags/python/</guid>
       <description></description>
     </item>
     <item>
       <title>Sales-Funnels</title>
       <link>http://localhost:56312/tags/sales-funnels/</link>
-      <pubDate>Tue, 02 Dec 2025 16:10:00 +0200</pubDate>
+      <pubDate>Tue, 02 Dec 2025 23:58:00 +0200</pubDate>
       <guid>http://localhost:56312/tags/sales-funnels/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Web-Development</title>
-      <link>http://localhost:56312/tags/web-development/</link>
-      <pubDate>Tue, 02 Dec 2025 16:10:00 +0200</pubDate>
-      <guid>http://localhost:56312/tags/web-development/</guid>
       <description></description>
     </item>
     <item>
@@ -102,13 +270,6 @@
       <link>http://localhost:56312/tags/bot/</link>
       <pubDate>Mon, 01 Dec 2025 00:45:00 +0200</pubDate>
       <guid>http://localhost:56312/tags/bot/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Messaging</title>
-      <link>http://localhost:56312/tags/messaging/</link>
-      <pubDate>Mon, 01 Dec 2025 00:45:00 +0200</pubDate>
-      <guid>http://localhost:56312/tags/messaging/</guid>
       <description></description>
     </item>
     <item>
@@ -172,13 +333,6 @@
       <link>http://localhost:56312/tags/javascript/</link>
       <pubDate>Sat, 29 Nov 2025 17:09:00 +0200</pubDate>
       <guid>http://localhost:56312/tags/javascript/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Nodejs</title>
-      <link>http://localhost:56312/tags/nodejs/</link>
-      <pubDate>Sat, 29 Nov 2025 17:09:00 +0200</pubDate>
-      <guid>http://localhost:56312/tags/nodejs/</guid>
       <description></description>
     </item>
     <item>
@@ -354,13 +508,6 @@
       <link>http://localhost:56312/tags/optimization/</link>
       <pubDate>Fri, 28 Nov 2025 01:07:00 +0200</pubDate>
       <guid>http://localhost:56312/tags/optimization/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>System-Design</title>
-      <link>http://localhost:56312/tags/system-design/</link>
-      <pubDate>Fri, 28 Nov 2025 01:07:00 +0200</pubDate>
-      <guid>http://localhost:56312/tags/system-design/</guid>
       <description></description>
     </item>
     <item>

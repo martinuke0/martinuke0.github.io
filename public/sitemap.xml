@@ -2,6 +2,166 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:56312/tags/agents/</loc>
+    <lastmod>2025-12-04T15:00:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/tags/ai/</loc>
+    <lastmod>2025-12-04T15:00:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/categories/ai/</loc>
+    <lastmod>2025-12-04T15:00:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/categories/</loc>
+    <lastmod>2025-12-04T15:00:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/tags/langchain/</loc>
+    <lastmod>2025-12-04T15:00:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/posts/langchain-deep-agents/</loc>
+    <lastmod>2025-12-04T15:00:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/tags/llm/</loc>
+    <lastmod>2025-12-04T15:00:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/tags/machine-learning/</loc>
+    <lastmod>2025-12-04T15:00:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/</loc>
+    <lastmod>2025-12-04T15:00:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/posts/</loc>
+    <lastmod>2025-12-04T15:00:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/categories/programming/</loc>
+    <lastmod>2025-12-04T15:00:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/tags/python/</loc>
+    <lastmod>2025-12-04T15:00:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/tags/</loc>
+    <lastmod>2025-12-04T15:00:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/categories/technology/</loc>
+    <lastmod>2025-12-04T15:00:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/categories/books/</loc>
+    <lastmod>2025-12-04T14:56:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/categories/entrepreneurship/</loc>
+    <lastmod>2025-12-04T14:56:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/tags/entrepreneurship/</loc>
+    <lastmod>2025-12-04T14:56:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/tags/future/</loc>
+    <lastmod>2025-12-04T14:56:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/tags/innovation/</loc>
+    <lastmod>2025-12-04T14:56:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/tags/startups/</loc>
+    <lastmod>2025-12-04T14:56:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/tags/technology/</loc>
+    <lastmod>2025-12-04T14:56:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/posts/zero-to-one/</loc>
+    <lastmod>2025-12-04T14:56:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/tags/distributed-systems/</loc>
+    <lastmod>2025-12-04T12:51:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/tags/message-queue/</loc>
+    <lastmod>2025-12-04T12:51:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/tags/microservices/</loc>
+    <lastmod>2025-12-04T12:51:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/tags/nodejs/</loc>
+    <lastmod>2025-12-04T12:51:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/tags/rabbitmq/</loc>
+    <lastmod>2025-12-04T12:51:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/tags/system-design/</loc>
+    <lastmod>2025-12-04T12:51:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/posts/rabbitmq/</loc>
+    <lastmod>2025-12-04T12:51:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/tags/human-centered/</loc>
+    <lastmod>2025-12-03T20:23:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/tags/magentic-ui/</loc>
+    <lastmod>2025-12-03T20:23:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/tags/microsoft-research/</loc>
+    <lastmod>2025-12-03T20:23:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/tags/react/</loc>
+    <lastmod>2025-12-03T20:23:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/posts/magentic-ui/</loc>
+    <lastmod>2025-12-03T20:23:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/tags/web-development/</loc>
+    <lastmod>2025-12-03T20:23:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/tags/event-streaming/</loc>
+    <lastmod>2025-12-03T20:17:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/tags/kafka/</loc>
+    <lastmod>2025-12-03T20:17:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/tags/kafkajs/</loc>
+    <lastmod>2025-12-03T20:17:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/tags/messaging/</loc>
+    <lastmod>2025-12-03T20:17:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/posts/kafkajs/</loc>
+    <lastmod>2025-12-03T20:17:00+02:00</lastmod>
+  </url>
+  <url>
     <loc>http://localhost:56312/tags/business/</loc>
     <lastmod>2025-12-02T23:58:00+02:00</lastmod>
   </url>
@@ -10,31 +170,11 @@
     <lastmod>2025-12-02T23:58:00+02:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:56312/</loc>
-    <lastmod>2025-12-02T23:58:00+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://localhost:56312/posts/</loc>
-    <lastmod>2025-12-02T23:58:00+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://localhost:56312/tags/python/</loc>
-    <lastmod>2025-12-02T23:58:00+02:00</lastmod>
-  </url>
-  <url>
     <loc>http://localhost:56312/tags/sales-funnels/</loc>
     <lastmod>2025-12-02T23:58:00+02:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:56312/tags/</loc>
-    <lastmod>2025-12-02T23:58:00+02:00</lastmod>
-  </url>
-  <url>
     <loc>http://localhost:56312/posts/funnel/</loc>
-    <lastmod>2025-12-02T23:58:00+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://localhost:56312/tags/web-development/</loc>
     <lastmod>2025-12-02T23:58:00+02:00</lastmod>
   </url>
   <url>
@@ -83,10 +223,6 @@
   </url>
   <url>
     <loc>http://localhost:56312/posts/telegram/</loc>
-    <lastmod>2025-12-01T00:45:00+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://localhost:56312/tags/messaging/</loc>
     <lastmod>2025-12-01T00:45:00+02:00</lastmod>
   </url>
   <url>
@@ -139,10 +275,6 @@
   </url>
   <url>
     <loc>http://localhost:56312/tags/javascript/</loc>
-    <lastmod>2025-11-29T17:09:00+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://localhost:56312/tags/nodejs/</loc>
     <lastmod>2025-11-29T17:09:00+02:00</lastmod>
   </url>
   <url>
@@ -290,10 +422,6 @@
     <lastmod>2025-11-28T01:07:00+02:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:56312/tags/system-design/</loc>
-    <lastmod>2025-11-28T01:07:00+02:00</lastmod>
-  </url>
-  <url>
     <loc>http://localhost:56312/posts/triangle-dp/</loc>
     <lastmod>2025-11-28T01:07:00+02:00</lastmod>
   </url>
@@ -331,10 +459,6 @@
   </url>
   <url>
     <loc>http://localhost:56312/tags/automation/</loc>
-    <lastmod>2025-11-27T13:38:00+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://localhost:56312/categories/</loc>
     <lastmod>2025-11-27T13:38:00+02:00</lastmod>
   </url>
   <url>

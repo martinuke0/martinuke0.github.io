@@ -11,8 +11,92 @@
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 02 Dec 2025 23:58:00 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 04 Dec 2025 15:00:00 +0200</lastBuildDate>
     <atom:link href="http://localhost:56312/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LangChain Zero to Hero: From Basic Chains to Deep Agents</title>
+      <link>http://localhost:56312/posts/langchain-deep-agents/</link>
+      <pubDate>Thu, 04 Dec 2025 15:00:00 +0200</pubDate>
+      <guid>http://localhost:56312/posts/langchain-deep-agents/</guid>
+      <description>Complete guide to LangChain from fundamentals to advanced deep agents with Python examples</description>
+    </item>
+    <item>
+      <title>Zero to One: Ten Ideas</title>
+      <link>http://localhost:56312/posts/zero-to-one/</link>
+      <pubDate>Thu, 04 Dec 2025 14:56:00 +0200</pubDate>
+      <guid>http://localhost:56312/posts/zero-to-one/</guid>
+      <description>Zero to One: Ten Ideas: A Startup&amp;#39;s Guide to Building a Future</description>
+    </item>
+    <item>
+      <title>The Complete Guide to RabbitMQ: From Beginner to Hero</title>
+      <link>http://localhost:56312/posts/rabbitmq/</link>
+      <pubDate>Thu, 04 Dec 2025 12:51:00 +0200</pubDate>
+      <guid>http://localhost:56312/posts/rabbitmq/</guid>
+      <description>&lt;h2 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;#introduction&#34;&gt;Introduction: Why Message Queues Matter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#rabbitmq-fundamentals&#34;&gt;Understanding RabbitMQ Fundamentals&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#system-design&#34;&gt;System Design with Message Queues&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#setup&#34;&gt;Setting Up Your Development Environment&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#first-producer&#34;&gt;Your First RabbitMQ Producer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#first-consumer&#34;&gt;Your First RabbitMQ Consumer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#advanced-patterns&#34;&gt;Advanced Messaging Patterns&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#error-handling&#34;&gt;Error Handling and Reliability&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#performance&#34;&gt;Performance Optimization&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#monitoring&#34;&gt;Monitoring and Operations&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#production&#34;&gt;Production Deployment&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#resources&#34;&gt;Resources and Further Learning&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction: Why Message Queues Matter&lt;/h2&gt;
+&lt;p&gt;In modern distributed systems, &lt;strong&gt;message queues&lt;/strong&gt; have become as fundamental as databases. Think of them as the &lt;strong&gt;nervous system&lt;/strong&gt; for your microservices architecture:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Complete Guide to Magentic UI: From Beginner to Hero</title>
+      <link>http://localhost:56312/posts/magentic-ui/</link>
+      <pubDate>Wed, 03 Dec 2025 20:23:00 +0200</pubDate>
+      <guid>http://localhost:56312/posts/magentic-ui/</guid>
+      <description>&lt;h2 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;#introduction&#34;&gt;Introduction: What is Magentic UI?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#core-concepts&#34;&gt;Understanding the Core Concepts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#setup&#34;&gt;Setting Up Your Development Environment&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#project1&#34;&gt;Project 1: AI-Powered Task Manager&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#project2&#34;&gt;Project 2: Smart Content Generator&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#project3&#34;&gt;Project 3: Conversational Data Explorer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#advanced-patterns&#34;&gt;Advanced Patterns and Best Practices&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#ai-integration&#34;&gt;Integration with AI Services&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#production&#34;&gt;Production Deployment&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#resources&#34;&gt;Resources and Further Learning&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction: What is Magentic UI?&lt;/h2&gt;
+&lt;p&gt;Magentic UI is an experimental framework from Microsoft Research that represents a paradigm shift in how we build human-AI collaborative interfaces. Instead of traditional UI where humans click buttons and fill forms, Magentic UI creates &lt;strong&gt;conversational, adaptive interfaces&lt;/strong&gt; where AI and humans work together as partners.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Complete Guide to KafkaJS: From Beginner to Hero</title>
+      <link>http://localhost:56312/posts/kafkajs/</link>
+      <pubDate>Wed, 03 Dec 2025 20:17:00 +0200</pubDate>
+      <guid>http://localhost:56312/posts/kafkajs/</guid>
+      <description>&lt;h2 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;#introduction&#34;&gt;Introduction: Why Kafka and KafkaJS Matter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#kafka-fundamentals&#34;&gt;Understanding Kafka Fundamentals&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#setup&#34;&gt;Setting Up Your Development Environment&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#first-producer&#34;&gt;Your First KafkaJS Producer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#first-consumer&#34;&gt;Your First KafkaJS Consumer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#advanced-producer&#34;&gt;Advanced Producer Patterns&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#advanced-consumer&#34;&gt;Advanced Consumer Patterns&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#schema-management&#34;&gt;Schema Management and Serialization&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#error-handling&#34;&gt;Error Handling and Resilience&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#performance&#34;&gt;Performance Optimization&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#production&#34;&gt;Production Deployment&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#resources&#34;&gt;Resources and Further Learning&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction: Why Kafka and KafkaJS Matter&lt;/h2&gt;
+&lt;p&gt;Apache Kafka has become the backbone of modern data architecture. Think of it as the &lt;strong&gt;central nervous system&lt;/strong&gt; for your applications:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>The Complete Guide to Python Sales Funnels with FastAPI: From Beginner to Hero</title>
       <link>http://localhost:56312/posts/funnel/</link>
