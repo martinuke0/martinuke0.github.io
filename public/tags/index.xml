@@ -11,8 +11,50 @@
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 04 Dec 2025 15:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 04 Dec 2025 23:13:00 +0200</lastBuildDate>
     <atom:link href="http://localhost:56312/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Caching</title>
+      <link>http://localhost:56312/tags/caching/</link>
+      <pubDate>Thu, 04 Dec 2025 23:13:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/caching/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Database</title>
+      <link>http://localhost:56312/tags/database/</link>
+      <pubDate>Thu, 04 Dec 2025 23:13:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/database/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nosql</title>
+      <link>http://localhost:56312/tags/nosql/</link>
+      <pubDate>Thu, 04 Dec 2025 23:13:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/nosql/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Performance</title>
+      <link>http://localhost:56312/tags/performance/</link>
+      <pubDate>Thu, 04 Dec 2025 23:13:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/performance/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Redis</title>
+      <link>http://localhost:56312/tags/redis/</link>
+      <pubDate>Thu, 04 Dec 2025 23:13:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/redis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>System-Design</title>
+      <link>http://localhost:56312/tags/system-design/</link>
+      <pubDate>Thu, 04 Dec 2025 23:13:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/system-design/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Agents</title>
       <link>http://localhost:56312/tags/agents/</link>
@@ -123,13 +165,6 @@
       <link>http://localhost:56312/tags/rabbitmq/</link>
       <pubDate>Thu, 04 Dec 2025 12:51:00 +0200</pubDate>
       <guid>http://localhost:56312/tags/rabbitmq/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>System-Design</title>
-      <link>http://localhost:56312/tags/system-design/</link>
-      <pubDate>Thu, 04 Dec 2025 12:51:00 +0200</pubDate>
-      <guid>http://localhost:56312/tags/system-design/</guid>
       <description></description>
     </item>
     <item>

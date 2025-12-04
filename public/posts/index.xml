@@ -11,8 +11,28 @@
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 04 Dec 2025 15:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 04 Dec 2025 23:13:00 +0200</lastBuildDate>
     <atom:link href="http://localhost:56312/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Redis Zero to Hero: Complete Guide to Mastering Redis for Modern System Design</title>
+      <link>http://localhost:56312/posts/2025-12-04-redis-zero-to-hero-complete-guide-to-mastering-redis-for-modern-system-design/</link>
+      <pubDate>Thu, 04 Dec 2025 23:13:00 +0200</pubDate>
+      <guid>http://localhost:56312/posts/2025-12-04-redis-zero-to-hero-complete-guide-to-mastering-redis-for-modern-system-design/</guid>
+      <description>&lt;h1 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;#introduction-to-redis&#34;&gt;Introduction to Redis&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#getting-started-with-redis&#34;&gt;Getting Started with Redis&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#redis-data-structures-deep-dive&#34;&gt;Redis Data Structures Deep Dive&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#advanced-redis-features&#34;&gt;Advanced Redis Features&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#persistence-and-high-availability&#34;&gt;Persistence and High Availability&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#performance-optimization&#34;&gt;Performance Optimization&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#redis-in-system-design&#34;&gt;Redis in System Design&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#resources&#34;&gt;Resources&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#conclusion&#34;&gt;Conclusion&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;introduction-to-redis&#34;&gt;Introduction to Redis&lt;/h2&gt;
+&lt;p&gt;Redis (Remote Dictionary Server) is an open-source, in-memory data structure store that has revolutionized how we think about data caching and real-time applications. Originally created by Salvatore Sanfilippo in 2009, Redis has evolved from a simple key-value store to a comprehensive data platform supporting multiple data structures, pub/sub messaging, streaming, and more.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>LangChain Zero to Hero: From Basic Chains to Deep Agents</title>
       <link>http://localhost:56312/posts/langchain-deep-agents/</link>
@@ -436,6 +456,31 @@ If you give that key to everyone, anyone can spend your genieâ€™s wishes. Thatâ€
       <pubDate>Tue, 25 Nov 2025 20:58:04 +0200</pubDate>
       <guid>http://localhost:56312/posts/hello-world/</guid>
       <description>&lt;p&gt;Welcome to my new blog! This is the first post.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:56312/posts/top50sd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:56312/posts/top50sd/</guid>
+      <description>&lt;p&gt;title: &amp;ldquo;Top 50 Technologies for Mastering System Design: Complete Guide with Resources&amp;rdquo; date: 2024-01-15 draft: false tags: [&amp;ldquo;system-design&amp;rdquo;, &amp;ldquo;architecture&amp;rdquo;, &amp;ldquo;technology&amp;rdquo;, &amp;ldquo;software-engineering&amp;rdquo;, &amp;ldquo;scalability&amp;rdquo;, &amp;ldquo;distributed-systems&amp;rdquo;]
+Table of Contents
+Introduction
+Database Technologies
+Caching Technologies
+Message Queue Technologies
+Load Balancing &amp;amp; CDN
+Container &amp;amp; Orchestration
+API Gateway &amp;amp; Service Mesh
+Search Technologies
+Monitoring &amp;amp; Observability
+Streaming Technologies
+Storage Technologies
+Security Technologies
+Additional Essential Technologies
+Resources &amp;amp; Learning Materials
+Conclusion
+Introduction
+System design is a critical skill for software engineers, architects, and technical leaders. Whether you&amp;rsquo;re preparing for technical interviews at FAANG companies or building scalable production systems, understanding the right technologies and when to use them is essential. This comprehensive guide covers the top 50 technologies you need to master for system design, organized by category with practical insights into their use cases and trade-offs.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
