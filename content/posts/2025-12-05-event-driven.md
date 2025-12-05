@@ -1,8 +1,8 @@
 ---
-title: From Zero to Hero in Event-Driven Architecture: A Deep Dive from Beginner to Advanced  
-date: 2025-12-05T01:05:06.296Z  
+title: "Event-Driven Architecture: A Deep Dive from Beginner to Advanced"
+date: "2025-12-05T01:05:06.296"  
 draft: false  
-tags: [Event-Driven Architecture, Software Design, Microservices, AWS, System Design, Developer Tutorial]  
+tags: ["Event-Driven Architecture", "Software Design", "Microservices", "AWS", "System Design", "Developer Tutorial"]  
 ---
 
 Event-Driven Architecture (EDA) is transforming how modern software systems are designed, enabling them to be scalable, resilient, and responsive. For developers and architects eager to master EDA, this comprehensive tutorial takes you from the basics all the way to advanced concepts with practical examples, resources, and links to deepen your understanding.

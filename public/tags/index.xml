@@ -11,8 +11,85 @@
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 05 Dec 2025 02:40:00 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 05 Dec 2025 01:05:06 +0000</lastBuildDate>
     <atom:link href="http://localhost:56312/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS</title>
+      <link>http://localhost:56312/tags/aws/</link>
+      <pubDate>Fri, 05 Dec 2025 01:05:06 +0000</pubDate>
+      <guid>http://localhost:56312/tags/aws/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Developer Tutorial</title>
+      <link>http://localhost:56312/tags/developer-tutorial/</link>
+      <pubDate>Fri, 05 Dec 2025 01:05:06 +0000</pubDate>
+      <guid>http://localhost:56312/tags/developer-tutorial/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Event-Driven Architecture</title>
+      <link>http://localhost:56312/tags/event-driven-architecture/</link>
+      <pubDate>Fri, 05 Dec 2025 01:05:06 +0000</pubDate>
+      <guid>http://localhost:56312/tags/event-driven-architecture/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Microservices</title>
+      <link>http://localhost:56312/tags/microservices/</link>
+      <pubDate>Fri, 05 Dec 2025 01:05:06 +0000</pubDate>
+      <guid>http://localhost:56312/tags/microservices/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software Design</title>
+      <link>http://localhost:56312/tags/software-design/</link>
+      <pubDate>Fri, 05 Dec 2025 01:05:06 +0000</pubDate>
+      <guid>http://localhost:56312/tags/software-design/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>System-Design</title>
+      <link>http://localhost:56312/tags/system-design/</link>
+      <pubDate>Fri, 05 Dec 2025 01:05:06 +0000</pubDate>
+      <guid>http://localhost:56312/tags/system-design/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cloud Native</title>
+      <link>http://localhost:56312/tags/cloud-native/</link>
+      <pubDate>Fri, 05 Dec 2025 02:42:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/cloud-native/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DevOps</title>
+      <link>http://localhost:56312/tags/devops/</link>
+      <pubDate>Fri, 05 Dec 2025 02:42:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/devops/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Docker</title>
+      <link>http://localhost:56312/tags/docker/</link>
+      <pubDate>Fri, 05 Dec 2025 02:42:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/docker/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kubernetes</title>
+      <link>http://localhost:56312/tags/kubernetes/</link>
+      <pubDate>Fri, 05 Dec 2025 02:42:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/kubernetes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software Architecture</title>
+      <link>http://localhost:56312/tags/software-architecture/</link>
+      <pubDate>Fri, 05 Dec 2025 02:42:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/software-architecture/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Emscripten</title>
       <link>http://localhost:56312/tags/emscripten/</link>
@@ -53,6 +130,90 @@
       <link>http://localhost:56312/tags/webassembly/</link>
       <pubDate>Fri, 05 Dec 2025 02:40:00 +0200</pubDate>
       <guid>http://localhost:56312/tags/webassembly/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Certificates</title>
+      <link>http://localhost:56312/tags/certificates/</link>
+      <pubDate>Fri, 05 Dec 2025 02:39:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/certificates/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>HTTPS</title>
+      <link>http://localhost:56312/tags/https/</link>
+      <pubDate>Fri, 05 Dec 2025 02:39:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/https/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PKI</title>
+      <link>http://localhost:56312/tags/pki/</link>
+      <pubDate>Fri, 05 Dec 2025 02:39:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/pki/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SSL</title>
+      <link>http://localhost:56312/tags/ssl/</link>
+      <pubDate>Fri, 05 Dec 2025 02:39:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/ssl/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>TLS</title>
+      <link>http://localhost:56312/tags/tls/</link>
+      <pubDate>Fri, 05 Dec 2025 02:39:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/tls/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web Security</title>
+      <link>http://localhost:56312/tags/web-security/</link>
+      <pubDate>Fri, 05 Dec 2025 02:39:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/web-security/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Api</title>
+      <link>http://localhost:56312/tags/api/</link>
+      <pubDate>Fri, 05 Dec 2025 01:49:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/api/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Backend</title>
+      <link>http://localhost:56312/tags/backend/</link>
+      <pubDate>Fri, 05 Dec 2025 01:49:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/backend/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Event-Driven</title>
+      <link>http://localhost:56312/tags/event-driven/</link>
+      <pubDate>Fri, 05 Dec 2025 01:49:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/event-driven/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Integration</title>
+      <link>http://localhost:56312/tags/integration/</link>
+      <pubDate>Fri, 05 Dec 2025 01:49:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/integration/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Security</title>
+      <link>http://localhost:56312/tags/security/</link>
+      <pubDate>Fri, 05 Dec 2025 01:49:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/security/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Webhooks</title>
+      <link>http://localhost:56312/tags/webhooks/</link>
+      <pubDate>Fri, 05 Dec 2025 01:49:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/webhooks/</guid>
       <description></description>
     </item>
     <item>
@@ -140,31 +301,10 @@
       <description></description>
     </item>
     <item>
-      <title>Cloud Native</title>
-      <link>http://localhost:56312/tags/cloud-native/</link>
-      <pubDate>Thu, 04 Dec 2025 23:59:00 +0200</pubDate>
-      <guid>http://localhost:56312/tags/cloud-native/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Containers</title>
       <link>http://localhost:56312/tags/containers/</link>
       <pubDate>Thu, 04 Dec 2025 23:59:00 +0200</pubDate>
       <guid>http://localhost:56312/tags/containers/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>DevOps</title>
-      <link>http://localhost:56312/tags/devops/</link>
-      <pubDate>Thu, 04 Dec 2025 23:59:00 +0200</pubDate>
-      <guid>http://localhost:56312/tags/devops/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Kubernetes</title>
-      <link>http://localhost:56312/tags/kubernetes/</link>
-      <pubDate>Thu, 04 Dec 2025 23:59:00 +0200</pubDate>
-      <guid>http://localhost:56312/tags/kubernetes/</guid>
       <description></description>
     </item>
     <item>
@@ -200,13 +340,6 @@
       <link>http://localhost:56312/tags/redis/</link>
       <pubDate>Thu, 04 Dec 2025 23:13:00 +0200</pubDate>
       <guid>http://localhost:56312/tags/redis/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>System-Design</title>
-      <link>http://localhost:56312/tags/system-design/</link>
-      <pubDate>Thu, 04 Dec 2025 23:13:00 +0200</pubDate>
-      <guid>http://localhost:56312/tags/system-design/</guid>
       <description></description>
     </item>
     <item>
@@ -298,13 +431,6 @@
       <link>http://localhost:56312/tags/message-queue/</link>
       <pubDate>Thu, 04 Dec 2025 12:51:00 +0200</pubDate>
       <guid>http://localhost:56312/tags/message-queue/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Microservices</title>
-      <link>http://localhost:56312/tags/microservices/</link>
-      <pubDate>Thu, 04 Dec 2025 12:51:00 +0200</pubDate>
-      <guid>http://localhost:56312/tags/microservices/</guid>
       <description></description>
     </item>
     <item>
@@ -452,13 +578,6 @@
       <link>http://localhost:56312/tags/merkle-trees/</link>
       <pubDate>Mon, 01 Dec 2025 23:20:00 +0200</pubDate>
       <guid>http://localhost:56312/tags/merkle-trees/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Api</title>
-      <link>http://localhost:56312/tags/api/</link>
-      <pubDate>Mon, 01 Dec 2025 00:45:00 +0200</pubDate>
-      <guid>http://localhost:56312/tags/api/</guid>
       <description></description>
     </item>
     <item>
@@ -725,13 +844,6 @@
       <link>http://localhost:56312/tags/github/</link>
       <pubDate>Thu, 27 Nov 2025 22:46:00 +0200</pubDate>
       <guid>http://localhost:56312/tags/github/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Security</title>
-      <link>http://localhost:56312/tags/security/</link>
-      <pubDate>Thu, 27 Nov 2025 22:46:00 +0200</pubDate>
-      <guid>http://localhost:56312/tags/security/</guid>
       <description></description>
     </item>
     <item>

@@ -2,12 +2,68 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:56312/tags/aws/</loc>
+    <lastmod>2025-12-05T01:05:06+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/tags/developer-tutorial/</loc>
+    <lastmod>2025-12-05T01:05:06+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/tags/event-driven-architecture/</loc>
+    <lastmod>2025-12-05T01:05:06+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/posts/2025-12-05-event-driven/</loc>
+    <lastmod>2025-12-05T01:05:06+00:00</lastmod>
+  </url>
+  <url>
     <loc>http://localhost:56312/</loc>
-    <lastmod>2025-12-05T02:57:20+00:00</lastmod>
+    <lastmod>2025-12-05T01:05:06+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/tags/microservices/</loc>
+    <lastmod>2025-12-05T01:05:06+00:00</lastmod>
   </url>
   <url>
     <loc>http://localhost:56312/posts/</loc>
-    <lastmod>2025-12-05T02:57:20+00:00</lastmod>
+    <lastmod>2025-12-05T01:05:06+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/tags/software-design/</loc>
+    <lastmod>2025-12-05T01:05:06+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/tags/system-design/</loc>
+    <lastmod>2025-12-05T01:05:06+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/tags/</loc>
+    <lastmod>2025-12-05T01:05:06+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/tags/cloud-native/</loc>
+    <lastmod>2025-12-05T02:42:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/tags/devops/</loc>
+    <lastmod>2025-12-05T02:42:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/tags/docker/</loc>
+    <lastmod>2025-12-05T02:42:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/tags/kubernetes/</loc>
+    <lastmod>2025-12-05T02:42:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/posts/2025-12-05-microservices-zero-to-hero-an-in-depth-guide-to-architecture-design-and-deployment/</loc>
+    <lastmod>2025-12-05T02:42:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/tags/software-architecture/</loc>
+    <lastmod>2025-12-05T02:42:00+02:00</lastmod>
   </url>
   <url>
     <loc>http://localhost:56312/tags/emscripten/</loc>
@@ -26,10 +82,6 @@
     <lastmod>2025-12-05T02:40:00+02:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:56312/tags/</loc>
-    <lastmod>2025-12-05T02:40:00+02:00</lastmod>
-  </url>
-  <url>
     <loc>http://localhost:56312/tags/wasi/</loc>
     <lastmod>2025-12-05T02:40:00+02:00</lastmod>
   </url>
@@ -40,6 +92,62 @@
   <url>
     <loc>http://localhost:56312/tags/webassembly/</loc>
     <lastmod>2025-12-05T02:40:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/tags/certificates/</loc>
+    <lastmod>2025-12-05T02:39:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/tags/https/</loc>
+    <lastmod>2025-12-05T02:39:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/tags/pki/</loc>
+    <lastmod>2025-12-05T02:39:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/tags/ssl/</loc>
+    <lastmod>2025-12-05T02:39:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/posts/2025-12-05-ssltls-zero-to-hero-a-practical-indepth-guide-to-modern-https/</loc>
+    <lastmod>2025-12-05T02:39:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/tags/tls/</loc>
+    <lastmod>2025-12-05T02:39:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/tags/web-security/</loc>
+    <lastmod>2025-12-05T02:39:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/tags/api/</loc>
+    <lastmod>2025-12-05T01:49:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/tags/backend/</loc>
+    <lastmod>2025-12-05T01:49:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/tags/event-driven/</loc>
+    <lastmod>2025-12-05T01:49:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/tags/integration/</loc>
+    <lastmod>2025-12-05T01:49:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/tags/security/</loc>
+    <lastmod>2025-12-05T01:49:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/tags/webhooks/</loc>
+    <lastmod>2025-12-05T01:49:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/posts/2025-12-05-webhooks-zero-to-hero-an-in-depth-practical-tutorial-with-code-and-resources/</loc>
+    <lastmod>2025-12-05T01:49:00+02:00</lastmod>
   </url>
   <url>
     <loc>http://localhost:56312/tags/business/</loc>
@@ -98,19 +206,7 @@
     <lastmod>2025-12-05T01:01:00+02:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:56312/tags/cloud-native/</loc>
-    <lastmod>2025-12-04T23:59:00+02:00</lastmod>
-  </url>
-  <url>
     <loc>http://localhost:56312/tags/containers/</loc>
-    <lastmod>2025-12-04T23:59:00+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://localhost:56312/tags/devops/</loc>
-    <lastmod>2025-12-04T23:59:00+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://localhost:56312/tags/kubernetes/</loc>
     <lastmod>2025-12-04T23:59:00+02:00</lastmod>
   </url>
   <url>
@@ -139,10 +235,6 @@
   </url>
   <url>
     <loc>http://localhost:56312/posts/2025-12-04-redis-zero-to-hero-complete-guide-to-mastering-redis-for-modern-system-design/</loc>
-    <lastmod>2025-12-04T23:13:00+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://localhost:56312/tags/system-design/</loc>
     <lastmod>2025-12-04T23:13:00+02:00</lastmod>
   </url>
   <url>
@@ -227,10 +319,6 @@
   </url>
   <url>
     <loc>http://localhost:56312/tags/message-queue/</loc>
-    <lastmod>2025-12-04T12:51:00+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://localhost:56312/tags/microservices/</loc>
     <lastmod>2025-12-04T12:51:00+02:00</lastmod>
   </url>
   <url>
@@ -348,10 +436,6 @@
   <url>
     <loc>http://localhost:56312/journal/</loc>
     <lastmod>2025-12-01T19:09:00+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://localhost:56312/tags/api/</loc>
-    <lastmod>2025-12-01T00:45:00+02:00</lastmod>
   </url>
   <url>
     <loc>http://localhost:56312/tags/bot/</loc>
@@ -571,10 +655,6 @@
   </url>
   <url>
     <loc>http://localhost:56312/tags/github/</loc>
-    <lastmod>2025-11-27T22:46:00+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://localhost:56312/tags/security/</loc>
     <lastmod>2025-11-27T22:46:00+02:00</lastmod>
   </url>
   <url>

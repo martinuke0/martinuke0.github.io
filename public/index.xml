@@ -11,8 +11,39 @@
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 05 Dec 2025 02:40:00 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 05 Dec 2025 01:05:06 +0000</lastBuildDate>
     <atom:link href="http://localhost:56312/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Event-Driven Architecture: A Deep Dive from Beginner to Advanced</title>
+      <link>http://localhost:56312/posts/2025-12-05-event-driven/</link>
+      <pubDate>Fri, 05 Dec 2025 01:05:06 +0000</pubDate>
+      <guid>http://localhost:56312/posts/2025-12-05-event-driven/</guid>
+      <description>&lt;p&gt;Event-Driven Architecture (EDA) is transforming how modern software systems are designed, enabling them to be scalable, resilient, and responsive. For developers and architects eager to master EDA, this comprehensive tutorial takes you from the basics all the way to advanced concepts with practical examples, resources, and links to deepen your understanding.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#introduction-to-event-driven-architecture&#34;&gt;Introduction to Event-Driven Architecture&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#core-components-and-principles&#34;&gt;Core Components and Principles&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#benefits-and-use-cases&#34;&gt;Benefits and Use Cases&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#implementing-eda-beginner-to-advanced&#34;&gt;Implementing EDA: Beginner to Advanced&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#best-practices-and-advanced-patterns&#34;&gt;Best Practices and Advanced Patterns&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#eda-on-aws-practical-example&#34;&gt;EDA on AWS: Practical Example&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#recommended-learning-resources&#34;&gt;Recommended Learning Resources&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#conclusion&#34;&gt;Conclusion&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;introduction-to-event-driven-architecture&#34;&gt;Introduction to Event-Driven Architecture&lt;/h2&gt;
+&lt;p&gt;Event-Driven Architecture is a software design paradigm where system components communicate by producing and reacting to &lt;em&gt;events&lt;/em&gt;, which represent state changes or actions such as user interactions, sensor outputs, or inter-service messages. Unlike traditional request-response models, EDA emphasizes &lt;em&gt;asynchronous&lt;/em&gt;, &lt;em&gt;loosely coupled&lt;/em&gt; communication that enables systems to react to events in real time, leading to highly scalable and fault-tolerant applications[3][5].&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Microservices Zero to Hero: An In-Depth Guide to Architecture, Design, and Deployment</title>
+      <link>http://localhost:56312/posts/2025-12-05-microservices-zero-to-hero-an-in-depth-guide-to-architecture-design-and-deployment/</link>
+      <pubDate>Fri, 05 Dec 2025 02:42:00 +0200</pubDate>
+      <guid>http://localhost:56312/posts/2025-12-05-microservices-zero-to-hero-an-in-depth-guide-to-architecture-design-and-deployment/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Microservices promise speed, scalability, and team autonomy by decomposing a system into small, independently deployable services. But they also introduce complexity in distributed systems, data consistency, and operational overhead.&lt;/p&gt;
+&lt;p&gt;This in-depth, zero-to-hero guide walks you through microservices architecture from fundamentals to production-ready practices. You’ll learn when to choose microservices, how to design services and APIs, what tooling to adopt, and how to deploy, secure, and observe them at scale. Code snippets and reference patterns are included to bridge theory and practice. We end with curated resources for further study.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>From Zero to Hero with WebAssembly (Wasm): A Practical, In-Depth Guide</title>
       <link>http://localhost:56312/posts/2025-12-05-from-zero-to-hero-with-webassembly-wasm-a-practical-in-depth-guide/</link>
@@ -33,6 +64,34 @@
 &lt;li&gt;A curated list of resources to go further&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Whether you’re a web developer, systems programmer, or platform engineer, this guide will take you from zero to hero with Wasm.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>SSL/TLS Zero to Hero: A Practical, In‑Depth Guide to Modern HTTPS</title>
+      <link>http://localhost:56312/posts/2025-12-05-ssltls-zero-to-hero-a-practical-indepth-guide-to-modern-https/</link>
+      <pubDate>Fri, 05 Dec 2025 02:39:00 +0200</pubDate>
+      <guid>http://localhost:56312/posts/2025-12-05-ssltls-zero-to-hero-a-practical-indepth-guide-to-modern-https/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;If you put anything on the internet—an API, a website, an admin portal—you need SSL/TLS. It&amp;rsquo;s what turns http into https, encrypts traffic, and lets users verify they’re talking to the right server. But “turn on TLS” hides a lot of complexity: ciphers, certificates, OCSP, mTLS, key rotation, HTTP/2, QUIC, and more.&lt;/p&gt;
+&lt;p&gt;This in-depth, zero-to-hero guide demystifies SSL/TLS. You’ll learn the concepts, how the protocol works, how to issue and deploy certificates, how to configure popular servers securely, how to test and monitor, and how to avoid common pitfalls. By the end, you’ll be able to ship production-grade TLS with confidence.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Webhooks Zero to Hero: An In-Depth, Practical Tutorial with Code and Resources</title>
+      <link>http://localhost:56312/posts/2025-12-05-webhooks-zero-to-hero-an-in-depth-practical-tutorial-with-code-and-resources/</link>
+      <pubDate>Fri, 05 Dec 2025 01:49:00 +0200</pubDate>
+      <guid>http://localhost:56312/posts/2025-12-05-webhooks-zero-to-hero-an-in-depth-practical-tutorial-with-code-and-resources/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Webhooks are the backbone of modern, event-driven integrations. Instead of continuously polling an API to ask “has anything changed yet?”, webhooks let services push events to your application as soon as they happen: a payment succeeds, a repository receives a push, a customer updates their profile, or a ticket is assigned.&lt;/p&gt;
+&lt;p&gt;This in-depth tutorial will take you from zero to hero. You’ll learn:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;What webhooks are and how they compare to polling and WebSockets&lt;/li&gt;
+&lt;li&gt;How to build robust webhook receivers in multiple languages&lt;/li&gt;
+&lt;li&gt;Signature verification, replay protection, and other security best practices&lt;/li&gt;
+&lt;li&gt;Idempotency and reliable processing with retries and dead-letter queues&lt;/li&gt;
+&lt;li&gt;How to test locally using tunnels and inspector tools&lt;/li&gt;
+&lt;li&gt;How to design and operate your own webhook provider at scale&lt;/li&gt;
+&lt;li&gt;Links to the best official docs and tools in the ecosystem&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you’re implementing webhooks for the first time or trying to harden your production setup, this guide will meet you where you are and help you ship with confidence.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Art of War: 10 Strategic Ideas from Each Chapter of Sun Tzu&#39;s Masterpiece</title>
