@@ -1,6 +1,6 @@
 ---
 title: "The Art of War: 10 Strategic Ideas from Each Chapter of Sun Tzu's Masterpiece"
-date: 2025-12-05T01:30:00
+date: "2025-12-05T01:13:00+02:00"
 draft: false
 tags: ["strategy", "leadership", "business", "philosophy", "warfare", "sun-tzu"]
 ---

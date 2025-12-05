@@ -11,8 +11,44 @@
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 04 Dec 2025 23:13:00 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 05 Dec 2025 01:13:00 +0200</lastBuildDate>
     <atom:link href="http://localhost:56312/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Art of War: 10 Strategic Ideas from Each Chapter of Sun Tzu&#39;s Masterpiece</title>
+      <link>http://localhost:56312/posts/2025-12-04-the-art-of-war-10-strategic-ideas-from-each-chapter-of-sun-tzu/</link>
+      <pubDate>Fri, 05 Dec 2025 01:13:00 +0200</pubDate>
+      <guid>http://localhost:56312/posts/2025-12-04-the-art-of-war-10-strategic-ideas-from-each-chapter-of-sun-tzu/</guid>
+      <description>&lt;h1 id=&#34;the-art-of-war-10-strategic-ideas-from-each-chapter-of-sun-tzus-masterpiece&#34;&gt;The Art of War: 10 Strategic Ideas from Each Chapter of Sun Tzu&amp;rsquo;s Masterpiece&lt;/h1&gt;
+&lt;p&gt;&lt;em&gt;More than 2,500 years after its composition, Sun Tzu&amp;rsquo;s &amp;ldquo;The Art of War&amp;rdquo; remains one of the most influential works on strategy ever written. This ancient Chinese military treatise offers timeless wisdom that extends far beyond the battlefield into business, leadership, and personal development. Let&amp;rsquo;s explore the profound insights from each of its thirteen chapters.&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;#chapter-1-laying-plans&#34;&gt;Chapter 1: Laying Plans&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#chapter-2-waging-war&#34;&gt;Chapter 2: Waging War&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#chapter-3-attack-by-stratagem&#34;&gt;Chapter 3: Attack by Stratagem&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#chapter-4-tactical-dispositions&#34;&gt;Chapter 4: Tactical Dispositions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#chapter-5-energy&#34;&gt;Chapter 5: Energy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#chapter-6-weak-points-and-strong&#34;&gt;Chapter 6: Weak Points and Strong&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#chapter-7-maneuvering&#34;&gt;Chapter 7: Maneuvering&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#chapter-8-variation-in-tactics&#34;&gt;Chapter 8: Variation in Tactics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#chapter-9-the-army-on-the-march&#34;&gt;Chapter 9: The Army on the March&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#chapter-10-terrain&#34;&gt;Chapter 10: Terrain&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#chapter-11-the-nine-situations&#34;&gt;Chapter 11: The Nine Situations&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#chapter-12-the-attack-by-fire&#34;&gt;Chapter 12: The Attack by Fire&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#chapter-13-the-use-of-spies&#34;&gt;Chapter 13: The Use of Spies&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#final-chapter-10-concluding-ideas&#34;&gt;Final Chapter: 10 Concluding Ideas&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;chapter-1-laying-plans&#34;&gt;Chapter 1: Laying Plans&lt;/h2&gt;
+&lt;p&gt;The opening chapter establishes the fundamental importance of planning and assessment in any strategic endeavor.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Kubernetes Zero to Hero: An In-Depth, Practical Tutorial with Hands-On Examples and Resources</title>
+      <link>http://localhost:56312/posts/2025-12-04-kubernetes-zero-to-hero-an-in-depth-practical-tutorial-with-hands-on-examples-and-resources/</link>
+      <pubDate>Thu, 04 Dec 2025 23:59:00 +0200</pubDate>
+      <guid>http://localhost:56312/posts/2025-12-04-kubernetes-zero-to-hero-an-in-depth-practical-tutorial-with-hands-on-examples-and-resources/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Kubernetes has become the de facto standard for running containerized applications at scale. But the ecosystem can feel overwhelming: pods, deployments, services, ingress, operators, Helm, RBAC—the list goes on. This in-depth tutorial takes you from zero to hero with clear explanations, hands-on examples, and practical guidance. You’ll learn the mental model, set up a local cluster, deploy and expose applications, manage configuration and storage, scale reliably, secure your workloads, observe and debug issues, and ship to production using modern workflows.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Redis Zero to Hero: Complete Guide to Mastering Redis for Modern System Design</title>
       <link>http://localhost:56312/posts/2025-12-04-redis-zero-to-hero-complete-guide-to-mastering-redis-for-modern-system-design/</link>

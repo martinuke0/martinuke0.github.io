@@ -11,8 +11,127 @@
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 04 Dec 2025 23:13:00 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 05 Dec 2025 01:13:00 +0200</lastBuildDate>
     <atom:link href="http://localhost:56312/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Business</title>
+      <link>http://localhost:56312/tags/business/</link>
+      <pubDate>Fri, 05 Dec 2025 01:13:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/business/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Leadership</title>
+      <link>http://localhost:56312/tags/leadership/</link>
+      <pubDate>Fri, 05 Dec 2025 01:13:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/leadership/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Philosophy</title>
+      <link>http://localhost:56312/tags/philosophy/</link>
+      <pubDate>Fri, 05 Dec 2025 01:13:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/philosophy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Strategy</title>
+      <link>http://localhost:56312/tags/strategy/</link>
+      <pubDate>Fri, 05 Dec 2025 01:13:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/strategy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sun-Tzu</title>
+      <link>http://localhost:56312/tags/sun-tzu/</link>
+      <pubDate>Fri, 05 Dec 2025 01:13:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/sun-tzu/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Warfare</title>
+      <link>http://localhost:56312/tags/warfare/</link>
+      <pubDate>Fri, 05 Dec 2025 01:13:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/warfare/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Automation</title>
+      <link>http://localhost:56312/tags/automation/</link>
+      <pubDate>Fri, 05 Dec 2025 01:01:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/automation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Best-Practices</title>
+      <link>http://localhost:56312/tags/best-practices/</link>
+      <pubDate>Fri, 05 Dec 2025 01:01:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/best-practices/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Quality-Assurance</title>
+      <link>http://localhost:56312/tags/quality-assurance/</link>
+      <pubDate>Fri, 05 Dec 2025 01:01:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/quality-assurance/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software-Development</title>
+      <link>http://localhost:56312/tags/software-development/</link>
+      <pubDate>Fri, 05 Dec 2025 01:01:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/software-development/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Testing</title>
+      <link>http://localhost:56312/tags/testing/</link>
+      <pubDate>Fri, 05 Dec 2025 01:01:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/testing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Testing-Methodologies</title>
+      <link>http://localhost:56312/tags/testing-methodologies/</link>
+      <pubDate>Fri, 05 Dec 2025 01:01:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/testing-methodologies/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cloud Native</title>
+      <link>http://localhost:56312/tags/cloud-native/</link>
+      <pubDate>Thu, 04 Dec 2025 23:59:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/cloud-native/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Containers</title>
+      <link>http://localhost:56312/tags/containers/</link>
+      <pubDate>Thu, 04 Dec 2025 23:59:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/containers/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DevOps</title>
+      <link>http://localhost:56312/tags/devops/</link>
+      <pubDate>Thu, 04 Dec 2025 23:59:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/devops/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kubernetes</title>
+      <link>http://localhost:56312/tags/kubernetes/</link>
+      <pubDate>Thu, 04 Dec 2025 23:59:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/kubernetes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tutorial</title>
+      <link>http://localhost:56312/tags/tutorial/</link>
+      <pubDate>Thu, 04 Dec 2025 23:59:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/tutorial/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Caching</title>
       <link>http://localhost:56312/tags/caching/</link>
@@ -231,13 +350,6 @@
       <description></description>
     </item>
     <item>
-      <title>Business</title>
-      <link>http://localhost:56312/tags/business/</link>
-      <pubDate>Tue, 02 Dec 2025 23:58:00 +0200</pubDate>
-      <guid>http://localhost:56312/tags/business/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Fastapi</title>
       <link>http://localhost:56312/tags/fastapi/</link>
       <pubDate>Tue, 02 Dec 2025 23:58:00 +0200</pubDate>
@@ -284,13 +396,6 @@
       <link>http://localhost:56312/tags/merkle-trees/</link>
       <pubDate>Mon, 01 Dec 2025 23:20:00 +0200</pubDate>
       <guid>http://localhost:56312/tags/merkle-trees/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Tutorial</title>
-      <link>http://localhost:56312/tags/tutorial/</link>
-      <pubDate>Mon, 01 Dec 2025 23:20:00 +0200</pubDate>
-      <guid>http://localhost:56312/tags/tutorial/</guid>
       <description></description>
     </item>
     <item>
@@ -347,13 +452,6 @@
       <link>http://localhost:56312/tags/investment/</link>
       <pubDate>Sun, 30 Nov 2025 23:20:00 +0200</pubDate>
       <guid>http://localhost:56312/tags/investment/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Philosophy</title>
-      <link>http://localhost:56312/tags/philosophy/</link>
-      <pubDate>Sun, 30 Nov 2025 23:20:00 +0200</pubDate>
-      <guid>http://localhost:56312/tags/philosophy/</guid>
       <description></description>
     </item>
     <item>
@@ -588,24 +686,10 @@
       <description></description>
     </item>
     <item>
-      <title>Automation</title>
-      <link>http://localhost:56312/tags/automation/</link>
-      <pubDate>Thu, 27 Nov 2025 13:38:00 +0200</pubDate>
-      <guid>http://localhost:56312/tags/automation/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>CI/CD</title>
       <link>http://localhost:56312/tags/ci/cd/</link>
       <pubDate>Thu, 27 Nov 2025 13:38:00 +0200</pubDate>
       <guid>http://localhost:56312/tags/ci/cd/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>DevOps</title>
-      <link>http://localhost:56312/tags/devops/</link>
-      <pubDate>Thu, 27 Nov 2025 13:38:00 +0200</pubDate>
-      <guid>http://localhost:56312/tags/devops/</guid>
       <description></description>
     </item>
     <item>

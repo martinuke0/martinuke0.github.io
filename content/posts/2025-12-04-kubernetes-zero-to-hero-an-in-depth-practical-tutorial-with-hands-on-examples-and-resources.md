@@ -1,6 +1,6 @@
 ---
 title: "Kubernetes Zero to Hero: An In-Depth, Practical Tutorial with Hands-On Examples and Resources"
-date: 2025-12-04
+date: "2025-12-04T23:59:00+02:00"
 draft: false
 tags: ["Kubernetes", "DevOps", "Cloud Native", "Containers", "Tutorial"]
 ---

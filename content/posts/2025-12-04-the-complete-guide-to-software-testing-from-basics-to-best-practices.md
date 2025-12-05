@@ -1,6 +1,6 @@
 ---
 title: "The Complete Guide to Software Testing: From Basics to Best Practices"
-date: 2025-12-04T23:59:00
+date: "2025-12-05T01:01:00+02:00"
 draft: false
 tags: ["testing", "quality-assurance", "software-development", "testing-methodologies", "automation", "best-practices"]
 ---
