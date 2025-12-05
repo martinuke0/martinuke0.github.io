@@ -11,8 +11,43 @@
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 05 Dec 2025 01:05:06 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 05 Dec 2025 12:00:02 +0000</lastBuildDate>
     <atom:link href="http://localhost:56312/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Backend-Architecture</title>
+      <link>http://localhost:56312/tags/backend-architecture/</link>
+      <pubDate>Fri, 05 Dec 2025 12:00:02 +0000</pubDate>
+      <guid>http://localhost:56312/tags/backend-architecture/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Database-Design</title>
+      <link>http://localhost:56312/tags/database-design/</link>
+      <pubDate>Fri, 05 Dec 2025 12:00:02 +0000</pubDate>
+      <guid>http://localhost:56312/tags/database-design/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linktree</title>
+      <link>http://localhost:56312/tags/linktree/</link>
+      <pubDate>Fri, 05 Dec 2025 12:00:02 +0000</pubDate>
+      <guid>http://localhost:56312/tags/linktree/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>System-Design</title>
+      <link>http://localhost:56312/tags/system-design/</link>
+      <pubDate>Fri, 05 Dec 2025 12:00:02 +0000</pubDate>
+      <guid>http://localhost:56312/tags/system-design/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web-Development</title>
+      <link>http://localhost:56312/tags/web-development/</link>
+      <pubDate>Fri, 05 Dec 2025 12:00:02 +0000</pubDate>
+      <guid>http://localhost:56312/tags/web-development/</guid>
+      <description></description>
+    </item>
     <item>
       <title>AWS</title>
       <link>http://localhost:56312/tags/aws/</link>
@@ -46,13 +81,6 @@
       <link>http://localhost:56312/tags/software-design/</link>
       <pubDate>Fri, 05 Dec 2025 01:05:06 +0000</pubDate>
       <guid>http://localhost:56312/tags/software-design/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>System-Design</title>
-      <link>http://localhost:56312/tags/system-design/</link>
-      <pubDate>Fri, 05 Dec 2025 01:05:06 +0000</pubDate>
-      <guid>http://localhost:56312/tags/system-design/</guid>
       <description></description>
     </item>
     <item>
@@ -522,13 +550,6 @@
       <link>http://localhost:56312/tags/react/</link>
       <pubDate>Wed, 03 Dec 2025 20:23:00 +0200</pubDate>
       <guid>http://localhost:56312/tags/react/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Web-Development</title>
-      <link>http://localhost:56312/tags/web-development/</link>
-      <pubDate>Wed, 03 Dec 2025 20:23:00 +0200</pubDate>
-      <guid>http://localhost:56312/tags/web-development/</guid>
       <description></description>
     </item>
     <item>

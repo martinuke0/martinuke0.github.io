@@ -1,6 +1,6 @@
 ---
 title: "Linktree System Design: From Zero to Hero - A Complete Technical Deep Dive"
-date: 2025-12-05T12:00:02.745
+date: "2025-12-05T14:10:00+02:00"
 draft: false
 tags: ["system-design", "linktree", "backend-architecture", "database-design", "web-development"]
 ---

@@ -11,8 +11,28 @@
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 05 Dec 2025 01:05:06 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 05 Dec 2025 14:10:00 +0200</lastBuildDate>
     <atom:link href="http://localhost:56312/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linktree System Design: From Zero to Hero - A Complete Technical Deep Dive</title>
+      <link>http://localhost:56312/posts/2025-12-05-linktree-system-design-from-zero-to-hero-a-complete-technical-deep-dive/</link>
+      <pubDate>Fri, 05 Dec 2025 14:10:00 +0200</pubDate>
+      <guid>http://localhost:56312/posts/2025-12-05-linktree-system-design-from-zero-to-hero-a-complete-technical-deep-dive/</guid>
+      <description>&lt;h2 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;#introduction&#34;&gt;Introduction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#what-is-linktree&#34;&gt;What is Linktree and Why Does It Matter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#core-concepts&#34;&gt;Understanding the Core Concepts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#database-schema&#34;&gt;Database Schema Design&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#system-architecture&#34;&gt;System Architecture&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#scaling&#34;&gt;Scaling Considerations&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#building-your-own&#34;&gt;Building Your Own Linktree&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#learning-resources&#34;&gt;Learning Resources&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#conclusion&#34;&gt;Conclusion&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;In the modern digital landscape, content creators, influencers, and businesses need efficient ways to manage and share multiple links across different platforms. Linktree has emerged as a popular solution that simplifies link management through a centralized &amp;ldquo;link in bio&amp;rdquo; system. But have you ever wondered about the technical architecture that powers such applications?&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Event-Driven Architecture: A Deep Dive from Beginner to Advanced</title>
       <link>http://localhost:56312/posts/2025-12-05-event-driven/</link>
@@ -34,6 +54,15 @@
 &lt;hr&gt;
 &lt;h2 id=&#34;introduction-to-event-driven-architecture&#34;&gt;Introduction to Event-Driven Architecture&lt;/h2&gt;
 &lt;p&gt;Event-Driven Architecture is a software design paradigm where system components communicate by producing and reacting to &lt;em&gt;events&lt;/em&gt;, which represent state changes or actions such as user interactions, sensor outputs, or inter-service messages. Unlike traditional request-response models, EDA emphasizes &lt;em&gt;asynchronous&lt;/em&gt;, &lt;em&gt;loosely coupled&lt;/em&gt; communication that enables systems to react to events in real time, leading to highly scalable and fault-tolerant applications[3][5].&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>HAProxy Zero to Hero: The Definitive In‑Depth Guide to High‑Performance Load Balancing</title>
+      <link>http://localhost:56312/posts/2025-12-05-haproxy-zero-to-hero-the-definitive-indepth-guide-to-highperformance-load-balancing/</link>
+      <pubDate>Fri, 05 Dec 2025 02:43:00 +0200</pubDate>
+      <guid>http://localhost:56312/posts/2025-12-05-haproxy-zero-to-hero-the-definitive-indepth-guide-to-highperformance-load-balancing/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;HAProxy is the de facto open-source load balancer and reverse proxy for high-traffic websites, APIs, and microservices. It’s fast, battle-tested, extremely configurable, and equally at home terminating TLS, routing based on headers or paths, defending against abuse, or load balancing TCP streams.&lt;/p&gt;
+&lt;p&gt;This zero-to-hero guide takes you from first principles to production-ready configurations. We’ll cover installation, core concepts, practical configuration patterns, TLS, health checks, observability, advanced features like ACLs and stick tables, and safe reloads—with copy-and-pasteable examples.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Microservices Zero to Hero: An In-Depth Guide to Architecture, Design, and Deployment</title>

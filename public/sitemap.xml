@@ -2,6 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:56312/tags/backend-architecture/</loc>
+    <lastmod>2025-12-05T14:10:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/tags/database-design/</loc>
+    <lastmod>2025-12-05T14:10:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/tags/linktree/</loc>
+    <lastmod>2025-12-05T14:10:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/posts/2025-12-05-linktree-system-design-from-zero-to-hero-a-complete-technical-deep-dive/</loc>
+    <lastmod>2025-12-05T14:10:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/</loc>
+    <lastmod>2025-12-05T14:10:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/posts/</loc>
+    <lastmod>2025-12-05T14:10:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/tags/system-design/</loc>
+    <lastmod>2025-12-05T14:10:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/tags/</loc>
+    <lastmod>2025-12-05T14:10:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/tags/web-development/</loc>
+    <lastmod>2025-12-05T14:10:00+02:00</lastmod>
+  </url>
+  <url>
     <loc>http://localhost:56312/tags/aws/</loc>
     <lastmod>2025-12-05T01:05:06+00:00</lastmod>
   </url>
@@ -18,27 +54,11 @@
     <lastmod>2025-12-05T01:05:06+00:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:56312/</loc>
-    <lastmod>2025-12-05T01:05:06+00:00</lastmod>
-  </url>
-  <url>
     <loc>http://localhost:56312/tags/microservices/</loc>
     <lastmod>2025-12-05T01:05:06+00:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:56312/posts/</loc>
-    <lastmod>2025-12-05T01:05:06+00:00</lastmod>
-  </url>
-  <url>
     <loc>http://localhost:56312/tags/software-design/</loc>
-    <lastmod>2025-12-05T01:05:06+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://localhost:56312/tags/system-design/</loc>
-    <lastmod>2025-12-05T01:05:06+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://localhost:56312/tags/</loc>
     <lastmod>2025-12-05T01:05:06+00:00</lastmod>
   </url>
   <url>
@@ -387,10 +407,6 @@
   </url>
   <url>
     <loc>http://localhost:56312/posts/magentic-ui/</loc>
-    <lastmod>2025-12-03T20:23:00+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://localhost:56312/tags/web-development/</loc>
     <lastmod>2025-12-03T20:23:00+02:00</lastmod>
   </url>
   <url>
