@@ -5,7 +5,6 @@ draft: false
 tags: ["strategy", "leadership", "business", "philosophy", "warfare", "sun-tzu"]
 ---
 
-# The Art of War: 10 Strategic Ideas from Each Chapter of Sun Tzu's Masterpiece
 
 *More than 2,500 years after its composition, Sun Tzu's "The Art of War" remains one of the most influential works on strategy ever written. This ancient Chinese military treatise offers timeless wisdom that extends far beyond the battlefield into business, leadership, and personal development. Let's explore the profound insights from each of its thirteen chapters.*
 

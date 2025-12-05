@@ -11,15 +11,35 @@
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 05 Dec 2025 01:13:00 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 05 Dec 2025 02:40:00 +0200</lastBuildDate>
     <atom:link href="http://localhost:56312/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>From Zero to Hero with WebAssembly (Wasm): A Practical, In-Depth Guide</title>
+      <link>http://localhost:56312/posts/2025-12-05-from-zero-to-hero-with-webassembly-wasm-a-practical-in-depth-guide/</link>
+      <pubDate>Fri, 05 Dec 2025 02:40:00 +0200</pubDate>
+      <guid>http://localhost:56312/posts/2025-12-05-from-zero-to-hero-with-webassembly-wasm-a-practical-in-depth-guide/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;WebAssembly (Wasm) is a portable binary instruction format designed to run high-performance code on the web and beyond. It lets you compile code from languages like C/C++, Rust, Go, and others into a compact, fast, and secure module that executes at near-native speed in browsers, servers, edge environments, and embedded systems.&lt;/p&gt;
+&lt;p&gt;In this in-depth guide, you’ll learn:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;What WebAssembly is and how it works&lt;/li&gt;
+&lt;li&gt;How to write and run your first Wasm module (step-by-step)&lt;/li&gt;
+&lt;li&gt;Toolchains for C/C++, Rust, Go, and AssemblyScript&lt;/li&gt;
+&lt;li&gt;How to integrate Wasm with JavaScript in the browser and with WASI on servers&lt;/li&gt;
+&lt;li&gt;Performance strategies, memory and interop, threads and SIMD&lt;/li&gt;
+&lt;li&gt;Debugging, testing, packaging, and deployment&lt;/li&gt;
+&lt;li&gt;Advanced topics: Component Model, WASI, reference types, GC, and more&lt;/li&gt;
+&lt;li&gt;Common pitfalls and best practices&lt;/li&gt;
+&lt;li&gt;A curated list of resources to go further&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Whether you’re a web developer, systems programmer, or platform engineer, this guide will take you from zero to hero with Wasm.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>The Art of War: 10 Strategic Ideas from Each Chapter of Sun Tzu&#39;s Masterpiece</title>
       <link>http://localhost:56312/posts/2025-12-04-the-art-of-war-10-strategic-ideas-from-each-chapter-of-sun-tzu/</link>
       <pubDate>Fri, 05 Dec 2025 01:13:00 +0200</pubDate>
       <guid>http://localhost:56312/posts/2025-12-04-the-art-of-war-10-strategic-ideas-from-each-chapter-of-sun-tzu/</guid>
-      <description>&lt;h1 id=&#34;the-art-of-war-10-strategic-ideas-from-each-chapter-of-sun-tzus-masterpiece&#34;&gt;The Art of War: 10 Strategic Ideas from Each Chapter of Sun Tzu&amp;rsquo;s Masterpiece&lt;/h1&gt;
-&lt;p&gt;&lt;em&gt;More than 2,500 years after its composition, Sun Tzu&amp;rsquo;s &amp;ldquo;The Art of War&amp;rdquo; remains one of the most influential works on strategy ever written. This ancient Chinese military treatise offers timeless wisdom that extends far beyond the battlefield into business, leadership, and personal development. Let&amp;rsquo;s explore the profound insights from each of its thirteen chapters.&lt;/em&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;em&gt;More than 2,500 years after its composition, Sun Tzu&amp;rsquo;s &amp;ldquo;The Art of War&amp;rdquo; remains one of the most influential works on strategy ever written. This ancient Chinese military treatise offers timeless wisdom that extends far beyond the battlefield into business, leadership, and personal development. Let&amp;rsquo;s explore the profound insights from each of its thirteen chapters.&lt;/em&gt;&lt;/p&gt;
 &lt;h2 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;a href=&#34;#chapter-1-laying-plans&#34;&gt;Chapter 1: Laying Plans&lt;/a&gt;&lt;/li&gt;
@@ -40,6 +60,33 @@
 &lt;hr&gt;
 &lt;h2 id=&#34;chapter-1-laying-plans&#34;&gt;Chapter 1: Laying Plans&lt;/h2&gt;
 &lt;p&gt;The opening chapter establishes the fundamental importance of planning and assessment in any strategic endeavor.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Complete Guide to Software Testing: From Basics to Best Practices</title>
+      <link>http://localhost:56312/posts/2025-12-04-the-complete-guide-to-software-testing-from-basics-to-best-practices/</link>
+      <pubDate>Fri, 05 Dec 2025 01:01:00 +0200</pubDate>
+      <guid>http://localhost:56312/posts/2025-12-04-the-complete-guide-to-software-testing-from-basics-to-best-practices/</guid>
+      <description>&lt;p&gt;Software testing is an essential component of the software development lifecycle that ensures quality, reliability, and user satisfaction. In this comprehensive guide, we&amp;rsquo;ll explore everything you need to know about software testing, from fundamental concepts to advanced techniques and best practices.&lt;/p&gt;
+&lt;h2 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#what-is-software-testing&#34;&gt;What is Software Testing?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#why-testing-matters&#34;&gt;Why Testing Matters&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#types-of-software-testing&#34;&gt;Types of Software Testing&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#functional-testing&#34;&gt;Functional Testing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#non-functional-testing&#34;&gt;Non-Functional Testing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#structural-testing&#34;&gt;Structural Testing&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#testing-levels&#34;&gt;Testing Levels&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#testing-methodologies&#34;&gt;Testing Methodologies&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#popular-testing-tools-and-frameworks&#34;&gt;Popular Testing Tools and Frameworks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#best-practices-for-effective-testing&#34;&gt;Best Practices for Effective Testing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#conclusion&#34;&gt;Conclusion&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#resources&#34;&gt;Resources&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;what-is-software-testing&#34;&gt;What is Software Testing?&lt;/h2&gt;
+&lt;p&gt;Software testing is the process of evaluating and verifying that a software application or system meets specified requirements and functions correctly. It involves executing the software with the intent of finding defects, errors, or gaps that could affect its performance, security, or user experience.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Kubernetes Zero to Hero: An In-Depth, Practical Tutorial with Hands-On Examples and Resources</title>
@@ -106,6 +153,16 @@
 &lt;hr&gt;
 &lt;h2 id=&#34;introduction&#34;&gt;Introduction: Why Message Queues Matter&lt;/h2&gt;
 &lt;p&gt;In modern distributed systems, &lt;strong&gt;message queues&lt;/strong&gt; have become as fundamental as databases. Think of them as the &lt;strong&gt;nervous system&lt;/strong&gt; for your microservices architecture:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Top 50 Technologies to Master System Design: A Deep, Zero-to-Hero Tutorial</title>
+      <link>http://localhost:56312/posts/2025-12-04-top50sd/</link>
+      <pubDate>Thu, 04 Dec 2025 01:56:00 +0200</pubDate>
+      <guid>http://localhost:56312/posts/2025-12-04-top50sd/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;System design is the craft of turning ideas into resilient, scalable, and cost‑effective products. It spans protocols, storage engines, compute orchestration, observability, and more. This deep, zero‑to‑hero tutorial curates the top 50 technologies you should know—organized by category—with concise explanations, practical tips, code samples, and a learning path. Whether you’re preparing for interviews or architecting large‑scale systems, use this guide as your roadmap.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Note: You don&amp;rsquo;t have to master everything at once. Build a foundation, then layer on technologies as your use cases demand.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Complete Guide to Magentic UI: From Beginner to Hero</title>
