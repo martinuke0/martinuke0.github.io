@@ -11,41 +11,76 @@
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 05 Dec 2025 12:00:02 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 05 Dec 2025 14:10:00 +0200</lastBuildDate>
     <atom:link href="http://localhost:56312/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Backend-Architecture</title>
       <link>http://localhost:56312/tags/backend-architecture/</link>
-      <pubDate>Fri, 05 Dec 2025 12:00:02 +0000</pubDate>
+      <pubDate>Fri, 05 Dec 2025 14:10:00 +0200</pubDate>
       <guid>http://localhost:56312/tags/backend-architecture/</guid>
       <description></description>
     </item>
     <item>
       <title>Database-Design</title>
       <link>http://localhost:56312/tags/database-design/</link>
-      <pubDate>Fri, 05 Dec 2025 12:00:02 +0000</pubDate>
+      <pubDate>Fri, 05 Dec 2025 14:10:00 +0200</pubDate>
       <guid>http://localhost:56312/tags/database-design/</guid>
       <description></description>
     </item>
     <item>
       <title>Linktree</title>
       <link>http://localhost:56312/tags/linktree/</link>
-      <pubDate>Fri, 05 Dec 2025 12:00:02 +0000</pubDate>
+      <pubDate>Fri, 05 Dec 2025 14:10:00 +0200</pubDate>
       <guid>http://localhost:56312/tags/linktree/</guid>
       <description></description>
     </item>
     <item>
       <title>System-Design</title>
       <link>http://localhost:56312/tags/system-design/</link>
-      <pubDate>Fri, 05 Dec 2025 12:00:02 +0000</pubDate>
+      <pubDate>Fri, 05 Dec 2025 14:10:00 +0200</pubDate>
       <guid>http://localhost:56312/tags/system-design/</guid>
       <description></description>
     </item>
     <item>
       <title>Web-Development</title>
       <link>http://localhost:56312/tags/web-development/</link>
-      <pubDate>Fri, 05 Dec 2025 12:00:02 +0000</pubDate>
+      <pubDate>Fri, 05 Dec 2025 14:10:00 +0200</pubDate>
       <guid>http://localhost:56312/tags/web-development/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Decision-Making</title>
+      <link>http://localhost:56312/tags/decision-making/</link>
+      <pubDate>Fri, 05 Dec 2025 14:09:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/decision-making/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Entrepreneurship</title>
+      <link>http://localhost:56312/tags/entrepreneurship/</link>
+      <pubDate>Fri, 05 Dec 2025 14:09:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/entrepreneurship/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Leadership</title>
+      <link>http://localhost:56312/tags/leadership/</link>
+      <pubDate>Fri, 05 Dec 2025 14:09:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/leadership/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Personal-Development</title>
+      <link>http://localhost:56312/tags/personal-development/</link>
+      <pubDate>Fri, 05 Dec 2025 14:09:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/personal-development/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Strategy</title>
+      <link>http://localhost:56312/tags/strategy/</link>
+      <pubDate>Fri, 05 Dec 2025 14:09:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/strategy/</guid>
       <description></description>
     </item>
     <item>
@@ -280,24 +315,10 @@
       <description></description>
     </item>
     <item>
-      <title>Leadership</title>
-      <link>http://localhost:56312/tags/leadership/</link>
-      <pubDate>Fri, 05 Dec 2025 01:13:00 +0200</pubDate>
-      <guid>http://localhost:56312/tags/leadership/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Philosophy</title>
       <link>http://localhost:56312/tags/philosophy/</link>
       <pubDate>Fri, 05 Dec 2025 01:13:00 +0200</pubDate>
       <guid>http://localhost:56312/tags/philosophy/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Strategy</title>
-      <link>http://localhost:56312/tags/strategy/</link>
-      <pubDate>Fri, 05 Dec 2025 01:13:00 +0200</pubDate>
-      <guid>http://localhost:56312/tags/strategy/</guid>
       <description></description>
     </item>
     <item>
@@ -438,13 +459,6 @@
       <link>http://localhost:56312/tags/python/</link>
       <pubDate>Thu, 04 Dec 2025 15:00:00 +0200</pubDate>
       <guid>http://localhost:56312/tags/python/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Entrepreneurship</title>
-      <link>http://localhost:56312/tags/entrepreneurship/</link>
-      <pubDate>Thu, 04 Dec 2025 14:56:00 +0200</pubDate>
-      <guid>http://localhost:56312/tags/entrepreneurship/</guid>
       <description></description>
     </item>
     <item>
