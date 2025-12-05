@@ -42,11 +42,31 @@
     <lastmod>2025-12-05T01:05:06+00:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:56312/tags/cloud-native/</loc>
-    <lastmod>2025-12-05T02:42:00+02:00</lastmod>
+    <loc>http://localhost:56312/tags/devops/</loc>
+    <lastmod>2025-12-05T02:43:00+02:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:56312/tags/devops/</loc>
+    <loc>http://localhost:56312/tags/haproxy/</loc>
+    <lastmod>2025-12-05T02:43:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/posts/2025-12-05-haproxy-zero-to-hero-the-definitive-indepth-guide-to-highperformance-load-balancing/</loc>
+    <lastmod>2025-12-05T02:43:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/tags/high-availability/</loc>
+    <lastmod>2025-12-05T02:43:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/tags/load-balancing/</loc>
+    <lastmod>2025-12-05T02:43:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/tags/networking/</loc>
+    <lastmod>2025-12-05T02:43:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/tags/cloud-native/</loc>
     <lastmod>2025-12-05T02:42:00+02:00</lastmod>
   </url>
   <url>
@@ -568,10 +588,6 @@
   <url>
     <loc>http://localhost:56312/posts/cloudflare-openai/</loc>
     <lastmod>2025-11-28T16:15:00+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://localhost:56312/tags/networking/</loc>
-    <lastmod>2025-11-28T16:10:00+02:00</lastmod>
   </url>
   <url>
     <loc>http://localhost:56312/tags/real-time/</loc>

@@ -1,6 +1,6 @@
 ---
 title: "HAProxy Zero to Hero: The Definitive In‑Depth Guide to High‑Performance Load Balancing"
-date: ""2025-12-05T02:43:00+02:00"
+date: "2025-12-05T02:43:00+02:00"
 draft: false
 tags: ["HAProxy", "Load Balancing", "DevOps", "High Availability", "Networking"]
 ---

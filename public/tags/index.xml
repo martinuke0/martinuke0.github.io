@@ -56,17 +56,45 @@
       <description></description>
     </item>
     <item>
+      <title>DevOps</title>
+      <link>http://localhost:56312/tags/devops/</link>
+      <pubDate>Fri, 05 Dec 2025 02:43:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/devops/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>HAProxy</title>
+      <link>http://localhost:56312/tags/haproxy/</link>
+      <pubDate>Fri, 05 Dec 2025 02:43:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/haproxy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>High Availability</title>
+      <link>http://localhost:56312/tags/high-availability/</link>
+      <pubDate>Fri, 05 Dec 2025 02:43:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/high-availability/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Load Balancing</title>
+      <link>http://localhost:56312/tags/load-balancing/</link>
+      <pubDate>Fri, 05 Dec 2025 02:43:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/load-balancing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Networking</title>
+      <link>http://localhost:56312/tags/networking/</link>
+      <pubDate>Fri, 05 Dec 2025 02:43:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/networking/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Cloud Native</title>
       <link>http://localhost:56312/tags/cloud-native/</link>
       <pubDate>Fri, 05 Dec 2025 02:42:00 +0200</pubDate>
       <guid>http://localhost:56312/tags/cloud-native/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>DevOps</title>
-      <link>http://localhost:56312/tags/devops/</link>
-      <pubDate>Fri, 05 Dec 2025 02:42:00 +0200</pubDate>
-      <guid>http://localhost:56312/tags/devops/</guid>
       <description></description>
     </item>
     <item>
@@ -739,13 +767,6 @@
       <link>http://localhost:56312/tags/proxy/</link>
       <pubDate>Fri, 28 Nov 2025 16:15:00 +0200</pubDate>
       <guid>http://localhost:56312/tags/proxy/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Networking</title>
-      <link>http://localhost:56312/tags/networking/</link>
-      <pubDate>Fri, 28 Nov 2025 16:10:00 +0200</pubDate>
-      <guid>http://localhost:56312/tags/networking/</guid>
       <description></description>
     </item>
     <item>
