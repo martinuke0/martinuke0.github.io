@@ -2,7 +2,7 @@
 title: "Your Next Five(50) Moves"
 date: "2025-12-05T14:09:00+02:00"
 draft: false
-tags:[ strategy,leadership,entrepreneurship, decision-making, personal-development]
+tags:[ "strategy","leadership", "entrepreneurship", "decision-making", "personal-development"]
 ---
 
 Your Next Five Moves by Patrick Bet-David distills entrepreneurship and leadership into five strategic “moves”: know yourself, reason clearly, build the right team, scale with strategy, and deploy power plays. This article extracts 10 actionable ideas from each move (50 total), plus 10 big-picture takeaways that synthesize the whole book. It’s designed as a practical field guide you can apply immediately.
