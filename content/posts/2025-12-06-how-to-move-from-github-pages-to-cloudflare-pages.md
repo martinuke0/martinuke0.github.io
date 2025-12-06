@@ -43,7 +43,6 @@ If you follow along, you can ship your site on Cloudflare Pages the same day.
 - [10) CI/CD, Previews, and Rollbacks](#10-cicd-previews-and-rollbacks)
 - [Troubleshooting Common Issues](#troubleshooting-common-issues)
 - [Example: Jekyll on GitHub Pages → Cloudflare Pages](#example-jekyll-on-github-pages--cloudflare-pages)
-- [Alternative: If You Meant Salesforce Marketing Cloud “CloudPages”](#alternative-if-you-meant-salesforce-marketing-cloud-cloudpages)
 - [Conclusion](#conclusion)
 
 ## 1) Decide What You’re Migrating
@@ -363,20 +362,6 @@ Remember to secure endpoints (e.g., CSRF tokens, origin checks, or server-side v
 6) Monitor and finalize:
    - Keep GitHub Pages content in place until you confirm a stable production on Cloudflare.
    - Update your sitemap in Search Console and monitor for crawl errors.
-
-## Alternative: If You Meant Salesforce Marketing Cloud “CloudPages”
-
-If your goal is to move a static site from GitHub Pages into Salesforce Marketing Cloud’s CloudPages:
-
-- Export static HTML from your generator (`jekyll build`, `hugo`, `astro build`).
-- In SFMC, use CloudPages to create a Collection and Landing Pages.
-- Upload or paste your HTML/CSS/JS into CloudPages content blocks or use Code Resource pages.
-- Rewrite relative asset paths or host assets on a CDN (SFMC doesn’t act as a general static host).
-- For forms, leverage AMPScript/SSJS and DEs (Data Extensions) per SFMC best practices.
-- Test in multiple business units and publish to the assigned CloudPages domain.
-- Expect a different deployment model than CI-driven static hosts.
-
-Because the platforms are very different, there’s no 1:1 migration—plan for reimplementation of dynamic pieces.
 
 ## Conclusion
 

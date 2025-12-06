@@ -11,8 +11,26 @@
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 05 Dec 2025 13:20:17 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 06 Dec 2025 11:54:19 +0000</lastBuildDate>
     <atom:link href="http://localhost:56312/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Move from GitHub Pages to Cloudflare Pages</title>
+      <link>http://localhost:56312/posts/2025-12-06-how-to-move-from-github-pages-to-cloudflare-pages/</link>
+      <pubDate>Sat, 06 Dec 2025 11:54:19 +0000</pubDate>
+      <guid>http://localhost:56312/posts/2025-12-06-how-to-move-from-github-pages-to-cloudflare-pages/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;GitHub Pages is a fantastic starting point for static sites. But as your needs grow—zero-downtime deploys, branch previews, global edge performance, custom headers and redirects, or serverless functions—you might want to graduate to Cloudflare Pages.&lt;/p&gt;
+&lt;p&gt;In this step-by-step guide, you’ll learn how to migrate cleanly from GitHub Pages to Cloudflare Pages with minimal or zero downtime, while preserving SEO, URLs, and performance. We’ll cover:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Preparing your repository (Jekyll/Hugo/Eleventy/Next/Astro/etc.)&lt;/li&gt;
+&lt;li&gt;Configuring Cloudflare Pages builds and environments&lt;/li&gt;
+&lt;li&gt;Switching DNS with no downtime&lt;/li&gt;
+&lt;li&gt;Preserving links via redirects and canonical URLs&lt;/li&gt;
+&lt;li&gt;Handling SPA routing, caching, headers, and forms&lt;/li&gt;
+&lt;li&gt;Rollbacks, previews, and common pitfalls&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you follow along, you can ship your site on Cloudflare Pages the same day.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Build Your Next SaaS with Expo: Zero-to-Hero In‑Depth Guide</title>
       <link>http://localhost:56312/posts/2025-12-05-build-your-next-saas-with-expo-zero-to-hero-indepth-guide/</link>

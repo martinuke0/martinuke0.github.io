@@ -11,8 +11,43 @@
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 05 Dec 2025 13:20:17 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 06 Dec 2025 11:54:19 +0000</lastBuildDate>
     <atom:link href="http://localhost:56312/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cloudflare Pages</title>
+      <link>http://localhost:56312/tags/cloudflare-pages/</link>
+      <pubDate>Sat, 06 Dec 2025 11:54:19 +0000</pubDate>
+      <guid>http://localhost:56312/tags/cloudflare-pages/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DevOps</title>
+      <link>http://localhost:56312/tags/devops/</link>
+      <pubDate>Sat, 06 Dec 2025 11:54:19 +0000</pubDate>
+      <guid>http://localhost:56312/tags/devops/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GitHub Pages</title>
+      <link>http://localhost:56312/tags/github-pages/</link>
+      <pubDate>Sat, 06 Dec 2025 11:54:19 +0000</pubDate>
+      <guid>http://localhost:56312/tags/github-pages/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Migration</title>
+      <link>http://localhost:56312/tags/migration/</link>
+      <pubDate>Sat, 06 Dec 2025 11:54:19 +0000</pubDate>
+      <guid>http://localhost:56312/tags/migration/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Static Sites</title>
+      <link>http://localhost:56312/tags/static-sites/</link>
+      <pubDate>Sat, 06 Dec 2025 11:54:19 +0000</pubDate>
+      <guid>http://localhost:56312/tags/static-sites/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Expo</title>
       <link>http://localhost:56312/tags/expo/</link>
@@ -91,41 +126,6 @@
       <description></description>
     </item>
     <item>
-      <title>Decision-Making</title>
-      <link>http://localhost:56312/tags/decision-making/</link>
-      <pubDate>Fri, 05 Dec 2025 14:09:00 +0200</pubDate>
-      <guid>http://localhost:56312/tags/decision-making/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Entrepreneurship</title>
-      <link>http://localhost:56312/tags/entrepreneurship/</link>
-      <pubDate>Fri, 05 Dec 2025 14:09:00 +0200</pubDate>
-      <guid>http://localhost:56312/tags/entrepreneurship/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Leadership</title>
-      <link>http://localhost:56312/tags/leadership/</link>
-      <pubDate>Fri, 05 Dec 2025 14:09:00 +0200</pubDate>
-      <guid>http://localhost:56312/tags/leadership/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Personal-Development</title>
-      <link>http://localhost:56312/tags/personal-development/</link>
-      <pubDate>Fri, 05 Dec 2025 14:09:00 +0200</pubDate>
-      <guid>http://localhost:56312/tags/personal-development/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Strategy</title>
-      <link>http://localhost:56312/tags/strategy/</link>
-      <pubDate>Fri, 05 Dec 2025 14:09:00 +0200</pubDate>
-      <guid>http://localhost:56312/tags/strategy/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>AWS</title>
       <link>http://localhost:56312/tags/aws/</link>
       <pubDate>Fri, 05 Dec 2025 01:05:06 +0000</pubDate>
@@ -158,13 +158,6 @@
       <link>http://localhost:56312/tags/software-design/</link>
       <pubDate>Fri, 05 Dec 2025 01:05:06 +0000</pubDate>
       <guid>http://localhost:56312/tags/software-design/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>DevOps</title>
-      <link>http://localhost:56312/tags/devops/</link>
-      <pubDate>Fri, 05 Dec 2025 02:43:00 +0200</pubDate>
-      <guid>http://localhost:56312/tags/devops/</guid>
       <description></description>
     </item>
     <item>
@@ -357,10 +350,24 @@
       <description></description>
     </item>
     <item>
+      <title>Leadership</title>
+      <link>http://localhost:56312/tags/leadership/</link>
+      <pubDate>Fri, 05 Dec 2025 01:13:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/leadership/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Philosophy</title>
       <link>http://localhost:56312/tags/philosophy/</link>
       <pubDate>Fri, 05 Dec 2025 01:13:00 +0200</pubDate>
       <guid>http://localhost:56312/tags/philosophy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Strategy</title>
+      <link>http://localhost:56312/tags/strategy/</link>
+      <pubDate>Fri, 05 Dec 2025 01:13:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/strategy/</guid>
       <description></description>
     </item>
     <item>
@@ -501,6 +508,13 @@
       <link>http://localhost:56312/tags/python/</link>
       <pubDate>Thu, 04 Dec 2025 15:00:00 +0200</pubDate>
       <guid>http://localhost:56312/tags/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Entrepreneurship</title>
+      <link>http://localhost:56312/tags/entrepreneurship/</link>
+      <pubDate>Thu, 04 Dec 2025 14:56:00 +0200</pubDate>
+      <guid>http://localhost:56312/tags/entrepreneurship/</guid>
       <description></description>
     </item>
     <item>
@@ -949,6 +963,20 @@
       <link>http://localhost:56312/tags/github-actions/</link>
       <pubDate>Thu, 27 Nov 2025 13:38:00 +0200</pubDate>
       <guid>http://localhost:56312/tags/github-actions/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Decision-Making</title>
+      <link>http://localhost:56312/tags/decision-making/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:56312/tags/decision-making/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Personal-Development</title>
+      <link>http://localhost:56312/tags/personal-development/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:56312/tags/personal-development/</guid>
       <description></description>
     </item>
   </channel>
