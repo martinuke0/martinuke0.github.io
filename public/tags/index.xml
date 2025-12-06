@@ -11,8 +11,50 @@
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 05 Dec 2025 14:10:00 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 05 Dec 2025 13:20:17 +0000</lastBuildDate>
     <atom:link href="http://localhost:56312/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Expo</title>
+      <link>http://localhost:56312/tags/expo/</link>
+      <pubDate>Fri, 05 Dec 2025 13:20:17 +0000</pubDate>
+      <guid>http://localhost:56312/tags/expo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Guide</title>
+      <link>http://localhost:56312/tags/guide/</link>
+      <pubDate>Fri, 05 Dec 2025 13:20:17 +0000</pubDate>
+      <guid>http://localhost:56312/tags/guide/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mobile Development</title>
+      <link>http://localhost:56312/tags/mobile-development/</link>
+      <pubDate>Fri, 05 Dec 2025 13:20:17 +0000</pubDate>
+      <guid>http://localhost:56312/tags/mobile-development/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Payments</title>
+      <link>http://localhost:56312/tags/payments/</link>
+      <pubDate>Fri, 05 Dec 2025 13:20:17 +0000</pubDate>
+      <guid>http://localhost:56312/tags/payments/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>React Native</title>
+      <link>http://localhost:56312/tags/react-native/</link>
+      <pubDate>Fri, 05 Dec 2025 13:20:17 +0000</pubDate>
+      <guid>http://localhost:56312/tags/react-native/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Saas</title>
+      <link>http://localhost:56312/tags/saas/</link>
+      <pubDate>Fri, 05 Dec 2025 13:20:17 +0000</pubDate>
+      <guid>http://localhost:56312/tags/saas/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Backend-Architecture</title>
       <link>http://localhost:56312/tags/backend-architecture/</link>
@@ -704,20 +746,6 @@
       <link>http://localhost:56312/tags/javascript/</link>
       <pubDate>Sat, 29 Nov 2025 17:09:00 +0200</pubDate>
       <guid>http://localhost:56312/tags/javascript/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Payments</title>
-      <link>http://localhost:56312/tags/payments/</link>
-      <pubDate>Sat, 29 Nov 2025 17:09:00 +0200</pubDate>
-      <guid>http://localhost:56312/tags/payments/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Saas</title>
-      <link>http://localhost:56312/tags/saas/</link>
-      <pubDate>Sat, 29 Nov 2025 17:09:00 +0200</pubDate>
-      <guid>http://localhost:56312/tags/saas/</guid>
       <description></description>
     </item>
     <item>
