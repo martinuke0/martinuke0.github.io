@@ -1,4 +1,3 @@
-```md
 ---
 title: "Your Next Five(50) Moves"
 date: "2025-12-05T14:09:00+02:00"
@@ -101,4 +100,3 @@ Your Next Five Moves is designed to provide entrepreneurs and C-suite executives
 8. **Find Your Next Why:** Success is a continuous process of graduating up the motivational pyramid from basic **Survival** and **Status** to ultimately striving for **Purpose** (Impact, History, Enlightenment),.
 9. **The Game is War and Requires Paranoia:** Business is a bloodbath where peace is an illusion; staying **cautiously paranoid** and relentlessly tracking data prevents complacency and guards against the numerous threats designed to take down successful companies,,.
 10. **Entrepreneurship is Problem-Solving:** Entrepreneurs solve the world's problems because they are inherently equipped to study complexity, simplify it, and find effective solutions through critical processing,.
-```
