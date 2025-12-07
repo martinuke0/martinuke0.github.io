@@ -11,8 +11,125 @@
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 06 Dec 2025 11:54:19 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 06 Dec 2025 19:58:35 +0000</lastBuildDate>
     <atom:link href="http://localhost:56312/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python Ray and Its Role in Scaling Large Language Models (LLMs)</title>
+      <link>http://localhost:56312/posts/2025-12-06-python-ray-and-its-role-in-scaling-large-language-models-llms/</link>
+      <pubDate>Sat, 06 Dec 2025 19:58:35 +0000</pubDate>
+      <guid>http://localhost:56312/posts/2025-12-06-python-ray-and-its-role-in-scaling-large-language-models-llms/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;As artificial intelligence (AI) and machine learning (ML) models grow in size and complexity, the need for scalable and efficient computing frameworks becomes paramount. &lt;strong&gt;Ray&lt;/strong&gt;, an open-source Python framework, has emerged as a powerful tool for distributed and parallel computing, enabling developers and researchers to scale their ML workloads seamlessly. This article explores &lt;strong&gt;Python Ray&lt;/strong&gt;, its ecosystem, and how it specifically relates to the development, training, and deployment of &lt;strong&gt;Large Language Models (LLMs)&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CQRS: A Practical Guide to Command Query Responsibility Segregation</title>
+      <link>http://localhost:56312/posts/2025-12-06-cqrs-a-practical-guide-to-command-query-responsibility-segregation/</link>
+      <pubDate>Sat, 06 Dec 2025 19:58:03 +0000</pubDate>
+      <guid>http://localhost:56312/posts/2025-12-06-cqrs-a-practical-guide-to-command-query-responsibility-segregation/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Command Query Responsibility Segregation (CQRS) is an architectural pattern that separates reads (queries) from writes (commands). Rather than using a single data model and layer to both modify and read state, CQRS encourages designing optimized models and pathways for each. This separation can improve scalability, performance, and clarity—especially in complex domains—while introducing new challenges around consistency, messaging, and operational complexity.&lt;/p&gt;
+&lt;p&gt;This guide provides a practical, vendor-neutral overview of CQRS: what it is, when it helps, how to implement it (with and without event sourcing), and the pitfalls to avoid. Code examples are provided to illustrate implementation techniques.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Automated Market Making (AMM): How It Works, Designs, Risks, and the Future</title>
+      <link>http://localhost:56312/posts/2025-12-06-automated-market-making-amm-how-it-works-designs-risks-and-the-future/</link>
+      <pubDate>Sat, 06 Dec 2025 19:35:55 +0000</pubDate>
+      <guid>http://localhost:56312/posts/2025-12-06-automated-market-making-amm-how-it-works-designs-risks-and-the-future/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Automated Market Makers (AMMs) are the liquidity engines powering most decentralized exchanges (DEXs). Instead of relying on traditional order books and human market makers, AMMs use deterministic formulas—called bonding curves—to continuously quote buy and sell prices for assets. This design unlocks 24/7 liquidity, permissionless market creation, and composability across decentralized finance (DeFi). Yet AMMs also introduce new mechanics and risks: slippage, impermanent loss, MEV (maximal extractable value), and complex design trade-offs.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Zero to Hero in Byzantine Consensus for Distributed Systems</title>
+      <link>http://localhost:56312/posts/2025-12-06-zero-to-hero-in-byzantine-consensus-for-distributed-systems/</link>
+      <pubDate>Sat, 06 Dec 2025 19:35:18 +0000</pubDate>
+      <guid>http://localhost:56312/posts/2025-12-06-zero-to-hero-in-byzantine-consensus-for-distributed-systems/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Distributed systems underpin many critical applications today, from blockchain networks to large-scale cloud services. However, coordinating agreement (consensus) among distributed nodes is challenging, especially when some nodes may behave maliciously or unpredictably. This challenge is famously captured by the &lt;strong&gt;Byzantine Generals Problem&lt;/strong&gt;, which models how independent actors can safely agree on a strategy despite some actors potentially acting against the group&amp;rsquo;s interest.&lt;/p&gt;
+&lt;p&gt;This blog post will take you &lt;strong&gt;from zero to hero&lt;/strong&gt; on Byzantine consensus in distributed systems. We&amp;rsquo;ll explore the problem&amp;rsquo;s origins, why it matters, fundamental solutions like Byzantine Fault Tolerance (BFT), and real-world applications.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Node.js Event Loop Explained: From First Principles to Advanced Patterns</title>
+      <link>http://localhost:56312/posts/2025-12-06-the-nodejs-event-loop-explained-from-first-principles-to-advanced-patterns/</link>
+      <pubDate>Sat, 06 Dec 2025 19:33:57 +0000</pubDate>
+      <guid>http://localhost:56312/posts/2025-12-06-the-nodejs-event-loop-explained-from-first-principles-to-advanced-patterns/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;The Node.js event loop is the beating heart of every Node application. It powers non-blocking I/O, orchestrates timers, resolves promises, schedules callbacks, and coordinates the thread pool. Understanding it deeply is the difference between apps that feel crisp and resilient under load, and apps that stall, leak resources, or starve I/O.&lt;/p&gt;
+&lt;p&gt;This tutorial takes you from beginner-friendly mental models to advanced, production-grade techniques. You’ll learn what the event loop is, how it’s implemented (libuv), the phases and microtask semantics, how timers work, how to measure and improve event loop health, and how to avoid common pitfalls like starvation and blocking. By the end, you’ll be comfortable reasoning about execution order, building reliable async flows, and tuning performance with confidence.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>In-Depth Tutorial on Parallelism and Asynchronous Programming</title>
+      <link>http://localhost:56312/posts/2025-12-06-in-depth-tutorial-on-parallelism-and-asynchronous-programming/</link>
+      <pubDate>Sat, 06 Dec 2025 19:32:31 +0000</pubDate>
+      <guid>http://localhost:56312/posts/2025-12-06-in-depth-tutorial-on-parallelism-and-asynchronous-programming/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;In modern software development, improving application responsiveness and performance is critical. Two fundamental concepts that help achieve this are &lt;strong&gt;parallelism&lt;/strong&gt; and &lt;strong&gt;asynchronous programming&lt;/strong&gt;. Although often used interchangeably, they represent distinct approaches to handling multiple tasks and can be combined for maximum efficiency.&lt;/p&gt;
+&lt;p&gt;This tutorial provides an in-depth exploration of parallelism and asynchronous programming: what they mean, how they differ, how they relate to concurrency, and how to implement them effectively. We will also include practical examples and point to valuable resources for further learning.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Memory-Mapped Files (mmap): A Practical Guide to Faster I/O and Shared Memory</title>
+      <link>http://localhost:56312/posts/2025-12-06-memory-mapped-files-mmap-a-practical-guide-to-faster-io-and-shared-memory/</link>
+      <pubDate>Sat, 06 Dec 2025 19:32:02 +0000</pubDate>
+      <guid>http://localhost:56312/posts/2025-12-06-memory-mapped-files-mmap-a-practical-guide-to-faster-io-and-shared-memory/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Memory-mapped files (mmap) let you treat file contents (or anonymous memory) as a region of your process’s virtual memory. Instead of calling read/write in loops, you map a file, then access it as if it were an in-memory buffer. The kernel transparently brings pages into RAM on demand and writes them back when needed. This can reduce system calls, enable zero-copy I/O, and open up powerful patterns like inter-process shared memory.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Ultimate Guide to Python Design Patterns: Beginner to Advanced (One Tutorial to Rule Them All)</title>
+      <link>http://localhost:56312/posts/2025-12-06-the-ultimate-guide-to-python-design-patterns-beginner-to-advanced-one-tutorial-to-rule-them-all/</link>
+      <pubDate>Sat, 06 Dec 2025 17:27:05 +0000</pubDate>
+      <guid>http://localhost:56312/posts/2025-12-06-the-ultimate-guide-to-python-design-patterns-beginner-to-advanced-one-tutorial-to-rule-them-all/</guid>
+      <description>&lt;p&gt;Design patterns are time-tested solutions to recurring problems in software design. In Python, patterns take on a uniquely “pythonic” flavor because the language emphasizes readability, duck typing, first-class functions, and batteries-included libraries.&lt;/p&gt;
+&lt;p&gt;This guide takes you from beginner to advanced—covering the classic Gang of Four (GoF) patterns, Pythonic equivalents, concurrency and async patterns, architectural patterns, and metaprogramming techniques. You’ll learn when to use a pattern, the pitfalls to avoid, and how to apply patterns idiomatically in Python so you can ship maintainable, scalable systems and be more capable than 99% of your peers.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Ultimate OOP in Python: Beginner to Advanced (One Tutorial to Rule Them All)</title>
+      <link>http://localhost:56312/posts/2025-12-06-the-ultimate-oop-in-python-beginner-to-advanced-one-tutorial-to-rule-them-all/</link>
+      <pubDate>Sat, 06 Dec 2025 17:26:28 +0000</pubDate>
+      <guid>http://localhost:56312/posts/2025-12-06-the-ultimate-oop-in-python-beginner-to-advanced-one-tutorial-to-rule-them-all/</guid>
+      <description>&lt;p&gt;Object-Oriented Programming (OOP) in Python is a superpower when you learn to use the language’s data model and protocols to your advantage. This tutorial is a comprehensive, end-to-end guide—from the very basics of classes and objects to advanced features like descriptors, protocols, metaclasses, and performance optimizations. The goal: to make you more capable than 99% of your peers by the end.&lt;/p&gt;
+&lt;p&gt;What makes Python’s OOP special isn’t just syntax—it’s the “data model” that lets your objects integrate naturally with the language (iteration, context managers, arithmetic, indexing, etc.). We’ll cover essentials, best practices, pitfalls, and real-world patterns, with concrete code examples throughout.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Simplest Way to Start Crypto Paper Trading Algorithms with Python on Your Laptop</title>
+      <link>http://localhost:56312/posts/2025-12-06-the-simplest-way-to-start-crypto-paper-trading-algorithms-with-python-on-your-laptop/</link>
+      <pubDate>Sat, 06 Dec 2025 17:23:32 +0000</pubDate>
+      <guid>http://localhost:56312/posts/2025-12-06-the-simplest-way-to-start-crypto-paper-trading-algorithms-with-python-on-your-laptop/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;If you want to learn algorithmic crypto trading without risking real money, paper trading is the safest, fastest way to start. In this guide, you&amp;rsquo;ll build a minimal, efficient paper trading loop in Python that runs on your laptop, uses real-time market data, and simulates orders with fees and slippage—no exchange account or API keys required. We’ll use public market data (via CCXT) and a small “paper broker” to track positions, PnL, and trades.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linked Hash Maps in Python: Concepts, System Design Relevance, and Resources</title>
+      <link>http://localhost:56312/posts/2025-12-06-linked-hash-maps-in-python-concepts-system-design-relevance-and-resources/</link>
+      <pubDate>Sat, 06 Dec 2025 17:21:23 +0000</pubDate>
+      <guid>http://localhost:56312/posts/2025-12-06-linked-hash-maps-in-python-concepts-system-design-relevance-and-resources/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Hash maps are fundamental data structures widely used in programming and system design for their efficient key-value storage and retrieval capabilities. In Python, the built-in dictionary (&lt;code&gt;dict&lt;/code&gt;) serves as a highly optimized hash map. However, a &lt;strong&gt;linked hash map&lt;/strong&gt; is a specialized variant that maintains the order of insertion while retaining the fast lookup of a hash map. This blog post explores the concept of linked hash maps in Python, their relevance to system design, and useful resources for deeper understanding.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Skip Lists in Python, Zero to Hero: Deep Dive and System Design Connections</title>
+      <link>http://localhost:56312/posts/2025-12-06-skip-lists-in-python-zero-to-hero-deep-dive-and-system-design-connections/</link>
+      <pubDate>Sat, 06 Dec 2025 17:13:45 +0000</pubDate>
+      <guid>http://localhost:56312/posts/2025-12-06-skip-lists-in-python-zero-to-hero-deep-dive-and-system-design-connections/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Skip lists are a beautiful idea: a simple, probabilistic alternative to balanced trees that delivers expected O(log n) search, insert, and delete, yet is easier to implement and friendlier to concurrency. They’ve quietly powered critical systems for decades—from leaderboards and rate limiters to LSM-tree memtables and Redis sorted sets.&lt;/p&gt;
+&lt;p&gt;In this post, you’ll go from beginner to hero:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Understand the intuition, guarantees, and design of skip lists&lt;/li&gt;
+&lt;li&gt;Implement a production-quality skip list in Python&lt;/li&gt;
+&lt;li&gt;Learn how skip lists show up in system design&lt;/li&gt;
+&lt;li&gt;Get practical guidance on performance, determinism, and trade-offs&lt;/li&gt;
+&lt;li&gt;Explore advanced variants and when to use them&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you’re building systems that need fast ordered access, range queries, or rank-based operations, skip lists belong in your toolkit.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How Batching API Requests Works: Patterns, Protocols, and Practical Implementation</title>
+      <link>http://localhost:56312/posts/2025-12-06-how-batching-api-requests-works-patterns-protocols-and-practical-implementation/</link>
+      <pubDate>Sat, 06 Dec 2025 17:10:57 +0000</pubDate>
+      <guid>http://localhost:56312/posts/2025-12-06-how-batching-api-requests-works-patterns-protocols-and-practical-implementation/</guid>
+      <description>&lt;p&gt;Batching API requests is a proven technique to improve throughput, reduce overhead, and tame the N+1 request problem across web and mobile apps. But batching is more than “combine a few calls into one.” To do it well you need to consider protocol details, error semantics, idempotency, observability, rate limiting, and more.&lt;/p&gt;
+&lt;p&gt;This article explains how batching works, when to use it, and how to design and implement robust batch endpoints with real code examples.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>How to Move from GitHub Pages to Cloudflare Pages</title>
       <link>http://localhost:56312/posts/2025-12-06-how-to-move-from-github-pages-to-cloudflare-pages/</link>
@@ -32,6 +149,48 @@
 &lt;p&gt;If you follow along, you can ship your site on Cloudflare Pages the same day.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>CORS From Zero to Hero: A Deep, Practical Tutorial for Web Developers</title>
+      <link>http://localhost:56312/posts/2025-12-06-cors-from-zero-to-hero-a-deep-practical-tutorial-for-web-developers/</link>
+      <pubDate>Sat, 06 Dec 2025 11:53:22 +0000</pubDate>
+      <guid>http://localhost:56312/posts/2025-12-06-cors-from-zero-to-hero-a-deep-practical-tutorial-for-web-developers/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Cross-Origin Resource Sharing (CORS) is one of the most misunderstood parts of modern web development. It sits at the intersection of browsers, HTTP, and security, and when it goes wrong you often see opaque errors like “CORS policy: No ‘Access-Control-Allow-Origin’ header…”. This guide takes you from zero to hero: you’ll learn the mental model behind CORS, how the browser enforces it, how to configure servers correctly across popular stacks, how to optimize performance, and how to avoid common security pitfalls.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How Expo Go Works Internally</title>
+      <link>http://localhost:56312/posts/2025-12-05-how-expo-go-works-internally/</link>
+      <pubDate>Fri, 05 Dec 2025 21:10:34 +0000</pubDate>
+      <guid>http://localhost:56312/posts/2025-12-05-how-expo-go-works-internally/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Expo Go is a cornerstone tool in the React Native ecosystem, enabling developers to build, test, and iterate on mobile apps rapidly without the overhead of compiling native code for every change. This tutorial dives deeply into &lt;strong&gt;how Expo Go works internally&lt;/strong&gt;, revealing the architecture, workflows, and limitations that make it such a unique and powerful tool for mobile app development.&lt;/p&gt;
+&lt;p&gt;By understanding Expo Go’s inner workings, you will better leverage its capabilities, troubleshoot issues, and know when to transition to custom development builds.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Nginx from Zero to Hero: An In-Depth Tutorial and Guide</title>
+      <link>http://localhost:56312/posts/2025-12-05-nginx-from-zero-to-hero-an-in-depth-tutorial-and-guide/</link>
+      <pubDate>Fri, 05 Dec 2025 18:18:52 +0000</pubDate>
+      <guid>http://localhost:56312/posts/2025-12-05-nginx-from-zero-to-hero-an-in-depth-tutorial-and-guide/</guid>
+      <description>&lt;p&gt;Nginx is one of the most popular open-source web servers in the world, widely used not only to serve static content but also as a reverse proxy, load balancer, and HTTP cache. This comprehensive tutorial will guide you step-by-step from the basics of installing Nginx to configuring advanced features, helping you become proficient in managing and optimizing it for your projects.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#introduction-to-nginx&#34;&gt;Introduction to Nginx&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#installing-nginx&#34;&gt;Installing Nginx&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#understanding-nginx-architecture&#34;&gt;Understanding Nginx Architecture&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#basic-configuration-and-serving-static-content&#34;&gt;Basic Configuration and Serving Static Content&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#configuring-reverse-proxy-and-load-balancing&#34;&gt;Configuring Reverse Proxy and Load Balancing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#optimizing-nginx-performance&#34;&gt;Optimizing Nginx Performance&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#setting-up-https-with-ssl-tls&#34;&gt;Setting Up HTTPS with SSL/TLS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#advanced-configurations-and-use-cases&#34;&gt;Advanced Configurations and Use Cases&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#useful-commands-for-managing-nginx&#34;&gt;Useful Commands for Managing Nginx&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#further-resources&#34;&gt;Further Resources&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#conclusion&#34;&gt;Conclusion&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;introduction-to-nginx&#34;&gt;Introduction to Nginx&lt;/h2&gt;
+&lt;p&gt;Nginx (pronounced &amp;ldquo;Engine-X&amp;rdquo;) is a high-performance web server designed to handle many concurrent connections efficiently. Unlike traditional web servers, it uses an event-driven, asynchronous architecture, which makes it well suited for high-traffic websites and applications.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Build Your Next SaaS with Expo: Zero-to-Hero In‑Depth Guide</title>
       <link>http://localhost:56312/posts/2025-12-05-build-your-next-saas-with-expo-zero-to-hero-indepth-guide/</link>
       <pubDate>Fri, 05 Dec 2025 13:20:17 +0000</pubDate>
@@ -39,6 +198,14 @@
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;Building a SaaS today means delivering a seamless experience across platforms, iterating quickly, and instrumenting everything from auth to analytics. Expo—on top of React Native—gives you a modern toolchain to ship high-quality mobile (and web) apps faster, with over-the-air updates, a file-based router, first-class TypeScript, deep integrations, and a sane path to the App Store and Google Play.&lt;/p&gt;
 &lt;p&gt;In this guide, you’ll go from zero to hero building a production-ready SaaS with Expo. We’ll cover architecture, auth, multi-tenancy, payments (Stripe and RevenueCat), deep linking, push notifications, OTA updates with EAS, testing, security, analytics, and CI/CD. You’ll get practical code snippets and a curated resources section for deeper research.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Launch Your SaaS in Days with Firebase: An In‑Depth Tutorial, Planning Guide, and Must‑Use Features</title>
+      <link>http://localhost:56312/posts/2025-12-05-launch-your-saas-in-days-with-firebase-an-indepth-tutorial-planning-guide-and-mustuse-features/</link>
+      <pubDate>Fri, 05 Dec 2025 12:50:51 +0000</pubDate>
+      <guid>http://localhost:56312/posts/2025-12-05-launch-your-saas-in-days-with-firebase-an-indepth-tutorial-planning-guide-and-mustuse-features/</guid>
+      <description>&lt;p&gt;Building a SaaS used to require weeks of backend setup before you could even validate your idea. Firebase changes that. With Auth, a real-time database, serverless functions, hosting, analytics, and a rich extension marketplace (including Stripe subscriptions), you can ship a production-grade MVP in days—not months.&lt;/p&gt;
+&lt;p&gt;This comprehensive guide shows you how to plan, build, and scale a multi-tenant SaaS on Firebase. You’ll get architecture advice, security best practices, code snippets, a step-by-step tutorial, and a final resources chapter to keep going.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Linktree System Design: From Zero to Hero - A Complete Technical Deep Dive</title>
@@ -61,13 +228,11 @@
 &lt;p&gt;In the modern digital landscape, content creators, influencers, and businesses need efficient ways to manage and share multiple links across different platforms. Linktree has emerged as a popular solution that simplifies link management through a centralized &amp;ldquo;link in bio&amp;rdquo; system. But have you ever wondered about the technical architecture that powers such applications?&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Your Next Five(50) Moves</title>
-      <link>http://localhost:56312/posts/2025-12-05-your-next-five50-moves-date-/</link>
-      <pubDate>Fri, 05 Dec 2025 14:09:00 +0200</pubDate>
-      <guid>http://localhost:56312/posts/2025-12-05-your-next-five50-moves-date-/</guid>
-      <description>&lt;p&gt;Your Next Five Moves by Patrick Bet-David distills entrepreneurship and leadership into five strategic “moves”: know yourself, reason clearly, build the right team, scale with strategy, and deploy power plays. This article extracts 10 actionable ideas from each move (50 total), plus 10 big-picture takeaways that synthesize the whole book. It’s designed as a practical field guide you can apply immediately.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Note: These are original, practical takeaways inspired by the book’s core themes. They are not quotations or a replacement for reading the book.&lt;/p&gt;</description>
+      <title>Mastering Parallelism in Python with Advanced Techniques and Resources : From Beginner to Hero</title>
+      <link>http://localhost:56312/posts/parallelism/</link>
+      <pubDate>Fri, 05 Dec 2025 02:57:20 +0000</pubDate>
+      <guid>http://localhost:56312/posts/parallelism/</guid>
+      <description>&lt;p&gt;Python is one of the most popular programming languages today, widely used for everything from web development to data science. In an era of multi-core processors and big data, a crucial skill that elevates your Python programming to the next level is mastering parallelism—the art of running multiple computations simultaneously to speed up processing and utilize modern hardware efficiently. This comprehensive tutorial will guide you from the basics of parallel computing in Python to advanced techniques, complete with practical examples, performance considerations, and valuable resources to explore further.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Event-Driven Architecture: A Deep Dive from Beginner to Advanced</title>

@@ -11,8 +11,400 @@
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 06 Dec 2025 11:54:19 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 06 Dec 2025 19:58:35 +0000</lastBuildDate>
     <atom:link href="http://localhost:56312/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ai</title>
+      <link>http://localhost:56312/tags/ai/</link>
+      <pubDate>Sat, 06 Dec 2025 19:58:35 +0000</pubDate>
+      <guid>http://localhost:56312/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Distributed Computing</title>
+      <link>http://localhost:56312/tags/distributed-computing/</link>
+      <pubDate>Sat, 06 Dec 2025 19:58:35 +0000</pubDate>
+      <guid>http://localhost:56312/tags/distributed-computing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Large Language Models</title>
+      <link>http://localhost:56312/tags/large-language-models/</link>
+      <pubDate>Sat, 06 Dec 2025 19:58:35 +0000</pubDate>
+      <guid>http://localhost:56312/tags/large-language-models/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Machine-Learning</title>
+      <link>http://localhost:56312/tags/machine-learning/</link>
+      <pubDate>Sat, 06 Dec 2025 19:58:35 +0000</pubDate>
+      <guid>http://localhost:56312/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>http://localhost:56312/tags/python/</link>
+      <pubDate>Sat, 06 Dec 2025 19:58:35 +0000</pubDate>
+      <guid>http://localhost:56312/tags/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ray</title>
+      <link>http://localhost:56312/tags/ray/</link>
+      <pubDate>Sat, 06 Dec 2025 19:58:35 +0000</pubDate>
+      <guid>http://localhost:56312/tags/ray/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Architecture</title>
+      <link>http://localhost:56312/tags/architecture/</link>
+      <pubDate>Sat, 06 Dec 2025 19:58:03 +0000</pubDate>
+      <guid>http://localhost:56312/tags/architecture/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CQRS</title>
+      <link>http://localhost:56312/tags/cqrs/</link>
+      <pubDate>Sat, 06 Dec 2025 19:58:03 +0000</pubDate>
+      <guid>http://localhost:56312/tags/cqrs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DDD</title>
+      <link>http://localhost:56312/tags/ddd/</link>
+      <pubDate>Sat, 06 Dec 2025 19:58:03 +0000</pubDate>
+      <guid>http://localhost:56312/tags/ddd/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Event-Sourcing</title>
+      <link>http://localhost:56312/tags/event-sourcing/</link>
+      <pubDate>Sat, 06 Dec 2025 19:58:03 +0000</pubDate>
+      <guid>http://localhost:56312/tags/event-sourcing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Microservices</title>
+      <link>http://localhost:56312/tags/microservices/</link>
+      <pubDate>Sat, 06 Dec 2025 19:58:03 +0000</pubDate>
+      <guid>http://localhost:56312/tags/microservices/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Automated Market Makers</title>
+      <link>http://localhost:56312/tags/automated-market-makers/</link>
+      <pubDate>Sat, 06 Dec 2025 19:35:55 +0000</pubDate>
+      <guid>http://localhost:56312/tags/automated-market-makers/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Crypto</title>
+      <link>http://localhost:56312/tags/crypto/</link>
+      <pubDate>Sat, 06 Dec 2025 19:35:55 +0000</pubDate>
+      <guid>http://localhost:56312/tags/crypto/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DeFi</title>
+      <link>http://localhost:56312/tags/defi/</link>
+      <pubDate>Sat, 06 Dec 2025 19:35:55 +0000</pubDate>
+      <guid>http://localhost:56312/tags/defi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Liquidity</title>
+      <link>http://localhost:56312/tags/liquidity/</link>
+      <pubDate>Sat, 06 Dec 2025 19:35:55 +0000</pubDate>
+      <guid>http://localhost:56312/tags/liquidity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Uniswap</title>
+      <link>http://localhost:56312/tags/uniswap/</link>
+      <pubDate>Sat, 06 Dec 2025 19:35:55 +0000</pubDate>
+      <guid>http://localhost:56312/tags/uniswap/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Blockchain</title>
+      <link>http://localhost:56312/tags/blockchain/</link>
+      <pubDate>Sat, 06 Dec 2025 19:35:18 +0000</pubDate>
+      <guid>http://localhost:56312/tags/blockchain/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Byzantine Consensus</title>
+      <link>http://localhost:56312/tags/byzantine-consensus/</link>
+      <pubDate>Sat, 06 Dec 2025 19:35:18 +0000</pubDate>
+      <guid>http://localhost:56312/tags/byzantine-consensus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Distributed-Systems</title>
+      <link>http://localhost:56312/tags/distributed-systems/</link>
+      <pubDate>Sat, 06 Dec 2025 19:35:18 +0000</pubDate>
+      <guid>http://localhost:56312/tags/distributed-systems/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fault Tolerance</title>
+      <link>http://localhost:56312/tags/fault-tolerance/</link>
+      <pubDate>Sat, 06 Dec 2025 19:35:18 +0000</pubDate>
+      <guid>http://localhost:56312/tags/fault-tolerance/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>System-Design</title>
+      <link>http://localhost:56312/tags/system-design/</link>
+      <pubDate>Sat, 06 Dec 2025 19:35:18 +0000</pubDate>
+      <guid>http://localhost:56312/tags/system-design/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Asynchronous</title>
+      <link>http://localhost:56312/tags/asynchronous/</link>
+      <pubDate>Sat, 06 Dec 2025 19:33:57 +0000</pubDate>
+      <guid>http://localhost:56312/tags/asynchronous/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Event Loop</title>
+      <link>http://localhost:56312/tags/event-loop/</link>
+      <pubDate>Sat, 06 Dec 2025 19:33:57 +0000</pubDate>
+      <guid>http://localhost:56312/tags/event-loop/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Libuv</title>
+      <link>http://localhost:56312/tags/libuv/</link>
+      <pubDate>Sat, 06 Dec 2025 19:33:57 +0000</pubDate>
+      <guid>http://localhost:56312/tags/libuv/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Node.js</title>
+      <link>http://localhost:56312/tags/node.js/</link>
+      <pubDate>Sat, 06 Dec 2025 19:33:57 +0000</pubDate>
+      <guid>http://localhost:56312/tags/node.js/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Performance</title>
+      <link>http://localhost:56312/tags/performance/</link>
+      <pubDate>Sat, 06 Dec 2025 19:33:57 +0000</pubDate>
+      <guid>http://localhost:56312/tags/performance/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Asynchronous Programming</title>
+      <link>http://localhost:56312/tags/asynchronous-programming/</link>
+      <pubDate>Sat, 06 Dec 2025 19:32:31 +0000</pubDate>
+      <guid>http://localhost:56312/tags/asynchronous-programming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Concurrency</title>
+      <link>http://localhost:56312/tags/concurrency/</link>
+      <pubDate>Sat, 06 Dec 2025 19:32:31 +0000</pubDate>
+      <guid>http://localhost:56312/tags/concurrency/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Multithreading</title>
+      <link>http://localhost:56312/tags/multithreading/</link>
+      <pubDate>Sat, 06 Dec 2025 19:32:31 +0000</pubDate>
+      <guid>http://localhost:56312/tags/multithreading/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Parallelism</title>
+      <link>http://localhost:56312/tags/parallelism/</link>
+      <pubDate>Sat, 06 Dec 2025 19:32:31 +0000</pubDate>
+      <guid>http://localhost:56312/tags/parallelism/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Programming Tutorial</title>
+      <link>http://localhost:56312/tags/programming-tutorial/</link>
+      <pubDate>Sat, 06 Dec 2025 19:32:31 +0000</pubDate>
+      <guid>http://localhost:56312/tags/programming-tutorial/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linux</title>
+      <link>http://localhost:56312/tags/linux/</link>
+      <pubDate>Sat, 06 Dec 2025 19:32:02 +0000</pubDate>
+      <guid>http://localhost:56312/tags/linux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Memory-Management</title>
+      <link>http://localhost:56312/tags/memory-management/</link>
+      <pubDate>Sat, 06 Dec 2025 19:32:02 +0000</pubDate>
+      <guid>http://localhost:56312/tags/memory-management/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mmap</title>
+      <link>http://localhost:56312/tags/mmap/</link>
+      <pubDate>Sat, 06 Dec 2025 19:32:02 +0000</pubDate>
+      <guid>http://localhost:56312/tags/mmap/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Systems-Programming</title>
+      <link>http://localhost:56312/tags/systems-programming/</link>
+      <pubDate>Sat, 06 Dec 2025 19:32:02 +0000</pubDate>
+      <guid>http://localhost:56312/tags/systems-programming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Asyncio</title>
+      <link>http://localhost:56312/tags/asyncio/</link>
+      <pubDate>Sat, 06 Dec 2025 17:27:05 +0000</pubDate>
+      <guid>http://localhost:56312/tags/asyncio/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Best-Practices</title>
+      <link>http://localhost:56312/tags/best-practices/</link>
+      <pubDate>Sat, 06 Dec 2025 17:27:05 +0000</pubDate>
+      <guid>http://localhost:56312/tags/best-practices/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Design-Patterns</title>
+      <link>http://localhost:56312/tags/design-patterns/</link>
+      <pubDate>Sat, 06 Dec 2025 17:27:05 +0000</pubDate>
+      <guid>http://localhost:56312/tags/design-patterns/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Advanced</title>
+      <link>http://localhost:56312/tags/advanced/</link>
+      <pubDate>Sat, 06 Dec 2025 17:26:28 +0000</pubDate>
+      <guid>http://localhost:56312/tags/advanced/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Oop</title>
+      <link>http://localhost:56312/tags/oop/</link>
+      <pubDate>Sat, 06 Dec 2025 17:26:28 +0000</pubDate>
+      <guid>http://localhost:56312/tags/oop/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tutorial</title>
+      <link>http://localhost:56312/tags/tutorial/</link>
+      <pubDate>Sat, 06 Dec 2025 17:26:28 +0000</pubDate>
+      <guid>http://localhost:56312/tags/tutorial/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Algorithmic-Trading</title>
+      <link>http://localhost:56312/tags/algorithmic-trading/</link>
+      <pubDate>Sat, 06 Dec 2025 17:23:32 +0000</pubDate>
+      <guid>http://localhost:56312/tags/algorithmic-trading/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ccxt</title>
+      <link>http://localhost:56312/tags/ccxt/</link>
+      <pubDate>Sat, 06 Dec 2025 17:23:32 +0000</pubDate>
+      <guid>http://localhost:56312/tags/ccxt/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Paper-Trading</title>
+      <link>http://localhost:56312/tags/paper-trading/</link>
+      <pubDate>Sat, 06 Dec 2025 17:23:32 +0000</pubDate>
+      <guid>http://localhost:56312/tags/paper-trading/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data-Structures</title>
+      <link>http://localhost:56312/tags/data-structures/</link>
+      <pubDate>Sat, 06 Dec 2025 17:21:23 +0000</pubDate>
+      <guid>http://localhost:56312/tags/data-structures/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hash Maps</title>
+      <link>http://localhost:56312/tags/hash-maps/</link>
+      <pubDate>Sat, 06 Dec 2025 17:21:23 +0000</pubDate>
+      <guid>http://localhost:56312/tags/hash-maps/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Programming</title>
+      <link>http://localhost:56312/tags/programming/</link>
+      <pubDate>Sat, 06 Dec 2025 17:21:23 +0000</pubDate>
+      <guid>http://localhost:56312/tags/programming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Algorithms&#34;</title>
+      <link>http://localhost:56312/tags/algorithms/</link>
+      <pubDate>Sat, 06 Dec 2025 17:13:45 +0000</pubDate>
+      <guid>http://localhost:56312/tags/algorithms/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data Structures&#34;</title>
+      <link>http://localhost:56312/tags/data-structures/</link>
+      <pubDate>Sat, 06 Dec 2025 17:13:45 +0000</pubDate>
+      <guid>http://localhost:56312/tags/data-structures/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python&#34;</title>
+      <link>http://localhost:56312/tags/python/</link>
+      <pubDate>Sat, 06 Dec 2025 17:13:45 +0000</pubDate>
+      <guid>http://localhost:56312/tags/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Skip List</title>
+      <link>http://localhost:56312/tags/skip-list/</link>
+      <pubDate>Sat, 06 Dec 2025 17:13:45 +0000</pubDate>
+      <guid>http://localhost:56312/tags/skip-list/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>System Design&#34;</title>
+      <link>http://localhost:56312/tags/system-design/</link>
+      <pubDate>Sat, 06 Dec 2025 17:13:45 +0000</pubDate>
+      <guid>http://localhost:56312/tags/system-design/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>APIs</title>
+      <link>http://localhost:56312/tags/apis/</link>
+      <pubDate>Sat, 06 Dec 2025 17:10:57 +0000</pubDate>
+      <guid>http://localhost:56312/tags/apis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Backend</title>
+      <link>http://localhost:56312/tags/backend/</link>
+      <pubDate>Sat, 06 Dec 2025 17:10:57 +0000</pubDate>
+      <guid>http://localhost:56312/tags/backend/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>HTTP</title>
+      <link>http://localhost:56312/tags/http/</link>
+      <pubDate>Sat, 06 Dec 2025 17:10:57 +0000</pubDate>
+      <guid>http://localhost:56312/tags/http/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Scalability</title>
+      <link>http://localhost:56312/tags/scalability/</link>
+      <pubDate>Sat, 06 Dec 2025 17:10:57 +0000</pubDate>
+      <guid>http://localhost:56312/tags/scalability/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Cloudflare Pages</title>
       <link>http://localhost:56312/tags/cloudflare-pages/</link>
@@ -49,10 +441,80 @@
       <description></description>
     </item>
     <item>
+      <title>CORS</title>
+      <link>http://localhost:56312/tags/cors/</link>
+      <pubDate>Sat, 06 Dec 2025 11:53:22 +0000</pubDate>
+      <guid>http://localhost:56312/tags/cors/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Javascript</title>
+      <link>http://localhost:56312/tags/javascript/</link>
+      <pubDate>Sat, 06 Dec 2025 11:53:22 +0000</pubDate>
+      <guid>http://localhost:56312/tags/javascript/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web Security&#34;</title>
+      <link>http://localhost:56312/tags/web-security/</link>
+      <pubDate>Sat, 06 Dec 2025 11:53:22 +0000</pubDate>
+      <guid>http://localhost:56312/tags/web-security/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Devtools</title>
+      <link>http://localhost:56312/tags/devtools/</link>
+      <pubDate>Fri, 05 Dec 2025 21:10:34 +0000</pubDate>
+      <guid>http://localhost:56312/tags/devtools/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Expo</title>
       <link>http://localhost:56312/tags/expo/</link>
-      <pubDate>Fri, 05 Dec 2025 13:20:17 +0000</pubDate>
+      <pubDate>Fri, 05 Dec 2025 21:10:34 +0000</pubDate>
       <guid>http://localhost:56312/tags/expo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mobile Development</title>
+      <link>http://localhost:56312/tags/mobile-development/</link>
+      <pubDate>Fri, 05 Dec 2025 21:10:34 +0000</pubDate>
+      <guid>http://localhost:56312/tags/mobile-development/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>React Native</title>
+      <link>http://localhost:56312/tags/react-native/</link>
+      <pubDate>Fri, 05 Dec 2025 21:10:34 +0000</pubDate>
+      <guid>http://localhost:56312/tags/react-native/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Load Balancer</title>
+      <link>http://localhost:56312/tags/load-balancer/</link>
+      <pubDate>Fri, 05 Dec 2025 18:18:52 +0000</pubDate>
+      <guid>http://localhost:56312/tags/load-balancer/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nginx</title>
+      <link>http://localhost:56312/tags/nginx/</link>
+      <pubDate>Fri, 05 Dec 2025 18:18:52 +0000</pubDate>
+      <guid>http://localhost:56312/tags/nginx/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Reverse Proxy</title>
+      <link>http://localhost:56312/tags/reverse-proxy/</link>
+      <pubDate>Fri, 05 Dec 2025 18:18:52 +0000</pubDate>
+      <guid>http://localhost:56312/tags/reverse-proxy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web Server</title>
+      <link>http://localhost:56312/tags/web-server/</link>
+      <pubDate>Fri, 05 Dec 2025 18:18:52 +0000</pubDate>
+      <guid>http://localhost:56312/tags/web-server/</guid>
       <description></description>
     </item>
     <item>
@@ -63,13 +525,6 @@
       <description></description>
     </item>
     <item>
-      <title>Mobile Development</title>
-      <link>http://localhost:56312/tags/mobile-development/</link>
-      <pubDate>Fri, 05 Dec 2025 13:20:17 +0000</pubDate>
-      <guid>http://localhost:56312/tags/mobile-development/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Payments</title>
       <link>http://localhost:56312/tags/payments/</link>
       <pubDate>Fri, 05 Dec 2025 13:20:17 +0000</pubDate>
@@ -77,17 +532,38 @@
       <description></description>
     </item>
     <item>
-      <title>React Native</title>
-      <link>http://localhost:56312/tags/react-native/</link>
-      <pubDate>Fri, 05 Dec 2025 13:20:17 +0000</pubDate>
-      <guid>http://localhost:56312/tags/react-native/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Saas</title>
       <link>http://localhost:56312/tags/saas/</link>
       <pubDate>Fri, 05 Dec 2025 13:20:17 +0000</pubDate>
       <guid>http://localhost:56312/tags/saas/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cloud Functions</title>
+      <link>http://localhost:56312/tags/cloud-functions/</link>
+      <pubDate>Fri, 05 Dec 2025 12:50:51 +0000</pubDate>
+      <guid>http://localhost:56312/tags/cloud-functions/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Firebase</title>
+      <link>http://localhost:56312/tags/firebase/</link>
+      <pubDate>Fri, 05 Dec 2025 12:50:51 +0000</pubDate>
+      <guid>http://localhost:56312/tags/firebase/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Firestore</title>
+      <link>http://localhost:56312/tags/firestore/</link>
+      <pubDate>Fri, 05 Dec 2025 12:50:51 +0000</pubDate>
+      <guid>http://localhost:56312/tags/firestore/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Stripe</title>
+      <link>http://localhost:56312/tags/stripe/</link>
+      <pubDate>Fri, 05 Dec 2025 12:50:51 +0000</pubDate>
+      <guid>http://localhost:56312/tags/stripe/</guid>
       <description></description>
     </item>
     <item>
@@ -112,17 +588,24 @@
       <description></description>
     </item>
     <item>
-      <title>System-Design</title>
-      <link>http://localhost:56312/tags/system-design/</link>
-      <pubDate>Fri, 05 Dec 2025 14:10:00 +0200</pubDate>
-      <guid>http://localhost:56312/tags/system-design/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Web-Development</title>
       <link>http://localhost:56312/tags/web-development/</link>
       <pubDate>Fri, 05 Dec 2025 14:10:00 +0200</pubDate>
       <guid>http://localhost:56312/tags/web-development/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Advanced Python</title>
+      <link>http://localhost:56312/tags/advanced-python/</link>
+      <pubDate>Fri, 05 Dec 2025 02:57:20 +0000</pubDate>
+      <guid>http://localhost:56312/tags/advanced-python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Multiprocessing</title>
+      <link>http://localhost:56312/tags/multiprocessing/</link>
+      <pubDate>Fri, 05 Dec 2025 02:57:20 +0000</pubDate>
+      <guid>http://localhost:56312/tags/multiprocessing/</guid>
       <description></description>
     </item>
     <item>
@@ -144,13 +627,6 @@
       <link>http://localhost:56312/tags/event-driven-architecture/</link>
       <pubDate>Fri, 05 Dec 2025 01:05:06 +0000</pubDate>
       <guid>http://localhost:56312/tags/event-driven-architecture/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Microservices</title>
-      <link>http://localhost:56312/tags/microservices/</link>
-      <pubDate>Fri, 05 Dec 2025 01:05:06 +0000</pubDate>
-      <guid>http://localhost:56312/tags/microservices/</guid>
       <description></description>
     </item>
     <item>
@@ -221,13 +697,6 @@
       <link>http://localhost:56312/tags/emscripten/</link>
       <pubDate>Fri, 05 Dec 2025 02:40:00 +0200</pubDate>
       <guid>http://localhost:56312/tags/emscripten/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Performance</title>
-      <link>http://localhost:56312/tags/performance/</link>
-      <pubDate>Fri, 05 Dec 2025 02:40:00 +0200</pubDate>
-      <guid>http://localhost:56312/tags/performance/</guid>
       <description></description>
     </item>
     <item>
@@ -308,13 +777,6 @@
       <description></description>
     </item>
     <item>
-      <title>Backend</title>
-      <link>http://localhost:56312/tags/backend/</link>
-      <pubDate>Fri, 05 Dec 2025 01:49:00 +0200</pubDate>
-      <guid>http://localhost:56312/tags/backend/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Event-Driven</title>
       <link>http://localhost:56312/tags/event-driven/</link>
       <pubDate>Fri, 05 Dec 2025 01:49:00 +0200</pubDate>
@@ -392,13 +854,6 @@
       <description></description>
     </item>
     <item>
-      <title>Best-Practices</title>
-      <link>http://localhost:56312/tags/best-practices/</link>
-      <pubDate>Fri, 05 Dec 2025 01:01:00 +0200</pubDate>
-      <guid>http://localhost:56312/tags/best-practices/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Quality-Assurance</title>
       <link>http://localhost:56312/tags/quality-assurance/</link>
       <pubDate>Fri, 05 Dec 2025 01:01:00 +0200</pubDate>
@@ -431,13 +886,6 @@
       <link>http://localhost:56312/tags/containers/</link>
       <pubDate>Thu, 04 Dec 2025 23:59:00 +0200</pubDate>
       <guid>http://localhost:56312/tags/containers/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Tutorial</title>
-      <link>http://localhost:56312/tags/tutorial/</link>
-      <pubDate>Thu, 04 Dec 2025 23:59:00 +0200</pubDate>
-      <guid>http://localhost:56312/tags/tutorial/</guid>
       <description></description>
     </item>
     <item>
@@ -476,13 +924,6 @@
       <description></description>
     </item>
     <item>
-      <title>Ai</title>
-      <link>http://localhost:56312/tags/ai/</link>
-      <pubDate>Thu, 04 Dec 2025 15:00:00 +0200</pubDate>
-      <guid>http://localhost:56312/tags/ai/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Langchain</title>
       <link>http://localhost:56312/tags/langchain/</link>
       <pubDate>Thu, 04 Dec 2025 15:00:00 +0200</pubDate>
@@ -494,20 +935,6 @@
       <link>http://localhost:56312/tags/llm/</link>
       <pubDate>Thu, 04 Dec 2025 15:00:00 +0200</pubDate>
       <guid>http://localhost:56312/tags/llm/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Machine-Learning</title>
-      <link>http://localhost:56312/tags/machine-learning/</link>
-      <pubDate>Thu, 04 Dec 2025 15:00:00 +0200</pubDate>
-      <guid>http://localhost:56312/tags/machine-learning/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Python</title>
-      <link>http://localhost:56312/tags/python/</link>
-      <pubDate>Thu, 04 Dec 2025 15:00:00 +0200</pubDate>
-      <guid>http://localhost:56312/tags/python/</guid>
       <description></description>
     </item>
     <item>
@@ -546,13 +973,6 @@
       <description></description>
     </item>
     <item>
-      <title>Distributed-Systems</title>
-      <link>http://localhost:56312/tags/distributed-systems/</link>
-      <pubDate>Thu, 04 Dec 2025 12:51:00 +0200</pubDate>
-      <guid>http://localhost:56312/tags/distributed-systems/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Message-Queue</title>
       <link>http://localhost:56312/tags/message-queue/</link>
       <pubDate>Thu, 04 Dec 2025 12:51:00 +0200</pubDate>
@@ -585,13 +1005,6 @@
       <link>http://localhost:56312/tags/observability/</link>
       <pubDate>Thu, 04 Dec 2025 01:56:00 +0200</pubDate>
       <guid>http://localhost:56312/tags/observability/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Scalability</title>
-      <link>http://localhost:56312/tags/scalability/</link>
-      <pubDate>Thu, 04 Dec 2025 01:56:00 +0200</pubDate>
-      <guid>http://localhost:56312/tags/scalability/</guid>
       <description></description>
     </item>
     <item>
@@ -672,24 +1085,10 @@
       <description></description>
     </item>
     <item>
-      <title>Blockchain</title>
-      <link>http://localhost:56312/tags/blockchain/</link>
-      <pubDate>Mon, 01 Dec 2025 23:20:00 +0200</pubDate>
-      <guid>http://localhost:56312/tags/blockchain/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Cryptography</title>
       <link>http://localhost:56312/tags/cryptography/</link>
       <pubDate>Mon, 01 Dec 2025 23:20:00 +0200</pubDate>
       <guid>http://localhost:56312/tags/cryptography/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Data-Structures</title>
-      <link>http://localhost:56312/tags/data-structures/</link>
-      <pubDate>Mon, 01 Dec 2025 23:20:00 +0200</pubDate>
-      <guid>http://localhost:56312/tags/data-structures/</guid>
       <description></description>
     </item>
     <item>
@@ -753,20 +1152,6 @@
       <link>http://localhost:56312/tags/sovereignty/</link>
       <pubDate>Sun, 30 Nov 2025 23:20:00 +0200</pubDate>
       <guid>http://localhost:56312/tags/sovereignty/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Javascript</title>
-      <link>http://localhost:56312/tags/javascript/</link>
-      <pubDate>Sat, 29 Nov 2025 17:09:00 +0200</pubDate>
-      <guid>http://localhost:56312/tags/javascript/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Stripe</title>
-      <link>http://localhost:56312/tags/stripe/</link>
-      <pubDate>Sat, 29 Nov 2025 17:09:00 +0200</pubDate>
-      <guid>http://localhost:56312/tags/stripe/</guid>
       <description></description>
     </item>
     <item>
@@ -914,13 +1299,6 @@
       <link>http://localhost:56312/tags/optimization/</link>
       <pubDate>Fri, 28 Nov 2025 01:07:00 +0200</pubDate>
       <guid>http://localhost:56312/tags/optimization/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Advanced</title>
-      <link>http://localhost:56312/tags/advanced/</link>
-      <pubDate>Thu, 27 Nov 2025 22:46:00 +0200</pubDate>
-      <guid>http://localhost:56312/tags/advanced/</guid>
       <description></description>
     </item>
     <item>

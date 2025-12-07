@@ -1,6 +1,6 @@
 ---
 title: "Your Next Five(50) Moves"
-date: "2025-12-05T14:09:00+02:00"
+date: "2025-12-07T14:09:00+02:00"
 draft: false
 tags: ["strategy","leadership", "entrepreneurship", "decision-making", "personal-development"]
 ---
