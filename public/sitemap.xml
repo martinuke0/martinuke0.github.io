@@ -2,14 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:56312/</loc>
-    <lastmod>2025-12-07T14:09:00+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://localhost:56312/posts/</loc>
-    <lastmod>2025-12-07T14:09:00+02:00</lastmod>
-  </url>
-  <url>
     <loc>http://localhost:56312/tags/ai/</loc>
     <lastmod>2025-12-06T19:58:35+00:00</lastmod>
   </url>
@@ -23,6 +15,14 @@
   </url>
   <url>
     <loc>http://localhost:56312/tags/machine-learning/</loc>
+    <lastmod>2025-12-06T19:58:35+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/</loc>
+    <lastmod>2025-12-06T19:58:35+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/posts/</loc>
     <lastmod>2025-12-06T19:58:35+00:00</lastmod>
   </url>
   <url>
@@ -434,6 +434,30 @@
     <lastmod>2025-12-05T14:10:00+02:00</lastmod>
   </url>
   <url>
+    <loc>http://localhost:56312/tags/decision-making/</loc>
+    <lastmod>2025-12-05T14:09:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/tags/entrepreneurship/</loc>
+    <lastmod>2025-12-05T14:09:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/tags/leadership/</loc>
+    <lastmod>2025-12-05T14:09:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/tags/personal-development/</loc>
+    <lastmod>2025-12-05T14:09:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/tags/strategy/</loc>
+    <lastmod>2025-12-05T14:09:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:56312/posts/2025-12-05-your-next-five50-moves/</loc>
+    <lastmod>2025-12-05T14:09:00+02:00</lastmod>
+  </url>
+  <url>
     <loc>http://localhost:56312/tags/advanced-python/</loc>
     <lastmod>2025-12-05T02:57:20+00:00</lastmod>
   </url>
@@ -586,15 +610,7 @@
     <lastmod>2025-12-05T01:13:00+02:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:56312/tags/leadership/</loc>
-    <lastmod>2025-12-05T01:13:00+02:00</lastmod>
-  </url>
-  <url>
     <loc>http://localhost:56312/tags/philosophy/</loc>
-    <lastmod>2025-12-05T01:13:00+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://localhost:56312/tags/strategy/</loc>
     <lastmod>2025-12-05T01:13:00+02:00</lastmod>
   </url>
   <url>
@@ -699,10 +715,6 @@
   </url>
   <url>
     <loc>http://localhost:56312/categories/entrepreneurship/</loc>
-    <lastmod>2025-12-04T14:56:00+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://localhost:56312/tags/entrepreneurship/</loc>
     <lastmod>2025-12-04T14:56:00+02:00</lastmod>
   </url>
   <url>
@@ -1052,12 +1064,6 @@
   <url>
     <loc>http://localhost:56312/posts/hello-world/</loc>
     <lastmod>2025-11-25T20:58:04+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://localhost:56312/tags/decision-making/</loc>
-  </url>
-  <url>
-    <loc>http://localhost:56312/tags/personal-development/</loc>
   </url>
   <url>
     <loc>http://localhost:56312/search/</loc>
