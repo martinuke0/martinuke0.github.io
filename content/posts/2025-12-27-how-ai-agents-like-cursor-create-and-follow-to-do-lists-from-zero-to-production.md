@@ -5,8 +5,6 @@ draft: false
 tags: ["Cursor AI", "AI Agents", "To-Do Lists", "Agentic Workflows", "LLM Engineering"]
 ---
 
-# How AI Agents Create and Follow To-Do Lists
-
 This tutorial explains **how modern AI agents (like those in Cursor, IDE copilots, and autonomous coding tools)** create, maintain, and execute **to-do lists** — and how you can build the same capability **from scratch to production**.
 
 This is not a UX trick.

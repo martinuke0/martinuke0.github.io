@@ -1,11 +1,9 @@
 ---
-title: "Agent-to-Agent (A2A): Zero-to-Production, Deep Technical Tutorial"
+title: "Agent-to-Agent (A2A): Zero-to-Production"
 date: "2025-12-04T01:56:00+02:00"
 draft: false
 tags: ["a2a", "ai agents", "multi-agent systems", "distributed systems", "llm", "orchestration"]
 ---
-
-# Agent-to-Agent (A2A)
 
 This guide is a **comprehensive, production-grade walkthrough** for building **Agent-to-Agent (A2A)** systems — from first principles to real-world deployment. It is written for engineers who already understand APIs, cloud infrastructure, and LLMs, but are new to *multi-agent interoperability*.
 
