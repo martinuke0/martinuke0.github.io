@@ -1,6 +1,6 @@
 ---
 title: "Agent-to-Agent (A2A): Zero-to-Production"
-date: "2025-12-04T01:56:00+02:00"
+date: "2025-12-27T01:56:00+02:00"
 draft: false
 tags: ["a2a", "ai agents", "multi-agent systems", "distributed systems", "llm", "orchestration"]
 ---
