@@ -398,81 +398,964 @@ Same query → Same results (assuming graph hasn't changed)
 Explainable → Can show exact traversal path
 Controllable → Specify depth, direction, relationship types
 
-4. Graph Construction (Most Important Step)
-4.1 Entity Extraction
-From source documents:
+## 4. Graph Construction (Most Important Step)
 
-Identify entities
+Graph quality determines everything. Poor graph construction makes even the best retrieval system useless.
 
-Normalize names
+### 4.1 Entity Extraction
 
-Assign stable IDs
+**What it is:** Identifying entities from source documents and creating nodes in the knowledge graph.
 
-This step determines graph quality.
+**The challenge:** Entity extraction must be:
+- **Accurate** - Correctly identify what is an entity
+- **Normalized** - "Dr. Smith", "Smith", "Dr. James Smith" → same entity
+- **Stable** - Same entity gets same ID across documents
+- **Typed** - Know whether it's a Person, Service, Document, etc.
 
-4.2 Relationship Extraction
-Extract:
+**Implementation:**
 
-Explicit relations (“X depends on Y”)
+```python
+from typing import List, Dict
+import spacy
+from dataclasses import dataclass
 
-Implicit relations (co-occurrence + rules)
+@dataclass
+class Entity:
+    """
+    An entity extracted from text.
+    """
+    text: str  # Original text ("Dr. Smith")
+    normalized_name: str  # Canonical form ("James Smith")
+    entity_type: str  # "Person", "Service", "Organization", etc.
+    entity_id: str  # Stable identifier ("person_jsmith")
+    confidence: float  # Extraction confidence
+    properties: Dict[str, any]  # Additional metadata
 
-Production rule:
+class EntityExtractor:
+    """
+    Extracts entities from documents.
+    """
+    def __init__(self):
+        # Use NER model (spaCy, flair, or fine-tuned transformer)
+        self.nlp = spacy.load("en_core_web_trf")  # Transformer-based NER
+        self.entity_resolver = EntityResolver()
 
-Fewer high-confidence edges beat many weak ones.
+    async def extract_entities(
+        self,
+        document: str,
+        doc_id: str
+    ) -> List[Entity]:
+        """
+        Extract entities from document.
+        """
+        # 1. Run NER
+        doc = self.nlp(document)
 
-4.3 Schema Design
-Define:
+        entities = []
+        for ent in doc.ents:
+            # 2. Normalize entity name
+            normalized = self._normalize_name(ent.text, ent.label_)
 
-Entity types
+            # 3. Resolve to canonical entity
+            entity_id = await self.entity_resolver.resolve(
+                name=normalized,
+                entity_type=ent.label_,
+                context=document
+            )
 
-Relationship types
+            entities.append(Entity(
+                text=ent.text,
+                normalized_name=normalized,
+                entity_type=ent.label_,
+                entity_id=entity_id,
+                confidence=0.9,  # From NER model
+                properties={"source_doc": doc_id, "char_span": (ent.start_char, ent.end_char)}
+            ))
 
-Allowed directions
+        return entities
 
-Bad schemas ruin Graph RAG.
+    def _normalize_name(self, text: str, entity_type: str) -> str:
+        """Normalize entity names."""
+        # Remove titles, honorifics
+        text = text.strip()
+        if entity_type == "PERSON":
+            # Remove Dr., Mr., Ms., etc.
+            text = re.sub(r'^(Dr|Mr|Ms|Mrs|Prof)\.?\s+', '', text)
+        return text
 
-5. Graph RAG Retrieval Flow
-mathematica
-Copy code
-User Question
-   ↓
-Entity Identification
-   ↓
-Graph Traversal Plan
-   ↓
-Subgraph Retrieval
-   ↓
-Optional Text Enrichment
-   ↓
-LLM Synthesis
-The LLM does not query blindly — it plans.
+class EntityResolver:
+    """
+    Resolves entity mentions to canonical identities.
+    """
+    def __init__(self, entity_db: EntityDatabase):
+        self.entity_db = entity_db
 
-6. Query Planning (Agentic Layer)
-Graph RAG is often agentic.
+    async def resolve(
+        self,
+        name: str,
+        entity_type: str,
+        context: str
+    ) -> str:
+        """
+        Resolve entity mention to canonical ID.
+        """
+        # 1. Check if exact match exists
+        exact_match = await self.entity_db.find_by_name(name, entity_type)
+        if exact_match:
+            return exact_match.entity_id
 
-Example reasoning:
+        # 2. Fuzzy matching for similar names
+        similar = await self.entity_db.find_similar(name, entity_type, threshold=0.85)
+        if similar:
+            # Use LLM to disambiguate
+            is_same = await self._llm_disambiguate(name, similar[0].normalized_name, context)
+            if is_same:
+                return similar[0].entity_id
 
-text
-Copy code
-To answer this:
-1. Identify relevant entities
-2. Traverse dependencies
-3. Collect related constraints
-4. Validate relationships
-The graph enforces logical structure.
+        # 3. Create new entity
+        entity_id = self._generate_entity_id(name, entity_type)
+        await self.entity_db.create(entity_id, name, entity_type)
+        return entity_id
 
-7. Multi-Hop Reasoning (Where Graph RAG Shines)
-Example:
+    def _generate_entity_id(self, name: str, entity_type: str) -> str:
+        """Generate stable entity ID."""
+        # Lowercase, remove spaces, add type prefix
+        clean_name = name.lower().replace(" ", "_")
+        prefix = entity_type.lower()[:4]
+        return f"{prefix}_{clean_name}_{uuid.uuid4().hex[:6]}"
 
-“Can service A access customer data?”
+    async def _llm_disambiguate(
+        self,
+        name1: str,
+        name2: str,
+        context: str
+    ) -> bool:
+        """Use LLM to determine if two names refer to same entity."""
+        prompt = f"""
+        Context: {context}
+
+        Are "{name1}" and "{name2}" referring to the same entity?
+        Answer with only "yes" or "no".
+        """
+        response = await llm.generate(prompt)
+        return "yes" in response.lower()
+```
+
+**Production best practices:**
+
+1. **Use domain-specific NER** - Fine-tune models for your domain
+2. **Maintain entity registry** - Centralized entity resolution database
+3. **Human-in-the-loop** - Review ambiguous entity resolutions
+4. **Confidence thresholds** - Only create entities with high confidence (>0.8)
+5. **Deduplication** - Regularly merge duplicate entities
+
+**This step determines graph quality.** Bad entity extraction → fragmented graph → poor retrieval.
+
+### 4.2 Relationship Extraction
+
+**What it is:** Extracting relationships between entities to create edges in the knowledge graph.
+
+**Types of relationships:**
+
+1. **Explicit relations** - Directly stated in text
+   - "Service A depends on Service B"
+   - "Alice reports to Bob"
+   - "Paper X cites Paper Y"
+
+2. **Implicit relations** - Inferred from co-occurrence or context
+   - Entities mentioned in same sentence
+   - Entities in same document section
+   - Domain-specific patterns
+
+**Implementation:**
+
+```python
+@dataclass
+class Relationship:
+    """
+    A relationship between two entities.
+    """
+    source_entity_id: str
+    target_entity_id: str
+    relationship_type: str  # "DEPENDS_ON", "REPORTS_TO", "CITES", etc.
+    confidence: float
+    evidence: str  # Text snippet supporting this relationship
+    properties: Dict[str, any]
+
+class RelationshipExtractor:
+    """
+    Extracts relationships from text.
+    """
+    def __init__(self):
+        self.relation_patterns = self._load_patterns()
+
+    async def extract_relationships(
+        self,
+        document: str,
+        entities: List[Entity]
+    ) -> List[Relationship]:
+        """
+        Extract relationships between entities in document.
+        """
+        relationships = []
+
+        # Method 1: Pattern-based extraction
+        pattern_rels = self._extract_with_patterns(document, entities)
+        relationships.extend(pattern_rels)
+
+        # Method 2: LLM-based extraction
+        llm_rels = await self._extract_with_llm(document, entities)
+        relationships.extend(llm_rels)
+
+        # Deduplicate and filter low-confidence
+        relationships = self._deduplicate_and_filter(relationships)
+
+        return relationships
+
+    def _extract_with_patterns(
+        self,
+        document: str,
+        entities: List[Entity]
+    ) -> List[Relationship]:
+        """
+        Use regex patterns to extract explicit relationships.
+        """
+        relationships = []
+
+        # Example pattern: "X depends on Y"
+        depends_pattern = r'(\w+)\s+depends on\s+(\w+)'
+        for match in re.finditer(depends_pattern, document, re.IGNORECASE):
+            source_name = match.group(1)
+            target_name = match.group(2)
+
+            # Find matching entities
+            source_entity = self._find_entity_by_name(source_name, entities)
+            target_entity = self._find_entity_by_name(target_name, entities)
+
+            if source_entity and target_entity:
+                relationships.append(Relationship(
+                    source_entity_id=source_entity.entity_id,
+                    target_entity_id=target_entity.entity_id,
+                    relationship_type="DEPENDS_ON",
+                    confidence=0.95,  # High confidence from explicit pattern
+                    evidence=match.group(0),
+                    properties={}
+                ))
+
+        return relationships
+
+    async def _extract_with_llm(
+        self,
+        document: str,
+        entities: List[Entity]
+    ) -> List[Relationship]:
+        """
+        Use LLM to extract implicit relationships.
+        """
+        # Prepare entity list for LLM
+        entity_list = "\n".join(
+            f"{i+1}. {e.normalized_name} ({e.entity_type})"
+            for i, e in enumerate(entities)
+        )
+
+        prompt = f"""
+        Document: {document}
+
+        Entities:
+        {entity_list}
+
+        Extract relationships between these entities. For each relationship, specify:
+        - Source entity (by number)
+        - Relationship type (DEPENDS_ON, REPORTS_TO, MANAGES, OWNS, CITES, etc.)
+        - Target entity (by number)
+        - Evidence (text snippet)
+
+        Return JSON array of relationships.
+        """
+
+        response = await llm.generate(prompt, format="json")
+
+        relationships = []
+        for rel_data in response:
+            source_entity = entities[rel_data["source"] - 1]
+            target_entity = entities[rel_data["target"] - 1]
+
+            relationships.append(Relationship(
+                source_entity_id=source_entity.entity_id,
+                target_entity_id=target_entity.entity_id,
+                relationship_type=rel_data["type"],
+                confidence=0.75,  # Medium confidence from LLM extraction
+                evidence=rel_data["evidence"],
+                properties={}
+            ))
+
+        return relationships
+
+    def _find_entity_by_name(
+        self,
+        name: str,
+        entities: List[Entity]
+    ) -> Optional[Entity]:
+        """Find entity by name (fuzzy match)."""
+        for entity in entities:
+            if name.lower() in entity.normalized_name.lower():
+                return entity
+        return None
+
+    def _deduplicate_and_filter(
+        self,
+        relationships: List[Relationship]
+    ) -> List[Relationship]:
+        """
+        Remove duplicate relationships and filter by confidence.
+        """
+        # Deduplicate by (source, type, target) tuple
+        seen = set()
+        unique = []
+        for rel in relationships:
+            key = (rel.source_entity_id, rel.relationship_type, rel.target_entity_id)
+            if key not in seen:
+                seen.add(key)
+                if rel.confidence >= 0.7:  # Confidence threshold
+                    unique.append(rel)
+
+        return unique
+```
+
+**Production rule:** Fewer high-confidence edges beat many weak ones.
+
+Why? Because:
+- Low-confidence edges create noise in traversal
+- Ambiguous relationships confuse retrieval
+- Graph becomes cluttered and hard to reason about
+- Query latency increases with edge count
+
+**Better to have:**
+- 100 high-confidence relationships (>0.8)
+- Than 1000 low-confidence relationships (<0.5)
+
+### 4.3 Schema Design
+
+**What it is:** Defining the structure of your knowledge graph—what entity types and relationship types are allowed.
+
+**Why it matters:** Bad schemas ruin Graph RAG because:
+- Ambiguous entity types make querying impossible
+- Too many relationship types → can't find right path
+- Inconsistent schema → fragmented graph
+- No constraints → garbage data accumulates
+
+**Schema design principles:**
+
+```python
+@dataclass
+class EntityType:
+    """
+    Definition of an entity type in the schema.
+    """
+    name: str  # "Person", "Service", "Document"
+    description: str
+    properties: Dict[str, str]  # property_name → data_type
+    required_properties: List[str]
+
+@dataclass
+class RelationshipType:
+    """
+    Definition of a relationship type in the schema.
+    """
+    name: str  # "DEPENDS_ON", "MANAGES"
+    description: str
+    source_entity_types: List[str]  # Allowed source types
+    target_entity_types: List[str]  # Allowed target types
+    direction: str  # "directed" or "undirected"
+    properties: Dict[str, str]
+
+class GraphSchema:
+    """
+    Schema for knowledge graph.
+    """
+    def __init__(self):
+        self.entity_types: Dict[str, EntityType] = {}
+        self.relationship_types: Dict[str, RelationshipType] = {}
+
+    def define_entity_type(self, entity_type: EntityType):
+        """Add entity type to schema."""
+        self.entity_types[entity_type.name] = entity_type
+
+    def define_relationship_type(self, rel_type: RelationshipType):
+        """Add relationship type to schema."""
+        self.relationship_types[rel_type.name] = rel_type
+
+    def validate_relationship(
+        self,
+        rel: Relationship,
+        source_type: str,
+        target_type: str
+    ) -> bool:
+        """
+        Validate that relationship conforms to schema.
+        """
+        rel_type = self.relationship_types.get(rel.relationship_type)
+        if not rel_type:
+            return False
+
+        # Check source type is allowed
+        if source_type not in rel_type.source_entity_types:
+            return False
+
+        # Check target type is allowed
+        if target_type not in rel_type.target_entity_types:
+            return False
+
+        return True
+
+# Example schema for software architecture
+schema = GraphSchema()
+
+# Define entity types
+schema.define_entity_type(EntityType(
+    name="Service",
+    description="A microservice in the architecture",
+    properties={"name": "string", "environment": "string", "version": "string"},
+    required_properties=["name"]
+))
+
+schema.define_entity_type(EntityType(
+    name="Person",
+    description="A person (developer, manager, etc.)",
+    properties={"name": "string", "email": "string", "role": "string"},
+    required_properties=["name"]
+))
+
+schema.define_entity_type(EntityType(
+    name="Team",
+    description="A team owning services",
+    properties={"name": "string", "department": "string"},
+    required_properties=["name"]
+))
+
+# Define relationship types
+schema.define_relationship_type(RelationshipType(
+    name="DEPENDS_ON",
+    description="Service A depends on Service B",
+    source_entity_types=["Service"],
+    target_entity_types=["Service"],
+    direction="directed",
+    properties={"dependency_type": "string", "critical": "boolean"}
+))
+
+schema.define_relationship_type(RelationshipType(
+    name="MANAGES",
+    description="Person manages Team",
+    source_entity_types=["Person"],
+    target_entity_types=["Team"],
+    direction="directed",
+    properties={"since": "date"}
+))
+
+schema.define_relationship_type(RelationshipType(
+    name="OWNS",
+    description="Team owns Service",
+    source_entity_types=["Team"],
+    target_entity_types=["Service"],
+    direction="directed",
+    properties={"primary_owner": "boolean"}
+))
+```
+
+**Schema design guidelines:**
+
+1. **Keep it simple** - Start with 5-10 entity types, not 50
+2. **Consistent naming** - Use verbs for relationships (DEPENDS_ON, not dependency)
+3. **Clear semantics** - Each relationship type has unambiguous meaning
+4. **Enforce constraints** - Validate entities/relationships against schema
+5. **Evolve carefully** - Schema changes require graph migration
+
+**Bad schemas:**
+- Too many types (100+ entity types)
+- Ambiguous relationships ("RELATED_TO" could mean anything)
+- No constraints (any entity can connect to any other)
+- Inconsistent naming conventions
+
+**Good schemas:**
+- Minimal, focused set of types
+- Clear, specific relationships
+- Type constraints enforced
+- Well-documented semantics
+
+## 5. Graph RAG Retrieval Flow
+
+Graph RAG retrieval is a multi-stage process where the LLM plans the traversal before executing it.
+
+### The complete flow
+
+```
+┌──────────────────────────────────────┐
+│       User Question                  │
+│  "Who manages the team that owns     │
+│   the Auth service?"                 │
+└────────────┬─────────────────────────┘
+             ↓
+┌──────────────────────────────────────┐
+│   1. Entity Identification           │
+│   - Extract: "Auth service"          │
+│   - Resolve: Service:auth_api        │
+└────────────┬─────────────────────────┘
+             ↓
+┌──────────────────────────────────────┐
+│   2. Graph Traversal Plan            │
+│   - Start: Service:auth_api          │
+│   - Follow: OWNED_BY → Team          │
+│   - Follow: MANAGED_BY → Person      │
+│   - Depth: 2 hops                    │
+└────────────┬─────────────────────────┘
+             ↓
+┌──────────────────────────────────────┐
+│   3. Subgraph Retrieval              │
+│   Execute query on graph database    │
+│   Return: nodes + edges              │
+└────────────┬─────────────────────────┘
+             ↓
+┌──────────────────────────────────────┐
+│   4. Optional Text Enrichment        │
+│   Fetch entity descriptions from     │
+│   vector store if needed             │
+└────────────┬─────────────────────────┘
+             ↓
+┌──────────────────────────────────────┐
+│   5. LLM Synthesis                   │
+│   Generate natural language answer   │
+│   with citations                     │
+└──────────────────────────────────────┘
+```
+
+**Key insight:** The LLM does not query blindly—it plans the traversal first.
+
+### Implementation
+
+```python
+class GraphRAGRetrieval:
+    """
+    Complete Graph RAG retrieval pipeline.
+    """
+    def __init__(
+        self,
+        graph_db: GraphDatabase,
+        vector_store: VectorStore,
+        entity_resolver: EntityResolver
+    ):
+        self.graph_db = graph_db
+        self.vector_store = vector_store
+        self.entity_resolver = entity_resolver
+
+    async def retrieve(
+        self,
+        question: str
+    ) -> str:
+        """
+        End-to-end Graph RAG retrieval.
+        """
+        # Stage 1: Entity Identification
+        entities = await self._identify_entities(question)
+
+        if not entities:
+            return "Could not identify any entities in the question."
+
+        # Stage 2: Query Planning
+        traversal_plan = await self._plan_traversal(question, entities)
+
+        # Stage 3: Subgraph Retrieval
+        subgraph = await self._retrieve_subgraph(traversal_plan)
+
+        # Stage 4: Optional Text Enrichment
+        enriched_subgraph = await self._enrich_subgraph(subgraph)
+
+        # Stage 5: LLM Synthesis
+        answer = await self._synthesize_answer(question, enriched_subgraph)
+
+        return answer
+
+    async def _identify_entities(
+        self,
+        question: str
+    ) -> List[str]:
+        """
+        Extract and resolve entities from question.
+        """
+        # Use NER to extract entity mentions
+        nlp = spacy.load("en_core_web_trf")
+        doc = nlp(question)
+
+        entity_ids = []
+        for ent in doc.ents:
+            # Resolve to canonical entity ID
+            entity_id = await self.entity_resolver.resolve(
+                name=ent.text,
+                entity_type=ent.label_,
+                context=question
+            )
+            if entity_id:
+                entity_ids.append(entity_id)
+
+        return entity_ids
+
+    async def _plan_traversal(
+        self,
+        question: str,
+        entities: List[str]
+    ) -> TraversalPlan:
+        """
+        Use LLM to plan graph traversal.
+        """
+        prompt = f"""
+        Question: {question}
+        Starting entities: {entities}
+
+        Plan a graph traversal to answer this question.
+        Specify:
+        - Starting nodes
+        - Relationship types to follow
+        - Direction (outgoing/incoming)
+        - Maximum depth
+        - Filters (if any)
+
+        Return as JSON.
+        """
+
+        plan_json = await llm.generate(prompt, format="json")
+
+        return TraversalPlan(
+            start_nodes=plan_json["start_nodes"],
+            relationship_types=plan_json["relationship_types"],
+            direction=plan_json["direction"],
+            max_depth=plan_json["max_depth"],
+            filters=plan_json.get("filters", {})
+        )
+
+    async def _retrieve_subgraph(
+        self,
+        plan: TraversalPlan
+    ) -> Subgraph:
+        """
+        Execute traversal plan and retrieve subgraph.
+        """
+        # Execute Cypher query based on plan
+        cypher_query = self._plan_to_cypher(plan)
+
+        result = await self.graph_db.execute(cypher_query)
+
+        return Subgraph(
+            nodes=result["nodes"],
+            edges=result["edges"]
+        )
+
+    def _plan_to_cypher(self, plan: TraversalPlan) -> str:
+        """Convert traversal plan to Cypher query."""
+        rel_types = "|".join(plan.relationship_types)
+        direction = "->" if plan.direction == "outgoing" else "<-"
+
+        return f"""
+        MATCH path = (start)-[:{rel_types}*1..{plan.max_depth}]{direction}(end)
+        WHERE start.id IN {plan.start_nodes}
+        RETURN nodes(path) as nodes, relationships(path) as edges
+        """
+
+    async def _enrich_subgraph(
+        self,
+        subgraph: Subgraph
+    ) -> Subgraph:
+        """
+        Optionally enrich graph structure with text descriptions.
+        """
+        for node in subgraph.nodes:
+            if not node.get("description"):
+                # Fetch description from vector store
+                description = await self.vector_store.get_description(node["id"])
+                node["description"] = description
+
+        return subgraph
+
+    async def _synthesize_answer(
+        self,
+        question: str,
+        subgraph: Subgraph
+    ) -> str:
+        """
+        Use LLM to generate answer from subgraph.
+        """
+        # Format subgraph for LLM
+        graph_context = self._format_subgraph(subgraph)
+
+        prompt = f"""
+        Question: {question}
+
+        Knowledge Graph Context:
+        {graph_context}
+
+        Using the graph structure above, answer the question.
+        Cite specific nodes and relationships in your answer.
+        """
+
+        answer = await llm.generate(prompt)
+        return answer
+
+    def _format_subgraph(self, subgraph: Subgraph) -> str:
+        """Format subgraph for LLM prompt."""
+        formatted = "Nodes:\n"
+        for node in subgraph.nodes:
+            formatted += f"- {node['id']} ({node['type']}): {node.get('description', '')}\n"
+
+        formatted += "\nRelationships:\n"
+        for edge in subgraph.edges:
+            formatted += f"- {edge['source']} -[{edge['type']}]-> {edge['target']}\n"
+
+        return formatted
+```
+
+## 6. Query Planning (Agentic Layer)
+
+Graph RAG is often agentic—the LLM reasons about how to navigate the graph before executing the traversal.
+
+### Why planning matters
+
+**Without planning:** Blind traversal leads to:
+- Following irrelevant relationships
+- Excessive depth (traversal explosion)
+- Missing the right path
+
+**With planning:** LLM determines:
+- Which relationships to follow
+- How deep to traverse
+- What constraints to apply
+- When to stop
+
+### Planning example
+
+```python
+class GraphQueryPlanner:
+    """
+    Agentic query planner for Graph RAG.
+    """
+    async def plan_query(
+        self,
+        question: str,
+        graph_schema: GraphSchema
+    ) -> QueryPlan:
+        """
+        Plan graph traversal based on question and schema.
+        """
+        # Show LLM the available schema
+        schema_description = self._describe_schema(graph_schema)
+
+        prompt = f"""
+        Available graph schema:
+        {schema_description}
+
+        Question: {question}
+
+        Reason step-by-step:
+        1. Identify relevant entities in the question
+        2. Determine what relationships need to be traversed
+        3. Plan the traversal path
+        4. Decide constraints and depth limits
+
+        Return your reasoning and the query plan as JSON.
+        """
+
+        response = await llm.generate(prompt, format="json")
+
+        return QueryPlan(
+            reasoning=response["reasoning"],
+            start_entities=response["start_entities"],
+            traversal_path=response["traversal_path"],
+            max_depth=response["max_depth"],
+            constraints=response.get("constraints", [])
+        )
+
+    def _describe_schema(self, schema: GraphSchema) -> str:
+        """Describe graph schema for LLM."""
+        description = "Entity Types:\n"
+        for entity_type in schema.entity_types.values():
+            description += f"- {entity_type.name}: {entity_type.description}\n"
+
+        description += "\nRelationship Types:\n"
+        for rel_type in schema.relationship_types.values():
+            description += f"- {rel_type.name}: {rel_type.description}\n"
+            description += f"  From: {rel_type.source_entity_types} To: {rel_type.target_entity_types}\n"
+
+        return description
+```
+
+### Example reasoning process
+
+```
+Question: "What services will be affected if we take down the Auth service?"
+
+LLM Reasoning:
+1. Identify relevant entities:
+   - "Auth service" → Entity: Service:auth_api
+
+2. Traverse dependencies:
+   - Need to find services that DEPEND_ON Auth service
+   - This is an incoming traversal (other services → Auth service)
+
+3. Collect related constraints:
+   - Should include criticality information
+   - May need to traverse transitively (services depending on services that depend on Auth)
+
+4. Validate relationships:
+   - Check that dependencies are marked as "critical"
+   - Filter out non-production services
+
+Query Plan:
+{
+  "start_nodes": ["Service:auth_api"],
+  "relationship_types": ["DEPENDS_ON"],
+  "direction": "incoming",
+  "max_depth": 2,
+  "filters": {"environment": "production"}
+}
+```
+
+**The graph enforces logical structure**—the LLM can reason about relationships, not just semantic similarity.
+
+## 7. Multi-Hop Reasoning (Where Graph RAG Shines)
+
+Multi-hop reasoning is Graph RAG's killer feature—answering questions that require following chains of relationships.
+
+### What is multi-hop reasoning?
+
+**Single-hop:** Direct relationship
+```
+Question: "Who owns the Auth service?"
+Traversal: Auth Service -[OWNED_BY]-> Platform Team
+```
+
+**Multi-hop:** Chain of relationships
+```
+Question: "Who manages the team that owns the Auth service?"
+Traversal: Auth Service -[OWNED_BY]-> Platform Team -[MANAGED_BY]-> Alice Smith
+```
+
+### Why vector search fails at multi-hop
+
+Vector RAG would need a document that explicitly states:
+> "Alice Smith manages the team that owns the Auth service"
+
+But with Graph RAG, we can infer this by traversing:
+```
+Service:auth_api -[OWNED_BY]-> Team:platform -[MANAGED_BY]-> Person:alice_smith
+```
+
+Even if no document explicitly connects Alice to the Auth service.
+
+### Multi-hop query examples
+
+**Example 1: Access control**
+
+```
+Question: "Can service A access customer data?"
 
 Graph traversal:
+Service:service_a
+  -[HAS_ROLE]-> Role:api_client
+  -[GRANTS_PERMISSION]-> Permission:read_data
+  -[APPLIES_TO]-> DataType:customer_data
 
-powershell
-Copy code
-Service A → Role → Permission → Data Type
-Vector search cannot do this reliably.
+Answer: Yes, Service A has read access to customer data via the api_client role.
+```
+
+**Example 2: Impact analysis**
+
+```
+Question: "What's the blast radius if UserDB goes down?"
+
+Graph traversal (depth 3):
+Service:user_db
+  <-[DEPENDS_ON]- Service:auth_api
+  <-[DEPENDS_ON]- Service:webapp
+  <-[DEPENDS_ON]- Service:mobile_api
+
+Also:
+Service:user_db
+  <-[DEPENDS_ON]- Service:profile_service
+  <-[DEPENDS_ON]- Service:recommendation_engine
+
+Answer: If UserDB goes down, it would affect 5 services directly and indirectly:
+auth_api, webapp, mobile_api, profile_service, and recommendation_engine.
+```
+
+**Example 3: Organizational hierarchy**
+
+```
+Question: "Who has authority to approve this budget?"
+
+Graph traversal:
+Budget:marketing_q4
+  -[BELONGS_TO]-> Department:marketing
+  -[MANAGED_BY]-> Person:bob_jones
+  -[REPORTS_TO]-> Person:alice_ceo
+  -[HAS_AUTHORITY]-> Approval:budget_approval
+
+Answer: Alice (CEO) has authority to approve marketing Q4 budget, as she oversees Bob Jones who manages the marketing department.
+```
+
+### Implementation
+
+```python
+class MultiHopTraversal:
+    """
+    Multi-hop graph traversal for complex reasoning.
+    """
+    async def multi_hop_query(
+        self,
+        start_entity: str,
+        path_pattern: List[str],
+        max_depth: int = 3
+    ) -> List[Path]:
+        """
+        Follow a pattern of relationships across multiple hops.
+        """
+        cypher_query = self._build_path_query(start_entity, path_pattern, max_depth)
+
+        result = await self.graph_db.execute(cypher_query)
+
+        return [Path(nodes=path["nodes"], relationships=path["rels"]) for path in result]
+
+    def _build_path_query(
+        self,
+        start_entity: str,
+        path_pattern: List[str],
+        max_depth: int
+    ) -> str:
+        """
+        Build Cypher query for path pattern.
+        """
+        # Pattern like: ["OWNED_BY", "MANAGED_BY"]
+        pattern_str = "".join(f"-[:{rel}]->" for rel in path_pattern)
+
+        return f"""
+        MATCH path = (start {{id: $start_id}}){pattern_str}(end)
+        WHERE length(path) <= {max_depth}
+        RETURN nodes(path) as nodes, relationships(path) as rels
+        """
+
+# Usage example
+traversal = MultiHopTraversal(graph_db)
+
+# Find who manages teams that own services
+paths = await traversal.multi_hop_query(
+    start_entity="Service:auth_api",
+    path_pattern=["OWNED_BY", "MANAGED_BY"],
+    max_depth=2
+)
+
+for path in paths:
+    print(f"Service: {path.nodes[0]['name']}")
+    print(f"Owned by: {path.nodes[1]['name']}")
+    print(f"Managed by: {path.nodes[2]['name']}")
+```
+
+**Vector search cannot do this reliably** because it lacks explicit relationship structure and traversal semantics.
 
 8. Hybrid Graph + Vector RAG (Best Practice)
 Production Graph RAG is hybrid.
