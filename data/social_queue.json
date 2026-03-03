@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-03T14:15:14Z",
+  "last_scheduled_at": "2026-03-03T14:30:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -55,6 +55,13 @@
       "url": "https://martinuke0.github.io/posts/2026-03-03-mastering-webassembly-for-high-performance-web-applications-a-comprehensive-deep-dive/",
       "social_hook": "",
       "scheduled_at": "2026-03-03T14:15:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "From Zero to Automation Hero: A Strategic Guide to Building AI Workflows for SaaS",
+      "url": "https://martinuke0.github.io/posts/2026-03-03-from-zero-to-automation-hero-a-strategic-guide-to-building-ai-workflows-for-saas/",
+      "social_hook": "The landscape of Software as a Service (SaaS) is undergoing a seismic shift. We have moved past the era of simple \"if-this-then-that\" logic into the age of intelligent orchestration. For modern SaaS companies, AI is no longer a flashy add-on; it is the engine that drives operational efficiency, customer satisfaction, and scalable growth.\n\nIf you are looking to transform your manual processes into high-octane AI workflows, this guide will take you from the foundational concepts to advanced execution.\n\nNot every process needs AI. To be an \"Automation Hero,\" you must first learn to distinguish between tasks that require simple automation and those that require intelligence.",
+      "scheduled_at": "2026-03-03T14:30:14Z",
       "status": "pending"
     }
   ]
