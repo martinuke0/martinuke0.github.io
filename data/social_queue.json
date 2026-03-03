@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-04T08:45:14Z",
+  "last_scheduled_at": "2026-03-04T09:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -195,6 +195,13 @@
       "url": "https://martinuke0.github.io/posts/2026-03-03-docker-zero-to-hero-a-comprehensive-guide-to-containerization-and-microservices-deployment/",
       "social_hook": "In the early days of software deployment, the mantra was \"it works on my machine.\" Developers would spend weeks building an application, only for it to fail in production due to subtle differences in operating system versions, library dependencies, or environment configurations. This friction between development and operations led to the birth of the DevOps movement and the rise of containerization.\n\nAt the heart of this revolution is Docker. Docker has transformed how we build, ship, and run applications by providing a consistent environment across the entire software development lifecycle (SDLC). Whether you are a solo developer or part of a massive enterprise, understanding Docker is no longer an optional skill—it is a fundamental requirement for modern software engineering.\n\nIn this guide, we will journey from the absolute basics of containerization to the complexities of deploying microservices at scale.",
       "scheduled_at": "2026-03-04T08:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Breaking the Factorization Barrier: How Coupled Discrete Diffusion (CoDD) Revolutionizes AI Text Generation",
+      "url": "https://martinuke0.github.io/posts/2026-03-03-breaking-the-factorization-barrier-how-coupled-discrete-diffusion-codd-revolutionizes-ai-text-generation/",
+      "social_hook": "Imagine you're trying to write a story, but instead of typing word by word, you could generate the entire paragraph at once—quickly, coherently, and without the usual AI hiccups. That's the promise of diffusion language models, a cutting-edge approach in AI that could make text generation as fast as image creation. But there's a catch: a pesky problem called the \"factorization barrier\" has been holding them back.\n\nIn the paper \"Breaking the Factorization Barrier in Diffusion Language Models\" (arXiv:2603.00045), researchers introduce Coupled Discrete Diffusion (CoDD), a clever fix that lets these models predict multiple words simultaneously while keeping everything sensible and connected. This isn't just theory—it's a practical breakthrough that matches heavy-duty reinforcement learning performance at a fraction of the cost.\n\nIn this post, we'll break it down for a general technical audience: no PhDs required, but plenty of substance. We'll use everyday analogies, dive into the tech, explore real-world impacts, and highlight timeless concepts. By the end, you'll see why CoDD could turbocharge everything from chatbots to code generators.",
+      "scheduled_at": "2026-03-04T09:45:14Z",
       "status": "pending"
     }
   ]
