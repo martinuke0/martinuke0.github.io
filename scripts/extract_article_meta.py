@@ -51,15 +51,42 @@ def extract(md_path: Path) -> dict:
 
     url = f"{BLOG_BASE_URL}posts/{md_path.stem}/"
 
+    social_hook = metadata.get("social_hook") or ""
+    if not social_hook:
+        social_hook = _extract_intro(content)
+
     return {
         "title": title,
         "slug": metadata.get("slug") or md_path.stem,
         "url": url,
         "description": description,
         "tags": tags,
-        "social_hook": metadata.get("social_hook") or "",
+        "social_hook": social_hook,
         "file": str(md_path),
     }
+
+
+def _extract_intro(content: str) -> str:
+    """Pull the first 3 non-heading, non-empty paragraphs after the frontmatter."""
+    # Strip frontmatter
+    body = re.sub(r"^---.*?---\s*", "", content, count=1, flags=re.DOTALL)
+    # Strip METADATA block
+    body = re.sub(r"<METADATA>.*?</METADATA>", "", body, flags=re.DOTALL)
+
+    paragraphs = []
+    for line in body.splitlines():
+        line = line.strip()
+        if not line or line.startswith("#") or line.startswith("```") or line.startswith("|"):
+            continue
+        # Clean markdown links and bold
+        line = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", line)
+        line = re.sub(r"\*{1,2}([^*]+)\*{1,2}", r"\1", line)
+        if len(line) > 80:
+            paragraphs.append(line)
+        if len(paragraphs) == 3:
+            break
+
+    return "\n\n".join(paragraphs)
 
 
 def main() -> None:

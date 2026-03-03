@@ -111,13 +111,30 @@ def generate_article(topic: str) -> dict:
     slug = metadata.get("slug") or filename.replace(".md", "").split("-", 3)[-1]
     url = f"{BLOG_BASE_URL}posts/{output_path.stem}/"
 
+    social_hook = metadata.get("social_hook", "")
+    if not social_hook:
+        # Fallback: first 3 substantial paragraphs from the article body
+        body = re.sub(r"^---.*?---\s*", "", article, count=1, flags=re.DOTALL)
+        paragraphs = []
+        for line in body.splitlines():
+            line = line.strip()
+            if not line or line.startswith("#") or line.startswith("```") or line.startswith("|"):
+                continue
+            line = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", line)
+            line = re.sub(r"\*{1,2}([^*]+)\*{1,2}", r"\1", line)
+            if len(line) > 80:
+                paragraphs.append(line)
+            if len(paragraphs) == 3:
+                break
+        social_hook = "\n\n".join(paragraphs)
+
     result = {
         "title": metadata.get("title", topic),
         "slug": slug,
         "url": url,
         "description": metadata.get("description", ""),
         "tags": metadata.get("tags", []),
-        "social_hook": metadata.get("social_hook", ""),
+        "social_hook": social_hook,
         "file": str(output_path),
     }
 
