@@ -12,7 +12,9 @@ from config import LINKEDIN_TEMPLATE
 
 
 def build_post(title: str, url: str, social_hook: str) -> str:
-    return LINKEDIN_TEMPLATE.format(title=title, social_hook=social_hook, url=url)
+    if social_hook and social_hook.strip():
+        return LINKEDIN_TEMPLATE.format(title=title, social_hook=social_hook.strip(), url=url)
+    return f"Hi! {title}\n\nRead the full guide: {url}"
 
 
 def post_to_linkedin(title: str, url: str, social_hook: str) -> None:

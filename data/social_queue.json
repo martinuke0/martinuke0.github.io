@@ -39,21 +39,21 @@
     {
       "title": "From Zero to Hero: A Strategic Blueprint for Mastering Any New Skill",
       "url": "https://martinuke0.github.io/posts/2026-03-03-from-zero-to-hero-a-strategic-blueprint-for-mastering-any-new-skill/",
-      "social_hook": "",
+      "social_hook": "Starting from \"zero\" is often the most intimidating phase of any journey. Whether you are learning to code, picking up a new language, starting a business, or mastering a musical instrument, the gap between total novice and competent professional can feel like a canyon.\n\nHowever, the transition from zero to \"hero\" isn't about innate talent; it is about a structured approach to learning and the psychological resilience to push through the \"dip.\" In this guide, we will break down the mechanics of rapid skill acquisition and provide a roadmap for your next transformation.\n\nThe biggest hurdle at the beginning isn't a lack of resources—it's the \"Novice Paradox.\" When you know nothing, you don't even know what you don't know. This leads to cognitive overload.",
       "scheduled_at": "2026-03-03T13:45:14Z",
       "status": "pending"
     },
     {
       "title": "Mastering Kubernetes Networking Internals: A Zero to Hero Guide for System Architects",
       "url": "https://martinuke0.github.io/posts/2026-03-03-mastering-kubernetes-networking-internals-a-zero-to-hero-guide-for-system-architects/",
-      "social_hook": "",
+      "social_hook": "Kubernetes networking is often considered the \"final boss\" for system architects. While the platform abstracts away much of the complexity of container orchestration, the underlying networking model is a sophisticated web of IPAM, virtual interfaces, routing tables, and netfilter rules.\n\nUnderstanding how a packet travels from a user’s browser to a container deep within your cluster is essential for building scalable, secure, and resilient systems. In this guide, we will peel back the layers of the Kubernetes networking stack.\n\nBefore diving into the \"how,\" we must understand the \"what.\" Kubernetes operates on a set of fundamental constraints known as the Kubernetes Network Model. Every compliant cluster must adhere to these three rules:",
       "scheduled_at": "2026-03-03T14:00:14Z",
       "status": "pending"
     },
     {
       "title": "Mastering WebAssembly for High Performance Web Applications: A Comprehensive Deep Dive",
       "url": "https://martinuke0.github.io/posts/2026-03-03-mastering-webassembly-for-high-performance-web-applications-a-comprehensive-deep-dive/",
-      "social_hook": "",
+      "social_hook": "The web has evolved from a simple document-sharing platform into a sophisticated environment for complex applications. However, as we push the boundaries of what is possible in the browser—from real-time video editing to 3D rendering and heavy scientific simulations—JavaScript often hits a performance ceiling. Enter WebAssembly (Wasm).\n\nThis guide provides a deep dive into mastering WebAssembly to build high-performance web applications that rival native software.\n\nWebAssembly is a binary instruction format for a stack-based virtual machine. It is designed as a portable compilation target for programming languages like C++, Rust, and Go, enabling deployment on the web for client and server applications.",
       "scheduled_at": "2026-03-03T14:15:14Z",
       "status": "pending"
     },
