@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-04T11:45:14Z",
+  "last_scheduled_at": "2026-03-04T12:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -231,6 +231,20 @@
         "SemanticSearch"
       ],
       "scheduled_at": "2026-03-04T11:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Decoding AI Startup Pitch Decks: Essential Lessons from 2026's Hottest Raises",
+      "url": "https://martinuke0.github.io/posts/2026-03-03-decoding-ai-startup-pitch-decks-essential-lessons-from-2026/",
+      "social_hook": "In the hyper-competitive world of AI startups, pitch decks are more than slides—they're battle-tested blueprints revealing how founders convince top investors to bet millions on unproven ideas. Unlike press releases that celebrate wins after the fact, these documents expose raw strategies for defensibility, data moats, and distribution in an era where AI models commoditize overnight. This post dives deep into the patterns from recent pre-seed and seed AI decks, drawing connections to computer science fundamentals, engineering trade-offs, and broader tech trends. Whether you're a founder crafting your deck, an investor spotting signals, or an engineer curious about AI's business side, you'll find actionable insights here.[1][3]\n\nAI moves fast—faster than any tech wave before it. Foundation models like those from OpenAI or Anthropic update quarterly, eroding yesterday's edges. Founders can't rely on \"we have the best model\" anymore. Instead, successful decks pivot to first-principles thinking: What fundamental shift enables this business? Why now? Why this team?\n\nConsider the engineering analogy: In software, we abstract away commoditized layers (e.g., cloud storage via S3) to build higher-value apps. AI decks mirror this by framing moats around proprietary data loops, vertical integrations, or distribution hacks—not raw model performance. A 2025 analysis of Y Combinator decks shows winners emphasize traction over tech specs, with 70% featuring user metrics early.[1] This isn't fluff; it's physics. Investors fund momentum, not prototypes.",
+      "tags": [
+        "AI Startups",
+        "Pitch Decks",
+        "Startup Funding",
+        "Venture Capital",
+        "AI Infrastructure"
+      ],
+      "scheduled_at": "2026-03-04T12:45:14Z",
       "status": "pending"
     }
   ]
