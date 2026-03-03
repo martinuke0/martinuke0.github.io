@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-05T04:45:14Z",
+  "last_scheduled_at": "2026-03-05T05:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -474,6 +474,20 @@
         "architecture"
       ],
       "scheduled_at": "2026-03-05T04:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Unveiling Cursor's AI Magic: Engineering Secrets Behind the Fastest Code Editor",
+      "url": "https://martinuke0.github.io/posts/2026-03-03-unveiling-cursor/",
+      "social_hook": "Imagine typing the start of a function signature in your code editor, and before you finish the parameters, a complete, context-aware implementation appears in ghost text. You hit Tab, tweak a variable name elsewhere, and the suggestions ripple across your entire codebase—instantly. This isn't science fiction; it's Cursor AI, the VS Code fork that's redefining how developers code in 2026. But what makes it feel like magic? It's not just a bigger model plugged into an editor—it's a sophisticated engineering stack solving latency, context, and quality in ways that outpace competitors like GitHub Copilot.[1][2]\n\nIn this post, we'll dive deep into Cursor's architecture, from its speculative editing tricks to reinforcement learning loops that adapt every 90 minutes. We'll explore practical examples, draw parallels to broader AI trends like speculative decoding in LLMs, and discuss real-world implications for software engineering. Whether you're a solo dev speeding up prototyping or leading a team building enterprise apps, understanding Cursor's inner workings will help you harness its power—and spot its limits.\n\nTraditional code editors like vanilla VS Code relied on language servers for autocomplete. These parse your project in real-time using static analysis: they know function signatures, variable types, and imports from your compiler. Type `user.` and it lists methods on a `User` object—fast, deterministic, but syntax-bound. No creativity, no multi-line predictions, no codebase-wide reasoning.[1]",
+      "tags": [
+        "AI Coding",
+        "Cursor AI",
+        "Software Engineering",
+        "Machine Learning",
+        "Developer Tools"
+      ],
+      "scheduled_at": "2026-03-05T05:45:14Z",
       "status": "pending"
     }
   ]
