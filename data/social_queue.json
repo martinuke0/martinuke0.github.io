@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-04T16:45:14Z",
+  "last_scheduled_at": "2026-03-04T17:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -303,6 +303,21 @@
         "VectorDatabases"
       ],
       "scheduled_at": "2026-03-04T16:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Beyond Chatbots: Mastering Agentic Workflows with the New Open-Source Large Action Models",
+      "url": "https://martinuke0.github.io/posts/2026-03-03-beyond-chatbots-mastering-agentic-workflows-with-the-new-open-source-large-action-models/",
+      "social_hook": "The era of the \"chatbot\" is rapidly evolving into the era of the \"agent.\" For the past two years, the world has been captivated by Large Language Models (LLMs) that can write essays, debug code, and hold witty conversations. However, the limitation of these models has always been their isolation; they could talk about the world, but they couldn't do anything in it.\n\nEnter Large Action Models (LAMs) and Agentic Workflows. We are currently witnessing a seismic shift from passive text generation to active task execution. With the recent explosion of high-quality, open-source LAMs and agent frameworks, the power to build autonomous systems that navigate the web, manage software, and orchestrate complex business processes is no longer restricted to Big Tech labs.\n\nIn this guide, we will explore the architecture of agentic workflows, the rise of open-source LAMs, and how you can master these tools to build the next generation of AI applications.",
+      "tags": [
+        "AI Agents",
+        "Large Action Models",
+        "Open Source",
+        "LLMs",
+        "Automation",
+        "Agentic Workflows"
+      ],
+      "scheduled_at": "2026-03-04T17:45:14Z",
       "status": "pending"
     }
   ]
