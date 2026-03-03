@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-04T07:45:14Z",
+  "last_scheduled_at": "2026-03-04T08:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -188,6 +188,13 @@
       "url": "https://martinuke0.github.io/posts/2026-03-03-revolutionizing-microservices-security-lessons-from-uber/",
       "social_hook": "In the sprawling ecosystem of modern microservices architectures, where thousands of services interact billions of times daily, traditional access control methods crumble under the weight of complexity. Uber's engineering team tackled this head-on by developing Charter, an attribute-based access control (ABAC) system that delivers microsecond authorization decisions while handling nuanced policies based on user location, time, data relationships, and more. This innovation not only secures Uber's vast infrastructure but offers a blueprint for any organization scaling microservices.[1][2]\n\nThis post dives deep into Charter's architecture, breaking down its components, implementation challenges, and broader implications. We'll explore how it integrates with Uber's microservices, draw parallels to industry standards like AWS IAM and Google Cloud IAM, and provide practical examples for adopting similar systems. Whether you're architecting a startup's backend or refactoring enterprise monoliths, these insights will help you build resilient, secure distributed systems.\n\nMicroservices promised agility and scalability, but they introduced a nightmare for security teams: explosive growth in authorization surfaces. At Uber, thousands of services process API calls, database queries, and Kafka messages, each requiring split-second access decisions to maintain seamless user experiences like real-time ride tracking.[1][3]",
       "scheduled_at": "2026-03-04T07:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Docker Zero to Hero: A Comprehensive Guide to Containerization and Microservices Deployment",
+      "url": "https://martinuke0.github.io/posts/2026-03-03-docker-zero-to-hero-a-comprehensive-guide-to-containerization-and-microservices-deployment/",
+      "social_hook": "In the early days of software deployment, the mantra was \"it works on my machine.\" Developers would spend weeks building an application, only for it to fail in production due to subtle differences in operating system versions, library dependencies, or environment configurations. This friction between development and operations led to the birth of the DevOps movement and the rise of containerization.\n\nAt the heart of this revolution is Docker. Docker has transformed how we build, ship, and run applications by providing a consistent environment across the entire software development lifecycle (SDLC). Whether you are a solo developer or part of a massive enterprise, understanding Docker is no longer an optional skill—it is a fundamental requirement for modern software engineering.\n\nIn this guide, we will journey from the absolute basics of containerization to the complexities of deploying microservices at scale.",
+      "scheduled_at": "2026-03-04T08:45:14Z",
       "status": "pending"
     }
   ]
