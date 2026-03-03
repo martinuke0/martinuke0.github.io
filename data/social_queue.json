@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-05T01:45:14Z",
+  "last_scheduled_at": "2026-03-05T02:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -432,6 +432,20 @@
         "DevOpsAutomation"
       ],
       "scheduled_at": "2026-03-05T01:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "The Rise of Localized Small Language Models: Optimizing Private Edge Computing in 2026",
+      "url": "https://martinuke0.github.io/posts/2026-03-03-the-rise-of-localized-small-language-models-optimizing-private-edge-computing-in-2026/",
+      "social_hook": "Over the past decade, large language models (LLMs) have reshaped how we interact with software, generate content, and automate decision‑making. Yet the sheer size of these models—often hundreds of billions of parameters—poses a fundamental dilemma for organizations that need low‑latency, privacy‑preserving, and cost‑effective AI at the edge. By 2026, the industry is witnessing a decisive shift toward localized small language models (SLMs) that run directly on private edge hardware, from industrial IoT gateways to consumer wearables.\n\nThis article explores why SLMs are gaining momentum, how they are architected for edge environments, the technical tricks that make them viable, and the real‑world deployments that demonstrate their value. Whether you’re an AI engineer, a CTO, or a researcher interested in private AI, this deep dive will give you a comprehensive view of the ecosystem that is redefining edge intelligence in 2026.\n\nEdge devices—autonomous robots, medical wearables, or industrial controllers—operate under strict timing constraints. Sending a user query to a remote cloud LLM can introduce round‑trip latencies of 50 ms to several seconds, which is unacceptable for real‑time control loops. A localized SLM, even with a modest 10‑20 M parameter footprint, can produce responses in sub‑10 ms on a modern ARM Cortex‑A78 or a dedicated NPU.",
+      "tags": [
+        "edge computing",
+        "small language models",
+        "privacy",
+        "AI optimization",
+        "distributed AI"
+      ],
+      "scheduled_at": "2026-03-05T02:45:14Z",
       "status": "pending"
     }
   ]
