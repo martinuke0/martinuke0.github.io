@@ -48,7 +48,7 @@
       "url": "https://martinuke0.github.io/posts/2026-03-03-mastering-kubernetes-networking-internals-a-zero-to-hero-guide-for-system-architects/",
       "social_hook": "Kubernetes networking is often considered the \"final boss\" for system architects. While the platform abstracts away much of the complexity of container orchestration, the underlying networking model is a sophisticated web of IPAM, virtual interfaces, routing tables, and netfilter rules.\n\nUnderstanding how a packet travels from a user’s browser to a container deep within your cluster is essential for building scalable, secure, and resilient systems. In this guide, we will peel back the layers of the Kubernetes networking stack.\n\nBefore diving into the \"how,\" we must understand the \"what.\" Kubernetes operates on a set of fundamental constraints known as the Kubernetes Network Model. Every compliant cluster must adhere to these three rules:",
       "scheduled_at": "2026-03-03T14:00:14Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Mastering WebAssembly for High Performance Web Applications: A Comprehensive Deep Dive",
