@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-04T23:45:14Z",
+  "last_scheduled_at": "2026-03-05T00:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -404,6 +404,20 @@
         "privacy-technology"
       ],
       "scheduled_at": "2026-03-04T23:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Beyond Vectors: Revolutionizing RAG with Hierarchical Reasoning and Tree-Based Retrieval",
+      "url": "https://martinuke0.github.io/posts/2026-03-03-beyond-vectors-revolutionizing-rag-with-hierarchical-reasoning-and-tree-based-retrieval/",
+      "social_hook": "title: \"Beyond Vectors: Revolutionizing RAG with Hierarchical Reasoning and Tree-Based Retrieval\"\n\nRetrieval-Augmented Generation (RAG) has transformed how large language models (LLMs) handle knowledge-intensive tasks, but traditional vector-based approaches falter on complex, long-form documents. Enter hierarchical tree indexing—a vectorless, reasoning-driven paradigm that mimics human navigation through information, delivering superior precision without embeddings or chunking artifacts. This post explores this breakthrough, its technical foundations, real-world applications, and why it's poised to redefine enterprise AI.\n\nVector-based RAG dominates today's LLM pipelines. Documents get chunked into fixed-size segments (typically 512-1024 tokens), embedded into high-dimensional vectors using models like BERT or Sentence Transformers, and stored in vector databases such as Pinecone, FAISS, or Weaviate. Queries follow suit: embed the question, retrieve top-k nearest neighbors via cosine similarity, and feed them into the LLM prompt.[1][4]",
+      "tags": [
+        "RAG",
+        "LLM",
+        "DocumentRetrieval",
+        "AIReasoning",
+        "VectorlessSearch"
+      ],
+      "scheduled_at": "2026-03-05T00:45:14Z",
       "status": "pending"
     }
   ]
