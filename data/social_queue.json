@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-03T13:00:00Z",
+  "last_scheduled_at": "2026-03-03T13:30:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28,6 +28,13 @@
       "social_hook": "A URL shortener seems simple on the surface — take a long link, return a short one. But building one that handles billions of requests at under 100ms latency, with 99.99% uptime, is a classic distributed systems challenge.\n\nIn this deep dive we walk through the full architecture: hash generation strategies (Base62 vs MD5), consistent hashing across a sharded Redis cluster, a CDN-edge redirection layer for sub-10ms reads, and a Cassandra-backed analytics pipeline that processes millions of click events per hour.\n\nIf you want to understand how Bitly and TinyURL actually work at scale — and be ready to design something similar in a system design interview — this is the article for you.",
       "scheduled_at": "2026-03-03T13:00:00Z",
       "status": "posted"
+    },
+    {
+      "title": "The Art of Reasoning: How to Master Critical Thinking in the Age of Information",
+      "url": "https://martinuke0.github.io/posts/2026-03-03-the-art-of-reasoning-how-to-master-critical-thinking-in-the-age-of-information/",
+      "social_hook": "",
+      "scheduled_at": "2026-03-03T13:30:14Z",
+      "status": "pending"
     }
   ]
 }
