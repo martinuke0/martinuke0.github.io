@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-03T14:30:14Z",
+  "last_scheduled_at": "2026-03-03T14:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -62,6 +62,13 @@
       "url": "https://martinuke0.github.io/posts/2026-03-03-from-zero-to-automation-hero-a-strategic-guide-to-building-ai-workflows-for-saas/",
       "social_hook": "The landscape of Software as a Service (SaaS) is undergoing a seismic shift. We have moved past the era of simple \"if-this-then-that\" logic into the age of intelligent orchestration. For modern SaaS companies, AI is no longer a flashy add-on; it is the engine that drives operational efficiency, customer satisfaction, and scalable growth.\n\nIf you are looking to transform your manual processes into high-octane AI workflows, this guide will take you from the foundational concepts to advanced execution.\n\nNot every process needs AI. To be an \"Automation Hero,\" you must first learn to distinguish between tasks that require simple automation and those that require intelligence.",
       "scheduled_at": "2026-03-03T14:30:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Local Inference for Post-Quantum Encryption Standards in Distributed Edge Computing Networks",
+      "url": "https://martinuke0.github.io/posts/2026-03-03-optimizing-local-inference-for-post-quantum-encryption-standards-in-distributed-edge-computing-networks/",
+      "social_hook": "As quantum computing advances, traditional encryption standards like RSA and ECC face existential threats from algorithms such as Shor's, capable of breaking them efficiently.[2] Post-quantum cryptography (PQC) standards, finalized by NIST in 2024 including CRYSTALS-Kyber for key establishment and CRYSTALS-Dilithium for digital signatures, provide quantum-resistant alternatives based on lattice-based, code-based, and hash-based mathematics.[1][2][3] In distributed edge computing networks—where IoT devices, sensors, and gateways process data locally—optimizing local inference for these PQC algorithms is critical to maintain low-latency security without overburdening resource-constrained hardware.[2]\n\nThis blog post explores strategies to optimize PQC deployment at the edge, addressing computational overhead, hybrid architectures, and regulatory drivers like CISA's 2026 procurement guidance mandating quantum-resistant products.[1][4] Readers will gain actionable insights for implementing efficient, scalable PQC in edge environments.\n\nNIST's PQC standards target vulnerabilities in public-key cryptography while preserving symmetric algorithms' relative resilience (countered by doubling key sizes against Grover's algorithm).[2] Key algorithms include:",
+      "scheduled_at": "2026-03-03T14:45:14Z",
       "status": "pending"
     }
   ]
