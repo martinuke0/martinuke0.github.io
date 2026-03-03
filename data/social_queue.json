@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-04T17:45:14Z",
+  "last_scheduled_at": "2026-03-04T18:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -318,6 +318,20 @@
         "Agentic Workflows"
       ],
       "scheduled_at": "2026-03-04T17:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Revolutionizing Legal Research: Building Production-Ready RAG Agents in Under 48 Hours",
+      "url": "https://martinuke0.github.io/posts/2026-03-03-revolutionizing-legal-research-building-production-ready-rag-agents-in-under-48-hours/",
+      "social_hook": "Legal research has long been a cornerstone of the profession, demanding precision, contextual awareness, and unwavering accuracy amid vast troves of dense documents. Traditional methods—sifting through contracts, case law, and statutes manually—consume countless hours. Enter Retrieval-Augmented Generation (RAG) powered by AI agents, which promises to transform this landscape. In this post, we'll explore how modern tools enable developers to craft sophisticated legal RAG applications in mere days, not months, drawing inspiration from rapid prototyping successes while expanding into practical implementations, security considerations, and cross-domain applications.\n\nWe'll dive deep into the architecture, contrast naive versus agentic approaches, provide step-by-step build guides with code examples, and connect these concepts to broader engineering challenges in AI systems. Whether you're a developer eyeing LegalTech, a lawyer curious about AI augmentation, or an engineer in adjacent fields like finance or healthcare, this guide equips you to build your own high-fidelity legal assistant.\n\nLegal work thrives on specificity. Consider querying \"notice periods in 2024 service agreements across EU jurisdictions.\" A human paralegal would filter by date, region, and document type before scanning clauses. Vanilla keyword search fails here, pulling irrelevant 2022 docs due to semantic overlap. RAG addresses this by retrieving relevant context from a vector database and feeding it to a large language model (LLM) for grounded generation[5].",
+      "tags": [
+        "RAG",
+        "LegalTech",
+        "AI Agents",
+        "Vector Databases",
+        "Agentic AI"
+      ],
+      "scheduled_at": "2026-03-04T18:45:14Z",
       "status": "pending"
     }
   ]
