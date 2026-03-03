@@ -97,7 +97,7 @@
       "url": "https://martinuke0.github.io/posts/2026-03-03-mastering-python-concurrency-a-practical-in-depth-guide-to-multiprocessing-and-threading-performance/",
       "social_hook": "Python is often criticized for being \"slow\" or \"single-threaded\" due to the Global Interpreter Lock (GIL). However, for many modern applications—from data processing pipelines to high-traffic web servers—concurrency is not just an option; it is a necessity.\n\nUnderstanding when to use `threading` versus `multiprocessing` is the hallmark of a senior Python developer. This guide dives deep into the mechanics of Python concurrency, explores the limitations of the GIL, and provides practical patterns for maximizing performance.\n\nBefore writing a single line of code, you must categorize your task. The choice between threading and multiprocessing depends entirely on where the bottleneck lies.",
       "scheduled_at": "2026-03-03T18:45:14Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Post-Prompt Engineering: Mastering Agentic Orchestration with Open Source Neuro-Symbolic Frameworks",
