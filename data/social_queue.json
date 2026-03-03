@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-04T01:45:14Z",
+  "last_scheduled_at": "2026-03-04T02:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -146,6 +146,13 @@
       "url": "https://martinuke0.github.io/posts/2026-03-03-the-rise-of-small-language-models-optimizing-local-inference-for-edge-computing-devices/",
       "social_hook": "For the past few years, the narrative surrounding Artificial Intelligence has been \"bigger is better.\" We witnessed the birth of Large Language Models (LLMs) with hundreds of billions of parameters, requiring massive data centers and cooling systems to function. However, as the initial awe of GPT-4 and its peers settles, a new frontier is emerging: Small Language Models (SLMs).\n\nThe industry is reaching a tipping point where the costs, latency, and privacy concerns associated with cloud-based AI are becoming bottlenecks for real-world applications. From smartphones and laptops to industrial IoT sensors and autonomous vehicles, the demand for \"on-device\" intelligence is skyrocketing. This post explores the technical evolution of SLMs, the optimization techniques making local inference possible, and why the future of AI might just be small.\n\nWhile \"large\" is a relative term, in the current landscape, Small Language Models typically refer to models with 1 billion to 10 billion parameters.",
       "scheduled_at": "2026-03-04T01:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "The Future of Artificial Intelligence and Large Language Models in Software Engineering",
+      "url": "https://martinuke0.github.io/posts/2026-03-03-the-future-of-artificial-intelligence-and-large-language-models-in-software-engineering/",
+      "social_hook": "The landscape of software engineering is undergoing its most significant transformation since the invention of the high-level programming language. The catalyst for this change is the rapid advancement and integration of Artificial Intelligence (AI) and Large Language Models (LLMs) into the development lifecycle. What began as simple autocomplete features has evolved into sophisticated reasoning engines capable of architecting systems, debugging complex race conditions, and translating business requirements into functional code.\n\nAs we look toward the future, the role of the software engineer is shifting from a \"writer of code\" to an \"orchestrator of intelligence.\" This article explores the deep implications of AI and LLMs in software engineering, examining how they are reshaping the way we build, maintain, and interact with software.\n\nTo understand where we are going, we must briefly look at where we have been. We have moved through three distinct phases of AI in development:",
+      "scheduled_at": "2026-03-04T02:45:14Z",
       "status": "pending"
     }
   ]
