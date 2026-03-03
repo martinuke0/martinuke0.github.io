@@ -29,9 +29,11 @@
     {{- end }}
     {{- if (or (cond ($custom) (in $ShareButtons "linkedin") (true))) }}
     {{- $postText := printf "Hi! %s\n\n%s\n\nCheck it out! %s" ($title | plainify) $description $pageurl }}
-    <li>
+    <li style="position:relative">
         <a target="_blank" rel="noopener noreferrer" aria-label="share {{ $title | plainify }} on linkedin"
-            href="https://www.linkedin.com/feed/?shareActive=true&amp;text={{ $postText | urlquery }}">
+            href="https://www.linkedin.com/shareArticle?mini=true&amp;url={{ $pageurl | urlquery }}"
+            data-linkedin-text="{{ $postText }}"
+            onclick="(function(el){navigator.clipboard.writeText(el.getAttribute('data-linkedin-text'));var tip=document.createElement('span');tip.textContent='Summary copied!';tip.style.cssText='position:absolute;bottom:120%;left:50%;transform:translateX(-50%);background:#0a66c2;color:#fff;padding:4px 10px;border-radius:4px;font-size:11px;white-space:nowrap;pointer-events:none;z-index:99;';el.parentNode.appendChild(tip);setTimeout(function(){tip.remove();},2000);})(this);">
             <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px"
                 fill="currentColor">
                 <path
