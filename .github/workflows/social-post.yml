@@ -1,0 +1,67 @@
+name: Post to Social Media
+
+on:
+  workflow_dispatch:
+    inputs:
+      title:
+        description: "Article title"
+        required: true
+        type: string
+      url:
+        description: "Article URL"
+        required: true
+        type: string
+      description:
+        description: "Article description (2 sentences)"
+        required: true
+        type: string
+      tags:
+        description: "Tags as JSON array, e.g. [\"python\",\"llm\"]"
+        required: false
+        default: "[]"
+        type: string
+      social_hook:
+        description: "LinkedIn-style 2–3 paragraph summary"
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Post to X (Twitter)
+        env:
+          TWITTER_API_KEY: ${{ secrets.TWITTER_API_KEY }}
+          TWITTER_API_SECRET: ${{ secrets.TWITTER_API_SECRET }}
+          TWITTER_ACCESS_TOKEN: ${{ secrets.TWITTER_ACCESS_TOKEN }}
+          TWITTER_ACCESS_TOKEN_SECRET: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
+        run: |
+          python scripts/post_to_twitter.py \
+            --title "${{ inputs.title }}" \
+            --url "${{ inputs.url }}" \
+            --description "${{ inputs.description }}" \
+            --tags '${{ inputs.tags }}'
+
+      - name: Post to LinkedIn
+        env:
+          LINKEDIN_ACCESS_TOKEN: ${{ secrets.LINKEDIN_ACCESS_TOKEN }}
+          LINKEDIN_PERSON_URN: ${{ secrets.LINKEDIN_PERSON_URN }}
+        run: |
+          python scripts/post_to_linkedin.py \
+            --title "${{ inputs.title }}" \
+            --url "${{ inputs.url }}" \
+            --social-hook "${{ inputs.social_hook }}"

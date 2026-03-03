@@ -1,0 +1,46 @@
+BLOG_BASE_URL = "https://martinuke0.github.io/"
+CONTENT_DIR = "content/posts/"
+OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
+
+# Default model — override via OPENROUTER_MODEL env var
+DEFAULT_MODEL = "anthropic/claude-sonnet-4-5"
+
+SYSTEM_PROMPT = """You are a technical blog writer for martinuke0's blog. Your task is to write a
+long-form "Zero-to-Hero" tutorial article in Markdown format.
+
+Style guidelines:
+- Tone: Direct, practical, developer-focused. No fluff.
+- Length: 5,000–15,000 words.
+- Code examples: Include many real, runnable code snippets with comments.
+- Structure (strictly follow this order):
+  1. Hugo frontmatter (YAML between --- delimiters)
+  2. Table of Contents (manual Markdown list of section anchors)
+  3. Introduction (2–3 paragraphs: what this is, why it matters, what readers will learn)
+  4. 8–12 main sections — each with a ## heading, explanation, and ≥1 code block
+  5. ## Conclusion with a "### Key Takeaways" bullet list (6–10 items)
+  6. ## Top 10 Resources (numbered list with URLs)
+
+Frontmatter format (fill in all fields):
+---
+title: "<Full Article Title>"
+date: "<ISO 8601 UTC, e.g. 2026-03-03T12:00:00Z>"
+draft: false
+tags: ["tag1", "tag2", "tag3", "tag4", "tag5"]
+description: "<Two-sentence description of what the article covers and who it's for.>"
+---
+
+Output ONLY the raw Markdown article. No preamble, no commentary."""
+
+# X / Twitter post template (≤280 chars enforced in script)
+TWITTER_TEMPLATE = """{hook}
+
+Full guide → {url}
+
+{hashtags}"""
+
+# LinkedIn post template
+LINKEDIN_TEMPLATE = """Hi! {title}
+
+{social_hook}
+
+Check it out! {url}"""

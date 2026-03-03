@@ -978,4 +978,29 @@ The vector database ecosystem continues to evolve rapidly. Stay updated with the
 1. **Pinecone Official Guide** — https://www.pinecone.io/learn/vector-database/
    Comprehensive introduction to vector databases and RAG patterns with practical examples.
 
-2. **Weaviate Documentation an
+2. **Weaviate Documentation and Tutorials** — https://weaviate.io/developers/weaviate
+   Excellent documentation with hands-on tutorials for building hybrid search applications.
+
+3. **FAISS GitHub Repository** — https://github.com/facebookresearch/faiss
+   Official repository with extensive documentation, benchmarks, and implementation examples.
+
+4. **Chroma Documentation** — https://docs.trychroma.com/
+   Developer-friendly docs perfect for beginners getting started with vector databases.
+
+5. **LangChain Vector Stores Guide** — https://python.langchain.com/docs/modules/data_connection/vectorstores/
+   Comprehensive guide to integrating vector databases with LangChain for RAG applications.
+
+6. **Qdrant Documentation** — https://qdrant.tech/documentation/
+   Modern documentation with clear examples and best practices for production deployments.
+
+7. **OpenAI Embeddings Guide** — https://platform.openai.com/docs/guides/embeddings
+   Official guide to creating embeddings with OpenAI's API, essential for RAG systems.
+
+8. **Sentence Transformers Documentation** — https://www.sbert.net/
+   Complete guide to using pre-trained models for generating high-quality embeddings.
+
+9. **Hugging Face Datasets Hub** — https://huggingface.co/datasets
+   Access thousands of datasets for testing and benchmarking your vector database implementations.
+
+10. **Awesome Vector Search** — https://github.com/currentslab/awesome-vector-search
+    Curated list of vector search engines, libraries, papers, and resources for deep dives.

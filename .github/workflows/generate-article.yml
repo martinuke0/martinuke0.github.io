@@ -1,0 +1,81 @@
+name: Generate Article
+
+on:
+  workflow_dispatch:
+    inputs:
+      topic:
+        description: "Article topic / prompt"
+        required: true
+        type: string
+      delay_minutes:
+        description: "Delay before generation starts (minutes)"
+        required: false
+        default: "0"
+        type: string
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Delay if requested
+        if: ${{ inputs.delay_minutes != '0' && inputs.delay_minutes != '' }}
+        run: sleep $(( ${{ inputs.delay_minutes }} * 60 ))
+
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PAT_TOKEN }}
+          submodules: recursive
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Generate article
+        id: article
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          OPENROUTER_MODEL: ${{ vars.OPENROUTER_MODEL || 'anthropic/claude-sonnet-4-5' }}
+        run: |
+          OUTPUT=$(python scripts/generate_article.py --topic "${{ inputs.topic }}")
+          echo "metadata=$OUTPUT" >> "$GITHUB_OUTPUT"
+
+      - name: Commit and push new post
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add content/posts/
+          git commit -m "Auto-publish: ${{ inputs.topic }}"
+          git push
+
+      - name: Wait for Hugo deploy
+        run: |
+          echo "Waiting 90s for GitHub Pages deploy to complete..."
+          sleep 90
+
+      - name: Trigger social-post workflow
+        env:
+          GH_TOKEN: ${{ secrets.PAT_TOKEN }}
+          METADATA: ${{ steps.article.outputs.metadata }}
+        run: |
+          TITLE=$(echo "$METADATA" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d.get('title',''))")
+          URL=$(echo "$METADATA" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d.get('url',''))")
+          DESC=$(echo "$METADATA" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d.get('description',''))")
+          TAGS=$(echo "$METADATA" | python3 -c "import sys,json; d=json.load(sys.stdin); print(json.dumps(d.get('tags',[])))")
+          HOOK=$(echo "$METADATA" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d.get('social_hook',''))")
+
+          gh workflow run social-post.yml \
+            -f title="$TITLE" \
+            -f url="$URL" \
+            -f description="$DESC" \
+            -f tags="$TAGS" \
+            -f social_hook="$HOOK"
