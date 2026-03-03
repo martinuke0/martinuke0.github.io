@@ -45,7 +45,13 @@ def post_to_linkedin(title: str, url: str, social_hook: str) -> None:
         "specificContent": {
             "com.linkedin.ugc.ShareContent": {
                 "shareCommentary": {"text": post_text},
-                "shareMediaCategory": "NONE",
+                "shareMediaCategory": "ARTICLE",
+                "media": [
+                    {
+                        "status": "READY",
+                        "originalUrl": url,
+                    }
+                ],
             }
         },
         "visibility": {"com.linkedin.ugc.MemberNetworkVisibility": "PUBLIC"},

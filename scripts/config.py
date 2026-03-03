@@ -52,6 +52,4 @@ Full guide → {url}
 # LinkedIn post template
 LINKEDIN_TEMPLATE = """Hi! {title}
 
-{social_hook}
-
-Read the full guide: {url}"""
+{social_hook}"""
