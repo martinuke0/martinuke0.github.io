@@ -1,6 +1,8 @@
 name: Post to LinkedIn (Queue Processor)
 
 on:
+  push:
+    branches: [main]          # runs on every push — reliable fallback for cron gaps
   schedule:
     - cron: "*/5 * * * *"   # every 5 minutes
   workflow_dispatch: {}       # manual trigger for testing
