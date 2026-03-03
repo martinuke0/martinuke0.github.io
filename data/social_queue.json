@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-04T05:45:14Z",
+  "last_scheduled_at": "2026-03-04T06:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -174,6 +174,13 @@
       "url": "https://martinuke0.github.io/posts/2026-03-03-advanced-rag-architecture-guide-zero-to-hero-tutorial-for-ai-engineers/",
       "social_hook": "Retrieval-Augmented Generation (RAG) has moved beyond the \"hype\" phase into the \"utility\" phase of the AI lifecycle. While basic RAG setups—connecting a PDF to an LLM via a vector database—are easy to build, they often fail in production due to hallucinations, poor retrieval quality, and lack of domain-specific context.\n\nTo build production-grade AI applications, engineers must move from \"Naive RAG\" to \"Advanced RAG.\" This guide covers the architectural patterns, optimization techniques, and evaluation frameworks required to go from zero to hero.\n\nNaive RAG follows a linear path: Load -> Chunk -> Embed -> Index -> Retrieve -> Generate.",
       "scheduled_at": "2026-03-04T05:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering CLAUDE.md: Your AI Coding Assistant's Persistent Brain for Smarter Development Workflows",
+      "url": "https://martinuke0.github.io/posts/2026-03-03-mastering-claudemd-your-ai-coding-assistant/",
+      "social_hook": "In the era of AI-powered coding tools like Claude Code, developers face a persistent challenge: AI agents start each session with a blank slate, oblivious to your project's quirks, team conventions, and hard-won lessons. Enter CLAUDE.md, a simple Markdown file that acts as your AI's long-term memory, automatically loaded at the start of every interaction. This isn't just a config file—it's a game-changer for reducing repetition, enforcing standards, and accelerating development across solo projects and large teams.[1][2]\n\nBy crafting a well-structured CLAUDE.md, you transform Claude from a forgetful helper into a context-aware collaborator that \"remembers\" your architecture, workflows, and preferences without you lifting a finger each time. This guide dives deep into creating, optimizing, and evolving CLAUDE.md files, drawing connections to broader engineering principles like configuration-as-code and knowledge management systems. Whether you're onboarding new team members, scaling AI usage, or simply tired of repeating instructions, you'll learn practical strategies backed by real-world examples to make your AI workflows frictionless.\n\nAI coding assistants like Claude Code reset between sessions, lacking inherent memory of prior interactions. Without persistent context, you waste time re-explaining basics: \"Use Next.js conventions,\" \"Run tests with `npm test`,\" or \"Avoid that buggy auth module.\"[2][5] CLAUDE.md solves this by providing persistent instructions that Claude reads automatically, ensuring consistency every time.[1]",
+      "scheduled_at": "2026-03-04T06:45:14Z",
       "status": "pending"
     }
   ]
