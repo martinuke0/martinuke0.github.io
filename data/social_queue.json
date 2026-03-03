@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-05T05:45:14Z",
+  "last_scheduled_at": "2026-03-05T06:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -488,6 +488,20 @@
         "Developer Tools"
       ],
       "scheduled_at": "2026-03-05T05:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building Scalable Event-Driven Architectures with Apache Kafka and Advanced Microservices Patterns",
+      "url": "https://martinuke0.github.io/posts/2026-03-03-building-scalable-event-driven-architectures-with-apache-kafka-and-advanced-microservices-patterns/",
+      "social_hook": "In today’s hyper‑connected world, applications must react to data in real time, handle unpredictable traffic spikes, and evolve independently without causing cascading failures. Event‑driven architectures (EDA), powered by robust messaging platforms, have become the de‑facto strategy for building such resilient, scalable systems.\n\nApache Kafka stands out as the most widely adopted event streaming platform. Its combination of high throughput, durability, and consumer‑group semantics makes it a natural backbone for modern microservices. However, simply “plugging Kafka in” does not guarantee scalability or maintainability. To truly harness its potential, architects must blend Kafka’s primitives with advanced microservice patterns—event sourcing, CQRS, sagas, outbox, idempotency, and more.\n\nThis article provides a comprehensive, end‑to‑end guide on designing, implementing, and operating a scalable event‑driven architecture using Apache Kafka and advanced microservice patterns. We’ll explore the theory, walk through concrete code examples (using Spring Boot/Java), discuss operational concerns, and present a checklist of best practices.",
+      "tags": [
+        "Kafka",
+        "Microservices",
+        "Event-Driven",
+        "Architecture",
+        "Scalability"
+      ],
+      "scheduled_at": "2026-03-05T06:45:14Z",
       "status": "pending"
     }
   ]
