@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-04T06:45:14Z",
+  "last_scheduled_at": "2026-03-04T07:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -181,6 +181,13 @@
       "url": "https://martinuke0.github.io/posts/2026-03-03-mastering-claudemd-your-ai-coding-assistant/",
       "social_hook": "In the era of AI-powered coding tools like Claude Code, developers face a persistent challenge: AI agents start each session with a blank slate, oblivious to your project's quirks, team conventions, and hard-won lessons. Enter CLAUDE.md, a simple Markdown file that acts as your AI's long-term memory, automatically loaded at the start of every interaction. This isn't just a config file—it's a game-changer for reducing repetition, enforcing standards, and accelerating development across solo projects and large teams.[1][2]\n\nBy crafting a well-structured CLAUDE.md, you transform Claude from a forgetful helper into a context-aware collaborator that \"remembers\" your architecture, workflows, and preferences without you lifting a finger each time. This guide dives deep into creating, optimizing, and evolving CLAUDE.md files, drawing connections to broader engineering principles like configuration-as-code and knowledge management systems. Whether you're onboarding new team members, scaling AI usage, or simply tired of repeating instructions, you'll learn practical strategies backed by real-world examples to make your AI workflows frictionless.\n\nAI coding assistants like Claude Code reset between sessions, lacking inherent memory of prior interactions. Without persistent context, you waste time re-explaining basics: \"Use Next.js conventions,\" \"Run tests with `npm test`,\" or \"Avoid that buggy auth module.\"[2][5] CLAUDE.md solves this by providing persistent instructions that Claude reads automatically, ensuring consistency every time.[1]",
       "scheduled_at": "2026-03-04T06:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Revolutionizing Microservices Security: Lessons from Uber's Charter ABAC System",
+      "url": "https://martinuke0.github.io/posts/2026-03-03-revolutionizing-microservices-security-lessons-from-uber/",
+      "social_hook": "In the sprawling ecosystem of modern microservices architectures, where thousands of services interact billions of times daily, traditional access control methods crumble under the weight of complexity. Uber's engineering team tackled this head-on by developing Charter, an attribute-based access control (ABAC) system that delivers microsecond authorization decisions while handling nuanced policies based on user location, time, data relationships, and more. This innovation not only secures Uber's vast infrastructure but offers a blueprint for any organization scaling microservices.[1][2]\n\nThis post dives deep into Charter's architecture, breaking down its components, implementation challenges, and broader implications. We'll explore how it integrates with Uber's microservices, draw parallels to industry standards like AWS IAM and Google Cloud IAM, and provide practical examples for adopting similar systems. Whether you're architecting a startup's backend or refactoring enterprise monoliths, these insights will help you build resilient, secure distributed systems.\n\nMicroservices promised agility and scalability, but they introduced a nightmare for security teams: explosive growth in authorization surfaces. At Uber, thousands of services process API calls, database queries, and Kafka messages, each requiring split-second access decisions to maintain seamless user experiences like real-time ride tracking.[1][3]",
+      "scheduled_at": "2026-03-04T07:45:14Z",
       "status": "pending"
     }
   ]
