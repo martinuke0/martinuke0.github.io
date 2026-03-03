@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-03T19:45:14Z",
+  "last_scheduled_at": "2026-03-03T20:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -104,6 +104,13 @@
       "url": "https://martinuke0.github.io/posts/2026-03-03-post-prompt-engineering-mastering-agentic-orchestration-with-open-source-neuro-symbolic-frameworks/",
       "social_hook": "The era of \"prompt engineering\" as the primary driver of AI utility is rapidly coming to a close. While crafting the perfect system message was the breakthrough of 2023, the industry has shifted toward Agentic Orchestration. We are moving away from single-turn interactions toward autonomous loops, and the most sophisticated way to manage these loops is through Neuro-Symbolic Frameworks.\n\nIn this post, we will explore why the industry is moving beyond simple prompting and how you can leverage open-source neuro-symbolic tools to build resilient, predictable, and highly capable AI agents.\n\nPrompt engineering is inherently fragile. Small changes in model weights or a slight tweak in wording can lead to catastrophic failures in output formatting or logic. As we move toward \"Agentic\" workflows—where an AI must plan, use tools, and self-correct—we need more than just better adjectives in a prompt. We need structure.",
       "scheduled_at": "2026-03-03T19:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting High-Performance RAG Pipelines: A Technical Guide to Vector Databases and GPU Acceleration",
+      "url": "https://martinuke0.github.io/posts/2026-03-03-architecting-high-performance-rag-pipelines-a-technical-guide-to-vector-databases-and-gpu-acceleration/",
+      "social_hook": "The transition from experimental Retrieval-Augmented Generation (RAG) to production-grade AI applications requires more than just a basic LangChain script. As datasets scale into the millions of documents and user expectations for latency drop below 500ms, the architecture of the RAG pipeline becomes a critical engineering challenge.\n\nTo build a high-performance RAG system, engineers must optimize two primary bottlenecks: the retrieval latency of the vector database and the inference throughput of the embedding and LLM stages. This guide explores the technical strategies for leveraging GPU acceleration and advanced vector indexing to build enterprise-ready RAG pipelines.\n\nA standard RAG pipeline consists of three main phases: Ingestion, Retrieval, and Generation. At scale, each phase requires specific architectural choices:",
+      "scheduled_at": "2026-03-03T20:45:14Z",
       "status": "pending"
     }
   ]
