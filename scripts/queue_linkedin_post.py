@@ -40,7 +40,7 @@ def main() -> None:
 
     if last_str:
         last_dt = datetime.fromisoformat(last_str)
-        candidate = last_dt + timedelta(minutes=15)
+        candidate = last_dt + timedelta(hours=1)
         scheduled_at = max(now, candidate)
     else:
         scheduled_at = now
