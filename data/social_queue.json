@@ -104,7 +104,7 @@
       "url": "https://martinuke0.github.io/posts/2026-03-03-post-prompt-engineering-mastering-agentic-orchestration-with-open-source-neuro-symbolic-frameworks/",
       "social_hook": "The era of \"prompt engineering\" as the primary driver of AI utility is rapidly coming to a close. While crafting the perfect system message was the breakthrough of 2023, the industry has shifted toward Agentic Orchestration. We are moving away from single-turn interactions toward autonomous loops, and the most sophisticated way to manage these loops is through Neuro-Symbolic Frameworks.\n\nIn this post, we will explore why the industry is moving beyond simple prompting and how you can leverage open-source neuro-symbolic tools to build resilient, predictable, and highly capable AI agents.\n\nPrompt engineering is inherently fragile. Small changes in model weights or a slight tweak in wording can lead to catastrophic failures in output formatting or logic. As we move toward \"Agentic\" workflows—where an AI must plan, use tools, and self-correct—we need more than just better adjectives in a prompt. We need structure.",
       "scheduled_at": "2026-03-03T19:45:14Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Architecting High-Performance RAG Pipelines: A Technical Guide to Vector Databases and GPU Acceleration",
