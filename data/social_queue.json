@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-04T18:45:14Z",
+  "last_scheduled_at": "2026-03-04T19:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -332,6 +332,21 @@
         "Agentic AI"
       ],
       "scheduled_at": "2026-03-04T18:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering AI-Assisted Development: How Context Engineering and Spec-Driven Workflows Transform Software Delivery",
+      "url": "https://martinuke0.github.io/posts/2026-03-03-mastering-ai-assisted-development-how-context-engineering-and-spec-driven-workflows-transform-software-delivery/",
+      "social_hook": "The landscape of software development has fundamentally shifted. Where developers once wrote code alone or in teams using traditional methodologies, they now collaborate with AI assistants capable of understanding complex requirements, generating functional code, and debugging issues in real-time. Yet this technological leap has introduced a paradox: as conversations with AI assistants grow longer and more complex, the quality of their output often degrades. This phenomenon, known as context rot, represents one of the most significant challenges in modern AI-assisted development.\n\nEnter Get Shit Done (GSD), an open-source meta-prompting and spec-driven development system that addresses this exact problem[1][2]. Rather than treating AI interaction as an endless chat session, GSD structures development into discrete phases, each operating within a fresh context window. This approach preserves AI quality throughout the entire project lifecycle while maintaining clear documentation, atomic commits, and verifiable results.\n\nThis article explores how context engineering and spec-driven workflows are revolutionizing the way developers build software with AI, examining the underlying principles, practical implementation, and the broader implications for the future of development practices.",
+      "tags": [
+        "AI-assisted development",
+        "context engineering",
+        "spec-driven development",
+        "software productivity",
+        "Claude Code",
+        "meta-prompting"
+      ],
+      "scheduled_at": "2026-03-04T19:45:14Z",
       "status": "pending"
     }
   ]
