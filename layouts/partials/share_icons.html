@@ -1,5 +1,6 @@
 {{- $pageurl := .Permalink }}
 {{- $title := .Title }}
+{{- $description := .Description | default .Summary | plainify | truncate 700 }}
 
 {{- $.Scratch.Set "tags" ""}}
 
@@ -29,7 +30,7 @@
     {{- if (or (cond ($custom) (in $ShareButtons "linkedin") (true))) }}
     <li>
         <a target="_blank" rel="noopener noreferrer" aria-label="share {{ $title | plainify }} on linkedin"
-            href="https://www.linkedin.com/sharing/share-offsite/?url={{ $pageurl }}">
+            href="https://www.linkedin.com/shareArticle?mini=true&amp;url={{ $pageurl | urlquery }}&amp;title={{ $title | urlquery }}&amp;summary={{ $description | urlquery }}">
             <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px"
                 fill="currentColor">
                 <path
