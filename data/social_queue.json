@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-05T00:45:14Z",
+  "last_scheduled_at": "2026-03-05T01:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -418,6 +418,20 @@
         "VectorlessSearch"
       ],
       "scheduled_at": "2026-03-05T00:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building AI-Powered Code Architectures: Revolutionizing Development with Claude Frameworks",
+      "url": "https://martinuke0.github.io/posts/2026-03-03-building-ai-powered-code-architectures-revolutionizing-development-with-claude-frameworks/",
+      "social_hook": "In the rapidly evolving landscape of software development, AI agents like Claude are no longer just assistants—they're becoming architects of entire projects. Tools like Claude Architect and similar frameworks are transforming how we scaffold, onboard, review, and deploy codebases, enabling developers to generate production-ready projects in minutes rather than weeks. This post dives deep into these plug-and-play frameworks, exploring their mechanics, real-world applications, and connections to broader engineering principles, while providing actionable insights for integrating them into your workflow.\n\nTraditional software development follows a linear path: ideation, planning, scaffolding, coding, testing, and deployment. Each stage consumes time and tokens when using AI models. Enter Claude Architect, a CLI-optimized framework that compresses this lifecycle into 15 streamlined commands covering everything from `/scaffold` for initial project setup to `/deploy` for production rollout.[1] Version 2.0 achieves a 70% token reduction through delta-only framework files, inheritance models (global → base → framework-specific), and support for 12 ecosystems like Express+Hono, Gin+Echo+Fiber, and React Native+Expo.[1]\n\nThis isn't mere automation; it's AI-first engineering. By embedding architectural wisdom from luminaries like Martin Fowler and Robert C. Martin, these frameworks ensure outputs align with proven patterns such as domain-driven design (DDD) and clean architecture.[1][2] Imagine prompting Claude with \"Build a scalable e-commerce backend,\" and receiving a fully scaffolded Gin project with ADR templates, security baselines, and CI/CD pipelines—pre-configured and ready to iterate.",
+      "tags": [
+        "ClaudeCode",
+        "AIFirstDevelopment",
+        "SoftwareArchitecture",
+        "PromptEngineering",
+        "DevOpsAutomation"
+      ],
+      "scheduled_at": "2026-03-05T01:45:14Z",
       "status": "pending"
     }
   ]
