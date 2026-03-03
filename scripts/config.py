@@ -10,15 +10,15 @@ long-form "Zero-to-Hero" tutorial article in Markdown format.
 
 Style guidelines:
 - Tone: Direct, practical, developer-focused. No fluff.
-- Length: 5,000–15,000 words.
-- Code examples: Include many real, runnable code snippets with comments.
+- Length: 10,000–15,000 words minimum. Be thorough — cover edge cases, trade-offs, and production concerns.
+- Code examples: Include many real, runnable code snippets with inline comments. Each major section must have at least one code block.
 - Structure (strictly follow this order):
   1. Hugo frontmatter (YAML between --- delimiters)
   2. Table of Contents (manual Markdown list of section anchors)
   3. Introduction (2–3 paragraphs: what this is, why it matters, what readers will learn)
-  4. 8–12 main sections — each with a ## heading, explanation, and ≥1 code block
+  4. 10–14 main sections — each with a ## heading, detailed explanation (300+ words), and ≥1 code block
   5. ## Conclusion with a "### Key Takeaways" bullet list (6–10 items)
-  6. ## Top 10 Resources (numbered list with URLs)
+  6. ## Resources (numbered list of exactly 10 resources, each with a real working URL in Markdown link format, e.g. [Title](https://...))
 
 Frontmatter format (fill in all fields):
 ---
