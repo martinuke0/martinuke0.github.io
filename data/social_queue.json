@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-04T12:45:14Z",
+  "last_scheduled_at": "2026-03-04T13:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -245,6 +245,20 @@
         "AI Infrastructure"
       ],
       "scheduled_at": "2026-03-04T12:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building AI-Powered Development Platforms: The Rise of Vibe Coding and Serverless Infrastructure",
+      "url": "https://martinuke0.github.io/posts/2026-03-03-building-ai-powered-development-platforms-the-rise-of-vibe-coding-and-serverless-infrastructure/",
+      "social_hook": "title: \"Building AI-Powered Development Platforms: The Rise of Vibe Coding and Serverless Infrastructure\"\n\nThe landscape of software development is undergoing a fundamental transformation. What once required specialized knowledge, years of experience, and deep technical expertise can now be accomplished through natural language descriptions and AI-powered code generation. This shift represents more than just a convenience—it's reshaping how organizations think about building software, who can participate in development, and how platforms themselves are constructed.\n\nThe emergence of \"vibe coding\" platforms represents the cutting edge of this transformation. These platforms bridge the gap between human intent and executable code, allowing developers, product managers, and even non-technical stakeholders to describe what they want to build and have AI generate fully functional applications. But creating such platforms at scale presents enormous technical challenges: managing untrusted code execution, maintaining security across thousands of isolated environments, ensuring predictable costs, and deploying applications instantly across global infrastructure.",
+      "tags": [
+        "AI",
+        "serverless",
+        "vibe-coding",
+        "cloudflare",
+        "platform-engineering"
+      ],
+      "scheduled_at": "2026-03-04T13:45:14Z",
       "status": "pending"
     }
   ]
