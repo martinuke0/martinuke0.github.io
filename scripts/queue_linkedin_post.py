@@ -45,6 +45,12 @@ def main() -> None:
     else:
         scheduled_at = now
 
+    # Skip if this URL is already pending (avoid double-queueing)
+    existing_urls = {p["url"] for p in queue.get("posts", []) if p.get("status") == "pending"}
+    if url in existing_urls:
+        print(f"Already queued (pending): {url}")
+        return
+
     entry = {
         "title": title,
         "url": url,

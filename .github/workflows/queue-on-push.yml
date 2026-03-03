@@ -1,0 +1,54 @@
+name: Queue LinkedIn Post on Push
+
+on:
+  push:
+    paths:
+      - "content/posts/**.md"
+
+permissions:
+  contents: write
+
+jobs:
+  queue:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PAT_TOKEN }}
+          fetch-depth: 2   # need HEAD~1 to detect new files
+
+      - name: Find newly added post
+        id: newpost
+        run: |
+          FILE=$(git diff HEAD~1 --name-only --diff-filter=A -- 'content/posts/*.md' | head -1)
+          echo "file=$FILE" >> "$GITHUB_OUTPUT"
+          if [ -z "$FILE" ]; then
+            echo "No new .md post detected in this push, skipping."
+          else
+            echo "New post: $FILE"
+          fi
+
+      - name: Set up Python
+        if: steps.newpost.outputs.file != ''
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        if: steps.newpost.outputs.file != ''
+        run: pip install -r scripts/requirements.txt
+
+      - name: Extract metadata and queue LinkedIn post
+        if: steps.newpost.outputs.file != ''
+        run: |
+          python scripts/extract_article_meta.py "${{ steps.newpost.outputs.file }}"
+          python scripts/queue_linkedin_post.py
+
+      - name: Commit updated queue
+        if: steps.newpost.outputs.file != ''
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/social_queue.json
+          git diff --cached --quiet || git commit -m "chore: queue LinkedIn post for ${{ steps.newpost.outputs.file }}" && git push
