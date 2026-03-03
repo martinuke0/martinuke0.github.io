@@ -50,6 +50,8 @@ Full guide → {url}
 {hashtags}"""
 
 # LinkedIn post template
-LINKEDIN_TEMPLATE = """{social_hook}
+LINKEDIN_TEMPLATE = """Hi! {title}
+
+{social_hook}
 
 Read the full guide: {url}"""
