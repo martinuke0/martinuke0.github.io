@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-03T18:45:14Z",
+  "last_scheduled_at": "2026-03-03T19:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -97,6 +97,13 @@
       "url": "https://martinuke0.github.io/posts/2026-03-03-mastering-python-concurrency-a-practical-in-depth-guide-to-multiprocessing-and-threading-performance/",
       "social_hook": "Python is often criticized for being \"slow\" or \"single-threaded\" due to the Global Interpreter Lock (GIL). However, for many modern applications—from data processing pipelines to high-traffic web servers—concurrency is not just an option; it is a necessity.\n\nUnderstanding when to use `threading` versus `multiprocessing` is the hallmark of a senior Python developer. This guide dives deep into the mechanics of Python concurrency, explores the limitations of the GIL, and provides practical patterns for maximizing performance.\n\nBefore writing a single line of code, you must categorize your task. The choice between threading and multiprocessing depends entirely on where the bottleneck lies.",
       "scheduled_at": "2026-03-03T18:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Post-Prompt Engineering: Mastering Agentic Orchestration with Open Source Neuro-Symbolic Frameworks",
+      "url": "https://martinuke0.github.io/posts/2026-03-03-post-prompt-engineering-mastering-agentic-orchestration-with-open-source-neuro-symbolic-frameworks/",
+      "social_hook": "The era of \"prompt engineering\" as the primary driver of AI utility is rapidly coming to a close. While crafting the perfect system message was the breakthrough of 2023, the industry has shifted toward Agentic Orchestration. We are moving away from single-turn interactions toward autonomous loops, and the most sophisticated way to manage these loops is through Neuro-Symbolic Frameworks.\n\nIn this post, we will explore why the industry is moving beyond simple prompting and how you can leverage open-source neuro-symbolic tools to build resilient, predictable, and highly capable AI agents.\n\nPrompt engineering is inherently fragile. Small changes in model weights or a slight tweak in wording can lead to catastrophic failures in output formatting or logic. As we move toward \"Agentic\" workflows—where an AI must plan, use tools, and self-correct—we need more than just better adjectives in a prompt. We need structure.",
+      "scheduled_at": "2026-03-03T19:45:14Z",
       "status": "pending"
     }
   ]
