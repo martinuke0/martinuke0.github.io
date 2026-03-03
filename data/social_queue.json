@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-04T14:45:14Z",
+  "last_scheduled_at": "2026-03-04T15:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -273,6 +273,21 @@
         "Autonomous Agents"
       ],
       "scheduled_at": "2026-03-04T14:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "The Shift to Local Reasoning: Optimizing Small Language Models for On-Device Edge Computing",
+      "url": "https://martinuke0.github.io/posts/2026-03-03-the-shift-to-local-reasoning-optimizing-small-language-models-for-on-device-edge-computing/",
+      "social_hook": "The narrative of Artificial Intelligence has, for the last several years, been dominated by the \"bigger is better\" philosophy. Massive Large Language Models (LLMs) with hundreds of billions of parameters, housed in sprawling data centers and accessed via APIs, have set the standard for what AI can achieve. However, a silent revolution is underway—the shift toward Local Reasoning.\n\nAs privacy concerns rise, latency requirements tighten, and the cost of cloud inference scales exponentially, the focus is shifting from the cloud to the \"edge.\" Small Language Models (SLMs) are now proving that they can perform sophisticated reasoning tasks directly on smartphones, laptops, and IoT devices. This post explores the technical breakthroughs, optimization strategies, and architectural shifts making on-device intelligence a reality.\n\nWhy move away from the high-performance clusters of the cloud? The move toward on-device SLMs is driven by four critical pillars:",
+      "tags": [
+        "EdgeAI",
+        "SLM",
+        "MachineLearning",
+        "OnDevice",
+        "Optimization",
+        "TinyML"
+      ],
+      "scheduled_at": "2026-03-04T15:45:14Z",
       "status": "pending"
     }
   ]
