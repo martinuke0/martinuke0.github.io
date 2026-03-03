@@ -7,6 +7,10 @@ on:
     - cron: "*/5 * * * *"   # every 5 minutes
   workflow_dispatch: {}       # manual trigger for testing
 
+concurrency:
+  group: linkedin-queue-processor
+  cancel-in-progress: false   # queue runs, never cancel — prevents duplicate posts
+
 permissions:
   contents: write
 
