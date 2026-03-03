@@ -83,7 +83,7 @@
       "url": "https://martinuke0.github.io/posts/2026-03-03-decentralizing-intelligence-a-guide-to-running-liquid-neural-networks-on-edge-hardware/",
       "social_hook": "Liquid Neural Networks (LNNs) represent a breakthrough in AI architecture, enabling compact, adaptive models that run efficiently on edge devices like Raspberry Pi, decentralizing intelligence from cloud servers to everyday hardware.[1][4][5] This guide explores LNNs' foundations, their advantages for edge deployment, practical implementation steps, and real-world applications, empowering developers to build responsive, low-power AI systems.\n\nLiquid Neural Networks (LNNs) are a class of time-continuous Recurrent Neural Networks (RNNs) inspired by the nervous system of the C. elegans worm, which exhibits complex behaviors with just 302 neurons.[2][4][5] Unlike traditional neural networks with fixed weights post-training, LNNs use a liquid time constant (LTC)—an input-dependent term that dynamically adjusts connection strengths, allowing continuous adaptation to new data.[1][6]\n\nLNNs model neuron dynamics via first-order ordinary differential equations (ODEs) coordinated by nonlinear interlinked gates, evolving from neural ODEs.[1][2] Key components include:",
       "scheduled_at": "2026-03-03T16:45:14Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Local LLM Orchestration: Navigating the Shift from Cloud APIs to Edge Intelligence Architecture",
