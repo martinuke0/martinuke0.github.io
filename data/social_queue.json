@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-04T22:45:14Z",
+  "last_scheduled_at": "2026-03-04T23:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -390,6 +390,20 @@
         "devops"
       ],
       "scheduled_at": "2026-03-04T22:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Beyond the Camera: How WiFi Signals Are Revolutionizing Human Pose Detection and Sensing",
+      "url": "https://martinuke0.github.io/posts/2026-03-03-beyond-the-camera-how-wifi-signals-are-revolutionizing-human-pose-detection-and-sensing/",
+      "social_hook": "Imagine a world where your WiFi router can track your movements, monitor your health, and detect falls—all without a single camera pointed at you. This isn't science fiction; it's the reality of WiFi-based human pose estimation, a transformative technology that's reshaping how we think about motion detection, privacy, and ambient sensing[1][2].\n\nFor decades, computer vision has relied on cameras, depth sensors, and expensive hardware to understand human movement and body position. These systems work well in controlled environments with good lighting, but they come with significant privacy concerns and infrastructure costs. WiFi DensePose represents a fundamental paradigm shift: by analyzing how radio waves bounce off human bodies, researchers have developed systems that can reconstruct detailed 3D poses with accuracy comparable to traditional camera-based approaches—without capturing a single pixel[1][2].\n\nThis breakthrough, pioneered by researchers at Carnegie Mellon University and further developed by open-source communities, opens unprecedented possibilities for healthcare monitoring, smart home automation, emergency response, and accessibility solutions. Yet it also raises important questions about privacy, security, and the future of ubiquitous sensing in our homes and workplaces.",
+      "tags": [
+        "wifi-sensing",
+        "pose-estimation",
+        "computer-vision",
+        "deep-learning",
+        "privacy-technology"
+      ],
+      "scheduled_at": "2026-03-04T23:45:14Z",
       "status": "pending"
     }
   ]
