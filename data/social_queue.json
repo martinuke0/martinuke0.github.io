@@ -55,7 +55,7 @@
       "url": "https://martinuke0.github.io/posts/2026-03-03-mastering-webassembly-for-high-performance-web-applications-a-comprehensive-deep-dive/",
       "social_hook": "The web has evolved from a simple document-sharing platform into a sophisticated environment for complex applications. However, as we push the boundaries of what is possible in the browser—from real-time video editing to 3D rendering and heavy scientific simulations—JavaScript often hits a performance ceiling. Enter WebAssembly (Wasm).\n\nThis guide provides a deep dive into mastering WebAssembly to build high-performance web applications that rival native software.\n\nWebAssembly is a binary instruction format for a stack-based virtual machine. It is designed as a portable compilation target for programming languages like C++, Rust, and Go, enabling deployment on the web for client and server applications.",
       "scheduled_at": "2026-03-03T14:15:14Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "From Zero to Automation Hero: A Strategic Guide to Building AI Workflows for SaaS",
