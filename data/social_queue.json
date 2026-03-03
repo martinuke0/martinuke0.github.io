@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-03T13:32:09Z",
+  "last_scheduled_at": "2026-03-03T15:32:09Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -11,8 +11,15 @@
     {
       "title": "The Magic of Mesh: A Deep Dive into Tailscale and Modern Networking",
       "url": "https://martinuke0.github.io/posts/2026-03-03-the-magic-of-mesh-a-deep-dive-into-tailscale-and-modern-networking/",
-      "social_hook": "Networking has always been one of the most complex parts of infrastructure \u2014 firewall rules, NAT traversal, static IPs, and heavyweight VPN protocols. Tailscale changes all of that.\n\nBuilt on top of WireGuard\u00ae, Tailscale creates a zero-config mesh VPN that makes any two devices feel like they are on the same local network, regardless of where they are in the world. Under 4,000 lines of code, blazing-fast cryptography, and no open ports required.\n\nIn this deep dive, we cover how Tailscale actually works under the hood: the coordination server, NAT traversal with DERP relays, ACLs, subnet routing, and how to set it all up from scratch. If you care about secure connectivity without the pain, this one is for you.",
+      "social_hook": "Networking has always been one of the most complex parts of infrastructure — firewall rules, NAT traversal, static IPs, and heavyweight VPN protocols. Tailscale changes all of that.\n\nBuilt on top of WireGuard®, Tailscale creates a zero-config mesh VPN that makes any two devices feel like they are on the same local network, regardless of where they are in the world. Under 4,000 lines of code, blazing-fast cryptography, and no open ports required.\n\nIn this deep dive, we cover how Tailscale actually works under the hood: the coordination server, NAT traversal with DERP relays, ACLs, subnet routing, and how to set it all up from scratch. If you care about secure connectivity without the pain, this one is for you.",
       "scheduled_at": "2026-03-03T13:32:09Z",
+      "status": "pending"
+    },
+    {
+      "title": "Peter Steinberger: From PDF Pioneer to AI Visionary",
+      "url": "https://martinuke0.github.io/posts/2026-03-03-peter-steinberger-from-pdf-pioneer-to-ai-visionary/",
+      "social_hook": "",
+      "scheduled_at": "2026-03-03T15:32:09Z",
       "status": "pending"
     }
   ]
