@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-03T17:45:14Z",
+  "last_scheduled_at": "2026-03-03T18:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -90,6 +90,13 @@
       "url": "https://martinuke0.github.io/posts/2026-03-03-local-llm-orchestration-navigating-the-shift-from-cloud-apis-to-edge-intelligence-architecture/",
       "social_hook": "The initial wave of the Generative AI revolution was built almost entirely on the back of massive cloud APIs. Developers flocked to OpenAI, Anthropic, and Google, trading data sovereignty and high operational costs for the convenience of state-of-the-art inference. However, a significant architectural shift is underway.\n\nAs open-source models like Llama 3, Mistral, and Phi-3 approach the performance of their proprietary counterparts, enterprises and developers are moving toward Local LLM Orchestration. This shift from \"Cloud-First\" to \"Edge-Intelligence\" isn't just about saving money—it’s about privacy, latency, and the creation of resilient, offline-capable systems.\n\nThe transition toward local orchestration is driven by three primary pain points inherent in cloud-based AI:",
       "scheduled_at": "2026-03-03T17:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Python Concurrency: A Practical In-Depth Guide to Multiprocessing and Threading Performance",
+      "url": "https://martinuke0.github.io/posts/2026-03-03-mastering-python-concurrency-a-practical-in-depth-guide-to-multiprocessing-and-threading-performance/",
+      "social_hook": "Python is often criticized for being \"slow\" or \"single-threaded\" due to the Global Interpreter Lock (GIL). However, for many modern applications—from data processing pipelines to high-traffic web servers—concurrency is not just an option; it is a necessity.\n\nUnderstanding when to use `threading` versus `multiprocessing` is the hallmark of a senior Python developer. This guide dives deep into the mechanics of Python concurrency, explores the limitations of the GIL, and provides practical patterns for maximizing performance.\n\nBefore writing a single line of code, you must categorize your task. The choice between threading and multiprocessing depends entirely on where the bottleneck lies.",
+      "scheduled_at": "2026-03-03T18:45:14Z",
       "status": "pending"
     }
   ]
