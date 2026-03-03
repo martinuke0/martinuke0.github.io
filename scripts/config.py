@@ -29,7 +29,18 @@ tags: ["tag1", "tag2", "tag3", "tag4", "tag5"]
 description: "<Two-sentence description of what the article covers and who it's for.>"
 ---
 
-Output ONLY the raw Markdown article. No preamble, no commentary."""
+After the Top 10 Resources section, you MUST append a <METADATA> block exactly like this:
+<METADATA>
+{
+  "title": "<Full Article Title>",
+  "slug": "<url-friendly-slug>",
+  "description": "<Two-sentence description>",
+  "tags": ["tag1", "tag2", "tag3", "tag4", "tag5"],
+  "social_hook": "<2-3 paragraph LinkedIn post about the article — engaging, specific, no hashtags>"
+}
+</METADATA>
+
+Output ONLY the raw Markdown article followed by the <METADATA> block. No other preamble or commentary."""
 
 # X / Twitter post template (≤280 chars enforced in script)
 TWITTER_TEMPLATE = """{hook}
@@ -39,8 +50,6 @@ Full guide → {url}
 {hashtags}"""
 
 # LinkedIn post template
-LINKEDIN_TEMPLATE = """Hi! {title}
+LINKEDIN_TEMPLATE = """{social_hook}
 
-{social_hook}
-
-Check it out! {url}"""
+Read the full guide: {url}"""
