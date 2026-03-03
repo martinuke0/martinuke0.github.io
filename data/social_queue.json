@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-04T20:45:14Z",
+  "last_scheduled_at": "2026-03-04T21:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -361,6 +361,21 @@
         "grok-ai"
       ],
       "scheduled_at": "2026-03-04T20:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Phoenix Rising: How Transformer Models Revolutionized Real-Time Recommendation Systems at Scale",
+      "url": "https://martinuke0.github.io/posts/2026-03-03-phoenix-rising-how-transformer-models-revolutionized-real-time-recommendation-systems-at-scale/",
+      "social_hook": "In the high-stakes world of social media feeds, where billions of posts compete for fleeting user attention, the Phoenix recommendation system stands out as a groundbreaking fusion of transformer architectures and scalable machine learning. Originally powering X's \"For You\" feed, Phoenix demonstrates how large language model (LLM) tech like xAI's Grok-1 can be repurposed for recommendation tasks, handling retrieval from 500 million posts down to personalized top-k candidates in milliseconds.[1][2][3] This isn't just another recsys—it's a testament to adapting cutting-edge AI for production-scale personalization, blending two-tower retrieval with multi-task transformer ranking.\n\nThis article dives deep into Phoenix's architecture, unpacking its JAX-based implementation, real-world engineering challenges, and broader implications for tech giants building next-gen feeds. We'll explore code snippets, draw parallels to systems like YouTube or TikTok, and provide practical insights for engineers looking to build similar systems. By the end, you'll understand why Phoenix represents a pivotal shift: transformers aren't just for text generation anymore—they're the backbone of engagement-driven platforms.\n\nRecommendation engines have come a long way since the days of collaborative filtering and simple matrix factorization models like SVD or ALS. Early systems, popularized by Netflix Prize winners, relied on user-item matrices to predict ratings. But in dynamic environments like social feeds, where content velocity is extreme (e.g., X processes millions of posts per minute), these fell short.[1]",
+      "tags": [
+        "RecommendationSystems",
+        "MachineLearning",
+        "Transformers",
+        "JAX",
+        "xAI",
+        "Grok"
+      ],
+      "scheduled_at": "2026-03-04T21:45:14Z",
       "status": "pending"
     }
   ]
