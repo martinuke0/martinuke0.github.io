@@ -121,6 +121,12 @@ def generate_article(topic: str) -> dict:
         "file": str(output_path),
     }
 
+    # Write metadata file for downstream queue script (same workflow run)
+    meta_path = Path(__file__).parent.parent / "data" / ".last_article_meta.json"
+    meta_path.parent.mkdir(parents=True, exist_ok=True)
+    meta_path.write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"Article metadata written to: {meta_path}", file=sys.stderr)
+
     # Print JSON metadata to stdout for downstream workflow steps
     print(json.dumps(result))
     return result
