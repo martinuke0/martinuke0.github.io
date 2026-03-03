@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-04T15:45:14Z",
+  "last_scheduled_at": "2026-03-04T16:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -288,6 +288,21 @@
         "TinyML"
       ],
       "scheduled_at": "2026-03-04T15:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Revolutionizing AI Data Pipelines: Mastering Incremental Transformations with Rust-Powered Frameworks",
+      "url": "https://martinuke0.github.io/posts/2026-03-03-revolutionizing-ai-data-pipelines-mastering-incremental-transformations-with-rust-powered-frameworks/",
+      "social_hook": "title: \"Revolutionizing AI Data Pipelines: Mastering Incremental Transformations with Rust-Powered Frameworks\"\n\ntags: [\"AI\", \"DataEngineering\", \"Rust\", \"IncrementalProcessing\", \"RAG\", \"VectorDatabases\"]\n\nIn the era of AI-driven applications, keeping data fresh, transformed, and ready for models like LLMs is no longer optional—it's mission-critical. Traditional ETL processes fall short when dealing with the velocity and volume of unstructured data feeding Retrieval-Augmented Generation (RAG) systems, knowledge graphs, and real-time agents. Enter a new breed of data transformation frameworks built for AI workloads: ultra-performant engines leveraging Rust for core processing, declarative Python APIs for developer velocity, and incremental computation to process only what's changed. These tools solve the \"freshness problem\" by maintaining sync between sources and targets without recomputing everything from scratch.",
+      "tags": [
+        "AI",
+        "DataEngineering",
+        "Rust",
+        "IncrementalProcessing",
+        "RAG",
+        "VectorDatabases"
+      ],
+      "scheduled_at": "2026-03-04T16:45:14Z",
       "status": "pending"
     }
   ]
