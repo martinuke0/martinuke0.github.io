@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-04T19:45:14Z",
+  "last_scheduled_at": "2026-03-04T20:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -347,6 +347,20 @@
         "meta-prompting"
       ],
       "scheduled_at": "2026-03-04T19:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Decoding the X For You Algorithm: ML-Powered Feeds and Their Future in Social Discovery",
+      "url": "https://martinuke0.github.io/posts/2026-03-03-decoding-the-x-for-you-algorithm-ml-powered-feeds-and-their-future-in-social-discovery/",
+      "social_hook": "The \"For You\" feed on X represents a pinnacle of modern recommendation systems, blending content from followed accounts with machine learning-discovered posts, all ranked by a sophisticated Grok-based transformer model.[1][4] This open-sourced architecture, detailed in xAI's x-algorithm repository, reveals how platforms like X personalize experiences at massive scale, drawing from in-network familiarity and out-of-network exploration to maximize engagement.[1]\n\nIn an era where social media competes for attention amid infinite content streams, understanding this system offers valuable insights for developers, marketers, and users alike. This post dives deep into its components, pipeline mechanics, design choices, and broader implications, connecting it to foundational concepts in computer science, engineering challenges, and emerging trends in AI-driven discovery.\n\nSocial media timelines have transformed dramatically since the early days of platforms like Twitter (now X). Initially, feeds displayed posts in reverse chronological order—a simple, predictable model that favored recency over relevance.[2][3] As user bases exploded into the billions, this approach faltered: most content from followed accounts became noise, buried under high-volume posters or irrelevant updates.",
+      "tags": [
+        "recommendation-systems",
+        "machine-learning",
+        "social-media-algorithms",
+        "transformer-models",
+        "grok-ai"
+      ],
+      "scheduled_at": "2026-03-04T20:45:14Z",
       "status": "pending"
     }
   ]
