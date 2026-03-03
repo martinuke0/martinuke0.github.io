@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-03T15:45:14Z",
+  "last_scheduled_at": "2026-03-03T16:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -76,6 +76,13 @@
       "url": "https://martinuke0.github.io/posts/2026-03-03-standardizing-real-time-neural-kernel-updates-for-generative-operating-systems-in-2026/",
       "social_hook": "The intersection of neural computation and operating system design represents one of the most significant technological frontiers of 2026. As generative AI systems become increasingly integrated into core operating system functions, the need for standardized, real-time neural kernel updates has become critical. Traditional kernel optimization approaches, designed for deterministic workloads, struggle to accommodate the dynamic, probabilistic nature of neural computation. This article explores the emerging standards, methodologies, and frameworks that are reshaping how operating systems manage neural kernel evolution in real-time environments.\n\nThe challenge is multifaceted: generative systems require responsive, adaptive kernels that can optimize across heterogeneous hardware platforms while maintaining correctness, performance, and reliability. Unlike conventional kernel updates that occur on fixed schedules, neural kernel updates must adapt dynamically to changing computational demands, hardware configurations, and data distributions. Understanding these standardization efforts is essential for systems architects, AI engineers, and OS developers working at this intersection.\n\nNeural kernels in the context of modern operating systems refer to optimized computational operators that leverage neural network techniques to enhance kernel performance and adaptability. These are distinct from traditional kernel functions but operate at similar levels of system criticality. They encompass everything from scheduling algorithms informed by predictive models to memory management systems that use neural approaches to optimize access patterns.",
       "scheduled_at": "2026-03-03T15:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Decentralizing Intelligence: A Guide to Running Liquid Neural Networks on Edge Hardware",
+      "url": "https://martinuke0.github.io/posts/2026-03-03-decentralizing-intelligence-a-guide-to-running-liquid-neural-networks-on-edge-hardware/",
+      "social_hook": "Liquid Neural Networks (LNNs) represent a breakthrough in AI architecture, enabling compact, adaptive models that run efficiently on edge devices like Raspberry Pi, decentralizing intelligence from cloud servers to everyday hardware.[1][4][5] This guide explores LNNs' foundations, their advantages for edge deployment, practical implementation steps, and real-world applications, empowering developers to build responsive, low-power AI systems.\n\nLiquid Neural Networks (LNNs) are a class of time-continuous Recurrent Neural Networks (RNNs) inspired by the nervous system of the C. elegans worm, which exhibits complex behaviors with just 302 neurons.[2][4][5] Unlike traditional neural networks with fixed weights post-training, LNNs use a liquid time constant (LTC)—an input-dependent term that dynamically adjusts connection strengths, allowing continuous adaptation to new data.[1][6]\n\nLNNs model neuron dynamics via first-order ordinary differential equations (ODEs) coordinated by nonlinear interlinked gates, evolving from neural ODEs.[1][2] Key components include:",
+      "scheduled_at": "2026-03-03T16:45:14Z",
       "status": "pending"
     }
   ]
