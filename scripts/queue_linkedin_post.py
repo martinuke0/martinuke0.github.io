@@ -26,6 +26,7 @@ def main() -> None:
     title = meta.get("title", "")
     url = meta.get("url", "")
     social_hook = meta.get("social_hook", "")
+    tags = meta.get("tags", [])
 
     if not url:
         sys.exit("Error: article metadata missing 'url'.")
@@ -55,6 +56,7 @@ def main() -> None:
         "title": title,
         "url": url,
         "social_hook": social_hook,
+        "tags": tags,
         "scheduled_at": scheduled_at.strftime("%Y-%m-%dT%H:%M:%SZ"),
         "status": "pending",
     }

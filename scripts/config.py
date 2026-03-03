@@ -54,4 +54,6 @@ LINKEDIN_TEMPLATE = """Hi! {title}
 
 {social_hook}
 
-Read the full guide: {url}"""
+Read the full guide: {url}
+
+{hashtags}"""

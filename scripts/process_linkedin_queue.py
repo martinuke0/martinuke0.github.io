@@ -70,6 +70,7 @@ def main() -> None:
         title = entry.get("title", "")
         url = entry.get("url", "")
         social_hook = entry.get("social_hook", "")
+        tags = entry.get("tags", [])
 
         print(f"Processing: {title} ({url})")
 
@@ -78,7 +79,7 @@ def main() -> None:
             continue
 
         try:
-            post_to_linkedin(title=title, url=url, social_hook=social_hook)
+            post_to_linkedin(title=title, url=url, social_hook=social_hook, tags=tags)
             entry["status"] = "posted"
             posts_made += 1
             print(f"Posted to LinkedIn: {title}")

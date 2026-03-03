@@ -11,13 +11,20 @@ sys.path.insert(0, str(Path(__file__).parent))
 from config import LINKEDIN_TEMPLATE
 
 
-def build_post(title: str, url: str, social_hook: str) -> str:
+def build_hashtags(tags: list) -> str:
+    return " ".join(f"#{t.replace(' ', '').replace('-', '')}" for t in tags[:5])
+
+
+def build_post(title: str, url: str, social_hook: str, tags: list = None) -> str:
+    hashtags = build_hashtags(tags or [])
     if social_hook and social_hook.strip():
-        return LINKEDIN_TEMPLATE.format(title=title, social_hook=social_hook.strip(), url=url)
-    return f"Hi! {title}\n\nRead the full guide: {url}"
+        return LINKEDIN_TEMPLATE.format(
+            title=title, social_hook=social_hook.strip(), url=url, hashtags=hashtags
+        )
+    return f"Hi! {title}\n\nRead the full guide: {url}\n\n{hashtags}".rstrip()
 
 
-def post_to_linkedin(title: str, url: str, social_hook: str) -> None:
+def post_to_linkedin(title: str, url: str, social_hook: str, tags: list = None) -> None:
     access_token = os.environ.get("LINKEDIN_ACCESS_TOKEN")
     person_urn = os.environ.get("LINKEDIN_PERSON_URN")
 
@@ -32,7 +39,7 @@ def post_to_linkedin(title: str, url: str, social_hook: str) -> None:
     if missing:
         sys.exit(f"Error: Missing env vars: {', '.join(missing)}")
 
-    post_text = build_post(title, url, social_hook)
+    post_text = build_post(title, url, social_hook, tags or [])
     print(f"Posting to LinkedIn:\n{post_text}", file=sys.stderr)
 
     headers = {
