@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-03T16:45:14Z",
+  "last_scheduled_at": "2026-03-03T17:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -83,6 +83,13 @@
       "url": "https://martinuke0.github.io/posts/2026-03-03-decentralizing-intelligence-a-guide-to-running-liquid-neural-networks-on-edge-hardware/",
       "social_hook": "Liquid Neural Networks (LNNs) represent a breakthrough in AI architecture, enabling compact, adaptive models that run efficiently on edge devices like Raspberry Pi, decentralizing intelligence from cloud servers to everyday hardware.[1][4][5] This guide explores LNNs' foundations, their advantages for edge deployment, practical implementation steps, and real-world applications, empowering developers to build responsive, low-power AI systems.\n\nLiquid Neural Networks (LNNs) are a class of time-continuous Recurrent Neural Networks (RNNs) inspired by the nervous system of the C. elegans worm, which exhibits complex behaviors with just 302 neurons.[2][4][5] Unlike traditional neural networks with fixed weights post-training, LNNs use a liquid time constant (LTC)—an input-dependent term that dynamically adjusts connection strengths, allowing continuous adaptation to new data.[1][6]\n\nLNNs model neuron dynamics via first-order ordinary differential equations (ODEs) coordinated by nonlinear interlinked gates, evolving from neural ODEs.[1][2] Key components include:",
       "scheduled_at": "2026-03-03T16:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Local LLM Orchestration: Navigating the Shift from Cloud APIs to Edge Intelligence Architecture",
+      "url": "https://martinuke0.github.io/posts/2026-03-03-local-llm-orchestration-navigating-the-shift-from-cloud-apis-to-edge-intelligence-architecture/",
+      "social_hook": "The initial wave of the Generative AI revolution was built almost entirely on the back of massive cloud APIs. Developers flocked to OpenAI, Anthropic, and Google, trading data sovereignty and high operational costs for the convenience of state-of-the-art inference. However, a significant architectural shift is underway.\n\nAs open-source models like Llama 3, Mistral, and Phi-3 approach the performance of their proprietary counterparts, enterprises and developers are moving toward Local LLM Orchestration. This shift from \"Cloud-First\" to \"Edge-Intelligence\" isn't just about saving money—it’s about privacy, latency, and the creation of resilient, offline-capable systems.\n\nThe transition toward local orchestration is driven by three primary pain points inherent in cloud-based AI:",
+      "scheduled_at": "2026-03-03T17:45:14Z",
       "status": "pending"
     }
   ]
