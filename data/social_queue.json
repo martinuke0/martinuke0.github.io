@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-05T02:45:14Z",
+  "last_scheduled_at": "2026-03-05T03:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -446,6 +446,20 @@
         "distributed AI"
       ],
       "scheduled_at": "2026-03-05T02:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Why Persistent Context Beats On-Demand Skills: Revolutionizing AI Coding Agents",
+      "url": "https://martinuke0.github.io/posts/2026-03-03-why-persistent-context-beats-on-demand-skills-revolutionizing-ai-coding-agents/",
+      "social_hook": "title: \"Why Persistent Context Beats On-Demand Skills: Revolutionizing AI Coding Agents\"\n\ntags: [\"AI Agents\", \"Coding Assistants\", \"Next.js\", \"Prompt Engineering\", \"LLM Context\"]\n\nIn the rapidly evolving world of AI-assisted coding, developers are constantly seeking ways to make agents smarter, faster, and more reliable. A recent experiment by Vercel revealed a surprising truth: a simple 8KB markdown file called AGENTS.md, placed in your project root, outperformed sophisticated \"skills\" systems with a 100% pass rate on Next.js 16 API evaluations—while skills topped out at just 79%. This isn't just a Vercel anecdote; it's a fundamental insight into how large language models (LLMs) process context, pointing to broader implications for agentic systems across software engineering, data science, and beyond.[1][2]",
+      "tags": [
+        "AI Agents",
+        "Coding Assistants",
+        "Next.js",
+        "Prompt Engineering",
+        "LLM Context"
+      ],
+      "scheduled_at": "2026-03-05T03:45:14Z",
       "status": "pending"
     }
   ]
