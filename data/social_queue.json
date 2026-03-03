@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-03T22:45:14Z",
+  "last_scheduled_at": "2026-03-03T23:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -125,6 +125,13 @@
       "url": "https://martinuke0.github.io/posts/2026-03-03-advanced-vector-database-indexing-strategies-for-optimizing-enterprise-rag-applications-performance/",
       "social_hook": "As Generative AI moves from experimental prototypes to mission-critical enterprise applications, the bottleneck has shifted from model capability to data retrieval efficiency. Retrieval-Augmented Generation (RAG) is the industry standard for grounding Large Language Models (LLMs) in private, real-time data. However, at enterprise scale—where datasets span billions of vectors—standard \"out-of-the-box\" indexing often fails to meet the latency and accuracy requirements of production environments.\n\nOptimizing a vector database is no longer just about choosing between FAISS or Pinecone; it is about engineering the underlying index structure to balance the \"Retrieval Trilemma\": Speed, Accuracy (Recall), and Memory Consumption.\n\nIn a typical RAG pipeline, a user query is converted into a high-dimensional vector (embedding). The system must then find the most \"similar\" vectors in a database containing millions of documents. In an enterprise context, this introduces several complexities:",
       "scheduled_at": "2026-03-03T22:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Vector Databases for Retrieval Augmented Generation: A Zero to Hero Guide",
+      "url": "https://martinuke0.github.io/posts/2026-03-03-mastering-vector-databases-for-retrieval-augmented-generation-a-zero-to-hero-guide/",
+      "social_hook": "The explosion of Large Language Models (LLMs) like GPT-4 and Claude has revolutionized how we build software. However, these models suffer from two major limitations: knowledge cut-offs and \"hallucinations.\" To build production-ready AI applications, we need a way to provide these models with specific, private, or up-to-date information.\n\nThis is where Retrieval Augmented Generation (RAG) comes in, and the heart of any RAG system is the Vector Database. In this guide, we will go from zero to hero, exploring the architecture, mathematics, and implementation strategies of vector databases.\n\nTraditional databases (SQL or NoSQL) are designed for exact matches. If you search for \"The CEO of Apple,\" a keyword database looks for those exact strings. However, if your query is \"Who leads the company that makes the iPhone?\", a keyword search might fail if the specific words don't overlap.",
+      "scheduled_at": "2026-03-03T23:45:14Z",
       "status": "pending"
     }
   ]
