@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-03T13:30:14Z",
+  "last_scheduled_at": "2026-03-03T13:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -35,6 +35,13 @@
       "social_hook": "",
       "scheduled_at": "2026-03-03T13:30:14Z",
       "status": "posted"
+    },
+    {
+      "title": "From Zero to Hero: A Strategic Blueprint for Mastering Any New Skill",
+      "url": "https://martinuke0.github.io/posts/2026-03-03-from-zero-to-hero-a-strategic-blueprint-for-mastering-any-new-skill/",
+      "social_hook": "",
+      "scheduled_at": "2026-03-03T13:45:14Z",
+      "status": "pending"
     }
   ]
 }
