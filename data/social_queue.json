@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-04T13:45:14Z",
+  "last_scheduled_at": "2026-03-04T14:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -259,6 +259,20 @@
         "platform-engineering"
       ],
       "scheduled_at": "2026-03-04T13:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "OpenClaw Unleashed: Building Your Autonomous AI Sidekick for the Agentic Future",
+      "url": "https://martinuke0.github.io/posts/2026-03-03-openclaw-unleashed-building-your-autonomous-ai-sidekick-for-the-agentic-future/",
+      "social_hook": "In an era where AI assistants are evolving from passive chatbots to proactive agents capable of executing complex tasks independently, OpenClaw emerges as a game-changer. This open-source powerhouse runs locally on your machine, connects seamlessly to your favorite messaging apps, and transforms high-level goals into tangible actions—without relying on cloud subscriptions or vendor lock-in. Unlike traditional tools that merely respond to queries, OpenClaw remembers your preferences, automates workflows, and even extends its own capabilities by writing custom code on the fly.[1][2][5]\n\nWhat sets OpenClaw apart is its \"lobster way\" philosophy: resilient, adaptive, and fiercely independent, much like the crustacean it's named after. With over 250k stars on GitHub and a burgeoning ecosystem of skills and plugins, it's not just a tool—it's the foundation for your personal AGI-like companion. This article dives deep into OpenClaw's architecture, core features, real-world applications, and how it fits into the broader landscape of agentic AI. Whether you're a developer streamlining DevOps or a professional seeking hands-off automation, OpenClaw empowers you to delegate the mundane and focus on what matters.[3][4]\n\nThe AI landscape in 2026 is defined by agentic systems—intelligent agents that perceive, reason, plan, and act autonomously to achieve user-defined objectives. Traditional assistants like Siri or early ChatGPT iterations were reactive: you ask, they answer. OpenClaw flips this script by introducing persistence, tool use, and proactivity, drawing from advancements in large language models (LLMs) like Claude, GPT, and Gemini.[4]",
+      "tags": [
+        "AI Agents",
+        "Open Source AI",
+        "Personal Automation",
+        "Local AI Assistant",
+        "Autonomous Agents"
+      ],
+      "scheduled_at": "2026-03-04T14:45:14Z",
       "status": "pending"
     }
   ]
