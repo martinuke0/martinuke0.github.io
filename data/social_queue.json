@@ -111,7 +111,7 @@
       "url": "https://martinuke0.github.io/posts/2026-03-03-architecting-high-performance-rag-pipelines-a-technical-guide-to-vector-databases-and-gpu-acceleration/",
       "social_hook": "The transition from experimental Retrieval-Augmented Generation (RAG) to production-grade AI applications requires more than just a basic LangChain script. As datasets scale into the millions of documents and user expectations for latency drop below 500ms, the architecture of the RAG pipeline becomes a critical engineering challenge.\n\nTo build a high-performance RAG system, engineers must optimize two primary bottlenecks: the retrieval latency of the vector database and the inference throughput of the embedding and LLM stages. This guide explores the technical strategies for leveraging GPU acceleration and advanced vector indexing to build enterprise-ready RAG pipelines.\n\nA standard RAG pipeline consists of three main phases: Ingestion, Retrieval, and Generation. At scale, each phase requires specific architectural choices:",
       "scheduled_at": "2026-03-03T20:45:14Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Building High-Performance Vector Search Engines: From Foundations to Production Scale",
