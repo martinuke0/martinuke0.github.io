@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-03T23:45:14Z",
+  "last_scheduled_at": "2026-03-04T00:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -132,6 +132,13 @@
       "url": "https://martinuke0.github.io/posts/2026-03-03-mastering-vector-databases-for-retrieval-augmented-generation-a-zero-to-hero-guide/",
       "social_hook": "The explosion of Large Language Models (LLMs) like GPT-4 and Claude has revolutionized how we build software. However, these models suffer from two major limitations: knowledge cut-offs and \"hallucinations.\" To build production-ready AI applications, we need a way to provide these models with specific, private, or up-to-date information.\n\nThis is where Retrieval Augmented Generation (RAG) comes in, and the heart of any RAG system is the Vector Database. In this guide, we will go from zero to hero, exploring the architecture, mathematics, and implementation strategies of vector databases.\n\nTraditional databases (SQL or NoSQL) are designed for exact matches. If you search for \"The CEO of Apple,\" a keyword database looks for those exact strings. However, if your query is \"Who leads the company that makes the iPhone?\", a keyword search might fail if the specific words don't overlap.",
       "scheduled_at": "2026-03-03T23:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Algorithmic Trading Strategies with Python: A Comprehensive Guide to Automated Market Analysis",
+      "url": "https://martinuke0.github.io/posts/2026-03-03-mastering-algorithmic-trading-strategies-with-python-a-comprehensive-guide-to-automated-market-analysis/",
+      "social_hook": "The landscape of financial markets has undergone a radical transformation over the last two decades. The image of shouting traders on a physical exchange floor has been replaced by silent data centers where algorithms execute thousands of trades per second. Today, algorithmic trading accounts for over 70% of the volume in US equity markets.\n\nFor the modern developer or data scientist, Python has emerged as the undisputed language of choice for building these automated systems. Its rich ecosystem of libraries, ease of use, and powerful data handling capabilities make it the ideal tool for moving from a trading hypothesis to a live execution engine.\n\nIn this guide, we will explore the end-to-end process of mastering algorithmic trading with Python, covering data acquisition, strategy development, backtesting, and risk management.",
+      "scheduled_at": "2026-03-04T00:45:14Z",
       "status": "pending"
     }
   ]
