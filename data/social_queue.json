@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-05T12:45:14Z",
+  "last_scheduled_at": "2026-03-05T13:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -588,6 +588,20 @@
         "payment-processing"
       ],
       "scheduled_at": "2026-03-05T12:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "From Pixels to Packets: Decoding Human Activity Through Wireless Channel State Information",
+      "url": "https://martinuke0.github.io/posts/2026-03-04-from-pixels-to-packets-decoding-human-activity-through-wireless-channel-state-information/",
+      "social_hook": "Imagine a camera that can “see” without lenses, a sensor that captures motion without needing a wearable, and a system that transforms the invisible radio waves around us into a vivid description of human activity. This is precisely what Wireless Channel State Information (CSI) enables. By tapping into the fine‑grained amplitude and phase data of Wi‑Fi, mmWave, or 5G signals, researchers have turned ordinary communication links into powerful, privacy‑preserving motion sensors.\n\n* Walk through a complete end‑to‑end pipeline—from raw CSI packets to a trained activity‑recognition model.\n\n* Discuss real‑world deployments, current challenges, and promising research avenues.",
+      "tags": [
+        "Wireless Sensing",
+        "Channel State Information",
+        "Human Activity Recognition",
+        "Signal Processing",
+        "IoT"
+      ],
+      "scheduled_at": "2026-03-05T13:45:14Z",
       "status": "pending"
     }
   ]
