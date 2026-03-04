@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-05T09:45:14Z",
+  "last_scheduled_at": "2026-03-05T10:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -544,6 +544,21 @@
         "LLM"
       ],
       "scheduled_at": "2026-03-05T09:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "From AI Disruption to Career Renaissance: Becoming the Architect of Tomorrow's Tech Success",
+      "url": "https://martinuke0.github.io/posts/2026-03-04-from-ai-disruption-to-career-renaissance-becoming-the-architect-of-tomorrow/",
+      "social_hook": "Artificial intelligence is not ending tech careers—it's redefining them, shifting value from narrow execution skills to strategic outcome ownership. This transformation demands that professionals evolve from specialists into versatile architects who guide AI tools toward business impact, ensuring long-term relevance in a commoditized landscape.[1][2]\n\nIn the coming years, roles across software development, UX design, data science, and cybersecurity will pivot dramatically. The World Economic Forum predicts AI could displace 85 million jobs by 2026, yet it also forecasts 97 million new ones emerging, driven by AI adoption in 70% of companies by 2030.[1] This isn't a zero-sum game; it's a renaissance. Forward-thinking tech workers who embrace this shift will thrive, commanding premiums like the 56% salary boost for those with AI expertise.[2]\n\nThis post explores the historical patterns of technological disruption, dissects AI's impact on key tech roles, and provides actionable strategies for pivoting to high-value \"outcome owner\" positions. We'll draw parallels to engineering, computer science, and beyond, equipping you with a roadmap to not just survive—but lead—in 2026 and beyond.",
+      "tags": [
+        "AI",
+        "CareerEvolution",
+        "TechJobs",
+        "FutureOfWork",
+        "MachineLearning",
+        "ProfessionalDevelopment"
+      ],
+      "scheduled_at": "2026-03-05T10:45:14Z",
       "status": "pending"
     }
   ]
