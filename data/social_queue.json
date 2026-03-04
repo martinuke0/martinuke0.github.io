@@ -376,7 +376,7 @@
         "Grok"
       ],
       "scheduled_at": "2026-03-04T21:45:14Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "The Internal Mechanics of Kubernetes Networking: A Complete Architectural Guide for Developers",
