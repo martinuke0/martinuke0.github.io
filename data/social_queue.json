@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-05T20:45:14Z",
+  "last_scheduled_at": "2026-03-05T21:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -701,6 +701,20 @@
         "deployment"
       ],
       "scheduled_at": "2026-03-05T20:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building Scalable Real-Time AI Agents Using the MERN Stack and Local LLMs",
+      "url": "https://martinuke0.github.io/posts/2026-03-04-building-scalable-real-time-ai-agents-using-the-mern-stack-and-local-llms/",
+      "social_hook": "Artificial intelligence agents have moved from research prototypes to production‑grade services that power chatbots, recommendation engines, and autonomous decision‑making systems. While cloud‑based LLM APIs (e.g., OpenAI, Anthropic) make it easy to get started, many organizations require local large language models (LLMs) for data privacy, cost control, or latency reasons. Pairing these models with a robust, full‑stack web framework like the MERN stack (MongoDB, Express, React, Node.js) gives developers a familiar, JavaScript‑centric environment to build real‑time, scalable AI agents.\n\nBy the end, you’ll have a blueprint you can adapt to your own product, whether you’re building a collaborative coding assistant, a live‑translation bot, or a personalized tutoring platform.\n\nA local LLM runs on premises (or on a private cloud) rather than being accessed via a third‑party API. Popular open‑source families include:",
+      "tags": [
+        "MERN",
+        "LLM",
+        "Real-Time",
+        "Scalability",
+        "WebSockets"
+      ],
+      "scheduled_at": "2026-03-05T21:45:14Z",
       "status": "pending"
     }
   ]
