@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-05T11:45:14Z",
+  "last_scheduled_at": "2026-03-05T12:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -574,6 +574,20 @@
         "Secure Coding"
       ],
       "scheduled_at": "2026-03-05T11:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Python Microservices for High-Throughput Fintech and Payment Processing Systems",
+      "url": "https://martinuke0.github.io/posts/2026-03-04-optimizing-python-microservices-for-high-throughput-fintech-and-payment-processing-systems/",
+      "social_hook": "Fintech and payment‑processing platforms operate under a unique set of constraints: they must handle millions of transactions per second, guarantee sub‑millisecond latency, and maintain rock‑solid reliability while staying compliant with stringent security standards. In recent years, Python has become a popular language for building the business‑logic layer of these systems because of its rapid development cycle, rich ecosystem, and the ability to integrate seamlessly with data‑science tools.\n\nHowever, Python’s interpreted nature and Global Interpreter Lock (GIL) can become performance roadblocks when the same code is expected to sustain high throughput under heavy load. This is where microservice architecture shines: by decomposing a monolith into small, isolated services, teams can apply targeted optimizations, scale individual components, and adopt the best‑fit runtimes for each workload.\n\nIn this article we will explore how to design, profile, and optimize Python microservices for the demanding world of fintech and payment processing. We’ll cover architectural patterns, low‑level performance tricks, tooling for observability, and real‑world examples that illustrate the trade‑offs between readability, maintainability, and raw speed.",
+      "tags": [
+        "python",
+        "microservices",
+        "fintech",
+        "performance",
+        "payment-processing"
+      ],
+      "scheduled_at": "2026-03-05T12:45:14Z",
       "status": "pending"
     }
   ]
