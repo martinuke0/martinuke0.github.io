@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-05T18:45:14Z",
+  "last_scheduled_at": "2026-03-05T19:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -673,6 +673,20 @@
         "Mathematics"
       ],
       "scheduled_at": "2026-03-05T18:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Algorithmic Trading Zero to Hero with Python for High Frequency Cryptocurrency Markets",
+      "url": "https://martinuke0.github.io/posts/2026-03-04-algorithmic-trading-zero-to-hero-with-python-for-high-frequency-cryptocurrency-markets/",
+      "social_hook": "High‑frequency trading (HFT) has long been the domain of well‑capitalized firms with access to microwave‑grade fiber, co‑located servers, and custom FPGA hardware. Yet the explosion of cryptocurrency markets—24/7 operation, fragmented order books, and generous API access—has lowered the barrier to entry. With the right combination of Python libraries, cloud infrastructure, and disciplined engineering, an individual developer can move from zero knowledge to a heroic trading system capable of executing sub‑second strategies on Bitcoin, Ethereum, and dozens of altcoins.\n\nBy the end, you will have a functional codebase that you can extend, a clear picture of the engineering trade‑offs, and a roadmap for moving from a prototype to a production‑grade bot.\n\n> Note: HFT is risky and capital‑intensive. The strategies described here are educational; always paper‑trade first and never risk more than you can afford to lose.",
+      "tags": [
+        "algorithmic trading",
+        "python",
+        "cryptocurrency",
+        "high‑frequency trading",
+        "quantitative finance"
+      ],
+      "scheduled_at": "2026-03-05T19:45:14Z",
       "status": "pending"
     }
   ]
