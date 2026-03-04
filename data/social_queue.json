@@ -160,7 +160,7 @@
       "url": "https://martinuke0.github.io/posts/2026-03-03-mastering-multi-agent-orchestration-with-langgraph-a-practical-guide-for-production-systems/",
       "social_hook": "The landscape of Artificial Intelligence is shifting from simple, stateless chat interfaces to complex, autonomous agentic workflows. While single-agent systems can handle basic tasks, production-grade applications often require a \"team\" of specialized agents working together. This is where Multi-Agent Orchestration becomes critical.\n\nIn this guide, we will explore how to master multi-agent systems using LangGraph, a library built on top of LangChain designed specifically for building stateful, multi-actor applications with LLMs.\n\nEarly LLM applications relied on simple chains: Input -> Prompt -> LLM -> Output. However, real-world problems are rarely linear. They require loops, conditional logic, and the ability to maintain state over long periods.",
       "scheduled_at": "2026-03-04T03:45:14Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Demystifying CA-AFP: Revolutionizing Federated Learning with Cluster-Aware Adaptive Pruning",
