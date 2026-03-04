@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-05T06:45:14Z",
+  "last_scheduled_at": "2026-03-05T07:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -502,6 +502,20 @@
         "Scalability"
       ],
       "scheduled_at": "2026-03-05T06:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Kubernetes Orchestration Zero to Hero: A Developer Guide to Scalable Container Management",
+      "url": "https://martinuke0.github.io/posts/2026-03-04-kubernetes-orchestration-zero-to-hero-a-developer-guide-to-scalable-container-management/",
+      "social_hook": "Containerization has changed the way modern software is built, shipped, and run. While Docker made it easy to package an application with all its dependencies, the real challenge emerges when thousands of containers need to be orchestrated across a fleet of machines. That is where Kubernetes—the de‑facto standard for container orchestration—steps in.\n\n1. Zero – You’ll start with a clean slate, no prior Kubernetes knowledge required.\n\n2. Hero – You’ll finish with a solid mental model, hands‑on experience, and best‑practice patterns that let you design, deploy, and operate scalable, resilient workloads in production.",
+      "tags": [
+        "Kubernetes",
+        "Containers",
+        "DevOps",
+        "Scalability",
+        "Microservices"
+      ],
+      "scheduled_at": "2026-03-05T07:45:14Z",
       "status": "pending"
     }
   ]
