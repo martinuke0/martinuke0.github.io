@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-05T15:45:14Z",
+  "last_scheduled_at": "2026-03-05T16:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -630,6 +630,20 @@
         "Python"
       ],
       "scheduled_at": "2026-03-05T15:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Apache Kafka Architecture: A Deep Dive Into Distributed Messaging And Real Time Data Pipeline Design",
+      "url": "https://martinuke0.github.io/posts/2026-03-04-mastering-apache-kafka-architecture-a-deep-dive-into-distributed-messaging-and-real-time-data-pipeline-design/",
+      "social_hook": "Apache Kafka has become the de‑facto backbone for modern, event‑driven architectures. From micro‑service communication to large‑scale clickstream analytics, Kafka’s blend of high throughput, durability, and low latency makes it a natural fit for real‑time data pipelines. Yet, achieving the promised reliability and scalability requires more than a superficial “install‑and‑run” approach. You need to understand the underlying architecture, the trade‑offs of each design decision, and how to tune the system for your specific workload.\n\nThis article provides a comprehensive, end‑to‑end exploration of Kafka’s architecture and its role in distributed messaging and real‑time data pipelines. We will:\n\n1. Break down the core components—brokers, topics, partitions, and the replication protocol.",
+      "tags": [
+        "Apache Kafka",
+        "Distributed Systems",
+        "Messaging",
+        "Data Pipelines",
+        "Real-Time Processing"
+      ],
+      "scheduled_at": "2026-03-05T16:45:14Z",
       "status": "pending"
     }
   ]
