@@ -146,7 +146,7 @@
       "url": "https://martinuke0.github.io/posts/2026-03-03-the-rise-of-small-language-models-optimizing-local-inference-for-edge-computing-devices/",
       "social_hook": "For the past few years, the narrative surrounding Artificial Intelligence has been \"bigger is better.\" We witnessed the birth of Large Language Models (LLMs) with hundreds of billions of parameters, requiring massive data centers and cooling systems to function. However, as the initial awe of GPT-4 and its peers settles, a new frontier is emerging: Small Language Models (SLMs).\n\nThe industry is reaching a tipping point where the costs, latency, and privacy concerns associated with cloud-based AI are becoming bottlenecks for real-world applications. From smartphones and laptops to industrial IoT sensors and autonomous vehicles, the demand for \"on-device\" intelligence is skyrocketing. This post explores the technical evolution of SLMs, the optimization techniques making local inference possible, and why the future of AI might just be small.\n\nWhile \"large\" is a relative term, in the current landscape, Small Language Models typically refer to models with 1 billion to 10 billion parameters.",
       "scheduled_at": "2026-03-04T01:45:14Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "The Future of Artificial Intelligence and Large Language Models in Software Engineering",
