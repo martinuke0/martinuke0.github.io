@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-05T13:45:14Z",
+  "last_scheduled_at": "2026-03-05T14:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -602,6 +602,20 @@
         "IoT"
       ],
       "scheduled_at": "2026-03-05T13:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Vector Database Selection and Optimization Strategies for High Performance RAG Systems",
+      "url": "https://martinuke0.github.io/posts/2026-03-04-vector-database-selection-and-optimization-strategies-for-high-performance-rag-systems/",
+      "social_hook": "Retrieval‑augmented generation (RAG) has become a cornerstone of modern large‑language‑model (LLM) applications. By coupling a generative model with a knowledge base of domain‑specific documents, RAG systems can produce factual, up‑to‑date answers while keeping the LLM “lightweight.” At the heart of every RAG pipeline lies a vector database (also called a vector store or similarity search engine). It stores high‑dimensional embeddings of text chunks and enables fast nearest‑neighbor (k‑NN) lookups that feed the LLM with relevant context.\n\nChoosing the right vector database and tuning it for performance is far from trivial. The landscape now includes open‑source projects (Milvus, Qdrant, Weaviate) and managed services (Pinecone, Vespa, Elastic Cloud). Each offers different indexing algorithms, scaling models, and integration points. Moreover, the workload characteristics of RAG—high query concurrency, modest batch sizes, and strict latency budgets (often < 100 ms per retrieval)—push these systems to their limits.\n\nThis article provides a comprehensive, in‑depth guide to selecting a vector database for high‑performance RAG and outlines concrete optimization strategies you can apply today. We’ll cover the theory behind vector search, walk through a comparative analysis of the leading solutions, and demonstrate practical code snippets in Python. Finally, we’ll present a real‑world case study of a production‑grade RAG chatbot, complete with performance numbers and a checklist you can use for your own projects.",
+      "tags": [
+        "vector-database",
+        "RAG",
+        "retrieval-augmented-generation",
+        "LLM",
+        "performance-optimization"
+      ],
+      "scheduled_at": "2026-03-05T14:45:14Z",
       "status": "pending"
     }
   ]
