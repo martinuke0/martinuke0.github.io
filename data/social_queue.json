@@ -174,7 +174,7 @@
       "url": "https://martinuke0.github.io/posts/2026-03-03-advanced-rag-architecture-guide-zero-to-hero-tutorial-for-ai-engineers/",
       "social_hook": "Retrieval-Augmented Generation (RAG) has moved beyond the \"hype\" phase into the \"utility\" phase of the AI lifecycle. While basic RAG setups—connecting a PDF to an LLM via a vector database—are easy to build, they often fail in production due to hallucinations, poor retrieval quality, and lack of domain-specific context.\n\nTo build production-grade AI applications, engineers must move from \"Naive RAG\" to \"Advanced RAG.\" This guide covers the architectural patterns, optimization techniques, and evaluation frameworks required to go from zero to hero.\n\nNaive RAG follows a linear path: Load -> Chunk -> Embed -> Index -> Retrieve -> Generate.",
       "scheduled_at": "2026-03-04T05:45:14Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Mastering CLAUDE.md: Your AI Coding Assistant's Persistent Brain for Smarter Development Workflows",
