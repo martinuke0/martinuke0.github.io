@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-05T22:45:14Z",
+  "last_scheduled_at": "2026-03-05T23:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -729,6 +729,20 @@
         "Pinecone"
       ],
       "scheduled_at": "2026-03-05T22:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Moving Beyond Prompting: Building Reliable Autonomous Agents with the New Open-Action Protocol",
+      "url": "https://martinuke0.github.io/posts/2026-03-04-moving-beyond-prompting-building-reliable-autonomous-agents-with-the-new-open-action-protocol/",
+      "social_hook": "The rapid evolution of large language models (LLMs) has turned prompt engineering into a mainstream practice. Early‑stage developers often treat an LLM as a sophisticated autocomplete engine: feed it a carefully crafted prompt, receive a text response, and then act on that output. While this “prompt‑then‑act” loop works for simple question‑answering or single‑turn tasks, it quickly breaks down when we ask an LLM to operate autonomously—to plan, execute, and adapt over many interaction cycles without human supervision.\n\nEnter the Open-Action Protocol (OAP), an emerging open standard that formalizes the contract between an LLM and external tools, services, and data stores. OAP gives LLMs a structured, verifiable way to declare an intended action, receive its result, and reason about outcomes. In effect, it transforms a “prompt‑only” interface into a bidirectional, programmable API that can be safely embedded in production‑grade autonomous agents.\n\nThis article walks you through the entire lifecycle of building reliable autonomous agents with OAP:",
+      "tags": [
+        "AI agents",
+        "Open-Action",
+        "prompt engineering",
+        "autonomous systems",
+        "LLM integration"
+      ],
+      "scheduled_at": "2026-03-05T23:45:14Z",
       "status": "pending"
     }
   ]
