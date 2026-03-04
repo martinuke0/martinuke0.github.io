@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-05T07:45:14Z",
+  "last_scheduled_at": "2026-03-05T08:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -516,6 +516,20 @@
         "Microservices"
       ],
       "scheduled_at": "2026-03-05T07:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Understanding Distributed Consensus Algorithms: A Deep Dive Into Paxos and Raft Architecture",
+      "url": "https://martinuke0.github.io/posts/2026-03-04-understanding-distributed-consensus-algorithms-a-deep-dive-into-paxos-and-raft-architecture/",
+      "social_hook": "In the world of modern computing, data is rarely stored on a single machine. Cloud services, micro‑service architectures, and globally replicated databases all rely on distributed systems—clusters of nodes that cooperate to provide fault‑tolerant, highly available services. At the heart of this cooperation lies a fundamental problem: how can a set of unreliable machines agree on a single value despite network failures, crashes, and message reordering? This is known as the distributed consensus problem.\n\nTwo algorithms dominate the academic and industry conversation around solving consensus: Paxos, introduced by Leslie Lamport in 1990, and Raft, a more recent design that emphasizes understandability without sacrificing correctness. Both algorithms guarantee that a group of nodes (often called a cluster or replica set) will converge on the same sequence of operations, even in the face of failures. Yet they differ dramatically in presentation, complexity, and practical adoption.\n\n* Walk through the core mechanics of Paxos and Raft, complete with code snippets.",
+      "tags": [
+        "distributed systems",
+        "consensus",
+        "paxos",
+        "raft",
+        "architecture"
+      ],
+      "scheduled_at": "2026-03-05T08:45:14Z",
       "status": "pending"
     }
   ]
