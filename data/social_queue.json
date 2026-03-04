@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-05T08:45:14Z",
+  "last_scheduled_at": "2026-03-05T09:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -530,6 +530,20 @@
         "architecture"
       ],
       "scheduled_at": "2026-03-05T08:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Distributed GPU Workloads for Large Language Models on Amazon EKS",
+      "url": "https://martinuke0.github.io/posts/2026-03-04-optimizing-distributed-gpu-workloads-for-large-language-models-on-amazon-eks/",
+      "social_hook": "Large Language Models (LLMs) such as GPT‑4, LLaMA, and BLOOM have transformed natural‑language processing, but training and serving them at scale demands massive GPU resources, high‑speed networking, and sophisticated orchestration. Amazon Elastic Kubernetes Service (EKS) provides a managed, production‑grade Kubernetes platform that can run distributed GPU workloads, while integrating tightly with AWS services for security, observability, and cost management.\n\nThis article walks you through end‑to‑end optimization of distributed GPU workloads for LLMs on Amazon EKS. We’ll cover:\n\n* Deploying NVIDIA’s GPU Operator and configuring Kubernetes for high‑performance inter‑node communication.",
+      "tags": [
+        "AWS",
+        "EKS",
+        "GPU",
+        "Distributed Computing",
+        "LLM"
+      ],
+      "scheduled_at": "2026-03-05T09:45:14Z",
       "status": "pending"
     }
   ]
