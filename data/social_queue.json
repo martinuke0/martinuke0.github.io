@@ -195,7 +195,7 @@
       "url": "https://martinuke0.github.io/posts/2026-03-03-docker-zero-to-hero-a-comprehensive-guide-to-containerization-and-microservices-deployment/",
       "social_hook": "In the early days of software deployment, the mantra was \"it works on my machine.\" Developers would spend weeks building an application, only for it to fail in production due to subtle differences in operating system versions, library dependencies, or environment configurations. This friction between development and operations led to the birth of the DevOps movement and the rise of containerization.\n\nAt the heart of this revolution is Docker. Docker has transformed how we build, ship, and run applications by providing a consistent environment across the entire software development lifecycle (SDLC). Whether you are a solo developer or part of a massive enterprise, understanding Docker is no longer an optional skill—it is a fundamental requirement for modern software engineering.\n\nIn this guide, we will journey from the absolute basics of containerization to the complexities of deploying microservices at scale.",
       "scheduled_at": "2026-03-04T08:45:14Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Breaking the Factorization Barrier: How Coupled Discrete Diffusion (CoDD) Revolutionizes AI Text Generation",
