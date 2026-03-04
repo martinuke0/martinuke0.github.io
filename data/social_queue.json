@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-05T17:45:14Z",
+  "last_scheduled_at": "2026-03-05T18:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -658,6 +658,21 @@
         "Scaling"
       ],
       "scheduled_at": "2026-03-05T17:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "SorryDB: Testing if AI Can Tackle Real Math Proofs – A Breakthrough for Formal Verification",
+      "url": "https://martinuke0.github.io/posts/2026-03-04-sorrydb-testing-if-ai-can-tackle-real-math-proofs-a-breakthrough-for-formal-verification/",
+      "social_hook": "Imagine you're a mathematician knee-deep in a complex proof, but you hit a wall. Instead of giving up, you jot down a placeholder—\"sorry, I'll finish this later\"—and move on. Now, picture AI stepping in to fill those gaps automatically. That's the promise of SorryDB, a groundbreaking benchmark introduced in the paper \"SorryDB: Can AI Provers Complete Real-World Lean Theorems?\" (arXiv:2603.02668). This isn't some abstract academic exercise; it's a practical testbed pulling \"sorry\" statements from 78 real GitHub projects, challenging AI to prove theorems that actual mathematicians are working on.\n\nIn this post, we'll break down the paper's key ideas for a general technical audience—no PhD required. We'll explore what Lean is, why \"sorry\" matters, how SorryDB works, and what the experiments reveal about AI's proving prowess. Along the way, real-world analogies, practical examples, and insights into why this research could reshape AI, math, and software engineering. By the end, you'll see why SorryDB isn't just a benchmark—it's a roadmap for trustworthy AI.\n\nTo grasp SorryDB, you first need to understand Lean, an open-source programming language and proof assistant. Lean lets you write math proofs in code that a computer can verify step-by-step, down to the axioms. It's like having a super-strict compiler for mathematics: every claim must be logically airtight, or it fails.[6]",
+      "tags": [
+        "AI",
+        "Theorem Proving",
+        "Lean",
+        "Formal Verification",
+        "Machine Learning",
+        "Mathematics"
+      ],
+      "scheduled_at": "2026-03-05T18:45:14Z",
       "status": "pending"
     }
   ]
