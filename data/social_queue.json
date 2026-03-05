@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-05T23:45:14Z",
+  "last_scheduled_at": "2026-03-06T00:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -743,6 +743,20 @@
         "LLM integration"
       ],
       "scheduled_at": "2026-03-05T23:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Context Compaction: Building Unbounded AI Agents for Real-World Tasks",
+      "url": "https://martinuke0.github.io/posts/2026-03-05-mastering-context-compaction-building-unbounded-ai-agents-for-real-world-tasks/",
+      "social_hook": "title: \"Mastering Context Compaction: Building Unbounded AI Agents for Real-World Tasks\"\n\ntags: [\"AI Agents\", \"Context Management\", \"OpenAI API\", \"Long-Running Workflows\", \"Compaction Techniques\"]\n\nIn the evolving landscape of AI development, one of the most persistent challenges is managing context windows—the finite memory span that limits how much conversation history a model can process. As AI agents tackle increasingly complex, multi-hour tasks like code refactoring, data analysis, or automated research, conversation histories balloon, hitting token limits and causing failures. Enter context compaction, a breakthrough technique that automatically compresses long-running conversations while preserving critical semantic meaning. This isn't just a band-aid; it's a foundational primitive for building production-grade, unbounded AI agents.[1][2]",
+      "tags": [
+        "AI Agents",
+        "Context Management",
+        "OpenAI API",
+        "Long-Running Workflows",
+        "Compaction Techniques"
+      ],
+      "scheduled_at": "2026-03-06T00:45:14Z",
       "status": "pending"
     }
   ]
