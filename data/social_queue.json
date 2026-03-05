@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-06T05:45:14Z",
+  "last_scheduled_at": "2026-03-06T06:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -827,6 +827,20 @@
         "AI"
       ],
       "scheduled_at": "2026-03-06T05:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Distributed Task Queues: Architectures, Scalability, and Performance Optimization in Modern Backend Systems",
+      "url": "https://martinuke0.github.io/posts/2026-03-05-distributed-task-queues-architectures-scalability-and-performance-optimization-in-modern-backend-systems/",
+      "social_hook": "Modern backend systems are expected to handle massive, bursty traffic while maintaining low latency and high reliability. One of the most effective ways to decouple work, smooth out spikes, and guarantee eventual consistency is through distributed task queues. Whether you are processing image thumbnails, sending transactional emails, or orchestrating complex data pipelines, a well‑designed queueing layer can be the difference between a graceful scale‑out and a catastrophic failure.\n\nIn this article we dive deep into the architectural choices, scalability patterns, and performance optimizations that power today’s production‑grade task queues. We will explore broker‑centric, peer‑to‑peer, and hybrid designs, then move on to concrete techniques for scaling workers, sharding queues, and reducing latency. Throughout, we provide real‑world code snippets (Python, Node.js, Go) and reference deployments that illustrate how theory translates into practice.\n\n> Note: While the concepts apply across languages and runtimes, the examples focus on three widely‑adopted open‑source stacks: Celery (Python) with RabbitMQ, BullMQ (Node.js) with Redis, and Asynq (Go) with Redis. The patterns, however, are transferable to cloud‑native services such as AWS SQS, Google Cloud Tasks, or Azure Service Bus.",
+      "tags": [
+        "distributed systems",
+        "task queue",
+        "scalability",
+        "performance",
+        "backend"
+      ],
+      "scheduled_at": "2026-03-06T06:45:14Z",
       "status": "pending"
     }
   ]
