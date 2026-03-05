@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-06T13:45:14Z",
+  "last_scheduled_at": "2026-03-06T14:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -940,6 +940,20 @@
         "performance"
       ],
       "scheduled_at": "2026-03-06T13:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Autonomous Agents: Bridging the Gap Between Microservices and Action-Oriented AI Workflows",
+      "url": "https://martinuke0.github.io/posts/2026-03-05-architecting-autonomous-agents-bridging-the-gap-between-microservices-and-action-oriented-ai-workflows/",
+      "social_hook": "1. Microservice‑centric architectures that decompose business capabilities into independently deployable services, each exposing a well‑defined API.\n\n2. Action‑oriented AI—large language models (LLMs), reinforcement‑learning agents, and tool‑using bots—that can reason, plan, and execute tasks autonomously.\n\nIndividually, each paradigm solves a critical set of problems. Microservices give us scalability, resilience, and clear ownership boundaries. Action‑oriented AI gives us the ability to interpret natural language, make decisions, and orchestrate complex, multi‑step procedures without hard‑coded logic.",
+      "tags": [
+        "microservices",
+        "autonomous-agents",
+        "AI-workflows",
+        "system-design",
+        "observability"
+      ],
+      "scheduled_at": "2026-03-06T14:45:14Z",
       "status": "pending"
     }
   ]
