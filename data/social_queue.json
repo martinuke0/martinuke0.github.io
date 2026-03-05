@@ -616,7 +616,7 @@
         "performance-optimization"
       ],
       "scheduled_at": "2026-03-05T14:45:14Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Building Autonomous Agent Loops With LangChain and OpenAI Function Calling A Practical Tutorial",
@@ -630,7 +630,7 @@
         "Python"
       ],
       "scheduled_at": "2026-03-05T15:45:14Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Mastering Apache Kafka Architecture: A Deep Dive Into Distributed Messaging And Real Time Data Pipeline Design",
