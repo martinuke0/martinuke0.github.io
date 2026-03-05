@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-06T17:45:14Z",
+  "last_scheduled_at": "2026-03-06T18:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -997,6 +997,20 @@
         "Robotics"
       ],
       "scheduled_at": "2026-03-06T17:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Inference Latency in Distributed LLM Deployments Using Speculative Decoding and Hardware Acceleration",
+      "url": "https://martinuke0.github.io/posts/2026-03-05-optimizing-inference-latency-in-distributed-llm-deployments-using-speculative-decoding-and-hardware-acceleration/",
+      "social_hook": "Large language models (LLMs) have moved from research curiosities to production‑grade services that power chatbots, code assistants, search augmentation, and countless other applications. As model sizes climb into the hundreds of billions of parameters, the computational cost of generating each token becomes a primary bottleneck. In latency‑sensitive settings—interactive chat, real‑time recommendation, or edge inference—every millisecond counts.\n\n1. Speculative decoding, which uses a fast “draft” model to propose multiple tokens in parallel and then validates them with the target (larger) model.\n\n2. Hardware acceleration, which leverages specialized processors (GPUs, TPUs, FPGAs, ASICs) and low‑level libraries to execute the underlying matrix multiplications and attention kernels more efficiently.",
+      "tags": [
+        "LLM",
+        "Distributed Systems",
+        "Speculative Decoding",
+        "Hardware Acceleration",
+        "Inference Optimization"
+      ],
+      "scheduled_at": "2026-03-06T18:45:14Z",
       "status": "pending"
     }
   ]
