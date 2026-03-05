@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-06T15:45:14Z",
+  "last_scheduled_at": "2026-03-06T16:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -968,6 +968,20 @@
         "fault-tolerance"
       ],
       "scheduled_at": "2026-03-06T15:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Beyond the LLM: Debugging Distributed Logical Reasoning in High-Latency Edge Compute Grids",
+      "url": "https://martinuke0.github.io/posts/2026-03-05-beyond-the-llm-debugging-distributed-logical-reasoning-in-high-latency-edge-compute-grids/",
+      "social_hook": "Large language models (LLMs) have become the de‑facto interface for natural‑language‑driven reasoning, but the moment you push inference out to the edge—think autonomous drones, remote IoT gateways, or 5G‑enabled micro‑datacenters—the assumptions that made debugging simple in a single‑node, low‑latency environment crumble.\n\nIn a high‑latency edge compute grid, logical reasoning is no longer a monolithic function call. It is a distributed choreography of:\n\n Network transports** that can introduce seconds of jitter or even minutes of outage",
+      "tags": [
+        "LLM",
+        "Edge Computing",
+        "Distributed Systems",
+        "Debugging",
+        "Logical Reasoning"
+      ],
+      "scheduled_at": "2026-03-06T16:45:14Z",
       "status": "pending"
     }
   ]
