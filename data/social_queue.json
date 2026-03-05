@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-06T16:45:14Z",
+  "last_scheduled_at": "2026-03-06T17:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -982,6 +982,21 @@
         "Logical Reasoning"
       ],
       "scheduled_at": "2026-03-06T16:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Decoding TPK: Making AI Trajectory Prediction Trustworthy for Safer Autonomous Driving",
+      "url": "https://martinuke0.github.io/posts/2026-03-05-decoding-tpk-making-ai-trajectory-prediction-trustworthy-for-safer-autonomous-driving/",
+      "social_hook": "Imagine you're driving on a busy city street. A pedestrian steps off the curb, a cyclist weaves through traffic, and cars merge unpredictably. Your self-driving car needs to predict where everyone will go next—not just accurately, but in a way that makes sense to humans and obeys the laws of physics. That's the core challenge tackled by the research paper \"TPK: Trustworthy Trajectory Prediction Integrating Prior Knowledge For Interpretability and Kinematic Feasibility\" (arXiv:2505.06743v4).[1][2]\n\nCurrent AI models for trajectory prediction—guessing future paths of road users—often spit out predictions that are either physically impossible (like a car instantly teleporting) or just plain weird to human eyes. The TPK framework changes that by blending deep learning with human-like prior knowledge about how vehicles, pedestrians, and cyclists interact and move. It's like giving the AI a driver's manual plus physics textbooks, making predictions not only smarter but trustworthy.[1][3]\n\nIn this in-depth blog post, we'll break down the paper for a general technical audience—no PhD required. We'll use real-world analogies, dive into the methods, explore results, and discuss why this matters for the future of autonomous vehicles. By the end, you'll grasp how TPK bridges the gap between black-box AI and reliable real-world deployment.",
+      "tags": [
+        "AI",
+        "Autonomous Driving",
+        "Trajectory Prediction",
+        "Machine Learning",
+        "Interpretability",
+        "Robotics"
+      ],
+      "scheduled_at": "2026-03-06T17:45:14Z",
       "status": "pending"
     }
   ]
