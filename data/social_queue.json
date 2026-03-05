@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-06T19:45:14Z",
+  "last_scheduled_at": "2026-03-06T20:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -1025,6 +1025,21 @@
         "Web3"
       ],
       "scheduled_at": "2026-03-06T19:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Demystifying Zono-Conformal Prediction: Smarter AI Uncertainty with Zonotopes Explained",
+      "url": "https://martinuke0.github.io/posts/2026-03-05-demystifying-zono-conformal-prediction-smarter-ai-uncertainty-with-zonotopes-explained/",
+      "social_hook": "Imagine you're driving a self-driving car on a foggy highway. Your AI system predicts the road ahead, but how do you know if it's confident? Traditional AI spits out a single number—like \"the car in front is 50 meters away\"—but what if it's wrong? Zono-conformal prediction, from a groundbreaking new paper, upgrades this to a range of possibilities, like saying \"the car is between 45-55 meters, with a 95% guarantee it's correct.\" This isn't just safer; it's revolutionizing how AI handles uncertainty in real-world tasks from medical diagnosis to stock trading.[1]\n\nIn this in-depth guide, we'll break down the research paper \"Zono-Conformal Prediction: Zonotope-Based Uncertainty Quantification for Regression and Classification Tasks\" (arXiv:2508.11025) for a general technical audience. No PhD required—we'll use everyday analogies, practical examples, and clear visuals to make complex math digestible. By the end, you'll grasp why this matters, how it works, and what it could unlock next in AI.[1]\n\nAI models, especially neural networks, are black boxes trained on data to predict outcomes. In regression (predicting continuous values like house prices), they output a point estimate. In classification (categorizing like \"cat or dog?\"), they pick the top class. But real life is messy—data has noise, models overfit, and edge cases abound.",
+      "tags": [
+        "AI",
+        "Machine Learning",
+        "Uncertainty Quantification",
+        "Conformal Prediction",
+        "Zonotopes",
+        "Neural Networks"
+      ],
+      "scheduled_at": "2026-03-06T20:45:14Z",
       "status": "pending"
     }
   ]
