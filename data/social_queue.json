@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-06T10:45:14Z",
+  "last_scheduled_at": "2026-03-06T11:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -897,6 +897,21 @@
         "creative tools"
       ],
       "scheduled_at": "2026-03-06T10:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Unlocking Infinite Creativity: Building Real-Time AI Music Apps with Gemini's Lyria RealTime",
+      "url": "https://martinuke0.github.io/posts/2026-03-05-unlocking-infinite-creativity-building-real-time-ai-music-apps-with-gemini/",
+      "social_hook": "Imagine a world where musicians, developers, and creators can jam in real-time with an AI that responds instantly to their cues, generating endless streams of music tailored on the fly. This isn't science fiction—it's the reality powered by Google's Lyria RealTime through the Gemini API. Unlike traditional AI music tools that spit out fixed 30-second clips, Lyria RealTime enables persistent, interactive music generation via low-latency WebSocket connections, opening doors to dynamic apps like live performance tools, collaborative jam sessions, and adaptive soundtracks.[2]\n\nIn this comprehensive guide, we'll dive deep into the technology behind Lyria RealTime, explore its architecture, walk through practical code examples in Python and JavaScript, and connect it to broader trends in generative AI, real-time systems, and music engineering. Whether you're a developer eyeing the next killer app or a musician curious about AI augmentation, this post equips you with the knowledge to harness this experimental powerhouse. We'll cover everything from setup to advanced controls, real-world use cases, and ethical considerations—aiming for over 2,500 words of actionable insights.\n\nAI music generation has exploded in recent years, evolving from simple MIDI patterns to sophisticated models like Lyria 3, which crafts full tracks with vocals, lyrics, and cover art from text or image prompts.[5][7] Tools in the Gemini app let users generate 30-second hits effortlessly—think \"a comical R&B slow jam about a sock finding its match\"—complete with SynthID watermarks for provenance.[5] But these are one-shot creations: prompt in, track out.",
+      "tags": [
+        "AI Music Generation",
+        "Gemini API",
+        "Lyria RealTime",
+        "WebSocket Streaming",
+        "Generative AI",
+        "Music Tech"
+      ],
+      "scheduled_at": "2026-03-06T11:45:14Z",
       "status": "pending"
     }
   ]
