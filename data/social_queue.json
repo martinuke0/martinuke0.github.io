@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-06T06:45:14Z",
+  "last_scheduled_at": "2026-03-06T07:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -841,6 +841,20 @@
         "backend"
       ],
       "scheduled_at": "2026-03-06T06:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Beyond LLMs: Mastering Real-Time World Models with the Open Neural Interface Standard",
+      "url": "https://martinuke0.github.io/posts/2026-03-05-beyond-llms-mastering-real-time-world-models-with-the-open-neural-interface-standard/",
+      "social_hook": "The past few years have witnessed an explosion of capability in large language models (LLMs). From chat assistants that can draft essays to code generators that can scaffold entire applications, LLMs have become the de‑facto workhorse for many AI‑driven products. Yet, when we transition from textual generation to real‑time interaction with the physical world, LLMs start to hit fundamental limits:\n\n Temporal awareness** – LLMs ingest static token sequences and cannot natively predict how the world evolves second‑by‑second.\n\n Sensor grounding** – Raw modalities such as LiDAR, radar, or proprioceptive signals are usually pre‑processed outside the model, breaking the end‑to‑end loop.",
+      "tags": [
+        "LLM",
+        "World Models",
+        "Open Neural Interface",
+        "Real-Time AI",
+        "Neuroscience"
+      ],
+      "scheduled_at": "2026-03-06T07:45:14Z",
       "status": "pending"
     }
   ]
