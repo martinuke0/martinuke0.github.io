@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-06T08:45:14Z",
+  "last_scheduled_at": "2026-03-06T09:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -869,6 +869,20 @@
         "AI"
       ],
       "scheduled_at": "2026-03-06T08:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Scaling High‑Frequency Trading Systems Using Kubernetes and Distributed Python Frameworks",
+      "url": "https://martinuke0.github.io/posts/2026-03-05-scaling-highfrequency-trading-systems-using-kubernetes-and-distributed-python-frameworks/",
+      "social_hook": "High‑frequency trading (HFT) thrives on the ability to process market data, make decisions, and execute orders in microseconds. Historically, firms built monolithic, bare‑metal systems tuned to the lowest possible latency. In the past five years, however, the rise of cloud‑native technologies, especially Kubernetes, and distributed Python runtimes such as Ray and Dask have opened a new frontier: elastic, fault‑tolerant, and developer‑friendly HFT platforms.\n\nThis article walks you through the technical reasoning, architectural patterns, and concrete implementation steps needed to scale an HFT system using Kubernetes and distributed Python frameworks. We will cover the unique latency constraints of HFT, debunk common myths about containers, dive into the specifics of low‑latency Python, and finish with a production‑grade example that you can adapt to your own trading strategies.\n\n> Note: While Python is not traditionally the language of choice for ultra‑low‑latency code (C++ dominates), modern Python runtimes combined with just‑in‑time (JIT) compilation, native extensions, and efficient networking can achieve sub‑millisecond latencies for many strategies, especially those that are statistical or machine‑learning driven.",
+      "tags": [
+        "high-frequency-trading",
+        "kubernetes",
+        "distributed-systems",
+        "python",
+        "performance"
+      ],
+      "scheduled_at": "2026-03-06T09:45:14Z",
       "status": "pending"
     }
   ]
