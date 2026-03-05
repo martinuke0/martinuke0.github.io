@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-06T04:45:14Z",
+  "last_scheduled_at": "2026-03-06T05:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -813,6 +813,20 @@
         "backend"
       ],
       "scheduled_at": "2026-03-06T04:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Fine-Tuning Large Language Models: A Comprehensive Guide to Parameter-Efficient Optimization Techniques",
+      "url": "https://martinuke0.github.io/posts/2026-03-05-fine-tuning-large-language-models-a-comprehensive-guide-to-parameter-efficient-optimization-techniques/",
+      "social_hook": "Large language models (LLMs) such as GPT‑4, LLaMA, and PaLM have demonstrated remarkable capabilities across a wide range of natural‑language tasks. Their raw performance, however, is often a starting point rather than a finished product. Real‑world applications typically require fine‑tuning—adapting a pre‑trained model to a specific domain, style, or task. Traditional fine‑tuning updates every parameter in the model, which can be prohibitively expensive in terms of compute, memory, and storage, especially when dealing with models that contain billions of weights.\n\nParameter‑efficient fine‑tuning (PEFT) addresses this challenge by updating only a small, carefully chosen subset of parameters (or adding lightweight modules) while keeping the bulk of the model frozen. This approach reduces training cost, speeds up experimentation, and enables on‑device adaptation. In this guide we will:\n\n1. Explain the motivation behind PEFT and the trade‑offs compared to full fine‑tuning.",
+      "tags": [
+        "LLM",
+        "Fine-Tuning",
+        "Parameter-Efficient",
+        "Machine Learning",
+        "AI"
+      ],
+      "scheduled_at": "2026-03-06T05:45:14Z",
       "status": "pending"
     }
   ]
