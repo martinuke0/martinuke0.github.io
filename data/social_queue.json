@@ -446,7 +446,7 @@
         "distributed AI"
       ],
       "scheduled_at": "2026-03-05T02:45:14Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Why Persistent Context Beats On-Demand Skills: Revolutionizing AI Coding Agents",
@@ -460,7 +460,7 @@
         "LLM Context"
       ],
       "scheduled_at": "2026-03-05T03:45:14Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Mastering Redis Pub Sub for Real Time Distributed Systems A Comprehensive Technical Deep Dive",
