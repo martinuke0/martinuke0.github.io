@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-06T11:45:14Z",
+  "last_scheduled_at": "2026-03-06T12:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -912,6 +912,20 @@
         "Music Tech"
       ],
       "scheduled_at": "2026-03-06T11:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Local Inference: A Guide to the New WebGPU-P2P Standards for Decentralized AI",
+      "url": "https://martinuke0.github.io/posts/2026-03-05-optimizing-local-inference-a-guide-to-the-new-webgpu-p2p-standards-for-decentralized-ai/",
+      "social_hook": "Artificial intelligence has long been dominated by centralized cloud services. Large language models, computer‑vision pipelines, and recommendation engines typically run on powerful data‑center GPUs, while end‑users simply send requests and receive predictions. This architecture brings latency, privacy, and bandwidth challenges—especially for applications that need instantaneous responses or operate in offline environments.\n\nEnter decentralized AI: a paradigm where inference happens locally, on the device that captures the data, and where multiple devices can collaborate to share compute resources. The WebGPU‑P2P standards, released in early 2025, extend the WebGPU API with peer‑to‑peer (P2P) primitives that make it possible for browsers, native apps, and edge devices to exchange GPU buffers directly without routing through a server.\n\nThis article provides a comprehensive, step‑by‑step guide to optimizing local inference with the new WebGPU‑P2P standards. We’ll cover the underlying concepts, walk through a practical example (running a TinyML image classifier across three browsers), and discuss performance‑tuning, security, and real‑world deployment scenarios.",
+      "tags": [
+        "WebGPU",
+        "Decentralized AI",
+        "Local Inference",
+        "P2P Standards",
+        "Performance Optimization"
+      ],
+      "scheduled_at": "2026-03-06T12:45:14Z",
       "status": "pending"
     }
   ]
