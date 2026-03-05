@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-06T00:45:14Z",
+  "last_scheduled_at": "2026-03-06T01:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -757,6 +757,20 @@
         "Compaction Techniques"
       ],
       "scheduled_at": "2026-03-06T00:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Lessons from the Operating Room: How Surgical Principles Can Transform Your AI Debugging Practice",
+      "url": "https://martinuke0.github.io/posts/2026-03-05-lessons-from-the-operating-room-how-surgical-principles-can-transform-your-ai-debugging-practice/",
+      "social_hook": "When you think about debugging AI systems, the last profession that comes to mind is probably surgery. Yet there's a compelling parallel that forward-thinking engineers are beginning to recognize: both disciplines involve high-stakes problem-solving in complex systems where mistakes can have serious consequences. The difference is that surgeons have spent over 150 years refining their approach to systematic improvement, standardization, and error prevention—lessons that the software engineering community is only now beginning to embrace.\n\nThe intersection of surgical methodology and software development might seem unlikely, but it reveals something profound about how we approach problem-solving across different domains. When an AI system produces unexpected outputs, crashes, or behaves erratically, developers often resort to the same trial-and-error approaches that surgeons abandoned decades ago. This article explores how adopting surgical principles—particularly around diagnosis, standardization, and continuous improvement—can fundamentally transform the way you debug AI systems and build more resilient software.\n\nThe parallels between modern surgery and contemporary software development are striking, though they're rarely discussed in the same conversation. Both fields deal with:",
+      "tags": [
+        "AI debugging",
+        "software engineering",
+        "surgical principles",
+        "code quality",
+        "best practices"
+      ],
+      "scheduled_at": "2026-03-06T01:45:14Z",
       "status": "pending"
     }
   ]
