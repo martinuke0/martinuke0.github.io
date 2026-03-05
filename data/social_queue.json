@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-06T12:45:14Z",
+  "last_scheduled_at": "2026-03-06T13:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -926,6 +926,20 @@
         "Performance Optimization"
       ],
       "scheduled_at": "2026-03-06T12:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Vector Databases from Zero to Hero Engineering High Performance Search for Large Language Models",
+      "url": "https://martinuke0.github.io/posts/2026-03-05-vector-databases-from-zero-to-hero-engineering-high-performance-search-for-large-language-models/",
+      "social_hook": "The rapid rise of large language models (LLMs)—GPT‑4, Claude, Llama 2, and their open‑source cousins—has shifted the bottleneck from model inference to information retrieval. When a model needs to answer a question, summarize a document, or generate code, it often benefits from grounding its output in external knowledge. This is where vector databases (or vector search engines) come into play: they store high‑dimensional embeddings and provide approximate nearest‑neighbor (ANN) search that can retrieve the most relevant pieces of information in milliseconds.\n\n1. Fundamentals – What vectors are, why embeddings matter, and how ANN differs from exact search.\n\n2. Core architecture – Index structures, storage layouts, and the engineering trade‑offs that affect latency, throughput, and accuracy.",
+      "tags": [
+        "vector-database",
+        "large-language-models",
+        "search",
+        "engineering",
+        "performance"
+      ],
+      "scheduled_at": "2026-03-06T13:45:14Z",
       "status": "pending"
     }
   ]
