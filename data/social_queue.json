@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-06T20:45:14Z",
+  "last_scheduled_at": "2026-03-06T21:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -1040,6 +1040,21 @@
         "Neural Networks"
       ],
       "scheduled_at": "2026-03-06T20:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Demystifying Reward Functions: How AI Learns to Drive Safely – A Plain-English Breakdown of Cutting-Edge Research",
+      "url": "https://martinuke0.github.io/posts/2026-03-05-demystifying-reward-functions-how-ai-learns-to-drive-safely-a-plain-english-breakdown-of-cutting-edge-research/",
+      "social_hook": "Imagine teaching a child to drive a car. You wouldn't just say, \"Get to the grocery store,\" and leave it at that. You'd constantly guide them: \"Slow down at the yellow light! Keep a safe distance from that truck! Don't weave through traffic!\" In the world of artificial intelligence, reinforcement learning (RL) works much the same way—but instead of verbal instructions, an AI agent relies on a reward function. This \"scorekeeper\" dishes out points for good behavior and penalties for mistakes, shaping the AI into a skilled driver over millions of simulated miles.\n\nThe research paper \"A Review of Reward Functions for Reinforcement Learning in the Context of Autonomous Driving\" (arXiv:2405.01440) dives deep into this critical challenge[1]. Accepted at the prestigious 35th IEEE Intelligent Vehicles Symposium (IV 2024), it reviews dozens of reward designs from the literature, categorizes them, exposes their flaws, and charts a path forward. For anyone curious about self-driving cars, AI ethics, or the nuts-and-bolts of machine learning, this paper is gold. But it's dense academic prose. In this post, we'll unpack it step-by-step with real-world analogies, practical examples, and no jargon overload—making it perfect for developers, tech enthusiasts, and future-focused thinkers.\n\nWhy does this matter? Self-driving tech promises to slash road deaths (over 1.3 million annually worldwide), cut emissions, and free up our commutes. Yet, RL-trained cars have faltered in tests due to poorly designed rewards—prioritizing speed over safety, or comfort over rules. This review spotlights those gaps, potentially accelerating safer AVs on our roads[1].",
+      "tags": [
+        "Reinforcement Learning",
+        "Autonomous Driving",
+        "AI Research",
+        "Reward Functions",
+        "Self-Driving Cars",
+        "Machine Learning"
+      ],
+      "scheduled_at": "2026-03-06T21:45:14Z",
       "status": "pending"
     }
   ]
