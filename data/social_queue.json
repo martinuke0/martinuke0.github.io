@@ -488,7 +488,7 @@
         "Developer Tools"
       ],
       "scheduled_at": "2026-03-05T05:45:14Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Building Scalable Event-Driven Architectures with Apache Kafka and Advanced Microservices Patterns",
@@ -502,7 +502,7 @@
         "Scalability"
       ],
       "scheduled_at": "2026-03-05T06:45:14Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Kubernetes Orchestration Zero to Hero: A Developer Guide to Scalable Container Management",
@@ -516,7 +516,7 @@
         "Microservices"
       ],
       "scheduled_at": "2026-03-05T07:45:14Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Understanding Distributed Consensus Algorithms: A Deep Dive Into Paxos and Raft Architecture",
