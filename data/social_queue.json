@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-06T14:45:14Z",
+  "last_scheduled_at": "2026-03-06T15:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -954,6 +954,20 @@
         "observability"
       ],
       "scheduled_at": "2026-03-06T14:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Microservices Communication Patterns for High Throughput and Fault Tolerant Distributed Systems",
+      "url": "https://martinuke0.github.io/posts/2026-03-05-microservices-communication-patterns-for-high-throughput-and-fault-tolerant-distributed-systems/",
+      "social_hook": "Modern applications are increasingly built as collections of loosely coupled services—microservices—that communicate over a network. While this architecture brings flexibility, scalability, and independent deployment, it also introduces new challenges: network latency, partial failures, data consistency, and the need to process massive request volumes without degrading user experience.\n\nChoosing the right communication pattern is therefore a critical architectural decision. The pattern must support high throughput (the ability to handle a large number of messages per second) and fault tolerance (graceful handling of failures without cascading outages). In this article we will:\n\n* Provide practical code snippets in Go and Java that illustrate real‑world implementations.",
+      "tags": [
+        "microservices",
+        "communication",
+        "distributed-systems",
+        "high-throughput",
+        "fault-tolerance"
+      ],
+      "scheduled_at": "2026-03-06T15:45:14Z",
       "status": "pending"
     }
   ]
