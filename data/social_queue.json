@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-06T03:45:14Z",
+  "last_scheduled_at": "2026-03-06T04:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -799,6 +799,20 @@
         "AI Engineering"
       ],
       "scheduled_at": "2026-03-06T03:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Event Driven Microservices Architecture A Practical Guide for Scalable Backend Systems",
+      "url": "https://martinuke0.github.io/posts/2026-03-05-mastering-event-driven-microservices-architecture-a-practical-guide-for-scalable-backend-systems/",
+      "social_hook": "The shift from monolithic applications to microservices has revolutionized how modern backend systems are built, deployed, and operated. Yet, the promise of scalability, fault‑tolerance, and rapid iteration only materializes when services communicate in a way that respects the distributed nature of the architecture.\n\nEvent‑Driven Architecture (EDA) offers a compelling solution: rather than invoking services directly via synchronous HTTP calls, services publish events that describe what happened and subscribe to events that interest them. This decoupling enables each microservice to evolve independently, handle load spikes gracefully, and recover from failures without cascading impacts.\n\n* Define the core concepts and terminology you need to speak the language of EDA.",
+      "tags": [
+        "microservices",
+        "event-driven",
+        "architecture",
+        "scalability",
+        "backend"
+      ],
+      "scheduled_at": "2026-03-06T04:45:14Z",
       "status": "pending"
     }
   ]
