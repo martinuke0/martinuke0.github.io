@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-06T18:45:14Z",
+  "last_scheduled_at": "2026-03-06T19:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -1011,6 +1011,20 @@
         "Inference Optimization"
       ],
       "scheduled_at": "2026-03-06T18:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Debugging the Decentralized Web: Optimizing Latency in Polygon’s New ZK-Rollup Infrastructure",
+      "url": "https://martinuke0.github.io/posts/2026-03-05-debugging-the-decentralized-web-optimizing-latency-in-polygons-new-zk-rollup-infrastructure/",
+      "social_hook": "The decentralized web (Web3) promises trust‑less interactions, immutable state, and censorship‑resistant services. Yet, the user experience—particularly transaction latency—has remained a critical barrier to mass adoption. Polygon’s recent Zero‑Knowledge Rollup (ZK‑Rollup) implementation, dubbed Polygon zkEVM, is designed to combine the security guarantees of Ethereum with the scalability of rollups, aiming for sub‑second finality and dramatically lower gas costs.\n\nIn practice, developers and ops teams quickly discover that latency is not a single‑parameter problem. It emerges from the interplay of network topology, node configuration, smart‑contract design, and client‑side integration. This article provides a deep‑dive debugging guide for engineers looking to measure, diagnose, and optimize latency within Polygon’s new ZK‑Rollup environment.\n\n4. Offer optimization strategies for validators, RPC providers, and dApp front‑ends.",
+      "tags": [
+        "Polygon",
+        "ZK-Rollup",
+        "Latency",
+        "Debugging",
+        "Web3"
+      ],
+      "scheduled_at": "2026-03-06T19:45:14Z",
       "status": "pending"
     }
   ]
