@@ -602,7 +602,7 @@
         "IoT"
       ],
       "scheduled_at": "2026-03-05T13:45:14Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Vector Database Selection and Optimization Strategies for High Performance RAG Systems",
