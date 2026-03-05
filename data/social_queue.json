@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-06T02:45:14Z",
+  "last_scheduled_at": "2026-03-06T03:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -785,6 +785,20 @@
         "Liquid Neural Networks"
       ],
       "scheduled_at": "2026-03-06T02:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Beyond the LLM: Engineering Real-Time Reasoning Engines with Liquid Neural Networks and Rust",
+      "url": "https://martinuke0.github.io/posts/2026-03-05-beyond-the-llm-engineering-real-time-reasoning-engines-with-liquid-neural-networks-and-rust/",
+      "social_hook": "Large language models (LLMs) have transformed how we interact with text, code, and even visual data. Their ability to generate coherent prose, answer questions, and synthesize information is impressive—yet they remain fundamentally stateless, batch‑oriented, and latency‑heavy. When you need a system that reasons in the moment, responds to sensor streams, or controls safety‑critical hardware, the classic LLM pipeline quickly becomes a bottleneck.\n\nEnter Liquid Neural Networks (LNNs), a class of continuous‑time recurrent networks that can adapt their internal dynamics on the fly. Coupled with Rust, a systems language that offers zero‑cost abstractions, memory safety, and deterministic performance, we have a compelling foundation for building real‑time reasoning engines that go beyond what static LLM inference can provide.\n\n3. Explain why Rust is uniquely suited for deploying LNNs in latency‑critical environments.",
+      "tags": [
+        "LLM",
+        "Liquid Neural Networks",
+        "Rust",
+        "Real-Time Systems",
+        "AI Engineering"
+      ],
+      "scheduled_at": "2026-03-06T03:45:14Z",
       "status": "pending"
     }
   ]
