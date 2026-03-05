@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-06T01:45:14Z",
+  "last_scheduled_at": "2026-03-06T02:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -771,6 +771,20 @@
         "best practices"
       ],
       "scheduled_at": "2026-03-06T01:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Beyond Chatbots: Mastering Agentic Workflows with the New Open-Source Liquid Neural Networks",
+      "url": "https://martinuke0.github.io/posts/2026-03-05-beyond-chatbots-mastering-agentic-workflows-with-the-new-open-source-liquid-neural-networks/",
+      "social_hook": "The last decade has witnessed a dramatic shift in how we think about conversational AI. Early rule‑based chatbots gave way to large language models (LLMs) that can generate human‑like text, and today we stand on the cusp of the next evolution: agentic workflows—systems that not only converse but act autonomously in dynamic environments.\n\nA key enabler of this leap is the emergence of Liquid Neural Networks (LNNs), a family of continuous‑time, adaptive models that excel at processing irregular, streaming data while retaining a compact, interpretable state. The open‑source community has recently released robust implementations of Liquid Time‑Constant (LTC) cells and related architectures, making it feasible for engineers and researchers to embed true agency into their applications without relying solely on massive transformer stacks.\n\n* Walk through two end‑to‑end, production‑grade examples (real‑time anomaly detection and an adaptive support assistant).",
+      "tags": [
+        "AI",
+        "Neural Networks",
+        "Agentic Workflows",
+        "Open Source",
+        "Liquid Neural Networks"
+      ],
+      "scheduled_at": "2026-03-06T02:45:14Z",
       "status": "pending"
     }
   ]
