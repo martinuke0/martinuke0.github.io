@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-07T16:45:14Z",
+  "last_scheduled_at": "2026-03-07T17:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -1322,6 +1322,20 @@
         "Agentic AI"
       ],
       "scheduled_at": "2026-03-07T16:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building the Future of Global Workforce Management: Lessons from Deel’s Activity Feed",
+      "url": "https://martinuke0.github.io/posts/2026-03-06-building-the-future-of-global-workforce-management-lessons-from-deels-activity-feed/",
+      "social_hook": "The pandemic‑era shift to remote and distributed teams has turned people platforms from niche HR tools into the central nervous system of modern enterprises. Companies now need a single pane of glass that can hire, onboard, pay, and manage compliance for workers spread across dozens of jurisdictions.\n\nOne of the most visible manifestations of this new reality is the activity feed—the stream of notifications, alerts, and status updates that keep every stakeholder informed in real time. Deel’s public “Notification Hub” (the activity feed you see after logging into their platform) is a compelling example of how a well‑engineered feed can become a productivity multiplier for a global workforce.\n\n Use Deel’s activity feed as a case study** to illustrate best‑in‑class design patterns.",
+      "tags": [
+        "remote work",
+        "people platforms",
+        "software architecture",
+        "real‑time UI",
+        "HR tech"
+      ],
+      "scheduled_at": "2026-03-07T17:45:14Z",
       "status": "pending"
     }
   ]
