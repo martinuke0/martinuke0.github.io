@@ -813,7 +813,7 @@
         "backend"
       ],
       "scheduled_at": "2026-03-06T04:45:14Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Fine-Tuning Large Language Models: A Comprehensive Guide to Parameter-Efficient Optimization Techniques",
