@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-07T02:45:14Z",
+  "last_scheduled_at": "2026-03-07T03:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -1125,6 +1125,20 @@
         "Scalability"
       ],
       "scheduled_at": "2026-03-07T02:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Graph RAG and Knowledge Graphs: Enhancing Large Language Models with Structured Contextual Relationships",
+      "url": "https://martinuke0.github.io/posts/2026-03-06-graph-rag-and-knowledge-graphs-enhancing-large-language-models-with-structured-contextual-relationships/",
+      "social_hook": "Large language models (LLMs) such as GPT‑4, Claude, and LLaMA have demonstrated remarkable abilities to generate fluent, context‑aware text. Yet, their knowledge is static—frozen at the moment of pre‑training—and they lack a reliable mechanism for accessing up‑to‑date, structured information. Retrieval‑Augmented Generation (RAG) addresses this gap by coupling LLMs with an external knowledge source, typically a vector store of unstructured documents.\n\nWhile vector‑based RAG works well for textual retrieval, many domains (e.g., biomedical research, supply‑chain logistics, social networks) are naturally expressed as graphs: entities linked by typed relationships, often enriched with attributes and ontologies. Knowledge graphs (KGs) capture this relational structure, enabling queries that go beyond keyword matching—think “find all researchers who co‑authored a paper with a Nobel laureate after 2015”.\n\nGraph RAG combines the best of both worlds: the expressive power of knowledge graphs with the generative flexibility of LLMs. In this article we will:",
+      "tags": [
+        "RAG",
+        "Knowledge Graphs",
+        "LLM",
+        "Graph Retrieval",
+        "Prompt Engineering"
+      ],
+      "scheduled_at": "2026-03-07T03:45:14Z",
       "status": "pending"
     }
   ]
