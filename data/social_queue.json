@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-07T00:45:14Z",
+  "last_scheduled_at": "2026-03-07T01:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -1097,6 +1097,20 @@
         "architecture"
       ],
       "scheduled_at": "2026-03-07T00:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Beyond Large Language Models: The Rise of Real-Time Multimodal World Simulators for Robotics",
+      "url": "https://martinuke0.github.io/posts/2026-03-06-beyond-large-language-models-the-rise-of-real-time-multimodal-world-simulators-for-robotics/",
+      "social_hook": "Robotics has historically been a discipline of hardware, control theory, and physics‑based simulation. Over the past few years, large language models (LLMs) such as GPT‑4, Claude, and Llama have sparked a wave of enthusiasm for “AI‑first” robot control, promising that a single model can understand natural language, reason about tasks, and even generate low‑level motor commands. While LLMs have demonstrated impressive cognitive abilities, they still lack a faithful, real‑time representation of the physical world in which robots operate.\n\nEnter real‑time multimodal world simulators—systems that combine high‑fidelity physics, sensor synthesis, and perception pipelines into a live, interactive digital twin. These simulators can run at or near the speed of the robot itself, providing a sandbox where high‑level reasoning (often still powered by LLMs) can be grounded in the concrete consequences of actions. The synergy between LLMs and simulators is reshaping how we design, test, and deploy robotic agents, especially in safety‑critical domains such as manufacturing, logistics, and human‑robot interaction.\n\nThis article provides an in‑depth look at the rise of these simulators, their technical underpinnings, practical implementations, and the roadmap ahead. Whether you are a researcher, a robotics engineer, or a developer curious about the next frontier of embodied AI, this guide will equip you with a comprehensive understanding of the field.",
+      "tags": [
+        "robotics",
+        "simulation",
+        "multimodal",
+        "real-time",
+        "AI"
+      ],
+      "scheduled_at": "2026-03-07T01:45:14Z",
       "status": "pending"
     }
   ]
