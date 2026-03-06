@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-07T15:45:14Z",
+  "last_scheduled_at": "2026-03-07T16:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -1308,6 +1308,20 @@
         "Financial Engineering"
       ],
       "scheduled_at": "2026-03-07T15:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Claude Code: Advanced Workflows for Production-Ready AI Development in 2026",
+      "url": "https://martinuke0.github.io/posts/2026-03-06-mastering-claude-code-advanced-workflows-for-production-ready-ai-development-in-2026/",
+      "social_hook": "In the fast-evolving world of AI-assisted coding, Claude Code stands out as a terminal-native powerhouse from Anthropic, enabling developers to write, refactor, and orchestrate complex projects with unprecedented project awareness. This isn't just another code completion tool—it's a full-fledged AI collaborator that thrives on structured prompts, custom agents, and workflow orchestration. Drawing from cutting-edge repositories and real-world implementations, this guide reimagines Claude Code best practices for 2026, blending plan-execute-refine cycles, sub-agent delegation, and Git-integrated safety nets to supercharge your productivity.[1][2]\n\nWhether you're building microservices, debugging legacy systems, or prototyping AI agents, these strategies transform Claude from a helpful sidekick into a scalable engineering team. We'll dive deep into practical setups, code examples, and connections to broader fields like DevOps, agentic AI, and software architecture—equipping you with actionable insights for immediate impact.\n\nClaude Code's strength lies in its deep contextual awareness, allowing it to ingest entire repositories, understand dependencies, and execute multi-step workflows without losing the thread. Unlike cloud-based IDE plugins, its terminal-native design integrates seamlessly with tools like Git, tmux, and CI/CD pipelines, making it ideal for remote, high-stakes environments.[3]",
+      "tags": [
+        "Claude Code",
+        "AI Coding",
+        "Developer Workflows",
+        "Best Practices",
+        "Agentic AI"
+      ],
+      "scheduled_at": "2026-03-07T16:45:14Z",
       "status": "pending"
     }
   ]
