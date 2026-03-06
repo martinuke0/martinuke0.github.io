@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-07T06:45:14Z",
+  "last_scheduled_at": "2026-03-07T07:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -1182,6 +1182,20 @@
         "Model Context Protocol"
       ],
       "scheduled_at": "2026-03-07T06:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Scaling Distributed Vector Databases for Real‑Time Retrieval in Generative AI",
+      "url": "https://martinuke0.github.io/posts/2026-03-06-scaling-distributed-vector-databases-for-realtime-retrieval-in-generative-ai/",
+      "social_hook": "Generative AI models—large language models (LLMs), diffusion models, and multimodal transformers—have moved from research labs to production environments. While the models themselves are impressive, their usefulness in real‑world applications often hinges on fast, accurate retrieval of relevant contextual data. This is where vector databases (a.k.a. similarity search engines) come into play: they store high‑dimensional embeddings and enable nearest‑neighbor queries that retrieve the most semantically similar items in milliseconds.\n\nWhen a single node cannot satisfy latency, throughput, or storage requirements, we must scale out the vector store across many machines. However, scaling introduces challenges that are not present in traditional key‑value stores:\n\n Handling dynamic workloads** where vectors are constantly added, updated, or deleted.",
+      "tags": [
+        "vector-database",
+        "distributed-systems",
+        "generative-ai",
+        "real-time",
+        "scalability"
+      ],
+      "scheduled_at": "2026-03-07T07:45:14Z",
       "status": "pending"
     }
   ]
