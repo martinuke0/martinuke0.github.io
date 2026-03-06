@@ -997,7 +997,7 @@
         "Robotics"
       ],
       "scheduled_at": "2026-03-06T17:45:14Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Optimizing Inference Latency in Distributed LLM Deployments Using Speculative Decoding and Hardware Acceleration",
