@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-07T10:45:14Z",
+  "last_scheduled_at": "2026-03-07T11:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -1238,6 +1238,20 @@
         "Privacy"
       ],
       "scheduled_at": "2026-03-07T10:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Vector Databases for LLMs: A Comprehensive Guide to Scalable AI Retrieval",
+      "url": "https://martinuke0.github.io/posts/2026-03-06-mastering-vector-databases-for-llms-a-comprehensive-guide-to-scalable-ai-retrieval/",
+      "social_hook": "Large language models (LLMs) have demonstrated remarkable abilities in generating natural‑language text, answering questions, and performing reasoning tasks. Yet, their knowledge is static—the parameters learned during pre‑training encode information up to a certain cutoff date, and the model cannot “look up” facts that were added later or that lie outside its training distribution.\n\nRetrieval‑augmented generation (RAG) solves this limitation by coupling an LLM with an external knowledge source. The LLM formulates a query, a retrieval engine fetches the most relevant pieces of information, and the model generates a response conditioned on that context. At the heart of modern RAG pipelines lies the vector database, a specialized system that stores high‑dimensional embeddings and performs fast approximate nearest‑neighbor (ANN) search.\n\n4. Designing a scalable architecture – sharding, replication, latency considerations",
+      "tags": [
+        "vector databases",
+        "LLM",
+        "retrieval-augmented generation",
+        "scalable AI",
+        "machine learning"
+      ],
+      "scheduled_at": "2026-03-07T11:45:14Z",
       "status": "pending"
     }
   ]
