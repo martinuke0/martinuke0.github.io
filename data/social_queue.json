@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-07T11:45:14Z",
+  "last_scheduled_at": "2026-03-07T12:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -1252,6 +1252,20 @@
         "machine learning"
       ],
       "scheduled_at": "2026-03-07T11:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing LLM Context Windows with Advanced Reranking and Semantic Chunking for High Performance Systems",
+      "url": "https://martinuke0.github.io/posts/2026-03-06-optimizing-llm-context-windows-with-advanced-reranking-and-semantic-chunking-for-high-performance-systems/",
+      "social_hook": "Large language models (LLMs) have become the backbone of modern AI‑driven applications, from chat assistants to code generation tools. Yet, one of the most practical bottlenecks remains the context window—the maximum number of tokens an LLM can attend to in a single inference pass. While newer architectures push this limit from 2 k to 128 k tokens, most commercial deployments still operate under tighter constraints (e.g., 4 k–8 k tokens) due to latency, memory, and cost considerations.\n\nWhen the amount of relevant information exceeds the window, developers must decide what to feed the model. Naïve truncation discards valuable data; naive retrieval can overload the model with irrelevant passages. The solution lies in semantic chunking (splitting text into meaning‑preserving units) combined with advanced reranking (selecting the most useful chunks for the current query). This article dives deep into the theory, algorithms, and practical code needed to build a high‑performance pipeline that maximizes the utility of every token.\n\n1. Latency & Cost – Each additional token increases inference time roughly linearly and raises API usage fees.",
+      "tags": [
+        "LLM",
+        "Context Management",
+        "Semantic Chunking",
+        "Reranking",
+        "Performance Engineering"
+      ],
+      "scheduled_at": "2026-03-07T12:45:14Z",
       "status": "pending"
     }
   ]
