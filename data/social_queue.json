@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-07T12:45:14Z",
+  "last_scheduled_at": "2026-03-07T13:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -1266,6 +1266,20 @@
         "Performance Engineering"
       ],
       "scheduled_at": "2026-03-07T12:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Vector Databases Architectural Patterns for High Performance Retrieval Augmented Generation Systems",
+      "url": "https://martinuke0.github.io/posts/2026-03-06-mastering-vector-databases-architectural-patterns-for-high-performance-retrieval-augmented-generation-systems/",
+      "social_hook": "Retrieval‑Augmented Generation (RAG) has emerged as a cornerstone technique for building large‑scale generative AI systems that can answer questions, summarize documents, or produce code while grounding their responses in external knowledge. At the heart of every RAG pipeline lies a vector database—a specialized storage engine that indexes high‑dimensional embeddings and enables rapid similarity search.\n\nWhile the concept of “store embeddings, query with a vector, get the nearest neighbors” is simple, production‑grade RAG systems demand architectural patterns that balance latency, throughput, scalability, and cost. This article dives deep into those patterns, explains why they matter, and provides concrete implementation guidance for engineers building high‑performance RAG pipelines.\n\n> Note: The patterns discussed here are applicable not only to text embeddings but also to multimodal vectors (image, audio, graph, etc.) and to both dense and sparse representations.",
+      "tags": [
+        "vector databases",
+        "retrieval augmented generation",
+        "architecture",
+        "high performance",
+        "AI"
+      ],
+      "scheduled_at": "2026-03-07T13:45:14Z",
       "status": "pending"
     }
   ]
