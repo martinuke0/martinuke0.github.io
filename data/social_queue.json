@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-06T22:45:14Z",
+  "last_scheduled_at": "2026-03-06T23:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -1069,6 +1069,20 @@
         "system-design"
       ],
       "scheduled_at": "2026-03-06T22:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "The Shift to Local-First AI: Optimizing Small Language Models for Browser-Based Edge Computing",
+      "url": "https://martinuke0.github.io/posts/2026-03-06-the-shift-to-local-first-ai-optimizing-small-language-models-for-browser-based-edge-computing/",
+      "social_hook": "Artificial intelligence has long been synonymous with massive data centers, powerful GPUs, and ever‑growing language models that dwarf the compute capacity of a typical laptop. Yet, as the web matures and user expectations shift toward instant, privacy‑preserving experiences, a new paradigm is emerging: local‑first AI. In this model, the heavy lifting of inference happens on the client—often directly inside the browser—rather than on remote servers.\n\n Latency** – Round‑trip network delays become irrelevant when inference runs locally.\n\n Privacy** – Sensitive data never leaves the user’s device, simplifying compliance with regulations such as GDPR or HIPAA.",
+      "tags": [
+        "AI",
+        "Edge Computing",
+        "Small Language Models",
+        "Web Development",
+        "Privacy"
+      ],
+      "scheduled_at": "2026-03-06T23:45:14Z",
       "status": "pending"
     }
   ]
