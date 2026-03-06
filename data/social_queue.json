@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-07T09:45:14Z",
+  "last_scheduled_at": "2026-03-07T10:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -1224,6 +1224,20 @@
         "AI Deployment"
       ],
       "scheduled_at": "2026-03-07T09:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "The Shift to Local‑First AI: Optimizing Small Language Models for Browser‑Based Edge Computing",
+      "url": "https://martinuke0.github.io/posts/2026-03-06-the-shift-to-localfirst-ai-optimizing-small-language-models-for-browserbased-edge-computing/",
+      "social_hook": "Artificial intelligence has traditionally been a cloud‑centric discipline: massive language models live on powerful servers, and end‑users interact via API calls. While this architecture excels at raw capability, it also introduces latency, bandwidth costs, and privacy concerns that are increasingly untenable for modern web experiences.\n\nA local‑first AI approach flips this paradigm. By moving inference to the client—specifically, the web browser—we can deliver sub‑second responses, respect user data sovereignty, and enable functionality even when the network is flaky or unavailable. The key enabler is the rise of small language models (SLMs), which are compact enough to run on commodity hardware yet retain enough linguistic competence for many everyday tasks.\n\nIn this article we explore the technical, architectural, and practical dimensions of optimizing SLMs for browser‑based edge computing. You’ll learn why this shift matters, how to shrink and accelerate models, and how to ship a functional AI-powered web app that runs entirely on the client.",
+      "tags": [
+        "AI",
+        "Edge Computing",
+        "Web Development",
+        "Small Language Models",
+        "Privacy"
+      ],
+      "scheduled_at": "2026-03-07T10:45:14Z",
       "status": "pending"
     }
   ]
