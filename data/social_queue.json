@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-07T13:45:14Z",
+  "last_scheduled_at": "2026-03-07T14:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -1280,6 +1280,20 @@
         "AI"
       ],
       "scheduled_at": "2026-03-07T13:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Vector Database Fundamentals for Scalable Semantic Search and Retrieval‑Augmented Generation",
+      "url": "https://martinuke0.github.io/posts/2026-03-06-vector-database-fundamentals-for-scalable-semantic-search-and-retrievalaugmented-generation/",
+      "social_hook": "Semantic search and Retrieval‑Augmented Generation (RAG) have moved from research prototypes to production‑grade features in chatbots, e‑commerce sites, and enterprise knowledge bases. At the heart of these capabilities lies a vector database—a specialized datastore that indexes high‑dimensional embeddings and enables fast similarity search.\n\nThis article provides a deep dive into the fundamentals of vector databases, focusing on the design decisions that affect scalability, latency, and reliability for semantic search and RAG pipelines. We’ll cover:\n\nBy the end, you should be able to design, implement, and operate a vector‑search system that can handle millions of vectors while delivering sub‑100 ms latency for user‑facing queries.",
+      "tags": [
+        "vector databases",
+        "semantic search",
+        "RAG",
+        "system design",
+        "scalability"
+      ],
+      "scheduled_at": "2026-03-07T14:45:14Z",
       "status": "pending"
     }
   ]
