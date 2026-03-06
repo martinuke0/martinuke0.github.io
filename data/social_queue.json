@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-07T07:45:14Z",
+  "last_scheduled_at": "2026-03-07T08:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -1196,6 +1196,20 @@
         "scalability"
       ],
       "scheduled_at": "2026-03-07T07:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Agentic RAG Zero to Hero Master Multi-Step Reasoning and Tool Use for Developers",
+      "url": "https://martinuke0.github.io/posts/2026-03-06-agentic-rag-zero-to-hero-master-multi-step-reasoning-and-tool-use-for-developers/",
+      "social_hook": "Artificial intelligence has moved far beyond “single‑shot” language models that generate a paragraph of text and stop. Modern applications require systems that can retrieve up‑to‑date knowledge, reason across multiple steps, and interact with external tools—all while staying under developer‑friendly latency and cost constraints.\n\nEnter Agentic Retrieval‑Augmented Generation (Agentic RAG). It marries the classic RAG paradigm (retrieving documents and feeding them to a language model) with agentic capabilities: the ability for a model to decide which tool to call, plan a sequence of actions, and iterate until a satisfactory answer emerges.\n\nFor developers, mastering this stack transforms a simple chatbot into a knowledge‑driven autonomous assistant capable of:",
+      "tags": [
+        "RAG",
+        "Agentic AI",
+        "Multi-Step Reasoning",
+        "Tool Use",
+        "Developer Guide"
+      ],
+      "scheduled_at": "2026-03-07T08:45:14Z",
       "status": "pending"
     }
   ]
