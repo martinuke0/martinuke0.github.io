@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-06T23:45:14Z",
+  "last_scheduled_at": "2026-03-07T00:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -1083,6 +1083,20 @@
         "Privacy"
       ],
       "scheduled_at": "2026-03-06T23:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting High Throughput Stream Processing for Real Time Vector Database Synchronization and Retrieval",
+      "url": "https://martinuke0.github.io/posts/2026-03-06-architecting-high-throughput-stream-processing-for-real-time-vector-database-synchronization-and-retrieval/",
+      "social_hook": "The explosion of unstructured data—text, images, video, audio—has driven a shift from traditional relational databases to vector databases that store high‑dimensional embeddings. When those embeddings must be generated, indexed, and queried in real time, a robust stream‑processing pipeline becomes the backbone of the system.\n\nThis article walks through the design of a high‑throughput, low‑latency architecture that continuously synchronizes a vector store (e.g., Milvus, Pinecone, Weaviate) with an event stream and enables sub‑second similarity search. We’ll explore the end‑to‑end data flow, discuss trade‑offs between consistency and performance, and provide concrete code snippets using Apache Kafka, Faust, and Faiss.\n\nTraditional databases excel at exact match queries, but they falter when you need nearest‑neighbor (NN) search over millions of high‑dimensional vectors. Vector databases solve this by:",
+      "tags": [
+        "stream-processing",
+        "vector-database",
+        "real-time",
+        "scalability",
+        "architecture"
+      ],
+      "scheduled_at": "2026-03-07T00:45:14Z",
       "status": "pending"
     }
   ]
