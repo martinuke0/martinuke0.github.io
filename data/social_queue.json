@@ -968,7 +968,7 @@
         "fault-tolerance"
       ],
       "scheduled_at": "2026-03-06T15:45:14Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Beyond the LLM: Debugging Distributed Logical Reasoning in High-Latency Edge Compute Grids",
@@ -982,7 +982,7 @@
         "Logical Reasoning"
       ],
       "scheduled_at": "2026-03-06T16:45:14Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Decoding TPK: Making AI Trajectory Prediction Trustworthy for Safer Autonomous Driving",
