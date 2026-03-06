@@ -827,7 +827,7 @@
         "AI"
       ],
       "scheduled_at": "2026-03-06T05:45:14Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Distributed Task Queues: Architectures, Scalability, and Performance Optimization in Modern Backend Systems",
