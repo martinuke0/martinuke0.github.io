@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-07T08:45:14Z",
+  "last_scheduled_at": "2026-03-07T09:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -1210,6 +1210,20 @@
         "Developer Guide"
       ],
       "scheduled_at": "2026-03-07T08:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "The Rise of Local LLMs: Optimizing Small Language Models for Edge Device Infrastructure",
+      "url": "https://martinuke0.github.io/posts/2026-03-06-the-rise-of-local-llms-optimizing-small-language-models-for-edge-device-infrastructure/",
+      "social_hook": "Large language models (LLMs) have reshaped how we interact with software, enabling chat‑bots, code assistants, and content generators that can understand and produce human‑like text. Historically, these models have lived in massive data centers, leveraging dozens of GPUs and terabytes of RAM. However, a new wave of local LLMs—compact, highly optimized models that run on edge devices—has begun to emerge.\n\nThis article explores why the industry is moving toward on‑device inference, the technical foundations of small LLMs, practical optimization techniques, hardware considerations, and a step‑by‑step deployment guide. By the end, you’ll have a clear roadmap for turning a 7‑billion‑parameter “big” model into a 2‑hundred‑million‑parameter whisper that can answer questions on a Raspberry Pi, a smartwatch, or an industrial sensor gateway.\n\nWhen a user asks a voice assistant “What’s the weather tomorrow?” the round‑trip time to a cloud server can be 200 ms or more, depending on network conditions. For interactive experiences—real‑time translation, AR overlays, or robotics—every millisecond counts. Local inference eliminates network latency, delivering sub‑50 ms responses even on modest CPUs.",
+      "tags": [
+        "LLM",
+        "Edge Computing",
+        "Model Optimization",
+        "Quantization",
+        "AI Deployment"
+      ],
+      "scheduled_at": "2026-03-07T09:45:14Z",
       "status": "pending"
     }
   ]
