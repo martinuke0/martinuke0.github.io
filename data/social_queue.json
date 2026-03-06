@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-07T04:45:14Z",
+  "last_scheduled_at": "2026-03-07T05:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -1153,6 +1153,21 @@
         "agentic workflows"
       ],
       "scheduled_at": "2026-03-07T04:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Vector Databases Zero to Hero: A Complete Practical Guide for Modern AI Systems",
+      "url": "https://martinuke0.github.io/posts/2026-03-06-vector-databases-zero-to-hero-a-complete-practical-guide-for-modern-ai-systems/",
+      "social_hook": "Vector databases have moved from an academic curiosity to a cornerstone technology for modern AI systems. Whether you are building a semantic search engine, a recommendation system, or a large‑scale anomaly detector, the ability to store, index, and query high‑dimensional vectors efficiently is now a non‑negotiable requirement.\n\nThis guide is designed to take you from zero knowledge to hero‑level proficiency. We will start with the mathematical intuition behind vectors, walk through the most popular open‑source and managed solutions, and finish with concrete, production‑ready code snippets that you can copy‑paste into your own projects.\n\n* Deploy a vector database on a single machine and scale it to a distributed cluster.",
+      "tags": [
+        "vector databases",
+        "AI",
+        "machine learning",
+        "embedding",
+        "search",
+        "practical guide"
+      ],
+      "scheduled_at": "2026-03-07T05:45:14Z",
       "status": "pending"
     }
   ]
