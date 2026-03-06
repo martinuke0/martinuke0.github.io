@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-07T05:45:14Z",
+  "last_scheduled_at": "2026-03-07T06:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -1168,6 +1168,20 @@
         "practical guide"
       ],
       "scheduled_at": "2026-03-07T05:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Claude AI: Free Courses That Transform Developers, Educators, and Everyday Users into AI Powerhouses",
+      "url": "https://martinuke0.github.io/posts/2026-03-06-mastering-claude-ai-free-courses-that-transform-developers-educators-and-everyday-users-into-ai-powerhouses/",
+      "social_hook": "In an era where artificial intelligence is reshaping industries from software engineering to education, Anthropic's free learning academy stands out as a game-changer. Hosted on a dedicated platform, these courses demystify Claude—their flagship AI model—offering hands-on training in everything from basic usage to advanced API integrations and ethical AI collaboration. Unlike scattered tutorials, this structured curriculum provides certificates upon completion, bridging the gap between theoretical knowledge and practical application.[1][4]\n\nThis isn't just about learning prompts; it's a comprehensive ecosystem designed to build AI fluency—the ability to work with AI systems effectively, ethically, and safely. Whether you're a developer streamlining codebases, an educator integrating AI into curricula, or a student prepping for an AI-driven job market, these resources equip you with skills that connect directly to broader tech trends like agentic AI, cloud integrations, and responsible deployment. In this post, we'll dive deep into the offerings, explore real-world applications, and draw connections to computer science fundamentals and engineering best practices.\n\nAI literacy has become as essential as coding proficiency was a decade ago. Traditional education often lags behind rapid advancements, leaving professionals scrambling with YouTube videos or fragmented docs. Anthropic addresses this with Anthropic Academy, a free, self-paced platform powered by Skilljar. It tracks progress, issues certificates, and ensures secure, privacy-focused learning—collecting only analytics like completion status to refine the experience.[1][4]",
+      "tags": [
+        "Claude AI",
+        "AI Education",
+        "Developer Tools",
+        "AI Fluency",
+        "Model Context Protocol"
+      ],
+      "scheduled_at": "2026-03-07T06:45:14Z",
       "status": "pending"
     }
   ]
