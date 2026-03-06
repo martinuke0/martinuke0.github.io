@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-07T17:45:14Z",
+  "last_scheduled_at": "2026-03-07T18:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -1336,6 +1336,20 @@
         "HR tech"
       ],
       "scheduled_at": "2026-03-07T17:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "The Rise of Small Language Models: Optimizing Local Inference for Edge Device Privacy",
+      "url": "https://martinuke0.github.io/posts/2026-03-06-the-rise-of-small-language-models-optimizing-local-inference-for-edge-device-privacy/",
+      "social_hook": "Large language models (LLMs) such as GPT‑4, Claude, and LLaMA have reshaped natural language processing (NLP) by demonstrating unprecedented capabilities in generation, reasoning, and code synthesis. Yet the very size that fuels their performance—hundreds of billions of parameters—poses a logistical nightmare for on‑device deployment.\n\nEdge devices—smartphones, wearables, industrial sensors, and even home appliances—are increasingly expected to run AI locally. This shift is driven by three intertwined forces:\n\n1. Latency – Real‑time interaction demands sub‑second responses that round‑trip to the cloud cannot guarantee.",
+      "tags": [
+        "AI",
+        "Edge Computing",
+        "Privacy",
+        "Small Language Models",
+        "Local Inference"
+      ],
+      "scheduled_at": "2026-03-07T18:45:14Z",
       "status": "pending"
     }
   ]
