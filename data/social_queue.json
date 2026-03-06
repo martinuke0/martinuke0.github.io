@@ -1055,7 +1055,7 @@
         "Machine Learning"
       ],
       "scheduled_at": "2026-03-06T21:45:14Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Distributed Locking Mechanisms with Redis: A Deep Dive into Consistency and System Design",
