@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-07T18:45:14Z",
+  "last_scheduled_at": "2026-03-07T19:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -1350,6 +1350,20 @@
         "Local Inference"
       ],
       "scheduled_at": "2026-03-07T18:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Event Sourcing and CQRS: Building Resilient Data Architectures for Modern Distributed Systems",
+      "url": "https://martinuke0.github.io/posts/2026-03-07-event-sourcing-and-cqrs-building-resilient-data-architectures-for-modern-distributed-systems/",
+      "social_hook": "Modern distributed systems must cope with high traffic volumes, evolving business rules, and ever‑changing infrastructure. Traditional CRUD‑centric designs often become brittle under these pressures: they mix read and write concerns, hide domain intent, and make scaling unpredictable.\n\nEvent sourcing and Command‑Query Responsibility Segregation (CQRS) are two architectural patterns that, when combined, provide a clear separation of concerns, immutable audit trails, and natural pathways to scalability and resilience. This article delves deep into both patterns, explains why they complement each other, and walks through a complete, production‑ready example of building a resilient data architecture for a distributed order‑management service.\n\n> Note: While the concepts are language‑agnostic, the code snippets use C# and the open‑source EventStoreDB to keep the example concrete and runnable.",
+      "tags": [
+        "event sourcing",
+        "CQRS",
+        "distributed systems",
+        "architecture",
+        "resilience"
+      ],
+      "scheduled_at": "2026-03-07T19:45:14Z",
       "status": "pending"
     }
   ]
