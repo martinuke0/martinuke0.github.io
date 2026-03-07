@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-08T09:45:14Z",
+  "last_scheduled_at": "2026-03-08T10:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -1560,6 +1560,20 @@
         "networking"
       ],
       "scheduled_at": "2026-03-08T09:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Vector Databases Zero to Hero Your Ultimate Guide to RAG and Semantic Search",
+      "url": "https://martinuke0.github.io/posts/2026-03-07-vector-databases-zero-to-hero-your-ultimate-guide-to-rag-and-semantic-search/",
+      "social_hook": "The explosion of large language models (LLMs) has shifted the AI landscape from pure generation to augmented generation—where models retrieve relevant context before producing an answer. This paradigm, often called Retrieval‑Augmented Generation (RAG), hinges on a single piece of infrastructure: vector databases (also known as vector search engines or similarity search stores).\n\nIf you’ve ever wondered how a chatbot can cite a specific paragraph from a knowledge base, how a search engine can find “similar” documents without exact keyword matches, or how to build a product recommendation system that understands semantic similarity, you’re looking at vector databases in action.\n\nThis guide takes you from zero knowledge (or a vague idea) to a heroic level of competence. We’ll explore the theory, review the ecosystem, walk through a real‑world implementation, and discuss production‑grade best practices. By the end, you’ll be able to:",
+      "tags": [
+        "vector-databases",
+        "RAG",
+        "semantic-search",
+        "AI",
+        "machine-learning"
+      ],
+      "scheduled_at": "2026-03-08T10:45:14Z",
       "status": "pending"
     }
   ]
