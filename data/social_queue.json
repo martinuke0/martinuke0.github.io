@@ -1097,7 +1097,7 @@
         "architecture"
       ],
       "scheduled_at": "2026-03-07T00:45:14Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Beyond Large Language Models: The Rise of Real-Time Multimodal World Simulators for Robotics",
@@ -1111,7 +1111,7 @@
         "AI"
       ],
       "scheduled_at": "2026-03-07T01:45:14Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Mastering Kubernetes Networking: A Deep Dive into Secure, Scalable Cloud Infrastructure Architecture",
