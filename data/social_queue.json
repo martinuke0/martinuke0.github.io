@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-08T02:45:14Z",
+  "last_scheduled_at": "2026-03-08T03:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -1462,6 +1462,20 @@
         "Local‑First"
       ],
       "scheduled_at": "2026-03-08T02:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Vector Databases Explained: Architectural Tradeoffs and Python Integration for Modern AI Systems",
+      "url": "https://martinuke0.github.io/posts/2026-03-07-vector-databases-explained-architectural-tradeoffs-and-python-integration-for-modern-ai-systems/",
+      "social_hook": "Artificial intelligence has moved far beyond classic classification and regression tasks. Modern systems—large language models (LLMs), recommendation engines, and multimodal perception pipelines—represent data as high‑dimensional vectors. These embeddings encode semantic meaning, making similarity search a cornerstone of many AI‑driven products: “find documents like this”, “recommend items a user would love”, or “retrieve the most relevant image for a query”.\n\nEnter vector databases: purpose‑built storage and retrieval engines optimized for similarity search at scale. While the term is new, the underlying concepts—approximate nearest neighbor (ANN) search, high‑dimensional indexing, and distributed storage—have been explored for decades. This article dives deep into the architectural choices that shape vector databases, the trade‑offs they impose, and how Python developers can harness them in production AI systems.\n\n* Be able to compare major architectural patterns (in‑memory, on‑disk, distributed).",
+      "tags": [
+        "vector-databases",
+        "AI",
+        "Python",
+        "scalability",
+        "indexing"
+      ],
+      "scheduled_at": "2026-03-08T03:45:14Z",
       "status": "pending"
     }
   ]
