@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-08T00:45:14Z",
+  "last_scheduled_at": "2026-03-08T01:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -1434,6 +1434,20 @@
         "RAG"
       ],
       "scheduled_at": "2026-03-08T00:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Retrieval‑Augmented Generation: Building Production‑Grade AI Applications with Vector Databases",
+      "url": "https://martinuke0.github.io/posts/2026-03-07-mastering-retrievalaugmented-generation-building-productiongrade-ai-applications-with-vector-databases/",
+      "social_hook": "The excitement around large language models (LLMs) has surged dramatically over the past few years. From GPT‑4 to Claude and LLaMA, these models can generate fluent text, answer questions, and even write code. Yet, when they are asked about domain‑specific knowledge—such as a company's internal policies, a research paper, or a product catalog—their answers can be hallucinated, outdated, or simply wrong.\n\nEnter Retrieval‑Augmented Generation (RAG). By coupling an LLM with a vector database that stores dense embeddings of your proprietary documents, you give the model a reliable “knowledge surface” to pull from at inference time. The result is a system that can answer with up‑to‑date, factual context while still leveraging the generative power of the LLM.\n\nThis article is a deep dive into building production‑grade RAG applications. We'll explore the theory, walk through a complete code example, discuss scalability, security, and monitoring, and finish with real‑world case studies and a practical checklist. By the end, you should have a clear roadmap for turning a research prototype into a robust, maintainable AI service.",
+      "tags": [
+        "RAG",
+        "Vector Databases",
+        "LLM",
+        "AI Engineering",
+        "Production"
+      ],
+      "scheduled_at": "2026-03-08T01:45:14Z",
       "status": "pending"
     }
   ]
