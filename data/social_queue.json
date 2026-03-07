@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-08T04:45:14Z",
+  "last_scheduled_at": "2026-03-08T05:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -1490,6 +1490,20 @@
         "Quantization"
       ],
       "scheduled_at": "2026-03-08T04:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Resilient Data Pipelines with Python and AI for Scalable Enterprise Automation",
+      "url": "https://martinuke0.github.io/posts/2026-03-07-architecting-resilient-data-pipelines-with-python-and-ai-for-scalable-enterprise-automation/",
+      "social_hook": "Enterprises today rely on data pipelines to move, transform, and enrich information across silos—feeding analytics, machine‑learning models, and operational dashboards. When those pipelines falter, the ripple effect can be catastrophic: delayed shipments, inaccurate forecasts, or even regulatory breaches.\n\nIn this article we will architect resilient, AI‑augmented data pipelines using Python, focusing on:\n\n Resilience** – surviving transient failures, network partitions, and schema drifts.",
+      "tags": [
+        "data‑pipeline",
+        "python",
+        "ai‑ops",
+        "scalability",
+        "enterprise‑automation"
+      ],
+      "scheduled_at": "2026-03-08T05:45:14Z",
       "status": "pending"
     }
   ]
