@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-08T07:45:14Z",
+  "last_scheduled_at": "2026-03-08T08:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -1532,6 +1532,20 @@
         "Privacy"
       ],
       "scheduled_at": "2026-03-08T07:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting High Performance Asynchronous Task Queues with Redis and Python Celery",
+      "url": "https://martinuke0.github.io/posts/2026-03-07-architecting-high-performance-asynchronous-task-queues-with-redis-and-python-celery/",
+      "social_hook": "In modern web services, the ability to process work items in the background—outside the request‑response cycle—is no longer a luxury; it’s a necessity. Whether you’re sending email notifications, generating thumbnails, performing data enrichment, or running long‑running machine‑learning inference jobs, blocking the main thread degrades user experience, inflates latency, and can cause costly resource contention.\n\nEnter asynchronous task queues. By decoupling work from the front‑end, you can scale processing independently, guarantee reliability, and maintain a responsive API. Among the myriad solutions, Python Celery paired with Redis stands out for its simplicity, rich feature set, and proven track record in production systems ranging from startups to Fortune‑500 enterprises.\n\nThis article dives deep into the architecture of high‑performance asynchronous task queues using Celery and Redis. We’ll explore the underlying concepts, walk through a complete end‑to‑end implementation, discuss scaling strategies, and provide practical tips for real‑world deployments. By the end, you’ll have a blueprint you can adapt to your own services, regardless of scale.",
+      "tags": [
+        "celery",
+        "redis",
+        "asynchronous",
+        "python",
+        "architecture"
+      ],
+      "scheduled_at": "2026-03-08T08:45:14Z",
       "status": "pending"
     }
   ]
