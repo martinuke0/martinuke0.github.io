@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-08T14:45:14Z",
+  "last_scheduled_at": "2026-03-08T15:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -1630,6 +1630,20 @@
         "Cloud Native"
       ],
       "scheduled_at": "2026-03-08T14:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Unlocking Agentic Coding: Building Supercharged AI Developers with Skills, Memory, and Instincts",
+      "url": "https://martinuke0.github.io/posts/2026-03-07-unlocking-agentic-coding-building-supercharged-ai-developers-with-skills-memory-and-instincts/",
+      "social_hook": "In the rapidly evolving world of software development, AI agents are no longer just assistants—they're becoming full-fledged agentic coders capable of handling complex tasks autonomously. Inspired by cutting-edge repositories and tools like those optimizing Claude Code ecosystems, this post dives deep into creating high-performance AI agent harnesses. We'll explore how to infuse AI with skills, instincts, memory systems, security protocols, and research-driven development to transform tools like Claude Code, Cursor, and beyond into unstoppable coding powerhouses. Whether you're a solo developer or leading an engineering team, these strategies will help you build AI that doesn't just write code—it thinks, adapts, and excels like a senior engineer.[1][2]\n\nBy 2026, agentic coding has hit an inflection point: 4% of GitHub public commits are already AI-authored, with projections reaching 20% by year's end.[5] This isn't hype—it's a seismic shift where developers delegate execution to AI while focusing on high-level architecture and innovation. Let's break down the architecture, practical implementations, and real-world integrations that make this possible.\n\nTraditional AI coding tools like GitHub Copilot offered snippet suggestions, but agentic systems like Claude Code operate on a higher plane. Launched in early 2025 and reaching $1B in annualized revenue by late that year, Claude Code is a terminal-native AI agent powered by Claude 4.5 models (Sonnet and Opus).[2][3] It reads your entire codebase, plans multi-step implementations, executes changes across files, runs tests, and even shells out commands—all while respecting your project's conventions.[1][5]",
+      "tags": [
+        "AI Coding",
+        "Agentic AI",
+        "Claude Code",
+        "Developer Tools",
+        "AI Agents"
+      ],
+      "scheduled_at": "2026-03-08T15:45:14Z",
       "status": "pending"
     }
   ]
