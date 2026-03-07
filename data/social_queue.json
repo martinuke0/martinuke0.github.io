@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-08T03:45:14Z",
+  "last_scheduled_at": "2026-03-08T04:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -1476,6 +1476,20 @@
         "indexing"
       ],
       "scheduled_at": "2026-03-08T03:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "The State of Local LLMs: Optimizing Small Language Models for On-Device Edge Computing",
+      "url": "https://martinuke0.github.io/posts/2026-03-07-the-state-of-local-llms-optimizing-small-language-models-for-on-device-edge-computing/",
+      "social_hook": "Large language models (LLMs) have reshaped natural‑language processing (NLP) by delivering impressive capabilities—from code generation to conversational agents. Yet the majority of these breakthroughs rely on massive cloud‑based infrastructures that demand terabytes of storage, multi‑GPU clusters, and high‑bandwidth network connections. For many real‑world applications—smartphones, wearables, industrial IoT gateways, autonomous drones, and AR/VR headsets—latency, privacy, and connectivity constraints make cloud‑only inference impractical.\n\nEnter local LLMs, a rapidly growing ecosystem of compact, efficient models designed to run on‑device or at the edge. This article provides a deep dive into the state of local LLMs, focusing on the technical strategies that enable small language models to operate under tight memory, compute, and power budgets while still delivering useful functionality. We’ll explore the evolution of model compression, hardware‑aware design, deployment frameworks, and real‑world case studies, concluding with a practical example of running a 7 B‑parameter model on a Raspberry Pi 4.\n\n> Note: The term “small” is relative. In the edge context, models ranging from a few megabytes (e.g., 2 M parameters) up to 7 B parameters can be considered “small” if they fit within the device’s memory and compute envelope.",
+      "tags": [
+        "LLM",
+        "Edge Computing",
+        "Model Compression",
+        "On-Device AI",
+        "Quantization"
+      ],
+      "scheduled_at": "2026-03-08T04:45:14Z",
       "status": "pending"
     }
   ]
