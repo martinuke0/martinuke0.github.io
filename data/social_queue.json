@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-08T05:45:14Z",
+  "last_scheduled_at": "2026-03-08T06:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -1504,6 +1504,20 @@
         "enterprise‑automation"
       ],
       "scheduled_at": "2026-03-08T05:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building Your Own AI Coding Agent: From Bash Loops to Autonomous Code Wizards",
+      "url": "https://martinuke0.github.io/posts/2026-03-07-building-your-own-ai-coding-agent-from-bash-loops-to-autonomous-code-wizards/",
+      "social_hook": "In the rapidly evolving world of AI-assisted development, tools like Claude Code have redefined how engineers work, blending large language models (LLMs) with direct filesystem access for agentic coding[1][2]. But what if you could build your own lightweight version from scratch? This post dives deep into creating a nano AI coding agent using nothing but Bash and a simple LLM loop, inspired by open-source projects that strip agentic AI to its essentials. We'll progress through 12 hands-on sessions, each adding a core mechanism, turning a basic script into a powerful, autonomous code companion.\n\nWhether you're a developer tired of copy-pasting AI outputs or a hobbyist curious about agent patterns, this guide equips you with practical code, real-world connections to tools like Claude Code, and strategies to deploy your agent in production workflows. By the end, you'll have a fully functional agent that scans repos, executes tasks, and iterates like a pro— all without proprietary dependencies.\n\nAt its heart, every AI coding agent follows a minimal loop: User inputs messages → LLM processes → If tools are needed, execute and loop back; otherwise, return text[1]. This pattern powers Claude Code's ability to handle multi-step tasks like refactoring Next.js apps or fixing build errors autonomously[4].",
+      "tags": [
+        "AI Agents",
+        "Coding Assistants",
+        "Claude Code",
+        "Bash Automation",
+        "LLM Development"
+      ],
+      "scheduled_at": "2026-03-08T06:45:14Z",
       "status": "pending"
     }
   ]
