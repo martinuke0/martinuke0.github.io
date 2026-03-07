@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-07T23:45:14Z",
+  "last_scheduled_at": "2026-03-08T00:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -1420,6 +1420,20 @@
         "performance optimization"
       ],
       "scheduled_at": "2026-03-07T23:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building Autonomous AI Agents with LangGraph and Vector Search for Enterprise Workflows",
+      "url": "https://martinuke0.github.io/posts/2026-03-07-building-autonomous-ai-agents-with-langgraph-and-vector-search-for-enterprise-workflows/",
+      "social_hook": "Enterprises are under relentless pressure to turn data into actions faster than ever before. Traditional rule‑based automation pipelines struggle to keep up with the nuance, variability, and sheer volume of modern business processes—think customer‑support tickets, contract analysis, supply‑chain alerts, or knowledge‑base retrieval.\n\nEnter autonomous AI agents: self‑directed software entities that can reason, retrieve relevant information, and take actions without constant human supervision. When combined with LangGraph, a graph‑oriented orchestration library for large language models (LLMs), and vector search, a scalable similarity‑search technique for embedding‑based data, these agents become powerful engines for enterprise workflows.\n\nThis article walks you through the theory, architecture, and hands‑on implementation of autonomous AI agents built on LangGraph and vector search. By the end of the guide you will be able to:",
+      "tags": [
+        "AI Agents",
+        "LangGraph",
+        "Vector Search",
+        "Enterprise Automation",
+        "RAG"
+      ],
+      "scheduled_at": "2026-03-08T00:45:14Z",
       "status": "pending"
     }
   ]
