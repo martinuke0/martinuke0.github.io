@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-08T08:45:14Z",
+  "last_scheduled_at": "2026-03-08T09:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -1546,6 +1546,20 @@
         "architecture"
       ],
       "scheduled_at": "2026-03-08T08:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing High-Performance Distributed Systems Using Zero-Copy Architecture and Shared Memory Buffers",
+      "url": "https://martinuke0.github.io/posts/2026-03-07-optimizing-high-performance-distributed-systems-using-zero-copy-architecture-and-shared-memory-buffers/",
+      "social_hook": "Modern distributed systems—whether they power real‑time financial trading platforms, large‑scale microservice back‑ends, or high‑throughput data pipelines—must move massive volumes of data across nodes with minimal latency and maximal throughput. Traditional networking stacks, which rely on multiple memory copies between user space, kernel space, and hardware buffers, become bottlenecks as data rates climb into the tens or hundreds of gigabits per second.\n\nZero‑copy architecture and shared memory buffers are two complementary techniques that dramatically reduce the number of memory copies, lower CPU overhead, and improve cache locality. When applied thoughtfully, they enable applications to approach the theoretical limits of the underlying hardware (e.g., PCIe, RDMA NICs, or high‑speed Ethernet).\n\nThis article provides an in‑depth exploration of zero‑copy and shared memory concepts, their relevance to distributed systems, concrete implementation patterns, performance considerations, and real‑world case studies. By the end, you’ll have a practical roadmap for integrating zero‑copy pathways into your own services.",
+      "tags": [
+        "distributed-systems",
+        "zero-copy",
+        "shared-memory",
+        "performance",
+        "networking"
+      ],
+      "scheduled_at": "2026-03-08T09:45:14Z",
       "status": "pending"
     }
   ]
