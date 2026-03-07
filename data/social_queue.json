@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-08T18:45:14Z",
+  "last_scheduled_at": "2026-03-08T19:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -1686,6 +1686,20 @@
         "orchestration"
       ],
       "scheduled_at": "2026-03-08T18:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Engineering Autonomous AI Agents for Real-Time Distributed System Monitoring and Self-Healing Infrastructure",
+      "url": "https://martinuke0.github.io/posts/2026-03-07-engineering-autonomous-ai-agents-for-real-time-distributed-system-monitoring-and-self-healing-infrastructure/",
+      "social_hook": "Modern cloud‑native applications are built as collections of loosely coupled services that run on heterogeneous infrastructure—containers, virtual machines, bare‑metal, edge devices, and serverless runtimes. While this architectural flexibility enables rapid scaling and continuous delivery, it also introduces a staggering amount of operational complexity. Traditional monitoring pipelines—metrics, logs, and traces—are excellent at surfacing what is happening, but they fall short when it comes to answering why something is wrong in real time and taking corrective action without human intervention.\n\nEnter autonomous AI agents. By coupling advanced machine‑learning models with a robust observability stack, these agents can ingest high‑velocity telemetry, reason over it, and execute self‑healing policies across a distributed system. In this article we will:\n\n1. Review the foundational concepts of distributed system monitoring and observability.",
+      "tags": [
+        "AI agents",
+        "distributed systems",
+        "monitoring",
+        "self-healing",
+        "observability"
+      ],
+      "scheduled_at": "2026-03-08T19:45:14Z",
       "status": "pending"
     }
   ]
