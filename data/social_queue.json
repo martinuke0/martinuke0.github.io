@@ -1378,7 +1378,7 @@
         "scalable architecture"
       ],
       "scheduled_at": "2026-03-07T20:45:14Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Optimizing High‑Throughput Vector Search with Distributed Redis and Hybrid Storage Patterns",
