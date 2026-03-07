@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-08T12:45:14Z",
+  "last_scheduled_at": "2026-03-08T13:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -1602,6 +1602,20 @@
         "Performance"
       ],
       "scheduled_at": "2026-03-08T12:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Distributed Systems for Resilience through Intelligent Service Mesh Traffic Management",
+      "url": "https://martinuke0.github.io/posts/2026-03-07-architecting-distributed-systems-for-resilience-through-intelligent-service-mesh-traffic-management/",
+      "social_hook": "Modern applications are no longer monolithic binaries running on a single server. They are distributed systems composed of many loosely coupled services that communicate over the network. This architectural shift brings remarkable flexibility and scalability, but it also introduces new failure modes: network partitions, latency spikes, version incompatibilities, and cascading outages.\n\nEnter the service mesh—a dedicated infrastructure layer that abstracts away the complexity of inter‑service communication. By providing intelligent traffic management, a service mesh can dramatically increase the resilience of a distributed system without requiring developers to embed fault‑tolerance logic in every service.\n\n3. Dive deep into the traffic‑management features that make a mesh “intelligent.”",
+      "tags": [
+        "distributed-systems",
+        "service-mesh",
+        "resilience",
+        "traffic-management",
+        "cloud-native"
+      ],
+      "scheduled_at": "2026-03-08T13:45:14Z",
       "status": "pending"
     }
   ]
