@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-08T11:45:14Z",
+  "last_scheduled_at": "2026-03-08T12:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -1588,6 +1588,20 @@
         "architecture"
       ],
       "scheduled_at": "2026-03-08T11:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Local Inference: A Guide to the New WebGPU‑Llama 4 Quantization Standards",
+      "url": "https://martinuke0.github.io/posts/2026-03-07-optimizing-local-inference-a-guide-to-the-new-webgpullama-4-quantization-standards/",
+      "social_hook": "Large language models (LLMs) have become the de‑facto engine behind chatbots, code assistants, and a growing number of generative AI products. Historically, inference for these models has required powerful server‑side GPUs or specialized accelerators. The rise of WebGPU—the emerging web standard that exposes low‑level, cross‑platform GPU compute—has opened the door to local inference directly in the browser or on edge devices.\n\nAt the same time, Meta’s Llama 4 family pushes the frontier of model quality while offering a new quantization specification designed specifically for WebGPU’s constraints. This guide walks through the entire workflow: from understanding the quantization standards to building a performant WebGPU inference engine, complete with practical code snippets and real‑world considerations.\n\n> Note: The article assumes familiarity with basic linear algebra, transformer architectures, and JavaScript/TypeScript development. If you’re new to any of these topics, consider reviewing the introductory sections before diving into the code.",
+      "tags": [
+        "WebGPU",
+        "Llama4",
+        "Quantization",
+        "LocalInference",
+        "Performance"
+      ],
+      "scheduled_at": "2026-03-08T12:45:14Z",
       "status": "pending"
     }
   ]
