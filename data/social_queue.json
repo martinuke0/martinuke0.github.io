@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-08T06:45:14Z",
+  "last_scheduled_at": "2026-03-08T07:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -1518,6 +1518,20 @@
         "LLM Development"
       ],
       "scheduled_at": "2026-03-08T06:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "The Rise of On-Device SLM Orchestration: Moving Beyond the Cloud-Dependent AI Model",
+      "url": "https://martinuke0.github.io/posts/2026-03-07-the-rise-of-on-device-slm-orchestration-moving-beyond-the-cloud-dependent-ai-model/",
+      "social_hook": "Artificial intelligence has been synonymous with massive data centers, high‑throughput GPUs, and an ever‑growing reliance on cloud services. For many years, the prevailing paradigm was cloud‑first: train a gigantic model on petabytes of data, host it in a data center, and expose it through an API. This approach has delivered spectacular breakthroughs—from language translation to image generation—but it also brings a set of constraints that are increasingly untenable for modern, latency‑sensitive, privacy‑aware applications.\n\nEnter on‑device Small Language Model (SLM) orchestration. By moving inference—and, in some cases, even learning—onto the edge, developers can sidestep many of the bottlenecks that have plagued cloud‑centric AI. This article explores why the shift is happening, what technical advances make it possible, and how practitioners can architect, develop, and deploy on‑device SLM solutions today.\n\n> Note: While the term “SLM” is sometimes used interchangeably with “small language model,” we will use it to denote any compact, purpose‑built language model (typically < 200 M parameters) that can run efficiently on consumer‑grade hardware.",
+      "tags": [
+        "AI",
+        "On-Device",
+        "SLM",
+        "Edge Computing",
+        "Privacy"
+      ],
+      "scheduled_at": "2026-03-08T07:45:14Z",
       "status": "pending"
     }
   ]
