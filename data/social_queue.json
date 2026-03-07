@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-07T19:45:14Z",
+  "last_scheduled_at": "2026-03-07T20:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -1364,6 +1364,20 @@
         "resilience"
       ],
       "scheduled_at": "2026-03-07T19:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Distributed Task Queues for High Performance Large Language Model Inference Systems",
+      "url": "https://martinuke0.github.io/posts/2026-03-07-optimizing-distributed-task-queues-for-high-performance-large-language-model-inference-systems/",
+      "social_hook": "Large Language Models (LLMs) such as GPT‑4, LLaMA, and Claude have moved from research prototypes to production‑grade services that power chatbots, code assistants, and enterprise knowledge bases. In a production environment the inference workload is fundamentally different from training:\n\n Low latency is critical** – users expect sub‑second responses for interactive use cases.\n\n Throughput matters** – batch processing of millions of requests per day is common in analytics pipelines.",
+      "tags": [
+        "distributed systems",
+        "task queues",
+        "LLM inference",
+        "performance optimization",
+        "scalable architecture"
+      ],
+      "scheduled_at": "2026-03-07T20:45:14Z",
       "status": "pending"
     }
   ]
