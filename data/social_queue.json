@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-08T15:45:14Z",
+  "last_scheduled_at": "2026-03-08T16:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -1644,6 +1644,20 @@
         "AI Agents"
       ],
       "scheduled_at": "2026-03-08T15:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Event Driven Microservices Architecture: A Complete Guide to Scalable Distributed Systems Design",
+      "url": "https://martinuke0.github.io/posts/2026-03-07-event-driven-microservices-architecture-a-complete-guide-to-scalable-distributed-systems-design/",
+      "social_hook": "In the era of cloud‑native computing, event‑driven microservices have emerged as a powerful paradigm for building scalable, resilient, and loosely coupled systems. By reacting to immutable events rather than invoking synchronous APIs, teams can achieve higher throughput, better fault isolation, and more natural support for asynchronous workflows such as order processing, IoT telemetry, and real‑time analytics.\n\nThis guide walks you through the fundamentals, design patterns, implementation strategies, and operational concerns of event‑driven microservices architecture (EDMA). Whether you are a seasoned architect or a developer stepping into distributed systems, the article provides a comprehensive roadmap to design, build, and run production‑grade event‑driven services.\n\nUnderstanding these building blocks is essential before diving into design decisions.",
+      "tags": [
+        "microservices",
+        "event-driven",
+        "distributed-systems",
+        "architecture",
+        "scalability"
+      ],
+      "scheduled_at": "2026-03-08T16:45:14Z",
       "status": "pending"
     }
   ]
