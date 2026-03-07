@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-07T20:45:14Z",
+  "last_scheduled_at": "2026-03-07T21:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -1378,6 +1378,20 @@
         "scalable architecture"
       ],
       "scheduled_at": "2026-03-07T20:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing High‑Throughput Vector Search with Distributed Redis and Hybrid Storage Patterns",
+      "url": "https://martinuke0.github.io/posts/2026-03-07-optimizing-highthroughput-vector-search-with-distributed-redis-and-hybrid-storage-patterns/",
+      "social_hook": "Vector search has become the de‑facto engine behind modern recommendation systems, semantic retrieval, image similarity, and large‑language‑model (LLM) applications. When the query volume spikes to hundreds of thousands of requests per second, traditional single‑node solutions quickly become a bottleneck.\n\nRedis, originally celebrated for its ultra‑fast in‑memory key‑value store, now offers RedisSearch with built‑in Approximate Nearest Neighbor (ANN) indexes such as Hierarchical Navigable Small World (HNSW) graphs. Coupled with Redis Cluster’s automatic sharding, replication, and fail‑over, Redis can serve as a distributed vector engine capable of handling high‑throughput workloads.\n\nHowever, raw memory is expensive, and a naïve “store everything in RAM” approach does not scale indefinitely. Hybrid storage patterns—a blend of in‑memory, SSD‑backed, and possibly external object stores—allow you to keep hot vectors on the fastest tier while relegating cold or archival vectors to slower, cheaper media.",
+      "tags": [
+        "redis",
+        "vector-search",
+        "distributed-systems",
+        "hybrid-storage",
+        "performance-optimization"
+      ],
+      "scheduled_at": "2026-03-07T21:45:14Z",
       "status": "pending"
     }
   ]
