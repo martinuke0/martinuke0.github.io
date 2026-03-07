@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-08T17:45:14Z",
+  "last_scheduled_at": "2026-03-08T18:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -1672,6 +1672,20 @@
         "OnDeviceInference"
       ],
       "scheduled_at": "2026-03-08T17:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Orchestrating Decentralized Knowledge Graphs for Autonomous Multi‑Agent Retrieval‑Augmented Generation Systems",
+      "url": "https://martinuke0.github.io/posts/2026-03-07-orchestrating-decentralized-knowledge-graphs-for-autonomous-multiagent-retrievalaugmented-generation-systems/",
+      "social_hook": "The convergence of three once‑separate research strands—knowledge graphs, decentralized architectures, and retrieval‑augmented generation (RAG)—has opened a new frontier for building autonomous multi‑agent systems that can reason, retrieve, and synthesize information at scale. In a traditional RAG pipeline, a single language model queries a static corpus, retrieves relevant passages, and augments its generation with that context. While effective for many use‑cases, this monolithic approach struggles with:\n\n Data silos**: Knowledge resides in isolated databases, proprietary APIs, or edge devices.\n\n Scalability limits**: Centralised storage becomes a bottleneck as the graph grows.",
+      "tags": [
+        "knowledge graphs",
+        "decentralization",
+        "multi-agent systems",
+        "retrieval augmented generation",
+        "orchestration"
+      ],
+      "scheduled_at": "2026-03-08T18:45:14Z",
       "status": "pending"
     }
   ]
