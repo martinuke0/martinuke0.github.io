@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-08T13:45:14Z",
+  "last_scheduled_at": "2026-03-08T14:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -1616,6 +1616,20 @@
         "cloud-native"
       ],
       "scheduled_at": "2026-03-08T13:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Kubernetes Zero to Hero: The Definitive Guide to Container Orchestration and Scaling",
+      "url": "https://martinuke0.github.io/posts/2026-03-07-kubernetes-zero-to-hero-the-definitive-guide-to-container-orchestration-and-scaling/",
+      "social_hook": "Kubernetes has become the de‑facto standard for managing containers at scale. Whether you’re a developer looking to ship a single microservice or an enterprise architect responsible for a global, multi‑region platform, mastering Kubernetes is no longer optional—it’s essential. This guide takes you from the very first steps (“Zero”) to the point where you can confidently design, deploy, and operate production‑grade clusters (“Hero”).\n\nWe’ll cover the fundamental concepts, walk through practical installation methods, explore scaling mechanisms, and dive into real‑world patterns that keep large‑scale workloads reliable, secure, and cost‑effective. By the end of this article you’ll have a solid mental model of Kubernetes, hands‑on YAML examples you can copy‑paste, and a roadmap for continued learning.\n\nContainers give you lightweight, reproducible runtime environments, but they also introduce new operational challenges:",
+      "tags": [
+        "Kubernetes",
+        "Container Orchestration",
+        "Scaling",
+        "DevOps",
+        "Cloud Native"
+      ],
+      "scheduled_at": "2026-03-08T14:45:14Z",
       "status": "pending"
     }
   ]
