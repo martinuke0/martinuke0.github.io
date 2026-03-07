@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-08T10:45:14Z",
+  "last_scheduled_at": "2026-03-08T11:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -1574,6 +1574,20 @@
         "machine-learning"
       ],
       "scheduled_at": "2026-03-08T10:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Real‑Time Vector Search Architectures for High‑Throughput Stream Processing Pipelines",
+      "url": "https://martinuke0.github.io/posts/2026-03-07-optimizing-realtime-vector-search-architectures-for-highthroughput-stream-processing-pipelines/",
+      "social_hook": "The explosion of high‑dimensional data—embeddings from large language models, image feature vectors, audio fingerprints, and more—has turned vector search into a core capability for modern applications. At the same time, many businesses need to process continuous streams of events (clicks, sensor readings, logs) with sub‑second latency while still delivering accurate nearest‑neighbor results.\n\nThis article walks through the end‑to‑end design of a real‑time vector search architecture that can sustain high‑throughput stream processing pipelines. We’ll cover:\n\n* How to integrate those blocks into a streaming dataflow (Kafka, Pulsar, Flink, Spark Structured Streaming, etc.).",
+      "tags": [
+        "vector-search",
+        "stream-processing",
+        "real-time",
+        "high-throughput",
+        "architecture"
+      ],
+      "scheduled_at": "2026-03-08T11:45:14Z",
       "status": "pending"
     }
   ]
