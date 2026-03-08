@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-09T03:45:14Z",
+  "last_scheduled_at": "2026-03-09T04:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -1812,6 +1812,20 @@
         "scalability"
       ],
       "scheduled_at": "2026-03-09T03:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "The Rise of Neuro-Symbolic AI: Bridging Large Language Models and Formal Logic Frameworks",
+      "url": "https://martinuke0.github.io/posts/2026-03-08-the-rise-of-neuro-symbolic-ai-bridging-large-language-models-and-formal-logic-frameworks/",
+      "social_hook": "Artificial intelligence has long been divided into two seemingly incompatible camps: symbolic AI, which manipulates explicit, human‑readable symbols and rules, and neural AI, which learns statistical patterns from raw data. For decades, each camp excelled at different tasks—symbolic systems shone in logical reasoning, planning, and knowledge representation, while neural networks dominated perception, language modeling, and pattern recognition.\n\nThe emergence of large language models (LLMs) such as GPT‑4, Claude, and LLaMA has dramatically expanded the neural side’s ability to generate coherent text, perform few‑shot learning, and even exhibit rudimentary reasoning. Yet, when confronted with tasks that require strict logical consistency, formal verification, or compositional generalization, pure LLMs still falter.\n\nEnter neuro‑symbolic AI, an interdisciplinary research frontier that seeks to combine the learning power of neural networks with the rigor and interpretability of formal logic. This article provides an in‑depth look at why this convergence matters, how it is being achieved, and what real‑world impact we can expect in the coming years.",
+      "tags": [
+        "Neuro-Symbolic AI",
+        "Large Language Models",
+        "Formal Logic",
+        "Machine Learning",
+        "AI Research"
+      ],
+      "scheduled_at": "2026-03-09T04:45:14Z",
       "status": "pending"
     }
   ]
