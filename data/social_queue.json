@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-09T09:45:14Z",
+  "last_scheduled_at": "2026-03-09T10:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -1896,6 +1896,20 @@
         "nlp"
       ],
       "scheduled_at": "2026-03-09T09:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Autonomous Agent Orchestration Frameworks for Scaling Verifiable Intelligence in Decentralized Private Clouds",
+      "url": "https://martinuke0.github.io/posts/2026-03-08-autonomous-agent-orchestration-frameworks-for-scaling-verifiable-intelligence-in-decentralized-private-clouds/",
+      "social_hook": "Enterprises are increasingly demanding intelligent workloads that can prove their correctness, protect data privacy, and scale across heterogeneous environments. Traditional monolithic AI services struggle to satisfy these constraints because they rely on centralized data silos, opaque model pipelines, and static provisioning.\n\nA new class of systems—autonomous agent orchestration frameworks—is emerging to address this gap. By treating each AI component as a self‑contained, verifiable agent and coordinating them through a flexible orchestration layer, organizations can:\n\n1. Scale compute across private clouds, edge nodes, and on‑premise clusters without sacrificing latency.",
+      "tags": [
+        "autonomous-agents",
+        "orchestration",
+        "decentralized-cloud",
+        "verifiable-intelligence",
+        "privacy"
+      ],
+      "scheduled_at": "2026-03-09T10:45:14Z",
       "status": "pending"
     }
   ]
