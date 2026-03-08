@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-08T19:45:14Z",
+  "last_scheduled_at": "2026-03-08T20:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -1700,6 +1700,20 @@
         "observability"
       ],
       "scheduled_at": "2026-03-08T19:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Accelerating Vector Database Performance with Optimized Indexing Strategies and Distributed Query Execution",
+      "url": "https://martinuke0.github.io/posts/2026-03-08-accelerating-vector-database-performance-with-optimized-indexing-strategies-and-distributed-query-execution/",
+      "social_hook": "Vector search has moved from a research curiosity to a cornerstone of modern AI‑driven applications. Whether you are powering image similarity, recommendation engines, or semantic text retrieval, the ability to quickly locate the nearest vectors in a high‑dimensional space directly influences user experience and business outcomes. However, raw vector similarity (e.g., brute‑force Euclidean distance) scales poorly: a naïve linear scan of millions of 768‑dimensional embeddings can take seconds or minutes per query—unacceptable for real‑time services.\n\n1. Optimized indexing strategies that dramatically reduce the search space while preserving recall.\n\n2. Distributed query execution that spreads computation across many nodes, eliminates bottlenecks, and scales horizontally.",
+      "tags": [
+        "vector-database",
+        "indexing",
+        "distributed-systems",
+        "machine-learning",
+        "performance"
+      ],
+      "scheduled_at": "2026-03-08T20:45:14Z",
       "status": "pending"
     }
   ]
