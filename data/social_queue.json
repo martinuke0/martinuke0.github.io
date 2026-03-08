@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-09T10:45:14Z",
+  "last_scheduled_at": "2026-03-09T11:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -1910,6 +1910,20 @@
         "privacy"
       ],
       "scheduled_at": "2026-03-09T10:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Scaling Heterogeneous Inference Clusters for Low Latency Multi‑Modal Foundation Model Deployment",
+      "url": "https://martinuke0.github.io/posts/2026-03-08-scaling-heterogeneous-inference-clusters-for-low-latency-multimodal-foundation-model-deployment/",
+      "social_hook": "Foundation models—large, pre‑trained neural networks that can be adapted to a wide range of downstream tasks—have exploded in popularity across vision, language, audio, and multimodal domains. Their sheer size (often hundreds of billions of parameters) and the need to process heterogeneous inputs (e.g., text + image + audio) make low‑latency inference a formidable engineering challenge.\n\nEnter heterogeneous inference clusters: collections of compute nodes that differ in CPU, GPU, accelerator, memory, and networking capabilities. By intelligently orchestrating these diverse resources, organizations can meet strict Service Level Objectives (SLOs) while controlling cost.\n\nThis article provides a deep dive into the architectural, algorithmic, and operational techniques required to scale heterogeneous inference clusters for low‑latency multimodal foundation model deployment. We will cover:",
+      "tags": [
+        "AI infrastructure",
+        "multi‑modal models",
+        "low‑latency inference",
+        "heterogeneous clusters",
+        "scalable deployment"
+      ],
+      "scheduled_at": "2026-03-09T11:45:14Z",
       "status": "pending"
     }
   ]
