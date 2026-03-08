@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-09T08:45:14Z",
+  "last_scheduled_at": "2026-03-09T09:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -1882,6 +1882,20 @@
         "application-development"
       ],
       "scheduled_at": "2026-03-09T08:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Beyond Vector Search Mastering Long Context Retrieval with GraphRAG and Knowledge Graphs",
+      "url": "https://martinuke0.github.io/posts/2026-03-08-beyond-vector-search-mastering-long-context-retrieval-with-graphrag-and-knowledge-graphs/",
+      "social_hook": "The explosion of large language models (LLMs) has made retrieval‑augmented generation (RAG) the de‑facto standard for building intelligent assistants, chatbots, and domain‑specific QA systems. Most RAG pipelines rely on vector search: documents are embedded into a high‑dimensional space, an approximate nearest‑neighbor (ANN) index is built, and the model retrieves the top‑k most similar chunks at inference time.\n\nWhile vector search is fast and works well for short, self‑contained passages, it struggles when the user’s query requires long‑range contextual reasoning across many interconnected facts. In domains such as legal research, scientific literature review, or enterprise knowledge management, the relevant information often lives in a graph of relationships rather than a flat list of isolated snippets.\n\nEnter GraphRAG – a hybrid retrieval paradigm that couples dense vector similarity with knowledge graph traversal. By representing entities, concepts, and their relationships explicitly, GraphRAG can surface connected pieces of evidence, synthesize longer narratives, and maintain factual consistency. This article dives deep into the theory, architecture, and practical implementation of GraphRAG, showing you how to move beyond classic vector search and master long‑context retrieval.",
+      "tags": [
+        "vector-search",
+        "knowledge-graphs",
+        "retrieval-augmented-generation",
+        "graph-rag",
+        "nlp"
+      ],
+      "scheduled_at": "2026-03-09T09:45:14Z",
       "status": "pending"
     }
   ]
