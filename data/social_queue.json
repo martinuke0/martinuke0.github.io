@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-08T21:45:14Z",
+  "last_scheduled_at": "2026-03-08T22:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -1728,6 +1728,20 @@
         "distributed-systems"
       ],
       "scheduled_at": "2026-03-08T21:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Edge AI: Zero‑to‑Hero Guide with TinyML and Hardware Acceleration",
+      "url": "https://martinuke0.github.io/posts/2026-03-08-mastering-edge-ai-zerotohero-guide-with-tinyml-and-hardware-acceleration/",
+      "social_hook": "Edge AI is rapidly reshaping how we think about intelligent systems. Instead of sending raw sensor data to a cloud server for inference, modern devices can run machine‑learning (ML) models locally, delivering sub‑second responses, preserving privacy, and dramatically reducing bandwidth costs.\n\nThe TinyML movement brings this vision to the most constrained devices—microcontrollers (MCUs) with just a few kilobytes of RAM and modest clock speeds. By marrying tiny neural networks with hardware acceleration (Edge TPUs, NPUs, DSPs), developers can achieve impressive performance while staying within the tight power budgets required for battery‑operated or energy‑harvesting applications.\n\nThis guide aims to take you from zero knowledge of Edge AI to a heroic level of competence: you’ll understand the theory, select appropriate hardware, train a model, quantize it, deploy it, and finally squeeze out every ounce of performance with hardware accelerators. All examples are concrete, reproducible, and designed for a hands‑on learning experience.",
+      "tags": [
+        "Edge AI",
+        "TinyML",
+        "Hardware Acceleration",
+        "Microcontrollers",
+        "Machine Learning"
+      ],
+      "scheduled_at": "2026-03-08T22:45:14Z",
       "status": "pending"
     }
   ]
