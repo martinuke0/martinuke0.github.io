@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-09T12:45:14Z",
+  "last_scheduled_at": "2026-03-09T13:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -1938,6 +1938,20 @@
         "Production"
       ],
       "scheduled_at": "2026-03-09T12:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Asynchronous Worker Patterns in Python for High‑Performance Data Processing Pipelines",
+      "url": "https://martinuke0.github.io/posts/2026-03-08-mastering-asynchronous-worker-patterns-in-python-for-highperformance-data-processing-pipelines/",
+      "social_hook": "Modern data‑intensive applications—real‑time analytics, ETL pipelines, machine‑learning feature extraction, and event‑driven microservices—must move massive volumes of data through a series of transformations while keeping latency low and resource utilization high. In Python, the traditional “one‑thread‑one‑task” model quickly becomes a bottleneck, especially when a pipeline mixes I/O‑bound work (network calls, disk reads/writes) with CPU‑bound transformations (parsing, feature engineering).\n\nEnter asynchronous worker patterns. By decoupling the production of work items from their consumption, and by leveraging Python’s `asyncio` event loop together with thread‑ or process‑based executors, developers can build pipelines that:\n\n Scale horizontally** across cores without the overhead of heavyweight processes.",
+      "tags": [
+        "python",
+        "asynchronous",
+        "data-processing",
+        "performance",
+        "concurrency"
+      ],
+      "scheduled_at": "2026-03-09T13:45:14Z",
       "status": "pending"
     }
   ]
