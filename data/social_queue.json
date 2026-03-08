@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-09T07:45:14Z",
+  "last_scheduled_at": "2026-03-09T08:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -1868,6 +1868,20 @@
         "hardware-acceleration"
       ],
       "scheduled_at": "2026-03-09T07:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "PostgreSQL Zero to Hero Complete Guide for Scalable Application Development and Vector Search",
+      "url": "https://martinuke0.github.io/posts/2026-03-08-postgresql-zero-to-hero-complete-guide-for-scalable-application-development-and-vector-search/",
+      "social_hook": "PostgreSQL has evolved from a reliable relational database to a full‑featured data platform capable of powering everything from simple CRUD APIs to massive, globally distributed systems. In the last few years, two trends have reshaped how developers think about PostgreSQL:\n\n1. Scalable application architectures – micro‑services, event‑driven pipelines, and multi‑tenant SaaS platforms demand high read/write throughput, zero‑downtime deployments, and robust disaster recovery.\n\n2. Vector search – the explosion of embeddings from large language models (LLMs), computer vision, and recommendation engines requires a fast, approximate nearest‑neighbor (ANN) capability inside the database itself.",
+      "tags": [
+        "postgresql",
+        "scalability",
+        "vector-search",
+        "pgvector",
+        "application-development"
+      ],
+      "scheduled_at": "2026-03-09T08:45:14Z",
       "status": "pending"
     }
   ]
