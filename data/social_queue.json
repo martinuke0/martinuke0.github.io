@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-08T23:45:14Z",
+  "last_scheduled_at": "2026-03-09T00:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -1756,6 +1756,20 @@
         "Edge Computing"
       ],
       "scheduled_at": "2026-03-08T23:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Kubernetes Orchestration for Large Language Models: A Comprehensive Zero‑to‑Hero Guide",
+      "url": "https://martinuke0.github.io/posts/2026-03-08-mastering-kubernetes-orchestration-for-large-language-models-a-comprehensive-zerotohero-guide/",
+      "social_hook": "Large Language Models (LLMs) such as GPT‑4, LLaMA, and Falcon have moved from research curiosities to production‑grade services powering chatbots, code assistants, and enterprise analytics. Deploying these models at scale is no longer a one‑off experiment; it requires robust, repeatable, and observable infrastructure. Kubernetes—originally built for stateless microservices—has evolved into a de‑facto platform for orchestrating AI workloads, thanks to native support for GPUs, custom resource definitions (CRDs), and a thriving ecosystem of operators and tools.\n\nThis guide walks you through every step needed to master Kubernetes orchestration for LLMs, from the basics of containerizing a model to advanced topics like autoscaling with custom metrics, multi‑tenant security, and cost‑aware scheduling. Whether you are a data scientist who wants to serve a single model or a platform engineer tasked with a fleet of inference services, this “zero‑to‑hero” tutorial will give you a production‑ready roadmap.\n\n> Note: If you lack a physical GPU cluster, consider using cloud providers (AWS EKS with `g4dn`/`p4d`, GCP GKE with `a2` nodes, Azure AKS with `NDv4`) or a local GPU‑enabled kind cluster with the NVIDIA device plugin.",
+      "tags": [
+        "kubernetes",
+        "large-language-models",
+        "ml-ops",
+        "gpu",
+        "devops"
+      ],
+      "scheduled_at": "2026-03-09T00:45:14Z",
       "status": "pending"
     }
   ]
