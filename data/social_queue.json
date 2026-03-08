@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-08T22:45:14Z",
+  "last_scheduled_at": "2026-03-08T23:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -1742,6 +1742,20 @@
         "Machine Learning"
       ],
       "scheduled_at": "2026-03-08T22:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "The Shift to Local-First AI: Deploying Quantized Small Language Models via WebGPU and WASM",
+      "url": "https://martinuke0.github.io/posts/2026-03-08-the-shift-to-local-first-ai-deploying-quantized-small-language-models-via-webgpu-and-wasm/",
+      "social_hook": "Artificial intelligence has traditionally been a cloud‑centric discipline. Massive GPUs, petabytes of data, and high‑bandwidth interconnects have made remote inference the default deployment model for large language models (LLMs). Yet a growing chorus of engineers, privacy advocates, and product teams is championing a local‑first approach: bring the model to the user’s device, keep data on‑device, and eliminate round‑trip latency.\n\nIn 2023‑2024, three technological trends converged to make this vision realistic:\n\n1. Small Language Models (SLMs) – architectures that retain surprisingly capable linguistic abilities while staying under a few billion parameters.",
+      "tags": [
+        "AI",
+        "WebGPU",
+        "WebAssembly",
+        "Quantization",
+        "Edge Computing"
+      ],
+      "scheduled_at": "2026-03-08T23:45:14Z",
       "status": "pending"
     }
   ]
