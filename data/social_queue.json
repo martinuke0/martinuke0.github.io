@@ -1462,7 +1462,7 @@
         "Local‑First"
       ],
       "scheduled_at": "2026-03-08T02:45:14Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Vector Databases Explained: Architectural Tradeoffs and Python Integration for Modern AI Systems",
@@ -1476,7 +1476,7 @@
         "indexing"
       ],
       "scheduled_at": "2026-03-08T03:45:14Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "The State of Local LLMs: Optimizing Small Language Models for On-Device Edge Computing",
