@@ -1686,7 +1686,7 @@
         "orchestration"
       ],
       "scheduled_at": "2026-03-08T18:45:14Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Engineering Autonomous AI Agents for Real-Time Distributed System Monitoring and Self-Healing Infrastructure",
