@@ -1714,7 +1714,7 @@
         "performance"
       ],
       "scheduled_at": "2026-03-08T20:45:14Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Scaling Distributed Vector Databases for High Availability and Low Latency Production RAG Systems",
