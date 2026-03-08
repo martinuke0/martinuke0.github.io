@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-09T13:45:14Z",
+  "last_scheduled_at": "2026-03-09T14:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -1952,6 +1952,20 @@
         "concurrency"
       ],
       "scheduled_at": "2026-03-09T13:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Scaling Small Language Models: Why SLMs are Replacing Giants via Edge-Native Training Architectures",
+      "url": "https://martinuke0.github.io/posts/2026-03-08-scaling-small-language-models-why-slms-are-replacing-giants-via-edge-native-training-architectures/",
+      "social_hook": "The AI landscape has been dominated for the past few years by massive language models—GPT‑4, Claude, LLaMA‑2‑70B, and their kin—running on sprawling GPU clusters and consuming megawatts of power. While these giants have pushed the frontier of what generative AI can achieve, they also expose fundamental bottlenecks: high inference latency, prohibitive operating costs, and a reliance on centralized data centers that raise privacy concerns.\n\nEnter Small Language Models (SLMs)—compact, efficient transformers that can be trained and deployed directly on edge devices such as smartphones, IoT gateways, and even micro‑controllers. Recent advances in edge‑native training architectures have turned this once‑theoretical concept into a practical reality. In this article we will explore why SLMs are increasingly replacing their larger counterparts, how modern edge‑centric training pipelines make it possible, and what this shift means for developers, enterprises, and end‑users.\n\n> Note: Throughout the post, “edge” refers to any compute environment that is physically close to the data source, ranging from a single‑board computer (e.g., Raspberry Pi) to a fleet of smartphones connected via 5G.",
+      "tags": [
+        "small-language-models",
+        "edge-computing",
+        "model-scaling",
+        "distributed-training",
+        "AI-ops"
+      ],
+      "scheduled_at": "2026-03-09T14:45:14Z",
       "status": "pending"
     }
   ]
