@@ -1616,7 +1616,7 @@
         "cloud-native"
       ],
       "scheduled_at": "2026-03-08T13:45:14Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Kubernetes Zero to Hero: The Definitive Guide to Container Orchestration and Scaling",
