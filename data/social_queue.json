@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-09T05:45:14Z",
+  "last_scheduled_at": "2026-03-09T06:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -1840,6 +1840,20 @@
         "Autonomous Coding"
       ],
       "scheduled_at": "2026-03-09T05:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Event‑Driven Architecture and Asynchronous Messaging Patterns with RabbitMQ and Python",
+      "url": "https://martinuke0.github.io/posts/2026-03-08-eventdriven-architecture-and-asynchronous-messaging-patterns-with-rabbitmq-and-python/",
+      "social_hook": "In modern software systems, responsiveness, scalability, and decoupling are no longer optional—they’re essential.  Event‑Driven Architecture (EDA) provides a blueprint for building applications that react to changes, propagate information efficiently, and evolve independently.  At the heart of many EDA implementations lies asynchronous messaging, a technique that lets producers and consumers operate at their own pace without tight coupling.\n\nOne of the most battle‑tested brokers for asynchronous messaging is RabbitMQ.  Coupled with Python—one of the most popular languages for rapid development and data‑intensive workloads—RabbitMQ becomes a powerful platform for building robust, event‑driven systems.\n\nBy the end, you’ll have a solid mental model of event‑driven systems and a working codebase you can extend for production workloads.",
+      "tags": [
+        "event-driven",
+        "rabbitmq",
+        "python",
+        "messaging",
+        "asynchronous"
+      ],
+      "scheduled_at": "2026-03-09T06:45:14Z",
       "status": "pending"
     }
   ]
