@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-09T11:45:14Z",
+  "last_scheduled_at": "2026-03-09T12:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -1924,6 +1924,20 @@
         "scalable deployment"
       ],
       "scheduled_at": "2026-03-09T11:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Low‑Latency Inference Pipelines for Real‑Time High‑Throughput Language Model Applications",
+      "url": "https://martinuke0.github.io/posts/2026-03-08-architecting-lowlatency-inference-pipelines-for-realtime-highthroughput-language-model-applications/",
+      "social_hook": "Large language models (LLMs) have moved from research prototypes to production‑grade services powering chatbots, code assistants, search augmentation, and real‑time translation. While model size and capability have exploded, user experience hinges on latency—the time between a request and the model’s first token. At the same time, many applications demand high throughput, processing thousands of concurrent queries per second (QPS).\n\nDesigning an inference pipeline that simultaneously satisfies sub‑100 ms latency and high QPS is a non‑trivial engineering challenge. It requires a holistic view that spans hardware selection, model compression, request routing, batching policies, and observability. This article walks you through the entire stack, from low‑level GPU kernels to cloud‑native orchestration, and provides concrete code snippets you can adapt to your own services.\n\n> Note: The techniques described here are applicable to transformer‑based LLMs (e.g., GPT‑3, LLaMA, Falcon) and can be generalized to encoder‑only models (BERT, RoBERTa) with minor adjustments.",
+      "tags": [
+        "LLM",
+        "Inference",
+        "LowLatency",
+        "Scalability",
+        "Production"
+      ],
+      "scheduled_at": "2026-03-09T12:45:14Z",
       "status": "pending"
     }
   ]
