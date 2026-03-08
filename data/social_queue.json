@@ -1742,7 +1742,7 @@
         "Machine Learning"
       ],
       "scheduled_at": "2026-03-08T22:45:14Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "The Shift to Local-First AI: Deploying Quantized Small Language Models via WebGPU and WASM",
