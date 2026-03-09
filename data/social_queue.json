@@ -2036,7 +2036,7 @@
         "verifiable-compute"
       ],
       "scheduled_at": "2026-03-09T19:45:14Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Deep Dive into Vector Databases for High‑Performance Retrieval‑Augmented Generation",
