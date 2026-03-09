@@ -2064,7 +2064,7 @@
         "Trading Dashboard"
       ],
       "scheduled_at": "2026-03-09T21:45:14Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Scaling Vector Databases for Production‑Grade Retrieval‑Augmented Generation",
