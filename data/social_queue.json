@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-09T19:45:14Z",
+  "last_scheduled_at": "2026-03-09T20:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -2036,6 +2036,20 @@
         "verifiable-compute"
       ],
       "scheduled_at": "2026-03-09T19:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Deep Dive into Vector Databases for High‑Performance Retrieval‑Augmented Generation",
+      "url": "https://martinuke0.github.io/posts/2026-03-09-deep-dive-into-vector-databases-for-highperformance-retrievalaugmented-generation/",
+      "social_hook": "Retrieval‑Augmented Generation (RAG) has emerged as a powerful paradigm for extending the knowledge and factual grounding of large language models (LLMs). Instead of relying solely on the parameters learned during pre‑training, a RAG system first retrieves relevant information from an external knowledge store and then generates a response conditioned on that retrieved context. The retrieval component is typically a vector database—a specialized datastore that indexes high‑dimensional embeddings and supports fast approximate nearest‑neighbor (ANN) search.\n\n1. Explain the mathematical foundations of vector representations and why they are ideal for semantic retrieval.\n\n2. Explore the core architecture of modern vector databases, including indexing structures, storage models, and scaling strategies.",
+      "tags": [
+        "vector-database",
+        "retrieval-augmented-generation",
+        "LLM",
+        "semantic-search",
+        "scalable-ml"
+      ],
+      "scheduled_at": "2026-03-09T20:45:14Z",
       "status": "pending"
     }
   ]
