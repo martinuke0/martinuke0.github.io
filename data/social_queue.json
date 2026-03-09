@@ -2092,7 +2092,7 @@
         "machine-learning"
       ],
       "scheduled_at": "2026-03-09T23:45:14Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Mastering Real-Time State Synchronization Between Distributed Python Microservices and Web Clients",
