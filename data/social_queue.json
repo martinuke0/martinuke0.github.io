@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-09T18:45:14Z",
+  "last_scheduled_at": "2026-03-09T19:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -2022,6 +2022,20 @@
         "token-bucket"
       ],
       "scheduled_at": "2026-03-09T18:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Scaling Verifiable Compute for Decentralized Neural Networks Using Zero Knowledge Proofs and Rust",
+      "url": "https://martinuke0.github.io/posts/2026-03-09-scaling-verifiable-compute-for-decentralized-neural-networks-using-zero-knowledge-proofs-and-rust/",
+      "social_hook": "The convergence of three powerful trends—decentralized computation, neural network inference, and zero‑knowledge proofs (ZKPs)—is reshaping how we think about trust, privacy, and scalability on the blockchain. Imagine a network where participants can collectively train or infer on a neural model, yet no single party learns the raw data, and every computation can be cryptographically verified without revealing the underlying inputs or weights. Achieving this vision requires solving two intertwined problems:\n\n1. Verifiable Compute – proving that a given computation was performed correctly.\n\n2. Scalable Zero‑Knowledge Proofs – generating proofs fast enough for large neural workloads.",
+      "tags": [
+        "zero-knowledge",
+        "decentralized-compute",
+        "rust",
+        "neural-networks",
+        "verifiable-compute"
+      ],
+      "scheduled_at": "2026-03-09T19:45:14Z",
       "status": "pending"
     }
   ]
