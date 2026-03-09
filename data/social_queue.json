@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-09T14:45:14Z",
+  "last_scheduled_at": "2026-03-09T15:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -1966,6 +1966,20 @@
         "AI-ops"
       ],
       "scheduled_at": "2026-03-09T14:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Scaling Decentralized Intelligence with High Performance Vector Databases and Zero Knowledge Proofs",
+      "url": "https://martinuke0.github.io/posts/2026-03-09-scaling-decentralized-intelligence-with-high-performance-vector-databases-and-zero-knowledge-proofs/",
+      "social_hook": "The convergence of decentralized intelligence, high‑performance vector databases, and zero‑knowledge proofs (ZKPs) is reshaping how modern applications handle massive, unstructured data while preserving privacy and trust. From recommendation systems that learn from billions of user interactions to autonomous agents that collaborate across a permissionless network, the ability to store, search, and verify high‑dimensional embeddings at scale is becoming a cornerstone of next‑generation AI infrastructure.\n\nThis article provides a deep dive into the technical foundations, practical implementations, and real‑world contexts that enable such scaling. We will explore how vector databases accelerate nearest‑neighbor queries, how ZKPs guarantee correctness without revealing sensitive data, and how their combination can power truly decentralized intelligence platforms. Throughout, you’ll find concrete code snippets, architectural diagrams, and actionable guidance for engineers looking to build or extend these systems.\n\nDecentralized intelligence refers to distributed AI systems where learning, inference, and decision‑making are not confined to a single monolithic server but are spread across many nodes—often owned by different participants. Key motivations include:",
+      "tags": [
+        "decentralized intelligence",
+        "vector databases",
+        "zero knowledge proofs",
+        "scalability",
+        "privacy"
+      ],
+      "scheduled_at": "2026-03-09T15:45:14Z",
       "status": "pending"
     }
   ]
