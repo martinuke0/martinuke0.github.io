@@ -1994,7 +1994,7 @@
         "architecture"
       ],
       "scheduled_at": "2026-03-09T16:45:14Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Architecting Real-Time Data Pipelines with Kafka and Flink for High-Throughput Systems",
@@ -2008,7 +2008,7 @@
         "Streaming"
       ],
       "scheduled_at": "2026-03-09T17:45:14Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Building Distributed Rate Limiters with Redis and the Token Bucket Algorithm",
