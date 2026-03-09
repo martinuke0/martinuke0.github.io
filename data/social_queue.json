@@ -1770,7 +1770,7 @@
         "devops"
       ],
       "scheduled_at": "2026-03-09T00:45:14Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Architectural Strategies for Scaling Distributed Vector Databases in Low‑Latency Edge Computing Environments",
