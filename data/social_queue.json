@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-09T21:45:14Z",
+  "last_scheduled_at": "2026-03-09T22:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -2064,6 +2064,20 @@
         "Trading Dashboard"
       ],
       "scheduled_at": "2026-03-09T21:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Scaling Vector Databases for Production‑Grade Retrieval‑Augmented Generation",
+      "url": "https://martinuke0.github.io/posts/2026-03-09-scaling-vector-databases-for-productiongrade-retrievalaugmented-generation/",
+      "social_hook": "Retrieval‑Augmented Generation (RAG) has become the de‑facto pattern for building knowledge‑aware large language model (LLM) applications. By coupling a generative model with a vector store that holds dense embeddings of documents, code, or product data, RAG systems can ground responses in up‑to‑date facts, reduce hallucinations, and dramatically cut inference costs.\n\nWhile prototypes can be built with a single‑node FAISS index or a managed SaaS offering, moving to production‑grade workloads introduces a new set of challenges:\n\n Reliability** – zero‑downtime deployments, graceful degradation, and strong SLA guarantees.",
+      "tags": [
+        "vector-databases",
+        "retrieval-augmented-generation",
+        "scalability",
+        "production",
+        "LLM"
+      ],
+      "scheduled_at": "2026-03-09T22:45:14Z",
       "status": "pending"
     }
   ]
