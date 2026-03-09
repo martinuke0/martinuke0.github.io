@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-10T04:45:14Z",
+  "last_scheduled_at": "2026-03-10T05:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -2162,6 +2162,20 @@
         "workflow optimization"
       ],
       "scheduled_at": "2026-03-10T04:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Scaling Vector Databases for High Performance Semantic Search in Large Scale Distributed Systems",
+      "url": "https://martinuke0.github.io/posts/2026-03-09-scaling-vector-databases-for-high-performance-semantic-search-in-large-scale-distributed-systems/",
+      "social_hook": "Semantic search has moved from a research curiosity to a production‑grade capability that powers everything from recommendation engines to enterprise knowledge bases. At its core, semantic search relies on vector embeddings—dense numeric representations of text, images, audio, or any other modality—that capture meaning in a high‑dimensional space. The challenge is no longer generating embeddings, but storing, indexing, and querying billions of them with low latency.\n\nEnter vector databases: purpose‑built storage engines that combine traditional database durability with specialized indexing structures (e.g., IVF, HNSW, PQ) for Approximate Nearest Neighbor (ANN) search. When these databases are deployed in large‑scale distributed systems, they must handle:\n\nThis article walks through the architectural patterns, performance‑tuning knobs, and real‑world best practices for scaling vector databases to meet those demands. We’ll explore:",
+      "tags": [
+        "vector databases",
+        "semantic search",
+        "distributed systems",
+        "scalability",
+        "performance"
+      ],
+      "scheduled_at": "2026-03-10T05:45:14Z",
       "status": "pending"
     }
   ]
