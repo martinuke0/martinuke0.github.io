@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-10T02:45:14Z",
+  "last_scheduled_at": "2026-03-10T03:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -2134,6 +2134,20 @@
         "zero-copy"
       ],
       "scheduled_at": "2026-03-10T02:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Beyond the Hype: Scaling Multi-Agent Orchestration with Open-Source Fluid Inference Kernels",
+      "url": "https://martinuke0.github.io/posts/2026-03-09-beyond-the-hype-scaling-multi-agent-orchestration-with-open-source-fluid-inference-kernels/",
+      "social_hook": "The past few years have witnessed an explosion of interest in multi‑agent systems (MAS)—networks of autonomous AI agents that collaborate, compete, or coordinate to solve problems that are beyond the reach of a single model. From autonomous trading bots and distributed personal assistants to large‑scale simulation environments for scientific research, the promise of MAS is undeniable. Yet, as the hype has grown, so have the operational challenges:\n\n Resource contention** on GPUs/TPUs when dozens or hundreds of agents run inference simultaneously.\n\n State synchronization** across distributed nodes, especially when agents maintain long‑term memory or knowledge graphs.",
+      "tags": [
+        "AI",
+        "Multi-Agent Systems",
+        "Open-Source",
+        "Inference",
+        "Scalability"
+      ],
+      "scheduled_at": "2026-03-10T03:45:14Z",
       "status": "pending"
     }
   ]
