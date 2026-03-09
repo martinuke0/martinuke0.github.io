@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-10T01:45:14Z",
+  "last_scheduled_at": "2026-03-10T02:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -2120,6 +2120,20 @@
         "AI engineering"
       ],
       "scheduled_at": "2026-03-10T01:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Low-Latency Stream Processing for Real-Time Financial Data Using Rust and Zero-Copy Architecture",
+      "url": "https://martinuke0.github.io/posts/2026-03-09-low-latency-stream-processing-for-real-time-financial-data-using-rust-and-zero-copy-architecture/",
+      "social_hook": "Financial markets move at breakneck speed. A millisecond advantage can translate into millions of dollars, especially in high‑frequency trading (HFT), market‑making, and risk‑management scenarios. Consequently, the software infrastructure that consumes, processes, and reacts to market data must be engineered for ultra‑low latency and deterministic performance.\n\nIn this article we explore how to build a real‑time stream processing pipeline for financial data using the Rust programming language combined with a zero‑copy architecture. We will:\n\n* Show why Rust’s ownership model, zero‑cost abstractions, and concurrency primitives are uniquely suited for this domain.",
+      "tags": [
+        "rust",
+        "stream-processing",
+        "low-latency",
+        "financial-data",
+        "zero-copy"
+      ],
+      "scheduled_at": "2026-03-10T02:45:14Z",
       "status": "pending"
     }
   ]
