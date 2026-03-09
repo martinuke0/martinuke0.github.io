@@ -2022,7 +2022,7 @@
         "token-bucket"
       ],
       "scheduled_at": "2026-03-09T18:45:14Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Scaling Verifiable Compute for Decentralized Neural Networks Using Zero Knowledge Proofs and Rust",
