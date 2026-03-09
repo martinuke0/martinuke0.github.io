@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-09T15:45:14Z",
+  "last_scheduled_at": "2026-03-09T16:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -1980,6 +1980,20 @@
         "privacy"
       ],
       "scheduled_at": "2026-03-09T15:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting High‑Throughput Event‑Driven Microservices with Kafka and Distributed Redis Caching",
+      "url": "https://martinuke0.github.io/posts/2026-03-09-architecting-highthroughput-eventdriven-microservices-with-kafka-and-distributed-redis-caching/",
+      "social_hook": "In today’s digital economy, applications must process massive streams of data in near‑real time while remaining resilient, scalable, and easy to evolve. Event‑driven microservices, powered by a robust messaging backbone and an intelligent caching layer, have become the de‑facto pattern for achieving these goals. Apache Kafka provides the high‑throughput, fault‑tolerant log that decouples producers from consumers, whereas a distributed Redis cache offers sub‑millisecond data access that dramatically reduces latency for read‑heavy workloads.\n\nThis article walks you through the architectural decisions, design patterns, and implementation details required to build high‑throughput, event‑driven microservices that combine Kafka and Redis. We’ll explore partitioning strategies, consumer‑group scaling, exactly‑once semantics, cache‑aside patterns, and real‑world deployment considerations. By the end, you’ll have a concrete blueprint you can apply to a production system that needs to ingest millions of events per second while delivering responsive user experiences.\n\nEvent‑driven systems excel at decoupling. Producers emit events without knowledge of who consumes them, enabling independent evolution of services. The benefits include:",
+      "tags": [
+        "microservices",
+        "kafka",
+        "redis",
+        "event-driven",
+        "architecture"
+      ],
+      "scheduled_at": "2026-03-09T16:45:14Z",
       "status": "pending"
     }
   ]
