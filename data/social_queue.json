@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-10T03:45:14Z",
+  "last_scheduled_at": "2026-03-10T04:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -2148,6 +2148,20 @@
         "Scalability"
       ],
       "scheduled_at": "2026-03-10T03:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Autonomous Agent Workflows with Decentralized Event‑Driven State Management and Edge Compute",
+      "url": "https://martinuke0.github.io/posts/2026-03-09-optimizing-autonomous-agent-workflows-with-decentralized-eventdriven-state-management-and-edge-compute/",
+      "social_hook": "Autonomous agents—whether they are delivery drones, self‑driving cars, industrial robots, or software bots that negotiate cloud resources—operate in environments that are increasingly dynamic, distributed, and resource‑constrained. Traditional monolithic control loops, where a central server maintains a single source of truth for every agent’s state, quickly become bottlenecks as the number of agents scales, latency requirements tighten, and privacy regulations tighten.\n\n1. Decentralized, event‑driven state management – instead of a single master database, each agent (or a small cluster of agents) maintains its own state and propagates changes through an event bus. This eliminates single points of failure and reduces coordination latency.\n\n2. Edge compute – moving computation, inference, and decision‑making to the network edge (e.g., on‑board GPUs, edge gateways, or micro‑data‑centers) shortens the feedback loop between perception and actuation, conserves bandwidth, and respects data‑locality constraints.",
+      "tags": [
+        "autonomous agents",
+        "edge computing",
+        "event-driven architecture",
+        "decentralized systems",
+        "workflow optimization"
+      ],
+      "scheduled_at": "2026-03-10T04:45:14Z",
       "status": "pending"
     }
   ]
