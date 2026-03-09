@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-10T06:45:14Z",
+  "last_scheduled_at": "2026-03-10T07:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -2190,6 +2190,20 @@
         "scalability"
       ],
       "scheduled_at": "2026-03-10T06:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Autonomous Self-Healing Infrastructure: Bridging Real-Time Monitoring and Agentic Remediation Workflows",
+      "url": "https://martinuke0.github.io/posts/2026-03-09-autonomous-self-healing-infrastructure-bridging-real-time-monitoring-and-agentic-remediation-workflows/",
+      "social_hook": "Modern cloud‑native systems are expected to be always‑on, elastic, and resilient. As the number of microservices, containers, and serverless functions grows, the operational surface area expands dramatically. Traditional incident‑response pipelines—where engineers manually sift through alerts, diagnose root causes, and apply fixes—are no longer sustainable at scale.\n\nEnter autonomous self‑healing infrastructure: a paradigm that couples real‑time observability with agentic remediation. In this model, telemetry streams are continuously analyzed, anomalies are detected instantly, and autonomous agents execute corrective actions without human intervention. The goal is not to eliminate engineers but to free them from repetitive, low‑value toil, allowing them to focus on strategic work.\n\nThis article provides a deep dive into the concepts, architectural patterns, tooling, and real‑world experiences that enable truly self‑healing environments. We’ll explore:",
+      "tags": [
+        "autonomous",
+        "self-healing",
+        "monitoring",
+        "remediation",
+        "infrastructure"
+      ],
+      "scheduled_at": "2026-03-10T07:45:14Z",
       "status": "pending"
     }
   ]
