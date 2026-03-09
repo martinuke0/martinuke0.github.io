@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-09T17:45:14Z",
+  "last_scheduled_at": "2026-03-09T18:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -2008,6 +2008,20 @@
         "Streaming"
       ],
       "scheduled_at": "2026-03-09T17:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building Distributed Rate Limiters with Redis and the Token Bucket Algorithm",
+      "url": "https://martinuke0.github.io/posts/2026-03-09-building-distributed-rate-limiters-with-redis-and-the-token-bucket-algorithm/",
+      "social_hook": "In modern web services, protecting APIs from abuse, ensuring fair resource allocation, and maintaining a predictable quality‑of‑service are non‑negotiable requirements. Rate limiting—the practice of restricting how many requests a client can make in a given time window—addresses these concerns. While a simple in‑process limiter works for monolithic applications, today’s micro‑service ecosystems demand a distributed solution that works across multiple instances, data centers, and even cloud regions.\n\nThis article walks you through the complete design and implementation of a distributed rate limiter built on Redis using the Token Bucket algorithm. We’ll cover the theory behind token buckets, why Redis is a natural fit, practical implementation details, edge‑case handling, scaling strategies, and real‑world patterns you can adopt immediately.\n\n> Note: The concepts herein are language‑agnostic, but we’ll provide concrete examples in Python and Node.js to illustrate key patterns.",
+      "tags": [
+        "distributed-systems",
+        "rate-limiting",
+        "redis",
+        "system-design",
+        "token-bucket"
+      ],
+      "scheduled_at": "2026-03-09T18:45:14Z",
       "status": "pending"
     }
   ]
