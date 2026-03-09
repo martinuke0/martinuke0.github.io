@@ -1854,7 +1854,7 @@
         "asynchronous"
       ],
       "scheduled_at": "2026-03-09T06:45:14Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Optimizing Real-Time Inference on Edge Devices with Localized Large Multi-Modal Models",
