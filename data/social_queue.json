@@ -1938,7 +1938,7 @@
         "Production"
       ],
       "scheduled_at": "2026-03-09T12:45:14Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Mastering Asynchronous Worker Patterns in Python for High‑Performance Data Processing Pipelines",
