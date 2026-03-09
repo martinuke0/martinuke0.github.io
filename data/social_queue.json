@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-09T20:45:14Z",
+  "last_scheduled_at": "2026-03-09T21:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -2050,6 +2050,20 @@
         "scalable-ml"
       ],
       "scheduled_at": "2026-03-09T20:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building a Real-Time Trading Dashboard with Supabase Webhooks and Node.js Streams",
+      "url": "https://martinuke0.github.io/posts/2026-03-09-building-a-real-time-trading-dashboard-with-supabase-webhooks-and-nodejs-streams/",
+      "social_hook": "In the world of algorithmic trading, market data is the lifeblood of every strategy. Traders and developers alike need instantaneous, reliable, and scalable pipelines that turn raw exchange events into actionable visualizations. Traditional polling approaches quickly become a bottleneck, especially when dealing with high‑frequency tick data or multi‑asset portfolios.\n\nEnter Supabase, the open‑source Firebase alternative that offers a Postgres‑backed backend with built‑in authentication, storage, and—most importantly for this article—webhooks. Coupled with Node.js streams, you can build a low‑latency, back‑pressure‑aware ingestion layer that pushes updates to a front‑end dashboard in real time.\n\n4. Streaming data to a front‑end dashboard using Server‑Sent Events (SSE) or WebSockets.",
+      "tags": [
+        "Supabase",
+        "Webhooks",
+        "Node.js",
+        "Real-Time",
+        "Trading Dashboard"
+      ],
+      "scheduled_at": "2026-03-09T21:45:14Z",
       "status": "pending"
     }
   ]
