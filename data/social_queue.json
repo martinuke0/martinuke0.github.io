@@ -2078,7 +2078,7 @@
         "LLM"
       ],
       "scheduled_at": "2026-03-09T22:45:14Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Optimizing Vector Database Performance for Real‑Time Retrieval‑Augmented Generation at Scale",
