@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-10T05:45:14Z",
+  "last_scheduled_at": "2026-03-10T06:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -2176,6 +2176,20 @@
         "performance"
       ],
       "scheduled_at": "2026-03-10T05:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Serverless Orchestration for Scalable Generative AI Applications and Vector Databases",
+      "url": "https://martinuke0.github.io/posts/2026-03-09-optimizing-serverless-orchestration-for-scalable-generative-ai-applications-and-vector-databases/",
+      "social_hook": "Generative AI—particularly large language models (LLMs) and diffusion models—has moved from research labs into production‑grade services. At the same time, vector databases such as Pinecone, Milvus, and Qdrant have become the de‑facto storage layer for high‑dimensional embeddings that power similarity search, retrieval‑augmented generation (RAG), and semantic ranking.\n\nDeploying these components at scale traditionally required a fleet of managed VMs, containers, or even bare‑metal clusters. Serverless computing offers an attractive alternative: you pay only for the compute you actually use, you gain instant elasticity, and you offload operational overhead to the cloud provider.\n\nHowever, serverless is not a silver bullet. Orchestrating many short‑lived functions, handling stateful interactions with vector stores, and keeping latency under control demand careful design. This article dives deep into optimizing serverless orchestration for scalable generative AI applications that rely on vector databases. We’ll explore architectural patterns, performance tricks, cost‑saving strategies, security considerations, and a complete end‑to‑end example that you can adapt to your own workloads.",
+      "tags": [
+        "serverless",
+        "generative-ai",
+        "vector-databases",
+        "orchestration",
+        "scalability"
+      ],
+      "scheduled_at": "2026-03-10T06:45:14Z",
       "status": "pending"
     }
   ]
