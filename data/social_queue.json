@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-09T16:45:14Z",
+  "last_scheduled_at": "2026-03-09T17:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -1994,6 +1994,20 @@
         "architecture"
       ],
       "scheduled_at": "2026-03-09T16:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Real-Time Data Pipelines with Kafka and Flink for High-Throughput Systems",
+      "url": "https://martinuke0.github.io/posts/2026-03-09-architecting-real-time-data-pipelines-with-kafka-and-flink-for-high-throughput-systems/",
+      "social_hook": "In the era of digital transformation, organizations increasingly rely on real‑time insights to drive decision‑making, personalize user experiences, and detect anomalies instantly. Building a pipeline that can ingest, process, and deliver massive streams of data with sub‑second latency is no longer a luxury—it’s a necessity for high‑throughput systems such as e‑commerce platforms, IoT telemetry, fraud detection engines, and ad‑tech networks.\n\n Apache Kafka** – a distributed, durable log that excels at high‑throughput ingestion and decoupling of producers and consumers.\n\n Apache Flink** – a stateful stream processing engine designed for exactly‑once semantics, low latency, and sophisticated event‑time handling.",
+      "tags": [
+        "Kafka",
+        "Flink",
+        "Data Engineering",
+        "Real-Time",
+        "Streaming"
+      ],
+      "scheduled_at": "2026-03-09T17:45:14Z",
       "status": "pending"
     }
   ]
