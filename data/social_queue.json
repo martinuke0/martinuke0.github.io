@@ -1840,7 +1840,7 @@
         "Autonomous Coding"
       ],
       "scheduled_at": "2026-03-09T05:45:14Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Event‑Driven Architecture and Asynchronous Messaging Patterns with RabbitMQ and Python",
