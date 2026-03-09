@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-09T23:45:14Z",
+  "last_scheduled_at": "2026-03-10T00:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -2092,6 +2092,20 @@
         "machine-learning"
       ],
       "scheduled_at": "2026-03-09T23:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Real-Time State Synchronization Between Distributed Python Microservices and Web Clients",
+      "url": "https://martinuke0.github.io/posts/2026-03-09-mastering-real-time-state-synchronization-between-distributed-python-microservices-and-web-clients/",
+      "social_hook": "In modern web applications, the user experience increasingly depends on instantaneous feedback—think live dashboards, collaborative editing tools, multiplayer games, or real‑time monitoring systems. Achieving that responsiveness is no longer an optional nicety; it is a core requirement for competitive products. The technical challenge lies in keeping the state consistent across a fleet of distributed Python microservices and the browsers or native clients that render that state to end users.\n\nThis article dives deep into the architectural, algorithmic, and operational aspects of real‑time state synchronization. We’ll explore why naïve polling approaches fall short, compare communication protocols, discuss consistency models, and walk through a complete, production‑grade example built with FastAPI, WebSockets, and Redis Streams. By the end, you’ll have a clear roadmap for designing, implementing, and operating a robust real‑time sync layer that scales horizontally while preserving data integrity and security.\n\nTraditional polling (e.g., an HTTP GET every few seconds) introduces artificial latency equal to the poll interval. If you set the interval to 1 second, the UI can be a full second stale. Reduce the interval to 100 ms and you flood the network with redundant requests, wasting bandwidth and increasing server load.",
+      "tags": [
+        "python",
+        "microservices",
+        "realtime",
+        "websockets",
+        "state-sync"
+      ],
+      "scheduled_at": "2026-03-10T00:45:14Z",
       "status": "pending"
     }
   ]
