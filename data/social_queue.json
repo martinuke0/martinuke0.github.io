@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-11T00:45:14Z",
+  "last_scheduled_at": "2026-03-11T01:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -2442,6 +2442,20 @@
         "scalability"
       ],
       "scheduled_at": "2026-03-11T00:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Real-Time Data Pipelines for High-Frequency Financial Trading Systems and Market Analysis",
+      "url": "https://martinuke0.github.io/posts/2026-03-10-optimizing-real-time-data-pipelines-for-high-frequency-financial-trading-systems-and-market-analysis/",
+      "social_hook": "High‑frequency trading (HFT) and modern market‑analysis platforms rely on real‑time data pipelines that can ingest, transform, and deliver market events with sub‑millisecond latency. In a domain where a single millisecond can translate into millions of dollars, every architectural decision—from network stack to state management—has a measurable impact on profitability and risk.\n\nThis article provides a deep dive into the design, implementation, and operational considerations needed to build a production‑grade real‑time data pipeline for HFT and market analysis. We will explore:\n\n* End‑to‑end architecture patterns that balance speed, reliability, and scalability.",
+      "tags": [
+        "high-frequency trading",
+        "data pipelines",
+        "real-time analytics",
+        "financial engineering",
+        "system optimization"
+      ],
+      "scheduled_at": "2026-03-11T01:45:14Z",
       "status": "pending"
     }
   ]
