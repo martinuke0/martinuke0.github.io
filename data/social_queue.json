@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-10T22:45:14Z",
+  "last_scheduled_at": "2026-03-10T23:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -2414,6 +2414,20 @@
         "ML Ops"
       ],
       "scheduled_at": "2026-03-10T22:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Vector Databases for High Performance Retrieval Augmented Generation and Scalable AI Architectures",
+      "url": "https://martinuke0.github.io/posts/2026-03-10-mastering-vector-databases-for-high-performance-retrieval-augmented-generation-and-scalable-ai-architectures/",
+      "social_hook": "Retrieval‑Augmented Generation (RAG) has become the de‑facto paradigm for building knowledge‑aware language models. Instead of relying solely on a model’s internal parameters, RAG pipelines fetch relevant context from an external knowledge store and inject it into the generation step. The quality, latency, and scalability of that retrieval step hinge on a single, often underestimated component: the vector database.\n\nVector databases store high‑dimensional embeddings—dense numeric representations of text, images, audio, or multimodal data—and enable approximate nearest‑neighbor (ANN) search at scale. When engineered correctly, they can serve billions of vectors with sub‑10‑millisecond latency, making them the backbone of modern AI‑first products such as conversational assistants, personalized search, and large‑scale recommendation engines.\n\nThis article is a deep dive into mastering vector databases for high‑performance RAG and scalable AI architectures. We will explore theoretical foundations, practical indexing choices, integration patterns with popular LLM toolkits, and operational best practices that move a prototype from a Jupyter notebook to a production‑grade service.",
+      "tags": [
+        "vector databases",
+        "RAG",
+        "AI architecture",
+        "scalability",
+        "retrieval"
+      ],
+      "scheduled_at": "2026-03-10T23:45:14Z",
       "status": "pending"
     }
   ]
