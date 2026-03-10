@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-10T21:45:14Z",
+  "last_scheduled_at": "2026-03-10T22:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -2400,6 +2400,20 @@
         "High Throughput"
       ],
       "scheduled_at": "2026-03-10T21:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Low Latency Inference Pipelines for Real‑Time Generative AI at the Edge",
+      "url": "https://martinuke0.github.io/posts/2026-03-10-optimizing-low-latency-inference-pipelines-for-realtime-generative-ai-at-the-edge/",
+      "social_hook": "Generative AI models—text, image, audio, or multimodal—have exploded in popularity thanks to their ability to produce high‑quality content on demand. However, many of these models were originally designed for server‑grade GPUs in data centers, where latency and resource constraints are far less strict. Deploying them in the field, on edge devices such as autonomous robots, AR glasses, or industrial IoT gateways, introduces a new set of challenges:\n\n Hard real‑time constraints**: A conversational assistant on a wearable must respond within ~100 ms to feel natural.\n\n Limited compute & power budgets**: Edge nodes often run on ARM CPUs, low‑power GPUs, or dedicated NPUs.",
+      "tags": [
+        "generative AI",
+        "edge computing",
+        "low latency",
+        "inference optimization",
+        "ML Ops"
+      ],
+      "scheduled_at": "2026-03-10T22:45:14Z",
       "status": "pending"
     }
   ]
