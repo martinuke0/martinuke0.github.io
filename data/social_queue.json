@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-10T20:45:14Z",
+  "last_scheduled_at": "2026-03-10T21:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -2386,6 +2386,20 @@
         "Real‑Time"
       ],
       "scheduled_at": "2026-03-10T20:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building High‑Throughput Distributed Event Mesh Architectures with NATS and Golang",
+      "url": "https://martinuke0.github.io/posts/2026-03-10-building-highthroughput-distributed-event-mesh-architectures-with-nats-and-golang/",
+      "social_hook": "In modern micro‑service ecosystems, event‑driven architectures have become the de‑facto standard for achieving loose coupling, resilience, and real‑time data propagation. As organizations grow, a single messaging broker often becomes a bottleneck—both in terms of throughput (messages per second) and geographic distribution (multi‑region, multi‑cloud). This is where an event mesh—a federated network of brokers that routes events across domains—enters the picture.\n\nIn this article we explore how to build a high‑throughput distributed event mesh using NATS (a lightweight, cloud‑native messaging system) and Golang (the language that powers NATS client libraries). We’ll walk through the core concepts, dive into architectural decisions, and provide a hands‑on code example that demonstrates a production‑grade mesh capable of handling millions of events per second.\n\n> Note: The concepts presented here assume familiarity with basic messaging patterns (pub/sub, request/reply) and Go programming. If you’re new to NATS, consider reading the official documentation first.",
+      "tags": [
+        "NATS",
+        "Golang",
+        "Event Mesh",
+        "Distributed Systems",
+        "High Throughput"
+      ],
+      "scheduled_at": "2026-03-10T21:45:14Z",
       "status": "pending"
     }
   ]
