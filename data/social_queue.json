@@ -2106,7 +2106,7 @@
         "state-sync"
       ],
       "scheduled_at": "2026-03-10T00:45:14Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Beyond Fine-Tuning: Adaptive Memory Management for Long-Context Retrieval-Augmented Generation Systems",
@@ -2120,7 +2120,7 @@
         "AI engineering"
       ],
       "scheduled_at": "2026-03-10T01:45:14Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Low-Latency Stream Processing for Real-Time Financial Data Using Rust and Zero-Copy Architecture",
