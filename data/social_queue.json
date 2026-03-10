@@ -2218,7 +2218,7 @@
         "machine-learning"
       ],
       "scheduled_at": "2026-03-10T08:45:14Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Optimizing Transformer Inference with Custom Kernels and Hardware‑Accelerated Matrix Operations",
