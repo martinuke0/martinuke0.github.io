@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-10T08:45:14Z",
+  "last_scheduled_at": "2026-03-10T09:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -2218,6 +2218,20 @@
         "machine-learning"
       ],
       "scheduled_at": "2026-03-10T08:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Transformer Inference with Custom Kernels and Hardware‑Accelerated Matrix Operations",
+      "url": "https://martinuke0.github.io/posts/2026-03-10-optimizing-transformer-inference-with-custom-kernels-and-hardwareaccelerated-matrix-operations/",
+      "social_hook": "Transformer models have become the de‑facto standard for natural language processing (NLP), computer vision, and many other AI domains. While training these models often requires massive compute clusters, inference—especially at production scale—poses a different set of challenges. Real‑time applications such as chatbots, recommendation engines, or on‑device language assistants demand low latency, high throughput, and predictable resource usage.\n\nThe dominant cost during inference is the matrix multiplication (often called GEMM – General Matrix‑Multiply) that underlies the attention mechanism and the feed‑forward layers. Modern CPUs, GPUs, TPUs, FPGAs, and purpose‑built ASICs provide hardware primitives that can accelerate these operations dramatically. However, out‑of‑the‑box kernels shipped with deep‑learning frameworks are rarely tuned for the exact shapes and precision requirements of a specific transformer workload.\n\n3. Designing and integrating custom kernels that exploit low‑level matrix‑operation primitives.",
+      "tags": [
+        "transformers",
+        "inference",
+        "hardware-acceleration",
+        "custom-kernels",
+        "deep-learning"
+      ],
+      "scheduled_at": "2026-03-10T09:45:14Z",
       "status": "pending"
     }
   ]
