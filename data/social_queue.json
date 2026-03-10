@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-10T07:45:14Z",
+  "last_scheduled_at": "2026-03-10T08:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -2204,6 +2204,20 @@
         "infrastructure"
       ],
       "scheduled_at": "2026-03-10T07:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Demystifying Large Language Models: From Transformer Architecture to Deployment at Scale",
+      "url": "https://martinuke0.github.io/posts/2026-03-10-demystifying-large-language-models-from-transformer-architecture-to-deployment-at-scale/",
+      "social_hook": "Large language models (LLMs) such as GPT‑4, PaLM, and LLaMA have reshaped the AI landscape, powering everything from conversational agents to code assistants. Yet, many practitioners still view these systems as black boxes—mysterious, monolithic, and impossible to manage in production. This article pulls back the curtain, walking you through the core transformer architecture, the training pipeline, and the practicalities of deploying models that contain billions of parameters at scale.\n\n* Understand the math and intuition behind self‑attention and why it supersedes recurrent networks.\n\n* Know the key steps in preparing data, tokenizing text, and selecting a pre‑training objective.",
+      "tags": [
+        "large-language-models",
+        "transformer",
+        "deployment",
+        "AI-ops",
+        "machine-learning"
+      ],
+      "scheduled_at": "2026-03-10T08:45:14Z",
       "status": "pending"
     }
   ]
