@@ -2260,7 +2260,7 @@
         "performance"
       ],
       "scheduled_at": "2026-03-10T11:45:14Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Optimizing Edge-Native WASM Workloads for the Global 6G Decentralized Infrastructure Network",
