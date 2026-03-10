@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-10T10:45:14Z",
+  "last_scheduled_at": "2026-03-10T11:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -2246,6 +2246,20 @@
         "Deployment"
       ],
       "scheduled_at": "2026-03-10T10:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Distributed Vector Search Performance with Rust and Asynchronous Stream Processing",
+      "url": "https://martinuke0.github.io/posts/2026-03-10-optimizing-distributed-vector-search-performance-with-rust-and-asynchronous-stream-processing/",
+      "social_hook": "Vector search has become the backbone of modern AI‑driven applications—think semantic text retrieval, image similarity, recommendation engines, and large‑scale knowledge graphs. The core operation is a nearest‑neighbor (k‑NN) search in a high‑dimensional vector space, often with billions of vectors spread across many machines. Achieving low latency and high throughput at this scale is a formidable engineering challenge.\n\nRust, with its zero‑cost abstractions, strong type system, and fearless concurrency model, is uniquely positioned to address these challenges. Combined with asynchronous stream processing, Rust can efficiently ingest, index, and query massive vector datasets while keeping CPU, memory, and network utilization under tight control.\n\nThis article dives deep into the architecture, design patterns, and concrete Rust code needed to build a high‑performance distributed vector search system. We’ll cover:",
+      "tags": [
+        "rust",
+        "vector-search",
+        "distributed-systems",
+        "asynchronous",
+        "performance"
+      ],
+      "scheduled_at": "2026-03-10T11:45:14Z",
       "status": "pending"
     }
   ]
