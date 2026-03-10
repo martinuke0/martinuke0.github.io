@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-10T18:45:14Z",
+  "last_scheduled_at": "2026-03-10T19:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -2358,6 +2358,20 @@
         "pipeline optimization"
       ],
       "scheduled_at": "2026-03-10T18:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building the Enterprise Operating System: Lessons from Palantir's AIP, Foundry, and Apollo Architecture",
+      "url": "https://martinuke0.github.io/posts/2026-03-10-building-the-enterprise-operating-system-lessons-from-palantir/",
+      "social_hook": "In the evolving landscape of enterprise technology, few systems aspire to the ambition of functioning as a true enterprise operating system. Palantir's trio of platforms—AIP (Artificial Intelligence Platform), Foundry, and Apollo—represents a sophisticated blueprint for integrating data, AI, logic, and deployment at scale. Born from high-stakes environments like counterterrorism and now spanning healthcare, manufacturing, and energy, this architecture redefines how organizations operationalize their data assets. This post dives deep into its core components, explores practical implementations, and draws connections to broader trends in computer science, drawing inspiration from Palantir's forward-deployed engineering philosophy.[1][2]\n\nUnlike traditional data platforms that silo tools for ingestion, analysis, or modeling, Palantir's stack treats the enterprise as a unified computational environment. Foundry handles data operations, AIP infuses generative AI capabilities, and Apollo ensures seamless, secure delivery. Together, they form a resilient mesh of over 300 microservices, autoscaling across zero-trust infrastructure. For technical leaders and engineers, understanding this model offers actionable insights into building scalable, AI-native systems that bridge human intuition with machine intelligence.\n\nPalantir's development methodology, Forward Deployed Engineering (FDE), is the human analog to neural network backpropagation. Engineers embed directly with customers, gathering real-time feedback to iterate rapidly—much like gradient descent optimizes models by propagating errors backward.[1] This approach has propelled Palantir from niche defense applications to 50+ verticals, proving that proximity to problems accelerates innovation.",
+      "tags": [
+        "enterprise-architecture",
+        "data-ontology",
+        "generative-ai",
+        "continuous-delivery",
+        "zero-trust-security"
+      ],
+      "scheduled_at": "2026-03-10T19:45:14Z",
       "status": "pending"
     }
   ]
