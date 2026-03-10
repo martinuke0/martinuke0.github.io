@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-10T11:45:14Z",
+  "last_scheduled_at": "2026-03-10T12:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -2260,6 +2260,20 @@
         "performance"
       ],
       "scheduled_at": "2026-03-10T11:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Edge-Native WASM Workloads for the Global 6G Decentralized Infrastructure Network",
+      "url": "https://martinuke0.github.io/posts/2026-03-10-optimizing-edge-native-wasm-workloads-for-the-global-6g-decentralized-infrastructure-network/",
+      "social_hook": "6. Practical Example: Deploying a Real‑Time Video Analytics WASM Service on a 6G Edge Node\n\nThe next generation of wireless connectivity—6G—is no longer a distant research concept. Industry consortia, standards bodies, and leading telecom operators are already prototyping ultra‑high‑bandwidth, sub‑millisecond latency networks that promise to power a truly global, decentralized infrastructure. In this emerging ecosystem, edge‑native workloads will dominate because the value of data diminishes the farther it travels from its source.\n\nEnter WebAssembly (WASM). Originally designed as a safe, portable compilation target for browsers, WASM has matured into a universal runtime for cloud, serverless, and, crucially, edge environments. Its sandboxed execution model, deterministic performance, and language‑agnostic tooling make it an ideal substrate for the compute‑intensive, latency‑sensitive services that 6G will enable.",
+      "tags": [
+        "6G",
+        "WebAssembly",
+        "Edge Computing",
+        "Decentralized Infrastructure",
+        "Performance Optimization"
+      ],
+      "scheduled_at": "2026-03-10T12:45:14Z",
       "status": "pending"
     }
   ]
