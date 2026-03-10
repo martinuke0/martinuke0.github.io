@@ -2358,7 +2358,7 @@
         "pipeline optimization"
       ],
       "scheduled_at": "2026-03-10T18:45:14Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Building the Enterprise Operating System: Lessons from Palantir's AIP, Foundry, and Apollo Architecture",
