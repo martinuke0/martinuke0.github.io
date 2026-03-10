@@ -2372,7 +2372,7 @@
         "zero-trust-security"
       ],
       "scheduled_at": "2026-03-10T19:45:14Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Beyond the LLM: Architecting Real-Time Multi‑Agent Systems with Open‑Source Orchestration Frameworks",
