@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-10T19:45:14Z",
+  "last_scheduled_at": "2026-03-10T20:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -2372,6 +2372,20 @@
         "zero-trust-security"
       ],
       "scheduled_at": "2026-03-10T19:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Beyond the LLM: Architecting Real-Time Multi‑Agent Systems with Open‑Source Orchestration Frameworks",
+      "url": "https://martinuke0.github.io/posts/2026-03-10-beyond-the-llm-architecting-real-time-multiagent-systems-with-opensource-orchestration-frameworks/",
+      "social_hook": "Large language models (LLMs) have transformed how we think about intelligent software. The early wave of applications focused on single‑agent interactions—chatbots, document summarizers, code assistants—where a user sends a prompt and receives a response. However, many real‑world problems demand coordinated, real‑time collaboration among multiple autonomous agents. Examples include:\n\n Dynamic customer‑support routing** where a triage agent decides whether a billing, technical, or escalation bot should handle a request.\n\n Autonomous trading desks** where risk‑assessment, market‑data, and execution agents must act within milliseconds.",
+      "tags": [
+        "LLM",
+        "Multi‑Agent Systems",
+        "Orchestration",
+        "Open‑Source",
+        "Real‑Time"
+      ],
+      "scheduled_at": "2026-03-10T20:45:14Z",
       "status": "pending"
     }
   ]
