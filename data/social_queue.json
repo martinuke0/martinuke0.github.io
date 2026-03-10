@@ -2162,7 +2162,7 @@
         "workflow optimization"
       ],
       "scheduled_at": "2026-03-10T04:45:14Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Scaling Vector Databases for High Performance Semantic Search in Large Scale Distributed Systems",
