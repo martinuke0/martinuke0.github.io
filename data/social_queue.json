@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-10T15:45:14Z",
+  "last_scheduled_at": "2026-03-10T16:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -2316,6 +2316,20 @@
         "resilience"
       ],
       "scheduled_at": "2026-03-10T15:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Beyond LLMs: Implementing Local SLM‑Orchestrated Agents for Privacy‑First Edge Computing Workflows",
+      "url": "https://martinuke0.github.io/posts/2026-03-10-beyond-llms-implementing-local-slmorchestrated-agents-for-privacyfirst-edge-computing-workflows/",
+      "social_hook": "The AI renaissance has been dominated by large language models (LLMs) such as GPT‑4, Claude, and Gemini. Their impressive capabilities have spurred a wave of cloud‑centric services, where the heavy computational lift is outsourced to massive data centers. While this paradigm works well for many consumer applications, it raises three critical concerns for edge‑centric, privacy‑first workflows:\n\n2. Latency & reliability – Real‑time decisions cannot wait for round‑trip network delays or suffer from intermittent connectivity.\n\n3. Cost & scalability – Continuous cloud inference at scale can become prohibitively expensive for enterprises with thousands of edge nodes.",
+      "tags": [
+        "edge computing",
+        "privacy",
+        "small language models",
+        "AI orchestration",
+        "distributed systems"
+      ],
+      "scheduled_at": "2026-03-10T16:45:14Z",
       "status": "pending"
     }
   ]
