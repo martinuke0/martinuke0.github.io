@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-10T17:45:14Z",
+  "last_scheduled_at": "2026-03-10T18:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -2344,6 +2344,20 @@
         "Local AI"
       ],
       "scheduled_at": "2026-03-10T17:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Distributed Cache Consistency for Real‑Time Inference in Edge‑Native ML Pipelines",
+      "url": "https://martinuke0.github.io/posts/2026-03-10-optimizing-distributed-cache-consistency-for-realtime-inference-in-edgenative-ml-pipelines/",
+      "social_hook": "Edge‑native machine‑learning (ML) pipelines are becoming the backbone of latency‑sensitive applications such as autonomous vehicles, industrial IoT, AR/VR, and smart video analytics. In these scenarios, inference must happen in milliseconds, often on devices that have limited compute, memory, and network bandwidth. To meet these constraints, developers rely on distributed caches that store model artifacts, feature vectors, and intermediate results close to the point of execution.\n\nHowever, caching introduces a new challenge: consistency. When a model is updated, a feature store is refreshed, or a data‑drift detection system flags a change, all edge nodes must see the same view of the cache within a bounded time. Inconsistent cache state can lead to:\n\nThis article provides an in‑depth guide to optimizing distributed cache consistency for real‑time inference in edge‑native pipelines. We will explore consistency models, trade‑offs, practical protocols, and code examples that you can adopt today.",
+      "tags": [
+        "distributed cache",
+        "edge computing",
+        "real-time inference",
+        "machine learning",
+        "pipeline optimization"
+      ],
+      "scheduled_at": "2026-03-10T18:45:14Z",
       "status": "pending"
     }
   ]
