@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-11T21:03:10Z",
+  "last_scheduled_at": "2026-03-11T22:03:10Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -2723,6 +2723,20 @@
       ],
       "scheduled_at": "2026-03-11T21:03:10Z",
       "status": "posted"
+    },
+    {
+      "title": "Optimizing Local Inference: A Guide to the New WebGPU‑Llama 4 Quantization Standards",
+      "url": "https://martinuke0.github.io/posts/2026-03-11-optimizing-local-inference-a-guide-to-the-new-webgpullama-4-quantization-standards/",
+      "social_hook": "Running large language models (LLMs) directly in a web browser or on edge devices has moved from a research curiosity to a practical necessity. Users now expect instant, privacy‑preserving AI features without the latency and cost of round‑trip server calls. The convergence of two powerful technologies—WebGPU, the next‑generation graphics and compute API for the web, and Llama 4, Meta’s latest open‑source LLM—creates a fertile ground for on‑device inference.\n\nHowever, raw Llama 4 models (often 7 B – 70 B parameters) are far too large to fit into the limited memory and compute budgets of browsers, smartphones, or embedded GPUs. Quantization—the process of representing model weights and activations with fewer bits—offers the most direct path to shrink model size, reduce bandwidth, and accelerate arithmetic. In early 2024, the community introduced a set of WebGPU‑Llama 4 quantization standards that define how to prepare, serialize, and execute quantized Llama 4 models efficiently on any WebGPU‑compatible device.\n\n4. The new quantization standards, including weight formats, activation handling, and runtime APIs.",
+      "tags": [
+        "WebGPU",
+        "Llama4",
+        "Quantization",
+        "LocalInference",
+        "MachineLearning"
+      ],
+      "scheduled_at": "2026-03-11T22:03:10Z",
+      "status": "pending"
     }
   ]
 }
