@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-11T05:45:14Z",
+  "last_scheduled_at": "2026-03-11T06:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -2512,6 +2512,20 @@
         "Productivity"
       ],
       "scheduled_at": "2026-03-11T05:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Vector Databases for Local Semantic Search and RAG Based Private Architectures",
+      "url": "https://martinuke0.github.io/posts/2026-03-11-mastering-vector-databases-for-local-semantic-search-and-rag-based-private-architectures/",
+      "social_hook": "The explosion of large language models (LLMs) has transformed how we retrieve and generate information. While LLMs excel at generating fluent text, they are not inherently grounded in your proprietary data. That gap is filled by Retrieval‑Augmented Generation (RAG)—a paradigm that couples a generative model with a fast, accurate retrieval component. When the retrieval component is a vector database, you gain the ability to perform semantic search over massive, unstructured corpora with sub‑second latency.\n\nIn many enterprise and regulated‑industry contexts, data cannot leave the premises. You need a private, local architecture that respects privacy, compliance, and performance constraints. This article walks you through the theory, design choices, and hands‑on implementation of a full‑stack, locally hosted semantic search and RAG system built on a vector database.\n\n* Design a modular pipeline for ingesting, indexing, and querying documents locally.",
+      "tags": [
+        "vector databases",
+        "semantic search",
+        "RAG",
+        "private AI",
+        "LLM"
+      ],
+      "scheduled_at": "2026-03-11T06:45:14Z",
       "status": "pending"
     }
   ]
