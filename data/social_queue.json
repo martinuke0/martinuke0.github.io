@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-11T11:02:44Z",
+  "last_scheduled_at": "2026-03-11T12:02:44Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -2583,6 +2583,20 @@
       ],
       "scheduled_at": "2026-03-11T11:02:44Z",
       "status": "posted"
+    },
+    {
+      "title": "Optimizing Local LLM Inference with Liquid Neural Networks and RISC‑V Hardware Acceleration",
+      "url": "https://martinuke0.github.io/posts/2026-03-11-optimizing-local-llm-inference-with-liquid-neural-networks-and-riscv-hardware-acceleration/",
+      "social_hook": "Large language models (LLMs) have moved from research labs into everyday products—chat assistants, code generators, and real‑time translators. While cloud‑based inference offers virtually unlimited compute, many use‑cases demand local execution: privacy‑sensitive data, intermittent connectivity, or ultra‑low latency for interactive devices.\n\nRunning a multi‑billion‑parameter transformer on a modest edge platform is a classic “resource‑vs‑performance” problem. Two emerging technologies promise to shift that balance:\n\n1. Liquid Neural Networks (LNNs) – a class of continuous‑time recurrent networks that can adapt their computational budget on the fly, making them naturally suited for variable‑load inference.",
+      "tags": [
+        "LLM",
+        "Liquid Neural Networks",
+        "RISC-V",
+        "Hardware Acceleration",
+        "Edge AI"
+      ],
+      "scheduled_at": "2026-03-11T12:02:44Z",
+      "status": "pending"
     }
   ]
 }
