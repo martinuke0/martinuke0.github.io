@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-11T19:02:44Z",
+  "last_scheduled_at": "2026-03-11T20:02:49Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -2695,6 +2695,20 @@
       ],
       "scheduled_at": "2026-03-11T19:02:44Z",
       "status": "posted"
+    },
+    {
+      "title": "Optimizing Distributed Inference for Low‑Latency Edge Computing with Rust and WebAssembly Agents",
+      "url": "https://martinuke0.github.io/posts/2026-03-11-optimizing-distributed-inference-for-lowlatency-edge-computing-with-rust-and-webassembly-agents/",
+      "social_hook": "Edge computing is reshaping the way we deliver intelligent services. By moving inference workloads from centralized clouds to devices that sit physically close to the data source—IoT sensors, smartphones, industrial controllers—we can achieve sub‑millisecond response times, reduce bandwidth costs, and improve privacy.\n\nHowever, the edge environment is notoriously heterogeneous: CPUs range from ARM Cortex‑M micro‑controllers to x86 server‑class SoCs, operating systems differ, and network connectivity can be intermittent. To reap the benefits of edge AI, developers must orchestrate distributed inference pipelines that:\n\n Rust** – a systems language that offers memory safety, zero‑cost abstractions, and deterministic performance.",
+      "tags": [
+        "edge computing",
+        "distributed inference",
+        "rust",
+        "webassembly",
+        "low latency"
+      ],
+      "scheduled_at": "2026-03-11T20:02:49Z",
+      "status": "pending"
     }
   ]
 }
