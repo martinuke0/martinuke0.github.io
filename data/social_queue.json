@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-11T16:02:44Z",
+  "last_scheduled_at": "2026-03-11T17:02:44Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -2653,6 +2653,20 @@
       ],
       "scheduled_at": "2026-03-11T16:02:44Z",
       "status": "posted"
+    },
+    {
+      "title": "Mastering Event Driven Architectures Designing Scalable Asynchronous Systems for Real Time Data Processing",
+      "url": "https://martinuke0.github.io/posts/2026-03-11-mastering-event-driven-architectures-designing-scalable-asynchronous-systems-for-real-time-data-processing/",
+      "social_hook": "In a world where data is generated at unprecedented velocity—think IoT sensor streams, click‑through events, financial market ticks, and user‑generated content—traditional request‑response architectures quickly hit their limits. Latency spikes, resource contention, and brittle coupling become the norm, and businesses lose the competitive edge that real‑time insights can provide.\n\nEvent‑Driven Architecture (EDA) offers a different paradigm: systems react to events as they happen, decoupling producers from consumers and enabling asynchronous, scalable processing pipelines. When designed correctly, an event‑driven system can ingest millions of events per second, transform them on the fly, and deliver actionable results with sub‑second latency.\n\nThis article is a deep dive into mastering EDA for real‑time data processing. We will explore the core concepts, architectural patterns, scalability techniques, practical implementation details, and operational considerations needed to build robust, production‑grade asynchronous systems.",
+      "tags": [
+        "event-driven",
+        "asynchronous",
+        "scalability",
+        "real-time",
+        "architecture"
+      ],
+      "scheduled_at": "2026-03-11T17:02:44Z",
+      "status": "pending"
     }
   ]
 }
