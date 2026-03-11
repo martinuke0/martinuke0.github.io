@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-11T18:02:44Z",
+  "last_scheduled_at": "2026-03-11T19:02:44Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -2681,6 +2681,20 @@
       ],
       "scheduled_at": "2026-03-11T18:02:44Z",
       "status": "posted"
+    },
+    {
+      "title": "Accelerating Real‑Time Inference for Large Language Models with TensorRT and Quantization",
+      "url": "https://martinuke0.github.io/posts/2026-03-11-accelerating-realtime-inference-for-large-language-models-with-tensorrt-and-quantization/",
+      "social_hook": "Large language models (LLMs) such as GPT‑3, LLaMA, and Falcon have reshaped natural‑language processing, but their sheer size (tens to hundreds of billions of parameters) makes real‑time inference a daunting engineering challenge. Deployments that demand sub‑100 ms latency—interactive chatbots, code assistants, or on‑device AI—cannot afford the raw latency of a vanilla PyTorch or TensorFlow forward pass on a single GPU.\n\nTwo complementary technologies have emerged as the de‑facto standard for squeezing every last millisecond out of modern GPUs:\n\n1. NVIDIA TensorRT – a high‑performance inference optimizer and runtime that fuses kernels, selects the best algorithms, and exploits GPU‑specific features such as Tensor Cores.",
+      "tags": [
+        "LLM",
+        "TensorRT",
+        "Quantization",
+        "Inference Optimization",
+        "Deep Learning"
+      ],
+      "scheduled_at": "2026-03-11T19:02:44Z",
+      "status": "pending"
     }
   ]
 }
