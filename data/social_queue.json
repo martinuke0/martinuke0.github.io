@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-11T15:02:44Z",
+  "last_scheduled_at": "2026-03-11T16:02:44Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -2639,6 +2639,20 @@
       ],
       "scheduled_at": "2026-03-11T15:02:44Z",
       "status": "posted"
+    },
+    {
+      "title": "Navigating the Shift from Prompt Engineering to Agentic Workflow Orchestration in 2026",
+      "url": "https://martinuke0.github.io/posts/2026-03-11-navigating-the-shift-from-prompt-engineering-to-agentic-workflow-orchestration-in-2026/",
+      "social_hook": "The past few years have witnessed a dramatic transformation in how developers, product teams, and researchers interact with large language models (LLMs). In 2023–2024, prompt engineering—the art of crafting textual inputs that coax LLMs into producing the desired output—was the dominant paradigm. By 2026, however, the conversation has shifted toward agentic workflow orchestration: a higher‑level approach that treats LLMs as autonomous agents capable of planning, executing, and iterating on complex tasks across multiple tools and data sources.\n\nWhether you are a seasoned prompt engineer, an AI‑ops professional, or a product leader looking to future‑proof your roadmap, this guide offers practical insights and concrete code you can adapt today.\n\nPractitioners iteratively refined wording, temperature, and token limits to improve consistency. The approach worked well for:",
+      "tags": [
+        "prompt engineering",
+        "agentic workflows",
+        "AI orchestration",
+        "LLM ops",
+        "future of AI"
+      ],
+      "scheduled_at": "2026-03-11T16:02:44Z",
+      "status": "pending"
     }
   ]
 }
