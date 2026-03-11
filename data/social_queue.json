@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-11T10:02:44Z",
+  "last_scheduled_at": "2026-03-11T11:02:44Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -2569,6 +2569,20 @@
       ],
       "scheduled_at": "2026-03-11T10:02:44Z",
       "status": "posted"
+    },
+    {
+      "title": "A Deep Dive into Rust Memory Management: From Ownership to Low‑Level Optimization",
+      "url": "https://martinuke0.github.io/posts/2026-03-11-a-deep-dive-into-rust-memory-management-from-ownership-to-lowlevel-optimization/",
+      "social_hook": "Rust has earned a reputation as the language that delivers C‑level performance while offering memory safety guarantees that most systems languages lack. At the heart of this promise lies Rust’s unique approach to memory management: a static ownership model enforced by the compiler, combined with the ability to drop down to raw pointers and `unsafe` blocks when absolute control is required.\n\nThis article is a comprehensive, deep‑dive into how Rust manages memory—from the high‑level concepts of ownership and borrowing down to low‑level optimizations that touch the metal. We’ll explore:\n\n* The ownership, borrowing, and lifetime system that eliminates many classes of bugs.",
+      "tags": [
+        "Rust",
+        "Memory Management",
+        "Ownership",
+        "Performance",
+        "Systems Programming"
+      ],
+      "scheduled_at": "2026-03-11T11:02:44Z",
+      "status": "pending"
     }
   ]
 }
