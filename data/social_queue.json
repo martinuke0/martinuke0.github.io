@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-11T02:45:14Z",
+  "last_scheduled_at": "2026-03-11T03:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -2470,6 +2470,20 @@
         "Performance"
       ],
       "scheduled_at": "2026-03-11T02:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Debugging the Latency Gap: Optimizing Edge-Native Applications for the 6G Spectrum Rollout",
+      "url": "https://martinuke0.github.io/posts/2026-03-11-debugging-the-latency-gap-optimizing-edge-native-applications-for-the-6g-spectrum-rollout/",
+      "social_hook": "The forthcoming 6G wireless generation promises unprecedented bandwidth, ultra‑reliable low‑latency communication (URLLC), and massive device connectivity. Yet, as the radio spectrum expands into sub‑THz frequencies, the latency gap—the difference between theoretical propagation limits and the actual end‑to‑end response time—remains a critical barrier for edge‑native applications such as immersive augmented reality (AR), autonomous driving, and real‑time industrial control.\n\nEdge‑native applications are designed to run as close to the data source as possible, leveraging edge compute nodes, micro‑data centers, and distributed AI models. However, the complex interplay of radio‑access network (RAN) slicing, transport protocols, container orchestration, and hardware acceleration introduces hidden delays that are difficult to pinpoint and even harder to remediate.\n\nThis article provides a comprehensive, step‑by‑step guide for developers, network engineers, and system architects to debug, profile, and optimize latency in edge‑native workloads destined for the 6G era. We will explore the physics of sub‑THz propagation, dissect the software stack, present practical code snippets for measurement, and showcase real‑world case studies that illustrate how to close the latency gap without sacrificing reliability or scalability.",
+      "tags": [
+        "6G",
+        "EdgeComputing",
+        "LatencyOptimization",
+        "NetworkDebugging",
+        "FutureTech"
+      ],
+      "scheduled_at": "2026-03-11T03:45:14Z",
       "status": "pending"
     }
   ]
