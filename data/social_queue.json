@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-11T04:45:14Z",
+  "last_scheduled_at": "2026-03-11T05:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -2498,6 +2498,20 @@
         "AI-democratization"
       ],
       "scheduled_at": "2026-03-11T04:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Beyond the Chatbot: Mastering Agentic Workflows with the New Open-Action Protocol 2.0",
+      "url": "https://martinuke0.github.io/posts/2026-03-11-beyond-the-chatbot-mastering-agentic-workflows-with-the-new-open-action-protocol-20/",
+      "social_hook": "The rise of conversational AI has transformed how businesses interact with customers, automate repetitive tasks, and extract insights from data. Early chatbots—rule‑based and later powered by large language models (LLMs)—were primarily reactive: they waited for a user prompt and responded with a static answer or a single action. While this model works well for simple Q&A, it falls short when the goal is to orchestrate multi‑step, context‑aware processes that span APIs, databases, and human interventions.\n\nEnter the Open-Action Protocol 2.0 (OAP 2.0), a community‑driven specification that moves beyond the “chat‑first” paradigm toward agentic workflows. In OAP 2.0, an AI “agent” is not just a conversational interface; it is a first‑class orchestrator capable of planning, executing, monitoring, and adapting a chain of actions across heterogeneous systems. This shift opens up a new frontier for productivity, enabling developers to build self‑directed automation pipelines that can learn, self‑optimize, and respond to dynamic business environments.\n\nThis article provides a deep dive into OAP 2.0, exploring its architectural foundations, core concepts, and practical implementation patterns. We’ll walk through two end‑to‑end examples—automated ticket routing and self‑optimizing marketing campaigns—while highlighting security, testing, and integration considerations. By the end, you’ll have a solid mental model and concrete code snippets to start building your own agentic workflows.",
+      "tags": [
+        "Open-Action",
+        "Agentic Workflows",
+        "AI Automation",
+        "Protocol 2.0",
+        "Productivity"
+      ],
+      "scheduled_at": "2026-03-11T05:45:14Z",
       "status": "pending"
     }
   ]
