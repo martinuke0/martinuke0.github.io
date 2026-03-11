@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-11T22:03:10Z",
+  "last_scheduled_at": "2026-03-11T23:03:10Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -2737,6 +2737,20 @@
       ],
       "scheduled_at": "2026-03-11T22:03:10Z",
       "status": "posted"
+    },
+    {
+      "title": "Optimizing Latency in Decentralized Inference Markets: A Guide to the 2026 AI Infrastructure Shift",
+      "url": "https://martinuke0.github.io/posts/2026-03-11-optimizing-latency-in-decentralized-inference-markets-a-guide-to-the-2026-ai-infrastructure-shift/",
+      "social_hook": "The AI landscape is undergoing a rapid transformation. By 2026, the dominant model for serving machine‑learning inference will no longer be monolithic data‑center APIs owned by a handful of cloud providers. Instead, decentralized inference markets—open ecosystems where model owners, compute providers, and requesters interact through token‑based incentives—are poised to become the primary conduit for AI services.\n\nIn a decentralized setting, latency is the most visible metric for end‑users. Even a model with state‑of‑the‑art accuracy will be rejected if it cannot respond within the tight time bounds demanded by real‑time applications such as autonomous vehicles, AR/VR, or high‑frequency trading. This guide explores why latency matters, how the 2026 AI infrastructure shift reshapes the problem, and—most importantly—what concrete engineering patterns you can adopt today to keep your inference market competitive.\n\n> Note: This article assumes familiarity with basic distributed‑systems concepts (consensus, gossip protocols) and modern deep‑learning frameworks (PyTorch, TensorFlow). If you need a refresher, see the Resources section at the end.",
+      "tags": [
+        "AI infrastructure",
+        "decentralized AI",
+        "latency optimization",
+        "inference markets",
+        "edge computing"
+      ],
+      "scheduled_at": "2026-03-11T23:03:10Z",
+      "status": "pending"
     }
   ]
 }
