@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-11T13:02:44Z",
+  "last_scheduled_at": "2026-03-11T14:02:44Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -2611,6 +2611,20 @@
       ],
       "scheduled_at": "2026-03-11T13:02:44Z",
       "status": "posted"
+    },
+    {
+      "title": "The Shift to Local-First AI: Optimizing Small Language Models for Browser-Based Edge Computing",
+      "url": "https://martinuke0.github.io/posts/2026-03-11-the-shift-to-local-first-ai-optimizing-small-language-models-for-browser-based-edge-computing/",
+      "social_hook": "Artificial intelligence has traditionally lived in centralized data centers, where massive clusters of GPUs crunch billions of parameters to generate a single answer. Over the past few years, a paradigm shift has emerged: local‑first AI. Instead of sending every query to a remote server, developers are increasingly pushing inference—sometimes even lightweight training—onto the edge, right where the user interacts with the application.\n\nThe browser is the most ubiquitous edge device. Modern JavaScript engines, WebAssembly (Wasm), and the fledgling WebGPU API provide enough horsepower to run small language models (SLMs) directly in a user’s tab. By keeping inference local, we gain privacy, low latency, offline capability, and cost savings. However, achieving this goal requires careful model selection, aggressive compression, and engineering tricks that respect the constraints of a sandboxed browser environment.\n\nWhether you are a front‑end engineer curious about adding AI to a web app, a product manager assessing the feasibility of offline features, or a researcher exploring edge‑centric model design, the material below will give you a solid foundation to build, benchmark, and ship local‑first language capabilities.",
+      "tags": [
+        "AI",
+        "Edge Computing",
+        "Small Language Models",
+        "Browser",
+        "Local-First"
+      ],
+      "scheduled_at": "2026-03-11T14:02:44Z",
+      "status": "pending"
     }
   ]
 }
