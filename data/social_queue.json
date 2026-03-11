@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-11T12:02:44Z",
+  "last_scheduled_at": "2026-03-11T13:02:44Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -2597,6 +2597,20 @@
       ],
       "scheduled_at": "2026-03-11T12:02:44Z",
       "status": "posted"
+    },
+    {
+      "title": "Optimizing Vector Database Performance: A Zero‑to‑Hero Guide for Scalable AI Applications",
+      "url": "https://martinuke0.github.io/posts/2026-03-11-optimizing-vector-database-performance-a-zerotohero-guide-for-scalable-ai-applications/",
+      "social_hook": "Vector databases have become the backbone of modern AI‑driven applications—semantic search, recommendation engines, visual similarity search, and large‑language‑model (LLM) retrieval‑augmented generation (RAG) all rely on fast, accurate nearest‑neighbor (NN) look‑ups over high‑dimensional embeddings. While many cloud providers now offer managed vector stores, developers still need a solid understanding of the underlying mechanics to extract the best performance and cost efficiency.\n\nThis zero‑to‑hero guide walks you through every layer that influences vector database performance, from hardware choices and indexing algorithms to query patterns and observability. By the end, you’ll be equipped to:\n\nAll concepts are illustrated with practical Python snippets using popular open‑source and managed solutions (Milvus, FAISS, Pinecone). Let’s dive in.",
+      "tags": [
+        "vector-databases",
+        "AI‑scalability",
+        "performance‑tuning",
+        "embedding‑search",
+        "distributed‑systems"
+      ],
+      "scheduled_at": "2026-03-11T13:02:44Z",
+      "status": "pending"
     }
   ]
 }
