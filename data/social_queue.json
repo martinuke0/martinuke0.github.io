@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-11T20:02:49Z",
+  "last_scheduled_at": "2026-03-11T21:03:10Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -2709,6 +2709,20 @@
       ],
       "scheduled_at": "2026-03-11T20:02:49Z",
       "status": "posted"
+    },
+    {
+      "title": "Mastering Real-Time Market Data Streams with Python and Claude for Algorithmic Trading",
+      "url": "https://martinuke0.github.io/posts/2026-03-11-mastering-real-time-market-data-streams-with-python-and-claude-for-algorithmic-trading/",
+      "social_hook": "Algorithmic trading has moved from a niche hobby of a few quant firms to a mainstream tool for retail and institutional investors alike. The secret sauce behind successful strategies is real‑time market data: price ticks, order‑book depth, news headlines, and even social‑media sentiment that arrive in milliseconds and must be processed instantly.\n\nIn the past, building a low‑latency data pipeline required deep knowledge of networking protocols (FIX, UDP multicast), specialized hardware, and expensive data‑vendor licenses. Today, the combination of Python—the lingua franca of data science—and Claude, Anthropic’s large language model (LLM), offers a surprisingly powerful, cost‑effective way to ingest, enrich, and act upon live market streams.\n\nThis article walks you through the end‑to‑end process of mastering real‑time market data streams with Python and Claude for algorithmic trading. We will:",
+      "tags": [
+        "algorithmic trading",
+        "real-time data",
+        "python",
+        "anthropic",
+        "claude"
+      ],
+      "scheduled_at": "2026-03-11T21:03:10Z",
+      "status": "pending"
     }
   ]
 }
