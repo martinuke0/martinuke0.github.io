@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-11T03:45:14Z",
+  "last_scheduled_at": "2026-03-11T04:45:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -2484,6 +2484,20 @@
         "FutureTech"
       ],
       "scheduled_at": "2026-03-11T03:45:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "The Rise of Local LLMs: Optimizing Small Language Models for Consumer Hardware in 2026",
+      "url": "https://martinuke0.github.io/posts/2026-03-11-the-rise-of-local-llms-optimizing-small-language-models-for-consumer-hardware-in-2026/",
+      "social_hook": "Artificial intelligence has moved from massive data‑center deployments to the living room, the laptop, and even the smartphone. In 2026, the notion of “run‑anywhere” language models is no longer a research curiosity—it is a mainstream reality. Small, highly‑optimized language models (often referred to as local LLMs) can now deliver near‑state‑of‑the‑art conversational abilities on consumer‑grade CPUs, GPUs, and specialized AI accelerators without requiring an internet connection or a subscription to a cloud service.\n\nThis article explores why local LLMs have surged in popularity, the technical tricks that make them feasible on modest hardware, and how developers, hobbyists, and enterprises can leverage these models today. We will cover:\n\n* Core optimization techniques: quantization, pruning, knowledge distillation, and efficient inference engines.",
+      "tags": [
+        "local-llm",
+        "model-optimization",
+        "edge-computing",
+        "consumer-hardware",
+        "AI-democratization"
+      ],
+      "scheduled_at": "2026-03-11T04:45:14Z",
       "status": "pending"
     }
   ]
