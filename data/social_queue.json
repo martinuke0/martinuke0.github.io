@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-11T08:02:29Z",
+  "last_scheduled_at": "2026-03-11T09:02:44Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -2541,6 +2541,20 @@
       ],
       "scheduled_at": "2026-03-11T08:02:29Z",
       "status": "posted"
+    },
+    {
+      "title": "Scaling Local Intelligence: Building Privacy‑Focused Agentic Workflows with Autonomous Small Language Models",
+      "url": "https://martinuke0.github.io/posts/2026-03-11-scaling-local-intelligence-building-privacyfocused-agentic-workflows-with-autonomous-small-language-models/",
+      "social_hook": "The AI boom has been dominated by massive, cloud‑hosted language models that trade privacy for scale. Yet a growing segment of developers, enterprises, and regulators is demanding local intelligence—AI that runs on‑device or within a controlled on‑premises environment. This shift is not merely a reaction to data‑privacy concerns; it opens up opportunities to build agentic workflows that are autonomous, context‑aware, and tightly coupled with the user’s own data.\n\nIn this article we explore how to scale local intelligence using autonomous small language models (SLMs). We will:\n\n* Examine the technical characteristics of SLMs and why they are uniquely suited for edge deployment.",
+      "tags": [
+        "local AI",
+        "privacy",
+        "agentic workflows",
+        "small language models",
+        "scalable AI"
+      ],
+      "scheduled_at": "2026-03-11T09:02:44Z",
+      "status": "pending"
     }
   ]
 }
