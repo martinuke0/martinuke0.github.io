@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-11T14:02:44Z",
+  "last_scheduled_at": "2026-03-11T15:02:44Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -2625,6 +2625,20 @@
       ],
       "scheduled_at": "2026-03-11T14:02:44Z",
       "status": "posted"
+    },
+    {
+      "title": "LangChain Orchestration Deep Dive: Mastering Agentic Workflows for Production Grade LLM Applications",
+      "url": "https://martinuke0.github.io/posts/2026-03-11-langchain-orchestration-deep-dive-mastering-agentic-workflows-for-production-grade-llm-applications/",
+      "social_hook": "Large language models (LLMs) have moved from research curiosities to production‑grade components that power chatbots, knowledge bases, data extraction pipelines, and autonomous agents. While the raw capabilities of models like GPT‑4, Claude, or LLaMA are impressive, real‑world value emerges only when these models are orchestrated into reliable, maintainable workflows.\n\nEnter LangChain, an open‑source framework that provides a cohesive set of abstractions—agents, tools, memory, prompt templates, and more—to glue LLMs together with external systems. This article is a deep dive into LangChain’s orchestration layer, focusing on how to design, implement, and operate agentic workflows that meet production standards.\n\nWhether you’re building a multi‑step financial advisor, a dynamic customer‑support assistant, or a data‑driven research analyst, mastering LangChain orchestration is the key to turning a powerful LLM into a trustworthy, scalable service.",
+      "tags": [
+        "LangChain",
+        "LLM",
+        "Agentic Workflows",
+        "Production",
+        "AI Orchestration"
+      ],
+      "scheduled_at": "2026-03-11T15:02:44Z",
+      "status": "pending"
     }
   ]
 }
