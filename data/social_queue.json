@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-11T06:45:14Z",
+  "last_scheduled_at": "2026-03-11T08:02:29Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -2527,6 +2527,20 @@
       ],
       "scheduled_at": "2026-03-11T06:45:14Z",
       "status": "posted"
+    },
+    {
+      "title": "Building Scalable Multi-Agent Orchestration Frameworks for Production Grade Autonomous Systems",
+      "url": "https://martinuke0.github.io/posts/2026-03-11-building-scalable-multi-agent-orchestration-frameworks-for-production-grade-autonomous-systems/",
+      "social_hook": "Autonomous systems—ranging from self‑driving cars and warehouse robots to distributed drones and intelligent edge devices—are no longer experimental prototypes. They are being deployed at scale, handling safety‑critical tasks, meeting strict latency requirements, and operating in dynamic, unpredictable environments. To achieve this level of reliability, developers must move beyond single‑agent designs and embrace multi‑agent orchestration: a disciplined approach to coordinating many independent agents so that they behave as a coherent, adaptable whole.\n\nIn this article we explore how to design, implement, and operate scalable multi‑agent orchestration frameworks that meet production‑grade demands. We will:\n\n1. Define the core concepts that differentiate a production‑ready framework from a research prototype.",
+      "tags": [
+        "AI",
+        "Multi-Agent Systems",
+        "Orchestration",
+        "Scalability",
+        "Production"
+      ],
+      "scheduled_at": "2026-03-11T08:02:29Z",
+      "status": "pending"
     }
   ]
 }
