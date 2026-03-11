@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-11T09:02:44Z",
+  "last_scheduled_at": "2026-03-11T10:02:44Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -2555,6 +2555,20 @@
       ],
       "scheduled_at": "2026-03-11T09:02:44Z",
       "status": "posted"
+    },
+    {
+      "title": "Debugging the Black Box: New Observability Standards for Autonomous Agentic Workflows",
+      "url": "https://martinuke0.github.io/posts/2026-03-11-debugging-the-black-box-new-observability-standards-for-autonomous-agentic-workflows/",
+      "social_hook": "Autonomous agentic workflows—systems that compose, execute, and adapt a series of AI‑driven tasks without direct human supervision—are rapidly moving from research prototypes to production‑grade services. From AI‑powered customer‑support bots that orchestrate multiple language models to self‑optimizing data‑pipeline agents that schedule, transform, and validate data, the promise is undeniable: software that can think, plan, and act on its own.\n\nYet with great autonomy comes a familiar nightmare for engineers: the black‑box problem. When an agent makes a decision that leads to an error, a performance regression, or an unexpected side‑effect, we often lack the visibility needed to pinpoint the root cause. Traditional observability—logs, metrics, and traces—was built for request‑response services, not for recursive, self‑modifying agents that spawn sub‑tasks, exchange context, and evolve over time.\n\nIn this article we explore the emerging observability standards designed specifically for autonomous agentic workflows. We will:",
+      "tags": [
+        "observability",
+        "autonomous-agents",
+        "debugging",
+        "software-architecture",
+        "AI-workflows"
+      ],
+      "scheduled_at": "2026-03-11T10:02:44Z",
+      "status": "pending"
     }
   ]
 }
