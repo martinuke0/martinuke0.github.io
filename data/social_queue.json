@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-11T17:02:44Z",
+  "last_scheduled_at": "2026-03-11T18:02:44Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -2667,6 +2667,20 @@
       ],
       "scheduled_at": "2026-03-11T17:02:44Z",
       "status": "posted"
+    },
+    {
+      "title": "The Rise of Sovereign SLMs: Building Localized Reasoning Models with Open-Source Hardware Acceleration",
+      "url": "https://martinuke0.github.io/posts/2026-03-11-the-rise-of-sovereign-slms-building-localized-reasoning-models-with-open-source-hardware-acceleration/",
+      "social_hook": "The past decade has witnessed an unprecedented surge in large‑scale language models (LLMs) that dominate natural‑language processing (NLP) benchmarks. While these models deliver impressive capabilities, their reliance on massive cloud infrastructures, proprietary hardware, and centralized data pipelines raises concerns about data sovereignty, latency, energy consumption, and vendor lock‑in.\n\nEnter Sovereign Small Language Models (SLMs)—compact, locally‑run reasoning engines that empower organizations to keep data on‑premise, tailor behavior to niche domains, and operate under strict regulatory regimes. The catalyst behind this movement is open‑source hardware acceleration: a growing ecosystem of community‑driven CPUs, GPUs, FPGAs, and ASICs that can be customized, audited, and deployed without the constraints of proprietary silicon.\n\nThis article provides an in‑depth exploration of the technical, economic, and societal forces driving the rise of sovereign SLMs. We will:",
+      "tags": [
+        "AI",
+        "Edge Computing",
+        "Open Source",
+        "Hardware Acceleration",
+        "Sovereign AI"
+      ],
+      "scheduled_at": "2026-03-11T18:02:44Z",
+      "status": "pending"
     }
   ]
 }
