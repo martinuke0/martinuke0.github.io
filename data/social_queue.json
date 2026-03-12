@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-12T17:03:48Z",
+  "last_scheduled_at": "2026-03-12T18:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -2993,6 +2993,20 @@
         "System Design"
       ],
       "scheduled_at": "2026-03-12T17:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building Event-Driven Local AI Agents with Python Generators and Asynchronous Vector Processing",
+      "url": "https://martinuke0.github.io/posts/2026-03-12-building-event-driven-local-ai-agents-with-python-generators-and-asynchronous-vector-processing/",
+      "social_hook": "Artificial intelligence has moved far beyond the era of monolithic, batch‑oriented pipelines. Modern applications demand responsive, low‑latency agents that can react to user input, external signals, or system events in real time. While cloud‑based services such as OpenAI’s API provide powerful language models on demand, many developers and organizations are turning to local AI deployments for privacy, cost control, and offline capability.\n\nBuilding a local AI agent that can listen, process, and act in an event‑driven fashion introduces several challenges:\n\n1. Coordinating asynchronous I/O (e.g., reading from a microphone, fetching files from disk, or querying a vector store) without blocking the main thread.",
+      "tags": [
+        "event-driven",
+        "python",
+        "asyncio",
+        "vector-search",
+        "local-ai"
+      ],
+      "scheduled_at": "2026-03-12T18:03:48Z",
       "status": "pending"
     }
   ]
