@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-13T01:03:48Z",
+  "last_scheduled_at": "2026-03-13T02:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -3105,6 +3105,20 @@
         "kafka"
       ],
       "scheduled_at": "2026-03-13T01:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "From Batch to Real‑Time: Mastering Event‑Driven Architectures with Apache Kafka",
+      "url": "https://martinuke0.github.io/posts/2026-03-12-from-batch-to-realtime-mastering-eventdriven-architectures-with-apache-kafka/",
+      "social_hook": "For decades, enterprises have relied on batch jobs to move, transform, and analyze data. Nightly ETL pipelines, scheduled reports, and periodic data warehouses have been the backbone of decision‑making. Yet the business landscape is changing: customers expect instant feedback, fraud detection must happen in milliseconds, and Internet‑of‑Things (IoT) devices generate a continuous flood of events.\n\nEnter event‑driven architecture (EDA)—a paradigm where systems react to streams of immutable events as they happen. At the heart of modern EDA is Apache Kafka, a distributed log that can ingest billions of events per day, guarantee ordering per partition, and provide durable storage for as long as you need.\n\nThis article walks you through the journey from traditional batch processing to a fully real‑time, event‑driven architecture powered by Kafka. We’ll cover the theory, the core Kafka concepts, migration strategies, operational best practices, and a hands‑on example that you can run today.",
+      "tags": [
+        "apache-kafka",
+        "event-driven-architecture",
+        "real-time-processing",
+        "streaming",
+        "data-engineering"
+      ],
+      "scheduled_at": "2026-03-13T02:03:48Z",
       "status": "pending"
     }
   ]
