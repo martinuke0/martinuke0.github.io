@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-12T12:03:48Z",
+  "last_scheduled_at": "2026-03-12T13:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -2923,6 +2923,20 @@
       ],
       "scheduled_at": "2026-03-12T12:03:48Z",
       "status": "posted"
+    },
+    {
+      "title": "Scaling Autonomous Agents with Distributed Memory Systems and Real Time Observability Frameworks",
+      "url": "https://martinuke0.github.io/posts/2026-03-12-scaling-autonomous-agents-with-distributed-memory-systems-and-real-time-observability-frameworks/",
+      "social_hook": "Autonomous agents—software entities that perceive, reason, and act without continuous human guidance—are rapidly moving from isolated prototypes to production‑grade services. From conversational assistants and autonomous vehicles to large‑scale recommendation engines, these agents must process massive streams of data, maintain coherent state across many instances, and adapt in real time. The challenges of scaling such agents are fundamentally different from scaling stateless microservices:\n\n1. Distributed Memory Systems – shared, coherent, and highly available storage that lets thousands of agents read/write context efficiently.\n\n2. Real‑Time Observability Frameworks – instrumentation, tracing, and analytics pipelines that surface the internal state of agents as they operate.",
+      "tags": [
+        "autonomous-agents",
+        "distributed-systems",
+        "observability",
+        "memory-management",
+        "scalability"
+      ],
+      "scheduled_at": "2026-03-12T13:03:48Z",
+      "status": "pending"
     }
   ]
 }
