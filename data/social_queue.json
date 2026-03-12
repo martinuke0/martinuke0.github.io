@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-12T01:03:10Z",
+  "last_scheduled_at": "2026-03-12T03:03:12Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -2780,6 +2780,21 @@
       ],
       "scheduled_at": "2026-03-12T01:03:10Z",
       "status": "posted"
+    },
+    {
+      "title": "Architecting Autonomous DevOps Pipelines for Self‑Healing Microservices Using Local Agentic Workflows",
+      "url": "https://martinuke0.github.io/posts/2026-03-12-architecting-autonomous-devops-pipelines-for-selfhealing-microservices-using-local-agentic-workflows/",
+      "social_hook": "Modern cloud‑native applications have embraced microservice architectures for their agility, scalability, and independent deployment cycles. Yet, the very decentralization that gives microservices their power also introduces a new set of reliability challenges: network partitions, version incompatibilities, resource exhaustion, and cascading failures. Traditional DevOps pipelines—while excellent at delivering code—are largely reactive: they alert engineers after a problem surfaces.\n\nAutonomous DevOps pipelines aim to close that feedback loop by embedding self‑healing capabilities directly into the delivery workflow. By leveraging local agentic workflows, each node (or service) can make context‑aware decisions, trigger remediation actions, and report outcomes without waiting for a central orchestrator or human intervention.\n\n Show how to design a self‑healing microservice ecosystem** powered by local agents.",
+      "tags": [
+        "devops",
+        "microservices",
+        "self-healing",
+        "agentic",
+        "pipeline",
+        "automation"
+      ],
+      "scheduled_at": "2026-03-12T03:03:12Z",
+      "status": "pending"
     }
   ]
 }
