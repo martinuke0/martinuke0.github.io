@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-12T06:03:12Z",
+  "last_scheduled_at": "2026-03-12T07:03:28Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -2838,6 +2838,20 @@
       ],
       "scheduled_at": "2026-03-12T06:03:12Z",
       "status": "posted"
+    },
+    {
+      "title": "The Rise of Local LLMs: Optimizing Small Language Models for Edge Device Inference",
+      "url": "https://martinuke0.github.io/posts/2026-03-12-the-rise-of-local-llms-optimizing-small-language-models-for-edge-device-inference/",
+      "social_hook": "Large language models (LLMs) have captured headlines for their ability to generate human‑like text, answer questions, and even write code. Yet the majority of these breakthroughs rely on massive cloud‑based clusters equipped with dozens of GPUs and terabytes of memory. For many applications—smartphones, IoT sensors, industrial controllers, and autonomous drones—sending data to a remote server is undesirable due to latency, privacy, connectivity, or cost constraints.\n\nEnter local LLMs: compact, purpose‑built language models that can run directly on edge devices. Over the past two years, a confluence of research breakthroughs, tooling improvements, and hardware advances has made it feasible to run inference for models as small as 1 B parameters on a modest ARM CPU, or even sub‑100 M‑parameter models on microcontrollers. This blog post provides a deep dive into why local LLMs are rising, how they are optimized for edge inference, and what practical steps developers can take today.\n\n3. Core optimization techniques: quantization, pruning, knowledge distillation, and efficient tokenizers.",
+      "tags": [
+        "LLM",
+        "EdgeAI",
+        "ModelQuantization",
+        "OnDeviceInference",
+        "MachineLearning"
+      ],
+      "scheduled_at": "2026-03-12T07:03:28Z",
+      "status": "pending"
     }
   ]
 }
