@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-12T05:03:12Z",
+  "last_scheduled_at": "2026-03-12T06:03:12Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -2823,6 +2823,21 @@
       ],
       "scheduled_at": "2026-03-12T05:03:12Z",
       "status": "posted"
+    },
+    {
+      "title": "Optimizing Vector Database Performance for High-Throughput Large Language Model Applications",
+      "url": "https://martinuke0.github.io/posts/2026-03-12-optimizing-vector-database-performance-for-high-throughput-large-language-model-applications/",
+      "social_hook": "Large language models (LLMs) such as GPT‑4, Claude, or LLaMA have transformed how we approach natural language understanding, generation, and reasoning. While the raw generative capability of these models is impressive, many production‑grade applications rely on retrieval‑augmented generation (RAG), where the model is supplied with relevant context drawn from a massive corpus of documents, embeddings, or other structured data.\n\nAt the heart of RAG pipelines lies a vector database (also called a similarity search engine). It stores high‑dimensional embeddings, indexes them for fast nearest‑neighbor (K‑NN) lookup, and serves queries at scale. In high‑throughput scenarios—think chat‑bots handling thousands of concurrent users, real‑time recommendation engines, or search‑as‑you‑type interfaces—latency, throughput, and cost become critical success factors.\n\nThis article provides a deep dive into optimizing vector database performance for such demanding LLM workloads. We will explore the underlying architecture, identify common bottlenecks, discuss hardware and software tuning, demonstrate practical code snippets, and present a real‑world case study. By the end, you should have a concrete roadmap to achieve sub‑50 ms latency and millions of queries per day without sacrificing accuracy.",
+      "tags": [
+        "vector-database",
+        "performance",
+        "LLM",
+        "high-throughput",
+        "scalability",
+        "retrieval-augmented-generation"
+      ],
+      "scheduled_at": "2026-03-12T06:03:12Z",
+      "status": "pending"
     }
   ]
 }
