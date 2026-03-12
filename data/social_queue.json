@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-12T15:03:48Z",
+  "last_scheduled_at": "2026-03-12T16:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -2965,6 +2965,20 @@
         "financial systems"
       ],
       "scheduled_at": "2026-03-12T15:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Chainlink 2.0: Revolutionizing Blockchain with Hybrid Smart Contracts and Beyond",
+      "url": "https://martinuke0.github.io/posts/2026-03-12-chainlink-20-revolutionizing-blockchain-with-hybrid-smart-contracts-and-beyond/",
+      "social_hook": "In the evolving landscape of blockchain technology, Chainlink 2.0 emerges as a transformative force, expanding the boundaries of what smart contracts can achieve. By introducing Decentralized Oracle Networks (DONs) and focusing on seven pivotal areas—hybrid smart contracts, complexity abstraction, scaling, confidentiality, transaction order fairness, trust minimization, and incentive-based security—Chainlink 2.0 bridges the gap between on-chain and off-chain worlds, enabling applications that were previously unimaginable on blockchain alone.[1][2][3]\n\nThis isn't just an upgrade; it's a foundational shift toward hybrid smart contracts that combine blockchain's immutability with off-chain computation's flexibility. Drawing from the Chainlink 2.0 vision, this post explores these innovations in depth, connects them to broader tech trends like edge computing and zero-knowledge proofs, and provides practical insights for developers and builders in Web3.\n\nBlockchains excel at tamper-proof execution but are isolated from real-world data and computation. Smart contracts can't natively access APIs, weather data, or complex calculations without oracles—trusted bridges to off-chain resources. Chainlink 1.0 solved this with decentralized oracles, but as DeFi, NFTs, and enterprise apps scale, limitations in speed, privacy, and complexity become apparent.[3][4]",
+      "tags": [
+        "Chainlink",
+        "Blockchain",
+        "Smart Contracts",
+        "Decentralized Oracles",
+        "Web3"
+      ],
+      "scheduled_at": "2026-03-12T16:03:48Z",
       "status": "pending"
     }
   ]
