@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-13T05:03:48Z",
+  "last_scheduled_at": "2026-03-13T06:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -3162,6 +3162,20 @@
         "Prompt Engineering"
       ],
       "scheduled_at": "2026-03-13T05:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Demystifying FIX Protocol: The Backbone of Modern Electronic Trading and Beyond",
+      "url": "https://martinuke0.github.io/posts/2026-03-12-demystifying-fix-protocol-the-backbone-of-modern-electronic-trading-and-beyond/",
+      "social_hook": "In the high-stakes world of financial markets, where milliseconds can mean millions, the Financial Information eXchange (FIX) protocol stands as the universal language enabling seamless, real-time communication between traders, exchanges, brokers, and regulators. Born in 1992 from a simple need to streamline equity trades between two major players, FIX has evolved into a robust, open standard powering trillions in daily transactions across equities, forex, derivatives, and fixed income markets.[2][4][6]\n\nThis isn't just a niche finance tool—it's a masterclass in protocol design, drawing parallels to TCP/IP in networking or HTTP in web services. FIX's layered architecture, extensibility, and reliability features make it a fascinating study for any engineer interested in distributed systems, low-latency computing, or standardized messaging. In this deep dive, we'll unpack its history, architecture, real-world mechanics, implementation challenges, and connections to broader tech landscapes, complete with practical examples to make it actionable for developers and traders alike.\n\nFIX didn't emerge from a corporate lab or academic paper; it was a pragmatic response to real-world chaos in pre-electronic trading. In 1992, Fidelity Investments and Salomon Brothers sought a better way to exchange securities transaction data electronically, bypassing proprietary formats and fax machines. What started as a bilateral agreement quickly snowballed into an industry standard, now stewarded by the non-profit FIX Trading Community (formerly FIX Protocol Limited), comprising banks, exchanges, and tech firms.[2][4][6]",
+      "tags": [
+        "FIX Protocol",
+        "Financial Trading",
+        "Electronic Communications",
+        "Low-Latency Systems",
+        "Protocol Engineering"
+      ],
+      "scheduled_at": "2026-03-13T06:03:48Z",
       "status": "pending"
     }
   ]
