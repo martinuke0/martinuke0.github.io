@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-12T21:03:48Z",
+  "last_scheduled_at": "2026-03-12T22:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -3049,6 +3049,20 @@
         "AI Development Tools"
       ],
       "scheduled_at": "2026-03-12T21:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Inference for On-Device SLMs: A Guide to Local LLM Architectures in 2026",
+      "url": "https://martinuke0.github.io/posts/2026-03-12-optimizing-inference-for-on-device-slms-a-guide-to-local-llm-architectures-in-2026/",
+      "social_hook": "Large language models (LLMs) have become the de‑facto engine behind chatbots, code assistants, and generative AI products. Yet, the majority of deployments still rely on cloud‑based inference, which introduces latency, privacy concerns, and bandwidth costs. By 2026, the convergence of more capable edge hardware, advanced model compression, and high‑efficiency runtimes has made on‑device inference for Small Language Models (SLMs) a realistic option for many consumer and enterprise applications.\n\nThis guide walks you through the full stack of optimizing inference for on‑device SLMs: from selecting the right architecture, through quantization and pruning, to deploying with platform‑specific runtimes. The goal is to give engineers a concrete, end‑to‑end roadmap that can be applied today on Android, iOS, or embedded Linux devices.\n\nThe convergence of edge AI chips (e.g., Apple’s M2‑Pro, Qualcomm Snapdragon X‑Series, and Google’s Tensor G3) and software ecosystems (TensorFlow Lite, Core ML, ONNX Runtime Mobile) means that a 5‑10 B parameter model can run at interactive speeds on a flagship smartphone while consuming < 1 W of power.",
+      "tags": [
+        "LLM",
+        "On-Device",
+        "Inference",
+        "Optimization",
+        "2026"
+      ],
+      "scheduled_at": "2026-03-12T22:03:48Z",
       "status": "pending"
     }
   ]
