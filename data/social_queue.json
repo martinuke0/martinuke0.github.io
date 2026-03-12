@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-12T09:03:28Z",
+  "last_scheduled_at": "2026-03-12T10:03:28Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -2881,6 +2881,20 @@
       ],
       "scheduled_at": "2026-03-12T09:03:28Z",
       "status": "posted"
+    },
+    {
+      "title": "Architecting Latency‑Free Edge Intelligence with WebAssembly and Distributed Vector Search Engines",
+      "url": "https://martinuke0.github.io/posts/2026-03-12-architecting-latencyfree-edge-intelligence-with-webassembly-and-distributed-vector-search-engines/",
+      "social_hook": "Edge computing has moved from a niche concept to a mainstream architectural pattern. From autonomous drones to retail kiosks, the demand for instantaneous, locally‑processed intelligence is reshaping how we design AI‑enabled services. Yet, the edge is constrained by limited compute, storage, and network bandwidth. The classic cloud‑centric model—send data to a remote GPU, wait for inference, receive the result—simply cannot meet the sub‑10 ms latency requirements of many real‑time applications.\n\nEnter WebAssembly (WASM) and distributed vector search engines. WASM offers a lightweight, sandboxed runtime that runs at near‑native speed on almost any hardware, while modern vector search platforms (e.g., Qdrant, Milvus, Vespa) provide fast similarity retrieval on high‑dimensional embeddings. When combined, they enable latency‑free edge intelligence: intelligent processing that happens locally, without the need for round‑trips to a distant data center.\n\nThis article walks you through the theory, the architecture, and a hands‑on implementation that demonstrates how to build a real‑time image‑similarity service on a smart camera using Rust‑compiled WASM modules and an edge‑resident vector index. By the end, you will have a reusable blueprint for any edge use‑case that relies on fast embedding generation and nearest‑neighbor search.",
+      "tags": [
+        "edge-computing",
+        "webassembly",
+        "vector-search",
+        "distributed-systems",
+        "AI-inference"
+      ],
+      "scheduled_at": "2026-03-12T10:03:28Z",
+      "status": "pending"
     }
   ]
 }
