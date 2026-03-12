@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-12T23:03:48Z",
+  "last_scheduled_at": "2026-03-13T00:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -3077,6 +3077,20 @@
         "production‑ML"
       ],
       "scheduled_at": "2026-03-12T23:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Breaking Free from Cloud Vendor Lock-In: The Rise of Multi-Cloud Flexibility in 2026",
+      "url": "https://martinuke0.github.io/posts/2026-03-12-breaking-free-from-cloud-vendor-lock-in-the-rise-of-multi-cloud-flexibility-in-2026/",
+      "social_hook": "title: \"Breaking Free from Cloud Vendor Lock-In: The Rise of Multi-Cloud Flexibility in 2026\"\n\ntags: [\"cloud-computing\", \"multi-cloud\", \"vendor-lock-in\", \"cloud-strategy\", \"digital-transformation\"]\n\nThe cloud computing landscape has fundamentally shifted. For years, organizations faced a binary choice: commit to a single cloud provider and accept their ecosystem, or manage the complexity of operating across multiple cloud environments with fragmented tools and processes. In 2026, this paradigm is changing dramatically.",
+      "tags": [
+        "cloud-computing",
+        "multi-cloud",
+        "vendor-lock-in",
+        "cloud-strategy",
+        "digital-transformation"
+      ],
+      "scheduled_at": "2026-03-13T00:03:48Z",
       "status": "pending"
     }
   ]
