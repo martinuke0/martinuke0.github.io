@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-12T18:03:48Z",
+  "last_scheduled_at": "2026-03-12T19:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -3007,6 +3007,20 @@
         "local-ai"
       ],
       "scheduled_at": "2026-03-12T18:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Prediction Markets: Building Python Apps with Polymarket US SDK",
+      "url": "https://martinuke0.github.io/posts/2026-03-12-mastering-prediction-markets-building-python-apps-with-polymarket-us-sdk/",
+      "social_hook": "title: \"Mastering Prediction Markets: Building Python Apps with Polymarket US SDK\"\n\ntags: [\"prediction-markets\", \"python-sdk\", \"blockchain-trading\", \"polymarket\", \"defi\"]\n\nPrediction markets represent one of the most exciting intersections of blockchain technology, game theory, and real-world event forecasting. Platforms like Polymarket allow users to bet on everything from election outcomes to sports results and cryptocurrency price movements, creating liquid markets that aggregate collective wisdom more effectively than traditional polls or expert opinions.[1] For developers, the real power lies in programmatic access—building automated trading bots, analytics dashboards, or custom UIs that tap into this rich data stream.",
+      "tags": [
+        "prediction-markets",
+        "python-sdk",
+        "blockchain-trading",
+        "polymarket",
+        "defi"
+      ],
+      "scheduled_at": "2026-03-12T19:03:48Z",
       "status": "pending"
     }
   ]
