@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-12T11:03:28Z",
+  "last_scheduled_at": "2026-03-12T12:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -2909,6 +2909,20 @@
       ],
       "scheduled_at": "2026-03-12T11:03:28Z",
       "status": "posted"
+    },
+    {
+      "title": "Optimizing Embedding Models for Efficient Semantic Search in Resource‑Constrained AI Environments",
+      "url": "https://martinuke0.github.io/posts/2026-03-12-optimizing-embedding-models-for-efficient-semantic-search-in-resourceconstrained-ai-environments/",
+      "social_hook": "Semantic search has become the de‑facto method for retrieving information when the exact keyword match is insufficient. By converting queries and documents into dense vector embeddings, similarity metrics (e.g., cosine similarity) can surface relevant content that shares meaning, not just wording. However, the power of modern embedding models—often based on large transformer architectures—comes at a steep computational price.\n\nIn many real‑world scenarios—edge devices, on‑premise servers, low‑budget cloud instances, or even mobile phones—resource constraints (CPU/GPU memory, latency budgets, energy consumption) become the dominant factor. This blog post dives deep into how to optimize embedding models and the surrounding retrieval stack so that semantic search remains fast, accurate, and affordable in such environments.\n\n* A toolbox of model‑level optimizations (quantization, pruning, distillation, low‑rank factorization).",
+      "tags": [
+        "semantic-search",
+        "embedding-models",
+        "model-optimization",
+        "resource-constrained",
+        "AI"
+      ],
+      "scheduled_at": "2026-03-12T12:03:48Z",
+      "status": "pending"
     }
   ]
 }
