@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-12T07:03:28Z",
+  "last_scheduled_at": "2026-03-12T08:03:28Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -2852,6 +2852,21 @@
       ],
       "scheduled_at": "2026-03-12T07:03:28Z",
       "status": "posted"
+    },
+    {
+      "title": "EoRA Explained: Making Compressed AI Models Smarter Without Fine-Tuning",
+      "url": "https://martinuke0.github.io/posts/2026-03-12-eora-explained-making-compressed-ai-models-smarter-without-fine-tuning/",
+      "social_hook": "Large Language Models (LLMs) like LLaMA or GPT have revolutionized AI, but they're resource hogs—think massive memory usage, slow inference times, and high power consumption that make them impractical for phones, edge devices, or cost-sensitive deployments. Enter model compression techniques like quantization and pruning, which shrink these models but often at the cost of accuracy. The new research paper \"EoRA: Fine-tuning-free Compensation for Compressed LLM with Eigenspace Low-Rank Approximation\" introduces a clever, training-free fix: EoRA, which boosts compressed models' performance by adding smart low-rank \"patches\" in minutes, without any fine-tuning.[1][2][3]\n\nThis blog post breaks down the paper for a general technical audience—engineers, developers, and AI enthusiasts who want the substance without the math overload. We'll use real-world analogies, dive into how EoRA works, explore its impressive results, and discuss why it could transform LLM deployment. By the end, you'll grasp why this matters for running powerful AI on everyday hardware.\n\nImagine you're packing for a long trip. Your suitcase has limited space, so you compress clothes by folding tightly (pruning unnecessary items) and using vacuum bags (quantization to lower precision). The bag fits, but your outfits look wrinkled and don't fit right anymore. That's LLMs in a nutshell.",
+      "tags": [
+        "AI",
+        "LLMs",
+        "Model Compression",
+        "Low-Rank Approximation",
+        "EoRA",
+        "Quantization"
+      ],
+      "scheduled_at": "2026-03-12T08:03:28Z",
+      "status": "pending"
     }
   ]
 }
