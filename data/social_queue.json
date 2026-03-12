@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-13T02:03:48Z",
+  "last_scheduled_at": "2026-03-13T03:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -3119,6 +3119,21 @@
         "data-engineering"
       ],
       "scheduled_at": "2026-03-13T02:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Context Engineering: Empowering AI Coding Agents with Curated Knowledge Hubs",
+      "url": "https://martinuke0.github.io/posts/2026-03-12-mastering-context-engineering-empowering-ai-coding-agents-with-curated-knowledge-hubs/",
+      "social_hook": "In the era of AI-assisted development, large language models (LLMs) like those powering GitHub Copilot or Claude have transformed how we code. Yet, a persistent challenge remains: these models often hallucinate APIs, invent non-existent endpoints, or forget critical details from one interaction to the next. Enter context engineering—the next evolution of prompt engineering that focuses on delivering the right information in the right format to make AI agents smarter, more reliable, and session-persistent.[5]\n\nThis article dives deep into context engineering through the lens of tools like Context Hub and CTX, exploring how curated, versioned documentation hubs solve real-world pain points for developers. We'll unpack the concepts, walk through practical implementations, draw connections to broader AI and software engineering principles, and provide hands-on examples to integrate these tools into your workflow. Whether you're building autonomous coding agents or simply want more accurate AI outputs, mastering context engineering will supercharge your productivity.\n\nAI coding agents excel at pattern matching and code generation, but they falter without precise, up-to-date context. Traditional prompt engineering relies on clever phrasing within token limits, often leading to:",
+      "tags": [
+        "AI",
+        "ContextEngineering",
+        "CodingAgents",
+        "LLMs",
+        "DeveloperTools",
+        "PromptEngineering"
+      ],
+      "scheduled_at": "2026-03-13T03:03:48Z",
       "status": "pending"
     }
   ]
