@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-12T08:03:28Z",
+  "last_scheduled_at": "2026-03-12T09:03:28Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -2867,6 +2867,20 @@
       ],
       "scheduled_at": "2026-03-12T08:03:28Z",
       "status": "posted"
+    },
+    {
+      "title": "Mastering Low‑Latency Inference Pipelines with NVIDIA Triton and Distributed Model Serving Consistency",
+      "url": "https://martinuke0.github.io/posts/2026-03-12-mastering-lowlatency-inference-pipelines-with-nvidia-triton-and-distributed-model-serving-consistency/",
+      "social_hook": "In production‑grade AI systems, latency is often the decisive factor. A recommendation engine that takes 150 ms to respond may be acceptable for a web page, but the same delay can be catastrophic for an autonomous vehicle or a high‑frequency trading platform. Achieving sub‑10 ms inference while scaling to thousands of requests per second is a non‑trivial engineering challenge that involves careful orchestration of hardware, software, and networking.\n\nThis article dives deep into how to design, implement, and operate low‑latency inference pipelines using the NVIDIA Triton Inference Server (formerly TensorRT Inference Server) and a distributed model‑serving architecture that guarantees consistency across multiple nodes. We will cover:\n\n* The fundamentals of low‑latency inference and why consistency matters in a distributed setting.",
+      "tags": [
+        "NVIDIA Triton",
+        "Low Latency",
+        "Model Serving",
+        "Distributed Systems",
+        "Machine Learning"
+      ],
+      "scheduled_at": "2026-03-12T09:03:28Z",
+      "status": "pending"
     }
   ]
 }
