@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-13T11:03:48Z",
+  "last_scheduled_at": "2026-03-13T12:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -3247,6 +3247,20 @@
         "inclusive-design"
       ],
       "scheduled_at": "2026-03-13T11:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Beyond Vector Search Mastering Hybrid Retrieval with Rerankers and Dense Passage Retrieval",
+      "url": "https://martinuke0.github.io/posts/2026-03-12-beyond-vector-search-mastering-hybrid-retrieval-with-rerankers-and-dense-passage-retrieval/",
+      "social_hook": "Search is the backbone of almost every modern information system—from corporate intranets and e‑commerce catalogs to large‑scale question‑answering platforms. For years, sparse lexical models such as BM25 dominated the field because they are fast, interpretable, and work well on short queries. The advent of dense vector representations (embeddings) promised a more semantic understanding of language, giving rise to vector search engines powered by FAISS, Annoy, or HNSWLib.\n\nWhile dense retrieval has dramatically improved recall on many benchmarks, it is rarely a silver bullet. Real‑world corpora contain a mixture of exact term matches, synonyms, rare entities, and noisy user queries. The most robust solutions today combine both sparse and dense signals and then apply a reranker to refine the top‑k results. This hybrid approach—often described as first‑stage retrieval + second‑stage reranking—is sometimes called Hybrid Retrieval with Rerankers.\n\n Discuss the role of cross‑encoder rerankers** and how they differ from bi‑encoders.",
+      "tags": [
+        "retrieval",
+        "dense-passage-retrieval",
+        "hybrid-search",
+        "rerankers",
+        "nlp"
+      ],
+      "scheduled_at": "2026-03-13T12:03:48Z",
       "status": "pending"
     }
   ]
