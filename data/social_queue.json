@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-11T23:03:10Z",
+  "last_scheduled_at": "2026-03-12T00:03:10Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -2751,6 +2751,21 @@
       ],
       "scheduled_at": "2026-03-11T23:03:10Z",
       "status": "posted"
+    },
+    {
+      "title": "Proactive Governance Frameworks for Mitigating Cascading Failures in Autonomous Multi‑Agent Orchestrations",
+      "url": "https://martinuke0.github.io/posts/2026-03-12-proactive-governance-frameworks-for-mitigating-cascading-failures-in-autonomous-multiagent-orchestrations/",
+      "social_hook": "Autonomous multi‑agent systems are rapidly moving from research labs into production environments—think fleets of delivery drones, coordinated swarms of warehouse robots, or distributed energy resources that balance a smart grid in real time. The promise of these systems lies in their ability to self‑organize, scale, and adapt without human intervention. Yet, the very features that make them powerful also expose them to a class of systemic risks known as cascading failures.\n\nA cascading failure occurs when a localized fault propagates through the network of agents, amplifying its impact and potentially collapsing the entire orchestration. Classic examples include the 2003 North American blackout, where a single line failure triggered a chain reaction across the grid, and the 2016 Amazon S3 outage, where a mis‑configured service caused a domino effect across dependent services.\n\nIn a purely reactive setting—where operators only respond after a failure has already spread—the cost of recovery can be astronomical, both in financial terms and in loss of trust. Proactive governance offers a different paradigm: define, monitor, and enforce policies that anticipate and contain failures before they cascade.",
+      "tags": [
+        "autonomous systems",
+        "governance",
+        "multi-agent",
+        "cascading failures",
+        "orchestration",
+        "AI safety"
+      ],
+      "scheduled_at": "2026-03-12T00:03:10Z",
+      "status": "pending"
     }
   ]
 }
