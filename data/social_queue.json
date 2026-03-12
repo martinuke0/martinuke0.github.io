@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-13T08:03:48Z",
+  "last_scheduled_at": "2026-03-13T09:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -3204,6 +3204,21 @@
         "Cloud Skills"
       ],
       "scheduled_at": "2026-03-13T08:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Demystifying Kafka: From Messaging Roots to Streaming Powerhouse",
+      "url": "https://martinuke0.github.io/posts/2026-03-12-demystifying-kafka-from-messaging-roots-to-streaming-powerhouse/",
+      "social_hook": "tags: [\"Apache Kafka\", \"System Design\", \"Distributed Systems\", \"Stream Processing\", \"Data Engineering\", \"Microservices\"]\n\nApache Kafka has evolved from a simple messaging tool at LinkedIn into the backbone of modern data infrastructure, powering real-time analytics, event-driven architectures, and massive-scale data pipelines for over 70% of Fortune 500 companies.[1] This post breaks down Kafka's architecture layer by layer, explaining its core concepts, evolution, and practical applications in ways that go beyond surface-level definitions, connecting it to broader distributed systems principles like CAP theorem trade-offs and event sourcing patterns.[1][2]\n\nWhether you're a data engineer building pipelines, a software architect designing microservices, or a developer curious about scalable streaming, understanding Kafka means grasping how it solves the chaos of data integration at scale. We'll explore its components, inner workings, advanced features like KRaft and tiered storage, and real-world integrations, with code examples and deployment considerations.",
+      "tags": [
+        "Apache Kafka",
+        "System Design",
+        "Distributed Systems",
+        "Stream Processing",
+        "Data Engineering",
+        "Microservices"
+      ],
+      "scheduled_at": "2026-03-13T09:03:48Z",
       "status": "pending"
     }
   ]
