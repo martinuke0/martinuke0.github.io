@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-12T03:03:12Z",
+  "last_scheduled_at": "2026-03-12T04:03:12Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -2795,6 +2795,20 @@
       ],
       "scheduled_at": "2026-03-12T03:03:12Z",
       "status": "posted"
+    },
+    {
+      "title": "Optimizing Semantic Cache Strategies to Reduce Latency and Costs in Production RAG Pipelines",
+      "url": "https://martinuke0.github.io/posts/2026-03-12-optimizing-semantic-cache-strategies-to-reduce-latency-and-costs-in-production-rag-pipelines/",
+      "social_hook": "Retrieval‑Augmented Generation (RAG) has become the de‑facto architecture for building knowledge‑aware language‑model applications. By coupling a large language model (LLM) with a vector store that retrieves relevant passages, RAG enables factual grounding, reduces hallucinations, and extends the model’s knowledge beyond its training cutoff.\n\nHowever, production deployments of RAG pipelines quickly encounter two hard constraints:\n\n Latency:** Users expect sub‑second responses. Each retrieval step, embedding computation, and LLM inference adds milliseconds that compound.",
+      "tags": [
+        "RAG",
+        "Semantic Caching",
+        "LLM",
+        "Performance Optimization",
+        "Cost Management"
+      ],
+      "scheduled_at": "2026-03-12T04:03:12Z",
+      "status": "pending"
     }
   ]
 }
