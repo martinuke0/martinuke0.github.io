@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-12T13:03:48Z",
+  "last_scheduled_at": "2026-03-12T14:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -2937,6 +2937,20 @@
       ],
       "scheduled_at": "2026-03-12T13:03:48Z",
       "status": "posted"
+    },
+    {
+      "title": "The State of Serverless AI Orchestration: Building Event‑Driven Autonomous Agent Workflows",
+      "url": "https://martinuke0.github.io/posts/2026-03-12-the-state-of-serverless-ai-orchestration-building-eventdriven-autonomous-agent-workflows/",
+      "social_hook": "The convergence of serverless computing, artificial intelligence, and event‑driven architectures is reshaping how modern applications are built, deployed, and operated.  Where traditional monolithic AI pipelines required dedicated VMs, complex orchestration tools, and a lot of manual scaling effort, today developers can compose autonomous agent workflows that spin up on demand, react instantly to events, and scale to millions of concurrent executions—all while paying only for the compute they actually use.\n\n* Define the core concepts—serverless, AI orchestration, event‑driven, and autonomous agents.\n\n* Explore the current ecosystem of platforms and tools that enable these workflows.",
+      "tags": [
+        "serverless",
+        "AI",
+        "orchestration",
+        "event-driven",
+        "autonomous-agents"
+      ],
+      "scheduled_at": "2026-03-12T14:03:48Z",
+      "status": "pending"
     }
   ]
 }
