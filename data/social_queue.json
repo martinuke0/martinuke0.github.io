@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-12T20:03:48Z",
+  "last_scheduled_at": "2026-03-12T21:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -3035,6 +3035,20 @@
         "Vertex AI"
       ],
       "scheduled_at": "2026-03-12T20:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Spec-Driven Development: Revolutionizing Software Engineering with AI Agents and Executable Architectures",
+      "url": "https://martinuke0.github.io/posts/2026-03-12-spec-driven-development-revolutionizing-software-engineering-with-ai-agents-and-executable-architectures/",
+      "social_hook": "The software development landscape is undergoing a seismic shift. Gone are the days of vague prompts handed to AI chatbots in hopes of generating functional code. Enter Spec-Driven Development (SDD), a paradigm where precise, structured specifications serve as the unbreakable source of truth, guiding autonomous AI agents to build, test, and maintain complex systems. This approach isn't just a trend—it's poised to redefine how teams deliver software at scale, drawing parallels to declarative paradigms like Infrastructure as Code (IaC) and domain-driven design (DDD).[1][2]\n\nIn this comprehensive guide, we'll explore SDD's core principles, dissect its multi-layered ecosystem of over 30 agentic frameworks, and uncover real-world applications. We'll connect it to broader engineering concepts, provide practical workflows with examples, and forecast its impact on 2026 and beyond. Whether you're a developer grappling with AI's context limitations or an architect seeking enforceable designs, SDD offers a structured path to reliable, high-velocity engineering.\n\nTraditional AI coding starts with a prompt: \"Build a user authentication system.\" The result? Code that works in isolation but crumbles in large codebases. Prompts forget architecture, ignore edge cases, and lead to inconsistent implementations. Developers spend more time fixing AI hallucinations than innovating.[3]",
+      "tags": [
+        "Spec-Driven Development",
+        "AI Coding Agents",
+        "Agentic Frameworks",
+        "Software Engineering",
+        "AI Development Tools"
+      ],
+      "scheduled_at": "2026-03-12T21:03:48Z",
       "status": "pending"
     }
   ]
