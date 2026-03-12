@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-12T00:03:10Z",
+  "last_scheduled_at": "2026-03-12T01:03:10Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -2766,6 +2766,20 @@
       ],
       "scheduled_at": "2026-03-12T00:03:10Z",
       "status": "posted"
+    },
+    {
+      "title": "Mastering Infrastructure as Code for Scaling Cloud Native Applications From Development to Production",
+      "url": "https://martinuke0.github.io/posts/2026-03-12-mastering-infrastructure-as-code-for-scaling-cloud-native-applications-from-development-to-production/",
+      "social_hook": "Infrastructure as Code (IaC) has moved from a niche practice to a cornerstone of modern software delivery. When building cloud‑native applications that must scale from a single developer’s laptop to a globally distributed production environment, the ability to declare, version, and automate every piece of infrastructure is no longer optional—it’s a competitive necessity.\n\n2. Walk through the complete lifecycle—from local development environments to production‑grade clusters.\n\n3. Compare the most widely‑used IaC tools and show how to choose the right one for your stack.",
+      "tags": [
+        "IaC",
+        "cloud-native",
+        "devops",
+        "scalability",
+        "CI/CD"
+      ],
+      "scheduled_at": "2026-03-12T01:03:10Z",
+      "status": "pending"
     }
   ]
 }
