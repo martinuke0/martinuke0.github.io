@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-12T22:03:48Z",
+  "last_scheduled_at": "2026-03-12T23:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -3063,6 +3063,20 @@
         "2026"
       ],
       "scheduled_at": "2026-03-12T22:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Scaling Multimodal RAG Systems from Distributed Vector Storage to Real‑World Production Deployment",
+      "url": "https://martinuke0.github.io/posts/2026-03-12-scaling-multimodal-rag-systems-from-distributed-vector-storage-to-realworld-production-deployment/",
+      "social_hook": "Retrieval‑Augmented Generation (RAG) has become the de‑facto pattern for building knowledge‑aware language models. By retrieving relevant context from an external knowledge base and feeding it to a generative model, RAG systems combine the factual grounding of retrieval with the fluency of large language models (LLMs).\n\nWhen the knowledge base contains multimodal data—text, images, audio, video, and even structured tables—the engineering challenges multiply:\n\n Embedding heterogeneity**: Different modalities require distinct encoders and produce vectors of varying dimensionality.",
+      "tags": [
+        "RAG",
+        "multimodal",
+        "vector‑databases",
+        "scalable‑AI",
+        "production‑ML"
+      ],
+      "scheduled_at": "2026-03-12T23:03:48Z",
       "status": "pending"
     }
   ]
