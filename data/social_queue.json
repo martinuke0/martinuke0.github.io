@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-12T04:03:12Z",
+  "last_scheduled_at": "2026-03-12T05:03:12Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -2809,6 +2809,20 @@
       ],
       "scheduled_at": "2026-03-12T04:03:12Z",
       "status": "posted"
+    },
+    {
+      "title": "The Shift to Local-First AI: Optimizing Small Language Models for Browser-Based Edge Computing",
+      "url": "https://martinuke0.github.io/posts/2026-03-12-the-shift-to-local-first-ai-optimizing-small-language-models-for-browser-based-edge-computing/",
+      "social_hook": "Artificial intelligence has traditionally been a cloud‑centric discipline. Massive data centers, GPU clusters, and high‑speed networking have powered the training and inference of large language models (LLMs) that dominate headlines today. Yet a growing counter‑movement—Local‑First AI—is reshaping how we think about intelligent applications. Instead of sending every user request to a remote API, developers are beginning to run AI directly on the client device, whether that device is a smartphone, an IoT sensor, or a web browser.\n\nThe browser, thanks to advances in WebAssembly (Wasm), WebGPU, and JavaScript‑based ML runtimes, has emerged as a surprisingly capable edge platform. However, browsers impose strict resource constraints: limited memory, modest CPU/GPU throughput, and sandboxed execution environments. To make AI viable in this setting, we must optimize small language models—compact, efficient variants of the massive transformers that dominate research.\n\nThis article provides a deep dive into the shift to Local‑First AI, focusing on the technical, architectural, and practical aspects of deploying small language models (SLMs) in browsers. We will explore the motivations, the challenges, concrete optimization techniques, real‑world code examples, performance benchmarks, and future directions. By the end, you should have a clear roadmap for building privacy‑preserving, low‑latency AI experiences that run entirely in the client’s browser.",
+      "tags": [
+        "AI",
+        "Edge Computing",
+        "Small Language Models",
+        "Browser",
+        "Local-First"
+      ],
+      "scheduled_at": "2026-03-12T05:03:12Z",
+      "status": "pending"
     }
   ]
 }
