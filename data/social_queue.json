@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-13T00:03:48Z",
+  "last_scheduled_at": "2026-03-13T01:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -3091,6 +3091,20 @@
         "digital-transformation"
       ],
       "scheduled_at": "2026-03-13T00:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "The Log Abstraction: Unifying Force Behind Modern Distributed Systems and Real-Time Data",
+      "url": "https://martinuke0.github.io/posts/2026-03-12-the-log-abstraction-unifying-force-behind-modern-distributed-systems-and-real-time-data/",
+      "social_hook": "In the era of microservices, cloud-native architectures, and explosive data growth, understanding the log as a foundational abstraction is essential for any software engineer. Far from the humble application logs dumped to files for human eyes, the log—envisioned as an append-only, totally ordered sequence of records—serves as the unifying primitive powering databases, streaming platforms, version control, and real-time analytics. This article explores the log's elegance, its practical implementations, and its pervasive role across modern engineering landscapes.\n\nDistributed systems introduce chaos: network partitions, node failures, clock skew, and petabyte-scale data volumes. Traditional databases buckle under these pressures, leading teams to adopt specialized tools like key-value stores, search engines, and stream processors. Yet, amid this fragmentation, the log emerges as a common denominator.[1]\n\nConsider LinkedIn's evolution in the early 2010s: transitioning from monolithic RDBMS to a suite of distributed systems (graph DBs, Hadoop clusters, custom KV stores), engineers discovered logs at the core of replication, recovery, and integration. Today, this pattern repeats at scale in companies like Twitter (now X), Netflix, and Uber, where logs enable resilient, real-time data pipelines.",
+      "tags": [
+        "distributed-systems",
+        "data-engineering",
+        "real-time-processing",
+        "logs",
+        "kafka"
+      ],
+      "scheduled_at": "2026-03-13T01:03:48Z",
       "status": "pending"
     }
   ]
