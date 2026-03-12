@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-13T10:03:48Z",
+  "last_scheduled_at": "2026-03-13T11:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -3233,6 +3233,20 @@
         "scalability"
       ],
       "scheduled_at": "2026-03-13T10:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Making the Web Accessible with AI: How WebAccessVL is Automating Website Fixes",
+      "url": "https://martinuke0.github.io/posts/2026-03-12-making-the-web-accessible-with-ai-how-webaccessvl-is-automating-website-fixes/",
+      "social_hook": "Imagine you're building a website. You've carefully designed the layout, chosen the perfect colors, and written compelling content. But there's a problem you might not have considered: millions of people can't use your website the way you intended. They might be blind and rely on screen readers. They might have motor impairments and can't use a mouse. They might have dyslexia and struggle with certain color combinations. Or they might be using an older browser on a slow internet connection.\n\nThis is the reality of web accessibility—and it's a massive, largely unsolved problem. Most websites fail to meet basic accessibility standards, leaving billions of people with disabilities unable to access digital content that the rest of us take for granted.\n\nNow imagine if an AI system could automatically fix these problems for you. That's exactly what WebAccessVL does. This new research presents a vision-language model that can look at your website, identify accessibility violations, and automatically correct the underlying code—all while keeping your design intact.[1]",
+      "tags": [
+        "web-accessibility",
+        "AI",
+        "vision-language-models",
+        "WCAG",
+        "inclusive-design"
+      ],
+      "scheduled_at": "2026-03-13T11:03:48Z",
       "status": "pending"
     }
   ]
