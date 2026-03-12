@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-13T09:03:48Z",
+  "last_scheduled_at": "2026-03-13T10:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -3219,6 +3219,20 @@
         "Microservices"
       ],
       "scheduled_at": "2026-03-13T09:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Scaling Distributed Training with Parameter Servers and Collective Communication Primitives",
+      "url": "https://martinuke0.github.io/posts/2026-03-12-scaling-distributed-training-with-parameter-servers-and-collective-communication-primitives/",
+      "social_hook": "Training modern deep neural networks often requires hundreds of billions of parameters and petabytes of data. A single GPU or even a single server cannot finish such workloads within a reasonable time frame. Distributed training—splitting the computation across multiple machines—has become the de‑facto standard for large‑scale machine learning.\n\n1. Parameter Server (PS) architectures, where a set of dedicated nodes store and update model parameters while workers compute gradients.\n\n2. Collective communication primitives, where all participants exchange data directly using high‑performance collective operations such as AllReduce, Broadcast, and Reduce.",
+      "tags": [
+        "distributed training",
+        "parameter servers",
+        "collective communication",
+        "deep learning",
+        "scalability"
+      ],
+      "scheduled_at": "2026-03-13T10:03:48Z",
       "status": "pending"
     }
   ]
