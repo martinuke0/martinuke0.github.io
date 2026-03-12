@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-13T06:03:48Z",
+  "last_scheduled_at": "2026-03-13T07:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -3176,6 +3176,20 @@
         "Protocol Engineering"
       ],
       "scheduled_at": "2026-03-13T06:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building Payment Systems at Scale: How Uber Processes 30 Million Transactions Daily",
+      "url": "https://martinuke0.github.io/posts/2026-03-12-building-payment-systems-at-scale-how-uber-processes-30-million-transactions-daily/",
+      "social_hook": "In October 2014, a woman named Maria faced a common problem in Prague: she needed a ride but didn't have cash. She opened the Uber app, requested a ride, and within minutes, a driver arrived. The transaction processed seamlessly—or so it seemed. Behind that simple tap on a smartphone lay an intricate system handling security protocols, fraud detection, multiple payment methods, regulatory compliance, and real-time fund transfers across international borders.\n\nToday, in 2026, Uber processes approximately 30 million transactions per day across its platform, spanning ride-sharing, food delivery, freight, and other services. Each transaction represents a complex orchestration of systems designed to handle security, speed, reliability, and accuracy simultaneously. Understanding how Uber—and similar high-scale platforms—architect payment systems offers invaluable insights for engineers, architects, and entrepreneurs building financial infrastructure.\n\nThis article explores the architectural decisions, technical challenges, and solutions that enable Uber to process payments at unprecedented scale. We'll move beyond surface-level explanations to examine the actual systems, design patterns, and trade-offs that make this possible.",
+      "tags": [
+        "payment-systems",
+        "system-design",
+        "fintech",
+        "distributed-systems",
+        "backend-architecture"
+      ],
+      "scheduled_at": "2026-03-13T07:03:48Z",
       "status": "pending"
     }
   ]
