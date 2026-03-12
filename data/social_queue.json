@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-12T19:03:48Z",
+  "last_scheduled_at": "2026-03-12T20:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -3021,6 +3021,20 @@
         "defi"
       ],
       "scheduled_at": "2026-03-12T19:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Multi-Agent AI: How Google's ADK Revolutionizes Agentic Development",
+      "url": "https://martinuke0.github.io/posts/2026-03-12-mastering-multi-agent-ai-how-google/",
+      "social_hook": "In the rapidly evolving landscape of artificial intelligence, building sophisticated AI agents capable of handling complex, real-world tasks has shifted from experimental research to production necessity. Google's Agent Development Kit (ADK) emerges as a game-changer—an open-source, flexible framework that democratizes the creation of multi-agent systems, making agent development as intuitive as traditional software engineering.[1][3] Optimized for Gemini models yet model-agnostic, ADK empowers developers to orchestrate hierarchical agent teams, integrate rich tools, and deploy seamlessly across environments, bridging the gap between prototype and enterprise-scale AI.[2]\n\nThis article dives deep into ADK's architecture, practical applications, and strategic advantages. We'll explore its core components, walk through hands-on examples, draw parallels to established engineering paradigms like microservices and event-driven architectures, and provide actionable insights for integrating it into your workflows. Whether you're a solo developer prototyping a conversational assistant or leading a team building enterprise automation, ADK offers the tools to scale agentic intelligence efficiently.\n\nTraditional single-model AI applications excel at narrow tasks but falter in dynamic, multi-step scenarios requiring reasoning, delegation, and adaptation. Enter multi-agent systems (MAS), where specialized agents collaborate like a software team: one researches, another analyzes, a third synthesizes outputs.[1] This mirrors human organizational structures, enabling emergent intelligence far beyond monolithic LLMs.",
+      "tags": [
+        "AI Agents",
+        "Multi-Agent Systems",
+        "Google ADK",
+        "Agent Development",
+        "Vertex AI"
+      ],
+      "scheduled_at": "2026-03-12T20:03:48Z",
       "status": "pending"
     }
   ]
