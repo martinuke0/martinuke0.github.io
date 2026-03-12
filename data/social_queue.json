@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-12T10:03:28Z",
+  "last_scheduled_at": "2026-03-12T11:03:28Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -2895,6 +2895,20 @@
       ],
       "scheduled_at": "2026-03-12T10:03:28Z",
       "status": "posted"
+    },
+    {
+      "title": "Optimizing Local Inference: A Guide to Deploying Quantized 100B Models on Consumer Hardware",
+      "url": "https://martinuke0.github.io/posts/2026-03-12-optimizing-local-inference-a-guide-to-deploying-quantized-100b-models-on-consumer-hardware/",
+      "social_hook": "The AI community has witnessed a rapid escalation in the size of large language models (LLMs), with 100‑billion‑parameter (100B) architectures now considered the sweet spot for high‑quality generation, reasoning, and instruction‑following. Historically, running such models required multi‑GPU clusters or specialised cloud instances, making local inference a luxury reserved for research labs.\n\nHowever, recent advances in quantization, mixed‑precision arithmetic, and lightweight inference runtimes have dramatically lowered the hardware barrier. You can now run a 100B model on a consumer‑grade desktop equipped with a modern GPU (e.g., RTX 4090) or even on a high‑end CPU with AVX‑512 support, provided you apply the right optimization techniques.\n\nThis guide walks you through the entire process—from understanding the theory behind quantization to deploying a fully‑quantized 100B model on a typical consumer machine. We’ll cover hardware considerations, quantization algorithms, toolchains, practical code snippets, performance tuning, and real‑world benchmarks. By the end, you’ll have a concrete roadmap to bring massive LLMs into your local development environment.",
+      "tags": [
+        "LLM",
+        "Quantization",
+        "Inference",
+        "ConsumerHardware",
+        "Deployment"
+      ],
+      "scheduled_at": "2026-03-12T11:03:28Z",
+      "status": "pending"
     }
   ]
 }
