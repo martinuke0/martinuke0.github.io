@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-13T07:03:48Z",
+  "last_scheduled_at": "2026-03-13T08:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -3190,6 +3190,20 @@
         "backend-architecture"
       ],
       "scheduled_at": "2026-03-13T07:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Unlocking Azure Mastery: How Agent Skills Are Revolutionizing AI-Assisted Cloud Development",
+      "url": "https://martinuke0.github.io/posts/2026-03-12-unlocking-azure-mastery-how-agent-skills-are-revolutionizing-ai-assisted-cloud-development/",
+      "social_hook": "In the fast-evolving world of cloud computing, developers face a constant barrage of decisions: Which Azure service fits this workload? How do I secure it properly? What's the optimal deployment path? Enter Azure Agent Skills—a game-changing framework that transforms AI coding assistants from generic advisors into Azure-savvy experts capable of executing real-world cloud workflows.[1][3] This isn't just about smarter autocomplete; it's about embedding institutional cloud knowledge directly into your tools, slashing deployment times from hours to minutes and boosting confidence across teams.\n\nThis post dives deep into Azure Skills, exploring their architecture, practical applications, and broader implications for software engineering. We'll unpack how they work, walk through hands-on examples, and connect them to larger trends in AI-driven development. Whether you're a solo dev spinning up prototypes or leading enterprise migrations, these skills promise to make Azure work more intuitive and efficient.\n\nAI coding assistants like GitHub Copilot and Claude have already transformed how we write code, suggesting snippets and even entire functions based on context. But cloud development introduces layers of complexity beyond pure coding: architecture decisions, compliance checks, cost optimization, and integration with managed services.[6]",
+      "tags": [
+        "Azure",
+        "AI Agents",
+        "DevOps",
+        "GitHub Copilot",
+        "Cloud Skills"
+      ],
+      "scheduled_at": "2026-03-13T08:03:48Z",
       "status": "pending"
     }
   ]
