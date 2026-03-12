@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-13T13:03:48Z",
+  "last_scheduled_at": "2026-03-13T14:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -3275,6 +3275,20 @@
         "algorithmic-trading"
       ],
       "scheduled_at": "2026-03-13T13:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Standardizing On-Device SLM Orchestration: A Guide to Local First-Party AI Agents",
+      "url": "https://martinuke0.github.io/posts/2026-03-12-standardizing-on-device-slm-orchestration-a-guide-to-local-first-party-ai-agents/",
+      "social_hook": "The explosion of large language models (LLMs) over the past few years has fundamentally changed how developers think about natural‑language processing (NLP) and generative AI. Yet, the sheer size of these models—often hundreds of billions of parameters—means that most deployments still rely on powerful cloud infrastructures.\n\nA growing counter‑trend is the rise of small language models (SLMs) that can run locally on consumer devices, edge servers, or specialized hardware accelerators. When these models are coupled with first‑party AI agents—software components that act on behalf of a user or an application—they enable a local‑first experience: data never leaves the device, latency drops dramatically, and privacy guarantees become enforceable by design.\n\nHowever, the rapid proliferation of on‑device SLMs has led to a fragmented ecosystem. Teams implement custom APIs, divergent data formats, and ad‑hoc orchestration logic. This fragmentation hampers interoperability, security, and scalability. The solution is standardization: a common set of protocols, data models, and orchestration patterns that make it easy to plug a new SLM or AI agent into an existing stack without rewriting glue code.",
+      "tags": [
+        "AI",
+        "On-Device",
+        "SLM",
+        "Orchestration",
+        "Privacy"
+      ],
+      "scheduled_at": "2026-03-13T14:03:48Z",
       "status": "pending"
     }
   ]
