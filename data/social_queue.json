@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-13T03:03:48Z",
+  "last_scheduled_at": "2026-03-13T04:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -3134,6 +3134,20 @@
         "PromptEngineering"
       ],
       "scheduled_at": "2026-03-13T03:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "From Manual Tinkering to Autonomous Discovery: How AI Agents Are Revolutionizing Machine Learning Research",
+      "url": "https://martinuke0.github.io/posts/2026-03-12-from-manual-tinkering-to-autonomous-discovery-how-ai-agents-are-revolutionizing-machine-learning-research/",
+      "social_hook": "For decades, machine learning research has followed a recognizable pattern: researchers manually design experiments, tweak hyperparameters, adjust architectures, and iterate based on results. It's a process that demands intuition, experience, and countless hours of trial and error. But what if we could automate this entire loop? What if an AI agent could propose experiments, run them, evaluate results, and improve upon its own work—all while you sleep?\n\nThis is no longer theoretical. Andrej Karpathy's autoresearch project demonstrates how AI agents can autonomously conduct machine learning research, optimizing neural network training without direct human intervention.[1] The implications extend far beyond a clever demonstration: they represent a fundamental shift in how we approach scientific discovery in AI itself. Rather than humans manually orchestrating each experiment, researchers now design the environment in which experiments happen—a distinction that transforms the entire research paradigm.[2]\n\nThis article explores the technical foundations of autonomous ML research, examines what makes autoresearch significant, and considers how this approach will reshape the future of artificial intelligence development.",
+      "tags": [
+        "AI agents",
+        "machine learning research",
+        "automation",
+        "neural networks",
+        "agentic AI"
+      ],
+      "scheduled_at": "2026-03-13T04:03:48Z",
       "status": "pending"
     }
   ]
