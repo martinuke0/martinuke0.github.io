@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-12T16:03:48Z",
+  "last_scheduled_at": "2026-03-12T17:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -2979,6 +2979,20 @@
         "Web3"
       ],
       "scheduled_at": "2026-03-12T16:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Object-Oriented Design: Building Scalable Systems That Mirror the Real World",
+      "url": "https://martinuke0.github.io/posts/2026-03-12-mastering-object-oriented-design-building-scalable-systems-that-mirror-the-real-world/",
+      "social_hook": "title: \"Mastering Object-Oriented Design: Building Scalable Systems That Mirror the Real World\"\n\ntags: [\"Object-Oriented Design\", \"OOD\", \"Software Architecture\", \"Design Patterns\", \"System Design\"]\n\nIn the ever-evolving landscape of software engineering, Object-Oriented Design (OOD) stands as a cornerstone methodology for crafting systems that are not only functional but also resilient, scalable, and intuitive. Unlike procedural programming, which treats code as a sequence of instructions, OOD models software as a network of interacting objects—digital representations of real-world entities. This paradigm shift enables developers to build modular architectures that adapt to change, much like biological systems evolve over time.",
+      "tags": [
+        "Object-Oriented Design",
+        "OOD",
+        "Software Architecture",
+        "Design Patterns",
+        "System Design"
+      ],
+      "scheduled_at": "2026-03-12T17:03:48Z",
       "status": "pending"
     }
   ]
