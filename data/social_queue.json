@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-12T14:03:48Z",
+  "last_scheduled_at": "2026-03-12T15:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -2951,6 +2951,21 @@
       ],
       "scheduled_at": "2026-03-12T14:03:48Z",
       "status": "posted"
+    },
+    {
+      "title": "Engineering the Heartbeat of Markets: Designing a Modern Stock Exchange from Scratch",
+      "url": "https://martinuke0.github.io/posts/2026-03-12-engineering-the-heartbeat-of-markets-designing-a-modern-stock-exchange-from-scratch/",
+      "social_hook": "Imagine a digital arena where billions of dollars change hands every second, all orchestrated by software that must react faster than a human blink. That's the stock exchange—a high-stakes symphony of buys, sells, and matches running on razor-thin margins of latency and reliability. In this post, we'll dive deep into designing a stock exchange system, demystifying its core mechanics, architecture, and the engineering wizardry that keeps markets humming. Whether you're prepping for system design interviews, scaling fintech apps, or just curious about the tech behind Wall Street, this guide breaks it down step-by-step with fresh insights, real-world parallels, and practical blueprints.[1][2]\n\nWe'll explore everything from farmer's market analogies to microsecond order matching engines, drawing connections to databases, distributed systems, and even gaming servers. By the end, you'll have a blueprint to build your own (scaled-down) version.\n\nStock exchanges aren't just trading platforms; they're the nervous system of global finance. They process over 50 billion orders daily in major markets like NYSE or NASDAQ, with 99.99% uptime and latencies under 100 microseconds. Failures here don't just crash apps—they trigger market halts, regulatory scrutiny, and economic ripples.[3]",
+      "tags": [
+        "system design",
+        "stock exchange",
+        "high frequency trading",
+        "order matching",
+        "low latency architecture",
+        "financial systems"
+      ],
+      "scheduled_at": "2026-03-12T15:03:48Z",
+      "status": "pending"
     }
   ]
 }
