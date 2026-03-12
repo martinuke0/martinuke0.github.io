@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-13T12:03:48Z",
+  "last_scheduled_at": "2026-03-13T13:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -3261,6 +3261,20 @@
         "nlp"
       ],
       "scheduled_at": "2026-03-13T12:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "How to Build a High Frequency Trading System Using Python and Event Driven Architecture",
+      "url": "https://martinuke0.github.io/posts/2026-03-12-how-to-build-a-high-frequency-trading-system-using-python-and-event-driven-architecture/",
+      "social_hook": "High‑frequency trading (HFT) sits at the intersection of finance, computer science, and electrical engineering. The goal is simple: capture micro‑price movements and turn them into profit, often executing thousands of trades per second. While many HFT firms rely on C++ or proprietary hardware, Python has matured into a viable platform for prototyping, research, and even production when combined with careful engineering and an event‑driven architecture.\n\nBy the end, you should have a solid foundation to design, implement, and test a Python‑based HFT engine that can be extended or ported to lower‑level languages as needed.\n\nThese constraints shape the technology stack: we need zero‑copy messaging, asynchronous I/O, compiled extensions, and tight integration with the kernel.",
+      "tags": [
+        "high-frequency-trading",
+        "python",
+        "event-driven",
+        "low-latency",
+        "algorithmic-trading"
+      ],
+      "scheduled_at": "2026-03-13T13:03:48Z",
       "status": "pending"
     }
   ]
