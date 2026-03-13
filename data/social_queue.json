@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-13T18:03:48Z",
+  "last_scheduled_at": "2026-03-13T19:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -3345,6 +3345,20 @@
         "Go"
       ],
       "scheduled_at": "2026-03-13T18:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Vector Databases for LLMs: A Comprehensive Guide to RAG and Semantic Search Systems",
+      "url": "https://martinuke0.github.io/posts/2026-03-13-vector-databases-for-llms-a-comprehensive-guide-to-rag-and-semantic-search-systems/",
+      "social_hook": "Large language models (LLMs) such as GPT‑4, Claude, LLaMA, and Gemini have transformed the way we build conversational agents, code assistants, and knowledge‑heavy applications. Yet, even the most capable LLMs suffer from a fundamental limitation: they cannot reliably recall up‑to‑date facts or proprietary data that lies outside their training corpus.\n\nRetrieval‑Augmented Generation (RAG) solves this problem by coupling an LLM with an external knowledge store. The store is typically a vector database that holds dense embeddings of documents, passages, or even multimodal items. When a user asks a question, the system performs a semantic similarity search, retrieves the most relevant vectors, and injects the corresponding text into the LLM prompt. The model then “generates” an answer grounded in the retrieved context.\n\nThis guide dives deep into the ecosystem that makes RAG possible. We will explore:",
+      "tags": [
+        "vector-database",
+        "LLM",
+        "RAG",
+        "semantic-search",
+        "AI-infrastructure"
+      ],
+      "scheduled_at": "2026-03-13T19:03:48Z",
       "status": "pending"
     }
   ]
