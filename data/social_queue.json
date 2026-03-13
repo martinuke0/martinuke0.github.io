@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-14T12:03:48Z",
+  "last_scheduled_at": "2026-03-14T13:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -3598,6 +3598,20 @@
         "performance-profiling"
       ],
       "scheduled_at": "2026-03-14T12:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Real‑Time Distributed Intelligence with Persistent Actors and Edge‑Native Stream Processing",
+      "url": "https://martinuke0.github.io/posts/2026-03-13-architecting-realtime-distributed-intelligence-with-persistent-actors-and-edgenative-stream-processing/",
+      "social_hook": "Enterprises and platform builders are increasingly required to turn raw data into actionable insight in real time—whether it’s detecting fraud as a transaction streams in, adjusting traffic‑light timings based on live sensor feeds, or orchestrating autonomous drones at the edge of a network. Traditional monolithic analytics pipelines, built around batch processing or simple request‑response services, simply cannot keep up with the latency, scalability, and fault‑tolerance demands of these workloads.\n\nA compelling architectural pattern that has emerged over the past decade is the combination of persistent actor models with edge‑native stream processing. Persistent actors give us a natural way to model stateful, location‑aware components that survive crashes and can be replicated across a distributed system. Edge‑native stream processors provide low‑latency, back‑pressure‑aware pipelines that run close to the data source, reducing bandwidth costs and latency.\n\n2. Core concepts of the persistent actor model (event sourcing, snapshots, CRDTs) and edge‑native streaming (stateful operators, watermarks, exactly‑once semantics).",
+      "tags": [
+        "distributed systems",
+        "real-time processing",
+        "persistent actors",
+        "edge computing",
+        "stream processing"
+      ],
+      "scheduled_at": "2026-03-14T13:03:48Z",
       "status": "pending"
     }
   ]
