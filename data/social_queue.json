@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-14T10:03:48Z",
+  "last_scheduled_at": "2026-03-14T11:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -3570,6 +3570,20 @@
         "swarm intelligence"
       ],
       "scheduled_at": "2026-03-14T10:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Scaling Multimodal Agents from Prototype to Production with Serverless GPU Orchestration and Vector Databases",
+      "url": "https://martinuke0.github.io/posts/2026-03-13-scaling-multimodal-agents-from-prototype-to-production-with-serverless-gpu-orchestration-and-vector-databases/",
+      "social_hook": "Multimodal agents—systems that can understand and generate text, images, audio, and video—have moved from research labs to real‑world products at a breathtaking pace. Early prototypes often run on a single GPU workstation, but production workloads demand elastic scaling, high availability, and cost‑effective compute. Two technologies have emerged as the backbone of modern, cloud‑native multimodal pipelines:\n\n1. Serverless GPU orchestration – the ability to spin up GPU‑accelerated containers on demand without managing servers.\n\n2. Vector databases – persistent, low‑latency stores for high‑dimensional embeddings that power similarity search, retrieval‑augmented generation (RAG), and memory management.",
+      "tags": [
+        "multimodal AI",
+        "serverless",
+        "GPU orchestration",
+        "vector databases",
+        "production scaling"
+      ],
+      "scheduled_at": "2026-03-14T11:03:48Z",
       "status": "pending"
     }
   ]
