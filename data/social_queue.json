@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-13T21:03:48Z",
+  "last_scheduled_at": "2026-03-13T22:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -3387,6 +3387,21 @@
         "scalable-architecture"
       ],
       "scheduled_at": "2026-03-13T21:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Agentic AI: From Jupyter Notebooks to Production-Ready Autonomous Systems",
+      "url": "https://martinuke0.github.io/posts/2026-03-13-mastering-agentic-ai-from-jupyter-notebooks-to-production-ready-autonomous-systems/",
+      "social_hook": "title: \"Mastering Agentic AI: From Jupyter Notebooks to Production-Ready Autonomous Systems\"\n\ntags: [\"Agentic AI\", \"AI Engineering\", \"Autonomous Agents\", \"LangChain\", \"Multi-Agent Systems\", \"AI Production\"]\n\nAgentic AI represents the next evolution in artificial intelligence, where systems don't just respond to prompts but actively perceive, plan, reason, and act in dynamic environments. Inspired by hands-on Jupyter notebook repositories that democratize this technology, this guide takes you deep into building, evaluating, and deploying agentic systems. We'll explore core concepts, practical implementations, advanced architectures, and real-world applications, equipping you with the skills to create autonomous AI that delivers tangible business value.",
+      "tags": [
+        "Agentic AI",
+        "AI Engineering",
+        "Autonomous Agents",
+        "LangChain",
+        "Multi-Agent Systems",
+        "AI Production"
+      ],
+      "scheduled_at": "2026-03-13T22:03:48Z",
       "status": "pending"
     }
   ]
