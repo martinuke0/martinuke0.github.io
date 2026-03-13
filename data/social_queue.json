@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-14T05:03:48Z",
+  "last_scheduled_at": "2026-03-14T06:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -3500,6 +3500,20 @@
         "distributed systems"
       ],
       "scheduled_at": "2026-03-14T05:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Scalable Real-Time Data Pipelines with Apache Kafka and Python From Scratch",
+      "url": "https://martinuke0.github.io/posts/2026-03-13-architecting-scalable-real-time-data-pipelines-with-apache-kafka-and-python-from-scratch/",
+      "social_hook": "In today’s data‑driven world, businesses need to react to events as they happen. Whether it’s a fraud detection system that must flag suspicious transactions within milliseconds, a recommendation engine that personalizes content on the fly, or an IoT platform that aggregates sensor readings in real time, the underlying architecture must be low‑latency, high‑throughput, and fault‑tolerant.\n\nApache Kafka has emerged as the de‑facto standard for building such real‑time pipelines, while Python remains a favorite language for data engineers because of its rich ecosystem, rapid prototyping capabilities, and ease of integration with machine‑learning models.\n\nThis article walks you through the entire process of architecting a scalable real‑time data pipeline from scratch using Kafka and Python. We’ll cover fundamental concepts, environment setup, producer and consumer implementation, stream processing, schema management, monitoring, scaling strategies, and a complete end‑to‑end use case. By the end, you’ll have a production‑ready blueprint you can adapt to virtually any real‑time data problem.",
+      "tags": [
+        "Apache Kafka",
+        "Python",
+        "Data Engineering",
+        "Real-Time",
+        "Scalable Pipelines"
+      ],
+      "scheduled_at": "2026-03-14T06:03:48Z",
       "status": "pending"
     }
   ]
