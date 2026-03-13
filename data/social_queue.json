@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-14T07:03:48Z",
+  "last_scheduled_at": "2026-03-14T08:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -3528,6 +3528,20 @@
         "AI Engineering"
       ],
       "scheduled_at": "2026-03-14T07:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Resilient Microservices Patterns for Scaling Distributed Systems in Cloud‑Native Environments",
+      "url": "https://martinuke0.github.io/posts/2026-03-13-architecting-resilient-microservices-patterns-for-scaling-distributed-systems-in-cloudnative-environments/",
+      "social_hook": "Modern applications are no longer monolithic beasts running on a single server. They are composed of dozens—or even hundreds—of independent services that communicate over the network, often running in containers orchestrated by Kubernetes or another cloud‑native platform. This shift brings unprecedented flexibility and speed of delivery, but it also introduces new failure modes: network partitions, latency spikes, resource exhaustion, and cascading outages.\n\nTo thrive in such an environment, architects must design resilient microservices that can fail gracefully, recover quickly, and scale horizontally without compromising user experience. This article dives deep into the patterns, practices, and real‑world tooling that enable resilient, scalable distributed systems in cloud‑native environments.\n\n* Scaling strategies that complement resilience (auto‑scaling, service mesh, stateless design).",
+      "tags": [
+        "microservices",
+        "cloud-native",
+        "resilience",
+        "scalability",
+        "architecture"
+      ],
+      "scheduled_at": "2026-03-14T08:03:48Z",
       "status": "pending"
     }
   ]
