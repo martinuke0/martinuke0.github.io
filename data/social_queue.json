@@ -3402,7 +3402,7 @@
         "AI Production"
       ],
       "scheduled_at": "2026-03-13T22:03:48Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Beyond RAG: Building Scalable Vector Architectures for Distributed Edge Intelligence Systems",
