@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-14T01:03:48Z",
+  "last_scheduled_at": "2026-03-14T02:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -3444,6 +3444,20 @@
         "Production AI"
       ],
       "scheduled_at": "2026-03-14T01:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Low‑Latency Consensus Protocols for High‑Performance State Machine Replication in Distributed Ledger Environments",
+      "url": "https://martinuke0.github.io/posts/2026-03-13-architecting-lowlatency-consensus-protocols-for-highperformance-state-machine-replication-in-distributed-ledger-environments/",
+      "social_hook": "Distributed ledgers—whether public blockchains, permissioned networks, or hybrid hybrids—rely on state machine replication (SMR) to provide a consistent view of the ledger across a set of potentially unreliable nodes. At the heart of SMR lies a consensus protocol that decides the order of transactions, guarantees safety (no two honest nodes diverge) and liveness (the system eventually makes progress), and does so under real‑world constraints such as network latency, message loss, and Byzantine behavior.\n\nIn many emerging use‑cases—high‑frequency trading, IoT sensor aggregation, real‑time supply‑chain tracking, and decentralized finance (DeFi) platforms—the latency of reaching consensus directly translates to user experience and economic value. Low‑latency consensus is therefore not a luxury but a core requirement. This article dives deep into the architectural decisions, algorithmic tricks, and engineering practices needed to build high‑performance SMR for distributed ledgers.\n\n2. Examine classic and modern consensus families (PBFT, Raft, HotStuff, Tendermint, etc.).",
+      "tags": [
+        "consensus",
+        "distributed-systems",
+        "state-machine-replication",
+        "low-latency",
+        "blockchain"
+      ],
+      "scheduled_at": "2026-03-14T02:03:48Z",
       "status": "pending"
     }
   ]
