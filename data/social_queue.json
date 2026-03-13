@@ -3219,7 +3219,7 @@
         "Microservices"
       ],
       "scheduled_at": "2026-03-13T09:03:48Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Scaling Distributed Training with Parameter Servers and Collective Communication Primitives",
