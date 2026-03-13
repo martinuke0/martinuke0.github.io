@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-13T17:03:48Z",
+  "last_scheduled_at": "2026-03-13T18:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -3331,6 +3331,20 @@
         "EdgeAI"
       ],
       "scheduled_at": "2026-03-13T17:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Beyond Benchmarks: Building High‑Performance Distributed Systems with Modern Systems Programming Languages",
+      "url": "https://martinuke0.github.io/posts/2026-03-13-beyond-benchmarks-building-highperformance-distributed-systems-with-modern-systems-programming-languages/",
+      "social_hook": "In the past decade, the term “high‑performance distributed system” has become a buzz‑word for everything from real‑time ad bidding platforms to large‑scale telemetry pipelines. The temptation to prove a system’s worth with a single micro‑benchmark—say, “10 µs latency on a 1 KB payload”—is strong, but those numbers rarely survive the chaos of production. Real‑world workloads contend with variable network conditions, evolving data schemas, memory pressure, and the unavoidable need for observability and safety.\n\nModern systems programming languages such as Rust, Go, Zig, and the latest C++20/23 standards have entered the arena with promises of zero‑cost abstractions, strong static guarantees, and ergonomic concurrency models. Yet the decision to adopt one of these languages cannot be reduced to “which one runs fastest in a benchmark.” Instead, engineers must examine how language features interact with the entire stack: networking, serialization, scheduling, and even deployment pipelines.\n\nThis article goes beyond the allure of raw numbers. We’ll explore a holistic approach to building high‑performance distributed systems, discuss the strengths and trade‑offs of contemporary systems languages, and walk through concrete, side‑by‑side implementations of a simple distributed key‑value store in Rust and Go. By the end, you should have a mental checklist that moves you from “benchmark‑centric” to “system‑centric” performance engineering.",
+      "tags": [
+        "distributed systems",
+        "systems programming",
+        "performance engineering",
+        "Rust",
+        "Go"
+      ],
+      "scheduled_at": "2026-03-13T18:03:48Z",
       "status": "pending"
     }
   ]
