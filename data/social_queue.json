@@ -3091,7 +3091,7 @@
         "digital-transformation"
       ],
       "scheduled_at": "2026-03-13T00:03:48Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "The Log Abstraction: Unifying Force Behind Modern Distributed Systems and Real-Time Data",
@@ -3119,7 +3119,7 @@
         "data-engineering"
       ],
       "scheduled_at": "2026-03-13T02:03:48Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Mastering Context Engineering: Empowering AI Coding Agents with Curated Knowledge Hubs",
@@ -3134,7 +3134,7 @@
         "PromptEngineering"
       ],
       "scheduled_at": "2026-03-13T03:03:48Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "From Manual Tinkering to Autonomous Discovery: How AI Agents Are Revolutionizing Machine Learning Research",
