@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-13T16:03:48Z",
+  "last_scheduled_at": "2026-03-13T17:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -3317,6 +3317,20 @@
         "stream-processing"
       ],
       "scheduled_at": "2026-03-13T16:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Low‑Latency Inference Pipelines with TensorRT and Optimized Model Quantization Strategies",
+      "url": "https://martinuke0.github.io/posts/2026-03-13-architecting-lowlatency-inference-pipelines-with-tensorrt-and-optimized-model-quantization-strategies/",
+      "social_hook": "In production AI, latency is often the make‑or‑break metric. A self‑driving car cannot wait 100 ms for a perception model, a voice‑assistant must respond within a few hundred milliseconds, and high‑frequency trading systems demand micro‑second decisions. While modern GPUs can deliver massive FLOPs, raw compute power alone does not guarantee low latency. The architecture of the inference pipeline, the precision of the model, and the runtime optimizations all interact to determine the end‑to‑end response time.\n\nThis article provides a comprehensive guide to building low‑latency inference pipelines using NVIDIA TensorRT combined with state‑of‑the‑art quantization strategies. We will:\n\n3. Cover model quantization fundamentals, including Post‑Training Quantization (PTQ) and Quantization‑Aware Training (QAT).",
+      "tags": [
+        "TensorRT",
+        "ModelQuantization",
+        "LowLatencyInference",
+        "DeepLearningOps",
+        "EdgeAI"
+      ],
+      "scheduled_at": "2026-03-13T17:03:48Z",
       "status": "pending"
     }
   ]
