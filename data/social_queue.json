@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-13T15:03:48Z",
+  "last_scheduled_at": "2026-03-13T16:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -3303,6 +3303,20 @@
         "architecture"
       ],
       "scheduled_at": "2026-03-13T15:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Scaling Real-Time Data Pipelines with Distributed Systems and HPC Strategies",
+      "url": "https://martinuke0.github.io/posts/2026-03-13-scaling-real-time-data-pipelines-with-distributed-systems-and-hpc-strategies/",
+      "social_hook": "In today’s data‑driven economy, organizations increasingly depend on real‑time data pipelines to turn raw event streams into actionable insights within seconds. Whether it is fraud detection in finance, sensor analytics in manufacturing, or personalized recommendations in e‑commerce, the ability to ingest, process, and deliver data at scale is no longer a nice‑to‑have feature—it’s a competitive imperative.\n\nBuilding a pipeline that can scale horizontally, maintain low latency, and handle bursty workloads requires a careful blend of distributed systems engineering and high‑performance computing (HPC) techniques. Distributed systems give us elasticity, fault tolerance, and geographic dispersion, while HPC contributes low‑level optimizations, efficient communication patterns, and deterministic performance guarantees.\n\nThis article provides a deep dive into the architectural foundations, design patterns, and concrete implementation strategies for scaling real‑time data pipelines. We’ll explore:",
+      "tags": [
+        "real-time",
+        "distributed-systems",
+        "high-performance-computing",
+        "data-pipelines",
+        "stream-processing"
+      ],
+      "scheduled_at": "2026-03-13T16:03:48Z",
       "status": "pending"
     }
   ]
