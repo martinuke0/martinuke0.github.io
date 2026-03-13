@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-14T11:03:48Z",
+  "last_scheduled_at": "2026-03-14T12:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -3584,6 +3584,20 @@
         "production scaling"
       ],
       "scheduled_at": "2026-03-14T11:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Distributed Systems Observability with OpenTelemetry and eBPF for High Performance Profiling",
+      "url": "https://martinuke0.github.io/posts/2026-03-13-mastering-distributed-systems-observability-with-opentelemetry-and-ebpf-for-high-performance-profiling/",
+      "social_hook": "Observability has become the cornerstone of modern distributed systems. As microservice architectures, serverless functions, and edge workloads proliferate, engineers need deep, low‑latency insight into what their code is doing across the entire stack—from the kernel up to the application layer. Traditional monitoring tools either incur prohibitive overhead or lack the granularity required to troubleshoot performance regressions in real time.\n\nEnter OpenTelemetry, the community‑driven, vendor‑neutral standard for collecting traces, metrics, and logs. And eBPF (extended Berkeley Packet Filter), a powerful in‑kernel virtual machine that enables safe, high‑performance instrumentation without modifying application code.\n\nThis article explores how to master distributed systems observability by combining OpenTelemetry’s flexible telemetry pipeline with eBPF’s low‑overhead profiling capabilities. We’ll walk through the theory, show practical code snippets, and present a real‑world deployment scenario that demonstrates the value of this partnership.",
+      "tags": [
+        "observability",
+        "OpenTelemetry",
+        "eBPF",
+        "distributed-systems",
+        "performance-profiling"
+      ],
+      "scheduled_at": "2026-03-14T12:03:48Z",
       "status": "pending"
     }
   ]
