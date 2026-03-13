@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-13T19:03:48Z",
+  "last_scheduled_at": "2026-03-13T20:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -3359,6 +3359,20 @@
         "AI-infrastructure"
       ],
       "scheduled_at": "2026-03-13T19:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Accelerating Edge Inference with Asynchronous Stream Processing and Hardware‑Accelerated Kernel Bypass",
+      "url": "https://martinuke0.github.io/posts/2026-03-13-accelerating-edge-inference-with-asynchronous-stream-processing-and-hardwareaccelerated-kernel-bypass/",
+      "social_hook": "Edge devices—smart cameras, autonomous drones, industrial IoT gateways—are increasingly expected to run sophisticated machine‑learning inference locally. The promise is clear: lower latency, reduced bandwidth costs, and better privacy. Yet the reality is that many edge platforms still struggle to meet the sub‑10 ms latency budgets demanded by real‑time applications such as object detection in autonomous navigation or anomaly detection in high‑frequency sensor streams.\n\nTraditional networking stacks and synchronous processing pipelines are often the hidden culprits. Each packet that carries sensor data must traverse the operating system kernel, be copied between user and kernel space, and then be queued for inference. The cumulative overhead can dwarf the actual compute time of the neural network, especially when the model itself is lightweight (e.g., MobileNet‑V2, YOLO‑Nano).\n\nIn this article we dive deep into asynchronous stream processing combined with hardware‑accelerated kernel bypass techniques. We will explore the theory, walk through a concrete implementation, and examine real‑world results that demonstrate latency reductions of 40 %–70 % on typical edge hardware. The goal is to give engineers a complete, production‑ready roadmap for building ultra‑low‑latency inference pipelines.",
+      "tags": [
+        "edge-computing",
+        "inference",
+        "stream-processing",
+        "kernel-bypass",
+        "hardware-acceleration"
+      ],
+      "scheduled_at": "2026-03-13T20:03:48Z",
       "status": "pending"
     }
   ]
