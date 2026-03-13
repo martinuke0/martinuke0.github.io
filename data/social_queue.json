@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-13T20:03:48Z",
+  "last_scheduled_at": "2026-03-13T21:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -3373,6 +3373,20 @@
         "hardware-acceleration"
       ],
       "scheduled_at": "2026-03-13T20:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Distributed Vector Databases for High‑Performance Generative AI and RAG Pipelines",
+      "url": "https://martinuke0.github.io/posts/2026-03-13-architecting-distributed-vector-databases-for-highperformance-generative-ai-and-rag-pipelines/",
+      "social_hook": "Generative AI models—large language models (LLMs), diffusion models, and multimodal transformers—have transformed how we create text, images, code, and even scientific hypotheses. Yet, the most compelling applications rely on retrieval‑augmented generation (RAG), where a model supplements its internal knowledge with external, vector‑based lookups.\n\nA vector database stores high‑dimensional embeddings (typically 256‑2048 dimensions) and provides nearest‑neighbor (k‑NN) queries that are both fast and semantically aware. When these databases are distributed across many nodes, they can serve billions of vectors with sub‑millisecond latency, enabling real‑time RAG pipelines for chatbots, search engines, and decision‑support systems.\n\nThis article dives into the architectural decisions required to build a distributed vector database that can keep up with the demanding workloads of modern generative AI. We’ll explore data partitioning, indexing, consistency, networking, ingestion, query execution, performance tuning, security, and observability—all backed by practical code snippets and real‑world examples.",
+      "tags": [
+        "vector-database",
+        "distributed-systems",
+        "generative-ai",
+        "retrieval-augmented-generation",
+        "scalable-architecture"
+      ],
+      "scheduled_at": "2026-03-13T21:03:48Z",
       "status": "pending"
     }
   ]
