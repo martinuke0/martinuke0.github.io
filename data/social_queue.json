@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-14T03:03:48Z",
+  "last_scheduled_at": "2026-03-14T04:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -3472,6 +3472,20 @@
         "AI deployment"
       ],
       "scheduled_at": "2026-03-14T03:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building High Availability Edge Clusters with Kubernetes and Localized Small Language Models",
+      "url": "https://martinuke0.github.io/posts/2026-03-13-building-high-availability-edge-clusters-with-kubernetes-and-localized-small-language-models/",
+      "social_hook": "Edge computing has moved from a niche concept to a mainstream architectural pattern. By processing data close to the source—whether a sensor, a mobile device, or an IoT gateway—organizations can reduce latency, preserve bandwidth, and meet strict regulatory or privacy requirements. At the same time, the explosion of small language models (LLMs)—compact, fine‑tuned transformer models that can run on modest hardware—has opened the door for sophisticated natural‑language capabilities at the edge.\n\nCombining these two trends creates a powerful proposition: high‑availability (HA) edge clusters that host localized LLMs for real‑time inference, while still enjoying the orchestration, self‑healing, and scaling benefits of Kubernetes. This article walks you through the architectural foundations, design decisions, and practical steps needed to build such a system. By the end, you’ll have a concrete, reproducible example that you can adapt to your own workloads.\n\n> Note: The focus is on small language models (typically ≤ 7 B parameters) that can run on CPUs or modest GPUs. Larger models demand dedicated hardware and are beyond the scope of a lightweight edge deployment.",
+      "tags": [
+        "Kubernetes",
+        "Edge Computing",
+        "High Availability",
+        "Small Language Models",
+        "DevOps"
+      ],
+      "scheduled_at": "2026-03-14T04:03:48Z",
       "status": "pending"
     }
   ]
