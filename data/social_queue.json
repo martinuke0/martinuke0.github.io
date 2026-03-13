@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-14T08:03:48Z",
+  "last_scheduled_at": "2026-03-14T09:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -3542,6 +3542,20 @@
         "architecture"
       ],
       "scheduled_at": "2026-03-14T08:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Scalable Vector Databases for Production‑Grade Large Language Model Applications",
+      "url": "https://martinuke0.github.io/posts/2026-03-13-architecting-scalable-vector-databases-for-productiongrade-large-language-model-applications/",
+      "social_hook": "Large Language Models (LLMs) such as GPT‑4, Claude, or Llama 2 have turned natural language processing from a research curiosity into a core component of modern products. While the models themselves excel at generation and reasoning, many real‑world use‑cases—semantic search, retrieval‑augmented generation (RAG), recommendation, and knowledge‑base Q&A—require fast, accurate similarity search over millions or billions of high‑dimensional vectors.\n\nThat is where vector databases come in. They store embeddings (dense numeric representations) and provide nearest‑neighbor (NN) queries that are orders of magnitude faster than brute‑force scans. However, moving from a proof‑of‑concept notebook to a production‑grade service introduces a whole new set of challenges: scaling horizontally, guaranteeing low latency under heavy load, ensuring data durability, handling multi‑tenant workloads, and meeting security/compliance requirements.\n\nThis article walks through the architectural decisions, best‑practice patterns, and concrete implementation steps needed to build a scalable, production‑ready vector store for LLM‑driven applications. We’ll explore core concepts, compare technology choices, dive into a practical code example, and finish with operational guidance and a glance at emerging trends.",
+      "tags": [
+        "vector-database",
+        "large-language-models",
+        "scalability",
+        "production-architecture",
+        "semantic-search"
+      ],
+      "scheduled_at": "2026-03-14T09:03:48Z",
       "status": "pending"
     }
   ]
