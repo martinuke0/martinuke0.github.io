@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-13T23:03:48Z",
+  "last_scheduled_at": "2026-03-14T00:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -3416,6 +3416,20 @@
         "machine-learning"
       ],
       "scheduled_at": "2026-03-13T23:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Vector Database Performance for High‑Throughput Real‑Time Analytics in Production",
+      "url": "https://martinuke0.github.io/posts/2026-03-13-optimizing-vector-database-performance-for-highthroughput-realtime-analytics-in-production/",
+      "social_hook": "Vector databases have moved from research prototypes to core components of modern data pipelines. Whether you’re powering a recommendation engine, a semantic search service, or an anomaly‑detection system, you’re often dealing with high‑dimensional embeddings that must be stored, indexed, and queried at scale. In production environments, the stakes are higher: latency budgets are measured in milliseconds, throughput can reach hundreds of thousands of queries per second, and any performance regression can directly affect user experience and revenue.\n\nThis article dives deep into optimizing vector database performance for high‑throughput real‑time analytics. We will explore:\n\n* Query‑time optimizations (batching, filtering, approximate nearest neighbor (ANN) tuning).",
+      "tags": [
+        "vector-database",
+        "performance",
+        "real-time-analytics",
+        "scalability",
+        "production"
+      ],
+      "scheduled_at": "2026-03-14T00:03:48Z",
       "status": "pending"
     }
   ]
