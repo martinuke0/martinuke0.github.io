@@ -3317,7 +3317,7 @@
         "stream-processing"
       ],
       "scheduled_at": "2026-03-13T16:03:48Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Architecting Low‑Latency Inference Pipelines with TensorRT and Optimized Model Quantization Strategies",
