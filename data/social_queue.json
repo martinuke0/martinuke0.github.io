@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-14T04:03:48Z",
+  "last_scheduled_at": "2026-03-14T05:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -3486,6 +3486,20 @@
         "DevOps"
       ],
       "scheduled_at": "2026-03-14T04:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Securing the Distributed Edge with Zero Knowledge Proofs and WebAssembly Modules",
+      "url": "https://martinuke0.github.io/posts/2026-03-13-securing-the-distributed-edge-with-zero-knowledge-proofs-and-webassembly-modules/",
+      "social_hook": "Edge computing has moved from a buzz‑word to a production reality. By processing data close to its source—whether a sensor, a mobile device, or an autonomous vehicle—organizations can reduce latency, conserve bandwidth, and enable real‑time decision making. Yet the very characteristics that make the edge attractive also broaden the attack surface:\n\n Heterogeneous hardware** – A kaleidoscope of CPUs, GPUs, and micro‑controllers makes uniform security hard.\n\n Limited resources** – Memory, compute, and power constraints restrict the use of heavyweight cryptographic primitives.",
+      "tags": [
+        "edge computing",
+        "zero knowledge proofs",
+        "webassembly",
+        "security",
+        "distributed systems"
+      ],
+      "scheduled_at": "2026-03-14T05:03:48Z",
       "status": "pending"
     }
   ]
