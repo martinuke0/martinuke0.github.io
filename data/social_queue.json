@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-14T09:03:48Z",
+  "last_scheduled_at": "2026-03-14T10:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -3556,6 +3556,20 @@
         "semantic-search"
       ],
       "scheduled_at": "2026-03-14T09:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Orchestrating Decentralized Intelligence: Federated Learning Meets Local‑First Autonomous Agent Swarms",
+      "url": "https://martinuke0.github.io/posts/2026-03-13-orchestrating-decentralized-intelligence-federated-learning-meets-localfirst-autonomous-agent-swarms/",
+      "social_hook": "The last decade has witnessed an explosion of distributed AI paradigms— from federated learning (FL) that lets edge devices collaboratively train models without sharing raw data, to swarm intelligence where thousands of simple agents collectively exhibit sophisticated behavior. Yet, most deployments treat these concepts in isolation.\n\nOrchestrating decentralized intelligence means blending the statistical rigor of federated learning with the dynamism of local‑first autonomous agent swarms. The result is a system that can:\n\n Adapt locally** to transient conditions (traffic jams, equipment failures, health anomalies).",
+      "tags": [
+        "federated learning",
+        "autonomous agents",
+        "decentralized AI",
+        "edge computing",
+        "swarm intelligence"
+      ],
+      "scheduled_at": "2026-03-14T10:03:48Z",
       "status": "pending"
     }
   ]
