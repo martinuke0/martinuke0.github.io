@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-13T14:03:48Z",
+  "last_scheduled_at": "2026-03-13T15:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -3289,6 +3289,20 @@
         "Privacy"
       ],
       "scheduled_at": "2026-03-13T14:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Real Time Stream Processing Engines for Large Language Model Data Pipelines",
+      "url": "https://martinuke0.github.io/posts/2026-03-13-architecting-real-time-stream-processing-engines-for-large-language-model-data-pipelines/",
+      "social_hook": "Large Language Models (LLMs) such as GPT‑4, Llama 2, or Claude have moved from research curiosities to production‑grade services that power chatbots, code assistants, recommendation engines, and countless other applications. While the models themselves are impressive, the real value is unlocked only when they can be integrated into data pipelines that operate in real time.\n\nA real‑time LLM pipeline must ingest high‑velocity data (e.g., user queries, telemetry, clickstreams), apply lightweight pre‑processing, invoke an inference service, enrich the result, and finally persist or forward the output—all under strict latency, scalability, and reliability constraints. This is where stream processing engines such as Apache Flink, Kafka Streams, or Spark Structured Streaming become the backbone of the architecture.\n\n3. Compare popular streaming engines and illustrate how to choose the right tool.",
+      "tags": [
+        "stream-processing",
+        "large-language-models",
+        "data-pipelines",
+        "real-time",
+        "architecture"
+      ],
+      "scheduled_at": "2026-03-13T15:03:48Z",
       "status": "pending"
     }
   ]
