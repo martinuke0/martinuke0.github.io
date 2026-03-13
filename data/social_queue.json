@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-14T00:03:48Z",
+  "last_scheduled_at": "2026-03-14T01:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -3430,6 +3430,20 @@
         "production"
       ],
       "scheduled_at": "2026-03-14T00:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "The Shift from RAG to Agentic Memory: Optimizing Long-Context LLMs for Production Workflows",
+      "url": "https://martinuke0.github.io/posts/2026-03-13-the-shift-from-rag-to-agentic-memory-optimizing-long-context-llms-for-production-workflows/",
+      "social_hook": "The past few years have witnessed an explosion of interest in retrieval‑augmented generation (RAG) as a way to overcome the limited context windows of large language models (LLMs). By pulling relevant documents from an external datastore at inference time, RAG can inject up‑to‑date knowledge, reduce hallucinations, and keep token usage low.\n\nHowever, as LLMs grow from research curiosities to core components of production‑grade workflows, the shortcomings of classic RAG become increasingly apparent:\n\n Fragmented context** – Retrieval is a one‑shot operation; the model never “remembers” what it has already seen.",
+      "tags": [
+        "RAG",
+        "Agentic Memory",
+        "LLM",
+        "Long Context",
+        "Production AI"
+      ],
+      "scheduled_at": "2026-03-14T01:03:48Z",
       "status": "pending"
     }
   ]
