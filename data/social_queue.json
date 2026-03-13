@@ -3359,7 +3359,7 @@
         "AI-infrastructure"
       ],
       "scheduled_at": "2026-03-13T19:03:48Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Accelerating Edge Inference with Asynchronous Stream Processing and Hardware‑Accelerated Kernel Bypass",
