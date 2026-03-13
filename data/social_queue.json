@@ -3303,7 +3303,7 @@
         "architecture"
       ],
       "scheduled_at": "2026-03-13T15:03:48Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Scaling Real-Time Data Pipelines with Distributed Systems and HPC Strategies",
