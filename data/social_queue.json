@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-14T06:03:48Z",
+  "last_scheduled_at": "2026-03-14T07:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -3514,6 +3514,20 @@
         "Scalable Pipelines"
       ],
       "scheduled_at": "2026-03-14T06:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building Autonomous Agents with LangChain and Pinecone for Real‑Time Knowledge Retrieval",
+      "url": "https://martinuke0.github.io/posts/2026-03-13-building-autonomous-agents-with-langchain-and-pinecone-for-realtime-knowledge-retrieval/",
+      "social_hook": "Autonomous agents—software entities capable of perceiving their environment, reasoning, and taking actions—are moving from research prototypes to production‑ready services. Their power hinges on knowledge retrieval: the ability to fetch the most relevant information, often in real time, and feed it into a reasoning pipeline. Traditional retrieval methods (keyword search, static databases) struggle with latency, relevance, and the ability to understand semantic similarity.\n\nEnter LangChain and Pinecone. LangChain provides a modular framework for chaining together language models (LLMs), prompts, and tools, while Pinecone offers a managed vector database optimized for similarity search at scale. By marrying the two, developers can create agents that:\n\n* Pull the latest facts from a dynamic corpus (e.g., updated documentation, live news feeds).",
+      "tags": [
+        "LangChain",
+        "Pinecone",
+        "Autonomous Agents",
+        "Knowledge Retrieval",
+        "AI Engineering"
+      ],
+      "scheduled_at": "2026-03-14T07:03:48Z",
       "status": "pending"
     }
   ]
