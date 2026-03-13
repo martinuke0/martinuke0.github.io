@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-13T22:03:48Z",
+  "last_scheduled_at": "2026-03-13T23:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -3402,6 +3402,20 @@
         "AI Production"
       ],
       "scheduled_at": "2026-03-13T22:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Beyond RAG: Building Scalable Vector Architectures for Distributed Edge Intelligence Systems",
+      "url": "https://martinuke0.github.io/posts/2026-03-13-beyond-rag-building-scalable-vector-architectures-for-distributed-edge-intelligence-systems/",
+      "social_hook": "Retrieval‑Augmented Generation (RAG) has transformed how large language models (LLMs) access external knowledge. By coupling a generative model with a vector store, RAG enables on‑the‑fly retrieval of relevant documents, dramatically improving factuality and reducing hallucinations. However, the classic RAG pipeline assumes a centralized vector database—typically a cloud‑hosted service with abundant compute, memory, and storage.\n\nIn many emerging applications—industrial IoT, autonomous drones, smart retail, and AR/VR—data is generated at the edge and must be processed locally to meet stringent latency, bandwidth, and privacy constraints. This shift forces us to rethink the architecture of retrieval‑augmented systems. The goal is no longer simply “attach a vector store to an LLM,” but to build a scalable, fault‑tolerant vector architecture that spans thousands of heterogeneous edge nodes while still supporting high‑quality generation.\n\nThis article dives deep into the design principles, algorithms, and deployment patterns needed to realize Scalable Vector Architectures (SVA) for distributed edge intelligence. We will:",
+      "tags": [
+        "edge-computing",
+        "vector-search",
+        "distributed-systems",
+        "retrieval-augmented-generation",
+        "machine-learning"
+      ],
+      "scheduled_at": "2026-03-13T23:03:48Z",
       "status": "pending"
     }
   ]
