@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-14T02:03:48Z",
+  "last_scheduled_at": "2026-03-14T03:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -3458,6 +3458,20 @@
         "blockchain"
       ],
       "scheduled_at": "2026-03-14T02:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Beyond the Hype: Mastering Real-Time Inference on Decentralized Edge Computing Networks",
+      "url": "https://martinuke0.github.io/posts/2026-03-13-beyond-the-hype-mastering-real-time-inference-on-decentralized-edge-computing-networks/",
+      "social_hook": "Artificial intelligence (AI) has moved from the data‑center to the edge. From autonomous drones delivering packages to industrial robots monitoring assembly lines, the demand for real‑time inference on devices that are geographically dispersed, resource‑constrained, and intermittently connected is exploding.\n\nWhile cloud‑centric AI pipelines still dominate many use‑cases, they suffer from latency, bandwidth, and privacy bottlenecks that become unacceptable when decisions must be made within milliseconds. Decentralized edge computing networks—collections of heterogeneous nodes that cooperate without a single point of control—promise to overcome these limitations.\n\nThis article goes beyond the buzzwords. It provides a deep, practical guide to designing, implementing, and operating real‑time inference on decentralized edge networks. You’ll learn:",
+      "tags": [
+        "edge computing",
+        "real-time inference",
+        "decentralized networks",
+        "model optimization",
+        "AI deployment"
+      ],
+      "scheduled_at": "2026-03-14T03:03:48Z",
       "status": "pending"
     }
   ]
