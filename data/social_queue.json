@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-15T00:03:48Z",
+  "last_scheduled_at": "2026-03-15T01:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -3766,6 +3766,20 @@
         "Distributed Systems"
       ],
       "scheduled_at": "2026-03-15T00:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Beyond the LLM: Architecting Real-Time Local Intelligence with Small Language Model Clusters",
+      "url": "https://martinuke0.github.io/posts/2026-03-14-beyond-the-llm-architecting-real-time-local-intelligence-with-small-language-model-clusters/",
+      "social_hook": "Large language models (LLMs) have captured headlines for their impressive generative abilities, but their size, compute requirements, and reliance on cloud‑based inference make them unsuitable for many latency‑sensitive, privacy‑first, or offline scenarios. A growing body of research and open‑source tooling shows that small language models (SLMs)—typically ranging from 10 M to 500 M parameters—can deliver surprisingly capable text understanding and generation when combined intelligently.\n\nThis article explores how to architect a real‑time, locally‑running intelligence stack using clusters of small language models. We will:\n\n1. Explain why SLM clusters can outperform a single monolithic LLM for edge and real‑time use cases.",
+      "tags": [
+        "LLM",
+        "Small Language Models",
+        "Edge AI",
+        "Real-Time",
+        "Model Clustering"
+      ],
+      "scheduled_at": "2026-03-15T01:03:48Z",
       "status": "pending"
     }
   ]
