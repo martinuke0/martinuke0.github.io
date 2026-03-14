@@ -3668,7 +3668,7 @@
         "LLM"
       ],
       "scheduled_at": "2026-03-14T17:03:48Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Zero to Production Fine-Tuning Llama 3 with Unsloth: A Practical Step-by-Step Deployment Guide",
