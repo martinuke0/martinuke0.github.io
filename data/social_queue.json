@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-15T05:03:48Z",
+  "last_scheduled_at": "2026-03-15T06:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -3836,6 +3836,20 @@
         "real-time intelligence"
       ],
       "scheduled_at": "2026-03-15T05:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building Distributed Agentic Workflows for High‑Throughput Financial Intelligence Systems using Rust",
+      "url": "https://martinuke0.github.io/posts/2026-03-14-building-distributed-agentic-workflows-for-highthroughput-financial-intelligence-systems-using-rust/",
+      "social_hook": "Financial institutions increasingly rely on real‑time intelligence to make split‑second decisions across trading, risk management, fraud detection, and compliance. The data velocity—millions of market ticks per second, billions of transaction logs, and a constant stream of news sentiment—demands high‑throughput, low‑latency pipelines that can adapt to changing market conditions.\n\nTraditional monolithic pipelines struggle to keep up. Modern architectures favor distributed agentic workflows: a collection of autonomous, purpose‑built agents that communicate via lightweight messages, coordinate tasks, and self‑organize to meet service‑level objectives. When combined with Rust, a language that offers memory safety without a garbage collector, these workflows become both fast and reliable, aligning perfectly with the stringent regulatory and operational requirements of finance.\n\nThis article provides a deep dive into designing, implementing, and operating distributed agentic workflows for high‑throughput financial intelligence systems using Rust. We will explore architectural patterns, core Rust primitives, performance‑critical techniques, and real‑world deployment considerations. By the end, you’ll have a blueprint you can adapt to your own trading platform, fraud‑detection engine, or risk‑analytics service.",
+      "tags": [
+        "rust",
+        "distributed-systems",
+        "financial-technology",
+        "agentic-workflows",
+        "high-throughput"
+      ],
+      "scheduled_at": "2026-03-15T06:03:48Z",
       "status": "pending"
     }
   ]
