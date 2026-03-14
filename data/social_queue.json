@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-14T14:03:48Z",
+  "last_scheduled_at": "2026-03-14T15:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -3626,6 +3626,20 @@
         "multi-agent"
       ],
       "scheduled_at": "2026-03-14T14:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Vector Database Fundamentals: Architectural Patterns for Scaling High‑Performance AI Applications",
+      "url": "https://martinuke0.github.io/posts/2026-03-14-vector-database-fundamentals-architectural-patterns-for-scaling-highperformance-ai-applications/",
+      "social_hook": "Artificial intelligence (AI) models have become increasingly capable of turning raw text, images, audio, and video into dense numeric representations—embeddings. These embeddings capture semantic meaning in a high‑dimensional vector space and enable powerful similarity‑based operations such as semantic search, nearest‑neighbour recommendation, and retrieval‑augmented generation (RAG). However, the raw vectors alone are not useful until they can be stored, indexed, and queried efficiently at scale.\n\nEnter vector databases: purpose‑built data stores that combine the durability of traditional databases with the speed of specialized similarity‑search indexes. While early prototypes were simple in‑memory collections, production‑grade systems now need to handle billions of vectors, sub‑millisecond latency, and dynamic workloads that span multiple AI services.\n\nThis article dives deep into the fundamentals of vector databases, explores architectural patterns that enable horizontal scaling and high performance, and provides concrete, production‑ready examples. Whether you are a data engineer designing a new AI platform or a machine‑learning researcher looking to serve embeddings at scale, the concepts and patterns described here will help you make informed decisions.",
+      "tags": [
+        "vector-database",
+        "AI",
+        "scalability",
+        "architecture",
+        "high-performance"
+      ],
+      "scheduled_at": "2026-03-14T15:03:48Z",
       "status": "pending"
     }
   ]
