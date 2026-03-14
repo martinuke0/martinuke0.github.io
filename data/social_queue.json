@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-14T20:03:48Z",
+  "last_scheduled_at": "2026-03-14T21:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -3710,6 +3710,20 @@
         "observability"
       ],
       "scheduled_at": "2026-03-14T20:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Quantization Techniques for Efficient Large Language Model Deployment on Edge Hardware",
+      "url": "https://martinuke0.github.io/posts/2026-03-14-optimizing-quantization-techniques-for-efficient-large-language-model-deployment-on-edge-hardware/",
+      "social_hook": "Large Language Models (LLMs) such as GPT‑3, LLaMA, and Falcon have demonstrated unprecedented capabilities across a wide range of natural‑language tasks. However, their massive parameter counts (often hundreds of millions to billions) and high‑precision (typically 16‑ or 32‑bit floating point) representations make them prohibitively expensive for deployment on edge devices—think smartphones, embedded controllers, or micro‑data‑centers like the NVIDIA Jetson family.\n\nQuantization—reducing the numeric precision of model weights and activations—offers a pragmatic path to bridge this gap. By shrinking memory footprints, lowering memory bandwidth, and enabling integer‑only arithmetic, quantization can transform a 30 GB FP16 model into a 2–4 GB integer model that runs at an acceptable latency on edge hardware.\n\nThis article provides a comprehensive, end‑to‑end guide for engineers and researchers who want to deploy LLMs on edge platforms. We will:",
+      "tags": [
+        "quantization",
+        "large-language-models",
+        "edge-computing",
+        "model-optimization",
+        "deployment"
+      ],
+      "scheduled_at": "2026-03-14T21:03:48Z",
       "status": "pending"
     }
   ]
