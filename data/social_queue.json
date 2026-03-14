@@ -3640,7 +3640,7 @@
         "high-performance"
       ],
       "scheduled_at": "2026-03-14T15:03:48Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Optimizing Local Inference: A Guide to the New WebGPU-Enhanced Llama 5 Architectures",
