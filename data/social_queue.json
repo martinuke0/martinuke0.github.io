@@ -3710,7 +3710,7 @@
         "observability"
       ],
       "scheduled_at": "2026-03-14T20:03:48Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Optimizing Quantization Techniques for Efficient Large Language Model Deployment on Edge Hardware",
