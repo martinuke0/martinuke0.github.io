@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-15T01:03:48Z",
+  "last_scheduled_at": "2026-03-15T02:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -3780,6 +3780,20 @@
         "Model Clustering"
       ],
       "scheduled_at": "2026-03-15T01:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Scaling Real Time Feature Stores for Low Latency Machine Learning Inference Pipelines",
+      "url": "https://martinuke0.github.io/posts/2026-03-14-scaling-real-time-feature-stores-for-low-latency-machine-learning-inference-pipelines/",
+      "social_hook": "Machine learning (ML) has moved from batch‑oriented scoring to real‑time inference in domains such as online advertising, fraud detection, recommendation systems, and autonomous control. The heart of any low‑latency inference pipeline is the feature store—a system that ingests, stores, and serves feature vectors at sub‑millisecond speeds. While many organizations have built feature stores for offline training, scaling those stores to meet the stringent latency requirements of production inference is a different challenge altogether.\n\n2. Identify the architectural bottlenecks that prevent naïve stores from scaling.\n\n3. Explore proven design patterns, data models, and technology choices that enable sub‑10 ms feature retrieval.",
+      "tags": [
+        "feature-store",
+        "low-latency",
+        "real-time",
+        "ml-inference",
+        "scalable-architecture"
+      ],
+      "scheduled_at": "2026-03-15T02:03:48Z",
       "status": "pending"
     }
   ]
