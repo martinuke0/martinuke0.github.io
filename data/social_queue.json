@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-14T15:03:48Z",
+  "last_scheduled_at": "2026-03-14T16:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -3640,6 +3640,20 @@
         "high-performance"
       ],
       "scheduled_at": "2026-03-14T15:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Local Inference: A Guide to the New WebGPU-Enhanced Llama 5 Architectures",
+      "url": "https://martinuke0.github.io/posts/2026-03-14-optimizing-local-inference-a-guide-to-the-new-webgpu-enhanced-llama-5-architectures/",
+      "social_hook": "Running large language models (LLMs) locally has historically required powerful GPUs, high‑end CPUs, or server‑side inference services. The rise of WebGPU, a low‑level graphics and compute API that runs directly in modern browsers and native runtimes, is reshaping that landscape. Coupled with Meta’s latest Llama 5 family—designed from the ground up for flexible hardware back‑ends—developers can now perform high‑throughput inference on consumer‑grade devices without leaving the browser.\n\nThis guide walks you through the architectural changes in Llama 5 that enable WebGPU acceleration, explains the key performance knobs you can tune, and provides concrete code examples for building a production‑ready local inference pipeline. Whether you are a researcher prototyping new prompting techniques, a product engineer building an on‑device assistant, or a hobbyist eager to experiment with LLMs offline, the concepts and recipes here will help you extract the most out of the new WebGPU‑enhanced Llama 5 stack.\n\nLlama 5 builds on the transformer backbone that powered Llama 2, but with three fundamental design shifts aimed at hardware agnosticism:",
+      "tags": [
+        "WebGPU",
+        "Llama5",
+        "LocalInference",
+        "MachineLearning",
+        "PerformanceOptimization"
+      ],
+      "scheduled_at": "2026-03-14T16:03:48Z",
       "status": "pending"
     }
   ]
