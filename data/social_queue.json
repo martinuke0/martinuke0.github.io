@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-15T06:03:48Z",
+  "last_scheduled_at": "2026-03-15T07:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -3850,6 +3850,20 @@
         "high-throughput"
       ],
       "scheduled_at": "2026-03-15T06:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing RAG Performance with Advanced Metadata Filtering and Vector Database Indexing Strategies",
+      "url": "https://martinuke0.github.io/posts/2026-03-14-optimizing-rag-performance-with-advanced-metadata-filtering-and-vector-database-indexing-strategies/",
+      "social_hook": "Retrieval‑Augmented Generation (RAG) has quickly become the de‑facto architecture for building LLM‑powered applications that need up‑to‑date, factual, or domain‑specific knowledge. By coupling a large language model (LLM) with a vector store that holds embedded representations of documents, RAG lets the model “look up” relevant passages before it generates an answer.\n\nWhile the conceptual pipeline is simple—embed → store → retrieve → generate—real‑world deployments quickly expose performance bottlenecks. Two of the most potent levers for scaling RAG are metadata‑based filtering and vector database indexing strategies. Properly harnessed, they can:\n\n2. Improve relevance, leading to higher answer quality and lower hallucination rates.",
+      "tags": [
+        "RAG",
+        "VectorDB",
+        "Metadata",
+        "Indexing",
+        "Performance"
+      ],
+      "scheduled_at": "2026-03-15T07:03:48Z",
       "status": "pending"
     }
   ]
