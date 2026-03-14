@@ -3682,7 +3682,7 @@
         "Deployment"
       ],
       "scheduled_at": "2026-03-14T18:03:48Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Optimizing Local Inference: A Guide to the New WebGPU‑Llama‑4 Standard and Beyond",
