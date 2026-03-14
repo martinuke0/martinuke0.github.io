@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-14T18:03:48Z",
+  "last_scheduled_at": "2026-03-14T19:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -3682,6 +3682,20 @@
         "Deployment"
       ],
       "scheduled_at": "2026-03-14T18:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Local Inference: A Guide to the New WebGPU‑Llama‑4 Standard and Beyond",
+      "url": "https://martinuke0.github.io/posts/2026-03-14-optimizing-local-inference-a-guide-to-the-new-webgpullama4-standard-and-beyond/",
+      "social_hook": "Local inference—running large language models (LLMs) directly on a user’s device—has moved from a research curiosity to a practical necessity. Users increasingly demand privacy, instantaneous response times, and offline capability. The convergence of two powerful technologies—WebGPU, a low‑level, cross‑platform graphics and compute API for the web, and Meta’s Llama‑4 family of transformer models—has created a new standard: WebGPU‑Llama‑4.\n\nThis guide provides a deep dive into the standard, walks you through a complete implementation from scratch, and explores advanced performance tricks that push the limits of what can be achieved on a typical laptop GPU or even integrated graphics. Whether you are a researcher, a front‑end engineer, or an AI‑enthusiast looking to embed a conversational agent in a web app, this article will give you the knowledge and code you need to get there.\n\n> Note: The WebGPU‑Llama‑4 standard is still evolving. The concepts presented here are based on the latest specification (v0.9, released March 2026) and the reference implementation maintained by the WebGPU‑Llama working group on GitHub.",
+      "tags": [
+        "WebGPU",
+        "Llama-4",
+        "Local Inference",
+        "Machine Learning",
+        "Performance Optimization"
+      ],
+      "scheduled_at": "2026-03-14T19:03:48Z",
       "status": "pending"
     }
   ]
