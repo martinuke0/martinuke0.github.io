@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-14T13:03:48Z",
+  "last_scheduled_at": "2026-03-14T14:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -3612,6 +3612,20 @@
         "stream processing"
       ],
       "scheduled_at": "2026-03-14T13:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Distributed State Consistency in High Throughput Multi Agent Systems with Redis Streams",
+      "url": "https://martinuke0.github.io/posts/2026-03-14-optimizing-distributed-state-consistency-in-high-throughput-multi-agent-systems-with-redis-streams/",
+      "social_hook": "In modern cloud‑native architectures, multi‑agent systems—ranging from autonomous robots and IoT edge devices to microservice‑based trading bots—must exchange state updates at astonishing rates while preserving a coherent view of the world. The classic CAP theorem tells us that in a distributed environment we can only have two of three guarantees: Consistency, Availability, and Partition tolerance. In high‑throughput scenarios, many designers sacrifice strong consistency for speed, leading to subtle bugs, race conditions, and costly data reconciliation later on.\n\nEnter Redis Streams. Since its GA release in Redis 5.0, Streams provide a durable, ordered log abstraction that can be used as a distributed message broker, event store, and state replication backbone. Combined with Redis’s low‑latency in‑memory engine, replication, and clustering features, Streams become a powerful tool for keeping distributed agents synchronized without sacrificing throughput.\n\n* The core challenges of state consistency in high‑throughput multi‑agent systems.",
+      "tags": [
+        "redis",
+        "distributed-systems",
+        "state-consistency",
+        "high-throughput",
+        "multi-agent"
+      ],
+      "scheduled_at": "2026-03-14T14:03:48Z",
       "status": "pending"
     }
   ]
