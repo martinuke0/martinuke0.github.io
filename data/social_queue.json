@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-15T02:03:48Z",
+  "last_scheduled_at": "2026-03-15T03:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -3794,6 +3794,20 @@
         "scalable-architecture"
       ],
       "scheduled_at": "2026-03-15T02:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building Autonomous Research Agents with LangChain and Vector Databases for Technical Documentation",
+      "url": "https://martinuke0.github.io/posts/2026-03-14-building-autonomous-research-agents-with-langchain-and-vector-databases-for-technical-documentation/",
+      "social_hook": "Technical documentation is the lifeblood of modern software development, hardware engineering, scientific research, and countless other domains. Yet, as products grow more complex, the volume of manuals, API references, design specifications, and troubleshooting guides can quickly outpace the capacity of human readers to locate and synthesize relevant information.\n\nEnter autonomous research agents—software entities that can search, interpret, summarize, and act upon technical content without continuous human supervision. By coupling the powerful composability of LangChain with the fast, semantic retrieval capabilities of vector databases, developers can build agents that not only answer questions but also carry out multi‑step research workflows, generate concise reports, and even trigger downstream automation.\n\nThis article provides a comprehensive, end‑to‑end guide on constructing such agents. We will:",
+      "tags": [
+        "LangChain",
+        "Vector Databases",
+        "AI Agents",
+        "Technical Documentation",
+        "Retrieval Augmented Generation"
+      ],
+      "scheduled_at": "2026-03-15T03:03:48Z",
       "status": "pending"
     }
   ]
