@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-14T23:03:48Z",
+  "last_scheduled_at": "2026-03-15T00:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -3752,6 +3752,20 @@
         "Architecture"
       ],
       "scheduled_at": "2026-03-14T23:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing LLM Agent Workflows with Distributed State Machines and Real-Time WebSocket Orchestration",
+      "url": "https://martinuke0.github.io/posts/2026-03-14-optimizing-llm-agent-workflows-with-distributed-state-machines-and-real-time-websocket-orchestration/",
+      "social_hook": "Large Language Model (LLM) agents have moved from research prototypes to production‑grade services that power chatbots, code assistants, data‑analysis pipelines, and autonomous tools. As these agents become more sophisticated, the orchestration of multiple model calls, external APIs, and user interactions grows in complexity. Traditional linear request‑response loops quickly become brittle, hard to debug, and difficult to scale.\n\n1. Distributed State Machines – a way to model each logical step of an LLM workflow as an explicit state, with clear transitions, retries, and timeouts. By distributing the state machine across services or containers, we gain horizontal scalability and resilience.\n\n2. Real‑Time WebSocket Orchestration – a bi‑directional, low‑latency communication channel that lets the front‑end, back‑end, and any auxiliary workers stay synchronized about the current state of the workflow. WebSockets enable live progress bars, incremental token streaming, and instant error handling.",
+      "tags": [
+        "LLM",
+        "State Machines",
+        "WebSockets",
+        "Orchestration",
+        "Distributed Systems"
+      ],
+      "scheduled_at": "2026-03-15T00:03:48Z",
       "status": "pending"
     }
   ]
