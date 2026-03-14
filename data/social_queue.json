@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-15T04:03:48Z",
+  "last_scheduled_at": "2026-03-15T05:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -3822,6 +3822,20 @@
         "Machine Learning"
       ],
       "scheduled_at": "2026-03-15T04:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Real‑Time Edge Intelligence with Serverless WebAssembly and Event‑Driven Microservices",
+      "url": "https://martinuke0.github.io/posts/2026-03-14-architecting-realtime-edge-intelligence-with-serverless-webassembly-and-eventdriven-microservices/",
+      "social_hook": "Edge intelligence is no longer a futuristic buzzword; it is the engine behind autonomous vehicles, industrial IoT, AR/VR experiences, and the next generation of responsive web applications. The core promise is simple: process data where it is generated, minimize latency, reduce bandwidth costs, and enable real‑time decision making.\n\nYet building a robust, scalable, and maintainable edge platform is a non‑trivial engineering challenge. Traditional monolithic edge gateways often suffer from vendor lock‑in, heavyweight runtimes, and limited elasticity. Conversely, cloud‑centric designs can’t meet the sub‑millisecond latency requirements of many use cases.\n\nEnter the convergence of serverless, WebAssembly (Wasm), and event‑driven microservices. Serverless abstracts away infrastructure, Wasm delivers near‑native performance in a sandboxed, portable binary format, and event‑driven microservices provide a decoupled, resilient messaging backbone. Together, they enable a clean, composable architecture for real‑time edge intelligence.",
+      "tags": [
+        "edge computing",
+        "serverless",
+        "webassembly",
+        "microservices",
+        "real-time intelligence"
+      ],
+      "scheduled_at": "2026-03-15T05:03:48Z",
       "status": "pending"
     }
   ]
