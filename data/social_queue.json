@@ -3430,7 +3430,7 @@
         "production"
       ],
       "scheduled_at": "2026-03-14T00:03:48Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "The Shift from RAG to Agentic Memory: Optimizing Long-Context LLMs for Production Workflows",
