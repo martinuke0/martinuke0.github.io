@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-14T16:03:48Z",
+  "last_scheduled_at": "2026-03-14T17:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -3654,6 +3654,20 @@
         "PerformanceOptimization"
       ],
       "scheduled_at": "2026-03-14T16:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "The Shift to On-Device SLM Agents: Optimizing Local Inference for Autonomous Developer Workflows",
+      "url": "https://martinuke0.github.io/posts/2026-03-14-the-shift-to-on-device-slm-agents-optimizing-local-inference-for-autonomous-developer-workflows/",
+      "social_hook": "The past few years have witnessed a rapid democratization of large language models (LLMs). From GPT‑4 to Claude, these models have become the backbone of many developer‑centric tools—code completion, documentation generation, automated testing, and even full‑stack scaffolding. Yet, the dominant deployment paradigm remains cloud‑centric: developers send prompts to remote APIs, await a response, and then act on the output.\n\nWhile this model works well for occasional queries, it introduces latency, cost, and—most importantly—privacy concerns that are increasingly unacceptable in enterprise or regulated environments. The industry is now moving toward on‑device SLM (Specialized Language Model) agents, lightweight yet capable models that run inference locally on the developer’s machine or edge hardware.\n\nIn this article we explore the why, how, and what of this shift. We dig into the technical underpinnings that make local inference feasible, outline concrete deployment strategies across hardware categories, and showcase a end‑to‑end example of turning a quantized model into a VS Code extension that powers autonomous developer workflows. By the end you’ll have a roadmap for building, optimizing, and maintaining on‑device SLM agents that can operate without ever leaving the developer’s sandbox.",
+      "tags": [
+        "AI",
+        "Machine Learning",
+        "Developer Tools",
+        "On-Device Inference",
+        "LLM"
+      ],
+      "scheduled_at": "2026-03-14T17:03:48Z",
       "status": "pending"
     }
   ]
