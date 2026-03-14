@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-14T21:03:48Z",
+  "last_scheduled_at": "2026-03-14T22:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -3724,6 +3724,20 @@
         "deployment"
       ],
       "scheduled_at": "2026-03-14T21:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Distributed Inference: Deploying Quantized Large Language Models on Low‑Power Edge Clusters",
+      "url": "https://martinuke0.github.io/posts/2026-03-14-mastering-distributed-inference-deploying-quantized-large-language-models-on-lowpower-edge-clusters/",
+      "social_hook": "Large language models (LLMs) have transformed natural‑language processing, enabling capabilities ranging from code generation to nuanced conversational agents. Yet, the sheer size of state‑of‑the‑art models—often exceeding tens of billions of parameters—poses a deployment paradox: how can we bring these powerful models to low‑power edge devices while preserving latency, privacy, and energy efficiency?\n\nThe answer lies at the intersection of distributed inference, quantization, and edge‑centric hardware. By slicing a quantized LLM across a cluster of modest edge nodes (think Raspberry Pi 4, NVIDIA Jetson Nano, or ARM‑based micro‑servers), we can achieve near‑real‑time responses, avoid costly round‑trips to the cloud, and keep data local—a critical requirement for many regulated or latency‑sensitive applications.\n\nThis article walks you through the entire journey—from the theory behind quantization, through architectural design choices, to a concrete, reproducible deployment pipeline. Whether you are a data‑science engineer, a systems architect, or a hobbyist building a personal voice assistant, you will find actionable guidance, code snippets, and real‑world insights.",
+      "tags": [
+        "distributed-systems",
+        "edge-computing",
+        "large-language-models",
+        "quantization",
+        "inference-optimization"
+      ],
+      "scheduled_at": "2026-03-14T22:03:48Z",
       "status": "pending"
     }
   ]
