@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-14T22:03:48Z",
+  "last_scheduled_at": "2026-03-14T23:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -3738,6 +3738,20 @@
         "inference-optimization"
       ],
       "scheduled_at": "2026-03-14T22:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "The Ethical Architect: Designing Scalable AI Systems for Global Social Impact",
+      "url": "https://martinuke0.github.io/posts/2026-03-14-the-ethical-architect-designing-scalable-ai-systems-for-global-social-impact/",
+      "social_hook": "Artificial intelligence (AI) is no longer a laboratory curiosity; it powers everything from recommendation engines to life‑saving diagnostics. As AI systems expand in scope, they increasingly intersect with societal challenges—health inequities, education gaps, climate emergencies, and more. Yet, scalability can become a double‑edged sword: a model that reaches billions of users may also amplify bias, erode privacy, or make opaque decisions that undermine trust.\n\nEnter the ethical architect—the practitioner who designs AI not merely for performance, but for responsible performance at scale. This article offers a deep dive into the principles, patterns, and practical tools that enable engineers, product leaders, and policy makers to build AI systems that are scalable, transparent, and socially beneficial. We will explore foundational ethics, concrete architectural patterns, real‑world case studies, and the governance mechanisms needed to keep large‑scale AI aligned with global human values.\n\n> “Ethics is not a bolt you can tighten after the fact; it is a circuit that must be wired into the system from the ground up.” – Anonymous AI ethicist",
+      "tags": [
+        "AI Ethics",
+        "Scalable Systems",
+        "Social Impact",
+        "Responsible AI",
+        "Architecture"
+      ],
+      "scheduled_at": "2026-03-14T23:03:48Z",
       "status": "pending"
     }
   ]
