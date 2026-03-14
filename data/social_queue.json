@@ -3584,7 +3584,7 @@
         "production scaling"
       ],
       "scheduled_at": "2026-03-14T11:03:48Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Mastering Distributed Systems Observability with OpenTelemetry and eBPF for High Performance Profiling",
