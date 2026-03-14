@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-14T17:03:48Z",
+  "last_scheduled_at": "2026-03-14T18:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -3668,6 +3668,20 @@
         "LLM"
       ],
       "scheduled_at": "2026-03-14T17:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Zero to Production Fine-Tuning Llama 3 with Unsloth: A Practical Step-by-Step Deployment Guide",
+      "url": "https://martinuke0.github.io/posts/2026-03-14-zero-to-production-fine-tuning-llama-3-with-unsloth-a-practical-step-by-step-deployment-guide/",
+      "social_hook": "Large language models (LLMs) have moved from research curiosities to production‑ready services in a matter of months. Llama 3, Meta’s latest open‑source family, combines a strong architectural foundation with permissive licensing, making it a prime candidate for custom fine‑tuning. Yet, the fine‑tuning process can still feel daunting: data preparation, GPU memory management, hyper‑parameter selection, and finally, serving the model at scale.\n\nEnter Unsloth, a lightweight library that dramatically simplifies the fine‑tuning workflow for Llama‑style models. Built on top of 🤗 Transformers and PyTorch, Unsloth offers:\n\n- Memory‑efficient LoRA (Low‑Rank Adaptation) that fits 70B‑class models on a single 24 GB GPU.",
+      "tags": [
+        "Llama3",
+        "Fine-Tuning",
+        "Unsloth",
+        "MLOps",
+        "Deployment"
+      ],
+      "scheduled_at": "2026-03-14T18:03:48Z",
       "status": "pending"
     }
   ]
