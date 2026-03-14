@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-14T19:03:48Z",
+  "last_scheduled_at": "2026-03-14T20:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -3696,6 +3696,20 @@
         "Performance Optimization"
       ],
       "scheduled_at": "2026-03-14T19:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Edge-Native Applications for the 2026 Decentralized Cloud Infrastructure Standard",
+      "url": "https://martinuke0.github.io/posts/2026-03-14-optimizing-edge-native-applications-for-the-2026-decentralized-cloud-infrastructure-standard/",
+      "social_hook": "Edge computing has moved from a niche concept to a foundational pillar of modern cloud architectures. By 2026, the Decentralized Cloud Infrastructure Standard (DCIS‑2026) will formalize how compute, storage, and networking resources are federated across thousands of edge nodes owned by disparate providers. The standard promises interoperability, security, and performance guarantees across a globally distributed mesh.\n\nFor developers building edge‑native applications—services that must run close to the data source, respond within milliseconds, and survive intermittent connectivity—the transition to DCIS‑2026 presents both an opportunity and a set of engineering challenges. This article provides a deep dive into:\n\nWhether you are a seasoned cloud engineer, a startup founder, or an academic exploring next‑generation distributed systems, the guidance here will help you design, build, and operate edge‑native applications that meet the 2026 standard.",
+      "tags": [
+        "edge computing",
+        "decentralized cloud",
+        "2026 standard",
+        "performance optimization",
+        "observability"
+      ],
+      "scheduled_at": "2026-03-14T20:03:48Z",
       "status": "pending"
     }
   ]
