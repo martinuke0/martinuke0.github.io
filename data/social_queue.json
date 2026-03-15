@@ -4088,7 +4088,7 @@
         "Accelerators"
       ],
       "scheduled_at": "2026-03-15T23:03:48Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Stateful Serverless Architectures: Why Event‑Driven Microservices Are Redefining Scalable Backend Infrastructure",
