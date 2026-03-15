@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-15T09:03:48Z",
+  "last_scheduled_at": "2026-03-15T10:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -3892,6 +3892,20 @@
         "Machine Learning"
       ],
       "scheduled_at": "2026-03-15T09:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Scaling Real-Time Inference Pipelines with WebAssembly and Distributed Edge Computing Architectures",
+      "url": "https://martinuke0.github.io/posts/2026-03-15-scaling-real-time-inference-pipelines-with-webassembly-and-distributed-edge-computing-architectures/",
+      "social_hook": "The explosion of sensor data, 5G connectivity, and AI‑driven services has created an urgent demand for real‑time inference that can operate at the network edge. Traditional cloud‑centric pipelines suffer from latency, bandwidth constraints, and privacy concerns, especially when decisions must be made within milliseconds.\n\nWebAssembly (Wasm)—originally designed as a portable binary format for browsers—has matured into a universal runtime that can execute near‑native code on any platform, from IoT gateways to serverless edge nodes. Coupled with distributed edge computing architectures, Wasm enables developers to scale inference pipelines across thousands of geographically dispersed devices while maintaining deterministic performance and strong security guarantees.\n\nThis article provides a deep dive into the architectural patterns, tooling, and performance tricks needed to build scalable, real‑time inference pipelines that leverage Wasm and edge computing. We’ll explore practical code examples, discuss orchestration strategies, and walk through a real‑world case study to illustrate how the theory translates into production‑grade systems.",
+      "tags": [
+        "WebAssembly",
+        "Edge Computing",
+        "Real-Time Inference",
+        "Distributed Systems",
+        "Machine Learning"
+      ],
+      "scheduled_at": "2026-03-15T10:03:48Z",
       "status": "pending"
     }
   ]
