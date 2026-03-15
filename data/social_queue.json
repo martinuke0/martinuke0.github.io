@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-15T20:03:48Z",
+  "last_scheduled_at": "2026-03-15T21:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -4046,6 +4046,20 @@
         "low-latency"
       ],
       "scheduled_at": "2026-03-15T20:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Beyond Code: Optimizing Local LLM Performance with New WebAssembly Garbage Collection Tools",
+      "url": "https://martinuke0.github.io/posts/2026-03-15-beyond-code-optimizing-local-llm-performance-with-new-webassembly-garbage-collection-tools/",
+      "social_hook": "Large language models (LLMs) have moved from cloud‑only research curiosities to everyday developer tools. Yet, the same cloud‑centric mindset that powers ChatGPT or Claude also creates latency, privacy, and cost concerns for many real‑world use cases. Running LLM inference locally—whether on a laptop, edge device, or an on‑premise server—offers immediate responsiveness, data sovereignty, and the possibility of fine‑grained control over model behavior.\n\nLocal inference, however, is not a trivial drop‑in. Modern LLMs demand gigabytes of memory, high‑throughput tensor operations, and efficient parallel execution. WebAssembly (Wasm) has emerged as a compelling runtime for these workloads because it provides a sandboxed, portable binary format that runs at near‑native speed across browsers, servers, and embedded devices. The new WebAssembly Garbage Collection (GC) tools—finalized in the 2024 Wasm GC proposal and now supported by major engines such as Wasmtime, V8, and WAVM—add a critical piece to the puzzle: deterministic, low‑overhead memory management for high‑performance AI workloads.\n\nIn this article we will explore how the latest Wasm GC capabilities can be leveraged to optimize local LLM performance. We’ll start by revisiting why developers are interested in running LLMs locally, then dive into the technical underpinnings of Wasm GC, identify typical performance bottlenecks, and walk through practical optimization patterns with code examples. A full case study on a 7‑billion‑parameter transformer running on a Raspberry Pi 5 will illustrate the measurable gains. Finally, we’ll outline best practices and future directions for developers who want to stay ahead of the curve.",
+      "tags": [
+        "WebAssembly",
+        "LLM",
+        "Performance",
+        "GarbageCollection",
+        "EdgeComputing"
+      ],
+      "scheduled_at": "2026-03-15T21:03:48Z",
       "status": "pending"
     }
   ]
