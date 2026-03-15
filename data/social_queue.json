@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-16T01:03:48Z",
+  "last_scheduled_at": "2026-03-16T02:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -4116,6 +4116,20 @@
         "AI-Search"
       ],
       "scheduled_at": "2026-03-16T01:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Scaling Production RAG Systems with Distributed Vector Quantization and Multi-Stage Re-Ranking Strategies",
+      "url": "https://martinuke0.github.io/posts/2026-03-15-scaling-production-rag-systems-with-distributed-vector-quantization-and-multi-stage-re-ranking-strategies/",
+      "social_hook": "Retrieval‑Augmented Generation (RAG) has become the de‑facto paradigm for building knowledge‑aware language‑model applications. By grounding a large language model (LLM) in an external corpus, we can achieve higher factuality, lower hallucination rates, and domain‑specific expertise without fine‑tuning the entire model.\n\nHowever, the production reality—billions of documents, sub‑second latency requirements, and ever‑changing knowledge bases—poses a set of engineering challenges that go far beyond a simple “embed‑and‑search” prototype. Two techniques have emerged as linchpins for scaling RAG:\n\n1. Distributed Vector Quantization (VQ) – compressing dense embeddings while distributing the index across many machines to keep memory footprints and query latency low.",
+      "tags": [
+        "RAG",
+        "Vector Quantization",
+        "Distributed Systems",
+        "Re-ranking",
+        "AI Retrieval"
+      ],
+      "scheduled_at": "2026-03-16T02:03:48Z",
       "status": "pending"
     }
   ]
