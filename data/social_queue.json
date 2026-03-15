@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-15T15:03:48Z",
+  "last_scheduled_at": "2026-03-15T16:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -3976,6 +3976,20 @@
         "architectural-patterns"
       ],
       "scheduled_at": "2026-03-15T15:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Inference Pipelines for Low Latency High Throughput Distributed Large Language Model Deployment",
+      "url": "https://martinuke0.github.io/posts/2026-03-15-optimizing-inference-pipelines-for-low-latency-high-throughput-distributed-large-language-model-deployment/",
+      "social_hook": "Large Language Models (LLMs) have transitioned from research curiosities to production‑grade services powering chatbots, code assistants, search augmentation, and more. As model sizes explode—from hundreds of millions to several hundred billions parameters—the cost of inference becomes a decisive factor for product viability. Companies must simultaneously achieve low latency (sub‑100 ms response times for interactive use) and high throughput (thousands of requests per second for batch workloads) while keeping hardware spend under control.\n\nThis article provides a comprehensive, end‑to‑end guide for engineers tasked with building distributed LLM inference pipelines that meet those demanding Service Level Objectives (SLOs). We’ll explore the underlying performance characteristics, dissect architectural patterns, dive into hardware and software optimizations, and finish with a concrete code example that can be dropped into a production environment.\n\n> Note: While many of the concepts are model‑agnostic, the examples focus on transformer‑based LLMs such as LLaMA‑2, Mistral‑7B, and the GPT‑3‑class family.",
+      "tags": [
+        "LLM",
+        "Inference",
+        "Distributed Systems",
+        "Performance Optimization",
+        "Machine Learning Ops"
+      ],
+      "scheduled_at": "2026-03-15T16:03:48Z",
       "status": "pending"
     }
   ]
