@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-16T03:03:48Z",
+  "last_scheduled_at": "2026-03-16T04:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -4144,6 +4144,20 @@
         "scaling"
       ],
       "scheduled_at": "2026-03-16T03:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing GraphRAG with Knowledge Graphs for Enhanced Contextual Retrieval in Enterprise AI Applications",
+      "url": "https://martinuke0.github.io/posts/2026-03-15-implementing-graphrag-with-knowledge-graphs-for-enhanced-contextual-retrieval-in-enterprise-ai-applications/",
+      "social_hook": "Enterprises are increasingly turning to large language models (LLMs) to power conversational assistants, knowledge‑base search, and decision‑support tools. While LLMs excel at generating fluent text, they struggle with grounded, up‑to‑date factuality when the underlying data is scattered across documents, databases, and legacy systems.\n\nGraph Retrieval‑Augmented Generation (GraphRAG) addresses this gap by coupling an LLM with a knowledge graph that stores both entities and the relationships between them. The graph acts as a structured memory that the model can query, retrieve, and reason over, delivering context‑rich answers that are both accurate and explainable.\n\nThis article provides a deep‑dive into implementing GraphRAG for enterprise AI applications. We will:",
+      "tags": [
+        "GraphRAG",
+        "Knowledge Graph",
+        "Enterprise AI",
+        "Contextual Retrieval",
+        "LLM"
+      ],
+      "scheduled_at": "2026-03-16T04:03:48Z",
       "status": "pending"
     }
   ]
