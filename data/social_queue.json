@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-15T12:03:48Z",
+  "last_scheduled_at": "2026-03-15T13:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -3934,6 +3934,20 @@
         "Edge Computing"
       ],
       "scheduled_at": "2026-03-15T12:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Stateful Agent Orchestration for Long‑Running Distributed Autonomous Systems Across Hybrid Cloud Environments",
+      "url": "https://martinuke0.github.io/posts/2026-03-15-optimizing-stateful-agent-orchestration-for-longrunning-distributed-autonomous-systems-across-hybrid-cloud-environments/",
+      "social_hook": "Modern enterprises increasingly rely on autonomous, long‑running agents—software entities that make decisions, act on data, and interact with physical or virtual environments without constant human supervision. From fleet‑wide IoT device managers to autonomous trading bots, these agents must remain stateful, persisting context across thousands of events, reboots, and network partitions.\n\nWhen such agents are deployed at scale across hybrid cloud environments (a blend of public clouds, private data centers, and edge locations), the orchestration problem becomes dramatically more complex. Engineers must balance latency, data sovereignty, cost, and resilience while guaranteeing that each agent’s state remains consistent, recoverable, and performant.\n\nThis article provides a deep dive into optimizing stateful agent orchestration for long‑running distributed autonomous systems. We will explore:",
+      "tags": [
+        "stateful agents",
+        "orchestration",
+        "hybrid cloud",
+        "distributed systems",
+        "autonomous systems"
+      ],
+      "scheduled_at": "2026-03-15T13:03:48Z",
       "status": "pending"
     }
   ]
