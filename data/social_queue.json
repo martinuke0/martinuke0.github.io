@@ -3920,7 +3920,7 @@
         "sidecar"
       ],
       "scheduled_at": "2026-03-15T11:03:48Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Scaling Private Intelligence: Orchestrating Multi-Agent Systems with Local-First Small Language Models",
