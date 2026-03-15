@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-15T19:03:48Z",
+  "last_scheduled_at": "2026-03-15T20:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -4032,6 +4032,20 @@
         "AI-privacy"
       ],
       "scheduled_at": "2026-03-15T19:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Designing Low-Latency Message Brokers for Real-Time Communication in Distributed Machine Learning Clusters",
+      "url": "https://martinuke0.github.io/posts/2026-03-15-designing-low-latency-message-brokers-for-real-time-communication-in-distributed-machine-learning-clusters/",
+      "social_hook": "Distributed machine‑learning (ML) workloads—such as large‑scale model training, hyper‑parameter search, and federated learning—rely heavily on fast, reliable communication between compute nodes, parameter servers, and auxiliary services (monitoring, logging, model serving). In these environments a message broker acts as the nervous system, routing control signals, gradient updates, model parameters, and status notifications. When latency spikes, the entire training loop can stall, GPUs sit idle, and cost efficiency drops dramatically.\n\nThis article explores how to design low‑latency message brokers specifically for real‑time communication in distributed ML clusters. We will:\n\n4. Provide concrete design guidelines—network stack, serialization, back‑pressure, and fault tolerance.",
+      "tags": [
+        "distributed-systems",
+        "machine-learning",
+        "message-brokers",
+        "real-time",
+        "low-latency"
+      ],
+      "scheduled_at": "2026-03-15T20:03:48Z",
       "status": "pending"
     }
   ]
