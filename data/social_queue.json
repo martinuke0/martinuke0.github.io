@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-15T23:03:48Z",
+  "last_scheduled_at": "2026-03-16T00:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -4088,6 +4088,20 @@
         "Accelerators"
       ],
       "scheduled_at": "2026-03-15T23:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Stateful Serverless Architectures: Why Event‑Driven Microservices Are Redefining Scalable Backend Infrastructure",
+      "url": "https://martinuke0.github.io/posts/2026-03-15-stateful-serverless-architectures-why-eventdriven-microservices-are-redefining-scalable-backend-infrastructure/",
+      "social_hook": "Serverless computing has matured from a niche “run‑code‑without‑servers” novelty into a mainstream paradigm for building highly scalable backends. The original promise—pay‑only‑for‑what‑you‑use—remains compelling, but early serverless platforms were largely stateless: a function receives an event, runs, returns a result, and the runtime disappears.\n\nIn practice, most production workloads need state: user sessions, aggregate totals, workflow progress, or historical audit trails. The industry’s answer has been to pair stateless functions with external databases, caches, or message queues. Over the past few years, a new architectural style has emerged: stateful serverless built on event‑driven microservices. This style treats events as the source of truth, moves state management into managed services, and leverages orchestration engines to coordinate complex business logic without ever provisioning a traditional VM or container.\n\nThis article dives deep into why event‑driven microservices are redefining scalable backend infrastructure, how you can design stateful serverless systems, the concrete patterns you’ll use day‑to‑day, and what trade‑offs you need to be aware of. We’ll cover theory, practical code snippets, and real‑world case studies, giving you a comprehensive guide you can start applying today.",
+      "tags": [
+        "serverless",
+        "event-driven",
+        "microservices",
+        "scalable-backend",
+        "cloud-architecture"
+      ],
+      "scheduled_at": "2026-03-16T00:03:48Z",
       "status": "pending"
     }
   ]
