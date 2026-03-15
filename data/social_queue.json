@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-15T22:03:48Z",
+  "last_scheduled_at": "2026-03-15T23:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -4074,6 +4074,20 @@
         "orchestration"
       ],
       "scheduled_at": "2026-03-15T22:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Large Language Model Inference with Low Latency High Performance Computing Architectures",
+      "url": "https://martinuke0.github.io/posts/2026-03-15-optimizing-large-language-model-inference-with-low-latency-high-performance-computing-architectures/",
+      "social_hook": "Large Language Models (LLMs) such as GPT‑4, LLaMA, and PaLM have transformed natural language processing, enabling capabilities ranging from code generation to conversational agents. However, the sheer size of these models—often exceeding tens or even hundreds of billions of parameters—poses a formidable challenge when it comes to inference latency. Users expect near‑real‑time responses, especially in interactive applications like chatbots, code assistants, and recommendation engines. Achieving low latency while maintaining high throughput requires a deep integration of software optimizations and high‑performance computing (HPC) architectures.\n\n2. Examine the HPC hardware landscape (GPUs, TPUs, FPGAs, ASICs, and modern CPUs) and how each contributes to low‑latency execution.\n\n3. Explore software‑level techniques—quantization, kernel fusion, model & pipeline parallelism, and efficient memory management.",
+      "tags": [
+        "LLM",
+        "Inference",
+        "HPC",
+        "LowLatency",
+        "Accelerators"
+      ],
+      "scheduled_at": "2026-03-15T23:03:48Z",
       "status": "pending"
     }
   ]
