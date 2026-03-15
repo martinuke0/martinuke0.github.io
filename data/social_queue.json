@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-16T02:03:48Z",
+  "last_scheduled_at": "2026-03-16T03:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -4130,6 +4130,20 @@
         "AI Retrieval"
       ],
       "scheduled_at": "2026-03-16T02:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Scaling Distributed Inference for Large Language Models Using Ray and Kubernetes Orchestration",
+      "url": "https://martinuke0.github.io/posts/2026-03-15-scaling-distributed-inference-for-large-language-models-using-ray-and-kubernetes-orchestration/",
+      "social_hook": "Large language models (LLMs) such as GPT‑3, Llama‑2, and Claude have reshaped the AI landscape, delivering unprecedented capabilities in natural language understanding and generation. While training these models demands massive GPU clusters and weeks of compute, inference—the stage where end‑users actually interact with the model—poses its own set of scalability challenges. A single request to a 70 B‑parameter LLM can consume multiple gigabytes of GPU memory and tens of milliseconds of compute, and production workloads often demand thousands of concurrent requests with low latency.\n\nEnter Ray and Kubernetes. Ray provides a high‑level, Pythonic abstraction for distributed execution, actor‑based parallelism, and a production‑grade serving layer called Ray Serve. Kubernetes, on the other hand, gives you declarative control over container orchestration, automatic scaling, and robust networking. When combined, they form a powerful stack that can:\n\nThis article walks you through the end‑to‑end process of building a distributed inference service for large language models using Ray and Kubernetes. We will cover architectural decisions, concrete code snippets, performance‑tuning techniques, and a real‑world case study that demonstrates the impact of a well‑engineered stack.",
+      "tags": [
+        "distributed inference",
+        "ray",
+        "kubernetes",
+        "large language models",
+        "scaling"
+      ],
+      "scheduled_at": "2026-03-16T03:03:48Z",
       "status": "pending"
     }
   ]
