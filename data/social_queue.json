@@ -3976,7 +3976,7 @@
         "architectural-patterns"
       ],
       "scheduled_at": "2026-03-15T15:03:48Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Optimizing Inference Pipelines for Low Latency High Throughput Distributed Large Language Model Deployment",
