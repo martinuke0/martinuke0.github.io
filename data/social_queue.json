@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-16T00:03:48Z",
+  "last_scheduled_at": "2026-03-16T01:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -4102,6 +4102,20 @@
         "cloud-architecture"
       ],
       "scheduled_at": "2026-03-16T00:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Vector Databases: A Complete Guide to Building High-Performance RAG Applications with Pinecone and Milvus",
+      "url": "https://martinuke0.github.io/posts/2026-03-15-mastering-vector-databases-a-complete-guide-to-building-high-performance-rag-applications-with-pinecone-and-milvus/",
+      "social_hook": "Retrieval‑Augmented Generation (RAG) has become the de‑facto pattern for building knowledge‑aware language‑model applications. At its core, RAG couples a large language model (LLM) with a vector store that holds dense embeddings of documents, passages, or other pieces of knowledge. When a user asks a question, the system first retrieves the most relevant vectors, converts them back into text, and then generates an answer that is grounded in the retrieved material.\n\nWhile the concept is simple, building a production‑grade RAG pipeline that can serve millions of queries per day with low latency and high relevance is anything but trivial. The choice of vector database, indexing strategy, hardware configuration, and query‑time optimizations all have a dramatic impact on both speed and quality.\n\n2. Dive deep into two of the most popular open‑source / managed solutions—Pinecone and Milvus.",
+      "tags": [
+        "vector-database",
+        "RAG",
+        "Pinecone",
+        "Milvus",
+        "AI-Search"
+      ],
+      "scheduled_at": "2026-03-16T01:03:48Z",
       "status": "pending"
     }
   ]
