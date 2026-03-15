@@ -4060,7 +4060,7 @@
         "EdgeComputing"
       ],
       "scheduled_at": "2026-03-15T21:03:48Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Orchestrating Multi‑Agent Systems with Low‑Latency Event‑Driven Architectures and Serverless Functions",
