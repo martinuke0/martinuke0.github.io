@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-15T16:03:48Z",
+  "last_scheduled_at": "2026-03-15T17:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -3990,6 +3990,20 @@
         "Machine Learning Ops"
       ],
       "scheduled_at": "2026-03-15T16:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Debugging the Distributed Edge: Mastering Real-Time WebAssembly Observability in Modern Serverless Infrastructures",
+      "url": "https://martinuke0.github.io/posts/2026-03-15-debugging-the-distributed-edge-mastering-real-time-webassembly-observability-in-modern-serverless-infrastructures/",
+      "social_hook": "Edge computing has moved from a niche experiment to the backbone of modern digital experiences. By pushing compute close to the user, latency drops, data sovereignty improves, and bandwidth costs shrink. At the same time, serverless platforms have abstracted away the operational overhead of provisioning and scaling infrastructure, letting developers focus on business logic.\n\nEnter WebAssembly (Wasm)—a portable, sandboxed binary format that runs at near‑native speed on the edge. Today’s leading edge providers (Cloudflare Workers, Fastly Compute@Edge, AWS Lambda@Edge, Fly.io) all support Wasm runtimes, allowing developers to ship tiny, language‑agnostic modules that execute in milliseconds.\n\nWith this power comes a new set of challenges. A distributed edge system is composed of thousands of tiny Wasm instances, each potentially running in a different geographic location, hardware configuration, and network condition. Traditional observability tools designed for monolithic VMs or containers often fall short. Real‑time debugging and observability become essential for maintaining reliability, performance, and security.",
+      "tags": [
+        "WebAssembly",
+        "Serverless",
+        "Observability",
+        "Edge Computing",
+        "Debugging"
+      ],
+      "scheduled_at": "2026-03-15T17:03:48Z",
       "status": "pending"
     }
   ]
