@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-15T14:03:48Z",
+  "last_scheduled_at": "2026-03-15T15:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -3962,6 +3962,20 @@
         "Scalability"
       ],
       "scheduled_at": "2026-03-15T14:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Stateful Memory Layers for Persistent Reasoning in Autonomous Multi‑Agent Swarms",
+      "url": "https://martinuke0.github.io/posts/2026-03-15-architecting-stateful-memory-layers-for-persistent-reasoning-in-autonomous-multiagent-swarms/",
+      "social_hook": "Swarm robotics and multi‑agent systems have moved from academic curiosities to real‑world deployments in logistics, environmental monitoring, and disaster response. While early work focused on reactive behaviours—simple rules that lead to emergent coordination—modern swarms require persistent reasoning: the ability to remember past observations, learn from them, and make decisions that span minutes, hours, or even days.\n\nAchieving persistent reasoning in a decentralised swarm is non‑trivial. Each robot (or “agent”) operates with limited compute, intermittent connectivity, and a constrained power budget. Yet the collective must maintain a stateful memory layer that can survive node failures, network partitions, and dynamic topology changes. This blog post provides a deep dive into the architectural patterns, data structures, and implementation tactics needed to build such memory layers, with a concrete, end‑to‑end example.\n\n> Note: Throughout the article we assume a heterogeneous swarm—some agents are lightweight edge devices, while others are more capable “gateway” nodes that can host heavier services.",
+      "tags": [
+        "autonomous-swarms",
+        "stateful-memory",
+        "persistent-reasoning",
+        "multi-agent-systems",
+        "architectural-patterns"
+      ],
+      "scheduled_at": "2026-03-15T15:03:48Z",
       "status": "pending"
     }
   ]
