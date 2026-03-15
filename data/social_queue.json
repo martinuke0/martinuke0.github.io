@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-15T17:03:48Z",
+  "last_scheduled_at": "2026-03-15T18:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -4004,6 +4004,20 @@
         "Debugging"
       ],
       "scheduled_at": "2026-03-15T17:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "A Technical Guide to Securing Local LLM Deployments with Privacy‑Preserving Zero‑Knowledge Proofs",
+      "url": "https://martinuke0.github.io/posts/2026-03-15-a-technical-guide-to-securing-local-llm-deployments-with-privacypreserving-zeroknowledge-proofs/",
+      "social_hook": "Large language models (LLMs) have transitioned from cloud‑only services to on‑premise or edge deployments. Running a model locally gives organizations control over latency, cost, and data sovereignty, but it also introduces a new set of security and privacy challenges. Sensitive prompts, proprietary model weights, and inference results can be exposed to malicious insiders, compromised hardware, or untrusted downstream applications.\n\nZero‑knowledge proofs (ZKPs) provide a mathematically rigorous way to prove that a computation was performed correctly without revealing any of the underlying data. By marrying ZKPs with local LLM inference, developers can guarantee that:\n\n* The inference result satisfies policy constraints (e.g., no disallowed content) while the verifier never sees the raw text.",
+      "tags": [
+        "LLM",
+        "Zero Knowledge",
+        "Privacy",
+        "Security",
+        "Machine Learning"
+      ],
+      "scheduled_at": "2026-03-15T18:03:48Z",
       "status": "pending"
     }
   ]
