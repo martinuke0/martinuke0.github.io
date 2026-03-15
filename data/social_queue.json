@@ -3836,7 +3836,7 @@
         "real-time intelligence"
       ],
       "scheduled_at": "2026-03-15T05:03:48Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Building Distributed Agentic Workflows for High‑Throughput Financial Intelligence Systems using Rust",
