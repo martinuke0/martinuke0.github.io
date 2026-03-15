@@ -3892,7 +3892,7 @@
         "Machine Learning"
       ],
       "scheduled_at": "2026-03-15T09:03:48Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Scaling Real-Time Inference Pipelines with WebAssembly and Distributed Edge Computing Architectures",
