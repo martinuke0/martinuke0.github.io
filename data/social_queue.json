@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-15T08:03:48Z",
+  "last_scheduled_at": "2026-03-15T09:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -3878,6 +3878,20 @@
         "architecture"
       ],
       "scheduled_at": "2026-03-15T08:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building Scalable AI Agents with Vector Databases and Distributed Context Management",
+      "url": "https://martinuke0.github.io/posts/2026-03-15-building-scalable-ai-agents-with-vector-databases-and-distributed-context-management/",
+      "social_hook": "Artificial Intelligence agents have moved from isolated proof‑of‑concept scripts to production‑grade services that power chatbots, recommendation engines, autonomous assistants, and even complex decision‑making pipelines. As these agents become more capable, they also become more data‑hungry. A single request may need to pull relevant knowledge from billions of documents, maintain a coherent conversation across minutes or hours, and coordinate with other agents in a distributed environment.\n\n1. Vector databases – specialized storage engines that index high‑dimensional embeddings for fast similarity search, enabling Retrieval‑Augmented Generation (RAG) and semantic look‑ups at scale.\n\n2. Distributed Context Management Systems (DCMS) – frameworks that store, replicate, and synchronize the transient “state” of an agent (session history, tool usage, intermediate reasoning steps) across multiple nodes.",
+      "tags": [
+        "AI",
+        "Vector Databases",
+        "Distributed Systems",
+        "Scalability",
+        "Machine Learning"
+      ],
+      "scheduled_at": "2026-03-15T09:03:48Z",
       "status": "pending"
     }
   ]
