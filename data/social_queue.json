@@ -4046,7 +4046,7 @@
         "low-latency"
       ],
       "scheduled_at": "2026-03-15T20:03:48Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Beyond Code: Optimizing Local LLM Performance with New WebAssembly Garbage Collection Tools",
