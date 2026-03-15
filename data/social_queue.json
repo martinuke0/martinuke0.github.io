@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-15T07:03:48Z",
+  "last_scheduled_at": "2026-03-15T08:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -3864,6 +3864,20 @@
         "Performance"
       ],
       "scheduled_at": "2026-03-15T07:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Distributed Consensus Protocols for High Availability in Large Scale Microservices Architecture",
+      "url": "https://martinuke0.github.io/posts/2026-03-15-mastering-distributed-consensus-protocols-for-high-availability-in-large-scale-microservices-architecture/",
+      "social_hook": "In modern cloud‑native environments, microservices have become the de‑facto architectural style for building scalable, loosely coupled applications. Yet, as the number of services grows and the geographic footprint expands, ensuring high availability (HA) becomes a non‑trivial challenge. Distributed consensus protocols—such as Paxos, Raft, and Zab—provide the theoretical foundation that allows a cluster of nodes to agree on a single source of truth despite failures, network partitions, and latency spikes.\n\nThis article dives deep into how consensus protocols can be harnessed to achieve HA in large‑scale microservices deployments. We will explore the underlying theory, compare the most widely adopted algorithms, and walk through concrete implementation patterns that you can adopt today. By the end of this guide, you’ll have a clear roadmap for:\n\n* Selecting the right consensus algorithm for your service’s consistency requirements.",
+      "tags": [
+        "distributed-systems",
+        "microservices",
+        "consensus",
+        "high-availability",
+        "architecture"
+      ],
+      "scheduled_at": "2026-03-15T08:03:48Z",
       "status": "pending"
     }
   ]
