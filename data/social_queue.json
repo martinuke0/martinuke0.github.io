@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-15T21:03:48Z",
+  "last_scheduled_at": "2026-03-15T22:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -4060,6 +4060,20 @@
         "EdgeComputing"
       ],
       "scheduled_at": "2026-03-15T21:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Orchestrating Multi‑Agent Systems with Low‑Latency Event‑Driven Architectures and Serverless Functions",
+      "url": "https://martinuke0.github.io/posts/2026-03-15-orchestrating-multiagent-systems-with-lowlatency-eventdriven-architectures-and-serverless-functions/",
+      "social_hook": "Multi‑agent systems (MAS) have moved from academic curiosities to production‑grade platforms that power autonomous fleets, distributed IoT networks, collaborative robotics, and complex financial simulations. The core challenge is orchestration: how to coordinate dozens, hundreds, or even thousands of autonomous agents while guaranteeing low latency, reliability, and scalability.\n\nTraditional monolithic or container‑based orchestration (e.g., Kubernetes) can deliver scalability, but they often introduce additional network hops, heavyweight runtime overhead, and operational complexity that hurt sub‑100 ms latency budgets. In contrast, event‑driven architectures (EDA) paired with serverless functions provide a lightweight, reactive execution model that can react to events in microseconds, automatically scale to demand, and reduce operational burden.\n\nThis article explores the intersection of these three pillars—multi‑agent systems, low‑latency EDA, and serverless computing. We’ll start with the fundamentals, then dive into architectural patterns, concrete implementation details, and a full‑scale example of a real‑time fleet‑management system. By the end, you’ll have a practical blueprint you can adapt to your own low‑latency, agent‑centric workloads.",
+      "tags": [
+        "multi-agent systems",
+        "event-driven",
+        "serverless",
+        "low latency",
+        "orchestration"
+      ],
+      "scheduled_at": "2026-03-15T22:03:48Z",
       "status": "pending"
     }
   ]
