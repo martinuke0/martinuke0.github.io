@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-15T13:03:48Z",
+  "last_scheduled_at": "2026-03-15T14:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -3948,6 +3948,20 @@
         "autonomous systems"
       ],
       "scheduled_at": "2026-03-15T13:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Distributed Systems with Apache Kafka and Microservices for Real Time Data Processing",
+      "url": "https://martinuke0.github.io/posts/2026-03-15-optimizing-distributed-systems-with-apache-kafka-and-microservices-for-real-time-data-processing/",
+      "social_hook": "In today’s data‑driven world, businesses increasingly demand instant insights from streams of events—think fraud detection, recommendation engines, IoT telemetry, and click‑stream analytics. Traditional monolithic architectures and batch‑oriented pipelines simply cannot keep up with the velocity, volume, and variety of modern data streams.\n\nEnter Apache Kafka and microservices. Kafka provides a durable, high‑throughput, low‑latency publish‑subscribe backbone, while microservices break application logic into independently deployable, loosely coupled units. When combined, they enable real‑time, scalable, and resilient data processing pipelines capable of handling millions of events per second.\n\nThis article dives deep into the architectural patterns, design choices, and practical implementation steps for optimizing distributed systems that rely on Kafka and microservices. Whether you’re a seasoned architect or a developer stepping into the streaming world, you’ll find concrete examples, code snippets, and real‑world considerations to help you build robust real‑time solutions.",
+      "tags": [
+        "Apache Kafka",
+        "Microservices",
+        "Real‑Time Processing",
+        "Distributed Systems",
+        "Scalability"
+      ],
+      "scheduled_at": "2026-03-15T14:03:48Z",
       "status": "pending"
     }
   ]
