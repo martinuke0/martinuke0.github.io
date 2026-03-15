@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-15T11:03:48Z",
+  "last_scheduled_at": "2026-03-15T12:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -3920,6 +3920,20 @@
         "sidecar"
       ],
       "scheduled_at": "2026-03-15T11:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Scaling Private Intelligence: Orchestrating Multi-Agent Systems with Local-First Small Language Models",
+      "url": "https://martinuke0.github.io/posts/2026-03-15-scaling-private-intelligence-orchestrating-multi-agent-systems-with-local-first-small-language-models/",
+      "social_hook": "The rapid diffusion of large language models (LLMs) has unlocked new possibilities for private intelligence—the ability to extract actionable insights from sensitive data without exposing that data to external services. At the same time, the multi‑agent paradigm has emerged as a powerful way to decompose complex problems into coordinated, specialized components. Marrying these two trends—local‑first small LLMs and orchestrated multi‑agent systems—offers a pathway to scalable, privacy‑preserving intelligence that can run on edge devices, corporate intranets, or isolated research clusters.\n\nIn this article we explore the technical, architectural, and operational dimensions of building such systems. We will:\n\n* Define what “local‑first small language models” are and why they matter for privacy.",
+      "tags": [
+        "AI",
+        "Multi-Agent Systems",
+        "Privacy",
+        "LLM",
+        "Edge Computing"
+      ],
+      "scheduled_at": "2026-03-15T12:03:48Z",
       "status": "pending"
     }
   ]
