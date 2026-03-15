@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-15T18:03:48Z",
+  "last_scheduled_at": "2026-03-15T19:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -4018,6 +4018,20 @@
         "Machine Learning"
       ],
       "scheduled_at": "2026-03-15T18:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Scaling Small Language Models: Why On-Device SLMs Are Replacing Cloud APIs in 2026",
+      "url": "https://martinuke0.github.io/posts/2026-03-15-scaling-small-language-models-why-on-device-slms-are-replacing-cloud-apis-in-2026/",
+      "social_hook": "The past decade has been defined by a relentless race toward larger, more capable language models. From the early triumphs of GPT‑2 to the staggering 175‑billion‑parameter GPT‑3 and its successors, the prevailing narrative has been that “bigger is better.” Yet, while massive models dominate research headlines, a quieter revolution has been unfolding at the edge of the network.\n\nIn 2026, small language models (SLMs) running directly on devices—smartphones, wearables, IoT gateways, and even automobiles—are increasingly supplanting traditional cloud‑based inference APIs. This shift is not a fad; it is the result of converging forces: dramatic advances in model compression, the proliferation of powerful on‑device accelerators, heightened privacy regulations, and a business‑centric demand for lower latency and predictable costs.\n\nThis article provides a deep dive into why on‑device SLMs are becoming the default choice for many real‑world applications. We’ll explore the technical breakthroughs that made this possible, compare on‑device versus cloud approaches, walk through practical deployment examples, and outline best practices for scaling SLMs at the edge.",
+      "tags": [
+        "small-language-models",
+        "on-device-inference",
+        "edge-computing",
+        "model-compression",
+        "AI-privacy"
+      ],
+      "scheduled_at": "2026-03-15T19:03:48Z",
       "status": "pending"
     }
   ]
