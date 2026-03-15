@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-15T10:03:48Z",
+  "last_scheduled_at": "2026-03-15T11:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -3906,6 +3906,20 @@
         "Machine Learning"
       ],
       "scheduled_at": "2026-03-15T10:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Low Latency Inference Pipelines Using Rust and Kubernetes Sidecar Patterns",
+      "url": "https://martinuke0.github.io/posts/2026-03-15-optimizing-low-latency-inference-pipelines-using-rust-and-kubernetes-sidecar-patterns/",
+      "social_hook": "Modern AI applications—real‑time recommendation engines, autonomous vehicle perception, high‑frequency trading, and interactive voice assistants—depend on low‑latency inference. Every millisecond saved can translate into better user experience, higher revenue, or even safety improvements. While the machine‑learning community has long focused on model accuracy, production engineers are increasingly wrestling with the systems side of inference: how to move data from the request edge to the model and back as quickly as possible, while scaling reliably in the cloud.\n\n1. Rust – a systems programming language that combines the performance of C/C++ with memory safety guarantees and a modern async ecosystem.\n\n2. Kubernetes sidecar patterns – a design approach that co‑locates auxiliary processes (caching, logging, model‑loading, etc.) with the main inference container, enabling fine‑grained resource control and isolation.",
+      "tags": [
+        "rust",
+        "kubernetes",
+        "low-latency",
+        "inference",
+        "sidecar"
+      ],
+      "scheduled_at": "2026-03-15T11:03:48Z",
       "status": "pending"
     }
   ]
