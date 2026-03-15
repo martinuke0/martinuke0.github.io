@@ -3766,7 +3766,7 @@
         "Distributed Systems"
       ],
       "scheduled_at": "2026-03-15T00:03:48Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Beyond the LLM: Architecting Real-Time Local Intelligence with Small Language Model Clusters",
@@ -3780,7 +3780,7 @@
         "Model Clustering"
       ],
       "scheduled_at": "2026-03-15T01:03:48Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Scaling Real Time Feature Stores for Low Latency Machine Learning Inference Pipelines",
@@ -3794,7 +3794,7 @@
         "scalable-architecture"
       ],
       "scheduled_at": "2026-03-15T02:03:48Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Building Autonomous Research Agents with LangChain and Vector Databases for Technical Documentation",
