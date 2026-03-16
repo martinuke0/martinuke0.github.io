@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-16T23:03:48Z",
+  "last_scheduled_at": "2026-03-17T00:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -4426,6 +4426,20 @@
         "enterprise development"
       ],
       "scheduled_at": "2026-03-16T23:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing State Synchronization in Globally Distributed Vector Databases for Real‑Time Machine Learning Inference",
+      "url": "https://martinuke0.github.io/posts/2026-03-16-optimizing-state-synchronization-in-globally-distributed-vector-databases-for-realtime-machine-learning-inference/",
+      "social_hook": "Vector databases have become the backbone of many modern AI‑driven applications—search‑as‑you‑type, recommendation engines, semantic retrieval, and, increasingly, real‑time machine‑learning inference. In a typical workflow, a model encodes a query (text, image, audio, etc.) into a high‑dimensional embedding, which is then looked up against a massive collection of pre‑computed embeddings stored in a vector store. The nearest‑neighbor results are fed back into the model, enabling downstream decisions within milliseconds.\n\nWhen the user base is truly global, a single‑region deployment quickly becomes a bottleneck:\n\n Latency** – round‑trip times across continents can dwarf the inference time of the model itself.",
+      "tags": [
+        "vector-databases",
+        "distributed-systems",
+        "real-time-inference",
+        "state-synchronization",
+        "machine-learning"
+      ],
+      "scheduled_at": "2026-03-17T00:03:48Z",
       "status": "pending"
     }
   ]
