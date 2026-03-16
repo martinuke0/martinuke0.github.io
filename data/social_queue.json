@@ -4327,7 +4327,7 @@
         "microservices"
       ],
       "scheduled_at": "2026-03-16T16:03:48Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Solving the Latency Gap: Optimizing Edge Inference for Decentralized Generative World Models",
