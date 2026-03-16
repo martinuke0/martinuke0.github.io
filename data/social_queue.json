@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-16T17:03:48Z",
+  "last_scheduled_at": "2026-03-16T18:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -4341,6 +4341,20 @@
         "deployment"
       ],
       "scheduled_at": "2026-03-16T17:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Beyond the Chatbot: Orchestrating Autonomous Agent Swarms with Open-Source Neuro‑Symbolic Frameworks",
+      "url": "https://martinuke0.github.io/posts/2026-03-16-beyond-the-chatbot-orchestrating-autonomous-agent-swarms-with-open-source-neurosymbolic-frameworks/",
+      "social_hook": "The past decade has witnessed an explosion of conversational AI—chatbots that can answer questions, draft emails, and even generate poetry. Yet, the underlying technology that powers these assistants—large language models (LLMs)—is only the tip of the iceberg. A more ambitious frontier lies in autonomous agent swarms: collections of AI‑driven entities that can perceive, reason, act, and coordinate without human intervention.\n\nWhy should developers, researchers, and product leaders care about autonomous swarms? Because many real‑world problems—warehouse logistics, disaster response, traffic management, and distributed sensor networks—require coordinated, scalable, and adaptable behavior across dozens, hundreds, or even thousands of agents. Traditional rule‑based swarm algorithms (e.g., Boids, ant colony optimization) excel at low‑level coordination but struggle with high‑level reasoning. Conversely, modern neural networks excel at perception and pattern recognition but lack explicit reasoning and compositionality.\n\nEnter neuro‑symbolic AI, an emerging paradigm that marries the statistical learning power of deep neural networks with the rigor, interpretability, and compositionality of symbolic reasoning. When combined with open‑source frameworks, neuro‑symbolic methods become a practical toolbox for building swarms that can learn from data, reason about goals, and orchestrate complex multi‑agent workflows.",
+      "tags": [
+        "AI",
+        "Neuro‑Symbolic",
+        "Autonomous Agents",
+        "Swarm Intelligence",
+        "Open Source"
+      ],
+      "scheduled_at": "2026-03-16T18:03:48Z",
       "status": "pending"
     }
   ]
