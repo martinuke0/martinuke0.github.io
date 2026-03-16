@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-16T15:03:48Z",
+  "last_scheduled_at": "2026-03-16T16:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -4313,6 +4313,20 @@
         "Industrial Automation"
       ],
       "scheduled_at": "2026-03-16T15:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Resilient Agentic Workflows for Autonomous System Orchestration in Distributed Cloud Environments",
+      "url": "https://martinuke0.github.io/posts/2026-03-16-architecting-resilient-agentic-workflows-for-autonomous-system-orchestration-in-distributed-cloud-environments/",
+      "social_hook": "The rise of autonomous agents—software entities that can make decisions, act on behalf of users, and collaborate with other agents—has transformed how modern cloud platforms deliver complex services. When these agents need to coordinate across multiple data‑centers, edge nodes, or even different cloud providers, the underlying workflow must be resilient (capable of handling failures), agentic (driven by autonomous decision‑making), and orchestrated (managed as a coherent whole).\n\nIn this article we explore a systematic approach to architecting resilient agentic workflows for autonomous system orchestration in distributed cloud environments. We will:\n\n1. Clarify the core concepts of “agentic workflow” and “resilient orchestration.”",
+      "tags": [
+        "cloud-native",
+        "orchestration",
+        "resilience",
+        "autonomous-systems",
+        "microservices"
+      ],
+      "scheduled_at": "2026-03-16T16:03:48Z",
       "status": "pending"
     }
   ]
