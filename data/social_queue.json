@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-16T21:03:48Z",
+  "last_scheduled_at": "2026-03-16T22:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -4398,6 +4398,20 @@
         "scalability"
       ],
       "scheduled_at": "2026-03-16T21:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Distributed Inference Engines for Real‑Time Large Language Model Deployment",
+      "url": "https://martinuke0.github.io/posts/2026-03-16-architecting-distributed-inference-engines-for-realtime-large-language-model-deployment/",
+      "social_hook": "Large language models (LLMs) such as GPT‑4, LLaMA‑2, or Claude have moved from research curiosities to production‑grade services that power chat assistants, code generators, search augmentations, and countless other real‑time applications. The transition from a single‑GPU prototype to a globally available, low‑latency inference service is far from trivial. It requires a deep understanding of both the underlying model characteristics and the distributed systems techniques that keep latency low while scaling throughput.\n\nThis article walks through the end‑to‑end process of architecting a distributed inference engine for real‑time LLM deployment. We will:\n\n* Review the performance constraints that differentiate “real‑time” from batch inference.",
+      "tags": [
+        "LLM",
+        "distributed-systems",
+        "inference",
+        "real-time",
+        "deployment"
+      ],
+      "scheduled_at": "2026-03-16T22:03:48Z",
       "status": "pending"
     }
   ]
