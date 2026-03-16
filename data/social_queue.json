@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-16T09:03:48Z",
+  "last_scheduled_at": "2026-03-16T10:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -4229,6 +4229,20 @@
         "scalable architecture"
       ],
       "scheduled_at": "2026-03-16T09:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "MalURLBench Exposed: How AI Agents Fall for Fake Links and What It Means for the Future",
+      "url": "https://martinuke0.github.io/posts/2026-03-16-malurlbench-exposed-how-ai-agents-fall-for-fake-links-and-what-it-means-for-the-future/",
+      "social_hook": "Imagine you're chatting with an AI assistant like ChatGPT or Claude, asking it to check out a website for the latest news or book a vacation deal. You paste a link, and without a second thought, the AI clicks it—only it's not a news site or a travel booking page. It's a trap designed to steal data, spread malware, or worse. This isn't science fiction; it's the vulnerability exposed by the groundbreaking research paper \"MalURLBench: A Benchmark Evaluating Agents' Vulnerabilities When Processing Web URLs\".[1]\n\nIn this in-depth blog post, we'll break down this critical AI research paper into plain English for a general technical audience—think developers, IT pros, and tech enthusiasts who want the real story without the jargon. We'll explore what MalURLBench is, why today's AI web agents are sitting ducks for malicious URLs, real-world examples of these attacks, key findings from testing 12 top LLMs, and even a clever defense called URLGuard. By the end, you'll understand why this matters for the future of AI safety and how it could reshape how we build and use intelligent agents.[1]\n\nAI-powered web agents are everywhere these days. These are large language models (LLMs) like GPT-4, Llama, or Gemini hooked up with web browsers, letting them surf the internet, fill forms, shop online, or research topics on your behalf. They're a game-changer for productivity—think automating customer support, scraping data for reports, or even managing your calendar across sites.[1]",
+      "tags": [
+        "AI Security",
+        "LLM Vulnerabilities",
+        "Malicious URLs",
+        "Web Agents",
+        "Benchmarking AI"
+      ],
+      "scheduled_at": "2026-03-16T10:03:48Z",
       "status": "pending"
     }
   ]
