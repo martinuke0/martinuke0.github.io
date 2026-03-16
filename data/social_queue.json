@@ -4102,7 +4102,7 @@
         "cloud-architecture"
       ],
       "scheduled_at": "2026-03-16T00:03:48Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Mastering Vector Databases: A Complete Guide to Building High-Performance RAG Applications with Pinecone and Milvus",
@@ -4116,7 +4116,7 @@
         "AI-Search"
       ],
       "scheduled_at": "2026-03-16T01:03:48Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Scaling Production RAG Systems with Distributed Vector Quantization and Multi-Stage Re-Ranking Strategies",
@@ -4130,7 +4130,7 @@
         "AI Retrieval"
       ],
       "scheduled_at": "2026-03-16T02:03:48Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Scaling Distributed Inference for Large Language Models Using Ray and Kubernetes Orchestration",
@@ -4144,7 +4144,7 @@
         "scaling"
       ],
       "scheduled_at": "2026-03-16T03:03:48Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Implementing GraphRAG with Knowledge Graphs for Enhanced Contextual Retrieval in Enterprise AI Applications",
@@ -4172,7 +4172,7 @@
         "Privacy"
       ],
       "scheduled_at": "2026-03-16T05:03:48Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Mastering Multi-Tenant Data Isolation Strategies for Scalable Cloud Infrastructure and SaaS Applications",
