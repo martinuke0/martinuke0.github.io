@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-16T07:03:48Z",
+  "last_scheduled_at": "2026-03-16T08:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -4200,6 +4200,21 @@
         "information-retrieval"
       ],
       "scheduled_at": "2026-03-16T07:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Vector Databases: Architectural Patterns for Scalable High‑Performance Retrieval‑Augmented Generation Systems",
+      "url": "https://martinuke0.github.io/posts/2026-03-16-mastering-vector-databases-architectural-patterns-for-scalable-highperformance-retrievalaugmented-generation-systems/",
+      "social_hook": "The explosion of generative AI has turned Retrieval‑Augmented Generation (RAG) into a cornerstone of modern AI applications. RAG couples a large language model (LLM) with a knowledge store—typically a vector database—to retrieve relevant context before generating an answer. While the concept is simple, achieving low‑latency, high‑throughput, and cost‑effective retrieval at production scale requires careful architectural design.\n\nThis article dives deep into the architectural patterns that enable scalable, high‑performance RAG pipelines. We will explore:\n\n2. The most common architectural patterns (sharding, hybrid indexing, tiered storage, caching, multi‑tenant isolation, and distributed query orchestration).",
+      "tags": [
+        "vector-databases",
+        "RAG",
+        "scalable-architecture",
+        "high-performance",
+        "AI",
+        "retrieval-augmented-generation"
+      ],
+      "scheduled_at": "2026-03-16T08:03:48Z",
       "status": "pending"
     }
   ]
