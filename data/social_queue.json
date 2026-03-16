@@ -4285,7 +4285,7 @@
         "Automation"
       ],
       "scheduled_at": "2026-03-16T13:03:48Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Beyond the Chatbox: Implementing Local Agentic Workflows with Small Language Models and WebGPU",
@@ -4299,7 +4299,7 @@
         "JavaScript"
       ],
       "scheduled_at": "2026-03-16T14:03:48Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "IROSA: Revolutionizing Robot Skills with Everyday Language – A Deep Dive into the Future of AI-Robotics",
