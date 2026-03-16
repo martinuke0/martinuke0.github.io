@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-16T08:03:48Z",
+  "last_scheduled_at": "2026-03-16T09:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -4215,6 +4215,20 @@
         "retrieval-augmented-generation"
       ],
       "scheduled_at": "2026-03-16T08:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Distributed Vector Databases for Scalable Retrieval‑Augmented Generation and Real‑Time AI Systems",
+      "url": "https://martinuke0.github.io/posts/2026-03-16-architecting-distributed-vector-databases-for-scalable-retrievalaugmented-generation-and-realtime-ai-systems/",
+      "social_hook": "Retrieval‑augmented generation (RAG) has emerged as a powerful paradigm for building AI systems that combine the creativity of large language models (LLMs) with the factual grounding of external knowledge sources. At the heart of a performant RAG pipeline lies a vector database—a specialized datastore that stores high‑dimensional embeddings and enables fast similarity search.\n\nWhen RAG moves from research notebooks to production‑grade, real‑time applications—such as conversational assistants, recommendation engines, or autonomous agents—the underlying vector store must scale horizontally, guarantee low latency, and remain highly available. This blog post dives deep into the architectural choices required to build distributed vector databases that meet those demands.\n\nWe will explore the fundamental concepts, discuss the most common pitfalls, outline proven design patterns, and walk through concrete code snippets that illustrate how to wire a distributed vector store into a real‑time RAG system.",
+      "tags": [
+        "vector databases",
+        "distributed systems",
+        "retrieval augmented generation",
+        "real-time AI",
+        "scalable architecture"
+      ],
+      "scheduled_at": "2026-03-16T09:03:48Z",
       "status": "pending"
     }
   ]
