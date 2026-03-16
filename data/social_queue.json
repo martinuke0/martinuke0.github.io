@@ -4355,7 +4355,7 @@
         "Open Source"
       ],
       "scheduled_at": "2026-03-16T18:03:48Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Beyond RAG: Building Autonomous Research Agents with LangGraph and Local LLM Serving",
