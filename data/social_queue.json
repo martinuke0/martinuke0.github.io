@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-16T19:03:48Z",
+  "last_scheduled_at": "2026-03-16T20:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -4369,6 +4369,20 @@
         "AI Research"
       ],
       "scheduled_at": "2026-03-16T19:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Securing Distributed Systems with Zero Trust Architecture and Real Time Monitoring Strategies",
+      "url": "https://martinuke0.github.io/posts/2026-03-16-securing-distributed-systems-with-zero-trust-architecture-and-real-time-monitoring-strategies/",
+      "social_hook": "Distributed systems—whether they are micro‑service architectures, multi‑region cloud deployments, or edge‑centric IoT networks—have become the backbone of modern digital services. Their inherent scalability, resilience, and flexibility bring unprecedented business value, but they also expand the attack surface dramatically. Traditional perimeter‑based security models, which assume a trusted internal network behind a hardened firewall, no longer suffice.\n\nZero Trust Architecture (ZTA) offers a paradigm shift: never trust, always verify. By treating every component, user, and device as potentially hostile, ZTA enforces strict identity verification, least‑privilege access, and continuous validation. However, Zero Trust alone is not a silver bullet. In a dynamic, distributed environment, security decisions must be informed by real‑time monitoring—the ability to observe, measure, and react to system behavior as it happens.\n\nThis article provides an in‑depth, practical guide to securing distributed systems using Zero Trust principles complemented by real‑time monitoring strategies. We will explore the theoretical foundations, walk through concrete implementation patterns, and examine real‑world case studies. By the end, you should have a clear blueprint for designing a robust, observable, and zero‑trust‑enabled distributed environment.",
+      "tags": [
+        "Zero Trust",
+        "Distributed Systems",
+        "Security",
+        "Monitoring",
+        "Observability"
+      ],
+      "scheduled_at": "2026-03-16T20:03:48Z",
       "status": "pending"
     }
   ]
