@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-16T22:03:48Z",
+  "last_scheduled_at": "2026-03-16T23:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -4412,6 +4412,20 @@
         "deployment"
       ],
       "scheduled_at": "2026-03-16T22:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "The Perfection Paradox: How AI is Changing API Design (And Why It's Unsettling)",
+      "url": "https://martinuke0.github.io/posts/2026-03-16-the-perfection-paradox-how-ai-is-changing-api-design-and-why-it/",
+      "social_hook": "Imagine you're a master chef who has spent years perfecting the art of creating menus. You know exactly how to balance flavors, organize courses, and present dishes in a way that delights diners. One day, a new kitchen assistant arrives who can generate perfect menus in seconds—menus that follow every culinary principle flawlessly. The dishes are technically impeccable. But something feels off. The menus are too perfect. They lack the little quirks, the unexpected flourishes, the pragmatic compromises that make great chefs great.\n\nThis is the essence of a fascinating new research paper that challenges how we think about artificial intelligence in software development.[1] Researchers from industry and academia studied what happens when AI systems design APIs—the digital \"interfaces\" that let different software systems talk to each other. What they discovered is counterintuitive: AI-generated designs were technically superior in almost every measurable way, yet experts found them unsettling. They called this the \"Perfection Paradox.\"\n\nThis blog post will walk you through this groundbreaking research, explain why it matters, and explore what it means for the future of software development. Whether you're a software engineer, a tech manager, or simply curious about how AI is reshaping professional work, this story reveals something important about the relationship between human judgment and machine efficiency.",
+      "tags": [
+        "API design",
+        "AI-assisted development",
+        "software engineering",
+        "human-AI collaboration",
+        "enterprise development"
+      ],
+      "scheduled_at": "2026-03-16T23:03:48Z",
       "status": "pending"
     }
   ]
