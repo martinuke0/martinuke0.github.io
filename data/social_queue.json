@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-16T11:03:48Z",
+  "last_scheduled_at": "2026-03-16T12:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -4257,6 +4257,20 @@
         "Real-time"
       ],
       "scheduled_at": "2026-03-16T11:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Maximizing Efficiency in Cross-Border Payments Using Decentralized Ledger Technology and Real-Time AI Systems",
+      "url": "https://martinuke0.github.io/posts/2026-03-16-maximizing-efficiency-in-cross-border-payments-using-decentralized-ledger-technology-and-real-time-ai-systems/",
+      "social_hook": "Cross‑border payments have long been plagued by high fees, latency, opacity, and regulatory friction. According to the World Bank, the average cost of sending $200 across borders is still around 7 % of the transaction value, and settlement can take anywhere from two days to several weeks. While traditional correspondent banking networks have made incremental improvements—most notably through initiatives like SWIFT gpi—fundamental architectural constraints limit how fast, cheap, and transparent these flows can become.\n\nTwo technological paradigms are converging to rewrite the rulebook: Decentralized Ledger Technology (DLT), which provides a shared, immutable record of transactions without the need for a central authority, and real‑time Artificial Intelligence (AI) systems, which can analyze massive data streams instantly to optimize routing, enforce compliance, and detect fraud. When combined, they enable a new class of payment infrastructures that are not only faster and cheaper but also more resilient, auditable, and adaptable to changing regulatory environments.\n\nThis article dives deep into how DLT and AI can be harnessed together to maximize efficiency in cross‑border payments. We will explore the underlying challenges, dissect the technical building blocks, examine real‑world implementations, and outline a practical roadmap for financial institutions looking to adopt these technologies.",
+      "tags": [
+        "cross-border payments",
+        "decentralized ledger",
+        "AI",
+        "fintech",
+        "blockchain"
+      ],
+      "scheduled_at": "2026-03-16T12:03:48Z",
       "status": "pending"
     }
   ]
