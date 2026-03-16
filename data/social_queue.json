@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-16T16:03:48Z",
+  "last_scheduled_at": "2026-03-16T17:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -4327,6 +4327,20 @@
         "microservices"
       ],
       "scheduled_at": "2026-03-16T16:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Solving the Latency Gap: Optimizing Edge Inference for Decentralized Generative World Models",
+      "url": "https://martinuke0.github.io/posts/2026-03-16-solving-the-latency-gap-optimizing-edge-inference-for-decentralized-generative-world-models/",
+      "social_hook": "Generative world models—neural networks that can simulate, predict, or create realistic environments—are the backbone of many emerging technologies: autonomous drones, augmented reality (AR) glasses, smart surveillance cameras, and collaborative robotics. Historically, these models have been trained in massive data centers and executed on powerful GPUs. Moving inference to the edge (e.g., a drone’s onboard processor or an AR headset) promises lower bandwidth usage, stronger privacy guarantees, and faster reaction times.\n\nHowever, the latency gap between cloud‑grade inference (tens of milliseconds) and edge inference (hundreds of milliseconds or more) remains a critical barrier. In safety‑critical or interactive scenarios, every millisecond counts. This article dives deep into the technical challenges that create this gap, and presents a toolbox of optimization strategies that enable decentralized generative world models to run at the edge with acceptable latency.\n\n> Note: While the concepts apply broadly, the examples focus on three representative platforms: TensorFlow Lite for microcontrollers, ONNX Runtime for heterogeneous edge devices, and NVIDIA Jetson for GPU‑accelerated edge compute.",
+      "tags": [
+        "edge-computing",
+        "generative-models",
+        "latency-optimization",
+        "machine-learning",
+        "deployment"
+      ],
+      "scheduled_at": "2026-03-16T17:03:48Z",
       "status": "pending"
     }
   ]
