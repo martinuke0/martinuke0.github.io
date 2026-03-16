@@ -4186,7 +4186,7 @@
         "security"
       ],
       "scheduled_at": "2026-03-16T06:03:48Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Optimizing Neural Search with Hybrid Metadata Filtering for Precision Retrieval Augmented Generation",
@@ -4215,7 +4215,7 @@
         "retrieval-augmented-generation"
       ],
       "scheduled_at": "2026-03-16T08:03:48Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Architecting Distributed Vector Databases for Scalable Retrieval‑Augmented Generation and Real‑Time AI Systems",
