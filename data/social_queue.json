@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-16T06:03:48Z",
+  "last_scheduled_at": "2026-03-16T07:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -4186,6 +4186,20 @@
         "security"
       ],
       "scheduled_at": "2026-03-16T06:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Neural Search with Hybrid Metadata Filtering for Precision Retrieval Augmented Generation",
+      "url": "https://martinuke0.github.io/posts/2026-03-16-optimizing-neural-search-with-hybrid-metadata-filtering-for-precision-retrieval-augmented-generation/",
+      "social_hook": "The explosion of large language models (LLMs) has made Retrieval‑Augmented Generation (RAG) the de‑facto paradigm for building systems that can answer questions, draft content, or provide decision support while grounding their responses in external knowledge. At the heart of RAG lies neural search—the process of locating the most relevant pieces of information from a massive corpus using dense vector representations.\n\nHowever, pure vector search, while powerful for semantic similarity, often falls short when users need precision that hinges on structured constraints: date ranges, document types, regulatory classifications, or domain‑specific tags. This is where Hybrid Metadata Filtering steps in, combining the flexibility of dense retrieval with the exactness of traditional boolean filters.\n\n* Explain why a hybrid approach is essential for precision‑critical applications.",
+      "tags": [
+        "neural-search",
+        "retrieval-augmented-generation",
+        "metadata-filtering",
+        "machine-learning",
+        "information-retrieval"
+      ],
+      "scheduled_at": "2026-03-16T07:03:48Z",
       "status": "pending"
     }
   ]
