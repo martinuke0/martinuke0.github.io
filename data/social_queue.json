@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-16T10:03:48Z",
+  "last_scheduled_at": "2026-03-16T11:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -4243,6 +4243,20 @@
         "Benchmarking AI"
       ],
       "scheduled_at": "2026-03-16T10:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Real‑Time Token Management for Globally Distributed Large Language Model Inference Architectures",
+      "url": "https://martinuke0.github.io/posts/2026-03-16-optimizing-realtime-token-management-for-globally-distributed-large-language-model-inference-architectures/",
+      "social_hook": "Large Language Models (LLMs) have moved from research labs into production services that power chatbots, code assistants, real‑time translation, and countless other interactive experiences. When a user types a query, the system must generate a response in milliseconds, not seconds. This latency requirement becomes dramatically more complex when the inference service is globally distributed—the same model runs on clusters in North America, Europe, Asia‑Pacific, and possibly edge devices at the network edge.\n\nAt the heart of this problem lies token management: how we ingest, schedule, batch, and stream individual tokens across a mesh of compute nodes while keeping latency low, throughput high, and resource usage economical. In this article we dive deep into the engineering trade‑offs, architectural patterns, and concrete techniques that enable real‑time token management for globally distributed LLM inference.\n\n> Note: While the concepts apply to any transformer‑based model, we will frequently reference popular open‑source families such as LLaMA, Falcon, and the GPT‑4‑style decoder stack.",
+      "tags": [
+        "LLM",
+        "Token Management",
+        "Distributed Systems",
+        "Inference Optimization",
+        "Real-time"
+      ],
+      "scheduled_at": "2026-03-16T11:03:48Z",
       "status": "pending"
     }
   ]
