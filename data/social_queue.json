@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-16T18:03:48Z",
+  "last_scheduled_at": "2026-03-16T19:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -4355,6 +4355,20 @@
         "Open Source"
       ],
       "scheduled_at": "2026-03-16T18:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Beyond RAG: Building Autonomous Research Agents with LangGraph and Local LLM Serving",
+      "url": "https://martinuke0.github.io/posts/2026-03-16-beyond-rag-building-autonomous-research-agents-with-langgraph-and-local-llm-serving/",
+      "social_hook": "Retrieval‑Augmented Generation (RAG) has become the de‑facto baseline for many knowledge‑intensive applications—question answering, summarisation, and data‑driven code generation. While RAG excels at pulling relevant context from external sources and feeding it into a language model, it remains fundamentally reactive: the model receives a prompt, produces an answer, and stops.\n\nFor many research‑oriented tasks, a single forward pass is insufficient. Consider a scientist who must:\n\nThese steps require autonomous planning, dynamic tool usage, and continuous feedback loops—behaviours that go beyond classic RAG pipelines. Enter LangGraph, an open‑source framework that lets developers compose LLM‑driven workflows as directed graphs, and local LLM serving (e.g., Ollama, LM Studio, or self‑hosted vLLM) that offers deterministic, privacy‑preserving inference. Together, they enable the creation of autonomous research agents that can reason, act, and learn without human intervention.",
+      "tags": [
+        "Retrieval-Augmented Generation",
+        "LangGraph",
+        "Local LLM",
+        "Autonomous Agents",
+        "AI Research"
+      ],
+      "scheduled_at": "2026-03-16T19:03:48Z",
       "status": "pending"
     }
   ]
