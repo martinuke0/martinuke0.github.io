@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-16T13:03:48Z",
+  "last_scheduled_at": "2026-03-16T14:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -4285,6 +4285,20 @@
         "Automation"
       ],
       "scheduled_at": "2026-03-16T13:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Beyond the Chatbox: Implementing Local Agentic Workflows with Small Language Models and WebGPU",
+      "url": "https://martinuke0.github.io/posts/2026-03-16-beyond-the-chatbox-implementing-local-agentic-workflows-with-small-language-models-and-webgpu/",
+      "social_hook": "The last few years have witnessed a surge of “chatbox‑first” applications built on large language models (LLMs). While the chat interface is intuitive for end‑users, it also hides the rich potential of LLMs as agents capable of planning, tooling, and autonomous execution.\n\nAt the same time, edge computing is becoming more powerful: modern browsers expose WebGPU, a low‑level graphics and compute API that brings near‑native GPU performance to JavaScript and WebAssembly. Coupled with small language models (SLMs)—compact, quantized transformers that can run on consumer hardware—we now have the ingredients to build local, agentic workflows that stay entirely on the user’s device.\n\nThis article explores how to design, implement, and benchmark such workflows. We’ll dive into the technical stack, walk through a complete example (a personal knowledge assistant), and discuss the broader implications for privacy, latency, and the future of on‑device AI.",
+      "tags": [
+        "LLM",
+        "WebGPU",
+        "Agentic AI",
+        "Edge Computing",
+        "JavaScript"
+      ],
+      "scheduled_at": "2026-03-16T14:03:48Z",
       "status": "pending"
     }
   ]
