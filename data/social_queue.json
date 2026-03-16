@@ -4383,7 +4383,7 @@
         "Observability"
       ],
       "scheduled_at": "2026-03-16T20:03:48Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Architecting Low‑Latency Vector Databases for Real‑Time Machine‑Learning Inference",
