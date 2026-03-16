@@ -4341,7 +4341,7 @@
         "deployment"
       ],
       "scheduled_at": "2026-03-16T17:03:48Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Beyond the Chatbot: Orchestrating Autonomous Agent Swarms with Open-Source Neuro‑Symbolic Frameworks",
