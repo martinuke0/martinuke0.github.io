@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-16T05:03:48Z",
+  "last_scheduled_at": "2026-03-16T06:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -4172,6 +4172,20 @@
         "Privacy"
       ],
       "scheduled_at": "2026-03-16T05:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Multi-Tenant Data Isolation Strategies for Scalable Cloud Infrastructure and SaaS Applications",
+      "url": "https://martinuke0.github.io/posts/2026-03-16-mastering-multi-tenant-data-isolation-strategies-for-scalable-cloud-infrastructure-and-saas-applications/",
+      "social_hook": "In the era of cloud‑native SaaS platforms, multi‑tenancy is the default architectural pattern for delivering cost‑effective, on‑demand software. While sharing compute, storage, and networking resources across customers reduces operational expenses, it also introduces a critical challenge: how to keep each tenant’s data isolated and secure.\n\nData isolation is not a single technique; it is a spectrum of strategies that balance security, performance, operational simplicity, and cost. The choice of strategy influences everything from database schema design to compliance audits, from disaster‑recovery planning to developer productivity.\n\nThis article provides a deep dive into the most common multi‑tenant data isolation models, their trade‑offs, and practical guidance for implementing them in modern cloud environments. You will find:",
+      "tags": [
+        "multi-tenant",
+        "data-isolation",
+        "cloud-architecture",
+        "saas",
+        "security"
+      ],
+      "scheduled_at": "2026-03-16T06:03:48Z",
       "status": "pending"
     }
   ]
