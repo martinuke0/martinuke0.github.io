@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-17T01:03:48Z",
+  "last_scheduled_at": "2026-03-17T02:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -4454,6 +4454,20 @@
         "performance"
       ],
       "scheduled_at": "2026-03-17T01:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Distributed Systems Architecture: From Monolithic Legacies to Cloud‑Native Resilience",
+      "url": "https://martinuke0.github.io/posts/2026-03-16-mastering-distributed-systems-architecture-from-monolithic-legacies-to-cloudnative-resilience/",
+      "social_hook": "Enterprises that have built their core business logic on monolithic applications often find themselves at a crossroads. The monolith served well when the product was small, the team was tight‑knit, and the operational environment was simple. Today, however, the same codebase can become a bottleneck for scaling, a nightmare for continuous delivery, and a single point of failure that jeopardizes business continuity.\n\nTransitioning from a monolithic legacy to a distributed, cloud‑native architecture is not a one‑size‑fits‑all project. It requires a deep understanding of both the shortcomings of monoliths and the principles that make distributed systems resilient, scalable, and maintainable. In this article we will:\n\n1. Examine the characteristics of monolithic systems and why they often need to evolve.",
+      "tags": [
+        "distributed systems",
+        "cloud native",
+        "microservices",
+        "architecture",
+        "migration"
+      ],
+      "scheduled_at": "2026-03-17T02:03:48Z",
       "status": "pending"
     }
   ]
