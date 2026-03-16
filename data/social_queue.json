@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-16T12:03:48Z",
+  "last_scheduled_at": "2026-03-16T13:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -4271,6 +4271,20 @@
         "blockchain"
       ],
       "scheduled_at": "2026-03-16T12:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Orchestrating Multi‑Agent Systems with Long‑Term Memory for Complex Autonomous Software‑Engineering Workflows",
+      "url": "https://martinuke0.github.io/posts/2026-03-16-orchestrating-multiagent-systems-with-longterm-memory-for-complex-autonomous-softwareengineering-workflows/",
+      "social_hook": "Software engineering has always been a blend of creativity, rigor, and iteration. In recent years, the rise of large language models (LLMs) and generative AI has opened the door to autonomous software‑engineering agents capable of writing code, fixing bugs, and even managing CI/CD pipelines. However, a single monolithic agent quickly runs into limitations: context windows are finite, responsibilities become tangled, and the system lacks resilience.\n\nEnter multi‑agent systems (MAS)—collections of specialized agents that collaborate, negotiate, and share knowledge. When these agents are equipped with long‑term memory (LTM), they can retain project‑wide context across weeks or months, making them suitable for complex, end‑to‑end software‑engineering workflows such as feature development, regression testing, and release management.\n\nThis article provides a deep dive into orchestrating multi‑agent systems with long‑term memory for autonomous software‑engineering pipelines. We will explore architectural patterns, discuss concrete implementation choices, and walk through a complete, production‑grade example in Python. By the end, you should have a solid blueprint for building your own self‑maintaining development ecosystem.",
+      "tags": [
+        "AI",
+        "Multi-Agent Systems",
+        "Software Engineering",
+        "Long-Term Memory",
+        "Automation"
+      ],
+      "scheduled_at": "2026-03-16T13:03:48Z",
       "status": "pending"
     }
   ]
