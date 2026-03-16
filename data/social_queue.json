@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-16T04:03:48Z",
+  "last_scheduled_at": "2026-03-16T05:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -4158,6 +4158,20 @@
         "LLM"
       ],
       "scheduled_at": "2026-03-16T04:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "The Move Toward Local-First AI: Deploying Quantized LLMs on Consumer Edge Infrastructure",
+      "url": "https://martinuke0.github.io/posts/2026-03-16-the-move-toward-local-first-ai-deploying-quantized-llms-on-consumer-edge-infrastructure/",
+      "social_hook": "Artificial intelligence has long been dominated by cloud‑centric architectures. Massive language models such as GPT‑4, Claude, and LLaMA are trained on clusters of GPUs, stored in data‑center warehouses, and accessed via APIs that route every request through the internet. While this model‑as‑a‑service approach delivers impressive capabilities, it also introduces latency, recurring costs, vendor lock‑in, and, most critically, privacy concerns.\n\nThe local‑first AI movement seeks to reverse this trend by moving inference—and, increasingly, fine‑tuning—onto the very devices that generate the data: smartphones, laptops, single‑board computers, and other consumer‑grade edge hardware. The catalyst for this shift is quantization, a set of techniques that compress the numerical precision of model weights from 16‑ or 32‑bit floating point to 8‑bit, 4‑bit, or even binary representations. Quantized models occupy a fraction of the memory footprint of their full‑precision counterparts and can run on CPUs, low‑power GPUs, or specialized AI accelerators.\n\nThis article provides a deep dive into the why, what, and how of deploying quantized large language models (LLMs) on consumer edge infrastructure. We will explore the technical foundations of quantization, the hardware landscape, end‑to‑end deployment pipelines, practical code examples, real‑world use cases, and the challenges that remain. By the end, readers should feel equipped to evaluate whether a local‑first AI strategy makes sense for their projects and to start experimenting with quantized LLMs on their own devices.",
+      "tags": [
+        "AI",
+        "Edge Computing",
+        "Quantization",
+        "LLMs",
+        "Privacy"
+      ],
+      "scheduled_at": "2026-03-16T05:03:48Z",
       "status": "pending"
     }
   ]
