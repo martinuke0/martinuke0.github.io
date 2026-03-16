@@ -4398,7 +4398,7 @@
         "scalability"
       ],
       "scheduled_at": "2026-03-16T21:03:48Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Architecting Distributed Inference Engines for Real‑Time Large Language Model Deployment",
