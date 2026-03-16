@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-17T00:03:48Z",
+  "last_scheduled_at": "2026-03-17T01:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -4440,6 +4440,20 @@
         "machine-learning"
       ],
       "scheduled_at": "2026-03-17T00:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Vector Databases and Semantic Search Architecture: Implementation, Code, and Performance Benchmarks",
+      "url": "https://martinuke0.github.io/posts/2026-03-16-vector-databases-and-semantic-search-architecture-implementation-code-and-performance-benchmarks/",
+      "social_hook": "Semantic search has moved from a research curiosity to a production‑ready capability that powers everything from recommendation engines to enterprise knowledge bases. The core idea is simple: instead of matching exact keywords, we embed documents and queries into a high‑dimensional vector space where semantic similarity can be measured directly.\n\nTo make this approach usable at scale, we need vector databases—specialized data stores that index and retrieve high‑dimensional vectors efficiently. This article walks through the entire stack:\n\n* A step‑by‑step implementation using Milvus (open‑source) and Sentence‑Transformers (Python).",
+      "tags": [
+        "vector-database",
+        "semantic-search",
+        "machine-learning",
+        "architecture",
+        "performance"
+      ],
+      "scheduled_at": "2026-03-17T01:03:48Z",
       "status": "pending"
     }
   ]
