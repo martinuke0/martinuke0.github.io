@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-16T14:03:48Z",
+  "last_scheduled_at": "2026-03-16T15:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -4299,6 +4299,20 @@
         "JavaScript"
       ],
       "scheduled_at": "2026-03-16T14:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "IROSA: Revolutionizing Robot Skills with Everyday Language – A Deep Dive into the Future of AI-Robotics",
+      "url": "https://martinuke0.github.io/posts/2026-03-16-irosa-revolutionizing-robot-skills-with-everyday-language-a-deep-dive-into-the-future-of-ai-robotics/",
+      "social_hook": "Imagine telling your robot arm, \"Go a bit faster but watch out for that obstacle,\" and watching it instantly adjust its movements without crashing or needing a programmer to rewrite code. That's not science fiction—it's the promise of IROSA, a groundbreaking framework from the paper \"IROSA: Interactive Robot Skill Adaptation using Natural Language\".[1] This research bridges the gap between powerful AI language models and real-world robots, making industrial tasks safer, faster, and more flexible. In this in-depth article, we'll break it down for a general technical audience—no PhD required—using plain language, real-world analogies, and practical examples. We'll explore what IROSA does, how it works, why it matters, and what it could unlock for industries like manufacturing and beyond.\n\nRobots in factories today are like expert chefs following a rigid recipe. They're great at repetitive tasks—think inserting bearing rings into machinery with pinpoint precision—but if the recipe needs tweaking (say, \"make it quicker\" or \"avoid that new part on the table\"), you need a master programmer to reprogram them. This is slow, expensive, and error-prone.[1]\n\nTraditional imitation learning helps here: show the robot a demonstration once, and it learns the skill. But adapting that skill? That's tough. Enter foundation models like large language models (LLMs)—think ChatGPT on steroids. These AIs understand natural language across domains, but hooking them directly to robots is risky. One wrong interpretation, and your million-dollar arm smashes into something.[1]",
+      "tags": [
+        "AI",
+        "Robotics",
+        "Natural Language Processing",
+        "Imitation Learning",
+        "Industrial Automation"
+      ],
+      "scheduled_at": "2026-03-16T15:03:48Z",
       "status": "pending"
     }
   ]
