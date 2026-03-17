@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-17T14:03:48Z",
+  "last_scheduled_at": "2026-03-17T15:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -4638,6 +4638,20 @@
         "performance-optimization"
       ],
       "scheduled_at": "2026-03-17T14:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Scaling Distributed ML Training Systems: A Complete Guide to CUDA Kernels and Network Optimization",
+      "url": "https://martinuke0.github.io/posts/2026-03-17-scaling-distributed-ml-training-systems-a-complete-guide-to-cuda-kernels-and-network-optimization/",
+      "social_hook": "Training modern deep‑learning models—think GPT‑4‑scale transformers, ResNet‑152, or large recommendation systems—requires massive computational resources. A single GPU can no longer finish a training epoch in a reasonable amount of time, so practitioners turn to distributed training across dozens or even hundreds of accelerators.\n\nWhile the high‑level idea—split work, sync gradients, repeat—sounds simple, achieving linear scaling is surprisingly hard. Two low‑level pillars dominate performance:\n\n1. CUDA kernels that run on each GPU. Their efficiency determines how fast a single device can process its share of data.",
+      "tags": [
+        "distributed training",
+        "CUDA",
+        "network optimization",
+        "deep learning",
+        "high-performance computing"
+      ],
+      "scheduled_at": "2026-03-17T15:03:48Z",
       "status": "pending"
     }
   ]
