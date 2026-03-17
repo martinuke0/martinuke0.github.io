@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-17T09:03:48Z",
+  "last_scheduled_at": "2026-03-17T10:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -4566,6 +4566,21 @@
         "Model Orchestration"
       ],
       "scheduled_at": "2026-03-17T09:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Preventing Curriculum Collapse: How Prism Supercharges Self-Evolving AI Reasoners",
+      "url": "https://martinuke0.github.io/posts/2026-03-17-preventing-curriculum-collapse-how-prism-supercharges-self-evolving-ai-reasoners/",
+      "social_hook": "Imagine teaching a child math. You start with simple addition, then move to multiplication, fractions, and eventually calculus. But what if the child, left to their own devices, kept inventing easier and easier problems—repeating \"2+2=4\" forever? They'd never grow. This is the nightmare scenario facing self-evolving AI systems: curriculum collapse, where AI reasoners get stuck in a rut, generating repetitive problems instead of challenging themselves to learn more.\n\nThe research paper \"Preventing Curriculum Collapse in Self-Evolving Reasoning Systems\" introduces Prism, a clever solution that keeps these AI systems exploring diverse, edge-of-ability problems. This breakthrough isn't just academic—it's a step toward AI that can teach itself advanced reasoning without human babysitters. In this post, we'll break it down for a general technical audience: no PhDs required, but plenty of real-world analogies, practical insights, and forward-looking implications.\n\nWe'll explore what self-evolving AI is, why it fails without fixes like Prism, how Prism works under the hood, its impressive results, and what it means for the future of AI. By the end, you'll see why this could unlock truly autonomous AI tutors, scientists, and problem-solvers.",
+      "tags": [
+        "AI Research",
+        "Self-Evolving AI",
+        "Reasoning Systems",
+        "Curriculum Learning",
+        "Large Language Models",
+        "Mathematical Reasoning"
+      ],
+      "scheduled_at": "2026-03-17T10:03:48Z",
       "status": "pending"
     }
   ]
