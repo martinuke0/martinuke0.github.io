@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-17T17:03:48Z",
+  "last_scheduled_at": "2026-03-17T18:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -4680,6 +4680,20 @@
         "Scalable Architecture"
       ],
       "scheduled_at": "2026-03-17T17:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Low‑Latency Inference for Real‑Time Autonomous Navigation on Edge Computing Platforms",
+      "url": "https://martinuke0.github.io/posts/2026-03-17-optimizing-lowlatency-inference-for-realtime-autonomous-navigation-on-edge-computing-platforms/",
+      "social_hook": "Autonomous vehicles—whether ground robots, aerial drones, or self‑driving cars—rely on a tight feedback loop: sense → compute → act. The compute stage is dominated by deep‑learning inference for perception (object detection, semantic segmentation, depth estimation) and decision‑making (trajectory planning, obstacle avoidance). In a real‑time navigation scenario, latency is not a luxury; it is a safety‑critical constraint. A delay of even a few milliseconds can translate to meters of missed distance at highway speeds or centimeters of drift for a quadcopter hovering in a cluttered environment.\n\nEdge computing platforms bring the processing power physically close to the sensors, eliminating the round‑trip latency of cloud off‑loading. However, edge devices are resource‑constrained relative to data‑center GPUs, demanding careful hardware‑software co‑design to achieve sub‑10 ms end‑to‑end inference while staying within power and thermal envelopes.\n\nThis article provides a deep dive into the techniques, tools, and architectural patterns that enable low‑latency, high‑throughput inference on edge platforms for autonomous navigation. We will explore:",
+      "tags": [
+        "autonomous‑navigation",
+        "edge‑computing",
+        "low‑latency",
+        "model‑optimization",
+        "real‑time‑AI"
+      ],
+      "scheduled_at": "2026-03-17T18:03:48Z",
       "status": "pending"
     }
   ]
