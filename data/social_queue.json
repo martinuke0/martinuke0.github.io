@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-17T21:03:48Z",
+  "last_scheduled_at": "2026-03-17T22:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -4737,6 +4737,21 @@
         "DevOps"
       ],
       "scheduled_at": "2026-03-17T21:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Safe Flow Q-Learning: Making AI Safe and Fast for Real-World Robots",
+      "url": "https://martinuke0.github.io/posts/2026-03-17-safe-flow-q-learning-making-ai-safe-and-fast-for-real-world-robots/",
+      "social_hook": "Imagine teaching a self-driving car to navigate busy streets without ever letting it hit a pedestrian or veer into oncoming traffic. Or training a robotic arm in a factory to pick up fragile parts perfectly every time, even when it's only learned from videos of human operators. This is the promise of safe reinforcement learning (RL)—AI systems that learn optimal behaviors while strictly avoiding dangerous mistakes. But traditional methods are often too slow or unreliable for real-time use.\n\nEnter Safe Flow Q-Learning (SafeFQL), a groundbreaking approach from the paper \"Safe Flow Q-Learning: Offline Safe Reinforcement Learning with Reachability-Based Flow Policies\" (arXiv:2603.15136). This method tackles offline safe RL, where AI learns from static datasets without interacting with the real world, under tight safety constraints. SafeFQL combines clever safety math with efficient \"flow policies\" to deliver high performance, low latency, and provable safety guarantees. In this post, we'll break it down step-by-step for a technical audience—no PhD required. We'll use everyday analogies, dive into the tech, explore real-world implications, and highlight key takeaways.\n\nReinforcement learning is like training a dog with treats: the agent (dog) takes actions in an environment, gets rewards (treats) for good ones, and learns to maximize long-term rewards. But in online RL, the agent experiments live, which can be disastrous in safety-critical settings—like a drone crashing during training.",
+      "tags": [
+        "Reinforcement Learning",
+        "Safe AI",
+        "Offline RL",
+        "Robotics",
+        "AI Safety",
+        "Flow Policies"
+      ],
+      "scheduled_at": "2026-03-17T22:03:48Z",
       "status": "pending"
     }
   ]
