@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-17T08:03:48Z",
+  "last_scheduled_at": "2026-03-17T09:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -4552,6 +4552,20 @@
         "scalability"
       ],
       "scheduled_at": "2026-03-17T08:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Beyond the LLM: Mastering Local Small Language Model Orchestration with WebGPU and WASM",
+      "url": "https://martinuke0.github.io/posts/2026-03-17-beyond-the-llm-mastering-local-small-language-model-orchestration-with-webgpu-and-wasm/",
+      "social_hook": "Large language models (LLMs) have dominated headlines for the past few years, but their sheer size and compute requirements often make them unsuitable for on‑device or edge deployments. In many applications—ranging from personal assistants on smartphones to privacy‑preserving tools on browsers—small language models (SLMs) provide a sweet spot: they are lightweight enough to run locally, yet still capable of delivering useful language understanding and generation.\n\nThis article dives deep into orchestrating multiple small language models locally using two emerging web technologies: WebGPU and WebAssembly (WASM). By the end of the guide, you will understand:\n\n* Architectural patterns for coordinating several models (e.g., classifier → generator → summarizer).",
+      "tags": [
+        "LLM",
+        "WebGPU",
+        "WASM",
+        "EdgeAI",
+        "Model Orchestration"
+      ],
+      "scheduled_at": "2026-03-17T09:03:48Z",
       "status": "pending"
     }
   ]
