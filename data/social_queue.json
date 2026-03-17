@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-17T12:03:48Z",
+  "last_scheduled_at": "2026-03-17T13:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -4610,6 +4610,20 @@
         "AI Research"
       ],
       "scheduled_at": "2026-03-17T12:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Scaling Distributed Systems with Message Queues: From Architectural Patterns to Real‑Time Data Streaming",
+      "url": "https://martinuke0.github.io/posts/2026-03-17-scaling-distributed-systems-with-message-queues-from-architectural-patterns-to-realtime-data-streaming/",
+      "social_hook": "Modern applications rarely run on a single server. Whether you are building a social media platform, an IoT analytics pipeline, or a high‑frequency trading system, you are dealing with distributed systems that must handle unpredictable load, survive component failures, and deliver data with low latency.\n\nMessage queues are the unsung heroes that make these lofty goals achievable. From simple work‑queue patterns that smooth out bursty traffic to sophisticated event‑streaming platforms that enable real‑time analytics, queues provide the asynchronous glue that decouples services, enforces reliability, and scales horizontally.\n\n Architectural patterns** – proven designs that leverage queues for scalability, fault tolerance, and data consistency.",
+      "tags": [
+        "distributed systems",
+        "message queues",
+        "architectural patterns",
+        "real-time streaming",
+        "scalability"
+      ],
+      "scheduled_at": "2026-03-17T13:03:48Z",
       "status": "pending"
     }
   ]
