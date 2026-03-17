@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-17T04:03:48Z",
+  "last_scheduled_at": "2026-03-17T05:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -4496,6 +4496,20 @@
         "on-device-ai"
       ],
       "scheduled_at": "2026-03-17T04:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Trustless Intelligence: Enhancing Decentralized AI Agents with Zero‑Knowledge Proofs and Formal Verification",
+      "url": "https://martinuke0.github.io/posts/2026-03-17-trustless-intelligence-enhancing-decentralized-ai-agents-with-zeroknowledge-proofs-and-formal-verification/",
+      "social_hook": "Artificial intelligence (AI) is increasingly being deployed in environments where trust, privacy, and correctness are non‑negotiable. Traditional AI pipelines rely on centralized data providers, model owners, and compute infrastructures, creating single points of failure and opening doors for manipulation, data leakage, and regulatory non‑compliance.\n\nDecentralized AI agents—autonomous software entities that operate on peer‑to‑peer (P2P) networks or blockchains—promise a more open, resilient, and censorship‑resistant AI ecosystem. However, decentralization introduces new verification challenges:\n\n1. Trustlessness – Participants must be able to rely on each other’s computations without prior relationships.",
+      "tags": [
+        "decentralized‑AI",
+        "zero‑knowledge",
+        "formal‑verification",
+        "blockchain",
+        "trustless‑systems"
+      ],
+      "scheduled_at": "2026-03-17T05:03:48Z",
       "status": "pending"
     }
   ]
