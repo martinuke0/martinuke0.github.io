@@ -4440,7 +4440,7 @@
         "machine-learning"
       ],
       "scheduled_at": "2026-03-17T00:03:48Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Vector Databases and Semantic Search Architecture: Implementation, Code, and Performance Benchmarks",
@@ -4454,7 +4454,7 @@
         "performance"
       ],
       "scheduled_at": "2026-03-17T01:03:48Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Mastering Distributed Systems Architecture: From Monolithic Legacies to Cloud‑Native Resilience",
