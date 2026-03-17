@@ -4552,7 +4552,7 @@
         "scalability"
       ],
       "scheduled_at": "2026-03-17T08:03:48Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Beyond the LLM: Mastering Local Small Language Model Orchestration with WebGPU and WASM",
