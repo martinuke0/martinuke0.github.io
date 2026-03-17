@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-17T22:03:48Z",
+  "last_scheduled_at": "2026-03-17T23:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -4752,6 +4752,20 @@
         "Flow Policies"
       ],
       "scheduled_at": "2026-03-17T22:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Real-Time Inference in Distributed AI Systems with Edge Computing and Model Distillation",
+      "url": "https://martinuke0.github.io/posts/2026-03-17-optimizing-real-time-inference-in-distributed-ai-systems-with-edge-computing-and-model-distillation/",
+      "social_hook": "Real‑time inference has become the linchpin of modern AI‑driven applications—from autonomous vehicles and industrial robotics to augmented reality and smart‑city monitoring. As these workloads scale, a single data‑center GPU can no longer satisfy the stringent latency, bandwidth, and privacy requirements of every use case. The answer lies in distributed AI systems that blend powerful cloud resources with edge computing nodes located close to the data source. However, edge devices are typically resource‑constrained, making it essential to shrink model size and computational complexity without sacrificing accuracy. This is where model distillation—the process of transferring knowledge from a large “teacher” model to a compact “student” model—plays a pivotal role.\n\n2. Dive into the technical fundamentals of edge computing and model distillation.\n\n3. Identify the primary challenges that arise when trying to achieve millisecond‑level response times.",
+      "tags": [
+        "AI",
+        "Edge Computing",
+        "Model Distillation",
+        "Real-Time Inference",
+        "Distributed Systems"
+      ],
+      "scheduled_at": "2026-03-17T23:03:48Z",
       "status": "pending"
     }
   ]
