@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-17T16:03:48Z",
+  "last_scheduled_at": "2026-03-17T17:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -4666,6 +4666,20 @@
         "AI Reasoning"
       ],
       "scheduled_at": "2026-03-17T16:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building Scalable Real Time Event Driven Architectures with Apache Kafka and Python Microservices",
+      "url": "https://martinuke0.github.io/posts/2026-03-17-building-scalable-real-time-event-driven-architectures-with-apache-kafka-and-python-microservices/",
+      "social_hook": "In today’s data‑driven world, applications must process billions of events per day, react to user actions in milliseconds, and remain resilient under heavy load. Event‑Driven Architecture (EDA), powered by a robust messaging backbone, has become the de‑facto pattern for building such systems. Apache Kafka—a distributed log platform—offers the durability, throughput, and ordering guarantees needed for real‑time pipelines. Pairing Kafka with Python microservices leverages Python’s expressive syntax, rich ecosystem, and rapid development cycle.\n\nThis article walks you through the end‑to‑end journey of designing, implementing, and operating a scalable real‑time event‑driven system using Kafka and Python. We will explore architectural decisions, practical code samples, operational concerns, and real‑world patterns, aiming to give you a complete blueprint you can adapt to your own domain.\n\nEDA revolves around the notion that events—immutable facts about something that happened—are the primary means of communication between loosely coupled components. Key benefits include:",
+      "tags": [
+        "Kafka",
+        "Python",
+        "Microservices",
+        "Event-Driven",
+        "Scalable Architecture"
+      ],
+      "scheduled_at": "2026-03-17T17:03:48Z",
       "status": "pending"
     }
   ]
