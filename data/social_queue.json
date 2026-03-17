@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-17T10:03:48Z",
+  "last_scheduled_at": "2026-03-17T11:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -4581,6 +4581,20 @@
         "Mathematical Reasoning"
       ],
       "scheduled_at": "2026-03-17T10:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "The Shift to Local-First AI: Optimizing Small Language Models for Browser-Based Edge Computing",
+      "url": "https://martinuke0.github.io/posts/2026-03-17-the-shift-to-local-first-ai-optimizing-small-language-models-for-browser-based-edge-computing/",
+      "social_hook": "Artificial intelligence has traditionally been a cloud‑centric discipline. Massive language models (LLMs) such as GPT‑4, Claude, or Gemini are hosted on powerful data‑center GPUs, and developers access them through APIs that stream responses over the internet. While this model has powered spectacular breakthroughs, it also introduces latency, bandwidth costs, privacy concerns, and a dependency on continuous connectivity.\n\nA growing counter‑movement—Local‑First AI—aims to bring intelligence back to the user’s device. By running small language models (SLMs) directly in the browser, we can achieve:\n\nThis article explores the technical, architectural, and practical dimensions of shifting AI workloads to the edge, with a focus on optimizing small language models for browser‑based execution. We will cover why this shift matters, the challenges of fitting neural networks into a browser sandbox, concrete optimization techniques, a step‑by‑step example of deploying a quantized model with WebAssembly, and the broader implications for the AI ecosystem.",
+      "tags": [
+        "AI",
+        "Edge Computing",
+        "Small Language Models",
+        "Browser",
+        "Local-First"
+      ],
+      "scheduled_at": "2026-03-17T11:03:48Z",
       "status": "pending"
     }
   ]
