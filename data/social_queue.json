@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-17T13:03:48Z",
+  "last_scheduled_at": "2026-03-17T14:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -4624,6 +4624,20 @@
         "scalability"
       ],
       "scheduled_at": "2026-03-17T13:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Microservices Performance with Redis Caching and Distributed System Architecture Best Practices",
+      "url": "https://martinuke0.github.io/posts/2026-03-17-optimizing-microservices-performance-with-redis-caching-and-distributed-system-architecture-best-practices/",
+      "social_hook": "Microservices have become the de‑facto architectural style for building scalable, resilient, and independently deployable applications. Yet, the very benefits that make microservices attractive—loose coupling, network‑based communication, and polyglot persistence—also introduce latency, network chatter, and resource contention.\n\nWhen a request traverses several services, database round‑trips, serialization overhead, and throttling can quickly degrade the end‑user experience. To meet modern performance expectations (sub‑100 ms latency for most interactive APIs), engineers must adopt system‑level optimizations that complement code‑level improvements.\n\n1. Redis caching – a battle‑tested, in‑memory data store that can dramatically reduce read latency and off‑load hot data from primary databases.",
+      "tags": [
+        "microservices",
+        "redis",
+        "caching",
+        "distributed-systems",
+        "performance-optimization"
+      ],
+      "scheduled_at": "2026-03-17T14:03:48Z",
       "status": "pending"
     }
   ]
