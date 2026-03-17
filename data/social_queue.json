@@ -4624,7 +4624,7 @@
         "scalability"
       ],
       "scheduled_at": "2026-03-17T13:03:48Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Optimizing Microservices Performance with Redis Caching and Distributed System Architecture Best Practices",
@@ -4638,7 +4638,7 @@
         "performance-optimization"
       ],
       "scheduled_at": "2026-03-17T14:03:48Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Scaling Distributed ML Training Systems: A Complete Guide to CUDA Kernels and Network Optimization",
