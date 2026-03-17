@@ -4468,7 +4468,7 @@
         "migration"
       ],
       "scheduled_at": "2026-03-17T02:03:48Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Beyond the Chatbot: Implementing Agentic Workflows with the New Open-Action Protocol 2.0",
@@ -4482,7 +4482,7 @@
         "Automation"
       ],
       "scheduled_at": "2026-03-17T03:03:48Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Beyond Large Models: Implementing Energy-Efficient Small Language Models for On-Device Edge Computing",
