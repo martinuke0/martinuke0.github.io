@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-17T05:03:48Z",
+  "last_scheduled_at": "2026-03-17T06:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -4510,6 +4510,20 @@
         "trustless‑systems"
       ],
       "scheduled_at": "2026-03-17T05:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Kubernetes Zero to Hero: A Comprehensive Guide to Orchestrating Scalable Microservices and AI Workloads",
+      "url": "https://martinuke0.github.io/posts/2026-03-17-kubernetes-zero-to-hero-a-comprehensive-guide-to-orchestrating-scalable-microservices-and-ai-workloads/",
+      "social_hook": "Kubernetes has become the de‑facto platform for running containers at scale. Whether you are deploying a handful of stateless web services or training massive deep‑learning models across a GPU‑rich cluster, Kubernetes offers the abstractions, automation, and resiliency you need.\n\n2. Hero – Advanced patterns for microservices, service meshes, CI/CD pipelines, and AI/ML workloads.\n\n* Run GPU‑accelerated AI workloads with custom resource definitions (CRDs) and operators.",
+      "tags": [
+        "kubernetes",
+        "microservices",
+        "ai",
+        "orchestration",
+        "devops"
+      ],
+      "scheduled_at": "2026-03-17T06:03:48Z",
       "status": "pending"
     }
   ]
