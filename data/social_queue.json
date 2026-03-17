@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-17T23:03:48Z",
+  "last_scheduled_at": "2026-03-18T00:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -4766,6 +4766,21 @@
         "Distributed Systems"
       ],
       "scheduled_at": "2026-03-17T23:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "DAST: Cracking Voice Anonymization – How AI Attackers Outsmart Privacy Shields",
+      "url": "https://martinuke0.github.io/posts/2026-03-17-dast-cracking-voice-anonymization-how-ai-attackers-outsmart-privacy-shields/",
+      "social_hook": "Imagine you're whistleblowing on a major corporation, but you can't use your real voice because it could get you identified and silenced. Voice anonymization tools promise to scramble your unique vocal fingerprint—like pitch, timbre, and speaking style—while keeping your words intact. Sounds perfect for privacy, right? But what if an AI attacker could still unmask you?\n\nThat's the crux of the research paper \"DAST: A Dual-Stream Voice Anonymization Attacker with Staged Training\" (arXiv:2603.12840). This work introduces DAST, a sophisticated AI system designed to break voice anonymization defenses. It's not just theory—DAST beats state-of-the-art attackers on real challenge datasets, using only a fraction of the target data for fine-tuning. For anyone in AI, cybersecurity, or speech tech, this paper reveals the cat-and-mouse game between privacy protectors and attackers.[1][2]\n\nIn this blog post, we'll break it down into digestible pieces: no PhD required. We'll use everyday analogies, explore the tech step-by-step, and discuss why this matters for your voice data in apps like Zoom or smart assistants. By the end, you'll grasp how DAST works, its implications, and key takeaways for broader AI privacy battles.",
+      "tags": [
+        "Voice Anonymization",
+        "AI Privacy",
+        "Speaker Verification",
+        "Machine Learning",
+        "Speech Processing",
+        "Adversarial AI"
+      ],
+      "scheduled_at": "2026-03-18T00:03:48Z",
       "status": "pending"
     }
   ]
