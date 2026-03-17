@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-17T07:03:48Z",
+  "last_scheduled_at": "2026-03-17T08:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -4538,6 +4538,20 @@
         "Real-Time Analysis"
       ],
       "scheduled_at": "2026-03-17T07:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building High‑Performance Vector Databases for Real‑Time Retrieval in Distributed AI Systems",
+      "url": "https://martinuke0.github.io/posts/2026-03-17-building-highperformance-vector-databases-for-realtime-retrieval-in-distributed-ai-systems/",
+      "social_hook": "The explosion of high‑dimensional embeddings—produced by large language models (LLMs), computer‑vision networks, and multimodal transformers—has created a new class of workloads: real‑time similarity search over billions of vectors. Traditional relational databases simply cannot meet the latency and throughput demands of modern AI applications such as:\n\n* Retrieval‑augmented generation (RAG) where a language model queries a knowledge base for relevant passages in milliseconds.\n\n* Real‑time recommendation engines that match user embeddings against product vectors on the fly.",
+      "tags": [
+        "vector-database",
+        "real-time",
+        "distributed-systems",
+        "AI",
+        "scalability"
+      ],
+      "scheduled_at": "2026-03-17T08:03:48Z",
       "status": "pending"
     }
   ]
