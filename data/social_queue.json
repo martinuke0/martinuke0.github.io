@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-17T18:03:48Z",
+  "last_scheduled_at": "2026-03-17T19:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -4694,6 +4694,21 @@
         "real‑time‑AI"
       ],
       "scheduled_at": "2026-03-17T18:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Orchestrating Distributed AI Agent Swarms with Kubernetes and Event‑Driven Microservices",
+      "url": "https://martinuke0.github.io/posts/2026-03-17-orchestrating-distributed-ai-agent-swarms-with-kubernetes-and-eventdriven-microservices/",
+      "social_hook": "Artificial‑intelligence (AI) agents are no longer confined to single‑process scripts or monolithic services. Modern applications—from autonomous drone fleets to real‑time fraud detection—require large numbers of agents that interact, learn, and adapt collectively. This collective behavior is often described as an AI agent swarm, a paradigm inspired by natural swarms (bees, ants, birds) where simple individuals give rise to complex, emergent outcomes.\n\nManaging thousands of lightweight agents, each with its own lifecycle, state, and communication needs, is a daunting operational problem. Traditional VM‑based deployments quickly become brittle, and hand‑crafted scripts cannot guarantee the reliability, scalability, and observability demanded by production workloads.\n\nEnter Kubernetes and event‑driven microservices architectures. Kubernetes provides a battle‑tested platform for container orchestration, self‑healing, and declarative scaling. Event‑driven microservices, built on asynchronous messaging, decouple producers and consumers, allowing agents to communicate without tight coupling. Together they form a robust foundation for orchestrating distributed AI swarms at scale.",
+      "tags": [
+        "Kubernetes",
+        "AI",
+        "Microservices",
+        "Event-Driven",
+        "Distributed Systems",
+        "Swarm Intelligence"
+      ],
+      "scheduled_at": "2026-03-17T19:03:48Z",
       "status": "pending"
     }
   ]
