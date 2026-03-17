@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-17T03:03:48Z",
+  "last_scheduled_at": "2026-03-17T04:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -4482,6 +4482,20 @@
         "Automation"
       ],
       "scheduled_at": "2026-03-17T03:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Beyond Large Models: Implementing Energy-Efficient Small Language Models for On-Device Edge Computing",
+      "url": "https://martinuke0.github.io/posts/2026-03-17-beyond-large-models-implementing-energy-efficient-small-language-models-for-on-device-edge-computing/",
+      "social_hook": "The rapid rise of large language models (LLMs) such as GPT‑4, PaLM, and LLaMA has demonstrated that sheer scale can unlock unprecedented natural‑language capabilities. However, the massive compute, memory, and energy demands of these models make them unsuitable for many real‑world scenarios where latency, privacy, connectivity, and power budget are critical constraints.\n\nEdge devices—smartphones, wearables, industrial IoT gateways, autonomous drones, and even micro‑controllers—must often operate offline, process data locally, and run for hours (or days) on limited batteries. In such contexts, small, energy‑efficient language models become not just an alternative but a necessity.\n\nThis article provides a deep dive into the why, what, and how of building and deploying tiny yet capable language models for on‑device edge computing. We will explore:",
+      "tags": [
+        "edge-computing",
+        "small-language-models",
+        "energy-efficiency",
+        "model-optimization",
+        "on-device-ai"
+      ],
+      "scheduled_at": "2026-03-17T04:03:48Z",
       "status": "pending"
     }
   ]
