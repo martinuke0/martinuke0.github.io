@@ -4694,7 +4694,7 @@
         "real‑time‑AI"
       ],
       "scheduled_at": "2026-03-17T18:03:48Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Orchestrating Distributed AI Agent Swarms with Kubernetes and Event‑Driven Microservices",
