@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-17T11:03:48Z",
+  "last_scheduled_at": "2026-03-17T12:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -4595,6 +4595,21 @@
         "Local-First"
       ],
       "scheduled_at": "2026-03-17T11:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "HO-SFL Explained: Revolutionizing AI Training on Edge Devices Without the Memory Headache",
+      "url": "https://martinuke0.github.io/posts/2026-03-17-ho-sfl-explained-revolutionizing-ai-training-on-edge-devices-without-the-memory-headache/",
+      "social_hook": "Imagine trying to teach a massive AI model—like those powering ChatGPT or image recognition apps—using data from millions of smartphones, smartwatches, or self-driving cars. These edge devices have limited memory and processing power, yet they hold the richest, most diverse data. Traditional methods choke on this setup because training involves backpropagation (BP), a memory-hungry process that calculates gradients to update the model. Enter HO-SFL (Hybrid-Order Split Federated Learning), a breakthrough from the paper \"HO-SFL: Hybrid-Order Split Federated Learning with Backprop-Free Clients and Dimension-Free Aggregation\". This approach lets resource-constrained devices train huge models efficiently, slashing memory use and communication costs while keeping performance on par with heavy-duty methods.\n\nIn this post, we'll break down the paper's innovations for a general technical audience—no PhD required. We'll use real-world analogies, dive into the problems it solves, explore how it works, and discuss its game-changing implications. By the end, you'll grasp why HO-SFL could unlock AI everywhere, from your phone to remote sensors.\n\nBefore jumping into HO-SFL, let's set the stage. Training large AI models traditionally requires shoveling all data into a powerful central server. But that's impractical and risky: data privacy laws (think GDPR), slow uploads, and security concerns make it a no-go. Enter federated learning (FL), where devices train locally and only share model updates with a server.[3][4][5]",
+      "tags": [
+        "Federated Learning",
+        "Split Learning",
+        "Edge AI",
+        "Zeroth-Order Optimization",
+        "Machine Learning",
+        "AI Research"
+      ],
+      "scheduled_at": "2026-03-17T12:03:48Z",
       "status": "pending"
     }
   ]
