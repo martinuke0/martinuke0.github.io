@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-17T19:03:48Z",
+  "last_scheduled_at": "2026-03-17T20:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -4709,6 +4709,20 @@
         "Swarm Intelligence"
       ],
       "scheduled_at": "2026-03-17T19:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Orchestrating Autonomous Local Agents with Vector Databases for Secure Offline Knowledge Retrieval",
+      "url": "https://martinuke0.github.io/posts/2026-03-17-orchestrating-autonomous-local-agents-with-vector-databases-for-secure-offline-knowledge-retrieval/",
+      "social_hook": "The rise of large language models (LLMs) and generative AI has shifted the focus from centralized cloud services to edge‑centric, privacy‑preserving solutions. Organizations that handle sensitive data—think healthcare, finance, or defense—cannot simply upload their knowledge bases to a third‑party API. They need a way to store, index, and retrieve information locally, while still benefiting from the reasoning capabilities of autonomous agents.\n\nEnter vector databases: specialized storage engines that index high‑dimensional embeddings, enabling fast similarity search. When paired with autonomous local agents—software components that can plan, act, and communicate without human intervention—vector databases become the backbone of a secure offline knowledge retrieval pipeline.\n\nThis article provides an in‑depth guide to building such a system from scratch. We will cover:",
+      "tags": [
+        "AI",
+        "Vector Databases",
+        "Offline Retrieval",
+        "Security",
+        "Agent Orchestration"
+      ],
+      "scheduled_at": "2026-03-17T20:03:48Z",
       "status": "pending"
     }
   ]
