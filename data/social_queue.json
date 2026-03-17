@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-17T06:03:48Z",
+  "last_scheduled_at": "2026-03-17T07:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -4524,6 +4524,20 @@
         "devops"
       ],
       "scheduled_at": "2026-03-17T06:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Edge Performance with Rust WebAssembly and Vector Database Integration for Real Time Analysis",
+      "url": "https://martinuke0.github.io/posts/2026-03-17-optimizing-edge-performance-with-rust-webassembly-and-vector-database-integration-for-real-time-analysis/",
+      "social_hook": "Edge computing has moved from a buzzword to a production‑grade reality. As users demand sub‑second response times, the traditional model of sending every request to a central data center becomes a bottleneck. The solution lies in pushing compute closer to the user, but doing so efficiently requires the right combination of language, runtime, and data store.\n\nIn this article we explore how Rust, WebAssembly (Wasm), and vector databases can be combined to create ultra‑low‑latency, real‑time analytic pipelines at the edge. We’ll walk through the theory, examine real‑world use cases, and provide a end‑to‑end code example that you can adapt for recommendation engines, anomaly detection, or any similarity‑search workload.\n\n* Build a minimal yet production‑ready image‑similarity service that runs inside a Cloudflare Worker (or any other edge platform).",
+      "tags": [
+        "Rust",
+        "WebAssembly",
+        "Edge Computing",
+        "Vector Database",
+        "Real-Time Analysis"
+      ],
+      "scheduled_at": "2026-03-17T07:03:48Z",
       "status": "pending"
     }
   ]
