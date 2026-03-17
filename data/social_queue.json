@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-17T02:03:48Z",
+  "last_scheduled_at": "2026-03-17T03:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -4468,6 +4468,20 @@
         "migration"
       ],
       "scheduled_at": "2026-03-17T02:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Beyond the Chatbot: Implementing Agentic Workflows with the New Open-Action Protocol 2.0",
+      "url": "https://martinuke0.github.io/posts/2026-03-17-beyond-the-chatbot-implementing-agentic-workflows-with-the-new-open-action-protocol-20/",
+      "social_hook": "The rise of large language models (LLMs) has reshaped how developers think about conversational interfaces. Early deployments focused on chatbots—systems that respond to user input with a single turn of generated text. While chatbots are valuable, they are only the tip of the iceberg. Modern LLM‑driven applications increasingly demand agentic behavior: the ability to plan, execute, and coordinate multiple actions autonomously, often across disparate services.\n\nEnter Open-Action Protocol 2.0 (OAP 2.0). Building on the original Open-Action specification, version 2.0 introduces a richer schema for describing actions, intents, and state transitions, enabling developers to construct robust, multi‑step agentic workflows without hard‑coding procedural logic. In this article we will:\n\n4. Showcase advanced patterns—human‑in‑the‑loop, dynamic plugin loading, and cross‑service orchestration.",
+      "tags": [
+        "Open-Action",
+        "Agentic Workflows",
+        "AI Orchestration",
+        "LLM Integration",
+        "Automation"
+      ],
+      "scheduled_at": "2026-03-17T03:03:48Z",
       "status": "pending"
     }
   ]
