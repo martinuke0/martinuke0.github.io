@@ -1,558 +1,578 @@
 ---
 title: "Beyond the Chatbot: Implementing Agentic Workflows with the New Open-Action Protocol 2.0"
-date: "2026-03-17T00:00:59.641"
+date: "2026-03-17T21:01:06.383"
 draft: false
-tags: ["Open-Action", "Agentic Workflows", "AI Orchestration", "LLM Integration", "Automation"]
+tags: ["AI", "Open-Action", "AgenticSystems", "WorkflowAutomation", "LLM"]
 ---
 
 ## Introduction
 
-The rise of large language models (LLMs) has reshaped how developers think about conversational interfaces. Early deployments focused on *chatbots*—systems that respond to user input with a single turn of generated text. While chatbots are valuable, they are only the tip of the iceberg. Modern LLM‑driven applications increasingly demand **agentic behavior**: the ability to plan, execute, and coordinate multiple actions autonomously, often across disparate services.
+The last few years have seen a dramatic shift in how developers think about large language models (LLMs). Early deployments treated LLMs as *stateless* chat‑bots that simply responded to a user’s prompt. While this model works well for conversational UI, it underutilizes the true potential of LLMs as **agents**—autonomous entities capable of planning, executing, and iterating on complex tasks.
 
-Enter **Open-Action Protocol 2.0** (OAP 2.0). Building on the original Open-Action specification, version 2.0 introduces a richer schema for describing *actions*, *intents*, and *state transitions*, enabling developers to construct robust, multi‑step agentic workflows without hard‑coding procedural logic. In this article we will:
+Enter the **Open-Action Protocol 2.0 (OAP‑2.0)**, the community‑driven standard that moves LLM interactions from “single‑turn Q&A” to **agentic workflows**. OAP‑2.0 provides a formal contract for describing *actions*, *capabilities*, *intent*, and *context* in a machine‑readable way, enabling LLMs to orchestrate multi‑step processes, call external APIs, and even delegate work to other agents.
 
-1. Explain the conceptual shift from chatbots to agentic workflows.
-2. Dive deep into the core components of OAP 2.0.
-3. Walk through a complete, production‑ready implementation using Python.
-4. Showcase advanced patterns—human‑in‑the‑loop, dynamic plugin loading, and cross‑service orchestration.
-5. Offer best‑practice guidelines and a look at the future of open, interoperable AI agents.
+In this article we will:
 
-By the end, you’ll have a practical roadmap for turning LLMs into **autonomous assistants** that can schedule meetings, manipulate databases, and adapt their behavior on the fly—all while adhering to a standardized protocol that encourages interoperability.
+1. Explain the conceptual leap from chatbots to agentic workflows.  
+2. Walk through the core components of Open‑Action Protocol 2.0.  
+3. Show a step‑by‑step implementation using Python, LangChain, and a mock OAP‑2.0 server.  
+4. Discuss real‑world use‑cases where agentic workflows shine.  
+5. Offer best‑practice guidelines and future outlook.
 
----
-
-## 1. From Chatbots to Agentic Workflows
-
-### 1.1 What Is a Chatbot?
-
-A chatbot is essentially a **single‑turn** mapping:
-
-```
-User Input → LLM Prompt → Textual Response
-```
-
-The LLM receives a prompt, generates text, and the conversation ends. Even with context windows, the bot remains *reactive*: it does not initiate actions beyond the textual reply.
-
-### 1.2 Defining Agentic Behavior
-
-An *agentic* system exhibits three additional capabilities:
-
-| Capability | Description | Example |
-|------------|-------------|---------|
-| **Planning** | Generates a sequence of steps to achieve a goal. | “To book a flight, first check the calendar, then query the airline API.” |
-| **Execution** | Calls external services (APIs, databases, scripts) on behalf of the user. | POST `/flights/book` with passenger details. |
-| **Adaptation** | Adjusts its plan based on feedback, errors, or new information. | If the chosen flight is sold out, propose alternatives. |
-
-These capabilities require **stateful orchestration**—a loop where the LLM’s output is interpreted, actions are performed, results are fed back, and the cycle repeats.
-
-> **Note:** Agentic systems must be designed with safety in mind. Uncontrolled execution can lead to security breaches or unintended side effects. OAP 2.0 embeds security primitives directly into the protocol.
-
-### 1.3 Why Standardize?
-
-Without a common language, every team builds its own ad‑hoc messaging format (JSON, XML, custom DSL). This fragmentation:
-
-* Hinders **interoperability** between LLM providers, toolchains, and third‑party services.
-* Increases **maintenance overhead** as APIs evolve.
-* Limits **reusability** of action definitions across projects.
-
-Open-Action Protocol 2.0 solves these problems by providing a **canonical schema** for describing actions, intents, and state transitions, all expressed in JSON‑LD that can be validated against a shared vocabulary.
+Whether you’re a senior engineer designing enterprise automation, a researcher exploring autonomous AI, or a product manager evaluating new AI‑first features, this guide will give you the practical knowledge you need to start building with OAP‑2.0 today.
 
 ---
 
-## 2. Overview of Open-Action Protocol 2.0
+## 1. From Chatbot to Agentic Workflow
 
-### 2.1 Core Concepts
+### 1.1 What is an Agentic Workflow?
 
-1. **Action** – A discrete operation (e.g., `send_email`, `query_database`). Each action includes:
-   * `@type`: `"OpenAction:Action"`
-   * `name`: Human‑readable identifier.
-   * `inputSchema`: JSON Schema describing required parameters.
-   * `outputSchema`: JSON Schema for the result.
-2. **Intent** – The high‑level goal the agent wants to achieve (e.g., `schedule_meeting`). Intents are **composed** of one or more actions.
-3. **State** – A mutable JSON object that persists across the workflow. It can hold partial results, error flags, or context.
-4. **Context** – Metadata about the execution environment (e.g., user ID, authentication tokens, timestamps).
-5. **Security** – OAP 2.0 introduces `accessControl` objects that define required scopes, rate limits, and verification steps.
+An **agentic workflow** is a *closed loop* in which an LLM:
 
-### 2.2 Message Flow
+1. **Perceives** the current state (user input, external data, internal memory).  
+2. **Plans** a series of actions needed to achieve a goal.  
+3. **Executes** those actions by invoking APIs, running code, or delegating to other agents.  
+4. **Observes** the outcomes, updates its internal state, and iterates until the goal is satisfied.
 
+Contrast this with a traditional chatbot that:
+
+- Receives a prompt →  
+- Generates a single response →  
+- Ends the interaction.
+
+The agentic loop enables **autonomy**, **error recovery**, and **complex reasoning** that go far beyond a single turn.
+
+### 1.2 Why the Need for a Standard?
+
+Without a shared contract, each LLM provider or framework invents its own way of describing actions (e.g., LangChain tools, OpenAI function calling, custom JSON schemas). This fragmentation leads to:
+
+- **Duplication of effort** – developers re‑implement similar wrappers for each platform.  
+- **Interoperability issues** – an agent built on one system cannot easily collaborate with another.  
+- **Ambiguous intent** – LLMs may misinterpret the shape of an action, causing runtime errors.
+
+The Open‑Action Protocol solves these pain points by defining a **canonical JSON schema** for actions, a **deterministic execution model**, and **versioned negotiation** between LLMs and external services.
+
+---
+
+## 2. Overview of Open‑Action Protocol 2.0
+
+OAP‑2.0 builds on the original specification (released in 2023) but introduces three major improvements:
+
+| Feature | OAP‑1.0 | OAP‑2.0 |
+|---------|---------|--------|
+| **Version Negotiation** | Fixed version in request header | Dynamic `protocol_version` field, backward compatibility |
+| **Action Description** | Simple name + parameters | Rich `metadata` (capability, cost, latency, safety level) |
+| **Streaming Results** | Single JSON response | Incremental `event` stream (start, progress, complete, error) |
+| **Security Model** | API‑key only | OAuth2 scopes + signed JWT for per‑action authorization |
+| **Extensibility** | Limited custom fields | Namespaced `extensions` object for domain‑specific data |
+
+### 2.1 Core Message Types
+
+1. **`ActionRequest`** – Sent by the LLM to the OAP server, includes:
+   - `action_id` (UUID)
+   - `name` (string)
+   - `arguments` (object)
+   - `intent` (string, optional)
+   - `context` (object, optional)
+   - `metadata` (object, optional)
+
+2. **`ActionResponse`** – Returned by the server (can be streamed):
+   - `action_id`
+   - `status` (`queued` | `running` | `succeeded` | `failed`)
+   - `result` (object, present on success)
+   - `error` (object, present on failure)
+   - `events` (array of incremental logs)
+
+3. **`CapabilityDescriptor`** – Published by services to advertise what actions they support, allowing LLMs to **discover** capabilities at runtime.
+
+### 2.2 Negotiation Flow
+
+```mermaid
+sequenceDiagram
+    participant LLM
+    participant OAPServer
+    LLM->>OAPServer: GET /capabilities?protocol_version=2.0
+    OAPServer-->>LLM: CapabilityDescriptor (JSON)
+    LLM->>OAPServer: POST /actions (ActionRequest)
+    OAPServer-->>LLM: ActionResponse (streamed events)
+    Note over LLM: Iterate until status==succeeded
 ```
-User → LLM Prompt → LLM Output (OpenAction JSON) → Action Dispatcher → Service → Result → LLM (next turn) → …
-```
 
-The LLM’s output is expected to be **well‑formed Open‑Action JSON**. The dispatcher validates the JSON, executes the described actions, updates the state, and feeds the result back to the LLM for the next iteration.
+The LLM first queries the server for supported capabilities. The server returns a list of actions with their metadata. The LLM then selects the appropriate action, sends an `ActionRequest`, and processes the streamed `ActionResponse`. If the response indicates failure, the LLM can *re‑plan* and try an alternative action.
 
-### 2.3 Schema Highlights
+---
 
-A minimal action definition in OAP 2.0 looks like:
+## 3. Core Concepts in OAP‑2.0
+
+### 3.1 Actions
+
+An **action** is a pure function from inputs to outputs, but it can also have side‑effects (e.g., sending an email, writing to a database). OAP‑2.0 requires each action to be **idempotent** or to provide a **compensation** step, enabling safe retries.
 
 ```json
 {
-  "@type": "OpenAction:Action",
   "name": "send_email",
-  "description": "Send an email to a recipient.",
-  "inputSchema": {
-    "$schema": "http://json-schema.org/draft-07/schema#",
-    "type": "object",
-    "properties": {
-      "to": { "type": "string", "format": "email" },
-      "subject": { "type": "string" },
-      "body": { "type": "string" }
-    },
-    "required": ["to", "subject", "body"]
+  "arguments": {
+    "to": "user@example.com",
+    "subject": "Your Report",
+    "body": "Please find the attached report."
   },
-  "outputSchema": {
-    "$schema": "http://json-schema.org/draft-07/schema#",
-    "type": "object",
-    "properties": {
-      "messageId": { "type": "string" },
-      "status": { "type": "string", "enum": ["sent", "failed"] }
-    },
-    "required": ["messageId", "status"]
-  },
-  "accessControl": {
-    "requiredScopes": ["email:send"],
-    "rateLimit": "10/min"
+  "metadata": {
+    "capability": "communication.email",
+    "cost_usd": 0.0005,
+    "latency_ms": 120,
+    "safety_level": "high"
   }
 }
 ```
 
-Key additions in 2.0 include:
+### 3.2 Capabilities
 
-* **`accessControl`** – Fine‑grained permission model.
-* **`fallbackAction`** – Optional alternative if the primary action fails.
-* **`conditional`** – Boolean expressions allowing actions to be executed only when certain state criteria are met.
+A **capability** groups actions by domain and expresses the *skill* of a service. For example, a **knowledge‑graph** service may expose `query_node`, `add_edge`, and `delete_node`. Capabilities are versioned, allowing backward‑compatible upgrades.
+
+### 3.3 Intent
+
+The optional `intent` field tells the server *why* the action is being invoked. This can be leveraged for:
+
+- **Policy enforcement** (e.g., disallow `delete_user` when intent is “audit”).
+- **Cost‑aware routing** (choose cheaper provider if intent is “budget‑friendly”).
+
+### 3.4 Context
+
+`context` carries transient data that may be needed across multiple actions, such as a session ID, user role, or temporary cache. Since OAP‑2.0 is stateless, the LLM is responsible for persisting and passing this context.
 
 ---
 
-## 3. Setting Up the Development Environment
+## 4. Architecture & Integration
 
-### 3.1 Prerequisites
+Below is a typical stack for an agentic system powered by OAP‑2.0:
 
-| Tool | Version |
-|------|---------|
-| Python | >=3.10 |
-| `openai` SDK | 1.2.0+ |
-| `jsonschema` | 4.20.0 |
-| `fastapi` | 0.110.0 |
-| `uvicorn` | 0.27.0 |
+```
+┌─────────────────────┐
+│   User Interface    │   (Web, CLI, Voice)
+└─────────▲───────────┘
+          │
+   ┌──────┴───────┐
+   │   LLM Core   │  (GPT‑4‑Turbo, Claude‑3, etc.)
+   └──────▲───────┘
+          │
+   ┌──────┴───────┐
+   │  OAP Client  │  (LangChain, LlamaIndex, custom SDK)
+   └──────▲───────┘
+          │
+   ┌──────┴───────┐
+   │ OAP Server   │  (FastAPI, Node.js, Go)
+   └──────▲───────┘
+          │
+   ┌──────┴───────┐
+   │  Services    │  (Email, DB, Search, Cloud Functions)
+   └──────────────┘
+```
 
-### 3.2 Installing Dependencies
+### 4.1 Choosing an LLM Core
+
+- **OpenAI GPT‑4‑Turbo** – supports function calling out‑of‑the‑box; integration with OAP‑2.0 is straightforward via a thin wrapper.
+- **Anthropic Claude** – offers “tools” that map cleanly to OAP actions.
+- **Mistral or Llama 3** – require explicit prompting to generate JSON; LangChain’s `structured_output` utilities help.
+
+### 4.2 OAP Client Libraries
+
+Several community SDKs already implement OAP‑2.0:
+
+| Language | Library | Highlights |
+|----------|---------|------------|
+| Python   | `openaction-py` | Async support, streaming, built‑in retry logic |
+| JavaScript | `openaction-js` | Browser & Node compatibility, OAuth2 helper |
+| Go       | `openaction-go` | Minimal dependencies, strong typing |
+
+If you prefer not to use a library, a simple `requests` call will suffice (see the code example later).
+
+### 4.3 Security Considerations
+
+- **OAuth2 Scopes** – Each action declares required scopes (e.g., `email.send`). The client obtains a JWT with those scopes and includes it in the `Authorization` header.
+- **Input Validation** – The server must enforce JSON schema validation; malformed arguments should result in a `400` error with a detailed message.
+- **Audit Trail** – OAP‑2.0 recommends logging each `ActionRequest` and `ActionResponse`. This is critical for compliance (GDPR, HIPAA).
+
+---
+
+## 5. Practical Implementation Steps
+
+Below is a step‑by‑step guide to building a **report‑generation agent** that:
+
+1. Retrieves data from a database.
+2. Generates a summary using an LLM.
+3. Sends the summary via email.
+
+### 5.1 Step 1 – Deploy an OAP‑2.0 Server
+
+We’ll use FastAPI (Python) for brevity. The server registers three actions:
+
+```python
+# server.py
+from fastapi import FastAPI, HTTPException, Request
+from pydantic import BaseModel, Field
+from uuid import uuid4
+import asyncio
+
+app = FastAPI(title="Open-Action Server v2.0")
+
+class ActionRequest(BaseModel):
+    action_id: str = Field(default_factory=lambda: str(uuid4()))
+    name: str
+    arguments: dict
+    intent: str | None = None
+    context: dict | None = None
+    metadata: dict | None = None
+
+class ActionResponse(BaseModel):
+    action_id: str
+    status: str
+    result: dict | None = None
+    error: dict | None = None
+    events: list[dict] = []
+
+# In‑memory registry of capabilities
+CAPABILITIES = [
+    {
+        "name": "query_database",
+        "capability": "data.query",
+        "description": "Execute a SELECT query and return rows",
+        "parameters_schema": {
+            "type": "object",
+            "properties": {
+                "sql": {"type": "string"}
+            },
+            "required": ["sql"]
+        },
+        "metadata": {"cost_usd": 0.0001, "latency_ms": 50}
+    },
+    {
+        "name": "generate_summary",
+        "capability": "nlp.summarize",
+        "description": "Summarize a block of text using LLM",
+        "parameters_schema": {
+            "type": "object",
+            "properties": {"text": {"type": "string"}},
+            "required": ["text"]
+        },
+        "metadata": {"cost_usd": 0.001, "latency_ms": 300}
+    },
+    {
+        "name": "send_email",
+        "capability": "communication.email",
+        "description": "Send an email via SMTP",
+        "parameters_schema": {
+            "type": "object",
+            "properties": {
+                "to": {"type": "string", "format": "email"},
+                "subject": {"type": "string"},
+                "body": {"type": "string"}
+            },
+            "required": ["to", "subject", "body"]
+        },
+        "metadata": {"cost_usd": 0.0005, "latency_ms": 120}
+    }
+]
+
+@app.get("/capabilities")
+async def get_capabilities(protocol_version: str = "2.0"):
+    if protocol_version != "2.0":
+        raise HTTPException(status_code=400, detail="Unsupported protocol version")
+    return {"protocol_version": "2.0", "capabilities": CAPABILITIES}
+
+@app.post("/actions")
+async def invoke_action(req: ActionRequest):
+    # Basic dispatch based on name
+    if req.name == "query_database":
+        result = await fake_db_query(req.arguments["sql"])
+    elif req.name == "generate_summary":
+        result = await fake_llm_summary(req.arguments["text"])
+    elif req.name == "send_email":
+        result = await fake_send_email(req.arguments)
+    else:
+        raise HTTPException(status_code=404, detail="Action not found")
+
+    response = ActionResponse(
+        action_id=req.action_id,
+        status="succeeded",
+        result=result,
+        events=[{"type": "log", "message": f"Executed {req.name}"}],
+    )
+    return response
+
+# --- Mock implementations for illustration ---
+async def fake_db_query(sql: str):
+    await asyncio.sleep(0.05)  # simulate latency
+    # Return dummy rows
+    return {"rows": [{"date": "2024-01-01", "sales": 1234}, {"date": "2024-01-02", "sales": 1500}]}
+
+async def fake_llm_summary(text: str):
+    await asyncio.sleep(0.3)
+    # Very naive “summary”
+    return {"summary": f"Report contains {len(text.split())} words."}
+
+async def fake_send_email(payload: dict):
+    await asyncio.sleep(0.12)
+    return {"sent": True, "message_id": str(uuid4())}
+```
+
+Run the server:
 
 ```bash
-python -m venv .venv
-source .venv/bin/activate
-
-pip install openai jsonschema fastapi uvicorn python-dotenv
+uvicorn server:app --reload --port 8000
 ```
 
-Create a `.env` file with your OpenAI API key and any service tokens:
+### 5.2 Step 2 – Build the LLM Agent
 
-```dotenv
-OPENAI_API_KEY=sk-...
-EMAIL_API_KEY=...
-CALENDAR_API_TOKEN=...
-```
-
-### 3.3 Project Structure
-
-```
-agentic-workflow/
-├─ main.py                # FastAPI entry point
-├─ dispatcher.py          # Core OAP 2.0 interpreter
-├─ actions/
-│  ├─ send_email.py
-│  ├─ query_calendar.py
-│  └─ create_event.py
-├─ schemas/
-│  └─ openaction_v2.json  # Shared OAP 2.0 JSON‑LD schema
-└─ utils/
-   └─ validator.py
-```
-
----
-
-## 4. Building a Simple Agentic Workflow
-
-We will implement a **meeting‑scheduler** agent that can:
-
-1. Check the user’s calendar for free slots.
-2. Send an invitation email.
-3. Create a calendar event.
-
-All three steps are described using OAP 2.0 actions, and the LLM will orchestrate them.
-
-### 4.1 Defining the Actions
-
-#### 4.1.1 `query_calendar`
+We’ll use LangChain with the Open‑Action client wrapper.
 
 ```python
-# actions/query_calendar.py
-import requests
-from utils.validator import validate_schema
-
-def query_calendar(input_data: dict, context: dict) -> dict:
-    """
-    Calls a mock calendar service to fetch free slots.
-    """
-    # Validate input against the action's inputSchema (omitted for brevity)
-    token = context["tokens"]["calendar"]
-    response = requests.get(
-        "https://api.mockcalendar.com/v1/free-slots",
-        headers={"Authorization": f"Bearer {token}"},
-        params={"duration": input_data["duration_minutes"]},
-    )
-    response.raise_for_status()
-    slots = response.json()["slots"]
-    return {"availableSlots": slots}
-```
-
-#### 4.1.2 `send_email`
-
-```python
-# actions/send_email.py
-import requests
-
-def send_email(input_data: dict, context: dict) -> dict:
-    token = context["tokens"]["email"]
-    payload = {
-        "to": input_data["to"],
-        "subject": input_data["subject"],
-        "body": input_data["body"]
-    }
-    resp = requests.post(
-        "https://api.mockemail.com/v1/send",
-        json=payload,
-        headers={"Authorization": f"Bearer {token}"}
-    )
-    resp.raise_for_status()
-    data = resp.json()
-    return {"messageId": data["id"], "status": "sent"}
-```
-
-#### 4.1.3 `create_event`
-
-```python
-# actions/create_event.py
-import requests
-
-def create_event(input_data: dict, context: dict) -> dict:
-    token = context["tokens"]["calendar"]
-    resp = requests.post(
-        "https://api.mockcalendar.com/v1/events",
-        json=input_data,
-        headers={"Authorization": f"Bearer {token}"}
-    )
-    resp.raise_for_status()
-    return {"eventId": resp.json()["id"], "status": "created"}
-```
-
-### 4.2 The Dispatcher
-
-The dispatcher validates the Open‑Action JSON, resolves the appropriate Python module, executes the action, and merges the result into the workflow state.
-
-```python
-# dispatcher.py
-import json
-import importlib
-from jsonschema import validate, ValidationError
-from utils.validator import load_schema
-from fastapi import HTTPException
-
-SCHEMA = load_schema("schemas/openaction_v2.json")
-
-def dispatch(open_action_json: dict, state: dict, context: dict) -> dict:
-    """
-    Core OAP 2.0 dispatcher.
-    """
-    # 1️⃣ Validate against OAP 2.0 schema
-    try:
-        validate(instance=open_action_json, schema=SCHEMA)
-    except ValidationError as exc:
-        raise HTTPException(status_code=400, detail=f"Invalid OpenAction: {exc.message}")
-
-    # 2️⃣ Resolve the action implementation
-    action_name = open_action_json["name"]
-    try:
-        module = importlib.import_module(f"actions.{action_name}")
-        action_func = getattr(module, action_name)
-    except (ImportError, AttributeError):
-        raise HTTPException(status_code=404, detail=f"Action '{action_name}' not implemented")
-
-    # 3️⃣ Merge input parameters with current state (state can provide defaults)
-    input_params = {**open_action_json.get("input", {}), **state.get("lastResult", {})}
-    result = action_func(input_params, context)
-
-    # 4️⃣ Update state with the new result
-    state["lastResult"] = result
-    state["history"] = state.get("history", []) + [open_action_json]
-
-    return {"state": state, "result": result}
-```
-
-### 4.3 FastAPI Endpoint
-
-```python
-# main.py
+# agent.py
 import os
-from fastapi import FastAPI, Request
-from pydantic import BaseModel
-from dispatcher import dispatch
-from dotenv import load_dotenv
-
-load_dotenv()
-app = FastAPI()
-
-class OAPRequest(BaseModel):
-    open_action: dict
-    state: dict = {}
-    user_id: str
-
-def build_context(user_id: str) -> dict:
-    # In a real system, fetch tokens from a vault or DB
-    return {
-        "user": user_id,
-        "tokens": {
-            "email": os.getenv("EMAIL_API_KEY"),
-            "calendar": os.getenv("CALENDAR_API_TOKEN")
-        }
-    }
-
-@app.post("/execute")
-async def execute(request: OAPRequest):
-    context = build_context(request.user_id)
-    response = dispatch(request.open_action, request.state, context)
-    return response
-```
-
-### 4.4 Orchestrating with the LLM
-
-We now ask the LLM to generate an Open‑Action plan. Using the `openai.ChatCompletion` endpoint:
-
-```python
-import openai
 import json
+import httpx
+from langchain.chat_models import ChatOpenAI
+from langchain.prompts import ChatPromptTemplate, HumanMessagePromptTemplate
+from uuid import uuid4
 
-def generate_plan(goal: str, user_context: dict) -> dict:
-    prompt = f"""You are an autonomous scheduling assistant. Your goal is: "{goal}".
-You must respond ONLY with a JSON array of OpenAction objects (OAP 2.0) that will achieve the goal.
-Each action must reference the previously defined actions (send_email, query_calendar, create_event)."""
+OAP_BASE = "http://localhost:8000"
 
-    response = openai.ChatCompletion.create(
-        model="gpt-4o-mini",
-        messages=[{"role": "system", "content": prompt}],
-        temperature=0.2,
-        max_tokens=800,
-    )
-    # The model returns a stringified JSON; parse it safely
-    json_str = response.choices[0].message.content.strip()
-    return json.loads(json_str)
+# Helper to fetch capabilities
+def fetch_capabilities():
+    resp = httpx.get(f"{OAP_BASE}/capabilities", params={"protocol_version": "2.0"})
+    resp.raise_for_status()
+    return resp.json()["capabilities"]
+
+CAPS = fetch_capabilities()
+CAP_MAP = {c["name"]: c for c in CAPS}
+
+# Simple LLM wrapper that can request actions
+class OpenActionAgent:
+    def __init__(self):
+        self.llm = ChatOpenAI(model="gpt-4-turbo")
+        self.session_context = {}
+
+    async def run(self, user_query: str):
+        # 1️⃣ Prompt LLM to plan a workflow
+        plan = self._plan_workflow(user_query)
+        # 2️⃣ Execute each step
+        for step in plan:
+            action_name = step["action"]
+            args = step["arguments"]
+            result = await self._invoke_action(action_name, args)
+            # Store result in context for later steps
+            self.session_context[step["output_key"]] = result
+
+        # 3️⃣ Return final output
+        return self.session_context.get("final_output")
+
+    def _plan_workflow(self, query: str):
+        """
+        Very simple planner: we ask the LLM to output JSON with a list of steps.
+        In production you’d use a more robust planning model.
+        """
+        prompt = ChatPromptTemplate.from_messages([
+            HumanMessagePromptTemplate.from_template(
+                "You are an autonomous assistant. "
+                "Given the user request below, create a JSON plan that calls OAP actions. "
+                "The plan must be an array of objects with fields: "
+                "`action` (name from capabilities), `arguments` (dict), `output_key` (string). "
+                "User request: {request}"
+            )
+        ])
+        rendered = prompt.format_messages(request=query)
+        response = self.llm.invoke(rendered)
+        # Assume LLM returns a JSON string directly
+        try:
+            plan = json.loads(response.content)
+        except Exception as e:
+            raise ValueError(f"Failed to parse plan JSON: {e}")
+        return plan
+
+    async def _invoke_action(self, name: str, args: dict):
+        if name not in CAP_MAP:
+            raise ValueError(f"Unknown action {name}")
+
+        payload = {
+            "name": name,
+            "arguments": args,
+            "context": self.session_context,
+            "metadata": {"intent": "automated_report"},
+        }
+        async with httpx.AsyncClient() as client:
+            resp = await client.post(f"{OAP_BASE}/actions", json=payload, timeout=30.0)
+            resp.raise_for_status()
+            data = resp.json()
+            if data["status"] != "succeeded":
+                raise RuntimeError(f"Action {name} failed: {data.get('error')}")
+            return data["result"]
 
 # Example usage
-plan = generate_plan(
-    "Schedule a 30‑minute meeting with alice@example.com next week.",
-    {"user_id": "12345"}
-)
-
-# The plan is a list of OpenAction dicts; we iterate through them
-state = {}
-for action in plan:
-    resp = dispatch(action, state, build_context("12345"))
-    state = resp["state"]
-    print(f"Executed {action['name']}: {resp['result']}")
+if __name__ == "__main__":
+    import asyncio
+    agent = OpenActionAgent()
+    user_prompt = "Generate a sales report for the last two days and email it to alice@example.com."
+    result = asyncio.run(agent.run(user_prompt))
+    print("Final output:", result)
 ```
 
-The LLM might output something like:
+**Explanation of the plan format**:
 
 ```json
 [
   {
-    "@type": "OpenAction:Action",
-    "name": "query_calendar",
-    "input": { "duration_minutes": 30 }
+    "action": "query_database",
+    "arguments": {"sql": "SELECT date, sales FROM sales WHERE date >= CURDATE() - INTERVAL 2 DAY"},
+    "output_key": "raw_data"
   },
   {
-    "@type": "OpenAction:Action",
-    "name": "send_email",
-    "input": {
+    "action": "generate_summary",
+    "arguments": {"text": "{{raw_data}}"},
+    "output_key": "summary_text"
+  },
+  {
+    "action": "send_email",
+    "arguments": {
       "to": "alice@example.com",
-      "subject": "Proposed meeting times",
-      "body": "Hi Alice, here are my available slots: {{state.lastResult.availableSlots}}"
+      "subject": "Two‑Day Sales Report",
+      "body": "{{summary_text}}"
     },
-    "conditional": "state.lastResult.availableSlots.length > 0"
-  },
-  {
-    "@type": "OpenAction:Action",
-    "name": "create_event",
-    "input": {
-      "title": "Meeting with Alice",
-      "start": "{{state.lastResult.availableSlots[0].start}}",
-      "end": "{{state.lastResult.availableSlots[0].end}}",
-      "attendees": ["alice@example.com"]
-    }
+    "output_key": "final_output"
   }
 ]
 ```
 
-The dispatcher resolves each step, updates the shared `state`, and the LLM can be prompted for the next iteration if any `conditional` fails (e.g., no free slots).
+The LLM fills the placeholders (`{{raw_data}}`) with values from the context. In a real deployment you’d use a templating engine (Jinja2) or LangChain’s `PromptTemplate` to render these dynamically.
+
+### 5.3 Step 3 – Orchestrating Iteration & Error Recovery
+
+Because OAP‑2.0 streams events, the agent can **monitor progress**:
+
+```python
+async def _invoke_action(self, name, args):
+    # Same payload as before...
+    async with httpx.AsyncClient() as client:
+        async with client.stream("POST", f"{OAP_BASE}/actions", json=payload) as response:
+            async for line in response.aiter_lines():
+                event = json.loads(line)
+                print(f"[{name}] {event['type']}: {event.get('message')}")
+                if event["type"] == "error":
+                    # Simple retry logic
+                    await asyncio.sleep(1)
+                    return await self._invoke_action(name, args)
+            # When stream ends we have the final JSON
+            final = json.loads(event["final"])
+            if final["status"] != "succeeded":
+                raise RuntimeError(...)
+            return final["result"]
+```
+
+The agent can now **re‑plan** if an action fails (e.g., fallback to a different email service). This loop embodies the classic **perception‑planning‑action** cycle.
 
 ---
 
-## 5. Advanced Use Cases
+## 6. Real‑World Use Cases
 
-### 5.1 Multi‑Step Orchestration with Branching
+### 6.1 Customer Support Automation
 
-Complex workflows often need **branching logic** (if‑else). OAP 2.0 supports a `conditional` field that evaluates a Jinja‑style expression against the current state.
+- **Problem**: Support tickets often require looking up a user’s order, checking inventory, and sending a resolution email.  
+- **Agentic Solution**: An LLM orchestrates `lookup_order`, `check_inventory`, `generate_resolution`, `send_email`.  
+- **Benefit**: Zero‑hand‑off for routine queries, freeing human agents for complex cases.
 
-```json
-{
-  "@type": "OpenAction:Action",
-  "name": "fallback_suggest_alternative",
-  "input": { "suggestion": "next week Monday" },
-  "conditional": "state.lastResult.availableSlots.length == 0"
-}
-```
+### 6.2 Data‑Pipeline Orchestration
 
-The dispatcher checks the condition before executing. If the condition is false, the action is skipped, enabling **dynamic plan adaptation** without re‑prompting the LLM.
+- **Problem**: ETL jobs involve extracting from APIs, transforming with custom code, and loading into warehouses.  
+- **Agentic Solution**: Actions like `fetch_api`, `run_python`, `load_to_bigquery`. The LLM decides which transformations are needed based on schema drift detection.  
+- **Benefit**: Adaptive pipelines that self‑repair when source schemas change.
 
-### 5.2 Human‑in‑the‑Loop (HITL)
+### 6.3 Autonomous Research Assistants
 
-Some decisions require confirmation. OAP 2.0 introduces a `humanApproval` wrapper:
+- **Problem**: Researchers need to query literature databases, summarize findings, and draft sections of a paper.  
+- **Agentic Solution**: `search_pubmed`, `summarize_abstract`, `compose_section`. The agent can iterate, request more citations, or ask clarification from the user.  
+- **Benefit**: Rapid literature review cycles, reduced manual effort.
 
-```json
-{
-  "@type": "OpenAction:HumanApproval",
-  "prompt": "User wants to send the following email. Approve?",
-  "action": {
-    "@type": "OpenAction:Action",
-    "name": "send_email",
-    "input": { ... }
-  }
-}
-```
+### 6.4 Compliance & Auditing
 
-When the dispatcher encounters a `HumanApproval` node, it pauses execution and returns a payload to the front‑end, where a UI can present the prompt to the user. Once the user approves (or rejects), the front‑end calls `/execute` again with a flag indicating the decision.
-
-### 5.3 Dynamic Plugin Loading
-
-Enterprises may maintain a catalog of proprietary actions (e.g., internal ERP calls). OAP 2.0 supports a `pluginReference` field that points to a **module name** resolved at runtime.
-
-```json
-{
-  "@type": "OpenAction:Action",
-  "pluginReference": "company.plugins.erp.create_invoice",
-  "input": { "orderId": "1234", "amount": 2500 }
-}
-```
-
-The dispatcher loads the module via `importlib` only when needed, keeping the core runtime lightweight.
-
-### 5.4 Cross‑Service Orchestration
-
-Suppose you need to:
-
-1. Pull a lead from a CRM.
-2. Generate a personalized PDF via a third‑party service.
-3. Email the PDF to the lead.
-
-You can chain actions across three distinct services, each with its own `accessControl`. OAP 2.0’s schema allows you to declare **aggregate scopes**:
-
-```json
-"accessControl": {
-  "requiredScopes": ["crm:read", "pdf:generate", "email:send"]
-}
-```
-
-A gateway (e.g., API gateway or service mesh) can enforce that the executing token possesses all required scopes before any action runs, providing a **single point of audit**.
+- **Problem**: Regulations require that any data deletion be logged and approved.  
+- **Agentic Solution**: An LLM receives a deletion request, checks policy via `evaluate_policy`, obtains approval via `request_approval`, then calls `delete_record`. All steps are recorded in OAP events for audit trails.  
+- **Benefit**: Transparent, programmable compliance that can be inspected post‑mortem.
 
 ---
 
-## 6. Integration with Existing Platforms
+## 7. Best Practices & Common Pitfalls
 
-### 6.1 LLM Providers
+### 7.1 Keep Actions Small & Idempotent
 
-Open‑Action is **LLM‑agnostic**. The only requirement is that the model can emit valid JSON. Prompt engineering patterns that work with OpenAI, Anthropic, or Cohere are similar:
+- **Why**: Smaller actions reduce the surface for errors and make retries safe.  
+- **How**: Split a “generate_report” action into “fetch_data”, “render_chart”, “assemble_pdf”.
 
-* Use **system messages** to define the contract.
-* Set **temperature** low (≤0.3) for deterministic JSON.
-* Enforce a **max token** limit to avoid truncation.
+### 7.2 Version Your Capabilities
 
-### 6.2 CI/CD Pipelines
+- Use semantic versioning (`v1.2.0`). When you add a new parameter, bump the minor version; breaking changes demand a major bump.  
+- Clients can request a specific version via the `protocol_version` query param.
 
-You can embed OAP 2.0 workflows in CI pipelines to automate:
+### 7.3 Secure the Intent Field
 
-* Release notes generation.
-* Dependency vulnerability scanning.
-* Automated rollback decisions.
+- Treat `intent` as a **policy hook**. For high‑risk actions (e.g., `delete_user`), enforce that the intent matches an approved workflow identifier.
 
-Example: a workflow that queries a security scanner, decides whether to block a merge, and posts the outcome to Slack—all described as Open‑Action steps.
+### 7.4 Implement Compensation Steps
 
-### 6.3 Monitoring & Observability
+- For non‑idempotent side‑effects (e.g., sending money), provide a “compensate” action (`refund_transaction`) that the LLM can call if downstream steps fail.
 
-Because every action passes through the dispatcher, you can instrument a **middleware** that logs:
+### 7.5 Monitor Latency & Cost
 
-* Action name.
-* Execution latency.
-* Success/failure status.
-* Correlation IDs for tracing across services.
+- OAP‑2.0 includes `metadata.cost_usd` and `metadata.latency_ms`. Use these fields to build **budget‑aware planners** that prefer cheaper actions when possible.
 
-Export these logs to **OpenTelemetry**, **Prometheus**, or a SaaS observability platform to get a real‑time view of agentic activity.
+### 7.6 Avoid “Prompt‑Injection” in Arguments
 
----
+- Validate all user‑supplied strings before passing them to actions. Use schemas (`jsonschema`) and whitelist allowed characters for SQL queries, shell commands, etc.
 
-## 7. Best Practices and Common Pitfalls
+### 7.7 Log Everything
 
-| Area | Recommendation | Why It Matters |
-|------|----------------|----------------|
-| **Schema Validation** | Validate every incoming Open‑Action against the official JSON‑LD schema using `jsonschema`. | Prevents malformed actions that could crash the dispatcher or cause security leaks. |
-| **Least‑Privilege Tokens** | Issue per‑action scopes (`email:send`, `calendar:read`) rather than broad tokens. | Reduces impact of token compromise. |
-| **Idempotency** | Design actions to be idempotent (e.g., include a client‑generated `requestId`). | Enables safe retries when network errors occur. |
-| **State Size Management** | Keep the workflow state under 1 MiB; prune old entries after they’re no longer needed. | Avoids hitting request size limits and improves performance. |
-| **Human Approval** | For any action that incurs cost or modifies critical data, wrap it in `HumanApproval`. | Provides a safety net against unintended side effects. |
-| **Versioning** | Include a `protocolVersion` field in every payload (`"2.0"`). | Allows graceful upgrades when the spec evolves. |
-| **Testing** | Use **contract tests** that feed sample Open‑Action JSON into the dispatcher and assert expected state transitions. | Guarantees that changes to the dispatcher don’t break existing workflows. |
-
-### Common Pitfalls
-
-1. **Over‑reliance on LLM for validation** – LLMs may hallucinate missing fields. Always perform server‑side validation.
-2. **Hard‑coding secrets in action modules** – Use environment variables or secret managers.
-3. **Ignoring rate limits** – `accessControl` can specify limits; enforce them centrally to avoid service bans.
-4. **Unstructured error handling** – Return a consistent error schema (`errorCode`, `message`, `retryable`) so the LLM can decide to retry or fallback.
+- Store every `ActionRequest` and streamed `ActionResponse` in an immutable log store (e.g., AWS CloudWatch Logs, Elasticsearch). This aids debugging and satisfies regulatory requirements.
 
 ---
 
 ## 8. Future Directions
 
-Open‑Action Protocol 2.0 lays a solid foundation, but the ecosystem is still maturing. Anticipated advancements include:
+The Open‑Action community is already exploring several extensions:
 
-* **Declarative Workflow DSL** – A higher‑level language that compiles to OAP JSON, enabling visual workflow designers.
-* **Standardized Semantics for Intent** – A shared taxonomy (e.g., `finance:invoice`, `hr:onboarding`) that LLMs can reference for better intent disambiguation.
-* **Federated Execution** – Distributed agents that negotiate responsibilities across organizational boundaries while preserving data sovereignty.
-* **Self‑Optimizing Agents** – Feedback loops where agents analyze execution metrics and automatically rewrite parts of their plan for efficiency.
+1. **Streaming LLM‑Generated Plans** – Instead of a static JSON plan, the LLM can emit a *plan stream* that the executor consumes in real time, enabling truly dynamic adaptation.
+2. **Multi‑Agent Negotiation** – Multiple autonomous agents can negotiate a shared plan via OAP’s `intent` and `context` fields, opening the door to collaborative AI teams.
+3. **Standardized Compensation Language** – A formal DSL for describing rollback and compensation steps, making safe retries a first‑class citizen.
+4. **Edge‑Optimized OAP** – Lightweight binary protocol (Protobuf) for IoT devices that need to invoke actions with minimal bandwidth.
 
-Developers who adopt OAP 2.0 early will help shape these extensions, ensuring that the protocol remains open, extensible, and aligned with real‑world needs.
+As these features mature, the line between “software” and “AI‑driven orchestration” will continue to blur, making OAP‑2.0 a cornerstone of next‑generation autonomous systems.
 
 ---
 
 ## Conclusion
 
-The transition from simple chatbots to **agentic workflows** unlocks a whole new class of intelligent applications—systems that can plan, act, and adapt autonomously. Open‑Action Protocol 2.0 provides the **standardized glue** that binds LLM reasoning with concrete, secure actions, turning abstract intent into reliable execution.
+Open‑Action Protocol 2.0 transforms the way we think about LLMs—from passive responders to **active agents** capable of planning, executing, and iterating on complex workflows. By standardizing how actions are described, negotiated, and streamed, OAP‑2.0 unlocks:
 
-In this article we:
+- **Interoperability** across LLM vendors and service providers.  
+- **Safety** through explicit metadata (cost, latency, safety level).  
+- **Observability** via event streams and audit logs.  
+- **Scalability** thanks to idempotent, granular actions.
 
-* Clarified why agentic behavior matters beyond conversational UI.
-* Explored the core schema of OAP 2.0, emphasizing security and conditional logic.
-* Built a complete end‑to‑end meeting‑scheduler, showcasing how the dispatcher, actions, and LLM cooperate.
-* Demonstrated advanced patterns such as branching, human‑in‑the‑loop, and dynamic plugin loading.
-* Offered pragmatic best‑practice guidance to keep implementations safe, maintainable, and observable.
+The practical example above demonstrates that building an agentic system is no longer a research‑only activity; with a few lines of code and a compliant OAP server, you can automate real‑world processes such as report generation, customer support, and data pipelines.  
 
-By integrating OAP 2.0 into your stack, you gain **interoperability**, **auditability**, and a future‑proof pathway to richer AI‑driven automation. The next wave of applications will no longer be limited to answering questions—they will **execute** them, all while speaking a common language that the community can extend together.
+Adopt OAP‑2.0 today, and position your applications to benefit from the next wave of AI‑first automation.
 
 ---
 
 ## Resources
 
-* [Open-Action Protocol Specification (v2.0)](https://github.com/open-action/specification) – Official GitHub repository containing the full JSON‑LD schema and version history.  
-* [OpenAI Chat Completion API Documentation](https://platform.openai.com/docs/guides/chat) – Guidance on prompting models to emit structured JSON.  
-* [FastAPI – Building APIs with Python](https://fastapi.tiangolo.com/) – High‑performance web framework used in the example implementation.  
-* [JSON Schema Draft‑07 Specification](https://json-schema.org/specification-links.html#draft-7) – Reference for defining and validating action input/output schemas.  
-* [OpenTelemetry – Observability for Distributed Systems](https://opentelemetry.io/) – Tools for tracing and monitoring agentic workflows.  
+- **Open‑Action Protocol Specification (v2.0)** – Official GitHub repository with schema definitions and reference implementations.  
+  [Open‑Action Spec v2.0](https://github.com/open-action/protocol/tree/v2.0)
+
+- **LangChain Documentation – Tools & Agents** – Guides on integrating LLMs with external APIs, which map cleanly to OAP actions.  
+  [LangChain Docs](https://python.langchain.com/docs/get_started/introduction)
+
+- **FastAPI – Building High‑Performance APIs** – Tutorial for creating the OAP server shown in this article.  
+  [FastAPI Tutorial](https://fastapi.tiangolo.com/tutorial/)
+
+- **OpenAI Function Calling** – Background on how OpenAI’s function calling aligns with OAP concepts.  
+  [OpenAI Function Calling](https://platform.openai.com/docs/guides/function-calling)
+
+- **OAuth 2.0 Security Best Practices** – Guidance for implementing the secure authentication model recommended by OAP‑2.0.  
+  [OAuth 2.0 RFC 6749](https://datatracker.ietf.org/doc/html/rfc6749)
