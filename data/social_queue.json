@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-17T15:03:48Z",
+  "last_scheduled_at": "2026-03-17T16:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -4652,6 +4652,20 @@
         "high-performance computing"
       ],
       "scheduled_at": "2026-03-17T15:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Demystifying GlobalRAG: Revolutionizing Multi-Hop AI Reasoning with Reinforcement Learning",
+      "url": "https://martinuke0.github.io/posts/2026-03-17-demystifying-globalrag-revolutionizing-multi-hop-ai-reasoning-with-reinforcement-learning/",
+      "social_hook": "Imagine you're trying to solve a mystery: \"Where did the football end up after Daniel grabbed it?\" A simple search might tell you Daniel grabbed it in the living room, but to find its final location, you need to hop to another fact—Daniel took it to the kitchen. This is multi-hop question answering (QA) in a nutshell: AI chaining multiple pieces of information across \"hops\" to crack complex puzzles.[3] Enter GlobalRAG, a groundbreaking framework from the paper \"GlobalRAG: Enhancing Global Reasoning in Multi-hop Question Answering via Reinforcement Learning\" (arXiv:2510.20548). It supercharges AI's ability to plan globally and execute faithfully, using reinforcement learning (RL) to turn fumbling guesswork into precise detective work.[2][4]\n\nIn this in-depth guide, we'll break down the paper for a general technical audience—no PhD required. We'll use real-world analogies like solving a treasure hunt, explore the tech step-by-step, and uncover why this matters for everything from chatbots to enterprise search. By the end, you'll grasp not just what GlobalRAG does, but how it works and its game-changing potential.\n\nLet's start with the basics. Traditional question answering (QA) is like asking Google a straightforward query: \"What's the capital of France?\" Boom—Paris, one hop done. But real life is messier. Multi-hop QA requires piecing together info from multiple sources, often in sequence.",
+      "tags": [
+        "GlobalRAG",
+        "Multi-hop QA",
+        "Reinforcement Learning",
+        "RAG",
+        "AI Reasoning"
+      ],
+      "scheduled_at": "2026-03-17T16:03:48Z",
       "status": "pending"
     }
   ]
