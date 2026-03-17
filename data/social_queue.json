@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-17T20:03:48Z",
+  "last_scheduled_at": "2026-03-17T21:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -4723,6 +4723,20 @@
         "Agent Orchestration"
       ],
       "scheduled_at": "2026-03-17T20:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Kubernetes Networking Strategies for Scalable Microservices Architecture and Secure Traffic Management",
+      "url": "https://martinuke0.github.io/posts/2026-03-17-mastering-kubernetes-networking-strategies-for-scalable-microservices-architecture-and-secure-traffic-management/",
+      "social_hook": "Kubernetes has become the de‑facto platform for running containerized microservices at scale. While its orchestration capabilities are often the headline, the real power—and complexity—lies in its networking model. A well‑designed networking strategy enables:\n\nIn this article we will explore the fundamentals of Kubernetes networking, dive into advanced patterns for scaling microservices, and walk through practical, production‑ready configurations for secure traffic management. By the end, you’ll have a concrete toolkit to design, implement, and operate a robust networking layer that can grow with your business.\n\nUnderstanding the default networking assumptions is essential before you start customizing.",
+      "tags": [
+        "Kubernetes",
+        "Networking",
+        "Microservices",
+        "Security",
+        "DevOps"
+      ],
+      "scheduled_at": "2026-03-17T21:03:48Z",
       "status": "pending"
     }
   ]
