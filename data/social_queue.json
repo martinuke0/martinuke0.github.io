@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-18T06:03:48Z",
+  "last_scheduled_at": "2026-03-18T07:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -4866,6 +4866,21 @@
       ],
       "scheduled_at": "2026-03-18T06:03:48Z",
       "status": "posted"
+    },
+    {
+      "title": "Automating AI Skills: Mining GitHub for Smarter Agents – A Breakdown of Cutting-Edge Research",
+      "url": "https://martinuke0.github.io/posts/2026-03-18-automating-ai-skills-mining-github-for-smarter-agents-a-breakdown-of-cutting-edge-research/",
+      "social_hook": "Imagine teaching a super-smart student who knows everything about history, science, and trivia—but can't tie their own shoes or follow a recipe without messing up. That's the current state of large language models (LLMs) like GPT-4 or Claude. They're encyclopedias of declarative knowledge (facts and info), but they struggle with procedural knowledge (step-by-step \"how-to\" skills for real tasks). This new research paper flips the script: it shows how to automatically \"mine\" open-source GitHub repos to extract specialized skills, turning generic AIs into modular, expert agents without retraining them.[1][2]\n\nIn plain terms, the paper—\"Automating Skill Acquisition through Large-Scale Mining of Open-Source Agentic Repositories: A Framework for Multi-Agent Procedural Knowledge Extraction\"—proposes a framework to scour GitHub for cutting-edge AI agent code, pull out reusable skills (like creating math animations or educational videos), and package them into a standard format called SKILL.md. The result? AI agents that can visualize theorems or generate tutorials 40% more efficiently than human-made ones, all while keeping things secure and scalable.[1][2]\n\nThis isn't just academic navel-gazing. It's a blueprint for the future of AI, where agents \"level up\" by learning from the collective genius of open-source developers. In this post, we'll break it down step-by-step for a general technical audience—no PhD required. We'll use real-world analogies, dive into examples from tools like Manim, and explore why this could revolutionize everything from education to software dev. Buckle up; by the end, you'll see why \"agentic repositories\" are the next big thing in AI.",
+      "tags": [
+        "AI Agents",
+        "Large Language Models",
+        "Procedural Knowledge",
+        "Open-Source Mining",
+        "Skill Extraction",
+        "Manim Animations"
+      ],
+      "scheduled_at": "2026-03-18T07:03:48Z",
+      "status": "pending"
     }
   ]
 }
