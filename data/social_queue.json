@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-18T01:03:48Z",
+  "last_scheduled_at": "2026-03-18T02:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -4795,6 +4795,20 @@
         "machine-learning"
       ],
       "scheduled_at": "2026-03-18T01:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Autonomous Memory Systems with Vector Databases for Persistent Agentic Reasoning",
+      "url": "https://martinuke0.github.io/posts/2026-03-18-architecting-autonomous-memory-systems-with-vector-databases-for-persistent-agentic-reasoning/",
+      "social_hook": "1. Large language models (LLMs) that can reason, plan, and generate natural‑language output.\n\n2. Autonomous agents that act on LLM outputs, interacting with tools, APIs, or physical devices.\n\n3. Vector‑based similarity search that enables fast, semantic retrieval of high‑dimensional embeddings.",
+      "tags": [
+        "AI",
+        "Vector Databases",
+        "Autonomous Agents",
+        "Memory Architecture",
+        "RAG"
+      ],
+      "scheduled_at": "2026-03-18T02:03:48Z",
       "status": "pending"
     }
   ]
