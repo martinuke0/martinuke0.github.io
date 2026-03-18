@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-18T17:03:48Z",
+  "last_scheduled_at": "2026-03-18T18:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -5022,6 +5022,20 @@
       ],
       "scheduled_at": "2026-03-18T17:03:48Z",
       "status": "posted"
+    },
+    {
+      "title": "Scaling Agentic Workflows with Distributed Vector Databases and Asynchronous Event‑Driven Synchronization",
+      "url": "https://martinuke0.github.io/posts/2026-03-18-scaling-agentic-workflows-with-distributed-vector-databases-and-asynchronous-eventdriven-synchronization/",
+      "social_hook": "The rise of large‑language‑model (LLM) agents—autonomous “software‑agents” that can plan, act, and iterate on tasks—has opened a new frontier for building intelligent applications. These agentic workflows often rely on vector embeddings to retrieve relevant context, rank possible actions, or store intermediate knowledge. As the number of agents, the size of the knowledge base, and the complexity of the orchestration grow, traditional monolithic vector stores become a bottleneck.\n\n1. Distributed Vector Databases – systems that shard, replicate, and query billions of high‑dimensional vectors across multiple nodes while preserving low‑latency similarity search.\n\n2. Asynchronous Event‑Driven Synchronization – message‑oriented middleware (e.g., Kafka, Pulsar, NATS) that decouples producers and consumers, enabling agents to collaborate without blocking and to keep distributed state consistent.",
+      "tags": [
+        "AI",
+        "Vector Databases",
+        "Distributed Systems",
+        "Event-Driven Architecture",
+        "LLM Agents"
+      ],
+      "scheduled_at": "2026-03-18T18:03:48Z",
+      "status": "pending"
     }
   ]
 }
