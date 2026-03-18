@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-18T11:03:48Z",
+  "last_scheduled_at": "2026-03-18T12:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -4937,6 +4937,20 @@
       ],
       "scheduled_at": "2026-03-18T11:03:48Z",
       "status": "posted"
+    },
+    {
+      "title": "Decentralized AI Agents: Bridging Local LLMs, ZKPs, and Algorithmic Trading",
+      "url": "https://martinuke0.github.io/posts/2026-03-18-decentralized-ai-agents-bridging-local-llms-zkps-and-algorithmic-trading/",
+      "social_hook": "Artificial intelligence, blockchain, and quantitative finance have each undergone explosive growth over the past decade. Individually they promise new efficiencies, transparency, and autonomy. When combined, they can enable decentralized AI agents—software entities that reason, act, and verify their actions without relying on a single centralized operator.\n\nIn this article we explore a concrete convergence: local Large Language Models (LLMs) that run on users’ hardware, Zero‑Knowledge Proofs (ZKPs) that guarantee correctness while preserving privacy, and algorithmic trading pipelines that demand low latency, high reliability, and auditable decision‑making. We’ll unpack the technical foundations, propose an end‑to‑end architecture, provide practical code snippets, and discuss real‑world projects that already embody parts of this vision.\n\n* How to run an LLM locally and expose its capabilities to a decentralized network.",
+      "tags": [
+        "decentralized AI",
+        "LLM",
+        "zero-knowledge proofs",
+        "algorithmic trading",
+        "blockchain"
+      ],
+      "scheduled_at": "2026-03-18T12:03:48Z",
+      "status": "pending"
     }
   ]
 }
