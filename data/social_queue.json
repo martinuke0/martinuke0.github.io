@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-18T03:03:48Z",
+  "last_scheduled_at": "2026-03-18T04:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -4823,6 +4823,20 @@
         "real-time"
       ],
       "scheduled_at": "2026-03-18T03:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Orchestrating Multi‑Agent Workflows with n8n and Local Large Language Models: A Technical Guide",
+      "url": "https://martinuke0.github.io/posts/2026-03-18-orchestrating-multiagent-workflows-with-n8n-and-local-large-language-models-a-technical-guide/",
+      "social_hook": "Large language models (LLMs) have moved from research curiosities to production‑ready components that can power everything from chatbots to data extraction pipelines. At the same time, workflow automation platforms—especially open‑source, node‑based tools like n8n—have become the glue that connects disparate services, handles conditional logic, and provides visual debugging.\n\nWhen you combine the two, a powerful pattern emerges: multi‑agent workflows. Instead of a single monolithic LLM that tries to do everything, you break the problem into specialized agents (e.g., a classifier, a summarizer, a planner) and let an orchestrator coordinate them. This approach yields:\n\n Cost efficiency** – lightweight agents can run locally, reserving cloud resources for heavy tasks.",
+      "tags": [
+        "n8n",
+        "LLM",
+        "workflow automation",
+        "multi‑agent systems",
+        "AI engineering"
+      ],
+      "scheduled_at": "2026-03-18T04:03:48Z",
       "status": "pending"
     }
   ]
