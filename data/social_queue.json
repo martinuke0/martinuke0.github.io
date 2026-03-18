@@ -4823,7 +4823,7 @@
         "real-time"
       ],
       "scheduled_at": "2026-03-18T03:03:48Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Orchestrating Multi‑Agent Workflows with n8n and Local Large Language Models: A Technical Guide",
@@ -4837,7 +4837,7 @@
         "AI engineering"
       ],
       "scheduled_at": "2026-03-18T04:03:48Z",
-      "status": "pending"
+      "status": "posted"
     }
   ]
 }
