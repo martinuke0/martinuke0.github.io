@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-18T07:03:48Z",
+  "last_scheduled_at": "2026-03-18T08:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -4881,6 +4881,20 @@
       ],
       "scheduled_at": "2026-03-18T07:03:48Z",
       "status": "posted"
+    },
+    {
+      "title": "Optimizing Distributed State Machines for High‑Throughput Streaming in Autonomous Agent Orchestrations",
+      "url": "https://martinuke0.github.io/posts/2026-03-18-optimizing-distributed-state-machines-for-highthroughput-streaming-in-autonomous-agent-orchestrations/",
+      "social_hook": "Autonomous agents—whether they are fleets of delivery drones, self‑driving cars, or software bots managing cloud resources—must make rapid, coordinated decisions based on streams of sensor data, market feeds, or user requests. In many modern architectures these agents are not monolithic programs but distributed state machines that evolve their internal state in response to high‑velocity events. The challenge for engineers is to maintain correctness while pushing throughput to the limits of the underlying infrastructure.\n\nThis article provides a deep dive into the principles, patterns, and concrete techniques that enable high‑throughput streaming for distributed state machines in autonomous‑agent orchestrations. We will explore:\n\n* Core performance bottlenecks (latency, contention, serialization, network back‑pressure).",
+      "tags": [
+        "distributed systems",
+        "state machines",
+        "stream processing",
+        "autonomous agents",
+        "performance optimization"
+      ],
+      "scheduled_at": "2026-03-18T08:03:48Z",
+      "status": "pending"
     }
   ]
 }
