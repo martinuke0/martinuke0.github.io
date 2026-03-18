@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-18T04:03:48Z",
+  "last_scheduled_at": "2026-03-18T05:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -4838,6 +4838,20 @@
       ],
       "scheduled_at": "2026-03-18T04:03:48Z",
       "status": "posted"
+    },
+    {
+      "title": "Optimizing High‑Performance Edge Inference for Autonomous Web Agents Using WebGPU and Local LLMs",
+      "url": "https://martinuke0.github.io/posts/2026-03-18-optimizing-highperformance-edge-inference-for-autonomous-web-agents-using-webgpu-and-local-llms/",
+      "social_hook": "The web is evolving from a static document delivery platform into a compute‑rich ecosystem where browsers can run sophisticated machine‑learning workloads locally. For autonomous web agents—software entities that navigate, interact, and make decisions on behalf of users—low‑latency inference is a non‑negotiable requirement. Cloud‑based APIs introduce network jitter, privacy concerns, and cost overhead. By moving inference to the edge (i.e., the client’s device) and leveraging the WebGPU API, developers can achieve near‑real‑time performance while keeping data local.\n\nThis article provides a comprehensive, step‑by‑step guide to building and optimizing high‑performance edge inference pipelines for autonomous web agents using local large language models (LLMs) and WebGPU. We will cover the underlying theory, practical implementation details, performance‑tuning techniques, real‑world use cases, and future directions.\n\n Edge inference** refers to running ML models directly on the device where data is generated (e.g., a laptop, phone, or IoT sensor).",
+      "tags": [
+        "webgpu",
+        "edge-inference",
+        "llm",
+        "autonomous-agents",
+        "performance"
+      ],
+      "scheduled_at": "2026-03-18T05:03:48Z",
+      "status": "pending"
     }
   ]
 }
