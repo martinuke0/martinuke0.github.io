@@ -4781,7 +4781,7 @@
         "Adversarial AI"
       ],
       "scheduled_at": "2026-03-18T00:03:48Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "High Performance Vector Search Strategies for Sub Millisecond Retrieval in Edge Based AI Applications",
@@ -4795,7 +4795,7 @@
         "machine-learning"
       ],
       "scheduled_at": "2026-03-18T01:03:48Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Architecting Autonomous Memory Systems with Vector Databases for Persistent Agentic Reasoning",
