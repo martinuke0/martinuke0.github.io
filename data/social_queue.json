@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-18T22:03:48Z",
+  "last_scheduled_at": "2026-03-18T23:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -5093,6 +5093,20 @@
       ],
       "scheduled_at": "2026-03-18T22:03:48Z",
       "status": "posted"
+    },
+    {
+      "title": "Orchestrating Low‑Latency Multi‑Agent Systems on Serverless GPU Infrastructure for Production Workloads",
+      "url": "https://martinuke0.github.io/posts/2026-03-18-orchestrating-lowlatency-multiagent-systems-on-serverless-gpu-infrastructure-for-production-workloads/",
+      "social_hook": "The convergence of serverless computing and GPU acceleration has opened a new frontier for building low‑latency, multi‑agent systems that can handle production‑grade workloads such as real‑time video analytics, autonomous robotics, and large‑scale recommendation engines. Traditionally, these workloads required dedicated clusters, complex capacity planning, and painstaking orchestration of GPU resources. Serverless GPU platforms now promise elastic scaling, pay‑as‑you‑go pricing, and simplified operations, but they also bring challenges—especially when you need deterministic, sub‑100 ms response times across a fleet of cooperating agents.\n\nThis article walks you through the full stack of designing, deploying, and operating a low‑latency multi‑agent system on serverless GPU infrastructure. We’ll cover:\n\n* Orchestration techniques ranging from pure event‑driven models to workflow‑engine‑backed pipelines.",
+      "tags": [
+        "serverless",
+        "gpu",
+        "multi-agent",
+        "low-latency",
+        "production"
+      ],
+      "scheduled_at": "2026-03-18T23:03:48Z",
+      "status": "pending"
     }
   ]
 }
