@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-18T21:03:48Z",
+  "last_scheduled_at": "2026-03-18T22:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -5079,6 +5079,20 @@
       ],
       "scheduled_at": "2026-03-18T21:03:48Z",
       "status": "posted"
+    },
+    {
+      "title": "Building High‑Performance Real‑Time Data Pipelines for Vector Embeddings Using Rust and Kafka",
+      "url": "https://martinuke0.github.io/posts/2026-03-18-building-highperformance-realtime-data-pipelines-for-vector-embeddings-using-rust-and-kafka/",
+      "social_hook": "The explosion of high‑dimensional vector embeddings—whether they come from natural‑language models, image encoders, or multimodal transformers—has transformed the way modern applications retrieve and reason over data. From semantic search to personalized recommendation, the core operation is often a nearest‑neighbor lookup in a vector space. To keep these services responsive, the pipeline that creates, transports, and stores embeddings must be both low‑latency and high‑throughput.\n\nIn this article we’ll dive deep into building such a pipeline using Rust for the compute‑heavy parts and Apache Kafka as the backbone for reliable, distributed streaming. The goal is to give you a complete, production‑ready blueprint that you can adapt to your own workloads, complete with architectural diagrams, Rust code samples, performance‑tuning tips, and operational best practices.\n\nThese scenarios share a common need: continuous ingestion of raw events, on‑the‑fly embedding generation, and immediate propagation to downstream vector stores. The pipeline must therefore:",
+      "tags": [
+        "rust",
+        "kafka",
+        "vector-embeddings",
+        "real-time-pipelines",
+        "performance"
+      ],
+      "scheduled_at": "2026-03-18T22:03:48Z",
+      "status": "pending"
     }
   ]
 }
