@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-18T20:03:48Z",
+  "last_scheduled_at": "2026-03-18T21:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -5064,6 +5064,21 @@
       ],
       "scheduled_at": "2026-03-18T20:03:48Z",
       "status": "posted"
+    },
+    {
+      "title": "No More Blind Spots: Revolutionizing Robot Walking with Vision-Based Omnidirectional Locomotion",
+      "url": "https://martinuke0.github.io/posts/2026-03-18-no-more-blind-spots-revolutionizing-robot-walking-with-vision-based-omnidirectional-locomotion/",
+      "social_hook": "Imagine a robot that doesn't just shuffle forward like a cautious toddler but dances across uneven terrain, sidesteps obstacles, and pivots on a dime—all while \"seeing\" the world around it like a human. That's the promise of the groundbreaking research paper \"No More Blind Spots: Learning Vision-Based Omnidirectional Bipedal Locomotion for Challenging Terrain\" (arXiv:2508.11929). This work tackles one of robotics' toughest nuts to crack: making humanoid robots move fluidly in any direction over rough ground, using nothing but camera-like vision.\n\nFor a general technical audience—think software engineers, AI enthusiasts, or robotics hobbyists curious about the latest breakthroughs—this summary breaks down the paper's innovations into digestible chunks. We'll use everyday analogies, explore the tech step-by-step, and highlight why this matters for the future of AI-driven robots. No PhD required, but you'll walk away with insights applicable to broader CS and AI challenges.\n\nBipedal locomotion—walking on two legs—is the holy grail of robotics because it's how we get around. Wheels work great on flat floors, but send a wheeled robot over rocks, stairs, or cluttered rooms, and it fails spectacularly. Humanoid robots on two legs can climb, balance, and adapt, mimicking our evolutionary superpower.",
+      "tags": [
+        "AI",
+        "Robotics",
+        "Reinforcement Learning",
+        "Bipedal Locomotion",
+        "Computer Vision",
+        "Sim-to-Real"
+      ],
+      "scheduled_at": "2026-03-18T21:03:48Z",
+      "status": "pending"
     }
   ]
 }
