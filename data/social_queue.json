@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-18T08:03:48Z",
+  "last_scheduled_at": "2026-03-18T09:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -4895,6 +4895,20 @@
       ],
       "scheduled_at": "2026-03-18T08:03:48Z",
       "status": "posted"
+    },
+    {
+      "title": "Federated Learning for Private Edge AI: Scaling LLMs Without Centralizing Data",
+      "url": "https://martinuke0.github.io/posts/2026-03-18-federated-learning-for-private-edge-ai-scaling-llms-without-centralizing-data/",
+      "social_hook": "Large language models (LLMs) have reshaped natural‑language processing, powering chatbots, code assistants, and knowledge‑base retrieval systems. Their impressive capabilities, however, come at the cost of massive data requirements and compute‑intensive training pipelines that traditionally run in centralized data‑center environments. As organizations increasingly push AI to the edge—smartphones, wearables, industrial sensors, and on‑premise gateways—the tension between privacy, latency, and model performance becomes acute.\n\nFederated learning (FL) offers a compelling solution: instead of moving raw data to a central server, we move model updates to the data. Edge devices collaboratively improve a shared model while keeping sensitive information local. When combined with modern techniques for model compression, secure aggregation, and differential privacy, FL can enable private edge AI that scales LLMs without ever centralizing user data.\n\nThis article provides an in‑depth, practical guide to applying federated learning for private edge AI, with a particular focus on scaling LLMs. We will explore the theoretical underpinnings, technical challenges, state‑of‑the‑art solutions, and real‑world case studies, complemented by runnable code snippets.",
+      "tags": [
+        "Federated Learning",
+        "Edge AI",
+        "LLM",
+        "Privacy",
+        "Machine Learning"
+      ],
+      "scheduled_at": "2026-03-18T09:03:48Z",
+      "status": "pending"
     }
   ]
 }
