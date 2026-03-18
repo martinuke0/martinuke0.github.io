@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-18T09:03:48Z",
+  "last_scheduled_at": "2026-03-18T10:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -4909,6 +4909,20 @@
       ],
       "scheduled_at": "2026-03-18T09:03:48Z",
       "status": "posted"
+    },
+    {
+      "title": "Mastering Workflow Automation with AI: Beyond Basic Scripts to Intelligent Systems",
+      "url": "https://martinuke0.github.io/posts/2026-03-18-mastering-workflow-automation-with-ai-beyond-basic-scripts-to-intelligent-systems/",
+      "social_hook": "Workflow automation has moved from the realm of hand‑crafted scripts—think Bash loops, PowerShell pipelines, or Python one‑liners—into a sophisticated ecosystem where artificial intelligence (AI) augments decision‑making, adapts to context, and continuously improves itself.\n\nEnter the era of intelligent automation: a hybrid of traditional robotic process automation (RPA), low‑code orchestration, and modern AI techniques such as large language models (LLMs), computer vision, and reinforcement learning. Companies that master this blend can:\n\nThis article dives deep into the architectural foundations, design methodology, and real‑world implementations that take you beyond “run‑a‑script‑once” to building self‑aware, self‑optimizing workflow engines. Whether you’re a developer, a process analyst, or an IT leader, you’ll walk away with a concrete roadmap and code snippets you can adapt today.",
+      "tags": [
+        "workflow automation",
+        "AI",
+        "intelligent systems",
+        "RPA",
+        "low-code"
+      ],
+      "scheduled_at": "2026-03-18T10:03:48Z",
+      "status": "pending"
     }
   ]
 }
