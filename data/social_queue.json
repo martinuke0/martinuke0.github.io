@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-18T14:03:48Z",
+  "last_scheduled_at": "2026-03-18T15:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -4979,6 +4979,21 @@
       ],
       "scheduled_at": "2026-03-18T14:03:48Z",
       "status": "posted"
+    },
+    {
+      "title": "Demystifying AI Vision: How CFM Makes Foundation Models Transparent and Explainable",
+      "url": "https://martinuke0.github.io/posts/2026-03-18-demystifying-ai-vision-how-cfm-makes-foundation-models-transparent-and-explainable/",
+      "social_hook": "Imagine you're driving a self-driving car. It spots a pedestrian and slams on the brakes—just in time. Great! But what if you asked, \"Why did you stop?\" and the car replied, \"Because... reasons.\" That's frustrating, right? Now scale that up to AI systems analyzing medical scans, moderating social media, or powering autonomous drones. Today's powerful vision foundation models (think super-smart AIs that \"see\" images and understand them like humans) are black boxes. They deliver stunning results on tasks like classifying objects, segmenting images, or generating captions, but their inner workings are opaque. We can't easily tell why they made a decision.\n\nEnter CFM: Language-aligned Concept Foundation Model for Vision, a groundbreaking research paper from arXiv (paper URL: https://arxiv.org/abs/2601.13798). CFM cracks open these black boxes by breaking down what the AI \"sees\" into human-interpretable concepts—think \"red car,\" \"pedestrian crossing,\" or \"cracked sidewalk\"—that are not only understandable but also precisely spatially grounded in the image. It's like giving the AI a vocabulary of building blocks it can point to and explain.\n\nIn this in-depth blog post, we'll unpack the paper for a general technical audience—no PhDs required. We'll use real-world analogies, dive into the tech (plain English style), explore practical examples, and discuss why this matters for the future of AI. By the end, you'll grasp how CFM bridges the gap between powerful AI performance and human trust.",
+      "tags": [
+        "AI",
+        "Foundation Models",
+        "Explainable AI",
+        "Vision Language Models",
+        "Computer Vision",
+        "Machine Learning"
+      ],
+      "scheduled_at": "2026-03-18T15:03:48Z",
+      "status": "pending"
     }
   ]
 }
