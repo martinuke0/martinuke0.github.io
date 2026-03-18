@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-18T05:03:48Z",
+  "last_scheduled_at": "2026-03-18T06:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -4852,6 +4852,20 @@
       ],
       "scheduled_at": "2026-03-18T05:03:48Z",
       "status": "posted"
+    },
+    {
+      "title": "Vector Databases for AI Agents: Scaling Long‑Term Memory in Production Environments",
+      "url": "https://martinuke0.github.io/posts/2026-03-18-vector-databases-for-ai-agents-scaling-longterm-memory-in-production-environments/",
+      "social_hook": "Artificial intelligence agents—whether chatbots, autonomous assistants, or recommendation engines—are increasingly expected to remember past interactions, user preferences, and domain knowledge over long periods. In production settings, this “memory” must be both persistent and searchable at scale. Traditional relational databases struggle with the high‑dimensional similarity queries required for semantic retrieval, while key‑value stores lack the expressive power to rank results by vector proximity.\n\nEnter vector databases: purpose‑built storage engines that index and retrieve dense embeddings efficiently. By coupling these stores with large language models (LLMs), developers can create Retrieval‑Augmented Generation (RAG) pipelines that endow AI agents with long‑term, context‑aware memory. This article dives deep into the technical, architectural, and operational aspects of deploying vector databases for AI agents in production, providing concrete code snippets, design patterns, and real‑world considerations.\n\n> Note: While the concepts are language‑agnostic, the examples below primarily use Python because it dominates the LLM ecosystem.",
+      "tags": [
+        "vector databases",
+        "AI agents",
+        "long-term memory",
+        "production",
+        "scalability"
+      ],
+      "scheduled_at": "2026-03-18T06:03:48Z",
+      "status": "pending"
     }
   ]
 }
