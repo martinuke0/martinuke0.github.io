@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-18T15:03:48Z",
+  "last_scheduled_at": "2026-03-18T16:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -4994,6 +4994,20 @@
       ],
       "scheduled_at": "2026-03-18T15:03:48Z",
       "status": "posted"
+    },
+    {
+      "title": "Orchestrating Multi‑Modal RAG Pipelines with Federated Vector Search and Privacy‑Preserving Ingestion Layers",
+      "url": "https://martinuke0.github.io/posts/2026-03-18-orchestrating-multimodal-rag-pipelines-with-federated-vector-search-and-privacypreserving-ingestion-layers/",
+      "social_hook": "Retrieval‑Augmented Generation (RAG) has become the de‑facto pattern for building AI systems that can answer questions, summarize documents, or generate content grounded in external knowledge. While early RAG implementations focused on single‑modal text retrieval, modern applications increasingly require multi‑modal support—images, audio, video, and structured data—so that the generated output can reference a richer context.\n\nAt the same time, enterprises are grappling with privacy, regulatory, and data‑sovereignty constraints. Centralizing all raw data in a single vector store is often not an option, especially when data resides across multiple legal jurisdictions or belongs to different business units. This is where federated vector search and privacy‑preserving ingestion layers come into play.\n\n1. Review the fundamentals of multi‑modal RAG and why traditional pipelines fall short.",
+      "tags": [
+        "RAG",
+        "Vector Search",
+        "Privacy",
+        "Federated Learning",
+        "Multi‑Modal AI"
+      ],
+      "scheduled_at": "2026-03-18T16:03:48Z",
+      "status": "pending"
     }
   ]
 }
