@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-18T13:03:48Z",
+  "last_scheduled_at": "2026-03-18T14:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -4964,6 +4964,20 @@
         "Real-Time"
       ],
       "scheduled_at": "2026-03-18T13:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "The AI Co-Pilot Revolution: Navigating the Next Era of Developer Productivity",
+      "url": "https://martinuke0.github.io/posts/2026-03-18-the-ai-co-pilot-revolution-navigating-the-next-era-of-developer-productivity/",
+      "social_hook": "Software development has always been a craft that balances creativity, logic, and relentless problem‑solving. Over the past decade, the tools that developers use have evolved from simple text editors to sophisticated integrated development environments (IDEs), version‑control systems, and automated testing pipelines. The latest leap—a generation of AI‑powered “co‑pilots”—promises to reshape how developers write, debug, and maintain code.\n\nAn AI co‑pilot is not a mere autocomplete engine; it is a conversational partner that can understand intent, suggest entire functions, refactor codebases, and even generate documentation. Companies such as GitHub (with GitHub Copilot), Tabnine, Amazon (with CodeWhisperer), and Microsoft (with IntelliCode) have already shipped products that claim to increase developer throughput by 20–40 % and reduce mundane boilerplate work. This article explores the technical foundations, real‑world impact, best practices, and future directions of the AI co‑pilot revolution, giving you a roadmap to navigate the next era of developer productivity.\n\nThe first wave of productivity tools was the transition from plain text editors (vi, Emacs) to feature‑rich IDEs (Eclipse, Visual Studio, IntelliJ). IDEs introduced:",
+      "tags": [
+        "AI",
+        "Developer Productivity",
+        "Code Generation",
+        "Machine Learning",
+        "Software Engineering"
+      ],
+      "scheduled_at": "2026-03-18T14:03:48Z",
       "status": "pending"
     }
   ]
