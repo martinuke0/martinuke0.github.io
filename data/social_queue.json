@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-18T19:03:48Z",
+  "last_scheduled_at": "2026-03-18T20:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -5050,6 +5050,20 @@
       ],
       "scheduled_at": "2026-03-18T19:03:48Z",
       "status": "posted"
+    },
+    {
+      "title": "Building Resilient Event‑Driven Microservices with Kubernetes Sidecars and Distributed Transaction Tracing",
+      "url": "https://martinuke0.github.io/posts/2026-03-18-building-resilient-eventdriven-microservices-with-kubernetes-sidecars-and-distributed-transaction-tracing/",
+      "social_hook": "Event‑driven microservices have become the de‑facto architecture for modern, cloud‑native applications. By decoupling producers and consumers through message brokers (Kafka, NATS, RabbitMQ, etc.), teams can ship features independently, scale components elastically, and build highly responsive systems. However, the very asynchrony that brings agility also introduces new failure modes: message loss, duplicate processing, latency spikes, and opaque cross‑service dependencies.\n\nKubernetes offers a powerful way to mitigate these challenges through the sidecar pattern—a lightweight auxiliary container that runs alongside the primary application container in the same pod. When combined with distributed transaction tracing, developers gain end‑to‑end visibility into the flow of events, enabling rapid root‑cause analysis and proactive resilience engineering.\n\nThis article walks you through the theory, design patterns, and hands‑on implementation of resilient event‑driven microservices using Kubernetes sidecars and distributed tracing. By the end, you’ll have a complete, production‑ready example—code, manifests, and observability wiring—that you can adapt to your own domain.",
+      "tags": [
+        "microservices",
+        "kubernetes",
+        "event‑driven",
+        "distributed‑tracing",
+        "sidecar‑pattern"
+      ],
+      "scheduled_at": "2026-03-18T20:03:48Z",
+      "status": "pending"
     }
   ]
 }
