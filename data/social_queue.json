@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-18T10:03:48Z",
+  "last_scheduled_at": "2026-03-18T11:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -4923,6 +4923,20 @@
       ],
       "scheduled_at": "2026-03-18T10:03:48Z",
       "status": "posted"
+    },
+    {
+      "title": "AI Agents Take Center Stage: Your 2026 Guide to Autonomous Systems",
+      "url": "https://martinuke0.github.io/posts/2026-03-18-ai-agents-take-center-stage-your-2026-guide-to-autonomous-systems/",
+      "social_hook": "The year 2026 marks a pivotal moment in the evolution of artificial intelligence. No longer confined to narrow, task‑specific tools, AI agents—software entities capable of perceiving, reasoning, and acting autonomously—are now integral components of everything from self‑driving trucks to personalized health coaches. This guide provides a deep dive into the technological foundations, architectural patterns, real‑world deployments, and emerging ethical questions that define the autonomous systems landscape today.\n\nWhether you are a seasoned AI researcher, a product manager exploring autonomous features, or a developer eager to prototype your own AI agent, this article equips you with the knowledge and practical tools needed to navigate the rapidly shifting terrain of autonomous AI in 2026.\n\n> Note: The concepts presented here assume familiarity with fundamental machine learning terminology (e.g., supervised learning, embeddings) but strive to remain accessible to readers across disciplines.",
+      "tags": [
+        "AI",
+        "Autonomous Systems",
+        "Agents",
+        "2026",
+        "Technology"
+      ],
+      "scheduled_at": "2026-03-18T11:03:48Z",
+      "status": "pending"
     }
   ]
 }
