@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-18T02:03:48Z",
+  "last_scheduled_at": "2026-03-18T03:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -4810,6 +4810,20 @@
       ],
       "scheduled_at": "2026-03-18T02:03:48Z",
       "status": "posted"
+    },
+    {
+      "title": "Architecting High‑Throughput Vector Databases for Real‑Time Retrieval‑Augmented Generation at Scale",
+      "url": "https://martinuke0.github.io/posts/2026-03-18-architecting-highthroughput-vector-databases-for-realtime-retrievalaugmented-generation-at-scale/",
+      "social_hook": "Retrieval‑augmented generation (RAG) has become the de‑facto paradigm for building LLM‑powered applications that need up‑to‑date factual grounding, domain‑specific knowledge, or multi‑modal context. At its core, RAG couples a generative model with a retrieval engine that fetches the most relevant pieces of information from a knowledge store. When the knowledge store is a vector database, the retrieval step boils down to an approximate nearest‑neighbor (ANN) search over high‑dimensional embeddings.\n\nWhile the research community has largely solved accuracy—finding the right vectors—production teams face a far more demanding set of constraints:\n\n Throughput:** Millions of queries per second (QPS) for large‑scale consumer products.",
+      "tags": [
+        "vector-database",
+        "retrieval-augmented-generation",
+        "scalability",
+        "high-throughput",
+        "real-time"
+      ],
+      "scheduled_at": "2026-03-18T03:03:48Z",
+      "status": "pending"
     }
   ]
 }
