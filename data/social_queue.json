@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-18T18:03:48Z",
+  "last_scheduled_at": "2026-03-18T19:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -5036,6 +5036,20 @@
       ],
       "scheduled_at": "2026-03-18T18:03:48Z",
       "status": "posted"
+    },
+    {
+      "title": "Architecting State Change Management in Distributed Multi‑Agent Systems for Low‑Latency Edge Environments",
+      "url": "https://martinuke0.github.io/posts/2026-03-18-architecting-state-change-management-in-distributed-multiagent-systems-for-lowlatency-edge-environments/",
+      "social_hook": "Edge computing has moved from a niche research topic to a production reality for applications that demand sub‑millisecond reaction times—autonomous vehicles, industrial robotics, augmented reality, and real‑time IoT control loops. In many of these domains, a distributed multi‑agent system (MAS) is the natural way to model autonomous decision makers that must cooperate, compete, and adapt to a shared environment.\n\nThe heart of any MAS is state: a representation of the world, the agent’s internal beliefs, and the outcomes of actions. When agents are spread across geographically dispersed edge nodes, state change management becomes a complex engineering problem. The system must guarantee that:\n\n Every agent sees a consistent view of critical state** (e.g., traffic light status, safety zones) within tight latency budgets.",
+      "tags": [
+        "distributed-systems",
+        "edge-computing",
+        "state-management",
+        "multi-agent",
+        "low-latency"
+      ],
+      "scheduled_at": "2026-03-18T19:03:48Z",
+      "status": "pending"
     }
   ]
 }
