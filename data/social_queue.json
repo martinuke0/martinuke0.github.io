@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-18T16:03:48Z",
+  "last_scheduled_at": "2026-03-18T17:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -5008,6 +5008,20 @@
       ],
       "scheduled_at": "2026-03-18T16:03:48Z",
       "status": "posted"
+    },
+    {
+      "title": "From Fuzzy Logic to Neutrosophic Sets: A Guide to Handling Real-World Uncertainty",
+      "url": "https://martinuke0.github.io/posts/2026-03-18-from-fuzzy-logic-to-neutrosophic-sets-a-guide-to-handling-real-world-uncertainty/",
+      "social_hook": "Imagine you're building an AI system to diagnose a disease. A patient comes in with symptoms that could indicate condition A, condition B, or possibly neither—but you're not entirely sure. Traditional computer logic forces you into a corner: either the patient has the disease or they don't. True or false. 1 or 0. But reality doesn't work that way.\n\nThis is where an entire family of mathematical frameworks comes into play. Over the past few decades, researchers have developed increasingly sophisticated ways to represent uncertainty, vagueness, and incomplete information. These frameworks—fuzzy sets, intuitionistic fuzzy sets, neutrosophic sets, and plithogenic sets—form a progression of tools that let us model the messy, ambiguous nature of real-world phenomena[1][2][3].\n\nA new comprehensive survey paper titled \"A Dynamic Survey of Fuzzy, Intuitionistic Fuzzy, Neutrosophic, Plithogenic, and Extensional Sets\" brings together decades of research on these frameworks. This article breaks down what these frameworks are, why they matter, and how they're changing the way we think about uncertainty in artificial intelligence, decision-making systems, and beyond.",
+      "tags": [
+        "fuzzy-logic",
+        "uncertainty-modeling",
+        "artificial-intelligence",
+        "set-theory",
+        "machine-learning"
+      ],
+      "scheduled_at": "2026-03-18T17:03:48Z",
+      "status": "pending"
     }
   ]
 }
