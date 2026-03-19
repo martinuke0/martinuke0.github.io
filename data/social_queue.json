@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-19T21:03:48Z",
+  "last_scheduled_at": "2026-03-19T22:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -5416,6 +5416,20 @@
       ],
       "scheduled_at": "2026-03-19T21:03:48Z",
       "status": "posted"
+    },
+    {
+      "title": "Kubernetes Zero to Hero: Complete Guide to Orchestrating Scalable Microservices for Modern Systems",
+      "url": "https://martinuke0.github.io/posts/2026-03-19-kubernetes-zero-to-hero-complete-guide-to-orchestrating-scalable-microservices-for-modern-systems/",
+      "social_hook": "In the era of cloud‑native computing, Kubernetes has become the de‑facto platform for running containerized workloads at scale. For teams transitioning from monolithic architectures to microservices, the learning curve can feel steep: you need to understand containers, networking, storage, observability, and the myriad of Kubernetes primitives that make orchestration possible.\n\nThis article is a Zero‑to‑Hero guide that walks you through every step required to design, deploy, and operate scalable microservices on Kubernetes. We’ll cover:\n\n* Advanced production‑grade topics such as Helm charts, operators, autoscaling, service mesh, and CI/CD pipelines.",
+      "tags": [
+        "Kubernetes",
+        "Microservices",
+        "DevOps",
+        "Scalability",
+        "CloudNative"
+      ],
+      "scheduled_at": "2026-03-19T22:03:48Z",
+      "status": "pending"
     }
   ]
 }
