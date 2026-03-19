@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-19T00:03:48Z",
+  "last_scheduled_at": "2026-03-19T01:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -5120,6 +5120,20 @@
         "scalability"
       ],
       "scheduled_at": "2026-03-19T00:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Demystifying FederatedFactory: One‑Shot Generative Learning for Extremely Non‑IID Distributed Data",
+      "url": "https://martinuke0.github.io/posts/2026-03-19-demystifying-federatedfactory-oneshot-generative-learning-for-extremely-noniid-distributed-data/",
+      "social_hook": "Imagine a network of hospitals that each hold thousands of patient scans, but none of them can legally share raw images because of privacy regulations. They still want to train a powerful AI that can detect diseases across all their data. Federated Learning (FL) promises exactly that: a way to learn a shared model without moving the data off the local devices.\n\nHowever, FL runs into a nasty roadblock when the label distribution—the types of diseases each hospital sees—is wildly different. In the extreme case, each site only sees a single disease (e.g., one hospital only has melanoma cases, another only has basal cell carcinoma). Conventional FL, which aggregates discriminative model weights, ends up with a tangled mess because each site is pulling the shared model in opposite directions. The result is a collapsed model that barely works.\n\nThe paper “FederatedFactory: Generative One‑Shot Learning for Extremely Non‑IID Distributed Scenarios” (arXiv:2603.16370) proposes a radical shift: instead of aggregating discriminative weights, exchange tiny generative modules that can synthesize balanced data for all classes. In a single communication round—one shot—the central server can stitch together a synthetic, perfectly balanced dataset that eliminates gradient conflicts and removes the need for any external pretrained foundation model.",
+      "tags": [
+        "Federated Learning",
+        "Generative Models",
+        "Distributed AI",
+        "Privacy‑Preserving ML",
+        "One‑Shot Learning"
+      ],
+      "scheduled_at": "2026-03-19T01:03:48Z",
       "status": "pending"
     }
   ]
