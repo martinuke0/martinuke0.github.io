@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-19T03:03:48Z",
+  "last_scheduled_at": "2026-03-19T04:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -5162,6 +5162,20 @@
         "2024-2026"
       ],
       "scheduled_at": "2026-03-19T03:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Scaling Agentic AI Frameworks with Distributed Vector Databases and Long Term Memory",
+      "url": "https://martinuke0.github.io/posts/2026-03-19-scaling-agentic-ai-frameworks-with-distributed-vector-databases-and-long-term-memory/",
+      "social_hook": "Agentic AI—autonomous software entities that can reason, act, and iteratively improve—has moved from research prototypes to production‑grade services. Modern agents (e.g., personal assistants, autonomous bots, and decision‑support systems) rely heavily on retrieval‑augmented generation (RAG), where a large language model (LLM) consults an external knowledge store before producing output. The knowledge store is often a vector database that holds dense embeddings of documents, code snippets, or sensory data.\n\nWhen agents operate at scale—handling thousands of concurrent users, processing multi‑modal streams, or persisting experience across days, weeks, or months—two technical pillars become critical:\n\n1. Distributed vector databases that can store, index, and query billions of high‑dimensional vectors with low latency.",
+      "tags": [
+        "AI",
+        "AgenticAI",
+        "VectorDatabase",
+        "LongTermMemory",
+        "Scalability"
+      ],
+      "scheduled_at": "2026-03-19T04:03:48Z",
       "status": "pending"
     }
   ]
