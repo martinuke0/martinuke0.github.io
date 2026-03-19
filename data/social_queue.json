@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-19T05:03:48Z",
+  "last_scheduled_at": "2026-03-19T06:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -5191,6 +5191,20 @@
       ],
       "scheduled_at": "2026-03-19T05:03:48Z",
       "status": "posted"
+    },
+    {
+      "title": "Beyond Chatbots: Optimizing Local LLM Agents with 2026’s Standardized Context Pruning Protocols",
+      "url": "https://martinuke0.github.io/posts/2026-03-19-beyond-chatbots-optimizing-local-llm-agents-with-2026s-standardized-context-pruning-protocols/",
+      "social_hook": "The explosion of large language models (LLMs) over the past few years has shifted the AI conversation from “Can we generate text?” to “How do we use that text intelligently?” While cloud‑hosted LLM services dominate headline‑grabbing applications, a growing cohort of developers is deploying local LLM agents—self‑contained AI entities that run on edge devices, private servers, or isolated corporate networks.\n\nLocal agents bring undeniable benefits: reduced latency, data‑sovereignty, and resilience against network outages. Yet they also inherit a classic bottleneck: context windows. Even the most advanced 2025 LLMs cap input at a few hundred thousand tokens, and that limit becomes a hard ceiling when agents must retain conversational history, external knowledge, and real‑time sensor streams simultaneously.\n\nEnter the 2026 Standardized Context Pruning Protocol (SCPP). Formalized by the IEEE AI Standards Committee and quickly adopted by major open‑source LLM ecosystems (e.g., Llama‑Index, LangChain, and the OpenAI API), SCPP provides a repeatable, privacy‑aware, and performance‑driven method for trimming context without sacrificing relevance.",
+      "tags": [
+        "LLM",
+        "Context Pruning",
+        "Local AI",
+        "Agent Architecture",
+        "2026 Standards"
+      ],
+      "scheduled_at": "2026-03-19T06:03:48Z",
+      "status": "pending"
     }
   ]
 }
