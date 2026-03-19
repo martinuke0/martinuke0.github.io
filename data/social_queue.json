@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-19T20:03:48Z",
+  "last_scheduled_at": "2026-03-19T21:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -5402,6 +5402,20 @@
       ],
       "scheduled_at": "2026-03-19T20:03:48Z",
       "status": "posted"
+    },
+    {
+      "title": "How to Deploy and Audit Local LLMs Using the New WebGPU 2.0 Standard",
+      "url": "https://martinuke0.github.io/posts/2026-03-19-how-to-deploy-and-audit-local-llms-using-the-new-webgpu-20-standard/",
+      "social_hook": "Large language models (LLMs) have moved from research labs to the desktop, mobile devices, and even browsers. The ability to run an LLM locally—without a remote API—offers privacy, low latency, and independence from cloud cost structures. Yet, the computational demands of modern transformer models have traditionally forced developers to rely on heavyweight GPU servers or specialized inference accelerators.\n\nEnter WebGPU 2.0, the latest iteration of the web‑standard graphics and compute API that brings low‑level, cross‑platform GPU access to browsers and Node.js environments. WebGPU 2.0 expands the original specification with richer compute pipelines, improved resource binding, and explicit synchronization primitives—all essential for efficient tensor math.\n\n Deploying** a local LLM (e.g., a quantized Llama‑2‑7B) using the WebGPU 2.0 backend in both browsers and server‑side Node.js.",
+      "tags": [
+        "LLM",
+        "WebGPU",
+        "Deployment",
+        "Auditing",
+        "JavaScript"
+      ],
+      "scheduled_at": "2026-03-19T21:03:48Z",
+      "status": "pending"
     }
   ]
 }
