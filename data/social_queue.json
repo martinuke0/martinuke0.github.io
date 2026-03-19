@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-19T11:03:48Z",
+  "last_scheduled_at": "2026-03-19T12:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -5276,6 +5276,20 @@
       ],
       "scheduled_at": "2026-03-19T11:03:48Z",
       "status": "posted"
+    },
+    {
+      "title": "Mastering Multi-Agent Orchestration with Autonomous AI Frameworks and Real-Time Data Streams",
+      "url": "https://martinuke0.github.io/posts/2026-03-19-mastering-multi-agent-orchestration-with-autonomous-ai-frameworks-and-real-time-data-streams/",
+      "social_hook": "The last decade has witnessed a dramatic shift from monolithic AI models toward distributed, autonomous agents that can reason, act, and collaborate in complex environments. When you combine these agents with real‑time data streams—think sensor feeds, market tickers, or user‑generated events—you unlock a new class of systems capable of continuous adaptation and instantaneous decision making.\n\nYet, turning this vision into a production‑grade solution is far from trivial. It requires a deep understanding of:\n\n Multi‑agent orchestration** – how agents discover each other, negotiate tasks, and share state.",
+      "tags": [
+        "AI Orchestration",
+        "Multi-Agent Systems",
+        "Real-Time Data",
+        "Autonomous AI",
+        "Frameworks"
+      ],
+      "scheduled_at": "2026-03-19T12:03:48Z",
+      "status": "pending"
     }
   ]
 }
