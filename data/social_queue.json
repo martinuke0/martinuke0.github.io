@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-19T17:03:48Z",
+  "last_scheduled_at": "2026-03-19T18:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -5360,6 +5360,20 @@
       ],
       "scheduled_at": "2026-03-19T17:03:48Z",
       "status": "posted"
+    },
+    {
+      "title": "Decoding the Shift: Optimizing Local LLM Inference with 2026’s Universal Memory Architecture",
+      "url": "https://martinuke0.github.io/posts/2026-03-19-decoding-the-shift-optimizing-local-llm-inference-with-2026s-universal-memory-architecture/",
+      "social_hook": "Large language models (LLMs) have moved from research curiosities to everyday tools—code assistants, chatbots, and domain‑specific copilots. While cloud‑based inference remains popular, a growing segment of developers, enterprises, and privacy‑focused organizations prefer local inference: running models on on‑premise hardware or edge devices. The promise is clear—data never leaves the premises, latency can be reduced, and operating costs become more predictable.\n\nHowever, local inference is not without friction. The most common bottleneck is memory: modern transformer models often require hundreds of gigabytes of RAM or VRAM, and the bandwidth needed to move weights and activations quickly exceeds what traditional CPU‑GPU memory hierarchies can deliver. In 2026, the industry is converging on a Universal Memory Architecture (UMA) that unifies volatile, non‑volatile, and high‑bandwidth memory under a single address space, dramatically reshaping how we think about LLM deployment.\n\nThis article provides an in‑depth, practical guide to optimizing local LLM inference using the 2026 UMA. We’ll explore the technical foundations, walk through a complete implementation, benchmark real‑world models, and outline best‑practice recommendations for engineers looking to get the most out of their hardware.",
+      "tags": [
+        "LLM",
+        "Inference",
+        "Memory Architecture",
+        "Performance",
+        "2026"
+      ],
+      "scheduled_at": "2026-03-19T18:03:48Z",
+      "status": "pending"
     }
   ]
 }
