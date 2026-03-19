@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-19T02:03:48Z",
+  "last_scheduled_at": "2026-03-19T03:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -5149,6 +5149,20 @@
       ],
       "scheduled_at": "2026-03-19T02:03:48Z",
       "status": "posted"
+    },
+    {
+      "title": "Beyond LLMs: Implementing Small Language Models for Latent Edge Computing in 2024-2026 Architectures",
+      "url": "https://martinuke0.github.io/posts/2026-03-19-beyond-llms-implementing-small-language-models-for-latent-edge-computing-in-2024-2026-architectures/",
+      "social_hook": "Large Language Models (LLMs) such as GPT‑4, Claude, and LLaMA have captured headlines for their impressive capabilities in natural language understanding, generation, and reasoning. Yet, the very scale that powers their performance—hundreds of billions of parameters, multi‑gigabyte memory footprints, and teraflops of compute—makes them ill‑suited for edge environments where power, latency, and bandwidth are at a premium.\n\nFrom 2024 through 2026, a new design paradigm is emerging: Latent Edge Computing powered by Small Language Models (SLMs). Instead of shipping a monolithic LLM to every device, engineers are crafting leaner, purpose‑built models that operate on the “latent” representations of data close to the source. These SLMs can run on microcontrollers, system‑on‑chips (SoCs), and specialized AI accelerators while still delivering context‑aware language capabilities.\n\nWhether you are a systems architect, ML engineer, or product manager, this guide will equip you with the knowledge to design, implement, and scale small language models for the next generation of edge devices.",
+      "tags": [
+        "edge computing",
+        "small language models",
+        "latent AI",
+        "model compression",
+        "2024-2026"
+      ],
+      "scheduled_at": "2026-03-19T03:03:48Z",
+      "status": "pending"
     }
   ]
 }
