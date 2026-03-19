@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-19T19:03:48Z",
+  "last_scheduled_at": "2026-03-19T20:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -5388,6 +5388,20 @@
       ],
       "scheduled_at": "2026-03-19T19:03:48Z",
       "status": "posted"
+    },
+    {
+      "title": "Vector Database Optimization Strategies for Real-Time Retrieval in Large Language Model Applications",
+      "url": "https://martinuke0.github.io/posts/2026-03-19-vector-database-optimization-strategies-for-real-time-retrieval-in-large-language-model-applications/",
+      "social_hook": "Large Language Models (LLMs) such as GPT‑4, Claude, and LLaMA have transformed how we generate text, answer questions, and build intelligent assistants. A common pattern in production LLM pipelines is retrieval‑augmented generation (RAG), where the model queries an external knowledge store, retrieves the most relevant pieces of information, and conditions its response on that context.\n\nThe retrieval component must be fast, scalable, and accurate—especially for real‑time applications like chatbots, code assistants, or recommendation engines where latency directly impacts user experience and business value. Vector databases (e.g., Milvus, Pinecone, Weaviate, Qdrant, FAISS) are the de‑facto storage and search layer for high‑dimensional embeddings. Optimizing these databases for real‑time retrieval is a multi‑dimensional problem that touches hardware, indexing algorithms, data layout, query routing, and observability.\n\nThis article provides an in‑depth guide to vector database optimization strategies tailored for LLM‑driven applications. We will:",
+      "tags": [
+        "vector databases",
+        "LLM",
+        "real-time retrieval",
+        "optimization",
+        "AI infrastructure"
+      ],
+      "scheduled_at": "2026-03-19T20:03:48Z",
+      "status": "pending"
     }
   ]
 }
