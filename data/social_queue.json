@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-19T07:03:48Z",
+  "last_scheduled_at": "2026-03-19T08:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -5219,6 +5219,20 @@
       ],
       "scheduled_at": "2026-03-19T07:03:48Z",
       "status": "posted"
+    },
+    {
+      "title": "Optimizing Real-Time Distributed Systems with Local AI and Vector Database Synchronization",
+      "url": "https://martinuke0.github.io/posts/2026-03-19-optimizing-real-time-distributed-systems-with-local-ai-and-vector-database-synchronization/",
+      "social_hook": "Real‑time distributed systems power everything from autonomous vehicles and industrial IoT to high‑frequency trading platforms and multiplayer gaming back‑ends. The promise of these systems is low latency, high availability, and the ability to scale across heterogeneous environments. In the last few years, two technological trends have begun to reshape how developers achieve those goals:\n\n1. Local AI (edge inference) – Tiny, on‑device models that can make decisions without round‑tripping to the cloud.\n\n2. Vector databases – Specialized stores for high‑dimensional embeddings that enable similarity search, semantic retrieval, and rapid nearest‑neighbor queries.",
+      "tags": [
+        "distributed-systems",
+        "real-time",
+        "local-ai",
+        "vector-database",
+        "system-optimization"
+      ],
+      "scheduled_at": "2026-03-19T08:03:48Z",
+      "status": "pending"
     }
   ]
 }
