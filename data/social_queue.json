@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-19T08:03:48Z",
+  "last_scheduled_at": "2026-03-19T09:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -5233,6 +5233,21 @@
       ],
       "scheduled_at": "2026-03-19T08:03:48Z",
       "status": "posted"
+    },
+    {
+      "title": "Demystifying Scalable AI for Software Vulnerability Detection: A Breakthrough in Repo-Level Benchmarks",
+      "url": "https://martinuke0.github.io/posts/2026-03-19-demystifying-scalable-ai-for-software-vulnerability-detection-a-breakthrough-in-repo-level-benchmarks/",
+      "social_hook": "Imagine you're building a massive software project, like a popular web app used by millions. Hidden inside its thousands of lines of code are tiny flaws—software vulnerabilities—that hackers could exploit to steal data, crash servers, or worse. Detecting these bugs manually is like finding needles in a haystack. Enter AI: machine learning models trained to spot these issues automatically. But here's the catch: current training data for these AI \"bug hunters\" is often too simplistic, like training a detective on toy crimes instead of real heists.\n\nThe research paper \"Toward Scalable Automated Repository-Level Datasets for Software Vulnerability Detection\" (arXiv:2603.17974) tackles this head-on. It proposes an automated benchmark generator that creates realistic, large-scale datasets by injecting vulnerabilities into real-world code repositories (think entire GitHub projects). This isn't just theory—it's a game-changer for building robust AI tools that detect vulnerabilities in the messy, interconnected reality of production software. In this post, we'll break it down for a general technical audience: developers, AI enthusiasts, and security pros who want the big picture without drowning in jargon.\n\nWe'll explore the problem, the solution, real-world analogies, and why this matters for the future of secure software. Buckle up—this comprehensive guide will equip you with actionable insights.",
+      "tags": [
+        "AI Security",
+        "Software Vulnerabilities",
+        "Machine Learning",
+        "Benchmarking",
+        "Cybersecurity",
+        "Automated Testing"
+      ],
+      "scheduled_at": "2026-03-19T09:03:48Z",
+      "status": "pending"
     }
   ]
 }
