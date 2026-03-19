@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-19T22:03:48Z",
+  "last_scheduled_at": "2026-03-19T23:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -5430,6 +5430,20 @@
       ],
       "scheduled_at": "2026-03-19T22:03:48Z",
       "status": "posted"
+    },
+    {
+      "title": "Zero to Hero: Building Vision‑Language Agents for Autonomous Automation",
+      "url": "https://martinuke0.github.io/posts/2026-03-19-zero-to-hero-building-visionlanguage-agents-for-autonomous-automation/",
+      "social_hook": "The convergence of computer vision and natural language processing (NLP) has given rise to vision‑language models (VLMs) that can understand and generate both images and text. When these models are wrapped inside agentic workflows—software agents capable of planning, acting, and learning—they become powerful engines for autonomous automation. From robotic pick‑and‑place to visual QA for customer support, multimodal agents are reshaping how businesses turn raw sensory data into actionable decisions.\n\nThis article walks you through a zero‑to‑hero journey: starting with the theoretical underpinnings, progressing through concrete implementation steps, and culminating in a production‑ready example. Whether you are a researcher, a data scientist, or an engineering manager, you’ll find a roadmap, code snippets, and real‑world context to help you design, build, and deploy vision‑language agents that can operate with minimal human supervision.\n\n> Note: The term agentic here refers to software entities that possess goal‑directed reasoning, tool use, and self‑reflection—attributes traditionally associated with autonomous agents in AI research.",
+      "tags": [
+        "multimodal",
+        "vision-language",
+        "agentic-workflows",
+        "automation",
+        "AI"
+      ],
+      "scheduled_at": "2026-03-19T23:03:48Z",
+      "status": "pending"
     }
   ]
 }
