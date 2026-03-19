@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-19T18:03:48Z",
+  "last_scheduled_at": "2026-03-19T19:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -5374,6 +5374,20 @@
       ],
       "scheduled_at": "2026-03-19T18:03:48Z",
       "status": "posted"
+    },
+    {
+      "title": "Beyond the Chatbot: Optimizing Local LLM Agents for Autonomous Edge Computing Workflows",
+      "url": "https://martinuke0.github.io/posts/2026-03-19-beyond-the-chatbot-optimizing-local-llm-agents-for-autonomous-edge-computing-workflows/",
+      "social_hook": "Large language models (LLMs) have moved far beyond conversational chatbots. Modern deployments increasingly place local LLM agents on edge devices—industrial controllers, IoT gateways, autonomous robots, and even smartphones—to run autonomous workflows without reliance on a central cloud. This shift promises lower latency, stronger data privacy, and resilience in environments with intermittent connectivity.\n\nYet, simply loading a model onto an edge node and issuing prompts is rarely enough. Edge workloads have strict constraints on compute, memory, power, and network bandwidth. To unlock the full potential of local LLM agents, developers must think like system architects: they need to optimize model selection, inference pipelines, memory management, and orchestration logic while preserving the model’s reasoning capabilities.\n\n3. A systematic optimization framework—from model quantization to workflow orchestration.",
+      "tags": [
+        "LLM",
+        "EdgeComputing",
+        "AutonomousAgents",
+        "Optimization",
+        "AIWorkflows"
+      ],
+      "scheduled_at": "2026-03-19T19:03:48Z",
+      "status": "pending"
     }
   ]
 }
