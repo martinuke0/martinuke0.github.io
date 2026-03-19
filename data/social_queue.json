@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-19T10:03:48Z",
+  "last_scheduled_at": "2026-03-19T11:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -5262,6 +5262,20 @@
       ],
       "scheduled_at": "2026-03-19T10:03:48Z",
       "status": "posted"
+    },
+    {
+      "title": "Scaling Sovereign AI Agents with Lua Scripting and Distributed Vector Database Orchestration",
+      "url": "https://martinuke0.github.io/posts/2026-03-19-scaling-sovereign-ai-agents-with-lua-scripting-and-distributed-vector-database-orchestration/",
+      "social_hook": "Artificial intelligence is moving beyond monolithic models toward sovereign AI agents—autonomous software entities capable of perceiving, reasoning, and acting in complex environments with minimal human supervision. As these agents proliferate, the need for scalable orchestration becomes paramount. Two technologies that are uniquely suited to this challenge are:\n\n1. Lua scripting, a lightweight, embeddable language that excels at runtime customization and sandboxed execution.\n\n2. Distributed vector databases (e.g., Milvus, Pinecone, Weaviate), which provide fast, similarity‑based retrieval over billions of high‑dimensional embeddings.",
+      "tags": [
+        "AI agents",
+        "Lua",
+        "vector databases",
+        "distributed systems",
+        "scalability"
+      ],
+      "scheduled_at": "2026-03-19T11:03:48Z",
+      "status": "pending"
     }
   ]
 }
