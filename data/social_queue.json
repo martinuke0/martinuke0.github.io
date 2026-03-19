@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-19T06:03:48Z",
+  "last_scheduled_at": "2026-03-19T07:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -5205,6 +5205,20 @@
       ],
       "scheduled_at": "2026-03-19T06:03:48Z",
       "status": "posted"
+    },
+    {
+      "title": "Orchestrating Distributed Vector Databases for High‑Throughput Multimodal Retrieval‑Augmented Generation",
+      "url": "https://martinuke0.github.io/posts/2026-03-19-orchestrating-distributed-vector-databases-for-highthroughput-multimodal-retrievalaugmented-generation/",
+      "social_hook": "Retrieval‑augmented generation (RAG) has become a cornerstone of modern AI applications. By coupling large language models (LLMs) with external knowledge sources, RAG systems can produce more factual, up‑to‑date, and context‑aware outputs. When the knowledge source is multimodal—images, audio, video, and text—the underlying retrieval engine must handle high‑dimensional embeddings from multiple modalities, support massive throughput, and stay low‑latency even under heavy load.\n\nEnter distributed vector databases. These systems store embeddings as vectors, index them for similarity search, and expose APIs that let downstream models retrieve the most relevant items in milliseconds. However, a single node quickly becomes a bottleneck as data volume, query rate, and model size grow. Orchestrating a cluster of vector stores—with intelligent sharding, replication, load‑balancing, and observability—enables RAG pipelines that can serve millions of queries per day while supporting real‑time multimodal ingestion.\n\nThis article provides a deep dive into the architectural, operational, and practical aspects of orchestrating distributed vector databases for high‑throughput multimodal RAG systems. We will:",
+      "tags": [
+        "vector databases",
+        "distributed systems",
+        "retrieval-augmented generation",
+        "multimodal AI",
+        "orchestration"
+      ],
+      "scheduled_at": "2026-03-19T07:03:48Z",
+      "status": "pending"
     }
   ]
 }
