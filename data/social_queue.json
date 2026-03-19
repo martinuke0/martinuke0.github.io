@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-19T13:03:48Z",
+  "last_scheduled_at": "2026-03-19T14:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -5304,6 +5304,20 @@
       ],
       "scheduled_at": "2026-03-19T13:03:48Z",
       "status": "posted"
+    },
+    {
+      "title": "Optimizing Local Inference: Running 100B‑Parameter Models on Consumer Hardware",
+      "url": "https://martinuke0.github.io/posts/2026-03-19-optimizing-local-inference-running-100bparameter-models-on-consumer-hardware/",
+      "social_hook": "Large language models (LLMs) have exploded in size over the past few years, with the most capable variants now exceeding 100 billion parameters (100 B). While cloud‑based APIs make these models accessible, many developers, hobbyists, and enterprises desire local inference for reasons ranging from data privacy to latency control and cost reduction.\n\nRunning a 100 B‑parameter model on a consumer‑grade machine—think a high‑end desktop or a laptop—once seemed impossible. However, a combination of model compression, smart memory management, and highly optimized runtimes now makes it feasible to generate useful results, albeit with trade‑offs in speed and precision.\n\n* Applying compression techniques that shrink the model without destroying its capabilities.",
+      "tags": [
+        "machine learning",
+        "local inference",
+        "large language models",
+        "performance optimization",
+        "consumer hardware"
+      ],
+      "scheduled_at": "2026-03-19T14:03:48Z",
+      "status": "pending"
     }
   ]
 }
