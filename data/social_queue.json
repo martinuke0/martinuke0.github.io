@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-19T04:03:48Z",
+  "last_scheduled_at": "2026-03-19T05:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -5177,6 +5177,20 @@
       ],
       "scheduled_at": "2026-03-19T04:03:48Z",
       "status": "posted"
+    },
+    {
+      "title": "Scaling Private Multi‑Agent Swarms with Confidential Computing and Verifiable Trusted Execution Environments",
+      "url": "https://martinuke0.github.io/posts/2026-03-19-scaling-private-multiagent-swarms-with-confidential-computing-and-verifiable-trusted-execution-environments/",
+      "social_hook": "The rise of autonomous multi‑agent swarms—whether they are fleets of delivery drones, swarms of underwater robots, or coordinated edge AI sensors—has opened new horizons for logistics, surveillance, environmental monitoring, and disaster response. These systems promise massive scalability, robustness through redundancy, and real‑time collective intelligence. However, the very characteristics that make swarms attractive also expose them to a unique set of security and privacy challenges:\n\n Data confidentiality:** Agents constantly exchange raw sensor streams, mission plans, and learned models that may contain proprietary or personally identifiable information (PII).\n\n Integrity and trust:** A compromised node can inject malicious commands, corrupt the collective decision‑making process, or exfiltrate data.",
+      "tags": [
+        "confidential-computing",
+        "multi-agent-systems",
+        "trusted-execution-environments",
+        "privacy",
+        "distributed-systems"
+      ],
+      "scheduled_at": "2026-03-19T05:03:48Z",
+      "status": "pending"
     }
   ]
 }
