@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-19T09:03:48Z",
+  "last_scheduled_at": "2026-03-19T10:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -5248,6 +5248,20 @@
       ],
       "scheduled_at": "2026-03-19T09:03:48Z",
       "status": "posted"
+    },
+    {
+      "title": "Engineering Intelligent Agents: Scaling Autonomous Workflows with Large Language Models and Vector search",
+      "url": "https://martinuke0.github.io/posts/2026-03-19-engineering-intelligent-agents-scaling-autonomous-workflows-with-large-language-models-and-vector-search/",
+      "social_hook": "The convergence of large language models (LLMs) and vector‑based similarity search has opened a new frontier for building intelligent agents that can reason, retrieve, and act with minimal human supervision.  While early chatbots relied on static rule‑sets or simple retrieval‑based pipelines, today’s agents can:\n\n Understand natural language** at a near‑human level thanks to models such as GPT‑4, Claude, or LLaMA‑2.\n\n Navigate massive knowledge bases** using dense vector embeddings and approximate nearest‑neighbor (ANN) indexes.",
+      "tags": [
+        "AI",
+        "LLM",
+        "VectorSearch",
+        "AutonomousAgents",
+        "WorkflowAutomation"
+      ],
+      "scheduled_at": "2026-03-19T10:03:48Z",
+      "status": "pending"
     }
   ]
 }
