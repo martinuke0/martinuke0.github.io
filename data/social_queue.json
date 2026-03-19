@@ -5162,7 +5162,7 @@
         "2024-2026"
       ],
       "scheduled_at": "2026-03-19T03:03:48Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Scaling Agentic AI Frameworks with Distributed Vector Databases and Long Term Memory",
@@ -5176,7 +5176,7 @@
         "Scalability"
       ],
       "scheduled_at": "2026-03-19T04:03:48Z",
-      "status": "pending"
+      "status": "posted"
     }
   ]
 }
