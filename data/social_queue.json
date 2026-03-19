@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-18T23:03:48Z",
+  "last_scheduled_at": "2026-03-19T00:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -5107,6 +5107,20 @@
       ],
       "scheduled_at": "2026-03-18T23:03:48Z",
       "status": "posted"
+    },
+    {
+      "title": "Scaling Distributed Inference Engines with Custom Kernel Optimization and Adaptive Batching Strategies",
+      "url": "https://martinuke0.github.io/posts/2026-03-19-scaling-distributed-inference-engines-with-custom-kernel-optimization-and-adaptive-batching-strategies/",
+      "social_hook": "The demand for real‑time machine‑learning inference has exploded across industries—from recommendation engines that serve millions of users per second to autonomous‑vehicle perception stacks that must make decisions within a few milliseconds. While training pipelines have long benefited from massive GPU clusters and sophisticated graph optimizers, production inference workloads present a different set of challenges:\n\n1. Latency guarantees – Many user‑facing services cannot tolerate more than a few tens of milliseconds of tail latency.\n\n2. Throughput pressure – A single model may need to process thousands of requests per second on a single node, let alone across a fleet.",
+      "tags": [
+        "distributed-systems",
+        "inference",
+        "kernel-optimization",
+        "batching",
+        "scalability"
+      ],
+      "scheduled_at": "2026-03-19T00:03:48Z",
+      "status": "pending"
     }
   ]
 }
