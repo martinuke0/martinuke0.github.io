@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-19T15:03:48Z",
+  "last_scheduled_at": "2026-03-19T16:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -5332,6 +5332,20 @@
       ],
       "scheduled_at": "2026-03-19T15:03:48Z",
       "status": "posted"
+    },
+    {
+      "title": "Real-Time Low-Latency Information Retrieval Using Redis Vector Databases and Concurrent Python Systems",
+      "url": "https://martinuke0.github.io/posts/2026-03-19-real-time-low-latency-information-retrieval-using-redis-vector-databases-and-concurrent-python-systems/",
+      "social_hook": "In the era of AI‑augmented products, users expect answers instantaneously. Whether it’s a chatbot that must retrieve the most relevant knowledge‑base article, an e‑commerce site recommending similar products, or a security system scanning logs for anomalies, the underlying information‑retrieval (IR) component must be both semantic (understanding meaning) and real‑time (delivering results in milliseconds).\n\nTraditional keyword‑based search engines excel at latency but falter when the query’s intent is expressed in natural language. Vector similarity search—where documents and queries are represented as high‑dimensional embeddings—solves the semantic gap, but it introduces new challenges: large vector collections, costly distance calculations, and the need for fast indexing structures.\n\nRedis, long known for its ultra‑low latency key‑value store, has evolved into a vector database with the RediSearch module. Combined with Python’s concurrency primitives (asyncio, threading, multiprocessing), Redis can power real‑time low‑latency IR systems that scale to millions of vectors while serving thousands of queries per second.",
+      "tags": [
+        "redis",
+        "vector-database",
+        "information-retrieval",
+        "python",
+        "concurrency"
+      ],
+      "scheduled_at": "2026-03-19T16:03:48Z",
+      "status": "pending"
     }
   ]
 }
