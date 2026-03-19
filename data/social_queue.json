@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-19T12:03:48Z",
+  "last_scheduled_at": "2026-03-19T13:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -5290,6 +5290,20 @@
       ],
       "scheduled_at": "2026-03-19T12:03:48Z",
       "status": "posted"
+    },
+    {
+      "title": "Optimizing Edge-Cloud Synergy: How Autonomous AI Agents Are Revolutionizing Real-Time Distributed Infrastructure",
+      "url": "https://martinuke0.github.io/posts/2026-03-19-optimizing-edge-cloud-synergy-how-autonomous-ai-agents-are-revolutionizing-real-time-distributed-infrastructure/",
+      "social_hook": "The rapid proliferation of connected devices, the explosion of data, and the ever‑tightening latency requirements of modern applications have forced engineers to rethink the classic “cloud‑first” paradigm. Edge computing—processing data close to its source—offers the promise of sub‑millisecond response times, reduced bandwidth consumption, and heightened privacy. Yet, edge nodes alone cannot provide the massive compute, storage, and analytics capabilities that the cloud excels at.\n\nEnter autonomous AI agents: software entities that can make decisions, coordinate actions, and self‑optimize across heterogeneous environments without human intervention. By embedding these agents at both the edge and the cloud, organizations can achieve a truly synergistic architecture where workloads are dynamically placed, data is intelligently routed, and services adapt in real time to changing conditions.\n\nThis article dives deep into the technical foundations, architectural patterns, and real‑world deployments that illustrate how autonomous AI agents are reshaping the edge‑cloud continuum. We’ll explore the challenges they address, the mechanisms that enable their autonomy, and practical guidelines for building, deploying, and operating such systems at scale.",
+      "tags": [
+        "edge computing",
+        "cloud computing",
+        "autonomous agents",
+        "real-time systems",
+        "distributed architecture"
+      ],
+      "scheduled_at": "2026-03-19T13:03:48Z",
+      "status": "pending"
     }
   ]
 }
