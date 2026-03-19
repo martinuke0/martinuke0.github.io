@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-19T01:03:48Z",
+  "last_scheduled_at": "2026-03-19T02:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -5134,6 +5134,20 @@
         "One‑Shot Learning"
       ],
       "scheduled_at": "2026-03-19T01:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Latency‑Sensitive Inference Optimization for Multi‑Agent Systems in Decentralized Edge Environments",
+      "url": "https://martinuke0.github.io/posts/2026-03-19-latencysensitive-inference-optimization-for-multiagent-systems-in-decentralized-edge-environments/",
+      "social_hook": "Edge computing has moved from a buzzword to a foundational pillar of modern multi‑agent systems (MAS). Whether it is a fleet of delivery drones, a network of smart cameras, or a swarm of industrial robots, each agent must make real‑time decisions based on locally sensed data and, often, on information exchanged with peers. The inference workload that powers those decisions is typically a deep neural network (DNN) or a hybrid AI model.\n\nIn a decentralized edge environment, there is no single, monolithic data center that can guarantee sub‑millisecond response times. Instead, inference latency is a product of:\n\n1. Model size and computational demand on constrained hardware (e.g., ARM CPUs, low‑power GPUs, NPUs).",
+      "tags": [
+        "edge computing",
+        "multi-agent systems",
+        "inference optimization",
+        "latency",
+        "decentralized AI"
+      ],
+      "scheduled_at": "2026-03-19T02:03:48Z",
       "status": "pending"
     }
   ]
