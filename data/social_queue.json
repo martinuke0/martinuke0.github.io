@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-19T14:03:48Z",
+  "last_scheduled_at": "2026-03-19T15:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -5318,6 +5318,20 @@
       ],
       "scheduled_at": "2026-03-19T14:03:48Z",
       "status": "posted"
+    },
+    {
+      "title": "Optimizing Large Language Model Inference Performance with Custom CUDA Kernels and Distributed Systems",
+      "url": "https://martinuke0.github.io/posts/2026-03-19-optimizing-large-language-model-inference-performance-with-custom-cuda-kernels-and-distributed-systems/",
+      "social_hook": "Large Language Models (LLMs) such as GPT‑3, LLaMA, and PaLM have demonstrated unprecedented capabilities across natural‑language processing tasks. However, their size—often ranging from hundreds of millions to hundreds of billions of parameters—poses a formidable challenge when serving them in production. Inference latency, memory consumption, and throughput become critical bottlenecks, especially for real‑time applications like chat assistants, code generation, or recommendation engines.\n\n1. Custom CUDA kernels that replace generic GPU operations with highly tuned, application‑specific implementations.\n\n2. Distributed inference systems that split the model or the workload across multiple GPUs, nodes, or even heterogeneous hardware.",
+      "tags": [
+        "LLM",
+        "CUDA",
+        "Distributed Systems",
+        "Inference Optimization",
+        "GPU"
+      ],
+      "scheduled_at": "2026-03-19T15:03:48Z",
+      "status": "pending"
     }
   ]
 }
