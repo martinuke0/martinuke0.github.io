@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-20T11:02:50Z",
+  "last_scheduled_at": "2026-03-20T12:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -5599,6 +5599,20 @@
       ],
       "scheduled_at": "2026-03-20T11:02:50Z",
       "status": "posted"
+    },
+    {
+      "title": "Architecting Decentralized Autonomous Agents with Confidential Computing and Verifiable Multi‑agent Orchestration",
+      "url": "https://martinuke0.github.io/posts/2026-03-20-architecting-decentralized-autonomous-agents-with-confidential-computing-and-verifiable-multiagent-orchestration/",
+      "social_hook": "The convergence of confidential computing, decentralized autonomous agents, and verifiable multi‑agent orchestration is reshaping how distributed systems handle sensitive data, trust, and coordination. Imagine a network of self‑governing software entities—agents—that can execute private business logic, exchange proofs of correct execution, and dynamically compose workflows without relying on a single trusted party. Such a system promises:\n\n Strong integrity guarantees** through cryptographic attestation and verifiable computation.\n\n Scalable, fault‑tolerant orchestration** that can adapt to changing participants and policies.",
+      "tags": [
+        "confidential-computing",
+        "decentralized-agents",
+        "orchestration",
+        "zero-trust",
+        "blockchain"
+      ],
+      "scheduled_at": "2026-03-20T12:02:50Z",
+      "status": "pending"
     }
   ]
 }
