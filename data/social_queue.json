@@ -5769,7 +5769,7 @@
         "retrieval"
       ],
       "scheduled_at": "2026-03-20T23:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Mastering Personal LLM Quantization: Running 100B Parameter Models on Consumer-Grade Edge Hardware",
