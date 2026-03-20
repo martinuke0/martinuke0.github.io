@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-20T21:02:50Z",
+  "last_scheduled_at": "2026-03-20T22:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -5741,6 +5741,20 @@
         "Large Language Models"
       ],
       "scheduled_at": "2026-03-20T21:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Accelerating Edge Intelligence with Dynamic Quantization and Hybrid Execution on Low‑Power Devices",
+      "url": "https://martinuke0.github.io/posts/2026-03-20-accelerating-edge-intelligence-with-dynamic-quantization-and-hybrid-execution-on-lowpower-devices/",
+      "social_hook": "Edge intelligence—running artificial‑intelligence (AI) workloads directly on devices such as wearables, drones, industrial sensors, and IoT gateways—has moved from a research curiosity to a commercial necessity. The promise is clear: lower latency, enhanced privacy, and reduced bandwidth costs because data never has to travel to a remote cloud. However, edge devices are constrained by limited compute, memory, and energy budgets.\n\nTwo complementary techniques have emerged as the most effective ways to bridge the gap between the computational demand of modern deep‑learning models and the modest resources of edge hardware:\n\n1. Dynamic Quantization – converting floating‑point weights and activations to lower‑precision integer representations at runtime while preserving most of the model’s accuracy.",
+      "tags": [
+        "edge computing",
+        "quantization",
+        "hybrid execution",
+        "low-power AI",
+        "model optimization"
+      ],
+      "scheduled_at": "2026-03-20T22:02:50Z",
       "status": "pending"
     }
   ]
