@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-20T01:03:48Z",
+  "last_scheduled_at": "2026-03-20T02:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -5472,6 +5472,20 @@
         "retrieval"
       ],
       "scheduled_at": "2026-03-20T01:03:48Z",
+      "status": "pending"
+    },
+    {
+      "title": "Beyond Generative AI: Implementing Agentic Workflows with the New Open-Action Protocol Standard",
+      "url": "https://martinuke0.github.io/posts/2026-03-20-beyond-generative-ai-implementing-agentic-workflows-with-the-new-open-action-protocol-standard/",
+      "social_hook": "The rise of generative AI models—large language models (LLMs), diffusion models, and multimodal transformers—has dramatically expanded what machines can create. Yet many developers still view these models as isolated “black‑box” services that simply receive a prompt and return text, images, or code. In practice, real‑world applications demand far more than a single turn of generation; they require agentic workflows—autonomous, goal‑directed sequences of actions that combine multiple AI services, traditional APIs, and human‑in‑the‑loop checkpoints.\n\nEnter the Open-Action Protocol (OAP), a community‑driven standard that formalizes how agents describe, negotiate, and execute actions across heterogeneous services. OAP provides a machine‑readable contract for what an action does, how it is invoked, and what guarantees (e.g., privacy, latency, cost) accompany it. By adopting OAP, developers can compose sophisticated agentic pipelines without hard‑coding proprietary SDKs, thereby achieving true interoperability and future‑proofing their AI integrations.\n\nThis article dives deep into the conceptual underpinnings of agentic workflows, explains the Open-Action Protocol specification, and walks through two end‑to‑end implementations—an automated customer‑support bot and a data‑pipeline orchestrator. By the end, you’ll have a concrete roadmap for turning generative AI from a single‑shot tool into a full‑featured autonomous collaborator.",
+      "tags": [
+        "generative AI",
+        "agentic workflows",
+        "Open-Action Protocol",
+        "AI orchestration",
+        "software architecture"
+      ],
+      "scheduled_at": "2026-03-20T02:03:48Z",
       "status": "pending"
     }
   ]
