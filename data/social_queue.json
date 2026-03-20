@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-20T02:03:48Z",
+  "last_scheduled_at": "2026-03-20T04:02:44Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -5487,6 +5487,20 @@
       ],
       "scheduled_at": "2026-03-20T02:03:48Z",
       "status": "posted"
+    },
+    {
+      "title": "Scaling Edge Intelligence with Distributed Vector Databases and Rust‑Based WebAssembly Runtimes",
+      "url": "https://martinuke0.github.io/posts/2026-03-20-scaling-edge-intelligence-with-distributed-vector-databases-and-rustbased-webassembly-runtimes/",
+      "social_hook": "Edge intelligence—the ability to run sophisticated AI/ML workloads close to the data source—has moved from a research curiosity to a production imperative. From autonomous vehicles that must react within milliseconds to IoT sensors that need on‑device anomaly detection, latency, bandwidth, and privacy constraints increasingly dictate that inference and even training happen at the edge.\n\n1. Distributed vector databases that store high‑dimensional embeddings (the numerical representations produced by neural networks) across many nodes, enabling fast similarity search without a central bottleneck.\n\n2. Rust‑based WebAssembly (Wasm) runtimes that provide a safe, portable, and near‑native execution environment for edge workloads, while leveraging Rust’s performance and memory safety guarantees.",
+      "tags": [
+        "edge computing",
+        "vector databases",
+        "rust",
+        "webassembly",
+        "distributed systems"
+      ],
+      "scheduled_at": "2026-03-20T04:02:44Z",
+      "status": "pending"
     }
   ]
 }
