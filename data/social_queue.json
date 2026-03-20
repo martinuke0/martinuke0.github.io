@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-20T13:02:50Z",
+  "last_scheduled_at": "2026-03-20T14:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -5628,6 +5628,20 @@
       ],
       "scheduled_at": "2026-03-20T13:02:50Z",
       "status": "posted"
+    },
+    {
+      "title": "Understanding the Kardashev Scale: From Type I to Cosmic Megastructures",
+      "url": "https://martinuke0.github.io/posts/2026-03-20-understanding-the-kardashev-scale-from-type-i-to-cosmic-megastructures/",
+      "social_hook": "The Kardashev Scale is one of the most iconic frameworks in astrobiology and futurism. Proposed by Soviet astronomer Nikolai Kardashev in 1964, it offers a quantitative way to discuss the technological advancement of extraterrestrial civilizations based on their ability to harness energy. While the original scale comprised three categories—Type I, Type II, and Type III—subsequent scholars have expanded it to include higher levels (Type IV, Type V, and beyond) that contemplate energy use on galactic, universal, or even multiversal scales.\n\nWhy does this matter to us? The scale provides a common language for scientists, engineers, and philosophers to discuss humanity’s potential trajectory, the feasibility of detecting alien intelligence, and the ethical implications of large‑scale engineering projects. In this article we will explore the Kardashev Scale in depth, examine real‑world analogues, discuss its scientific strengths and limitations, and consider what it means for the future of humanity.\n\nKardashev wrote his seminal paper, “Transmission of Information by Extraterrestrial Civilizations,” during a period when humanity was rapidly expanding its own energy consumption. The launch of the first artificial satellites, the rise of nuclear power, and the Space Race created a cultural environment that fostered speculation about the energy capabilities of alien societies.",
+      "tags": [
+        "astrobiology",
+        "civilization",
+        "energy",
+        "SETI",
+        "future"
+      ],
+      "scheduled_at": "2026-03-20T14:02:50Z",
+      "status": "pending"
     }
   ]
 }
