@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-20T22:02:50Z",
+  "last_scheduled_at": "2026-03-20T23:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -5755,6 +5755,20 @@
         "model optimization"
       ],
       "scheduled_at": "2026-03-20T22:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Vector Search Performance with Quantization Techniques for Large Scale Production RAG Systems",
+      "url": "https://martinuke0.github.io/posts/2026-03-20-optimizing-vector-search-performance-with-quantization-techniques-for-large-scale-production-rag-systems/",
+      "social_hook": "Retrieval‑Augmented Generation (RAG) has become the de‑facto paradigm for building LLM‑powered applications that need up‑to‑date, factual knowledge. At the heart of any RAG system lies a vector search engine that can quickly locate the most relevant passages, documents, or multimodal embeddings from a corpus that can easily stretch into billions of items.\n\nWhile raw embedding vectors (e.g., 768‑dimensional BERT outputs or 1536‑dimensional OpenAI embeddings) provide excellent semantic fidelity, they are also expensive to store and to search. Memory consumption, I/O bandwidth, and latency become bottlenecks when scaling beyond a few hundred million vectors.\n\nQuantization—the process of representing high‑dimensional floating‑point vectors with low‑bit codes—offers a powerful lever to shrink memory footprints, accelerate distance computations, and keep latency within production SLAs without sacrificing too much recall. In this article we dive deep into the theory, practical implementations, and engineering trade‑offs of quantization techniques for large‑scale RAG systems.",
+      "tags": [
+        "vector search",
+        "quantization",
+        "RAG",
+        "large-scale systems",
+        "retrieval"
+      ],
+      "scheduled_at": "2026-03-20T23:02:50Z",
       "status": "pending"
     }
   ]
