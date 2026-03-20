@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-20T17:02:50Z",
+  "last_scheduled_at": "2026-03-20T18:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -5683,6 +5683,21 @@
         "software-engineering"
       ],
       "scheduled_at": "2026-03-20T17:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Galactic-Scale RPC Systems: Dyson Spheres and Matrioshka Brains Spanning the Cosmos",
+      "url": "https://martinuke0.github.io/posts/2026-03-20-galactic-scale-rpc-systems-dyson-spheres-and-matrioshka-brains-spanning-the-cosmos/",
+      "social_hook": "Imagine a future where civilizations harness entire stars—not just for energy, but to power interstellar networks of unfathomable intelligence. At the heart of this vision lie Dyson spheres and Matrioshka brains, megastructures that evolve into galaxy-spanning RPC systems (Remote Procedure Call networks), enabling seamless computation across cosmic distances. These concepts, rooted in speculative astrophysics and computer science, represent the pinnacle of technological ambition on the Kardashev scale.[1][2]\n\nThis article delves deep into their mechanics, construction challenges, computational power, and potential for forming vast, galaxy-wide RPC frameworks. We'll explore real-world theoretical foundations, practical engineering hurdles, and speculative extensions to galactic empires, drawing from pioneering ideas by Freeman Dyson, Robert Bradbury, and beyond.\n\nA Dyson sphere is a hypothetical megastructure proposed by physicist Freeman Dyson in 1960, designed to enclose a star and capture nearly 100% of its energy output. Unlike a solid shell—which would be structurally unstable due to gravitational forces—practical designs favor Dyson swarms: vast arrays of orbiting solar collectors, satellites, or statites (stationary satellites using light pressure).[1][3]",
+      "tags": [
+        "Matrioshka Brains",
+        "Dyson Spheres",
+        "RPC Systems",
+        "Kardashev Scale",
+        "Megastructures",
+        "Superintelligence"
+      ],
+      "scheduled_at": "2026-03-20T18:02:50Z",
       "status": "pending"
     }
   ]
