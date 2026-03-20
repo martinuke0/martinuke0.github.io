@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-20T00:03:48Z",
+  "last_scheduled_at": "2026-03-20T01:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -5459,6 +5459,20 @@
       ],
       "scheduled_at": "2026-03-20T00:03:48Z",
       "status": "posted"
+    },
+    {
+      "title": "Scaling Distributed Vector Databases for High-Performance Retrieval in Multi-Modal Deep Learning Systems",
+      "url": "https://martinuke0.github.io/posts/2026-03-20-scaling-distributed-vector-databases-for-high-performance-retrieval-in-multi-modal-deep-learning-systems/",
+      "social_hook": "The rapid rise of multi‑modal deep learning—systems that jointly process text, images, video, audio, and even sensor data—has created a new bottleneck: efficient similarity search over massive embedding collections. Modern models such as CLIP, BLIP, or Whisper generate high‑dimensional vectors (often 256–1,024 dimensions) for each modality, and downstream tasks (e.g., cross‑modal retrieval, recommendation, or knowledge‑base augmentation) rely on fast nearest‑neighbor (NN) look‑ups.\n\nTraditional single‑node vector stores (FAISS, Annoy, HNSWlib) quickly hit scalability limits when the index grows beyond a few hundred million vectors or when latency requirements dip below 10 ms. The solution is to scale vector databases horizontally, distributing data and query processing across many machines while preserving high recall and low latency.\n\nThis article provides a deep dive into the architectural patterns, engineering trade‑offs, and practical implementations for scaling distributed vector databases in multi‑modal deep learning pipelines. We will:",
+      "tags": [
+        "vector-database",
+        "distributed-systems",
+        "deep-learning",
+        "multimodal",
+        "retrieval"
+      ],
+      "scheduled_at": "2026-03-20T01:03:48Z",
+      "status": "pending"
     }
   ]
 }
