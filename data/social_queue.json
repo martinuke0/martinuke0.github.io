@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-20T10:02:50Z",
+  "last_scheduled_at": "2026-03-20T11:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -5585,6 +5585,20 @@
       ],
       "scheduled_at": "2026-03-20T10:02:50Z",
       "status": "posted"
+    },
+    {
+      "title": "How Kafka Handles Data Persistence: A Deep Dive into Distributed Event Streaming Architecture",
+      "url": "https://martinuke0.github.io/posts/2026-03-20-how-kafka-handles-data-persistence-a-deep-dive-into-distributed-event-streaming-architecture/",
+      "social_hook": "Apache Kafka has become the de‑facto standard for distributed event streaming. While many practitioners focus on its low‑latency publish/subscribe capabilities, the true power of Kafka lies in its durable, append‑only log that guarantees data persistence across a cluster of brokers. Understanding how Kafka persists data, replicates it, and recovers from failures is essential for architects building mission‑critical pipelines, event‑sourced applications, or real‑time analytics platforms.\n\n* How replication, ISR (in‑sync replica) sets, and leader election preserve durability.\n\n* Configurable retention and compaction policies that balance storage cost against compliance needs.",
+      "tags": [
+        "Kafka",
+        "Event Streaming",
+        "Data Persistence",
+        "Distributed Systems",
+        "Replication"
+      ],
+      "scheduled_at": "2026-03-20T11:02:50Z",
+      "status": "pending"
     }
   ]
 }
