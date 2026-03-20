@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-21T02:02:50Z",
+  "last_scheduled_at": "2026-03-21T03:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -5811,6 +5811,20 @@
         "DistributedComputing"
       ],
       "scheduled_at": "2026-03-21T02:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Unlocking LLM Performance: A Deep Dive into Python's Scalability Challenges and Solutions",
+      "url": "https://martinuke0.github.io/posts/2026-03-20-unlocking-llm-performance-a-deep-dive-into-python/",
+      "social_hook": "Large language models (LLMs) have transformed natural‑language processing, powering everything from chatbots to code assistants. Yet, delivering the promised capabilities at scale remains a non‑trivial engineering problem—especially when the surrounding ecosystem is built on Python. Python’s ease of use, rich libraries, and vibrant community make it the language of choice for research and production, but its runtime characteristics can become bottlenecks when models grow to hundreds of billions of parameters.\n\nThis article provides a comprehensive, in‑depth exploration of the scalability challenges that Python introduces when working with LLMs, and it offers concrete, battle‑tested solutions. Whether you are a data scientist fine‑tuning a 7‑B model, a ML engineer deploying a 70‑B inference service, or a platform architect building a multi‑tenant LLM API, the patterns described here will help you unlock higher throughput, lower latency, and better resource utilization.\n\n1. Diagnose the fundamental performance constraints (memory, compute, I/O, and concurrency).",
+      "tags": [
+        "LLM",
+        "Python",
+        "Scalability",
+        "Performance",
+        "DeepLearning"
+      ],
+      "scheduled_at": "2026-03-21T03:02:50Z",
       "status": "pending"
     }
   ]
