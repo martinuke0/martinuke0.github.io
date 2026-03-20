@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-20T15:02:50Z",
+  "last_scheduled_at": "2026-03-20T16:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -5655,6 +5655,20 @@
         "production-ml"
       ],
       "scheduled_at": "2026-03-20T15:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Understanding Consensus Algorithms: Theory, Types, and Real-World Applications",
+      "url": "https://martinuke0.github.io/posts/2026-03-20-understanding-consensus-algorithms-theory-types-and-real-world-applications/",
+      "social_hook": "In any system where multiple independent participants must agree on a shared state, consensus is the cornerstone that guarantees reliability, consistency, and security. From the coordination of micro‑services in a data center to the validation of transactions across a global cryptocurrency network, consensus algorithms provide the formal rules that enable disparate nodes to converge on a single truth despite failures, network partitions, or malicious actors.\n\nThis article offers a deep dive into the world of consensus algorithms. We will explore:\n\n* Modern blockchain‑oriented mechanisms including Proof‑of‑Work, Proof‑of‑Stake, and Byzantine Fault‑Tolerant (BFT) protocols.",
+      "tags": [
+        "consensus",
+        "distributed systems",
+        "blockchain",
+        "algorithm",
+        "fault tolerance"
+      ],
+      "scheduled_at": "2026-03-20T16:02:50Z",
       "status": "pending"
     }
   ]
