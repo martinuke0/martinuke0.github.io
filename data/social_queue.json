@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-20T08:02:50Z",
+  "last_scheduled_at": "2026-03-20T09:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -5557,6 +5557,20 @@
       ],
       "scheduled_at": "2026-03-20T08:02:50Z",
       "status": "posted"
+    },
+    {
+      "title": "Beyond LLMs: Implementing Small Language Models for On-Device Edge Computing and Privacy",
+      "url": "https://martinuke0.github.io/posts/2026-03-20-beyond-llms-implementing-small-language-models-for-on-device-edge-computing-and-privacy/",
+      "social_hook": "Large language models (LLMs) such as GPT‑4, Claude, and LLaMA have captured headlines for their impressive capabilities in natural language understanding and generation. Yet their sheer size—often hundreds of billions of parameters—poses fundamental challenges for on‑device edge computing:\n\n Resource constraints**: Edge devices (smartphones, wearables, IoT gateways) have limited CPU, GPU, memory, and power budgets.\n\n Latency**: Round‑trip network latency can degrade user experience for interactive applications.",
+      "tags": [
+        "edge computing",
+        "small language models",
+        "privacy",
+        "on-device AI",
+        "model optimization"
+      ],
+      "scheduled_at": "2026-03-20T09:02:50Z",
+      "status": "pending"
     }
   ]
 }
