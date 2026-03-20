@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-20T06:02:50Z",
+  "last_scheduled_at": "2026-03-20T07:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -5529,6 +5529,20 @@
       ],
       "scheduled_at": "2026-03-20T06:02:50Z",
       "status": "posted"
+    },
+    {
+      "title": "Architecting Resilient Agentic Workflows with Local First Inference and Distributed Consensus Protocols",
+      "url": "https://martinuke0.github.io/posts/2026-03-20-architecting-resilient-agentic-workflows-with-local-first-inference-and-distributed-consensus-protocols/",
+      "social_hook": "The rise of agentic AI—autonomous software agents that can perceive, reason, and act—has opened a new frontier for building complex, self‑organizing workflows. From intelligent edge devices that process sensor data locally to large‑scale orchestration platforms that coordinate thousands of micro‑agents, the promise is clear: systems that can adapt, recover, and continue operating even in the face of network partitions, hardware failures, or malicious interference.\n\nAchieving this level of resilience, however, is non‑trivial. Traditional AI pipelines often rely on a centralized inference service: raw data is shipped to a cloud, a model runs, and the result is sent back. While simple, this architecture creates single points of failure, introduces latency, and can violate privacy regulations.\n\nLocal‑first inference flips the script. Each node—be it a smartphone, an IoT gateway, or a micro‑service—hosts a lightweight model and performs inference locally. The system then uses distributed consensus protocols (e.g., Raft, Paxos, CRDT‑based approaches) to reconcile state, propagate updates, and guarantee eventual consistency across the network.",
+      "tags": [
+        "AI",
+        "Distributed Systems",
+        "Agentic Workflows",
+        "Local First",
+        "Consensus"
+      ],
+      "scheduled_at": "2026-03-20T07:02:50Z",
+      "status": "pending"
     }
   ]
 }
