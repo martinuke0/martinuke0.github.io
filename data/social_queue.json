@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-20T05:02:50Z",
+  "last_scheduled_at": "2026-03-20T06:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -5515,6 +5515,20 @@
       ],
       "scheduled_at": "2026-03-20T05:02:50Z",
       "status": "posted"
+    },
+    {
+      "title": "Optimizing Multi-Agent RAG Systems with Kubernetes and Distributed Graph Database Architectures",
+      "url": "https://martinuke0.github.io/posts/2026-03-20-optimizing-multi-agent-rag-systems-with-kubernetes-and-distributed-graph-database-architectures/",
+      "social_hook": "2. Background: Retrieval‑Augmented Generation (RAG) and Multi‑Agent Architectures\n\nRetrieval‑augmented generation (RAG) has become the de‑facto pattern for building LLM‑powered applications that need up‑to‑date, domain‑specific knowledge. When a single LLM is tasked with answering thousands of queries per second, latency, cost, and knowledge consistency quickly become bottlenecks. A multi‑agent RAG system—where many specialized agents collaborate, each handling retrieval, reasoning, or generation—offers a path to both scalability and functional decomposition.\n\nHowever, orchestrating dozens or hundreds of agents, each with its own state, caching layer, and access to a massive knowledge graph, is non‑trivial. This is where Kubernetes and distributed graph databases intersect: Kubernetes provides the elastic, declarative infrastructure to spin up and tear down agent pods, while a distributed graph store supplies a low‑latency, globally consistent knowledge base that all agents can query.",
+      "tags": [
+        "RAG",
+        "Kubernetes",
+        "Graph Database",
+        "Multi-Agent",
+        "Scalability"
+      ],
+      "scheduled_at": "2026-03-20T06:02:50Z",
+      "status": "pending"
     }
   ]
 }
