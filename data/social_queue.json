@@ -5641,7 +5641,7 @@
         "future"
       ],
       "scheduled_at": "2026-03-20T14:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Scaling Fluid Transformers: How Differential Attention is Replacing Standard Softmax in Production Models",
