@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-20T12:02:50Z",
+  "last_scheduled_at": "2026-03-20T13:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -5613,6 +5613,21 @@
       ],
       "scheduled_at": "2026-03-20T12:02:50Z",
       "status": "posted"
+    },
+    {
+      "title": "Demystifying SCALE: The AI Breakthrough Revolutionizing Virtual Cell Predictions",
+      "url": "https://martinuke0.github.io/posts/2026-03-20-demystifying-scale-the-ai-breakthrough-revolutionizing-virtual-cell-predictions/",
+      "social_hook": "Imagine a world where scientists could test thousands of drugs on virtual human cells without ever stepping into a lab. No animal testing, no rare cell cultures destroyed, just pure computational power predicting how cells react to genetic tweaks, chemicals, or immune signals. This isn't science fiction—it's the promise of virtual cell models, and a new research paper introduces SCALE, a cutting-edge AI system that's pushing this vision closer to reality.[1]\n\nThe paper, titled \"SCALE: Scalable Conditional Atlas-Level Endpoint transport for virtual cell perturbation prediction\", tackles three massive roadblocks in this field: slow computing pipelines, unstable predictions in complex data spaces, and flawed evaluation methods that prioritize pixel-perfect recreations over real biology. SCALE doesn't just patch these issues—it redesigns the entire approach, delivering speedups of over 12x in training and measurable gains in biological accuracy.[1] In this post, we'll break it down step-by-step for a general technical audience: developers, data scientists, and bio-curious engineers who want the substance without the jargon overload.\n\nWe'll explore what virtual cells are, why perturbation prediction matters, how SCALE innovates, and what it means for drug discovery and beyond. By the end, you'll grasp why this isn't just another AI paper—it's a blueprint for scaling biology like we scaled language models.",
+      "tags": [
+        "AI",
+        "Biology",
+        "Single-Cell Analysis",
+        "Foundation Models",
+        "Virtual Cells",
+        "Perturbation Prediction"
+      ],
+      "scheduled_at": "2026-03-20T13:02:50Z",
+      "status": "pending"
     }
   ]
 }
