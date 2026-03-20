@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-20T18:02:50Z",
+  "last_scheduled_at": "2026-03-20T19:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -5698,6 +5698,20 @@
         "Superintelligence"
       ],
       "scheduled_at": "2026-03-20T18:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Decoding the AI Coding Revolution: Inside OpenAI Codex's Agentic Architecture and Beyond",
+      "url": "https://martinuke0.github.io/posts/2026-03-20-decoding-the-ai-coding-revolution-inside-openai-codex/",
+      "social_hook": "OpenAI's Codex represents a paradigm shift in software development, transforming AI from a mere code suggester into a full-fledged coding agent capable of handling complex, multi-step tasks autonomously. At its core, Codex leverages advanced language models like GPT-5.3-Codex to execute an agent loop that iterates through reasoning, tool usage, and validation, all within isolated cloud sandboxes preloaded with your codebase[1][5]. This isn't just about generating code snippets—it's about orchestrating entire workflows that mimic (and often surpass) human developer processes, from bug fixes to large-scale refactors[3][8].\n\nWhat makes Codex compelling is its engineering depth: beyond the model itself lies a sophisticated orchestration layer that manages prompts, context, multi-agent parallelism, and cross-platform integration. Drawing from public OpenAI announcements and real-world reviews, this post dives deep into how Codex works, its architectural innovations, practical applications, and broader implications for the future of engineering[4][2]. We'll explore connections to fields like reinforcement learning, distributed systems, and cybersecurity, providing actionable insights for developers, engineering leaders, and AI enthusiasts.\n\nCoding assistants have come a long way since the days of simple tab-completion tools like GitHub Copilot. Early systems relied on fine-tuned language models to predict the next token in a sequence, but they struggled with long-term planning, context retention, and real-world execution. Codex flips this script by introducing agentic coding, where AI doesn't just suggest—it acts[5].",
+      "tags": [
+        "AI Coding Agents",
+        "OpenAI Codex",
+        "Agentic AI",
+        "Software Engineering",
+        "DevOps Automation"
+      ],
+      "scheduled_at": "2026-03-20T19:02:50Z",
       "status": "pending"
     }
   ]
