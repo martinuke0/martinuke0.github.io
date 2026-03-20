@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-20T14:02:50Z",
+  "last_scheduled_at": "2026-03-20T15:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -5641,6 +5641,20 @@
         "future"
       ],
       "scheduled_at": "2026-03-20T14:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Scaling Fluid Transformers: How Differential Attention is Replacing Standard Softmax in Production Models",
+      "url": "https://martinuke0.github.io/posts/2026-03-20-scaling-fluid-transformers-how-differential-attention-is-replacing-standard-softmax-in-production-models/",
+      "social_hook": "Transformer architectures have become the de‑facto standard for a wide range of natural language processing (NLP), computer vision, and multimodal tasks. At their core lies softmax‑based attention, a mechanism that computes a weighted sum of value vectors based on the similarity of query and key vectors. While softmax attention is elegant and highly expressive, it also suffers from quadratic time‑ and memory‑complexity with respect to sequence length.\n\nFor research prototypes, this cost is often tolerable, but in production environments—think real‑time recommendation engines, large‑scale language models serving billions of queries per day, or edge devices with strict latency budgets—softmax becomes a bottleneck.\n\nEnter Differential Attention (DA), a mathematically grounded replacement for softmax that leverages differential equations to approximate the attention distribution. Coupled with Fluid Transformers, a family of models that treat attention as a continuous “fluid” flowing over tokens, DA provides linear‑time scaling, better numerical stability, and a smoother integration with modern hardware accelerators.",
+      "tags": [
+        "transformers",
+        "attention",
+        "differential-attention",
+        "scalable-ml",
+        "production-ml"
+      ],
+      "scheduled_at": "2026-03-20T15:02:50Z",
       "status": "pending"
     }
   ]
