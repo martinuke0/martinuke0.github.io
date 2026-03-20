@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-20T19:02:50Z",
+  "last_scheduled_at": "2026-03-20T20:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -5712,6 +5712,20 @@
         "DevOps Automation"
       ],
       "scheduled_at": "2026-03-20T19:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering the Cloudflare API Tool: A Comprehensive Guide",
+      "url": "https://martinuke0.github.io/posts/2026-03-20-mastering-the-cloudflare-api-tool-a-comprehensive-guide/",
+      "social_hook": "Cloudflare has become the de‑facto platform for delivering fast, secure, and reliable web experiences. While most users interact with Cloudflare through its web dashboard, the real power lies in its API. The Cloudflare API lets you automate virtually every action you can perform in the UI—creating DNS records, configuring firewall rules, deploying serverless Workers, and pulling analytics data—all from scripts, CI/CD pipelines, or custom tooling.\n\nBy the end, you should be able to design, implement, and maintain a robust automation layer around Cloudflare, turning repetitive UI clicks into repeatable, version‑controlled code.\n\n REST** is straightforward: each resource has a dedicated endpoint (`/zones/:zone_id/dns_records`). It works well for scripting single‑resource actions.",
+      "tags": [
+        "cloudflare",
+        "api",
+        "devops",
+        "automation",
+        "networking"
+      ],
+      "scheduled_at": "2026-03-20T20:02:50Z",
       "status": "pending"
     }
   ]
