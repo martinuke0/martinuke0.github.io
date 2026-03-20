@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-20T20:02:50Z",
+  "last_scheduled_at": "2026-03-20T21:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -5726,6 +5726,21 @@
         "networking"
       ],
       "scheduled_at": "2026-03-20T20:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Demystifying AI Confidence: How Uncertainty Estimation Scales in Reasoning Models",
+      "url": "https://martinuke0.github.io/posts/2026-03-20-demystifying-ai-confidence-how-uncertainty-estimation-scales-in-reasoning-models/",
+      "social_hook": "Imagine you're at a crossroads, asking your GPS for directions. It confidently declares, \"Turn left in 500 feet!\" But what if that left turn leads straight into a dead end? In the world of AI, especially advanced reasoning models like those powering modern chatbots, this overconfidence is a real problem. These models can solve complex math puzzles or analyze scientific data, but they often act too sure—even when they're wrong.\n\nThe research paper \"How Uncertainty Estimation Scales with Sampling in Reasoning Models\" (arXiv:2603.19118) dives deep into this issue. It explores how AI can better gauge its own uncertainty during \"chain-of-thought\" reasoning—the step-by-step thinking process that makes models smarter. Using simple sampling techniques, the authors show how models can learn to say, \"I'm 70% sure about this,\" instead of pretending to know it all.\n\nThis blog post breaks down the paper for a general technical audience: developers, data scientists, and AI enthusiasts who want substance without the PhD-level jargon. We'll use real-world analogies, practical examples, and explain why this matters for deploying AI safely. By the end, you'll grasp how combining just a few AI \"guesses\" can dramatically boost reliability—and what it means for the future of trustworthy AI.",
+      "tags": [
+        "AI Uncertainty",
+        "Reasoning Models",
+        "Chain-of-Thought",
+        "Self-Consistency",
+        "Uncertainty Quantification",
+        "Large Language Models"
+      ],
+      "scheduled_at": "2026-03-20T21:02:50Z",
       "status": "pending"
     }
   ]
