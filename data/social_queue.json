@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-20T23:02:50Z",
+  "last_scheduled_at": "2026-03-21T00:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -5769,6 +5769,20 @@
         "retrieval"
       ],
       "scheduled_at": "2026-03-20T23:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Personal LLM Quantization: Running 100B Parameter Models on Consumer-Grade Edge Hardware",
+      "url": "https://martinuke0.github.io/posts/2026-03-20-mastering-personal-llm-quantization-running-100b-parameter-models-on-consumer-grade-edge-hardware/",
+      "social_hook": "Large language models (LLMs) have exploded in size, with the most capable systems now exceeding 100 billion parameters. While these models deliver impressive reasoning, code generation, and multimodal capabilities, their raw memory footprint—often hundreds of gigabytes—places them firmly out of reach for anyone without a data‑center GPU cluster.\n\nEnter quantization: the art and science of reducing the numerical precision of model weights (and sometimes activations) without materially degrading performance. In the past few years, breakthroughs such as GPTQ, AWQ, and BitsAndBytes have made it possible to compress 100 B‑parameter models down to 4‑bit or even 3‑bit representations that fit inside the memory limits of a high‑end consumer laptop or a single edge device.\n\nThis article is a deep‑dive guide for engineers, hobbyists, and researchers who want to run 100 B‑scale LLMs on consumer‑grade edge hardware. We’ll cover the theoretical underpinnings, the most effective quantization pipelines, hardware‑specific considerations, and step‑by‑step code examples that you can copy‑paste into your own environment.",
+      "tags": [
+        "LLM",
+        "Quantization",
+        "Edge Computing",
+        "AI",
+        "Performance"
+      ],
+      "scheduled_at": "2026-03-21T00:02:50Z",
       "status": "pending"
     }
   ]
