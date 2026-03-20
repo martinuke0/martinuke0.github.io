@@ -5726,7 +5726,7 @@
         "networking"
       ],
       "scheduled_at": "2026-03-20T20:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Demystifying AI Confidence: How Uncertainty Estimation Scales in Reasoning Models",
