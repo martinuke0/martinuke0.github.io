@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-21T00:02:50Z",
+  "last_scheduled_at": "2026-03-21T01:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -5783,6 +5783,20 @@
         "Performance"
       ],
       "scheduled_at": "2026-03-21T00:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Low‑Latency Inference Pipelines for Real‑Time Edge‑Native Semantic Search Systems",
+      "url": "https://martinuke0.github.io/posts/2026-03-20-architecting-lowlatency-inference-pipelines-for-realtime-edgenative-semantic-search-systems/",
+      "social_hook": "Semantic search—retrieving information based on meaning rather than exact keyword matches—has become a cornerstone of modern AI‑driven applications. From voice assistants that understand intent to recommendation engines that surface contextually relevant content, the ability to embed queries and documents into a shared vector space is at the heart of these systems.\n\nWhen the search workload moves to the edge (e.g., industrial IoT gateways, autonomous drones, retail kiosks), the constraints change dramatically:\n\n Bandwidth** is scarce; sending raw data to the cloud for inference is often infeasible.",
+      "tags": [
+        "edge-computing",
+        "semantic-search",
+        "low-latency",
+        "inference",
+        "machine-learning"
+      ],
+      "scheduled_at": "2026-03-21T01:02:50Z",
       "status": "pending"
     }
   ]
