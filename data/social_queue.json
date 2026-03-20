@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-20T09:02:50Z",
+  "last_scheduled_at": "2026-03-20T10:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -5571,6 +5571,20 @@
       ],
       "scheduled_at": "2026-03-20T09:02:50Z",
       "status": "posted"
+    },
+    {
+      "title": "The Shift to Agentic RAG: Orchestrating Autonomous Knowledge Retrieval in Production Environments",
+      "url": "https://martinuke0.github.io/posts/2026-03-20-the-shift-to-agentic-rag-orchestrating-autonomous-knowledge-retrieval-in-production-environments/",
+      "social_hook": "Retrieval‑augmented generation (RAG) has become a cornerstone technique for building LLM‑powered applications that need up‑to‑date, factual information. By coupling a retriever (often a dense vector search over a knowledge base) with a generator (a large language model), developers can produce answers that are both fluent and grounded in external data.\n\nYet as organizations move from proof‑of‑concepts to production‑grade services, the limitations of the classic “retrieve‑then‑generate” pipeline become starkly apparent. Static retrieval strategies, brittle prompt engineering, and lack of runtime decision‑making lead to latency spikes, hallucinations, and costly over‑fetching.\n\nEnter Agentic RAG—a paradigm that treats the RAG pipeline itself as an autonomous agent capable of planning, iterating, and self‑correcting its knowledge‑gathering process. In this article we explore why the shift to agentic RAG matters, dissect its architectural components, walk through a concrete implementation using popular open‑source frameworks, and discuss how to scale such systems reliably in production environments.",
+      "tags": [
+        "RAG",
+        "AgenticAI",
+        "KnowledgeRetrieval",
+        "ProductionAI",
+        "LLMOps"
+      ],
+      "scheduled_at": "2026-03-20T10:02:50Z",
+      "status": "pending"
     }
   ]
 }
