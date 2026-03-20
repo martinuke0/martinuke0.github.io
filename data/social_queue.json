@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-20T16:02:50Z",
+  "last_scheduled_at": "2026-03-20T17:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -5669,6 +5669,20 @@
         "fault tolerance"
       ],
       "scheduled_at": "2026-03-20T16:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Understanding Vector Clocks: Theory, Implementation, and Real-World Applications",
+      "url": "https://martinuke0.github.io/posts/2026-03-20-understanding-vector-clocks-theory-implementation-and-real-world-applications/",
+      "social_hook": "When multiple processes or nodes operate concurrently without a shared global clock, determining the causal relationship between events becomes non‑trivial. Distributed systems must answer questions such as:\n\nVector clocks are a cornerstone technique for answering these questions. First introduced by Colin Fidge (1988) and independently by Friedemann Mattern (1989), vector clocks provide a compact, partially ordered representation of causality that is both intuitive and mathematically sound.\n\n* Examine real‑world systems that rely on vector clocks for conflict detection and resolution.",
+      "tags": [
+        "distributed-systems",
+        "vector-clocks",
+        "consistency",
+        "conflict-resolution",
+        "software-engineering"
+      ],
+      "scheduled_at": "2026-03-20T17:02:50Z",
       "status": "pending"
     }
   ]
