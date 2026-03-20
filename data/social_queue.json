@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-20T04:02:44Z",
+  "last_scheduled_at": "2026-03-20T05:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -5501,6 +5501,20 @@
       ],
       "scheduled_at": "2026-03-20T04:02:44Z",
       "status": "posted"
+    },
+    {
+      "title": "Beyond the LLM: Optimizing Small Language Models for Real-Time Edge Computing in 2026",
+      "url": "https://martinuke0.github.io/posts/2026-03-20-beyond-the-llm-optimizing-small-language-models-for-real-time-edge-computing-in-2026/",
+      "social_hook": "Large language models (LLMs) such as GPT‑4 have re‑defined what artificial intelligence can achieve in natural‑language understanding and generation. Yet, their sheer size—hundreds of billions of parameters—makes them impractical for many real‑time, on‑device scenarios. In 2026, the industry is witnessing a pivot toward small language models (SLMs) that can run on edge hardware while still delivering useful conversational or analytical capabilities.\n\nThis article dives deep into the why, how, and what of optimizing small language models for real‑time edge computing. We’ll explore the constraints imposed by modern edge devices, dissect the most effective model‑size reduction techniques, walk through a step‑by‑step deployment example, and examine real‑world case studies that illustrate the tangible impact of these optimizations.\n\n> Note: While the term “small” is relative, we focus on models ranging from 1 M to 20 M parameters, a sweet spot that balances expressive power with the memory‑bandwidth limits of typical edge platforms.",
+      "tags": [
+        "LLM",
+        "Edge Computing",
+        "Model Optimization",
+        "Small Language Models",
+        "Real-Time AI"
+      ],
+      "scheduled_at": "2026-03-20T05:02:50Z",
+      "status": "pending"
     }
   ]
 }
