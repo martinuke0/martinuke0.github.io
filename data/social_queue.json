@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-19T23:03:48Z",
+  "last_scheduled_at": "2026-03-20T00:03:48Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -5444,6 +5444,21 @@
       ],
       "scheduled_at": "2026-03-19T23:03:48Z",
       "status": "posted"
+    },
+    {
+      "title": "Demystifying Auto-Unrolled Proximal Gradient Descent: Revolutionizing Wireless Optimization with AI Smarts",
+      "url": "https://martinuke0.github.io/posts/2026-03-20-demystifying-auto-unrolled-proximal-gradient-descent-revolutionizing-wireless-optimization-with-ai-smarts/",
+      "social_hook": "Imagine you're trying to tune a massive radio tower array to beam internet signals precisely to your smartphone, even in a crowded stadium. Traditional math-heavy algorithms chug through hundreds of iterations—like a marathon runner pacing slowly to the finish line. But what if AI could sprint there in just a few smart steps, using far less data and explaining exactly how it did it? That's the promise of Auto-Unrolled Proximal Gradient Descent (Auto-PGD), a breakthrough from the paper \"Auto-Unrolled Proximal Gradient Descent: An AutoML Approach to Interpretable Waveform Optimization\".[6]\n\nThis blog post breaks down the paper for a general technical audience—think software engineers, data scientists, or wireless enthusiasts who want the big picture without drowning in equations. We'll use everyday analogies, real-world examples from 5G and beyond, and dive into why this matters for faster, greener networks. By the end, you'll grasp how AI automates optimization in ways that are efficient, interpretable, and scalable.\n\nLet's start with the problem. In modern wireless systems like 5G and 6G, base stations use arrays of antennas to beamform—shaping radio waves into focused beams that hit users directly, boosting speed and efficiency. This is called spectral efficiency (SE), a measure of how much data you squeeze into limited radio spectrum.[6]",
+      "tags": [
+        "AI",
+        "AutoML",
+        "DeepUnfolding",
+        "WirelessOptimization",
+        "ProximalGradientDescent",
+        "Beamforming"
+      ],
+      "scheduled_at": "2026-03-20T00:03:48Z",
+      "status": "pending"
     }
   ]
 }
