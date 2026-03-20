@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-20T07:02:50Z",
+  "last_scheduled_at": "2026-03-20T08:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -5543,6 +5543,20 @@
       ],
       "scheduled_at": "2026-03-20T07:02:50Z",
       "status": "posted"
+    },
+    {
+      "title": "Beyond Chatbots: Mastering Agentic Workflows with Open-Source Small Language Model Orchestration",
+      "url": "https://martinuke0.github.io/posts/2026-03-20-beyond-chatbots-mastering-agentic-workflows-with-open-source-small-language-model-orchestration/",
+      "social_hook": "The hype around large language models (LLMs) has largely been framed around conversational agents—chatbots that can answer questions, draft emails, or provide tutoring. While conversational UI is a compelling entry point, the real transformative power of LLMs lies in agentic workflows: autonomous pipelines that can plan, act, and iterate over complex tasks without continuous human supervision.\n\nIn this article we go beyond the surface‑level chatbot narrative and explore how open‑source small LLMs (typically 1–7 B parameters) can be orchestrated into robust, production‑ready agents. We’ll dissect the architectural building blocks, compare leading orchestration frameworks, and walk through a real‑world implementation—automating the generation of quarterly financial reports from raw data sources. By the end, you’ll have a concrete roadmap for building your own agentic systems while leveraging the cost‑efficiency and transparency of open‑source models.\n\n> Note: The techniques described here are model‑agnostic. Wherever we reference a specific model (e.g., Llama 2‑7B), you can swap in any compatible open‑source LLM that meets your latency and licensing requirements.",
+      "tags": [
+        "LLM",
+        "agentic-workflows",
+        "open-source",
+        "orchestration",
+        "prompt-engineering"
+      ],
+      "scheduled_at": "2026-03-20T08:02:50Z",
+      "status": "pending"
     }
   ]
 }
