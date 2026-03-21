@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-21T06:02:50Z",
+  "last_scheduled_at": "2026-03-21T07:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -5867,6 +5867,20 @@
         "2026"
       ],
       "scheduled_at": "2026-03-21T06:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Beyond Large Language Models: Orchestrating Multi-Agent Systems with Autonomous Reasoning and Real-Time Memory Integration",
+      "url": "https://martinuke0.github.io/posts/2026-03-21-beyond-large-language-models-orchestrating-multi-agent-systems-with-autonomous-reasoning-and-real-time-memory-integration/",
+      "social_hook": "Large language models (LLMs) have transformed natural‑language processing, enabling applications that were once science‑fiction—code generation, conversational assistants, and even creative writing. Yet the paradigm of a single monolithic model answering a prompt is reaching its practical limits. Real‑world problems often require parallel reasoning, dynamic coordination, and persistent memory that evolve as the system interacts with its environment.\n\nEnter multi‑agent systems (MAS): collections of autonomous agents that can reason, act, and communicate. When each agent is powered by an LLM (or a specialized model) and equipped with real‑time memory, the resulting architecture can solve tasks that are too complex, too distributed, or too time‑sensitive for a single model to handle.\n\nThis article dives deep into the design and implementation of such systems. We explore:",
+      "tags": [
+        "AI",
+        "Multi-Agent Systems",
+        "Autonomous Reasoning",
+        "Memory Integration",
+        "LLM Orchestration"
+      ],
+      "scheduled_at": "2026-03-21T07:02:50Z",
       "status": "pending"
     }
   ]
