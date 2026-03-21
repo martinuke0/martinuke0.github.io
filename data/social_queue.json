@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-21T07:02:50Z",
+  "last_scheduled_at": "2026-03-21T08:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -5881,6 +5881,20 @@
         "LLM Orchestration"
       ],
       "scheduled_at": "2026-03-21T07:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Moving Beyond LLMs: A Developer’s Guide to Implementing Purpose-Built World Models in Production",
+      "url": "https://martinuke0.github.io/posts/2026-03-21-moving-beyond-llms-a-developers-guide-to-implementing-purpose-built-world-models-in-production/",
+      "social_hook": "Large language models (LLMs) have transformed how developers build conversational agents, code assistants, and even data‑driven products. Their ability to generate fluent text from massive corpora is undeniable, yet they are fundamentally statistical pattern matchers that lack a persistent, structured representation of the external world. When a system must reason about physics, geometry, multi‑step planning, or long‑term consequences, an LLM alone often falls short.\n\nEnter purpose‑built world models—neural or hybrid representations that explicitly encode the state of an environment, simulate dynamics, and allow downstream components to query “what‑if” scenarios. In robotics, autonomous driving, finance, and game AI, world models have already proven indispensable. This guide walks developers through the entire lifecycle of building, deploying, and maintaining such models in production, from conceptual design to real‑time serving.\n\n> Note: While the term “world model” originates in reinforcement learning and robotics, the principles described here apply equally to any domain where a structured, predictive representation of reality is required.",
+      "tags": [
+        "AI",
+        "World Models",
+        "Production",
+        "Machine Learning",
+        "Software Engineering"
+      ],
+      "scheduled_at": "2026-03-21T08:02:50Z",
       "status": "pending"
     }
   ]
