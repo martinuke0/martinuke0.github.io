@@ -6091,7 +6091,7 @@
         "edge computing"
       ],
       "scheduled_at": "2026-03-21T22:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Optimizing LLM Inference: A Deep Dive into vLLM and Custom Kernel Development",
