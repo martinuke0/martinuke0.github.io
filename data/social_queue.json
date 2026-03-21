@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-21T13:02:50Z",
+  "last_scheduled_at": "2026-03-21T14:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -5965,6 +5965,20 @@
         "Future"
       ],
       "scheduled_at": "2026-03-21T13:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Securing Your LLM Applications: A Practical Guide to API Key Management",
+      "url": "https://martinuke0.github.io/posts/2026-03-21-securing-your-llm-applications-a-practical-guide-to-api-key-management/",
+      "social_hook": "Large language models (LLMs) have moved from research labs to production environments at a breakneck pace. From chat‑bots that field customer support tickets to code‑generation assistants embedded in IDEs, businesses are increasingly exposing LLM capabilities through API endpoints. The convenience of a single API key that unlocks powerful generative AI is undeniable, but that same key can become a single point of failure if not managed correctly.\n\n- Data leakage – prompts may contain proprietary or personally identifiable information (PII).\n\n- Reputation damage – malicious actors can use your key to generate disallowed content.",
+      "tags": [
+        "LLM",
+        "API Security",
+        "Key Management",
+        "DevOps",
+        "Best Practices"
+      ],
+      "scheduled_at": "2026-03-21T14:02:50Z",
       "status": "pending"
     }
   ]
