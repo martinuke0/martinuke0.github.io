@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-21T17:02:50Z",
+  "last_scheduled_at": "2026-03-21T18:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -6021,6 +6021,20 @@
         "postgres"
       ],
       "scheduled_at": "2026-03-21T17:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Decentralized AI: Engineering Efficient Marketplaces for Local LLM Inference",
+      "url": "https://martinuke0.github.io/posts/2026-03-21-decentralized-ai-engineering-efficient-marketplaces-for-local-llm-inference/",
+      "social_hook": "Large language models (LLMs) have transitioned from research curiosities to production‑grade services that power chatbots, code assistants, and knowledge workers. The dominant deployment pattern—centralized inference in massive data‑center clusters—offers raw compute power but also introduces latency, privacy, and cost bottlenecks.\n\nA decentralized AI marketplace seeks to flip this model on its head: instead of a single cloud provider serving every request, a global network of edge nodes—ranging from spare GPUs on home servers to purpose‑built inference appliances—offers local LLM inference as a tradable commodity.\n\nThis article walks through the engineering considerations required to build such a marketplace, from high‑level economics to low‑level code. Whether you are a systems engineer, a blockchain developer, or a product manager exploring edge AI, the concepts below will give you a comprehensive roadmap for turning “local LLM inference” into a robust, efficient, and trustworthy service.",
+      "tags": [
+        "decentralized AI",
+        "LLM inference",
+        "edge computing",
+        "marketplace design",
+        "AI infrastructure"
+      ],
+      "scheduled_at": "2026-03-21T18:02:50Z",
       "status": "pending"
     }
   ]
