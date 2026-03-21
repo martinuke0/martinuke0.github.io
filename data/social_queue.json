@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-21T21:02:50Z",
+  "last_scheduled_at": "2026-03-21T22:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -6077,6 +6077,20 @@
         "quantum machine learning"
       ],
       "scheduled_at": "2026-03-21T21:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Beyond Generative: Navigating the Next Wave of AI in 2026",
+      "url": "https://martinuke0.github.io/posts/2026-03-21-beyond-generative-navigating-the-next-wave-of-ai-in-2026/",
+      "social_hook": "When the term generative AI entered the mainstream in 2022, most people imagined chatbots that could write essays, create artwork, or compose music. The rapid adoption of large language models (LLMs) like GPT‑4 and diffusion models such as Stable Diffusion has indeed reshaped how we produce content. Yet, by early 2026 a new consensus is emerging: the next wave of AI will be less about “generating” and more about integrating, orchestrating, and automating intelligence across diverse modalities, domains, and hardware environments.\n\n2. Examine concrete use‑cases that illustrate how organizations are moving from output to action.\n\n3. Discuss the infrastructural shifts—hardware, software, and data—that enable these capabilities.",
+      "tags": [
+        "AI trends",
+        "multimodal AI",
+        "autonomous agents",
+        "AI governance",
+        "edge computing"
+      ],
+      "scheduled_at": "2026-03-21T22:02:50Z",
       "status": "pending"
     }
   ]
