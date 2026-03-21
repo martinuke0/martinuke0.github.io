@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-21T18:02:50Z",
+  "last_scheduled_at": "2026-03-21T19:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -6035,6 +6035,20 @@
         "AI infrastructure"
       ],
       "scheduled_at": "2026-03-21T18:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Securing Edge AI: Confidential Computing for Decentralized LLM Inference on Mobile Devices",
+      "url": "https://martinuke0.github.io/posts/2026-03-21-securing-edge-ai-confidential-computing-for-decentralized-llm-inference-on-mobile-devices/",
+      "social_hook": "Large language models (LLMs) have transformed natural‑language processing, powering everything from chatbots to code assistants. Yet the most capable models—often hundreds of billions of parameters—are traditionally hosted in centralized data centers where they benefit from abundant compute, storage, and security controls.\n\nA new wave of edge AI is pushing inference onto mobile devices, enabling offline experiences, reduced latency, and lower bandwidth costs. At the same time, decentralized inference—where many devices collaboratively serve model requests—promises scalability without a single point of failure.\n\nBoth trends raise a critical question: How can we protect proprietary model weights, user prompts, and inference results when they are processed on devices that are inherently less controlled than a cloud environment?",
+      "tags": [
+        "Edge AI",
+        "Confidential Computing",
+        "LLM",
+        "Mobile Security",
+        "Decentralized Inference"
+      ],
+      "scheduled_at": "2026-03-21T19:02:50Z",
       "status": "pending"
     }
   ]
