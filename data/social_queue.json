@@ -5797,7 +5797,7 @@
         "machine-learning"
       ],
       "scheduled_at": "2026-03-21T01:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Hybrid RAG Architectures Integrating Local Vector Stores with Distributed Edge Intelligence Multi‑Agent Systems",
@@ -5811,7 +5811,7 @@
         "DistributedComputing"
       ],
       "scheduled_at": "2026-03-21T02:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Unlocking LLM Performance: A Deep Dive into Python's Scalability Challenges and Solutions",
