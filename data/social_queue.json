@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-21T15:02:50Z",
+  "last_scheduled_at": "2026-03-21T16:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -5993,6 +5993,20 @@
         "architecture"
       ],
       "scheduled_at": "2026-03-21T15:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Data Pipelines: From NumPy to Advanced AI Workflows",
+      "url": "https://martinuke0.github.io/posts/2026-03-21-mastering-data-pipelines-from-numpy-to-advanced-ai-workflows/",
+      "social_hook": "In today’s data‑driven landscape, the ability to move data efficiently from raw sources to sophisticated AI models is a competitive advantage. A data pipeline is the connective tissue that stitches together ingestion, cleaning, transformation, feature engineering, model training, and deployment. While many practitioners start with simple NumPy arrays for prototyping, production‑grade pipelines demand a richer toolbox: Pandas for tabular manipulation, Dask for parallelism, Apache Airflow or Prefect for orchestration, and deep‑learning frameworks such as TensorFlow or PyTorch for model training.\n\nThis article walks you through the entire journey—starting with the low‑level operations you can perform with NumPy, then scaling up to robust, reproducible AI workflows. You’ll find:\n\nWhether you’re a data scientist turning notebooks into services or a software engineer building the backbone for an AI product, this guide equips you with the concepts and concrete tools to master data pipelines.",
+      "tags": [
+        "data pipelines",
+        "numpy",
+        "machine learning",
+        "ai workflows",
+        "python"
+      ],
+      "scheduled_at": "2026-03-21T16:02:50Z",
       "status": "pending"
     }
   ]
