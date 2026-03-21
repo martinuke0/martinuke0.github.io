@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-21T04:02:50Z",
+  "last_scheduled_at": "2026-03-21T05:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -5839,6 +5839,20 @@
         "devops"
       ],
       "scheduled_at": "2026-03-21T04:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "AI Co-Pilots 2.0: Beyond Code Generation, Into Real-Time Intelligence",
+      "url": "https://martinuke0.github.io/posts/2026-03-21-ai-co-pilots-20-beyond-code-generation-into-real-time-intelligence/",
+      "social_hook": "The software development landscape has been reshaped repeatedly by new abstractions: high‑level languages, frameworks, containers, and now AI‑driven assistants. The first wave of AI co‑pilots—GitHub Copilot, Tabnine, and similar tools—proved that large language models (LLMs) could generate syntactically correct code snippets on demand. While impressive, this “code‑completion” model remains a static, request‑response paradigm: you type a comment, the model returns a suggestion, you accept or reject it, and the interaction ends.\n\nAI Co‑Pilots 2.0 aims to move beyond this one‑off generation mindset toward real‑time intelligence—continuous, context‑aware assistance that adapts as you write, tests, debug, and deploy. Think of a co‑pilot that not only suggests code but also monitors runtime performance, anticipates security flaws, orchestrates CI/CD pipelines, and even surfaces relevant documentation on the fly. In this article we will explore the technical foundations, architectural patterns, practical examples, and real‑world challenges of building and using AI co‑pilots that operate in real time.\n\n> Note: This post assumes familiarity with large language models, RESTful APIs, and modern development environments (VS Code, JetBrains IDEs, etc.). Beginners may wish to skim the “Evolution of AI Co‑Pilots” section before diving into the deeper technical material.",
+      "tags": [
+        "AI",
+        "Developer Tools",
+        "Real-Time Systems",
+        "Machine Learning",
+        "Productivity"
+      ],
+      "scheduled_at": "2026-03-21T05:02:50Z",
       "status": "pending"
     }
   ]
