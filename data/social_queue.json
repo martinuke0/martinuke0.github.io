@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-21T11:02:50Z",
+  "last_scheduled_at": "2026-03-21T12:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -5937,6 +5937,20 @@
         "autonomy"
       ],
       "scheduled_at": "2026-03-21T11:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Leveraging LangChain Agents for Scalable and Secure Vector Database Management",
+      "url": "https://martinuke0.github.io/posts/2026-03-21-leveraging-langchain-agents-for-scalable-and-secure-vector-database-management/",
+      "social_hook": "Vector databases have become a cornerstone of modern AI‑driven applications. By storing high‑dimensional embeddings—whether they come from language models, vision models, or multimodal encoders—these databases enable fast similarity search, semantic retrieval, and downstream reasoning. However, as the volume of embeddings grows and the security requirements tighten, simply plugging a vector store into an application is no longer sufficient.\n\nEnter LangChain agents. LangChain, a framework for building language‑model‑centric applications, introduced agents as autonomous decision‑making components that can invoke tools, call APIs, and orchestrate complex workflows. When combined with a vector database, agents can:\n\n2. Secure data access through policy‑driven routing, encryption, and audit logging.",
+      "tags": [
+        "LangChain",
+        "Vector Databases",
+        "AI Agents",
+        "Scalability",
+        "Security"
+      ],
+      "scheduled_at": "2026-03-21T12:02:50Z",
       "status": "pending"
     }
   ]
