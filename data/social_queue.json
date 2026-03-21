@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-21T14:02:50Z",
+  "last_scheduled_at": "2026-03-21T15:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -5979,6 +5979,20 @@
         "Best Practices"
       ],
       "scheduled_at": "2026-03-21T14:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Designing Resilient Distributed Systems: Advanced Caching Strategies for Performance",
+      "url": "https://martinuke0.github.io/posts/2026-03-21-designing-resilient-distributed-systems-advanced-caching-strategies-for-performance/",
+      "social_hook": "In an era where user expectations for latency are measured in milliseconds, the performance of distributed systems has become a decisive factor for product success. Caching—storing frequently accessed data closer to the consumer—has long been a cornerstone of performance optimization. However, as systems grow in scale, geographic dispersion, and complexity, naïve caching approaches can introduce new failure modes, consistency bugs, and operational headaches.\n\nThis article dives deep into advanced caching strategies that enable resilient distributed architectures. We will explore:\n\n* Proven caching patterns (cache‑aside, write‑through, refresh‑ahead, etc.) and when to apply each.",
+      "tags": [
+        "distributed-systems",
+        "caching",
+        "performance",
+        "resilience",
+        "architecture"
+      ],
+      "scheduled_at": "2026-03-21T15:02:50Z",
       "status": "pending"
     }
   ]
