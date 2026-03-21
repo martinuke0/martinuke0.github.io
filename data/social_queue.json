@@ -6007,7 +6007,7 @@
         "python"
       ],
       "scheduled_at": "2026-03-21T16:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Scaling Vector Databases for Real-Time AI Applications Beyond Faiss and Postgres",
