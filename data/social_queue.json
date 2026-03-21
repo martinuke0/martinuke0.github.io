@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-21T23:02:50Z",
+  "last_scheduled_at": "2026-03-22T00:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -6105,6 +6105,20 @@
         "Kernel Optimization"
       ],
       "scheduled_at": "2026-03-21T23:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Beyond GANs: Generative AI's Next Frontier in 2026",
+      "url": "https://martinuke0.github.io/posts/2026-03-21-beyond-gans-generative-ai/",
+      "social_hook": "Since the seminal paper on Generative Adversarial Networks (GANs) by Ian Goodfellow et al. in 2014, the field of generative AI has been dominated by the adversarial paradigm. GANs have powered photorealistic image synthesis, deep‑fake video, style transfer, and countless creative tools. Yet, despite their impressive capabilities, GANs have intrinsic limitations—training instability, mode collapse, and a lack of explicit likelihood estimation—that have spurred researchers to explore alternative generative frameworks.\n\nBy 2026, the landscape has shifted dramatically. Diffusion models, flow‑based generators, energy‑based models, and hybrid architectures now lead the frontier in both research and commercial deployment. This article provides an in‑depth look at why the community moved beyond GANs, the technologies that have taken their place, practical examples of how they are used today, and what we can expect in the next few years.\n\n> Note: While GANs remain valuable for certain niche tasks, the focus of this post is on the emerging paradigms that are redefining what generative AI can achieve at scale.",
+      "tags": [
+        "generative AI",
+        "diffusion models",
+        "AI research",
+        "2026 trends",
+        "machine learning"
+      ],
+      "scheduled_at": "2026-03-22T00:02:50Z",
       "status": "pending"
     }
   ]
