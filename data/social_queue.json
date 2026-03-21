@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-21T22:02:50Z",
+  "last_scheduled_at": "2026-03-21T23:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -6091,6 +6091,20 @@
         "edge computing"
       ],
       "scheduled_at": "2026-03-21T22:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing LLM Inference: A Deep Dive into vLLM and Custom Kernel Development",
+      "url": "https://martinuke0.github.io/posts/2026-03-21-optimizing-llm-inference-a-deep-dive-into-vllm-and-custom-kernel-development/",
+      "social_hook": "Large language models (LLMs) have moved from research curiosities to production‑grade services that power chatbots, code assistants, and knowledge‑base search. While the training phase often dominates headlines, the inference phase is where cost, latency, and user experience converge. A single request to a 70‑billion‑parameter model can consume multiple gigabytes of GPU memory and stall a server for seconds if not carefully engineered.\n\nEnter vLLM—a high‑performance inference engine that leverages dynamic paging, speculative decoding, and a highly parallel scheduler to squeeze more tokens per second (TPS) out of a given GPU cluster. However, even vLLM’s out‑of‑the‑box performance can be pushed further by tailoring low‑level compute kernels to the specific model architecture and hardware topology. This article provides a comprehensive guide to:\n\n* Crafting custom CUDA kernels—particularly for the multi‑head attention (MHA) block—that integrate seamlessly with vLLM.",
+      "tags": [
+        "LLM",
+        "Inference",
+        "vLLM",
+        "CUDA",
+        "Kernel Optimization"
+      ],
+      "scheduled_at": "2026-03-21T23:02:50Z",
       "status": "pending"
     }
   ]
