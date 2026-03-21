@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-21T12:02:50Z",
+  "last_scheduled_at": "2026-03-21T13:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -5951,6 +5951,20 @@
         "Security"
       ],
       "scheduled_at": "2026-03-21T12:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "AI's Next Frontier: Mastering Generative Models for Real-World Impact",
+      "url": "https://martinuke0.github.io/posts/2026-03-21-ai/",
+      "social_hook": "Generative artificial intelligence has moved from a research curiosity to a transformative technology that reshapes industries, creates new forms of art, and accelerates scientific discovery. While early breakthroughs—such as the first generative adversarial networks (GANs) and variational autoencoders (VAEs)—demonstrated that machines could create data, the last few years have witnessed a rapid escalation in model scale, fidelity, and applicability. Today, large language models (LLMs) produce coherent prose, diffusion models synthesize photorealistic images, and multimodal systems generate video, audio, and 3‑D content from textual prompts.\n\nYet the excitement is only the beginning. To unlock real‑world impact, practitioners must move beyond “getting cool samples” to mastering the full lifecycle of generative models: data curation, architecture selection, training stability, evaluation, safety, and deployment. This article provides a deep‑dive guide for engineers, researchers, and product leaders who want to harness generative AI responsibly and effectively. We will:\n\n2. Outline practical techniques for training, debugging, and evaluating these models at scale.",
+      "tags": [
+        "AI",
+        "Generative Models",
+        "Machine Learning",
+        "Applications",
+        "Future"
+      ],
+      "scheduled_at": "2026-03-21T13:02:50Z",
       "status": "pending"
     }
   ]
