@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-21T05:02:50Z",
+  "last_scheduled_at": "2026-03-21T06:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -5853,6 +5853,20 @@
         "Productivity"
       ],
       "scheduled_at": "2026-03-21T05:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Scaling Local LLMs: Why Small Language Models are Dominating Edge Computing in 2026",
+      "url": "https://martinuke0.github.io/posts/2026-03-21-scaling-local-llms-why-small-language-models-are-dominating-edge-computing-in-2026/",
+      "social_hook": "In the early 2020s, the narrative around large language models (LLMs) was dominated by the race to build ever‑bigger transformers—GPT‑4, PaLM‑2, LLaMA‑2‑70B, and their successors. The prevailing belief was that sheer parameter count equated to better performance, and most organizations consequently off‑loaded inference to powerful cloud GPUs.\n\nFast forward to 2026, and the landscape has shifted dramatically. Edge devices—from micro‑controllers embedded in industrial sensors to the latest generation of smartphones—now host language models that are orders of magnitude smaller, yet they deliver acceptable or even state‑of‑the‑art performance for a growing set of tasks.\n\n1. Hardware democratization – specialized AI accelerators now ship in consumer‑grade devices, offering high compute per watt.",
+      "tags": [
+        "LLM",
+        "Edge Computing",
+        "Model Compression",
+        "AI",
+        "2026"
+      ],
+      "scheduled_at": "2026-03-21T06:02:50Z",
       "status": "pending"
     }
   ]
