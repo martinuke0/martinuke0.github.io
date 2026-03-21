@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-21T16:02:50Z",
+  "last_scheduled_at": "2026-03-21T17:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -6007,6 +6007,20 @@
         "python"
       ],
       "scheduled_at": "2026-03-21T16:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Scaling Vector Databases for Real-Time AI Applications Beyond Faiss and Postgres",
+      "url": "https://martinuke0.github.io/posts/2026-03-21-scaling-vector-databases-for-real-time-ai-applications-beyond-faiss-and-postgres/",
+      "social_hook": "Vector databases have moved from research curiosities to production‑critical components of modern AI systems. Whether you’re powering a recommendation engine, a semantic search portal, or a Retrieval‑Augmented Generation (RAG) pipeline, the ability to store, index, and retrieve high‑dimensional embeddings in milliseconds is non‑negotiable.\n\nHistorically, many teams have built proof‑of‑concepts using FAISS (Facebook AI Similarity Search) for on‑device or single‑node indexing and PostgreSQL with extensions (e.g., `pgvector`) for persistence. While both are excellent tools for experimentation, they often hit hard limits when the workload demands:\n\nThis article dives deep into the architectural and operational choices needed to scale vector databases beyond Faiss and Postgres. We’ll explore alternative open‑source and managed solutions, discuss proven design patterns, and walk through a production‑grade example that demonstrates real‑time ingestion and retrieval at scale.",
+      "tags": [
+        "vector databases",
+        "real-time AI",
+        "scalability",
+        "faiss",
+        "postgres"
+      ],
+      "scheduled_at": "2026-03-21T17:02:50Z",
       "status": "pending"
     }
   ]
