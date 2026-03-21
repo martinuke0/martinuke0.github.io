@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-21T09:02:50Z",
+  "last_scheduled_at": "2026-03-21T10:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -5909,6 +5909,20 @@
         "AutonomousAgents"
       ],
       "scheduled_at": "2026-03-21T09:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Edge AI Orchestration: Unlocking the Power of Distributed LLMs for Real‑Time Applications",
+      "url": "https://martinuke0.github.io/posts/2026-03-21-edge-ai-orchestration-unlocking-the-power-of-distributed-llms-for-realtime-applications/",
+      "social_hook": "Large language models (LLMs) have transformed natural‑language processing, enabling everything from sophisticated chatbots to code generation. Yet the majority of LLM deployments still live in massive data‑center clusters, far from the devices that generate the data they need to act upon. For real‑time applications—autonomous drones, augmented‑reality (AR) glasses, industrial robots, and on‑premise customer‑service kiosks—latency, bandwidth, and privacy constraints make a purely cloud‑centric approach untenable.\n\nEdge AI orchestration is the emerging discipline that brings together three pillars:\n\n1. Edge compute – low‑power GPUs, NPUs, and specialized ASICs located on‑premise or on‑device.",
+      "tags": [
+        "Edge AI",
+        "LLM",
+        "Orchestration",
+        "Distributed Computing",
+        "Real‑Time"
+      ],
+      "scheduled_at": "2026-03-21T10:02:50Z",
       "status": "pending"
     }
   ]
