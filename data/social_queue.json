@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-21T10:02:50Z",
+  "last_scheduled_at": "2026-03-21T11:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -5923,6 +5923,20 @@
         "Real‑Time"
       ],
       "scheduled_at": "2026-03-21T10:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Unlocking Real-Time Intelligence: Event-Driven Architectures Meet Autonomous AI Agents",
+      "url": "https://martinuke0.github.io/posts/2026-03-21-unlocking-real-time-intelligence-event-driven-architectures-meet-autonomous-ai-agents/",
+      "social_hook": "In the last decade, two technological paradigms have risen from research labs to production‑grade deployments:\n\n1. Event‑Driven Architecture (EDA) – a design style that treats state changes as immutable events, enabling systems to react instantly, scale elastically, and stay loosely coupled.\n\n2. Autonomous AI Agents – software entities that perceive their environment, reason, and act without direct human intervention, often powered by large language models (LLMs), reinforcement learning, or hybrid symbolic‑neural techniques.",
+      "tags": [
+        "event-driven",
+        "AI agents",
+        "real-time intelligence",
+        "architecture",
+        "autonomy"
+      ],
+      "scheduled_at": "2026-03-21T11:02:50Z",
       "status": "pending"
     }
   ]
