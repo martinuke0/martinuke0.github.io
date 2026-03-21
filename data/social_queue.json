@@ -5783,7 +5783,7 @@
         "Performance"
       ],
       "scheduled_at": "2026-03-21T00:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Architecting Low‑Latency Inference Pipelines for Real‑Time Edge‑Native Semantic Search Systems",
