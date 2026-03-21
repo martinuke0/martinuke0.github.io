@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-21T03:02:50Z",
+  "last_scheduled_at": "2026-03-21T04:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -5825,6 +5825,20 @@
         "DeepLearning"
       ],
       "scheduled_at": "2026-03-21T03:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Securing Your Cloud Infrastructure: A Practical Guide to Advanced Network Security",
+      "url": "https://martinuke0.github.io/posts/2026-03-21-securing-your-cloud-infrastructure-a-practical-guide-to-advanced-network-security/",
+      "social_hook": "The shift to public, private, and hybrid cloud environments has unlocked unprecedented agility and scalability for organizations of every size. Yet with that flexibility comes a dramatically expanded attack surface. Traditional perimeter‑focused defenses no longer suffice when workloads are distributed across multiple regions, VPCs, and SaaS services.\n\nAdvanced network security in the cloud is no longer an optional add‑on; it is a foundational discipline that must be baked into architecture, development pipelines, and day‑to‑day operations. This guide walks you through the most critical concepts, practical techniques, and real‑world examples you need to protect your cloud infrastructure today and tomorrow.\n\nBefore diving into controls, it’s essential to recognize where threats originate and how they manifest in cloud environments.",
+      "tags": [
+        "cloud security",
+        "network security",
+        "zero trust",
+        "IaC",
+        "devops"
+      ],
+      "scheduled_at": "2026-03-21T04:02:50Z",
       "status": "pending"
     }
   ]
