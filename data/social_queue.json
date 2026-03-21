@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-21T08:02:50Z",
+  "last_scheduled_at": "2026-03-21T09:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -5895,6 +5895,20 @@
         "Software Engineering"
       ],
       "scheduled_at": "2026-03-21T08:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Unlocking Real-Time AI: Advanced Orchestration for Distributed Autonomous Agents",
+      "url": "https://martinuke0.github.io/posts/2026-03-21-unlocking-real-time-ai-advanced-orchestration-for-distributed-autonomous-agents/",
+      "social_hook": "Artificial intelligence has moved far beyond batch‑trained models that run on a single server. Modern AI‑enabled applications often consist of hundreds or thousands of autonomous agents—robots, drones, edge devices, micro‑services—working together to solve complex, time‑critical problems. Whether it is a fleet of warehouse robots routing pallets, a swarm of delivery drones navigating urban airspace, or a distributed sensor network performing real‑time anomaly detection, the orchestration layer that coordinates these agents becomes the decisive factor between success and failure.\n\n1. Define what “real‑time AI” and “distributed autonomous agents” mean in practice.\n\n3. Explore advanced orchestration patterns and architectures that keep latency low, consistency high, and resilience robust.",
+      "tags": [
+        "AI",
+        "Orchestration",
+        "DistributedSystems",
+        "RealTime",
+        "AutonomousAgents"
+      ],
+      "scheduled_at": "2026-03-21T09:02:50Z",
       "status": "pending"
     }
   ]
