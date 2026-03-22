@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-22T18:02:50Z",
+  "last_scheduled_at": "2026-03-22T19:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -6371,6 +6371,20 @@
         "Hardware"
       ],
       "scheduled_at": "2026-03-22T18:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Distributed Stream Processing for Real-Time Feature Engineering in Large Language Models",
+      "url": "https://martinuke0.github.io/posts/2026-03-22-optimizing-distributed-stream-processing-for-real-time-feature-engineering-in-large-language-models/",
+      "social_hook": "Large Language Models (LLMs) have moved from research curiosities to production‑grade services that power chatbots, code assistants, search engines, and countless downstream applications. While the core model inference is computationally intensive, the value of an LLM often hinges on the quality of the features that accompany each request. Real‑time feature engineering—creating, enriching, and normalizing signals on the fly—can dramatically improve relevance, safety, personalization, and cost efficiency.\n\nIn high‑throughput environments (think millions of queries per hour), feature pipelines must operate with sub‑second latency, survive node failures, and scale horizontally. Traditional batch‑oriented ETL tools simply cannot keep up. Instead, organizations turn to distributed stream processing frameworks such as Apache Flink, Kafka Streams, Spark Structured Streaming, or Pulsar Functions to compute features in real time.\n\nThis article provides a deep dive into how to optimize distributed stream processing for real‑time feature engineering in LLM‑driven systems. We will:",
+      "tags": [
+        "distributed systems",
+        "stream processing",
+        "feature engineering",
+        "large language models",
+        "real-time analytics"
+      ],
+      "scheduled_at": "2026-03-22T19:02:50Z",
       "status": "pending"
     }
   ]
