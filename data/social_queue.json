@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-22T12:02:50Z",
+  "last_scheduled_at": "2026-03-22T13:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -6288,6 +6288,20 @@
       ],
       "scheduled_at": "2026-03-22T12:02:50Z",
       "status": "posted"
+    },
+    {
+      "title": "Exploring AI Sandboxes: Building Safe, Scalable, and Innovative Intelligent Systems",
+      "url": "https://martinuke0.github.io/posts/2026-03-22-exploring-ai-sandboxes-building-safe-scalable-and-innovative-intelligent-systems/",
+      "social_hook": "Artificial intelligence (AI) is reshaping industries, from healthcare and finance to entertainment and manufacturing. As models become more powerful—think large language models (LLMs), multimodal transformers, and reinforcement‑learning agents—developers need environments where they can experiment, iterate, and validate safely. This is where AI sandboxes come into play.\n\nAn AI sandbox is a controlled, isolated environment that lets data scientists, engineers, and product teams develop, test, and evaluate AI models without risking production systems, data privacy, or compliance violations. It combines concepts from software sandboxing, containerization, and model governance to provide a secure playground for AI experimentation.\n\n2. Compare sandboxing approaches (container‑based, VM‑based, cloud‑native, on‑prem).",
+      "tags": [
+        "AI",
+        "sandbox",
+        "machine learning",
+        "security",
+        "devops"
+      ],
+      "scheduled_at": "2026-03-22T13:02:50Z",
+      "status": "pending"
     }
   ]
 }
