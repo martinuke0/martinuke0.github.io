@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-22T23:02:50Z",
+  "last_scheduled_at": "2026-03-23T00:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -6441,6 +6441,20 @@
         "LLM"
       ],
       "scheduled_at": "2026-03-22T23:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Polyglot Microservices: Building Heterogeneous, Scalable Systems",
+      "url": "https://martinuke0.github.io/posts/2026-03-22-polyglot-microservices-building-heterogeneous-scalable-systems/",
+      "social_hook": "Microservices have reshaped how modern software is built, deployed, and operated. By breaking monolithic applications into loosely‑coupled, independently deployable services, organizations gain agility, fault isolation, and the ability to scale components selectively.\n\nA polyglot microservice architecture takes this a step further: each service can be written in the language, framework, or runtime that best fits its problem domain. Rather than forcing a single technology stack across the entire system, teams select the optimal tool for each bounded context—whether that’s Go for high‑performance networking, Python for rapid data‑science prototyping, or Rust for memory‑safe, low‑latency workloads.\n\nThis article provides a deep dive into polyglot microservices, covering the motivations, design principles, real‑world examples, operational concerns, and best‑practice recommendations. By the end, you’ll have a clear roadmap for adopting a heterogeneous service landscape without sacrificing maintainability or reliability.",
+      "tags": [
+        "microservices",
+        "polyglot",
+        "architecture",
+        "devops",
+        "software engineering"
+      ],
+      "scheduled_at": "2026-03-23T00:02:50Z",
       "status": "pending"
     }
   ]
