@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-22T09:02:50Z",
+  "last_scheduled_at": "2026-03-22T10:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -6246,6 +6246,20 @@
       ],
       "scheduled_at": "2026-03-22T09:02:50Z",
       "status": "posted"
+    },
+    {
+      "title": "Architecting Self‑Healing Observability Pipelines for Distributed Edge Intelligence and Autonomous System Monitoring",
+      "url": "https://martinuke0.github.io/posts/2026-03-22-architecting-selfhealing-observability-pipelines-for-distributed-edge-intelligence-and-autonomous-system-monitoring/",
+      "social_hook": "Edge intelligence and autonomous systems are rapidly moving from research labs to production environments—think autonomous vehicles, industrial robots, smart factories, and remote IoT gateways. These workloads are distributed, latency‑sensitive, and often operate under intermittent connectivity. In such contexts, observability—the ability to infer the internal state of a system from its external outputs—is not a luxury; it is a prerequisite for safety, reliability, and regulatory compliance.\n\nTraditional observability stacks (metrics → Prometheus, logs → Loki, traces → Jaeger) were designed for monolithic or centrally‑hosted cloud services. When you push compute to the edge, you encounter new failure modes:\n\n Version drift** across thousands of devices, making manual remediation impossible.",
+      "tags": [
+        "observability",
+        "edge-computing",
+        "self-healing",
+        "distributed-systems",
+        "autonomous-systems"
+      ],
+      "scheduled_at": "2026-03-22T10:02:50Z",
+      "status": "pending"
     }
   ]
 }
