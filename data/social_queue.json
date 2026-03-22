@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-23T00:02:50Z",
+  "last_scheduled_at": "2026-03-23T01:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -6455,6 +6455,20 @@
         "software engineering"
       ],
       "scheduled_at": "2026-03-23T00:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Scaling Small Language Models: Why SLMs are Replacing Giants in Production-Ready Edge Computing",
+      "url": "https://martinuke0.github.io/posts/2026-03-22-scaling-small-language-models-why-slms-are-replacing-giants-in-production-ready-edge-computing/",
+      "social_hook": "Edge computing has moved from a niche concept to a mainstream architectural pattern for a wide range of applications—smart homes, industrial IoT, autonomous vehicles, and even retail analytics. While the early days of edge AI were dominated by rule‑based pipelines and tiny neural networks, the rapid rise of large language models (LLMs) such as GPT‑4, Claude, and Llama 2 has sparked a new wave of interest in bringing sophisticated natural language capabilities closer to the user.\n\nHowever, the sheer size, memory footprint, and compute demands of these “giants” make them unsuitable for most production‑ready edge devices. Enter Small Language Models (SLMs)—compact, highly‑optimized transformers that deliver surprisingly strong performance while fitting within the tight constraints of edge hardware.\n\n* Explore why SLMs are increasingly favored over massive LLMs for edge deployments.",
+      "tags": [
+        "edge computing",
+        "small language models",
+        "model compression",
+        "production deployment",
+        "AI at the edge"
+      ],
+      "scheduled_at": "2026-03-23T01:02:50Z",
       "status": "pending"
     }
   ]
