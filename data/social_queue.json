@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-23T05:02:50Z",
+  "last_scheduled_at": "2026-03-23T06:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -6525,6 +6525,20 @@
         "scalable-systems"
       ],
       "scheduled_at": "2026-03-23T05:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Edge Intelligence: Deploying High‑Performance Transformers with Rust and WebAssembly",
+      "url": "https://martinuke0.github.io/posts/2026-03-22-optimizing-edge-intelligence-deploying-highperformance-transformers-with-rust-and-webassembly/",
+      "social_hook": "Edge intelligence—running AI models locally on devices ranging from smartphones to industrial IoT gateways—has moved from a research curiosity to a production necessity. The benefits are clear: reduced latency, lower bandwidth costs, enhanced privacy, and the ability to operate offline. However, deploying large language models (LLMs) or transformer‑based vision models on constrained hardware remains a daunting engineering challenge.\n\nThis article dives deep into a pragmatic solution: building high‑performance transformer inference in Rust and compiling it to WebAssembly (Wasm). We will explore why this combination is uniquely suited for the edge, walk through a complete implementation, and demonstrate real‑world performance gains. By the end, you’ll have a concrete roadmap to ship transformer‑powered features to browsers, embedded Linux boxes, or any environment that can run Wasm.\n\n> Note: The techniques described assume familiarity with basic Rust syntax, linear algebra, and the transformer architecture. If you’re new to any of these topics, consider reviewing the resources at the end of the article first.",
+      "tags": [
+        "edge-computing",
+        "rust",
+        "webassembly",
+        "transformers",
+        "performance-optimization"
+      ],
+      "scheduled_at": "2026-03-23T06:02:50Z",
       "status": "pending"
     }
   ]
