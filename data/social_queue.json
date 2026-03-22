@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-22T04:02:50Z",
+  "last_scheduled_at": "2026-03-22T05:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -6175,6 +6175,20 @@
         "scalability"
       ],
       "scheduled_at": "2026-03-22T04:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "The Shift to Edge-Native LLMs: Optimizing Local Inference for Privacy-First Developer Workflows",
+      "url": "https://martinuke0.github.io/posts/2026-03-22-the-shift-to-edge-native-llms-optimizing-local-inference-for-privacy-first-developer-workflows/",
+      "social_hook": "Large language models (LLMs) have moved from research curiosities to production‑grade engines that power chat assistants, code generators, and knowledge extraction pipelines. The prevailing deployment pattern—host the model in a massive data‑center, expose an API, and let every client call it over the internet—has delivered impressive scalability, but it also brings three critical challenges:\n\n1. Privacy risk: Sensitive user data (medical notes, proprietary code, personal conversations) must be transmitted to remote servers, exposing it to interception, misuse, or regulatory non‑compliance.\n\n2. Latency & bandwidth: Real‑time interaction, especially on mobile or low‑bandwidth networks, suffers when each request traverses the internet.",
+      "tags": [
+        "LLM",
+        "Edge Computing",
+        "Privacy",
+        "Developer Tools",
+        "Inference Optimization"
+      ],
+      "scheduled_at": "2026-03-22T05:02:50Z",
       "status": "pending"
     }
   ]
