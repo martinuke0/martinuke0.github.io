@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-22T07:02:50Z",
+  "last_scheduled_at": "2026-03-22T08:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -6218,6 +6218,20 @@
       ],
       "scheduled_at": "2026-03-22T07:02:50Z",
       "status": "posted"
+    },
+    {
+      "title": "Architecting Real‑Time Event‑Driven Architectures for High‑Throughput Distributed Microservices",
+      "url": "https://martinuke0.github.io/posts/2026-03-22-architecting-realtime-eventdriven-architectures-for-highthroughput-distributed-microservices/",
+      "social_hook": "Modern digital products—online marketplaces, IoT platforms, real‑time analytics dashboards, and large‑scale SaaS applications—must process millions of events per second while delivering sub‑second latency to end users. Traditional request‑response monoliths cannot meet these demands because they tightly couple business logic, data access, and UI concerns, leading to scaling bottlenecks, fragile deployments, and limited observability.\n\nEvent‑driven architecture (EDA) offers a fundamentally different paradigm: events become the primary unit of communication, and services react to those events asynchronously. When combined with a microservices mindset, EDA enables independent, loosely‑coupled components that can be scaled horizontally, upgraded without downtime, and observed end‑to‑end.\n\nThis article provides a deep dive into architecting real‑time, high‑throughput, distributed microservices systems using event‑driven patterns. We will explore core concepts, design trade‑offs, practical implementation details, and real‑world examples. By the end, you should have a clear blueprint for building robust, low‑latency pipelines that can handle tens of thousands of events per second—or more.",
+      "tags": [
+        "event-driven",
+        "microservices",
+        "high-throughput",
+        "distributed-systems",
+        "architecture"
+      ],
+      "scheduled_at": "2026-03-22T08:02:50Z",
+      "status": "pending"
     }
   ]
 }
