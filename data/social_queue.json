@@ -6133,7 +6133,7 @@
         "scalability"
       ],
       "scheduled_at": "2026-03-22T01:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Optimizing Edge Inference for Collaborative Multi‑Agent Systems Using WebGPU and Distributed State Sync",
