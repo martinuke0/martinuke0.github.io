@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-22T17:02:50Z",
+  "last_scheduled_at": "2026-03-22T18:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -6357,6 +6357,20 @@
         "backend"
       ],
       "scheduled_at": "2026-03-22T17:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "CPU vs GPU Architecture: A Deep Dive into Design, Performance, and Applications",
+      "url": "https://martinuke0.github.io/posts/2026-03-22-cpu-vs-gpu-architecture-a-deep-dive-into-design-performance-and-applications/",
+      "social_hook": "When you power on a modern computer, two distinct silicon engines typically start humming: the Central Processing Unit (CPU) and the Graphics Processing Unit (GPU). Though both are processors, they embody fundamentally different design philosophies, hardware structures, and performance characteristics. Understanding these differences is essential for software engineers, system architects, data scientists, and anyone who wants to extract the most value from today’s heterogeneous computing platforms.\n\n* Compare them across latency, throughput, parallelism, power, and programmability.\n\n* Provide practical code snippets that demonstrate how developers target each architecture.",
+      "tags": [
+        "CPU",
+        "GPU",
+        "Architecture",
+        "Parallel Computing",
+        "Hardware"
+      ],
+      "scheduled_at": "2026-03-22T18:02:50Z",
       "status": "pending"
     }
   ]
