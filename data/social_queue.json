@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-22T15:02:50Z",
+  "last_scheduled_at": "2026-03-22T16:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -6329,6 +6329,20 @@
         "Python"
       ],
       "scheduled_at": "2026-03-22T15:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Understanding the Internals of the WebP Image Format",
+      "url": "https://martinuke0.github.io/posts/2026-03-22-understanding-the-internals-of-the-webp-image-format/",
+      "social_hook": "WebP, introduced by Google in 2010, has become a mainstream image format for the modern web. It offers both lossy and lossless compression, supports transparency (alpha), animation, and even ICC color profiles—all within a single file type. While many developers know how to use WebP (e.g., `<picture>` tags, `srcset` attributes), fewer understand what happens under the hood when a `.webp` file is created, transmitted, and rendered.\n\nThis article dives deep into the internals of the WebP format. We will explore the file container, the compression algorithms (VP8 for lossy, VP8L for lossless), the handling of alpha channels, metadata storage, and the complete encoding/decoding pipelines used by browsers and the reference library `libwebp`. By the end, you’ll have a solid grasp of the technical foundations that make WebP both efficient and versatile, empowering you to make informed decisions when optimizing images for the web.\n\nBefore WebP, the web primarily relied on JPEG for photographic content and PNG for lossless graphics with transparency. Both formats have inherent limitations:",
+      "tags": [
+        "webp",
+        "image-format",
+        "compression",
+        "web-development",
+        "graphics"
+      ],
+      "scheduled_at": "2026-03-22T16:02:50Z",
       "status": "pending"
     }
   ]
