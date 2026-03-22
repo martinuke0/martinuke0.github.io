@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-22T06:02:50Z",
+  "last_scheduled_at": "2026-03-22T07:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -6204,6 +6204,20 @@
       ],
       "scheduled_at": "2026-03-22T06:02:50Z",
       "status": "posted"
+    },
+    {
+      "title": "Standardizing Local SLM Fine-Tuning with Open-Source Parameter-Efficient Orchestration Frameworks",
+      "url": "https://martinuke0.github.io/posts/2026-03-22-standardizing-local-slm-fine-tuning-with-open-source-parameter-efficient-orchestration-frameworks/",
+      "social_hook": "Large language models (LLMs) have transitioned from research curiosities to production‑grade components that power chatbots, code assistants, search engines, and countless downstream applications. While the raw, pre‑trained weights are impressive, real‑world deployments rarely use a model “out‑of‑the‑box.” Companies and developers need to adapt these models to domain‑specific vocabularies, compliance constraints, or performance targets—a process commonly referred to as fine‑tuning.\n\nFine‑tuning, however, is resource‑intensive. Traditional full‑parameter updates demand multiple GPUs, large batch sizes, and hours (or days) of compute. Parameter‑efficient fine‑tuning (PEFT) techniques such as LoRA, adapters, and prefix‑tuning dramatically reduce memory footprints and training time by freezing the majority of the model and learning only a small set of auxiliary parameters.\n\nThe ecosystem around PEFT has exploded, with a rapidly growing number of open‑source libraries (e.g., PEFT, AdapterHub, OpenDelta, LoRA‑Pytorch, trl) providing the building blocks. Yet, integrating these tools into a standardized, reproducible, and locally orchestrated workflow remains a challenge:",
+      "tags": [
+        "LLM",
+        "Fine-Tuning",
+        "Parameter-Efficient",
+        "Open-Source",
+        "Machine Learning"
+      ],
+      "scheduled_at": "2026-03-22T07:02:50Z",
+      "status": "pending"
     }
   ]
 }
