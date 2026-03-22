@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-22T08:02:50Z",
+  "last_scheduled_at": "2026-03-22T09:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -6232,6 +6232,20 @@
       ],
       "scheduled_at": "2026-03-22T08:02:50Z",
       "status": "posted"
+    },
+    {
+      "title": "The Future of Autonomous Intelligence Navigating Multi‑Agent Orchestration for Enterprise Digital Transformation",
+      "url": "https://martinuke0.github.io/posts/2026-03-22-the-future-of-autonomous-intelligence-navigating-multiagent-orchestration-for-enterprise-digital-transformation/",
+      "social_hook": "Enterprises are racing to digitize every facet of their operations—supply chains, customer experience, finance, and human resources. The promise of autonomous intelligence—AI systems that can perceive, reason, act, and continuously improve without human micromanagement—has moved from speculative research to a strategic imperative. Yet autonomy alone is insufficient. Real‑world business problems are rarely isolated; they involve a web of interdependent processes, data sources, and stakeholders. To unlock the full value of autonomous AI, organizations must adopt multi‑agent orchestration, a paradigm where several specialized AI agents collaborate, negotiate, and coordinate to achieve high‑level business objectives.\n\nThis article provides an in‑depth exploration of how multi‑agent orchestration will shape the next wave of enterprise digital transformation. We will:\n\n1. Define autonomous intelligence and multi‑agent orchestration in a business context.",
+      "tags": [
+        "autonomous‑intelligence",
+        "multi‑agent‑systems",
+        "digital‑transformation",
+        "enterprise‑AI",
+        "orchestration"
+      ],
+      "scheduled_at": "2026-03-22T09:02:50Z",
+      "status": "pending"
     }
   ]
 }
