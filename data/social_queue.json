@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-22T14:02:50Z",
+  "last_scheduled_at": "2026-03-22T15:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -6315,6 +6315,20 @@
         "machine learning"
       ],
       "scheduled_at": "2026-03-22T14:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Monte Carlo Methods: Theory, Practice, and Real-World Applications",
+      "url": "https://martinuke0.github.io/posts/2026-03-22-monte-carlo-methods-theory-practice-and-real-world-applications/",
+      "social_hook": "Monte Carlo methods are a family of computational algorithms that rely on repeated random sampling to obtain numerical results. From estimating the value of π to pricing complex financial derivatives, Monte Carlo techniques have become indispensable across scientific research, engineering, finance, and data science. Their power lies in the ability to solve problems that are analytically intractable by turning them into stochastic experiments that computers can execute millions—or even billions—of times.\n\nIn this article we will explore the theoretical foundations, practical implementations, and real‑world applications of Monte Carlo methods. We will walk through classic examples, dive into more sophisticated variants such as Markov Chain Monte Carlo (MCMC) and importance sampling, and discuss best practices for ensuring accurate and efficient results. By the end, readers should have a solid conceptual understanding and a ready‑to‑run Python toolbox for applying Monte Carlo techniques to their own problems.\n\nThe term Monte Carlo was coined during World War II at the Los Alamos Laboratory, where physicists Stanislaw Ulam and John von Neumann used random sampling to solve neutron diffusion problems. The name references the famous casino in Monaco because the method’s reliance on randomness echoed the roll of dice. After the war, Monte Carlo methods spread rapidly into nuclear physics, statistical mechanics, and later into finance and computer graphics.",
+      "tags": [
+        "Monte Carlo",
+        "Simulation",
+        "Probability",
+        "Statistics",
+        "Python"
+      ],
+      "scheduled_at": "2026-03-22T15:02:50Z",
       "status": "pending"
     }
   ]
