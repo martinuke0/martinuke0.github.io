@@ -6119,7 +6119,7 @@
         "machine learning"
       ],
       "scheduled_at": "2026-03-22T00:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Optimizing Neural Search Architectures with Rust and Distributed Vector Indexing for Scale",
