@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-22T10:02:50Z",
+  "last_scheduled_at": "2026-03-22T11:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -6260,6 +6260,20 @@
       ],
       "scheduled_at": "2026-03-22T10:02:50Z",
       "status": "posted"
+    },
+    {
+      "title": "Beyond Chat: Implementing Liquid Neural Networks for Real-Time Edge Robotics Training",
+      "url": "https://martinuke0.github.io/posts/2026-03-22-beyond-chat-implementing-liquid-neural-networks-for-real-time-edge-robotics-training/",
+      "social_hook": "Robotics has traditionally relied on offline training pipelines—large datasets are collected, models are trained on powerful GPU clusters, and the resulting weights are flashed onto the robot. This workflow works well for static environments, but it struggles when robots must operate in the wild, where lighting, terrain, payload, and user intent can change in milliseconds.\n\nEnter Liquid Neural Networks (LNNs), a class of continuous‑time recurrent architectures introduced by DeepMind in 2021. Their unique ability to dynamically reconfigure their internal dynamics based on incoming data makes them an excellent fit for real‑time adaptation on the edge. While the original papers showcased LNNs for speech synthesis and reinforcement learning, their potential in edge robotics remains largely untapped.\n\nThis article presents a comprehensive guide to implementing liquid neural networks for real‑time edge training in robotics. We will:",
+      "tags": [
+        "liquid-neural-networks",
+        "edge-computing",
+        "robotics",
+        "real-time-training",
+        "machine-learning"
+      ],
+      "scheduled_at": "2026-03-22T11:02:50Z",
+      "status": "pending"
     }
   ]
 }
