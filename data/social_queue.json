@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-22T01:02:50Z",
+  "last_scheduled_at": "2026-03-22T02:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -6133,6 +6133,20 @@
         "scalability"
       ],
       "scheduled_at": "2026-03-22T01:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Edge Inference for Collaborative Multi‑Agent Systems Using WebGPU and Distributed State Sync",
+      "url": "https://martinuke0.github.io/posts/2026-03-22-optimizing-edge-inference-for-collaborative-multiagent-systems-using-webgpu-and-distributed-state-sync/",
+      "social_hook": "Edge inference—running machine‑learning (ML) models locally on devices close to the data source—has become a cornerstone of modern collaborative multi‑agent systems. Whether it’s a fleet of autonomous drones, a swarm of warehouse robots, or a network of smart cameras, the ability to make fast, local decisions while sharing a coherent view of the world dramatically improves responsiveness, reduces bandwidth costs, and enhances privacy.\n\nHowever, deploying inference at the edge is not a trivial “download‑and‑run” problem. The limited compute, power, and memory footprints of edge devices demand aggressive optimization. At the same time, collaboration among agents introduces the need for a distributed state synchronization mechanism that can keep each participant’s view of the environment consistent, even under unreliable network conditions.\n\nEnter WebGPU, the emerging cross‑platform graphics and compute API that brings low‑level GPU acceleration to the web (and, increasingly, to native runtimes). Coupled with modern Conflict‑Free Replicated Data Types (CRDTs) or other distributed consensus techniques over transport layers like WebRTC, WebGPU offers a compelling stack for building high‑performance, collaborative edge inference pipelines.",
+      "tags": [
+        "edge computing",
+        "webgpu",
+        "distributed systems",
+        "multi-agent",
+        "inference"
+      ],
+      "scheduled_at": "2026-03-22T02:02:50Z",
       "status": "pending"
     }
   ]
