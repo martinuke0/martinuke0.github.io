@@ -6189,7 +6189,7 @@
         "Inference Optimization"
       ],
       "scheduled_at": "2026-03-22T05:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Orchestrating Serverless Inference Pipelines for Distributed Multi‑Agent Systems Using WebAssembly and Hardware Security Modules",
