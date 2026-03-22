@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-23T02:02:50Z",
+  "last_scheduled_at": "2026-03-23T03:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -6483,6 +6483,20 @@
         "AI Architecture"
       ],
       "scheduled_at": "2026-03-23T02:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Deploying Edge‑First RAG Pipelines with WASM and Local Vector Storage for Private Intelligence",
+      "url": "https://martinuke0.github.io/posts/2026-03-22-deploying-edgefirst-rag-pipelines-with-wasm-and-local-vector-storage-for-private-intelligence/",
+      "social_hook": "Private intelligence—whether it powers corporate threat‑monitoring, law‑enforcement situational awareness, or a confidential knowledge‑base—has unique requirements: data must stay on‑premise, latency must be minimal, and the solution must be resilient against network outages or hostile interception.\n\nTraditional Retrieval‑Augmented Generation (RAG) pipelines are often cloud‑centric: documents are indexed in a remote vector database, a large language model (LLM) runs in a powerful data‑center GPU cluster, and the client merely sends a request and receives a response. While this works for public‑facing applications, it leaks sensitive context, introduces unpredictable latency, and creates a single point of failure.\n\nAn edge‑first approach flips the paradigm. By moving the heavy lifting—embedding generation, vector search, and even LLM inference—to the edge device, we gain:",
+      "tags": [
+        "RAG",
+        "WASM",
+        "EdgeComputing",
+        "VectorSearch",
+        "PrivateIntelligence"
+      ],
+      "scheduled_at": "2026-03-23T03:02:50Z",
       "status": "pending"
     }
   ]
