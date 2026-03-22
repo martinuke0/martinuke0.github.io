@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-22T11:02:50Z",
+  "last_scheduled_at": "2026-03-22T12:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -6274,6 +6274,20 @@
       ],
       "scheduled_at": "2026-03-22T11:02:50Z",
       "status": "posted"
+    },
+    {
+      "title": "Mastering Retrieval Augmented Generation with LangChain and Pinecone for Production AI Applications",
+      "url": "https://martinuke0.github.io/posts/2026-03-22-mastering-retrieval-augmented-generation-with-langchain-and-pinecone-for-production-ai-applications/",
+      "social_hook": "Retrieval‑Augmented Generation (RAG) has emerged as a powerful paradigm for building knowledge‑aware language applications. By coupling a large language model (LLM) with a vector store that can retrieve relevant context, RAG enables:\n\n1. LangChain – a modular framework that orchestrates prompts, LLM calls, memory, and external tools.\n\n2. Pinecone – a managed vector database optimized for similarity search, filtering, and real‑time updates.",
+      "tags": [
+        "RAG",
+        "LangChain",
+        "Pinecone",
+        "ProductionAI",
+        "LLM"
+      ],
+      "scheduled_at": "2026-03-22T12:02:50Z",
+      "status": "pending"
     }
   ]
 }
