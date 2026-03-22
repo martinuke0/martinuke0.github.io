@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-22T20:02:50Z",
+  "last_scheduled_at": "2026-03-22T21:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -6399,6 +6399,20 @@
         "Andrej Karpathy"
       ],
       "scheduled_at": "2026-03-22T20:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Event‑Driven Microservices with Apache Kafka for Real‑Time Data Processing",
+      "url": "https://martinuke0.github.io/posts/2026-03-22-mastering-eventdriven-microservices-with-apache-kafka-for-realtime-data-processing/",
+      "social_hook": "In today’s hyper‑connected world, businesses increasingly rely on real‑time data to drive decisions, personalize experiences, and maintain a competitive edge. Traditional monolithic architectures struggle to keep up with the velocity, volume, and variety of modern data streams. Event‑driven microservices, powered by a robust messaging backbone such as Apache Kafka, have emerged as the de‑facto pattern for building scalable, resilient, and low‑latency systems.\n\nThis article is a deep dive into mastering event‑driven microservices with Apache Kafka. We will explore the theoretical foundations, walk through concrete design patterns, examine production‑grade code snippets (Java and Python), and discuss operational concerns like scaling, security, and testing. By the end, you’ll have a practical blueprint you can apply to build or refactor a real‑time data pipeline that meets enterprise‑grade SLAs.\n\nAn event is a record of a state change or an occurrence that is of interest to other components. In a microservices context, events are immutable, timestamped, and carry just enough context for downstream services to react.",
+      "tags": [
+        "microservices",
+        "event‑driven architecture",
+        "Apache Kafka",
+        "real‑time processing",
+        "distributed systems"
+      ],
+      "scheduled_at": "2026-03-22T21:02:50Z",
       "status": "pending"
     }
   ]
