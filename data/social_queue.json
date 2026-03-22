@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-22T16:02:50Z",
+  "last_scheduled_at": "2026-03-22T17:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -6343,6 +6343,20 @@
         "graphics"
       ],
       "scheduled_at": "2026-03-22T16:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering WebSockets: Real‑Time Communication for Modern Web Applications",
+      "url": "https://martinuke0.github.io/posts/2026-03-22-mastering-websockets-realtime-communication-for-modern-web-applications/",
+      "social_hook": "Real‑time interactivity has become a cornerstone of modern web experiences. From collaborative document editors to live sports tickers, users now expect instantaneous feedback without the clunky page reloads of the early web era. While AJAX and long‑polling techniques can approximate real‑time behavior, they often suffer from latency spikes, unnecessary network overhead, and scalability challenges.\n\nEnter WebSockets—a full‑duplex communication protocol that opens a persistent, low‑latency channel between a client (typically a browser) and a server. Once the handshake is complete, both sides can push data to each other at any time, dramatically reducing round‑trip times and bandwidth consumption.\n\nThis article dives deep into the WebSocket ecosystem. We'll explore the protocol internals, compare it with alternative approaches, walk through server‑ and client‑side implementations, discuss scaling and security, and showcase real‑world scenarios where WebSockets shine. By the end, you’ll have a solid mental model and practical code snippets to start building robust, real‑time applications.",
+      "tags": [
+        "websockets",
+        "real-time",
+        "networking",
+        "javascript",
+        "backend"
+      ],
+      "scheduled_at": "2026-03-22T17:02:50Z",
       "status": "pending"
     }
   ]
