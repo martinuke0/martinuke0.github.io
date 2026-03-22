@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-22T13:02:50Z",
+  "last_scheduled_at": "2026-03-22T14:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -6301,6 +6301,20 @@
         "devops"
       ],
       "scheduled_at": "2026-03-22T13:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Orchestrating Cross-Shard Consistency for Distributed Inference in Decentralized Heterogeneous Compute Clusters",
+      "url": "https://martinuke0.github.io/posts/2026-03-22-orchestrating-cross-shard-consistency-for-distributed-inference-in-decentralized-heterogeneous-compute-clusters/",
+      "social_hook": "The rise of large‑scale neural models—such as transformer‑based language models with billions of parameters—has pushed inference workloads beyond the capacity of a single GPU or even a single server. To meet latency, throughput, and cost constraints, organizations increasingly slice models across shards (sub‑models) and spread those shards across a decentralized heterogeneous compute cluster. In such an environment, each shard may run on a different hardware accelerator (GPU, TPU, FPGA, or even CPU) and be managed by distinct orchestration layers (Kubernetes, Nomad, custom edge‑node managers, etc.).\n\nWhile sharding enables scaling, it introduces a new, subtle problem: cross‑shard consistency. Inference must remain deterministic and semantically coherent even when individual shards experience network jitter, hardware failures, or version drift. Orchestrating this consistency is non‑trivial because:\n\n1. Heterogeneity – Different devices have differing precision, memory footprints, and execution models.",
+      "tags": [
+        "distributed inference",
+        "cross-shard consistency",
+        "heterogeneous clusters",
+        "orchestration",
+        "machine learning"
+      ],
+      "scheduled_at": "2026-03-22T14:02:50Z",
       "status": "pending"
     }
   ]
