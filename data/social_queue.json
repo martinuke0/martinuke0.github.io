@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-22T02:02:50Z",
+  "last_scheduled_at": "2026-03-22T03:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -6147,6 +6147,20 @@
         "inference"
       ],
       "scheduled_at": "2026-03-22T02:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Beyond Large Language Models: Navigating the Shift Toward Action-Oriented Agentic Workflows in 2026",
+      "url": "https://martinuke0.github.io/posts/2026-03-22-beyond-large-language-models-navigating-the-shift-toward-action-oriented-agentic-workflows-in-2026/",
+      "social_hook": "The AI landscape of 2026 is no longer dominated solely by large language models (LLMs) that generate text. While LLMs remain the foundational “brain” of many applications, the industry has moved toward action‑oriented agentic workflows—systems that combine language understanding with concrete tool usage, decision‑making, and execution in real environments.\n\nThese workflows enable AI to act rather than merely talk: they can schedule meetings, retrieve and transform data, trigger cloud functions, and even coordinate multiple autonomous agents to solve complex, multi‑step problems. In this article we will:\n\n4. Walk through a detailed, production‑grade example (automated customer‑support ticket resolution).",
+      "tags": [
+        "LLM",
+        "Agentic AI",
+        "Workflow Automation",
+        "AI Governance",
+        "2026 Trends"
+      ],
+      "scheduled_at": "2026-03-22T03:02:50Z",
       "status": "pending"
     }
   ]
