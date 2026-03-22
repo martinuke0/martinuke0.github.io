@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-22T03:02:50Z",
+  "last_scheduled_at": "2026-03-22T04:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -6161,6 +6161,20 @@
         "2026 Trends"
       ],
       "scheduled_at": "2026-03-22T03:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building Scalable Multi‑Agent Workflows Using Serverless Architecture and Vector Database Integration",
+      "url": "https://martinuke0.github.io/posts/2026-03-22-building-scalable-multiagent-workflows-using-serverless-architecture-and-vector-database-integration/",
+      "social_hook": "Artificial intelligence has moved beyond isolated, single‑purpose models. Modern applications increasingly rely on multi‑agent workflows, where several specialized agents collaborate to solve complex tasks such as data extraction, reasoning, planning, and execution. While the capabilities of each agent grow, orchestrating them at scale becomes a non‑trivial engineering challenge.\n\nEnter serverless architecture and vector databases. Serverless platforms provide on‑demand compute with automatic scaling, pay‑as‑you‑go pricing, and minimal operational overhead. Vector databases, on the other hand, enable fast similarity search over high‑dimensional embeddings—crucial for semantic retrieval, memory augmentation, and context sharing among agents.\n\nThis article walks you through the design, implementation, and operational considerations for building scalable multi‑agent workflows that combine serverless functions with vector‑database‑backed knowledge stores. By the end, you’ll have a concrete, production‑ready reference architecture, a runnable code example, and a set of best practices you can apply to your own projects.",
+      "tags": [
+        "serverless",
+        "multi-agent",
+        "vector-database",
+        "workflow",
+        "scalability"
+      ],
+      "scheduled_at": "2026-03-22T04:02:50Z",
       "status": "pending"
     }
   ]
