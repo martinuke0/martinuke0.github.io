@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-23T03:02:50Z",
+  "last_scheduled_at": "2026-03-23T04:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -6497,6 +6497,20 @@
         "PrivateIntelligence"
       ],
       "scheduled_at": "2026-03-23T03:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Resilient Agentic Workflows: Strategies for Autonomous Error Recovery in Distributed Systems",
+      "url": "https://martinuke0.github.io/posts/2026-03-22-architecting-resilient-agentic-workflows-strategies-for-autonomous-error-recovery-in-distributed-systems/",
+      "social_hook": "Distributed systems have become the backbone of modern digital services—from global e‑commerce platforms and fintech applications to IoT networks and AI‑driven data pipelines. Their inherent complexity brings both tremendous scalability and a heightened risk of partial failures, network partitions, and unpredictable latency spikes. Traditional monolithic error‑handling approaches—centralized try/catch blocks, manual incident response, or static retries—are no longer sufficient.\n\nEnter agentic workflows: autonomous, purpose‑driven components (agents) that coordinate, make decisions, and recover from errors without human intervention. By combining the principles of resilient architecture with the autonomy of intelligent agents, engineers can design systems that not only survive failures but also self‑heal and optimize over time.\n\nThis article provides a deep dive into architecting resilient agentic workflows for autonomous error recovery. We will explore foundational concepts, core design principles, proven architectural patterns, practical implementation examples, testing strategies, and future directions. By the end, you’ll have a concrete toolbox to build distributed systems that are both highly available and self‑sustaining.",
+      "tags": [
+        "distributed systems",
+        "resilience",
+        "autonomous agents",
+        "error recovery",
+        "workflow orchestration"
+      ],
+      "scheduled_at": "2026-03-23T04:02:50Z",
       "status": "pending"
     }
   ]
