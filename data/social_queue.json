@@ -6175,7 +6175,7 @@
         "scalability"
       ],
       "scheduled_at": "2026-03-22T04:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "The Shift to Edge-Native LLMs: Optimizing Local Inference for Privacy-First Developer Workflows",
@@ -6203,7 +6203,7 @@
         "multiagent"
       ],
       "scheduled_at": "2026-03-22T06:02:50Z",
-      "status": "pending"
+      "status": "posted"
     }
   ]
 }
