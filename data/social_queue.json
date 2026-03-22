@@ -6301,7 +6301,7 @@
         "devops"
       ],
       "scheduled_at": "2026-03-22T13:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Orchestrating Cross-Shard Consistency for Distributed Inference in Decentralized Heterogeneous Compute Clusters",
