@@ -6357,7 +6357,7 @@
         "backend"
       ],
       "scheduled_at": "2026-03-22T17:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "CPU vs GPU Architecture: A Deep Dive into Design, Performance, and Applications",
