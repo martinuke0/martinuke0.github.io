@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-23T04:02:50Z",
+  "last_scheduled_at": "2026-03-23T05:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -6511,6 +6511,20 @@
         "workflow orchestration"
       ],
       "scheduled_at": "2026-03-23T04:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Scaling Autonomous Agent Workflows with Event‑Driven Graph Architectures and Python",
+      "url": "https://martinuke0.github.io/posts/2026-03-22-scaling-autonomous-agent-workflows-with-eventdriven-graph-architectures-and-python/",
+      "social_hook": "Autonomous agents—software entities that can perceive, reason, and act without direct human supervision—are becoming the backbone of modern AI‑driven products. From chat‑bots that negotiate contracts to edge‑devices that perform predictive maintenance, these agents rarely work in isolation. Instead, they form workflows: sequences of interdependent tasks, data transformations, and decision points that collectively achieve a business goal.\n\nWhen a single workflow handles a handful of requests per minute, a straightforward procedural implementation suffices. However, production‑grade systems often need to process thousands to millions of events per second, adapt to shifting data schemas, and remain resilient to partial failures. Traditional monolithic designs quickly hit scalability ceilings.\n\nEnter Event‑Driven Graph Architectures. By marrying the loosely‑coupled, asynchronous nature of event‑driven systems with the explicit dependency modeling of graph structures, engineers can build pipelines that are both highly scalable and intuitively understandable. Python, with its rich async ecosystem and mature graph libraries, offers a pragmatic platform for prototyping and deploying such architectures.",
+      "tags": [
+        "autonomous-agents",
+        "event-driven",
+        "graph-architecture",
+        "python",
+        "scalable-systems"
+      ],
+      "scheduled_at": "2026-03-23T05:02:50Z",
       "status": "pending"
     }
   ]
