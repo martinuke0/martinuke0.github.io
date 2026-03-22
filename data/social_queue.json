@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-23T01:02:50Z",
+  "last_scheduled_at": "2026-03-23T02:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -6469,6 +6469,20 @@
         "AI at the edge"
       ],
       "scheduled_at": "2026-03-23T01:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Navigating the Shift from Large Language Models to Agentic Reasoning Frameworks in 2026",
+      "url": "https://martinuke0.github.io/posts/2026-03-22-navigating-the-shift-from-large-language-models-to-agentic-reasoning-frameworks-in-2026/",
+      "social_hook": "The last half‑decade has seen large language models (LLMs) dominate headlines, research conferences, and commercial products. From GPT‑4 to Claude‑3, these models have demonstrated remarkable fluency, few‑shot learning, and the ability to generate code, prose, and even art. Yet, as we entered 2026, a new paradigm—Agentic Reasoning Frameworks (ARFs)—has begun to eclipse pure‑LLM pipelines for many enterprise and research use‑cases.\n\nThis article unpacks the forces driving the shift, explains what an ARF actually is, and provides a step‑by‑step guide for engineers, product managers, and decision‑makers who want to transition their LLM‑centric solutions into robust, agent‑driven systems. By the end, you’ll have a clear mental model of the architectural differences, practical migration tactics, and a glimpse of what the next generation of AI reasoning might look like.\n\n> Note: While the term “agentic” has been used loosely in popular media, in the context of this post we define it rigorously as autonomous computational entities that maintain internal state, plan actions, and interact with external tools or environments under explicit policy constraints.",
+      "tags": [
+        "LLM",
+        "Agentic AI",
+        "Reasoning Frameworks",
+        "2026",
+        "AI Architecture"
+      ],
+      "scheduled_at": "2026-03-23T02:02:50Z",
       "status": "pending"
     }
   ]
