@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-23T06:02:50Z",
+  "last_scheduled_at": "2026-03-23T07:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -6539,6 +6539,20 @@
         "performance-optimization"
       ],
       "scheduled_at": "2026-03-23T06:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "The Shift to Small Language Models: Deploying Private GenAI Using Multi‑Agent Local Frameworks",
+      "url": "https://martinuke0.github.io/posts/2026-03-23-the-shift-to-small-language-models-deploying-private-genai-using-multiagent-local-frameworks/",
+      "social_hook": "Generative AI (GenAI) has become synonymous with massive transformer models like GPT‑4, Claude, or Gemini. Their impressive capabilities have spurred a wave of cloud‑centric deployments, where data, compute, and model weights reside in the same public‑cloud silo. Yet, as enterprises grapple with escalating costs, stringent data‑privacy regulations, and the need for domain‑specific expertise, a new paradigm is emerging: small language models (SLMs) combined with multi‑agent local frameworks.\n\nThis article dives deep into why SLMs are gaining momentum, how multi‑agent orchestration unlocks sophisticated workflows on‑premise, and what practical steps you can take today to build a private, high‑performance GenAI stack. We’ll walk through concrete code, real‑world deployments, and future trends, giving you a roadmap from concept to production.\n\nLarge models often require dozens of high‑end GPUs or TPUs just for inference, translating into thousands of dollars per month for a single production endpoint. In contrast, many modern SLMs—ranging from 1 B to 7 B parameters—run comfortably on a single consumer‑grade GPU (e.g., NVIDIA RTX 4090) or even on CPU‑optimized inference engines.",
+      "tags": [
+        "generative‑ai",
+        "small‑language‑models",
+        "privacy",
+        "multi‑agent‑systems",
+        "deployment"
+      ],
+      "scheduled_at": "2026-03-23T07:02:50Z",
       "status": "pending"
     }
   ]
