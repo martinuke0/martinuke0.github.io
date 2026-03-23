@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-24T02:02:50Z",
+  "last_scheduled_at": "2026-03-24T03:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -6822,6 +6822,20 @@
         "agentic-workflows"
       ],
       "scheduled_at": "2026-03-24T02:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Decentralized Inference Networks: How Local LLM Swarms are Redefining Edge Computing Infrastructure",
+      "url": "https://martinuke0.github.io/posts/2026-03-23-decentralized-inference-networks-how-local-llm-swarms-are-redefining-edge-computing-infrastructure/",
+      "social_hook": "Artificial intelligence has moved from the exclusive realm of data‑center GPUs to the far‑flung corners of the network—smart cameras, industrial controllers, autonomous drones, and even handheld devices. This migration is driven by three converging forces:\n\n1. Demand for real‑time decisions where milliseconds matter (e.g., safety‑critical robotics).\n\n3. Explosive model size that makes a single monolithic server a bottleneck for latency and cost.",
+      "tags": [
+        "edge computing",
+        "LLM",
+        "decentralization",
+        "inference",
+        "AI infrastructure"
+      ],
+      "scheduled_at": "2026-03-24T03:02:50Z",
       "status": "pending"
     }
   ]
