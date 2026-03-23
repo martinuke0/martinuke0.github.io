@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-23T10:02:50Z",
+  "last_scheduled_at": "2026-03-23T11:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -6595,6 +6595,20 @@
         "AI deployment"
       ],
       "scheduled_at": "2026-03-23T10:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Real Time Model Distillation for Low Latency Edge AI Applications",
+      "url": "https://martinuke0.github.io/posts/2026-03-23-optimizing-real-time-model-distillation-for-low-latency-edge-ai-applications/",
+      "social_hook": "Edge artificial intelligence (AI) has moved from a research curiosity to a production‑grade necessity. From autonomous drones that must react within milliseconds to smart cameras that filter out privacy‑sensitive content on‑device, the common denominator is real‑time inference under tight resource constraints. Traditional deep neural networks (DNNs) excel in accuracy but often exceed the compute, memory, and power budgets of edge hardware.\n\nModel distillation—the process of transferring knowledge from a large, high‑performing teacher network to a compact student—offers a systematic way to shrink models while retaining most of the original accuracy. However, simply creating a smaller model does not guarantee low latency on edge devices. The distillation pipeline itself must be engineered with the target runtime in mind: data flow, loss formulation, architecture, and hardware‑specific optimizations all interact to dictate the final latency‑accuracy trade‑off.\n\nThis article walks through the complete lifecycle of real‑time model distillation for low‑latency edge AI:",
+      "tags": [
+        "Edge AI",
+        "Model Distillation",
+        "Low Latency",
+        "Real-Time",
+        "Optimization"
+      ],
+      "scheduled_at": "2026-03-23T11:02:50Z",
       "status": "pending"
     }
   ]
