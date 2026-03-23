@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-23T19:02:50Z",
+  "last_scheduled_at": "2026-03-23T20:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -6724,6 +6724,20 @@
         "performance"
       ],
       "scheduled_at": "2026-03-23T19:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Scaling the Edge: Optimizing Real-Time Inference with WebAssembly and Decentralized GPU Clusters",
+      "url": "https://martinuke0.github.io/posts/2026-03-23-scaling-the-edge-optimizing-real-time-inference-with-webassembly-and-decentralized-gpu-clusters/",
+      "social_hook": "Edge computing has moved from a niche research topic to a cornerstone of modern digital infrastructure. As billions of devices generate data in real time—think autonomous drones, AR glasses, industrial IoT sensors—the need for instantaneous, on‑device inference has never been more pressing. Traditional cloud‑centric pipelines introduce latency, bandwidth costs, and privacy concerns that simply cannot be tolerated for safety‑critical or latency‑sensitive workloads.\n\n1. WebAssembly (Wasm) – a lightweight, sandboxed binary format that runs at near‑native speed across browsers, servers, and increasingly on bare‑metal edge devices.\n\n2. Decentralized GPU clusters – collections of GPU‑enabled nodes that can be orchestrated across geographic locations, forming a “fog” of compute resources that sit closer to the data source than a monolithic data center.",
+      "tags": [
+        "WebAssembly",
+        "Edge Computing",
+        "GPU Clusters",
+        "Real-Time Inference",
+        "Machine Learning"
+      ],
+      "scheduled_at": "2026-03-23T20:02:50Z",
       "status": "pending"
     }
   ]
