@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-23T14:02:50Z",
+  "last_scheduled_at": "2026-03-23T15:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -6653,6 +6653,20 @@
         "enterprise"
       ],
       "scheduled_at": "2026-03-23T14:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Memory-Driven Role-Playing: How AI Can Finally Stay in Character Like a Pro Actor",
+      "url": "https://martinuke0.github.io/posts/2026-03-23-memory-driven-role-playing-how-ai-can-finally-stay-in-character-like-a-pro-actor/",
+      "social_hook": "Imagine chatting with an AI that's supposed to be your quirky grandma from Brooklyn—tough-talking, loves bingo, and always slips in Yiddish phrases. Five minutes in, she starts rambling about quantum physics or forgets her own recipes. Frustrating, right? That's the core problem this groundbreaking research paper tackles: why large language models (LLMs) suck at staying in character during long conversations.\n\nThe paper, \"Memory-Driven Role-Playing: Evaluation and Enhancement of Persona Knowledge Utilization in LLMs\", introduces a smart new way to make AI role-play like a method actor, drawing from real acting techniques. It proposes tools to evaluate, improve, and benchmark how well AI \"remembers\" and uses its assigned persona without constant reminders. In plain terms, it turns AI into a consistent conversational partner that doesn't forget who it is.\n\nThis isn't just academic fluff. The findings show small, open-source models punching way above their weight, matching giant proprietary ones. For developers, gamers, educators, and anyone building chatbots, this could revolutionize how we create believable AI characters. Let's break it down step by step, with analogies, examples, and why it matters.",
+      "tags": [
+        "LLMs",
+        "AI Memory",
+        "Role-Playing",
+        "Prompt Engineering",
+        "AI Evaluation"
+      ],
+      "scheduled_at": "2026-03-23T15:02:50Z",
       "status": "pending"
     }
   ]
