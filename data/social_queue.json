@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-23T15:02:50Z",
+  "last_scheduled_at": "2026-03-23T16:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -6667,6 +6667,21 @@
         "AI Evaluation"
       ],
       "scheduled_at": "2026-03-23T15:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Revolutionizing Portfolio Construction: How Deep Neural Networks Jointly Model Returns and Risk",
+      "url": "https://martinuke0.github.io/posts/2026-03-23-revolutionizing-portfolio-construction-how-deep-neural-networks-jointly-model-returns-and-risk/",
+      "social_hook": "Imagine you're a savvy investor staring at a screen full of stock charts, historical data, and volatility spikes. Traditional investing wisdom tells you to predict future returns based on past averages and estimate risks by crunching covariance matrices—fancy math for how assets move together. But markets aren't static; they're wild beasts that shift regimes overnight, from bull runs to crashes. What if an AI could learn both returns and risks simultaneously from the chaos of daily data, spitting out smarter portfolios that actually beat the benchmarks?\n\nThat's exactly what the research paper \"Joint Return and Risk Modeling with Deep Neural Networks for Portfolio Construction\" (arXiv:2603.19288) achieves. This groundbreaking work ditches the old separate-modeling approach for an end-to-end deep learning framework that captures dynamic market behaviors like volatility clustering and regime shifts. Tested on ten large-cap US stocks from 2010-2024, it delivers jaw-dropping results: a 36.4% annual return and Sharpe ratio of 0.91 out-of-sample from 2020-2024, crushing equal-weight and mean-variance baselines.\n\nIn this post, we'll break it down for a general technical audience—no PhD required. We'll use real-world analogies, dive into the mechanics, explore why it matters, and extract timeless lessons for AI and CS pros. Buckle up; this could change how you think about AI in finance.",
+      "tags": [
+        "AI in Finance",
+        "Deep Learning",
+        "Portfolio Optimization",
+        "Neural Networks",
+        "Quantitative Finance",
+        "Risk Management"
+      ],
+      "scheduled_at": "2026-03-23T16:02:50Z",
       "status": "pending"
     }
   ]
