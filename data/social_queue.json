@@ -6780,7 +6780,7 @@
         "scalability"
       ],
       "scheduled_at": "2026-03-23T23:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Beyond Chatbots: Optimizing Local LLMs with Liquid Neural Networks and WebGPU Acceleration",
