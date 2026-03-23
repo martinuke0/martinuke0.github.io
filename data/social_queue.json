@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-23T11:02:50Z",
+  "last_scheduled_at": "2026-03-23T12:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -6609,6 +6609,21 @@
         "Optimization"
       ],
       "scheduled_at": "2026-03-23T11:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Revolutionizing Radiology: How Mid-Training Supercharges AI for Smarter Report Summaries",
+      "url": "https://martinuke0.github.io/posts/2026-03-23-revolutionizing-radiology-how-mid-training-supercharges-ai-for-smarter-report-summaries/",
+      "social_hook": "Imagine a busy radiologist staring at a stack of lengthy reports after scanning X-rays, CTs, and MRIs. Each report is packed with dense medical jargon describing every tiny detail from a patient's scan. Synthesizing that into a crisp \"impression\" – the key takeaway that guides doctors' decisions – takes precious time. Now, picture AI stepping in to handle that heavy lifting, producing accurate summaries that match expert quality. That's the promise of the research paper \"Improving Automatic Summarization of Radiology Reports through Mid-Training of Large Language Models\" (arXiv:2603.19275).\n\nThis blog post breaks down the paper's breakthroughs for a general technical audience – think software engineers, data scientists, or healthcare tech enthusiasts who want the big picture without drowning in equations. We'll use everyday analogies, like training a puppy or tuning a car engine, to make complex AI concepts click. By the end, you'll grasp why this \"mid-training\" trick could transform healthcare AI and beyond.\n\nRadiology reports are the unsung heroes of modern medicine. After imaging a patient's lungs, brain, or abdomen, a radiologist writes a report divided into key sections:",
+      "tags": [
+        "AI",
+        "Machine Learning",
+        "Healthcare AI",
+        "Large Language Models",
+        "Radiology",
+        "Natural Language Processing"
+      ],
+      "scheduled_at": "2026-03-23T12:02:50Z",
       "status": "pending"
     }
   ]
