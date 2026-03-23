@@ -6553,7 +6553,7 @@
         "deployment"
       ],
       "scheduled_at": "2026-03-23T07:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Building Highly Available Distributed Task Queues with Redis Streams and Rust Microservices",
