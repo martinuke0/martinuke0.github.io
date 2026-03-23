@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-23T18:02:50Z",
+  "last_scheduled_at": "2026-03-23T19:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -6710,6 +6710,20 @@
         "science and faith"
       ],
       "scheduled_at": "2026-03-23T18:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing Distributed Caching Layers for High‑Throughput Retrieval‑Augmented Generation Systems",
+      "url": "https://martinuke0.github.io/posts/2026-03-23-implementing-distributed-caching-layers-for-highthroughput-retrievalaugmented-generation-systems/",
+      "social_hook": "Retrieval‑augmented generation (RAG) has become a cornerstone of modern AI applications: large language models (LLMs) are paired with external knowledge sources—vector stores, databases, or search indexes—to ground their output in factual, up‑to‑date information. While the generative component often dominates headline discussions, the retrieval layer can be a hidden performance bottleneck, especially under high query volume.\n\nA distributed caching layer sits between the RAG pipeline and the underlying knowledge store, dramatically reducing latency, smoothing traffic spikes, and lowering cost. This article dives deep into the theory, design choices, and hands‑on implementation details needed to build a robust, high‑throughput cache for RAG systems. By the end, you’ll have a complete blueprint you can adapt to production workloads ranging from enterprise search assistants to real‑time recommendation engines.\n\nIn short, a well‑engineered cache is not a “nice‑to‑have” addition—it is a prerequisite for any RAG service that must meet sub‑second SLAs at scale.",
+      "tags": [
+        "distributed systems",
+        "caching",
+        "RAG",
+        "AI infrastructure",
+        "performance"
+      ],
+      "scheduled_at": "2026-03-23T19:02:50Z",
       "status": "pending"
     }
   ]
