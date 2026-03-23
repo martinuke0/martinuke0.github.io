@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-23T23:02:50Z",
+  "last_scheduled_at": "2026-03-24T00:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -6780,6 +6780,20 @@
         "scalability"
       ],
       "scheduled_at": "2026-03-23T23:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Beyond Chatbots: Optimizing Local LLMs with Liquid Neural Networks and WebGPU Acceleration",
+      "url": "https://martinuke0.github.io/posts/2026-03-23-beyond-chatbots-optimizing-local-llms-with-liquid-neural-networks-and-webgpu-acceleration/",
+      "social_hook": "Large language models (LLMs) have transformed the way we interact with computers, powering everything from conversational agents to code assistants. Yet, most deployments still rely on cloud‑based inference, a model that raises latency, privacy, and cost concerns. As hardware accelerators become more capable and browsers expose low‑level GPU APIs, a new frontier emerges: running sophisticated LLM inference locally, optimized with cutting‑edge neural architectures such as liquid neural networks and accelerated via WebGPU.\n\nThis article dives deep into the technical underpinnings of this approach. We’ll explore why local LLMs are gaining traction, unpack the mathematics behind liquid neural networks, demystify the WebGPU API, and walk through a complete, reproducible implementation that showcases measurable speed‑ups on everyday devices.\n\n> Note: The code snippets are intentionally concise to fit within a browser environment. For production workloads you’ll want to incorporate more robust error handling, batching logic, and memory pooling.",
+      "tags": [
+        "LLM",
+        "Liquid Neural Networks",
+        "WebGPU",
+        "Edge AI",
+        "Performance Optimization"
+      ],
+      "scheduled_at": "2026-03-24T00:02:50Z",
       "status": "pending"
     }
   ]
