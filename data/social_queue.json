@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-24T06:02:50Z",
+  "last_scheduled_at": "2026-03-24T07:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -6878,6 +6878,20 @@
         "Computer Vision"
       ],
       "scheduled_at": "2026-03-24T06:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "DeerFlow: A Comprehensive Guide to Modern Dataflow for Wildlife Analytics",
+      "url": "https://martinuke0.github.io/posts/2026-03-23-deerflow-a-comprehensive-guide-to-modern-dataflow-for-wildlife-analytics/",
+      "social_hook": "In the age of big data, the ability to process, transform, and analyze streaming information in near‑real‑time has become a cornerstone of many scientific and commercial domains. While industries such as advertising, finance, and IoT have long benefited from sophisticated data‑flow platforms, the field of wildlife ecology is only now catching up. DeerFlow is an emerging open‑source framework that brings modern data‑flow concepts to the study of cervid (deer) populations, migration patterns, and habitat usage.\n\nDeerFlow is built on top of Python’s async ecosystem and offers a declarative API for constructing pipelines that ingest sensor data (GPS collars, camera traps, acoustic monitors), perform spatial‑temporal enrichment, and output actionable insights for wildlife managers, researchers, and policy makers. This article provides a deep dive into DeerFlow’s architecture, core concepts, installation, practical usage, advanced patterns, performance considerations, and how it stacks up against other data‑flow solutions.\n\n> Note: Although DeerFlow is a real project hosted on GitHub, the examples in this article are written to be self‑contained and runnable without external dependencies beyond the core library.",
+      "tags": [
+        "dataflow",
+        "wildlife",
+        "Python",
+        "analytics",
+        "open-source"
+      ],
+      "scheduled_at": "2026-03-24T07:02:50Z",
       "status": "pending"
     }
   ]
