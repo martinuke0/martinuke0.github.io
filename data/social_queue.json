@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-24T05:02:50Z",
+  "last_scheduled_at": "2026-03-24T06:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -6864,6 +6864,20 @@
         "Web Development"
       ],
       "scheduled_at": "2026-03-24T05:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "From Gut Feelings to Detective Work: Revolutionizing Face Anti-Spoofing with AI Tools",
+      "url": "https://martinuke0.github.io/posts/2026-03-23-from-gut-feelings-to-detective-work-revolutionizing-face-anti-spoofing-with-ai-tools/",
+      "social_hook": "Imagine unlocking your phone with your face, logging into your bank account, or passing through airport security—all powered by facial recognition. It's convenient, right? But what if a clever criminal holds up a high-quality photo of you, a video replay on a screen, or even a sophisticated 3D mask? That's the nightmare scenario face anti-spoofing (FAS) aims to prevent. Traditional systems often fail when faced with new tricks, but a groundbreaking paper titled \"From Intuition to Investigation: A Tool-Augmented Reasoning MLLM Framework for Generalizable Face Anti-Spoofing\" introduces a smarter way forward.[5][6]\n\nThis research, available on arXiv (https://arxiv.org/abs/2603.01038), transforms FAS from a simple \"real or fake?\" guess into a detective-like investigation using Multimodal Large Language Models (MLLMs) augmented with visual tools. Instead of relying on gut feelings about obvious clues like mask edges, the system digs deeper with specialized tools to spot subtle fakes. In this post, we'll break it down for a general technical audience—no PhD required. We'll use real-world analogies, explore the tech step-by-step, and discuss why this could make AI security unbreakable.\n\nFace recognition is everywhere: smartphones, smart homes, border control, and even hiring processes. But it's vulnerable to presentation attacks (PAs)—fooling the system with non-live representations like photos, videos, masks, or deepfakes.[1][5] Early FAS methods used basic tricks:",
+      "tags": [
+        "Face Anti-Spoofing",
+        "Multimodal LLMs",
+        "AI Security",
+        "Chain-of-Thought Reasoning",
+        "Computer Vision"
+      ],
+      "scheduled_at": "2026-03-24T06:02:50Z",
       "status": "pending"
     }
   ]
