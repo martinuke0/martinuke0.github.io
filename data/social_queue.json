@@ -6483,7 +6483,7 @@
         "AI Architecture"
       ],
       "scheduled_at": "2026-03-23T02:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Deploying Edge‑First RAG Pipelines with WASM and Local Vector Storage for Private Intelligence",
@@ -6497,7 +6497,7 @@
         "PrivateIntelligence"
       ],
       "scheduled_at": "2026-03-23T03:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Architecting Resilient Agentic Workflows: Strategies for Autonomous Error Recovery in Distributed Systems",
