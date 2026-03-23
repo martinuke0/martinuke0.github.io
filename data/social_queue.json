@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-23T07:02:50Z",
+  "last_scheduled_at": "2026-03-23T08:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -6553,6 +6553,20 @@
         "deployment"
       ],
       "scheduled_at": "2026-03-23T07:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building Highly Available Distributed Task Queues with Redis Streams and Rust Microservices",
+      "url": "https://martinuke0.github.io/posts/2026-03-23-building-highly-available-distributed-task-queues-with-redis-streams-and-rust-microservices/",
+      "social_hook": "In modern cloud‑native environments, the need to decouple work, improve resilience, and scale horizontally has given rise to distributed task queues. While many developers reach for solutions like RabbitMQ, Kafka, or managed cloud services, Redis Streams combined with Rust’s zero‑cost abstractions offers a compelling alternative: high performance, low latency, and native support for consumer groups—all while keeping operational complexity manageable.\n\nThis article walks you through the design and implementation of a highly available (HA) distributed task queue built on Redis Streams and Rust microservices. We will explore the underlying concepts, show concrete code snippets, discuss HA patterns, and finish with a real‑world example that you can adapt to your own workloads.\n\n> Note: This guide assumes familiarity with Rust’s async ecosystem and basic Redis operations. If you are new to either, consider reading the official documentation before diving in.",
+      "tags": [
+        "redis",
+        "rust",
+        "microservices",
+        "distributed-systems",
+        "task-queues"
+      ],
+      "scheduled_at": "2026-03-23T08:02:50Z",
       "status": "pending"
     }
   ]
