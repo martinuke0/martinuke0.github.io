@@ -6567,7 +6567,7 @@
         "task-queues"
       ],
       "scheduled_at": "2026-03-23T08:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Scaling Local Inference: Optimizing SlimLLMs for Real-Time Edge Computing and Private Data Mesh",
