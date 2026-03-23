@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-23T21:02:50Z",
+  "last_scheduled_at": "2026-03-23T22:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -6752,6 +6752,20 @@
         "Scalability"
       ],
       "scheduled_at": "2026-03-23T21:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Understanding Random Walks: Theory, Simulation, and Real-World Applications",
+      "url": "https://martinuke0.github.io/posts/2026-03-23-understanding-random-walks-theory-simulation-and-real-world-applications/",
+      "social_hook": "A random walk is one of the most fundamental stochastic processes in probability theory. At its core, it describes a path that consists of a succession of random steps. Despite its deceptively simple definition, the random walk model underpins a surprisingly wide range of phenomena—from the diffusion of particles in physics to stock‑price dynamics in finance, from the spread of diseases in epidemiology to algorithmic techniques in computer science.\n\n1. Develop the mathematical foundations of random walks in one, two, and higher dimensions.\n\n4. Discuss practical extensions (biased walks, Lévy flights, self‑avoiding walks).",
+      "tags": [
+        "random walk",
+        "probability",
+        "simulation",
+        "mathematics",
+        "applications"
+      ],
+      "scheduled_at": "2026-03-23T22:02:50Z",
       "status": "pending"
     }
   ]
