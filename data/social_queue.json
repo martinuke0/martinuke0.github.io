@@ -6525,7 +6525,7 @@
         "scalable-systems"
       ],
       "scheduled_at": "2026-03-23T05:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Optimizing Edge Intelligence: Deploying High‑Performance Transformers with Rust and WebAssembly",
