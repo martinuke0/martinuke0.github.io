@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-23T17:02:50Z",
+  "last_scheduled_at": "2026-03-23T18:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -6696,6 +6696,20 @@
         "resilience"
       ],
       "scheduled_at": "2026-03-23T17:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "The Universe as Thought: How Quantum Physics Reveals a Deeper Spiritual Reality",
+      "url": "https://martinuke0.github.io/posts/2026-03-23-the-universe-as-thought-how-quantum-physics-reveals-a-deeper-spiritual-reality/",
+      "social_hook": "For centuries, the Western worldview has operated under a fundamental assumption: the universe is fundamentally mechanical, a vast clockwork of matter and energy governed by deterministic laws. This Newtonian paradigm shaped not only our scientific understanding but also our spiritual frameworks, creating an apparent divide between the material and the immaterial, the physical and the metaphysical.\n\nOver the past century, the discoveries of quantum mechanics have systematically dismantled this mechanistic worldview, revealing something far more profound: a universe that appears to operate more like a coherent thought than a lifeless machine. This shift from mechanism to what we might call \"cosmic consciousness\" opens remarkable avenues for reconciling scientific discovery with spiritual understanding—particularly with biblical Christianity.\n\nThe resonance between quantum physics and ancient spiritual wisdom suggests we may be experiencing a profound convergence. As physicist James Jeans famously observed, \"The universe is looking less like a great machine, and more like a great thought.\" This observation, made nearly a century ago, continues to reverberate through both scientific and theological circles, offering a bridge between disciplines that have long seemed incompatible.",
+      "tags": [
+        "quantum physics",
+        "spirituality",
+        "consciousness",
+        "theology",
+        "science and faith"
+      ],
+      "scheduled_at": "2026-03-23T18:02:50Z",
       "status": "pending"
     }
   ]
