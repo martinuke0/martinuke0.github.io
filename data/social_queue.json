@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-23T22:02:50Z",
+  "last_scheduled_at": "2026-03-23T23:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -6766,6 +6766,20 @@
         "applications"
       ],
       "scheduled_at": "2026-03-23T22:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Scalable Microservices with Python and Event Driven Design Patterns",
+      "url": "https://martinuke0.github.io/posts/2026-03-23-architecting-scalable-microservices-with-python-and-event-driven-design-patterns/",
+      "social_hook": "In the era of cloud‑native development, microservices have become the de‑facto standard for building large‑scale, maintainable systems. Yet, simply breaking a monolith into independent services does not automatically guarantee scalability, resilience, or agility. The way these services communicate—how they exchange data and react to change—often determines whether the architecture will thrive under load or crumble at the first spike.\n\nEvent‑driven design patterns provide a powerful, loosely‑coupled communication model that complements microservices perfectly. By emitting and reacting to events, services can evolve independently, scale horizontally, and maintain strong consistency where needed while embracing eventual consistency elsewhere.\n\nThis article walks you through the end‑to‑end process of architecting a scalable microservice ecosystem in Python, leveraging event‑driven patterns such as Event Bus, Saga, Event Sourcing, and CQRS. We’ll explore:",
+      "tags": [
+        "microservices",
+        "python",
+        "event-driven",
+        "architecture",
+        "scalability"
+      ],
+      "scheduled_at": "2026-03-23T23:02:50Z",
       "status": "pending"
     }
   ]
