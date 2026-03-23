@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-23T13:02:50Z",
+  "last_scheduled_at": "2026-03-23T14:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -6639,6 +6639,20 @@
         "cloud-native"
       ],
       "scheduled_at": "2026-03-23T13:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Resilient Event‑Driven AI Orchestration for High‑Throughput Enterprise Production Systems",
+      "url": "https://martinuke0.github.io/posts/2026-03-23-architecting-resilient-eventdriven-ai-orchestration-for-highthroughput-enterprise-production-systems/",
+      "social_hook": "Enterprises that rely on artificial intelligence (AI) for real‑time decision making—whether to personalize a recommendation, detect fraud, or trigger a robotic process automation—must move beyond ad‑hoc pipelines and embrace event‑driven AI orchestration. In a production environment, data streams can reach millions of events per second, models can evolve multiple times a day, and downstream services must remain available even when individual components fail.\n\nThis article presents a holistic architecture for building resilient, high‑throughput AI‑enabled systems. We will:\n\n1. Review the fundamentals of event‑driven architecture (EDA) and AI orchestration.",
+      "tags": [
+        "event-driven",
+        "AI orchestration",
+        "resilience",
+        "high-throughput",
+        "enterprise"
+      ],
+      "scheduled_at": "2026-03-23T14:02:50Z",
       "status": "pending"
     }
   ]
