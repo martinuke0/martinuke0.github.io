@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-24T04:02:50Z",
+  "last_scheduled_at": "2026-03-24T05:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -6850,6 +6850,20 @@
         "network optimization"
       ],
       "scheduled_at": "2026-03-24T04:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering the Chrome DevTools Protocol (CDP): A Deep Dive for Web Engineers",
+      "url": "https://martinuke0.github.io/posts/2026-03-23-mastering-the-chrome-devtools-protocol-cdp-a-deep-dive-for-web-engineers/",
+      "social_hook": "Chrome’s developer tools have long been the go‑to suite for debugging, profiling, and inspecting web pages. Underneath the familiar UI lies a powerful, language‑agnostic Chrome DevTools Protocol (CDP) that exposes the entire browser engine as a set of JSON‑based commands and events. By speaking CDP directly—or through a higher‑level library—you can automate browsers, collect performance metrics, manipulate the DOM, intercept network traffic, and even drive headless Chrome in CI pipelines.\n\nThis article is a comprehensive guide for developers, QA engineers, and performance analysts who want to understand CDP from the ground up. We’ll cover the protocol’s architecture, walk through hands‑on code examples, explore real‑world tooling that builds on CDP, and discuss best practices for reliable, secure automation. By the end, you’ll be equipped to write your own CDP clients, extend existing frameworks, and troubleshoot complex browser‑automation scenarios.\n\nThe Chrome DevTools Protocol is a remote debugging protocol that enables external programs to control, inspect, and instrument Chromium‑based browsers (Chrome, Edge, Brave, etc.). It is defined as a JSON‑RPC‑style interface over a WebSocket connection. Every action you can perform in the DevTools UI—opening a new tab, taking a screenshot, profiling JavaScript, throttling the network—is represented by a method call or event in the protocol.",
+      "tags": [
+        "Chrome",
+        "DevTools",
+        "Protocol",
+        "Automation",
+        "Web Development"
+      ],
+      "scheduled_at": "2026-03-24T05:02:50Z",
       "status": "pending"
     }
   ]
