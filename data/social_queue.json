@@ -6766,7 +6766,7 @@
         "applications"
       ],
       "scheduled_at": "2026-03-23T22:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Architecting Scalable Microservices with Python and Event Driven Design Patterns",
