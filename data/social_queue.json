@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-23T08:02:50Z",
+  "last_scheduled_at": "2026-03-23T09:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -6567,6 +6567,20 @@
         "task-queues"
       ],
       "scheduled_at": "2026-03-23T08:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Scaling Local Inference: Optimizing SlimLLMs for Real-Time Edge Computing and Private Data Mesh",
+      "url": "https://martinuke0.github.io/posts/2026-03-23-scaling-local-inference-optimizing-slimllms-for-real-time-edge-computing-and-private-data-mesh/",
+      "social_hook": "Large language models (LLMs) have transformed the way we interact with text, code, and multimodal data. Yet the most powerful variants—GPT‑4, Claude, Llama 2‑70B—require massive GPU clusters, high‑bandwidth data pipelines, and continuous internet connectivity. For many enterprises, especially those operating in regulated environments (healthcare, finance, industrial IoT), sending proprietary data to a remote API is unacceptable.\n\nSlimLLMs—compact, distilled, or otherwise “lightweight” language models—offer a pragmatic middle ground. They retain a sizable fraction of the expressive power of their larger cousins while fitting comfortably on edge devices (Raspberry Pi, Jetson Nano, ARM‑based smartphones) and respecting strict privacy constraints.\n\nThis article provides a comprehensive, step‑by‑step guide to scaling local inference with SlimLLMs for real‑time edge computing and private data mesh architectures. We will:",
+      "tags": [
+        "LLM",
+        "Edge Computing",
+        "Optimization",
+        "Privacy",
+        "Data Mesh"
+      ],
+      "scheduled_at": "2026-03-23T09:02:50Z",
       "status": "pending"
     }
   ]
