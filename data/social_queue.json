@@ -6624,7 +6624,7 @@
         "Natural Language Processing"
       ],
       "scheduled_at": "2026-03-23T12:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Scaling Agentic Workflows with Kubernetes and Redis for High‑Throughput Distributed Processing",
@@ -6639,7 +6639,7 @@
         "cloud-native"
       ],
       "scheduled_at": "2026-03-23T13:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Architecting Resilient Event‑Driven AI Orchestration for High‑Throughput Enterprise Production Systems",
