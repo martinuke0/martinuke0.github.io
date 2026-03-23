@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-24T03:02:50Z",
+  "last_scheduled_at": "2026-03-24T04:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -6836,6 +6836,20 @@
         "AI infrastructure"
       ],
       "scheduled_at": "2026-03-24T03:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Scaling the Real-Time Web: Optimizing Latency in Sovereign Edge Computing Architectures",
+      "url": "https://martinuke0.github.io/posts/2026-03-23-scaling-the-real-time-web-optimizing-latency-in-sovereign-edge-computing-architectures/",
+      "social_hook": "The modern web is no longer a static collection of pages. Real‑time interactions—live video, collaborative editing, online gaming, IoT telemetry, and augmented reality—have become baseline expectations. For users, the perceived quality of these experiences is dominated by latency: the round‑trip time between a client action and the system’s response.\n\nAt the same time, data sovereignty regulations (e.g., GDPR, China’s CSL, India’s PDPB) are driving organizations to keep data within national or regional boundaries. The convergence of these forces has birthed sovereign edge computing architectures: distributed compute and storage resources placed as close as possible to end‑users while respecting legal jurisdiction.\n\nThis article dives deep into the technical, architectural, and operational dimensions of scaling the real‑time web under sovereign constraints. We’ll explore why latency matters, how edge placement, protocols, caching, and observability work together, and we’ll walk through a concrete, production‑grade example. By the end, you’ll have a roadmap you can apply to any latency‑sensitive, jurisdiction‑aware service.",
+      "tags": [
+        "edge computing",
+        "latency",
+        "real-time web",
+        "sovereign cloud",
+        "network optimization"
+      ],
+      "scheduled_at": "2026-03-24T04:02:50Z",
       "status": "pending"
     }
   ]
