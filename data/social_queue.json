@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-23T20:02:50Z",
+  "last_scheduled_at": "2026-03-23T21:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -6738,6 +6738,20 @@
         "Machine Learning"
       ],
       "scheduled_at": "2026-03-23T20:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Scaling RAG Systems with Vector Databases and Serverless Architectures for Enterprise AI Applications",
+      "url": "https://martinuke0.github.io/posts/2026-03-23-scaling-rag-systems-with-vector-databases-and-serverless-architectures-for-enterprise-ai-applications/",
+      "social_hook": "Retrieval‑Augmented Generation (RAG) has quickly become the de‑facto pattern for building knowledge‑aware AI applications. By coupling a large language model (LLM) with a fast, context‑rich retrieval layer, RAG enables:\n\n Reduced hallucinations** because the model can ground its output in concrete documents.\n\nFor startups and research prototypes, a simple in‑memory vector store and a single‑node API may be enough. In an enterprise setting, however, the requirements explode:",
+      "tags": [
+        "RAG",
+        "Vector Databases",
+        "Serverless",
+        "Enterprise AI",
+        "Scalability"
+      ],
+      "scheduled_at": "2026-03-23T21:02:50Z",
       "status": "pending"
     }
   ]
