@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-24T01:02:50Z",
+  "last_scheduled_at": "2026-03-24T02:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -6808,6 +6808,20 @@
         "Inference"
       ],
       "scheduled_at": "2026-03-24T01:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Scaling Real‑Time Agentic Workflows with Distributed Message Queues and Rust Optimization",
+      "url": "https://martinuke0.github.io/posts/2026-03-23-scaling-realtime-agentic-workflows-with-distributed-message-queues-and-rust-optimization/",
+      "social_hook": "Artificial‑intelligence agents are rapidly moving from isolated “assistant” prototypes to agentic workflows—chains of autonomous components that collaborate, react to events, and produce business‑critical outcomes in real time. Think of a fleet of trading bots that ingest market data, a set of customer‑support AI agents that route tickets, or a robotics swarm that processes sensor streams and coordinates actions.\n\n3. Reliability & fault tolerance – a single failing agent must not cascade into a system outage.\n\nTo meet these constraints, many organizations turn to distributed message queues (Kafka, NATS, RabbitMQ, Pulsar, etc.) as the backbone for decoupling producers (the agents) from consumers (the processing workers). Yet the choice of language and runtime matters just as much. Rust—with its zero‑cost abstractions, strict memory safety, and native async support—has emerged as a compelling platform for building high‑performance, low‑latency consumers and producers.",
+      "tags": [
+        "rust",
+        "distributed-systems",
+        "message-queues",
+        "real-time",
+        "agentic-workflows"
+      ],
+      "scheduled_at": "2026-03-24T02:02:50Z",
       "status": "pending"
     }
   ]
