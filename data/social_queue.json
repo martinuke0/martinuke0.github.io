@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-23T12:02:50Z",
+  "last_scheduled_at": "2026-03-23T13:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -6624,6 +6624,21 @@
         "Natural Language Processing"
       ],
       "scheduled_at": "2026-03-23T12:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Scaling Agentic Workflows with Kubernetes and Redis for High‑Throughput Distributed Processing",
+      "url": "https://martinuke0.github.io/posts/2026-03-23-scaling-agentic-workflows-with-kubernetes-and-redis-for-highthroughput-distributed-processing/",
+      "social_hook": "Agentic workflows—autonomous, goal‑driven pipelines powered by AI agents, micro‑services, or custom business logic—are rapidly becoming the backbone of modern data‑intensive applications. From real‑time recommendation engines to automated fraud detection, these workflows often need to process thousands to millions of events per second, respond to dynamic workloads, and maintain low latency.\n\nAchieving that level of performance is not trivial. Traditional monolithic designs quickly hit CPU, memory, or I/O bottlene‑cks, and static provisioning leads to wasteful over‑provisioning. Kubernetes and Redis together provide a battle‑tested, cloud‑native stack that can scale agentic pipelines horizontally, handle high‑throughput messaging, and keep state consistent across distributed nodes.\n\n Explain what agentic workflows* are and why they need specialized scaling strategies.",
+      "tags": [
+        "kubernetes",
+        "redis",
+        "distributed-systems",
+        "agentic-workflows",
+        "high-throughput",
+        "cloud-native"
+      ],
+      "scheduled_at": "2026-03-23T13:02:50Z",
       "status": "pending"
     }
   ]
