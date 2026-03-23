@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-23T16:02:50Z",
+  "last_scheduled_at": "2026-03-23T17:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -6682,6 +6682,20 @@
         "Risk Management"
       ],
       "scheduled_at": "2026-03-23T16:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Resilient Multi-Agent Protocols for Real-Time Distributed Intelligence Systems",
+      "url": "https://martinuke0.github.io/posts/2026-03-23-architecting-resilient-multi-agent-protocols-for-real-time-distributed-intelligence-systems/",
+      "social_hook": "The explosion of sensor‑rich devices, edge compute, and AI‑driven decision making has given rise to real‑time distributed intelligence systems (RT‑DIS). From fleets of autonomous delivery drones to smart manufacturing lines and collaborative robotics, these systems consist of many agents that must exchange information, coordinate actions, and adapt to failures—all within strict latency bounds.\n\nDesigning communication protocols for such environments is far from trivial. Traditional client‑server APIs or simple message queues do not provide the guarantees needed for deterministic timing, fault tolerance, and secure collaboration. Instead, engineers must adopt a multi‑agent protocol architecture that embraces decentralization, explicit state management, and resilience patterns.\n\nThis article walks through the theory and practice of building resilient multi‑agent protocols for RT‑DIS. We’ll explore foundational concepts, enumerate core challenges, present design principles, illustrate concrete architectural patterns, and finish with a hands‑on example (a simulated autonomous drone fleet) that ties the ideas together. By the end, you should have a solid blueprint for engineering protocols that keep your agents alive, coordinated, and on schedule—even when the network hiccups or nodes crash.",
+      "tags": [
+        "multi-agent systems",
+        "distributed systems",
+        "real-time computing",
+        "protocol design",
+        "resilience"
+      ],
+      "scheduled_at": "2026-03-23T17:02:50Z",
       "status": "pending"
     }
   ]
