@@ -6595,7 +6595,7 @@
         "AI deployment"
       ],
       "scheduled_at": "2026-03-23T10:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Optimizing Real Time Model Distillation for Low Latency Edge AI Applications",
