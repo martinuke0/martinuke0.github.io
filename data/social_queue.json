@@ -7074,7 +7074,7 @@
         "Scalable AI"
       ],
       "scheduled_at": "2026-03-24T20:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Orchestrating Distributed Task Queues with Temporal and Python for Resilient Agentic Microservices",
