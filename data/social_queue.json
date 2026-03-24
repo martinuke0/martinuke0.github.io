@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-24T13:02:50Z",
+  "last_scheduled_at": "2026-03-24T14:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -6976,6 +6976,20 @@
         "sparsity"
       ],
       "scheduled_at": "2026-03-24T13:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Beyond the LLM: Architecting Real-Time Systems with Localized Edge-Inference Engines and Liquid Neural Networks",
+      "url": "https://martinuke0.github.io/posts/2026-03-24-beyond-the-llm-architecting-real-time-systems-with-localized-edge-inference-engines-and-liquid-neural-networks/",
+      "social_hook": "Large language models (LLMs) have captured headlines for their ability to generate human‑like text, code, and even art. Yet, when it comes to real‑time, safety‑critical, or bandwidth‑constrained applications, the cloud‑centric paradigm that powers most LLM deployments becomes a liability. Latency spikes, intermittent connectivity, and data‑privacy regulations force engineers to rethink where inference happens.\n\nEnter localized edge‑inference engines and liquid neural networks (LNNs). Edge‑inference engines bring model execution to the device—whether it’s a microcontroller on a factory robot or a GPU‑accelerated SoC on a drone—while LNNs provide a continuously adaptable computation graph that can evolve in response to streaming data. Together, they enable a new class of real‑time AI systems that are both fast and flexible.\n\nThis article walks through the architectural considerations, hardware choices, software stacks, and practical implementations needed to build such systems. We’ll explore:",
+      "tags": [
+        "LLM",
+        "EdgeAI",
+        "LiquidNeuralNetwork",
+        "RealTimeSystems",
+        "InferenceEngine"
+      ],
+      "scheduled_at": "2026-03-24T14:02:50Z",
       "status": "pending"
     }
   ]
