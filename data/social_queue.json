@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-24T15:02:50Z",
+  "last_scheduled_at": "2026-03-24T16:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -7004,6 +7004,20 @@
         "Low Latency"
       ],
       "scheduled_at": "2026-03-24T15:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "LLM Judges in the Courtroom of AI: Can AI Reliably Judge AI? A Deep Dive into Cutting-Edge Research",
+      "url": "https://martinuke0.github.io/posts/2026-03-24-llm-judges-in-the-courtroom-of-ai-can-ai-reliably-judge-ai-a-deep-dive-into-cutting-edge-research/",
+      "social_hook": "Imagine you're a teacher with thousands of student essays to grade. Hiring enough human graders would be impossibly expensive and slow. What if you could train a super-smart assistant to do the grading for you—one that's consistent, fast, and available 24/7? That's the promise of LLM-as-a-Judge, where one AI (the \"judge\") evaluates the outputs of another AI (the \"victim\" or student). But can this AI courtroom really deliver fair verdicts, or is it prone to bias, inconsistency, and appeals to human oversight?\n\nA groundbreaking research paper, \"Evaluating the Reliability and Fidelity of Automated Judgment Systems of Large Language Models\" (arXiv:2603.22214), puts this idea to the test. Researchers rigorously evaluated 37 different LLMs as judges, paired with various prompts, across eight judgment categories. Their findings? When done right—especially with top models like GPT-4o or open-source giants over 32B parameters—AI judges can match human experts with high accuracy. This isn't just academic trivia; it's a game-changer for scaling AI development.\n\nIn this comprehensive guide, we'll break down the paper's insights for a general technical audience—no PhD required. We'll use real-world analogies, practical examples, and dive into why this matters for anyone building or using AI. By the end, you'll understand not just what the research says, but how to apply it in your projects.",
+      "tags": [
+        "LLM-as-a-Judge",
+        "AI Evaluation",
+        "Large Language Models",
+        "AI Reliability",
+        "Machine Learning Research"
+      ],
+      "scheduled_at": "2026-03-24T16:02:50Z",
       "status": "pending"
     }
   ]
