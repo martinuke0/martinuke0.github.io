@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-24T14:02:50Z",
+  "last_scheduled_at": "2026-03-24T15:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -6990,6 +6990,20 @@
         "InferenceEngine"
       ],
       "scheduled_at": "2026-03-24T14:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Hybrid RAGmini Pipelines for Low‑Latency Multimodal Search on Private Clouds",
+      "url": "https://martinuke0.github.io/posts/2026-03-24-architecting-hybrid-ragmini-pipelines-for-lowlatency-multimodal-search-on-private-clouds/",
+      "social_hook": "Enterprises are increasingly demanding search experiences that go beyond simple keyword matching. Modern users expect instant, context‑aware results that can combine text, images, audio, and even video—collectively known as multimodal search. At the same time, many organizations must keep data on‑premises or within a private cloud to satisfy regulatory, security, or performance constraints.\n\nRetrieval‑augmented generation (RAG) has emerged as a powerful paradigm for fusing large language models (LLMs) with external knowledge bases. The RAGmini variant—lightweight, modular, and designed for low‑latency environments—offers a compelling foundation for building multimodal search pipelines that can run on private clouds.\n\nThis article provides a comprehensive guide to architecting hybrid RAGmini pipelines that deliver sub‑second latency for multimodal queries while respecting the constraints of private‑cloud deployments. We will cover:",
+      "tags": [
+        "RAG",
+        "Hybrid Architecture",
+        "Multimodal Search",
+        "Private Cloud",
+        "Low Latency"
+      ],
+      "scheduled_at": "2026-03-24T15:02:50Z",
       "status": "pending"
     }
   ]
