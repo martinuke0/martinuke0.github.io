@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-24T18:02:50Z",
+  "last_scheduled_at": "2026-03-24T19:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -7046,6 +7046,20 @@
         "AI"
       ],
       "scheduled_at": "2026-03-24T18:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Distributed Systems Architecture: A Comprehensive Guide to Scalability and Fault Tolerance",
+      "url": "https://martinuke0.github.io/posts/2026-03-24-mastering-distributed-systems-architecture-a-comprehensive-guide-to-scalability-and-fault-tolerance/",
+      "social_hook": "Distributed systems are the backbone of today’s internet‑scale services—think of social networks, e‑commerce platforms, and streaming services that serve billions of requests daily. Building such systems is a balancing act between scalability (the ability to handle growth) and fault tolerance (the ability to survive failures). This guide dives deep into the architectural principles, patterns, and practical techniques that enable engineers to master both dimensions.\n\nWhether you are a seasoned architect designing a new platform or a developer curious about the inner workings of large‑scale services, this article provides a comprehensive roadmap—from theory to hands‑on code—so you can design systems that grow gracefully and stay resilient under pressure.\n\nUnderstanding these failure modes is the first step toward building robust fault‑tolerant mechanisms.",
+      "tags": [
+        "distributed-systems",
+        "scalability",
+        "fault-tolerance",
+        "architecture",
+        "microservices"
+      ],
+      "scheduled_at": "2026-03-24T19:02:50Z",
       "status": "pending"
     }
   ]
