@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-24T16:02:50Z",
+  "last_scheduled_at": "2026-03-24T17:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -7018,6 +7018,20 @@
         "Machine Learning Research"
       ],
       "scheduled_at": "2026-03-24T16:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Leveraging Cross‑Encoder Reranking and Long‑Context Windows for High‑Fidelity Retrieval‑Augmented Generation Pipelines",
+      "url": "https://martinuke0.github.io/posts/2026-03-24-leveraging-crossencoder-reranking-and-longcontext-windows-for-highfidelity-retrievalaugmented-generation-pipelines/",
+      "social_hook": "Retrieval‑Augmented Generation (RAG) has become the de‑facto architecture for building knowledge‑intensive language systems. By coupling a retriever—typically a dense vector search over a large corpus—with a generator that conditions on the retrieved passages, RAG can produce answers that are both fluent and grounded in external data. However, two practical bottlenecks often limit the fidelity of such pipelines:\n\n1. Noisy or sub‑optimal retrieval results – the initial retrieval step (e.g., using a bi‑encoder) may return passages that are only loosely related to the query, leading the generator to hallucinate or produce vague answers.\n\n2. Limited context windows in the generator – even when the retrieved set is perfect, many modern LLMs can only ingest a few hundred to a few thousand tokens, forcing developers to truncate or rank‑order passages heuristically.",
+      "tags": [
+        "RAG",
+        "Cross-Encoder",
+        "Long-Context",
+        "NLP",
+        "Retrieval"
+      ],
+      "scheduled_at": "2026-03-24T17:02:50Z",
       "status": "pending"
     }
   ]
