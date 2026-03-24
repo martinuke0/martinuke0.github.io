@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-24T11:02:50Z",
+  "last_scheduled_at": "2026-03-24T12:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -6948,6 +6948,20 @@
         "Distributed Systems"
       ],
       "scheduled_at": "2026-03-24T11:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Scaling Federated Learning Systems for Privacy-Preserving Model Optimization on Distributed Edge Networks",
+      "url": "https://martinuke0.github.io/posts/2026-03-24-scaling-federated-learning-systems-for-privacy-preserving-model-optimization-on-distributed-edge-networks/",
+      "social_hook": "Federated Learning (FL) has emerged as a practical paradigm for training machine learning models without centralizing raw data. By keeping data on the device—whether a smartphone, IoT sensor, or autonomous vehicle—FL aligns with stringent privacy regulations and reduces the risk of data breaches. However, as organizations move from experimental pilots to production‑grade deployments, scaling FL across heterogeneous edge networks becomes a non‑trivial engineering challenge.\n\nThis article provides an in‑depth guide to scaling federated learning systems for privacy‑preserving model optimization on distributed edge networks. We will:\n\n3. Explore architectural patterns and optimization techniques that enable large‑scale deployments.",
+      "tags": [
+        "federated learning",
+        "privacy",
+        "edge computing",
+        "distributed systems",
+        "model optimization"
+      ],
+      "scheduled_at": "2026-03-24T12:02:50Z",
       "status": "pending"
     }
   ]
