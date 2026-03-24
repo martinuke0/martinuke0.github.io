@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-25T05:02:50Z",
+  "last_scheduled_at": "2026-03-25T06:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -7200,6 +7200,20 @@
         "reliability"
       ],
       "scheduled_at": "2026-03-25T05:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "The Rise of Local LLMs: Optimizing Small Language Models for Edge Device Autonomy",
+      "url": "https://martinuke0.github.io/posts/2026-03-24-the-rise-of-local-llms-optimizing-small-language-models-for-edge-device-autonomy/",
+      "social_hook": "Large language models (LLMs) have transformed natural‑language processing (NLP) by delivering unprecedented capabilities in text generation, summarization, translation, and reasoning. Yet the majority of these breakthroughs are hosted in massive data‑center clusters, consuming gigabytes of memory, teraflops of compute, and a steady stream of network bandwidth. For many applications—industrial IoT, autonomous drones, mobile assistants, and privacy‑sensitive healthcare devices—reliance on a remote API is impractical or outright unacceptable.\n\nEnter local LLMs: compact, purpose‑built language models that run directly on edge devices (smartphones, micro‑controllers, embedded GPUs, or specialized AI accelerators). By moving inference to the edge, developers gain:\n\nThis article provides a deep dive into why local LLMs are rising, how engineers can optimize small models for edge autonomy, and what the future landscape looks like. We’ll explore model selection, compression techniques (quantization, pruning, distillation), hardware‑aware deployment pipelines, real‑world case studies, and practical code snippets that you can run today.",
+      "tags": [
+        "LLM",
+        "EdgeAI",
+        "ModelOptimization",
+        "Quantization",
+        "Privacy"
+      ],
+      "scheduled_at": "2026-03-25T06:02:50Z",
       "status": "pending"
     }
   ]
