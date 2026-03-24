@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-24T23:02:50Z",
+  "last_scheduled_at": "2026-03-25T00:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -7116,6 +7116,20 @@
         "devops automation"
       ],
       "scheduled_at": "2026-03-24T23:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Vector Database Partitioning for High Performance Large Scale RAG Systems",
+      "url": "https://martinuke0.github.io/posts/2026-03-24-mastering-vector-database-partitioning-for-high-performance-large-scale-rag-systems/",
+      "social_hook": "Retrieval‑Augmented Generation (RAG) has reshaped the way we build large‑language‑model (LLM) powered applications. By coupling a generative model with a fast, similarity‑based retrieval layer, RAG enables grounded, up‑to‑date, and domain‑specific responses. At the heart of that retrieval layer lies a vector database—a specialized system that stores high‑dimensional embeddings and serves nearest‑neighbor (k‑NN) queries at scale.\n\nWhen a RAG system grows beyond a few million vectors, naïve storage and query execution quickly become bottlenecks. Latency spikes, hardware costs rise, and operational complexity explodes. Partitioning—splitting the vector space across multiple logical or physical shards—offers a proven path to high performance, horizontal scalability, and cost‑effective resource utilization.\n\nThis article provides a deep dive into vector database partitioning for large‑scale RAG systems. We’ll explore the theory behind partitioning, practical strategies, concrete code examples for leading open‑source vector stores, and real‑world operational guidance. By the end, you’ll have a reproducible blueprint you can adapt to any production RAG pipeline.",
+      "tags": [
+        "vector databases",
+        "RAG",
+        "partitioning",
+        "scalability",
+        "performance"
+      ],
+      "scheduled_at": "2026-03-25T00:02:50Z",
       "status": "pending"
     }
   ]
