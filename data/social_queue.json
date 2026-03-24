@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-24T20:02:50Z",
+  "last_scheduled_at": "2026-03-24T21:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -7074,6 +7074,20 @@
         "Scalable AI"
       ],
       "scheduled_at": "2026-03-24T20:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Orchestrating Distributed Task Queues with Temporal and Python for Resilient Agentic Microservices",
+      "url": "https://martinuke0.github.io/posts/2026-03-24-orchestrating-distributed-task-queues-with-temporal-and-python-for-resilient-agentic-microservices/",
+      "social_hook": "In modern cloud‑native architectures, microservices have become the de‑facto standard for building scalable, maintainable applications. As these services grow in number and complexity, coordinating work across them—especially when that work is long‑running, stateful, or prone to failure—poses a significant engineering challenge.\n\nEnter distributed task queues: a pattern that decouples producers from consumers, allowing work to be queued, retried, and processed asynchronously. While classic solutions such as Celery, RabbitMQ, or Kafka handle simple dispatching well, they often fall short when you need strong guarantees about workflow state, deterministic replay, and fault‑tolerant orchestration.\n\nThis is where Temporal shines. Temporal is an open‑source, stateful workflow engine that provides exactly‑once execution semantics, built‑in retry policies, versioning, and a rich observability model. Coupled with the Temporal Python SDK, developers can write expressive, type‑safe workflows using familiar Python idioms while leveraging Temporal’s robust runtime.",
+      "tags": [
+        "microservices",
+        "temporal",
+        "python",
+        "task-queues",
+        "distributed-systems"
+      ],
+      "scheduled_at": "2026-03-24T21:02:50Z",
       "status": "pending"
     }
   ]
