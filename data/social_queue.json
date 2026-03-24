@@ -7032,7 +7032,7 @@
         "Retrieval"
       ],
       "scheduled_at": "2026-03-24T17:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Architecting Low‑Latency Agents with Function Calling and Constrained Output for Real‑World Automation",
