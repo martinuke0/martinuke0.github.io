@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-24T12:02:50Z",
+  "last_scheduled_at": "2026-03-24T13:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -6962,6 +6962,20 @@
         "model optimization"
       ],
       "scheduled_at": "2026-03-24T12:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Scaling Sparse Autoencoders: Mapping the Black Box of Multi-Modal Foundation Models",
+      "url": "https://martinuke0.github.io/posts/2026-03-24-scaling-sparse-autoencoders-mapping-the-black-box-of-multi-modal-foundation-models/",
+      "social_hook": "Foundation models—large neural networks trained on massive, heterogeneous datasets—have reshaped the AI landscape. From GPT‑4's language prowess to CLIP’s vision‑language alignment, these models excel at multi‑modal reasoning, yet their internal representations remain notoriously opaque. Researchers and practitioners alike ask:\n\nSparse autoencoders (SAEs) provide a promising answer. By forcing a bottleneck that activates only a tiny fraction of latent units, SAEs act as a “lens” that isolates salient features in the hidden space of a pre‑trained foundation model. When applied to multi‑modal models—those that jointly process text, images, audio, and more—SAEs can map the black box of cross‑modal representations, revealing conceptual atoms that are both human‑readable and mathematically tractable.\n\nThis article offers a deep dive into scaling sparse autoencoders for multi‑modal foundation models. We will:",
+      "tags": [
+        "machine learning",
+        "autoencoders",
+        "multimodal",
+        "foundation models",
+        "sparsity"
+      ],
+      "scheduled_at": "2026-03-24T13:02:50Z",
       "status": "pending"
     }
   ]
