@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-24T19:02:50Z",
+  "last_scheduled_at": "2026-03-24T20:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -7060,6 +7060,20 @@
         "microservices"
       ],
       "scheduled_at": "2026-03-24T19:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Fluid Compute: Scaling Real-Time Inference with 2026’s Decentralized GPU Mesh Protocols",
+      "url": "https://martinuke0.github.io/posts/2026-03-24-optimizing-fluid-compute-scaling-real-time-inference-with-2026s-decentralized-gpu-mesh-protocols/",
+      "social_hook": "The explosion of deep‑learning workloads has pushed hardware designers and software architects toward ever more flexible compute fabrics. By 2026, decentralized GPU mesh protocols have matured into a practical way to treat thousands of GPUs as a single, fluid pool of compute—what the community now calls Fluid Compute.\n\nFor latency‑critical applications such as autonomous navigation, interactive gaming, or live video analytics, the ability to scale real‑time inference across a distributed mesh while preserving sub‑millisecond response times is a competitive differentiator. This article dives deep into the technical underpinnings of these mesh protocols, explores the scaling challenges they solve, and provides a hands‑on guide to building a production‑grade inference service that leverages a decentralized GPU mesh.\n\n> Note: While the concepts discussed are grounded in standards released in early 2026 (e.g., MeshNet v2, HydraMesh 2026), the patterns apply broadly to any fluid‑compute environment, including hybrid CPU‑GPU or FPGA‑GPU meshes.",
+      "tags": [
+        "GPU Mesh",
+        "Real-Time Inference",
+        "Decentralized Computing",
+        "Fluid Compute",
+        "Scalable AI"
+      ],
+      "scheduled_at": "2026-03-24T20:02:50Z",
       "status": "pending"
     }
   ]
