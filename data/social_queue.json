@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-25T01:02:50Z",
+  "last_scheduled_at": "2026-03-25T02:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -7144,6 +7144,20 @@
         "orchestration"
       ],
       "scheduled_at": "2026-03-25T01:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Low Latency Vector Databases for Real‑Time Generative AI Search",
+      "url": "https://martinuke0.github.io/posts/2026-03-24-architecting-low-latency-vector-databases-for-realtime-generative-ai-search/",
+      "social_hook": "Generative AI models—large language models (LLMs), diffusion models, and multimodal transformers—have moved from research labs to production services that must respond to user queries in milliseconds. While the generative component (e.g., a transformer decoder) is often the most visible part of the stack, the retrieval layer that supplies context to the model has become equally critical. Vector databases, which store high‑dimensional embeddings and enable similarity search, are the backbone of this retrieval layer.\n\nIn a real‑time generative AI search application, latency is not a luxury; it is a hard service‑level objective (SLO). A single extra 100 ms can degrade user experience, increase abandonment rates, and raise cloud costs. This article dives deep into the architectural decisions, engineering patterns, and practical techniques required to build low‑latency vector databases capable of serving billions of embeddings with sub‑50 ms query times.\n\n* The mathematics of vector search and why approximate methods are essential at scale.",
+      "tags": [
+        "vector-database",
+        "low-latency",
+        "generative-ai",
+        "search",
+        "architecture"
+      ],
+      "scheduled_at": "2026-03-25T02:02:50Z",
       "status": "pending"
     }
   ]
