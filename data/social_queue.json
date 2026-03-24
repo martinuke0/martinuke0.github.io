@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-24T08:02:50Z",
+  "last_scheduled_at": "2026-03-24T09:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -6906,6 +6906,20 @@
         "Performance"
       ],
       "scheduled_at": "2026-03-24T08:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building Resilient Event Driven Microservices with Go and NATS for Scalable Distributed Architectures",
+      "url": "https://martinuke0.github.io/posts/2026-03-24-building-resilient-event-driven-microservices-with-go-and-nats-for-scalable-distributed-architectures/",
+      "social_hook": "In the era of cloud‑native computing, event‑driven microservices have become the de‑facto pattern for building systems that can scale horizontally, evolve independently, and survive failures gracefully. While many languages and messaging platforms can be used to implement this pattern, Go (Golang) paired with NATS offers a compelling combination:\n\n Go** provides a lightweight runtime, native concurrency (goroutines & channels), and a robust standard library—ideal for high‑throughput services.\n\n NATS** is a high‑performance, cloud‑native messaging system that supports publish/subscribe, request/reply, and JetStream (persistent streams). Its simplicity and strong focus on latency make it a natural fit for Go applications.",
+      "tags": [
+        "go",
+        "microservices",
+        "event-driven",
+        "nats",
+        "distributed-systems"
+      ],
+      "scheduled_at": "2026-03-24T09:02:50Z",
       "status": "pending"
     }
   ]
