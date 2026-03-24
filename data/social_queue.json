@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-25T02:02:50Z",
+  "last_scheduled_at": "2026-03-25T03:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -7158,6 +7158,20 @@
         "architecture"
       ],
       "scheduled_at": "2026-03-25T02:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "High Performance Inference Architectures: Scaling Large Language Model Deployment with Quantization and Flash Attention",
+      "url": "https://martinuke0.github.io/posts/2026-03-24-high-performance-inference-architectures-scaling-large-language-model-deployment-with-quantization-and-flash-attention/",
+      "social_hook": "Large Language Models (LLMs) such as GPT‑4, LLaMA‑2, and Falcon have demonstrated unprecedented capabilities across natural‑language understanding, generation, and reasoning. However, the inference phase—where a trained model serves real‑world requests— remains a costly bottleneck.\n\nTwo complementary techniques have emerged as the de‑facto standard for squeezing every ounce of performance out of modern hardware:\n\n1. Quantization – reducing the numerical precision of weights and activations from 16‑/32‑bit floating point to 8‑bit, 4‑bit, or even binary representations.",
+      "tags": [
+        "LLM",
+        "Inference",
+        "Quantization",
+        "FlashAttention",
+        "Performance"
+      ],
+      "scheduled_at": "2026-03-25T03:02:50Z",
       "status": "pending"
     }
   ]
