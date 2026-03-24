@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-24T09:02:50Z",
+  "last_scheduled_at": "2026-03-24T10:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -6920,6 +6920,20 @@
         "distributed-systems"
       ],
       "scheduled_at": "2026-03-24T09:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Navigating the Shift from Large Language Models to Agentic Autonomous Micro-Services",
+      "url": "https://martinuke0.github.io/posts/2026-03-24-navigating-the-shift-from-large-language-models-to-agentic-autonomous-micro-services/",
+      "social_hook": "Large language models (LLMs) have transformed how we approach natural‑language understanding, generation, and even reasoning. For the past few years, the dominant deployment pattern has been monolithic: a single, heavyweight model receives a prompt, computes a response, and returns it. While this approach works for many proof‑of‑concepts, production‑grade systems quickly encounter friction—scalability bottlenecks, opaque failure modes, and difficulty integrating domain‑specific tools.\n\nEnter agentic autonomous micro‑services. Rather than treating an LLM as a static black box, we decompose functionality into small, self‑contained services—each equipped with its own LLM instance, a well‑defined purpose, and the ability to act autonomously (e.g., call APIs, write to a database, trigger other services). This shift mirrors the broader micro‑service movement in software engineering, but adds a layer of cognitive agency that enables richer, more adaptable workflows.\n\n* Explore architectural patterns that make them reliable, observable, and secure.",
+      "tags": [
+        "LLM",
+        "microservices",
+        "AI agents",
+        "software architecture",
+        "autonomy"
+      ],
+      "scheduled_at": "2026-03-24T10:02:50Z",
       "status": "pending"
     }
   ]
