@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-25T04:02:50Z",
+  "last_scheduled_at": "2026-03-25T05:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -7186,6 +7186,20 @@
         "real-time"
       ],
       "scheduled_at": "2026-03-25T04:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "From Co-Pilots to Autonomy: Building Reliable Agentic Workflows with Open-Source Orchestration Frameworks",
+      "url": "https://martinuke0.github.io/posts/2026-03-24-from-co-pilots-to-autonomy-building-reliable-agentic-workflows-with-open-source-orchestration-frameworks/",
+      "social_hook": "The last few years have witnessed a seismic shift in how developers and enterprises interact with large language models (LLMs). What began as co‑pilot assistants—tools that suggest code, draft emails, or answer queries—has rapidly evolved into autonomous agents capable of planning, executing, and iterating on complex tasks without human intervention.\n\nYet, the promise of true autonomy brings new engineering challenges: how do we guarantee that an agent behaves predictably? How can we compose multiple LLM calls, external APIs, and data stores into a single, reliable workflow? And—most importantly—how can we do this without locking ourselves into proprietary stacks?\n\nOpen‑source orchestration frameworks such as LangChain, CrewAI, LlamaIndex, and Haystack have emerged to answer these questions. They provide the plumbing—state management, tool‑calling, memory, and observability—that transforms a raw LLM into a robust, production‑grade agent.",
+      "tags": [
+        "AI agents",
+        "LLM orchestration",
+        "open-source",
+        "automation",
+        "reliability"
+      ],
+      "scheduled_at": "2026-03-25T05:02:50Z",
       "status": "pending"
     }
   ]
