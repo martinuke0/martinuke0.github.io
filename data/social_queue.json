@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-24T22:02:50Z",
+  "last_scheduled_at": "2026-03-24T23:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -7102,6 +7102,20 @@
         "real-time-ml"
       ],
       "scheduled_at": "2026-03-24T22:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Beyond Autopilot: Scaling Multi‑Agent Systems for Autonomous Software Engineering and Deployment",
+      "url": "https://martinuke0.github.io/posts/2026-03-24-beyond-autopilot-scaling-multiagent-systems-for-autonomous-software-engineering-and-deployment/",
+      "social_hook": "The software industry has moved beyond the era of manual builds, hand‑crafted pipelines, and “run‑once” deployments. Modern organizations demand continuous delivery at scale, where hundreds—or even thousands—of services evolve in parallel, adapt to shifting traffic patterns, and recover from failures without human intervention.\n\nEnter autonomous software engineering: a vision where AI‑driven agents collaborate to design, implement, test, and deploy code, effectively turning the software lifecycle into a self‑optimizing system. While early “autopilot” tools (e.g., CI/CD pipelines, auto‑scaling clusters) automate isolated tasks, they lack the coordinated intelligence required to manage complex, interdependent services.\n\nIn this article we explore how multi‑agent systems (MAS) can extend autopilot capabilities, enabling scalable, trustworthy, and self‑healing software engineering. We’ll cover architectural foundations, practical examples, real‑world case studies, and the challenges that must be addressed to make autonomous engineering a production reality.",
+      "tags": [
+        "autonomous software engineering",
+        "multi-agent systems",
+        "AI‑ops",
+        "scaling",
+        "devops automation"
+      ],
+      "scheduled_at": "2026-03-24T23:02:50Z",
       "status": "pending"
     }
   ]
