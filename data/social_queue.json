@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-24T10:02:50Z",
+  "last_scheduled_at": "2026-03-24T11:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -6934,6 +6934,20 @@
         "autonomy"
       ],
       "scheduled_at": "2026-03-24T10:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Beyond the LLM: Architecting Real-Time Local Intelligence with Small Language Model Clusters",
+      "url": "https://martinuke0.github.io/posts/2026-03-24-beyond-the-llm-architecting-real-time-local-intelligence-with-small-language-model-clusters/",
+      "social_hook": "Large language models (LLMs) such as GPT‑4 have transformed natural‑language processing (NLP) by delivering unprecedented fluency and reasoning capabilities. Yet, their sheer size—often exceeding hundreds of billions of parameters—poses practical challenges for real‑time, on‑device applications. Bandwidth constraints, latency budgets, and strict data‑privacy regulations frequently force developers to offload inference to cloud services, sacrificing responsiveness and exposing user data.\n\nA compelling alternative is to orchestrate clusters of small, fine‑tuned language models that run locally—whether on a powerful edge server, a fleet of embedded devices, or a hybrid edge‑cloud topology. By leveraging the strengths of multiple compact models, we can achieve:\n\n Deterministic resource usage** that fits within limited memory and compute envelopes.",
+      "tags": [
+        "LLM",
+        "Edge AI",
+        "Model Clustering",
+        "Real-Time Inference",
+        "Distributed Systems"
+      ],
+      "scheduled_at": "2026-03-24T11:02:50Z",
       "status": "pending"
     }
   ]
