@@ -6976,7 +6976,7 @@
         "sparsity"
       ],
       "scheduled_at": "2026-03-24T13:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Beyond the LLM: Architecting Real-Time Systems with Localized Edge-Inference Engines and Liquid Neural Networks",
@@ -6990,7 +6990,7 @@
         "InferenceEngine"
       ],
       "scheduled_at": "2026-03-24T14:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Architecting Hybrid RAGmini Pipelines for Low‑Latency Multimodal Search on Private Clouds",
