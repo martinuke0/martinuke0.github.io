@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-25T03:02:50Z",
+  "last_scheduled_at": "2026-03-25T04:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -7172,6 +7172,20 @@
         "Performance"
       ],
       "scheduled_at": "2026-03-25T03:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Low Latency Stream Processing for Real‑Time Generative AI and Large Language Models",
+      "url": "https://martinuke0.github.io/posts/2026-03-24-mastering-low-latency-stream-processing-for-realtime-generative-ai-and-large-language-models/",
+      "social_hook": "The rise of generative artificial intelligence (Gen‑AI) and large language models (LLMs) has transformed how businesses deliver interactive experiences—think conversational assistants, real‑time code completion, and dynamic content generation. While the raw capabilities of models like GPT‑4, Claude, or LLaMA are impressive, their real value is realized only when they respond within milliseconds to user input. In latency‑sensitive domains (e.g., financial trading, gaming, autonomous systems), even a 200 ms delay can be a deal‑breaker.\n\nAchieving sub‑second latency at scale is not a simple “throw a bigger GPU at the problem” challenge. It requires a holistic approach that combines stream processing, efficient model serving, network optimization, and observability. This article dives deep into the architectural patterns, technology choices, and practical techniques that enable low‑latency, real‑time stream processing for generative AI and LLM workloads.\n\n* Proven open‑source and commercial stacks (Kafka, Pulsar, Flink, Spark Structured Streaming, Ray, NVIDIA Triton).",
+      "tags": [
+        "low-latency",
+        "stream-processing",
+        "generative-ai",
+        "large-language-models",
+        "real-time"
+      ],
+      "scheduled_at": "2026-03-25T04:02:50Z",
       "status": "pending"
     }
   ]
