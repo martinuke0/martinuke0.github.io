@@ -6934,7 +6934,7 @@
         "autonomy"
       ],
       "scheduled_at": "2026-03-24T10:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Beyond the LLM: Architecting Real-Time Local Intelligence with Small Language Model Clusters",
