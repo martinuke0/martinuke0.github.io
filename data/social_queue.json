@@ -6794,7 +6794,7 @@
         "Performance Optimization"
       ],
       "scheduled_at": "2026-03-24T00:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Optimizing Small Language Models for Local Edge Inference: A Guide to Quantized Architecture",
@@ -6808,7 +6808,7 @@
         "Inference"
       ],
       "scheduled_at": "2026-03-24T01:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Scaling Real‑Time Agentic Workflows with Distributed Message Queues and Rust Optimization",
