@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-26T05:02:50Z",
+  "last_scheduled_at": "2026-03-26T06:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -7539,6 +7539,20 @@
         "Agents"
       ],
       "scheduled_at": "2026-03-26T05:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Scaling Retrieval-Augmented Generation for Production: A Deep Dive into Hybrid Search and Reranking Systems",
+      "url": "https://martinuke0.github.io/posts/2026-03-25-scaling-retrieval-augmented-generation-for-production-a-deep-dive-into-hybrid-search-and-reranking-systems/",
+      "social_hook": "Retrieval‑augmented generation (RAG) has become the de‑facto pattern for building LLM‑powered applications that need up‑to‑date, factual, or domain‑specific knowledge. By coupling a retriever (which fetches relevant documents) with a generator (which synthesizes a response), RAG mitigates hallucination, reduces latency, and lowers inference cost compared with prompting a massive model on raw text alone.\n\nWhile academic prototypes often rely on a single vector store and a simple similarity search, production deployments quickly hit limits:\n\n Scale** – billions of passages, terabytes of embeddings, and thousands of concurrent queries.",
+      "tags": [
+        "RAG",
+        "Hybrid Search",
+        "Reranking",
+        "Scalable AI",
+        "Production Systems"
+      ],
+      "scheduled_at": "2026-03-26T06:02:50Z",
       "status": "pending"
     }
   ]
