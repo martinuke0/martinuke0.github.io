@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-26T03:02:50Z",
+  "last_scheduled_at": "2026-03-26T04:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -7511,6 +7511,20 @@
         "protocol"
       ],
       "scheduled_at": "2026-03-26T03:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "The Minimalist Entrepreneur: Building Big Impact with Less",
+      "url": "https://martinuke0.github.io/posts/2026-03-25-the-minimalist-entrepreneur-building-big-impact-with-less/",
+      "social_hook": "In a world saturated with buzzwords like “growth hacking,” “scale‑up,” and “unicorn,” a quieter, more intentional movement is gaining traction: minimalist entrepreneurship. Unlike the traditional image of the entrepreneur who chases endless funding rounds, hires massive teams, and piles on features, the minimalist entrepreneur deliberately strips away excess to focus on what truly matters—value, sustainability, and personal freedom.\n\nThis article dives deep into the philosophy, practical tactics, real‑world examples, and common pitfalls of building a business with a minimalist mindset. Whether you’re a seasoned founder feeling burnt out, a side‑hustler looking to turn an idea into a lean venture, or simply curious about how less can be more, you’ll find actionable insights to help you design a company that aligns with your values while still delivering impact.\n\nMinimalist entrepreneurship is the practice of creating and scaling a business using the smallest possible amount of resources—time, money, personnel, and complexity—while maximizing impact and personal fulfillment. It draws heavily from concepts such as:",
+      "tags": [
+        "entrepreneurship",
+        "minimalism",
+        "startup",
+        "productivity",
+        "lean"
+      ],
+      "scheduled_at": "2026-03-26T04:02:50Z",
       "status": "pending"
     }
   ]
