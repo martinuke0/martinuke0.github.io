@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-26T06:02:50Z",
+  "last_scheduled_at": "2026-03-26T07:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -7553,6 +7553,20 @@
         "Production Systems"
       ],
       "scheduled_at": "2026-03-26T06:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Focus, Don't Prune: Revolutionizing AI Vision with PinPoint – A Deep Dive into Smarter Image Understanding",
+      "url": "https://martinuke0.github.io/posts/2026-03-25-focus-don/",
+      "social_hook": "Imagine you're trying to find a specific phone number on a cluttered infographic filled with charts, text boxes, and icons. Your eyes naturally zero in on the relevant section, ignoring the distractions. Now, picture an AI doing the same—but most current AI systems struggle with this, wasting massive computing power scanning every pixel. Enter PinPoint, a groundbreaking framework from the paper \"Focus, Don't Prune: Identifying Instruction-Relevant Regions for Information-Rich Image Understanding\" that teaches AI to \"focus\" on what's important, slashing computation while boosting accuracy.[1]\n\nThis blog post breaks down the research in plain language for developers, AI enthusiasts, and anyone curious about multimodal AI. We'll explore the problem, PinPoint's clever solution, real-world analogies, and why this could transform everything from document analysis to autonomous systems. By the end, you'll grasp not just what PinPoint does, but why it's a game-changer for efficient AI.\n\nLarge Vision-Language Models (LVLMs) are the rockstars of multimodal AI. They combine the visual smarts of image processors (like vision transformers) with the reasoning power of Large Language Models (LLMs) like GPT-4. These models excel at tasks like Visual Question Answering (VQA)—answering questions about images.[1]",
+      "tags": [
+        "AI Research",
+        "Vision-Language Models",
+        "Multimodal AI",
+        "Efficient AI",
+        "VQA Benchmarks"
+      ],
+      "scheduled_at": "2026-03-26T07:02:50Z",
       "status": "pending"
     }
   ]
