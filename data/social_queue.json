@@ -7186,7 +7186,7 @@
         "real-time"
       ],
       "scheduled_at": "2026-03-25T04:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "From Co-Pilots to Autonomy: Building Reliable Agentic Workflows with Open-Source Orchestration Frameworks",
