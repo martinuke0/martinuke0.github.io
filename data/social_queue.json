@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-25T17:02:50Z",
+  "last_scheduled_at": "2026-03-25T18:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -7370,6 +7370,20 @@
         "LLM Enhancements"
       ],
       "scheduled_at": "2026-03-25T17:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Debugging the Latency Gap: Optimizing Edge Inference for Multi-Modal Autonomous Agents",
+      "url": "https://martinuke0.github.io/posts/2026-03-25-debugging-the-latency-gap-optimizing-edge-inference-for-multi-modal-autonomous-agents/",
+      "social_hook": "The promise of autonomous agents—self‑driving cars, delivery drones, warehouse robots, and collaborative service bots—relies on real‑time perception and decision making. In the field, these agents must process streams of heterogeneous sensor data (camera images, LiDAR point clouds, radar returns, inertial measurements, audio, etc.) and produce control outputs within tight latency budgets, often measured in tens of milliseconds.\n\nWhile the cloud offers virtually unlimited compute, edge inference (running neural networks directly on the robot’s on‑board hardware) is essential for safety, privacy, and bandwidth constraints. However, developers quickly encounter a latency gap: the time it takes for a model that runs comfortably on a workstation to become a bottleneck on the edge device.\n\nThis article provides a comprehensive, step‑by‑step guide to diagnosing, understanding, and closing that latency gap for multi‑modal autonomous agents. We will explore:",
+      "tags": [
+        "edge-computing",
+        "autonomous-systems",
+        "model-optimization",
+        "latency",
+        "multimodal"
+      ],
+      "scheduled_at": "2026-03-25T18:02:50Z",
       "status": "pending"
     }
   ]
