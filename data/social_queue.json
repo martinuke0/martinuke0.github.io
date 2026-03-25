@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-25T15:02:50Z",
+  "last_scheduled_at": "2026-03-25T16:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -7341,6 +7341,20 @@
         "2026"
       ],
       "scheduled_at": "2026-03-25T15:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "The Practical Guide to Orchestrating Autonomous Agent Swarms with Open-Source SwarmOps Framework",
+      "url": "https://martinuke0.github.io/posts/2026-03-25-the-practical-guide-to-orchestrating-autonomous-agent-swarms-with-open-source-swarmops-framework/",
+      "social_hook": "Swarm intelligence has moved from a fascinating research niche to a practical paradigm for solving complex, distributed problems. From environmental monitoring to logistics, a coordinated group of relatively simple autonomous agents can achieve robustness, scalability, and adaptability that single monolithic systems struggle to match. Yet, turning that theoretical promise into a production‑ready solution requires more than just a clever algorithm—it demands a solid engineering foundation, clear tooling, and a reproducible workflow.\n\nEnter SwarmOps, an open‑source framework designed specifically for orchestrating autonomous agent swarms at scale. SwarmOps abstracts away the low‑level plumbing (message passing, state synchronization, fault tolerance) while exposing a clean, extensible API for defining agent behavior, task allocation, and collective decision‑making. In this practical guide we will:\n\n4. Show how to deploy, monitor, and scale the swarm using container orchestration.",
+      "tags": [
+        "autonomous agents",
+        "swarm intelligence",
+        "open-source",
+        "distributed systems",
+        "robotics"
+      ],
+      "scheduled_at": "2026-03-25T16:02:50Z",
       "status": "pending"
     }
   ]
