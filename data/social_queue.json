@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-25T16:02:50Z",
+  "last_scheduled_at": "2026-03-25T17:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -7355,6 +7355,21 @@
         "robotics"
       ],
       "scheduled_at": "2026-03-25T16:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Demystifying Memory Bear AI: Revolutionizing Emotional Intelligence with Human-Like Memory",
+      "url": "https://martinuke0.github.io/posts/2026-03-25-demystifying-memory-bear-ai-revolutionizing-emotional-intelligence-with-human-like-memory/",
+      "social_hook": "Imagine you're in a deep conversation with a friend. They mention a past vacation, and suddenly you recall not just the facts, but the excitement in their voice, the photos they showed you, and how it made you both laugh. That's human memory at work—layered, contextual, and emotional. Now picture an AI that does the same: not just reacting to your words right now, but remembering your tone from last week, the image you shared yesterday, and adjusting its responses accordingly. That's the promise of Memory Bear AI, a groundbreaking framework from the research paper \"Memory Bear AI Memory Science Engine for Multimodal Affective Intelligence: A Technical Report\".\n\nIn this post, we'll break down this complex AI research into bite-sized, easy-to-digest pieces. No PhD required. We'll use everyday analogies, explore real-world applications, and highlight why this could change how we interact with AI forever. Whether you're a developer curious about affective computing or just someone excited about smarter chatbots, stick around—we're diving deep.\n\nTraditional AI for emotion recognition—think apps that detect if you're happy or sad from a selfie or voice clip—is like a goldfish with amnesia. It excels at snapshots: analyzing text, speech, or visuals in isolation, right here, right now. But real emotions? They're a movie, not a photo.",
+      "tags": [
+        "AI Memory Systems",
+        "Multimodal AI",
+        "Affective Computing",
+        "Emotion Recognition",
+        "Cognitive Science",
+        "LLM Enhancements"
+      ],
+      "scheduled_at": "2026-03-25T17:02:50Z",
       "status": "pending"
     }
   ]
