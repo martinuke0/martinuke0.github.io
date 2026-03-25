@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-26T11:02:50Z",
+  "last_scheduled_at": "2026-03-26T12:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -7623,6 +7623,20 @@
         "machine learning"
       ],
       "scheduled_at": "2026-03-26T11:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Edge Orchestration Strategies for Synchronizing Multi-Agent Swarms in Low Latency Environments",
+      "url": "https://martinuke0.github.io/posts/2026-03-25-edge-orchestration-strategies-for-synchronizing-multi-agent-swarms-in-low-latency-environments/",
+      "social_hook": "The convergence of edge computing, 5G/6G connectivity, and advanced swarm robotics has opened the door to applications that demand real‑time coordination among dozens, hundreds, or even thousands of autonomous agents. From precision agriculture and disaster‑response drones to warehouse fulfillment robots and autonomous vehicle fleets, the ability to synchronize a multi‑agent swarm with sub‑millisecond latency directly impacts safety, efficiency, and mission success.\n\nHowever, achieving tight synchronization at the edge is far from trivial. Traditional cloud‑centric orchestration models suffer from high round‑trip times, bandwidth constraints, and single points of failure. Edge orchestration, by contrast, pushes decision‑making, data aggregation, and control loops closer to the agents, but introduces new challenges: heterogeneous hardware, intermittent connectivity, and the need for consistent state across a distributed fabric.\n\nThis article provides a comprehensive, in‑depth guide to edge orchestration strategies for synchronizing multi‑agent swarms in low‑latency environments. We will:",
+      "tags": [
+        "edge computing",
+        "swarm robotics",
+        "orchestration",
+        "low latency",
+        "distributed systems"
+      ],
+      "scheduled_at": "2026-03-26T12:02:50Z",
       "status": "pending"
     }
   ]
