@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-26T07:02:50Z",
+  "last_scheduled_at": "2026-03-26T08:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -7567,6 +7567,20 @@
         "VQA Benchmarks"
       ],
       "scheduled_at": "2026-03-26T07:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "How DownDetector Works: The Crowdsourced Power Behind Real-Time Outage Detection",
+      "url": "https://martinuke0.github.io/posts/2026-03-25-how-downdetector-works-the-crowdsourced-power-behind-real-time-outage-detection/",
+      "social_hook": "In an increasingly digital world, few things are more frustrating than a service outage—whether it's your internet provider failing, a social media platform crashing, or your banking app refusing to load. Enter DownDetector, the world's leading platform for real-time service status information. By aggregating tens of millions of user-submitted problem reports each month, DownDetector detects outages across over 25,000 services in 64 countries, helping millions of users and businesses alike understand if their issues are isolated glitches or widespread disruptions[1][2][3].\n\nThis comprehensive guide dives deep into how DownDetector operates, from its crowdsourced data collection to advanced AI-driven analysis. We'll explore its methodology, key features, real-world applications, limitations, and even enterprise tools like DownDetector Explorer. Whether you're a curious user, a network engineer, or a business leader, this article will equip you with a thorough understanding of the technology powering outage detection today.\n\nLaunched in 2012, DownDetector addresses a critical need: providing a centralized, reliable platform to report and track internet outages and service disruptions[7]. Owned by Ookla (the company behind Speedtest), it has grown into a global powerhouse, attracting hundreds of millions of visitors who check the status of internet connections, mobile networks, online banking, gaming platforms, entertainment services, and more[1][3].",
+      "tags": [
+        "Downdetector",
+        "Outage Detection",
+        "Crowdsourcing",
+        "Service Monitoring",
+        "Real-time Analytics"
+      ],
+      "scheduled_at": "2026-03-26T08:02:50Z",
       "status": "pending"
     }
   ]
