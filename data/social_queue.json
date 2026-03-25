@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-25T12:02:50Z",
+  "last_scheduled_at": "2026-03-25T13:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -7299,6 +7299,20 @@
         "workflow"
       ],
       "scheduled_at": "2026-03-25T12:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Engineering Resilient Consensus Protocols for Distributed Autonomous Agent Swarms in FinTech Ecosystems",
+      "url": "https://martinuke0.github.io/posts/2026-03-25-engineering-resilient-consensus-protocols-for-distributed-autonomous-agent-swarms-in-fintech-ecosystems/",
+      "social_hook": "The convergence of distributed autonomous agent swarms and financial technology (FinTech) is reshaping how markets, payments, and risk management operate. From high‑frequency trading bots that coordinate across data centers to decentralized identity verification agents that span multiple jurisdictions, these swarms demand robust, low‑latency, and fault‑tolerant consensus mechanisms.\n\nConsensus—ensuring that all participants in a network agree on a single state—has been studied for decades in the context of databases, blockchains, and cloud services. Yet, the unique constraints of FinTech—regulatory compliance, ultra‑high throughput, and stringent security—introduce new engineering challenges. This article provides a deep dive into designing resilient consensus protocols specifically for autonomous agent swarms operating within FinTech ecosystems.\n\n3. Explore proven consensus families (BFT, Raft, PoS‑style) and their adaptations.",
+      "tags": [
+        "distributed systems",
+        "consensus algorithms",
+        "fintech",
+        "autonomous agents",
+        "swarm engineering"
+      ],
+      "scheduled_at": "2026-03-25T13:02:50Z",
       "status": "pending"
     }
   ]
