@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-26T00:02:50Z",
+  "last_scheduled_at": "2026-03-26T01:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -7468,6 +7468,20 @@
         "google-quantum-ai"
       ],
       "scheduled_at": "2026-03-26T00:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Deep Dive into OpenSSL: Architecture, Usage, and Best Practices",
+      "url": "https://martinuke0.github.io/posts/2026-03-25-deep-dive-into-openssl-architecture-usage-and-best-practices/",
+      "social_hook": "OpenSSL is arguably the most widely deployed cryptographic toolkit in the modern Internet ecosystem. From securing HTTP traffic to signing software packages, from establishing VPN tunnels to providing the building blocks for custom security protocols, OpenSSL sits at the heart of countless applications. Yet despite its ubiquity, many developers and system administrators only scratch the surface—often using the `openssl` command line for ad‑hoc tasks without understanding the library’s internal architecture, security implications, or best‑practice configurations.\n\nThis article offers a comprehensive, in‑depth exploration of OpenSSL, targeting readers who want to:\n\n* Understand the internal components that power SSL/TLS and cryptographic operations.",
+      "tags": [
+        "OpenSSL",
+        "TLS",
+        "Cryptography",
+        "Security",
+        "Programming"
+      ],
+      "scheduled_at": "2026-03-26T01:02:50Z",
       "status": "pending"
     }
   ]
