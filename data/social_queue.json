@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-26T02:02:50Z",
+  "last_scheduled_at": "2026-03-26T03:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -7497,6 +7497,20 @@
         "Scalable Permissions"
       ],
       "scheduled_at": "2026-03-26T02:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Understanding the Signal Protocol: Architecture, Security, and Real‑World Applications",
+      "url": "https://martinuke0.github.io/posts/2026-03-25-understanding-the-signal-protocol-architecture-security-and-realworld-applications/",
+      "social_hook": "The Signal Protocol (formerly known as the Axolotl Ratchet) has become the de‑facto standard for end‑to‑end encrypted (E2EE) messaging. From WhatsApp and Facebook Messenger to the open‑source Signal app itself, the protocol powers billions of daily conversations while offering strong forward secrecy, post‑compromise security, and resilience against a wide range of attacks.\n\nThis article provides a deep dive into the Signal Protocol’s architecture, its cryptographic foundations, practical implementation considerations, and real‑world usage. By the end, you will understand not only what the protocol does, but how it does it, and you’ll have enough knowledge to evaluate or even implement a simplified version yourself.\n\nBefore Signal, most secure messaging solutions relied on static public keys (e.g., PGP) or on server‑mediated encryption (e.g., TLS). Those approaches suffered from two major shortcomings:",
+      "tags": [
+        "cryptography",
+        "privacy",
+        "messaging",
+        "security",
+        "protocol"
+      ],
+      "scheduled_at": "2026-03-26T03:02:50Z",
       "status": "pending"
     }
   ]
