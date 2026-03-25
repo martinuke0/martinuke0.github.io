@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-25T20:02:50Z",
+  "last_scheduled_at": "2026-03-25T21:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -7412,6 +7412,20 @@
         "agent-architectures"
       ],
       "scheduled_at": "2026-03-25T20:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "The Johnson-Lindenstrauss Lemma: Mastering Dimensionality Reduction in High-Dimensional Data",
+      "url": "https://martinuke0.github.io/posts/2026-03-25-the-johnson-lindenstrauss-lemma-mastering-dimensionality-reduction-in-high-dimensional-data/",
+      "social_hook": "In the era of big data, high-dimensional datasets are ubiquitous—from genomic sequences spanning thousands of features to image embeddings in millions of dimensions. Yet, working with such data poses significant challenges: computational inefficiency, the curse of dimensionality, and noise amplification. Enter the Johnson-Lindenstrauss Lemma (JLL), a cornerstone result in theoretical computer science and machine learning that proves it's possible to project high-dimensional data into a much lower-dimensional space while preserving pairwise Euclidean distances with high probability.[1][2][4]\n\nThis lemma, first published by William B. Johnson and Joram Lindenstrauss in 1984, revolutionized how we handle high-dimensional spaces. It guarantees that for any set of n points in d-dimensional Euclidean space (where d is large), there exists a linear mapping to k dimensions, with k = O(log n / ε²), such that distances are distorted by at most a factor of (1 ± ε).[1][4] This dimensionality reduction is not just theoretical; it's practical, enabling faster algorithms without sacrificing essential geometric structure.\n\nIn this comprehensive guide, we'll dive deep into the JLL: its formal statement, intuitive explanations, multiple proofs, practical implementations, real-world applications, and modern extensions. Whether you're a machine learning engineer optimizing nearest-neighbor search or a researcher embedding graphs, understanding JLL equips you to tame high-dimensional chaos.",
+      "tags": [
+        "Johnson-Lindenstrauss",
+        "Dimensionality Reduction",
+        "Random Projections",
+        "Machine Learning",
+        "High-Dimensional Data"
+      ],
+      "scheduled_at": "2026-03-25T21:02:50Z",
       "status": "pending"
     }
   ]
