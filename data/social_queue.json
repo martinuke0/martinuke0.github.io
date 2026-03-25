@@ -7243,7 +7243,7 @@
         "autonomous vehicles"
       ],
       "scheduled_at": "2026-03-25T08:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Quantized Attention Mechanisms for Efficient Large Language Model Inference on Resource-Constrained Devices",
