@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-25T09:02:50Z",
+  "last_scheduled_at": "2026-03-25T10:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -7257,6 +7257,20 @@
         "efficiency"
       ],
       "scheduled_at": "2026-03-25T09:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Deterministic Autonomous Agents Using Formal Verification and Real‑Time Event Streams",
+      "url": "https://martinuke0.github.io/posts/2026-03-25-architecting-deterministic-autonomous-agents-using-formal-verification-and-realtime-event-streams/",
+      "social_hook": "Autonomous agents—software entities that perceive, reason, and act without human intervention—are rapidly moving from research prototypes to production‑grade components in domains such as robotics, finance, smart grids, and autonomous vehicles. As these agents become more capable, the stakes of their decisions rise dramatically. A single erroneous action can cause financial loss, safety hazards, or regulatory violations.\n\nTwo complementary techniques have emerged as the cornerstone for building trustworthy autonomous agents:\n\n1. Formal Verification – mathematically proving that a system satisfies a set of desired properties (e.g., safety, liveness, correctness).",
+      "tags": [
+        "autonomous‑agents",
+        "formal‑verification",
+        "event‑streams",
+        "real‑time‑systems",
+        "software‑architecture"
+      ],
+      "scheduled_at": "2026-03-25T10:02:50Z",
       "status": "pending"
     }
   ]
