@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-25T21:02:50Z",
+  "last_scheduled_at": "2026-03-25T22:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -7426,6 +7426,20 @@
         "High-Dimensional Data"
       ],
       "scheduled_at": "2026-03-25T21:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Understanding How fork() Works in Unix-like Systems",
+      "url": "https://martinuke0.github.io/posts/2026-03-25-understanding-how-fork-works-in-unix-like-systems/",
+      "social_hook": "Process creation is one of the core building blocks of any operating system. In Unix‑like environments, the `fork()` system call has become the canonical way to spawn a new process that is a near‑identical copy of its parent. Although the concept is simple—“duplicate the current process”—the underlying mechanics are surprisingly intricate, involving memory management tricks, file descriptor duplication, signal handling, and careful bookkeeping by the kernel.\n\nThis article dives deep into how `fork()` works, covering everything from the high‑level philosophy behind process creation to the low‑level kernel steps that make it possible. We’ll explore practical C code examples, compare `fork()` with related system calls (`vfork()`, `clone()`, `posix_spawn()`), discuss performance and security implications, and finish with a checklist of common pitfalls and debugging techniques.\n\nWhether you’re a systems programmer, a DevOps engineer, or simply a curious developer, this guide will give you a comprehensive understanding of `fork()` and how to use it effectively in real‑world applications.",
+      "tags": [
+        "process",
+        "fork",
+        "unix",
+        "system-call",
+        "programming"
+      ],
+      "scheduled_at": "2026-03-25T22:02:50Z",
       "status": "pending"
     }
   ]
