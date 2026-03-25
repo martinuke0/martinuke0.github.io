@@ -7144,7 +7144,7 @@
         "orchestration"
       ],
       "scheduled_at": "2026-03-25T01:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Architecting Low Latency Vector Databases for Real‑Time Generative AI Search",
