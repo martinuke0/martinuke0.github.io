@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-25T10:02:50Z",
+  "last_scheduled_at": "2026-03-25T11:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -7271,6 +7271,20 @@
         "software‑architecture"
       ],
       "scheduled_at": "2026-03-25T10:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "The Shift to Liquid Neural Networks: Why On-Device Edge Intelligence is Finally Going Mainstream",
+      "url": "https://martinuke0.github.io/posts/2026-03-25-the-shift-to-liquid-neural-networks-why-on-device-edge-intelligence-is-finally-going-mainstream/",
+      "social_hook": "In the last decade, the AI community has witnessed a relentless push toward larger, more powerful models—think GPT‑4, PaLM, and other massive language models that dominate cloud compute. Yet, parallel to this “big‑model” trend, a quieter revolution has been brewing at the edge of the network: on‑device intelligence.\n\nEdge devices—smartphones, wearables, drones, industrial sensors, and even tiny micro‑controllers—are now expected to understand speech, recognize objects, predict anomalies, and adapt to user behavior without sending raw data to the cloud. The benefits are clear:\n\nThe question that kept many engineers awake was: How can we pack enough expressive power into a model that fits within the stringent memory, compute, and power budgets of edge hardware?",
+      "tags": [
+        "Liquid Neural Networks",
+        "Edge AI",
+        "On-Device Intelligence",
+        "Machine Learning",
+        "Neural Architecture"
+      ],
+      "scheduled_at": "2026-03-25T11:02:50Z",
       "status": "pending"
     }
   ]
