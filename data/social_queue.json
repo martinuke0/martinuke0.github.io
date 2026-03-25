@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-25T06:02:50Z",
+  "last_scheduled_at": "2026-03-25T07:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -7214,6 +7214,21 @@
         "Privacy"
       ],
       "scheduled_at": "2026-03-25T06:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Beyond Hype: How AI Can Spot Real Sentiment Signals in Energy Markets – A Breakdown of Cutting-Edge Research",
+      "url": "https://martinuke0.github.io/posts/2026-03-25-beyond-hype-how-ai-can-spot-real-sentiment-signals-in-energy-markets-a-breakdown-of-cutting-edge-research/",
+      "social_hook": "Imagine scrolling through Twitter (now X) during a volatile oil price swing. Tweets buzz about \"renewable energy breakthroughs\" or \"drilling disasters.\" Could the specific vibes in those posts—like enthusiasm for solar tech or dread over supply chain woes—actually predict stock moves for companies like Exxon or NextEra? A groundbreaking AI research paper says: maybe, but only if you use super-rigorous tests to weed out the noise.\n\nIn \"Beyond Correlation: Refutation-Validated Aspect-Based Sentiment Analysis for Explainable Energy Market Returns\" (available at (https://arxiv.org/abs/2603.21473)), researchers tackle a huge problem in AI-for-finance: most studies find \"correlations\" between social media sentiment and stock prices, but those are often fakeouts—spurious links that vanish under scrutiny. This paper introduces a \"refutation-validated\" framework that stress-tests sentiment signals like a detective grilling witnesses, ensuring only the tough ones survive. It's not just academic navel-gazing; it's a blueprint for building trustworthy AI tools that could power smarter trading bots or risk alerts.[1]\n\nThis blog post breaks it down for a general technical audience—no PhD required. We'll use everyday analogies, dive into the methods, unpack the findings, and explore why this matters for AI builders, traders, and anyone betting on energy's future. By the end, you'll grasp how to apply these ideas beyond finance.",
+      "tags": [
+        "AI",
+        "Sentiment Analysis",
+        "Financial Markets",
+        "Energy Sector",
+        "Explainable AI",
+        "Machine Learning"
+      ],
+      "scheduled_at": "2026-03-25T07:02:50Z",
       "status": "pending"
     }
   ]
