@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-26T04:02:50Z",
+  "last_scheduled_at": "2026-03-26T05:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -7525,6 +7525,20 @@
         "lean"
       ],
       "scheduled_at": "2026-03-26T04:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Agents as a Service: Unlocking Scalable Intelligent Automation",
+      "url": "https://martinuke0.github.io/posts/2026-03-25-agents-as-a-service-unlocking-scalable-intelligent-automation/",
+      "social_hook": "The term “Agent as a Service” (AaaS) has started to appear in cloud‑native roadmaps, AI strategy decks, and developer forums alike. At its core, AaaS is the packaging of autonomous, goal‑oriented software entities—agents—into a consumable, multi‑tenant service that can be invoked via APIs, event streams, or messaging queues.\n\nUnlike traditional Software‑as‑a‑Service (SaaS), which offers a fixed set of features wrapped in a UI, or Platform‑as‑a‑Service (PaaS), which provides a runtime environment, AaaS delivers intelligence as a service. It enables developers to embed reasoning, adaptation, and proactive behavior into their applications without having to build the underlying orchestration, state management, or security layers themselves.\n\n* Trace the historical evolution from simple scripts to sophisticated autonomous agents.",
+      "tags": [
+        "AI",
+        "Automation",
+        "Cloud",
+        "Microservices",
+        "Agents"
+      ],
+      "scheduled_at": "2026-03-26T05:02:50Z",
       "status": "pending"
     }
   ]
