@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-26T01:02:50Z",
+  "last_scheduled_at": "2026-03-26T02:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -7482,6 +7482,21 @@
         "Programming"
       ],
       "scheduled_at": "2026-03-26T01:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Google Zanzibar: The Global Authorization System Powering Billions of Permissions",
+      "url": "https://martinuke0.github.io/posts/2026-03-25-google-zanzibar-the-global-authorization-system-powering-billions-of-permissions/",
+      "social_hook": "In the world of massive-scale internet services, managing who can access what is a monumental challenge. Google Zanzibar addresses this head-on as a globally distributed authorization system that handles trillions of access control lists (ACLs) and millions of queries per second while maintaining sub-10ms latency and over 99.999% availability.[2][3] Deployed across services like Google Drive, YouTube, Photos, Calendar, and Maps, Zanzibar ensures consistent, fine-grained permissions for billions of users without compromising speed or reliability.[2][4]\n\nThis comprehensive guide dives deep into Zanzibar's architecture, data model, performance optimizations, real-world applications, and open-source alternatives. Whether you're a systems engineer designing authorization for your own service or a developer curious about planetary-scale consistency, you'll find practical insights, examples, and lessons from Google's implementation.\n\nModern applications like Google Workspace or YouTube deal with billions of users sharing trillions of objects—documents, videos, calendars, and more. Each object has complex permissions: owners, editors, viewers, group-based access, and nested hierarchies.[2][5]",
+      "tags": [
+        "Google Zanzibar",
+        "Authorization System",
+        "Distributed Systems",
+        "Access Control",
+        "Spanner",
+        "Scalable Permissions"
+      ],
+      "scheduled_at": "2026-03-26T02:02:50Z",
       "status": "pending"
     }
   ]
