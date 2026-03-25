@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-25T07:02:50Z",
+  "last_scheduled_at": "2026-03-25T08:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -7229,6 +7229,20 @@
         "Machine Learning"
       ],
       "scheduled_at": "2026-03-25T07:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Scaling Federated Learning for Privacy-Preserving Edge Intelligence in Decentralized Autonomous Systems",
+      "url": "https://martinuke0.github.io/posts/2026-03-25-scaling-federated-learning-for-privacy-preserving-edge-intelligence-in-decentralized-autonomous-systems/",
+      "social_hook": "The convergence of federated learning (FL), edge intelligence, and decentralized autonomous systems (DAS) is reshaping how intelligent services are delivered at scale. From fleets of self‑driving cars to swarms of delivery drones, these systems must process massive streams of data locally, respect stringent privacy regulations, and collaborate without a central authority.\n\nTraditional cloud‑centric machine‑learning pipelines struggle in this environment for three fundamental reasons:\n\n1. Bandwidth constraints – transmitting raw sensor data from thousands of edge devices to a central server quickly saturates networks.",
+      "tags": [
+        "federated learning",
+        "edge computing",
+        "privacy",
+        "decentralized systems",
+        "autonomous vehicles"
+      ],
+      "scheduled_at": "2026-03-25T08:02:50Z",
       "status": "pending"
     }
   ]
