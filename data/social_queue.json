@@ -7130,7 +7130,7 @@
         "performance"
       ],
       "scheduled_at": "2026-03-25T00:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Building Low‑Latency RPC Systems for Orchestrating Distributed Small Language Model Clusters",
