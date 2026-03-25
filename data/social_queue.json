@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-25T19:02:50Z",
+  "last_scheduled_at": "2026-03-25T20:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -7398,6 +7398,20 @@
         "neural networks"
       ],
       "scheduled_at": "2026-03-25T19:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Scaling Distributed Vector Databases for Real‑Time Inference in Large Language Model Agent Architectures",
+      "url": "https://martinuke0.github.io/posts/2026-03-25-scaling-distributed-vector-databases-for-realtime-inference-in-large-language-model-agent-architectures/",
+      "social_hook": "Large Language Models (LLMs) have moved from research prototypes to production‑grade agents that can answer questions, generate code, and orchestrate complex workflows. A critical component of many LLM‑powered agents is retrieval‑augmented generation (RAG)—the ability to fetch relevant knowledge from a massive corpus of text, code snippets, or embeddings in real time.\n\nVector databases (or vector search engines) store high‑dimensional embeddings and enable fast approximate nearest‑neighbor (ANN) queries. When an LLM agent must answer a user request within milliseconds, the vector store becomes a performance bottleneck unless it is scaled correctly across multiple nodes, regions, and hardware accelerators.\n\nThis article provides a deep dive into the architectural patterns, scaling techniques, and operational considerations required to run distributed vector databases at the speed demanded by real‑time LLM inference. We’ll explore:",
+      "tags": [
+        "vector-databases",
+        "distributed-systems",
+        "large-language-models",
+        "real-time-inference",
+        "agent-architectures"
+      ],
+      "scheduled_at": "2026-03-25T20:02:50Z",
       "status": "pending"
     }
   ]
