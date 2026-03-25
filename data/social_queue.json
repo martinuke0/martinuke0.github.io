@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-26T09:02:50Z",
+  "last_scheduled_at": "2026-03-26T10:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -7595,6 +7595,20 @@
         "scalability"
       ],
       "scheduled_at": "2026-03-26T09:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Event-Driven Microservices with Apache Kafka: Zero to Hero Guide for Scalable Systems",
+      "url": "https://martinuke0.github.io/posts/2026-03-25-architecting-event-driven-microservices-with-apache-kafka-zero-to-hero-guide-for-scalable-systems/",
+      "social_hook": "In today’s landscape of cloud‑native applications, event‑driven microservices have become the de‑facto pattern for building highly responsive, loosely coupled, and horizontally scalable systems. While the concept of “publish‑subscribe” is decades old, the rise of Apache Kafka—a distributed streaming platform designed for high‑throughput, fault‑tolerant, and durable messaging—has elevated event‑driven architectures to production‑grade reliability.\n\nThis guide walks you through the entire journey, from the fundamentals of event‑driven design to a hands‑on implementation of a microservice ecosystem powered by Kafka. Whether you’re a seasoned architect looking for a refresher or a developer stepping into the world of streaming, you’ll find:\n\n* A clear explanation of core Kafka concepts and how they map to microservice responsibilities",
+      "tags": [
+        "microservices",
+        "event-driven",
+        "apache-kafka",
+        "scalability",
+        "architecture"
+      ],
+      "scheduled_at": "2026-03-26T10:02:50Z",
       "status": "pending"
     }
   ]
