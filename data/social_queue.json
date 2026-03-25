@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-25T11:02:50Z",
+  "last_scheduled_at": "2026-03-25T12:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -7285,6 +7285,20 @@
         "Neural Architecture"
       ],
       "scheduled_at": "2026-03-25T11:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Git Worktrees: A Comprehensive Guide",
+      "url": "https://martinuke0.github.io/posts/2026-03-25-mastering-git-worktrees-a-comprehensive-guide/",
+      "social_hook": "Git has become the de‑facto standard for source‑code version control, and most developers are familiar with its core commands: `clone`, `checkout`, `branch`, `merge`, and the like. Yet, as projects grow and teams adopt more sophisticated workflows, the limitations of a single working directory become apparent. Switching branches repeatedly, juggling multiple feature branches, or maintaining parallel builds can be cumbersome, error‑prone, and time‑consuming.\n\nEnter Git worktrees—a powerful, built‑in mechanism that lets you check out multiple branches (or commits) simultaneously, each in its own separate working directory, while sharing a single `.git` repository. In this article we will:\n\n* Walk through the full set of commands (`git worktree add`, `list`, `remove`, etc.).",
+      "tags": [
+        "git",
+        "worktree",
+        "version-control",
+        "devops",
+        "workflow"
+      ],
+      "scheduled_at": "2026-03-25T12:02:50Z",
       "status": "pending"
     }
   ]
