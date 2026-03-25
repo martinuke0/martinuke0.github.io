@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-25T08:02:50Z",
+  "last_scheduled_at": "2026-03-25T09:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -7243,6 +7243,20 @@
         "autonomous vehicles"
       ],
       "scheduled_at": "2026-03-25T08:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Quantized Attention Mechanisms for Efficient Large Language Model Inference on Resource-Constrained Devices",
+      "url": "https://martinuke0.github.io/posts/2026-03-25-quantized-attention-mechanisms-for-efficient-large-language-model-inference-on-resource-constrained-devices/",
+      "social_hook": "Large Language Models (LLMs) have transformed natural language processing (NLP) by delivering unprecedented capabilities in generation, reasoning, and understanding. Yet, their impressive performance comes at a steep computational cost: billions of parameters, high‑precision (FP32) arithmetic, and memory footprints that exceed the capabilities of most edge‑or‑IoT devices.\n\nQuantized attention mechanisms have emerged as a practical solution for running LLM inference on resource‑constrained platforms such as smartphones, micro‑controllers, and embedded GPUs. By reducing the numeric precision of the matrices involved in the attention calculation—while preserving most of the model’s expressive power—quantization can cut memory usage by up to 8× and accelerate inference by a comparable factor.\n\nThis article provides an in‑depth, end‑to‑end guide to quantized attention for LLMs. We will:",
+      "tags": [
+        "quantization",
+        "attention",
+        "LLM",
+        "edge-computing",
+        "efficiency"
+      ],
+      "scheduled_at": "2026-03-25T09:02:50Z",
       "status": "pending"
     }
   ]
