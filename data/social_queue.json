@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-25T23:02:50Z",
+  "last_scheduled_at": "2026-03-26T00:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -7454,6 +7454,20 @@
         "scalable-data-processing"
       ],
       "scheduled_at": "2026-03-25T23:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Neutral Atoms: The Scalable Future of Quantum Computing Beyond Superconductors",
+      "url": "https://martinuke0.github.io/posts/2026-03-25-neutral-atoms-the-scalable-future-of-quantum-computing-beyond-superconductors/",
+      "social_hook": "Quantum computing has long promised to revolutionize fields from drug discovery to cryptography, but scaling beyond noisy intermediate-scale quantum (NISQ) devices remains a monumental challenge. Google Quantum AI's recent expansion into neutral atom quantum computing—using individual atoms as qubits alongside their established superconducting systems—marks a pivotal shift toward more scalable architectures. This approach leverages \"nature's perfect qubits\": identical atoms trapped by lasers, offering longer coherence times, room-temperature operation, and efficient error management without the cryogenic burdens of other platforms.[1][2]\n\nIn this post, we'll dive deep into neutral atom quantum computers, exploring their physics, advantages over rivals like superconducting and trapped-ion systems, real-world implementations, and connections to broader tech landscapes. Whether you're a quantum engineer, CS researcher, or tech enthusiast, you'll gain actionable insights into why neutral atoms could power the next era of quantum advantage.\n\nAt their core, neutral atom quantum computers manipulate uncharged atoms—typically alkali metals like rubidium, cesium, or ytterbium—as qubits. Unlike superconducting qubits (which rely on Josephson junctions cooled to millikelvin temperatures) or trapped ions (charged particles suspended in electromagnetic fields), neutral atoms retain all their electrons, making them electrically neutral and highly resistant to external perturbations.[1][3]",
+      "tags": [
+        "quantum-computing",
+        "neutral-atoms",
+        "rydberg-qubits",
+        "quantum-scalability",
+        "google-quantum-ai"
+      ],
+      "scheduled_at": "2026-03-26T00:02:50Z",
       "status": "pending"
     }
   ]
