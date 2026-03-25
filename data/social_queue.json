@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-26T08:02:50Z",
+  "last_scheduled_at": "2026-03-26T09:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -7581,6 +7581,20 @@
         "Real-time Analytics"
       ],
       "scheduled_at": "2026-03-26T08:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Vector Databases for Low Latency Retrieval in Large Scale Distributed Machine Learning Systems",
+      "url": "https://martinuke0.github.io/posts/2026-03-25-optimizing-vector-databases-for-low-latency-retrieval-in-large-scale-distributed-machine-learning-systems/",
+      "social_hook": "Vector databases have emerged as the backbone of modern AI‑driven applications—recommendation engines, semantic search, image‑and‑video retrieval, and large language model (LLM) inference pipelines all rely on fast similarity search over high‑dimensional embeddings. As models scale to billions of parameters and datasets swell to terabytes of vectors, the demand for low‑latency retrieval becomes a decisive competitive factor. A single millisecond of added latency can cascade into poorer user experience, higher cost per query, and reduced throughput in downstream pipelines.\n\nThis article dives deep into the architectural, algorithmic, and operational techniques required to optimize vector databases for low latency in large‑scale distributed machine‑learning systems. We will:\n\n1. Review the fundamentals of vector search and why it differs from traditional relational queries.",
+      "tags": [
+        "vector databases",
+        "low latency",
+        "distributed systems",
+        "machine learning",
+        "scalability"
+      ],
+      "scheduled_at": "2026-03-26T09:02:50Z",
       "status": "pending"
     }
   ]
