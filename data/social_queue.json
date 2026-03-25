@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-26T10:02:50Z",
+  "last_scheduled_at": "2026-03-26T11:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -7609,6 +7609,20 @@
         "architecture"
       ],
       "scheduled_at": "2026-03-26T10:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Scaling Distributed Inference Engines Across Heterogeneous Edge Clusters Using WebAssembly and Rust",
+      "url": "https://martinuke0.github.io/posts/2026-03-25-scaling-distributed-inference-engines-across-heterogeneous-edge-clusters-using-webassembly-and-rust/",
+      "social_hook": "Edge computing has moved from a buzzword to a production‑grade reality. From autonomous vehicles and smart cameras to industrial IoT gateways, the need to run machine‑learning inference close to the data source is no longer optional—it is a performance, latency, and privacy requirement. Yet the edge landscape is inherently heterogeneous: devices differ in CPU architecture (x86, ARM, RISC‑V), available accelerators (GPU, NPU, DSP), operating systems, and even networking capabilities.\n\nBuilding a distributed inference engine that can seamlessly scale across such a mosaic of resources presents a formidable engineering challenge. Traditional approaches—shipping native binaries compiled for each target or relying on heavyweight container runtimes—quickly hit the limits of maintainability, security, and deployment speed.\n\nEnter WebAssembly (Wasm) and Rust. WebAssembly provides a portable, sandboxed binary format that runs consistently on any platform with a Wasm runtime. Rust offers memory safety, zero‑cost abstractions, and a thriving ecosystem for systems programming and machine‑learning inference. Together, they form a compelling foundation for a next‑generation edge inference stack that is:",
+      "tags": [
+        "edge computing",
+        "webassembly",
+        "rust",
+        "distributed systems",
+        "machine learning"
+      ],
+      "scheduled_at": "2026-03-26T11:02:50Z",
       "status": "pending"
     }
   ]
