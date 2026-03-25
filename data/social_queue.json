@@ -7313,7 +7313,7 @@
         "swarm engineering"
       ],
       "scheduled_at": "2026-03-25T13:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Vector Databases for Local LLMs: Building a Private Knowledge Base on Your Laptop",
@@ -7327,7 +7327,7 @@
         "python"
       ],
       "scheduled_at": "2026-03-25T14:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Scaling Small Language Models: Why On-Device SLMs are Replacing Cloud APIs in 2026",
@@ -7341,7 +7341,7 @@
         "2026"
       ],
       "scheduled_at": "2026-03-25T15:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "The Practical Guide to Orchestrating Autonomous Agent Swarms with Open-Source SwarmOps Framework",
@@ -7355,7 +7355,7 @@
         "robotics"
       ],
       "scheduled_at": "2026-03-25T16:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Demystifying Memory Bear AI: Revolutionizing Emotional Intelligence with Human-Like Memory",
