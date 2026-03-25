@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-25T13:02:50Z",
+  "last_scheduled_at": "2026-03-25T14:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -7313,6 +7313,20 @@
         "swarm engineering"
       ],
       "scheduled_at": "2026-03-25T13:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Vector Databases for Local LLMs: Building a Private Knowledge Base on Your Laptop",
+      "url": "https://martinuke0.github.io/posts/2026-03-25-vector-databases-for-local-llms-building-a-private-knowledge-base-on-your-laptop/",
+      "social_hook": "Large language models (LLMs) have moved from cloud‑only APIs to local deployments that run on a laptop or a modest workstation. This shift opens up a new class of applications where you can keep data completely private, avoid latency spikes, and eliminate recurring inference costs.\n\nOne of the most powerful patterns for extending a local LLM’s knowledge is Retrieval‑Augmented Generation (RAG)—the model answers a query after consulting an external store of information. In the cloud world, RAG often relies on managed services such as Pinecone or Weaviate Cloud. When you want to stay offline, a vector database running locally becomes the heart of your private knowledge base.\n\n A step‑by‑step tutorial** that ingests documents, builds embeddings, and queries them using a local LLM.",
+      "tags": [
+        "vector-database",
+        "local-llm",
+        "rag",
+        "privacy",
+        "python"
+      ],
+      "scheduled_at": "2026-03-25T14:02:50Z",
       "status": "pending"
     }
   ]
