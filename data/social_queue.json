@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-26T14:02:50Z",
+  "last_scheduled_at": "2026-03-26T15:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -7666,6 +7666,20 @@
         "onnx"
       ],
       "scheduled_at": "2026-03-26T14:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building High‑Performance Event‑Driven Microservices with Apache Kafka and Rust for Real‑Time Data Processing",
+      "url": "https://martinuke0.github.io/posts/2026-03-26-building-highperformance-eventdriven-microservices-with-apache-kafka-and-rust-for-realtime-data-processing/",
+      "social_hook": "In today’s data‑centric world, the ability to ingest, process, and react to streams of information in real time is a competitive differentiator. Companies ranging from fintech to IoT platforms rely on event‑driven microservices to decouple components, guarantee scalability, and achieve low latency. Two technologies have emerged as a natural pairing for this challenge:\n\n Apache Kafka** – a distributed, fault‑tolerant publish‑subscribe system that provides durable, ordered logs for event streams.\n\n Rust** – a systems programming language that delivers memory safety without a garbage collector, enabling ultra‑low overhead and predictable performance.",
+      "tags": [
+        "kafka",
+        "rust",
+        "microservices",
+        "event-driven",
+        "real-time"
+      ],
+      "scheduled_at": "2026-03-26T15:02:50Z",
       "status": "pending"
     }
   ]
