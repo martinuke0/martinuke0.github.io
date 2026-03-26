@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-27T03:02:50Z",
+  "last_scheduled_at": "2026-03-27T04:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -7848,6 +7848,20 @@
         "real-time-ml"
       ],
       "scheduled_at": "2026-03-27T03:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Unlocking AI's Black Box: Mastering Mechanistic Interpretability for Reliable Intelligence",
+      "url": "https://martinuke0.github.io/posts/2026-03-26-unlocking-ai/",
+      "social_hook": "In the rapidly evolving landscape of artificial intelligence, the shift from opaque \"black box\" models to transparent, understandable systems is no longer optional—it's essential. Mechanistic interpretability emerges as a powerful paradigm, enabling engineers and researchers to dissect AI models at a granular level, revealing the precise circuits and features driving decisions. Unlike traditional post-hoc explanations that merely approximate what a model does, mechanistic interpretability reverse-engineers how models compute, fostering trust, safety, and innovation across industries from healthcare to autonomous systems.[1][7]\n\nThis comprehensive guide dives deep into mechanistic interpretability, exploring its foundations, cutting-edge techniques, real-world applications, and future trajectory. Whether you're a machine learning practitioner seeking to debug models or a decision-maker evaluating AI deployments, understanding these methods equips you to build more reliable intelligence.\n\nAI models, particularly large language models (LLMs) and vision transformers, have achieved superhuman performance on benchmarks, yet their internal workings remain inscrutable. A model might classify a skin lesion with 95% accuracy, but without insight into why, clinicians hesitate to adopt it. Regulatory bodies like the FDA and EU AI Act demand explainability, especially in high-stakes domains.[3]",
+      "tags": [
+        "AI Interpretability",
+        "Mechanistic Interpretability",
+        "Explainable AI",
+        "Machine Learning",
+        "AI Safety"
+      ],
+      "scheduled_at": "2026-03-27T04:02:50Z",
       "status": "pending"
     }
   ]
