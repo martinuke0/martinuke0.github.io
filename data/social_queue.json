@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-27T10:02:50Z",
+  "last_scheduled_at": "2026-03-27T11:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -7948,6 +7948,20 @@
         "AI Safety"
       ],
       "scheduled_at": "2026-03-27T10:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Real‑Time Data Ingestion for High‑Performance Vector Search in Distributed AI Systems",
+      "url": "https://martinuke0.github.io/posts/2026-03-26-optimizing-realtime-data-ingestion-for-highperformance-vector-search-in-distributed-ai-systems/",
+      "social_hook": "11. Real‑World Case Study: Scalable Image Search for a Global E‑Commerce Platform\n\nVector search has become the backbone of modern AI‑driven applications: similarity‑based recommendation, semantic text retrieval, image‑based product discovery, and many more. While classic batch‑oriented pipelines can tolerate minutes or even hours of latency, a growing class of use‑cases—live chat assistants, fraud detection, autonomous robotics, and real‑time personalization—demand sub‑second end‑to‑end latency from data arrival to searchable vector availability.\n\nIn distributed AI systems, achieving that latency is non‑trivial. The ingestion pipeline must:",
+      "tags": [
+        "vector-search",
+        "real-time-ingestion",
+        "distributed-systems",
+        "ai-infrastructure",
+        "performance-tuning"
+      ],
+      "scheduled_at": "2026-03-27T11:02:50Z",
       "status": "pending"
     }
   ]
