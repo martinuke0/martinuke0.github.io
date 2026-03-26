@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-27T04:02:50Z",
+  "last_scheduled_at": "2026-03-27T05:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -7862,6 +7862,21 @@
         "AI Safety"
       ],
       "scheduled_at": "2026-03-27T04:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Large Language Models and Scientific Discourse: Decoding the Real Intelligence Gap",
+      "url": "https://martinuke0.github.io/posts/2026-03-26-large-language-models-and-scientific-discourse-decoding-the-real-intelligence-gap/",
+      "social_hook": "Imagine you're at a bustling conference where scientists debate the latest gravitational wave detection. Amid the chatter, someone mentions a wild \"fringe\" paper claiming something outrageous. The room erupts in knowing laughter—not because they've all read it, but because years of hallway talks, coffee chats, and private emails have built an unspoken consensus: it's bunk. This is scientific knowledge in action, raw and social. Now picture a Large Language Model (LLM) like ChatGPT trying to weigh in. It scans papers and articles, but misses those whispered doubts. That's the core puzzle unpacked in the provocative paper \"Large Language Models and Scientific Discourse: Where's the Intelligence?\" (arXiv:2603.23543).\n\nThis blog post breaks down the paper's bold thesis for a general technical audience: LLMs aren't truly intelligent like humans because they miss the messy, social birth of scientific ideas. We'll explore it step-by-step with plain-language explanations, real-world analogies, and practical examples. By the end, you'll see why this matters for AI's role in science—and what it means for your next ChatGPT query.\n\nAt its heart, the paper contrasts two ways of building knowledge: humans through dynamic social discourse, and LLMs through static written texts. Picture human science like a living ecosystem—a forest where trees (papers) grow from underground roots (conversations). LLMs? They're like botanists handed only pressed leaves from a herbarium: informative, but blind to the soil.",
+      "tags": [
+        "AI",
+        "Large Language Models",
+        "Scientific Knowledge",
+        "LLMs Limitations",
+        "AI Research",
+        "Discourse Analysis"
+      ],
+      "scheduled_at": "2026-03-27T05:02:50Z",
       "status": "pending"
     }
   ]
