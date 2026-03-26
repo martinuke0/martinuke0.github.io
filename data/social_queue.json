@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-27T00:02:50Z",
+  "last_scheduled_at": "2026-03-27T01:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -7806,6 +7806,20 @@
         "LLM"
       ],
       "scheduled_at": "2026-03-27T00:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Engineering High-Performance RAG Pipelines with Distributed Vector Indexes and Parallelized Document Processing",
+      "url": "https://martinuke0.github.io/posts/2026-03-26-engineering-high-performance-rag-pipelines-with-distributed-vector-indexes-and-parallelized-document-processing/",
+      "social_hook": "Retrieval‑Augmented Generation (RAG) has become the de‑facto pattern for building knowledge‑aware language‑model applications. By coupling a large language model (LLM) with a non‑parametric memory store—typically a vector index of document embeddings—RAG systems can answer factual queries, cite sources, and stay up‑to‑date without costly model retraining.\n\nHowever, the naive implementation of RAG (single‑node FAISS index, serial document processing) quickly hits performance ceilings when:\n\n* Enterprises demand continuous ingestion of new documents while serving millions of queries per day.",
+      "tags": [
+        "RAG",
+        "vector-search",
+        "distributed-systems",
+        "parallel-processing",
+        "LLM"
+      ],
+      "scheduled_at": "2026-03-27T01:02:50Z",
       "status": "pending"
     }
   ]
