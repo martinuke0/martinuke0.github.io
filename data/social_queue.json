@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-27T06:02:50Z",
+  "last_scheduled_at": "2026-03-27T07:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -7891,6 +7891,20 @@
         "performance"
       ],
       "scheduled_at": "2026-03-27T06:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Hybrid RAG‑EMOps for Seamless Synchronization Between Local Inference and Cloud Vector Stores",
+      "url": "https://martinuke0.github.io/posts/2026-03-26-architecting-hybrid-ragemops-for-seamless-synchronization-between-local-inference-and-cloud-vector-stores/",
+      "social_hook": "Retrieval‑augmented generation (RAG) has become the de‑facto paradigm for building LLM‑powered applications that need up‑to‑date, domain‑specific knowledge. In a classic RAG pipeline, a vector store holds embeddings of documents, the retriever fetches the most relevant chunks, and the generator (often a large language model) synthesizes an answer.\n\nEnter Hybrid RAG‑EMOps—the convergence of RAG, Edge (local) inference, and MLOps practices. Many enterprises now run inference on‑premises (or at the edge) for latency, data‑sovereignty, or cost reasons, while still leveraging cloud‑hosted vector stores for durability, global scaling, and advanced analytics. The challenge is to keep these two worlds seamlessly synchronized so that:\n\n* Updates—new documents, re‑embeddings, schema changes—propagate reliably in both directions.",
+      "tags": [
+        "RAG",
+        "MLOps",
+        "VectorSearch",
+        "HybridArchitecture",
+        "AIInference"
+      ],
+      "scheduled_at": "2026-03-27T07:02:50Z",
       "status": "pending"
     }
   ]
