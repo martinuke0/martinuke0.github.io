@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-26T13:02:50Z",
+  "last_scheduled_at": "2026-03-26T14:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -7652,6 +7652,20 @@
         "Social Media"
       ],
       "scheduled_at": "2026-03-26T13:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Small Language Models for Local Edge Inference: A Guide to Quantization in 2026",
+      "url": "https://martinuke0.github.io/posts/2026-03-26-optimizing-small-language-models-for-local-edge-inference-a-guide-to-quantization-in-2026/",
+      "social_hook": "The past few years have witnessed an explosion of small language models (SLMs)—architectures ranging from 7 M to 300 M parameters that can run on modest hardware while still delivering useful conversational or generation capabilities. By 2026, these models are no longer experimental curiosities; they power everything from voice assistants on smart speakers to on‑device summarizers in mobile apps.\n\nRunning an SLM locally (i.e., edge inference) offers several compelling advantages:\n\nHowever, edge devices—whether a Raspberry Pi, an ARM‑based smartphone SoC, or a micro‑controller with a few MB of SRAM—have strict constraints on memory, compute, and power. Quantization—the process of representing model weights and activations with lower‑precision data types—has become the primary lever to squeeze SLMs into these environments.",
+      "tags": [
+        "edge-computing",
+        "quantization",
+        "small-language-models",
+        "machine-learning",
+        "onnx"
+      ],
+      "scheduled_at": "2026-03-26T14:02:50Z",
       "status": "pending"
     }
   ]
