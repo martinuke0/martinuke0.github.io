@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-27T11:02:50Z",
+  "last_scheduled_at": "2026-03-27T12:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -7962,6 +7962,20 @@
         "performance-tuning"
       ],
       "scheduled_at": "2026-03-27T11:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Beyond LLMs: Mastering Real-Time Agentic Workflows with the New Multi‑Modal Orchestration Standard",
+      "url": "https://martinuke0.github.io/posts/2026-03-26-beyond-llms-mastering-real-time-agentic-workflows-with-the-new-multimodal-orchestration-standard/",
+      "social_hook": "Large language models (LLMs) have reshaped how developers think about “intelligence” in software. The early wave—prompt‑to‑completion APIs—proved that a single model could answer questions, generate code, or draft marketing copy with surprising competence. Yet, as enterprises moved from prototypes to production, a new set of challenges emerged:\n\n Multi‑modal inputs**: users now speak, upload images, share video clips, or stream sensor data.\n\n Real‑time expectations**: latency budgets shrink from seconds to sub‑second for interactive experiences.",
+      "tags": [
+        "LLM",
+        "Agentic AI",
+        "Multi‑Modal",
+        "Orchestration",
+        "Real‑Time"
+      ],
+      "scheduled_at": "2026-03-27T12:02:50Z",
       "status": "pending"
     }
   ]
