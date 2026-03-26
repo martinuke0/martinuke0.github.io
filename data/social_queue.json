@@ -7525,7 +7525,7 @@
         "lean"
       ],
       "scheduled_at": "2026-03-26T04:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Agents as a Service: Unlocking Scalable Intelligent Automation",
@@ -7539,7 +7539,7 @@
         "Agents"
       ],
       "scheduled_at": "2026-03-26T05:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Scaling Retrieval-Augmented Generation for Production: A Deep Dive into Hybrid Search and Reranking Systems",
