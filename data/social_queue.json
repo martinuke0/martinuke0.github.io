@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-26T22:02:50Z",
+  "last_scheduled_at": "2026-03-26T23:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -7778,6 +7778,20 @@
         "memory-efficiency"
       ],
       "scheduled_at": "2026-03-26T22:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Scaling Small Language Models: Why On-Device SLMs are Replacing Cloud APIs for Edge Intelligence",
+      "url": "https://martinuke0.github.io/posts/2026-03-26-scaling-small-language-models-why-on-device-slms-are-replacing-cloud-apis-for-edge-intelligence/",
+      "social_hook": "The past few years have witnessed a dramatic shift in how natural‑language processing (NLP) services are delivered. Where once a smartphone or an IoT sensor would stream audio or text to a remote server for inference, today many of those same tasks are performed locally, on the device itself. This transition is powered by Small Language Models (SLMs)—compact, efficient versions of the massive transformers that dominate research labs.\n\nIn this article we will explore the forces driving the migration from cloud‑based APIs to on‑device SLMs, examine the technical foundations that make this possible, and walk through practical examples that illustrate how developers can harness edge intelligence today. By the end, you should have a clear understanding of:\n\n* The model‑compression techniques (distillation, quantization, pruning) that enable SLMs.",
+      "tags": [
+        "edge-ai",
+        "small-language-models",
+        "on-device-inference",
+        "model-compression",
+        "privacy"
+      ],
+      "scheduled_at": "2026-03-26T23:02:50Z",
       "status": "pending"
     }
   ]
