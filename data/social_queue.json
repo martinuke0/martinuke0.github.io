@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-26T21:02:50Z",
+  "last_scheduled_at": "2026-03-26T22:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -7764,6 +7764,20 @@
         "data-ingestion"
       ],
       "scheduled_at": "2026-03-26T21:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Benchmarking Memory‑Efficient Transformer Architectures for Real‑Time Inference on Embedded Systems",
+      "url": "https://martinuke0.github.io/posts/2026-03-26-benchmarking-memoryefficient-transformer-architectures-for-realtime-inference-on-embedded-systems/",
+      "social_hook": "Transformer models have become the de‑facto standard for natural language processing (NLP), computer vision, and increasingly for multimodal AI. Their self‑attention mechanism enables unprecedented performance on tasks ranging from language translation to object detection. However, the same architectural strengths that make transformers powerful also make them resource‑hungry: they demand gigabytes of RAM, billions of FLOPs, and high‑throughput memory bandwidth.\n\nEmbedded systems—microcontrollers (MCUs), system‑on‑chips (SoCs), and edge AI accelerators—operate under strict constraints: limited SRAM/DRAM, modest compute cores, and tight power envelopes. Yet, there is a growing need for real‑time inference on these platforms: voice assistants on wearables, anomaly detection on industrial sensors, and on‑device translation for offline travel apps.\n\nThis article provides a comprehensive, end‑to‑end guide to benchmarking memory‑efficient transformer architectures for real‑time inference on embedded hardware. We will:",
+      "tags": [
+        "transformers",
+        "benchmarking",
+        "embedded-systems",
+        "real-time",
+        "memory-efficiency"
+      ],
+      "scheduled_at": "2026-03-26T22:02:50Z",
       "status": "pending"
     }
   ]
