@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-26T23:02:50Z",
+  "last_scheduled_at": "2026-03-27T00:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -7792,6 +7792,20 @@
         "privacy"
       ],
       "scheduled_at": "2026-03-26T23:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Beyond Context Windows: Architecting Long Term Memory Systems for Autonomous Agent Orchestration",
+      "url": "https://martinuke0.github.io/posts/2026-03-26-beyond-context-windows-architecting-long-term-memory-systems-for-autonomous-agent-orchestration/",
+      "social_hook": "Large language models (LLMs) have transformed how we build conversational assistants, code generators, and, increasingly, autonomous agents that can plan, act, and learn without human supervision. The most visible limitation of current LLM‑driven agents is the context window: a fixed‑size token buffer (e.g., 8 k, 32 k, or 128 k tokens) that the model can attend to at inference time. When an agent operates over days, weeks, or months, the amount of relevant information quickly exceeds this window.\n\nLong‑term memory (LTM) for autonomous agents is therefore not a luxury—it is a necessity. It allows an agent to:\n\n3. Accumulate knowledge about external environments (e.g., a warehouse layout, a financial market) that evolves over time.",
+      "tags": [
+        "AI",
+        "Long-Term Memory",
+        "Autonomous Agents",
+        "System Architecture",
+        "LLM"
+      ],
+      "scheduled_at": "2026-03-27T00:02:50Z",
       "status": "pending"
     }
   ]
