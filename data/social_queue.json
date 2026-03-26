@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-27T02:02:50Z",
+  "last_scheduled_at": "2026-03-27T03:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -7834,6 +7834,20 @@
         "AI infrastructure"
       ],
       "scheduled_at": "2026-03-27T02:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Scaling Autonomous Agent Workflows with Distributed Streaming Pipelines and Real‑Time Vector Processing",
+      "url": "https://martinuke0.github.io/posts/2026-03-26-scaling-autonomous-agent-workflows-with-distributed-streaming-pipelines-and-realtime-vector-processing/",
+      "social_hook": "Autonomous agents—software entities that perceive, reason, and act without direct human supervision—are becoming the backbone of modern AI‑powered products. From conversational assistants that handle thousands of simultaneous chats to trading bots that react to market micro‑seconds, these agents must process high‑velocity data, generate embeddings, make decisions, and persist outcomes in real time.\n\nTraditional monolithic architectures quickly hit scalability limits. The solution lies in distributed streaming pipelines that can ingest, transform, and route events at scale, combined with real‑time vector processing to perform similarity search, clustering, and retrieval on the fly.\n\nThis article walks through the architectural concepts, technical challenges, and practical implementation steps needed to scale autonomous agent workflows using modern streaming platforms (Kafka, Pulsar, Flink, Spark) and vector databases (Milvus, Pinecone, Vespa). By the end, you’ll have a blueprint you can adapt to your own projects.",
+      "tags": [
+        "autonomous-agents",
+        "stream-processing",
+        "vector-search",
+        "distributed-systems",
+        "real-time-ml"
+      ],
+      "scheduled_at": "2026-03-27T03:02:50Z",
       "status": "pending"
     }
   ]
