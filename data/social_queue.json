@@ -7778,7 +7778,7 @@
         "memory-efficiency"
       ],
       "scheduled_at": "2026-03-26T22:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Scaling Small Language Models: Why On-Device SLMs are Replacing Cloud APIs for Edge Intelligence",
