@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-26T18:02:50Z",
+  "last_scheduled_at": "2026-03-26T19:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -7722,6 +7722,20 @@
         "privacy"
       ],
       "scheduled_at": "2026-03-26T18:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Beyond Reinforcement Learning: Scaling Autonomous Reasoning in Multi‑Agent Systems for Complex Problem Solving",
+      "url": "https://martinuke0.github.io/posts/2026-03-26-beyond-reinforcement-learning-scaling-autonomous-reasoning-in-multiagent-systems-for-complex-problem-solving/",
+      "social_hook": "Artificial intelligence has made spectacular strides in the last decade, largely driven by breakthroughs in reinforcement learning (RL). From AlphaGo mastering the game of Go to OpenAI’s agents conquering complex video games, RL has proven that agents can learn sophisticated behaviors through trial‑and‑error interaction with an environment. Yet, when we step beyond single‑agent scenarios and ask machines to collaborate, compete, and reason autonomously in large, dynamic ecosystems, classic RL begins to show its limits.\n\nComplex problem solving—think of city‑wide traffic orchestration, large‑scale supply‑chain logistics, or coordinated disaster response—requires multi‑agent systems (MAS) that can:\n\n2. Reason about high‑level goals, constraints, and emergent phenomena, not just immediate reward signals.",
+      "tags": [
+        "reinforcement learning",
+        "multi-agent systems",
+        "autonomous reasoning",
+        "scalable AI",
+        "complex problem solving"
+      ],
+      "scheduled_at": "2026-03-26T19:02:50Z",
       "status": "pending"
     }
   ]
