@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-26T19:02:50Z",
+  "last_scheduled_at": "2026-03-26T20:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -7736,6 +7736,20 @@
         "complex problem solving"
       ],
       "scheduled_at": "2026-03-26T19:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Event-Driven Microservices for Real-Time Data Processing and System Scalability",
+      "url": "https://martinuke0.github.io/posts/2026-03-26-architecting-event-driven-microservices-for-real-time-data-processing-and-system-scalability/",
+      "social_hook": "In today’s digital economy, businesses must process massive streams of data in real time while remaining agile enough to scale on demand. Traditional monolithic architectures, with their tight coupling and synchronous request‑response cycles, struggle to meet these demands. Event‑Driven Microservices—a marriage of two powerful architectural styles—offer a compelling solution.\n\nThis article dives deep into the principles, design decisions, and operational considerations required to build robust, real‑time, and highly scalable systems using event‑driven microservices. Whether you’re an architect, senior developer, or DevOps engineer, you’ll walk away with a concrete mental model, practical patterns, and sample code you can adapt to your own projects.\n\nAn event is a record of something that has happened in a system. It is immutable, timestamped, and typically expressed in a structured format (JSON, Avro, Protobuf). Events differ from commands (which intend to cause a change) and queries (which request data).",
+      "tags": [
+        "event-driven",
+        "microservices",
+        "real-time",
+        "scalability",
+        "architecture"
+      ],
+      "scheduled_at": "2026-03-26T20:02:50Z",
       "status": "pending"
     }
   ]
