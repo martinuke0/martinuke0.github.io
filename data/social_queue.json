@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-26T12:02:50Z",
+  "last_scheduled_at": "2026-03-26T13:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -7637,6 +7637,21 @@
         "distributed systems"
       ],
       "scheduled_at": "2026-03-26T12:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Demystifying Rumors on Social Media: How Pre-trained Propagation Tree Transformers Beat Over-Smoothing",
+      "url": "https://martinuke0.github.io/posts/2026-03-26-demystifying-rumors-on-social-media-how-pre-trained-propagation-tree-transformers-beat-over-smoothing/",
+      "social_hook": "Rumors spread like wildfire on social media, often causing real-world chaos before the truth catches up. The research paper \"Avoiding Over-smoothing in Social Media Rumor Detection with Pre-trained Propagation Tree Transformer\" introduces a game-changing approach called P2T3 (Pre-trained Propagation Tree Transformer) that tackles a major flaw in traditional AI rumor detection methods.[4] This blog post breaks it down for a general technical audience, using simple analogies, real-world examples, and deep dives into why this matters.\n\nImagine you're scrolling through Twitter (now X) and see a post claiming a celebrity death or a major stock market crash. Within minutes, replies flood in—some supporting, some debunking, others adding wild twists. This creates a propagation tree: the original post as the root, with branches of replies forming a tangled web of conversations.[1][2][4]\n\nRumor detection AI aims to sort truth from fiction automatically. Early methods analyzed just the text content, like checking if words match known facts. But rumors evolve through interactions, so smarter systems use Graph Neural Networks (GNNs) to model these trees as graphs, where nodes are posts and edges are replies.[1][3]",
+      "tags": [
+        "AI",
+        "Machine Learning",
+        "Transformers",
+        "Rumor Detection",
+        "Graph Neural Networks",
+        "Social Media"
+      ],
+      "scheduled_at": "2026-03-26T13:02:50Z",
       "status": "pending"
     }
   ]
