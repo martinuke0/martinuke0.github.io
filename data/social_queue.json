@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-27T09:02:50Z",
+  "last_scheduled_at": "2026-03-27T10:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -7934,6 +7934,20 @@
         "Musculoskeletal Modeling"
       ],
       "scheduled_at": "2026-03-27T09:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Securing Autonomous Agents: Implementing Zero Trust Architectures in Multi-Model Orchestration Frameworks",
+      "url": "https://martinuke0.github.io/posts/2026-03-26-securing-autonomous-agents-implementing-zero-trust-architectures-in-multi-model-orchestration-frameworks/",
+      "social_hook": "Autonomous agents—software entities capable of perceiving, reasoning, and acting without direct human supervision—are rapidly becoming the backbone of modern digital ecosystems. From chat‑based personal assistants to self‑optimizing supply‑chain bots, these agents increasingly rely on multi‑model orchestration frameworks (MMOFs) to combine large language models (LLMs), vision models, reinforcement‑learning policies, and domain‑specific knowledge bases into coherent, goal‑directed workflows.\n\nWhile the functional benefits of such orchestration are evident, the security implications are equally profound. Traditional perimeter‑based defenses are ill‑suited to environments where agents dynamically discover services, exchange data across cloud‑native micro‑services, and even modify their own execution logic. In this context, Zero Trust Architecture (ZTA)—the paradigm of “never trust, always verify”—offers a systematic, defense‑in‑depth approach that aligns naturally with the distributed, mutable nature of autonomous agents.\n\nThis article provides a deep dive into how to embed Zero Trust principles into the design, deployment, and runtime operation of autonomous agents that run on multi‑model orchestration frameworks. We will explore threat vectors, walk through a concrete implementation using open‑source tools, and illustrate real‑world deployments where these concepts have already proven their worth.",
+      "tags": [
+        "Zero Trust",
+        "Autonomous Agents",
+        "Multi-Model Orchestration",
+        "Security Architecture",
+        "AI Safety"
+      ],
+      "scheduled_at": "2026-03-27T10:02:50Z",
       "status": "pending"
     }
   ]
