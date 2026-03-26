@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-26T17:02:50Z",
+  "last_scheduled_at": "2026-03-26T18:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -7708,6 +7708,20 @@
         "Task Queue"
       ],
       "scheduled_at": "2026-03-26T17:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Securing Small Language Models: Best Practices for Edge Device Inference in 2026",
+      "url": "https://martinuke0.github.io/posts/2026-03-26-securing-small-language-models-best-practices-for-edge-device-inference-in-2026/",
+      "social_hook": "Small language models (often called tiny LLMs, micro‑LLMs, or edge‑LLMs) have exploded onto the scene in 2026. With parameter counts ranging from a few million to a few hundred million, they can run on commodity CPUs, low‑power GPUs, or dedicated AI accelerators found in smartphones, industrial IoT gateways, and autonomous drones. Their ability to perform on‑device text generation, intent classification, or code completion unlocks latency‑critical and privacy‑sensitive applications that were previously the exclusive domain of cloud‑hosted giants.\n\nBut with great convenience comes a new attack surface. When a model lives on an edge device, it is no longer protected by the perimeter of a data‑center. An adversary with physical access—or a compromised firmware update—can attempt to extract, tamper, or steal the model, or manipulate its outputs to cause downstream damage. This article provides a comprehensive, practical guide for engineers, security architects, and product managers who need to secure small language models deployed on edge devices in 2026.\n\nWe will explore the current threat landscape, walk through concrete hardening techniques, and illustrate best‑practice pipelines with code snippets for popular runtimes such as TensorFlow Lite, ONNX Runtime, and Apple’s Core ML. By the end of this post you should have a clear, actionable playbook for protecting your edge‑LLM assets from the most common and emerging attacks.",
+      "tags": [
+        "edge-ai",
+        "model-security",
+        "small-llm",
+        "inference",
+        "privacy"
+      ],
+      "scheduled_at": "2026-03-26T18:02:50Z",
       "status": "pending"
     }
   ]
