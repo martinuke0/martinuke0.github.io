@@ -7581,7 +7581,7 @@
         "Real-time Analytics"
       ],
       "scheduled_at": "2026-03-26T08:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Optimizing Vector Databases for Low Latency Retrieval in Large Scale Distributed Machine Learning Systems",
