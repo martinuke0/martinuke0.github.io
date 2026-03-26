@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-27T07:02:50Z",
+  "last_scheduled_at": "2026-03-27T08:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -7905,6 +7905,20 @@
         "AIInference"
       ],
       "scheduled_at": "2026-03-27T07:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting High Throughput RAG Pipelines with Rust Microservices and Distributed Vector Databases",
+      "url": "https://martinuke0.github.io/posts/2026-03-26-architecting-high-throughput-rag-pipelines-with-rust-microservices-and-distributed-vector-databases/",
+      "social_hook": "Retrieval‑Augmented Generation (RAG) has become the de‑facto pattern for building knowledge‑aware language‑model applications. By grounding a generative model in a dynamic external knowledge base, RAG enables:\n\n Up‑to‑date answers** that reflect recent documents, regulations, or product catalogs.\n\n Cost efficiency**, as the LLM only needs to generate based on a few retrieved passages instead of memorizing everything.",
+      "tags": [
+        "RAG",
+        "Rust",
+        "Microservices",
+        "Vector Databases",
+        "Scalability"
+      ],
+      "scheduled_at": "2026-03-27T08:02:50Z",
       "status": "pending"
     }
   ]
