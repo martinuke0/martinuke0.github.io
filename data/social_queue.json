@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-26T15:02:50Z",
+  "last_scheduled_at": "2026-03-26T16:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -7680,6 +7680,20 @@
         "real-time"
       ],
       "scheduled_at": "2026-03-26T15:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "How to Optimize Local LLMs for the New Generation of Neural-Integrated RISC-V Laptops",
+      "url": "https://martinuke0.github.io/posts/2026-03-26-how-to-optimize-local-llms-for-the-new-generation-of-neural-integrated-risc-v-laptops/",
+      "social_hook": "The convergence of large language models (LLMs) with edge‑centric hardware is reshaping how developers think about on‑device intelligence. A new wave of neural‑integrated RISC‑V laptops—devices that embed AI accelerators directly into the RISC‑V CPU fabric—promises to bring powerful conversational agents, code assistants, and content generators to the desktop without relying on cloud APIs.\n\nYet, running a modern LLM locally on a laptop with limited DRAM, modest power envelopes, and a heterogeneous compute stack is far from trivial. Optimizing these models requires a blend of model‑centric techniques (quantization, pruning, knowledge distillation) and hardware‑centric tricks (vector extensions, custom ISA extensions, memory‑aware scheduling).\n\nThis article walks you through the full optimization pipeline, from understanding the hardware landscape to deploying a production‑ready inference engine on a neural‑integrated RISC‑V laptop. We provide practical code snippets, benchmark methodologies, and best‑practice recommendations so you can extract the maximum performance out of every FLOP your device offers.",
+      "tags": [
+        "LLM",
+        "RISC-V",
+        "Edge AI",
+        "Optimization",
+        "Neural-Integrated"
+      ],
+      "scheduled_at": "2026-03-26T16:02:50Z",
       "status": "pending"
     }
   ]
