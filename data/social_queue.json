@@ -7680,7 +7680,7 @@
         "real-time"
       ],
       "scheduled_at": "2026-03-26T15:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "How to Optimize Local LLMs for the New Generation of Neural-Integrated RISC-V Laptops",
@@ -7694,7 +7694,7 @@
         "Neural-Integrated"
       ],
       "scheduled_at": "2026-03-26T16:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Building High Performance Async Task Queues with RabbitMQ and Python for Scalable Microservices",
