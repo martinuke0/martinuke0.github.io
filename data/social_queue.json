@@ -7764,7 +7764,7 @@
         "data-ingestion"
       ],
       "scheduled_at": "2026-03-26T21:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Benchmarking Memory‑Efficient Transformer Architectures for Real‑Time Inference on Embedded Systems",
