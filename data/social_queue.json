@@ -7708,7 +7708,7 @@
         "Task Queue"
       ],
       "scheduled_at": "2026-03-26T17:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Securing Small Language Models: Best Practices for Edge Device Inference in 2026",
