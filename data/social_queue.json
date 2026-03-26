@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-27T01:02:50Z",
+  "last_scheduled_at": "2026-03-27T02:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -7820,6 +7820,20 @@
         "LLM"
       ],
       "scheduled_at": "2026-03-27T01:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Semantic Caching Strategies for Lightning Fast Large Language Model Applications",
+      "url": "https://martinuke0.github.io/posts/2026-03-26-mastering-semantic-caching-strategies-for-lightning-fast-large-language-model-applications/",
+      "social_hook": "Large language models (LLMs) have transformed everything from chatbots to code assistants, but their power comes at a cost: latency and compute expense. For high‑traffic applications, the naïve approach of sending every user request directly to the model quickly becomes unsustainable. Traditional caching—keyed by raw request strings—offers limited relief because even slight phrasing changes invalidate the cache entry.\n\nSemantic caching solves this problem by caching meaning rather than exact text. By turning prompts or documents into dense vector embeddings, we can retrieve cached results for semantically similar inputs, dramatically reducing the number of expensive model calls. This article dives deep into the theory, design patterns, and practical implementation steps needed to master semantic caching and build lightning‑fast LLM‑powered services.\n\nTypical LLM use cases—question answering, summarization, code generation—receive queries that are semantically identical but syntactically diverse. A traditional cache would treat each variation as a miss, while a semantic cache can collapse them into a single cache entry.",
+      "tags": [
+        "LLM",
+        "semantic caching",
+        "performance optimization",
+        "machine learning engineering",
+        "AI infrastructure"
+      ],
+      "scheduled_at": "2026-03-27T02:02:50Z",
       "status": "pending"
     }
   ]
