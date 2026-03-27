@@ -8046,7 +8046,7 @@
         "distributed systems"
       ],
       "scheduled_at": "2026-03-27T17:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Scaling Realtime Feature Stores with Redis and Go for High‑Throughput Microservices",
