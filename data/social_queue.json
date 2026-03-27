@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-28T09:02:50Z",
+  "last_scheduled_at": "2026-03-28T10:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -8270,6 +8270,20 @@
         "Wasm"
       ],
       "scheduled_at": "2026-03-28T09:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Decentralized Inference Networks: How Small Language Models Are Breaking the Cloud Monopoly",
+      "url": "https://martinuke0.github.io/posts/2026-03-27-decentralized-inference-networks-how-small-language-models-are-breaking-the-cloud-monopoly/",
+      "social_hook": "Artificial intelligence has become synonymous with massive cloud‑based services. From OpenAI’s ChatGPT to Google’s Gemini, the prevailing narrative is that “big” language models (LLMs) require “big” infrastructure—GPU farms, high‑speed interconnects, and multi‑petabyte storage. This model has created a de‑facto monopoly: a handful of cloud providers own the hardware, the data pipelines, and the inference APIs that power everything from chat assistants to code generators.\n\nYet an equally powerful, quieter movement is gaining momentum. Small language models—those under 10 billion parameters—have matured to the point where they can run on commodity hardware: laptops, smartphones, edge devices, or even micro‑controllers (with quantization). When these models are combined with peer‑to‑peer (P2P) networking, they enable Decentralized Inference Networks (DINs), a paradigm that redistributes the computational load from centralized data centers to a mesh of participants.\n\nThis article dives deep into how DINs work, why small models are the linchpin, and what this shift means for developers, enterprises, and end‑users. By the end, you’ll have a clear picture of the technical building blocks, practical implementation steps, and the broader socio‑economic impact of breaking the cloud monopoly.",
+      "tags": [
+        "decentralization",
+        "language-models",
+        "edge-computing",
+        "AI",
+        "inference"
+      ],
+      "scheduled_at": "2026-03-28T10:02:50Z",
       "status": "pending"
     }
   ]
