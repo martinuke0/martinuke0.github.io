@@ -7905,7 +7905,7 @@
         "AIInference"
       ],
       "scheduled_at": "2026-03-27T07:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Architecting High Throughput RAG Pipelines with Rust Microservices and Distributed Vector Databases",
