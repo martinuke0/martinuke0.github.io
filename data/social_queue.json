@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-27T12:02:50Z",
+  "last_scheduled_at": "2026-03-27T13:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -7976,6 +7976,20 @@
         "Real‑Time"
       ],
       "scheduled_at": "2026-03-27T12:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Scaling Distributed Inference for Federated Micro‑Agents Using Peer‑to‑Peer Edge Networks",
+      "url": "https://martinuke0.github.io/posts/2026-03-27-scaling-distributed-inference-for-federated-microagents-using-peertopeer-edge-networks/",
+      "social_hook": "The rise of edge AI has turned billions of everyday devices—smartphones, wearables, sensors, and even tiny micro‑controllers—into capable inference engines. When these devices operate as micro‑agents that collaborate on a common task (e.g., anomaly detection, collaborative robotics, or real‑time traffic forecasting), the system is no longer a simple client‑server setup. Instead, it becomes a federated network where each node contributes compute, data, and model updates while preserving privacy.\n\nScaling distributed inference across such a federation presents a unique set of challenges:\n\n Resource heterogeneity**: CPUs, GPUs, TPUs, and specialized ASICs coexist, each with different latency and memory footprints.",
+      "tags": [
+        "federated-learning",
+        "edge-computing",
+        "distributed-inference",
+        "peer-to-peer",
+        "micro-agents"
+      ],
+      "scheduled_at": "2026-03-27T13:02:50Z",
       "status": "pending"
     }
   ]
