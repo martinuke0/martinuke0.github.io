@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-28T14:02:50Z",
+  "last_scheduled_at": "2026-03-28T15:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -8340,6 +8340,20 @@
         "api-design"
       ],
       "scheduled_at": "2026-03-28T14:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Harnessing WebAssembly and WebGPU: A Deep Dive into High‑Performance Web Graphics",
+      "url": "https://martinuke0.github.io/posts/2026-03-27-harnessing-webassembly-and-webgpu-a-deep-dive-into-highperformance-web-graphics/",
+      "social_hook": "The web has come a long way from static HTML pages to rich, interactive applications that rival native desktop software. Two emerging technologies are at the heart of this transformation:\n\n1. WebAssembly (Wasm) – a low‑level binary format that brings near‑native performance to the browser while preserving safety and portability.\n\n2. WebGPU – the next‑generation graphics and compute API for the web, offering explicit, high‑performance access to modern GPUs.",
+      "tags": [
+        "WebAssembly",
+        "WebGPU",
+        "Graphics",
+        "Performance",
+        "Web Development"
+      ],
+      "scheduled_at": "2026-03-28T15:02:50Z",
       "status": "pending"
     }
   ]
