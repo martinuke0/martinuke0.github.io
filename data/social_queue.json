@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-28T15:02:50Z",
+  "last_scheduled_at": "2026-03-28T16:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -8354,6 +8354,20 @@
         "Web Development"
       ],
       "scheduled_at": "2026-03-28T15:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "IT Jump: A Deep Dive into the Premier Tech Career Accelerator",
+      "url": "https://martinuke0.github.io/posts/2026-03-27-it-jump-a-deep-dive-into-the-premier-tech-career-accelerator/",
+      "social_hook": "The tech industry has long been a magnet for ambitious professionals seeking high‑growth careers, but the pathway from a non‑technical background to a coveted IT role remains riddled with uncertainty. Enter IT Jump, a purpose‑built career accelerator that promises to bridge that gap. Since its inception in 2019, IT Jump has positioned itself as a hybrid of intensive bootcamp training, mentorship, and job‑placement services tailored for career‑switchers, recent graduates, and early‑stage professionals.\n\n* Compare IT Jump with other popular pathways such as traditional bootcamps, university degrees, and self‑guided learning.\n\n* Forecast the future of tech career acceleration in the context of evolving industry demands.",
+      "tags": [
+        "IT Jump",
+        "career transition",
+        "tech bootcamp",
+        "upskilling",
+        "professional development"
+      ],
+      "scheduled_at": "2026-03-28T16:02:50Z",
       "status": "pending"
     }
   ]
