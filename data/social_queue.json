@@ -7806,7 +7806,7 @@
         "LLM"
       ],
       "scheduled_at": "2026-03-27T00:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Engineering High-Performance RAG Pipelines with Distributed Vector Indexes and Parallelized Document Processing",
@@ -7820,7 +7820,7 @@
         "LLM"
       ],
       "scheduled_at": "2026-03-27T01:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Mastering Semantic Caching Strategies for Lightning Fast Large Language Model Applications",
