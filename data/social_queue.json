@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-29T10:02:50Z",
+  "last_scheduled_at": "2026-03-29T11:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -8620,6 +8620,21 @@
         "AI-deployment"
       ],
       "scheduled_at": "2026-03-29T10:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Epistemic Bias Injection: The Hidden Threat Stealthily Warping AI Answers",
+      "url": "https://martinuke0.github.io/posts/2026-03-27-epistemic-bias-injection-the-hidden-threat-stealthily-warping-ai-answers/",
+      "social_hook": "Imagine asking your favorite AI chatbot a question about a hot-button issue like climate policy or vaccine efficacy. You expect a balanced, factual response drawn from reliable sources. But what if sneaky attackers have poisoned the well—not with outright lies, but with cleverly crafted, truthful text that drowns out opposing views? This is the core of Epistemic Bias Injection (EBI), a groundbreaking vulnerability uncovered in the research paper \"Epistemic Bias Injection: Biasing LLMs via Selective Context Retrieval\".[1]\n\nIn this in-depth blog post, we'll break down this sophisticated AI attack for a general technical audience. No PhD required—we'll use real-world analogies, practical examples, and plain language to make the concepts stick. You'll learn how EBI works, why it's scarier than traditional bias, the math behind measuring it, and even a clever defense. By the end, you'll grasp why this matters for anyone building or using AI systems today.\n\nBefore diving into the attack, let's set the stage. Modern large language models (LLMs) like GPT-4 or Llama aren't magic oracles. They generate answers based on patterns learned from massive training data, but for up-to-date or specialized knowledge, they often rely on Retrieval-Augmented Generation (RAG).",
+      "tags": [
+        "AI Security",
+        "LLM Bias",
+        "RAG Systems",
+        "Epistemic Bias",
+        "AI Attacks",
+        "Machine Learning"
+      ],
+      "scheduled_at": "2026-03-29T11:02:50Z",
       "status": "pending"
     }
   ]
