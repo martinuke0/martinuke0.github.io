@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-28T16:02:50Z",
+  "last_scheduled_at": "2026-03-28T17:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -8368,6 +8368,20 @@
         "professional development"
       ],
       "scheduled_at": "2026-03-28T16:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Understanding SSL Termination: Concepts, Practices, and Real‑World Implementations",
+      "url": "https://martinuke0.github.io/posts/2026-03-27-understanding-ssl-termination-concepts-practices-and-realworld-implementations/",
+      "social_hook": "In today’s cloud‑first, API‑driven world, securing data in transit is non‑negotiable. Transport Layer Security (TLS)—the modern successor to Secure Sockets Layer (SSL)—provides confidentiality, integrity, and authentication for network traffic. However, encrypting every packet end‑to‑end can impose considerable computational overhead on application servers, especially when they must handle thousands of concurrent connections.\n\nEnter SSL termination (often called TLS termination). This architectural pattern offloads the heavy lifting of TLS handshakes and encryption/decryption to a dedicated component—typically a load balancer, reverse proxy, or edge gateway—allowing backend services to operate on plain HTTP. By terminating TLS at a strategic point in the network, teams gain performance benefits, simplify certificate management, and enable advanced routing features, all while preserving end‑user security expectations.\n\nThis article dives deep into the what, why, and how of SSL termination. We’ll explore:",
+      "tags": [
+        "SSL",
+        "TLS",
+        "Load Balancing",
+        "Network Security",
+        "Kubernetes"
+      ],
+      "scheduled_at": "2026-03-28T17:02:50Z",
       "status": "pending"
     }
   ]
