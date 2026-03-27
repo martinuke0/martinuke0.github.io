@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-28T18:02:50Z",
+  "last_scheduled_at": "2026-03-28T19:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -8396,6 +8396,20 @@
         "Security"
       ],
       "scheduled_at": "2026-03-28T18:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Edge VPC: Bridging Cloud and the Edge for Ultra‑Low Latency Applications",
+      "url": "https://martinuke0.github.io/posts/2026-03-27-edge-vpc-bridging-cloud-and-the-edge-for-ultralow-latency-applications/",
+      "social_hook": "Enterprises are increasingly moving workloads closer to the user, the sensor, or the machine that generates data. Whether it’s a factory floor robot, a 5G‑enabled mobile device, or a content‑delivery node serving video streams, the demand for sub‑millisecond latency, high bandwidth, and secure connectivity has never been higher.\n\nTraditional cloud networking—where a Virtual Private Cloud (VPC) lives in a single, centrally‑located region—simply cannot satisfy those requirements on its own. The answer is an Edge VPC: a VPC‑style, isolated network that lives at the edge (e.g., in a local zone, edge data center, or on‑premises hardware) while remaining fully integrated with the broader cloud control plane.\n\nThis article provides a deep dive into the Edge VPC concept, its architectural patterns, practical deployment steps, real‑world use cases, security and observability considerations, and cost‑optimization tips. By the end you’ll have a complete mental model—and hands‑on code—to design, build, and operate an Edge VPC on the major public‑cloud platforms.",
+      "tags": [
+        "cloud networking",
+        "edge computing",
+        "VPC",
+        "low latency",
+        "hybrid cloud"
+      ],
+      "scheduled_at": "2026-03-28T19:02:50Z",
       "status": "pending"
     }
   ]
