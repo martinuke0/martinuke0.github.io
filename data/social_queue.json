@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-27T22:02:50Z",
+  "last_scheduled_at": "2026-03-27T23:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -8116,6 +8116,20 @@
         "performance"
       ],
       "scheduled_at": "2026-03-27T22:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Integrating Sovereign Memory Architectures for Persistent Context in Decentralized Edge Intelligence Networks",
+      "url": "https://martinuke0.github.io/posts/2026-03-27-integrating-sovereign-memory-architectures-for-persistent-context-in-decentralized-edge-intelligence-networks/",
+      "social_hook": "Edge intelligence—running machine‑learning inference, reasoning, and even training at the network’s periphery—has moved from research labs to production environments in just a few years. Sensors, micro‑controllers, and capable SoCs now embed AI models that react in milliseconds, enabling applications ranging from autonomous drones to predictive maintenance on factory floors.\n\nYet a fundamental tension remains: how can these distributed nodes retain persistent context without surrendering data ownership to a central cloud? Traditional edge deployments rely on stateless inference pipelines, periodically pulling fresh models from a central server. The loss of context forces each node to start from scratch after a reboot or network outage, dramatically reducing efficiency and user experience.\n\nEnter sovereign memory architectures. By marrying the concepts of data sovereignty (the user—or device—retains full ownership and control of its data) with a decentralized storage and consensus layer, we can give edge devices a persistent, tamper‑evident memory that survives power cycles, network partitions, and even hardware upgrades. This article walks through the technical foundations, practical implementation steps, real‑world case studies, and future research directions for integrating sovereign memory into decentralized edge intelligence networks.",
+      "tags": [
+        "edge computing",
+        "distributed systems",
+        "AI",
+        "data sovereignty",
+        "memory architecture"
+      ],
+      "scheduled_at": "2026-03-27T23:02:50Z",
       "status": "pending"
     }
   ]
