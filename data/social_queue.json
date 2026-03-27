@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-29T00:02:50Z",
+  "last_scheduled_at": "2026-03-29T01:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -8480,6 +8480,20 @@
         "policy"
       ],
       "scheduled_at": "2026-03-29T00:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Understanding the Nemotron Cascade Architecture: Design, Performance, and Real‑World Applications",
+      "url": "https://martinuke0.github.io/posts/2026-03-27-understanding-the-nemotron-cascade-architecture-design-performance-and-realworld-applications/",
+      "social_hook": "8. Practical Example: Tuning a Nemotron Cascade Server for a High‑Throughput Database\n\n9. Comparison With Other Intel Architectures (Cascade Lake, Ice Lake, Sapphire Rapids)\n\nThe server‑processor market has been a battleground of innovation for more than a decade, with Intel, AMD, and emerging RISC‑V vendors constantly pushing the envelope of performance, power efficiency, and scalability. Among Intel’s portfolio, the Nemotron family—originally introduced as a successor to the Xeon E7 line—has quietly become a cornerstone for mission‑critical workloads that demand massive core counts, deep cache hierarchies, and robust reliability features.",
+      "tags": [
+        "Nemotron",
+        "Cascade Architecture",
+        "Server CPUs",
+        "Performance Optimization",
+        "Intel"
+      ],
+      "scheduled_at": "2026-03-29T01:02:50Z",
       "status": "pending"
     }
   ]
