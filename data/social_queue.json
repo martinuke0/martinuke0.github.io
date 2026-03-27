@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-29T09:02:50Z",
+  "last_scheduled_at": "2026-03-29T10:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -8606,6 +8606,20 @@
         "distributed-systems"
       ],
       "scheduled_at": "2026-03-29T09:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Scaling Small: Why SLMs are Replacing LLMs in Edge Computing and Local Development",
+      "url": "https://martinuke0.github.io/posts/2026-03-27-scaling-small-why-slms-are-replacing-llms-in-edge-computing-and-local-development/",
+      "social_hook": "Artificial intelligence has moved from the cloud‑only era to a hybrid reality where inference happens everywhere—from data‑center GPUs to tiny micro‑controllers embedded in everyday objects. For a long time, the headline‑grabbing models were large language models (LLMs) such as GPT‑4, Claude, or LLaMA‑2, boasting billions of parameters and impressive zero‑shot capabilities. Yet, the very size that gives these models their linguistic prowess also makes them unsuitable for many edge scenarios where compute, memory, power, and latency are at a premium.\n\nEnter Small Language Models (SLMs)—compact, efficient, and increasingly capable. In the last two years, a wave of research and open‑source tooling has demonstrated that SLMs can deliver comparable performance for domain‑specific tasks while fitting comfortably on edge hardware. This shift is not merely a technical curiosity; it is reshaping how developers think about AI‑enabled products, particularly in edge computing and local development contexts.\n\n* Walk through concrete deployment patterns and a step‑by‑step code example on a Raspberry Pi.",
+      "tags": [
+        "edge-computing",
+        "small-language-models",
+        "LLM-alternatives",
+        "local-development",
+        "AI-deployment"
+      ],
+      "scheduled_at": "2026-03-29T10:02:50Z",
       "status": "pending"
     }
   ]
