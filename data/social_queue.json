@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-28T02:02:50Z",
+  "last_scheduled_at": "2026-03-28T03:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -8172,6 +8172,20 @@
         "process-management"
       ],
       "scheduled_at": "2026-03-28T02:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Scaling Private Inference for Large Language Models with Trusted Execution Environments and Rust",
+      "url": "https://martinuke0.github.io/posts/2026-03-27-scaling-private-inference-for-large-language-models-with-trusted-execution-environments-and-rust/",
+      "social_hook": "Large language models (LLMs) such as LLaMA 2, GPT‑4, or Claude have moved from research curiosities to production‑grade services that power chat assistants, code generators, and domain‑specific copilots. The value of these models lies in their knowledge—the patterns learned from billions of tokens. Yet that value is also the source of a critical tension:\n\n Privacy** – Many enterprises need to run inference on proprietary or personally identifiable data (PII). Sending raw user inputs to a cloud provider can violate regulations (GDPR, HIPAA) or expose trade secrets.\n\n Scalability** – State‑of‑the‑art LLMs contain tens to hundreds of billions of parameters. Running them at scale requires careful orchestration of CPU, GPU, and memory resources.",
+      "tags": [
+        "LLM",
+        "Trusted Execution Environments",
+        "Rust",
+        "Privacy",
+        "Scalability"
+      ],
+      "scheduled_at": "2026-03-28T03:02:50Z",
       "status": "pending"
     }
   ]
