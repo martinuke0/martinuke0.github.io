@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-28T12:02:50Z",
+  "last_scheduled_at": "2026-03-28T13:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -8312,6 +8312,20 @@
         "branch-management"
       ],
       "scheduled_at": "2026-03-28T12:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing Git: Building a Minimal Version Control System from Scratch",
+      "url": "https://martinuke0.github.io/posts/2026-03-27-implementing-git-building-a-minimal-version-control-system-from-scratch/",
+      "social_hook": "Git has become the de‑facto standard for source‑code management, powering everything from tiny hobby projects to the world’s largest open‑source ecosystems. Its reputation for speed, integrity, and flexibility stems from a set of elegant, low‑level design decisions that were deliberately kept simple enough to be re‑implemented by a single developer in a weekend.\n\nIf you’ve ever wondered how Git works under the hood, building a tiny clone is the most effective way to find out. In this article we’ll walk through the core concepts that make Git possible, then construct a minimal, functional Git‑like system in Python. The goal isn’t to replace the official implementation, but to expose the plumbing that powers the high‑level commands you use daily.\n\n* Explain Git’s object model (blobs, trees, commits, tags) and its SHA‑1 based storage.",
+      "tags": [
+        "git",
+        "version-control",
+        "software-engineering",
+        "python",
+        "open-source"
+      ],
+      "scheduled_at": "2026-03-28T13:02:50Z",
       "status": "pending"
     }
   ]
