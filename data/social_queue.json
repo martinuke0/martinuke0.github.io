@@ -7891,7 +7891,7 @@
         "performance"
       ],
       "scheduled_at": "2026-03-27T06:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Architecting Hybrid RAG‑EMOps for Seamless Synchronization Between Local Inference and Cloud Vector Stores",
