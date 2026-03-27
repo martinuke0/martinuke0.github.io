@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-28T22:02:50Z",
+  "last_scheduled_at": "2026-03-28T23:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -8452,6 +8452,20 @@
         "stateful-pipelines"
       ],
       "scheduled_at": "2026-03-28T22:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Bitcoin: A Comprehensive Guide to the World’s First Decentralized Currency",
+      "url": "https://martinuke0.github.io/posts/2026-03-27-bitcoin-a-comprehensive-guide-to-the-worlds-first-decentralized-currency/",
+      "social_hook": "Bitcoin emerged in 2009 as the first peer‑to‑peer electronic cash system, introducing a fundamentally new paradigm for money: decentralized, permissionless, and cryptographically secured. Over a decade later, it has evolved from an obscure experiment into a global asset class, a store of value for millions, and a technological foundation for a sprawling ecosystem of developers, entrepreneurs, and regulators.\n\nThis article aims to provide a deep, practical, and up‑to‑date exploration of Bitcoin. Whether you are a developer looking to build on the protocol, an investor seeking to understand its economics, or a curious newcomer wanting to know how to safely hold and spend BTC, the sections below will guide you through the core concepts, real‑world applications, and future directions of the world’s first cryptocurrency.\n\nBitcoin’s narrative is defined by innovation, volatility, and resilience. Its open‑source nature has allowed a global community to continuously improve the protocol while maintaining a strict consensus on core rules such as the 21 million supply limit.",
+      "tags": [
+        "bitcoin",
+        "cryptocurrency",
+        "blockchain",
+        "decentralization",
+        "finance"
+      ],
+      "scheduled_at": "2026-03-28T23:02:50Z",
       "status": "pending"
     }
   ]
