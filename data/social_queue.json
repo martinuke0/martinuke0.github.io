@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-29T06:02:50Z",
+  "last_scheduled_at": "2026-03-29T07:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -8564,6 +8564,20 @@
         "devops"
       ],
       "scheduled_at": "2026-03-29T06:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Deploying Private Local LLMs for Workflow Automation with Ollama and Python",
+      "url": "https://martinuke0.github.io/posts/2026-03-27-deploying-private-local-llms-for-workflow-automation-with-ollama-and-python/",
+      "social_hook": "Large language models (LLMs) have transitioned from research curiosities to production‑grade engines that can read, write, and reason across a wide variety of business tasks. While cloud‑based APIs from providers such as OpenAI, Anthropic, or Azure are convenient, many organizations prefer private, on‑premise deployments for reasons that include data sovereignty, latency, cost predictability, and full control over model versions.\n\nOllama is an open‑source runtime that makes it remarkably easy to pull, run, and manage LLMs on a local machine or on‑premise server. Coupled with Python—still the lingua franca of data science and automation—Ollama provides a lightweight, self‑contained stack for building workflow automation tools that can run offline and securely.\n\n4. Designing robust workflow‑automation scripts (ticket triage, data extraction, summarisation, etc.).",
+      "tags": [
+        "LLM",
+        "Ollama",
+        "Python",
+        "Automation",
+        "Local Deployment"
+      ],
+      "scheduled_at": "2026-03-29T07:02:50Z",
       "status": "pending"
     }
   ]
