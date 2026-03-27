@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-28T13:02:50Z",
+  "last_scheduled_at": "2026-03-28T14:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -8326,6 +8326,20 @@
         "open-source"
       ],
       "scheduled_at": "2026-03-28T13:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "WebSockets, Webhooks, and WebStreaming: A Deep Dive into Real‑Time Communication on the Modern Web",
+      "url": "https://martinuke0.github.io/posts/2026-03-27-websockets-webhooks-and-webstreaming-a-deep-dive-into-realtime-communication-on-the-modern-web/",
+      "social_hook": "The web has evolved from a document‑centric universe to a real‑time, event‑driven ecosystem. Users now expect chat messages to appear instantly, dashboards to refresh without a click, and video streams to start on demand. Underpinning this shift are three foundational patterns:\n\n1. WebSockets – a full‑duplex, low‑latency channel that keeps a persistent TCP connection open between client and server.\n\n2. Webhooks – a push‑based HTTP callback mechanism where a server notifies another server about an event.",
+      "tags": [
+        "websockets",
+        "webhooks",
+        "streaming",
+        "real-time",
+        "api-design"
+      ],
+      "scheduled_at": "2026-03-28T14:02:50Z",
       "status": "pending"
     }
   ]
