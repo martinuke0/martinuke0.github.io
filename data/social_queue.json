@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-27T18:02:50Z",
+  "last_scheduled_at": "2026-03-27T19:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -8060,6 +8060,20 @@
         "Scalability"
       ],
       "scheduled_at": "2026-03-27T18:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Scaling Real-Time Event Processing Architectures for High Availability in Distributed Cloud Systems",
+      "url": "https://martinuke0.github.io/posts/2026-03-27-scaling-real-time-event-processing-architectures-for-high-availability-in-distributed-cloud-systems/",
+      "social_hook": "Modern applications—ranging from financial trading platforms and online gaming to IoT telemetry and click‑stream analytics—must ingest, transform, and react to massive streams of events in real time. Users expect sub‑second latency, while businesses demand that those pipelines stay highly available even under traffic spikes, hardware failures, or network partitions.\n\nAchieving both low latency and high availability in a distributed cloud environment is not a trivial engineering exercise. It requires a deep understanding of:\n\n Scalable messaging and storage backbones** such as Apache Kafka, Pulsar, or cloud‑native event hubs",
+      "tags": [
+        "real-time",
+        "event-processing",
+        "high-availability",
+        "cloud",
+        "scaling"
+      ],
+      "scheduled_at": "2026-03-27T19:02:50Z",
       "status": "pending"
     }
   ]
