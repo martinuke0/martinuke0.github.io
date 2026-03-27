@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-28T17:02:50Z",
+  "last_scheduled_at": "2026-03-28T18:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -8382,6 +8382,20 @@
         "Kubernetes"
       ],
       "scheduled_at": "2026-03-28T17:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Understanding NAT Gateways and Carrier‑Grade NAT (CGNAT): Architecture, Use Cases, and Best Practices",
+      "url": "https://martinuke0.github.io/posts/2026-03-27-understanding-nat-gateways-and-carriergrade-nat-cgnat-architecture-use-cases-and-best-practices/",
+      "social_hook": "Network Address Translation (NAT) has been a cornerstone of IP networking since the mid‑1990s, enabling the reuse of limited IPv4 address space while providing a convenient abstraction layer for internal networks. In the era of cloud computing, NAT gateways have become a managed service that lets private subnets reach the public internet without exposing individual instances. Meanwhile, at the scale of Internet Service Providers (ISPs), Carrier‑Grade NAT (CGNAT)—sometimes called Large‑Scale NAT (LSN)—is the industry‑wide answer to the exhaustion of IPv4 address pools.\n\nThis article dives deep into both concepts, exploring their underlying mechanics, deployment models, performance characteristics, security ramifications, and operational best practices. Whether you’re an architect designing a multi‑region cloud environment, a network engineer tasked with provisioning CGNAT for a regional ISP, or a security professional auditing address translation layers, this guide offers a comprehensive, hands‑on perspective.\n\nThe IPv4 address space (≈ 4.3 billion addresses) was never intended to support the billions of devices connected today. Early mitigation strategies—Classful addressing, subnetting, and CIDR— helped, but the decisive breakthrough was NAT:",
+      "tags": [
+        "NAT",
+        "CGNAT",
+        "Networking",
+        "Cloud",
+        "Security"
+      ],
+      "scheduled_at": "2026-03-28T18:02:50Z",
       "status": "pending"
     }
   ]
