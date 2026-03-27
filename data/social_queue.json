@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-28T01:02:50Z",
+  "last_scheduled_at": "2026-03-28T02:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -8158,6 +8158,20 @@
         "linux"
       ],
       "scheduled_at": "2026-03-28T01:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering nohup: Running Unix Processes Without Hangups",
+      "url": "https://martinuke0.github.io/posts/2026-03-27-mastering-nohup-running-unix-processes-without-hangups/",
+      "social_hook": "When you log into a Unix or Linux system over SSH, you’re essentially opening a session that is bound to a controlling terminal. As long as that terminal exists, the kernel delivers signals—most notably `SIGHUP` (hang‑up)—to every process that belongs to the session. If the terminal disappears (for example, you close your SSH client or lose network connectivity), the kernel sends `SIGHUP` to the foreground and background jobs, and many of those jobs terminate by default.\n\nFor system administrators, developers, and data engineers, this behavior is often undesirable. You may want a long‑running data pipeline, a backup script, or a custom daemon to survive the disconnection of the terminal that launched it. This is where `nohup` (short for no hang‑up) comes into play.\n\nBy the end, you should be able to confidently launch resilient background jobs on any POSIX‑compatible system, understand the trade‑offs, and decide when `nohup` is the right tool for the job.",
+      "tags": [
+        "nohup",
+        "linux",
+        "unix",
+        "shell",
+        "process-management"
+      ],
+      "scheduled_at": "2026-03-28T02:02:50Z",
       "status": "pending"
     }
   ]
