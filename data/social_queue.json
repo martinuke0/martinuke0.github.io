@@ -7877,7 +7877,7 @@
         "Discourse Analysis"
       ],
       "scheduled_at": "2026-03-27T05:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Scaling Distributed State Machines with Actor Models and Zero‑Copy Shared Memory Foundations",
