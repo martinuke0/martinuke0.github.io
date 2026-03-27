@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-27T21:02:50Z",
+  "last_scheduled_at": "2026-03-27T22:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -8102,6 +8102,20 @@
         "stream-processing"
       ],
       "scheduled_at": "2026-03-27T21:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Distributed State Management for High Performance Multi-Agent Orchestration Systems",
+      "url": "https://martinuke0.github.io/posts/2026-03-27-optimizing-distributed-state-management-for-high-performance-multi-agent-orchestration-systems/",
+      "social_hook": "Orchestrating dozens, hundreds, or even thousands of autonomous agents—whether they are micro‑services, IoT devices, trading bots, or fleets of drones—requires a distributed state management layer that is both fast and reliable. In a traditional monolith, a single database can serve as the single source of truth. In a multi‑agent ecosystem, however, the state is continuously mutated by many actors operating in parallel, often across geographic regions and unreliable networks.\n\nThis article dives deep into the architectural, algorithmic, and operational choices that enable high‑performance state management for multi‑agent orchestration systems. We will:\n\n* Review the theoretical foundations (CAP, consistency models, CRDTs, event sourcing).",
+      "tags": [
+        "distributed-systems",
+        "state-management",
+        "multi-agent",
+        "orchestration",
+        "performance"
+      ],
+      "scheduled_at": "2026-03-27T22:02:50Z",
       "status": "pending"
     }
   ]
