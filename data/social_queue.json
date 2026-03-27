@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-27T17:02:50Z",
+  "last_scheduled_at": "2026-03-27T18:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -8046,6 +8046,20 @@
         "distributed systems"
       ],
       "scheduled_at": "2026-03-27T17:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Scaling Realtime Feature Stores with Redis and Go for High‑Throughput Microservices",
+      "url": "https://martinuke0.github.io/posts/2026-03-27-scaling-realtime-feature-stores-with-redis-and-go-for-highthroughput-microservices/",
+      "social_hook": "Feature stores have emerged as the backbone of modern machine‑learning (ML) pipelines. They enable teams to store, version, and serve engineered features both offline (for batch training) and online (for real‑time inference). In a microservice‑centric architecture, each service may need to fetch dozens of features per request, often under strict latency budgets (sub‑10 ms) while the system processes thousands of requests per second.\n\nAchieving this level of performance is not trivial. It requires a datastore that can:\n\n Expose low‑latency read paths** that can be called from many concurrent goroutines.",
+      "tags": [
+        "Redis",
+        "Golang",
+        "Feature Store",
+        "Microservices",
+        "Scalability"
+      ],
+      "scheduled_at": "2026-03-27T18:02:50Z",
       "status": "pending"
     }
   ]
