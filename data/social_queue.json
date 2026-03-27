@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-27T20:02:50Z",
+  "last_scheduled_at": "2026-03-27T21:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -8088,6 +8088,20 @@
         "NPU"
       ],
       "scheduled_at": "2026-03-27T20:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building Event‑Driven Edge Mesh Architectures with Reactive Agents and Serverless Stream Processing",
+      "url": "https://martinuke0.github.io/posts/2026-03-27-building-eventdriven-edge-mesh-architectures-with-reactive-agents-and-serverless-stream-processing/",
+      "social_hook": "Edge computing has moved from a niche buzzword to a production‑grade reality. Modern applications—think autonomous vehicles, augmented reality, and massive IoT deployments—cannot afford the latency of round‑trip data to a centralized cloud. At the same time, the rise of event‑driven architectures (EDAs) has shown that loosely coupled, asynchronous communication dramatically improves scalability and fault tolerance.\n\nWhen you combine an edge mesh (a distributed fabric of compute nodes placed at the network edge) with reactive agents (self‑contained, message‑driven services) and serverless stream processing, you get a powerful pattern that:\n\n Provides observability and resilience** via well‑understood reactive principles.",
+      "tags": [
+        "edge-computing",
+        "event-driven",
+        "reactive-agents",
+        "serverless",
+        "stream-processing"
+      ],
+      "scheduled_at": "2026-03-27T21:02:50Z",
       "status": "pending"
     }
   ]
