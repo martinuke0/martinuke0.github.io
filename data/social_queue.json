@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-28T19:02:50Z",
+  "last_scheduled_at": "2026-03-28T20:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -8410,6 +8410,20 @@
         "hybrid cloud"
       ],
       "scheduled_at": "2026-03-28T19:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering AWS Transit Gateway: Architecture, Deployment, and Real‑World Best Practices",
+      "url": "https://martinuke0.github.io/posts/2026-03-27-mastering-aws-transit-gateway-architecture-deployment-and-realworld-best-practices/",
+      "social_hook": "Amazon Web Services (AWS) has matured from a collection of isolated services into a fully integrated, enterprise‑grade platform. As organizations scale, the networking fabric that interconnects Virtual Private Clouds (VPCs), on‑premises data centers, and other cloud environments becomes a critical piece of the puzzle.\n\nEnter AWS Transit Gateway (TGW)—a regional hub that simplifies the management of thousands of connections, replaces complex peering meshes, and provides a single point of control for routing, security, and observability. This article dives deep into the why, how, and when of Transit Gateway, offering practical examples, architectural guidance, and a real‑world case study. By the end, you should be equipped to design, deploy, and operate a robust TGW‑centric network that meets the needs of modern, multi‑account enterprises.\n\nBefore TGW, architects relied on a mixture of VPC peering, VPN connections, and AWS Direct Connect to stitch together networks. While functional, these approaches present several challenges:",
+      "tags": [
+        "AWS",
+        "Transit Gateway",
+        "Networking",
+        "Cloud Architecture",
+        "Infrastructure as Code"
+      ],
+      "scheduled_at": "2026-03-28T20:02:50Z",
       "status": "pending"
     }
   ]
