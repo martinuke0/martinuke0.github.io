@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-28T21:02:50Z",
+  "last_scheduled_at": "2026-03-28T22:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -8438,6 +8438,20 @@
         "Machine Learning"
       ],
       "scheduled_at": "2026-03-28T21:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Low‑Latency Stateful Streaming Pipelines for High‑Performance Distributed Machine Learning",
+      "url": "https://martinuke0.github.io/posts/2026-03-27-architecting-lowlatency-stateful-streaming-pipelines-for-highperformance-distributed-machine-learning/",
+      "social_hook": "The rise of real‑time analytics, online personalization, and continuous model improvement has pushed the limits of traditional batch‑oriented machine‑learning (ML) pipelines. Modern applications—ranging from fraud detection to recommendation engines—must ingest massive streams of events, maintain per‑entity state, and feed that state into sophisticated ML models within milliseconds.\n\nAchieving such low latency while preserving stateful correctness and fault‑tolerance is non‑trivial. It requires a careful blend of streaming architecture, state management techniques, networking optimizations, and tight integration with distributed ML frameworks.\n\nThis article provides a deep dive into designing low‑latency, stateful streaming pipelines for high‑performance distributed ML systems. We will explore the theoretical foundations, practical architectural patterns, concrete implementation details, and real‑world case studies. By the end, you should have a roadmap for building pipelines that can keep up with the most demanding real‑time ML workloads.",
+      "tags": [
+        "streaming",
+        "machine-learning",
+        "low-latency",
+        "distributed-systems",
+        "stateful-pipelines"
+      ],
+      "scheduled_at": "2026-03-28T22:02:50Z",
       "status": "pending"
     }
   ]
