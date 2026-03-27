@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-28T11:02:50Z",
+  "last_scheduled_at": "2026-03-28T12:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -8298,6 +8298,20 @@
         "linux"
       ],
       "scheduled_at": "2026-03-28T11:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Git Worktrees: A Complete Guide for Developers",
+      "url": "https://martinuke0.github.io/posts/2026-03-27-mastering-git-worktrees-a-complete-guide-for-developers/",
+      "social_hook": "Git has become the de‑facto standard for source‑code version control, and most developers are comfortable with the classic workflow of `git clone`, `git checkout`, and `git merge`. Yet, as projects grow in size and complexity, the traditional model can start to feel limiting. Imagine needing to work on several long‑running feature branches simultaneously, or needing a clean checkout of a previous release for a hot‑fix while your main development environment stays on the latest `main` branch.\n\nEnter Git worktrees – a powerful, built‑in feature that lets you maintain multiple, independent working directories attached to a single repository. In this article we will explore every facet of Git worktrees, from the foundational concepts to advanced usage patterns, complete with real‑world examples and troubleshooting tips. By the end, you should be able to incorporate worktrees into your daily workflow with confidence, improving productivity, reducing disk usage, and keeping your environment tidy.\n\nA worktree (short for working tree) is an additional checkout of a repository that shares the same `.git` data (objects, refs, config) with the original repository. While the default repository layout contains a single working directory (`<repo>/`) and its `.git` directory, a worktree adds another directory that points back to the same internal data store.",
+      "tags": [
+        "git",
+        "worktree",
+        "version-control",
+        "devops",
+        "branch-management"
+      ],
+      "scheduled_at": "2026-03-28T12:02:50Z",
       "status": "pending"
     }
   ]
