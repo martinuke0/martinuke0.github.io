@@ -7976,7 +7976,7 @@
         "Real‑Time"
       ],
       "scheduled_at": "2026-03-27T12:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Scaling Distributed Inference for Federated Micro‑Agents Using Peer‑to‑Peer Edge Networks",
@@ -7990,7 +7990,7 @@
         "micro-agents"
       ],
       "scheduled_at": "2026-03-27T13:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Scaling Real-Time AI Inference Pipelines with Kubernetes and Distributed Vector Databases",
