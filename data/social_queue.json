@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-27T14:02:50Z",
+  "last_scheduled_at": "2026-03-27T15:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -8004,6 +8004,20 @@
         "MLOps"
       ],
       "scheduled_at": "2026-03-27T14:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Beyond LLMs: Implementing World Models for Autonomous Agent Reasoning in Production Environments",
+      "url": "https://martinuke0.github.io/posts/2026-03-27-beyond-llms-implementing-world-models-for-autonomous-agent-reasoning-in-production-environments/",
+      "social_hook": "Large language models (LLMs) have transformed natural‑language processing, enabling chatbots, code assistants, and even rudimentary reasoning. Yet, when we move from textual tasks to embodied or interactive applications—autonomous drones, robotic manipulators, or self‑optimizing cloud services—pure LLMs quickly hit their limits. They lack a built‑in notion of physical causality, temporal continuity, and action‑outcome predictability.\n\nEnter world models: learned representations that capture how an environment evolves in response to actions. By internalizing dynamics, reward structures, and perceptual cues, a world model equips an autonomous agent with mental simulation capabilities—a prerequisite for planning, counterfactual reasoning, and safe decision making.\n\nThis article dives deep into the engineering and scientific considerations required to bring world models from research notebooks into production‑grade autonomous agents. We will explore the architectural components, practical code snippets, deployment patterns, safety mechanisms, and real‑world case studies that together form a roadmap for engineers and researchers aiming to go beyond LLMs.",
+      "tags": [
+        "AI",
+        "World Models",
+        "Autonomous Agents",
+        "Production Engineering",
+        "Machine Learning"
+      ],
+      "scheduled_at": "2026-03-27T15:02:50Z",
       "status": "pending"
     }
   ]
