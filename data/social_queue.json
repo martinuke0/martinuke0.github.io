@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-27T16:02:50Z",
+  "last_scheduled_at": "2026-03-27T17:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -8032,6 +8032,20 @@
         "Optimization"
       ],
       "scheduled_at": "2026-03-27T16:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Benchmarking Distributed Stream Processing Architectures for Low‑Latency Financial Data Pipelines",
+      "url": "https://martinuke0.github.io/posts/2026-03-27-benchmarking-distributed-stream-processing-architectures-for-lowlatency-financial-data-pipelines/",
+      "social_hook": "Financial markets move at the speed of light—literally. A millisecond advantage can translate into millions of dollars, especially for high‑frequency trading (HFT), market‑making, and risk‑management systems that must react to price changes, order‑book updates, and regulatory events in real time. Modern exchanges publish data as a continuous stream of events (ticks, quotes, trades, order‑book deltas), and firms need distributed stream‑processing pipelines that can ingest, enrich, and act on that data with sub‑millisecond latency while handling tens of millions of events per second.\n\nThis article provides a deep‑dive benchmark guide for evaluating distributed stream‑processing architectures in the context of low‑latency financial data pipelines. We will:\n\n2. Review the most common open‑source and commercial stream‑processing platforms.",
+      "tags": [
+        "stream processing",
+        "low latency",
+        "financial data",
+        "benchmarking",
+        "distributed systems"
+      ],
+      "scheduled_at": "2026-03-27T17:02:50Z",
       "status": "pending"
     }
   ]
