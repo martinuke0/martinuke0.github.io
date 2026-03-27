@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-27T13:02:50Z",
+  "last_scheduled_at": "2026-03-27T14:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -7990,6 +7990,20 @@
         "micro-agents"
       ],
       "scheduled_at": "2026-03-27T13:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Scaling Real-Time AI Inference Pipelines with Kubernetes and Distributed Vector Databases",
+      "url": "https://martinuke0.github.io/posts/2026-03-27-scaling-real-time-ai-inference-pipelines-with-kubernetes-and-distributed-vector-databases/",
+      "social_hook": "Enterprises are increasingly deploying real‑time AI inference services that must respond to thousands—or even millions—of requests per second while delivering low latency (often < 50 ms). Typical workloads involve:\n\n Retrieval‑augmented generation (RAG)** pipelines that combine a language model with a vector store\n\nAchieving this level of performance requires elastic compute, high‑throughput networking, and state‑of‑the‑art storage for vectors. Kubernetes offers a battle‑tested orchestration layer for scaling containers, while distributed vector databases (Milvus, Qdrant, Weaviate, Vespa, etc.) provide the low‑latency, high‑throughput similarity search that traditional relational stores cannot.",
+      "tags": [
+        "Kubernetes",
+        "AI Inference",
+        "Vector Database",
+        "Scalability",
+        "MLOps"
+      ],
+      "scheduled_at": "2026-03-27T14:02:50Z",
       "status": "pending"
     }
   ]
