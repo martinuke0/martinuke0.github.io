@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-27T23:02:50Z",
+  "last_scheduled_at": "2026-03-28T00:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -8130,6 +8130,20 @@
         "memory architecture"
       ],
       "scheduled_at": "2026-03-27T23:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Understanding the Linux OOM Killer: Mechanics, Tuning, and Real‑World Strategies",
+      "url": "https://martinuke0.github.io/posts/2026-03-27-understanding-the-linux-oom-killer-mechanics-tuning-and-realworld-strategies/",
+      "social_hook": "When a Linux system runs out of memory, the kernel must decide which processes to terminate to reclaim RAM and keep the machine alive. That decisive, sometimes brutal, component is the Out‑Of‑Memory (OOM) Killer. While most users never see it in action, administrators, developers, and anyone who runs workloads on servers, virtual machines, or containers will eventually encounter it—especially under heavy load, memory leaks, or mis‑configured resource limits.\n\n2. The kernel’s decision‑making algorithm (OOM scores, adjustments, and cgroup integration)\n\n4. Tuning strategies (sysctl, `oom_score_adj`, cgroup v1/v2, systemd‑oomd, earlyoom)",
+      "tags": [
+        "Linux",
+        "OOM Killer",
+        "Performance",
+        "System Administration",
+        "Containers"
+      ],
+      "scheduled_at": "2026-03-28T00:02:50Z",
       "status": "pending"
     }
   ]
