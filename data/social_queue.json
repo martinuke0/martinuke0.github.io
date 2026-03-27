@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-29T07:02:50Z",
+  "last_scheduled_at": "2026-03-29T08:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -8578,6 +8578,20 @@
         "Local Deployment"
       ],
       "scheduled_at": "2026-03-29T07:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Beyond Code: Mastering Multi‑Agent Orchestration with the New OpenTelemetry Agentic Standards",
+      "url": "https://martinuke0.github.io/posts/2026-03-27-beyond-code-mastering-multiagent-orchestration-with-the-new-opentelemetry-agentic-standards/",
+      "social_hook": "The rise of multi‑agent systems (MAS) has transformed how modern software tackles complex, distributed problems. From autonomous micro‑services coordinating a supply‑chain workflow to fleets of LLM‑driven assistants handling customer support, agents now act as first‑class citizens in production environments.\n\nYet, as the number of agents grows, so does the difficulty of observability, debugging, and performance tuning. Traditional logging and tracing tools were built around single‑process request flows; they struggle to capture the emergent behavior of dozens—or even thousands—of interacting agents.\n\nEnter the OpenTelemetry Agentic Standards (OTAS), the latest extension to the OpenTelemetry ecosystem. OTAS introduces a set of semantic conventions, data models, and instrumentation libraries designed specifically for agent‑centric workloads. By treating each agent as a traceable unit of work and providing native support for agent‑to‑agent communication, OTAS enables developers to monitor, diagnose, and optimize MAS deployments with the same confidence they have for monolithic services.",
+      "tags": [
+        "OpenTelemetry",
+        "Multi‑Agent Systems",
+        "Observability",
+        "Distributed Tracing",
+        "AI Orchestration"
+      ],
+      "scheduled_at": "2026-03-29T08:02:50Z",
       "status": "pending"
     }
   ]
