@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-29T05:02:50Z",
+  "last_scheduled_at": "2026-03-29T06:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -8550,6 +8550,20 @@
         "scalability"
       ],
       "scheduled_at": "2026-03-29T05:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Edge Computing Zero to Hero: Building and Deploying Resilient Microservices at the Network Edge",
+      "url": "https://martinuke0.github.io/posts/2026-03-27-edge-computing-zero-to-hero-building-and-deploying-resilient-microservices-at-the-network-edge/",
+      "social_hook": "Edge computing has moved from a niche buzzword to a mainstream architectural paradigm. As billions of devices generate data at the periphery of networks, the latency, bandwidth, and privacy constraints of sending everything to a central cloud become untenable. At the same time, the microservice revolution—breaking monolithic applications into small, independently deployable units—has reshaped how we build scalable software.\n\nThe convergence of edge computing and microservices creates an exciting, yet challenging, landscape. How do you design, test, and operate microservices that run on constrained, sometimes intermittently connected, edge nodes? How can you guarantee that a failure in a remote factory or a rural telecom tower doesn’t bring down a critical service?\n\nThis article walks you through the entire journey—from zero‑to‑hero fundamentals to hands‑on implementation—of building resilient microservices at the network edge. Whether you are a software engineer, DevOps practitioner, or a solutions architect, you’ll find concrete patterns, tooling recommendations, code snippets, and a real‑world case study that together form a practical roadmap for edge‑native microservice development.",
+      "tags": [
+        "edge computing",
+        "microservices",
+        "resilience",
+        "deployment",
+        "devops"
+      ],
+      "scheduled_at": "2026-03-29T06:02:50Z",
       "status": "pending"
     }
   ]
