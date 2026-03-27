@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-27T19:02:50Z",
+  "last_scheduled_at": "2026-03-27T20:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -8074,6 +8074,20 @@
         "scaling"
       ],
       "scheduled_at": "2026-03-27T19:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Scaling Personal LLMs: Optimizing Local Inference for the New Generation of AI‑Integrated Smartphones",
+      "url": "https://martinuke0.github.io/posts/2026-03-27-scaling-personal-llms-optimizing-local-inference-for-the-new-generation-of-aiintegrated-smartphones/",
+      "social_hook": "The smartphone has been the most ubiquitous computing platform for the past decade, but its role is evolving rapidly. With the arrival of AI‑integrated smartphones—devices that ship with dedicated Neural Processing Units (NPUs), on‑chip GPUs, and software stacks tuned for machine‑learning workloads—users now expect intelligent features to work offline, privately, and instantly.\n\nPersonal Large Language Models (LLMs) promise to bring conversational assistants, code completion, on‑device summarization, and personalized recommendation directly into the palm of every user’s hand. Yet the classic trade‑off between model size, latency, and power consumption remains a formidable engineering challenge. This article dives deep into the technical landscape of scaling personal LLMs on modern smartphones, covering hardware, software, model‑compression techniques, and a step‑by‑step practical example that you can replicate on today’s flagship devices.\n\nThe convergence of high‑performance NPUs, low‑latency GPU kernels, and energy‑efficient CPUs has made it feasible to run models that were once the exclusive domain of desktop GPUs. However, a raw 7 billion‑parameter transformer still requires hundreds of megabytes of memory and several tens of billions of FLOPs per inference step—far beyond the capacity of a mobile SoC without aggressive optimization.",
+      "tags": [
+        "LLM",
+        "mobile‑AI",
+        "edge‑computing",
+        "quantization",
+        "NPU"
+      ],
+      "scheduled_at": "2026-03-27T20:02:50Z",
       "status": "pending"
     }
   ]
