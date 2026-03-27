@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-28T07:02:50Z",
+  "last_scheduled_at": "2026-03-28T08:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -8242,6 +8242,20 @@
         "software design"
       ],
       "scheduled_at": "2026-03-28T07:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing High‑Throughput Inference Pipelines for Distributed Large Language Model Orchestration",
+      "url": "https://martinuke0.github.io/posts/2026-03-27-optimizing-highthroughput-inference-pipelines-for-distributed-large-language-model-orchestration/",
+      "social_hook": "Large language models (LLMs) have moved from research curiosities to production‑grade services powering chat‑bots, code assistants, and enterprise knowledge bases. When a model has billions of parameters, the raw compute cost is high; when a service expects thousands of requests per second, the throughput becomes a critical business metric.\n\nThis article dives deep into the engineering choices that enable high‑throughput inference for distributed LLM orchestration systems. We will explore the full stack—from network topology to GPU kernel scheduling—while providing concrete code snippets, real‑world anecdotes, and a checklist you can apply today.\n\n> Note: The techniques described assume you have access to modern GPU hardware (e.g., NVIDIA A100/H100) or comparable accelerator clusters. Many concepts also translate to CPU‑only or mixed‑hardware environments, albeit with different performance characteristics.",
+      "tags": [
+        "LLM",
+        "Inference",
+        "Distributed Systems",
+        "Performance Optimization",
+        "Orchestration"
+      ],
+      "scheduled_at": "2026-03-28T08:02:50Z",
       "status": "pending"
     }
   ]
