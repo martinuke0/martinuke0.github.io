@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-28T00:02:50Z",
+  "last_scheduled_at": "2026-03-28T01:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -8144,6 +8144,20 @@
         "Containers"
       ],
       "scheduled_at": "2026-03-28T00:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Terminal Multiplexers: A Deep Dive into tmux and screen",
+      "url": "https://martinuke0.github.io/posts/2026-03-27-mastering-terminal-multiplexers-a-deep-dive-into-tmux-and-screen/",
+      "social_hook": "If you spend any amount of time in a Unix‑like shell, you’ve probably heard the terms tmux and screen whispered in the corridors of DevOps, system administration, and software development. Both are terminal multiplexers: programs that let you run multiple terminal sessions within a single physical terminal, detach from them, and reattach later—often from a completely different machine.\n\nWhy does this matter? Because modern work is increasingly remote, distributed, and interrupted. You might be hopping on a VPN, switching between laptops, or getting pulled away for a meeting. Without a multiplexer, every time you lose your SSH connection you lose the state of every interactive program you were running (vim, top, a REPL, a long‑running build, etc.). With tmux or screen, those programs keep running in the background, and you can pick up exactly where you left off.\n\nThis article provides a comprehensive, in‑depth guide to tmux and screen. We’ll cover:",
+      "tags": [
+        "tmux",
+        "screen",
+        "terminal-multiplexers",
+        "productivity",
+        "linux"
+      ],
+      "scheduled_at": "2026-03-28T01:02:50Z",
       "status": "pending"
     }
   ]
