@@ -8032,7 +8032,7 @@
         "Optimization"
       ],
       "scheduled_at": "2026-03-27T16:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Benchmarking Distributed Stream Processing Architectures for Low‑Latency Financial Data Pipelines",
