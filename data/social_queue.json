@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-28T08:02:50Z",
+  "last_scheduled_at": "2026-03-28T09:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -8256,6 +8256,20 @@
         "Orchestration"
       ],
       "scheduled_at": "2026-03-28T08:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "WebGPU: The Next-Generation Web Graphics API",
+      "url": "https://martinuke0.github.io/posts/2026-03-27-webgpu-the-next-generation-web-graphics-api/",
+      "social_hook": "The web has evolved from static pages to rich, interactive experiences that rival native applications. Central to this evolution is the ability to harness the power of the graphics processing unit (GPU) directly from the browser. For more than a decade, WebGL has been the de‑facto standard for 3‑D graphics on the web. However, as developers demand more compute‑intensive workloads—real‑time ray tracing, machine‑learning inference, scientific visualization—the limitations of WebGL’s API surface become apparent.\n\nEnter WebGPU, a modern, low‑level graphics and compute API designed to expose the capabilities of contemporary GPUs while remaining safe for the web’s sandboxed environment. Backed by the W3C GPU for the Web Community Group and implemented in major browsers (Chrome, Edge, Firefox, Safari), WebGPU promises higher performance, better resource control, and a unified programming model that works across desktop, mobile, and even WebAssembly (Wasm) contexts.\n\nThis article provides an in‑depth look at WebGPU, from its conceptual underpinnings to hands‑on code examples. Whether you’re a seasoned graphics engineer, a game developer looking to port titles to the web, or a data‑scientist interested in GPU‑accelerated computation, you’ll find practical guidance and real‑world context throughout.",
+      "tags": [
+        "WebGPU",
+        "Graphics",
+        "Web Development",
+        "GPU Computing",
+        "Wasm"
+      ],
+      "scheduled_at": "2026-03-28T09:02:50Z",
       "status": "pending"
     }
   ]
