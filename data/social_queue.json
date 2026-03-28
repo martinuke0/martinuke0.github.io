@@ -8242,7 +8242,7 @@
         "software design"
       ],
       "scheduled_at": "2026-03-28T07:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Optimizing High‑Throughput Inference Pipelines for Distributed Large Language Model Orchestration",
