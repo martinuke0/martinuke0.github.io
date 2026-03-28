@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-29T23:02:50Z",
+  "last_scheduled_at": "2026-03-30T00:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -8803,6 +8803,20 @@
         "architecture"
       ],
       "scheduled_at": "2026-03-29T23:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Low‑Latency Financial Microservices with Rust and High‑Frequency Message Queues",
+      "url": "https://martinuke0.github.io/posts/2026-03-28-architecting-lowlatency-financial-microservices-with-rust-and-highfrequency-message-queues/",
+      "social_hook": "In the world of algorithmic trading, market‑making, and risk analytics, microseconds can be the difference between profit and loss. Modern financial institutions are migrating away from monolithic, latency‑heavy architectures toward microservice‑based designs that can be independently scaled, upgraded, and fault‑tolerated. However, the shift introduces new challenges: inter‑service communication overhead, serialization costs, and unpredictable garbage‑collection pauses.\n\nEnter Rust, a systems programming language that promises zero‑cost abstractions, memory safety without a garbage collector, and predictable performance. Coupled with high‑frequency message queues—such as NATS, Aeron, or specialized Kafka configurations—Rust becomes a compelling foundation for building low‑latency financial microservices.\n\nThis article walks through the architectural considerations, concrete implementation details, and operational best practices required to achieve sub‑millisecond latencies in a Rust‑based microservice ecosystem. By the end, you’ll have a working reference implementation, a set of benchmarking results, and a checklist for productionizing the stack.",
+      "tags": [
+        "Rust",
+        "Microservices",
+        "Low Latency",
+        "FinTech",
+        "Message Queues"
+      ],
+      "scheduled_at": "2026-03-30T00:02:50Z",
       "status": "pending"
     }
   ]
