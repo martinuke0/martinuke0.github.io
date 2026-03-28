@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-30T05:02:50Z",
+  "last_scheduled_at": "2026-03-30T06:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -8887,6 +8887,20 @@
         "context-injection"
       ],
       "scheduled_at": "2026-03-30T05:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Orchestrating Decentralized Agentic Swarms with Federated Learning and Lightweight Edge Models",
+      "url": "https://martinuke0.github.io/posts/2026-03-28-orchestrating-decentralized-agentic-swarms-with-federated-learning-and-lightweight-edge-models/",
+      "social_hook": "The rise of edge devices—smartphones, IoT sensors, drones, and micro‑robots—has opened a new frontier for artificial intelligence: decentralized, agentic swarms that can collectively solve problems without a central controller. While swarms have been studied for decades in robotics and biology, the modern AI toolkit adds two powerful ingredients:\n\n1. Federated Learning (FL) – a privacy‑preserving, communication‑efficient paradigm that lets many devices train a shared model while keeping raw data locally.\n\n2. Lightweight Edge Models – neural networks or probabilistic models that are small enough to run on constrained hardware (e.g., TinyML, quantized transformers).",
+      "tags": [
+        "federated-learning",
+        "edge-computing",
+        "agent-swarms",
+        "distributed-systems",
+        "AI"
+      ],
+      "scheduled_at": "2026-03-30T06:02:50Z",
       "status": "pending"
     }
   ]
