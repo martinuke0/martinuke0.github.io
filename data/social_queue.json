@@ -8284,7 +8284,7 @@
         "inference"
       ],
       "scheduled_at": "2026-03-28T10:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Deep Dive into Unix Domain Sockets: Theory, Code, and Real‑World Use",
