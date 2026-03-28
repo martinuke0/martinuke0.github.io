@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-30T03:02:50Z",
+  "last_scheduled_at": "2026-03-30T04:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -8859,6 +8859,20 @@
         "distributed-systems"
       ],
       "scheduled_at": "2026-03-30T03:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Beyond the Chatbot: Implementing Agentic Workflows with the New Open-Action Protocol 2.0",
+      "url": "https://martinuke0.github.io/posts/2026-03-28-beyond-the-chatbot-implementing-agentic-workflows-with-the-new-open-action-protocol-20/",
+      "social_hook": "The last few years have witnessed a dramatic shift from static, rule‑based bots to agentic systems—autonomous software entities that can reason, plan, and act on behalf of users. While the term “agent” is often used loosely, a true agent exhibits three core capabilities:\n\n2. Dynamic planning – it can break the goal into steps, adapt when conditions change, and recover from failures.\n\n3. Tool use – it can invoke external APIs, run code, or interact with other services to fulfill its plan.",
+      "tags": [
+        "AI agents",
+        "Open-Action Protocol",
+        "agentic workflows",
+        "LLM integration",
+        "automation"
+      ],
+      "scheduled_at": "2026-03-30T04:02:50Z",
       "status": "pending"
     }
   ]
