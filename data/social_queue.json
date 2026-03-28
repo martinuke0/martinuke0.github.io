@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-30T08:02:50Z",
+  "last_scheduled_at": "2026-03-30T09:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -8929,6 +8929,20 @@
         "Event-Driven Architecture"
       ],
       "scheduled_at": "2026-03-30T08:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Scaling Real-Time Video Synthesis: Optimizing Local Inference Engines for the Next Generation of AR Wearables",
+      "url": "https://martinuke0.github.io/posts/2026-03-28-scaling-real-time-video-synthesis-optimizing-local-inference-engines-for-the-next-generation-of-ar-wearables/",
+      "social_hook": "Augmented reality (AR) wearables are moving from niche prototypes to mass‑market products. The next wave of smart glasses, contact‑lens displays, and lightweight head‑mounted units promises to blend the physical world with photorealistic, computer‑generated content in real time. At the heart of this promise lies real‑time video synthesis: the ability to generate or transform video streams on‑device, frame by frame, with latency low enough to feel instantaneous.\n\nUnlike cloud‑based pipelines, on‑device inference must satisfy stringent constraints—sub‑30 ms end‑to‑end latency, sub‑500 mW power envelope, and a form factor that fits on a pair of spectacles. Scaling such workloads demands a holistic approach that spans hardware architecture, model design, software pipelines, and runtime scheduling.\n\nThis article provides an in‑depth guide to scaling real‑time video synthesis on AR wearables. We will explore the technical challenges, dissect modern inference engine architectures, walk through concrete optimization techniques (with code snippets), and present a realistic case study of Neural Radiance Fields (NeRF) running on a prototype AR glasses platform. By the end, you should have a practical roadmap for turning cutting‑edge generative models into wearable‑ready experiences.",
+      "tags": [
+        "AR",
+        "real-time video",
+        "inference optimization",
+        "edge AI",
+        "wearable computing"
+      ],
+      "scheduled_at": "2026-03-30T09:02:50Z",
       "status": "pending"
     }
   ]
