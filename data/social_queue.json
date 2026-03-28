@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-29T21:02:50Z",
+  "last_scheduled_at": "2026-03-29T22:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -8775,6 +8775,20 @@
         "ml-ops"
       ],
       "scheduled_at": "2026-03-29T21:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Distributed Inference Latency in Heterogeneous Multi-GPU Clusters for Large Language Models",
+      "url": "https://martinuke0.github.io/posts/2026-03-28-optimizing-distributed-inference-latency-in-heterogeneous-multi-gpu-clusters-for-large-language-models/",
+      "social_hook": "Large language models (LLMs) such as GPT‑4, LLaMA‑2, and Claude have moved from research curiosities to production‑grade services. Companies now expose these models through APIs that must deliver sub‑second response times while handling thousands of concurrent users. Achieving low inference latency is especially hard when the model does not fit on a single GPU and must be spread across a heterogeneous multi‑GPU cluster—a mix of different GPU generations, memory capacities, and interconnect topologies.\n\nThis article dives deep into the engineering techniques that shrink end‑to‑end latency in such environments. We will explore the theoretical underpinnings, practical system‑level tricks, and real‑world case studies. By the end, you should be able to design, implement, and tune a distributed inference pipeline that extracts every millisecond of performance from a heterogeneous GPU farm.\n\n- User Experience: In conversational AI, each extra 100 ms adds perceptible lag, leading to higher churn.",
+      "tags": [
+        "distributed systems",
+        "GPU computing",
+        "large language models",
+        "inference optimization",
+        "heterogeneous clusters"
+      ],
+      "scheduled_at": "2026-03-29T22:02:50Z",
       "status": "pending"
     }
   ]
