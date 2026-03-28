@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-29T11:02:50Z",
+  "last_scheduled_at": "2026-03-29T12:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -8635,6 +8635,20 @@
         "Machine Learning"
       ],
       "scheduled_at": "2026-03-29T11:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Beyond Vector Search: Long-Term Memory Architectures for Autonomous Agent Swarms",
+      "url": "https://martinuke0.github.io/posts/2026-03-28-beyond-vector-search-long-term-memory-architectures-for-autonomous-agent-swarms/",
+      "social_hook": "The past few years have witnessed an explosion of interest in autonomous agent swarms—collections of small, often inexpensive, robots or software agents that collaborate to solve tasks too complex for a single entity. From warehouse fulfillment fleets to planetary exploration rovers, the promise of swarm intelligence lies in its ability to scale and adapt through distributed decision‑making.\n\nA critical piece of this puzzle is memory. Early swarm implementations relied on stateless, reactive policies: agents sensed the environment, computed an action, and moved on. As tasks grew in complexity—requiring multi‑step planning, contextual awareness, and historical reasoning—this model proved insufficient. The community turned to vector search (e.g., embeddings stored in FAISS or Annoy) as a fast, similarity‑based retrieval mechanism for “what happened before.” While vector search excels at nearest‑neighbor queries, it lacks the structure, longevity, and interpretability needed for long‑term, multi‑agent cognition.\n\nThis article dives deep into memory architectures that go beyond pure vector search. We explore how to combine semantic embeddings, symbolic representations, hierarchical stores, and distributed consensus to give swarms a durable, queryable recollection of their collective experience. The goal is to equip engineers, researchers, and product teams with a practical blueprint for building long‑term memory (LTM) systems that can power truly autonomous swarms.",
+      "tags": [
+        "autonomous agents",
+        "swarm intelligence",
+        "long-term memory",
+        "vector search",
+        "distributed systems"
+      ],
+      "scheduled_at": "2026-03-29T12:02:50Z",
       "status": "pending"
     }
   ]
