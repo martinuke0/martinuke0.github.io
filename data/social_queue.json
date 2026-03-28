@@ -8158,7 +8158,7 @@
         "linux"
       ],
       "scheduled_at": "2026-03-28T01:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Mastering nohup: Running Unix Processes Without Hangups",
@@ -8172,7 +8172,7 @@
         "process-management"
       ],
       "scheduled_at": "2026-03-28T02:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Scaling Private Inference for Large Language Models with Trusted Execution Environments and Rust",
