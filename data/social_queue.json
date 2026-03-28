@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-30T01:02:50Z",
+  "last_scheduled_at": "2026-03-30T02:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -8831,6 +8831,20 @@
         "2026 Trends"
       ],
       "scheduled_at": "2026-03-30T01:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Vector Databases Zero to Hero: Scaling High‑Performance Neural Search for Production AI Apps",
+      "url": "https://martinuke0.github.io/posts/2026-03-28-vector-databases-zero-to-hero-scaling-highperformance-neural-search-for-production-ai-apps/",
+      "social_hook": "Neural (or semantic) search has moved from research labs to the core of every modern AI‑powered product. Whether you’re powering a recommendation engine, a document‑retrieval system, or a “find‑similar‑image” feature, the ability to query high‑dimensional vector representations at scale is now a non‑negotiable requirement.\n\nEnter vector databases—purpose‑built storage and indexing layers that turn billions of dense embeddings into millisecond‑level nearest‑neighbor lookups. This article takes you from zero (a fresh Python notebook) to hero (a production‑grade, auto‑scaled neural search service) by covering:\n\nBy the end, you’ll have a concrete, end‑to‑end blueprint you can adapt to any AI application that needs fast, accurate similarity search.",
+      "tags": [
+        "vector-database",
+        "neural-search",
+        "scalable-ml",
+        "AI‑in‑production",
+        "performance‑engineering"
+      ],
+      "scheduled_at": "2026-03-30T02:02:50Z",
       "status": "pending"
     }
   ]
