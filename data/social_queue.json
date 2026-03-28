@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-30T09:02:50Z",
+  "last_scheduled_at": "2026-03-30T10:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -8943,6 +8943,20 @@
         "wearable computing"
       ],
       "scheduled_at": "2026-03-30T09:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Distributed Inference Clusters for Low‑Latency Large Language Model Serving Architectures",
+      "url": "https://martinuke0.github.io/posts/2026-03-28-optimizing-distributed-inference-clusters-for-lowlatency-large-language-model-serving-architectures/",
+      "social_hook": "Large Language Models (LLMs) such as GPT‑4, LLaMA‑2, and Claude have become the backbone of modern AI‑driven products—from conversational agents and code assistants to real‑time analytics pipelines. While training these models is a massive engineering effort, delivering low‑latency inference to end‑users is often the harder problem to solve at scale. A single request may travel through a multi‑node cluster, hit a GPU with billions of parameters, and produce a response in a few hundred milliseconds. Any inefficiency—a network hop, a serialization step, or sub‑optimal scheduling—can push latency beyond acceptable thresholds, leading to poor user experience and wasted compute.\n\nThis article provides a comprehensive guide to designing, configuring, and operating distributed inference clusters that serve LLMs with sub‑second latency. We will:\n\n2. Survey the most effective architectural patterns (model‑parallel, pipeline‑parallel, sharding, and hybrid approaches).",
+      "tags": [
+        "distributed-systems",
+        "llm",
+        "inference",
+        "low-latency",
+        "architecture"
+      ],
+      "scheduled_at": "2026-03-30T10:02:50Z",
       "status": "pending"
     }
   ]
