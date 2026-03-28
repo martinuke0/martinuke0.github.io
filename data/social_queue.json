@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-29T18:02:50Z",
+  "last_scheduled_at": "2026-03-29T19:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -8733,6 +8733,20 @@
         "System Architecture"
       ],
       "scheduled_at": "2026-03-29T18:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building Autonomous Development Pipelines with Cursor and Advanced Batch Processing Workflows",
+      "url": "https://martinuke0.github.io/posts/2026-03-28-building-autonomous-development-pipelines-with-cursor-and-advanced-batch-processing-workflows/",
+      "social_hook": "The modern software development landscape demands speed, reliability, and repeatability. Teams that can ship changes multiple times a day while maintaining high quality gain a decisive competitive edge. Achieving this level of agility typically requires autonomous development pipelines—systems that can generate, test, and deploy code with minimal human intervention.\n\nEnter Cursor, an AI‑driven code assistant that can understand natural language, write production‑ready snippets, refactor existing code, and even suggest architectural improvements. When paired with advanced batch processing workflows (e.g., Apache Airflow, AWS Batch, or custom Python orchestrators), Cursor becomes a catalyst for building pipelines that not only compile and test code but also generate new code on the fly, adapt to changing requirements, and process large‑scale data transformations.\n\nThis article walks you through the end‑to‑end construction of such an autonomous pipeline:",
+      "tags": [
+        "DevOps",
+        "CI/CD",
+        "AI",
+        "Automation",
+        "BatchProcessing"
+      ],
+      "scheduled_at": "2026-03-29T19:02:50Z",
       "status": "pending"
     }
   ]
