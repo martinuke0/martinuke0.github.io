@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-29T14:02:50Z",
+  "last_scheduled_at": "2026-03-29T15:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -8677,6 +8677,20 @@
         "mlops"
       ],
       "scheduled_at": "2026-03-29T14:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Local Inference: Optimizing Small Language Models for Private Edge Computing and IoT Networks",
+      "url": "https://martinuke0.github.io/posts/2026-03-28-mastering-local-inference-optimizing-small-language-models-for-private-edge-computing-and-iot-networks/",
+      "social_hook": "The explosion of large language models (LLMs) has transformed natural‑language processing (NLP) across cloud services, but the same power is increasingly demanded at the edge: on‑device sensors, industrial controllers, autonomous drones, and privacy‑sensitive wearables. Running inference locally eliminates latency spikes, reduces bandwidth costs, and—most importantly—keeps user data under the owner’s control.\n\nThis article dives deep into the engineering discipline of local inference for small language models (often < 1 B parameters) on private edge computing and IoT networks. We’ll explore the trade‑offs, walk through concrete optimization pipelines, and finish with a checklist you can apply to any upcoming project.\n\n> Note: While the term “small” can be ambiguous, we define it here as models that comfortably fit into ≤ 2 GB of RAM after optimization, enabling deployment on devices ranging from Raspberry Pi 4 (8 GB) to micro‑controllers with just a few hundred megabytes of memory.",
+      "tags": [
+        "edge-computing",
+        "language-models",
+        "iot",
+        "model-optimization",
+        "privacy"
+      ],
+      "scheduled_at": "2026-03-29T15:02:50Z",
       "status": "pending"
     }
   ]
