@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-30T00:02:50Z",
+  "last_scheduled_at": "2026-03-30T01:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -8817,6 +8817,20 @@
         "Message Queues"
       ],
       "scheduled_at": "2026-03-30T00:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Scaling Small Language Models: Why On-Device Edge AI is Replacing Cloud-Only Dependency in 2026",
+      "url": "https://martinuke0.github.io/posts/2026-03-28-scaling-small-language-models-why-on-device-edge-ai-is-replacing-cloud-only-dependency-in-2026/",
+      "social_hook": "The AI landscape of 2026 is defined by a paradox: language models have grown more capable, yet the industry is simultaneously gravitating toward tiny, efficient models that run locally on billions of devices. What began as a cloud‑centric paradigm—where massive data centers hosted the latest generative models—has shifted dramatically toward on‑device edge AI. This transition is driven by a confluence of technical, economic, regulatory, and environmental forces.\n\n1. Trace the historical shift from cloud‑only inference to edge‑centric deployment.\n\n2. Explain the technical foundations that make small language models (SLMs) viable for on‑device use.",
+      "tags": [
+        "Edge AI",
+        "Small Language Models",
+        "On-Device Inference",
+        "AI Scaling",
+        "2026 Trends"
+      ],
+      "scheduled_at": "2026-03-30T01:02:50Z",
       "status": "pending"
     }
   ]
