@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-30T02:02:50Z",
+  "last_scheduled_at": "2026-03-30T03:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -8845,6 +8845,20 @@
         "performance‑engineering"
       ],
       "scheduled_at": "2026-03-30T02:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing High‑Throughput Stream Processing for Autonomous Agents in Distributed Serverless Edge Networks",
+      "url": "https://martinuke0.github.io/posts/2026-03-28-optimizing-highthroughput-stream-processing-for-autonomous-agents-in-distributed-serverless-edge-networks/",
+      "social_hook": "Autonomous agents—ranging from self‑driving cars and delivery drones to industrial robots—generate and consume massive streams of telemetry, sensor data, and control messages. To make real‑time decisions, these agents rely on high‑throughput stream processing pipelines that can ingest, transform, and act upon data within milliseconds.\n\nAt the same time, the rise of serverless edge platforms (e.g., Cloudflare Workers, AWS Lambda@Edge, Azure Functions on IoT Edge) reshapes how developers deploy compute close to the data source. Edge nodes provide low latency, geographic proximity, and elastic scaling, but they also impose constraints such as limited CPU time, cold‑start latency, and stateless execution models.\n\nThis article explores how to optimize high‑throughput stream processing for autonomous agents operating in distributed serverless edge networks. We will:",
+      "tags": [
+        "stream-processing",
+        "edge-computing",
+        "serverless",
+        "autonomous-agents",
+        "distributed-systems"
+      ],
+      "scheduled_at": "2026-03-30T03:02:50Z",
       "status": "pending"
     }
   ]
