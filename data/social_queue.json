@@ -8438,7 +8438,7 @@
         "Machine Learning"
       ],
       "scheduled_at": "2026-03-28T21:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Architecting Low‑Latency Stateful Streaming Pipelines for High‑Performance Distributed Machine Learning",
