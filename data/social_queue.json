@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-29T15:02:50Z",
+  "last_scheduled_at": "2026-03-29T16:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -8691,6 +8691,20 @@
         "privacy"
       ],
       "scheduled_at": "2026-03-29T15:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing Distributed Rate Limiting Algorithms for High Scale Microservices Architecture: A Technical Guide",
+      "url": "https://martinuke0.github.io/posts/2026-03-28-implementing-distributed-rate-limiting-algorithms-for-high-scale-microservices-architecture-a-technical-guide/",
+      "social_hook": "Modern applications are increasingly built as collections of loosely coupled microservices that communicate over HTTP/REST, gRPC, or message queues. While this architecture brings agility and scalability, it also introduces new operational challenges—one of the most pervasive being rate limiting. Rate limiting protects downstream services from overload, enforces fair usage policies, and helps maintain a predictable quality of service (QoS) for end‑users.\n\nIn a monolithic world, a single process can keep a simple in‑memory counter to enforce limits. In a distributed microservices landscape, the same logic must work across multiple instances, data centers, and sometimes even across cloud providers. This technical guide dives deep into the algorithms, design choices, and concrete implementations needed to build a robust, high‑performance distributed rate limiter that can sustain millions of requests per second.\n\n> Note: The examples below use Go, Java, and Node.js to illustrate language‑agnostic concepts; the same principles apply to any modern programming stack.",
+      "tags": [
+        "rate limiting",
+        "microservices",
+        "distributed systems",
+        "scalability",
+        "algorithms"
+      ],
+      "scheduled_at": "2026-03-29T16:02:50Z",
       "status": "pending"
     }
   ]
