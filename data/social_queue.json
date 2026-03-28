@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-30T06:02:50Z",
+  "last_scheduled_at": "2026-03-30T07:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -8901,6 +8901,20 @@
         "AI"
       ],
       "scheduled_at": "2026-03-30T06:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building Resilient Multi‑Agent Systems with Distributed LLM Orchestration and Event‑Driven Architecture",
+      "url": "https://martinuke0.github.io/posts/2026-03-28-building-resilient-multiagent-systems-with-distributed-llm-orchestration-and-eventdriven-architecture/",
+      "social_hook": "Large language models (LLMs) have moved from isolated “chat‑bot” prototypes to core components of real‑world software. When several LLM‑powered agents cooperate, they can solve problems that are too complex for a single model—think autonomous workflow automation, dynamic knowledge extraction, or coordinated decision‑making in logistics. However, scaling such multi‑agent systems introduces new challenges:\n\n Reliability** – agents must continue operating despite network partitions, model latency spikes, or hardware failures.\n\n Scalability** – workloads often fluctuate wildly; the architecture must elastically add or remove compute resources.",
+      "tags": [
+        "multi-agent-systems",
+        "LLM-orchestration",
+        "event-driven-architecture",
+        "distributed-systems",
+        "software‑design"
+      ],
+      "scheduled_at": "2026-03-30T07:02:50Z",
       "status": "pending"
     }
   ]
