@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-29T22:02:50Z",
+  "last_scheduled_at": "2026-03-29T23:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -8789,6 +8789,20 @@
         "heterogeneous clusters"
       ],
       "scheduled_at": "2026-03-29T22:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Low Latency Vector Databases for Real‑Time Generative AI Applications on Kubernetes",
+      "url": "https://martinuke0.github.io/posts/2026-03-28-architecting-low-latency-vector-databases-for-realtime-generative-ai-applications-on-kubernetes/",
+      "social_hook": "Generative AI models—large language models (LLMs), diffusion models, and multimodal transformers—have moved from research labs into production services that must answer queries in sub‑second latency. A critical enabler of this performance is the vector database (or similarity search engine) that stores embeddings and provides fast nearest‑neighbor (k‑NN) lookups. When a user asks a chat‑bot for a fact, the system typically:\n\n1. Encode the query into a high‑dimensional embedding (e.g., 768‑dim BERT vector).\n\n2. Search the embedding against a massive corpus (millions to billions of vectors) to retrieve the most relevant context.",
+      "tags": [
+        "vector databases",
+        "kubernetes",
+        "low latency",
+        "generative AI",
+        "architecture"
+      ],
+      "scheduled_at": "2026-03-29T23:02:50Z",
       "status": "pending"
     }
   ]
