@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-30T15:02:50Z",
+  "last_scheduled_at": "2026-03-30T16:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -9027,6 +9027,20 @@
         "production"
       ],
       "scheduled_at": "2026-03-30T15:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Scalable Microservices Architecture for High Performance Fintech Applications and Global Trading Platforms",
+      "url": "https://martinuke0.github.io/posts/2026-03-29-mastering-scalable-microservices-architecture-for-high-performance-fintech-applications-and-global-trading-platforms/",
+      "social_hook": "Financial technology (Fintech) and global trading platforms operate under the most demanding performance, reliability, and regulatory constraints in the software world. Millisecond‑level latency, billions of events per day, and strict compliance requirements make monolithic architectures untenable.\n\nMicroservices—small, independently deployable units that encapsulate business capabilities—have become the de‑facto architectural style for building high‑performance, scalable, and resilient fintech systems. However, simply breaking a monolith into services does not guarantee success. Architects must weave together a set of proven patterns, technology choices, and operational practices that collectively deliver sub‑millisecond order execution, fault isolation, and rapid feature delivery.\n\nThis article dives deep into the technical, operational, and governance aspects of mastering scalable microservices for fintech and global trading platforms. We will explore design principles, concrete implementation patterns, code snippets, and a real‑world case study that ties the concepts together.",
+      "tags": [
+        "microservices",
+        "fintech",
+        "high-performance",
+        "trading-platforms",
+        "architecture"
+      ],
+      "scheduled_at": "2026-03-30T16:02:50Z",
       "status": "pending"
     }
   ]
