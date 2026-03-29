@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-30T23:02:50Z",
+  "last_scheduled_at": "2026-03-31T00:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -9139,6 +9139,20 @@
         "mlops"
       ],
       "scheduled_at": "2026-03-30T23:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Event-Driven Microservices with Apache Kafka for High-Throughput Real-Time Data Processing",
+      "url": "https://martinuke0.github.io/posts/2026-03-29-mastering-event-driven-microservices-with-apache-kafka-for-high-throughput-real-time-data-processing/",
+      "social_hook": "In today’s digital economy, businesses must ingest, transform, and react to massive streams of data within milliseconds. Traditional request‑response architectures struggle to meet the latency and scalability requirements of use‑cases such as fraud detection, IoT telemetry, recommendation engines, and real‑time analytics.\n\nEvent‑driven microservices, powered by a robust messaging backbone, have become the de‑facto pattern for building high‑throughput, low‑latency systems. Among the many messaging platforms, Apache Kafka stands out for its durability, horizontal scalability, and rich ecosystem. This article provides a deep dive into designing, implementing, and operating event‑driven microservices with Kafka, focusing on:\n\n* Practical code examples (Java + Spring Boot) that illustrate producer, consumer, and stream processing.",
+      "tags": [
+        "microservices",
+        "kafka",
+        "event-driven",
+        "real-time",
+        "data-processing"
+      ],
+      "scheduled_at": "2026-03-31T00:02:50Z",
       "status": "pending"
     }
   ]
