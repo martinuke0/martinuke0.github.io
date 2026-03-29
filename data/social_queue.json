@@ -8747,7 +8747,7 @@
         "BatchProcessing"
       ],
       "scheduled_at": "2026-03-29T19:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Architecting Low‑Latency Event‑Driven Microservices with Serverless Stream Processing & Vector Databases",
