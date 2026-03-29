@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-30T13:02:50Z",
+  "last_scheduled_at": "2026-03-30T14:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -8999,6 +8999,20 @@
         "Event-Driven"
       ],
       "scheduled_at": "2026-03-30T13:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Navigating the Shift to Agentic RAG: Building Autonomous Knowledge Retrieval Systems with LangGraph 2.0",
+      "url": "https://martinuke0.github.io/posts/2026-03-29-navigating-the-shift-to-agentic-rag-building-autonomous-knowledge-retrieval-systems-with-langgraph-20/",
+      "social_hook": "Retrieval‑Augmented Generation (RAG) has become the de‑facto standard for building knowledge‑aware language‑model applications. By coupling a large language model (LLM) with an external knowledge store, developers can overcome the hallucination problem and answer domain‑specific questions with up‑to‑date facts.\n\nYet, the classic RAG pipeline—retrieve → concatenate → generate—is inherently static. It assumes a single retrieval step, a fixed prompt, and a one‑shot generation. Real‑world users, however, often need iterative exploration, clarification, and dynamic tool use. This is where Agentic RAG steps in: a paradigm that treats the RAG system itself as an autonomous agent capable of planning, self‑critiquing, and invoking tools (including additional retrieval passes) until a satisfactory answer emerges.\n\nLangGraph 2.0, the latest release from the LangChain ecosystem, provides a graph‑based orchestration layer that makes building such autonomous systems both declarative and testable. In this article we will:",
+      "tags": [
+        "RAG",
+        "LangGraph",
+        "LLM",
+        "AgenticAI",
+        "KnowledgeRetrieval"
+      ],
+      "scheduled_at": "2026-03-30T14:02:50Z",
       "status": "pending"
     }
   ]
