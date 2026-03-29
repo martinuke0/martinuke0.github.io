@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-30T16:02:50Z",
+  "last_scheduled_at": "2026-03-30T17:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -9041,6 +9041,20 @@
         "architecture"
       ],
       "scheduled_at": "2026-03-30T16:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Fault Tolerant State Management for Stateful Microservices in Real Time Edge Computing Systems",
+      "url": "https://martinuke0.github.io/posts/2026-03-29-optimizing-fault-tolerant-state-management-for-stateful-microservices-in-real-time-edge-computing-systems/",
+      "social_hook": "Edge computing is no longer a niche concept; it has become the backbone of latency‑critical applications such as autonomous vehicles, industrial IoT, augmented reality, and 5G‑enabled services. In these environments, stateful microservices—services that maintain mutable data across requests—are essential for tasks like sensor fusion, local decision‑making, and session management. However, the very characteristics that make edge attractive (geographic dispersion, intermittent connectivity, limited resources) also amplify the challenges of fault‑tolerant state management.\n\nThis article dives deep into the architectural, algorithmic, and operational techniques required to keep state consistent, durable, and quickly recoverable in real‑time edge systems. We will:\n\nWhether you are a software architect designing a new edge platform, a DevOps engineer tasked with high‑availability deployments, or a researcher looking for implementation guidance, this guide offers a comprehensive roadmap.",
+      "tags": [
+        "edge computing",
+        "stateful microservices",
+        "fault tolerance",
+        "distributed systems",
+        "real-time"
+      ],
+      "scheduled_at": "2026-03-30T17:02:50Z",
       "status": "pending"
     }
   ]
