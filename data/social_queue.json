@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-31T04:02:50Z",
+  "last_scheduled_at": "2026-03-31T05:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -9209,6 +9209,21 @@
         "AI privacy"
       ],
       "scheduled_at": "2026-03-31T04:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Proton Unleashed: Revolutionizing Linux Gaming and the Future of Cross-Platform Play",
+      "url": "https://martinuke0.github.io/posts/2026-03-29-proton-unleashed-revolutionizing-linux-gaming-and-the-future-of-cross-platform-play/",
+      "social_hook": "In the ever-evolving landscape of gaming, few tools have bridged the gap between platforms as dramatically as Proton. Developed by Valve Software, Proton transforms Linux—and by extension, devices like the Steam Deck—into viable powerhouses for running Windows-exclusive games. Far from a mere emulator, Proton is a sophisticated compatibility layer that leverages Wine, Vulkan translations, and a host of upstream libraries to deliver near-native performance. This isn't just about playing games; it's a testament to open-source innovation challenging proprietary ecosystems.[1][6]\n\nWhat began as an experimental fork has matured into a cornerstone of modern gaming, powering thousands of titles with minimal user intervention. In this comprehensive guide, we'll dive deep into Proton's architecture, practical implementation, performance optimization strategies, and its broader implications for software engineering and cross-platform development. Whether you're a Linux enthusiast, a Steam Deck owner, or a developer curious about compatibility layers, this post equips you with the knowledge to harness Proton's full potential.\n\nProton's story is rooted in the long-standing challenge of running Windows software on Linux. At its core, Proton is a customized fork of Wine (Wine Is Not an Emulator), which provides a compatibility layer translating Windows API calls to POSIX equivalents.[6] Valve took this foundation and supercharged it for gaming by integrating DXVK (DirectX to Vulkan translator), VKD3D (Direct3D 12 to Vulkan), and other components like custom media codecs and VR support, as glimpsed from its GitHub repository structure featuring submodules for dxvk, vkd3d-proton, and Vulkan headers.[1]",
+      "tags": [
+        "LinuxGaming",
+        "Proton",
+        "SteamPlay",
+        "Wine",
+        "Vulkan",
+        "SteamDeck"
+      ],
+      "scheduled_at": "2026-03-31T05:02:50Z",
       "status": "pending"
     }
   ]
