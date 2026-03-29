@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-31T00:02:50Z",
+  "last_scheduled_at": "2026-03-31T01:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -9153,6 +9153,20 @@
         "data-processing"
       ],
       "scheduled_at": "2026-03-31T00:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Revolutionizing Development: How Multi-Agent AI Teams Are Transforming Complex Software Projects",
+      "url": "https://martinuke0.github.io/posts/2026-03-29-revolutionizing-development-how-multi-agent-ai-teams-are-transforming-complex-software-projects/",
+      "social_hook": "title: \"Revolutionizing Development: How Multi-Agent AI Teams Are Transforming Complex Software Projects\"\n\ntags: [\"AI Agents\", \"Multi-Agent Systems\", \"Claude Code\", \"Software Engineering\", \"Collaborative AI\"]\n\nIn the evolving landscape of AI-assisted development, multi-agent teams represent a paradigm shift from solitary AI interactions to orchestrated collaborations that mirror human engineering squads. Inspired by recent advancements in tools like Claude Code's Agent Teams, this post explores how these systems enable multiple AI agents to work in parallel, communicate directly, and tackle intricate projects that overwhelm single models. We'll dive deep into their mechanics, real-world applications, comparisons to traditional approaches, and broader implications for software engineering, drawing connections to swarm intelligence, distributed systems, and agile methodologies.",
+      "tags": [
+        "AI Agents",
+        "Multi-Agent Systems",
+        "Claude Code",
+        "Software Engineering",
+        "Collaborative AI"
+      ],
+      "scheduled_at": "2026-03-31T01:02:50Z",
       "status": "pending"
     }
   ]
