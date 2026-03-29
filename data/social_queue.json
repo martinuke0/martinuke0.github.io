@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-31T03:02:50Z",
+  "last_scheduled_at": "2026-03-31T04:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -9195,6 +9195,20 @@
         "scalability"
       ],
       "scheduled_at": "2026-03-31T03:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Scaling Small Language Models: Why On-Device SLMs are Disrupting the Cloud AI Monopoly",
+      "url": "https://martinuke0.github.io/posts/2026-03-29-scaling-small-language-models-why-on-device-slms-are-disrupting-the-cloud-ai-monopoly/",
+      "social_hook": "The last decade has witnessed an unprecedented surge in large language models (LLMs) such as GPT‑4, Claude, and Gemini. Their massive parameter counts—often exceeding hundreds of billions—have given rise to a cloud‑centric AI ecosystem where compute‑intensive inference is outsourced to datacenters owned by a handful of tech giants. While this model has propelled rapid innovation, it also entrenches a monopoly: developers, enterprises, and even end‑users must rely on external APIs, pay per‑token fees, and expose potentially sensitive data to third‑party servers.\n\nEnter Small Language Models (SLMs)—compact, efficient, and increasingly capable neural networks that can run on consumer‑grade hardware. When these models are scaled and optimized for on‑device execution, they begin to erode the economic and technical advantages of the cloud‑only paradigm. This article explores why on‑device SLMs are emerging as a disruptive force, how they are engineered, and what this shift means for the future of AI.\n\n> Note: Throughout the article, “on‑device” refers to any compute substrate that resides on the user’s hardware—smartphones, laptops, edge servers, or IoT devices—without requiring a round‑trip to a remote cloud endpoint.",
+      "tags": [
+        "small language models",
+        "on-device AI",
+        "edge computing",
+        "model quantization",
+        "AI privacy"
+      ],
+      "scheduled_at": "2026-03-31T04:02:50Z",
       "status": "pending"
     }
   ]
