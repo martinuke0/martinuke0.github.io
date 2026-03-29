@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-30T11:02:50Z",
+  "last_scheduled_at": "2026-03-30T12:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -8971,6 +8971,20 @@
         "scalability"
       ],
       "scheduled_at": "2026-03-30T11:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Beyond the Edge: Orchestrating Autonomous Agent Swarms Across Distributed Local Hardware Networks",
+      "url": "https://martinuke0.github.io/posts/2026-03-29-beyond-the-edge-orchestrating-autonomous-agent-swarms-across-distributed-local-hardware-networks/",
+      "social_hook": "The last decade has witnessed a convergence of three once‑separate research domains: autonomous agents, swarm intelligence, and edge computing. Individually, each field has produced impressive breakthroughs—self‑driving cars, bee‑inspired algorithms, and micro‑data‑centers on the street corner. Together, they enable a new class of systems: large‑scale, distributed swarms of autonomous agents that operate over local hardware networks (e.g., clusters of Raspberry Pis, industrial IoT gateways, or on‑premise GPU rigs).\n\nThese swarms can tackle problems that are too spatially dispersed, too latency‑sensitive, or too data‑intensive for a single monolithic AI service. Think of a fleet of inspection drones scanning a solar farm, a swarm of ground robots sorting packages in a fulfillment center, or a coordinated set of edge servers collaboratively processing video streams for a smart city.\n\nOrchestrating such a swarm is far from trivial. It requires robust networking, dynamic resource allocation, fault‑tolerant consensus, and secure, privacy‑preserving communication. This article dives deep into the technical foundations, architectural choices, and practical tooling needed to build and operate autonomous agent swarms across distributed local hardware networks. By the end, you’ll have a concrete blueprint you can adapt to your own domain—whether it’s agriculture, manufacturing, or public safety.",
+      "tags": [
+        "autonomous agents",
+        "swarm intelligence",
+        "distributed systems",
+        "edge computing",
+        "orchestration"
+      ],
+      "scheduled_at": "2026-03-30T12:02:50Z",
       "status": "pending"
     }
   ]
