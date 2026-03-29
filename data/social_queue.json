@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-30T22:02:50Z",
+  "last_scheduled_at": "2026-03-30T23:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -9125,6 +9125,20 @@
         "scalability"
       ],
       "scheduled_at": "2026-03-30T22:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Distributed Inference Latency in Autonomous Multi‑Agent Systems for Enterprise Production Scale",
+      "url": "https://martinuke0.github.io/posts/2026-03-29-optimizing-distributed-inference-latency-in-autonomous-multiagent-systems-for-enterprise-production-scale/",
+      "social_hook": "Enterprises that rely on fleets of autonomous agents—whether they are warehouse robots, delivery drones, or autonomous vehicles—must make split‑second decisions based on complex perception models. In production, the inference latency of these models directly translates to operational efficiency, safety, and cost. While a single GPU can deliver sub‑10 ms latency for a well‑optimized model, scaling to hundreds or thousands of agents introduces a new set of challenges: network jitter, resource contention, heterogeneous hardware, and the need for continuous model updates.\n\nThis article provides an in‑depth, end‑to‑end guide for engineers and architects tasked with building low‑latency distributed inference pipelines for autonomous multi‑agent systems at enterprise scale. We will explore the underlying causes of latency, architectural patterns that mitigate them, concrete code examples, and real‑world case studies. By the end, you should have a clear roadmap for designing, implementing, and operating a latency‑optimized inference service that can serve thousands of agents reliably.\n\nDistributed inference refers to the execution of a machine‑learning model across multiple compute nodes rather than a single monolithic server. The distribution can happen at several granularity levels:",
+      "tags": [
+        "distributed-systems",
+        "inference-optimization",
+        "autonomous-agents",
+        "edge-computing",
+        "mlops"
+      ],
+      "scheduled_at": "2026-03-30T23:02:50Z",
       "status": "pending"
     }
   ]
