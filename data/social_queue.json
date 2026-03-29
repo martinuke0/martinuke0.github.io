@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-30T19:02:50Z",
+  "last_scheduled_at": "2026-03-30T20:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -9083,6 +9083,20 @@
         "retrieval"
       ],
       "scheduled_at": "2026-03-30T19:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Scaling Distributed Vector Databases for Low‑Latency Production Search Applications",
+      "url": "https://martinuke0.github.io/posts/2026-03-29-scaling-distributed-vector-databases-for-lowlatency-production-search-applications/",
+      "social_hook": "Vector search has moved from research labs to the heart of production systems that power everything from e‑commerce recommendation engines to conversational AI assistants. In a typical workflow, raw items—documents, images, audio clips—are transformed into high‑dimensional embeddings using deep neural networks. Those embeddings are then stored in a vector database where similarity queries (`k‑NN`, `range`, `threshold`) retrieve the most relevant items in a fraction of a second.\n\nThe latency budget for such queries is often measured in single‑digit milliseconds. Users will abandon a search experience if results take longer than ~100 ms, and many real‑time applications (e.g., ad‑tech, fraud detection) demand sub‑10 ms response times. At the same time, production workloads must handle billions of vectors, high QPS, and continuous ingestion of new data.\n\nThis article dives deep into the architectural choices, scaling techniques, and operational best practices required to build distributed vector databases that meet low‑latency SLAs at scale. We will explore the theory behind vector similarity, compare popular open‑source and managed solutions, walk through a concrete implementation with Milvus on Kubernetes, and finish with a checklist for monitoring, cost, and security.",
+      "tags": [
+        "vector databases",
+        "distributed systems",
+        "low latency",
+        "search",
+        "scalability"
+      ],
+      "scheduled_at": "2026-03-30T20:02:50Z",
       "status": "pending"
     }
   ]
