@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-31T06:02:50Z",
+  "last_scheduled_at": "2026-03-31T07:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -9238,6 +9238,20 @@
         "performance"
       ],
       "scheduled_at": "2026-03-31T06:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Local Inference: Optimizing Small Language Models for Private Edge Computing Infrastructure",
+      "url": "https://martinuke0.github.io/posts/2026-03-29-mastering-local-inference-optimizing-small-language-models-for-private-edge-computing-infrastructure/",
+      "social_hook": "Edge computing is no longer a futuristic buzz‑word; it is the backbone of many latency‑sensitive, privacy‑critical applications—from autonomous drones to on‑premise medical devices. While large language models (LLMs) such as GPT‑4 dominate the headlines, the majority of edge workloads cannot afford the bandwidth, power, or memory footprints required to call a remote API. Instead, they rely on small language models (often referred to as compact LLMs or tiny LLMs) that can run locally on constrained hardware.\n\nThis article walks you through the entire lifecycle of deploying a small LLM on a private edge infrastructure:\n\n3. Selecting an inference engine that maximizes throughput while minimizing memory.",
+      "tags": [
+        "edge-computing",
+        "local-inference",
+        "model-optimization",
+        "privacy",
+        "small-llms"
+      ],
+      "scheduled_at": "2026-03-31T07:02:50Z",
       "status": "pending"
     }
   ]
