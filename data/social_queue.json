@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-31T10:02:50Z",
+  "last_scheduled_at": "2026-03-31T11:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -9294,6 +9294,20 @@
         "AI Engineering"
       ],
       "scheduled_at": "2026-03-31T10:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "The Rise of Agentic AI: Engineering Lessons from Sam Altman and OpenAI",
+      "url": "https://martinuke0.github.io/posts/2026-03-29-the-rise-of-agentic-ai-engineering-lessons-from-sam-altman-and-openai/",
+      "social_hook": "In the last few years, the term agentic AI has moved from academic footnote to a central pillar of the industry’s roadmap. While “agentic” simply describes systems that can act autonomously toward a goal—selecting tools, planning, and iterating on their own—its practical realization has sparked a wave of new products, research directions, and engineering challenges. Few figures have shaped this shift as visibly as Sam Altman, CEO of OpenAI, whose public pronouncements, internal memos, and product launches have provided a de‑facto playbook for building and deploying agentic systems at scale.\n\nThis article offers a deep dive into the rise of agentic AI, focusing on the engineering lessons distilled from OpenAI’s journey. We will explore:\n\nBy the end of this piece, you should have a concrete mental model of how agentic AI works, why OpenAI’s approach matters, and how to apply these insights to your own projects.",
+      "tags": [
+        "AI",
+        "Agentic AI",
+        "OpenAI",
+        "Engineering",
+        "Sam Altman"
+      ],
+      "scheduled_at": "2026-03-31T11:02:50Z",
       "status": "pending"
     }
   ]
