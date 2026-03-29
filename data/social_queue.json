@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-30T18:02:50Z",
+  "last_scheduled_at": "2026-03-30T19:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -9069,6 +9069,20 @@
         "inference‑engine"
       ],
       "scheduled_at": "2026-03-30T18:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Scaling Multimodal Search with Hybrid Vector Indexing and Distributed Query Processing",
+      "url": "https://martinuke0.github.io/posts/2026-03-29-scaling-multimodal-search-with-hybrid-vector-indexing-and-distributed-query-processing/",
+      "social_hook": "The explosion of unstructured data—images, video, audio, text, and sensor streams—has forced modern search engines to move beyond traditional keyword matching. Multimodal search refers to the capability of retrieving relevant items across different media types using a single query that may itself be multimodal (e.g., an image plus a short text caption).\n\nAt the heart of this capability lies vector similarity search: every item is embedded into a high‑dimensional vector space where semantic similarity translates to geometric proximity. While single‑node approximate nearest neighbor (ANN) libraries such as Faiss, Annoy, or Milvus can handle millions of vectors, real‑world deployments often need to serve billions of vectors, guarantee low latency under heavy load, and support hybrid queries that combine vector similarity with traditional filters (date ranges, categories, user permissions, etc.).\n\nThis article dives deep into the architectural patterns that make large‑scale multimodal search possible:",
+      "tags": [
+        "multimodal search",
+        "vector indexing",
+        "distributed systems",
+        "ANN",
+        "retrieval"
+      ],
+      "scheduled_at": "2026-03-30T19:02:50Z",
       "status": "pending"
     }
   ]
