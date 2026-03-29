@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-30T21:02:50Z",
+  "last_scheduled_at": "2026-03-30T22:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -9111,6 +9111,20 @@
         "Machine Learning"
       ],
       "scheduled_at": "2026-03-30T21:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Scaling Verifiable Private Computation for Decentralized Autonomous Retrieval Augmented Generation Systems",
+      "url": "https://martinuke0.github.io/posts/2026-03-29-scaling-verifiable-private-computation-for-decentralized-autonomous-retrieval-augmented-generation-systems/",
+      "social_hook": "Retrieval‑Augmented Generation (RAG) has become the de‑facto pattern for building large‑language‑model (LLM) applications that need up‑to‑date or domain‑specific knowledge. By coupling a retriever (often a vector‑search engine) with a generator (the LLM), developers can answer queries that go far beyond the static training data of the model.\n\nAt the same time, the rise of Decentralized Autonomous Systems (DAS)—DAOs, blockchain‑backed marketplaces, and peer‑to‑peer compute networks—has opened the door to truly trust‑less, globally accessible services. Imagine a global knowledge‑bot that anyone can query, where the bot’s answers are verifiably correct, privacy‑preserving, and incentivized through on‑chain economics.\n\n1. Data privacy is preserved even when the retriever or generator runs on untrusted nodes.",
+      "tags": [
+        "privacy",
+        "zero-knowledge",
+        "decentralized",
+        "RAG",
+        "scalability"
+      ],
+      "scheduled_at": "2026-03-30T22:02:50Z",
       "status": "pending"
     }
   ]
