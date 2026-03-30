@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-01T23:02:50Z",
+  "last_scheduled_at": "2026-04-02T00:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -9817,6 +9817,20 @@
         "services"
       ],
       "scheduled_at": "2026-04-01T23:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Understanding Bearer Tokens: A Deep Dive into Authentication and Authorization",
+      "url": "https://martinuke0.github.io/posts/2026-03-30-understanding-bearer-tokens-a-deep-dive-into-authentication-and-authorization/",
+      "social_hook": "In the modern web, authentication and authorization are no longer confined to monolithic login pages. Distributed architectures, mobile clients, and third‑party integrations demand a stateless, interoperable way to prove “who you are” and “what you can do.” The bearer token—a compact string that can be presented to a server to gain access—has become the de‑facto standard for this purpose.\n\nThis article offers a comprehensive, in‑depth exploration of bearer tokens. We will dissect the concept, examine its role within OAuth 2.0, compare token formats, walk through generation and consumption in multiple programming languages, and discuss security, lifecycle management, real‑world implementations, and best practices. By the end, you should be able to design, implement, and troubleshoot bearer‑token based authentication systems with confidence.\n\nA bearer token is a credential that grants access to a protected resource simply by being presented. The term “bearer” indicates that any party who holds the token (the “bearer”) can use it, without needing additional proof of identity.",
+      "tags": [
+        "authentication",
+        "authorization",
+        "bearer token",
+        "OAuth 2.0",
+        "security"
+      ],
+      "scheduled_at": "2026-04-02T00:02:50Z",
       "status": "pending"
     }
   ]
