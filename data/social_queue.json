@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-02T00:02:50Z",
+  "last_scheduled_at": "2026-04-02T01:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -9831,6 +9831,20 @@
         "security"
       ],
       "scheduled_at": "2026-04-02T00:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Scalable Multi‑Agent Systems for Collaborative Autonomous Intelligence in Cloud‑Native Environments",
+      "url": "https://martinuke0.github.io/posts/2026-03-30-architecting-scalable-multiagent-systems-for-collaborative-autonomous-intelligence-in-cloudnative-environments/",
+      "social_hook": "The convergence of autonomous intelligence and cloud‑native engineering has opened a new frontier: large‑scale multi‑agent systems (MAS) that can reason, act, and collaborate in real time. From autonomous fleets of delivery drones to AI‑driven financial trading bots, modern applications demand elasticity, fault tolerance, and continuous learning—attributes that traditional monolithic AI pipelines simply cannot provide.\n\nThis article walks through the architectural decisions, design patterns, and operational practices required to build scalable, collaborative MAS that thrive in cloud‑native environments. We’ll explore:\n\n* How cloud‑native primitives (containers, Kubernetes, service meshes) enable elasticity and observability.",
+      "tags": [
+        "cloud‑native",
+        "multi‑agent‑systems",
+        "scalability",
+        "autonomous‑intelligence",
+        "kubernetes"
+      ],
+      "scheduled_at": "2026-04-02T01:02:50Z",
       "status": "pending"
     }
   ]
