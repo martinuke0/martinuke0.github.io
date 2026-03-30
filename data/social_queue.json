@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-31T14:02:50Z",
+  "last_scheduled_at": "2026-03-31T15:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -9350,6 +9350,20 @@
         "low latency"
       ],
       "scheduled_at": "2026-03-31T14:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Distributed Inference Orchestration for Fine‑Tuning Open‑Source Models Across Heterogeneous Edge Computing Clusters",
+      "url": "https://martinuke0.github.io/posts/2026-03-30-distributed-inference-orchestration-for-finetuning-opensource-models-across-heterogeneous-edge-computing-clusters/",
+      "social_hook": "The explosion of large language models (LLMs), vision transformers, and multimodal foundations has shifted the AI landscape from “train‑once, deploy‑everywhere” to a more nuanced reality: continuous fine‑tuning on data that lives at the edge. Edge devices—industrial IoT gateways, autonomous drones, smartphones, and even roadside units—generate massive, privacy‑sensitive streams of data that can improve model performance if incorporated back into the training loop. However, the edge is inherently heterogeneous: compute resources range from ARM‑based micro‑controllers to NVIDIA Jetson GPUs, network connectivity varies from 5G to intermittent Wi‑Fi, and power budgets differ dramatically.\n\nThis article dives deep into distributed inference orchestration for fine‑tuning open‑source models across such heterogeneous edge clusters. We will:\n\n2. Identify the technical challenges of distributed inference and training on heterogeneous hardware.",
+      "tags": [
+        "distributed-systems",
+        "edge-computing",
+        "model-fine-tuning",
+        "orchestration",
+        "open-source"
+      ],
+      "scheduled_at": "2026-03-31T15:02:50Z",
       "status": "pending"
     }
   ]
