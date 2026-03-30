@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-01T21:02:50Z",
+  "last_scheduled_at": "2026-04-01T22:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -9788,6 +9788,21 @@
         "Claude AI"
       ],
       "scheduled_at": "2026-04-01T21:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Demystifying Goedel-Code-Prover: Revolutionizing AI-Powered Code Verification with Hierarchical Proofs",
+      "url": "https://martinuke0.github.io/posts/2026-03-30-demystifying-goedel-code-prover-revolutionizing-ai-powered-code-verification-with-hierarchical-proofs/",
+      "social_hook": "Imagine you're building a bridge. You wouldn't just slap together steel beams and hope it holds; you'd calculate every load, stress-test every joint, and prove—mathematically—that it won't collapse under the worst conditions. Now, apply that to software. In critical systems like self-driving cars, medical devices, or financial algorithms, a single bug could cost lives or billions. Formal verification is the gold standard: using math to prove your code is correct, not just test it. But proving code right has been a nightmare—tedious, manual work even for experts.\n\nEnter Goedel-Code-Prover, a groundbreaking AI system from the paper \"Goedel-Code-Prover: Hierarchical Proof Search for Open State-of-the-Art Code Verification\" (arXiv:2603.19329). This 8-billion-parameter AI model automates proof generation in Lean 4, a powerful theorem-proving language, achieving a 62% success rate on tough benchmarks—2.6x better than top competitors, even those 84x larger.[1] It doesn't just guess proofs; it breaks them into bite-sized pieces, scores them smartly, and learns to get better through clever training.\n\nIn this post, we'll break it down for a general technical audience—think software engineers, AI enthusiasts, or CS students curious about reliable code. No PhD required. We'll use real-world analogies, walk through how it works step-by-step, explore examples, and discuss why this could transform software engineering. By the end, you'll grasp why Goedel-Code-Prover isn't just research hype—it's a step toward AI that proves software safe.",
+      "tags": [
+        "AI",
+        "FormalVerification",
+        "Lean4",
+        "TheoremProving",
+        "LargeLanguageModels",
+        "CodeProofs"
+      ],
+      "scheduled_at": "2026-04-01T22:02:50Z",
       "status": "pending"
     }
   ]
