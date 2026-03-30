@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-01T18:02:50Z",
+  "last_scheduled_at": "2026-04-01T19:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -9745,6 +9745,21 @@
         "Open Source"
       ],
       "scheduled_at": "2026-04-01T18:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Agent Armies in Your Toolbox: Revolutionizing Dev Workflows with Ubiquitous AI Droids",
+      "url": "https://martinuke0.github.io/posts/2026-03-30-agent-armies-in-your-toolbox-revolutionizing-dev-workflows-with-ubiquitous-ai-droids/",
+      "social_hook": "title: \"Agent Armies in Your Toolbox: Revolutionizing Dev Workflows with Ubiquitous AI Droids\"\n\ntags: [\"AI Agents\", \"Software Development\", \"DevOps\", \"Agentic AI\", \"Engineering Productivity\", \"Workflow Automation\"]\n\nImagine a world where your IDE, Slack channel, CI/CD pipeline, and project board all host squads of intelligent agents ready to tackle real engineering tasks—from refactoring sprawling codebases to triaging production incidents. This isn't science fiction; it's the emerging reality of agent-native software development, where AI \"droids\" embed seamlessly into every corner of your workflow without demanding you rewrite your habits or tools.[1][5]",
+      "tags": [
+        "AI Agents",
+        "Software Development",
+        "DevOps",
+        "Agentic AI",
+        "Engineering Productivity",
+        "Workflow Automation"
+      ],
+      "scheduled_at": "2026-04-01T19:02:50Z",
       "status": "pending"
     }
   ]
