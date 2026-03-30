@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-31T15:02:50Z",
+  "last_scheduled_at": "2026-03-31T16:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -9364,6 +9364,20 @@
         "open-source"
       ],
       "scheduled_at": "2026-03-31T15:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building Scalable Real-Time Data Pipelines for High-Frequency Financial Market Microstructure Analysis",
+      "url": "https://martinuke0.github.io/posts/2026-03-30-building-scalable-real-time-data-pipelines-for-high-frequency-financial-market-microstructure-analysis/",
+      "social_hook": "High‑frequency financial markets generate millions of events per second—quotes, trades, order cancellations, and latency‑sensitive metadata that together constitute the microstructure of a market. Researchers, quantitative traders, and risk managers need to observe, transform, and analyze this data in real time to detect fleeting arbitrage opportunities, monitor liquidity, and enforce regulatory compliance.\n\nBuilding a scalable, low‑latency data pipeline for such workloads is far from trivial. It requires a careful blend of networking, distributed systems engineering, and domain‑specific knowledge about market data formats (e.g., FIX, OUCH, ITCH). In this article we walk through the architectural principles, technology choices, and practical implementation steps required to construct a production‑grade pipeline capable of processing high‑frequency market microstructure data at scale.\n\n> Note: While the concepts apply universally, the examples focus on U.S. equity markets and the typical NASDAQ ITCH feed, but the patterns translate to FX, futures, and cryptocurrency exchanges.",
+      "tags": [
+        "financial data",
+        "real-time pipelines",
+        "high-frequency trading",
+        "microstructure",
+        "stream processing"
+      ],
+      "scheduled_at": "2026-03-31T16:02:50Z",
       "status": "pending"
     }
   ]
