@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-01T04:02:50Z",
+  "last_scheduled_at": "2026-04-01T05:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -9547,6 +9547,20 @@
         "Security"
       ],
       "scheduled_at": "2026-04-01T04:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Luigi: A Comprehensive Guide to Scalable Data Pipelines",
+      "url": "https://martinuke0.github.io/posts/2026-03-30-mastering-luigi-a-comprehensive-guide-to-scalable-data-pipelines/",
+      "social_hook": "In today’s data‑driven enterprises, the ability to reliably move, transform, and load data at scale is a competitive advantage. While many organizations start with ad‑hoc scripts, the moment those scripts need to be chained, retried, or run on a schedule, a dedicated workflow orchestration tool becomes essential. Luigi, an open‑source Python package originally created by Spotify, has emerged as a mature, battle‑tested solution for building complex, dependency‑aware pipelines.\n\nThis article is a deep dive into Luigi, aimed at data engineers, software developers, and technical managers who want to:\n\n4. Integrate Luigi with other ecosystem tools (Spark, Hadoop, Docker, cloud services).",
+      "tags": [
+        "luigi",
+        "data engineering",
+        "workflow orchestration",
+        "python",
+        "pipeline"
+      ],
+      "scheduled_at": "2026-04-01T05:02:50Z",
       "status": "pending"
     }
   ]
