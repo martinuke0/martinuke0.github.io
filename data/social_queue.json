@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-01T22:02:50Z",
+  "last_scheduled_at": "2026-04-01T23:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -9803,6 +9803,20 @@
         "CodeProofs"
       ],
       "scheduled_at": "2026-04-01T22:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Understanding Daemons: The Backbone of Modern Operating Systems",
+      "url": "https://martinuke0.github.io/posts/2026-03-30-understanding-daemons-the-backbone-of-modern-operating-systems/",
+      "social_hook": "When you start a computer, a flurry of processes springs to life. Some of these processes interact directly with the user—opening a terminal, rendering a graphical desktop, or launching an application. Others work silently in the background, waiting for events, handling network traffic, or performing routine maintenance. These background processes are called daemons (pronounced “dee‑mons”), and they are the invisible workhorses that keep modern operating systems reliable, responsive, and secure.\n\nIn this article we will explore the concept of daemons from every practical angle:\n\n Technical characteristics** – What makes a daemon different from an ordinary process.",
+      "tags": [
+        "daemon",
+        "linux",
+        "systemd",
+        "programming",
+        "services"
+      ],
+      "scheduled_at": "2026-04-01T23:02:50Z",
       "status": "pending"
     }
   ]
