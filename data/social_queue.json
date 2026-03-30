@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-31T12:02:50Z",
+  "last_scheduled_at": "2026-03-31T13:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -9322,6 +9322,20 @@
         "AI"
       ],
       "scheduled_at": "2026-03-31T12:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building Event-Driven Microservices with Apache Kafka and High‑Performance Reactive Stream Processing Architectures",
+      "url": "https://martinuke0.github.io/posts/2026-03-30-building-event-driven-microservices-with-apache-kafka-and-highperformance-reactive-stream-processing-architectures/",
+      "social_hook": "In the past decade, the combination of event‑driven microservices, Apache Kafka, and reactive stream processing has become a de‑facto blueprint for building resilient, scalable, and low‑latency systems. Companies ranging from fintech startups to global e‑commerce giants rely on this stack to:\n\nThis article walks you through the architectural principles, design patterns, and practical implementation details required to build such a system from the ground up. We’ll explore:\n\n1. Core concepts of event‑driven microservices and the role of Kafka as a distributed commit log.",
+      "tags": [
+        "microservices",
+        "kafka",
+        "reactive",
+        "stream-processing",
+        "architecture"
+      ],
+      "scheduled_at": "2026-03-31T13:02:50Z",
       "status": "pending"
     }
   ]
