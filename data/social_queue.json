@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-01T09:02:50Z",
+  "last_scheduled_at": "2026-04-01T10:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -9617,6 +9617,20 @@
         "security"
       ],
       "scheduled_at": "2026-04-01T09:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Deep Dive into Google Cloud Platform (GCP): Architecture, Services, and Real‑World Patterns",
+      "url": "https://martinuke0.github.io/posts/2026-03-30-deep-dive-into-google-cloud-platform-gcp-architecture-services-and-realworld-patterns/",
+      "social_hook": "Google Cloud Platform (GCP) has evolved from a collection of experimental services that powered Google’s own products into a mature, enterprise‑grade public cloud offering. Today, GCP competes head‑to‑head with AWS and Azure across virtually every workload—from simple static website hosting to massive, petabyte‑scale data analytics and AI‑driven applications.\n\nThis article is a comprehensive, in‑depth guide for anyone looking to understand GCP’s core concepts, navigate its sprawling catalogue of services, and apply the platform to real‑world problems. We’ll walk through:\n\n5. Networking, security, and operations – VPC, IAM, monitoring, and cost‑optimization.",
+      "tags": [
+        "GCP",
+        "Google Cloud",
+        "Cloud Computing",
+        "DevOps",
+        "Data Engineering"
+      ],
+      "scheduled_at": "2026-04-01T10:02:50Z",
       "status": "pending"
     }
   ]
