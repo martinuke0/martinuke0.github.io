@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-01T20:02:50Z",
+  "last_scheduled_at": "2026-04-01T21:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -9774,6 +9774,20 @@
         "design patterns"
       ],
       "scheduled_at": "2026-04-01T20:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building a Software Factory: Revolutionizing AI-Assisted Development with Structured Agent Workflows",
+      "url": "https://martinuke0.github.io/posts/2026-03-30-building-a-software-factory-revolutionizing-ai-assisted-development-with-structured-agent-workflows/",
+      "social_hook": "In the fast-evolving world of software development, AI tools like Claude are no longer just assistants—they're becoming full-fledged team members. Inspired by Y Combinator CEO Garry Tan's innovative approach, this post explores how structured \"agent workflows\" transform chaotic AI interactions into predictable, high-velocity software factories. By assigning specialized roles to AI agents—such as CEO, engineer, designer, and QA—you can ship production-ready code faster while maintaining rigorous quality standards.[1][2]\n\nThis isn't about random prompting or one-off chats. It's about creating reusable skills that enforce engineering discipline, drawing from real-world startup battle-tested processes. Whether you're a solo founder, leading a small team, or scaling an enterprise, these workflows bridge the gap between AI's raw power and human-led software craftsmanship. Let's dive deep into the philosophy, implementation, and future implications.\n\nTraditional AI coding workflows often feel like herding cats: paste a task into a chat, get a response, manually fix bugs, iterate endlessly. This ad-hoc approach leads to inconsistent results, security oversights, and wasted time.[5] Enter the \"software factory\" paradigm—a systematic pipeline where AI agents handle distinct phases of development, much like roles in a mature engineering org.",
+      "tags": [
+        "AI Coding",
+        "Agentic Workflows",
+        "Software Engineering",
+        "Y Combinator",
+        "Claude AI"
+      ],
+      "scheduled_at": "2026-04-01T21:02:50Z",
       "status": "pending"
     }
   ]
