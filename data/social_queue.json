@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-31T23:02:50Z",
+  "last_scheduled_at": "2026-04-01T00:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -9477,6 +9477,20 @@
         "growth"
       ],
       "scheduled_at": "2026-03-31T23:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Designing Deterministic State Machines for Complex Agentic Behavior in Serverless Architectures",
+      "url": "https://martinuke0.github.io/posts/2026-03-30-designing-deterministic-state-machines-for-complex-agentic-behavior-in-serverless-architectures/",
+      "social_hook": "Serverless computing has reshaped the way developers think about scalability, cost, and operational overhead. By abstracting away servers, containers, and clusters, platforms such as AWS Lambda, Azure Functions, and Google Cloud Functions let you focus on business logic rather than infrastructure plumbing. Yet, as applications become more autonomous—think autonomous bots, intelligent workflow orchestrators, or self‑healing micro‑services—the need for predictable, reproducible, and testable behavior grows dramatically.\n\nEnter deterministic state machines. A deterministic state machine (DSM) guarantees that, given the same sequence of inputs, it will always transition through the exact same series of states and produce the same outputs. This property is a powerful antidote to the nondeterminism that creeps into distributed, event‑driven systems, especially when you combine them with agentic behavior—behaviors that appear purposeful, adaptive, and often self‑directed.\n\n1. Define deterministic state machines and why determinism matters in serverless environments.",
+      "tags": [
+        "serverless",
+        "state-machines",
+        "agentic-behavior",
+        "distributed-systems",
+        "cloud-architecture"
+      ],
+      "scheduled_at": "2026-04-01T00:02:50Z",
       "status": "pending"
     }
   ]
