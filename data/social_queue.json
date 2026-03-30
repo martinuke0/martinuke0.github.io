@@ -8901,7 +8901,7 @@
         "AI"
       ],
       "scheduled_at": "2026-03-30T06:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Building Resilient Multi‑Agent Systems with Distributed LLM Orchestration and Event‑Driven Architecture",
@@ -8929,7 +8929,7 @@
         "Event-Driven Architecture"
       ],
       "scheduled_at": "2026-03-30T08:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Scaling Real-Time Video Synthesis: Optimizing Local Inference Engines for the Next Generation of AR Wearables",
