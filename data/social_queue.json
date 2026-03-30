@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-01T05:02:50Z",
+  "last_scheduled_at": "2026-04-01T06:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -9561,6 +9561,20 @@
         "pipeline"
       ],
       "scheduled_at": "2026-04-01T05:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Sentry: A Deep Dive into Modern Error Monitoring and Observability",
+      "url": "https://martinuke0.github.io/posts/2026-03-30-mastering-sentry-a-deep-dive-into-modern-error-monitoring-and-observability/",
+      "social_hook": "In today’s fast‑paced, micro‑service‑driven world, the cost of a single uncaught exception can ripple across dozens of services, affect user experience, and jeopardize revenue. Traditional logging—while still valuable—doesn’t give teams the real‑time insight required to detect, triage, and resolve production incidents before they become crises.\n\nEnter Sentry, an open‑source, cloud‑native error‑tracking platform that has evolved into a full‑stack observability solution. From front‑end JavaScript crashes to backend Go panics, from performance bottlenecks to release health, Sentry aggregates, enriches, and surfaces telemetry in a way that turns raw stack traces into actionable intelligence.\n\nThis article provides an in‑depth, practical guide for engineers, team leads, and DevOps professionals who want to master Sentry—from the fundamentals to advanced configurations—complete with code snippets, architecture diagrams, and real‑world scenarios.",
+      "tags": [
+        "sentry",
+        "error-monitoring",
+        "observability",
+        "devops",
+        "software-engineering"
+      ],
+      "scheduled_at": "2026-04-01T06:02:50Z",
       "status": "pending"
     }
   ]
