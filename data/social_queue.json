@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-31T13:02:50Z",
+  "last_scheduled_at": "2026-03-31T14:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -9336,6 +9336,20 @@
         "architecture"
       ],
       "scheduled_at": "2026-03-31T13:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing Distributed Consistency Models for Low Latency Synchronization in Decentralized Edge AI Mesh Networks",
+      "url": "https://martinuke0.github.io/posts/2026-03-30-implementing-distributed-consistency-models-for-low-latency-synchronization-in-decentralized-edge-ai-mesh-networks/",
+      "social_hook": "The convergence of edge computing, artificial intelligence (AI), and mesh networking is reshaping how data‑intensive workloads are processed close to the source. Instead of funneling every sensor reading to a monolithic cloud, modern deployments push inference, training, and decision‑making down to a dense fabric of heterogeneous devices—cameras, drones, industrial controllers, and smartphones.\n\nWhile this decentralization brings dramatic reductions in bandwidth consumption and response time, it also introduces a classic distributed‑systems dilemma: how do we keep state consistent across a highly dynamic, bandwidth‑constrained, and failure‑prone mesh while still meeting stringent latency targets?\n\nThis article walks you through the theory and practice of implementing distributed consistency models tailored for low‑latency synchronization in decentralized edge AI mesh networks. We’ll:",
+      "tags": [
+        "edge computing",
+        "distributed systems",
+        "consistency models",
+        "AI mesh",
+        "low latency"
+      ],
+      "scheduled_at": "2026-03-31T14:02:50Z",
       "status": "pending"
     }
   ]
