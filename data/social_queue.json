@@ -9125,7 +9125,7 @@
         "scalability"
       ],
       "scheduled_at": "2026-03-30T22:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Optimizing Distributed Inference Latency in Autonomous Multi‑Agent Systems for Enterprise Production Scale",
