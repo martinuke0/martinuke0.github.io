@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-01T19:02:50Z",
+  "last_scheduled_at": "2026-04-01T20:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -9760,6 +9760,20 @@
         "Workflow Automation"
       ],
       "scheduled_at": "2026-04-01T19:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Understanding State Machines: Theory, Design, and Real‑World Applications",
+      "url": "https://martinuke0.github.io/posts/2026-03-30-understanding-state-machines-theory-design-and-realworld-applications/",
+      "social_hook": "State machines are one of the most fundamental concepts in computer science and engineering. Whether you are building a graphical user interface, a network protocol, an embedded controller, or a complex business workflow, you are almost certainly dealing with a system that can be described as a collection of states and transitions between those states.\n\n* Explain the theoretical foundations of state machines, from finite automata to modern extensions such as statecharts.\n\n* Walk through a systematic design process, showing how to move from problem description to a concrete model.",
+      "tags": [
+        "state machines",
+        "software architecture",
+        "finite automata",
+        "event-driven",
+        "design patterns"
+      ],
+      "scheduled_at": "2026-04-01T20:02:50Z",
       "status": "pending"
     }
   ]
