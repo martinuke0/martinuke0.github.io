@@ -9139,7 +9139,7 @@
         "mlops"
       ],
       "scheduled_at": "2026-03-30T23:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Mastering Event-Driven Microservices with Apache Kafka for High-Throughput Real-Time Data Processing",
