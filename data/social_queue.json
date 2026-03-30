@@ -8957,7 +8957,7 @@
         "architecture"
       ],
       "scheduled_at": "2026-03-30T10:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Building Scalable Microservices with Kubernetes and Node.js: A Comprehensive Zero‑to‑Production Guide",
