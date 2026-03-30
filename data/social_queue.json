@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-02T02:02:50Z",
+  "last_scheduled_at": "2026-04-02T03:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -9859,6 +9859,21 @@
         "social-networks"
       ],
       "scheduled_at": "2026-04-02T02:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Bluesky and the AT Protocol: Revolutionizing Decentralized Social Media",
+      "url": "https://martinuke0.github.io/posts/2026-03-30-bluesky-and-the-at-protocol-revolutionizing-decentralized-social-media/",
+      "social_hook": "In an era dominated by centralized social media giants, Bluesky emerges as a beacon of decentralization, powered by the innovative AT Protocol (Authenticated Transfer Protocol). This open standard enables user-controlled, interoperable social networks where individuals own their data, identities, and experiences, free from platform lock-in.[1][3]\n\nLaunched as a reference implementation by Bluesky Social, the AT Protocol addresses longstanding flaws in traditional social platforms—such as data silos, algorithmic opacity, and single points of failure—while improving upon earlier decentralized efforts like ActivityPub and Nostr.[3] By March 2026, with standardization efforts underway at the Internet Engineering Task Force (IETF), the protocol is maturing into a robust foundation for the \"Atmosphere,\" an ecosystem of interoperable apps and services.[3]\n\nThis comprehensive guide dives deep into the AT Protocol's architecture, features, real-world applications, and future potential. Whether you're a developer eyeing integration, a user frustrated with Big Tech, or a researcher studying federated systems, you'll find practical insights, technical breakdowns, and examples to grasp why Bluesky is poised to reshape social media.",
+      "tags": [
+        "Bluesky",
+        "AT Protocol",
+        "Decentralized Social Media",
+        "Federation",
+        "Web3",
+        "Digital Identity"
+      ],
+      "scheduled_at": "2026-04-02T03:02:50Z",
       "status": "pending"
     }
   ]
