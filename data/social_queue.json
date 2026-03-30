@@ -8817,7 +8817,7 @@
         "Message Queues"
       ],
       "scheduled_at": "2026-03-30T00:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Scaling Small Language Models: Why On-Device Edge AI is Replacing Cloud-Only Dependency in 2026",
@@ -8831,7 +8831,7 @@
         "2026 Trends"
       ],
       "scheduled_at": "2026-03-30T01:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Vector Databases Zero to Hero: Scaling High‑Performance Neural Search for Production AI Apps",
@@ -8845,7 +8845,7 @@
         "performance‑engineering"
       ],
       "scheduled_at": "2026-03-30T02:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Optimizing High‑Throughput Stream Processing for Autonomous Agents in Distributed Serverless Edge Networks",
@@ -8859,7 +8859,7 @@
         "distributed-systems"
       ],
       "scheduled_at": "2026-03-30T03:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Beyond the Chatbot: Implementing Agentic Workflows with the New Open-Action Protocol 2.0",
