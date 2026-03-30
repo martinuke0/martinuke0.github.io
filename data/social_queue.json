@@ -9055,7 +9055,7 @@
         "real-time"
       ],
       "scheduled_at": "2026-03-30T17:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Scaling Low‑Latency Inference via Distributed Orchestration and Dynamic Load‑Balancing Protocols",
@@ -9083,7 +9083,7 @@
         "retrieval"
       ],
       "scheduled_at": "2026-03-30T19:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Scaling Distributed Vector Databases for Low‑Latency Production Search Applications",
