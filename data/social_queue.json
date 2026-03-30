@@ -8915,7 +8915,7 @@
         "software‑design"
       ],
       "scheduled_at": "2026-03-30T07:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Architecting Scalable Real-time Data Pipelines with Apache Kafka and Python Event Handlers",
