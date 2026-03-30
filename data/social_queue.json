@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-02T03:02:50Z",
+  "last_scheduled_at": "2026-04-02T04:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -9874,6 +9874,20 @@
         "Digital Identity"
       ],
       "scheduled_at": "2026-04-02T03:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Decentralized Compute Grids: Orchestrating Low‑Latency Inference Across Heterogeneous Edge Devices",
+      "url": "https://martinuke0.github.io/posts/2026-03-30-decentralized-compute-grids-orchestrating-lowlatency-inference-across-heterogeneous-edge-devices/",
+      "social_hook": "Edge computing has moved from a niche research topic to a production‑grade reality. From autonomous drones to smart‑city cameras, billions of devices now generate data that must be processed in‑situ to meet stringent latency, privacy, and bandwidth constraints. Yet most deployments still rely on a single‑node model—each device runs its own inference workload or forwards raw data to a distant cloud. This approach wastes valuable compute resources, creates cold‑starts, and makes it difficult to scale sophisticated models that exceed the memory or power envelope of a single device.\n\nEnter decentralized compute grids: a network‑level abstraction that treats a heterogeneous collection of edge devices as a single, elastic compute pool. By orchestrating inference jobs across this pool, we can:\n\nIn this article we dive deep into the design, implementation, and operational aspects of such grids. We’ll explore the challenges posed by heterogeneity, discuss orchestration strategies ranging from gossip‑based consensus to blockchain‑backed trust, and walk through a practical, end‑to‑end example using open‑source tools.",
+      "tags": [
+        "decentralized computing",
+        "edge AI",
+        "low latency",
+        "compute grids",
+        "orchestration"
+      ],
+      "scheduled_at": "2026-04-02T04:02:50Z",
       "status": "pending"
     }
   ]
