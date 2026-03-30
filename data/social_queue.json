@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-31T22:02:50Z",
+  "last_scheduled_at": "2026-03-31T23:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -9463,6 +9463,20 @@
         "behavioral economics"
       ],
       "scheduled_at": "2026-03-31T22:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "A Deep Dive into Macroeconomics: Foundations, Policies, and Real‑World Applications",
+      "url": "https://martinuke0.github.io/posts/2026-03-30-a-deep-dive-into-macroeconomics-foundations-policies-and-realworld-applications/",
+      "social_hook": "Macroeconomics is the branch of economics that studies the behavior of an economy as a whole. Rather than focusing on individual consumers or firms, macroeconomists examine aggregate phenomena—gross domestic product (GDP), unemployment, inflation, fiscal and monetary policy, and long‑term economic growth. Understanding these concepts is essential for policymakers, business leaders, investors, and anyone who wants to grasp why a country’s standard of living rises or falls over time.\n\nThis article provides a comprehensive, in‑depth look at macroeconomics. We will explore the core variables, how they are measured, the forces that drive short‑run fluctuations, the policy tools available to governments and central banks, and the theories that explain long‑run growth. Real‑world examples—from the Great Recession of 2008 to the COVID‑19 pandemic—illustrate how macroeconomic ideas translate into concrete outcomes. By the end of the piece, you should have a solid conceptual toolkit for interpreting news headlines, evaluating policy proposals, and appreciating the interconnectedness of the global economy.\n\nMacroeconomics revolves around a handful of aggregate variables that capture the health of an economy. The most widely used are:",
+      "tags": [
+        "macroeconomics",
+        "economic policy",
+        "GDP",
+        "inflation",
+        "growth"
+      ],
+      "scheduled_at": "2026-03-31T23:02:50Z",
       "status": "pending"
     }
   ]
