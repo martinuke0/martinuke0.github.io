@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-01T13:02:50Z",
+  "last_scheduled_at": "2026-04-01T14:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -9673,6 +9673,20 @@
         "Analytics"
       ],
       "scheduled_at": "2026-04-01T13:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Eventual Consistency: Theory, Practice, and Real‑World Applications",
+      "url": "https://martinuke0.github.io/posts/2026-03-30-eventual-consistency-theory-practice-and-realworld-applications/",
+      "social_hook": "In the era of globally distributed applications—social networks, e‑commerce platforms, IoT back‑ends, and multiplayer games—systems must serve users from data centers spread across continents while still delivering low‑latency responses. Achieving high availability under these conditions is impossible without compromising on consistency in some way, a reality formalized by the CAP theorem.\n\nEventual consistency is the most widely adopted compromise. It promises that, if no new updates are made to a given data item, all replicas will eventually converge to the same value. This simple guarantee hides a rich set of design decisions, algorithms, and operational practices that enable massive scalability.\n\nThis article provides an in‑depth, end‑to‑end exploration of eventual consistency:",
+      "tags": [
+        "distributed systems",
+        "consistency models",
+        "eventual consistency",
+        "CAP theorem",
+        "CRDT"
+      ],
+      "scheduled_at": "2026-04-01T14:02:50Z",
       "status": "pending"
     }
   ]
