@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-02T05:02:50Z",
+  "last_scheduled_at": "2026-04-02T06:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -9903,6 +9903,20 @@
         "Model Behavior"
       ],
       "scheduled_at": "2026-04-02T05:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Distributed Vector Databases for Scalable Retrieval‑Augmented Generation in Production",
+      "url": "https://martinuke0.github.io/posts/2026-03-30-architecting-distributed-vector-databases-for-scalable-retrievalaugmented-generation-in-production/",
+      "social_hook": "Retrieval‑Augmented Generation (RAG) has moved from research prototypes to production‑grade services powering chat assistants, code completion tools, and domain‑specific knowledge portals. At the heart of every RAG pipeline lies a vector database—a system that stores high‑dimensional embeddings and retrieves the nearest neighbours (k‑NN) for a given query embedding.\n\nWhen the corpus grows to billions of vectors, a single node can no longer guarantee the latency, throughput, or reliability required by modern SLAs. Distributed vector databases become indispensable, but they bring a new set of design decisions: how to partition data, keep indexes in sync, serve queries with sub‑millisecond latency, and do all of this while preserving the deterministic nature of nearest‑neighbour search.\n\nThis article walks you through the end‑to‑end architecture of a distributed vector store built for scalable RAG in production. We’ll explore the theoretical underpinnings, discuss concrete design patterns, provide runnable code snippets, and finish with a real‑world case study. By the end, you should feel confident designing, deploying, and operating a vector‑search layer that can serve millions of RAG requests per day.",
+      "tags": [
+        "vector-database",
+        "retrieval-augmented-generation",
+        "scalable-architecture",
+        "distributed-systems",
+        "machine‑learning‑ops"
+      ],
+      "scheduled_at": "2026-04-02T06:02:50Z",
       "status": "pending"
     }
   ]
