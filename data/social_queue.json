@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-31T20:02:50Z",
+  "last_scheduled_at": "2026-03-31T21:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -9435,6 +9435,20 @@
         "software stack"
       ],
       "scheduled_at": "2026-03-31T20:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Scaling Private Financial Agents Using Verifiable Compute and Local Inference Architectures",
+      "url": "https://martinuke0.github.io/posts/2026-03-30-scaling-private-financial-agents-using-verifiable-compute-and-local-inference-architectures/",
+      "social_hook": "Financial institutions are increasingly turning to autonomous agents—software entities that can negotiate, advise, and execute transactions on behalf of users. These private financial agents promise hyper‑personalized services, real‑time risk assessment, and frictionless compliance. Yet the very qualities that make them attractive—access to sensitive personal data, complex decision logic, and regulatory scrutiny—also create formidable scaling challenges.\n\n1. Verifiable Compute – cryptographic techniques that let a remote party prove, in zero‑knowledge, that a computation was performed correctly without revealing the underlying data.\n\n2. Local Inference Architectures – edge‑centric AI stacks that keep model inference on the user’s device (or a trusted enclave), drastically reducing latency and data exposure.",
+      "tags": [
+        "AI",
+        "FinTech",
+        "Privacy",
+        "Verifiable Computing",
+        "Edge AI"
+      ],
+      "scheduled_at": "2026-03-31T21:02:50Z",
       "status": "pending"
     }
   ]
