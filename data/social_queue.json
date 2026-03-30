@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-01T08:02:50Z",
+  "last_scheduled_at": "2026-04-01T09:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -9603,6 +9603,20 @@
         "cPanel Alternatives"
       ],
       "scheduled_at": "2026-04-01T08:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Understanding Shared Hosting Environments: A Deep Dive",
+      "url": "https://martinuke0.github.io/posts/2026-03-30-understanding-shared-hosting-environments-a-deep-dive/",
+      "social_hook": "Shared hosting has been the entry point for millions of websites since the early days of the World Wide Web. It offers an affordable, low‑maintenance solution for individuals, small businesses, and hobbyists who need a reliable place to publish content without the overhead of managing a full server stack. Yet, despite its popularity, many developers and site owners treat shared hosting as a “black box” and miss out on optimizations, security best practices, and cost‑saving opportunities that are possible even within the constraints of a multi‑tenant environment.\n\nThis article provides a comprehensive, in‑depth exploration of shared hosting environments. We will dissect the underlying architecture, examine performance and security considerations, walk through practical configuration examples, compare major control panels, and outline a decision‑making framework for selecting the right provider. By the end, you’ll have a clear mental model of how shared hosting works and actionable knowledge you can apply to your own projects.\n\nShared hosting is a service model where multiple websites reside on a single physical server, sharing its CPU, RAM, storage, and network resources. The hosting provider abstracts the underlying hardware and operating system, delivering a pre‑configured environment that typically includes:",
+      "tags": [
+        "shared hosting",
+        "web hosting",
+        "server architecture",
+        "performance",
+        "security"
+      ],
+      "scheduled_at": "2026-04-01T09:02:50Z",
       "status": "pending"
     }
   ]
