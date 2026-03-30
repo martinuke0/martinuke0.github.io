@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-01T01:02:50Z",
+  "last_scheduled_at": "2026-04-01T02:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -9505,6 +9505,20 @@
         "reliability"
       ],
       "scheduled_at": "2026-04-01T01:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Apache Airflow DAGs: From Basics to Production‑Ready Pipelines",
+      "url": "https://martinuke0.github.io/posts/2026-03-30-mastering-apache-airflow-dags-from-basics-to-productionready-pipelines/",
+      "social_hook": "Apache Airflow has become the de‑facto standard for orchestrating complex data workflows. Its declarative, Python‑based approach lets engineers model pipelines as Directed Acyclic Graphs (DAGs) that are version‑controlled, testable, and reusable. Yet, despite its popularity, many teams still struggle with writing maintainable DAGs, scaling the platform, and integrating Airflow into modern CI/CD pipelines.\n\nThis article dives deep into Airflow DAGs—the core artifact that defines what, when, and how tasks run. We’ll explore everything from the low‑level API to production‑grade best practices, complete with runnable code snippets and a real‑world end‑to‑end example. By the end, you should be equipped to design, test, and operate robust Airflow pipelines that can survive the rigors of enterprise data engineering.\n\n> Note: The examples target Airflow 2.7+, which introduces the `@dag` and `@task` decorators, native task‑flow API, and improved type hints. Adjustments for older 1.x versions are highlighted where relevant.",
+      "tags": [
+        "apache-airflow",
+        "data-engineering",
+        "orchestration",
+        "python",
+        "devops"
+      ],
+      "scheduled_at": "2026-04-01T02:02:50Z",
       "status": "pending"
     }
   ]
