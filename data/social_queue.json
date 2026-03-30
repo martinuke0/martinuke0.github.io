@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-01T10:02:50Z",
+  "last_scheduled_at": "2026-04-01T11:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -9631,6 +9631,20 @@
         "Data Engineering"
       ],
       "scheduled_at": "2026-04-01T10:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Atman DC: Bridging Ancient Wisdom and Modern Urban Life",
+      "url": "https://martinuke0.github.io/posts/2026-03-30-atman-dc-bridging-ancient-wisdom-and-modern-urban-life/",
+      "social_hook": "Washington, D.C. is a city defined by power, politics, and perpetual motion. Yet beneath its marble façades and bustling streets lies a quieter, more introspective current—a yearning for balance, purpose, and inner peace. Atman DC has emerged as a pivotal response to that yearning, offering a sanctuary where the ancient Vedic concept of Atman (the true self) meets the modern demands of a capital‑city lifestyle.\n\n* How Atman DC was founded, its core mission, and the unique challenges of operating a wellness hub in the nation’s capital.\n\n* A detailed breakdown of its class offerings, instructor expertise, and community outreach.",
+      "tags": [
+        "Yoga",
+        "Mindfulness",
+        "Washington DC",
+        "Wellness",
+        "Community"
+      ],
+      "scheduled_at": "2026-04-01T11:02:50Z",
       "status": "pending"
     }
   ]
