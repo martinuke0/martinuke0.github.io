@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-31T21:02:50Z",
+  "last_scheduled_at": "2026-03-31T22:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -9449,6 +9449,20 @@
         "Edge AI"
       ],
       "scheduled_at": "2026-03-31T21:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Understanding Microeconomics: Principles, Models, and Real‑World Applications",
+      "url": "https://martinuke0.github.io/posts/2026-03-30-understanding-microeconomics-principles-models-and-realworld-applications/",
+      "social_hook": "Microeconomics is the branch of economics that studies how individuals, households, and firms make decisions about allocating scarce resources. While macroeconomics looks at the economy as a whole—GDP, inflation, unemployment—microeconomics zooms in on the building blocks that generate those aggregate outcomes. By understanding the incentives, constraints, and trade‑offs that shape everyday choices, we can explain everything from why a cup of coffee costs $3 to how a technology firm decides on its pricing strategy.\n\nThis article provides a comprehensive, in‑depth guide to microeconomics for students, professionals, and curious readers. We will:\n\n1. Review the foundational concepts (scarcity, opportunity cost, marginal analysis).",
+      "tags": [
+        "microeconomics",
+        "economics",
+        "supply and demand",
+        "market structures",
+        "behavioral economics"
+      ],
+      "scheduled_at": "2026-03-31T22:02:50Z",
       "status": "pending"
     }
   ]
