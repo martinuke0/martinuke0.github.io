@@ -8873,7 +8873,7 @@
         "automation"
       ],
       "scheduled_at": "2026-03-30T04:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Architecting Distributed Memory Systems for Real‑Time Context Injection in Autonomous Agent Networks",
