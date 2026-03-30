@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-01T12:02:50Z",
+  "last_scheduled_at": "2026-04-01T13:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -9659,6 +9659,20 @@
         "astrophysics"
       ],
       "scheduled_at": "2026-04-01T12:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Redash: An In‑Depth Guide to Open‑Source Data Visualization and Analytics",
+      "url": "https://martinuke0.github.io/posts/2026-03-30-mastering-redash-an-indepth-guide-to-opensource-data-visualization-and-analytics/",
+      "social_hook": "Data‑driven decision‑making is no longer a luxury; it’s a baseline expectation for modern organizations. While enterprise BI platforms such as Tableau, Power BI, or Looker dominate the market, many teams—especially startups, small‑to‑medium businesses, and data‑centric engineering groups—need a lightweight, cost‑effective, and highly flexible solution. This is where Redash shines.\n\nBorn out of the data‑engineering community at Everything as Code and later open‑sourced under the Apache 2.0 license, Redash provides a SQL‑first interface to a wide range of data sources, enabling analysts to write queries, visualize results, and share interactive dashboards with minimal friction.\n\nBy the end, you’ll have a full‑stack understanding of Redash and be ready to deploy it as the central analytics hub for your organization.",
+      "tags": [
+        "Redash",
+        "Data Visualization",
+        "BI",
+        "Open Source",
+        "Analytics"
+      ],
+      "scheduled_at": "2026-04-01T13:02:50Z",
       "status": "pending"
     }
   ]
