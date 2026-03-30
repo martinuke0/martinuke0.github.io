@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-01T15:02:50Z",
+  "last_scheduled_at": "2026-04-01T16:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -9701,6 +9701,21 @@
         "data-consistency"
       ],
       "scheduled_at": "2026-04-01T15:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "GUIDE: Revolutionizing GUI Agents by Learning from YouTube Tutorials – No Retraining Needed",
+      "url": "https://martinuke0.github.io/posts/2026-03-30-guide-revolutionizing-gui-agents-by-learning-from-youtube-tutorials-no-retraining-needed/",
+      "social_hook": "Imagine teaching a robot to use your favorite photo editing software like Photoshop, or guiding an AI to navigate a complex CRM tool in your company's sales dashboard. These are GUI agents – AI systems designed to interact with graphical user interfaces (GUIs) just like humans do, by clicking buttons, filling forms, and traversing menus. They're powered by massive vision-language models (VLMs) that \"see\" screenshots and \"understand\" instructions. But here's the catch: these agents are generalists. They excel at broad tasks but flop when faced with niche software they've never \"seen\" during training. This is domain bias, and it's a massive roadblock to deploying AI in real-world apps.\n\nEnter GUIDE (GUI Unbiasing via Instructional-Video Driven Expertise), a groundbreaking framework from a recent arXiv paper. GUIDE doesn't require retraining expensive models or manual data labeling. Instead, it smartly pulls knowledge from free web tutorial videos – think YouTube how-tos – and plugs it directly into any GUI agent. The result? Over 5% performance boosts and fewer steps to complete tasks, all without touching the agent's core code[1][2].\n\nIn this in-depth blog post, we'll break down the GUIDE paper for a general technical audience – developers, AI enthusiasts, and anyone curious about agentic AI. We'll use plain language, real-world analogies, and practical examples to make the concepts stick. By the end, you'll grasp why this \"plug-and-play\" innovation could supercharge AI automation across industries.",
+      "tags": [
+        "GUI Agents",
+        "AI Research",
+        "Domain Bias",
+        "Retrieval Augmented Generation",
+        "Vision Language Models",
+        "Autonomous AI"
+      ],
+      "scheduled_at": "2026-04-01T16:02:50Z",
       "status": "pending"
     }
   ]
