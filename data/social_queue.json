@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-01T11:02:50Z",
+  "last_scheduled_at": "2026-04-01T12:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -9645,6 +9645,20 @@
         "Community"
       ],
       "scheduled_at": "2026-04-01T11:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Nebulae: The Cosmic Clouds that Shape Our Universe",
+      "url": "https://martinuke0.github.io/posts/2026-03-30-nebulae-the-cosmic-clouds-that-shape-our-universe/",
+      "social_hook": "When we look up at the night sky, the stars often steal the show. Yet, hidden between those glittering points are vast, luminous clouds of gas and dust that play a crucial role in the life cycle of galaxies. These clouds—nebulae—are the birthplaces of stars, the graveyards of stellar explosions, and, in many cases, spectacular works of natural art.\n\nIn this article we will explore nebulae from every angle: their definition, classification, physical properties, formation mechanisms, observational techniques, and their broader significance in astrophysics. We’ll also walk through a practical code example to illustrate how modern astronomers model nebular emission using open‑source Python tools. By the end, you’ll have a deep, nuanced understanding of why nebulae matter—not just for scientists, but for anyone fascinated by the cosmos.\n\nThe word nebula derives from the Latin for “cloud.” In astronomy, a nebula is any diffuse astronomical object consisting primarily of hydrogen, helium, and trace amounts of heavier elements (collectively called “metals” in astrophysical parlance) intermingled with microscopic dust grains. Nebulae appear as faint glows, dark silhouettes, or intricate filaments, depending on their composition, illumination, and the wavelength at which they are observed.",
+      "tags": [
+        "astronomy",
+        "nebulae",
+        "star-formation",
+        "observational-techniques",
+        "astrophysics"
+      ],
+      "scheduled_at": "2026-04-01T12:02:50Z",
       "status": "pending"
     }
   ]
