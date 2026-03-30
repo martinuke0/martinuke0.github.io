@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-31T16:02:50Z",
+  "last_scheduled_at": "2026-03-31T17:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -9378,6 +9378,20 @@
         "stream processing"
       ],
       "scheduled_at": "2026-03-31T16:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Resilient Agentic Workflows with Temporal State Consistency and Distributed Stream Processing",
+      "url": "https://martinuke0.github.io/posts/2026-03-30-architecting-resilient-agentic-workflows-with-temporal-state-consistency-and-distributed-stream-processing/",
+      "social_hook": "The convergence of autonomous AI agents, temporal state management, and distributed stream processing is reshaping how modern enterprises build end‑to‑end pipelines. An agentic workflow—a series of coordinated, self‑directed AI components—must remain resilient, consistent, and scalable despite network partitions, hardware failures, or rapid data bursts.\n\nThis article walks through the architectural principles, design patterns, and concrete implementation techniques needed to construct such systems. We will:\n\n* Define the core concepts of agentic workflows, temporal state consistency, and distributed stream processing.",
+      "tags": [
+        "AI agents",
+        "distributed systems",
+        "stream processing",
+        "state consistency",
+        "workflow orchestration"
+      ],
+      "scheduled_at": "2026-03-31T17:02:50Z",
       "status": "pending"
     }
   ]
