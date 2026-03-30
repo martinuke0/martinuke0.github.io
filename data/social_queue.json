@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-01T07:02:50Z",
+  "last_scheduled_at": "2026-04-01T08:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -9589,6 +9589,20 @@
         "Control Panel"
       ],
       "scheduled_at": "2026-04-01T07:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Plesk: A Comprehensive Guide for Web Hosting Professionals",
+      "url": "https://martinuke0.github.io/posts/2026-03-30-mastering-plesk-a-comprehensive-guide-for-web-hosting-professionals/",
+      "social_hook": "Web hosting control panels have become indispensable for system administrators, developers, and agencies that need to deliver reliable, repeatable, and secure hosting services. Plesk stands out as one of the most mature, cross‑platform panels, supporting both Linux and Windows environments. Whether you’re running a small agency that manages a handful of client sites or a large ISP that provisions thousands of virtual private servers (VPS), understanding Plesk’s capabilities can dramatically reduce operational overhead and improve service quality.\n\nThis guide dives deep into every facet of Plesk—from its underlying architecture to hands‑on configuration, security hardening, performance optimization, and migration strategies. By the end, you’ll be equipped to:\n\nPlesk is a commercial web hosting control panel that provides a graphical user interface (GUI) and command‑line tools for managing:",
+      "tags": [
+        "Plesk",
+        "Web Hosting",
+        "Server Management",
+        "Linux",
+        "cPanel Alternatives"
+      ],
+      "scheduled_at": "2026-04-01T08:02:50Z",
       "status": "pending"
     }
   ]
