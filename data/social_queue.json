@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-03-31T19:02:50Z",
+  "last_scheduled_at": "2026-03-31T20:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -9421,6 +9421,20 @@
         "Zero-Shot Learning"
       ],
       "scheduled_at": "2026-03-31T19:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Local Inference: How SLMs are Redefining the Edge Computing Stack in 2026",
+      "url": "https://martinuke0.github.io/posts/2026-03-30-optimizing-local-inference-how-slms-are-redefining-the-edge-computing-stack-in-2026/",
+      "social_hook": "In 2026 the edge is no longer a peripheral afterthought in the artificial‑intelligence ecosystem—it is the primary execution venue for a growing class of Small Language Models (SLMs). These models, typically ranging from 10 M to 500 M parameters, are deliberately engineered to run on resource‑constrained devices such as micro‑controllers, smart cameras, industrial IoT gateways, and even consumer‑grade smartphones.\n\n1. Latency‑critical applications (real‑time video analytics, autonomous robotics, AR/VR) that cannot tolerate the round‑trip to the cloud.\n\n2. Data‑privacy regulations (e.g., GDPR‑II, California Consumer Privacy Act 2.0) that mandate processing personal data locally.",
+      "tags": [
+        "edge computing",
+        "small language models",
+        "model optimization",
+        "AI inference",
+        "software stack"
+      ],
+      "scheduled_at": "2026-03-31T20:02:50Z",
       "status": "pending"
     }
   ]
