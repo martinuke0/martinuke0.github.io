@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-02T01:02:50Z",
+  "last_scheduled_at": "2026-04-02T02:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -9845,6 +9845,20 @@
         "kubernetes"
       ],
       "scheduled_at": "2026-04-02T01:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Bluesky and the AT Protocol: Building a Decentralized Social Internet",
+      "url": "https://martinuke0.github.io/posts/2026-03-30-bluesky-and-the-at-protocol-building-a-decentralized-social-internet/",
+      "social_hook": "The landscape of social media has long been dominated by centralized platforms—companies that control the servers, algorithms, and user data that power our digital conversations. Twitter, Facebook, Instagram, and TikTok have created walled gardens where users are subject to the whims of corporate policies, algorithmic decisions, and terms of service that can change at any moment. In recent years, a growing movement has emerged to reimagine social networking as a decentralized, open ecosystem where users retain control over their data and identity.\n\nEnter Bluesky and the AT Protocol (Authenticated Transfer Protocol). Developed by Bluesky Social PBC, the AT Protocol represents a fundamentally different approach to building social networks—one inspired by the open web itself, but modernized for the era of real-time communication and cryptographic authentication.[1] Rather than relying on a single company to manage user data and mediate interactions, the AT Protocol creates a framework where multiple competing services can interoperate seamlessly, and users can move between them without losing their identity, social graph, or data.\n\nThis comprehensive guide explores how Bluesky and the AT Protocol work, why they represent a significant departure from traditional social media architecture, and what this means for the future of online social interaction.",
+      "tags": [
+        "bluesky",
+        "at-protocol",
+        "decentralized-social-media",
+        "web3",
+        "social-networks"
+      ],
+      "scheduled_at": "2026-04-02T02:02:50Z",
       "status": "pending"
     }
   ]
