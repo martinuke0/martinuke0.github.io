@@ -8999,7 +8999,7 @@
         "Event-Driven"
       ],
       "scheduled_at": "2026-03-30T13:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Navigating the Shift to Agentic RAG: Building Autonomous Knowledge Retrieval Systems with LangGraph 2.0",
