@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-01T00:02:50Z",
+  "last_scheduled_at": "2026-04-01T01:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -9491,6 +9491,20 @@
         "cloud-architecture"
       ],
       "scheduled_at": "2026-04-01T00:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Event-Driven Microservices Through Idempotent Processing and Reliable Message Delivery Orchestration",
+      "url": "https://martinuke0.github.io/posts/2026-03-30-optimizing-event-driven-microservices-through-idempotent-processing-and-reliable-message-delivery-orchestration/",
+      "social_hook": "Event‑driven microservices have become the de‑facto standard for building scalable, loosely‑coupled systems. By decoupling producers from consumers through asynchronous messages, teams can iterate independently, handle traffic spikes gracefully, and achieve high availability. However, this freedom comes with hidden complexity: messages can be delivered more than once, can arrive out of order, or may never reach their destination due to network partitions or broker failures.\n\nIf a service blindly processes every incoming event, duplicate processing can corrupt data, trigger unintended side‑effects (e.g., double‑charging a credit card), or cause cascading failures. Conversely, being overly conservative—dropping messages that appear duplicated—might lead to data loss and broken business invariants.\n\nThe answer lies in idempotent processing combined with reliable message delivery orchestration. In this article we will:",
+      "tags": [
+        "event-driven",
+        "microservices",
+        "idempotency",
+        "messaging",
+        "reliability"
+      ],
+      "scheduled_at": "2026-04-01T01:02:50Z",
       "status": "pending"
     }
   ]
