@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-02T06:02:50Z",
+  "last_scheduled_at": "2026-04-02T07:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -9917,6 +9917,20 @@
         "machine‑learning‑ops"
       ],
       "scheduled_at": "2026-04-02T06:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Scaling Multimodal RAG Pipelines for Low‑Latency Vision‑Language Models in Industrial IoT Networks",
+      "url": "https://martinuke0.github.io/posts/2026-03-30-scaling-multimodal-rag-pipelines-for-lowlatency-visionlanguage-models-in-industrial-iot-networks/",
+      "social_hook": "Industrial Internet of Things (IIoT) deployments are increasingly relying on vision‑language models (VLMs) to interpret visual data (camera feeds, thermal imagery, X‑ray scans) in the context of textual instructions, work orders, or safety manuals. When a VLM is combined with Retrieval‑Augmented Generation (RAG)—the practice of pulling external knowledge into a generative model—organizations can achieve:\n\nHowever, the latency budget in an industrial setting is often measured in tens of milliseconds. A delayed alert can mean a costly shutdown or a safety incident. Scaling a multimodal RAG pipeline to meet these strict latency constraints while handling thousands of concurrent edge devices presents a unique engineering challenge.\n\nThis article walks through the end‑to‑end design, implementation, and operationalization of low‑latency, scalable multimodal RAG pipelines for VLMs in IIoT networks. We’ll explore:",
+      "tags": [
+        "multimodal‑ai",
+        "rag",
+        "vision‑language",
+        "industrial‑iot",
+        "edge‑computing"
+      ],
+      "scheduled_at": "2026-04-02T07:02:50Z",
       "status": "pending"
     }
   ]
