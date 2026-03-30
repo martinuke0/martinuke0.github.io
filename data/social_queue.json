@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-02T08:02:50Z",
+  "last_scheduled_at": "2026-04-02T09:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -9945,6 +9945,20 @@
         "multi-agent systems"
       ],
       "scheduled_at": "2026-04-02T08:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Edge‑Native WebAssembly Modules for the 2026 Decentralized Cloud Infrastructure Refresh",
+      "url": "https://martinuke0.github.io/posts/2026-03-30-optimizing-edgenative-webassembly-modules-for-the-2026-decentralized-cloud-infrastructure-refresh/",
+      "social_hook": "The decentralized cloud is reaching a pivotal moment in 2026. A new generation of edge‑first providers—ranging from community‑run mesh networks to satellite‑backed compute layers—are converging on a common runtime: WebAssembly (Wasm). Its lightweight binary format, deterministic execution, and sandboxed security model make Wasm the lingua franca for workloads that must travel billions of kilometers, hop across heterogeneous nodes, and still deliver sub‑millisecond latency.\n\nYet, simply compiling a function to Wasm no longer guarantees the performance or reliability demanded by modern edge services. Developers must embrace a holistic optimization workflow that touches the compiler, the runtime, the networking stack, and the operational platform. This article walks through the technical landscape of the 2026 decentralized cloud, explains why edge‑native Wasm is the right choice, and provides concrete, production‑grade techniques for squeezing every last microsecond out of your modules.\n\n> Note: The patterns discussed are compatible with the leading runtimes of 2026—Wasmtime 1.0, Wasmer 5.0, and Wazero 0.15—as well as the emerging WASI 2.0 specifications.",
+      "tags": [
+        "WebAssembly",
+        "Edge Computing",
+        "Decentralized Cloud",
+        "Performance Optimization",
+        "2026"
+      ],
+      "scheduled_at": "2026-04-02T09:02:50Z",
       "status": "pending"
     }
   ]
