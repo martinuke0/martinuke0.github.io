@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-03T20:02:50Z",
+  "last_scheduled_at": "2026-04-03T21:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -10451,6 +10451,20 @@
         "Node.js"
       ],
       "scheduled_at": "2026-04-03T20:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Understanding Transient Failures: Detection, Mitigation, and Best Practices",
+      "url": "https://martinuke0.github.io/posts/2026-03-31-understanding-transient-failures-detection-mitigation-and-best-practices/",
+      "social_hook": "In modern cloud‑native and distributed applications, failure is not an exception—it's a rule. Services are composed of many moving parts: network links, load balancers, databases, caches, third‑party APIs, and even the underlying hardware. Among the many types of failures, transient failures are the most common and, paradoxically, the easiest to overlook. They appear as brief, often random hiccups that resolve themselves after a short period. Because they are short‑lived, developers sometimes treat them as “just noise,” yet failing to handle them properly can cascade into larger outages, degrade user experience, and inflate operational costs.\n\n Mitigation strategies** such as retries, exponential back‑off, jitter, circuit breakers, and idempotent design.\n\nBy the end of this article, you should be equipped to design resilient systems that gracefully survive transient glitches without compromising reliability.",
+      "tags": [
+        "distributed systems",
+        "reliability",
+        "cloud",
+        "retry patterns",
+        "observability"
+      ],
+      "scheduled_at": "2026-04-03T21:02:50Z",
       "status": "pending"
     }
   ]
