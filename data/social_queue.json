@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-04T04:02:50Z",
+  "last_scheduled_at": "2026-04-04T05:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -10563,6 +10563,20 @@
         "security"
       ],
       "scheduled_at": "2026-04-04T04:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Git Worktree Isolation: A Deep Dive",
+      "url": "https://martinuke0.github.io/posts/2026-03-31-mastering-git-worktree-isolation-a-deep-dive/",
+      "social_hook": "Git has become the de‑facto standard for source‑code version control, and with its rise comes a growing demand for flexible workflows. While most developers are comfortable with the classic clone‑and‑checkout model, larger teams, CI pipelines, and multi‑project monorepos often require something more sophisticated. Enter `git worktree`, a powerful command that lets you have multiple working directories attached to a single repository.\n\nBut a worktree is not just a convenience; it can be a source of subtle bugs if the directories interfere with each other. Worktree isolation—the practice of keeping each worktree completely independent from the rest—ensures that changes, builds, and tests in one environment never bleed into another. This article provides a comprehensive, in‑depth guide to mastering worktree isolation, from fundamentals to advanced techniques, bolstered by real‑world examples and best‑practice recommendations.\n\nA worktree is an additional checkout of a Git repository that shares the same underlying `.git` data store. In technical terms:",
+      "tags": [
+        "git",
+        "worktree",
+        "isolation",
+        "devops",
+        "version-control"
+      ],
+      "scheduled_at": "2026-04-04T05:02:50Z",
       "status": "pending"
     }
   ]
