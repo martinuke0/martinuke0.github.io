@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-02T15:02:50Z",
+  "last_scheduled_at": "2026-04-02T16:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -10043,6 +10043,20 @@
         "quantization"
       ],
       "scheduled_at": "2026-04-02T15:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Multi-Modal RAG Systems for Production-Grade Vision and Language Applications",
+      "url": "https://martinuke0.github.io/posts/2026-03-31-optimizing-multi-modal-rag-systems-for-production-grade-vision-and-language-applications/",
+      "social_hook": "Retrieval‑Augmented Generation (RAG) has reshaped how we think about large language models (LLMs). By coupling a generative model with an external knowledge store, RAG lets us answer questions that lie outside the static training data, keep factuality high, and dramatically reduce hallucination.\n\nWhen the knowledge source is visual—product photos, medical scans, design drawings—the problem becomes multi‑modal: the system must retrieve both textual and visual artifacts and fuse them into a coherent answer. Production‑grade vision‑and‑language applications (e.g., visual search assistants, automated report generation from satellite imagery, interactive design tools) demand:\n\nThis article walks through the end‑to‑end architecture, optimization tricks, and operational best practices for building a production‑ready multi‑modal RAG pipeline. We’ll cover the theory, dive into concrete code, and finish with a real‑world case study.",
+      "tags": [
+        "retrieval-augmented-generation",
+        "multimodal",
+        "vision-language",
+        "MLOps",
+        "production"
+      ],
+      "scheduled_at": "2026-04-02T16:02:50Z",
       "status": "pending"
     }
   ]
