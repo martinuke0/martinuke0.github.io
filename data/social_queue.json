@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-02T10:02:50Z",
+  "last_scheduled_at": "2026-04-02T11:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -9973,6 +9973,20 @@
         "LLM"
       ],
       "scheduled_at": "2026-04-02T10:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Quantizing Large Language Models for Efficient Edge Deployment",
+      "url": "https://martinuke0.github.io/posts/2026-03-31-quantizing-large-language-models-for-efficient-edge-deployment/",
+      "social_hook": "Large language models (LLMs) such as GPT‑4, LLaMA‑2, and Falcon have demonstrated remarkable capabilities across a wide range of natural‑language tasks. However, their impressive performance comes at the cost of massive memory footprints (tens to hundreds of gigabytes) and high compute demands. Deploying these models on constrained edge devices—smart cameras, IoT gateways, mobile phones, or even micro‑controllers—has traditionally been considered impossible.\n\nQuantization—reducing the numerical precision of model weights and activations—offers a practical pathway to shrink model size, accelerate inference, and lower power consumption, all while preserving most of the original accuracy. In this article we will explore why quantization matters for edge deployment, dive deep into the theory and practice of modern quantization methods, and walk through a complete, reproducible workflow that takes a pretrained LLM from the cloud to a Raspberry Pi 4 with sub‑2 GB RAM.\n\nWhether you are a data‑science engineer, a researcher interested in model compression, or a developer building AI‑powered edge products, this guide will provide the technical depth and practical tips you need to make quantized LLMs a reality.",
+      "tags": [
+        "quantization",
+        "large-language-models",
+        "edge-computing",
+        "model-optimization",
+        "deployment"
+      ],
+      "scheduled_at": "2026-04-02T11:02:50Z",
       "status": "pending"
     }
   ]
