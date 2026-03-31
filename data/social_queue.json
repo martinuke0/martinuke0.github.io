@@ -9252,7 +9252,7 @@
         "small-llms"
       ],
       "scheduled_at": "2026-03-31T07:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Implementing Resilient Multi‑Agent Orchestration Patterns for Distributed Autonomous System Workflows",
@@ -9280,7 +9280,7 @@
         "MachineLearning"
       ],
       "scheduled_at": "2026-03-31T09:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Retrieval‑Augmented Generation with Vector Databases for Private Local Large Language Models",
