@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-04T13:02:50Z",
+  "last_scheduled_at": "2026-04-04T14:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -10689,6 +10689,20 @@
         "devops"
       ],
       "scheduled_at": "2026-04-04T13:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Sovereign AI Clusters with Liquid Cooling and Optical Interconnect Systems",
+      "url": "https://martinuke0.github.io/posts/2026-03-31-optimizing-sovereign-ai-clusters-with-liquid-cooling-and-optical-interconnect-systems/",
+      "social_hook": "Artificial intelligence (AI) has moved from experimental labs to the backbone of national security, finance, and critical infrastructure. When a nation decides to host its own sovereign AI capabilities—systems that remain under full governmental control and are insulated from foreign supply‑chain risks—the underlying compute fabric must meet stringent performance, security, and reliability requirements.\n\n1. Thermal density – State‑of‑the‑art AI accelerators (e.g., GPUs, TPUs, custom ASICs) can dissipate 300 W–1 kW per device under heavy inference or training workloads. Traditional air cooling quickly reaches its limits in a dense rack.\n\n2. Inter‑node bandwidth and latency – Distributed training of models with billions of parameters relies on high‑speed, low‑latency communication. Copper‑based Ethernet or InfiniBand struggles to keep up beyond 400 Gb/s per link without incurring massive power penalties.",
+      "tags": [
+        "AI infrastructure",
+        "Liquid cooling",
+        "Optical interconnects",
+        "High‑performance computing",
+        "Sovereign computing"
+      ],
+      "scheduled_at": "2026-04-04T14:02:50Z",
       "status": "pending"
     }
   ]
