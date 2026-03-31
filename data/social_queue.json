@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-04T12:02:50Z",
+  "last_scheduled_at": "2026-04-04T13:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -10675,6 +10675,20 @@
         "research-methodology"
       ],
       "scheduled_at": "2026-04-04T12:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering the Circuit Breaker Pattern: Theory, Implementation, and Real‑World Practices",
+      "url": "https://martinuke0.github.io/posts/2026-03-31-mastering-the-circuit-breaker-pattern-theory-implementation-and-realworld-practices/",
+      "social_hook": "In modern distributed systems, services rarely operate in isolation. They depend on databases, third‑party APIs, message brokers, and other microservices. When any of those dependencies become slow, flaky, or outright unavailable, the ripple effect can cascade through the entire application, causing threads to pile up, thread‑pools to exhaust, and latency to skyrocket.\n\nThe circuit breaker pattern is a proven technique for protecting a system from such cascading failures. Inspired by electrical circuit breakers that interrupt power flow when current exceeds a safe threshold, the software version monitors the health of remote calls and opens the circuit when a predefined failure condition is met. While open, calls are short‑circuited, returning a fallback response (or an error) instantly, allowing the failing dependency time to recover and preserving the stability of the calling service.\n\n4. Hands‑on implementations in Java (Resilience4j), .NET (Polly), Go, and Python.",
+      "tags": [
+        "software architecture",
+        "resilience",
+        "microservices",
+        "design patterns",
+        "devops"
+      ],
+      "scheduled_at": "2026-04-04T13:02:50Z",
       "status": "pending"
     }
   ]
