@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-04T16:02:50Z",
+  "last_scheduled_at": "2026-04-04T17:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -10731,6 +10731,20 @@
         "Edge Computing"
       ],
       "scheduled_at": "2026-04-04T16:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Scaling the Mesh: Optimizing Hyper-Local Inference with the New WebGPU 2.0 Standard",
+      "url": "https://martinuke0.github.io/posts/2026-03-31-scaling-the-mesh-optimizing-hyper-local-inference-with-the-new-webgpu-20-standard/",
+      "social_hook": "The web is no longer a passive document delivery system; it has become a compute fabric capable of running sophisticated machine‑learning workloads directly in the browser. With the arrival of WebGPU 2.0, developers finally have a low‑level, cross‑platform API that exposes modern GPU features—such as multi‑queue scheduling, explicit memory barriers, and sub‑group operations—to JavaScript and WebAssembly.\n\nThis article explores how these new capabilities can be harnessed to scale hyper‑local inference across a mesh of devices (e.g., smartphones, laptops, embedded browsers) that cooperate in real time. We will:\n\n* Explain why hyper‑local inference (running AI models at the edge, on the device that generates data) is crucial for latency‑sensitive, privacy‑preserving applications.",
+      "tags": [
+        "WebGPU",
+        "EdgeAI",
+        "Mesh Computing",
+        "Performance Optimization",
+        "Browser Graphics"
+      ],
+      "scheduled_at": "2026-04-04T17:02:50Z",
       "status": "pending"
     }
   ]
