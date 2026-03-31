@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-04T01:02:50Z",
+  "last_scheduled_at": "2026-04-04T02:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -10521,6 +10521,20 @@
         "optimization"
       ],
       "scheduled_at": "2026-04-04T01:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building Trust in AI Code Assistants: A Deep Dive into Authentication, Authorization, and Sandbox Security",
+      "url": "https://martinuke0.github.io/posts/2026-03-31-building-trust-in-ai-code-assistants-a-deep-dive-into-authentication-authorization-and-sandbox-security/",
+      "social_hook": "The integration of artificial intelligence into development workflows represents one of the most significant shifts in software engineering since the adoption of cloud computing. AI code assistants have democratized access to sophisticated code analysis, automated debugging, and vulnerability detection capabilities. However, this power comes with substantial responsibility—particularly when AI systems are granted access to sensitive codebases, authentication credentials, and execution environments.\n\nThe challenge facing the industry today is deceptively simple: how do we enable AI systems to be genuinely helpful while maintaining ironclad security guarantees? This is not merely a technical question; it's a fundamental question about trust architecture in an era where the tools we use to build software are themselves intelligent agents capable of making autonomous decisions.\n\nThis article explores how modern AI code assistants like Claude Code implement sophisticated security frameworks to balance capability with safety. We'll examine the layered approach to authentication, the critical role of sandboxing, and the emerging threat landscape that includes AI-specific attack vectors that traditional security models were never designed to address.",
+      "tags": [
+        "AI security",
+        "authentication",
+        "code assistants",
+        "sandbox execution",
+        "DevSecOps"
+      ],
+      "scheduled_at": "2026-04-04T02:02:50Z",
       "status": "pending"
     }
   ]
