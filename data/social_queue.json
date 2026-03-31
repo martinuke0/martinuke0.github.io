@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-02T13:02:50Z",
+  "last_scheduled_at": "2026-04-02T14:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -10015,6 +10015,20 @@
         "ai-research"
       ],
       "scheduled_at": "2026-04-02T13:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Low‑Latency Vector Search for Real‑Time Retrieval‑Augmented Generation Workflows",
+      "url": "https://martinuke0.github.io/posts/2026-03-31-architecting-lowlatency-vector-search-for-realtime-retrievalaugmented-generation-workflows/",
+      "social_hook": "Retrieval‑Augmented Generation (RAG) has emerged as a powerful paradigm for building LLM‑driven applications that need up‑to‑date, factual, or domain‑specific knowledge. In a RAG pipeline, a vector search engine quickly retrieves the most relevant passages from a large corpus, and those passages are then fed into a generative model (e.g., GPT‑4, Llama‑2) to produce a grounded answer.\n\nWhen RAG is used in real‑time scenarios—chatbots, decision‑support tools, code assistants, or autonomous agents—latency becomes a first‑order constraint. Users expect sub‑second responses, yet the pipeline must:\n\nEach step adds milliseconds, and the vector search component is often the bottleneck. This article walks through the architectural principles, technology choices, and practical patterns that enable low‑latency vector search for real‑time RAG workflows. We’ll cover:",
+      "tags": [
+        "vector-search",
+        "retrieval-augmented-generation",
+        "low-latency",
+        "system‑architecture",
+        "ml‑ops"
+      ],
+      "scheduled_at": "2026-04-02T14:02:50Z",
       "status": "pending"
     }
   ]
