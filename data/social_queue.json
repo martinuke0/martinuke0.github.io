@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-03T22:02:50Z",
+  "last_scheduled_at": "2026-04-03T23:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -10479,6 +10479,20 @@
         "Architecture"
       ],
       "scheduled_at": "2026-04-03T22:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Unlocking Multi-Agent Magic: In-Process Swarms in AI Coding Assistants",
+      "url": "https://martinuke0.github.io/posts/2026-03-31-unlocking-multi-agent-magic-in-process-swarms-in-ai-coding-assistants/",
+      "social_hook": "In the rapidly evolving world of AI-driven software development, single-agent systems are giving way to sophisticated multi-agent architectures that mimic human teams. Imagine a \"leader\" AI orchestrating a squad of specialized \"teammate\" agents, each tackling subtasks in parallel—without the overhead of spinning up separate processes. This is the power of in-process swarms, a technique pioneered in tools like Claude Code, where agents collaborate within the same runtime environment for lightning-fast coordination and resource efficiency.\n\nThis approach isn't just a clever hack; it's a paradigm shift drawing from distributed systems, actor models, and even biological swarms. In this deep dive, we'll explore how in-process teammates work, why they're revolutionizing agentic coding, and how you can leverage them in your projects. Whether you're building AI pipelines or debugging complex codebases, understanding these swarms will supercharge your toolkit.\n\nMulti-agent systems (MAS) have roots in computer science dating back to the 1980s, inspired by concepts like the actor model from Carl Hewitt, where independent actors communicate via asynchronous messages. Today, in AI coding assistants like Claude Code, MAS enable parallel task execution, fault tolerance, and emergent intelligence—much like ant colonies solving complex problems without a central queen dictating every move.",
+      "tags": [
+        "AI Agents",
+        "Multi-Agent Systems",
+        "Claude Code",
+        "Software Engineering",
+        "Agentic AI"
+      ],
+      "scheduled_at": "2026-04-03T23:02:50Z",
       "status": "pending"
     }
   ]
