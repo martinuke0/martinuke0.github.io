@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-04T15:02:50Z",
+  "last_scheduled_at": "2026-04-04T16:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -10717,6 +10717,20 @@
         "AI"
       ],
       "scheduled_at": "2026-04-04T15:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building and Deploying High-Performance Distributed Inference Engines Using WebAssembly and Rust Systems",
+      "url": "https://martinuke0.github.io/posts/2026-03-31-building-and-deploying-high-performance-distributed-inference-engines-using-webassembly-and-rust-systems/",
+      "social_hook": "Machine‑learning inference has moved from the confines of powerful data‑center GPUs to the far‑flung edges of the network—smart cameras, IoT gateways, and even browsers. This shift brings two competing demands:\n\n2. Portability & Security – The ability to run the same binary on vastly different hardware, while keeping the execution sandboxed from host resources.\n\nWebAssembly (Wasm) and the Rust programming language together address both demands. Wasm offers a lightweight, sandboxed binary format that runs everywhere a Wasm runtime exists (cloud VMs, edge platforms, browsers). Rust supplies zero‑cost abstractions, fearless concurrency, and a strong type system that makes it ideal for building the surrounding system services.",
+      "tags": [
+        "WebAssembly",
+        "Rust",
+        "Distributed Systems",
+        "Machine Learning",
+        "Edge Computing"
+      ],
+      "scheduled_at": "2026-04-04T16:02:50Z",
       "status": "pending"
     }
   ]
