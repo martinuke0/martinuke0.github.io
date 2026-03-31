@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-04T07:02:50Z",
+  "last_scheduled_at": "2026-04-04T08:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -10605,6 +10605,20 @@
         "CDN"
       ],
       "scheduled_at": "2026-04-04T07:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "The Rise of BugHuters: A Deep Dive into Modern Bug Hunting",
+      "url": "https://martinuke0.github.io/posts/2026-03-31-the-rise-of-bughuters-a-deep-dive-into-modern-bug-hunting/",
+      "social_hook": "In the last decade, the security landscape has undergone a seismic shift. Where once vulnerability discovery was the exclusive domain of large consulting firms and government agencies, today individual security researchers—often dubbed bug hunters or, more colloquially, BugHuters—play a pivotal role in safeguarding the internet. The term “BugHuter” captures a community that blends technical expertise, curiosity, and a disciplined approach to finding software flaws for the benefit of vendors and end‑users alike.\n\nThis article offers a comprehensive, in‑depth look at BugHuting: its origins, core methodologies, essential skill‑sets, the ecosystems that support it, legal considerations, and where the practice is headed. Whether you are a seasoned professional looking to sharpen your craft, a developer curious about the attacker’s mindset, or a manager seeking to build a robust vulnerability‑disclosure program, this guide will provide actionable insights and real‑world context.\n\nA BugHuter is an independent security researcher who systematically discovers, validates, and responsibly discloses software vulnerabilities—typically through structured bug bounty platforms or direct vendor programs. While “bug hunter” and “bug bounty hunter” are more common terms, “BugHuter” has emerged in several online communities as a playful, meme‑styled nickname that underscores the collaborative, community‑driven nature of modern vulnerability research.",
+      "tags": [
+        "bug bounty",
+        "security",
+        "ethical hacking",
+        "vulnerability research",
+        "career"
+      ],
+      "scheduled_at": "2026-04-04T08:02:50Z",
       "status": "pending"
     }
   ]
