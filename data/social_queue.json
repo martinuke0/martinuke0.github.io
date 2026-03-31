@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-04T00:02:50Z",
+  "last_scheduled_at": "2026-04-04T01:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -10507,6 +10507,20 @@
         "Advanced React"
       ],
       "scheduled_at": "2026-04-04T00:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Understanding Lazy Loading: Concepts, Implementations, and Best Practices",
+      "url": "https://martinuke0.github.io/posts/2026-03-31-understanding-lazy-loading-concepts-implementations-and-best-practices/",
+      "social_hook": "In today's digital landscape, users expect instant gratification. A page that loads in a split second feels fast, trustworthy, and professional, while a sluggish page drives visitors away and hurts conversion rates. One of the most effective techniques to shave milliseconds—sometimes seconds—off perceived load time is lazy loading.\n\nLazy loading (sometimes called deferred loading or on‑demand loading) postpones the retrieval of resources until they are actually needed. By doing so, you reduce the amount of data transferred during the initial page request, lower memory consumption, and give browsers (or native runtimes) more breathing room to render the most important content first.\n\nThis article dives deep into the why and how of lazy loading. We’ll explore its origins, the different flavors that exist across the web and mobile ecosystems, practical implementation patterns, performance implications, SEO considerations, and a checklist of best practices you can apply to any project today.",
+      "tags": [
+        "lazy loading",
+        "performance",
+        "web development",
+        "frontend",
+        "optimization"
+      ],
+      "scheduled_at": "2026-04-04T01:02:50Z",
       "status": "pending"
     }
   ]
