@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-03T16:02:50Z",
+  "last_scheduled_at": "2026-04-03T17:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -10395,6 +10395,20 @@
         "productivity"
       ],
       "scheduled_at": "2026-04-03T16:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Heartbeat Algorithms in Distributed Systems: Design, Implementation, and Real‑World Use Cases",
+      "url": "https://martinuke0.github.io/posts/2026-03-31-heartbeat-algorithms-in-distributed-systems-design-implementation-and-realworld-use-cases/",
+      "social_hook": "In any modern cloud‑native environment, a collection of machines must work together as a single logical entity. Whether it’s a microservice mesh, a distributed database, or a real‑time streaming platform, the health of each node directly influences the overall reliability of the system. Heartbeat algorithms—the mechanisms that periodically exchange “I’m alive” signals among components—are the silent workhorses that enable rapid failure detection, leader election, load balancing, and self‑healing.\n\n2. Classic and modern heartbeat designs (simple ping, gossip, hierarchical, ring, and hybrid approaches).\n\n3. Key design parameters: interval, timeout, detection latency, and false‑positive rates.",
+      "tags": [
+        "distributed-systems",
+        "failure-detection",
+        "heartbeat",
+        "consensus",
+        "monitoring"
+      ],
+      "scheduled_at": "2026-04-03T17:02:50Z",
       "status": "pending"
     }
   ]
