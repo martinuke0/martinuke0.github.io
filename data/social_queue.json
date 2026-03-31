@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-02T14:02:50Z",
+  "last_scheduled_at": "2026-04-02T15:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -10029,6 +10029,20 @@
         "ml‑ops"
       ],
       "scheduled_at": "2026-04-02T14:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Local Inference: A Guide to Running 100B Parameter Models on Consumer Hardware",
+      "url": "https://martinuke0.github.io/posts/2026-03-31-optimizing-local-inference-a-guide-to-running-100b-parameter-models-on-consumer-hardware/",
+      "social_hook": "Large language models (LLMs) have exploded in size over the past few years. While a 7‑B or 13‑B model can comfortably run on a modern desktop GPU, the next order of magnitude—100‑billion‑parameter (100B) models—has traditionally been the exclusive domain of data‑center clusters equipped with dozens of high‑end GPUs and terabytes of RAM.\n\nYet a growing community of hobbyists, researchers, and product engineers is insisting on bringing these behemoths onto consumer‑grade hardware: a single RTX 4090, an Apple M2 Max laptop, or even a mid‑range desktop CPU. The promise is compelling: local inference eliminates latency spikes, data‑privacy concerns, and recurring cloud costs. The challenge, however, is non‑trivial.\n\nThis guide walks you through the entire stack—hardware, model compression, runtime tricks, and practical code examples—so you can actually run a 100B‑parameter model on a consumer machine. By the end, you’ll understand:",
+      "tags": [
+        "machine learning",
+        "large language models",
+        "local inference",
+        "hardware optimization",
+        "quantization"
+      ],
+      "scheduled_at": "2026-04-02T15:02:50Z",
       "status": "pending"
     }
   ]
