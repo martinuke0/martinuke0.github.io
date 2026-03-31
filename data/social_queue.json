@@ -9477,7 +9477,7 @@
         "growth"
       ],
       "scheduled_at": "2026-03-31T23:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Designing Deterministic State Machines for Complex Agentic Behavior in Serverless Architectures",
