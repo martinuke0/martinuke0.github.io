@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-02T11:02:50Z",
+  "last_scheduled_at": "2026-04-02T12:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -9987,6 +9987,20 @@
         "deployment"
       ],
       "scheduled_at": "2026-04-02T11:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Decentralized Vector Databases for Low‑Latency Retrieval in Distributed Autonomous Agent Swarms",
+      "url": "https://martinuke0.github.io/posts/2026-03-31-optimizing-decentralized-vector-databases-for-lowlatency-retrieval-in-distributed-autonomous-agent-swarms/",
+      "social_hook": "The last decade has seen a surge in distributed autonomous agent swarms—from fleets of delivery drones to collaborative warehouse robots and swarms of self‑driving cars. These agents continuously generate high‑dimensional data (camera embeddings, lidar point‑cloud descriptors, audio fingerprints, etc.) that must be shared, indexed, and retrieved across the swarm in near‑real time.\n\nTraditional centralized vector search engines (FAISS, Milvus, Vespa) assume a powerful data center with abundant CPU/GPU resources and low network latency. In a swarm, however:\n\n Latency budgets are tight** – a few milliseconds can be the difference between a safe maneuver and a collision.",
+      "tags": [
+        "vector databases",
+        "decentralized systems",
+        "autonomous agents",
+        "low latency",
+        "edge computing"
+      ],
+      "scheduled_at": "2026-04-02T12:02:50Z",
       "status": "pending"
     }
   ]
