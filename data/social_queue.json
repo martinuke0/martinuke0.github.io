@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-03T21:02:50Z",
+  "last_scheduled_at": "2026-04-03T22:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -10465,6 +10465,20 @@
         "observability"
       ],
       "scheduled_at": "2026-04-03T21:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Swarm & In-Process Teammates: Building Scalable, Resilient Multi‑Agent Systems",
+      "url": "https://martinuke0.github.io/posts/2026-03-31-swarm-in-process-teammates-building-scalable-resilient-multiagent-systems/",
+      "social_hook": "Modern software systems are increasingly composed of multiple autonomous components that collaborate to achieve a common goal. Whether you are orchestrating containers in a cloud‑native environment, coordinating autonomous robots in a warehouse, or building a real‑time recommendation engine that leverages dozens of AI models, you are essentially dealing with teams of “teammates.”\n\nThis article dives deep into Swarm & In‑Process Teammates, explaining when and why you would combine them, how to design robust architectures, and what tooling and patterns make the integration painless. We’ll walk through concrete code examples (Python and Go), real‑world case studies, and a set of best‑practice recommendations you can apply today.\n\n> Note: While the term Swarm is often associated with Docker Swarm, the concepts discussed extend to any orchestrated cluster—Kubernetes, Nomad, or custom peer‑to‑peer networks. In‑Process teammates borrow heavily from the Actor Model and in‑process micro‑agents.",
+      "tags": [
+        "Swarm Computing",
+        "Microservices",
+        "In‑Process Agents",
+        "Distributed Systems",
+        "Architecture"
+      ],
+      "scheduled_at": "2026-04-03T22:02:50Z",
       "status": "pending"
     }
   ]
