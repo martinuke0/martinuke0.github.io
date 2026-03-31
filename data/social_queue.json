@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-03T23:02:50Z",
+  "last_scheduled_at": "2026-04-04T00:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -10493,6 +10493,20 @@
         "Agentic AI"
       ],
       "scheduled_at": "2026-04-03T23:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering React Hooks and Context Providers: Building Scalable Terminal UIs and Beyond",
+      "url": "https://martinuke0.github.io/posts/2026-03-31-mastering-react-hooks-and-context-providers-building-scalable-terminal-uis-and-beyond/",
+      "social_hook": "In modern React applications, especially those pushing the boundaries like terminal-based UIs for AI agents or complex multi-agent systems, React Hooks and Context Providers form the invisible architecture that keeps everything synchronized and responsive. These tools eliminate prop drilling, manage global state elegantly, and bridge low-level I/O with high-level business logic. This article dives deep into their practical application, drawing from real-world patterns in terminal UIs (like those in AI coding assistants) while connecting to broader React ecosystem best practices. We'll explore architectures, custom hooks for tools and permissions, integration challenges, and performance optimizations—equipped with code examples, pitfalls, and engineering insights.\n\nWhether you're building a CLI-driven React app with Ink, a dashboard for swarm agents, or scaling state in a full-stack IDE plugin, understanding these patterns unlocks maintainable, high-performance UIs. Let's break it down step by step.\n\nTraditional React apps relied on class components and Redux for state, but Hooks revolutionized this by colocating logic with UI. In terminal UIs—think REPL interfaces for AI tools like Claude Code—state flows from async services (e.g., query engines, bridges to remote planes) to rendered output. Here, Context Providers handle cross-cutting concerns like notifications or permissions, while custom Hooks wrap singletons like app stores or connection managers.",
+      "tags": [
+        "React Hooks",
+        "Context API",
+        "State Management",
+        "Terminal UI",
+        "Advanced React"
+      ],
+      "scheduled_at": "2026-04-04T00:02:50Z",
       "status": "pending"
     }
   ]
