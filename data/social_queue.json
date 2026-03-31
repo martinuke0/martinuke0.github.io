@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-03T19:02:50Z",
+  "last_scheduled_at": "2026-04-03T20:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -10437,6 +10437,20 @@
         "HTTP"
       ],
       "scheduled_at": "2026-04-03T19:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Hybrid Server‑Sent Events: Combining Real‑Time Push with Fallback Strategies",
+      "url": "https://martinuke0.github.io/posts/2026-03-31-hybrid-serversent-events-combining-realtime-push-with-fallback-strategies/",
+      "social_hook": "Real‑time communication is a cornerstone of modern web applications—from live dashboards and collaborative editors to multiplayer games and IoT telemetry. Over the past decade, developers have relied heavily on WebSockets for bidirectional, low‑latency messaging, while Server‑Sent Events (SSE) have emerged as a lightweight, HTTP‑based alternative for one‑way server‑to‑client streams.\n\nIn practice, no single solution satisfies every scenario. Hybrid SSE architectures deliberately combine SSE with complementary transports—most commonly WebSockets or long‑polling—to achieve:\n\n1. Graceful degradation on networks or browsers that cannot maintain a WebSocket connection.",
+      "tags": [
+        "SSE",
+        "WebSockets",
+        "Real‑Time",
+        "Hybrid Architecture",
+        "Node.js"
+      ],
+      "scheduled_at": "2026-04-03T20:02:50Z",
       "status": "pending"
     }
   ]
