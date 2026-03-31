@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-03T06:02:50Z",
+  "last_scheduled_at": "2026-04-03T07:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -10254,6 +10254,21 @@
         "Asynchronous Programming"
       ],
       "scheduled_at": "2026-04-03T06:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Revolutionizing CLI Development: Harness React's Power in the Terminal with Ink",
+      "url": "https://martinuke0.github.io/posts/2026-03-31-revolutionizing-cli-development-harness-react/",
+      "social_hook": "Command-line interfaces (CLIs) have long been the domain of plain text, spartan prompts, and endless scrolling outputs. But what if you could build interactive, visually rich terminal apps using the same declarative components and state management that power modern web UIs? Enter Ink, a groundbreaking React renderer that transplants the component-based paradigm of React directly into the terminal environment. By leveraging Yoga's Flexbox layout engine, Ink enables developers to craft sophisticated, responsive CLIs that feel like native apps rather than archaic scripts.[1][7]\n\nThis isn't just a gimmick—it's a paradigm shift. As AI-driven tools like Claude Code, Gemini CLI, and Qwen Code increasingly adopt Ink for their terminal interfaces, it's clear that React's ecosystem is infiltrating even the most text-bound corners of software development.[5] In this comprehensive guide, we'll dive deep into Ink's architecture, build practical examples, explore real-world applications, and connect it to broader trends in engineering and DevOps. Whether you're a React veteran tired of chalky CLI outputs or a CLI enthusiast seeking richer interactions, Ink offers a fresh, powerful toolkit.\n\nCLIs have evolved dramatically since the days of `cat | grep | awk` pipelines. Modern tools like npm, docker, and kubectl parse flags, handle subcommands, and provide colored outputs, but interactivity remains limited to basic prompts. Enter libraries like Commander.js or oclif, which structure CLIs with routing and plugins—but their UIs are still fundamentally linear.[1][3]",
+      "tags": [
+        "React",
+        "CLI",
+        "Ink",
+        "Terminal UI",
+        "Node.js",
+        "Developer Tools"
+      ],
+      "scheduled_at": "2026-04-03T07:02:50Z",
       "status": "pending"
     }
   ]
