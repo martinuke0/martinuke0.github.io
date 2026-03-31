@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-02T20:02:50Z",
+  "last_scheduled_at": "2026-04-02T21:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -10113,6 +10113,20 @@
         "scalability"
       ],
       "scheduled_at": "2026-04-02T20:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Small Language Models for Local Edge Inference: The 2026 Developer’s Guide",
+      "url": "https://martinuke0.github.io/posts/2026-03-31-optimizing-small-language-models-for-local-edge-inference-the-2026-developers-guide/",
+      "social_hook": "Large language models (LLMs) have transformed the way we interact with software, but their sheer size and compute appetite still keep most of the heavy lifting in the cloud. In 2026, a new wave of small language models (SLMs)—often under 10 B parameters—makes it feasible to run sophisticated natural‑language capabilities locally on edge devices such as Raspberry Pi, Jetson Nano, or even micro‑controller‑class hardware.\n\nHowever, squeezing a language model into a few hundred megabytes of RAM, a limited CPU/GPU budget, and a power envelope measured in watts is non‑trivial. This guide walks you through the full lifecycle—from model selection and compression to runtime tuning, deployment, and monitoring—so you can deliver reliable, performant SLM inference on the edge.\n\n> Note: The techniques described here are applicable to any transformer‑based language model (e.g., LLaMA‑derived, Mistral, Gemma, or custom architectures). Adjust hyper‑parameters and toolchains to match your specific model family.",
+      "tags": [
+        "edge‑ai",
+        "large‑language‑model",
+        "model‑compression",
+        "onnx",
+        "devops"
+      ],
+      "scheduled_at": "2026-04-02T21:02:50Z",
       "status": "pending"
     }
   ]
