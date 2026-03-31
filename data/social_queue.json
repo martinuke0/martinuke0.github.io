@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-03T15:02:50Z",
+  "last_scheduled_at": "2026-04-03T16:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -10381,6 +10381,20 @@
         "embedded"
       ],
       "scheduled_at": "2026-04-03T15:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Remote Sessions: Protocols, Practices, and Real‑World Applications",
+      "url": "https://martinuke0.github.io/posts/2026-03-31-mastering-remote-sessions-protocols-practices-and-realworld-applications/",
+      "social_hook": "The ability to interact with a computer, server, or container as if you were physically present—while being miles away—has become a cornerstone of modern IT operations, software development, and remote work. Whether you’re a system administrator patching a Linux box, a developer debugging a cloud VM, or a teacher guiding students through a virtual lab, remote sessions bridge the gap between geography and productivity.\n\nThis article dives deep into the world of remote sessions: the protocols that power them, the platforms that expose them, the security guardrails you must enforce, and the practical steps to get them working reliably in real‑world environments. By the end, you’ll have a comprehensive mental model and a ready‑to‑use toolbox for building, securing, and optimizing remote access solutions.\n\nA remote session is an interactive communication channel that lets a client device control or view a remote system’s resources—CLI, GUI, or application‑level—over a network. Key characteristics include:",
+      "tags": [
+        "remote-access",
+        "IT-security",
+        "devops",
+        "cloud-computing",
+        "productivity"
+      ],
+      "scheduled_at": "2026-04-03T16:02:50Z",
       "status": "pending"
     }
   ]
