@@ -9266,7 +9266,7 @@
         "workflow automation"
       ],
       "scheduled_at": "2026-03-31T08:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Optimizing Local Inference: A Guide to the New WebGPU‑Accelerated Llama 4 Quantization Standards",
