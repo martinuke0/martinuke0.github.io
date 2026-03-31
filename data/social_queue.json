@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-02T16:02:50Z",
+  "last_scheduled_at": "2026-04-02T17:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -10057,6 +10057,20 @@
         "production"
       ],
       "scheduled_at": "2026-04-02T16:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Decoding the Black Box: What Happens Inside Claude's Mind and Why It Matters for Tomorrow's AI",
+      "url": "https://martinuke0.github.io/posts/2026-03-31-decoding-the-black-box-what-happens-inside-claude/",
+      "social_hook": "Large language models like Anthropic's Claude have transformed from experimental tools into production powerhouses, powering everything from code generation to enterprise automation. But here's the intriguing part: these models often produce correct answers through methods that differ wildly from human logic. A simple math problem might be solved not by traditional carrying, but by parallel rough estimates and precise digit checks running simultaneously in the model's hidden layers. This revelation comes from Anthropic's groundbreaking interpretability research, which peers into the \"black box\" of neural networks to reveal how Claude actually thinks.\n\nIn this post, we'll dive deep into Anthropic's microscope-like tools for AI introspection, unpack surprising computational strategies, and explore broader implications for software engineering, safety, and agentic systems. Drawing from 2025-2026 research papers and trends, we'll connect these insights to real-world applications—like multi-agent coding teams and enterprise deployments—making this essential reading for developers, AI engineers, and anyone curious about the future of intelligent systems.\n\nNeural networks in large language models (LLMs) process billions of parameters through layers of interconnected nodes, producing outputs that mimic human intelligence. Yet, understanding how they arrive at those outputs remains elusive. Traditional debugging—peering at individual neurons—fails because of polysemanticity: a single neuron might fire for unrelated concepts like \"basketball,\" \"oranges,\" and \"round objects,\" offering no clear insight.",
+      "tags": [
+        "AI Interpretability",
+        "Claude AI",
+        "LLM Mechanics",
+        "Anthropic Research",
+        "Agentic AI"
+      ],
+      "scheduled_at": "2026-04-02T17:02:50Z",
       "status": "pending"
     }
   ]
