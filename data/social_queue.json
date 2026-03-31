@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-03T12:02:50Z",
+  "last_scheduled_at": "2026-04-03T13:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -10339,6 +10339,20 @@
         "data analytics"
       ],
       "scheduled_at": "2026-04-03T12:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Resumption Logic: Patterns, Languages, and Real‑World Applications",
+      "url": "https://martinuke0.github.io/posts/2026-03-31-mastering-resumption-logic-patterns-languages-and-realworld-applications/",
+      "social_hook": "Resumption logic is the engine behind many of the asynchronous, reactive, and “pause‑and‑continue” features we take for granted in modern software. Whether you’re writing a server that must handle thousands of concurrent connections, building a UI wizard that guides a user through a multi‑step process, or orchestrating a data‑processing pipeline, you inevitably need a way to suspend execution at a well‑defined point, preserve the current state, and resume later—often on a completely different thread or even a different machine.\n\n* Trace its historical lineage from early continuation‑passing style to today’s coroutine‑centric languages.\n\n* Provide concrete, production‑ready code samples that you can copy‑paste into your own projects.",
+      "tags": [
+        "asynchronous programming",
+        "coroutines",
+        "state machines",
+        "continuations",
+        "software architecture"
+      ],
+      "scheduled_at": "2026-04-03T13:02:50Z",
       "status": "pending"
     }
   ]
