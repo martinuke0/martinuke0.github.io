@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-03T17:02:50Z",
+  "last_scheduled_at": "2026-04-03T18:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -10409,6 +10409,20 @@
         "monitoring"
       ],
       "scheduled_at": "2026-04-03T17:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Understanding REPL Bridge and the Transport Layer",
+      "url": "https://martinuke0.github.io/posts/2026-03-31-understanding-repl-bridge-and-the-transport-layer/",
+      "social_hook": "Interactive programming environments—commonly known as REPLs (Read‑Eval‑Print Loops)—have become a cornerstone of modern software development. From Python’s `>>>` prompt to JavaScript’s Node console, developers rely on REPLs for rapid prototyping, debugging, and teaching. As applications scale and move beyond the local machine, the need to bridge a REPL session across process, container, or network boundaries emerges. This bridge must reliably transport commands, results, and side‑effects while preserving the REPL semantics that users expect.\n\nIn this article we dive deep into the REPL bridge concept and the transport layer that underpins it. We will:\n\n2. Examine the transport‑layer options (TCP, UDP, WebSockets, gRPC, HTTP/2, etc.).",
+      "tags": [
+        "repl",
+        "bridge",
+        "transport",
+        "networking",
+        "software-architecture"
+      ],
+      "scheduled_at": "2026-04-03T18:02:50Z",
       "status": "pending"
     }
   ]
