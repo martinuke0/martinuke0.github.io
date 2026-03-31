@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-03T00:02:50Z",
+  "last_scheduled_at": "2026-04-03T01:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -10169,6 +10169,20 @@
         "iot"
       ],
       "scheduled_at": "2026-04-03T00:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Scaling Beyond Tokens: A Guide to the New Era of Linear-Complexity Inference Architectures",
+      "url": "https://martinuke0.github.io/posts/2026-03-31-scaling-beyond-tokens-a-guide-to-the-new-era-of-linear-complexity-inference-architectures/",
+      "social_hook": "The explosive growth of large language models (LLMs) over the past few years has been fueled by two intertwined forces: ever‑larger parameter counts and ever‑longer context windows. While the former has been the headline‑grabbing narrative, the latter is quietly becoming the real bottleneck for many production workloads. Traditional self‑attention scales quadratically with the number of input tokens, meaning that a modest increase in context length can explode both memory consumption and latency.\n\nEnter linear‑complexity inference architectures. These are model designs and system‑level techniques that reduce the per‑token computational cost from O(N²) to O(N) (or even sub‑linear) while preserving—or gracefully degrading—model quality. In practice, this shift enables:\n\n Real‑time interaction** with documents that are thousands of tokens long (e.g., legal contracts, scientific papers).",
+      "tags": [
+        "transformers",
+        "inference",
+        "linear-complexity",
+        "AI-ops",
+        "large-language-models"
+      ],
+      "scheduled_at": "2026-04-03T01:02:50Z",
       "status": "pending"
     }
   ]
