@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-03T11:02:50Z",
+  "last_scheduled_at": "2026-04-03T12:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -10325,6 +10325,20 @@
         "AI"
       ],
       "scheduled_at": "2026-04-03T11:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Understanding Session History: Concepts, Implementation, and Best Practices",
+      "url": "https://martinuke0.github.io/posts/2026-03-31-understanding-session-history-concepts-implementation-and-best-practices/",
+      "social_hook": "In the modern digital landscape, session history has become a cornerstone of both user experience and system reliability. Whether you are building a single‑page web app, a traditional server‑rendered site, or a command‑line interface, you inevitably need to answer three fundamental questions:\n\n1. Who is the user right now? – The session identifies the user across multiple requests.\n\n2. What did the user do previously? – The history records the sequence of actions, pages, or commands.",
+      "tags": [
+        "session management",
+        "web development",
+        "security",
+        "user experience",
+        "data analytics"
+      ],
+      "scheduled_at": "2026-04-03T12:02:50Z",
       "status": "pending"
     }
   ]
