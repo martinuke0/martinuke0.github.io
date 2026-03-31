@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-04T02:02:50Z",
+  "last_scheduled_at": "2026-04-04T03:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -10535,6 +10535,20 @@
         "DevSecOps"
       ],
       "scheduled_at": "2026-04-04T02:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Daemon Mode & Session Supervisors: A Deep Dive into Managing Long‑Running Processes",
+      "url": "https://martinuke0.github.io/posts/2026-03-31-daemon-mode-session-supervisors-a-deep-dive-into-managing-longrunning-processes/",
+      "social_hook": "Long‑running background processes—daemons—are the invisible workhorses that keep modern operating systems functional. From web servers and database engines to personal notification agents, daemons provide services without direct user interaction. Yet writing a daemon that behaves well under every circumstance is far from trivial. Over the past two decades, the session supervisor model has emerged as a robust solution to many of the classic daemon‑related headaches.\n\n Examine the role of a session supervisor** and how it differs from a traditional init system.\n\n* Compare the most widely used supervisors (systemd‑user, launchd, Upstart, runit, Supervisord).",
+      "tags": [
+        "daemon",
+        "session-supervisor",
+        "systemd",
+        "process-management",
+        "linux"
+      ],
+      "scheduled_at": "2026-04-04T03:02:50Z",
       "status": "pending"
     }
   ]
