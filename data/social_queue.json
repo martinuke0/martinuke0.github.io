@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-02T23:02:50Z",
+  "last_scheduled_at": "2026-04-03T00:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -10155,6 +10155,20 @@
         "agentic systems"
       ],
       "scheduled_at": "2026-04-02T23:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Local Inference: How SLMs are Replacing Cloud APIs for Edge Device Autonomy",
+      "url": "https://martinuke0.github.io/posts/2026-03-31-optimizing-local-inference-how-slms-are-replacing-cloud-apis-for-edge-device-autonomy/",
+      "social_hook": "Large language models (LLMs) have transformed how software interacts with natural language—everything from chat assistants to code generation. Historically, the sheer computational demand of these models forced developers to rely on cloud‑hosted APIs (OpenAI, Anthropic, Cohere, etc.). While cloud APIs provide a low‑friction entry point, they carry latency, bandwidth, cost, and privacy penalties that become untenable for edge devices such as drones, wearables, industrial controllers, and IoT gateways.\n\nEnter Small Language Models (SLMs)—compact, high‑performing variants of their larger cousins, often ranging from 1 B to 10 B parameters. Coupled with a rapidly maturing ecosystem of model‑compression techniques, on‑device runtimes, and specialized AI accelerators, SLMs are now capable of local inference that rivals cloud services for many practical workloads.\n\nThis article offers a deep dive into the technical, operational, and business reasons why SLMs are supplanting cloud APIs for edge autonomy. We’ll explore the challenges, present state‑of‑the‑art optimization strategies, walk through a concrete deployment on a Raspberry Pi 5, and examine the broader implications for security, privacy, and future hardware trends.",
+      "tags": [
+        "edge-computing",
+        "large-language-models",
+        "model-optimization",
+        "onnx",
+        "iot"
+      ],
+      "scheduled_at": "2026-04-03T00:02:50Z",
       "status": "pending"
     }
   ]
