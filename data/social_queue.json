@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-03T10:02:50Z",
+  "last_scheduled_at": "2026-04-03T11:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -10311,6 +10311,20 @@
         "language-specific"
       ],
       "scheduled_at": "2026-04-03T10:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Multimodal RAG Architectures: Integrating Vision and Language Models for Advanced Retrieval Systems",
+      "url": "https://martinuke0.github.io/posts/2026-03-31-multimodal-rag-architectures-integrating-vision-and-language-models-for-advanced-retrieval-systems/",
+      "social_hook": "The last few years have witnessed an explosion of retrieval‑augmented generation (RAG) techniques that combine a large language model (LLM) with a knowledge store. By pulling relevant passages from an external corpus, RAG systems can answer questions that lie far outside the model’s pre‑training window, reduce hallucinations, and keep responses up‑to‑date.\n\nYet most of the early RAG work is text‑centric: the retriever indexes only textual documents, and the generator consumes plain strings. In real‑world scenarios—think e‑commerce, medical imaging, autonomous robotics, or multimedia search—information is multimodal. Users might upload a photo, a diagram, or a short video clip and ask a question that requires both visual understanding and language reasoning.\n\nEnter multimodal RAG architectures. By integrating vision‑language models (VLMs) with classic retrieval pipelines, we can build systems that retrieve both images and text, fuse them into a coherent context, and let a LLM generate answers that are grounded in visual evidence. This blog post dives deep into the technical foundations, design patterns, practical implementation steps, and research frontiers of such systems.",
+      "tags": [
+        "multimodal",
+        "RAG",
+        "vision-language",
+        "retrieval",
+        "AI"
+      ],
+      "scheduled_at": "2026-04-03T11:02:50Z",
       "status": "pending"
     }
   ]
