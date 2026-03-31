@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-02T18:02:50Z",
+  "last_scheduled_at": "2026-04-02T19:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -10085,6 +10085,20 @@
         "Machine Learning"
       ],
       "scheduled_at": "2026-04-02T18:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Distributed Stream Processing for Real-Time Multi-Agent AI System Orchestration",
+      "url": "https://martinuke0.github.io/posts/2026-03-31-optimizing-distributed-stream-processing-for-real-time-multi-agent-ai-system-orchestration/",
+      "social_hook": "The rise of multi‑agent AI systems—from autonomous vehicle fleets to coordinated robotic swarms—has created a demand for real‑time data pipelines that can ingest, transform, and route massive streams of telemetry, decisions, and feedback. Traditional batch‑oriented pipelines cannot keep up with the sub‑second latency requirements of these applications. Instead, distributed stream processing platforms such as Apache Flink, Kafka Streams, and Spark Structured Streaming have become the de‑facto backbone for orchestrating the interactions among thousands of agents.\n\nIn this article we will explore how to optimize distributed stream processing for the unique constraints of real‑time multi‑agent AI orchestration. We will:\n\n1. Review the core challenges that differentiate multi‑agent workloads from generic event‑driven pipelines.",
+      "tags": [
+        "stream-processing",
+        "distributed-systems",
+        "multi-agent-ai",
+        "real-time",
+        "orchestration"
+      ],
+      "scheduled_at": "2026-04-02T19:02:50Z",
       "status": "pending"
     }
   ]
