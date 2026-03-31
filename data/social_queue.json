@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-03T08:02:50Z",
+  "last_scheduled_at": "2026-04-03T09:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -10283,6 +10283,20 @@
         "Data Governance"
       ],
       "scheduled_at": "2026-04-03T08:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Mobile Device Management (MDM): A Comprehensive Guide",
+      "url": "https://martinuke0.github.io/posts/2026-03-31-mastering-mobile-device-management-mdm-a-comprehensive-guide/",
+      "social_hook": "In today’s hyper‑connected workplace, smartphones, tablets, and even wearables have become extensions of the corporate IT environment. While these devices boost productivity, they also introduce a host of security, compliance, and management challenges. Mobile Device Management (MDM) is the discipline and technology stack that enables organizations to secure, monitor, and control mobile endpoints—whether they are corporate‑owned (COBO) or employee‑owned (BYOD).\n\n* Emerging trends such as zero‑trust, AI‑driven analytics, and the shift toward Unified Endpoint Management (UEM)\n\nWhether you’re an IT manager evaluating solutions, a security professional drafting policies, or a developer building custom MDM integrations, this article equips you with the knowledge to design, deploy, and sustain a robust mobile device management strategy.",
+      "tags": [
+        "mobile-device-management",
+        "enterprise-security",
+        "IT-operations",
+        "cloud",
+        "software"
+      ],
+      "scheduled_at": "2026-04-03T09:02:50Z",
       "status": "pending"
     }
   ]
