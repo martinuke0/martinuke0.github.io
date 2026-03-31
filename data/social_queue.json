@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-03T01:02:50Z",
+  "last_scheduled_at": "2026-04-03T02:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -10183,6 +10183,20 @@
         "large-language-models"
       ],
       "scheduled_at": "2026-04-03T01:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Scaling Latent Reasoning Chains for Realtime Anomaly Detection in Distributed Edge Computing Systems",
+      "url": "https://martinuke0.github.io/posts/2026-03-31-scaling-latent-reasoning-chains-for-realtime-anomaly-detection-in-distributed-edge-computing-systems/",
+      "social_hook": "Edge computing has moved from a buzzword to a production reality across manufacturing plants, autonomous vehicle fleets, and massive IoT deployments. The promise is simple: process data where it is generated, reducing latency, bandwidth consumption, and privacy exposure. Yet, the very characteristics that make edge attractive—heterogeneous hardware, intermittent connectivity, and strict real‑time service level agreements (SLAs)—create a uniquely difficult environment for sophisticated machine‑learning workloads.\n\nAnomaly detection is a cornerstone use case in these settings. Whether spotting a temperature spike in a transformer, a vibration pattern that precedes a bearing failure, or a network packet anomaly that hints at a cyber‑attack, the cost of missing an outlier can be catastrophic. Traditional statistical methods (e.g., control charts, ARIMA) struggle with high‑dimensional, multimodal sensor streams. Modern deep‑learning approaches—autoencoders, graph neural networks, transformer‑based time‑series models—offer richer representations but demand latent reasoning chains: sequences of learned transformations that progressively extract, contextualize, and evaluate hidden patterns.\n\nScaling such latent reasoning chains to real‑time operation across a distributed edge fabric is non‑trivial. This article dives deep into the architectural, algorithmic, and engineering techniques required to make that happen. We’ll explore why latent reasoning is essential, dissect the challenges of edge environments, present concrete design patterns, walk through a full‑stack implementation, and finish with actionable performance tips and a look at emerging research.",
+      "tags": [
+        "edge computing",
+        "anomaly detection",
+        "latent reasoning",
+        "real-time systems",
+        "distributed systems"
+      ],
+      "scheduled_at": "2026-04-03T02:02:50Z",
       "status": "pending"
     }
   ]
