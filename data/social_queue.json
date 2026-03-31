@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-04T10:02:50Z",
+  "last_scheduled_at": "2026-04-04T11:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -10647,6 +10647,20 @@
         "programming"
       ],
       "scheduled_at": "2026-04-04T10:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Understanding Vector Clocks: A Deep Dive into Causality Tracking in Distributed Systems",
+      "url": "https://martinuke0.github.io/posts/2026-03-31-understanding-vector-clocks-a-deep-dive-into-causality-tracking-in-distributed-systems/",
+      "social_hook": "In modern computing, distributed systems have become the backbone of everything from cloud services to collaborative editing tools. One of the most fundamental challenges in such environments is determining the order of events that happen across multiple, potentially unreliable nodes. While physical clocks can provide a rough sense of time, they are insufficient for reasoning about causality—the “happened‑before” relationship that underpins consistency guarantees, conflict resolution, and debugging.\n\nEnter vector clocks. First introduced in the early 1990s as an extension of Leslie Lamport’s logical clocks, vector clocks give each process a compact, deterministic way to capture causal relationships without requiring synchronized hardware clocks. They are simple enough to implement in a few lines of code, yet powerful enough to underpin the design of large‑scale databases (e.g., Amazon Dynamo, Apache Cassandra), version‑control systems, and real‑time collaborative editors.\n\nThis article provides a comprehensive, in‑depth exploration of vector clocks. We’ll start with the theoretical foundations, walk through concrete examples, show how to implement them in code, and discuss real‑world usage patterns, benefits, and trade‑offs. By the end, you should be equipped to decide when and how to apply vector clocks in your own projects.",
+      "tags": [
+        "distributed systems",
+        "vector clocks",
+        "causality",
+        "consistency",
+        "algorithms"
+      ],
+      "scheduled_at": "2026-04-04T11:02:50Z",
       "status": "pending"
     }
   ]
