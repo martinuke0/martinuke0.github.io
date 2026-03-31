@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-04T08:02:50Z",
+  "last_scheduled_at": "2026-04-04T09:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -10619,6 +10619,20 @@
         "career"
       ],
       "scheduled_at": "2026-04-04T08:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Understanding Overflow: From Integer Bugs to UI Layouts",
+      "url": "https://martinuke0.github.io/posts/2026-03-31-understanding-overflow-from-integer-bugs-to-ui-layouts/",
+      "social_hook": "> “An overflow is not just a bug; it's a symptom of assumptions that no longer hold.”\n\nOverflow phenomena appear in almost every layer of computing—from low‑level machine code to high‑level web design, and even in finance and physics. While the word “overflow” often conjures images of memory corruption or security exploits, the concept is broader: it describes any situation where a value exceeds the capacity of its container, leading to unexpected behavior.\n\nThis article provides a comprehensive, in‑depth exploration of overflow across multiple domains:",
+      "tags": [
+        "overflow",
+        "security",
+        "programming",
+        "web",
+        "software engineering"
+      ],
+      "scheduled_at": "2026-04-04T09:02:50Z",
       "status": "pending"
     }
   ]
