@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-04T17:02:50Z",
+  "last_scheduled_at": "2026-04-04T18:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -10745,6 +10745,20 @@
         "Browser Graphics"
       ],
       "scheduled_at": "2026-04-04T17:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "The Rise of Local LLM Orchestrators: Managing Personal Compute Clusters for Private AI Development",
+      "url": "https://martinuke0.github.io/posts/2026-03-31-the-rise-of-local-llm-orchestrators-managing-personal-compute-clusters-for-private-ai-development/",
+      "social_hook": "Large language models (LLMs) have moved from research curiosities to production‑ready services in just a few years. The public‑facing APIs offered by OpenAI, Anthropic, Google, and others have democratized access to powerful text generation, reasoning, and coding capabilities. Yet, for many organizations and power users, the “cloud‑only” model presents three fundamental concerns:\n\n1. Data privacy and compliance – Sensitive documents, medical records, or proprietary code often cannot be sent to third‑party servers without rigorous legal review.\n\n2. Cost predictability – Pay‑per‑token pricing can explode when models are used intensively for internal tooling or batch processing.",
+      "tags": [
+        "LLM",
+        "Orchestration",
+        "Private AI",
+        "Edge Computing",
+        "Open Source"
+      ],
+      "scheduled_at": "2026-04-04T18:02:50Z",
       "status": "pending"
     }
   ]
