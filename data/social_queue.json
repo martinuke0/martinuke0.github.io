@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-04T18:02:50Z",
+  "last_scheduled_at": "2026-04-04T19:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -10759,6 +10759,20 @@
         "Open Source"
       ],
       "scheduled_at": "2026-04-04T18:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Real-Time Inference on Edge Devices with Local Small Language Model Quantization Strategies",
+      "url": "https://martinuke0.github.io/posts/2026-03-31-optimizing-real-time-inference-on-edge-devices-with-local-small-language-model-quantization-strategies/",
+      "social_hook": "Large language models (LLMs) have transformed everything from code generation to conversational AI. Yet the majority of breakthroughs still happen in the cloud, where GPUs, high‑speed interconnects, and terabytes of RAM are taken for granted. For many applications—autonomous drones, on‑device assistants, industrial control panels, or privacy‑sensitive healthcare devices—sending data to a remote server is simply not an option. The challenge is clear: run LLM inference locally, in real time, on hardware that is orders of magnitude less capable than a data‑center GPU.\n\nEnter small language models (SLMs) and quantization. A 7‑B or even sub‑2‑B model can fit into the memory of a modern edge processor, but the raw floating‑point arithmetic is still too heavy for millisecond‑scale latency. Quantization—reducing the bit‑width of weights and activations—offers a systematic, mathematically grounded path to cut memory bandwidth, storage, and compute cost while preserving most of the model’s linguistic capabilities.\n\n* Applying state‑of‑the‑art quantization strategies (both post‑training and quant‑aware).",
+      "tags": [
+        "edge-computing",
+        "quantization",
+        "small-language-models",
+        "real-time-inference",
+        "deployment"
+      ],
+      "scheduled_at": "2026-04-04T19:02:50Z",
       "status": "pending"
     }
   ]
