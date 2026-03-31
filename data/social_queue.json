@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-03T03:02:50Z",
+  "last_scheduled_at": "2026-04-03T04:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -10211,6 +10211,20 @@
         "SDK"
       ],
       "scheduled_at": "2026-04-03T03:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building Autonomous AI Agents: Dissecting the Architecture Behind OpenClaw's Source Code",
+      "url": "https://martinuke0.github.io/posts/2026-03-31-building-autonomous-ai-agents-dissecting-the-architecture-behind-openclaw/",
+      "social_hook": "In the rapidly evolving landscape of artificial intelligence, autonomous AI agents represent a paradigm shift from passive tools to proactive collaborators. Projects like OpenClaw, with its explosive growth to over 200,000 GitHub stars, exemplify this transformation. Unlike traditional chatbots that merely respond to queries, these agents integrate seamlessly into daily workflows—handling emails, executing code, managing calendars, and even generating research papers autonomously. This blog post dives deep into the architectural blueprint of such systems, inspired by the intricate source code structure of claw-code. We'll explore how directories like `assistant`, `coordinator`, `skills`, and `tools` orchestrate intelligent behavior, drawing connections to broader concepts in computer science, distributed systems, and agentic AI. Whether you're a developer building your first agent or an engineer scaling production systems, this guide provides actionable insights, code examples, and real-world context to demystify the inner workings.\n\nAutonomous AI agents are software entities powered by large language models (LLMs) that perceive their environment, reason about tasks, and act independently to achieve goals. OpenClaw stands out as a self-hosted agent that connects to tools like WhatsApp, Slack, terminals, and browsers, running continuously—even offline. Its viral success stems from practicality: it doesn't just answer questions; it does the work.\n\n- Reactive AI (e.g., early chatbots): Responds to inputs but lacks persistence or multi-step planning.",
+      "tags": [
+        "AI Agents",
+        "OpenClaw",
+        "Autonomous Systems",
+        "Software Architecture",
+        "LLM Engineering"
+      ],
+      "scheduled_at": "2026-04-03T04:02:50Z",
       "status": "pending"
     }
   ]
