@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-03T02:02:50Z",
+  "last_scheduled_at": "2026-04-03T03:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -10197,6 +10197,20 @@
         "distributed systems"
       ],
       "scheduled_at": "2026-04-03T02:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Ephemeral Environments with CCR, GitHub Actions, and SDKs",
+      "url": "https://martinuke0.github.io/posts/2026-03-31-mastering-ephemeral-environments-with-ccr-github-actions-and-sdks/",
+      "social_hook": "Modern software delivery demands speed, reliability, and reproducibility. Traditional monolithic test and staging environments often become bottlenecks: they are expensive to maintain, prone to configuration drift, and can hide integration issues until the very last stages of a release pipeline.\n\nEphemeral environments—short‑lived, on‑demand instances of an application stack—offer a compelling alternative. By provisioning a fresh copy of the entire system for each pull request, feature branch, or even a single test case, teams gain:\n\n Scalability** – environments spin up only when needed, keeping cloud spend under control.",
+      "tags": [
+        "ephemeral environments",
+        "CI/CD",
+        "GitHub Actions",
+        "Google Cloud Run",
+        "SDK"
+      ],
+      "scheduled_at": "2026-04-03T03:02:50Z",
       "status": "pending"
     }
   ]
