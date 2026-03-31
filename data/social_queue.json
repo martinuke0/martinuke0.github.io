@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-03T09:02:50Z",
+  "last_scheduled_at": "2026-04-03T10:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -10297,6 +10297,20 @@
         "software"
       ],
       "scheduled_at": "2026-04-03T09:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Formatting Code Across Languages: Prettier, Biome, Ruff, Black, gofmt, and rustfmt",
+      "url": "https://martinuke0.github.io/posts/2026-03-31-formatting-code-across-languages-prettier-biome-ruff-black-gofmt-and-rustfmt/",
+      "social_hook": "In modern software development, consistent code style is no longer a luxury—it’s a necessity. A well‑formatted codebase reduces cognitive load, prevents trivial merge conflicts, and makes onboarding new team members smoother. Over the past decade a rich ecosystem of formatters has emerged, each tailored to a specific language or set of languages, and each with its own philosophy about what “beautiful” code looks like.\n\nThis article provides an in‑depth, language‑agnostic tour of six of the most popular formatters today:\n\n3. How to integrate them into local development, CI/CD pipelines, and editor workflows.",
+      "tags": [
+        "code formatting",
+        "tooling",
+        "development",
+        "best practices",
+        "language-specific"
+      ],
+      "scheduled_at": "2026-04-03T10:02:50Z",
       "status": "pending"
     }
   ]
