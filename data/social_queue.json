@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-04T09:02:50Z",
+  "last_scheduled_at": "2026-04-04T10:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -10633,6 +10633,20 @@
         "software engineering"
       ],
       "scheduled_at": "2026-04-04T09:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Understanding Underflow: Causes, Consequences, and Mitigation Strategies",
+      "url": "https://martinuke0.github.io/posts/2026-03-31-understanding-underflow-causes-consequences-and-mitigation-strategies/",
+      "social_hook": "In the world of computing, the term underflow appears in many different contexts—ranging from low‑level arithmetic to high‑level data‑structure operations, and even to security‑related bugs. While most developers are familiar with overflow (the condition where a value exceeds the maximum representable range), underflow is equally important, yet often overlooked. An underflow occurs when an operation produces a result that is smaller than the smallest value that can be represented in the given data type or storage medium. Depending on the environment, this can lead to:\n\nThis article provides an in‑depth exploration of underflow across multiple domains. We will cover the mathematical foundations, hardware implementations, language‑specific behaviors, real‑world bugs, and practical mitigation techniques. By the end of this guide, you should be able to identify, diagnose, and prevent underflow bugs in your own projects.\n\n Integer range** – from a minimum (often a negative number) to a maximum (positive).",
+      "tags": [
+        "underflow",
+        "software",
+        "security",
+        "floating-point",
+        "programming"
+      ],
+      "scheduled_at": "2026-04-04T10:02:50Z",
       "status": "pending"
     }
   ]
