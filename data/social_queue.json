@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-04T03:02:50Z",
+  "last_scheduled_at": "2026-04-04T04:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -10549,6 +10549,20 @@
         "linux"
       ],
       "scheduled_at": "2026-04-04T03:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Chrome Native Messaging: Building Secure Bridge Between Extensions and Native Applications",
+      "url": "https://martinuke0.github.io/posts/2026-03-31-chrome-native-messaging-building-secure-bridge-between-extensions-and-native-applications/",
+      "social_hook": "Chrome extensions are powerful tools that let developers enhance the browser experience with UI tweaks, content scripts, and background processing. Yet, extensions are deliberately sandboxed: they cannot directly read or write arbitrary files, launch external programs, or access privileged system APIs. This sandbox is essential for security, but it also creates a gap when an extension needs to interact with a native application—for example, a password manager that stores vaults on disk, a custom PDF printer, or an enterprise‑managed device configuration tool.\n\nChrome Native Messaging bridges that gap. It defines a lightweight, JSON‑based protocol that lets a Chrome extension open a persistent, bidirectional pipe to a native host—a small executable running on the user’s operating system. The host can perform any privileged action the OS permits, while the extension remains confined to the browser’s security model.\n\n* Walk through a complete, cross‑platform example (Python host + Chrome extension) from scratch.",
+      "tags": [
+        "chrome",
+        "native-messaging",
+        "extensions",
+        "developer",
+        "security"
+      ],
+      "scheduled_at": "2026-04-04T04:02:50Z",
       "status": "pending"
     }
   ]
