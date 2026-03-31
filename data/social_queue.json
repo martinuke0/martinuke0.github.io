@@ -9350,7 +9350,7 @@
         "low latency"
       ],
       "scheduled_at": "2026-03-31T14:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Distributed Inference Orchestration for Fine‑Tuning Open‑Source Models Across Heterogeneous Edge Computing Clusters",
