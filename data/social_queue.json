@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-03T04:02:50Z",
+  "last_scheduled_at": "2026-04-03T05:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -10225,6 +10225,21 @@
         "LLM Engineering"
       ],
       "scheduled_at": "2026-04-03T04:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Terminal AI Agents: Revolutionizing Codebases with Claude Code and Beyond",
+      "url": "https://martinuke0.github.io/posts/2026-03-31-terminal-ai-agents-revolutionizing-codebases-with-claude-code-and-beyond/",
+      "social_hook": "Imagine a world where your terminal isn't just a gateway to commands but a portal to an intelligent coding partner. Tools like Claude Code are making this a reality, transforming how developers interact with their codebases through natural language. This agentic coding assistant embeds itself directly in your terminal, leveraging large language models (LLMs) from Anthropic's Claude family to understand projects, execute tasks, and streamline workflows. Unlike web-based chat interfaces, it operates natively in your development environment, bridging the gap between human intent and machine execution.[1]\n\nIn this post, we'll dive deep into the mechanics of terminal-based AI agents, using Claude Code as our lens. We'll explore its architecture, installation, key features, and real-world applications, while drawing connections to broader trends in AI-driven software engineering. Whether you're a solo developer battling deadlines or part of a team scaling complex repositories, these tools promise to boost productivity by automating the mundane and amplifying your creativity. Let's unpack how they're reshaping the dev landscape.\n\nAgentic AI represents a leap from passive code generators to proactive systems that act autonomously. Traditional LLMs like Claude or GPT models excel at producing snippets or explanations, but they falter in sustained, context-aware tasks. Enter agentic tools: they combine LLM reasoning with tool-calling, memory management, and environmental integration to handle multi-step workflows.[1][4]",
+      "tags": [
+        "AI Coding",
+        "Terminal Tools",
+        "Agentic AI",
+        "Software Development",
+        "Claude AI",
+        "DevOps"
+      ],
+      "scheduled_at": "2026-04-03T05:02:50Z",
       "status": "pending"
     }
   ]
