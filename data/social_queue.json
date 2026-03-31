@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-02T19:02:50Z",
+  "last_scheduled_at": "2026-04-02T20:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -10099,6 +10099,20 @@
         "orchestration"
       ],
       "scheduled_at": "2026-04-02T19:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building Scalable Vector Search Engines with Rust and Distributed Database Systems",
+      "url": "https://martinuke0.github.io/posts/2026-03-31-building-scalable-vector-search-engines-with-rust-and-distributed-database-systems/",
+      "social_hook": "Over the past few years, the rise of embeddings—dense, high‑dimensional vectors that capture the semantic meaning of text, images, audio, or even code—has transformed how modern applications retrieve information. Traditional keyword‑based search engines struggle to surface results that are semantically related but lexically dissimilar. Vector search, also known as approximate nearest neighbor (ANN) search, fills this gap by enabling similarity queries over these embeddings.\n\nBuilding a vector search engine that can handle billions of vectors, provide sub‑millisecond latency, and remain cost‑effective is no small feat. The challenge lies not only in the algorithmic side (choosing the right ANN index) but also in distributed data management, fault tolerance, and horizontal scalability.\n\nThis article walks you through the end‑to‑end process of constructing a scalable vector search engine using Rust for performance‑critical components and a distributed database system for durable storage and coordination. We’ll cover the theory, architecture, practical code examples, and real‑world considerations, giving you a solid foundation to design, implement, and operate your own system.",
+      "tags": [
+        "rust",
+        "vector-search",
+        "distributed-systems",
+        "database",
+        "scalability"
+      ],
+      "scheduled_at": "2026-04-02T20:02:50Z",
       "status": "pending"
     }
   ]
