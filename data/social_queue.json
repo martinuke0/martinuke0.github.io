@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-03T07:02:50Z",
+  "last_scheduled_at": "2026-04-03T08:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -10269,6 +10269,20 @@
         "Developer Tools"
       ],
       "scheduled_at": "2026-04-03T07:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Understanding MDM Raw Read: Concepts, Implementation, and Best Practices",
+      "url": "https://martinuke0.github.io/posts/2026-03-31-understanding-mdm-raw-read-concepts-implementation-and-best-practices/",
+      "social_hook": "Master Data Management (MDM) has become a cornerstone of modern data architectures. Organizations rely on a single, trusted view of core entities—customers, products, suppliers, assets—to drive operational efficiency, analytics, and regulatory compliance. While the “golden record” often steals the spotlight, the raw data that flows into an MDM hub holds equal strategic value.\n\nA Raw Read is the act of retrieving that untouched, source‑originated data directly from the MDM repository, bypassing any transformation, enrichment, or survivorship logic that normally produces the golden view. Raw reads empower data engineers, auditors, and data scientists to:\n\n* Feed machine‑learning pipelines with the most granular, lineage‑preserved records.",
+      "tags": [
+        "MDM",
+        "Data Integration",
+        "Master Data Management",
+        "ETL",
+        "Data Governance"
+      ],
+      "scheduled_at": "2026-04-03T08:02:50Z",
       "status": "pending"
     }
   ]
