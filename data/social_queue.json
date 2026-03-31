@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-04T05:02:50Z",
+  "last_scheduled_at": "2026-04-04T06:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -10577,6 +10577,20 @@
         "version-control"
       ],
       "scheduled_at": "2026-04-04T05:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Understanding OAuth Refresh Tokens: Theory, Implementation, and Best Practices",
+      "url": "https://martinuke0.github.io/posts/2026-03-31-understanding-oauth-refresh-tokens-theory-implementation-and-best-practices/",
+      "social_hook": "In modern web and mobile ecosystems, OAuth 2.0 has become the de‑facto standard for delegated authorization. While the access token is the workhorse that grants a client permission to act on behalf of a user, the refresh token is the unsung hero that enables long‑running sessions without repeatedly prompting the user for credentials.\n\nThis article dives deep into the why, how, and best practices surrounding OAuth refresh tokens. We’ll start with a brief refresher on OAuth 2.0, then explore the security model behind token expiration, present concrete code samples in three major programming ecosystems, and finish with a checklist you can use to audit any production implementation.\n\nWhether you’re building a public API, an internal micro‑service architecture, or a consumer‑facing mobile app, mastering refresh tokens is essential for delivering a seamless yet secure user experience.",
+      "tags": [
+        "OAuth",
+        "Authentication",
+        "Security",
+        "Refresh Tokens",
+        "API Design"
+      ],
+      "scheduled_at": "2026-04-04T06:02:50Z",
       "status": "pending"
     }
   ]
