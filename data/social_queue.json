@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-03T13:02:50Z",
+  "last_scheduled_at": "2026-04-03T14:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -10353,6 +10353,20 @@
         "software architecture"
       ],
       "scheduled_at": "2026-04-03T13:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering the Claude Control Plane (CCR): Architecture, Implementation, and Real‑World Use Cases",
+      "url": "https://martinuke0.github.io/posts/2026-03-31-mastering-the-claude-control-plane-ccr-architecture-implementation-and-realworld-use-cases/",
+      "social_hook": "Anthropic’s Claude has become a cornerstone for enterprises that need safe, reliable, and controllable large‑language‑model (LLM) capabilities. While the model itself garners most of the headlines, the real differentiator for production‑grade deployments is the Claude Control Plane (CCR) – a dedicated orchestration layer that separates control from compute.\n\nCCR (sometimes referred to as Claude Control Runtime) is not a single monolithic service; it is a collection of APIs, policies, and observability tools that enable:\n\n3. Scalable provisioning of compute resources (GPU clusters, serverless containers, or edge devices).",
+      "tags": [
+        "Claude",
+        "Control Plane",
+        "AI Ops",
+        "Enterprise AI",
+        "Observability"
+      ],
+      "scheduled_at": "2026-04-03T14:02:50Z",
       "status": "pending"
     }
   ]
