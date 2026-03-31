@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-02T12:02:50Z",
+  "last_scheduled_at": "2026-04-02T13:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -10001,6 +10001,20 @@
         "edge computing"
       ],
       "scheduled_at": "2026-04-02T12:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Generalist vs. Specialist Medical AI: Why One-Size-Fits-All Might Actually Work Better",
+      "url": "https://martinuke0.github.io/posts/2026-03-31-generalist-vs-specialist-medical-ai-why-one-size-fits-all-might-actually-work-better/",
+      "social_hook": "Imagine you're building a medical AI system to help radiologists interpret X-rays, MRIs, and CT scans. You have two options: hire a team of specialists who have spent years studying only medical imaging, or train a versatile generalist who knows a bit about everything. Intuitively, the specialists seem like the obvious choice—they have deep expertise, after all. But what if we told you that the generalists might actually perform just as well, or even better, while costing significantly less?\n\nThis is the central question tackled by a groundbreaking new research paper that challenges conventional wisdom in medical artificial intelligence. The study, \"Can Generalist Vision Language Models (VLMs) Rival Specialist Medical VLMs? Benchmarking and Strategic Insights,\" reveals surprising findings about how we should approach building AI systems for healthcare. Rather than requiring expensive, specialized medical training, general-purpose AI models that have been fine-tuned for medical tasks can achieve comparable or superior performance—especially when encountering rare or unfamiliar medical conditions.\n\nThis research has profound implications for the future of medical AI development, suggesting a more accessible and scalable path forward for hospitals, clinics, and healthcare startups that may lack the resources to build specialized systems from scratch.",
+      "tags": [
+        "vision-language-models",
+        "medical-ai",
+        "machine-learning",
+        "healthcare-technology",
+        "ai-research"
+      ],
+      "scheduled_at": "2026-04-02T13:02:50Z",
       "status": "pending"
     }
   ]
