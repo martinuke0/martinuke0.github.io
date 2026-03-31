@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-03T14:02:50Z",
+  "last_scheduled_at": "2026-04-03T15:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -10367,6 +10367,20 @@
         "Observability"
       ],
       "scheduled_at": "2026-04-03T14:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering the Polling Loop: Theory, Design, and Real‑World Implementations",
+      "url": "https://martinuke0.github.io/posts/2026-03-31-mastering-the-polling-loop-theory-design-and-realworld-implementations/",
+      "social_hook": "A polling loop is one of the oldest and most ubiquitous patterns in software engineering. At its core, it repeatedly checks the state of a resource—be it a hardware register, a network socket, or a remote service—and reacts when a desired condition becomes true. While the concept is simple, writing a robust, efficient, and maintainable polling loop can be surprisingly subtle.\n\nIn modern systems, developers often face a choice between pull‑based approaches (polling) and push‑based approaches (interrupts, callbacks, or event streams). The decision hinges on latency requirements, power constraints, architectural complexity, and the nature of the underlying API.\n\nWhether you are an embedded engineer writing firmware for a microcontroller, a backend developer integrating with a third‑party API, or a front‑end engineer building a responsive UI, this guide will give you the tools to design polling loops that are both correct and efficient.",
+      "tags": [
+        "polling",
+        "event-loop",
+        "concurrency",
+        "performance",
+        "embedded"
+      ],
+      "scheduled_at": "2026-04-03T15:02:50Z",
       "status": "pending"
     }
   ]
