@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-04T06:02:50Z",
+  "last_scheduled_at": "2026-04-04T07:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -10591,6 +10591,20 @@
         "API Design"
       ],
       "scheduled_at": "2026-04-04T06:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Cache Busting: Strategies to Break the Cache Effectively",
+      "url": "https://martinuke0.github.io/posts/2026-03-31-mastering-cache-busting-strategies-to-break-the-cache-effectively/",
+      "social_hook": "Web performance is a decisive factor in user satisfaction, SEO rankings, and conversion rates. One of the most powerful levers for speeding up page loads is caching—the practice of storing copies of assets (HTML, CSS, JavaScript, images, fonts, etc.) on the client, CDN edge, or proxy so that subsequent requests can be served without hitting the origin server.\n\nHowever, caching is a double‑edged sword. While it dramatically reduces latency, it also creates a risk: stale assets. When you ship a new version of a style sheet or a JavaScript bundle, browsers may continue to serve the old copy from their local cache, leading to broken UI, JavaScript errors, or even security vulnerabilities.\n\nThe act of deliberately forcing browsers (or any caching layer) to fetch the most recent version of a resource is commonly called cache busting or breaking the cache. This article dives deep into why cache busting matters, how it works under the hood, and which techniques you can apply across the modern web stack—from static sites to complex SPAs, from CDN configurations to Service Worker strategies.",
+      "tags": [
+        "web performance",
+        "caching",
+        "cache busting",
+        "frontend",
+        "CDN"
+      ],
+      "scheduled_at": "2026-04-04T07:02:50Z",
       "status": "pending"
     }
   ]
