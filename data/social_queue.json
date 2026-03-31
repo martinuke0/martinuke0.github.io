@@ -9181,7 +9181,7 @@
         "release-management"
       ],
       "scheduled_at": "2026-03-31T02:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Scaling Stateful Event‑Driven Architectures for Autonomous Agent Coordination in Distributed Systems",
