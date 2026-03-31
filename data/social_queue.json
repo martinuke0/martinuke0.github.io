@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-04T11:02:50Z",
+  "last_scheduled_at": "2026-04-04T12:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -10661,6 +10661,20 @@
         "algorithms"
       ],
       "scheduled_at": "2026-04-04T11:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Ablation Explained: From Medicine to Machine Learning",
+      "url": "https://martinuke0.github.io/posts/2026-03-31-ablation-explained-from-medicine-to-machine-learning/",
+      "social_hook": "Ablation—derived from the Latin ablatus meaning “to take away”—refers to the intentional removal, destruction, or alteration of material. Although the term first appeared in medical literature to describe the surgical removal of tissue, its conceptual core has spread far beyond the operating room. Today, ablation techniques underpin life‑saving cardiac procedures, cutting‑edge cancer therapies, precision manufacturing, planetary defense strategies, and even the rigorous evaluation of artificial‑intelligence models.\n\nThis article offers a deep dive into what ablation is, why it matters, and how it is performed across several disciplines. By the end, readers will:\n\n2. Recognize the major categories of ablation technologies (thermal, chemical, mechanical, etc.).",
+      "tags": [
+        "ablation",
+        "medical",
+        "machine-learning",
+        "laser-processing",
+        "research-methodology"
+      ],
+      "scheduled_at": "2026-04-04T12:02:50Z",
       "status": "pending"
     }
   ]
