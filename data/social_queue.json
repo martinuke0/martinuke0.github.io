@@ -9378,7 +9378,7 @@
         "stream processing"
       ],
       "scheduled_at": "2026-03-31T16:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Architecting Resilient Agentic Workflows with Temporal State Consistency and Distributed Stream Processing",
@@ -9392,7 +9392,7 @@
         "workflow orchestration"
       ],
       "scheduled_at": "2026-03-31T17:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Scaling Local Inference: Optimizing Small Language Models for On-Device Edge Computing in 2026",
