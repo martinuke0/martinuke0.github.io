@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-03T05:02:50Z",
+  "last_scheduled_at": "2026-04-03T06:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -10240,6 +10240,20 @@
         "DevOps"
       ],
       "scheduled_at": "2026-04-03T05:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Distributed Task Queues: Why Celery Powers Modern Python Applications",
+      "url": "https://martinuke0.github.io/posts/2026-03-31-mastering-distributed-task-queues-why-celery-powers-modern-python-applications/",
+      "social_hook": "title: \"Mastering Distributed Task Queues: Why Celery Powers Modern Python Applications\"\n\ntags: [\"Python\", \"Celery\", \"Distributed Systems\", \"Task Queues\", \"Asynchronous Programming\"]\n\nIn the fast-paced world of modern software development, building responsive applications that handle heavy workloads without blocking user experience is crucial. Enter Celery, Python's premier distributed task queue system that transforms synchronous bottlenecks into seamless asynchronous workflows. Unlike traditional threading or multiprocessing solutions, Celery scales horizontally across machines, integrates with battle-tested message brokers, and provides robust monitoring—making it the go-to choice for everything from web scraping to machine learning pipelines.",
+      "tags": [
+        "Python",
+        "Celery",
+        "Distributed Systems",
+        "Task Queues",
+        "Asynchronous Programming"
+      ],
+      "scheduled_at": "2026-04-03T06:02:50Z",
       "status": "pending"
     }
   ]
