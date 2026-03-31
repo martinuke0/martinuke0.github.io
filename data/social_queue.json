@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-03T18:02:50Z",
+  "last_scheduled_at": "2026-04-03T19:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -10423,6 +10423,20 @@
         "software-architecture"
       ],
       "scheduled_at": "2026-04-03T18:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Server‑Sent Events (SSE): Deep Dive, Implementation, and Real‑World Use Cases",
+      "url": "https://martinuke0.github.io/posts/2026-03-31-serversent-events-sse-deep-dive-implementation-and-realworld-use-cases/",
+      "social_hook": "Real‑time communication has become a cornerstone of modern web applications. From live sports scores to collaborative editing tools, users expect instant updates without the need to manually refresh a page. While WebSockets often steal the spotlight, Server‑Sent Events (SSE) provide a simpler, standards‑based alternative for one‑way streaming from server to client.\n\n Client‑side** consumption via the native `EventSource` API, custom events, and reconnection strategies.\n\nBy the end you’ll be equipped to decide when SSE is the right tool for your project, and you’ll have concrete code you can copy‑paste into production.",
+      "tags": [
+        "Server-Sent Events",
+        "Web Development",
+        "Real‑Time Communication",
+        "Node.js",
+        "HTTP"
+      ],
+      "scheduled_at": "2026-04-03T19:02:50Z",
       "status": "pending"
     }
   ]
