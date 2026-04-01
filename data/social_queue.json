@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-05T21:02:50Z",
+  "last_scheduled_at": "2026-04-05T22:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -11139,6 +11139,20 @@
         "snapshots"
       ],
       "scheduled_at": "2026-04-05T21:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "The Science and Practice of Self‑Healing: A Comprehensive Guide",
+      "url": "https://martinuke0.github.io/posts/2026-04-01-the-science-and-practice-of-selfhealing-a-comprehensive-guide/",
+      "social_hook": "Self‑healing is more than a buzzword; it is a multidisciplinary field that blends biology, psychology, nutrition, and lifestyle design to empower individuals to activate their own innate repair mechanisms. Whether you are recovering from a sports injury, managing a chronic condition, or simply looking to boost resilience, understanding the principles of self‑healing can transform how you approach health.\n\n5. Offer real‑world case studies and a step‑by‑step framework for building your own self‑healing plan.\n\nBy the end, you will have a roadmap that combines science with actionable habits, enabling you to take ownership of your wellbeing.",
+      "tags": [
+        "self-healing",
+        "wellness",
+        "mind-body",
+        "holistic health",
+        "personal growth"
+      ],
+      "scheduled_at": "2026-04-05T22:02:50Z",
       "status": "pending"
     }
   ]
