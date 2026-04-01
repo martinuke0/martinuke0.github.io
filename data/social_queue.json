@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-05T20:02:50Z",
+  "last_scheduled_at": "2026-04-05T21:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -11125,6 +11125,20 @@
         "hardware design"
       ],
       "scheduled_at": "2026-04-05T20:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Btrfs Deep Dive: The B‑Tree Filesystem Explained",
+      "url": "https://martinuke0.github.io/posts/2026-04-01-btrfs-deep-dive-the-btree-filesystem-explained/",
+      "social_hook": "Btrfs—pronounced “B‑tree file system” or “Better FS”—is the most modern copy‑on‑write (CoW) filesystem native to the Linux kernel. Since its first commit in 2007, Btrfs has evolved from an experimental prototype to a production‑ready storage solution that rivals traditional filesystems like ext4 and XFS while offering features traditionally found only in enterprise‑grade storage arrays.\n\nThis article provides an in‑depth, 2,500‑word exploration of Btrfs, covering its historical origins, core data structures, key capabilities, practical administration, performance tuning, real‑world deployments, and future direction. Whether you’re a system administrator, a kernel developer, or an enthusiast looking to understand the inner workings of modern Linux storage, this guide aims to give you a comprehensive view of Btrfs and how to harness its power effectively.\n\n> Note: Btrfs is a copy‑on‑write filesystem. Unlike traditional journaling filesystems, it never overwrites existing blocks in place. This design choice underpins many of its advanced features—snapshots, checksums, and online defragmentation—while also introducing unique performance characteristics that we’ll discuss later.",
+      "tags": [
+        "btrfs",
+        "filesystem",
+        "linux",
+        "storage",
+        "snapshots"
+      ],
+      "scheduled_at": "2026-04-05T21:02:50Z",
       "status": "pending"
     }
   ]
