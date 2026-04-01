@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-07T13:02:50Z",
+  "last_scheduled_at": "2026-04-07T14:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -11701,6 +11701,20 @@
         "Set-Cookie"
       ],
       "scheduled_at": "2026-04-07T13:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "High‑Performance Axios: Techniques, Patterns, and Real‑World Optimizations",
+      "url": "https://martinuke0.github.io/posts/2026-04-01-highperformance-axios-techniques-patterns-and-realworld-optimizations/",
+      "social_hook": "Axios has become the de‑facto HTTP client for JavaScript developers, whether they are building single‑page applications (SPAs), server‑side services with Node.js, or even hybrid mobile apps. Its promise‑based API, automatic JSON transformation, and rich interceptor system make it a pleasure to work with. However, as applications scale—handling hundreds or thousands of concurrent requests, streaming large payloads, or operating under strict latency budgets—raw convenience is no longer enough. Performance considerations that are often overlooked in early prototypes become bottlenecks that directly impact user experience and operational costs.\n\n* Provide concrete, production‑ready techniques for making every request faster and lighter.\n\n* Show how to adapt Axios for both browser and Node.js environments, including HTTP/2, connection pooling, and streaming.",
+      "tags": [
+        "javascript",
+        "axios",
+        "performance",
+        "web‑api",
+        "nodejs"
+      ],
+      "scheduled_at": "2026-04-07T14:02:50Z",
       "status": "pending"
     }
   ]
