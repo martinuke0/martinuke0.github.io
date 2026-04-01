@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-08T13:02:50Z",
+  "last_scheduled_at": "2026-04-08T14:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -12037,6 +12037,20 @@
         "socket-programming"
       ],
       "scheduled_at": "2026-04-08T13:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Understanding HTTP/3: The Next Evolution of the Web Protocol",
+      "url": "https://martinuke0.github.io/posts/2026-04-01-understanding-http3-the-next-evolution-of-the-web-protocol/",
+      "social_hook": "The web has been built on a series of incremental protocol improvements. From the original HTTP/0.9, through the widely‑deployed HTTP/1.1, to the multiplexed, binary HTTP/2, each version has tackled the performance bottlenecks of its predecessor. Yet, the underlying transport layer—TCP—has become a limiting factor in an era dominated by mobile devices, high‑latency networks, and ever‑growing media payloads.\n\nEnter HTTP/3, the first major web protocol that abandons TCP entirely in favor of QUIC (Quick UDP Internet Connections), a transport protocol built on top of UDP. HTTP/3 promises faster connection establishment, reduced head‑of‑line blocking, built‑in encryption, and smoother migration across network changes. In this article we will:\n\n* Explain the technical foundations of QUIC and why UDP is a better substrate for modern web traffic.",
+      "tags": [
+        "HTTP/3",
+        "QUIC",
+        "Web Performance",
+        "Networking",
+        "Protocol"
+      ],
+      "scheduled_at": "2026-04-08T14:02:50Z",
       "status": "pending"
     }
   ]
