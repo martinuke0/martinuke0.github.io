@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-05T18:02:50Z",
+  "last_scheduled_at": "2026-04-05T19:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -11097,6 +11097,20 @@
         "high availability"
       ],
       "scheduled_at": "2026-04-05T18:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Deep Dive into JFS (Journaled File System)",
+      "url": "https://martinuke0.github.io/posts/2026-04-01-deep-dive-into-jfs-journaled-file-system/",
+      "social_hook": "The Journaled File System (JFS), originally developed by IBM, is a robust, high‑performance file system that has been part of the Linux ecosystem for more than two decades. While many modern Linux distributions ship with ext4 or XFS by default, JFS still holds a unique niche thanks to its low CPU overhead, excellent scalability, and reliable journaling capabilities.\n\n* Practical guidance for installing, configuring, and tuning JFS on a Linux server.\n\n* Real‑world scenarios where JFS shines, as well as its limitations and future outlook.",
+      "tags": [
+        "JFS",
+        "File Systems",
+        "Linux",
+        "Storage",
+        "Operating Systems"
+      ],
+      "scheduled_at": "2026-04-05T19:02:50Z",
       "status": "pending"
     }
   ]
