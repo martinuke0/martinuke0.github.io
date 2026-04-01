@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-05T01:02:50Z",
+  "last_scheduled_at": "2026-04-05T02:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -10859,6 +10859,20 @@
         "inference"
       ],
       "scheduled_at": "2026-04-05T01:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing Asynchronous State Propagation in Decentralized Multi‑Agent Edge Inference Systems",
+      "url": "https://martinuke0.github.io/posts/2026-04-01-implementing-asynchronous-state-propagation-in-decentralized-multiagent-edge-inference-systems/",
+      "social_hook": "Edge computing has moved from a niche concept to a mainstream architectural pattern, especially for AI‑driven applications that demand sub‑100 ms latency. In many real‑world deployments—autonomous drones, collaborative robotics, smart‑city sensor grids—the inference workload is distributed across a decentralized swarm of heterogeneous agents. These agents must continuously share context, model updates, and sensor observations while operating under strict bandwidth, power, and latency constraints.\n\nTraditional centralized orchestration (a single broker or cloud controller) introduces a single point of failure and, more importantly, adds network round‑trip latency that defeats the purpose of edge inference. Asynchronous state propagation—the ability for each agent to push and pull state changes without waiting for a global synchronization barrier—offers a path to low‑latency, resilient inference pipelines.\n\nThis article provides a deep dive into the design, implementation, and optimisation of asynchronous state propagation in decentralized multi‑agent systems aimed at low‑latency edge inference. We will explore theoretical underpinnings, concrete architectural patterns, sample code, and performance‑tuning tricks that practitioners can adopt today.",
+      "tags": [
+        "edge computing",
+        "multi-agent systems",
+        "asynchronous programming",
+        "state propagation",
+        "low latency"
+      ],
+      "scheduled_at": "2026-04-05T02:02:50Z",
       "status": "pending"
     }
   ]
