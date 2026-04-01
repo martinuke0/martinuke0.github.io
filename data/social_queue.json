@@ -9491,7 +9491,7 @@
         "cloud-architecture"
       ],
       "scheduled_at": "2026-04-01T00:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Optimizing Event-Driven Microservices Through Idempotent Processing and Reliable Message Delivery Orchestration",
@@ -9519,7 +9519,7 @@
         "devops"
       ],
       "scheduled_at": "2026-04-01T02:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Deep Dive into Ceph Storage Clusters: Architecture, Deployment, and Operations",
@@ -9533,7 +9533,7 @@
         "Data Management"
       ],
       "scheduled_at": "2026-04-01T03:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Mastering Amazon S3: Architecture, Best Practices, and Real‑World Use Cases",
@@ -9547,7 +9547,7 @@
         "Security"
       ],
       "scheduled_at": "2026-04-01T04:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Mastering Luigi: A Comprehensive Guide to Scalable Data Pipelines",
