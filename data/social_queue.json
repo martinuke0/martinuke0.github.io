@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-08T10:02:50Z",
+  "last_scheduled_at": "2026-04-08T11:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -11995,6 +11995,20 @@
         "autonomous-agents"
       ],
       "scheduled_at": "2026-04-08T10:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Token Engineering: Designing Sustainable Crypto Economies",
+      "url": "https://martinuke0.github.io/posts/2026-04-01-token-engineering-designing-sustainable-crypto-economies/",
+      "social_hook": "Token engineering sits at the intersection of economics, computer science, and systems design. It is the discipline that turns a conceptual token model into a robust, secure, and incentive‑compatible economic system that can thrive in a decentralized environment. While the term is relatively new—popularized by the Token Engineering Community (TEC) and the rise of decentralized finance (DeFi)—the underlying principles draw from decades of research in mechanism design, game theory, and monetary economics.\n\nBy the end, you should have a clear mental model of how to approach token design, the toolbox required, and the common pitfalls to avoid.\n\nToken engineering is the systematic design, analysis, and validation of tokenized economies. It goes beyond the simple act of issuing an ERC‑20 or BEP‑20 token; it seeks to answer questions such as:",
+      "tags": [
+        "token engineering",
+        "cryptocurrency",
+        "blockchain",
+        "decentralized finance",
+        "economics"
+      ],
+      "scheduled_at": "2026-04-08T11:02:50Z",
       "status": "pending"
     }
   ]
