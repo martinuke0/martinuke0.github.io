@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-05T19:02:50Z",
+  "last_scheduled_at": "2026-04-05T20:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -11111,6 +11111,20 @@
         "Operating Systems"
       ],
       "scheduled_at": "2026-04-05T19:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "A Deep Dive into Embedded Systems: Architecture, Development, and Real‑World Applications",
+      "url": "https://martinuke0.github.io/posts/2026-04-01-a-deep-dive-into-embedded-systems-architecture-development-and-realworld-applications/",
+      "social_hook": "Embedded systems are everywhere—from the tiny microcontroller that blinks an LED on a kitchen appliance to the sophisticated control units that keep autonomous cars on the road. Unlike general‑purpose computers, an embedded system is purpose‑built to perform a specific set of tasks, often under strict constraints on power, size, latency, and reliability.\n\nThis article provides a comprehensive, in‑depth look at the world of embedded systems. Whether you are a seasoned firmware engineer, a hardware hobbyist, or a software developer curious about moving into the embedded domain, you will find detailed explanations, practical code snippets, and real‑world examples that illustrate the full development lifecycle.\n\nAt its core, an embedded system is a computing platform integrated into a larger device to control, monitor, or assist its operation. Key characteristics include:",
+      "tags": [
+        "embedded systems",
+        "microcontrollers",
+        "real-time operating systems",
+        "IoT",
+        "hardware design"
+      ],
+      "scheduled_at": "2026-04-05T20:02:50Z",
       "status": "pending"
     }
   ]
