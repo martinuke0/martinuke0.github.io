@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-05T04:02:50Z",
+  "last_scheduled_at": "2026-04-05T05:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -10901,6 +10901,20 @@
         "virtual-memory"
       ],
       "scheduled_at": "2026-04-05T04:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Deep Dive into the Linux Kernel: Architecture, Development, and Real‑World Applications",
+      "url": "https://martinuke0.github.io/posts/2026-04-01-deep-dive-into-the-linux-kernel-architecture-development-and-realworld-applications/",
+      "social_hook": "Since its birth in 1991, the Linux kernel has grown from a modest hobby project into the beating heart of millions of devices—from massive data‑center servers to tiny IoT sensors, from Android smartphones to the International Space Station’s on‑board computers. Its success rests on a blend of technical elegance, a transparent development model, and an ecosystem that encourages collaboration across academia, industry, and hobbyist communities.\n\nThis article provides a comprehensive, in‑depth look at the Linux kernel. We will explore its historical evolution, core architecture, critical subsystems, the build and configuration workflow, and practical examples of extending the kernel with modules. Real‑world case studies will illustrate how the kernel powers diverse workloads, and we’ll finish with a glimpse at emerging trends such as eBPF and Rust integration.\n\nWhether you are a seasoned systems programmer, a student preparing for a kernel‑development course, or an enthusiast curious about what makes Linux tick, this guide aims to give you a solid foundation and actionable knowledge.",
+      "tags": [
+        "linux",
+        "kernel-development",
+        "operating-systems",
+        "system-programming",
+        "open-source"
+      ],
+      "scheduled_at": "2026-04-05T05:02:50Z",
       "status": "pending"
     }
   ]
