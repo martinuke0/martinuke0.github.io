@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-07T11:02:50Z",
+  "last_scheduled_at": "2026-04-07T12:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -11673,6 +11673,20 @@
         "design patterns"
       ],
       "scheduled_at": "2026-04-07T11:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Understanding Token‑Based Authentication: Concepts, Implementation, and Best Practices",
+      "url": "https://martinuke0.github.io/posts/2026-04-01-understanding-tokenbased-authentication-concepts-implementation-and-best-practices/",
+      "social_hook": "In the modern world of distributed systems, mobile apps, single‑page applications (SPAs), and microservices, the traditional session‑based authentication model—where a server stores a user’s login state in memory or a database and the client presents a session identifier cookie—has become increasingly cumbersome. Network latency, horizontal scaling, and the rise of stateless APIs have driven developers toward token‑based authentication. Tokens enable a client to prove its identity without requiring the server to keep per‑user state, making authentication more scalable, portable, and flexible.\n\nThis article provides an in‑depth exploration of token‑based authentication. We will cover the underlying concepts, compare the most common token formats (JSON Web Tokens, opaque tokens, API keys), walk through practical implementations in popular stacks, discuss security considerations, and examine real‑world use cases. By the end, you should be able to design, implement, and maintain a robust token‑based authentication system for a variety of applications.\n\nToken‑based authentication is a stateless mechanism where a token—a self‑contained string of data—represents the client’s authentication state. The typical flow looks like this:",
+      "tags": [
+        "authentication",
+        "security",
+        "JWT",
+        "OAuth2",
+        "API"
+      ],
+      "scheduled_at": "2026-04-07T12:02:50Z",
       "status": "pending"
     }
   ]
