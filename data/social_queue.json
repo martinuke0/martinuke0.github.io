@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-05T08:02:50Z",
+  "last_scheduled_at": "2026-04-05T09:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -10957,6 +10957,20 @@
         "performance"
       ],
       "scheduled_at": "2026-04-05T08:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Understanding Virtual File Systems (VFS): Architecture, Implementation, and Real‑World Use Cases",
+      "url": "https://martinuke0.github.io/posts/2026-04-01-understanding-virtual-file-systems-vfs-architecture-implementation-and-realworld-use-cases/",
+      "social_hook": "A Virtual File System (VFS) is an abstraction layer that sits between the kernel’s core file‑system logic and the concrete file‑system implementations (ext4, NTFS, NFS, etc.). By presenting a uniform API to user space, the VFS enables applications to interact with files and directories without needing to know the underlying storage medium, network protocol, or device driver specifics.\n\nIn modern operating systems, the VFS is not an optional convenience—it is a fundamental building block that allows:\n\n* Transparent mounting of remote resources (e.g., NFS shares) alongside local disks.",
+      "tags": [
+        "virtual file system",
+        "filesystem",
+        "operating system",
+        "kernel",
+        "programming"
+      ],
+      "scheduled_at": "2026-04-05T09:02:50Z",
       "status": "pending"
     }
   ]
