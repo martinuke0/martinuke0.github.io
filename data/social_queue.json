@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-05T14:02:50Z",
+  "last_scheduled_at": "2026-04-05T15:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -11041,6 +11041,20 @@
         "storage"
       ],
       "scheduled_at": "2026-04-05T14:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Understanding NTFS: Architecture, Features, and Practical Usage",
+      "url": "https://martinuke0.github.io/posts/2026-04-01-understanding-ntfs-architecture-features-and-practical-usage/",
+      "social_hook": "The New Technology File System (NTFS) has been the default file system for Microsoft Windows operating systems since Windows NT 3.1, released in 1993. Over three decades, NTFS has evolved from a modest replacement for the aging FAT family into a sophisticated, high‑performance, and feature‑rich storage engine that powers everything from consumer laptops to enterprise data centers.\n\n Core architecture** – the on‑disk layout, Master File Table (MFT), and metadata structures.\n\n Key features** – journaling, security descriptors, compression, encryption, sparse files, reparse points, and more.",
+      "tags": [
+        "NTFS",
+        "File System",
+        "Windows",
+        "Security",
+        "Data Management"
+      ],
+      "scheduled_at": "2026-04-05T15:02:50Z",
       "status": "pending"
     }
   ]
