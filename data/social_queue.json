@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-07T00:02:50Z",
+  "last_scheduled_at": "2026-04-07T01:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -11518,6 +11518,20 @@
         "linux"
       ],
       "scheduled_at": "2026-04-07T00:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering wget: A Comprehensive Guide to Efficient File Retrieval",
+      "url": "https://martinuke0.github.io/posts/2026-04-01-mastering-wget-a-comprehensive-guide-to-efficient-file-retrieval/",
+      "social_hook": "`wget`—short for World Wide Web GET—is a powerful, non‑interactive command‑line utility designed to retrieve files from the Internet using HTTP, HTTPS, and FTP protocols. Since its first release in 1996 as part of the GNU Project, `wget` has become a staple in the toolbox of system administrators, developers, DevOps engineers, and hobbyist power users alike.\n\nWhy does `wget` remain relevant in an era dominated by graphical download managers and sophisticated APIs? The answer lies in its simplicity, robustness, and automation‑friendly design:\n\n Non‑interactive**: Once launched, `wget` can run unattended, making it ideal for cron jobs, CI pipelines, and remote servers without a graphical interface.",
+      "tags": [
+        "wget",
+        "command-line",
+        "networking",
+        "linux",
+        "automation"
+      ],
+      "scheduled_at": "2026-04-07T01:02:50Z",
       "status": "pending"
     }
   ]
