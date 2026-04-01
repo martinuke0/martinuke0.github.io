@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-07T19:02:50Z",
+  "last_scheduled_at": "2026-04-07T20:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -11785,6 +11785,20 @@
         "cargo"
       ],
       "scheduled_at": "2026-04-07T19:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Go: A Comprehensive Guide for Modern Developers",
+      "url": "https://martinuke0.github.io/posts/2026-04-01-mastering-go-a-comprehensive-guide-for-modern-developers/",
+      "social_hook": "Go, often referred to as Golang, has become one of the most influential programming languages of the last decade. Created at Google in 2007 and publicly released in 2009, Go was designed to address the shortcomings of existing systems languages while preserving the performance and safety that large‑scale, production‑grade software demands.\n\nWhether you are a seasoned systems engineer looking for a language that simplifies concurrency, a web developer seeking a fast, type‑safe alternative to JavaScript on the server, or a DevOps practitioner interested in building container‑ready microservices, Go offers a compelling blend of:\n\n Simplicity** – a small, well‑documented standard library and a language specification that can be mastered in weeks.",
+      "tags": [
+        "Go",
+        "Programming",
+        "Concurrency",
+        "Web Development",
+        "Microservices"
+      ],
+      "scheduled_at": "2026-04-07T20:02:50Z",
       "status": "pending"
     }
   ]
