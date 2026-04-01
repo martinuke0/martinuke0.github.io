@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-08T00:02:50Z",
+  "last_scheduled_at": "2026-04-08T01:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -11855,6 +11855,20 @@
         "system-administration"
       ],
       "scheduled_at": "2026-04-08T00:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Reverse Proxies: Architecture, Configuration, and Real‑World Use Cases",
+      "url": "https://martinuke0.github.io/posts/2026-04-01-mastering-reverse-proxies-architecture-configuration-and-realworld-use-cases/",
+      "social_hook": "In modern web architecture, the term reverse proxy appears in almost every conversation about scalability, security, and reliability. While a forward proxy sits between clients and the internet, a reverse proxy sits in front of one or more servers, acting as an intermediary for inbound traffic. It receives client requests, applies a set of policies, and forwards those requests to the appropriate backend service. The response then travels back through the same proxy, allowing the proxy to perform transformations, caching, authentication, and more before delivering the final payload to the client.\n\nThis article dives deep into the concept of reverse proxies, exploring how they work, why they matter, and how you can implement them with popular tools such as Nginx, Apache, HAProxy, Traefik, and Envoy. We’ll walk through practical configuration examples, discuss advanced patterns (e.g., API gateways, service meshes), and outline best‑practice guidelines for performance, security, and observability. By the end, you’ll have a solid mental model and concrete code snippets to bring a reverse proxy into production with confidence.\n\nA reverse proxy is a server that receives requests on behalf of one or more backend (origin) servers and then forwards those requests to the appropriate destination. Unlike a forward proxy, which is used by clients to access external resources, a reverse proxy is transparent to the client—the client typically never knows it exists.",
+      "tags": [
+        "reverse-proxy",
+        "nginx",
+        "load-balancing",
+        "web-security",
+        "devops"
+      ],
+      "scheduled_at": "2026-04-08T01:02:50Z",
       "status": "pending"
     }
   ]
