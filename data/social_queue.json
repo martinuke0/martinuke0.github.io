@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-04T22:02:50Z",
+  "last_scheduled_at": "2026-04-04T23:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -10816,6 +10816,21 @@
         "Autonomous Agents"
       ],
       "scheduled_at": "2026-04-04T22:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Demystifying Semiring Provenance: Making AI Knowledge Tracking Accessible for Everyone",
+      "url": "https://martinuke0.github.io/posts/2026-04-01-demystifying-semiring-provenance-making-ai-knowledge-tracking-accessible-for-everyone/",
+      "social_hook": "Imagine you're a detective piecing together a complex case. You have clues (facts), rules for connecting them, and you need to trace exactly how you arrived at \"the butler did it.\" What if that detective work could be automated in AI systems handling massive knowledge bases—like medical diagnoses, legal reasoning, or recommendation engines? That's the essence of the research paper \"Semiring Provenance for Lightweight Description Logics\" by Camille Bourgaux, Ana Ozaki, and Rafael Peñaloza.[1][2]\n\nThis paper bridges two worlds: provenance tracking from databases (think \"where did this data come from?\") and description logics (DLs), the backbone of Semantic Web tech like OWL ontologies. It introduces \"semiring provenance\" to DLs, allowing us to annotate facts with mathematical \"weights\" and propagate them through reasoning, revealing why and how conclusions are drawn. For a general technical audience—developers, data scientists, or AI enthusiasts—this means tools to make knowledge systems more transparent and debuggable.\n\nIn this post, we'll break it down step-by-step: no PhD required. We'll use real-world analogies, practical examples, and explore why this matters for building trustworthy AI. By the end, you'll grasp the core ideas and see applications in your work.",
+      "tags": [
+        "AI Research",
+        "Description Logics",
+        "Semirings",
+        "Provenance",
+        "Knowledge Graphs",
+        "Ontology Reasoning"
+      ],
+      "scheduled_at": "2026-04-04T23:02:50Z",
       "status": "pending"
     }
   ]
