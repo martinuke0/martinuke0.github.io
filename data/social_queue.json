@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-08T06:02:50Z",
+  "last_scheduled_at": "2026-04-08T07:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -11939,6 +11939,20 @@
         "privacy"
       ],
       "scheduled_at": "2026-04-08T06:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Designing Robust Payment Systems: Architecture, Scalability, and Security",
+      "url": "https://martinuke0.github.io/posts/2026-04-01-designing-robust-payment-systems-architecture-scalability-and-security/",
+      "social_hook": "Payments are the lifeblood of any digital commerce platform. Whether you’re building a marketplace, a subscription SaaS, or a fintech startup, the reliability, security, and performance of your payment system directly affect user trust and revenue. Designing a payments system is far more than wiring a credit‑card form to a processor; it is a complex orchestration of network protocols, regulatory compliance, fraud detection, and high‑throughput data pipelines.\n\nIn this article we’ll dissect the problem space, walk through a reference architecture, dive into concrete design decisions (data model, APIs, security, scaling), and finish with a practical code example. By the end, you’ll have a blueprint you can adapt to a wide range of business requirements—from a simple “pay‑once” checkout to a multi‑currency, multi‑partner settlement engine.\n\n> Note: The concepts discussed here are technology‑agnostic. Wherever possible we’ll illustrate with language‑neutral diagrams and small snippets in Python and Java, but the same principles apply to Go, Rust, Node.js, or any modern stack.",
+      "tags": [
+        "payments",
+        "system-design",
+        "architecture",
+        "security",
+        "scalability"
+      ],
+      "scheduled_at": "2026-04-08T07:02:50Z",
       "status": "pending"
     }
   ]
