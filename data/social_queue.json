@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-08T14:02:50Z",
+  "last_scheduled_at": "2026-04-08T15:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -12051,6 +12051,20 @@
         "Protocol"
       ],
       "scheduled_at": "2026-04-08T14:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Low Latency Edge Inference for Distributed Autonomous Robotic Swarms Beyond Cloud Connectivity",
+      "url": "https://martinuke0.github.io/posts/2026-04-01-optimizing-low-latency-edge-inference-for-distributed-autonomous-robotic-swarms-beyond-cloud-connectivity/",
+      "social_hook": "The promise of autonomous robotic swarms—hundreds or thousands of lightweight agents cooperating to achieve a common goal—has moved from science‑fiction to real‑world deployments in agriculture, logistics, surveillance, and disaster response. A critical enabler of these deployments is edge inference: running machine‑learning (ML) models directly on the robot’s on‑board compute resources rather than streaming raw sensor data to a remote cloud for processing.\n\nWhy does latency matter? In a swarm, each agent’s decision influences the collective behavior. A delay of even a few hundred milliseconds can cause collisions, missed deadlines, or sub‑optimal coordination. Moreover, many operating environments (underground mines, remote farms, battlefield zones) suffer from intermittent or non‑existent broadband connectivity, making reliance on a central cloud infeasible.\n\nThis article provides an in‑depth guide to designing, deploying, and optimizing low‑latency edge inference pipelines for distributed autonomous robotic swarms that must operate beyond cloud connectivity. We cover the underlying technology stack, practical optimization techniques, communication strategies, and real‑world case studies, concluding with a roadmap for future research.",
+      "tags": [
+        "edge computing",
+        "robotics",
+        "autonomous systems",
+        "swarm intelligence",
+        "low latency"
+      ],
+      "scheduled_at": "2026-04-08T15:02:50Z",
       "status": "pending"
     }
   ]
