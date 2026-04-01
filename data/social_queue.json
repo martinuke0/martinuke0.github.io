@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-08T12:02:50Z",
+  "last_scheduled_at": "2026-04-08T13:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -12023,6 +12023,20 @@
         "session management"
       ],
       "scheduled_at": "2026-04-08T12:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "TCP vs UDP: A Deep Dive into Transport Layer Protocols",
+      "url": "https://martinuke0.github.io/posts/2026-04-01-tcp-vs-udp-a-deep-dive-into-transport-layer-protocols/",
+      "social_hook": "When you browse the web, stream a video, or make a VoIP call, data is moving across the Internet in packets. Those packets travel through the transport layer of the TCP/IP stack, where two foundational protocols decide how the data is delivered: Transmission Control Protocol (TCP) and User Datagram Protocol (UDP).\n\nBoth protocols are ubiquitous, yet they embody dramatically different design philosophies. TCP promises reliability, ordering, and congestion control at the cost of latency and overhead. UDP, by contrast, offers a lightweight, connection‑less service that delivers packets “as fast as possible,” leaving reliability to the application.\n\nThis article provides a comprehensive, in‑depth comparison of TCP and UDP. We’ll explore their internals, walk through practical code examples, examine real‑world protocols that depend on each, and discuss how to choose the right transport for your own projects. By the end, you should be able to:",
+      "tags": [
+        "networking",
+        "tcp",
+        "udp",
+        "protocols",
+        "socket-programming"
+      ],
+      "scheduled_at": "2026-04-08T13:02:50Z",
       "status": "pending"
     }
   ]
