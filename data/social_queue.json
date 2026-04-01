@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-08T11:02:50Z",
+  "last_scheduled_at": "2026-04-08T12:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -12009,6 +12009,20 @@
         "economics"
       ],
       "scheduled_at": "2026-04-08T11:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Understanding the HttpOnly Cookie Flag: A Comprehensive Guide",
+      "url": "https://martinuke0.github.io/posts/2026-04-01-understanding-the-httponly-cookie-flag-a-comprehensive-guide/",
+      "social_hook": "Cookies are the cornerstone of state management on the web. They enable everything from user authentication to personalization, but their ubiquity also makes them a prime target for attackers. One of the most effective, yet often misunderstood, defenses against client‑side attacks is the HttpOnly flag. When correctly applied, HttpOnly can dramatically reduce the risk of session hijacking via cross‑site scripting (XSS) and other client‑side exploits.\n\n* Compare HttpOnly with related cookie attributes such as `Secure` and `SameSite`.\n\nBy the end, you’ll have a solid understanding of when and how to use HttpOnly, and you’ll be equipped to audit existing applications for proper cookie hygiene.",
+      "tags": [
+        "web security",
+        "cookies",
+        "HttpOnly",
+        "XSS mitigation",
+        "session management"
+      ],
+      "scheduled_at": "2026-04-08T12:02:50Z",
       "status": "pending"
     }
   ]
