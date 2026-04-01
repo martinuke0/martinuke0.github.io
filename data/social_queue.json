@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-04T19:02:50Z",
+  "last_scheduled_at": "2026-04-04T20:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -10773,6 +10773,20 @@
         "deployment"
       ],
       "scheduled_at": "2026-04-04T19:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing LLM Performance with Advanced Prompt Engineering and Semantic Caching Strategies",
+      "url": "https://martinuke0.github.io/posts/2026-04-01-optimizing-llm-performance-with-advanced-prompt-engineering-and-semantic-caching-strategies/",
+      "social_hook": "Large Language Models (LLMs) have moved from research curiosities to production‑grade components powering chatbots, code assistants, content generators, and decision‑support systems. As organizations scale these models, the focus shifts from what the model can generate to how efficiently it can generate the right answer. Two levers dominate this efficiency conversation:\n\n1. Prompt Engineering – the art and science of shaping the textual input so the model spends fewer tokens, produces higher‑quality outputs, and aligns with downstream constraints (latency, cost, safety).\n\n2. Semantic Caching – the systematic reuse of previously computed model results, leveraging vector similarity to serve near‑duplicate requests without invoking the LLM again.",
+      "tags": [
+        "LLM",
+        "Prompt Engineering",
+        "Semantic Caching",
+        "AI Performance",
+        "Machine Learning"
+      ],
+      "scheduled_at": "2026-04-04T20:02:50Z",
       "status": "pending"
     }
   ]
