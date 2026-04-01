@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-07T20:02:50Z",
+  "last_scheduled_at": "2026-04-07T21:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -11799,6 +11799,20 @@
         "Microservices"
       ],
       "scheduled_at": "2026-04-07T20:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Git Submodules: A Comprehensive Guide for Developers",
+      "url": "https://martinuke0.github.io/posts/2026-04-01-mastering-git-submodules-a-comprehensive-guide-for-developers/",
+      "social_hook": "Git is the de‑facto standard for distributed version control, and its flexibility lets teams model almost any code‑organization strategy. One of the more nuanced features is Git submodules, a mechanism that lets one repository (the super‑project) embed another Git repository at a specific directory path. Submodules have been around since Git 1.5, but they remain a source of confusion, frustration, and, when used correctly, powerful modularity.\n\nThis guide dives deep into what submodules are, when they make sense, how to set them up, maintain them, and avoid their most common pitfalls. By the end, you’ll be equipped to decide whether submodules are the right tool for your workflow, and you’ll have a concrete, battle‑tested set of commands and best‑practice recommendations to keep your codebase healthy.\n\n> Note: This article assumes a working knowledge of Git basics (cloning, committing, branching). If you’re new to Git, consider reviewing the official Git documentation first.",
+      "tags": [
+        "git",
+        "version-control",
+        "submodules",
+        "software-development",
+        "devops"
+      ],
+      "scheduled_at": "2026-04-07T21:02:50Z",
       "status": "pending"
     }
   ]
