@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-07T23:02:50Z",
+  "last_scheduled_at": "2026-04-08T00:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -11841,6 +11841,20 @@
         "mqtt"
       ],
       "scheduled_at": "2026-04-07T23:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Reverse Address Lookup: From DNS to Geocoding – A Deep Dive",
+      "url": "https://martinuke0.github.io/posts/2026-04-01-reverse-address-lookup-from-dns-to-geocoding-a-deep-dive/",
+      "social_hook": "When most people think about an address, they picture a street name, a house number, or perhaps a URL that points to a website. In the world of networking and data processing, however, an address can mean many things: an IP address, a MAC address, a memory pointer, or even a geographic coordinate. The concept of reverse address lookup—the process of taking an address and translating it back to a more human‑readable identifier—plays a pivotal role in troubleshooting, security, compliance, and user experience.\n\nIn this article we will explore reverse address lookup from several complementary angles:\n\nWhile each of these techniques uses different protocols and data sources, they share a common workflow:",
+      "tags": [
+        "reverse-dns",
+        "networking",
+        "security",
+        "dns",
+        "system-administration"
+      ],
+      "scheduled_at": "2026-04-08T00:02:50Z",
       "status": "pending"
     }
   ]
