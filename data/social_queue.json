@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-05T12:02:50Z",
+  "last_scheduled_at": "2026-04-05T13:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -11013,6 +11013,20 @@
         "multithreading"
       ],
       "scheduled_at": "2026-04-05T12:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Understanding Linux Architecture: A Deep Dive into the Kernel, Subsystems, and Real‑World Applications",
+      "url": "https://martinuke0.github.io/posts/2026-04-01-understanding-linux-architecture-a-deep-dive-into-the-kernel-subsystems-and-realworld-applications/",
+      "social_hook": "Linux powers everything from tiny IoT sensors to the world’s most powerful supercomputers. Yet, despite its ubiquity, many developers and system administrators only scratch the surface of what makes Linux tick. This article offers a comprehensive, in‑depth exploration of Linux architecture, detailing the core kernel components, the surrounding user‑space stack, and the practical implications for real‑world deployments.\n\n* The relationship between system calls, the Virtual File System (VFS), and device drivers.\n\n* How init systems, libraries, and package managers fit into the broader picture.",
+      "tags": [
+        "linux",
+        "architecture",
+        "kernel",
+        "opensource",
+        "system"
+      ],
+      "scheduled_at": "2026-04-05T13:02:50Z",
       "status": "pending"
     }
   ]
