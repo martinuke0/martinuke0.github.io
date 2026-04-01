@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-05T13:02:50Z",
+  "last_scheduled_at": "2026-04-05T14:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -11027,6 +11027,20 @@
         "system"
       ],
       "scheduled_at": "2026-04-05T13:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Understanding XFS: A Deep Dive into the High-Performance Filesystem",
+      "url": "https://martinuke0.github.io/posts/2026-04-01-understanding-xfs-a-deep-dive-into-the-high-performance-filesystem/",
+      "social_hook": "XFS is a high‑performance, 64‑bit journaling file system originally developed by Silicon Graphics (SGI) for the IRIX operating system in the early 1990s. Since its open‑source release in 2001, XFS has become a core component of many Linux distributions, especially those targeting enterprise, high‑throughput, or large‑scale storage workloads. Its design goals—scalability, reliability, and efficient space management—make it a compelling choice for everything from database servers and virtualization hosts to big‑data clusters and high‑performance computing (HPC) environments.\n\nIn this article we will explore XFS from the ground up: its history, architecture, key features, performance‑tuning knobs, administration tools, and real‑world use cases. By the end, you should have a solid mental model of how XFS works, when it shines, and how to deploy and maintain it effectively.\n\nXFS’s longevity is a testament to its robust design. Over three decades, it has evolved from a proprietary SGI filesystem to a cornerstone of modern Linux storage stacks, continuously incorporating features that address emerging hardware trends such as SSDs, NVMe, and zoned storage.",
+      "tags": [
+        "filesystem",
+        "XFS",
+        "Linux",
+        "performance",
+        "storage"
+      ],
+      "scheduled_at": "2026-04-05T14:02:50Z",
       "status": "pending"
     }
   ]
