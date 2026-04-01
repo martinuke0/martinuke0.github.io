@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-08T16:02:50Z",
+  "last_scheduled_at": "2026-04-08T17:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -12079,6 +12079,20 @@
         "AI Engineering"
       ],
       "scheduled_at": "2026-04-08T16:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Autonomous Memory Systems for Distributed AI Agent Orchestration in Production",
+      "url": "https://martinuke0.github.io/posts/2026-04-01-architecting-autonomous-memory-systems-for-distributed-ai-agent-orchestration-in-production/",
+      "social_hook": "The rapid rise of large‑scale artificial intelligence (AI) workloads has transformed how modern enterprises design their infrastructure. No longer are AI models isolated, batch‑oriented jobs; they are now autonomous agents that continuously observe, reason, and act on real‑world data streams. To coordinate thousands of such agents across multiple data centers, a memory system must do more than simply store key‑value pairs—it must provide semantic persistence, low‑latency retrieval, and self‑healing orchestration while respecting the strict reliability, security, and compliance requirements of production environments.\n\nThis article walks through the end‑to‑end architecture of Autonomous Memory Systems (AMS) for Distributed AI Agent Orchestration. We cover the core concepts, design patterns, technology choices, and operational best practices. Real‑world examples and code snippets illustrate how to turn theory into practice.\n\nAgents are often stateless in terms of compute, but they rely heavily on a shared memory layer to persist context, goals, and outcomes across invocations.",
+      "tags": [
+        "AI Ops",
+        "Distributed Systems",
+        "Memory Architecture",
+        "Production Engineering",
+        "Agent Orchestration"
+      ],
+      "scheduled_at": "2026-04-08T17:02:50Z",
       "status": "pending"
     }
   ]
