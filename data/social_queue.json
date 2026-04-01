@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-05T22:02:50Z",
+  "last_scheduled_at": "2026-04-05T23:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -11153,6 +11153,20 @@
         "personal growth"
       ],
       "scheduled_at": "2026-04-05T22:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Understanding Drive Pooling: Concepts, Implementation, and Best Practices",
+      "url": "https://martinuke0.github.io/posts/2026-04-01-understanding-drive-pooling-concepts-implementation-and-best-practices/",
+      "social_hook": "In an era where data is the lifeblood of individuals, businesses, and entire industries, the way we store and manage that data has become a critical design decision. Drive pooling—the practice of aggregating multiple physical storage devices into a single logical entity—offers a flexible, resilient, and often cost‑effective alternative to traditional, static storage architectures.\n\nThis article dives deep into the theory, technology, and real‑world application of drive pooling. We will explore:\n\n* The fundamental concepts behind drive pooling and how it differs from classic RAID.",
+      "tags": [
+        "storage",
+        "virtualization",
+        "drive pooling",
+        "data protection",
+        "RAID"
+      ],
+      "scheduled_at": "2026-04-05T23:02:50Z",
       "status": "pending"
     }
   ]
