@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-05T15:02:50Z",
+  "last_scheduled_at": "2026-04-05T16:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -11055,6 +11055,20 @@
         "Data Management"
       ],
       "scheduled_at": "2026-04-05T15:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Understanding Inodes: The Backbone of Unix‑Like Filesystems",
+      "url": "https://martinuke0.github.io/posts/2026-04-01-understanding-inodes-the-backbone-of-unixlike-filesystems/",
+      "social_hook": "If you have ever glanced at the output of `ls -i` or wrestled with an “inode exhausted” error, you have already encountered the world of inodes. Inodes (index nodes) are the invisible data structures that give Unix‑like operating systems the ability to store, locate, and manage files efficiently. While the concept is decades old, it remains central to modern Linux, BSD, and even some network file systems.\n\nThis article dives deep into the anatomy, purpose, and practical implications of inodes. By the end, you will understand:\n\n* Real‑world examples, code snippets, and command‑line tools for working with inodes.",
+      "tags": [
+        "inodes",
+        "filesystem",
+        "linux",
+        "unix",
+        "storage"
+      ],
+      "scheduled_at": "2026-04-05T16:02:50Z",
       "status": "pending"
     }
   ]
