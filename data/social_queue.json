@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-08T01:02:50Z",
+  "last_scheduled_at": "2026-04-08T02:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -11869,6 +11869,20 @@
         "devops"
       ],
       "scheduled_at": "2026-04-08T01:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "A Deep Dive into OAuth 2.0: Concepts, Flows, and Real‑World Implementations",
+      "url": "https://martinuke0.github.io/posts/2026-04-01-a-deep-dive-into-oauth-20-concepts-flows-and-realworld-implementations/",
+      "social_hook": "In the era of distributed systems, single sign‑on (SSO) and delegated access have become essential building blocks for modern applications. Whether you are exposing a public API, building a mobile app, or integrating with third‑party services like Google, GitHub, or Salesforce, you need a reliable, standardized way to let users grant limited access to their resources without sharing credentials.\n\nOAuth 2.0—the second version of the OAuth (Open Authorization) framework—has emerged as the de‑facto standard for this problem. Since its publication as RFC 6749 in 2012, OAuth 2.0 has been adopted by virtually every major platform and countless open‑source libraries. Yet, despite its ubiquity, the protocol is often misunderstood, mis‑implemented, or used without an appreciation for its security nuances.\n\n* Walk through each of the standard authorization grants (flows) with diagrams and code snippets.",
+      "tags": [
+        "OAuth2",
+        "Authentication",
+        "Authorization",
+        "Security",
+        "API Design"
+      ],
+      "scheduled_at": "2026-04-08T02:02:50Z",
       "status": "pending"
     }
   ]
