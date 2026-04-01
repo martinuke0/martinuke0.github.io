@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-07T04:02:50Z",
+  "last_scheduled_at": "2026-04-07T05:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -11575,6 +11575,20 @@
         "api"
       ],
       "scheduled_at": "2026-04-07T04:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Understanding JWT Algorithms: A Comprehensive Guide",
+      "url": "https://martinuke0.github.io/posts/2026-04-01-understanding-jwt-algorithms-a-comprehensive-guide/",
+      "social_hook": "JSON Web Tokens (JWTs) have become the de‑facto standard for stateless authentication and information exchange across web services, mobile apps, and micro‑service architectures. While the token format itself is relatively simple—three Base64URL‑encoded parts separated by dots—the security of a JWT hinges almost entirely on the cryptographic algorithm used to sign (or encrypt) it.\n\nChoosing the right algorithm is not a “set‑and‑forget” decision. It influences the token’s resistance to forgery, the operational burden of key management, and the performance characteristics of your authentication layer. In this article we dive deep into the JWT `alg` claim—the field that tells a verifier how a token was secured—covering the mathematics, practical implementation details, real‑world attacks, and a set of concrete best‑practice recommendations.\n\n* Explain the differences between symmetric (HMAC) and asymmetric (RSA/ECDSA) algorithms.",
+      "tags": [
+        "JWT",
+        "security",
+        "authentication",
+        "cryptography",
+        "web-development"
+      ],
+      "scheduled_at": "2026-04-07T05:02:50Z",
       "status": "pending"
     }
   ]
