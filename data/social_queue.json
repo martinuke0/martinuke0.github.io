@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-07T09:02:50Z",
+  "last_scheduled_at": "2026-04-07T10:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -11645,6 +11645,20 @@
         "performance"
       ],
       "scheduled_at": "2026-04-07T09:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Axios npm Hijack: Lessons from the 2026 Supply Chain Nightmare and How to Bulletproof Your Dependencies",
+      "url": "https://martinuke0.github.io/posts/2026-04-01-axios-npm-hijack-lessons-from-the-2026-supply-chain-nightmare-and-how-to-bulletproof-your-dependencies/",
+      "social_hook": "On March 31, 2026, the JavaScript world woke up to a chilling reality: axios, one of the most downloaded npm packages with over 100 million weekly installs, had been weaponized in a sophisticated supply chain attack. Attackers compromised a maintainer's npm account, pushed two malicious versions (1.14.1 and 0.30.4), and embedded a stealthy remote access trojan (RAT) that targeted macOS, Windows, and Linux systems.[1][2] This wasn't a sloppy hack—it was a meticulously planned operation, complete with pre-staged malicious dependencies and self-erasing malware, implicating suspected North Korean actors (UNC1069).[3]\n\nWhat makes this incident seismic is axios's ubiquity: it's embedded in ~80% of cloud environments and powers HTTP requests in countless web apps, Node.js servers, and CI/CD pipelines.[1][4] Even though the poisoned packages were yanked within hours, the brief exposure window likely infected thousands of developer machines and build servers, potentially exposing credentials, SSH keys, and cloud tokens to attackers.[5][7] This post dives deep into the anatomy of the attack, practical detection and remediation steps, broader implications for software supply chains, and battle-tested strategies to harden your pipelines. If you're in the JS ecosystem—or any open-source-heavy stack—this is your wake-up call.\n\nSupply chain attacks thrive on trust and speed. Here's how this one unfolded with surgical precision:",
+      "tags": [
+        "supply-chain-attack",
+        "npm-security",
+        "axios-compromise",
+        "devops",
+        "cybersecurity"
+      ],
+      "scheduled_at": "2026-04-07T10:02:50Z",
       "status": "pending"
     }
   ]
