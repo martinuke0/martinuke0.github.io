@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-08T03:02:50Z",
+  "last_scheduled_at": "2026-04-08T04:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -11897,6 +11897,20 @@
         "privacy"
       ],
       "scheduled_at": "2026-04-08T03:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Single Sign-On (SSO): Concepts, Protocols, Implementation, and Best Practices",
+      "url": "https://martinuke0.github.io/posts/2026-04-01-mastering-single-sign-on-sso-concepts-protocols-implementation-and-best-practices/",
+      "social_hook": "In today’s hyper‑connected digital landscape, users interact with dozens—sometimes hundreds—of web applications, mobile services, and internal tools every day. Managing separate credentials for each of these resources quickly becomes a logistical nightmare for both end‑users and IT teams. Single Sign‑On (SSO) addresses this pain point by allowing a user to authenticate once and then gain seamless access to a suite of applications without re‑entering credentials.\n\nThis article is a deep‑dive into SSO. We will explore the underlying concepts, dissect the most prevalent protocols (SAML, OAuth 2.0, OpenID Connect, Kerberos), walk through practical implementation code, discuss security implications, and provide a comprehensive set of best practices. Whether you’re an architect designing a corporate identity ecosystem, a developer integrating a third‑party IdP, or a security analyst assessing risk, this guide aims to give you the knowledge you need to implement SSO confidently and securely.\n\nSingle Sign‑On (SSO) is an authentication mechanism that enables a user to log in once—typically to a central Identity Provider (IdP)—and then access multiple Service Providers (SPs) without being prompted for credentials again. The core idea is to decouple authentication from the individual applications while preserving a trusted relationship between IdP and SP.",
+      "tags": [
+        "SSO",
+        "Authentication",
+        "Security",
+        "OAuth2",
+        "SAML"
+      ],
+      "scheduled_at": "2026-04-08T04:02:50Z",
       "status": "pending"
     }
   ]
