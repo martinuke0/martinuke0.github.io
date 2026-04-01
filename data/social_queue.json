@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-08T08:02:50Z",
+  "last_scheduled_at": "2026-04-08T09:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -11967,6 +11967,20 @@
         "tokenization"
       ],
       "scheduled_at": "2026-04-08T08:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Inside the Machine: Algorithms Powering Banks and ATMs",
+      "url": "https://martinuke0.github.io/posts/2026-04-01-inside-the-machine-algorithms-powering-banks-and-atms/",
+      "social_hook": "Banking has always been a technology‑driven industry, but the scale and complexity of modern financial services have turned it into a massive, distributed computing problem. Every time a customer swipes a card, checks a balance on a mobile app, or walks up to an ATM, a cascade of algorithms works behind the scenes to:\n\nUnderstanding these algorithms is valuable for developers building fintech solutions, security analysts hunting fraud, and anyone curious about how the invisible machinery of finance stays reliable, fast, and safe.\n\nThis article dives deep into the core algorithmic families that power core banking systems and Automated Teller Machines (ATMs). We’ll explore everything from classic double‑entry bookkeeping to modern machine‑learning fraud detectors, complete with code snippets, real‑world examples, and a look at emerging trends.",
+      "tags": [
+        "banking",
+        "ATM",
+        "algorithms",
+        "security",
+        "fraud-detection"
+      ],
+      "scheduled_at": "2026-04-08T09:02:50Z",
       "status": "pending"
     }
   ]
