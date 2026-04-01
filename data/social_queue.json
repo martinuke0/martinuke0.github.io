@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-05T17:02:50Z",
+  "last_scheduled_at": "2026-04-05T18:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -11083,6 +11083,20 @@
         "database-maintenance"
       ],
       "scheduled_at": "2026-04-05T17:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Understanding Crash Recovery: Principles, Techniques, and Real-World Practices",
+      "url": "https://martinuke0.github.io/posts/2026-04-01-understanding-crash-recovery-principles-techniques-and-real-world-practices/",
+      "social_hook": "Every software system—whether it’s a relational database, a distributed key‑value store, an operating system, or a simple file server—must contend with the possibility of unexpected failure. Power outages, hardware faults, kernel panics, and bugs can all cause a crash that abruptly terminates execution. When a crash occurs, the system’s state may be partially updated, leaving data structures inconsistent and potentially corrupting user data.\n\nCrash recovery is the discipline of detecting that a crash has happened, determining which operations were safely completed, and restoring the system to a correct state without losing committed work. In the era of cloud-native services and always‑on applications, robust crash recovery is not a luxury—it’s a baseline requirement for high availability and data integrity.\n\nThis article provides an in‑depth look at crash recovery, covering fundamental concepts, classic algorithms, modern implementations, and practical guidance for engineers building fault‑tolerant systems. Expect detailed explanations, code snippets, and real‑world examples from popular databases and file systems.",
+      "tags": [
+        "crash recovery",
+        "systems",
+        "fault tolerance",
+        "databases",
+        "high availability"
+      ],
+      "scheduled_at": "2026-04-05T18:02:50Z",
       "status": "pending"
     }
   ]
