@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-07T15:02:50Z",
+  "last_scheduled_at": "2026-04-07T16:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -11729,6 +11729,20 @@
         "privacy"
       ],
       "scheduled_at": "2026-04-07T15:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Strong Random Generators: Theory, Implementation, and Real‑World Applications",
+      "url": "https://martinuke0.github.io/posts/2026-04-01-strong-random-generators-theory-implementation-and-realworld-applications/",
+      "social_hook": "Random numbers are the invisible glue that holds together many of the security guarantees we rely on every day. From establishing encrypted TLS sessions to generating cryptocurrency private keys, the quality of a random number generator (RNG) can be the difference between a system that is provably secure and one that is trivially broken.\n\nWhile “random” may sound informal, in cryptography it carries a very precise meaning: the output must be unpredictable, uniformly distributed, and indistinguishable from true randomness to any feasible adversary. Achieving these properties is far from trivial. A strong random generator must combine high‑entropy sources, robust mixing algorithms, and careful operational practices.\n\nThis article dives deep into the science and engineering of strong random generators. We will explore the theoretical foundations, review the most widely‑adopted standards, examine concrete implementations in several programming languages, discuss common pitfalls, and look ahead to emerging trends such as quantum‑based randomness. By the end, you should have a solid mental model for evaluating, selecting, and deploying RNGs that meet modern security requirements.",
+      "tags": [
+        "cryptography",
+        "randomness",
+        "security",
+        "software engineering",
+        "entropy"
+      ],
+      "scheduled_at": "2026-04-07T16:02:50Z",
       "status": "pending"
     }
   ]
