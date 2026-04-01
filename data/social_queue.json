@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-07T17:02:50Z",
+  "last_scheduled_at": "2026-04-07T18:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -11757,6 +11757,20 @@
         "physics"
       ],
       "scheduled_at": "2026-04-07T17:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Understanding Chaos Theory: From Butterfly Effect to Real-World Applications",
+      "url": "https://martinuke0.github.io/posts/2026-04-01-understanding-chaos-theory-from-butterfly-effect-to-real-world-applications/",
+      "social_hook": "Chaos theory is a branch of mathematics and physics that studies how tiny variations in initial conditions can lead to dramatically different outcomes in deterministic systems. Although the underlying equations are perfectly predictable, the resulting behavior appears random and unpredictable to the naked eye. This paradox—order hidden within apparent disorder—has fascinated scientists, engineers, and artists for decades.\n\n* Trace the historical development of chaos theory from Poincaré to modern computational methods.\n\n* Explain the core concepts such as sensitive dependence on initial conditions, strange attractors, and fractal geometry.",
+      "tags": [
+        "chaos theory",
+        "dynamical systems",
+        "mathematics",
+        "physics",
+        "complexity"
+      ],
+      "scheduled_at": "2026-04-07T18:02:50Z",
       "status": "pending"
     }
   ]
