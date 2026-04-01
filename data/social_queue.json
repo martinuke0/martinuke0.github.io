@@ -9561,7 +9561,7 @@
         "pipeline"
       ],
       "scheduled_at": "2026-04-01T05:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Mastering Sentry: A Deep Dive into Modern Error Monitoring and Observability",
@@ -9589,7 +9589,7 @@
         "Control Panel"
       ],
       "scheduled_at": "2026-04-01T07:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Mastering Plesk: A Comprehensive Guide for Web Hosting Professionals",
