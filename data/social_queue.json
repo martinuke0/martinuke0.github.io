@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-05T02:02:50Z",
+  "last_scheduled_at": "2026-04-05T03:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -10873,6 +10873,20 @@
         "low latency"
       ],
       "scheduled_at": "2026-04-05T02:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Solving Distributed Data Consistency Challenges in Local-First Collaborative Applications with CRDTs",
+      "url": "https://martinuke0.github.io/posts/2026-04-01-solving-distributed-data-consistency-challenges-in-local-first-collaborative-applications-with-crdts/",
+      "social_hook": "In the last decade, the local‑first paradigm has reshaped how we think about collaborative software. Instead of forcing every user to stay online and rely on a central server for the source of truth, local‑first applications treat the device’s local storage as the primary repository of data. Syncing with other peers or a cloud backend happens after the user has already made progress, even while offline.\n\nThis shift brings undeniable benefits—instant UI responsiveness, resilience against network partitions, and stronger privacy guarantees—but it also re‑opens the classic distributed consistency problem. When multiple replicas independently mutate the same data structure, how can we guarantee that they converge to a single, correct state without a central arbitrator?\n\nEnter Conflict‑free Replicated Data Types (CRDTs). By design, CRDTs ensure strong eventual consistency (SEC): all replicas that have received the same set of updates will eventually converge to the same state, regardless of the order or timing of those updates. In this article we will:",
+      "tags": [
+        "distributed systems",
+        "CRDT",
+        "collaboration",
+        "local-first",
+        "data consistency"
+      ],
+      "scheduled_at": "2026-04-05T03:02:50Z",
       "status": "pending"
     }
   ]
