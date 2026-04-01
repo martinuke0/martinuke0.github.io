@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-08T02:02:50Z",
+  "last_scheduled_at": "2026-04-08T03:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -11883,6 +11883,20 @@
         "API Design"
       ],
       "scheduled_at": "2026-04-08T02:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Understanding Two-Factor Authentication (2FA): A Comprehensive Guide",
+      "url": "https://martinuke0.github.io/posts/2026-04-01-understanding-two-factor-authentication-2fa-a-comprehensive-guide/",
+      "social_hook": "In an era where data breaches, credential stuffing, and automated attacks dominate headlines, relying on a single password for authentication is no longer sufficient. Two-Factor Authentication (2FA)—the practice of requiring two distinct pieces of evidence before granting access—has emerged as a pragmatic middle ground between usability and security. While the term “2FA” is often used interchangeably with “Multi‑Factor Authentication (MFA)”, the core principle remains the same: combine something you know, something you have, or something you are to dramatically raise the cost for an attacker.\n\nThis guide delves deep into the why, what, and how of 2FA. Whether you’re a developer looking to integrate robust authentication into a web service, a security professional tasked with hardening an organization’s login flow, or simply a tech‑savvy user who wants to protect personal accounts, you’ll find actionable insights, real‑world examples, and concrete best‑practice recommendations throughout.\n\nEven the strongest password can be compromised under these conditions. Adding a second factor introduces an independent barrier that attackers must also overcome—often requiring physical possession of a device or biometric data that cannot be stolen remotely.",
+      "tags": [
+        "security",
+        "authentication",
+        "2FA",
+        "MFA",
+        "privacy"
+      ],
+      "scheduled_at": "2026-04-08T03:02:50Z",
       "status": "pending"
     }
   ]
