@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-07T22:02:50Z",
+  "last_scheduled_at": "2026-04-07T23:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -11827,6 +11827,20 @@
         "Machine Learning"
       ],
       "scheduled_at": "2026-04-07T22:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Exploring Non‑SocketIO Real‑Time Communication Types",
+      "url": "https://martinuke0.github.io/posts/2026-04-01-exploring-nonsocketio-realtime-communication-types/",
+      "social_hook": "When developers talk about real‑time web applications, Socket.IO often steals the spotlight. Its ease of use, automatic fallback mechanisms, and rich event‑driven API make it a go‑to solution for many Node.js projects. However, Socket.IO is just one of many ways to push data from server to client (and vice‑versa) without the classic request/response cycle.\n\nUnderstanding non‑SocketIO types—the alternative protocols, transport layers, and data serialization formats—empowers you to:\n\n* Choose the right tool for specific latency, scalability, or compatibility constraints.",
+      "tags": [
+        "real-time",
+        "websockets",
+        "sse",
+        "grpc",
+        "mqtt"
+      ],
+      "scheduled_at": "2026-04-07T23:02:50Z",
       "status": "pending"
     }
   ]
