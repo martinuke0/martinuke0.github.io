@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-04T21:02:50Z",
+  "last_scheduled_at": "2026-04-04T22:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -10802,6 +10802,20 @@
         "Camera Traps"
       ],
       "scheduled_at": "2026-04-04T21:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building Autonomous Agentic RAG Pipelines Using LangChain and Vector Database Sharding Strategies",
+      "url": "https://martinuke0.github.io/posts/2026-04-01-building-autonomous-agentic-rag-pipelines-using-langchain-and-vector-database-sharding-strategies/",
+      "social_hook": "Retrieval‑Augmented Generation (RAG) has reshaped the way developers build knowledge‑aware applications. By coupling large language models (LLMs) with a vector store that can quickly surface the most relevant chunks of text, RAG pipelines enable:\n\nWhen you add autonomous agents—LLM‑driven programs that can decide which tool to call, when to retrieve, and how to iterate on a response—the possibilities expand dramatically. However, real‑world workloads quickly outgrow a single monolithic vector collection. Latency spikes, storage costs balloon, and multi‑tenant requirements become impossible to satisfy.\n\nThis article walks you through building a production‑grade, autonomous agentic RAG pipeline using LangChain as the orchestration layer and vector database sharding strategies to keep the system fast, cost‑effective, and maintainable. We’ll cover:",
+      "tags": [
+        "LangChain",
+        "RAG",
+        "Vector Databases",
+        "Sharding",
+        "Autonomous Agents"
+      ],
+      "scheduled_at": "2026-04-04T22:02:50Z",
       "status": "pending"
     }
   ]
