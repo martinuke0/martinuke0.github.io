@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-07T14:02:50Z",
+  "last_scheduled_at": "2026-04-07T15:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -11715,6 +11715,20 @@
         "nodejs"
       ],
       "scheduled_at": "2026-04-07T14:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Understanding Token Sniffing: Threats, Detection, and Mitigation",
+      "url": "https://martinuke0.github.io/posts/2026-04-01-understanding-token-sniffing-threats-detection-and-mitigation/",
+      "social_hook": "In today's hyper‑connected world, tokens—whether they are JSON Web Tokens (JWT), OAuth 2.0 access tokens, or simple API keys—are the lifeblood of authentication and authorization flows. They enable stateless, scalable architectures and give developers a flexible way to grant and revoke access without maintaining server‑side session stores. However, the very convenience that tokens provide also creates a lucrative attack surface.\n\nToken sniffing refers to the illicit capture of authentication or authorization tokens as they travel across a system, from client to server or between micro‑services. Once an attacker obtains a valid token, they can impersonate a legitimate user, exfiltrate sensitive data, or pivot across an organization’s network.\n\nThis article offers an in‑depth look at token sniffing: what it is, how it works, real‑world examples, detection techniques, and concrete mitigation strategies. By the end of the guide, security engineers, developers, and DevOps practitioners will have a practical roadmap to protect their applications from token‑theft attacks.",
+      "tags": [
+        "security",
+        "authentication",
+        "token-sniffing",
+        "web",
+        "privacy"
+      ],
+      "scheduled_at": "2026-04-07T15:02:50Z",
       "status": "pending"
     }
   ]
