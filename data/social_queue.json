@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-07T01:02:50Z",
+  "last_scheduled_at": "2026-04-07T02:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -11532,6 +11532,20 @@
         "automation"
       ],
       "scheduled_at": "2026-04-07T01:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "A Deep Dive into Sorting Algorithms: Theory, Practice, and Real‑World Applications",
+      "url": "https://martinuke0.github.io/posts/2026-04-01-a-deep-dive-into-sorting-algorithms-theory-practice-and-realworld-applications/",
+      "social_hook": "Sorting is one of the most fundamental operations in computer science. Whether you’re displaying a list of users alphabetically, preparing data for a binary search, or optimizing cache locality for large‑scale analytics, a good understanding of sorting algorithms can dramatically affect both correctness and performance. This article provides a comprehensive, in‑depth look at sorting algorithms, covering:\n\n* The mathematical foundations of algorithm analysis (time & space complexity, stability, adaptivity).\n\n* Classic comparison‑based sorts (bubble, insertion, selection, merge, quick, heap).",
+      "tags": [
+        "sorting",
+        "algorithms",
+        "computer-science",
+        "performance",
+        "data-structures"
+      ],
+      "scheduled_at": "2026-04-07T02:02:50Z",
       "status": "pending"
     }
   ]
