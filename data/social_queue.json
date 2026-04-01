@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-08T05:02:50Z",
+  "last_scheduled_at": "2026-04-08T06:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -11925,6 +11925,20 @@
         "api"
       ],
       "scheduled_at": "2026-04-08T05:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Encrypted Cookies: A Deep Dive into Secure Session Management",
+      "url": "https://martinuke0.github.io/posts/2026-04-01-encrypted-cookies-a-deep-dive-into-secure-session-management/",
+      "social_hook": "Cookies have been a cornerstone of HTTP for decades. They enable stateful interactions—remembering user preferences, maintaining login sessions, and persisting shopping carts. However, the very convenience that makes cookies powerful also exposes them to a variety of attacks: eavesdropping, tampering, replay, and cross‑site scripting (XSS).\n\nOne of the most effective mitigations is encrypted cookies. By encrypting the payload, a server can store sensitive data client‑side without fear that a passive network observer or a malicious script can read or modify it. This article provides a comprehensive, end‑to‑end guide on encrypted cookies: why they matter, how they work, how to implement them across popular web stacks, and the operational considerations that keep them secure in production.\n\n> Note: Encryption alone does not replace proper authentication, authorization, or transport‑level security (TLS). Encrypted cookies are a complementary layer that must be used in conjunction with HTTPS, SameSite attributes, HttpOnly flags, and robust key management.",
+      "tags": [
+        "security",
+        "web",
+        "cookies",
+        "encryption",
+        "privacy"
+      ],
+      "scheduled_at": "2026-04-08T06:02:50Z",
       "status": "pending"
     }
   ]
