@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-04T23:02:50Z",
+  "last_scheduled_at": "2026-04-05T00:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -10831,6 +10831,20 @@
         "Ontology Reasoning"
       ],
       "scheduled_at": "2026-04-04T23:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Scaling Agentic RAG with Federated Knowledge Graphs and Hierarchical Multi‑Agent Orchestration",
+      "url": "https://martinuke0.github.io/posts/2026-04-01-scaling-agentic-rag-with-federated-knowledge-graphs-and-hierarchical-multiagent-orchestration/",
+      "social_hook": "Retrieval‑Augmented Generation (RAG) has become the de‑facto pattern for building LLM‑powered applications that require up‑to‑date, factual grounding. The classic RAG loop—retrieve → augment → generate—works well when the underlying corpus is static, modest in size, and centrally stored. In real‑world enterprises, however, knowledge is:\n\n Highly dynamic**, with frequent schema changes, regulatory updates, and domain‑specific nuances.\n\nTo meet these constraints, a new generation of agentic RAG systems is emerging. These systems treat each retrieval or reasoning component as an autonomous “agent” capable of issuing tool calls, negotiating with peers, and learning from interaction. When combined with federated knowledge graphs (FKGs)—graph databases that are physically partitioned but logically unified—agentic RAG can scale to billions of entities while respecting data sovereignty.",
+      "tags": [
+        "RAG",
+        "Knowledge Graphs",
+        "Multi-Agent Systems",
+        "Federated Learning",
+        "AI Orchestration"
+      ],
+      "scheduled_at": "2026-04-05T00:02:50Z",
       "status": "pending"
     }
   ]
