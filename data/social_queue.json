@@ -9645,7 +9645,7 @@
         "Community"
       ],
       "scheduled_at": "2026-04-01T11:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Nebulae: The Cosmic Clouds that Shape Our Universe",
@@ -9659,7 +9659,7 @@
         "astrophysics"
       ],
       "scheduled_at": "2026-04-01T12:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Mastering Redash: An In‑Depth Guide to Open‑Source Data Visualization and Analytics",
@@ -9687,7 +9687,7 @@
         "CRDT"
       ],
       "scheduled_at": "2026-04-01T14:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Architecting Event‑Driven Microservices with Apache Kafka and Schema Registry for Data Consistency",
