@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-08T04:02:50Z",
+  "last_scheduled_at": "2026-04-08T05:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -11911,6 +11911,20 @@
         "SAML"
       ],
       "scheduled_at": "2026-04-08T04:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Understanding Refresh Tokens: Theory, Implementation, and Security Best Practices",
+      "url": "https://martinuke0.github.io/posts/2026-04-01-understanding-refresh-tokens-theory-implementation-and-security-best-practices/",
+      "social_hook": "In modern web and mobile ecosystems, stateless authentication has become the de‑facto standard. Instead of keeping a server‑side session for each user, services hand out cryptographically signed tokens—most commonly JSON Web Tokens (JWTs)—that the client presents on each request. This model scales effortlessly, works across domains, and fits naturally with micro‑service architectures.\n\nHowever, short‑lived access tokens have a drawback: once they expire, the client must obtain a new one. If the client had to ask the user to re‑authenticate every few minutes, the user experience would be terrible. The answer is the refresh token. A refresh token is a credential that can be exchanged for a fresh access token without requiring the user’s credentials again.\n\nThis article dives deep into the what, how, and why of refresh tokens. We’ll explore the OAuth 2.0 specification, compare token formats, discuss secure storage on different platforms, walk through concrete implementations in three popular stacks, and outline the security best practices that keep refresh tokens from becoming an attack vector.",
+      "tags": [
+        "authentication",
+        "oauth2",
+        "security",
+        "jwt",
+        "api"
+      ],
+      "scheduled_at": "2026-04-08T05:02:50Z",
       "status": "pending"
     }
   ]
