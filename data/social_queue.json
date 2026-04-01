@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-05T06:02:50Z",
+  "last_scheduled_at": "2026-04-05T07:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -10929,6 +10929,20 @@
         "virtualization"
       ],
       "scheduled_at": "2026-04-05T06:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Understanding Network Protocols: Foundations, Modern Standards, and Real‑World Applications",
+      "url": "https://martinuke0.github.io/posts/2026-04-01-understanding-network-protocols-foundations-modern-standards-and-realworld-applications/",
+      "social_hook": "In the digital age, virtually every interaction we have—streaming a video, sending an email, ordering a ride, or controlling a smart thermostat—relies on network protocols. A protocol is a set of agreed‑upon rules that dictate how data is formatted, transmitted, routed, and interpreted across a network. Without these rules, devices would speak in incompatible dialects, and the modern Internet would be an unintelligible mess.\n\nThis article dives deep into the world of network protocols. We will explore the layered models that give structure to networking, dissect the most widely used protocols at each layer, examine security mechanisms that keep data safe, and look ahead at emerging standards reshaping the landscape. Along the way, practical code snippets and real‑world case studies will illustrate how these protocols work in practice.\n\n> Note: While this guide is comprehensive, it is not exhaustive. The networking field evolves rapidly; the concepts herein provide a solid foundation for further exploration.",
+      "tags": [
+        "networking",
+        "protocols",
+        "TCP/IP",
+        "OSI",
+        "security"
+      ],
+      "scheduled_at": "2026-04-05T07:02:50Z",
       "status": "pending"
     }
   ]
