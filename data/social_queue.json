@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-06T11:02:50Z",
+  "last_scheduled_at": "2026-04-06T12:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -11335,6 +11335,20 @@
         "directory-indexing"
       ],
       "scheduled_at": "2026-04-06T11:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Journal Checksumming: Ensuring Data Integrity in Modern Filesystems",
+      "url": "https://martinuke0.github.io/posts/2026-04-01-journal-checksumming-ensuring-data-integrity-in-modern-filesystems/",
+      "social_hook": "In the world of storage systems, data integrity is a non‑negotiable requirement. A single corrupted byte can cascade into file system corruption, application crashes, or even data loss. While traditional journaling filesystems protect against power failures and crashes by replaying a write‑ahead log (the journal), they often assume the journal itself is trustworthy. In practice, hardware faults, memory errors, or transmission glitches can corrupt journal entries before they are applied to the main file system structures.\n\nJournal checksumming—the practice of attaching a cryptographic or error‑detecting checksum to each journal record—adds a crucial layer of protection. By verifying the checksum before replaying a transaction, the file system can detect and reject corrupted journal entries, preventing the propagation of errors to the on‑disk metadata.\n\nThis article provides a deep dive into journal checksumming: its motivations, design choices, algorithmic considerations, implementation patterns in popular file systems, performance trade‑offs, and practical guidance for developers and system administrators. By the end, you’ll understand how checksums turn a “best‑effort” journal into a robust, self‑healing component of storage reliability.",
+      "tags": [
+        "journaling",
+        "checksumming",
+        "filesystem",
+        "data-integrity",
+        "storage"
+      ],
+      "scheduled_at": "2026-04-06T12:02:50Z",
       "status": "pending"
     }
   ]
