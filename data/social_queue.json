@@ -9817,7 +9817,7 @@
         "services"
       ],
       "scheduled_at": "2026-04-01T23:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Understanding Bearer Tokens: A Deep Dive into Authentication and Authorization",
