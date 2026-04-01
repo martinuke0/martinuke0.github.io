@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-07T12:02:50Z",
+  "last_scheduled_at": "2026-04-07T13:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -11687,6 +11687,20 @@
         "API"
       ],
       "scheduled_at": "2026-04-07T12:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering the Set-Cookie Header: A Deep Dive into HTTP Cookies",
+      "url": "https://martinuke0.github.io/posts/2026-04-01-mastering-the-set-cookie-header-a-deep-dive-into-http-cookies/",
+      "social_hook": "HTTP is a stateless protocol. Each request that reaches a server is, by design, independent of any previous request. Yet modern web applications need to remember who a user is, what items they have in a shopping cart, or which language they prefer. Cookies—small pieces of data stored on the client—fill that gap.\n\nAmong the many HTTP headers that deal with cookies, the `Set-Cookie` header is the only mechanism a server uses to instruct a browser (or any HTTP client) to store a cookie. Understanding `Set-Cookie` at a granular level is essential for anyone building secure, performant, and privacy‑respecting web applications.\n\n* Explore each attribute (Expires, Max-Age, Secure, HttpOnly, SameSite, etc.) with real‑world examples.",
+      "tags": [
+        "HTTP",
+        "Web Development",
+        "Security",
+        "Cookies",
+        "Set-Cookie"
+      ],
+      "scheduled_at": "2026-04-07T13:02:50Z",
       "status": "pending"
     }
   ]
