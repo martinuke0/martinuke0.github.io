@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-05T10:02:50Z",
+  "last_scheduled_at": "2026-04-05T11:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -10985,6 +10985,20 @@
         "Concurrency"
       ],
       "scheduled_at": "2026-04-05T10:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Tuning Linux Kernel Network Buffers and Scheduling Policies for High‑Performance Networking",
+      "url": "https://martinuke0.github.io/posts/2026-04-01-tuning-linux-kernel-network-buffers-and-scheduling-policies-for-highperformance-networking/",
+      "social_hook": "Modern data‑center workloads, high‑frequency trading platforms, and large‑scale content delivery networks demand sub‑microsecond latency and multi‑gigabit throughput. While application‑level optimizations (e.g., async I/O, connection pooling) are essential, the Linux kernel remains the decisive factor that ultimately caps performance.\n\n1. Network buffers – the memory regions that hold packets while they travel between NIC hardware, the kernel’s networking stack, and user‑space sockets.\n\n2. Scheduling policies – the kernel’s decision‑making engine for CPU time, which decides when and where network processing occurs.",
+      "tags": [
+        "linux",
+        "networking",
+        "kernel",
+        "performance",
+        "scheduling"
+      ],
+      "scheduled_at": "2026-04-05T11:02:50Z",
       "status": "pending"
     }
   ]
