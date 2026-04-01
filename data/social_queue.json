@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-07T21:02:50Z",
+  "last_scheduled_at": "2026-04-07T22:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -11813,6 +11813,20 @@
         "devops"
       ],
       "scheduled_at": "2026-04-07T21:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Demystifying LG-HCC: Compressing 3D Gaussian Splatting Without Losing the Magic",
+      "url": "https://martinuke0.github.io/posts/2026-04-01-demystifying-lg-hcc-compressing-3d-gaussian-splatting-without-losing-the-magic/",
+      "social_hook": "Imagine you're trying to store a breathtaking 3D scene—like a bustling city street or a serene forest trail—on your phone. Traditional methods might require gigabytes of data, making it impractical for everyday use. Enter 3D Gaussian Splatting (3DGS), a revolutionary technique that's made real-time, photorealistic 3D rendering possible. But here's the catch: it guzzles storage like a sports car burns fuel. The LG-HCC paper introduces a smart fix—Local Geometry-Aware Hierarchical Context Compression—that shrinks these massive files while keeping the visuals stunning. This blog post breaks it down for a general technical audience, using everyday analogies to make cutting-edge AI research feel approachable.[1]\n\nWe'll explore what 3DGS is, why compression is a big deal, how LG-HCC works its magic, and what it means for the future of AR, VR, and beyond. By the end, you'll grasp the key innovations and see why this could transform how we handle 3D content.\n\nAt its core, 3D Gaussian Splatting is like sprinkling a 3D scene with millions of tiny, fuzzy blobs called Gaussians. Each Gaussian is a 3D \"splat\"—think of it as a soft, ellipsoidal puff of color, opacity, and shape positioned in space. When you render a view, these splats overlap and blend, creating hyper-realistic images at blazing speeds.[1]",
+      "tags": [
+        "3D Gaussian Splatting",
+        "AI Compression",
+        "Computer Graphics",
+        "3D Rendering",
+        "Machine Learning"
+      ],
+      "scheduled_at": "2026-04-07T22:02:50Z",
       "status": "pending"
     }
   ]
