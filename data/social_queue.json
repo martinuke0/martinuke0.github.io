@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-05T00:02:50Z",
+  "last_scheduled_at": "2026-04-05T01:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -10845,6 +10845,20 @@
         "AI Orchestration"
       ],
       "scheduled_at": "2026-04-05T00:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Local Inference: A Guide to Running 100B Parameter Models on Edge Hardware",
+      "url": "https://martinuke0.github.io/posts/2026-04-01-optimizing-local-inference-a-guide-to-running-100b-parameter-models-on-edge-hardware/",
+      "social_hook": "Large language models (LLMs) with 100 billion (100B) parameters have become the backbone of cutting‑edge natural‑language applications—from code generation to conversational agents. Historically, such models required multi‑node GPU clusters or specialized AI accelerators to be usable. However, the growing demand for low‑latency, privacy‑preserving, and offline capabilities has sparked a surge of interest in running these massive models directly on edge hardware (e.g., NVIDIA Jetson, AMD Ryzen embedded CPUs, or even powerful ARM‑based SoCs).\n\nRunning a 100B model on a device with limited memory, compute, and power budget is not a trivial “plug‑and‑play” task. It requires a systematic approach that combines model compression, hardware‑aware kernel optimization, batch‑size tuning, and software stack selection. This guide walks you through every step of the process, from a high‑level architectural view down to concrete code snippets you can adapt for your own deployment.\n\n> Note: The techniques described here are applicable to a broad range of transformer‑based models (GPT‑style, BERT‑style, encoder‑decoder, etc.). While we focus on 100B‑parameter LLMs, many principles scale up or down.",
+      "tags": [
+        "machine learning",
+        "edge computing",
+        "model optimization",
+        "large language models",
+        "inference"
+      ],
+      "scheduled_at": "2026-04-05T01:02:50Z",
       "status": "pending"
     }
   ]
