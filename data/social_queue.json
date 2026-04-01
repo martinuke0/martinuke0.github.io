@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-05T11:02:50Z",
+  "last_scheduled_at": "2026-04-05T12:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -10999,6 +10999,20 @@
         "scheduling"
       ],
       "scheduled_at": "2026-04-05T11:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering POSIX Threads: A Deep Dive into Multithreaded Programming in C",
+      "url": "https://martinuke0.github.io/posts/2026-04-01-mastering-posix-threads-a-deep-dive-into-multithreaded-programming-in-c/",
+      "social_hook": "Multicore processors have become the norm, yet many developers still write single‑threaded applications that leave valuable CPU cycles idle. POSIX threads (often abbreviated as pthreads) provide a standardized, low‑level API for creating and managing threads on Unix‑like operating systems. Because the API is defined by the IEEE 1003.1 standard, code written with pthreads can compile and run on a wide variety of platforms—from Linux and macOS to BSD and even some embedded systems.\n\nThis article is a comprehensive guide for C programmers who want to harness the power of POSIX threads. We’ll explore the core concepts, walk through practical code examples, discuss synchronization mechanisms, and highlight real‑world scenarios where pthreads shine. By the end, you should be equipped to design robust, scalable multithreaded applications while avoiding common pitfalls.\n\nPOSIX (Portable Operating System Interface) defines a family of standards for maintaining compatibility across Unix‑like systems. The POSIX threads specification, part of the broader POSIX.1‑2001 (and later) standard, describes an API for:",
+      "tags": [
+        "POSIX",
+        "threads",
+        "concurrency",
+        "C programming",
+        "multithreading"
+      ],
+      "scheduled_at": "2026-04-05T12:02:50Z",
       "status": "pending"
     }
   ]
