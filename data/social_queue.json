@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-07T03:02:50Z",
+  "last_scheduled_at": "2026-04-07T04:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -11561,6 +11561,20 @@
         "Impersonation"
       ],
       "scheduled_at": "2026-04-07T03:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Understanding JSON Web Tokens (JWT): A Deep Dive",
+      "url": "https://martinuke0.github.io/posts/2026-04-01-understanding-json-web-tokens-jwt-a-deep-dive/",
+      "social_hook": "JSON Web Tokens (JWT) have become a cornerstone of modern web authentication and authorization. From single-page applications (SPAs) to micro‑service architectures, JWTs provide a stateless, portable, and language‑agnostic way to convey claims about a user or system. Yet, despite their popularity, developers often misuse or misunderstand JWTs, leading to security vulnerabilities, scalability headaches, or unnecessary complexity.\n\nIn this article we will explore JWT from first principles to advanced real‑world usage. You will learn:\n\n* Strategies for token revocation, rotation, and integration with other standards (OAuth 2.0, OpenID Connect).",
+      "tags": [
+        "authentication",
+        "security",
+        "web-development",
+        "jwt",
+        "api"
+      ],
+      "scheduled_at": "2026-04-07T04:02:50Z",
       "status": "pending"
     }
   ]
