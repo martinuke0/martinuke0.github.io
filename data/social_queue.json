@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-07T16:02:50Z",
+  "last_scheduled_at": "2026-04-07T17:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -11743,6 +11743,20 @@
         "entropy"
       ],
       "scheduled_at": "2026-04-07T16:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Understanding Entropy: From Thermodynamics to Information Theory",
+      "url": "https://martinuke0.github.io/posts/2026-04-01-understanding-entropy-from-thermodynamics-to-information-theory/",
+      "social_hook": "Entropy is one of those rare concepts that appears in multiple scientific disciplines, each time carrying a slightly different flavor yet retaining a common underlying intuition: the measure of disorder, uncertainty, or the number of ways a system can be arranged without changing its observable macroscopic state. From the steam engines that powered the Industrial Revolution to the bits that travel across the internet, entropy provides a unifying language that bridges physics, chemistry, biology, computer science, and even economics.\n\n* Derive its formal definitions in classical thermodynamics, statistical mechanics, and information theory.\n\nBy the end, you should have a solid, interdisciplinary grasp of entropy and feel confident applying it in both scientific and engineering contexts.",
+      "tags": [
+        "entropy",
+        "thermodynamics",
+        "information theory",
+        "statistical mechanics",
+        "physics"
+      ],
+      "scheduled_at": "2026-04-07T17:02:50Z",
       "status": "pending"
     }
   ]
