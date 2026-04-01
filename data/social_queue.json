@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-07T08:02:50Z",
+  "last_scheduled_at": "2026-04-07T09:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -11631,6 +11631,20 @@
         "Performance"
       ],
       "scheduled_at": "2026-04-07T08:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Bun vs npm: A Deep Dive into the Next‑Generation JavaScript Package Manager",
+      "url": "https://martinuke0.github.io/posts/2026-04-01-bun-vs-npm-a-deep-dive-into-the-nextgeneration-javascript-package-manager/",
+      "social_hook": "The JavaScript ecosystem has long been dominated by npm (Node Package Manager), the default package manager that ships with Node.js. Over the past few years, however, a new contender has emerged: Bun. Billed as a fast, all‑in‑one runtime, Bun includes its own package manager that promises dramatic speed improvements, a modern API surface, and tighter integration with the underlying runtime.\n\nFor developers, teams, and organizations that rely heavily on npm for dependency management, the question isn’t simply “Should I try Bun?” but “How does Bun compare to npm across performance, compatibility, workflow, and ecosystem?” This article provides a comprehensive, in‑depth comparison that covers:\n\nBy the end of this guide, you’ll have a clear understanding of when Bun can be a practical replacement for npm, where it still falls short, and how to make an informed decision for your next JavaScript or TypeScript project.",
+      "tags": [
+        "bun",
+        "npm",
+        "javascript",
+        "package-manager",
+        "performance"
+      ],
+      "scheduled_at": "2026-04-07T09:02:50Z",
       "status": "pending"
     }
   ]
