@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-08T15:02:50Z",
+  "last_scheduled_at": "2026-04-08T16:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -12065,6 +12065,20 @@
         "low latency"
       ],
       "scheduled_at": "2026-04-08T15:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Scaling Retrieval‑Augmented Generation with Distributed Vector Indexing and Serverless Compute Orchestration",
+      "url": "https://martinuke0.github.io/posts/2026-04-01-scaling-retrievalaugmented-generation-with-distributed-vector-indexing-and-serverless-compute-orchestration/",
+      "social_hook": "Retrieval‑Augmented Generation (RAG) has emerged as a powerful paradigm for building knowledge‑aware language models. By coupling a large language model (LLM) with an external knowledge store, RAG can answer factual questions, ground hallucinations, and keep responses up‑to‑date without retraining the underlying model.\n\nWhile a single‑node prototype can be assembled in a few hours, production‑grade RAG systems must handle millions of queries per day, terabytes of embeddings, and strict latency SLAs. Achieving this scale requires two complementary technologies:\n\n1. Distributed Vector Indexing – a fault‑tolerant, horizontally scalable similarity search layer that can store and retrieve high‑dimensional embeddings across many machines.",
+      "tags": [
+        "RAG",
+        "Vector Search",
+        "Distributed Systems",
+        "Serverless",
+        "AI Engineering"
+      ],
+      "scheduled_at": "2026-04-08T16:02:50Z",
       "status": "pending"
     }
   ]
