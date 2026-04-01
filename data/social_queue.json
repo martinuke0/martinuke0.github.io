@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-05T16:02:50Z",
+  "last_scheduled_at": "2026-04-05T17:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -11069,6 +11069,20 @@
         "storage"
       ],
       "scheduled_at": "2026-04-05T16:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Fragmentation Control: Strategies, Tools, and Real‑World Practices",
+      "url": "https://martinuke0.github.io/posts/2026-04-01-mastering-fragmentation-control-strategies-tools-and-realworld-practices/",
+      "social_hook": "Fragmentation is the silent performance‑killer that haunts everything from low‑level memory allocators to massive distributed databases. When resources are allocated and released repeatedly, the once‑contiguous address space or storage layout becomes a patchwork of tiny holes. Those holes make it harder for the system to satisfy new allocation requests efficiently, leading to higher latency, increased I/O, and, in extreme cases, outright failures.\n\nIn this article we’ll dive deep into fragmentation control—what it is, why it matters, how it manifests across different layers of computing, and, most importantly, how you can tame it. Whether you are a systems programmer, a DevOps engineer, or a database administrator, the concepts, tools, and best‑practice checklists presented here will help you keep your software fast, reliable, and cost‑effective.\n\n> Note: The term “fragmentation” is used loosely throughout the article. Whenever we switch context (memory, disk, database, etc.) we explicitly label the type to avoid confusion.",
+      "tags": [
+        "memory-management",
+        "disk-fragmentation",
+        "performance-optimization",
+        "systems-programming",
+        "database-maintenance"
+      ],
+      "scheduled_at": "2026-04-05T17:02:50Z",
       "status": "pending"
     }
   ]
