@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-07T10:02:50Z",
+  "last_scheduled_at": "2026-04-07T11:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -11659,6 +11659,20 @@
         "cybersecurity"
       ],
       "scheduled_at": "2026-04-07T10:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "The Cookie‑Swap Pattern: A Deep Dive into Secure Token Exchange",
+      "url": "https://martinuke0.github.io/posts/2026-04-01-the-cookieswap-pattern-a-deep-dive-into-secure-token-exchange/",
+      "social_hook": "Web applications have come a long way from the static pages of the late 1990s, but the fundamental challenge of identifying a user across multiple HTTP requests remains unchanged. Cookies have been the de‑facto mechanism for persisting state, while modern JavaScript‑heavy front‑ends demand more flexible, API‑centric authentication strategies.\n\nEnter the cookie‑swap pattern—a design that blends the simplicity of cookies with the robustness of token‑based authentication. At its core, the pattern exchanges a short‑lived, temporary cookie for a secure authentication token (often a JWT or opaque session identifier) after the user’s credentials have been validated. By doing so, it thwarts classic attacks such as session fixation, cross‑site request forgery (CSRF), and even some cross‑site scripting (XSS) scenarios.\n\nThis article provides a comprehensive, in‑depth examination of the cookie‑swap pattern. We’ll explore its origins, walk through a step‑by‑step implementation in several popular stacks, compare it to related anti‑CSRF techniques, and discuss real‑world usage, testing, and future directions. Whether you’re a security engineer, a full‑stack developer, or a product manager, you’ll finish this read with a concrete mental model and actionable guidance.",
+      "tags": [
+        "web security",
+        "authentication",
+        "cookies",
+        "session management",
+        "design patterns"
+      ],
+      "scheduled_at": "2026-04-07T11:02:50Z",
       "status": "pending"
     }
   ]
