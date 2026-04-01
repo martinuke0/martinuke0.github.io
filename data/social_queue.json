@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-07T07:02:50Z",
+  "last_scheduled_at": "2026-04-07T08:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -11617,6 +11617,20 @@
         "devops"
       ],
       "scheduled_at": "2026-04-07T07:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Bun: The Fast, All‑In‑One JavaScript Runtime Redefining Development",
+      "url": "https://martinuke0.github.io/posts/2026-04-01-bun-the-fast-allinone-javascript-runtime-redefining-development/",
+      "social_hook": "JavaScript has long been the lingua franca of the web, but its ecosystem has evolved dramatically since the early days of Node.js. Developers now juggle runtimes, package managers, bundlers, and task runners—each with its own configuration files, version constraints, and performance quirks. Enter Bun, a newcomer that promises to collapse that fragmented toolchain into a single, ultra‑fast binary.\n\nBun is more than a “faster Node.js”. It is an all‑in‑one runtime, bundler, test runner, and package manager built from the ground up in Zig, a low‑level systems programming language that offers deterministic performance and minimal runtime overhead. Since its initial release in 2022, Bun has attracted a growing community, corporate backing, and a series of benchmark wins that make it worth a deep dive.\n\nIn this article we’ll explore Bun’s origins, technical architecture, day‑to‑day developer workflow, performance characteristics, and real‑world applicability. By the end you should be able to decide whether Bun fits your next project, and you’ll have concrete code snippets to get started right away.",
+      "tags": [
+        "JavaScript",
+        "Bun",
+        "Web Development",
+        "Runtime",
+        "Performance"
+      ],
+      "scheduled_at": "2026-04-07T08:02:50Z",
       "status": "pending"
     }
   ]
