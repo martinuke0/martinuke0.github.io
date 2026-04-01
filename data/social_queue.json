@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-07T06:02:50Z",
+  "last_scheduled_at": "2026-04-07T07:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -11603,6 +11603,20 @@
         "API"
       ],
       "scheduled_at": "2026-04-07T06:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Homebrew Cask: A Comprehensive Guide for macOS Users",
+      "url": "https://martinuke0.github.io/posts/2026-04-01-mastering-homebrew-cask-a-comprehensive-guide-for-macos-users/",
+      "social_hook": "Homebrew has become the de‑facto package manager for macOS developers, offering a simple, command‑line driven way to install open‑source tools. However, macOS users also need to manage GUI applications—things like Google Chrome, Visual Studio Code, or Docker Desktop—that traditionally come as `.dmg` or `.pkg` installers. This is where Homebrew Cask (commonly just cask) steps in.\n\nIn this article we will explore Homebrew Cask from the ground up: how it works, why it matters, and how you can harness its full power for personal machines, CI pipelines, and enterprise environments. By the end, you’ll be able to:\n\nHomebrew Cask is an extension to the core Homebrew formula system that allows you to install macOS applications distributed as binaries (DMGs, PKGs, ZIPs, or even App Store packages). While traditional Homebrew formulae compile source code and place binaries under `/usr/local/Cellar`, a cask simply downloads a pre‑built package, verifies its integrity, and places the final app bundle in `/Applications` (or a custom location you specify).",
+      "tags": [
+        "homebrew",
+        "cask",
+        "macos",
+        "cli",
+        "devops"
+      ],
+      "scheduled_at": "2026-04-07T07:02:50Z",
       "status": "pending"
     }
   ]
