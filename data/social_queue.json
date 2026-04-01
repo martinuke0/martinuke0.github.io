@@ -9716,7 +9716,7 @@
         "Autonomous AI"
       ],
       "scheduled_at": "2026-04-01T16:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Securing Edge Intelligence: Integrating Local LLMs with Zero‑Trust Kubernetes Networking",
