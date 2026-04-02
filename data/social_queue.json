@@ -9903,7 +9903,7 @@
         "Model Behavior"
       ],
       "scheduled_at": "2026-04-02T05:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Architecting Distributed Vector Databases for Scalable Retrieval‑Augmented Generation in Production",
