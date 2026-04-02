@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-08T23:02:50Z",
+  "last_scheduled_at": "2026-04-09T00:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -12177,6 +12177,20 @@
         "benchmark"
       ],
       "scheduled_at": "2026-04-08T23:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Managing Local Latency in Decentralized Multi‑Agent Systems with Open‑Source Inference Frameworks",
+      "url": "https://martinuke0.github.io/posts/2026-04-02-managing-local-latency-in-decentralized-multiagent-systems-with-opensource-inference-frameworks/",
+      "social_hook": "Decentralized multi‑agent systems (MAS) are increasingly deployed in domains ranging from swarm robotics and autonomous vehicles to distributed IoT networks and edge‑centric AI services. In these environments each node (or agent) must make rapid, locally‑informed decisions based on sensor data, model inference, and peer communication. Local latency—the time between data acquisition and the availability of an inference result on the same device—directly impacts safety, efficiency, and overall system performance.\n\nOpen‑source inference frameworks such as ONNX Runtime, TensorRT, Triton Inference Server, OpenVINO, and TorchServe have democratized high‑performance AI at the edge. However, simply plugging a model into one of these runtimes does not guarantee low latency in a decentralized setting. Factors such as hardware heterogeneity, concurrent workloads, network variability, and the need for real‑time coordination introduce unique challenges.\n\nThis article provides a deep dive into managing local latency for decentralized MAS using open‑source inference tools. We will:",
+      "tags": [
+        "decentralized-systems",
+        "multi-agent",
+        "latency",
+        "inference",
+        "open-source"
+      ],
+      "scheduled_at": "2026-04-09T00:02:50Z",
       "status": "pending"
     }
   ]
