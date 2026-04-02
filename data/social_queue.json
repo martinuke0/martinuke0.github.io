@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-08T19:02:50Z",
+  "last_scheduled_at": "2026-04-08T20:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -12121,6 +12121,20 @@
         "inference optimization"
       ],
       "scheduled_at": "2026-04-08T19:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Fine-Tuning Quantization Strategies for Deploying Specialized Small Language Models on Edge Computing Hardware",
+      "url": "https://martinuke0.github.io/posts/2026-04-02-fine-tuning-quantization-strategies-for-deploying-specialized-small-language-models-on-edge-computing-hardware/",
+      "social_hook": "Deploying language models (LMs) on edge devices—smartphones, wearables, micro‑controllers, and automotive ECUs—has moved from a research curiosity to a production imperative. Users now expect instant, privacy‑preserving AI capabilities without the latency or bandwidth penalties of cloud inference. However, the edge environment imposes stringent constraints on memory, compute, power, and thermal headroom.\n\nOne of the most effective ways to meet these constraints is quantization—the process of representing a model’s parameters and activations with lower‑precision data types (e.g., 8‑bit integers instead of 32‑bit floating‑point). When applied thoughtfully, quantization can slash model size by 4×, reduce inference latency by a similar factor, and dramatically cut energy consumption, all while preserving acceptable accuracy.\n\nThis article provides a comprehensive, step‑by‑step guide to fine‑tuning quantization strategies for specialized small language models (e.g., distilled, adapter‑augmented, or purpose‑built LMs) targeted at edge hardware. We’ll explore the theory behind quantization, the practical constraints of typical edge platforms, and concrete code samples that walk you from a floating‑point baseline to a production‑ready, quantized edge deployment.",
+      "tags": [
+        "quantization",
+        "edge-computing",
+        "language-models",
+        "model-compression",
+        "deployment"
+      ],
+      "scheduled_at": "2026-04-08T20:02:50Z",
       "status": "pending"
     }
   ]
