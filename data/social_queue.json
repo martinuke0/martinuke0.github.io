@@ -9959,7 +9959,7 @@
         "2026"
       ],
       "scheduled_at": "2026-04-02T09:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Beyond Large Language Models: Orchestrating Multi‑Agent Systems with the New Open‑Source Swarm Protocol",
