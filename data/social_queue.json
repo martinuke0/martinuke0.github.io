@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-08T18:02:50Z",
+  "last_scheduled_at": "2026-04-08T19:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -12107,6 +12107,20 @@
         "cloud-architecture"
       ],
       "scheduled_at": "2026-04-08T18:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Low‑Latency Edge Networks for Decentralized Large Language Model Training and Inference",
+      "url": "https://martinuke0.github.io/posts/2026-04-02-architecting-lowlatency-edge-networks-for-decentralized-large-language-model-training-and-inference/",
+      "social_hook": "Large language models (LLMs) such as GPT‑4, LLaMA, and PaLM have demonstrated unprecedented capabilities in natural‑language understanding, generation, and reasoning. Their size—often measured in billions or even trillions of parameters—demands massive compute, storage, and network resources. Historically, training and inference for these models have been confined to centralized data centers equipped with high‑performance GPU clusters and ultra‑low‑latency interconnects (e.g., NVLink, InfiniBand).\n\nHowever, a growing class of applications—autonomous vehicles, real‑time translation on mobile devices, edge‑based recommendation engines, and privacy‑sensitive AI assistants—cannot tolerate the round‑trip latency of sending data to a distant cloud. They require low‑latency, high‑throughput edge networks that can host decentralized training and inference workloads. This shift presents a unique set of architectural challenges:\n\n1. Network heterogeneity: Edge nodes vary widely in bandwidth, compute capability, and reliability.",
+      "tags": [
+        "edge computing",
+        "large language models",
+        "low latency",
+        "distributed training",
+        "inference optimization"
+      ],
+      "scheduled_at": "2026-04-08T19:02:50Z",
       "status": "pending"
     }
   ]
