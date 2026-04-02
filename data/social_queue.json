@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-08T20:02:50Z",
+  "last_scheduled_at": "2026-04-08T21:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -12135,6 +12135,20 @@
         "deployment"
       ],
       "scheduled_at": "2026-04-08T20:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Decentralized Model Sharding: Optimizing Local Inference for the New Real-Time Liquid Neural Forest Architecture",
+      "url": "https://martinuke0.github.io/posts/2026-04-02-decentralized-model-sharding-optimizing-local-inference-for-the-new-real-time-liquid-neural-forest-architecture/",
+      "social_hook": "Artificial intelligence is moving from the cloud‑centric paradigm that dominated the last decade toward a distributed, edge‑first reality. As devices become more capable—smartphones, IoT gateways, autonomous drones, and even wearables—they increasingly run sophisticated models locally to meet strict latency, privacy, and bandwidth constraints.\n\nAt the same time, liquid neural networks and neural forest ensembles have emerged as powerful alternatives to classic deep‑learning stacks. Liquid networks, with their continuous‑time dynamics, excel at streaming data and adaptivity, while neural forests provide tree‑like interpretability and robustness to noisy inputs. The Real‑Time Liquid Neural Forest (RT‑LNF) architecture fuses these two ideas, delivering ultra‑low‑latency inference for streaming, high‑dimensional signals.\n\nRunning a monolithic RT‑LNF model on a single edge node quickly runs into resource limits: memory pressure, compute bottlenecks, and energy constraints. Decentralized model sharding—splitting a model into interoperable fragments that execute across a network of heterogeneous devices—offers a systematic solution. This article provides a deep dive into the theory, design patterns, and practical implementation of decentralized sharding for RT‑LNF, with code examples, performance considerations, and real‑world case studies.",
+      "tags": [
+        "decentralized AI",
+        "model sharding",
+        "edge computing",
+        "liquid neural networks",
+        "real-time inference"
+      ],
+      "scheduled_at": "2026-04-08T21:02:50Z",
       "status": "pending"
     }
   ]
