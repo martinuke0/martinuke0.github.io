@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-08T21:02:50Z",
+  "last_scheduled_at": "2026-04-08T22:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -12149,6 +12149,20 @@
         "real-time inference"
       ],
       "scheduled_at": "2026-04-08T21:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Streamlining Federated Learning Workflows for Secure Real Time Model Updates in Edge Computing",
+      "url": "https://martinuke0.github.io/posts/2026-04-02-streamlining-federated-learning-workflows-for-secure-real-time-model-updates-in-edge-computing/",
+      "social_hook": "Edge computing has moved from a niche research area to the backbone of modern IoT ecosystems, autonomous systems, and latency‑critical applications. At the same time, privacy‑preserving machine learning techniques—most notably Federated Learning (FL)—have become the de‑facto approach for training models on distributed data without ever moving raw data to a central server.\n\nWhen these two trends intersect, a compelling question arises: How can we streamline federated learning workflows to deliver secure, real‑time model updates to edge devices?\n\nThis article provides an in‑depth, practical guide for engineers, researchers, and architects who need to design, implement, and operate FL pipelines that keep models fresh, protect data, and respect the limited resources of edge hardware. We will cover:",
+      "tags": [
+        "federated learning",
+        "edge computing",
+        "secure AI",
+        "real‑time inference",
+        "model deployment"
+      ],
+      "scheduled_at": "2026-04-08T22:02:50Z",
       "status": "pending"
     }
   ]
