@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-08T17:02:50Z",
+  "last_scheduled_at": "2026-04-08T18:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -12093,6 +12093,20 @@
         "Agent Orchestration"
       ],
       "scheduled_at": "2026-04-08T17:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Low‑Latency Cross‑Regional Replication for Globally Distributed Vector Search Clusters",
+      "url": "https://martinuke0.github.io/posts/2026-04-02-architecting-lowlatency-crossregional-replication-for-globally-distributed-vector-search-clusters/",
+      "social_hook": "Vector search has moved from a research curiosity to a production‑grade capability powering everything from recommendation engines to large‑language‑model (LLM) retrieval‑augmented generation (RAG). As enterprises expand globally, the need to serve low‑latency nearest‑neighbor queries near the user while maintaining a single source of truth for billions of high‑dimensional vectors becomes a pivotal architectural problem.\n\nThis article walks you through the end‑to‑end design of a low‑latency cross‑regional replication strategy for globally distributed vector search clusters. We’ll explore the unique characteristics of vector workloads, the trade‑offs between consistency and latency, concrete replication patterns, and practical engineering tricks that keep response times under 10 ms even when data lives across continents.\n\n> Note: The concepts presented are platform‑agnostic, but we’ll reference popular open‑source projects (Milvus, Vespa, Faiss) and cloud services (AWS Kinesis, GCP Pub/Sub) to ground the discussion in real‑world tooling.",
+      "tags": [
+        "vector-search",
+        "distributed-systems",
+        "low-latency",
+        "replication",
+        "cloud-architecture"
+      ],
+      "scheduled_at": "2026-04-08T18:02:50Z",
       "status": "pending"
     }
   ]
