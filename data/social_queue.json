@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-09T00:02:50Z",
+  "last_scheduled_at": "2026-04-09T01:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -12191,6 +12191,20 @@
         "open-source"
       ],
       "scheduled_at": "2026-04-09T00:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Distributed Vector Storage Layers for Low‑Latency Edge Inference",
+      "url": "https://martinuke0.github.io/posts/2026-04-02-architecting-distributed-vector-storage-layers-for-lowlatency-edge-inference/",
+      "social_hook": "Edge computing is reshaping how machine‑learning (ML) models are deployed, shifting inference workloads from centralized data centers to devices and micro‑datacenters that sit physically close to the data source. This proximity reduces round‑trip latency, preserves bandwidth, and often satisfies strict privacy or regulatory constraints.\n\nMany modern inference workloads—semantic search, recommendation, anomaly detection, and multimodal retrieval—rely on vector embeddings. A model transforms raw inputs (text, images, audio, sensor streams) into high‑dimensional vectors, and downstream services perform nearest‑neighbor (NN) search to find the most similar items. The NN step is typically the most latency‑sensitive part of the pipeline, especially at the edge where resources are limited and response times of < 10 ms are often required.\n\nThis article provides a comprehensive guide to designing a distributed vector storage layer that meets low‑latency edge requirements. We will cover:",
+      "tags": [
+        "vector-search",
+        "edge-computing",
+        "distributed-systems",
+        "low-latency",
+        "ML-inference"
+      ],
+      "scheduled_at": "2026-04-09T01:02:50Z",
       "status": "pending"
     }
   ]
