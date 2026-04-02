@@ -9917,7 +9917,7 @@
         "machine‑learning‑ops"
       ],
       "scheduled_at": "2026-04-02T06:02:50Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Scaling Multimodal RAG Pipelines for Low‑Latency Vision‑Language Models in Industrial IoT Networks",
