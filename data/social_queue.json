@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-08T22:02:50Z",
+  "last_scheduled_at": "2026-04-08T23:02:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -12163,6 +12163,20 @@
         "model deployment"
       ],
       "scheduled_at": "2026-04-08T22:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Proactive Agent Research Environment: Summarizing a New AI Framework",
+      "url": "https://martinuke0.github.io/posts/2026-04-02-proactive-agent-research-environment-summarizing-a-new-ai-framework/",
+      "social_hook": "Imagine a digital assistant that doesn’t just wait for you to ask, “Hey, schedule a meeting for tomorrow,” but instead anticipates the need, pulls up the right calendar, checks participants’ availability, drafts an agenda, and sends the invitation—all before you realize you needed it. That’s the promise of proactive agents: software that can observe context, infer goals, and act autonomously to make our lives smoother.\n\nDespite the excitement, building such agents has been hampered by a surprisingly mundane problem: we don’t have realistic ways to test them. Traditional AI research often relies on static datasets or simple tool‑calling APIs that treat applications as flat, one‑shot functions. Those models ignore the rich, sequential, and stateful nature of real digital environments—think of navigating a web app, filling out forms, or switching between multiple tools in a workflow.\n\nThe paper “Proactive Agent Research Environment: Simulating Active Users to Evaluate Proactive Assistants” (arXiv:2604.00842) introduces Pare (Proactive Agent Research Environment), a framework that finally lets researchers simulate active users in realistic app environments. Paired with Pare‑Bench, a benchmark of 143 diverse tasks, Pare offers a playground where proactive agents can be built, tested, and compared under conditions that closely mimic everyday digital life.",
+      "tags": [
+        "AI",
+        "simulation",
+        "proactive agents",
+        "user modeling",
+        "benchmark"
+      ],
+      "scheduled_at": "2026-04-08T23:02:50Z",
       "status": "pending"
     }
   ]
