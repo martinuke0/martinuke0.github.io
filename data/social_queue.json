@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-04-09T01:02:50Z",
+  "last_scheduled_at": "2026-05-12T12:21:13Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -12205,6 +12205,20 @@
         "ML-inference"
       ],
       "scheduled_at": "2026-04-09T01:02:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing Consistent Hashing for Scalable Distributed Systems Design and Load Balancing",
+      "url": "https://martinuke0.github.io/posts/2026-05-12-implementing-consistent-hashing-for-scalable-distributed-systems-design-and-load-balancing/",
+      "social_hook": "Scalable distributed systems are the backbone of modern web services, from massive key‑value stores to globally replicated caches and content‑delivery networks. One of the most recurring challenges in these environments is load balancing—distributing client requests or data partitions evenly across a dynamic set of nodes while minimizing data movement when the cluster topology changes.\n\nTraditional hash‑based partitioning (e.g., `hash(key) % N`) works well for static clusters but quickly breaks down when you add or remove machines. A single node change can cause a cascade of remapped keys, leading to massive data reshuffling, network congestion, and downtime.\n\nEnter consistent hashing. First described in the seminal 1997 paper “Consistent Hashing and Random Trees” by Karger et al., this technique provides a graceful, near‑optimal solution for partitioning data in a way that only a small fraction of keys migrate when the node set changes. In the years since, consistent hashing has become a de‑facto standard in systems like Amazon Dynamo, Apache Cassandra, and many caching layers.",
+      "tags": [
+        "distributed-systems",
+        "consistent-hashing",
+        "load-balancing",
+        "scalability",
+        "system-design"
+      ],
+      "scheduled_at": "2026-05-12T12:21:13Z",
       "status": "pending"
     }
   ]
