@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-12T12:21:13Z",
+  "last_scheduled_at": "2026-05-12T13:21:13Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -12219,6 +12219,20 @@
         "system-design"
       ],
       "scheduled_at": "2026-05-12T12:21:13Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing Consistent Hashing and Replication Strategies for Horizontally Scaling Distributed Stateful Services",
+      "url": "https://martinuke0.github.io/posts/2026-05-12-implementing-consistent-hashing-and-replication-strategies-for-horizontally-scaling-distributed-stateful-services/",
+      "social_hook": "Modern applications increasingly demand high availability, low latency, and the ability to scale out as traffic grows. Stateless services can be replicated behind a load balancer with relative ease, but many real‑world workloads—session stores, user profiles, caching layers, and financial ledgers—are stateful. When the state must be partitioned across many machines, the design challenges become considerably more complex.\n\n1. Consistent hashing – a deterministic, low‑overhead method for mapping keys to nodes while minimizing data movement when the cluster changes size.\n\n2. Replication strategies – mechanisms that duplicate data across nodes to achieve durability, fault tolerance, and read/write performance.",
+      "tags": [
+        "distributed-systems",
+        "consistent-hashing",
+        "replication",
+        "scalability",
+        "stateful-services"
+      ],
+      "scheduled_at": "2026-05-12T13:21:13Z",
       "status": "pending"
     }
   ]
