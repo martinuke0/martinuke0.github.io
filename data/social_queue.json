@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-12T15:01:04Z",
+  "last_scheduled_at": "2026-05-12T16:01:04Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -12248,6 +12248,20 @@
       ],
       "scheduled_at": "2026-05-12T15:01:04Z",
       "status": "posted"
+    },
+    {
+      "title": "Optimizing Query Latency in Distributed Systems Using Vectorized LSM Tree Compaction Strategies",
+      "url": "https://martinuke0.github.io/posts/2026-05-12-optimizing-query-latency-in-distributed-systems-using-vectorized-lsm-tree-compaction-strategies/",
+      "social_hook": "> TL;DR — Vectorized LSM tree compaction reshapes merge operations into column‑oriented pipelines, dramatically reducing read‑amplification and query latency in large‑scale distributed databases. By aligning compaction with modern vectorized query engines, you can achieve sub‑millisecond tail latencies without sacrificing durability.\n\nIn modern distributed databases, write‑heavy workloads coexist with latency‑sensitive reads. Log‑Structured Merge (LSM) trees excel at ingest speed, but their background compaction can become a hidden source of query latency. Recent research and production experience show that re‑architecting compaction as a vectorized, CPU‑friendly operation can cut read‑amplification, improve cache locality, and ultimately lower the 99th‑percentile query latency. This article walks through the fundamentals of LSM latency, explains vectorized execution, and presents concrete compaction strategies you can adopt today.\n\nAn LSM tree stores writes in an in‑memory mutable structure (often called a memtable) and periodically flushes immutable sorted files (SSTables) to disk. Reads must merge data from the memtable and a series of on‑disk levels. The merge process is cheap when the number of levels is low, but as the dataset grows, the number of files per level increases, causing read‑amplification—the need to consult many SSTables to answer a single key lookup.",
+      "tags": [
+        "LSM",
+        "Vectorized Execution",
+        "Compaction",
+        "Distributed Systems",
+        "Query Latency"
+      ],
+      "scheduled_at": "2026-05-12T16:01:04Z",
+      "status": "pending"
     }
   ]
 }
