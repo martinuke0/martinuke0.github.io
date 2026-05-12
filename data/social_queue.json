@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-12T13:21:13Z",
+  "last_scheduled_at": "2026-05-12T15:01:04Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -12234,6 +12234,20 @@
       ],
       "scheduled_at": "2026-05-12T13:21:13Z",
       "status": "posted"
+    },
+    {
+      "title": "Formal Verification of Distributed Consensus Protocols Using TLA+ for High Availability Systems",
+      "url": "https://martinuke0.github.io/posts/2026-05-12-formal-verification-of-distributed-consensus-protocols-using-tla-for-high-availability-systems/",
+      "social_hook": "High‑availability (HA) systems are the backbone of modern digital services—think online banking, cloud storage, or real‑time collaboration tools. At the heart of most HA architectures lies a distributed consensus protocol: a set of rules that enable a cluster of nodes to agree on a single source of truth despite failures, network partitions, and asynchrony.\n\nEven a single subtle bug in a consensus algorithm can lead to data loss, split‑brain scenarios, or prolonged outages. Traditional testing (unit tests, integration tests, chaos engineering) can uncover many defects, but it can never exhaustively explore the infinite state space of a concurrent, partially‑synchronous system.\n\nFormal verification offers a complementary guarantee: mathematically proving that a protocol satisfies its safety and liveness properties under a well‑defined model of the environment. Among the many formal methods, TLA+ (Temporal Logic of Actions) has emerged as a pragmatic, industry‑adopted language for specifying and reasoning about distributed systems.",
+      "tags": [
+        "distributed systems",
+        "formal verification",
+        "TLA+",
+        "consensus algorithms",
+        "high availability"
+      ],
+      "scheduled_at": "2026-05-12T15:01:04Z",
+      "status": "pending"
     }
   ]
 }
