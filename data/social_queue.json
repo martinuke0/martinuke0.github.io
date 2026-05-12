@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-12T22:01:34Z",
+  "last_scheduled_at": "2026-05-12T23:01:34Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -12346,6 +12346,20 @@
       ],
       "scheduled_at": "2026-05-12T22:01:34Z",
       "status": "posted"
+    },
+    {
+      "title": "Implementing Zero-Copy Data Serialization for High-Throughput Distributed State Transfer in Rust",
+      "url": "https://martinuke0.github.io/posts/2026-05-12-implementing-zero-copy-data-serialization-for-high-throughput-distributed-state-transfer-in-rust/",
+      "social_hook": "> TL;DR — Zero‑copy serialization in Rust lets you move raw bytes directly from memory to the network without intermediate copies. By aligning data structures, using `#[repr(C)]`, `bytemuck`, and async I/O primitives from Tokio, you can achieve multi‑gigabit‑per‑second state transfer while keeping latency in the low‑microsecond range.\n\nDistributed systems that replicate large in‑memory state—such as game servers, real‑time analytics, or edge caches—are often throttled by serialization overhead. Traditional approaches marshal data into intermediate buffers, invoke `serde` or similar libraries, and then hand the result to the network stack. Each step introduces memory allocation, CPU cache pressure, and latency spikes. Zero‑copy serialization flips that model: the same memory region that stores the application state is handed off to the transport layer without modification, eliminating the copy step entirely.\n\nIn this article we’ll explore why zero‑copy matters, how Rust’s ownership and safety guarantees interact with unsafe memory tricks, and walk through a complete example that streams a snapshot of a distributed hash map over a Tokio TCP connection. We’ll also discuss trade‑offs, benchmarking strategies, and how to compose zero‑copy with existing Rust ecosystems like `serde`, `bincode`, and `capnproto`.",
+      "tags": [
+        "rust",
+        "zero-copy",
+        "serialization",
+        "distributed-systems",
+        "performance"
+      ],
+      "scheduled_at": "2026-05-12T23:01:34Z",
+      "status": "pending"
     }
   ]
 }
