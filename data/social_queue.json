@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-12T16:01:04Z",
+  "last_scheduled_at": "2026-05-12T17:01:04Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -12261,6 +12261,20 @@
         "Query Latency"
       ],
       "scheduled_at": "2026-05-12T16:01:04Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Event Sourcing and CQRS for High Performance Distributed Data Architectural Consistency",
+      "url": "https://martinuke0.github.io/posts/2026-05-12-mastering-event-sourcing-and-cqrs-for-high-performance-distributed-data-architectural-consistency/",
+      "social_hook": "> TL;DR — Event sourcing together with CQRS lets you separate write and read concerns, store immutable facts, and rebuild state on demand. When applied correctly, this combo delivers millisecond‑level latency, linear scalability, and strong consistency across microservices.\n\nIn modern micro‑service ecosystems, the classic CRUD model often becomes a bottleneck: a single database must handle concurrent writes, complex joins, and diverse read patterns. Event sourcing flips that script by persisting facts—the events that happened—while CQRS (Command Query Responsibility Segregation) lets you build specialized read models that answer queries efficiently. This article walks you through the theory, architectural decisions, and concrete implementation tricks needed to make the pattern work at scale.\n\nEvent sourcing replaces the traditional “store the current state” approach with “store every state‑changing event”. The current state is re‑computed by replaying these events in order.",
+      "tags": [
+        "event sourcing",
+        "CQRS",
+        "distributed systems",
+        "data consistency",
+        "high performance"
+      ],
+      "scheduled_at": "2026-05-12T17:01:04Z",
       "status": "pending"
     }
   ]
