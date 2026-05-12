@@ -12261,7 +12261,7 @@
         "Query Latency"
       ],
       "scheduled_at": "2026-05-12T16:01:04Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Mastering Event Sourcing and CQRS for High Performance Distributed Data Architectural Consistency",
