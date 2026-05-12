@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-12T17:01:04Z",
+  "last_scheduled_at": "2026-05-12T18:01:04Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -12275,6 +12275,20 @@
         "high performance"
       ],
       "scheduled_at": "2026-05-12T17:01:04Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing Vector Search at Scale: Optimizing HNSW Index Construction for High Dimensional Embeddings",
+      "url": "https://martinuke0.github.io/posts/2026-05-12-implementing-vector-search-at-scale-optimizing-hnsw-index-construction-for-high-dimensional-embeddings/",
+      "social_hook": "> TL;DR — HNSW (Hierarchical Navigable Small World) graphs can serve billions of high‑dimensional vectors if you parallelize construction, carefully manage memory, and fine‑tune parameters like `M` and `ef_construction`. The post walks through the algorithmic levers, Python code snippets, and hardware considerations that make large‑scale vector search practical.\n\nVector search has moved from niche research to the backbone of recommendation engines, semantic search, and anomaly detection. While approximate nearest neighbor (ANN) libraries such as hnswlib, FAISS, and Milvus make querying fast, constructing the index at scale remains a bottleneck, especially when embeddings live in 256‑ to 1,024‑dimensional space. This article unpacks the inner workings of HNSW, identifies the scaling challenges, and presents a toolbox of optimizations—both algorithmic and systems‑level—that let you index tens or hundreds of billions of vectors without blowing up memory or wall‑clock time.\n\nHNSW builds a multi‑layer navigable small‑world graph where each node (vector) connects to a bounded number of neighbors (`M`). The top layer contains a sparse subset of nodes, providing a “shortcut” for long‑range navigation, while lower layers hold denser connections for fine‑grained local search. Queries start at the top layer, descend greedily, and finish with a best‑first search on the bottom layer using an `ef` (exploration factor) parameter.",
+      "tags": [
+        "vector-search",
+        "hnsw",
+        "embeddings",
+        "scalable-ml",
+        "performance"
+      ],
+      "scheduled_at": "2026-05-12T18:01:04Z",
       "status": "pending"
     }
   ]
