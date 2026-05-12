@@ -12275,7 +12275,7 @@
         "high performance"
       ],
       "scheduled_at": "2026-05-12T17:01:04Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Implementing Vector Search at Scale: Optimizing HNSW Index Construction for High Dimensional Embeddings",
@@ -12289,7 +12289,7 @@
         "performance"
       ],
       "scheduled_at": "2026-05-12T18:01:04Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Implementing Vector Indexing Strategies for Efficient High‑Dimensional Similarity Search in Distributed Databases",
