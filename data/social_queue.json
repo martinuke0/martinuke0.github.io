@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-12T19:01:04Z",
+  "last_scheduled_at": "2026-05-12T20:01:04Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -12303,6 +12303,20 @@
         "performance"
       ],
       "scheduled_at": "2026-05-12T19:01:04Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Distributed Consensus: Implementing Raft for High Availability in State Machine Replication",
+      "url": "https://martinuke0.github.io/posts/2026-05-12-architecting-distributed-consensus-implementing-raft-for-high-availability-in-state-machine-replication/",
+      "social_hook": "> TL;DR — Raft turns a cluster of unreliable nodes into a single, strongly consistent state machine by electing a leader, replicating logs, and enforcing safety rules. By following the patterns outlined here you can build a high‑availability service that tolerates failures, partitions, and rolling upgrades while keeping the system’s behavior deterministic.\n\nDistributed systems that need to keep a single source of truth—such as key‑value stores, coordination services, or replicated databases—rely on state machine replication (SMR). SMR guarantees that every correct node applies the same sequence of commands, yielding identical states. The missing piece is consensus: a way for nodes to agree on that command order even when some of them crash or messages are delayed. The Raft algorithm, introduced in 2014, offers a clear, understandable approach to consensus, making it a popular choice for production systems like etcd, Consul, and TiDB.\n\n* Walk through the three pillars of Raft—leader election, log replication, and safety.",
+      "tags": [
+        "distributed-systems",
+        "consensus",
+        "raft",
+        "high-availability",
+        "state-machine-replication"
+      ],
+      "scheduled_at": "2026-05-12T20:01:04Z",
       "status": "pending"
     }
   ]
