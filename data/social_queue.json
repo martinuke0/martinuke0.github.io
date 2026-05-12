@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-12T18:01:04Z",
+  "last_scheduled_at": "2026-05-12T19:01:04Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -12289,6 +12289,20 @@
         "performance"
       ],
       "scheduled_at": "2026-05-12T18:01:04Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing Vector Indexing Strategies for Efficient High‑Dimensional Similarity Search in Distributed Databases",
+      "url": "https://martinuke0.github.io/posts/2026-05-12-implementing-vector-indexing-strategies-for-efficient-highdimensional-similarity-search-in-distributed-databases/",
+      "social_hook": "> TL;DR — Efficient similarity search in distributed databases hinges on choosing the right vector index (IVF, HNSW, or PQ), partitioning data to respect network topology, and coupling indexes with smart query routing. Properly combined, these strategies reduce latency from seconds to milliseconds even on billion‑vector collections.\n\nHigh‑dimensional similarity search sits at the heart of modern AI‑driven applications—recommendation engines, image retrieval, and large‑scale semantic search all rely on quickly finding nearest‑neighbors among vectors that often exceed 128 dimensions. When those vectors live across a sharded, multi‑node database, naïve linear scans become impossible. This article walks through the mathematics of the most widely‑adopted vector indexes, explains how to adapt them for distributed storage, and provides concrete code snippets that you can drop into a Python‑based pipeline using Faiss, Milvus, or HNSW‑lib.\n\nIn a space with d dimensions, the volume of a unit hypersphere shrinks dramatically relative to its bounding hypercube. Consequently, the distance between random points becomes almost uniform, and tree‑based structures (KD‑tree, Ball‑tree) lose their pruning power. Empirical studies show that beyond d ≈ 30, exact nearest‑neighbor (NN) search with traditional indexes degrades to linear scan performance — see the classic analysis in the FAISS documentation.",
+      "tags": [
+        "vector indexing",
+        "similarity search",
+        "distributed databases",
+        "high dimensional data",
+        "performance"
+      ],
+      "scheduled_at": "2026-05-12T19:01:04Z",
       "status": "pending"
     }
   ]
