@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-12T20:01:04Z",
+  "last_scheduled_at": "2026-05-12T21:01:04Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -12318,6 +12318,20 @@
       ],
       "scheduled_at": "2026-05-12T20:01:04Z",
       "status": "posted"
+    },
+    {
+      "title": "Understanding the Raft Consensus Algorithm and Distributed State Machine Replication",
+      "url": "https://martinuke0.github.io/posts/2026-05-12-understanding-the-raft-consensus-algorithm-and-distributed-state-machine-replication/",
+      "social_hook": "> TL;DR — Raft is a leader‑based consensus protocol that makes distributed state machine replication simple to reason about. It guarantees safety through a replicated log, handles leader election, log replication, and membership changes in a way that can be implemented with a few hundred lines of code.\n\nDistributed systems need a way to keep multiple machines in lockstep despite crashes, network partitions, and message reordering. State machine replication (SMR) provides that guarantee: if every node executes the same deterministic commands in the same order, their state remains identical. Raft is a consensus algorithm specifically designed to drive SMR while remaining understandable and implementable. This article walks through the theory, the core mechanics, and practical nuances of Raft, with code snippets, real‑world examples, and pointers to further reading.\n\nState machine replication is the foundational technique that turns a cluster of unreliable nodes into a single logical service.",
+      "tags": [
+        "raft",
+        "consensus",
+        "distributed-systems",
+        "state-machine-replication",
+        "engineering"
+      ],
+      "scheduled_at": "2026-05-12T21:01:04Z",
+      "status": "pending"
     }
   ]
 }
