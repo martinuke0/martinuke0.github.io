@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-12T21:01:04Z",
+  "last_scheduled_at": "2026-05-12T22:01:34Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -12332,6 +12332,20 @@
       ],
       "scheduled_at": "2026-05-12T21:01:04Z",
       "status": "posted"
+    },
+    {
+      "title": "Optimizing Write Performance in Distributed LSM-Trees via Fractional Cascading and Partitioned Bloom Filters",
+      "url": "https://martinuke0.github.io/posts/2026-05-12-optimizing-write-performance-in-distributed-lsm-trees-via-fractional-cascading-and-partitioned-bloom-filters/",
+      "social_hook": "> TL;DR — By applying fractional cascading to memtable merges and using partitioned Bloom filters per shard, distributed LSM‑tree systems can reduce write amplification and false‑positive lookups, cutting end‑to‑end write latency by up to 40 % in realistic workloads.\n\nWrite‑heavy workloads are the Achilles’ heel of most distributed key‑value stores that rely on Log‑Structured Merge (LSM) trees. While LSM‑trees excel at sequential writes, the combination of compaction, replication, and network‑bound checks can create hidden latency spikes. Two techniques—fractional cascading, a classic data‑structural shortcut, and partitioned Bloom filters, a space‑efficient probabilistic index—can be woven together to streamline the write path. This post unpacks the theory, shows how to integrate both ideas into a production‑grade system, and presents benchmark numbers that prove the gains are real.\n\n1. MemTable – an in‑memory sorted structure (often a skip list or a balanced tree).",
+      "tags": [
+        "LSM-Tree",
+        "Distributed Systems",
+        "Write Optimization",
+        "Bloom Filters",
+        "Fractional Cascading"
+      ],
+      "scheduled_at": "2026-05-12T22:01:34Z",
+      "status": "pending"
     }
   ]
 }
