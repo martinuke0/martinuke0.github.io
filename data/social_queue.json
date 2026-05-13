@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-13T18:01:36Z",
+  "last_scheduled_at": "2026-05-13T19:02:12Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -12626,6 +12626,20 @@
       ],
       "scheduled_at": "2026-05-13T18:01:36Z",
       "status": "posted"
+    },
+    {
+      "title": "Why Copy on Write Bypasses Memory Allocation Bottlenecks",
+      "url": "https://martinuke0.github.io/posts/2026-05-13-why-copy-on-write-bypasses-memory-allocation-bottlenecks/",
+      "social_hook": "> TL;DR — Copy‑on‑Write (COW) sidesteps the traditional memory‑allocation pipeline by letting multiple readers share the same physical pages and only allocating new memory when a write actually happens. This eliminates lock contention, reduces fragmentation, and often yields order‑of‑magnitude speedups for read‑heavy workloads.\n\nMemory allocation is a silent performance killer in many low‑level systems. When dozens of threads race to request, free, or resize blocks, the allocator’s internal locks and fragmentation can dominate CPU time. Copy‑on‑Write offers a different paradigm: instead of allocating fresh memory up front, it lets processes or threads share existing pages and defer any real allocation until a write is unavoidable. The result is a dramatic reduction in allocation pressure, especially for workloads that spend most of their time reading immutable data.\n\nIn a conventional heap allocator—whether `malloc` in C, `jemalloc` in modern Linux services, or the Go runtime’s garbage collector—every request follows a similar path:",
+      "tags": [
+        "memory-management",
+        "copy-on-write",
+        "performance",
+        "systems-programming",
+        "concurrency"
+      ],
+      "scheduled_at": "2026-05-13T19:02:12Z",
+      "status": "pending"
     }
   ]
 }
