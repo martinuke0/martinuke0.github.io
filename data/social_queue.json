@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-13T05:01:34Z",
+  "last_scheduled_at": "2026-05-13T06:01:34Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -12444,6 +12444,20 @@
       ],
       "scheduled_at": "2026-05-13T05:01:34Z",
       "status": "posted"
+    },
+    {
+      "title": "Implementing Log-Structured Merge-Trees for High-Throughput Write-Intensive Distributed Storage Systems",
+      "url": "https://martinuke0.github.io/posts/2026-05-13-implementing-log-structured-merge-trees-for-high-throughput-write-intensive-distributed-storage-systems/",
+      "social_hook": "> TL;DR — LSM‑Trees batch writes in memory and periodically compact them to disk, enabling massive write throughput while keeping reads efficient in distributed storage systems.\n\nDistributed storage systems that must ingest millions of records per second face a fundamental tension: raw disk devices excel at sequential writes but suffer dramatically when handling random updates. Log‑Structured Merge‑Trees (LSM‑Trees) resolve this tension by converting random writes into sequential appends, deferring expensive re‑writes to background compaction jobs. The result is a storage engine that can sustain high‑throughput ingestion without sacrificing read latency, fault tolerance, or horizontal scalability. This article walks through the core concepts, compaction strategies, consistency models, and practical deployment considerations needed to build a production‑grade, write‑intensive distributed store on top of LSM‑Trees.\n\nWhen a client issues a `PUT` or `INSERT`, the request is first serialized into a memtable—an in‑memory sorted data structure, typically a skip list or a balanced tree. The serialized entry is also appended to a write‑ahead log (WAL) to guarantee durability in case of a crash.",
+      "tags": [
+        "storage",
+        "lsm-tree",
+        "distributed-systems",
+        "high-throughput",
+        "write-intensive"
+      ],
+      "scheduled_at": "2026-05-13T06:01:34Z",
+      "status": "pending"
     }
   ]
 }
