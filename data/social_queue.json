@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-13T21:02:12Z",
+  "last_scheduled_at": "2026-05-13T22:02:12Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -12667,6 +12667,21 @@
         "performance"
       ],
       "scheduled_at": "2026-05-13T21:02:12Z",
+      "status": "pending"
+    },
+    {
+      "title": "Why Copy-on-Write B-Trees Enable Atomic Database Snapshots",
+      "url": "https://martinuke0.github.io/posts/2026-05-13-why-copy-on-write-b-trees-enable-atomic-database-snapshots/",
+      "social_hook": "> TL;DR — Copy‑on‑write (COW) B‑trees let a database take a point‑in‑time snapshot by duplicating only the modified path, not the whole structure. The result is an atomic, lock‑free view of the data that can be read safely while writers continue operating.\n\nDatabases must balance two competing goals: high‑throughput writes and reliable, consistent reads. Traditional snapshot techniques either pause writes, copy entire files, or rely on heavyweight locking—each approach hurts performance or adds complexity. Copy‑on‑write B‑trees solve this dilemma by turning the index itself into a versioned data structure. When a transaction modifies a leaf, the tree creates new versions of the affected nodes, leaving the old ones untouched. Those untouched nodes become the basis of an atomic snapshot that any reader can use without ever seeing a half‑written state.\n\nMost early relational engines created a snapshot by copying the entire datafile to a separate location. While conceptually simple, the I/O cost scales linearly with data size. In a 10 TB warehouse, a full copy can take hours, during which the system must either block writes or risk inconsistencies. Moreover, the copied data quickly becomes stale, forcing frequent recopy cycles.",
+      "tags": [
+        "databases",
+        "b-trees",
+        "copy-on-write",
+        "snapshots",
+        "consistency",
+        "storage"
+      ],
+      "scheduled_at": "2026-05-13T22:02:12Z",
       "status": "pending"
     }
   ]
