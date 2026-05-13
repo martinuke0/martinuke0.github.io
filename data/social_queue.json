@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-13T06:01:34Z",
+  "last_scheduled_at": "2026-05-13T07:01:34Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -12458,6 +12458,20 @@
       ],
       "scheduled_at": "2026-05-13T06:01:34Z",
       "status": "posted"
+    },
+    {
+      "title": "The Raft Consensus Algorithm: A Deep Dive Into Distributed State Machines",
+      "url": "https://martinuke0.github.io/posts/2026-05-13-the-raft-consensus-algorithm-a-deep-dive-into-distributed-state-machines/",
+      "social_hook": "> TL;DR — Raft turns a cluster of unreliable machines into a coherent, fault‑tolerant state machine by electing a single leader, replicating logs, and enforcing safety rules that are easier to reason about than Paxos.\n\nRaft has become the go‑to teaching tool for consensus because it separates the “what” (the guarantees we need) from the “how” (the concrete steps to achieve them). In this deep dive we’ll walk through Raft’s architecture, examine each protocol phase in detail, and surface practical tips for turning the algorithm into production‑grade code. By the end you’ll understand not only the theory behind distributed state machines but also how to implement, test, and debug a Raft‑based system.\n\nRaft was introduced in 2013 by Diego Ongaro and John Ousterhout as a more understandable alternative to Paxos — the classic consensus algorithm that powers many large‑scale services. At its core, Raft solves the state machine replication problem: given a series of client commands, a group of servers must apply those commands in the same order, even when some servers crash or messages are delayed.",
+      "tags": [
+        "Raft",
+        "Consensus",
+        "Distributed Systems",
+        "State Machines",
+        "Algorithms"
+      ],
+      "scheduled_at": "2026-05-13T07:01:34Z",
+      "status": "pending"
     }
   ]
 }
