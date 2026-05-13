@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-13T17:01:36Z",
+  "last_scheduled_at": "2026-05-13T18:01:36Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -12611,6 +12611,20 @@
         "architecture"
       ],
       "scheduled_at": "2026-05-13T17:01:36Z",
+      "status": "pending"
+    },
+    {
+      "title": "Why B‑Trees Outperform LSM Trees for Read‑Heavy Workloads",
+      "url": "https://martinuke0.github.io/posts/2026-05-13-why-btrees-outperform-lsm-trees-for-readheavy-workloads/",
+      "social_hook": "> TL;DR — B‑trees keep data sorted in place, allowing direct point‑lookup and range scans with a single I/O per level. LSM trees, while excellent for write bursts, must merge several on‑disk components during reads, adding latency that hurts read‑heavy workloads.\n\nModern storage engines still wrestle with the classic trade‑off between B‑trees and Log‑Structured Merge (LSM) trees. Both structures originated in the 1970s, yet they have diverged into distinct design philosophies: B‑trees prioritize low‑latency reads by maintaining a balanced, multi‑level index; LSM trees batch writes into immutable segments and defer compaction, which boosts write throughput at the cost of read complexity. When a workload is dominated by point queries, range scans, or low‑latency requirements—think e‑commerce product catalogs, user profile lookups, or financial tick data—B‑trees consistently outperform LSM trees. This article unpacks the structural reasons, illustrates them with code snippets, and cites real‑world benchmarks to help engineers choose the right engine for read‑heavy applications.\n\nA B‑tree is a balanced, multi‑way search tree where each node contains a sorted array of keys and pointers to child nodes. The branching factor (often called order) is chosen so that a node fits comfortably within a single disk page (e.g., 4 KB or 16 KB). This design yields two crucial properties:",
+      "tags": [
+        "b-trees",
+        "lsm-trees",
+        "databases",
+        "read-performance",
+        "storage-engines"
+      ],
+      "scheduled_at": "2026-05-13T18:01:36Z",
       "status": "pending"
     }
   ]
