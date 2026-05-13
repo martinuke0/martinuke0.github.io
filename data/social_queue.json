@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-13T01:01:34Z",
+  "last_scheduled_at": "2026-05-13T02:01:34Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -12388,6 +12388,20 @@
       ],
       "scheduled_at": "2026-05-13T01:01:34Z",
       "status": "posted"
+    },
+    {
+      "title": "Implementing Log-Structured Merge Trees for High-Throughput Write Operations in Distributed Vector Databases",
+      "url": "https://martinuke0.github.io/posts/2026-05-13-implementing-log-structured-merge-trees-for-high-throughput-write-operations-in-distributed-vector-databases/",
+      "social_hook": "> TL;DR — Log-Structured Merge (LSM) trees turn sequential disk writes into fast, append‑only operations, making them ideal for the massive, bursty writes typical of distributed vector databases. By coupling LSM‑style compaction with vector‑aware sharding and quorum replication, you can sustain millions of vector inserts per second while keeping read latency predictable.\n\nDistributed vector databases such as Milvus, Vespa, and Pinecone must ingest high‑dimensional embeddings at a scale that traditional B‑tree or LSM‑free storage engines simply cannot sustain. The key to unlocking that throughput lies in the way data is written to disk. An LSM tree batches writes in memory, flushes immutable sorted strings (SSTables) to disk, and later merges them in the background. This article walks through the full stack— from the in‑memory write path to cross‑node consistency— showing how to implement an LSM‑based storage engine that meets the performance demands of modern AI workloads.\n\n1. MemTable (in‑memory sorted map) – Incoming vector records are inserted into a lock‑free skip‑list or a balanced tree. Because the structure is kept sorted, range scans remain cheap.",
+      "tags": [
+        "LSM",
+        "vector-database",
+        "distributed-systems",
+        "high-throughput",
+        "storage-engine"
+      ],
+      "scheduled_at": "2026-05-13T02:01:34Z",
+      "status": "pending"
     }
   ]
 }
