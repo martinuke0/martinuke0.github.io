@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-13T13:01:36Z",
+  "last_scheduled_at": "2026-05-13T14:01:36Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -12555,6 +12555,20 @@
         "Performance"
       ],
       "scheduled_at": "2026-05-13T13:01:36Z",
+      "status": "pending"
+    },
+    {
+      "title": "Why Copy-on-Write B-Trees Accelerate Database Snapshots",
+      "url": "https://martinuke0.github.io/posts/2026-05-13-why-copy-on-write-b-trees-accelerate-database-snapshots/",
+      "social_hook": "> TL;DR — Copy‑on‑write (COW) B‑trees store each modification as a new version of the affected node, leaving older versions untouched. This immutable‑write pattern makes taking a consistent snapshot as cheap as recording a pointer, while reads on the snapshot remain fast because the tree structure stays balanced and cache‑friendly.\n\nDatabase engines spend a lot of time juggling two competing goals: high‑throughput writes and consistent, low‑latency reads. Snapshots—point‑in‑time views of the data—are essential for backups, analytics, and multi‑version concurrency control (MVCC). Traditional snapshot mechanisms often involve heavy locking, copying large data files, or replaying logs, all of which add latency and storage overhead. Copy‑on‑write B‑trees solve this problem by turning the snapshot operation into a near‑zero‑cost pointer capture, while preserving the performance characteristics of a classic B‑tree for both reads and writes.\n\nBelow we dive into the theory, the data structures, and real‑world performance numbers that demonstrate why COW B‑trees have become the backbone of modern storage engines such as SQLite, RocksDB, and FoundationDB.",
+      "tags": [
+        "database",
+        "b-tree",
+        "copy-on-write",
+        "snapshots",
+        "performance"
+      ],
+      "scheduled_at": "2026-05-13T14:01:36Z",
       "status": "pending"
     }
   ]
