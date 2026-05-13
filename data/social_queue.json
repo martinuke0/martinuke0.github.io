@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-12T23:01:34Z",
+  "last_scheduled_at": "2026-05-13T00:01:34Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -12360,6 +12360,20 @@
       ],
       "scheduled_at": "2026-05-12T23:01:34Z",
       "status": "posted"
+    },
+    {
+      "title": "Implementing Log-Structured Merge Trees for High-Throughput Write-Intensive Distributed Databases",
+      "url": "https://martinuke0.github.io/posts/2026-05-13-implementing-log-structured-merge-trees-for-high-throughput-write-intensive-distributed-databases/",
+      "social_hook": "> TL;DR — LSM trees turn sequential writes into fast, durable operations by buffering in memory and periodically compacting sorted runs. Properly tuned compaction, tiering, and distributed coordination let write‑heavy databases scale to billions of inserts per second with predictable latency.\n\nWrite‑intensive workloads dominate modern analytics, IoT ingestion pipelines, and real‑time recommendation engines. Traditional B‑tree storage struggles under such pressure because each insert triggers a costly random write. Log‑Structured Merge (LSM) trees sidestep this limitation by turning writes into sequential appends and deferring expensive merges to background compaction jobs. This article walks through the full stack—data structures, write path, compaction strategies, consistency guarantees, and operational tuning—so you can confidently embed an LSM engine in a distributed database.\n\n Sequential I/O vs. Random I/O – Modern SSDs and NVMe drives deliver orders‑of‑magnitude higher throughput for sequential writes. LSM trees exploit this by buffering mutations in memory (the memtable*) and flushing them as immutable sorted strings (SSTables) to disk.",
+      "tags": [
+        "LSM",
+        "distributed-databases",
+        "write-performance",
+        "compaction",
+        "architecture"
+      ],
+      "scheduled_at": "2026-05-13T00:01:34Z",
+      "status": "pending"
     }
   ]
 }
