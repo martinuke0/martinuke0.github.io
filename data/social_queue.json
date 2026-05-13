@@ -12373,7 +12373,7 @@
         "architecture"
       ],
       "scheduled_at": "2026-05-13T00:01:34Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Optimizing Distributed Consensus: Tuning Raft for High Throughput and Low Latency Systems",
@@ -12387,7 +12387,7 @@
         "scalability"
       ],
       "scheduled_at": "2026-05-13T01:01:34Z",
-      "status": "pending"
+      "status": "posted"
     }
   ]
 }
