@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-13T00:01:34Z",
+  "last_scheduled_at": "2026-05-13T01:01:34Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -12373,6 +12373,20 @@
         "architecture"
       ],
       "scheduled_at": "2026-05-13T00:01:34Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Distributed Consensus: Tuning Raft for High Throughput and Low Latency Systems",
+      "url": "https://martinuke0.github.io/posts/2026-05-13-optimizing-distributed-consensus-tuning-raft-for-high-throughput-and-low-latency-systems/",
+      "social_hook": "> TL;DR — By adjusting election timeouts, batch sizes, disk I/O settings, and network pipelines, Raft can sustain high request rates with sub‑millisecond latencies even at scale.\n\nRaft has become the de‑facto standard for building fault‑tolerant replicated state machines, yet many developers treat it as a black box that “just works.” In reality, Raft’s performance envelope is heavily influenced by a handful of tunable knobs. This article walks through the most impactful levers—network configuration, log replication strategy, leader election parameters, and hardware choices—showing how to push Raft from a modest 1 k ops/sec baseline to the multi‑megabytes‑per‑second regime required by modern micro‑service back‑ends.\n\nRaft’s operation can be split into three logical phases that repeat continuously:",
+      "tags": [
+        "distributed-systems",
+        "consensus",
+        "raft",
+        "performance",
+        "scalability"
+      ],
+      "scheduled_at": "2026-05-13T01:01:34Z",
       "status": "pending"
     }
   ]
