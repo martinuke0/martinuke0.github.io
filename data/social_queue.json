@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-13T04:01:34Z",
+  "last_scheduled_at": "2026-05-13T05:01:34Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -12430,6 +12430,20 @@
       ],
       "scheduled_at": "2026-05-13T04:01:34Z",
       "status": "posted"
+    },
+    {
+      "title": "Probabilistic Data Structures for High‑Cardinality Estimation in Distributed Observability Streams",
+      "url": "https://martinuke0.github.io/posts/2026-05-13-probabilistic-data-structures-for-highcardinality-estimation-in-distributed-observability-streams/",
+      "social_hook": "> TL;DR — Probabilistic sketches such as HyperLogLog, Linear Counting, and Count‑Min Sketch let you estimate millions of unique identifiers with kilobytes of memory. When integrated into a distributed observability stack, they provide near‑real‑time cardinality insights without overwhelming network or storage budgets.\n\nObservability platforms constantly ingest telemetry—traces, logs, metrics—from thousands of services. A recurring challenge is high‑cardinality estimation: counting distinct request IDs, error codes, or user identifiers across a globally distributed mesh. Traditional set storage scales linearly with the number of uniques, quickly exhausting memory and bandwidth. Probabilistic data structures (sketches) offer a compelling alternative: they sacrifice a bounded error for orders‑of‑magnitude savings in space and compute, making them ideal for streaming pipelines that must remain low‑latency and fault‑tolerant.\n\n1. Capacity planning – Knowing how many distinct clients hit an endpoint guides autoscaling decisions.",
+      "tags": [
+        "observability",
+        "cardinality",
+        "probabilistic-data-structures",
+        "distributed-systems",
+        "stream-processing"
+      ],
+      "scheduled_at": "2026-05-13T05:01:34Z",
+      "status": "pending"
     }
   ]
 }
