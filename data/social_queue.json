@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-13T09:01:36Z",
+  "last_scheduled_at": "2026-05-13T10:01:36Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -12500,6 +12500,20 @@
       ],
       "scheduled_at": "2026-05-13T09:01:36Z",
       "status": "posted"
+    },
+    {
+      "title": "LSM Trees vs B-Trees: Solving the Write Amplification Tradeoff in Distributed Databases",
+      "url": "https://martinuke0.github.io/posts/2026-05-13-lsm-trees-vs-b-trees-solving-the-write-amplification-tradeoff-in-distributed-databases/",
+      "social_hook": "> TL;DR — LSM trees dramatically reduce write amplification by batching writes and deferring compaction, making them ideal for write‑heavy distributed workloads. B‑trees offer lower read latency and simpler range queries, so the choice hinges on the workload’s read‑write balance and the system’s consistency requirements.\n\nModern distributed databases must juggle high throughput, low latency, and strong durability. Two storage‑engine families dominate the design space: the classic B‑tree and the log‑structured merge (LSM) tree. While B‑trees excel at point reads and ordered scans, LSM trees shine when writes dominate and hardware favors sequential I/O. Understanding how each structure creates—or mitigates—write amplification is essential for architects who need to tune performance, control storage costs, and guarantee data safety.\n\nB‑trees are balanced search trees where each node can hold multiple keys and child pointers. Their design guarantees O(log N) depth, ensuring predictable lookup times even as datasets grow.",
+      "tags": [
+        "LSM",
+        "B-Tree",
+        "Write Amplification",
+        "Distributed Databases",
+        "Storage Engines"
+      ],
+      "scheduled_at": "2026-05-13T10:01:36Z",
+      "status": "pending"
     }
   ]
 }
