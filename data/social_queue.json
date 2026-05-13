@@ -12401,7 +12401,7 @@
         "storage-engine"
       ],
       "scheduled_at": "2026-05-13T02:01:34Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Implementing Vector Clocks for Causal Consistency in Distributed Multi-Agent State Synchronization",
@@ -12471,7 +12471,7 @@
         "Algorithms"
       ],
       "scheduled_at": "2026-05-13T07:01:34Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Implementing Conflict-Free Replicated Data Types for Eventual Consistency in Distributed Systems",
