@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-13T03:01:34Z",
+  "last_scheduled_at": "2026-05-13T04:01:34Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -12416,6 +12416,20 @@
       ],
       "scheduled_at": "2026-05-13T03:01:34Z",
       "status": "posted"
+    },
+    {
+      "title": "Implementing Log-Structured Merge Trees for High‑Throughput Write‑Intensive Distributed Databases",
+      "url": "https://martinuke0.github.io/posts/2026-05-13-implementing-log-structured-merge-trees-for-highthroughput-writeintensive-distributed-databases/",
+      "social_hook": "> TL;DR — LSM trees enable massive write throughput by batching writes in immutable segments and merging them in the background; careful compaction strategy selection is essential to keep read latency low in distributed databases.\n\nWrite‑intensive workloads have become the norm for modern services such as telemetry ingestion, real‑time analytics, and event sourcing. Traditional B‑tree storage engines choke under the pressure of millions of small writes per second, while Log‑Structured Merge (LSM) trees thrive by turning random writes into sequential appends. This article walks through the internals of LSM trees, shows how they are wired into a distributed database stack, and provides concrete guidance for engineers who need to design, tune, and operate a high‑throughput write path.\n\nAn LSM tree is a multi‑level, write‑optimized data structure that stores data in a series of sorted string tables (SSTables). New records are first written to an in‑memory structure called a memtable. When the memtable reaches a configurable size, it is frozen, written to disk as an immutable SSTable, and a new memtable takes its place. Over time, many SSTables accumulate; background compaction jobs merge overlapping files, rewrite them into larger, cleaner levels, and discard obsolete key‑value pairs.",
+      "tags": [
+        "LSM",
+        "distributed-databases",
+        "write-throughput",
+        "storage-engine",
+        "performance"
+      ],
+      "scheduled_at": "2026-05-13T04:01:34Z",
+      "status": "pending"
     }
   ]
 }
