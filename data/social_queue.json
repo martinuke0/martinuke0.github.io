@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-13T10:01:36Z",
+  "last_scheduled_at": "2026-05-13T11:01:36Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -12514,6 +12514,20 @@
       ],
       "scheduled_at": "2026-05-13T10:01:36Z",
       "status": "posted"
+    },
+    {
+      "title": "Designing High‑Availability Distributed Locks with Redlock and Fencing Tokens",
+      "url": "https://martinuke0.github.io/posts/2026-05-13-designing-highavailability-distributed-locks-with-redlock-and-fencing-tokens/",
+      "social_hook": "> TL;DR — Redlock combines multiple independent Redis instances to achieve fault‑tolerant locking, but you still need fencing tokens to prevent stale lock usage after failures. This post walks through the algorithm, its safety guarantees, and a production‑ready Python implementation.\n\nDistributed systems rarely get away with a single point of failure. When many services need exclusive access to a shared resource—such as a job queue, a critical configuration file, or a limited‑capacity API—relying on a naïve lock can cause split‑brain scenarios, data corruption, or downtime. The Redlock algorithm, introduced by Salvatore Sanfilippo (the creator of Redis), offers a way to coordinate locks across several Redis nodes, while fencing tokens provide a cheap yet robust guard against the “lock‑reuse after expiry” problem. Together they form a high‑availability locking primitive that scales across data‑centers and survives network partitions.\n\nA single Redis instance can provide a lock with the classic `SET key value NX PX ttl` pattern. It works well when the Redis server is the sole source of truth and the network is reliable. However, in production environments you often run Redis in a replicated or clustered mode, and you cannot guarantee that the master will stay alive for the entire TTL. If the master crashes after granting a lock but before the client releases it, the lock may become orphaned, causing other clients to deadlock indefinitely.",
+      "tags": [
+        "distributed systems",
+        "redis",
+        "high availability",
+        "locking",
+        "algorithm"
+      ],
+      "scheduled_at": "2026-05-13T11:01:36Z",
+      "status": "pending"
     }
   ]
 }
