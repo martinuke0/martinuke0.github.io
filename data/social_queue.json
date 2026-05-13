@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-13T08:01:34Z",
+  "last_scheduled_at": "2026-05-13T09:01:36Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -12486,6 +12486,20 @@
       ],
       "scheduled_at": "2026-05-13T08:01:34Z",
       "status": "posted"
+    },
+    {
+      "title": "Implementing Conflict-Free Replicated Data Types for Eventual Consistency in Distributed Collaborative Systems",
+      "url": "https://martinuke0.github.io/posts/2026-05-13-implementing-conflict-free-replicated-data-types-for-eventual-consistency-in-distributed-collaborative-systems/",
+      "social_hook": "> TL;DR — CRDTs let you write collaborative software that stays consistent without a central coordinator. By choosing the right data type (operation‑based or state‑based) and wiring it into your replication layer, you can achieve low‑latency, conflict‑free updates even under network partitions.\n\nDistributed collaborative applications—think real‑time editors, shared whiteboards, or multiplayer games—must stay responsive while guaranteeing that every replica eventually converges to the same state. Traditional lock‑based or leader‑based approaches either sacrifice latency or become single points of failure. Conflict‑Free Replicated Data Types (CRDTs) provide a mathematically proven way to reconcile concurrent updates without coordination, making them a natural fit for modern, loosely coupled systems.\n\nEventual consistency is the promise that, if no new updates are made, all replicas will eventually converge to the same value. It tolerates temporary divergence, network partitions, and out‑of‑order delivery. The trade‑off is that developers must reason about how divergent states are merged.",
+      "tags": [
+        "CRDT",
+        "distributed-systems",
+        "eventual-consistency",
+        "collaboration",
+        "software-architecture"
+      ],
+      "scheduled_at": "2026-05-13T09:01:36Z",
+      "status": "pending"
     }
   ]
 }
