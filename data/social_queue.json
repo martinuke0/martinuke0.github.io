@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-13T07:01:34Z",
+  "last_scheduled_at": "2026-05-13T08:01:34Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -12471,6 +12471,20 @@
         "Algorithms"
       ],
       "scheduled_at": "2026-05-13T07:01:34Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing Conflict-Free Replicated Data Types for Eventual Consistency in Distributed Systems",
+      "url": "https://martinuke0.github.io/posts/2026-05-13-implementing-conflict-free-replicated-data-types-for-eventual-consistency-in-distributed-systems/",
+      "social_hook": "> TL;DR — CRDTs let you build distributed services that converge automatically without coordination. By choosing the right CRDT type, encoding state efficiently, and testing conflict‑free behavior, you can achieve strong eventual consistency with minimal latency.\n\nDistributed systems must reconcile updates that arrive out of order, from different network partitions, or after node failures. Traditional approaches rely on heavyweight coordination (e.g., Paxos, Raft) that adds latency and reduces availability. Conflict‑Free Replicated Data Types (CRDTs) offer a complementary strategy: each replica can apply operations locally, and the mathematical properties of the data type guarantee that all replicas converge to the same state once they have seen the same set of updates. This article walks through the theory behind CRDTs, examines the most common concrete types, and shows how to implement a small CRDT library that can be dropped into a production‑grade distributed service.\n\nA Conflict‑Free Replicated Data Type is a data structure whose replicas can be updated independently and merged deterministically without requiring any central arbitrator. The key guarantees are:",
+      "tags": [
+        "CRDT",
+        "distributed-systems",
+        "eventual-consistency",
+        "data-replication",
+        "scalability"
+      ],
+      "scheduled_at": "2026-05-13T08:01:34Z",
       "status": "pending"
     }
   ]
