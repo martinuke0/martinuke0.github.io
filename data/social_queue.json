@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-13T20:02:12Z",
+  "last_scheduled_at": "2026-05-13T21:02:12Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -12654,6 +12654,20 @@
       ],
       "scheduled_at": "2026-05-13T20:02:12Z",
       "status": "posted"
+    },
+    {
+      "title": "How Copy-on-Write B-Trees Enable Instant Database Snapshots",
+      "url": "https://martinuke0.github.io/posts/2026-05-13-how-copy-on-write-b-trees-enable-instant-database-snapshots/",
+      "social_hook": "> TL;DR — Copy‑on‑write (COW) B‑trees let a database clone its entire logical state in a single, lock‑free operation. By sharing unchanged pages and only duplicating the nodes touched by a write, COW B‑trees provide instant, space‑efficient snapshots without sacrificing transaction throughput.\n\nDatabases must balance three competing goals: durability, concurrency, and low‑latency reads. Traditional snapshot techniques—full table copies, log‑based replay, or heavy‑weight locking—either pause writes or consume large amounts of I/O. Copy‑on‑write B‑trees flip the problem on its head: they make the write operation cheap to duplicate, turning snapshot creation into a near‑zero‑cost pointer swap. In this article we unpack the data‑structure fundamentals, walk through the exact steps a COW B‑tree takes to snapshot, discuss consistency guarantees, and examine how major systems such as PostgreSQL, RocksDB, and SQLite put the theory into practice.\n\nA B‑tree is a balanced search tree optimized for block‑oriented storage. Each node holds multiple keys and child pointers, fitting neatly into a disk page (often 4 KB or 8 KB). The invariants are simple:",
+      "tags": [
+        "databases",
+        "b-tree",
+        "copy-on-write",
+        "snapshots",
+        "performance"
+      ],
+      "scheduled_at": "2026-05-13T21:02:12Z",
+      "status": "pending"
     }
   ]
 }
