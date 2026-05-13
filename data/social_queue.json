@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-13T16:01:36Z",
+  "last_scheduled_at": "2026-05-13T17:01:36Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -12597,6 +12597,20 @@
         "Performance"
       ],
       "scheduled_at": "2026-05-13T16:01:36Z",
+      "status": "pending"
+    },
+    {
+      "title": "Why Copy-on-Write B-Trees Improve Database Concurrency Control",
+      "url": "https://martinuke0.github.io/posts/2026-05-13-why-copy-on-write-b-trees-improve-database-concurrency-control/",
+      "social_hook": "> TL;DR — Copy‑on‑Write (COW) B‑Trees give each writer its own private version of modified nodes while readers continue to see a stable, lock‑free snapshot. The result is dramatically higher concurrency, fewer deadlocks, and simpler multi‑version control for modern databases.\n\nModern databases must juggle two opposing forces: the need for strict consistency and the demand for high‑throughput concurrent access. Traditional B‑Tree implementations rely on fine‑grained locks or latch protocols that can become a bottleneck under heavy write‑heavy workloads. Copy‑on‑Write B‑Trees sidestep many of those problems by treating the tree as an immutable data structure for readers and constructing a brand‑new version for every writer. This article unpacks the mechanics of COW B‑Trees, explains why they improve concurrency control, and shows how leading systems such as SQLite, RocksDB, and PostgreSQL put the idea into practice.\n\nA classic B‑Tree stores keys and pointers in fixed‑size pages that are shared among all transactions. When a transaction needs to insert a key, it must acquire latches (short‑term in‑memory locks) on every page it traverses, and an exclusive lock on the leaf page where the new entry will be placed. If many transactions try to insert into the same leaf or neighboring leaves, they contend for the same latch, causing threads to block and context switches to spike.",
+      "tags": [
+        "database",
+        "b-tree",
+        "concurrency",
+        "copy-on-write",
+        "architecture"
+      ],
+      "scheduled_at": "2026-05-13T17:01:36Z",
       "status": "pending"
     }
   ]
