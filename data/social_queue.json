@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-13T19:02:12Z",
+  "last_scheduled_at": "2026-05-13T20:02:12Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -12640,6 +12640,20 @@
       ],
       "scheduled_at": "2026-05-13T19:02:12Z",
       "status": "posted"
+    },
+    {
+      "title": "Why Write-Ahead Logging Prevents Database Corruption During Crashes",
+      "url": "https://martinuke0.github.io/posts/2026-05-13-why-write-ahead-logging-prevents-database-corruption-during-crashes/",
+      "social_hook": "> TL;DR — Write-ahead logging (WAL) records every change to a durable log before touching the main database files. If a crash occurs, the log can be replayed to restore a consistent state, eliminating the risk of partially written pages and corruption.\n\nDatabases must survive power failures, kernel panics, and unexpected process termination. The most reliable way to guarantee that no transaction leaves the storage engine in an inconsistent half‑written state is to enforce a strict order: log first, data later. This principle is the heart of write-ahead logging, and it underpins the crash‑recovery mechanisms of PostgreSQL, SQLite, MySQL InnoDB, and many NoSQL stores. In this article we unpack the mechanics of WAL, examine how it prevents corruption, and discuss the trade‑offs you should weigh when configuring it for production workloads.\n\nAt a high level, WAL transforms every logical modification (INSERT, UPDATE, DELETE) into a sequential series of log records. Each record contains enough information to redo the change (the redo part) and, in some implementations, to undo it (the undo part). The workflow can be broken into three distinct phases:",
+      "tags": [
+        "databases",
+        "write-ahead logging",
+        "crash recovery",
+        "data integrity",
+        "SQL"
+      ],
+      "scheduled_at": "2026-05-13T20:02:12Z",
+      "status": "pending"
     }
   ]
 }
