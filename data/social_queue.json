@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-13T11:01:36Z",
+  "last_scheduled_at": "2026-05-13T12:01:36Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -12528,6 +12528,20 @@
       ],
       "scheduled_at": "2026-05-13T11:01:36Z",
       "status": "posted"
+    },
+    {
+      "title": "Reliable Message Ordering in Asynchronous Event‑Driven Architectures",
+      "url": "https://martinuke0.github.io/posts/2026-05-13-reliable-message-ordering-in-asynchronous-eventdriven-architectures/",
+      "social_hook": "> TL;DR — In asynchronous event‑driven systems you cannot rely on the transport layer alone to preserve order. Combine deterministic routing, explicit sequence numbers, idempotent consumers, and broker‑level guarantees (e.g., partitioned topics) to achieve reliable ordering without sacrificing scalability.\n\nEvent‑driven architectures have become the de‑facto standard for building resilient, loosely‑coupled services, but they also introduce a subtle challenge: messages may arrive out of order, be duplicated, or be lost entirely. When downstream logic depends on a strict temporal sequence—think financial transactions, inventory adjustments, or state‑machine transitions—incorrect ordering can corrupt data and erode trust. This article walks through the underlying reasons ordering fails, then presents a toolbox of proven patterns and concrete implementation snippets that let you keep your event stream reliable while still reaping the benefits of asynchrony.\n\nAsynchronous messaging decouples producers from consumers by inserting a broker (Kafka, RabbitMQ, SQS, etc.) between them. The broker stores messages until a consumer is ready, allowing each side to scale independently. Two core properties make this attractive:",
+      "tags": [
+        "event-driven",
+        "messaging",
+        "ordering",
+        "distributed-systems",
+        "asynchronous"
+      ],
+      "scheduled_at": "2026-05-13T12:01:36Z",
+      "status": "pending"
     }
   ]
 }
