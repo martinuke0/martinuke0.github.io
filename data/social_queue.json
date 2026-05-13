@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-13T02:01:34Z",
+  "last_scheduled_at": "2026-05-13T03:01:34Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -12401,6 +12401,20 @@
         "storage-engine"
       ],
       "scheduled_at": "2026-05-13T02:01:34Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing Vector Clocks for Causal Consistency in Distributed Multi-Agent State Synchronization",
+      "url": "https://martinuke0.github.io/posts/2026-05-13-implementing-vector-clocks-for-causal-consistency-in-distributed-multi-agent-state-synchronization/",
+      "social_hook": "> TL;DR — Vector clocks give each agent a lightweight, totally ordered view of causality, enabling safe state merges without central coordination. This post walks through the theory, a Python implementation, and practical tips for scaling causal consistency in real‑world multi‑agent systems.\n\nDistributed applications that rely on many autonomous agents—robots, micro‑services, or edge devices—must keep their local state in sync while tolerating network partitions, message reordering, and node failures. Traditional strong consistency models (e.g., linearizability) demand a central coordinator, which quickly becomes a bottleneck. Causal consistency offers a middle ground: updates that are causally related are seen in the same order by all agents, while concurrent updates may be observed in any order. Vector clocks are the de‑facto mechanism for tracking causality without a global clock.\n\n* Review the formal definition of causal consistency and why it matters for multi‑agent systems.",
+      "tags": [
+        "distributed systems",
+        "vector clocks",
+        "causal consistency",
+        "multi-agent",
+        "state synchronization"
+      ],
+      "scheduled_at": "2026-05-13T03:01:34Z",
       "status": "pending"
     }
   ]
