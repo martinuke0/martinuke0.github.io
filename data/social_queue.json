@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-13T14:01:36Z",
+  "last_scheduled_at": "2026-05-13T15:01:36Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -12569,6 +12569,20 @@
         "performance"
       ],
       "scheduled_at": "2026-05-13T14:01:36Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Write Throughput with Log-Structured Merge Trees",
+      "url": "https://martinuke0.github.io/posts/2026-05-13-optimizing-write-throughput-with-log-structured-merge-trees/",
+      "social_hook": "> TL;DR — LSM trees achieve high write throughput by converting random writes into sequential appends and deferring work to background compactions. Properly sizing memtables, tuning compaction thresholds, and monitoring I/O pressure let you keep latency low while sustaining millions of writes per second.\n\nWrite‑intensive workloads have become the norm for modern services—from telemetry pipelines to real‑time analytics. Traditional B‑tree storage engines choke under that pressure because each insert triggers a costly random write to disk. Log‑Structured Merge (LSM) trees flip the script: they batch writes in memory, flush them sequentially, and later merge overlapping files in the background. The result is a storage engine that can sustain massive ingest rates while still offering acceptable read latency. This article unpacks the mechanics of LSM trees, explains why compaction is both a blessing and a bottleneck, and provides concrete tuning guidance for the most popular implementations: RocksDB, LevelDB, and Apache Cassandra.\n\n1. MemTable – an in‑memory sorted data structure (often a skip list). Writes are appended here in O(log N) time.",
+      "tags": [
+        "LSM trees",
+        "write throughput",
+        "database performance",
+        "storage engines",
+        "key-value stores"
+      ],
+      "scheduled_at": "2026-05-13T15:01:36Z",
       "status": "pending"
     }
   ]
