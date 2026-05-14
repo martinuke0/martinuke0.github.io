@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-14T02:01:22Z",
+  "last_scheduled_at": "2026-05-14T03:01:25Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -12725,6 +12725,20 @@
       ],
       "scheduled_at": "2026-05-14T02:01:22Z",
       "status": "posted"
+    },
+    {
+      "title": "Why LSM Trees Outperform B-Trees for Write Heavy Workloads",
+      "url": "https://martinuke0.github.io/posts/2026-05-14-why-lsm-trees-outperform-b-trees-for-write-heavy-workloads/",
+      "social_hook": "> TL;DR — LSM trees achieve superior write performance by converting random writes into sequential appends and amortizing compaction costs, whereas B‑trees incur costly random I/O for each write. The trade‑off is more complex reads and background compaction, but for write‑heavy workloads the benefits dominate.\n\nWrite‑intensive applications—time‑series ingestion, logging pipelines, and high‑throughput key‑value stores—often struggle with traditional B‑tree indexes. While B‑trees have been the workhorse of relational databases for decades, the Log‑Structured Merge (LSM) tree architecture, popularized by systems like LevelDB, RocksDB, and Apache Cassandra, flips the performance equation on its head. This article dives deep into the structural differences, the write pipelines, and the real‑world consequences that make LSM trees the go‑to choice for write‑heavy workloads.\n\nA B‑tree is a balanced multi‑way search tree where each node contains a sorted array of keys and child pointers. The key invariants are:",
+      "tags": [
+        "lsm-trees",
+        "b-trees",
+        "databases",
+        "write-heavy",
+        "performance"
+      ],
+      "scheduled_at": "2026-05-14T03:01:25Z",
+      "status": "pending"
     }
   ]
 }
