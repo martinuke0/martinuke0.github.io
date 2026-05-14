@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-14T04:01:25Z",
+  "last_scheduled_at": "2026-05-14T05:01:25Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -12753,6 +12753,20 @@
       ],
       "scheduled_at": "2026-05-14T04:01:25Z",
       "status": "posted"
+    },
+    {
+      "title": "How Copy on Write Optimization Accelerates Linux Process Creation",
+      "url": "https://martinuke0.github.io/posts/2026-05-14-how-copy-on-write-optimization-accelerates-linux-process-creation/",
+      "social_hook": "> TL;DR — Linux’s copy‑on‑write (COW) lets `fork()` create a new process almost instantly by sharing the parent’s memory pages read‑only. Actual copying happens only when either process writes to a page, dramatically cutting the overhead of process creation.\n\nProcess creation is one of the most frequent operations a modern Linux system performs, from spawning shell commands to launching container workloads. The classic `fork()` system call historically implied a full duplication of the parent’s address space, a costly operation on any non‑trivial workload. Copy‑on‑Write (COW) transformed this picture: instead of copying every page up‑front, the kernel marks pages as shared and read‑only, deferring the real copy until a write occurs. The result is a lightweight, near‑zero‑cost fork that scales to thousands of processes per second.\n\n* `fork()` clones the calling process, inheriting its memory, file descriptors, and execution context.",
+      "tags": [
+        "linux",
+        "cows",
+        "process-creation",
+        "kernel",
+        "performance"
+      ],
+      "scheduled_at": "2026-05-14T05:01:25Z",
+      "status": "pending"
     }
   ]
 }
