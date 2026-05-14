@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-14T19:01:06Z",
+  "last_scheduled_at": "2026-05-14T20:01:06Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -12935,6 +12935,20 @@
       ],
       "scheduled_at": "2026-05-14T19:01:06Z",
       "status": "posted"
+    },
+    {
+      "title": "Why Copy on Write Improves Memory Management Efficiency",
+      "url": "https://martinuke0.github.io/posts/2026-05-14-why-copy-on-write-improves-memory-management-efficiency/",
+      "social_hook": "> TL;DR — Copy on Write (COW) lets multiple processes or data structures share the same physical memory until a modification occurs, dramatically lowering RAM consumption and speeding up operations like `fork`. By deferring copies until they are truly needed, COW improves both memory efficiency and overall system performance.\n\nCopy on Write is a deceptively simple idea that underpins many of the performance tricks we take for granted in modern operating systems, databases, and even high‑level programming languages. At its core, COW replaces an eager copy with a lazy one: instead of duplicating data immediately, the system lets the original and the copy point at the same memory pages, marking them read‑only. Only when a write attempt is made does the kernel—or the runtime—clone the affected page, ensuring that each participant sees its own private view. This approach yields three practical benefits: reduced memory usage, faster process creation, and more predictable latency for write‑heavy workloads.\n\nBelow we unpack the mechanics, explore real‑world use cases, and discuss the trade‑offs you need to know before relying on COW in your own projects.",
+      "tags": [
+        "memory-management",
+        "copy-on-write",
+        "performance",
+        "operating-systems",
+        "programming"
+      ],
+      "scheduled_at": "2026-05-14T20:01:06Z",
+      "status": "pending"
     }
   ]
 }
