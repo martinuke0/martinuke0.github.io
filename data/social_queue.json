@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-14T00:01:14Z",
+  "last_scheduled_at": "2026-05-14T01:01:22Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -12697,6 +12697,20 @@
       ],
       "scheduled_at": "2026-05-14T00:01:14Z",
       "status": "posted"
+    },
+    {
+      "title": "Why Copy-on-Write B-Trees Outperform Traditional In-Place Updates",
+      "url": "https://martinuke0.github.io/posts/2026-05-14-why-copy-on-write-b-trees-outperform-traditional-in-place-updates/",
+      "social_hook": "> TL;DR — Copy‑on‑write (CoW) B‑trees avoid destructive page overwrites, which eliminates write‑amplification, improves cache locality, and enables lock‑free reads. The net result is higher throughput and stronger consistency compared with traditional in‑place update schemes.\n\nModern key‑value stores, analytical databases, and even some relational engines rely on B‑tree‑like structures to index massive data sets. While the classic textbook B‑tree updates pages in place, many production systems now prefer a copy‑on‑write variant. This article explains the underlying mechanics, quantifies the performance gains, and shows how CoW B‑trees fit into today’s storage stack.\n\nA B‑tree is a balanced, multi‑way search tree where each node (or page) holds a sorted array of keys and child pointers. The height of a B‑tree grows logarithmically with the number of records, guaranteeing `O(log N)` search, insert, and delete operations. The node size is usually aligned with the storage device’s block size (e.g., 4 KB or 16 KB) to make disk I/O efficient.",
+      "tags": [
+        "databases",
+        "b-trees",
+        "copy-on-write",
+        "performance",
+        "storage-engines"
+      ],
+      "scheduled_at": "2026-05-14T01:01:22Z",
+      "status": "pending"
     }
   ]
 }
