@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-14T16:01:00Z",
+  "last_scheduled_at": "2026-05-14T17:01:06Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -12893,6 +12893,20 @@
       ],
       "scheduled_at": "2026-05-14T16:01:00Z",
       "status": "posted"
+    },
+    {
+      "title": "Why Copy-on-Write B-Trees Enable Faster Database Snapshots",
+      "url": "https://martinuke0.github.io/posts/2026-05-14-why-copy-on-write-b-trees-enable-faster-database-snapshots/",
+      "social_hook": "> TL;DR — Copy‑on‑Write (COW) B‑Trees let a database create a point‑in‑time snapshot by copying only the nodes that change, leaving the rest of the tree shared between the live database and the snapshot. This dramatically reduces I/O, eliminates heavyweight locking, and yields snapshots that are both fast to create and cheap to maintain.\n\nDatabases have to balance two competing goals: serving fresh, mutable data to clients while also offering a reliable way to view the data as it existed at a prior moment. Traditional snapshot techniques—full copies, heavyweight locks, or log‑based replay—either stall writes, double storage, or add latency. Copy‑on‑Write B‑Trees sidestep these trade‑offs by turning the tree itself into a versioned data structure. In the sections below we unpack the underlying theory, walk through the write‑path algorithm, and examine why real‑world systems such as RocksDB, SQLite, and PostgreSQL’s upcoming ZHeap see measurable speedups.\n\nWhen an application asks for a snapshot—“give me the state of the table as of midnight”—the database must guarantee consistency (no partial writes) and isolation (the snapshot must not be affected by later updates). Common approaches include:",
+      "tags": [
+        "databases",
+        "b-trees",
+        "copy-on-write",
+        "snapshots",
+        "performance"
+      ],
+      "scheduled_at": "2026-05-14T17:01:06Z",
+      "status": "pending"
     }
   ]
 }
