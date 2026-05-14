@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-14T08:01:04Z",
+  "last_scheduled_at": "2026-05-14T09:01:04Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -12795,6 +12795,20 @@
       ],
       "scheduled_at": "2026-05-14T08:01:04Z",
       "status": "posted"
+    },
+    {
+      "title": "Why Copy on Write Reduces Memory Pressure in Forks",
+      "url": "https://martinuke0.github.io/posts/2026-05-14-why-copy-on-write-reduces-memory-pressure-in-forks/",
+      "social_hook": "> TL;DR — Copy on Write (COW) allows a forked child to share the parent’s memory pages until a write occurs, so only changed pages are duplicated, dramatically lowering overall RAM consumption.\n\nForking is the classic way for Unix‑like systems to create a new process. Historically it was simple but memory‑hungry: the parent’s entire address space would be replicated for the child. Modern kernels mitigate that cost with Copy on Write (COW), a clever page‑level sharing technique that keeps memory pressure low while preserving the semantics of `fork()`. This post unpacks how COW works, why it reduces memory usage, and what developers should watch out for when relying on it.\n\nWhen a process calls `fork()`, the kernel creates a new task structure, copies the parent’s register state, and—crucially—sets up a virtual memory map for the child. Early Unix kernels performed a deep copy: every physical page was duplicated. The result was a one‑to‑one copy of the parent’s memory, which quickly exhausted RAM on large applications.",
+      "tags": [
+        "operating-systems",
+        "memory-management",
+        "fork",
+        "copy-on-write",
+        "performance"
+      ],
+      "scheduled_at": "2026-05-14T09:01:04Z",
+      "status": "pending"
     }
   ]
 }
