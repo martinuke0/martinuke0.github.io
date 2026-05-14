@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-14T22:00:38Z",
+  "last_scheduled_at": "2026-05-14T23:00:40Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -12963,6 +12963,20 @@
       ],
       "scheduled_at": "2026-05-14T22:00:38Z",
       "status": "posted"
+    },
+    {
+      "title": "How Copy-on-Write B-Trees Enable Instant Database Snapshots",
+      "url": "https://martinuke0.github.io/posts/2026-05-14-how-copy-on-write-b-trees-enable-instant-database-snapshots/",
+      "social_hook": "> TL;DR — Copy‑on‑Write (COW) B‑trees duplicate only the modified path of a tree, leaving the rest untouched. This tiny write‑amplification lets a database snap a consistent view in a single atomic step, without pausing queries or flushing the whole store.\n\nDatabases have long needed a way to capture a point‑in‑time view of their data without blocking ongoing reads and writes. Traditional approaches—full file copies, lock‑step checkpoints, or write‑ahead logs—either stall traffic or consume massive I/O. Copy‑on‑Write B‑trees solve this by marrying two classic ideas: the balanced search structure of B‑trees and the immutable‑by‑default semantics of COW. The result is an “instant snapshot”: a read‑only view that appears the moment the write begins, with virtually no extra cost.\n\nA B‑tree is a self‑balancing multi‑way search tree designed for block‑oriented storage (disk or SSD). Its key properties:",
+      "tags": [
+        "databases",
+        "b-trees",
+        "copy-on-write",
+        "snapshots",
+        "performance"
+      ],
+      "scheduled_at": "2026-05-14T23:00:40Z",
+      "status": "pending"
     }
   ]
 }
