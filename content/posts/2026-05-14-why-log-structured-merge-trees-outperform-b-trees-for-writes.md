@@ -1,190 +1,134 @@
 ---
 title: "Why Log Structured Merge Trees Outperform B Trees for Writes"
-date: "2026-05-14T18:00:22.489"
+date: "2026-05-14T21:00:10.568"
 draft: false
-tags: ["LSM", "B-Tree", "Database", "Write Performance", "Storage Engines"]
-description: "Explore why Log‑Structured Merge (LSM) trees beat traditional B‑trees on write‑heavy workloads, covering compaction, tiered storage, and real‑world database examples."
-summary: "LSM trees excel at high‑throughput writes by batching updates and leveraging sequential I/O, while B‑trees suffer from random writes and page splits."
+tags: ["databases", "LSM", "B-Tree", "write performance", "storage engines"]
+description: "Log Structured Merge (LSM) trees provide superior write throughput compared to B‑trees by batching, sequential I/O, and compaction, making them ideal for modern write‑heavy workloads."
+summary: "An in‑depth look at why LSM trees beat B‑trees on writes, covering architecture, trade‑offs, and practical implications."
 showToc: true
 TocOpen: false
 cover:
   image: "/images/covers/2026-05-14-why-log-structured-merge-trees-outperform-b-trees-for-writes.svg"
-  alt: "Diagram comparing LSM tree and B‑tree write paths."
+  alt: "Diagram comparing LSM and B‑Tree write paths."
   caption: ""
   relative: false
 ---
 
-> **TL;DR** — LSM trees turn many small, random writes into a few large, sequential writes, dramatically reducing I/O overhead. B‑trees, by contrast, must update leaf pages in place, causing frequent page splits and random I/O that throttle write throughput.
+> **TL;DR** — LSM trees achieve higher write throughput than B‑trees by turning many random writes into sequential appends, buffering in memory, and using background compaction. The trade‑off is higher read amplification and more storage overhead, so choose based on workload characteristics.
 
-Write‑intensive applications—from time‑series telemetry to high‑frequency trading—need storage engines that can ingest data at millions of rows per second without choking on disk latency. The classic B‑tree, long the workhorse of relational databases, struggles under that pressure. Log‑Structured Merge (LSM) trees, first described in the 1990s and popularized by modern key‑value stores, were engineered precisely to solve the write‑amplification problem. This article walks through the mechanics of both structures, explains why LSM trees win on writes, and highlights the trade‑offs you must consider when choosing a storage engine.
+Modern data platforms—from time‑series databases to key‑value stores—must ingest millions of records per second while keeping latency low. Two data structures dominate the storage engine landscape: the classic B‑Tree and the newer Log Structured Merge (LSM) tree. Although B‑trees excel at point reads, LSM trees consistently outperform them on write‑heavy workloads. This article unpacks why, diving into the internals of each structure, the physics of storage media, and the practical implications for system designers.
 
-## Fundamentals of B‑Tree Writes
+## The Fundamentals of B‑Trees
 
-### On‑Disk Layout
+### Structure and Write Path
 
-A B‑tree stores sorted keys in a hierarchy of pages (or nodes). Each page contains a fixed number of key/value pairs and child pointers. The tree is kept balanced by splitting pages that overflow and merging pages that underflow.
+A B‑Tree is a balanced multi‑way search tree where each node stores a sorted array of keys and child pointers. The tree height is kept low (typically 3–5 levels for terabyte‑scale datasets) by using a high branching factor, which reduces the number of I/O hops for reads.
 
-### Write Path
+When a write arrives:
 
-When an application inserts or updates a row:
+1. **Search** – Locate the leaf node that should contain the key (O(log N) I/O).
+2. **Modify** – Insert or update the key in the leaf’s in‑memory copy.
+3. **Flush** – If the leaf is full, split it and propagate the split up the tree, potentially rewriting several parent nodes.
+4. **Write‑Ahead Log (WAL)** – The change is first recorded in a sequential log for durability.
 
-1. **Locate the leaf page** – a binary search traverses the tree from root to leaf, performing a disk read for each level (often cached, but not guaranteed).
-2. **Modify in place** – the leaf page is read into memory, the new key/value pair is inserted, and the page is written back.
-3. **Handle overflow** – if the page exceeds its capacity, it is split into two pages, and the parent is updated. This split can cascade upward, potentially rewriting multiple levels.
+Because each write may touch multiple nodes, B‑Tree writes involve *random* I/O on both the leaf and internal levels. On SSDs, random writes are still more expensive than sequential appends due to write amplification and internal page management.
 
-Because each insert touches several random locations on disk, the I/O pattern is *random* and *write‑amplified*. Even with write‑back caching, the underlying storage device (especially SSDs) experiences many small write operations, which degrade performance and wear.
+### Strengths and Limitations
 
-### Write Amplification Example (Python)
+* **Strong point queries** – B‑Trees provide O(log N) lookup with minimal read amplification.
+* **Range scans** – Nodes are stored contiguously on disk, enabling efficient range queries.
+* **Predictable latency** – Each operation touches a bounded number of pages.
 
-```python
-def btree_insert(tree, key, value):
-    leaf = tree.find_leaf(key)          # random read
-    leaf.insert(key, value)             # modify in‑place
-    if leaf.is_overflow():
-        tree.split(leaf)                # may rewrite ancestors
-```
+However, the write path suffers from:
 
-### Performance Implications
+* **Write amplification** – Splits cause multiple pages to be rewritten.
+* **Garbage collection overhead** – SSDs must erase and rewrite blocks, increasing wear.
+* **Limited write batching** – Each transaction forces an immediate WAL sync, limiting throughput.
 
-* **Latency** – each insert incurs multiple disk seeks (or SSD page reads) before the data is durable.
-* **Throughput** – the per‑insert cost grows with tree depth; high‑fan‑out mitigates but cannot eliminate random I/O.
-* **Wear** – SSDs have limited program‑erase cycles; many small writes accelerate wear.
+## How Log Structured Merge Trees Work
 
-## How LSM Trees Handle Writes
+### MemTable and Immutable Segments
 
-### Core Idea
+An LSM tree separates writes from the on‑disk structure:
 
-An LSM tree separates *write* and *read* paths. Writes are first accumulated in a fast, mutable in‑memory structure (often a sorted tree called a **memtable**). When the memtable fills, it is flushed to disk as an immutable, sorted file (**SSTable**). Subsequent flushes create a series of SSTables at increasing levels. Reads merge results from the memtable and the relevant SSTables.
+1. **MemTable (in‑memory)** – Incoming writes are appended to an in‑memory sorted data structure (often a skip list). This operation is *purely sequential* in memory, O(1) latency.
+2. **Immutable Flush** – When the MemTable reaches a size threshold (e.g., 64 MiB), it is frozen and written as an immutable sorted file called an **SSTable** (Sorted String Table) on disk.
+3. **WAL** – A small sequential log ensures durability of the MemTable before the flush.
 
-### Write Path Walk‑through
+Because the flush writes a *single* contiguous file, the I/O pattern is completely sequential, matching the strengths of modern SSDs and NVMe drives.
 
-1. **Append to Memtable** – the new key/value pair is inserted into an in‑memory balanced tree (e.g., a skip list). This is a *sequential* memory operation, essentially O(log N) but without disk latency.
-2. **Log to WAL** – a small write‑ahead log (WAL) is appended to guarantee durability. The WAL write is sequential, matching the underlying storage’s optimal pattern.
-3. **Flush to Disk** – once the memtable reaches a size threshold (e.g., 64 MiB), it is frozen, sorted, and written as a new SSTable file. The file write is a single large, sequential I/O.
-4. **Compaction** – background processes merge overlapping SSTables into larger ones, reducing the number of files a read must consult.
+### Levels, Compaction, and Write Amplification
 
-### Write‑Amplification Reduction
+SSTables are organized into *levels* (L0, L1, …). New files land in L0 and are later merged into higher levels through **compaction**:
 
-Because the flush writes a *single* large file rather than many tiny updates, the I/O cost per byte drops dramatically. Even though compaction introduces some additional writes, the total amplification is still far lower than B‑tree page splits.
+* **Size‑tiered compaction** – Merges a handful of similarly sized files.
+* **Leveled compaction** – Maintains a strict size ratio between levels (e.g., each level ten times larger than the previous) and merges overlapping key ranges.
 
-### Write Path Example (Python)
+Compaction is a background process that rewrites data to eliminate duplicate keys and reclaim deleted entries. While compaction introduces *write amplification*—each record may be rewritten multiple times—the cost is amortized and performed asynchronously, keeping the *foreground* write latency low.
 
-```python
-def lsm_insert(lsm, key, value):
-    lsm.memtable[key] = value          # O(log N) in‑memory insert
-    lsm.wal.append(f"{key}:{value}\n") # sequential append
-    if lsm.memtable.size() > lsm.threshold:
-        lsm.flush_memtable()            # write one large SSTable
-```
+## Why LSM Trees Shine for Writes
 
-### Sequential I/O on Modern Storage
+### Batched Sequential Writes
 
-Both HDDs and SSDs achieve their highest throughput when data is written sequentially. HDDs avoid costly head seeks; SSDs write to NAND pages in large blocks, reducing write‑amplification at the flash translation layer. LSM trees align perfectly with these characteristics.
-
-## Compaction Strategies
-
-Compaction is the process that reconciles multiple SSTables into a smaller set, discarding obsolete versions of keys and reclaiming space. Different databases implement various compaction policies, each with its own performance profile.
-
-### Size‑Tiered Compaction
-
-* **How it works** – When *N* SSTables of similar size accumulate at a level, they are merged into a single larger SSTable at the next level.
-* **Pros** – Simple to implement; good write throughput because merges are infrequent.
-* **Cons** – Can lead to high read amplification (more files to search) and temporary spikes in I/O during large merges.
-
-### Leveled Compaction (RocksDB)
-
-* **How it works** – Each level holds a bounded total size (e.g., Level 1 = 10 MiB, Level 2 = 100 MiB, …). New SSTables are placed in Level 0; they are repeatedly merged into the next level, keeping the size ratio roughly 10:1.
-* **Pros** – Predictable read latency; each key appears in at most one file per level.
-* **Cons** – Higher write amplification due to more frequent merges; increased CPU for sorting.
-
-### Universal Compaction (Cassandra)
-
-* **How it works** – Merges are driven by total data size and age, not strict level boundaries. Older data is compacted aggressively, while hot data remains in many small files.
-* **Pros** – Excellent for time‑series workloads where recent data is read heavily but older data is rarely accessed.
-* **Cons** – Can increase storage overhead if not tuned.
-
-### Compaction Example (Bash)
+The core advantage is that the write path reduces *random* I/O to *sequential* I/O:
 
 ```bash
-# Trigger a manual compaction in RocksDB (as described in the docs)
-rocksdb-cli --db=/var/lib/rocksdb \
-            --command=compact_range \
-            --start_key='' --end_key=''
+# Example: flushing a MemTable to an SSTable with RocksDB
+rocksdb-cli --db=/data/mydb --flush
 ```
 
-Compaction is background, so it does not block foreground writes. However, mis‑configured compaction can cause *write stalls* when the system runs out of free space for new SSTables. Proper monitoring (e.g., using Prometheus metrics exposed by the engine) is essential.
+Sequential writes exploit the high throughput of SSD/NVMe controllers, achieving near‑line‑rate performance. In contrast, a B‑Tree must seek for each leaf split, incurring latency penalties.
 
-## Real‑World Database Implementations
+### Write Amplification Trade‑offs
 
-| Database | LSM Variant | Typical Use‑Case | Notable Write‑Optimizations |
-|----------|-------------|------------------|------------------------------|
-| **RocksDB** | Size‑tiered & Leveled | Embedded key‑value stores, log processing | Write‑batching, column families, rate‑limited compaction |
-| **LevelDB** | Leveled | Mobile apps, Chrome storage | Simple implementation, low memory footprint |
-| **Cassandra** | Size‑tiered / Time‑windowed | Distributed wide‑column store | Tunable compaction strategies, hinted handoff |
-| **ClickHouse** | MergeTree (a variant of LSM) | OLAP analytics | Primary key sorting on insert, massive parallel merges |
-| **DynamoDB** | Proprietary LSM | Fully managed NoSQL | Auto‑scaling partitions, adaptive capacity |
+While LSM trees do rewrite data during compaction, the **effective write amplification** can be lower than a B‑Tree for write‑heavy workloads because:
 
-These systems demonstrate that the LSM paradigm scales from embedded devices to globally distributed services. In each case, the write path remains *append‑only* and *sequential*, allowing the underlying hardware to operate near its optimal bandwidth.
+* **Batching** – Hundreds of thousands of updates are merged into a single large write, reducing per‑record overhead.
+* **Background processing** – Compaction runs on idle I/O bandwidth, smoothing out spikes.
 
-### Case Study: Ingesting 1 Billion Events per Day
+Empirical studies (e.g., the RocksDB performance guide) show LSM write amplification values of 2–5×, whereas B‑Tree engines like InnoDB can reach 10–20× under the same write intensity.
 
-A telemetry pipeline at a large cloud provider processed 1 billion JSON events per day using an LSM‑based store. By configuring a 128 MiB memtable and size‑tiered compaction, they achieved:
+### Impact of Modern Storage Media
 
-* **Average write latency:** 1.2 ms (vs. >10 ms for a B‑tree‑based alternative)
-* **Disk write amplification:** ~2× (vs. ~8× for B‑tree)
-* **SSD wear:** reduced by ~70 % due to larger sequential writes
+NVMe SSDs have *high sequential bandwidth* (>3 GB/s) but still incur a penalty for random writes due to the Flash Translation Layer (FTL). LSM trees align perfectly with this asymmetry:
 
-The results align with the theoretical advantages discussed earlier and are documented in the company's engineering blog (see the original post for deeper metrics).
+* **Sequential appends** → low latency, low wear.
+* **Random reads** → mitigated by Bloom filters and block caches that locate the correct SSTable without scanning all levels.
 
-## Trade‑offs and When to Choose
+As storage hardware continues to favor sequential throughput, the performance gap widens.
 
-While LSM trees dominate write‑heavy scenarios, they are not a universal panacea. Understanding the trade‑offs helps you pick the right engine for your workload.
+## Trade‑offs and When B‑Trees Still Matter
 
-### Read Amplification
+### Read Latency
 
-* **LSM:** Reads may need to consult multiple SSTables (especially at Level 0), increasing latency. Bloom filters mitigate this but cannot eliminate the cost entirely.
-* **B‑Tree:** Reads are typically a single tree traversal, yielding low and predictable latency.
-
-### Point‑Read vs. Range‑Read
-
-* **Point reads** benefit from Bloom filters and caching; LSM can be competitive.
-* **Large range scans** suffer because data is spread across many files. B‑trees, with contiguous leaf pages, excel at sequential scans.
+LSM reads may need to probe multiple levels (L0‑Ln) before finding the latest version of a key. Bloom filters reduce unnecessary disk accesses, but the worst‑case read path can involve **N** disk reads, where **N** is the number of levels. B‑Trees typically require a single leaf fetch, giving them an edge for latency‑sensitive point reads.
 
 ### Space Overhead
 
-* **Compaction** temporarily duplicates data, requiring extra disk space (often 2× the dataset size) during merges.
-* **B‑Tree** pages are reused immediately; space overhead is lower but fragmentation can increase over time.
+Compaction creates temporary duplicate data, temporarily inflating disk usage. Additionally, each SSTable carries metadata (index blocks, filter blocks). B‑Trees store a single copy of each key/value pair, yielding better space efficiency for static datasets.
 
-### Operational Complexity
+### Use‑Case Decision Matrix
 
-* **LSM** engines expose many knobs (memtable size, compaction style, write‑amplification factor). Tuning is essential for stable performance.
-* **B‑Tree** engines are simpler to configure; the main parameters are page size and fill factor.
-
-### When to Prefer B‑Tree
-
-* Workloads dominated by reads, especially range queries.
-* Limited storage where extra compaction space is unacceptable.
-* Simpler operational environments without dedicated background compaction resources.
-
-### When to Prefer LSM
-
-* Write‑heavy ingestion (log data, sensor streams, event sourcing).
-* Applications that can tolerate slightly higher read latency in exchange for massive write throughput.
-* Environments where SSD sequential write performance is abundant and wear‑leveling is a concern.
+| Workload                     | Preferred Structure | Reasoning                                      |
+|------------------------------|---------------------|-------------------------------------------------|
+| High write throughput (≥ 1 M ops/s) | LSM                 | Batched sequential writes, low foreground latency |
+| Point‑lookup heavy (≤ 10 µs) | B‑Tree              | Single‑page reads, minimal read amplification   |
+| Mixed read/write with moderate write rate | LSM (leveled)      | Balanced compaction, good read latency with Bloom filters |
+| Log‑structured or time‑series data | LSM (size‑tiered)   | Append‑only pattern matches LSM flush model      |
+| Small embedded devices (limited RAM) | B‑Tree              | Simpler implementation, fewer background tasks  |
 
 ## Key Takeaways
 
-- **Append‑only writes:** LSM trees convert many tiny random writes into few large sequential writes, aligning with hardware strengths.
-- **Memtable + WAL:** The in‑memory buffer absorbs bursts, while the write‑ahead log guarantees durability with minimal overhead.
-- **Compaction is the price:** Background merges reconcile SSTables, introducing controlled write amplification but keeping reads manageable.
-- **Read vs. write trade‑off:** B‑trees excel at low‑latency reads; LSM trees excel at high‑throughput writes.
-- **Tuning matters:** Proper configuration of memtable size, compaction style, and Bloom filters is critical for LSM performance.
-- **Real‑world success:** Major databases (RocksDB, Cassandra, ClickHouse) rely on LSM structures to power write‑intensive services at scale.
+- **Sequential writes**: LSM trees convert many random writes into large sequential appends, leveraging SSD/NVMe performance.
+- **Memory buffering**: The MemTable absorbs writes in RAM, eliminating per‑record disk latency.
+- **Background compaction**: Write amplification is amortized and does not affect foreground latency, unlike B‑Tree split‑and‑rewrite.
+- **Read trade‑offs**: LSM reads can be slower due to multi‑level lookups; Bloom filters and caching mitigate but do not eliminate this cost.
+- **Hardware alignment**: Modern storage devices favor the write patterns of LSM trees, making them the default for write‑intensive databases such as RocksDB, LevelDB, Cassandra, and InfluxDB.
 
 ## Further Reading
 
-* [RocksDB documentation – Compaction](https://rocksdb.org/docs/latest/operations/compaction.html)  
-* [Cassandra Architecture – LSM and Compaction](https://cassandra.apache.org/doc/latest/architecture/lsm.html)  
-* [Log‑structured merge‑tree – Wikipedia](https://en.wikipedia.org/wiki/Log-structured_merge-tree)  
-* [Google LevelDB – Design Overview](https://github.com/google/leveldb)  
-* [CockroachDB Storage Engine – LSM design](https://www.cockroachlabs.com/docs/stable/architecture/lsm)  
+- [RocksDB Architecture Overview](https://github.com/facebook/rocksdb/wiki/Architecture)  
+- [LevelDB: A Fast Persistent Key‑Value Store](https://github.com/google/leveldb)  
+- [The Log‑Structured Merge‑Tree (LSM‑Tree)](https://www.cs.umb.edu/~poneil/lsmtree.pdf)  
+- [InnoDB B‑Tree Internals](https://dev.mysql.com/doc/refman/8.0/en/innodb-storage-engine.html)  
+- [Understanding Write Amplification in SSDs](https://www.tldp.org/HOWTO/SSD-Write-Amplification.html)
