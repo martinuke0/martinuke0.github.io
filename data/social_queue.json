@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-14T10:01:06Z",
+  "last_scheduled_at": "2026-05-14T11:01:12Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -12823,6 +12823,20 @@
       ],
       "scheduled_at": "2026-05-14T10:01:06Z",
       "status": "posted"
+    },
+    {
+      "title": "Why Copy on Write Improves Memory Efficiency in Linux",
+      "url": "https://martinuke0.github.io/posts/2026-05-14-why-copy-on-write-improves-memory-efficiency-in-linux/",
+      "social_hook": "> TL;DR — Copy‑on‑Write lets the kernel share physical pages between processes until a write occurs, slashing memory use and speeding up forks, containers, and snapshots.\n\nLinux workloads have grown from single‑process daemons to massive, multi‑tenant environments that spin up hundreds of processes per second. In that context, every megabyte of RAM saved translates into lower cloud costs, higher density, and better latency. The secret sauce behind many of those savings is Copy on Write (CoW) – a clever memory‑management trick that lets the kernel treat multiple virtual address spaces as if they own the same physical pages, only copying them when a write is required. This article dives deep into how CoW works, why it is so memory‑efficient, and where you’ll see it in action on a typical Linux system.\n\nThe concept of CoW predates Linux. Early IBM mainframes used it to implement virtual memory, and the Unix `fork()` system call, introduced in the 1970s, was the first widely‑used public API that relied on CoW to avoid an O(N) memory copy when creating a child process. The original Unix design deliberately made `fork()` cheap because the typical use‑case was “fork‑then‑exec” – create a child, replace its image with a new program, and discard the original address space almost immediately. The kernel therefore needed a way to allocate the child’s page tables without physically copying every page.",
+      "tags": [
+        "linux",
+        "memory-management",
+        "copy-on-write",
+        "performance",
+        "systems-programming"
+      ],
+      "scheduled_at": "2026-05-14T11:01:12Z",
+      "status": "pending"
     }
   ]
 }
