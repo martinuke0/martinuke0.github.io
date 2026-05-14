@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-14T20:01:06Z",
+  "last_scheduled_at": "2026-05-14T22:00:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -12949,6 +12949,20 @@
       ],
       "scheduled_at": "2026-05-14T20:01:06Z",
       "status": "posted"
+    },
+    {
+      "title": "Implementing Adaptive Radix Trees for Memory Efficient Metadata Storage",
+      "url": "https://martinuke0.github.io/posts/2026-05-14-implementing-adaptive-radix-trees-for-memory-efficient-metadata-storage/",
+      "social_hook": "> TL;DR — Adaptive Radix Trees (ART) shrink in‑memory metadata indexes by up to 70 % while preserving sub‑microsecond lookups. This post shows a production‑ready Go implementation, key‑encoding tricks, and benchmark results.\n\nMetadata—whether file attributes, user profiles, or configuration blobs—is often stored in key‑value maps that must be both fast and memory‑light. Traditional hash maps allocate a bucket for every entry, inflating memory usage when the key space is sparse. Adaptive Radix Trees (ART) combine the prefix‑compression of tries with the cache‑friendly node layouts of B‑trees, making them ideal for dense, read‑heavy workloads.\n\nIn the following sections we’ll explore why memory matters, dissect the ART data structure, walk through a Go implementation tailored for metadata, and finally benchmark the result against Go’s built‑in map and a classic radix tree.",
+      "tags": [
+        "adaptive radix tree",
+        "metadata storage",
+        "memory efficiency",
+        "data structures",
+        "golang"
+      ],
+      "scheduled_at": "2026-05-14T22:00:38Z",
+      "status": "pending"
     }
   ]
 }
