@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-14T06:01:25Z",
+  "last_scheduled_at": "2026-05-14T08:01:04Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -12781,6 +12781,20 @@
       ],
       "scheduled_at": "2026-05-14T06:01:25Z",
       "status": "posted"
+    },
+    {
+      "title": "Why LSM Trees Outperform B-Trees for Write‑Intense Workloads",
+      "url": "https://martinuke0.github.io/posts/2026-05-14-why-lsm-trees-outperform-b-trees-for-writeintense-workloads/",
+      "social_hook": "> TL;DR — LSM trees batch writes into sequential files, turning random‑write hotspots into cheap sequential I/O. This design yields dramatically higher write throughput than B‑trees, especially on SSDs and spinning disks, at the cost of more complex reads and background compaction.\n\nModern storage engines constantly juggle two conflicting goals: fast writes and efficient reads. For many applications—log aggregation, time‑series data, and high‑frequency trading—writes dominate the workload. In those scenarios, Log‑Structured Merge (LSM) trees consistently beat the classic B‑tree. This article unpacks why, diving into the data structures, the I/O patterns they generate, and the engineering trade‑offs that shape real‑world systems.\n\nA B‑tree is a balanced multi‑way search tree where each node holds a sorted array of keys and child pointers. The tree maintains a height of O(logₙ N) (where n is the branching factor) so lookups, inserts, and deletes all cost O(logₙ N) disk I/O in the worst case.",
+      "tags": [
+        "LSM",
+        "B-Tree",
+        "databases",
+        "write performance",
+        "storage engines"
+      ],
+      "scheduled_at": "2026-05-14T08:01:04Z",
+      "status": "pending"
     }
   ]
 }
