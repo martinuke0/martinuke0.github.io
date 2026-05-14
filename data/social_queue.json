@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-14T14:01:18Z",
+  "last_scheduled_at": "2026-05-14T16:01:00Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -12879,6 +12879,20 @@
       ],
       "scheduled_at": "2026-05-14T14:01:18Z",
       "status": "posted"
+    },
+    {
+      "title": "Why LSM Trees Outperform B-Trees for Write‑Intensive Workloads",
+      "url": "https://martinuke0.github.io/posts/2026-05-14-why-lsm-trees-outperform-b-trees-for-writeintensive-workloads/",
+      "social_hook": "> TL;DR — LSM trees turn random, small writes into sequential appends, slashing write amplification and boosting throughput. While they trade some read latency for write speed, modern compaction strategies keep the penalty manageable, making LSM the default for write‑heavy systems like Cassandra, RocksDB, and Kafka.\n\nWrite‑intensive workloads are the bane of traditional B‑Tree‑based storage engines. Each insert, update, or delete forces a cascade of page splits, node rewrites, and costly random I/O. Log‑Structured Merge (LSM) trees were invented to sidestep those pitfalls by buffering writes in memory and persisting them as large, sequential chunks. The result is a data structure that scales gracefully as write volume grows, while still offering acceptable read performance through clever compaction and bloom‑filter tricks.\n\nA B‑Tree stores keys in sorted order across a hierarchy of pages (or nodes). When a new key arrives:",
+      "tags": [
+        "LSM",
+        "B-Tree",
+        "Databases",
+        "Write Performance",
+        "Storage Engines"
+      ],
+      "scheduled_at": "2026-05-14T16:01:00Z",
+      "status": "pending"
     }
   ]
 }
