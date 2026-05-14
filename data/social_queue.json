@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-14T01:01:22Z",
+  "last_scheduled_at": "2026-05-14T02:01:22Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -12711,6 +12711,20 @@
       ],
       "scheduled_at": "2026-05-14T01:01:22Z",
       "status": "posted"
+    },
+    {
+      "title": "Why Copy on Write Accelerates Fast Process Cloning",
+      "url": "https://martinuke0.github.io/posts/2026-05-14-why-copy-on-write-accelerates-fast-process-cloning/",
+      "social_hook": "> TL;DR — Copy‑on‑Write (COW) lets the kernel share a parent’s memory pages with its child until one of them writes to a page, turning a potentially heavy memory copy into a handful of page‑table updates. The result is a fork operation that costs microseconds instead of milliseconds, dramatically accelerating process cloning for containers, servers, and any workload that spawns many short‑lived processes.\n\nProcess creation is one of the most fundamental operations in any Unix‑like operating system. Yet the naïve approach—duplicating every byte of a program’s address space—would be far too slow for modern workloads that spin up thousands of processes per second. Copy‑on‑Write is the clever compromise that makes `fork()` cheap, allowing the kernel to defer copying until it is absolutely necessary. In this article we unpack the mechanics of COW, examine why it speeds up cloning, and explore the practical implications for developers and system architects.\n\nWhen a process is created, the operating system must provide the child with its own virtual address space. The most straightforward way to achieve isolation is to copy every physical page belonging to the parent. This “eager copy” model has two major drawbacks:",
+      "tags": [
+        "copy-on-write",
+        "process-cloning",
+        "operating-systems",
+        "performance",
+        "memory-management"
+      ],
+      "scheduled_at": "2026-05-14T02:01:22Z",
+      "status": "pending"
     }
   ]
 }
