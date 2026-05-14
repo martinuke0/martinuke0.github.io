@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-14T05:01:25Z",
+  "last_scheduled_at": "2026-05-14T06:01:25Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -12766,6 +12766,20 @@
         "performance"
       ],
       "scheduled_at": "2026-05-14T05:01:25Z",
+      "status": "pending"
+    },
+    {
+      "title": "Why Copy-on-Write Improves Memory Efficiency in High Concurrency Systems",
+      "url": "https://martinuke0.github.io/posts/2026-05-14-why-copy-on-write-improves-memory-efficiency-in-high-concurrency-systems/",
+      "social_hook": "> TL;DR — Copy‑on‑write lets many workers read the same pages without copying them. When a write is needed, the kernel forks only the affected pages, keeping overall memory use low even under heavy parallel load.\n\nIn modern server‑side software, scaling to hundreds or thousands of concurrent tasks often means fighting memory pressure. Traditional approaches duplicate data structures for each worker, quickly exhausting RAM and causing costly page faults. Copy‑on‑write (COW) offers a middle ground: share read‑only pages across workers and clone only the fragments that really change. This article unpacks the mechanics, shows concrete code, and explains why COW is a cornerstone of memory‑efficient high‑concurrency design.\n\nAt its core, COW is a lazy‑allocation strategy. When a process (or thread) requests a new memory region, the operating system maps the same physical pages into multiple virtual address spaces. All mappings are marked read‑only. The kernel increments a reference count for each shared page.",
+      "tags": [
+        "copy-on-write",
+        "memory-management",
+        "concurrency",
+        "performance",
+        "systems-design"
+      ],
+      "scheduled_at": "2026-05-14T06:01:25Z",
       "status": "pending"
     }
   ]
