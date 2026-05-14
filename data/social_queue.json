@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-14T18:01:06Z",
+  "last_scheduled_at": "2026-05-14T19:01:06Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -12921,6 +12921,20 @@
       ],
       "scheduled_at": "2026-05-14T18:01:06Z",
       "status": "posted"
+    },
+    {
+      "title": "How Copy-on-Write Semantics Impact Garbage Collection Latency",
+      "url": "https://martinuke0.github.io/posts/2026-05-14-how-copy-on-write-semantics-impact-garbage-collection-latency/",
+      "social_hook": "> TL;DR — Copy‑on‑write (COW) reduces the cost of cloning data structures, but it can cause unexpected spikes in garbage‑collection (GC) pause time when many pages become dirty. Understanding the interaction lets you tune allocators, choose the right data structures, and keep latency low.\n\nModern applications are increasingly latency‑sensitive: high‑frequency trading, real‑time gaming, and interactive web services all demand sub‑millisecond response times. At the same time, developers love COW because it offers cheap “copy” operations for immutable data structures and for forked processes. The trade‑off is that the hidden cost of page‑fault‑driven copying can surface during garbage collection, extending pause times exactly when you need the runtime to stay responsive. This article unpacks the mechanics, shows benchmark data from Go, Rust, and the Linux kernel, and provides concrete mitigation techniques you can apply today.\n\nCOW is a virtual‑memory optimization. When a process creates a duplicate of a memory region—most famously with `fork()`—the kernel marks the shared pages as read‑only and records a reference count. Both processes see the same physical pages until one attempts to write. The write triggers a page fault; the kernel allocates a fresh page, copies the original contents, and updates the page table for the writer. The reader continues to use the original page.",
+      "tags": [
+        "garbage-collection",
+        "copy-on-write",
+        "latency",
+        "memory-management",
+        "performance"
+      ],
+      "scheduled_at": "2026-05-14T19:01:06Z",
+      "status": "pending"
     }
   ]
 }
