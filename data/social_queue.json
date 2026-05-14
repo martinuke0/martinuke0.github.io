@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-14T12:01:18Z",
+  "last_scheduled_at": "2026-05-14T13:01:18Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -12851,6 +12851,20 @@
       ],
       "scheduled_at": "2026-05-14T12:01:18Z",
       "status": "posted"
+    },
+    {
+      "title": "Memory Management Tradeoffs: B‑Trees vs. LSM Trees",
+      "url": "https://martinuke0.github.io/posts/2026-05-14-memory-management-tradeoffs-btrees-vs-lsm-trees/",
+      "social_hook": "> TL;DR — B‑Trees keep data in a balanced, in‑memory node structure with predictable read latency but higher write cost, while LSM Trees batch writes into immutable files to minimize write amplification at the expense of larger memory footprints for compaction and Bloom filters.\n\nModern storage engines rarely rely on a single indexing structure. Instead, they pick the data structure that best matches their workload, hardware, and operational constraints. Two of the most common choices are the classic B‑Tree and the log‑structured merge (LSM) Tree. While both aim to provide ordered key‑value access, they make very different compromises in how they allocate, use, and reclaim memory. Understanding those compromises is essential for anyone who designs, tunes, or operates a database system.\n\nA B‑Tree stores keys and pointers in pages (or nodes) that are typically the same size as the underlying storage block—commonly 4 KB or 8 KB. Each page is loaded into the buffer pool (a region of RAM managed by the engine) before it can be examined or modified. The buffer pool acts as a cache; the most frequently accessed pages stay resident, while cold pages are evicted according to a replacement policy such as LRU or CLOCK.",
+      "tags": [
+        "databases",
+        "storage",
+        "b-trees",
+        "lsm-trees",
+        "memory-management"
+      ],
+      "scheduled_at": "2026-05-14T13:01:18Z",
+      "status": "pending"
     }
   ]
 }
