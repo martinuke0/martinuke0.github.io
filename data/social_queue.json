@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-13T22:02:12Z",
+  "last_scheduled_at": "2026-05-14T00:01:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -12683,6 +12683,20 @@
       ],
       "scheduled_at": "2026-05-13T22:02:12Z",
       "status": "posted"
+    },
+    {
+      "title": "Why Copy-on-Write B-Trees Improve Database Concurrency Performance",
+      "url": "https://martinuke0.github.io/posts/2026-05-14-why-copy-on-write-b-trees-improve-database-concurrency-performance/",
+      "social_hook": "> TL;DR — Copy‑on‑write (COW) B‑trees let a database modify tree structures without blocking readers, because each write creates a new version of affected nodes. The result is dramatically higher concurrent throughput, especially in workloads with many short‑lived transactions.\n\nModern relational and key‑value stores all wrestle with the same fundamental problem: how to let many clients read and write at the same time without stepping on each other’s toes. Traditional B‑tree implementations rely on coarse‑grained locks or latch protocols that serialize updates, which can become a bottleneck under high contention. Copy‑on‑write (COW) B‑trees replace that lock‑heavy approach with an immutable‑node strategy: when a page must change, the engine writes a fresh copy and updates parent pointers atomically. Readers continue to follow the old pointers until they finish, guaranteeing a consistent snapshot without any blocking. This article walks through the mechanics, the performance gains, and the practical considerations that make COW B‑trees a powerful tool for today’s high‑concurrency databases.\n\nIn a classic B‑tree, each node (or page) is protected by a latch—a short‑lived in‑memory lock that guards the structure while a thread traverses or modifies it. When inserting a key, the algorithm:",
+      "tags": [
+        "database",
+        "b-tree",
+        "copy-on-write",
+        "concurrency",
+        "performance"
+      ],
+      "scheduled_at": "2026-05-14T00:01:14Z",
+      "status": "pending"
     }
   ]
 }
