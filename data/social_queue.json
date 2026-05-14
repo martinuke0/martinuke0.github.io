@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-14T11:01:12Z",
+  "last_scheduled_at": "2026-05-14T12:01:18Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -12837,6 +12837,20 @@
       ],
       "scheduled_at": "2026-05-14T11:01:12Z",
       "status": "posted"
+    },
+    {
+      "title": "Solving Data Races with Lock‑Free Atomic Compare‑and‑Swap",
+      "url": "https://martinuke0.github.io/posts/2026-05-14-solving-data-races-with-lockfree-atomic-compareandswap/",
+      "social_hook": "> TL;DR — Atomic compare‑and‑swap (CAS) lets you build lock‑free data structures that avoid classic data races. By mastering memory‑ordering flags, handling the ABA problem, and profiling contention, you can write high‑performance concurrent code in C++ or Rust without the overhead of mutexes.\n\nMultithreaded programs are plagued by data races, subtle bugs that appear only under specific interleavings. Traditional lock‑based synchronization removes the race but often introduces contention, priority inversion, and cache‑line bouncing. Modern CPUs expose low‑level atomic primitives that, when used correctly, let you design lock‑free algorithms that scale better and stay responsive even under heavy load. This article walks through the theory behind CAS, shows concrete implementations of a lock‑free stack in both C++ and Rust, and highlights the practical considerations—memory ordering, the ABA problem, and performance profiling—that turn a textbook example into production‑ready code.\n\nA data race occurs when two threads access the same memory location concurrently, at least one access is a write, and there is no synchronization ordering them. Consider a naïve counter:",
+      "tags": [
+        "concurrency",
+        "lock-free",
+        "atomic",
+        "compare-and-swap",
+        "rust"
+      ],
+      "scheduled_at": "2026-05-14T12:01:18Z",
+      "status": "pending"
     }
   ]
 }
