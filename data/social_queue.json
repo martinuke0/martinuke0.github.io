@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-14T09:01:04Z",
+  "last_scheduled_at": "2026-05-14T10:01:06Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -12809,6 +12809,20 @@
       ],
       "scheduled_at": "2026-05-14T09:01:04Z",
       "status": "posted"
+    },
+    {
+      "title": "Why Log-Structured Merge Trees Outperform B-Trees for Write Throughput",
+      "url": "https://martinuke0.github.io/posts/2026-05-14-why-log-structured-merge-trees-outperform-b-trees-for-write-throughput/",
+      "social_hook": "> TL;DR — LSM trees turn many small, random writes into a few large, sequential operations, dramatically increasing write throughput on modern storage. B‑trees still excel at point reads, but their write path forces costly random I/O that LSM designs avoid.\n\nWrite‑intensive workloads have become the norm for many modern applications—time‑series telemetry, log aggregation, and key‑value caching all demand millions of inserts per second. Historically, the B‑tree family dominated on‑disk indexing because of its balanced search properties, but the Log‑Structured Merge (LSM) tree, first described by O'Neil et al. in 1996, has since eclipsed B‑trees in raw write throughput. This article dissects why, by examining the underlying algorithms, hardware interactions, and real‑world implementations.\n\nA B‑tree is a height‑balanced, multi‑way search tree where each node contains a sorted array of keys and child pointers. The tree maintains two invariants:",
+      "tags": [
+        "databases",
+        "lsm-tree",
+        "b-tree",
+        "write-performance",
+        "storage-engine"
+      ],
+      "scheduled_at": "2026-05-14T10:01:06Z",
+      "status": "pending"
     }
   ]
 }
