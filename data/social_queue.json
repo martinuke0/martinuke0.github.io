@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-14T17:01:06Z",
+  "last_scheduled_at": "2026-05-14T18:01:06Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -12907,6 +12907,20 @@
       ],
       "scheduled_at": "2026-05-14T17:01:06Z",
       "status": "posted"
+    },
+    {
+      "title": "Why Log Structured Merge Trees Outperform B Trees for Writes",
+      "url": "https://martinuke0.github.io/posts/2026-05-14-why-log-structured-merge-trees-outperform-b-trees-for-writes/",
+      "social_hook": "> TL;DR — LSM trees turn many small, random writes into a few large, sequential writes, dramatically reducing I/O overhead. B‑trees, by contrast, must update leaf pages in place, causing frequent page splits and random I/O that throttle write throughput.\n\nWrite‑intensive applications—from time‑series telemetry to high‑frequency trading—need storage engines that can ingest data at millions of rows per second without choking on disk latency. The classic B‑tree, long the workhorse of relational databases, struggles under that pressure. Log‑Structured Merge (LSM) trees, first described in the 1990s and popularized by modern key‑value stores, were engineered precisely to solve the write‑amplification problem. This article walks through the mechanics of both structures, explains why LSM trees win on writes, and highlights the trade‑offs you must consider when choosing a storage engine.\n\nA B‑tree stores sorted keys in a hierarchy of pages (or nodes). Each page contains a fixed number of key/value pairs and child pointers. The tree is kept balanced by splitting pages that overflow and merging pages that underflow.",
+      "tags": [
+        "LSM",
+        "B-Tree",
+        "Database",
+        "Write Performance",
+        "Storage Engines"
+      ],
+      "scheduled_at": "2026-05-14T18:01:06Z",
+      "status": "pending"
     }
   ]
 }
