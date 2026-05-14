@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-14T03:01:25Z",
+  "last_scheduled_at": "2026-05-14T04:01:25Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -12739,6 +12739,20 @@
       ],
       "scheduled_at": "2026-05-14T03:01:25Z",
       "status": "posted"
+    },
+    {
+      "title": "Zero-Copy Deserialization Techniques for High Throughput Network Drivers",
+      "url": "https://martinuke0.github.io/posts/2026-05-14-zero-copy-deserialization-techniques-for-high-throughput-network-drivers/",
+      "social_hook": "> TL;DR — Zero-copy deserialization removes the memory copy between NIC DMA and user‑space structures, letting high‑throughput drivers sustain line‑rate traffic with minimal CPU overhead. The technique hinges on memory‑mapped ring buffers, pinned pages, and language‑specific tricks in Rust and C++.\n\nNetwork drivers that must process millions of packets per second cannot afford the classic “receive‑into‑kernel‑buffer → copy‑to‑user → parse” pipeline. Zero‑copy deserialization moves the parsing step directly onto the DMA‑filled memory, turning a copy‑heavy path into a pointer‑rich one. In this article we dissect the underlying principles, walk through concrete implementations in Rust and C++, and benchmark the performance gains you can expect on modern NICs.\n\n1. DMA to kernel buffer – The NIC writes packet data into a pre‑allocated kernel buffer.",
+      "tags": [
+        "network",
+        "zero-copy",
+        "deserialization",
+        "performance",
+        "driver"
+      ],
+      "scheduled_at": "2026-05-14T04:01:25Z",
+      "status": "pending"
     }
   ]
 }
