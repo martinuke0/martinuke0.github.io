@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-14T13:01:18Z",
+  "last_scheduled_at": "2026-05-14T14:01:18Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -12865,6 +12865,20 @@
       ],
       "scheduled_at": "2026-05-14T13:01:18Z",
       "status": "posted"
+    },
+    {
+      "title": "Designing Write-Ahead Logs for Zero Data Loss Recovery",
+      "url": "https://martinuke0.github.io/posts/2026-05-14-designing-write-ahead-logs-for-zero-data-loss-recovery/",
+      "social_hook": "> TL;DR — A write-ahead log (WAL) that forces durable persistence before any data mutation can give you true zero‑data‑loss recovery, but only when you combine ordered writes, group‑commit, checksum‑protected segments, and systematic crash‑recovery testing.\n\nThe promise of “zero data loss” is a moving target. In practice, it means that after a power failure, hardware crash, or software bug, a database can be restored to a state that includes every transaction that committed before the outage. Achieving that guarantee hinges on a well‑engineered write‑ahead log. This article walks through the theory, the architectural choices, concrete implementation details, and the testing regimen you need to turn a WAL from a best‑effort safety net into a mathematically provable guarantee.\n\nAt its core, a WAL records intents—the modifications a transaction plans to make—before those modifications touch the main data pages. The sequence is:",
+      "tags": [
+        "write-ahead log",
+        "data recovery",
+        "fault tolerance",
+        "database design",
+        "distributed systems"
+      ],
+      "scheduled_at": "2026-05-14T14:01:18Z",
+      "status": "pending"
     }
   ]
 }
