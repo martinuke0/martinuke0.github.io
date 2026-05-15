@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-15T04:01:10Z",
+  "last_scheduled_at": "2026-05-15T05:01:10Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -13046,6 +13046,20 @@
         "operating-systems"
       ],
       "scheduled_at": "2026-05-15T04:01:10Z",
+      "status": "pending"
+    },
+    {
+      "title": "How Copy on Write Semantics Impact Linux Kernel Memory Management",
+      "url": "https://martinuke0.github.io/posts/2026-05-15-how-copy-on-write-semantics-impact-linux-kernel-memory-management/",
+      "social_hook": "> TL;DR — Copy‑on‑Write (COW) lets the Linux kernel share physical pages until a write occurs, dramatically reducing memory duplication for `fork()`, `mmap()`, and copy‑on‑write filesystems. The trade‑off is extra page‑fault handling and bookkeeping, which can affect latency under heavy write workloads.\n\nLinux’s memory subsystem is a masterclass in engineering trade‑offs. The copy‑on‑write (COW) technique, introduced decades ago, remains a cornerstone of how the kernel conserves RAM while still providing the illusion of isolated address spaces. In this article we peel back the layers of the kernel’s COW implementation, examine the data structures that make it possible, and assess the performance impact on modern workloads.\n\nThe original Unix `fork()` system call duplicated a process’s address space. Early implementations performed a deep copy of every page, which quickly exhausted memory on modest hardware. To solve this, Ken Thompson introduced COW in the early 1970s, allowing the parent and child to share the same physical pages marked read‑only. Only when one side attempted to write would the kernel allocate a new copy.",
+      "tags": [
+        "linux",
+        "memory-management",
+        "copy-on-write",
+        "kernel",
+        "performance"
+      ],
+      "scheduled_at": "2026-05-15T05:01:10Z",
       "status": "pending"
     }
   ]
