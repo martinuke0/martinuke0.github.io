@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-15T15:01:38Z",
+  "last_scheduled_at": "2026-05-15T16:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -13186,6 +13186,20 @@
         "model checking"
       ],
       "scheduled_at": "2026-05-15T15:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Designing Lock-Free Concurrent Hash Maps Without Atomic Contention",
+      "url": "https://martinuke0.github.io/posts/2026-05-15-designing-lock-free-concurrent-hash-maps-without-atomic-contention/",
+      "social_hook": "> TL;DR — Traditional lock‑free hash maps rely heavily on compare‑and‑swap (CAS), which becomes a scalability bottleneck under high contention. By partitioning buckets, using versioned pointers, and employing epoch‑based reclamation, you can build a truly lock‑free map that sidesteps atomic contention while preserving linearizability and high throughput.\n\nConcurrent applications, from in‑memory databases to real‑time analytics engines, need associative containers that scale across many cores without the overhead of mutexes. The classic lock‑free hash map designs (e.g., Michael’s split‑ordered list) still suffer when thousands of threads repeatedly contend on a single CAS instruction per bucket. This article walks through the theory, the low‑level primitives, and a complete design that eliminates that hot‑spot, delivering near‑linear scaling on modern NUMA machines.\n\nCompare‑and‑swap (CAS) is the workhorse of lock‑free programming because it provides a single‑instruction guarantee of atomicity. However, CAS has two practical drawbacks:",
+      "tags": [
+        "concurrency",
+        "lock-free",
+        "hash-map",
+        "data-structures",
+        "performance"
+      ],
+      "scheduled_at": "2026-05-15T16:01:38Z",
       "status": "pending"
     }
   ]
