@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-15T20:01:38Z",
+  "last_scheduled_at": "2026-05-15T21:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -13256,6 +13256,20 @@
         "engine"
       ],
       "scheduled_at": "2026-05-15T20:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building Resilient Systems with Formal Methods and TLA+",
+      "url": "https://martinuke0.github.io/posts/2026-05-15-building-resilient-systems-with-formal-methods-and-tla/",
+      "social_hook": "> TL;DR — Formal methods like TLA+ let you reason about every possible state of a distributed system before you write code, catching design flaws that traditional testing misses. By modeling safety properties, running exhaustive model checks, and iterating on proofs, teams can ship services that stay up even under unexpected failures.\n\nResilience is no longer a nice‑to‑have attribute; it is a contractual requirement for cloud‑native applications that must survive network partitions, hardware glitches, and software bugs. Yet most engineering teams rely on unit tests, integration tests, and chaos experiments—techniques that explore only a tiny slice of the system’s state space. Formal methods provide a complementary, mathematically rigorous lens that can guarantee absence of certain classes of bugs. In this post we’ll walk through why formal methods matter, introduce the Temporal Logic of Actions (TLA+), and show a concrete end‑to‑end workflow that turns a TLA+ specification into a more resilient production system.\n\n1. State‑space exhaustiveness – Model checking explores all reachable states up to a configurable bound, revealing corner‑case deadlocks or safety violations that are practically impossible to hit with random testing.",
+      "tags": [
+        "formal-methods",
+        "tla+",
+        "system-design",
+        "resilience",
+        "verification"
+      ],
+      "scheduled_at": "2026-05-15T21:01:38Z",
       "status": "pending"
     }
   ]
