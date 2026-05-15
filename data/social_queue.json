@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-16T00:01:38Z",
+  "last_scheduled_at": "2026-05-16T01:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -13312,6 +13312,20 @@
         "software engineering"
       ],
       "scheduled_at": "2026-05-16T00:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing Lockless Ring Buffers for High Throughput Rust Applications",
+      "url": "https://martinuke0.github.io/posts/2026-05-15-implementing-lockless-ring-buffers-for-high-throughput-rust-applications/",
+      "social_hook": "> TL;DR — A lock‑less ring buffer eliminates mutex contention by using atomics and careful memory ordering. In Rust you can achieve single‑digit‑nanosecond latency per enqueue/dequeue when you align data, avoid false sharing, and batch updates. The pattern scales to many producer‑many consumer scenarios with minimal code and excellent ergonomics.\n\nHigh‑performance networking, telemetry pipelines, and real‑time audio often need to move millions of items per second with bounded latency. Traditional mutex‑protected queues become a bottleneck because each thread must acquire a lock, even when the critical section is just a few pointer updates. A lock‑less (or lock‑free) ring buffer sidesteps this by letting producers and consumers operate on separate atomic indices, guaranteeing progress without a global lock. Rust’s ownership model, zero‑cost abstractions, and powerful `std::sync::atomic` module make it an ideal language for such low‑level concurrency primitives.\n\n* Walk through a complete, production‑ready implementation in safe Rust, using `crossbeam::atomic::AtomicCell` where appropriate.",
+      "tags": [
+        "rust",
+        "ring-buffer",
+        "lockfree",
+        "performance",
+        "concurrency"
+      ],
+      "scheduled_at": "2026-05-16T01:01:38Z",
       "status": "pending"
     }
   ]
