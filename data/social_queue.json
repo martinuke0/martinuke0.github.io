@@ -13172,7 +13172,7 @@
         "rust"
       ],
       "scheduled_at": "2026-05-15T14:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "A Formal Verification Strategy for Concurrent Lockless Queues",
