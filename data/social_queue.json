@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-15T12:01:38Z",
+  "last_scheduled_at": "2026-05-15T13:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -13144,6 +13144,20 @@
         "compiler theory"
       ],
       "scheduled_at": "2026-05-15T12:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "How Modern Compilers Eliminate Branch Mispredictions Using Predication",
+      "url": "https://martinuke0.github.io/posts/2026-05-15-how-modern-compilers-eliminate-branch-mispredictions-using-predication/",
+      "social_hook": "> TL;DR — Modern compilers replace many hard‑to‑predict conditional branches with predicated (data‑parallel) instructions, turning control‑flow hazards into straight‑line code that the processor can execute without costly misprediction penalties.\n\nBranch misprediction remains one of the most visible performance cliffs on out‑of‑order, superscalar CPUs. When a branch predictor guesses wrong, the front‑end must flush the pipeline, discard speculative work, and restart from the correct path, often costing dozens of cycles. Over the last decade, compiler writers have leaned on predication—the ability to conditionally enable or disable the effect of an instruction based on a predicate register—to sidestep those stalls. This article walks through the hardware background, the compiler transformations, and real‑world results that demonstrate why predication is now a mainstream optimization technique.\n\nModern processors maintain a branch predictor that uses historical outcomes to guess whether a conditional jump will be taken. Simple schemes (static “always‑not‑taken”) have been superseded by sophisticated two‑level adaptive predictors that track per‑branch histories and global patterns. The predictor’s accuracy is typically measured as a percentage of correctly guessed branches; even a 95 % accuracy can be problematic when the remaining 5 % of branches are hot loops that execute millions of times.",
+      "tags": [
+        "compilers",
+        "predication",
+        "branch prediction",
+        "performance",
+        "optimization"
+      ],
+      "scheduled_at": "2026-05-15T13:01:38Z",
       "status": "pending"
     }
   ]
