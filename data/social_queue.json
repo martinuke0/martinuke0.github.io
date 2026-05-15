@@ -13046,7 +13046,7 @@
         "operating-systems"
       ],
       "scheduled_at": "2026-05-15T04:01:10Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "How Copy on Write Semantics Impact Linux Kernel Memory Management",
@@ -13060,7 +13060,7 @@
         "performance"
       ],
       "scheduled_at": "2026-05-15T05:01:10Z",
-      "status": "pending"
+      "status": "posted"
     }
   ]
 }
