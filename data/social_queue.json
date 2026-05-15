@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-14T23:00:40Z",
+  "last_scheduled_at": "2026-05-15T00:00:43Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -12977,6 +12977,20 @@
       ],
       "scheduled_at": "2026-05-14T23:00:40Z",
       "status": "posted"
+    },
+    {
+      "title": "Optimizing Write Ahead Logs for High Throughput Databases",
+      "url": "https://martinuke0.github.io/posts/2026-05-15-optimizing-write-ahead-logs-for-high-throughput-databases/",
+      "social_hook": "> TL;DR — Tuning the write‑ahead log (WAL) can increase transaction throughput by 2‑3× without sacrificing durability. Focus on batch size, sync policy, checkpoint intervals, and hardware‑aware settings, then validate with realistic load tests.\n\nModern databases rely on a write‑ahead log to guarantee atomicity and durability. When the WAL becomes a bottleneck, even the most sophisticated query optimizer cannot keep up. This article walks through the internals of WAL, the knobs you can turn, and the testing methodology you need to achieve high‑throughput performance while keeping data safe.\n\nA write‑ahead log records every change to the database before the data pages are flushed to their final location. The process is typically:",
+      "tags": [
+        "database",
+        "performance",
+        "WAL",
+        "optimization",
+        "high-throughput"
+      ],
+      "scheduled_at": "2026-05-15T00:00:43Z",
+      "status": "pending"
     }
   ]
 }
