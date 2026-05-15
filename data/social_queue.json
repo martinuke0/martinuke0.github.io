@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-15T16:01:38Z",
+  "last_scheduled_at": "2026-05-15T17:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -13200,6 +13200,20 @@
         "performance"
       ],
       "scheduled_at": "2026-05-15T16:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "The Mechanics of Deadlock Detection in PostgreSQL Transactions",
+      "url": "https://martinuke0.github.io/posts/2026-05-15-the-mechanics-of-deadlock-detection-in-postgresql-transactions/",
+      "social_hook": "> TL;DR — PostgreSQL builds a wait‑for graph from the lock table, runs a fast cycle‑detection algorithm, and aborts one transaction to break the deadlock. Understanding the graph, the detection trigger points, and the log output lets you diagnose and eliminate deadlocks before they cripple your application.\n\nDeadlocks are one of the most baffling concurrency problems you can encounter in a relational database. When two or more transactions each hold a lock the other needs, they block forever—unless the engine steps in. PostgreSQL’s deadlock detector is a compact, highly optimized component that runs every time a transaction tries to acquire a lock that is already held. In this article we unpack the data structures, the algorithmic steps, and the operational knobs that make PostgreSQL’s deadlock detection both reliable and performant.\n\nBoth transactions block forever because each is waiting for the other to release its lock. In PostgreSQL, locks are taken on tables, rows (via `SELECT ... FOR UPDATE`), advisory lock keys, and other internal objects.",
+      "tags": [
+        "postgresql",
+        "deadlock",
+        "transactions",
+        "database",
+        "performance"
+      ],
+      "scheduled_at": "2026-05-15T17:01:38Z",
       "status": "pending"
     }
   ]
