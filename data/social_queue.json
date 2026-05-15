@@ -13228,7 +13228,7 @@
         "systems"
       ],
       "scheduled_at": "2026-05-15T18:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "How Rust's Borrow Checker Handles Partial Struct Initialization",
