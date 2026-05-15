@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-15T23:01:38Z",
+  "last_scheduled_at": "2026-05-16T00:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -13298,6 +13298,20 @@
         "systems-programming"
       ],
       "scheduled_at": "2026-05-15T23:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Why Static Type Checkers Fail at Runtime Type Safety",
+      "url": "https://martinuke0.github.io/posts/2026-05-15-why-static-type-checkers-fail-at-runtime-type-safety/",
+      "social_hook": "> TL;DR — Static type checkers excel at finding mismatches in source code, yet they cannot enforce safety once a program executes because runtime data, reflection, and dynamic language features bypass compile‑time guarantees. Understanding these limits helps you combine static analysis with runtime checks, testing, and defensive coding.\n\nStatic type checking has become a cornerstone of modern software development, especially in languages that were originally dynamically typed. Tools like MyPy, Pyright, and TypeScript’s compiler catch a surprising number of bugs before code ever runs. However, many developers assume that a clean type‑checking report means the program is “type‑safe” at runtime. In practice, that assumption is dangerous. This article dissects the technical reasons static analyzers cannot provide absolute runtime safety, illustrates common failure patterns, and outlines concrete practices to mitigate the risk.\n\nStatic type checkers operate on the static view of a program: the source code, its type annotations, and the type inference rules defined by the language’s type system. Their primary goals are:",
+      "tags": [
+        "static typing",
+        "type checking",
+        "runtime",
+        "python",
+        "software engineering"
+      ],
+      "scheduled_at": "2026-05-16T00:01:38Z",
       "status": "pending"
     }
   ]
