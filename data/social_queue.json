@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-15T02:00:43Z",
+  "last_scheduled_at": "2026-05-15T03:01:10Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -13019,6 +13019,20 @@
       ],
       "scheduled_at": "2026-05-15T02:00:43Z",
       "status": "posted"
+    },
+    {
+      "title": "Why Write-Ahead Logging Rescues Databases From Power Failures",
+      "url": "https://martinuke0.github.io/posts/2026-05-15-why-write-ahead-logging-rescues-databases-from-power-failures/",
+      "social_hook": "> TL;DR — Write‑ahead logging writes every modification to a durable log before touching the main data files. If power is lost, the log can be replayed to restore a consistent state, preventing data loss and eliminating the need for costly full‑disk scans.\n\nDatabases are the backbone of modern applications, but they sit on hardware that can fail at any moment. A sudden power outage can leave a storage medium in an indeterminate state, corrupting partially‑written pages and breaking transaction atomicity. Write‑ahead logging (WAL) is a proven technique that turns that chaotic scenario into a deterministic recovery process. In this article we unpack the theory, the on‑disk structures, and the practical steps that make WAL the safety net every production database relies on.\n\nAt its core, WAL is a journal that records all changes to the database before those changes are applied to the main data files. The journal is stored on a separate, sequentially‑written file called the write‑ahead log. The key guarantees are:",
+      "tags": [
+        "databases",
+        "write-ahead-logging",
+        "recovery",
+        "transactions",
+        "systems"
+      ],
+      "scheduled_at": "2026-05-15T03:01:10Z",
+      "status": "pending"
     }
   ]
 }
