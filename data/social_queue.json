@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-15T18:01:38Z",
+  "last_scheduled_at": "2026-05-15T19:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -13228,6 +13228,20 @@
         "systems"
       ],
       "scheduled_at": "2026-05-15T18:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "How Rust's Borrow Checker Handles Partial Struct Initialization",
+      "url": "https://martinuke0.github.io/posts/2026-05-15-how-rust/",
+      "social_hook": "> TL;DR — Rust prevents you from borrowing a struct before every field is fully initialized. The borrow checker enforces this by tracking the initialization state of each field, and you can work around it with patterns like `Option<T>`, `MaybeUninit`, or builder APIs.\n\nWhen you first write a Rust struct, the compiler treats the whole value as a single unit of memory. Until every field has a valid value, the struct is considered partially initialized, and the borrow checker will reject any attempt to read or move from it. This guarantee eliminates a whole class of undefined‑behavior bugs that plague languages with unchecked memory. In this article we’ll unpack the exact rules the borrow checker applies, look at the error messages it produces, and explore idiomatic ways to perform staged construction without sacrificing safety.\n\nRust’s borrow checker knows that `pkt` is a move of a `Packet` value; before the move completes, every field must be initialized. Because `payload` is omitted, the compiler refuses to let you even borrow `pkt` later (the `copy_from_slice` call borrows `pkt.header`). The underlying principle is simple: you cannot read or move from a struct that isn’t fully formed.",
+      "tags": [
+        "rust",
+        "borrow-checker",
+        "structs",
+        "ownership",
+        "memory-safety"
+      ],
+      "scheduled_at": "2026-05-15T19:01:38Z",
       "status": "pending"
     }
   ]
