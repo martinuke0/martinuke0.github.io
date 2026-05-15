@@ -13088,7 +13088,7 @@
         "programming"
       ],
       "scheduled_at": "2026-05-15T07:01:10Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Why Copy-on-Write Improves Memory Efficiency in Linux Kernels",
