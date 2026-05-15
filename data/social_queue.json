@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-15T09:01:10Z",
+  "last_scheduled_at": "2026-05-15T11:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -13117,6 +13117,20 @@
       ],
       "scheduled_at": "2026-05-15T09:01:10Z",
       "status": "posted"
+    },
+    {
+      "title": "Why Write-Ahead Logging Outperforms Direct Disk Updates",
+      "url": "https://martinuke0.github.io/posts/2026-05-15-why-write-ahead-logging-outperforms-direct-disk-updates/",
+      "social_hook": "> TL;DR — Write-ahead logging batches changes, reduces latency, and provides atomic recovery, making it faster and safer than writing directly to disk.\n\nModern applications expect millisecond‑level response times, yet the underlying storage subsystem can become a bottleneck. Traditional “write directly to the data file” approaches force the operating system and hardware to perform many tiny, random writes, each incurring seek latency and filesystem overhead. Write‑Ahead Logging (WAL) flips that model: every modification is first appended to a sequential log, which the system later flushes to the main data pages in bulk. The result is a dramatic boost in throughput, lower latency, and rock‑solid crash safety.\n\nWhen a database engine updates a row, it often needs to modify a page located somewhere in the middle of a large file. If the storage device is a spinning HDD, the read‑modify‑write cycle triggers:",
+      "tags": [
+        "write-ahead logging",
+        "database",
+        "performance",
+        "reliability",
+        "storage"
+      ],
+      "scheduled_at": "2026-05-15T11:01:38Z",
+      "status": "pending"
     }
   ]
 }
