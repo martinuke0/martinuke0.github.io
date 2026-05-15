@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-15T00:00:43Z",
+  "last_scheduled_at": "2026-05-15T01:00:43Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -12991,6 +12991,20 @@
       ],
       "scheduled_at": "2026-05-15T00:00:43Z",
       "status": "posted"
+    },
+    {
+      "title": "Why LSM Trees Outperform B‑Trees for Write‑Intensive Workloads",
+      "url": "https://martinuke0.github.io/posts/2026-05-15-why-lsm-trees-outperform-btrees-for-writeintensive-workloads/",
+      "social_hook": "> TL;DR — LSM trees replace costly random‑write operations with fast sequential appends and batch compactions, giving them a massive edge in write‑heavy scenarios. The trade‑off is extra read‑time work, which modern bloom filters and tiered designs keep in check.\n\nWrite‑heavy applications—log ingestion, time‑series telemetry, and high‑throughput key‑value stores—often hit the limits of traditional B‑tree storage engines. While B‑trees excel at balanced read‑write mixes, they suffer when the workload skews heavily toward inserts and updates. Log‑Structured Merge (LSM) trees were invented to flip that balance: by turning random writes into sequential, disk‑friendly operations, they achieve throughput that B‑trees simply cannot match.\n\nIn this article we break down the architectural differences, walk through the core algorithms that give LSM trees their write advantage, and examine real‑world systems that have adopted the model. By the end you’ll understand when to choose an LSM‑based engine, what the hidden costs are, and how to tune compaction to keep those costs under control.",
+      "tags": [
+        "LSM",
+        "B-Tree",
+        "Databases",
+        "Write Performance",
+        "Storage Engines"
+      ],
+      "scheduled_at": "2026-05-15T01:00:43Z",
+      "status": "pending"
     }
   ]
 }
