@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-15T11:01:38Z",
+  "last_scheduled_at": "2026-05-15T12:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -13131,6 +13131,20 @@
       ],
       "scheduled_at": "2026-05-15T11:01:38Z",
       "status": "posted"
+    },
+    {
+      "title": "Designing Domain Specific Languages with Parser Combinators",
+      "url": "https://martinuke0.github.io/posts/2026-05-15-designing-domain-specific-languages-with-parser-combinators/",
+      "social_hook": "> TL;DR — Parser combinators let you compose tiny, reusable parsers into a full‑featured DSL without writing a hand‑crafted lexer or grammar generator. By treating parsers as first‑class functions, you gain modularity, testability, and expressive power that scales from simple configurations to complex query languages.\n\nDesigning a domain‑specific language (DSL) often feels like walking a tightrope between expressive power and implementation complexity. Traditional approaches rely on lexer/parser generator tools such as ANTLR or Bison, which introduce separate grammar files, code generation steps, and often opaque error handling. Parser combinators flip that model on its head: they are ordinary functions that you combine with combinators like `choice`, `many`, and `sepBy` to describe the syntax directly in your host language. This article walks you through the theory behind parser combinators, shows step‑by‑step how to design a DSL, and demonstrates concrete implementations in Haskell (using Parsec) and Python (using parsy). By the end you’ll have a reusable toolkit for turning textual specifications into executable abstractions.\n\nA parser combinator is a higher‑order function that takes one or more parsers as arguments and returns a new parser. In functional terms, a parser can be modeled as a function `Parser a = String -> [(a, String)]`, where it consumes a portion of the input and produces a value of type `a` together with the remaining unparsed string. The combinator builds more complex parsers by sequencing, branching, or repeating these basic units.",
+      "tags": [
+        "DSL",
+        "parser combinators",
+        "language design",
+        "functional programming",
+        "compiler theory"
+      ],
+      "scheduled_at": "2026-05-15T12:01:38Z",
+      "status": "pending"
     }
   ]
 }
