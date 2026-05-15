@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-15T13:01:38Z",
+  "last_scheduled_at": "2026-05-15T14:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -13158,6 +13158,20 @@
         "optimization"
       ],
       "scheduled_at": "2026-05-15T13:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Why Zero-Copy Deserialization Fails for Large Recursive Schemas",
+      "url": "https://martinuke0.github.io/posts/2026-05-15-why-zero-copy-deserialization-fails-for-large-recursive-schemas/",
+      "social_hook": "> TL;DR — Zero‑copy deserialization eliminates copying overhead only when the in‑memory layout matches the wire format. Large recursive schemas break that assumption: deep nesting forces repeated pointer indirection, lifetime constraints, and stack‑heavy parsing, which together cause performance regressions and runtime failures.\n\nZero‑copy deserialization has become a buzzword in systems programming because it promises to turn raw bytes into usable objects without allocating or copying. The idea works beautifully for flat, fixed‑size messages, but real‑world data models often contain recursive relationships—trees, graphs, linked lists, or nested protobuf messages. When those structures grow large, the zero‑copy model collapses under its own assumptions. This article unpacks the technical reasons, walks through concrete code snippets, and offers pragmatic ways to keep your deserialization fast without sacrificing safety.\n\nZero‑copy (or zero‑allocation) deserialization means that a deserializer reads a byte slice and returns a reference‑based view into that slice. No heap allocation, no memcpy, and typically no intermediate buffers. In Rust, this is expressed as `&'a [u8] -> &'a MyStruct`. The performance gains are twofold:",
+      "tags": [
+        "zero-copy",
+        "deserialization",
+        "recursive-schema",
+        "performance",
+        "rust"
+      ],
+      "scheduled_at": "2026-05-15T14:01:38Z",
       "status": "pending"
     }
   ]
