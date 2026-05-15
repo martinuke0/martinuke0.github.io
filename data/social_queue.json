@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-15T19:01:38Z",
+  "last_scheduled_at": "2026-05-15T20:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -13242,6 +13242,20 @@
         "memory-safety"
       ],
       "scheduled_at": "2026-05-15T19:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Designing Deterministic Finite Automata for High Performance Regex Engines",
+      "url": "https://martinuke0.github.io/posts/2026-05-15-designing-deterministic-finite-automata-for-high-performance-regex-engines/",
+      "social_hook": "> TL;DR — Deterministic Finite Automata (DFA) give regex engines predictable O(n) performance by eliminating backtracking. Careful state minimization, byte‑code compilation, and cache‑friendly data layouts turn a theoretical model into a blazing‑fast engine.\n\nRegular expressions are the workhorse of text processing, yet many developers are surprised when a seemingly simple pattern stalls an application. The culprit is often the engine’s underlying execution model. While backtracking NFA‑based engines are flexible, they can degrade to exponential time on pathological inputs. Modern high‑performance engines—Google’s RE2, Rust’s `regex`, and others—rely on deterministic finite automata to guarantee linear‑time matching. This article walks through the full pipeline: from a high‑level pattern to a compact DFA representation that can be executed in tight loops with minimal memory overhead.\n\nThe classic construction starts with a non‑deterministic finite automaton (NFA). Algorithms such as Thompson’s construction translate each regex operator into a small fragment of NFA states and ε‑transitions. For example, the pattern `a|b` becomes two parallel branches that converge on a common accept state. The NFA is attractive because it mirrors the regex syntax directly and can be built in linear time relative to the pattern length.",
+      "tags": [
+        "regex",
+        "dfa",
+        "performance",
+        "automata",
+        "engine"
+      ],
+      "scheduled_at": "2026-05-15T20:01:38Z",
       "status": "pending"
     }
   ]
