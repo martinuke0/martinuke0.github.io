@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-15T22:01:38Z",
+  "last_scheduled_at": "2026-05-15T23:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -13284,6 +13284,20 @@
         "compare and swap"
       ],
       "scheduled_at": "2026-05-15T22:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "The Mechanics of Thread Safety in Lockless Circular Buffers",
+      "url": "https://martinuke0.github.io/posts/2026-05-15-the-mechanics-of-thread-safety-in-lockless-circular-buffers/",
+      "social_hook": "> TL;DR — Lockless circular buffers achieve thread safety by using atomic read‑modify‑write primitives, proper memory ordering, and a single‑writer/single‑reader or multi‑producer/multi‑consumer protocol that avoids data races without mutexes.\n\nCircular buffers (also called ring buffers) are a staple in low‑latency systems: networking stacks, audio pipelines, and inter‑thread communication channels all rely on them. The “lockless” qualifier often scares newcomers because it sounds like magic, but the safety guarantees come from a disciplined use of atomic operations and memory ordering rules defined by the C11/C++11 memory model. This article walks through the geometry of a ring, the atomic primitives that make it safe, concrete SPSC and MPMC implementations in C, and the performance tricks that keep the design cache‑friendly.\n\nA circular buffer stores a fixed number of elements in a contiguous memory region. Two indices—head (read position) and tail (write position)—move forward modulo the capacity. When the tail catches up to the head, the buffer is full; when the head catches up to the tail, it is empty.",
+      "tags": [
+        "concurrency",
+        "circular-buffer",
+        "lock-free",
+        "thread-safety",
+        "systems-programming"
+      ],
+      "scheduled_at": "2026-05-15T23:01:38Z",
       "status": "pending"
     }
   ]
