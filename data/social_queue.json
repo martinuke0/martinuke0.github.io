@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-15T21:01:38Z",
+  "last_scheduled_at": "2026-05-15T22:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -13270,6 +13270,20 @@
         "verification"
       ],
       "scheduled_at": "2026-05-15T21:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing Lock-Free Priority Queues Using Compare and Swap",
+      "url": "https://martinuke0.github.io/posts/2026-05-15-implementing-lock-free-priority-queues-using-compare-and-swap/",
+      "social_hook": "> TL;DR — Lock‑free priority queues can be built by combining a heap‑like layout with atomic compare‑and‑swap (CAS) operations. The key challenges are maintaining the heap invariant without locks, handling the ABA problem, and ensuring safe memory reclamation. A well‑designed CAS‑based algorithm delivers scalable performance on modern multicore CPUs while preserving strict priority ordering.\n\nConcurrent applications often need a shared priority queue (PQ) that multiple threads can push and pop without blocking each other. Traditional lock‑based implementations serialize access, creating contention and limiting scalability. This article walks through the design of a lock‑free PQ using the compare‑and‑swap primitive, explains the underlying theory, shows a reference C++ implementation, and discusses correctness, memory management, and performance considerations.\n\nLock‑free data structures guarantee that at least one thread makes progress in a finite number of steps, regardless of the behavior of others. The benefits are:",
+      "tags": [
+        "concurrency",
+        "data structures",
+        "lock-free",
+        "priority queue",
+        "compare and swap"
+      ],
+      "scheduled_at": "2026-05-15T22:01:38Z",
       "status": "pending"
     }
   ]
