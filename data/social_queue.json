@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-15T03:01:10Z",
+  "last_scheduled_at": "2026-05-15T04:01:10Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -13033,6 +13033,20 @@
       ],
       "scheduled_at": "2026-05-15T03:01:10Z",
       "status": "posted"
+    },
+    {
+      "title": "Why Copy on Write Optimizes Memory in Modern Kernels",
+      "url": "https://martinuke0.github.io/posts/2026-05-15-why-copy-on-write-optimizes-memory-in-modern-kernels/",
+      "social_hook": "> TL;DR — Copy‑on‑write (CoW) lets the kernel share physical pages between parent and child after a `fork()`, postponing actual copies until a write occurs. This strategy slashes memory consumption, accelerates process creation, and improves cache and TLB behavior on modern systems.\n\nProcess creation is the most frequent operation in a multitasking operating system. Every time a user launches a program, the kernel must allocate a new address space, copy the executable image, and set up bookkeeping structures. Historically, this was an expensive, memory‑hungry step. Modern kernels—Linux, BSD, macOS—have converged on a single powerful technique: copy‑on‑write. By deferring copies until they are truly needed, CoW turns a potentially linear‑time, memory‑intensive operation into a near‑constant‑time, memory‑light one. The following sections unpack the mechanics, the performance wins, and the practical limits of CoW in today’s kernels.\n\nBefore CoW, the classic `fork()` implementation performed a deep copy of the parent’s entire address space. On a system with 8 GiB of RAM, for example, a naïve fork could temporarily require an additional 8 GiB of physical memory just to duplicate page tables and data. Early Unix variants mitigated this with swap and overcommit, but the cost remained prohibitive for high‑frequency process spawning (e.g., web servers handling thousands of requests per second).",
+      "tags": [
+        "copy-on-write",
+        "memory-management",
+        "kernel",
+        "performance",
+        "operating-systems"
+      ],
+      "scheduled_at": "2026-05-15T04:01:10Z",
+      "status": "pending"
     }
   ]
 }
