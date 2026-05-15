@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-15T14:01:38Z",
+  "last_scheduled_at": "2026-05-15T15:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -13172,6 +13172,20 @@
         "rust"
       ],
       "scheduled_at": "2026-05-15T14:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "A Formal Verification Strategy for Concurrent Lockless Queues",
+      "url": "https://martinuke0.github.io/posts/2026-05-15-a-formal-verification-strategy-for-concurrent-lockless-queues/",
+      "social_hook": "> TL;DR — Formal verification of lockless queues can be achieved by modeling the memory ordering guarantees, applying model checking or theorem proving, and iteratively refining the design. A disciplined workflow that couples TLA+, Promela/Spin, or Coq with a clear abstraction of atomic primitives yields confidence that the implementation respects linearizability and freedom from data races.\n\nConcurrent lockless queues are a cornerstone of high‑performance systems, from network drivers to in‑memory databases. Their appeal lies in eliminating mutex overhead, yet the absence of explicit locks makes reasoning about correctness notoriously difficult. This article presents a comprehensive verification strategy that starts with a precise formal model, proceeds through systematic property specification, and culminates in machine‑checked proofs or exhaustive model‑checking runs. By following the steps outlined here, engineers can turn a high‑risk component into a provably safe building block.\n\nLockless algorithms rely on atomic operations (e.g., compare‑and‑swap, load‑linked/store‑conditional) and on the guarantees provided by the underlying memory model (e.g., C++11, Java, or ARM). Subtle reorderings can introduce out‑of‑thin‑air reads or violate happens‑before relationships, leading to lost updates or duplicate items. These bugs often manifest only under extreme contention or on specific hardware, making empirical testing insufficient.",
+      "tags": [
+        "formal verification",
+        "concurrency",
+        "lockless",
+        "queues",
+        "model checking"
+      ],
+      "scheduled_at": "2026-05-15T15:01:38Z",
       "status": "pending"
     }
   ]
