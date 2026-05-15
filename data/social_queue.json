@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-15T17:01:38Z",
+  "last_scheduled_at": "2026-05-15T18:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -13214,6 +13214,20 @@
         "performance"
       ],
       "scheduled_at": "2026-05-15T17:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Reclaiming Performance via Cache‑Aware B‑Tree Alignment",
+      "url": "https://martinuke0.github.io/posts/2026-05-15-reclaiming-performance-via-cacheaware-btree-alignment/",
+      "social_hook": "> TL;DR — Aligning B‑Tree nodes to cache‑line boundaries and padding them to match page size dramatically reduces random‑access latency. A small redesign of node layout, combined with pre‑fetch hints, can yield 2‑3× throughput gains in read‑heavy workloads without changing the logical structure of the tree.\n\nModern data stores still rely on the classic B‑Tree because its logarithmic depth and block‑oriented design fit well with disk and SSD pages. Yet the CPU’s memory hierarchy has evolved far beyond the assumptions made when B‑Trees were first described in the 1970s. The result is a growing mismatch: a node that fits an 8 KB disk page may span dozens of 64‑byte cache lines, forcing the processor to fetch many lines for a single key lookup. By making the tree cache‑aware—that is, by deliberately aligning nodes with cache lines and padding them to avoid false sharing—we can reclaim a large portion of the performance that modern hardware promises.\n\n* Summarize actionable takeaways for engineers building high‑performance indexes.",
+      "tags": [
+        "databases",
+        "performance",
+        "b-tree",
+        "caching",
+        "systems"
+      ],
+      "scheduled_at": "2026-05-15T18:01:38Z",
       "status": "pending"
     }
   ]
