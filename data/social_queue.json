@@ -13270,7 +13270,7 @@
         "verification"
       ],
       "scheduled_at": "2026-05-15T21:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Implementing Lock-Free Priority Queues Using Compare and Swap",
