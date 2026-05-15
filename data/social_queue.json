@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-15T01:00:43Z",
+  "last_scheduled_at": "2026-05-15T02:00:43Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -13005,6 +13005,20 @@
       ],
       "scheduled_at": "2026-05-15T01:00:43Z",
       "status": "posted"
+    },
+    {
+      "title": "Why LSM Trees Outperform B-Trees for Write Heavy Workloads",
+      "url": "https://martinuke0.github.io/posts/2026-05-15-why-lsm-trees-outperform-b-trees-for-write-heavy-workloads/",
+      "social_hook": "> TL;DR — LSM trees batch writes into sequential logs and defer expensive re‑writes through background compaction, giving them far higher throughput than B‑trees on write‑heavy workloads. The trade‑off is higher read latency and more storage overhead, which can be mitigated with bloom filters and tiered caching.\n\nWrite‑intensive applications—time‑series databases, log aggregation services, and key‑value stores—often hit a performance ceiling with traditional B‑tree indexes. The root cause is the random‑write nature of B‑trees: each insert or update may trigger a page split, a disk seek, and a write‑ahead log flush. Log‑Structured Merge (LSM) trees were invented to turn those random writes into sequential appends, letting the storage medium operate where it is strongest. In this post we unpack the mechanics of both structures, compare their write paths, and explore the practical consequences for system designers.\n\nAn LSM tree consists of a hierarchy of immutable, sorted files (often called levels or tiers) plus a small mutable component called the memtable. The basic workflow is:",
+      "tags": [
+        "LSM",
+        "B-Tree",
+        "databases",
+        "write performance",
+        "storage engines"
+      ],
+      "scheduled_at": "2026-05-15T02:00:43Z",
+      "status": "pending"
     }
   ]
 }
