@@ -13186,7 +13186,7 @@
         "model checking"
       ],
       "scheduled_at": "2026-05-15T15:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Designing Lock-Free Concurrent Hash Maps Without Atomic Contention",
