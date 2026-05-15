@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-15T08:01:10Z",
+  "last_scheduled_at": "2026-05-15T09:01:10Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -13103,6 +13103,20 @@
       ],
       "scheduled_at": "2026-05-15T08:01:10Z",
       "status": "posted"
+    },
+    {
+      "title": "How Copy‑On‑Write Optimization Reduces Database Memory Overhead",
+      "url": "https://martinuke0.github.io/posts/2026-05-15-how-copyonwrite-optimization-reduces-database-memory-overhead/",
+      "social_hook": "> TL;DR — Copy‑on‑write (COW) allows a database to keep a single in‑memory representation of data that is read by many transactions. When a transaction modifies a page, only that page is duplicated, so the overall memory footprint stays low while snapshots and concurrency stay fast.\n\nDatabases have to juggle three competing goals: low memory consumption, high read‑write concurrency, and the ability to take consistent snapshots for backups or analytical queries. Traditional approaches either copy whole data structures eagerly—wasting RAM—or lock large portions of memory, throttling throughput. Copy‑on‑write (COW) offers a middle ground: share pages read‑only across transactions and materialize a private copy only when a write is needed. This article explains the mechanics of COW, walks through real‑world implementations, and shows how you can measure and tune its impact on memory usage.\n\nAt its core, COW is a lazy duplication strategy. Imagine a database page (a fixed‑size block, typically 8 KB) that holds rows or index entries. When a transaction reads the page, it receives a reference to the shared version. The page is marked read‑only in the process’s page table, so the operating system can safely let many threads map the same physical memory.",
+      "tags": [
+        "databases",
+        "performance",
+        "memory-management",
+        "copy-on-write",
+        "systems-engineering"
+      ],
+      "scheduled_at": "2026-05-15T09:01:10Z",
+      "status": "pending"
     }
   ]
 }
