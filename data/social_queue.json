@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-15T05:01:10Z",
+  "last_scheduled_at": "2026-05-15T06:01:10Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -13061,6 +13061,20 @@
       ],
       "scheduled_at": "2026-05-15T05:01:10Z",
       "status": "posted"
+    },
+    {
+      "title": "Why Copy on Write B-Trees Improve Database Concurrency",
+      "url": "https://martinuke0.github.io/posts/2026-05-15-why-copy-on-write-b-trees-improve-database-concurrency/",
+      "social_hook": "> TL;DR — Copy‑on‑write (COW) B‑trees let a database keep multiple immutable versions of its index structure side‑by‑side, so readers can work on a stable snapshot while writers create a new version. This eliminates most lock contention, improves throughput, and simplifies crash recovery.\n\nModern applications demand thousands of concurrent transactions, yet traditional B‑tree indexes rely on heavy lock coupling that stalls readers whenever a writer modifies a page. By treating each node as immutable and allocating a fresh copy on every update, COW B‑trees turn a single mutable structure into a versioned data structure that naturally supports multi‑version concurrency control (MVCC). The result is higher concurrency, simpler recovery, and predictable performance even under write‑heavy workloads.\n\nConventional B‑tree implementations protect pages with latches (short‑lived mutexes) or locks (longer‑lived). A typical write path looks like this:",
+      "tags": [
+        "databases",
+        "b-trees",
+        "concurrency",
+        "copy-on-write",
+        "mvcc"
+      ],
+      "scheduled_at": "2026-05-15T06:01:10Z",
+      "status": "pending"
     }
   ]
 }
