@@ -13200,7 +13200,7 @@
         "performance"
       ],
       "scheduled_at": "2026-05-15T16:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "The Mechanics of Deadlock Detection in PostgreSQL Transactions",
