@@ -13242,7 +13242,7 @@
         "memory-safety"
       ],
       "scheduled_at": "2026-05-15T19:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Designing Deterministic Finite Automata for High Performance Regex Engines",
