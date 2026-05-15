@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-15T07:01:10Z",
+  "last_scheduled_at": "2026-05-15T08:01:10Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -13088,6 +13088,20 @@
         "programming"
       ],
       "scheduled_at": "2026-05-15T07:01:10Z",
+      "status": "pending"
+    },
+    {
+      "title": "Why Copy-on-Write Improves Memory Efficiency in Linux Kernels",
+      "url": "https://martinuke0.github.io/posts/2026-05-15-why-copy-on-write-improves-memory-efficiency-in-linux-kernels/",
+      "social_hook": "> TL;DR — Copy‑on‑Write allows Linux to map a single physical page into multiple processes, only copying it when a write occurs, which slashes memory use and page‑fault work while preserving isolation.\n\nLinux’s memory subsystem is a masterclass in engineering trade‑offs. One of its most elegant tricks, copy‑on‑write (COW), lets the kernel reuse the same physical memory for several virtual address spaces until a process actually needs to modify the data. The result is a dramatic reduction in RAM consumption, fewer page‑faults, and better overall system throughput—all without compromising the security guarantees that separate processes require.\n\nIn this article we’ll unpack the low‑level mechanics of COW, walk through the fork path that triggers it, explore the page‑fault handling that makes it safe, and quantify the performance benefits you can expect on a typical Linux system. Whether you’re a kernel developer, a systems programmer, or just a curious technologist, understanding COW gives you a clearer picture of why modern operating systems can squeeze more work out of the same hardware.",
+      "tags": [
+        "linux",
+        "kernel",
+        "memory-management",
+        "copy-on-write",
+        "performance"
+      ],
+      "scheduled_at": "2026-05-15T08:01:10Z",
       "status": "pending"
     }
   ]
