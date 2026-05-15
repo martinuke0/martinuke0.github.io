@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-15T06:01:10Z",
+  "last_scheduled_at": "2026-05-15T07:01:10Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -13075,6 +13075,20 @@
       ],
       "scheduled_at": "2026-05-15T06:01:10Z",
       "status": "posted"
+    },
+    {
+      "title": "How Copy on Write Semantics Optimize Memory Management",
+      "url": "https://martinuke0.github.io/posts/2026-05-15-how-copy-on-write-semantics-optimize-memory-management/",
+      "social_hook": "> TL;DR — Copy‑on‑write (COW) defers actual data copying until a write occurs, letting multiple references share the same physical memory, which saves RAM and reduces copy overhead in many systems.\n\nCopy‑on‑write is a deceptively simple idea with far‑reaching consequences. By allowing several logical owners to point at a single physical block until one of them mutates the data, COW eliminates unnecessary memory copies, improves cache locality, and often speeds up the overall program. This article walks through the mechanics, the places you’ll encounter COW in the wild, the performance benefits, the trade‑offs, and practical ways to adopt it in your own code.\n\nThe concept originated in the early days of virtual memory. IBM’s System/360 Model 67, introduced in the 1960s, used a “share‑on‑write” approach to implement efficient process forking. The idea was later formalised in the UNIX `fork()` system call, where the parent and child initially share the same page tables, and only when either process writes to a page does the kernel allocate a new copy. This saved the massive memory copy that would otherwise be required for every forked process.",
+      "tags": [
+        "memory-management",
+        "copy-on-write",
+        "operating-systems",
+        "performance",
+        "programming"
+      ],
+      "scheduled_at": "2026-05-15T07:01:10Z",
+      "status": "pending"
     }
   ]
 }
