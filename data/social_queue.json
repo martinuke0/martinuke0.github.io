@@ -13144,7 +13144,7 @@
         "compiler theory"
       ],
       "scheduled_at": "2026-05-15T12:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "How Modern Compilers Eliminate Branch Mispredictions Using Predication",
