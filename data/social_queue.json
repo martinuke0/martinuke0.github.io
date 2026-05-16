@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-16T08:01:38Z",
+  "last_scheduled_at": "2026-05-16T09:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -13424,6 +13424,20 @@
         "software engineering"
       ],
       "scheduled_at": "2026-05-16T08:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Why B-Tree Node Splitting Causes Unexpected Tail Latency",
+      "url": "https://martinuke0.github.io/posts/2026-05-16-why-b-tree-node-splitting-causes-unexpected-tail-latency/",
+      "social_hook": "> TL;DR — When a B‑Tree node splits, it forces extra locks, cache churn, and bursty I/O that together create rare but severe latency spikes, inflating the tail of response‑time distributions.\n\nB‑Tree indexes are the workhorse of almost every relational and key‑value store. They give us logarithmic look‑up cost and ordered iteration, but the very mechanism that keeps the tree balanced—node splitting—can also be the source of unexpected latency outliers. In this article we dissect the split operation, explain how it interacts with modern hardware and concurrency control, and surface practical techniques to keep tail latency under control.\n\nA B‑Tree is a multi‑way search tree where each internal node holds k keys and k + 1 child pointers. The branching factor k is chosen so that a node fits comfortably into a single page (often 4 KB or 8 KB). The invariants are simple:",
+      "tags": [
+        "b-tree",
+        "database",
+        "performance",
+        "latency",
+        "storage-engine"
+      ],
+      "scheduled_at": "2026-05-16T09:01:38Z",
       "status": "pending"
     }
   ]
