@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-16T07:01:38Z",
+  "last_scheduled_at": "2026-05-16T08:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -13410,6 +13410,20 @@
         "software engineering"
       ],
       "scheduled_at": "2026-05-16T07:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Formal Verification of Lockless Data Structures Using TLA⁺",
+      "url": "https://martinuke0.github.io/posts/2026-05-16-formal-verification-of-lockless-data-structures-using-tla/",
+      "social_hook": "> TL;DR — TLA⁺ lets you model lockless structures such as queues and stacks as state machines, prove they preserve safety invariants and eventually make progress, and uncover subtle memory‑ordering bugs before any production code is written.\n\nLock‑free data structures are a cornerstone of high‑performance systems, but their correctness hinges on intricate inter‑thread interactions that are notoriously hard to reason about. Formal methods—particularly TLA⁺—provide a mathematically rigorous way to capture those interactions, explore all possible executions, and verify both safety (nothing bad happens) and liveness (something good eventually happens). In this article we dive deep into how to model a lock‑free queue and a lock‑free stack in TLA⁺, walk through the proof of key properties, and share practical advice for scaling verification to real‑world codebases.\n\nLock‑free algorithms avoid mutual exclusion primitives, instead relying on atomic primitives such as compare‑and‑swap (CAS). This yields impressive throughput, but also introduces hazards:",
+      "tags": [
+        "formal verification",
+        "TLA+",
+        "concurrency",
+        "lockless data structures",
+        "software engineering"
+      ],
+      "scheduled_at": "2026-05-16T08:01:38Z",
       "status": "pending"
     }
   ]
