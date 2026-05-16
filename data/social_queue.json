@@ -13396,7 +13396,7 @@
         "wasm"
       ],
       "scheduled_at": "2026-05-16T06:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "How Formal Verification Prevents Deadlocks in Concurrent Rust Systems",
@@ -13410,7 +13410,7 @@
         "software engineering"
       ],
       "scheduled_at": "2026-05-16T07:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Formal Verification of Lockless Data Structures Using TLA⁺",
