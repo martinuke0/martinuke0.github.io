@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-16T18:01:38Z",
+  "last_scheduled_at": "2026-05-16T19:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -13558,6 +13558,20 @@
         "consistency"
       ],
       "scheduled_at": "2026-05-16T18:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "What the PACELC Theorem Reveals About Distributed Consistency",
+      "url": "https://martinuke0.github.io/posts/2026-05-16-what-the-pacelc-theorem-reveals-about-distributed-consistency/",
+      "social_hook": "> TL;DR — PACELC refines the classic CAP theorem by adding a latency dimension: when a network partition isn’t present, systems still choose between consistency and latency. Understanding the theorem helps engineers make explicit trade‑offs that match application requirements.\n\nDistributed databases are rarely “one‑size‑fits‑all.”  They must balance three competing forces—consistency, availability, and latency—and the PACELC theorem gives a concise framework for reasoning about those forces.  In this article we unpack the theorem, compare it to CAP, examine real‑world systems that embody its trade‑offs, and walk through practical design decisions you can apply today.\n\nThe CAP theorem, coined by Eric Brewer in 2000 and formally proved by Gilbert and Lynch in 2002, states that a distributed system can provide at most two of the following guarantees during a network partition:",
+      "tags": [
+        "distributed-systems",
+        "consistency",
+        "PACELC",
+        "CAP",
+        "database"
+      ],
+      "scheduled_at": "2026-05-16T19:01:38Z",
       "status": "pending"
     }
   ]
