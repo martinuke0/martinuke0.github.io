@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-16T09:01:38Z",
+  "last_scheduled_at": "2026-05-16T10:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -13438,6 +13438,20 @@
         "storage-engine"
       ],
       "scheduled_at": "2026-05-16T09:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Why Copy-on-Write B-Trees Fragment Your SSD Storage",
+      "url": "https://martinuke0.github.io/posts/2026-05-16-why-copy-on-write-b-trees-fragment-your-ssd-storage/",
+      "social_hook": "> TL;DR — Copy‑on‑Write (CoW) B‑Trees write new versions of pages instead of overwriting, which creates many small, scattered writes on SSDs. Over time those writes fragment the flash, increase garbage‑collection overhead, and degrade both performance and drive endurance.\n\nModern key‑value stores and relational engines often tout Copy‑on‑Write B‑Trees as the secret sauce behind low‑latency reads and lock‑free writes. The trade‑off, however, is hidden deep inside the storage layer: every logical update becomes a physical write to a new location, and SSDs are notoriously sensitive to that pattern. In this article we unpack the data‑structure internals, the physics of NAND flash, and the cascade of effects that turn a perfectly balanced tree into a fragmented storage device. Finally we explore concrete mitigation techniques that let you keep the concurrency benefits without sacrificing SSD health.\n\nA classic B‑Tree stores sorted keys in a hierarchy of nodes, each node holding multiple key/value pairs and pointers to child nodes. The node size (often 4 KB or 8 KB) is chosen to match the underlying storage block size, minimizing the number of I/O operations required for a search. Because nodes are immutable in a CoW variant, any modification creates a fresh copy of the affected node while the rest of the tree remains untouched.",
+      "tags": [
+        "databases",
+        "b-trees",
+        "copy-on-write",
+        "ssd",
+        "storage"
+      ],
+      "scheduled_at": "2026-05-16T10:01:38Z",
       "status": "pending"
     }
   ]
