@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-16T01:01:38Z",
+  "last_scheduled_at": "2026-05-16T02:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -13326,6 +13326,20 @@
         "concurrency"
       ],
       "scheduled_at": "2026-05-16T01:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing Formal Verification for Critical Rust Memory Safety Transitions",
+      "url": "https://martinuke0.github.io/posts/2026-05-16-implementing-formal-verification-for-critical-rust-memory-safety-transitions/",
+      "social_hook": "> TL;DR — Formal verification can close the safety gaps that even Rust’s borrow checker leaves open. By combining model‑checking tools like Prusti with proof assistants such as Coq, you can mathematically guarantee that critical memory‑safety transitions in production code are free from undefined behavior.\n\nRust’s ownership model eliminates most classes of memory bugs, yet certain low‑level transitions—unsafe blocks, FFI boundaries, and hardware‑specific drivers—still require extra assurance. This post walks through the theory, tooling, and concrete workflow needed to bring formal verification to those high‑risk areas, helping you ship Rust code that is provably safe.\n\n- Dynamic invariants that depend on runtime state (e.g., “a pointer is never dereferenced after a peripheral reset”).",
+      "tags": [
+        "rust",
+        "formal verification",
+        "memory safety",
+        "model checking",
+        "proof assistants"
+      ],
+      "scheduled_at": "2026-05-16T02:01:38Z",
       "status": "pending"
     }
   ]
