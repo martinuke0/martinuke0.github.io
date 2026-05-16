@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-16T22:01:38Z",
+  "last_scheduled_at": "2026-05-16T23:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -13614,6 +13614,20 @@
         "nosql"
       ],
       "scheduled_at": "2026-05-16T22:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "The Hidden Price of Balancing Your Search Structure",
+      "url": "https://martinuke0.github.io/posts/2026-05-16-the-hidden-price-of-balancing-your-search-structure/",
+      "social_hook": "> TL;DR — Balancing search relevance with a tidy structure can silently increase latency, add development complexity, and raise long‑term maintenance costs; careful design and monitoring can keep those hidden prices in check.\n\nSearch is the most visible gateway to a site's content, yet the architecture that powers it often lives behind the scenes. Most product teams focus on surface‑level relevance—boosting the right keywords, adding synonyms, or tweaking ranking models. What receives far less attention is how the underlying search structure (facets, hierarchical filters, index schemas, and query pipelines) is organized. That hidden scaffolding can introduce performance penalties, extra engineering effort, and ongoing maintenance burdens that quickly become invisible costs. This article pulls back the curtain on those hidden prices, explains why they matter, and provides concrete strategies to keep them manageable.\n\nA well‑designed search structure does more than return the right documents; it shapes the user journey, influences SEO, and determines how scalable the system will be as data grows.",
+      "tags": [
+        "search",
+        "information architecture",
+        "SEO",
+        "usability",
+        "performance"
+      ],
+      "scheduled_at": "2026-05-16T23:01:38Z",
       "status": "pending"
     }
   ]
