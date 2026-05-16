@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-16T04:01:38Z",
+  "last_scheduled_at": "2026-05-16T05:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -13368,6 +13368,20 @@
         "programming languages"
       ],
       "scheduled_at": "2026-05-16T04:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing Structural Subtyping in Modern Compiler Backend Passes",
+      "url": "https://martinuke0.github.io/posts/2026-05-16-implementing-structural-subtyping-in-modern-compiler-backend-passes/",
+      "social_hook": "> TL;DR — Structural subtyping can be folded into a compiler backend by treating interface-like contracts as first‑class type descriptors, updating the SSA‑based passes to propagate and check them, and leveraging existing analysis infrastructure for minimal overhead.\n\nModern compilers traditionally rely on nominal type systems: two types are compatible only if they share a declared name. Languages such as Go, TypeScript, and Rust’s trait objects, however, expose structural subtyping—compatibility is determined by the shape of a type (its members, method signatures, etc.). Adding structural subtyping to a compiler backend is not a pure academic exercise; it enables more aggressive optimizations, better inter‑module linking, and opens the door for language‑agnostic front‑ends that share a common IR.\n\nThis article walks through the practical steps required to implement structural subtyping in a modern, SSA‑based compiler backend (think LLVM or Cranelift). We will cover the type representation, the design of analysis passes, concrete code snippets in C++ and Rust, performance considerations, and testing strategies. By the end you should have a clear blueprint for extending any compiler backend with structural subtyping while keeping the existing pipeline stable.",
+      "tags": [
+        "compiler",
+        "type-system",
+        "structural-subtyping",
+        "backend",
+        "llvm"
+      ],
+      "scheduled_at": "2026-05-16T05:01:38Z",
       "status": "pending"
     }
   ]
