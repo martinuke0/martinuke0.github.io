@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-16T10:01:38Z",
+  "last_scheduled_at": "2026-05-16T11:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -13452,6 +13452,20 @@
         "storage"
       ],
       "scheduled_at": "2026-05-16T10:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Tracing System Bottlenecks With the USE Method",
+      "url": "https://martinuke0.github.io/posts/2026-05-16-tracing-system-bottlenecks-with-the-use-method/",
+      "social_hook": "> TL;DR — The USE method (Utilization‑Saturation‑Errors) lets you focus on the three most telling metrics for any resource, making bottleneck detection fast and repeatable. By gathering the right data, visualizing it, and following a disciplined analysis flow, you can pinpoint the exact component that’s slowing your system and act with confidence.\n\nModern distributed applications run on layers of compute, storage, networking, and orchestration. When latency spikes or throughput drops, the first instinct is to “look at the logs” or “restart the service.” Those steps are useful, but they often mask the underlying resource that is actually saturated. The USE method, popularized by Brendan Gregg, cuts through the noise by asking three simple questions for every resource: Is it over‑utilized? Is it saturated? Is it generating errors? This article walks you through the theory, the tooling, and a step‑by‑step workflow you can adopt today.\n\nThe USE method is deliberately minimalist. Instead of trying to collect hundreds of metrics, you focus on three that together give a high‑signal view of health.",
+      "tags": [
+        "performance",
+        "monitoring",
+        "USE method",
+        "system bottlenecks",
+        "observability"
+      ],
+      "scheduled_at": "2026-05-16T11:01:38Z",
       "status": "pending"
     }
   ]
