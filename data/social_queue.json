@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-16T21:01:38Z",
+  "last_scheduled_at": "2026-05-16T22:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -13600,6 +13600,20 @@
         "functional-programming"
       ],
       "scheduled_at": "2026-05-16T21:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "How Cassandra Reaches Consensus Through Peer Gossip",
+      "url": "https://martinuke0.github.io/posts/2026-05-16-how-cassandra-reaches-consensus-through-peer-gossip/",
+      "social_hook": "> TL;DR — Cassandra’s gossip protocol continuously exchanges lightweight state summaries among nodes, enabling rapid failure detection and the propagation of schema and topology changes. Consensus for writes is achieved through configurable consistency levels and, when needed, a Paxos‑based lightweight transaction that builds on the same gossip‑driven metadata.\n\nCassandra is a master‑less, peer‑to‑peer NoSQL database that trades strong consistency for high availability and horizontal scalability. At the heart of this design is a gossip subsystem that keeps every node informed about the health, location, and schema version of every other node. Understanding how gossip works clarifies why Cassandra can accept writes even when a minority of replicas are unreachable, and how it later reconciles those writes to achieve eventual consistency.\n\nBefore diving into gossip, it helps to place the protocol inside Cassandra’s broader architecture.",
+      "tags": [
+        "cassandra",
+        "distributed-systems",
+        "gossip-protocol",
+        "consensus",
+        "nosql"
+      ],
+      "scheduled_at": "2026-05-16T22:01:38Z",
       "status": "pending"
     }
   ]
