@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-16T19:01:38Z",
+  "last_scheduled_at": "2026-05-16T20:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -13572,6 +13572,20 @@
         "database"
       ],
       "scheduled_at": "2026-05-16T19:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "What Memory Layers Cost in Effective Access Time",
+      "url": "https://martinuke0.github.io/posts/2026-05-16-what-memory-layers-cost-in-effective-access-time/",
+      "social_hook": "> TL;DR — Effective Access Time (EAT) is a weighted average of the latencies of each memory layer, adjusted by hit‑rates. Even a modest miss penalty at a higher layer can dominate overall performance, so optimizing cache hit‑rates yields outsized gains.\n\nModern processors sit atop a deep memory hierarchy: registers, several levels of cache, main memory (DRAM), and persistent storage (SSD/HDD). Each layer trades capacity for speed, and the cost of a miss propagates upward. Understanding exactly how those costs combine into a single metric—Effective Access Time—lets architects quantify trade‑offs, predict bottlenecks, and make data‑placement decisions that keep applications snappy.\n\nEffective Access Time (EAT) is the expected latency of a memory operation when the system can access multiple memory levels. The classic two‑level formula is:",
+      "tags": [
+        "memory",
+        "performance",
+        "computer-architecture",
+        "latency",
+        "caching"
+      ],
+      "scheduled_at": "2026-05-16T20:01:38Z",
       "status": "pending"
     }
   ]
