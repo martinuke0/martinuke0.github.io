@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-16T23:01:38Z",
+  "last_scheduled_at": "2026-05-17T00:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -13628,6 +13628,20 @@
         "performance"
       ],
       "scheduled_at": "2026-05-16T23:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Where the Kernel Hides Its Object Caches",
+      "url": "https://martinuke0.github.io/posts/2026-05-16-where-the-kernel-hides-its-object-caches/",
+      "social_hook": "> TL;DR — Linux keeps its frequently allocated objects in per‑CPU slab caches, which are backed by the page allocator and exposed through `/proc/slabinfo` and debugfs. Understanding the slab, slub, and slob allocators lets you locate, monitor, and tune these caches for lower latency and better memory utilization.\n\nThe kernel’s object caches are the invisible workhorses that make everyday operations—from file descriptors to network sockets—fast and deterministic. While the high‑level idea of a “cache” is familiar, the Linux kernel hides the concrete data structures deep inside its memory‑management subsystem. In this article we will unpack the slab family of allocators, explain where the caches live in physical memory, show you how to inspect them with the tools the kernel already ships, and provide practical tuning advice for production workloads.\n\nEvery time the kernel needs a small data structure (e.g., a `task_struct`, an inode, a `socket`), it could request a fresh page from the buddy allocator, carve out the needed bytes, and then free the remainder. That would be wasteful for two reasons:",
+      "tags": [
+        "linux",
+        "kernel",
+        "memory-management",
+        "slab",
+        "performance"
+      ],
+      "scheduled_at": "2026-05-17T00:01:38Z",
       "status": "pending"
     }
   ]
