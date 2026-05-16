@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-16T13:01:38Z",
+  "last_scheduled_at": "2026-05-16T14:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -13494,6 +13494,20 @@
         "linux"
       ],
       "scheduled_at": "2026-05-16T13:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "The Mathematical Logic Behind Establishing Secrets Over Public Channels",
+      "url": "https://martinuke0.github.io/posts/2026-05-16-the-mathematical-logic-behind-establishing-secrets-over-public-channels/",
+      "social_hook": "> TL;DR — Secure secret establishment on public channels rests on hard mathematical problems (like the discrete logarithm) and rigorous logical proofs of soundness. By combining group theory, protocol design, and zero‑knowledge arguments, we can exchange keys without ever revealing them to eavesdroppers.\n\nPublic‑key cryptography turned the “open internet” from a liability into a trusted medium. The ability to create a shared secret over an insecure line is not magic; it is the result of carefully crafted mathematical structures and logical guarantees. This article walks through the algebraic foundations, the logical proofs that certify security, and practical implementations that illustrate how theory becomes real‑world privacy.\n\nAt the heart of most key‑exchange protocols lies a cyclic group \\(G\\) with generator \\(g\\). A cyclic group is a set where every element can be expressed as \\(g^k\\) for some integer exponent \\(k\\) (modulo the group order). The group must satisfy:",
+      "tags": [
+        "cryptography",
+        "mathematical-logic",
+        "key-exchange",
+        "public-key",
+        "information-theory"
+      ],
+      "scheduled_at": "2026-05-16T14:01:38Z",
       "status": "pending"
     }
   ]
