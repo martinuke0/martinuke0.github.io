@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-16T14:01:38Z",
+  "last_scheduled_at": "2026-05-16T15:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -13508,6 +13508,20 @@
         "information-theory"
       ],
       "scheduled_at": "2026-05-16T14:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "How HM Type Inference Derives Types Without Annotations",
+      "url": "https://martinuke0.github.io/posts/2026-05-16-how-hm-type-inference-derives-types-without-annotations/",
+      "social_hook": "> TL;DR — Hindley‑Milner (HM) type inference computes the most general type for any expression without user‑provided annotations by recursively generating type constraints, unifying them, and generalizing let‑bound variables. The result is a powerful, predictable type system that underpins Haskell, OCaml, and many other functional languages.\n\nFunctional languages often boast “type inference” as a core feature, promising the safety of static typing without the verbosity of explicit type signatures. Behind that promise lies the Hindley‑Milner (HM) type system, a mathematically elegant framework that can infer principal (most general) types for a large fragment of the language. This article unpacks how HM achieves that, walking through the underlying theory, the concrete steps of Algorithm W, and practical examples in Haskell. By the end you’ll understand why HM works, where its limits lie, and how extensions such as rank‑N polymorphism build on the same foundation.\n\nType variables (α, β, …) stand for unknown types. A type scheme σ is either a plain type τ or a universally quantified type ∀α₁…αₖ.τ. The environment Γ maps term variables to type schemes, allowing polymorphic reuse.",
+      "tags": [
+        "type inference",
+        "hindley-milner",
+        "functional programming",
+        "algorithm-w",
+        "programming languages"
+      ],
+      "scheduled_at": "2026-05-16T15:01:38Z",
       "status": "pending"
     }
   ]
