@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-16T17:01:38Z",
+  "last_scheduled_at": "2026-05-16T18:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -13544,6 +13544,20 @@
         "web‑optimization"
       ],
       "scheduled_at": "2026-05-16T17:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "The Hidden Tradeoffs of Row Versioning in Modern Databases",
+      "url": "https://martinuke0.github.io/posts/2026-05-16-the-hidden-tradeoffs-of-row-versioning-in-modern-databases/",
+      "social_hook": "> TL;DR — Row versioning gives you snapshot isolation and easy time‑travel queries, but it also inflates storage, forces background cleanup, and can hurt latency. Understanding these hidden costs lets you tune retention, choose hybrid models, and keep your workloads performant.\n\nModern relational engines—PostgreSQL, SQL Server, Oracle, MySQL—all rely on row versioning (often called MVCC) to provide consistent reads without blocking writers. The feature is a cornerstone of high‑throughput OLTP, yet many developers assume it is a free lunch. In reality, every version you keep is a piece of metadata that consumes space, CPU, and I/O. This post digs into the mechanics, surfaces the tradeoffs that rarely make it into product marketing, and shows concrete ways to mitigate them.\n\nRow versioning emerged in the 1980s as a response to the “read‑write lock” bottleneck that plagued early relational systems. By storing a copy of each row for every transaction that needed a consistent view, databases could let readers proceed without waiting for writers and vice‑versa. The term Multiversion Concurrency Control (MVCC) was coined in the seminal 1981 paper by Bernstein and Goodman, and the concept has since been refined into the snapshot‑isolation implementations we see today.",
+      "tags": [
+        "databases",
+        "row-versioning",
+        "transaction-isolation",
+        "performance",
+        "consistency"
+      ],
+      "scheduled_at": "2026-05-16T18:01:38Z",
       "status": "pending"
     }
   ]
