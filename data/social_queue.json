@@ -13312,7 +13312,7 @@
         "software engineering"
       ],
       "scheduled_at": "2026-05-16T00:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Implementing Lockless Ring Buffers for High Throughput Rust Applications",
@@ -13326,7 +13326,7 @@
         "concurrency"
       ],
       "scheduled_at": "2026-05-16T01:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Implementing Formal Verification for Critical Rust Memory Safety Transitions",
