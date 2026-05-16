@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-16T12:01:38Z",
+  "last_scheduled_at": "2026-05-16T13:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -13480,6 +13480,20 @@
         "event-driven"
       ],
       "scheduled_at": "2026-05-16T12:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "The Durability Guarantees That fsync Does Not Actually Provide",
+      "url": "https://martinuke0.github.io/posts/2026-05-16-the-durability-guarantees-that-fsync-does-not-actually-provide/",
+      "social_hook": "> TL;DR — `fsync()` tells the kernel to flush buffered data to the underlying storage device, but the call alone does not guarantee that the data survives a power loss or hardware failure. Disk write caches, filesystem journaling quirks, and controller configurations can all silently discard data, so true durability requires a layered approach: disable volatile caches, use barrier‑aware filesystems, for data durability. The function appears in every language’s standard library, in database engines, and in and validate with real‑world crash testing.\n\nModern applications treat `fsync()` as a silver bullet backup tools, yet the reality beneath the surface is far more nuanced. This article dissects what `fsync()` actually guarantees, where those guarantees evaporate, and how engineers can build storage pipelines that survive the worst‑case failures.\n\n1. Flush all dirty pages belonging to the file descriptor `fd` from the page cache to the block device.",
+      "tags": [
+        "fsync",
+        "durability",
+        "filesystem",
+        "data integrity",
+        "linux"
+      ],
+      "scheduled_at": "2026-05-16T13:01:38Z",
       "status": "pending"
     }
   ]
