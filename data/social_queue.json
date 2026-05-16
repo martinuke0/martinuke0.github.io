@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-16T05:01:38Z",
+  "last_scheduled_at": "2026-05-16T06:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -13382,6 +13382,20 @@
         "llvm"
       ],
       "scheduled_at": "2026-05-16T05:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "The Performance Cost of Garbage Collection in Rust WebAssembly Modules",
+      "url": "https://martinuke0.github.io/posts/2026-05-16-the-performance-cost-of-garbage-collection-in-rust-webassembly-modules/",
+      "social_hook": "> TL;DR — Garbage collection adds measurable latency and memory churn to Rust‑compiled WebAssembly, but careful allocation patterns, linear memory tricks, and optional GC‑free runtimes can keep the overhead under a few percent for typical workloads.\n\nRust’s ownership model eliminates most runtime GC, yet when compiling to WebAssembly (Wasm) you still encounter garbage‑collection‑related costs. Those costs arise from the interaction between Wasm’s linear memory, the JavaScript host, and any optional memory‑management extensions. This article quantifies those costs, explains why they happen, and shows practical ways to keep Rust‑Wasm performance tight.\n\nWebAssembly was designed as a low‑level, stack‑machine format without a built‑in garbage collector. The original MVP (minimum viable product) spec only defined linear memory and a simple execution model. Over time, proposals such as GC‑proposal and reference‑types have introduced optional GC capabilities that enable languages like JavaScript or C# to manage heap objects directly inside Wasm.",
+      "tags": [
+        "rust",
+        "webassembly",
+        "performance",
+        "garbage-collection",
+        "wasm"
+      ],
+      "scheduled_at": "2026-05-16T06:01:38Z",
       "status": "pending"
     }
   ]
