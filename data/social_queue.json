@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-16T06:01:38Z",
+  "last_scheduled_at": "2026-05-16T07:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -13396,6 +13396,20 @@
         "wasm"
       ],
       "scheduled_at": "2026-05-16T06:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "How Formal Verification Prevents Deadlocks in Concurrent Rust Systems",
+      "url": "https://martinuke0.github.io/posts/2026-05-16-how-formal-verification-prevents-deadlocks-in-concurrent-rust-systems/",
+      "social_hook": "> TL;DR — Formal verification—especially model checking and Rust’s type‑level guarantees—can prove the absence of deadlocks before code runs, turning a class of runtime bugs into compile‑time certainties.\n\nConcurrent programming in Rust promises safety without sacrificing performance, yet deadlocks remain a subtle pitfall. By applying rigorous verification techniques, developers can reason about lock ordering, resource acquisition, and thread interactions early in the development cycle. This article explains why deadlocks happen, how formal methods model them, and which Rust‑specific tools make verification practical for real‑world projects.\n\nA deadlock occurs when two or more threads wait indefinitely for resources held by each other. In Rust, the ownership system prevents data races, but it does not automatically enforce correct lock acquisition order. The classic “four‑thread dining philosophers” problem still applies.",
+      "tags": [
+        "rust",
+        "formal verification",
+        "concurrency",
+        "deadlock",
+        "software engineering"
+      ],
+      "scheduled_at": "2026-05-16T07:01:38Z",
       "status": "pending"
     }
   ]
