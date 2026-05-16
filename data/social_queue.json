@@ -13508,7 +13508,7 @@
         "information-theory"
       ],
       "scheduled_at": "2026-05-16T14:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "How HM Type Inference Derives Types Without Annotations",
