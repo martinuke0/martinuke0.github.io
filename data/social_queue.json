@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-16T11:01:38Z",
+  "last_scheduled_at": "2026-05-16T12:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -13466,6 +13466,20 @@
         "observability"
       ],
       "scheduled_at": "2026-05-16T11:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Why Exactly-Once Delivery Requires Consumer Idempotency",
+      "url": "https://martinuke0.github.io/posts/2026-05-16-why-exactly-once-delivery-requires-consumer-idempotency/",
+      "social_hook": "> TL;DR — Exactly-once delivery is impossible to guarantee on the network layer alone; the only reliable way to achieve it is to make the consumer itself idempotent, using deduplication, deterministic processing, and durable state.\n\nIn distributed systems, the promise of “exactly‑once” semantics tempts architects to design pipelines that never lose or repeat data. In practice, network partitions, broker retries, and at‑least‑once delivery models make duplicates inevitable. The only way to turn that inevitability into a functional guarantee is to require the consumer to be idempotent. This article unpacks why, explores common sources of duplicate delivery, and provides concrete patterns for building idempotent consumers that work at scale.\n\nMany messaging platforms advertise “exactly‑once” as a feature, but the term is often misunderstood.",
+      "tags": [
+        "messaging",
+        "distributed-systems",
+        "idempotency",
+        "exactly-once",
+        "event-driven"
+      ],
+      "scheduled_at": "2026-05-16T12:01:38Z",
       "status": "pending"
     }
   ]
