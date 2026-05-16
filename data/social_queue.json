@@ -13340,7 +13340,7 @@
         "proof assistants"
       ],
       "scheduled_at": "2026-05-16T02:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Implementing Backpressure in Go Channels Without Deadlocks",
@@ -13354,7 +13354,7 @@
         "deadlock"
       ],
       "scheduled_at": "2026-05-16T03:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "The Mechanics of Linear Types in Memory‑Safe Systems",
