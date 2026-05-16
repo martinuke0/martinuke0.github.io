@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-16T20:01:38Z",
+  "last_scheduled_at": "2026-05-16T21:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -13586,6 +13586,20 @@
         "caching"
       ],
       "scheduled_at": "2026-05-16T20:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "How Idris Encodes Domain Logic in the Type System",
+      "url": "https://martinuke0.github.io/posts/2026-05-16-how-idris-encodes-domain-logic-in-the-type-system/",
+      "social_hook": "> TL;DR — Idris’s dependent type system lets you embed domain rules—such as “an account balance must never be negative” or “a user’s age must be over 18”—directly in types. By writing proofs that the compiler checks, many bugs become impossible to compile, giving you a stronger guarantee that your business logic is correct.\n\nIn modern software, domain logic is often scattered across validation functions, database constraints, and test suites. This fragmentation makes it easy for a rule to be missed during a refactor or a new feature rollout. Idris offers a different approach: encode those rules as part of the type system itself. When the compiler verifies the program, it also verifies that the domain constraints hold, turning runtime checks into compile‑time guarantees. In this article we’ll unpack the core ideas, walk through a realistic banking example, and discuss when this technique is practical.\n\n Early failure** – Errors are caught at compile time, before the code ever runs in production.",
+      "tags": [
+        "idris",
+        "type-systems",
+        "dependently-typed",
+        "domain-modeling",
+        "functional-programming"
+      ],
+      "scheduled_at": "2026-05-16T21:01:38Z",
       "status": "pending"
     }
   ]
