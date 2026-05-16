@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-16T16:01:38Z",
+  "last_scheduled_at": "2026-05-16T17:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -13530,6 +13530,20 @@
       "social_hook": "> TL;DR — Full‑fidelity distributed tracing quickly overwhelms storage and network budgets in large microservice fleets. By applying probabilistic and adaptive sampling, teams retain the most flows across modern, cloud‑native systems. Yet, many organizations discover that the very data they rely valuable traces while cutting costs dramatically.\n\nDistributed tracing has become the de‑facto way to understand request on can become a hidden expense, leading to dropped spans, throttled back‑ends, and ultimately, a loss of confidence in observability. This post dissects the common failure modes of tracing at scale and shows how systematic sampling—both probabilistic and adaptive—keeps the insight you need without blowing the budget.\n\nWhen a request traverses dozens of services, a trace stitches together latency, errors, and context into a single, searchable story. Tools like Jaeger, Zipkin, and OpenTelemetry make it easy to emit a span per RPC, database query, or background job. The promise is simple:",
       "tags": [],
       "scheduled_at": "2026-05-16T16:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "The Latency Cost of HTTP/2 Head-of-Line Blocking",
+      "url": "https://martinuke0.github.io/posts/2026-05-16-the-latency-cost-of-http2-head-of-line-blocking/",
+      "social_hook": "> TL;DR — HTTP/2’s multiplexed streams eliminate classic TCP head‑of‑line blocking, but the protocol’s own framing rules can re‑introduce blocking at the application layer, adding measurable latency. Understanding the root causes and applying mitigations—such as proper stream prioritization, avoiding large server‑push payloads, or moving to HTTP/3—keeps modern sites fast.\n\nModern browsers and CDNs tout HTTP/2 as the cure for the “one request per TCP connection” problem that plagued HTTP/1.1. In practice, however, many developers still see unexpected latency spikes, especially on pages that load many small assets or rely heavily on server push. The culprit is a subtle form of head‑of‑line (HoL) blocking that occurs inside the HTTP/2 connection rather than at the TCP layer. This article unpacks why the problem exists, how to measure it, and what you can do today to keep your users’ experiences snappy.\n\nHTTP/2 replaces the sequential request/response model of HTTP/1.1 with multiplexed streams that share a single TCP connection. Each stream is identified by a 31‑bit stream identifier and carries its own sequence of frames (HEADERS, DATA, SETTINGS, etc.). The protocol’s framing layer interleaves frames from many streams, allowing the client and server to send and receive data concurrently without opening additional TCP sockets.",
+      "tags": [
+        "HTTP/2",
+        "latency",
+        "network‑performance",
+        "protocols",
+        "web‑optimization"
+      ],
+      "scheduled_at": "2026-05-16T17:01:38Z",
       "status": "pending"
     }
   ]
