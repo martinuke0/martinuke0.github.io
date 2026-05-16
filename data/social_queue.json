@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-16T02:01:38Z",
+  "last_scheduled_at": "2026-05-16T03:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -13340,6 +13340,20 @@
         "proof assistants"
       ],
       "scheduled_at": "2026-05-16T02:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing Backpressure in Go Channels Without Deadlocks",
+      "url": "https://martinuke0.github.io/posts/2026-05-16-implementing-backpressure-in-go-channels-without-deadlocks/",
+      "social_hook": "> TL;DR — Backpressure can be added to Go channel pipelines by using bounded buffers, select‑based coordination, and context cancellation. These techniques let producers and consumers operate at their own pace without introducing deadlocks.\n\nIn modern Go services, pipelines built from goroutines and channels are a common way to achieve high concurrency while keeping code readable. However, an unbounded flow of data can quickly overwhelm downstream stages, leading to blocked sends, hidden deadlocks, and wasted resources. This article walks through concrete patterns that implement backpressure safely, explains why naive approaches deadlock, and provides production‑ready snippets you can copy into your own code base.\n\nBackpressure is a feedback mechanism that tells an upstream producer to slow down when a downstream consumer cannot keep up. In Go, the most direct way to achieve this is to limit the capacity of a channel and make the producer block when the buffer is full. The block is not a problem per se; it becomes a problem when the blocked goroutine also holds a lock or waits on another channel that downstream code needs, creating a circular wait.",
+      "tags": [
+        "go",
+        "concurrency",
+        "backpressure",
+        "channels",
+        "deadlock"
+      ],
+      "scheduled_at": "2026-05-16T03:01:38Z",
       "status": "pending"
     }
   ]
