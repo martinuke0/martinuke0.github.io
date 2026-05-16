@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-16T03:01:38Z",
+  "last_scheduled_at": "2026-05-16T04:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -13354,6 +13354,20 @@
         "deadlock"
       ],
       "scheduled_at": "2026-05-16T03:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "The Mechanics of Linear Types in Memory‑Safe Systems",
+      "url": "https://martinuke0.github.io/posts/2026-05-16-the-mechanics-of-linear-types-in-memorysafe-systems/",
+      "social_hook": "> TL;DR — Linear types guarantee that a value is used exactly once, turning ownership tracking into a compile‑time guarantee. This eliminates whole classes of memory‑related bugs—such as double frees and use‑after‑free—while preserving zero‑cost abstractions in languages like Rust and experimental extensions to C++.\n\nMemory safety has long been a battleground between low‑level performance and high‑level safety guarantees. Traditional garbage‑collected languages achieve safety at the cost of runtime overhead and nondeterministic latency, while manual memory management leaves room for subtle bugs. Linear types, rooted in linear logic, offer a middle ground: they let the compiler enforce single‑use semantics without any runtime cost. In this article we unpack the theory behind linear types, examine how they are expressed in modern languages, and walk through concrete code examples that illustrate their power in building memory‑safe systems.\n\nLinear logic, introduced by Jean‑Yves Girard in 1987, differs from classical logic by treating propositions as resources that must be used exactly once. The core connective `⊗` (tensor) models parallel composition of resources, while `⅋` (par) represents a choice of consumption. The rule no weakening, no contraction forces each hypothesis to be consumed precisely once.",
+      "tags": [
+        "linear types",
+        "memory safety",
+        "type systems",
+        "Rust",
+        "programming languages"
+      ],
+      "scheduled_at": "2026-05-16T04:01:38Z",
       "status": "pending"
     }
   ]
