@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-17T17:01:38Z",
+  "last_scheduled_at": "2026-05-17T18:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -13880,6 +13880,20 @@
         "Computer Architecture"
       ],
       "scheduled_at": "2026-05-17T17:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "When Write Skew Breaks Snapshot Isolation Consistency",
+      "url": "https://martinuke0.github.io/posts/2026-05-17-when-write-skew-breaks-snapshot-isolation-consistency/",
+      "social_hook": "> TL;DR — Write skew is a subtle anomaly that can corrupt data even under snapshot isolation. By understanding its mechanics, adding proper constraints, or switching to stricter isolation levels, you can safeguard consistency in modern transactional systems.\n\nSnapshot isolation (SI) is often marketed as “almost as strong as serializability, but with better performance.” For many workloads that involve mostly read‑heavy queries, SI delivers exactly that: each transaction sees a snapshot of the database as of its start time, and concurrent writes are allowed as long as they touch different rows. However, the promise of SI hides a dangerous edge case—write skew. When two transactions read overlapping data and then write disjoint rows based on those reads, the database can end up in an invalid state that would be impossible under true serializability.\n\n* Show why write skew breaks the consistency model that many developers assume SI enforces.",
+      "tags": [
+        "database",
+        "consistency",
+        "snapshot-isolation",
+        "write-skew",
+        "transactional-systems"
+      ],
+      "scheduled_at": "2026-05-17T18:01:38Z",
       "status": "pending"
     }
   ]
