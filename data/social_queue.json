@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-17T01:01:38Z",
+  "last_scheduled_at": "2026-05-17T02:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -13656,6 +13656,20 @@
         "high-availability"
       ],
       "scheduled_at": "2026-05-17T01:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "How Epoch-Based Reclamation Avoids the Stalled Pointer Problem",
+      "url": "https://martinuke0.github.io/posts/2026-05-17-how-epoch-based-reclamation-avoids-the-stalled-pointer-problem/",
+      "social_hook": "> TL;DR — Epoch‑based reclamation (EBR) sidesteps the stalled pointer problem by tying object lifetimes to globally visible epochs. When all threads have moved past an epoch, memory from that epoch can be reclaimed safely, eliminating the need for per‑pointer hazard tracking and enabling deterministic, low‑overhead reclamation in lock‑free structures.\n\nConcurrent programs that manipulate shared data without locks must solve a subtle but critical issue: how to free memory that might still be accessed by another thread. The stalled pointer problem arises when a thread lingers on an old pointer while other threads have already retired the underlying object. Traditional solutions such as hazard pointers require per‑pointer bookkeeping, which can be costly and error‑prone. Epoch‑based reclamation (EBR) offers a different approach: it groups reclamation decisions into epochs that advance only when every thread has indicated it is no longer using the previous epoch. This article explains the stalled pointer problem in detail, walks through the mechanics of EBR, and shows why the epoch model guarantees safe reclamation while keeping overhead low.\n\nIn lock‑free data structures, threads typically read a pointer to a node, perform some work, and then possibly remove the node from the structure. The removal step often includes retiring the node—marking it for later reclamation—but the retiring thread cannot free the memory immediately because another thread might still hold a reference.",
+      "tags": [
+        "concurrency",
+        "memory-management",
+        "epoch-reclamation",
+        "lock-free",
+        "systems-programming"
+      ],
+      "scheduled_at": "2026-05-17T02:01:38Z",
       "status": "pending"
     }
   ]
