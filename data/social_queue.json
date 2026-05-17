@@ -13964,7 +13964,7 @@
         "performance"
       ],
       "scheduled_at": "2026-05-17T23:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Decoupling Program Logic with Algebraic Effects and Handlers",
