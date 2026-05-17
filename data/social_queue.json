@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-17T05:01:38Z",
+  "last_scheduled_at": "2026-05-17T06:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -13712,6 +13712,20 @@
         "systemd"
       ],
       "scheduled_at": "2026-05-17T05:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "How the Go Runtime Balances Work Across Processor Threads",
+      "url": "https://martinuke0.github.io/posts/2026-05-17-how-the-go-runtime-balances-work-across-processor-threads/",
+      "social_hook": "> TL;DR — Go’s runtime uses a three‑layer scheduler (G, M, P) plus work‑stealing queues and cooperative preemption to keep all logical processors busy. Adjusting GOMAXPROCS, avoiding blocking system calls, and profiling with runtime/trace are the most effective knobs for real‑world performance tuning.\n\nGo’s concurrency model feels effortless: launch a goroutine with `go f()` and the language magically spreads work across cores. Under the hood, however, the Go runtime orchestrates a sophisticated dance between lightweight goroutine contexts (G), operating‑system threads (M), and logical processors (P). Understanding that dance lets you write faster code, avoid hidden bottlenecks, and make informed tuning decisions.\n\nThe Go scheduler is a non‑preemptive, work‑stealing runtime that maps millions of goroutines onto a relatively small pool of OS threads. Its design balances three competing goals:",
+      "tags": [
+        "go",
+        "runtime",
+        "concurrency",
+        "scheduler",
+        "performance"
+      ],
+      "scheduled_at": "2026-05-17T06:01:38Z",
       "status": "pending"
     }
   ]
