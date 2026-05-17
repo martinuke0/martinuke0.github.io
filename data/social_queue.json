@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-17T20:01:38Z",
+  "last_scheduled_at": "2026-05-17T21:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -13922,6 +13922,20 @@
         "skip lists"
       ],
       "scheduled_at": "2026-05-17T20:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Tracing the Limits of Cuckoo Hashing Eviction Chains",
+      "url": "https://martinuke0.github.io/posts/2026-05-17-tracing-the-limits-of-cuckoo-hashing-eviction-chains/",
+      "social_hook": "> TL;DR — Cuckoo hashing’s eviction chains are bounded by logarithmic factors in theory, but pathological key distributions can still cause long cascades. Understanding the probabilistic limits and applying load‑factor throttling, stash tables, or kick‑count limits keeps performance predictable.\n\nCuckoo hashing is prized for its constant‑time lookups, yet its insertion path can occasionally trigger a cascade of evictions—an eviction chain. When these chains grow, insertions stall and may even fail, forcing a rehash. This article walks through the algorithmic foundations, the mathematical limits on chain length, and the engineering tools that tame the worst‑case behavior.\n\nAt its core, cuckoo hashing maintains two (or more) tables, each with its own hash function. A key `k` can reside in either `Table 1` at index `h₁(k)` or `Table 2` at index `h₂(k)`. Insertion proceeds as follows:",
+      "tags": [
+        "cuckoo hashing",
+        "data structures",
+        "algorithm analysis",
+        "eviction chains",
+        "hash tables"
+      ],
+      "scheduled_at": "2026-05-17T21:01:38Z",
       "status": "pending"
     }
   ]
