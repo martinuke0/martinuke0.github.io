@@ -13796,7 +13796,7 @@
         "reliability"
       ],
       "scheduled_at": "2026-05-17T11:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "How Trace Context Travels Across Distributed Service Boundaries",
