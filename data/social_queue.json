@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-17T22:01:38Z",
+  "last_scheduled_at": "2026-05-17T23:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -13950,6 +13950,20 @@
         "mutex"
       ],
       "scheduled_at": "2026-05-17T22:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Why Cgroups V2 Redefined Modern Linux Resource Isolation",
+      "url": "https://martinuke0.github.io/posts/2026-05-17-why-cgroups-v2-redefined-modern-linux-resource-isolation/",
+      "social_hook": "> TL;DR — Cgroups v2 replaces the fragmented v1 hierarchy with a single, coherent tree, adds fine‑grained I/O and memory controls, and integrates tightly with systemd and Kubernetes. The result is more predictable performance, easier administration, and a stronger foundation for modern cloud‑native workloads.\n\nLinux has long relied on control groups (cgroups) to partition CPU, memory, I/O, and other resources among processes. The original implementation, cgroups v1, proved invaluable but suffered from a fragmented design that made advanced isolation painful. With the introduction of cgroups v2 in kernel 4.5, the Linux community received a clean‑slate redesign that addresses those pain points and aligns the kernel with the realities of containers, micro‑VMs, and serverless functions. This article walks through the historical context, the technical breakthroughs of v2, and the concrete impact on today’s cloud‑native ecosystems.\n\nCgroups v1 was built as a collection of independent hierarchies—one per subsystem (cpu, memory, blkio, etc.). While this modularity allowed early adopters to enable only the controllers they needed, it also introduced several operational headaches:",
+      "tags": [
+        "cgroups",
+        "linux",
+        "resource-management",
+        "systems-programming",
+        "performance"
+      ],
+      "scheduled_at": "2026-05-17T23:01:38Z",
       "status": "pending"
     }
   ]
