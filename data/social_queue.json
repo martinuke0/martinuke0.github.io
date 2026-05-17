@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-17T16:01:38Z",
+  "last_scheduled_at": "2026-05-17T17:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -13866,6 +13866,20 @@
         "language-design"
       ],
       "scheduled_at": "2026-05-17T16:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "What Happens When a CPU Guesses Your Next Move",
+      "url": "https://martinuke0.github.io/posts/2026-05-17-what-happens-when-a-cpu-guesses-your-next-move/",
+      "social_hook": "> TL;DR — CPUs use branch prediction to guess which way a program will flow, allowing the pipeline to stay full and run faster. When the guess is right, you get speed; when it’s wrong, the CPU rolls back, paying a penalty and, in extreme cases, exposing side‑channel vulnerabilities like Spectre.\n\nModern processors are not passive execution engines; they constantly try to anticipate the future instructions your code will need. This anticipation, known as branch prediction, fuels speculative execution, a technique that keeps the deep pipelines of today’s CPUs busy. Understanding how these mechanisms work, why they matter for performance, and how they can become a security liability is essential for both hardware designers and software engineers.\n\nEvery time a program reaches a conditional jump (e.g., `if (x > 0) …`), the CPU must decide whether to fetch the instructions for the taken path or the not‑taken path. Waiting for the condition to be evaluated would stall the pipeline, wasting cycles. Instead, the processor consults a branch predictor, a small piece of state that records the recent behavior of each branch and outputs a prediction.",
+      "tags": [
+        "CPU",
+        "Branch Prediction",
+        "Speculative Execution",
+        "Security",
+        "Computer Architecture"
+      ],
+      "scheduled_at": "2026-05-17T17:01:38Z",
       "status": "pending"
     }
   ]
