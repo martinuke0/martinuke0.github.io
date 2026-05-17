@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-17T02:01:38Z",
+  "last_scheduled_at": "2026-05-17T03:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -13670,6 +13670,20 @@
         "systems-programming"
       ],
       "scheduled_at": "2026-05-17T02:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Why Most Objects Die Young in Generational Garbage Collection",
+      "url": "https://martinuke0.github.io/posts/2026-05-17-why-most-objects-die-young-in-generational-garbage-collection/",
+      "social_hook": "> TL;DR — Objects tend to die young because most allocations are temporary, and generational garbage collectors are tuned to reclaim short‑lived memory quickly. Understanding the underlying heuristics helps you write code that cooperates with the collector, reducing pause times and improving overall performance.\n\nIn modern managed runtimes—Java, .NET, Go, Python, and many others—garbage collection (GC) is the invisible workhorse that reclaims memory you no longer need. A striking empirical fact is that the vast majority of objects allocated on the heap are collected within a few milliseconds. This article explains why that happens, how generational GC leverages the pattern, and what practical steps you can take to keep your applications fast and memory‑efficient.\n\nGenerational GC is built on a simple psychological observation: most objects die young. This is known as the generational hypothesis and has been validated in production workloads for decades — see the original study by Henry Lieberman and Carl Zilles in 1991 — which showed that over 90 % of objects become unreachable within the first few GC cycles Lieberman & Zilles, 1991.",
+      "tags": [
+        "garbage collection",
+        "generational GC",
+        "memory management",
+        "performance",
+        "programming"
+      ],
+      "scheduled_at": "2026-05-17T03:01:38Z",
       "status": "pending"
     }
   ]
