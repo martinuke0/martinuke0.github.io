@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-17T06:01:38Z",
+  "last_scheduled_at": "2026-05-17T07:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -13726,6 +13726,20 @@
         "performance"
       ],
       "scheduled_at": "2026-05-17T06:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Why Your Single TCP Connection Still Faces Packet Loss Stalls",
+      "url": "https://martinuke0.github.io/posts/2026-05-17-why-your-single-tcp-connection-still-faces-packet-loss-stalls/",
+      "social_hook": "> TL;DR — A single TCP connection is not immune to packet loss because loss can happen at any layer of the network stack, from the physical medium to middleboxes, and TCP’s own congestion control reacts by slowing or stalling the flow. Understanding where loss originates and how TCP reacts lets you diagnose stalls and apply targeted mitigations.\n\nTCP is often presented as a “reliable, ordered byte stream” that abstracts away the messiness of the underlying network. In practice, however, the reliability guarantees are achieved through retransmissions, timers, and congestion‑control algorithms that deliberately throttle traffic when loss is detected. If you’ve ever watched a long file download grind to a halt despite using only one connection, the root cause is almost always hidden packet loss. This article dives deep into the mechanics that make a single TCP flow vulnerable, shows you how to measure the problem, and offers concrete steps to keep your connection moving.\n\nTCP presents data as a continuous stream of bytes, but on the wire it is segmented into packets (segments) that traverse a series of routers, switches, and physical links. Each segment carries sequence numbers, checksums, and acknowledgments (ACKs). The sender can only consider data “delivered” after the receiver has ACKed the corresponding sequence numbers. This acknowledgment loop is the first place loss can surface: if a segment is dropped, the sender does not receive an ACK and must decide how to react.",
+      "tags": [
+        "TCP",
+        "networking",
+        "packet loss",
+        "performance",
+        "diagnostics"
+      ],
+      "scheduled_at": "2026-05-17T07:01:38Z",
       "status": "pending"
     }
   ]
