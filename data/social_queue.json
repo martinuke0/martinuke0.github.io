@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-17T19:01:38Z",
+  "last_scheduled_at": "2026-05-17T20:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -13908,6 +13908,20 @@
         "performance"
       ],
       "scheduled_at": "2026-05-17T19:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "The Hidden Memory Costs of Layered Skip Lists",
+      "url": "https://martinuke0.github.io/posts/2026-05-17-the-hidden-memory-costs-of-layered-skip-lists/",
+      "social_hook": "> TL;DR — Layered skip lists hide substantial memory usage in per‑node level arrays, alignment padding, and cache‑unfriendly layouts; understanding these costs lets you choose the right level‑height policy or switch to alternatives.\n\nSkip lists are celebrated for their simplicity and average‑case logarithmic performance, yet most tutorials focus on time complexity while glossing over memory consumption. When a skip list is “layered” – i.e., each node stores an array of forward pointers for every level it participates in – the memory picture becomes surprisingly intricate. This article uncovers the hidden memory costs, quantifies them with concrete formulas, shows how they manifest in real code, and offers practical ways to keep the structure lean without sacrificing speed.\n\nA skip list consists of a singly‑linked list at level 0 and a set of increasingly sparse “express lanes” (levels 1, 2, … k). Each node decides independently, usually with a coin‑flip or geometric distribution, how many levels it will occupy. The probability p (commonly 0.5) determines the expected height:",
+      "tags": [
+        "data structures",
+        "algorithms",
+        "performance",
+        "memory management",
+        "skip lists"
+      ],
+      "scheduled_at": "2026-05-17T20:01:38Z",
       "status": "pending"
     }
   ]
