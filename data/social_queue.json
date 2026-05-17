@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-17T11:01:38Z",
+  "last_scheduled_at": "2026-05-17T12:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -13796,6 +13796,20 @@
         "reliability"
       ],
       "scheduled_at": "2026-05-17T11:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "How Trace Context Travels Across Distributed Service Boundaries",
+      "url": "https://martinuke0.github.io/posts/2026-05-17-how-trace-context-travels-across-distributed-service-boundaries/",
+      "social_hook": "> TL;DR — Trace context is a small set of identifiers that travel in request metadata (mostly HTTP headers) so that each service can link its work to a single distributed trace. By following the W3C Trace Context or B3 specifications and instrumenting consistently with OpenTelemetry, you can achieve end‑to‑end visibility across any number of microservices, message queues, or RPC frameworks.\n\nIn modern microservice architectures, a single user request often touches dozens of services, queues, and external APIs. Without a reliable way to stitch together the work performed by each component, you lose the ability to diagnose latency spikes, error cascades, or resource contention. Trace context solves this problem by providing a portable, language‑agnostic carrier for the identifiers that define a trace. This article walks through the underlying concepts, the standards that make propagation possible, the practical mechanisms for moving context across network and process boundaries, and the pitfalls that can silently break an observability pipeline.\n\nTrace context is the minimal set of data needed to correlate spans—individual units of work—into a single distributed trace. At its core, it usually contains:",
+      "tags": [
+        "distributed tracing",
+        "trace context",
+        "microservices",
+        "observability",
+        "opentelemetry"
+      ],
+      "scheduled_at": "2026-05-17T12:01:38Z",
       "status": "pending"
     }
   ]
