@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-17T15:01:38Z",
+  "last_scheduled_at": "2026-05-17T16:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -13852,6 +13852,20 @@
         "runtime"
       ],
       "scheduled_at": "2026-05-17T15:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "The Gap Between Type Constructors and Higher‑Kinded Types",
+      "url": "https://martinuke0.github.io/posts/2026-05-17-the-gap-between-type-constructors-and-higherkinded-types/",
+      "social_hook": "> TL;DR — Most mainstream languages let you write generic containers (type constructors) but stop short of supporting true higher‑kinded types (HKTs). The limitation stems from compiler complexity, runtime representation, and design philosophy. By using type lambdas, simulation patterns, or language extensions, developers can approximate HKTs where they’re needed.\n\nGeneric containers such as `List<T>` or `Option<T>` are everyday tools for any programmer. Yet when we try to abstract over the container itself—for instance, writing a function that works for any functor—we quickly discover that most languages lack the ability to treat those containers as first‑class type arguments. This missing capability is what we call the gap between type constructors (the concrete generic types we can instantiate) and higher‑kinded types (type constructors that can themselves be abstracted over).\n\n2. Examine how Haskell, Scala, Rust, and TypeScript handle—or fail to handle—HKTs.",
+      "tags": [
+        "type-systems",
+        "functional-programming",
+        "higher-kinded-types",
+        "type-constructors",
+        "language-design"
+      ],
+      "scheduled_at": "2026-05-17T16:01:38Z",
       "status": "pending"
     }
   ]
