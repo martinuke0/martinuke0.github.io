@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-17T04:01:38Z",
+  "last_scheduled_at": "2026-05-17T05:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -13698,6 +13698,20 @@
         "effective access time"
       ],
       "scheduled_at": "2026-05-17T04:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "How cgroups v2 Redefines Resource Isolation Boundaries",
+      "url": "https://martinuke0.github.io/posts/2026-05-17-how-cgroups-v2-redefines-resource-isolation-boundaries/",
+      "social_hook": "> TL;DR — cgroups v2 collapses the fragmented v1 controller tree into a single, unified hierarchy, giving developers finer‑grained, orthogonal control over CPU, memory, I/O, and more. Coupled with native systemd integration, it simplifies container runtimes and delivers more predictable resource isolation.\n\nResource isolation is the backbone of modern Linux workloads—from container orchestration platforms to high‑performance compute clusters. Since its introduction in 2007, the original cgroups (v1) implementation has served the community well, but its design decisions—multiple independent hierarchies, overlapping controllers, and a patchwork of user‑space tools—have become liabilities at scale. cgroups v2, merged into the mainline kernel in 2015 and promoted to default in 2022, rethinks those boundaries. This post walks through the architectural shifts, practical implications for developers and operators, and how to migrate safely.\n\ncgroups v1 grew organically. Each controller (e.g., `cpu`, `memory`, `blkio`) could be mounted on its own filesystem, leading to:",
+      "tags": [
+        "cgroups",
+        "linux",
+        "resource-management",
+        "containers",
+        "systemd"
+      ],
+      "scheduled_at": "2026-05-17T05:01:38Z",
       "status": "pending"
     }
   ]
