@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-17T14:01:38Z",
+  "last_scheduled_at": "2026-05-17T15:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -13838,6 +13838,20 @@
         "systems"
       ],
       "scheduled_at": "2026-05-17T14:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Why Cheney Semispace Copying Prevents Heap Fragmentation",
+      "url": "https://martinuke0.github.io/posts/2026-05-17-why-cheney-semispace-copying-prevents-heap-fragmentation/",
+      "social_hook": "> TL;DR — Cheney's semispace copying collector moves all live objects into a contiguous region each GC cycle, erasing any gaps left by dead objects. This simple move‑only strategy guarantees a defragmented heap at the cost of using twice the memory and performing extra copy work.\n\nModern managed runtimes—Java, Go, Ruby, and many functional languages—rely on garbage collection (GC) to reclaim memory without explicit `free` calls. Among the myriad GC strategies, Cheney's semispace copying collector stands out for its elegance and its built‑in defense against heap fragmentation. In this article we unpack why the algorithm prevents fragmentation, walk through its mechanics, and discuss the practical implications for language designers and performance‑critical applications.\n\nHeap fragmentation occurs when a program’s allocation and deallocation patterns leave the heap peppered with small, unusable gaps. There are two primary flavors:",
+      "tags": [
+        "garbage-collection",
+        "memory-management",
+        "cheney-algorithm",
+        "heap-fragmentation",
+        "runtime"
+      ],
+      "scheduled_at": "2026-05-17T15:01:38Z",
       "status": "pending"
     }
   ]
