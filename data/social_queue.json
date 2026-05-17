@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-17T23:01:38Z",
+  "last_scheduled_at": "2026-05-18T00:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -13964,6 +13964,20 @@
         "performance"
       ],
       "scheduled_at": "2026-05-17T23:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Decoupling Program Logic with Algebraic Effects and Handlers",
+      "url": "https://martinuke0.github.io/posts/2026-05-17-decoupling-program-logic-with-algebraic-effects-and-handlers/",
+      "social_hook": "> TL;DR — Algebraic effects let you declare what a program needs (e.g., I/O, state, concurrency) without tying it to how it is performed. Handlers then supply concrete implementations, making the core logic reusable, testable, and easy to extend.\n\nProgram logic often becomes entangled with low‑level concerns such as networking, logging, or error handling. Traditional approaches—callbacks, promises, or monad transformers—can scatter these concerns throughout the codebase, making reasoning and refactoring difficult. Algebraic effects and their handlers offer a clean separation: the program asks for an effect, and a handler decides how to answer. This article walks through the theory, practical examples, and trade‑offs of using algebraic effects to decouple logic from effects.\n\nAlgebraic effects are a formalism for describing effectful operations as abstract commands. An effect consists of a set of operations (the algebra) and the type of their results. Unlike exceptions, which have a single `raise` operation, an effect can expose many distinct operations, each with its own signature.",
+      "tags": [
+        "algebraic-effects",
+        "programming-paradigms",
+        "software-design",
+        "functional-programming",
+        "handlers"
+      ],
+      "scheduled_at": "2026-05-18T00:01:38Z",
       "status": "pending"
     }
   ]
