@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-17T07:01:38Z",
+  "last_scheduled_at": "2026-05-17T08:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -13740,6 +13740,20 @@
         "diagnostics"
       ],
       "scheduled_at": "2026-05-17T07:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "How Stream Watermarks Define Event Time Progress",
+      "url": "https://martinuke0.github.io/posts/2026-05-17-how-stream-watermarks-define-event-time-progress/",
+      "social_hook": "> TL;DR — Watermarks are timestamps that travel with a data stream, indicating the system’s belief about the highest event‑time that has arrived. They let window operators fire, handle out‑of‑order records, and keep state consistent without waiting for the physical end of the stream.\n\nIn a world where data arrives from sensors, logs, and user interactions at unpredictable intervals, stream processors need a reliable way to reason about event time – the time when something actually happened – rather than the time it was observed. Watermarks provide that reasoning, turning a chaotic flow of timestamps into a well‑ordered progression that drives windowing, triggers, and late‑data handling.\n\nEvent time is the logical clock attached to each record, usually representing when the event occurred in the source system. Contrast this with processing time, which is simply the wall‑clock time on the machine that runs the operator. Processing‑time semantics are easy to implement but can produce misleading results when events are delayed, reordered, or replayed.",
+      "tags": [
+        "streaming",
+        "watermarks",
+        "event-time",
+        "apache-flink",
+        "data-engineering"
+      ],
+      "scheduled_at": "2026-05-17T08:01:38Z",
       "status": "pending"
     }
   ]
