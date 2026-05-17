@@ -13544,7 +13544,7 @@
         "web‑optimization"
       ],
       "scheduled_at": "2026-05-16T17:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "The Hidden Tradeoffs of Row Versioning in Modern Databases",
@@ -13558,7 +13558,7 @@
         "consistency"
       ],
       "scheduled_at": "2026-05-16T18:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "What the PACELC Theorem Reveals About Distributed Consistency",
@@ -13572,7 +13572,7 @@
         "database"
       ],
       "scheduled_at": "2026-05-16T19:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "What Memory Layers Cost in Effective Access Time",
@@ -13586,7 +13586,7 @@
         "caching"
       ],
       "scheduled_at": "2026-05-16T20:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "How Idris Encodes Domain Logic in the Type System",
@@ -13600,7 +13600,7 @@
         "functional-programming"
       ],
       "scheduled_at": "2026-05-16T21:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "How Cassandra Reaches Consensus Through Peer Gossip",
@@ -13614,7 +13614,7 @@
         "nosql"
       ],
       "scheduled_at": "2026-05-16T22:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "The Hidden Price of Balancing Your Search Structure",
@@ -13628,7 +13628,7 @@
         "performance"
       ],
       "scheduled_at": "2026-05-16T23:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Where the Kernel Hides Its Object Caches",
@@ -13642,7 +13642,7 @@
         "performance"
       ],
       "scheduled_at": "2026-05-17T00:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "When Two Nodes Believe They Are Leader",
@@ -13656,7 +13656,7 @@
         "high-availability"
       ],
       "scheduled_at": "2026-05-17T01:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "How Epoch-Based Reclamation Avoids the Stalled Pointer Problem",
@@ -13684,7 +13684,7 @@
         "programming"
       ],
       "scheduled_at": "2026-05-17T03:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Why the Memory Hierarchy Dictates Effective Access Time",
