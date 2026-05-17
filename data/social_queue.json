@@ -13880,7 +13880,7 @@
         "Computer Architecture"
       ],
       "scheduled_at": "2026-05-17T17:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "When Write Skew Breaks Snapshot Isolation Consistency",
