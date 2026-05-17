@@ -13894,7 +13894,7 @@
         "transactional-systems"
       ],
       "scheduled_at": "2026-05-17T18:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Hidden Memory Hazards in Lock-Free Data Structures",
