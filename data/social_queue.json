@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-17T21:01:38Z",
+  "last_scheduled_at": "2026-05-17T22:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -13936,6 +13936,20 @@
         "hash tables"
       ],
       "scheduled_at": "2026-05-17T21:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building Userland Mutexes with the Futex System Call",
+      "url": "https://martinuke0.github.io/posts/2026-05-17-building-userland-mutexes-with-the-futex-system-call/",
+      "social_hook": "> TL;DR — Futexes let user‑space code coordinate threads with minimal kernel involvement; by using `FUTEX_WAIT` and `FUTEX_WAKE` you can build a fast, fair mutex that outperforms pthread mutexes in many scenarios.\n\nIn modern multi‑core applications the cost of a lock is often the difference between scaling smoothly and stalling at the first contention point. While the POSIX `pthread_mutex_t` abstraction is convenient, it hides a costly kernel round‑trip whenever a thread must block. Linux’s fast userspace mutex (futex) primitive was introduced precisely to keep the common uncontended case entirely in user space and only fall back to the kernel when absolutely necessary. This article walks through the reasoning behind futexes, explains the low‑level API, and shows how to assemble a production‑grade userland mutex from scratch. The code is written in C, but the concepts translate directly to Rust, Go, or any language that can invoke the `futex` syscall.\n\n2. Slow path – if the lock is already held, invoke a kernel primitive (e.g., `pthread_mutex_lock`) that puts the thread to sleep.",
+      "tags": [
+        "systems programming",
+        "concurrency",
+        "linux",
+        "futex",
+        "mutex"
+      ],
+      "scheduled_at": "2026-05-17T22:01:38Z",
       "status": "pending"
     }
   ]
