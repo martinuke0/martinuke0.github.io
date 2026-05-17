@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-17T12:01:38Z",
+  "last_scheduled_at": "2026-05-17T13:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -13810,6 +13810,20 @@
         "opentelemetry"
       ],
       "scheduled_at": "2026-05-17T12:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "The Performance Tradeoffs of TLS 1.3 Zero Round‑Trip Resumption",
+      "url": "https://martinuke0.github.io/posts/2026-05-17-the-performance-tradeoffs-of-tls-13-zero-roundtrip-resumption/",
+      "social_hook": "> TL;DR — TLS 1.3’s zero‑round‑trip (0‑RTT) resumption can shave 30‑80 ms off a typical web handshake, but it opens a replay window and weakens forward secrecy. Deploy it only where latency matters more than the modest replay risk, and always pair it with strict replay detection and short ticket lifetimes.\n\nModern browsers and APIs constantly negotiate TLS 1.3 handshakes, yet the latency of a full round‑trip still hurts user‑perceived performance. Zero round‑trip (0‑RTT) resumption promises to eliminate that round‑trip for repeat connections, but the speed boost comes with nuanced security trade‑offs. This article unpacks the protocol mechanics, quantifies the performance gains, examines the replay and forward‑secrecy implications, and offers concrete guidance for operators who want to reap the benefits without exposing themselves to unnecessary risk.\n\nTLS 1.3 redesigns the classic handshake to reduce round‑trips from two (in TLS 1.2) to one for a full handshake. The flow looks roughly like this:",
+      "tags": [
+        "TLS",
+        "security",
+        "performance",
+        "networking",
+        "cryptography"
+      ],
+      "scheduled_at": "2026-05-17T13:01:38Z",
       "status": "pending"
     }
   ]
