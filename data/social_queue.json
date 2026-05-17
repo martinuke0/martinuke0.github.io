@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-17T03:01:38Z",
+  "last_scheduled_at": "2026-05-17T04:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -13684,6 +13684,20 @@
         "programming"
       ],
       "scheduled_at": "2026-05-17T03:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Why the Memory Hierarchy Dictates Effective Access Time",
+      "url": "https://martinuke0.github.io/posts/2026-05-17-why-the-memory-hierarchy-dictates-effective-access-time/",
+      "social_hook": "> TL;DR — The memory hierarchy’s layered design forces every memory reference to pass through progressively slower levels, so the effective access time (EAT) is a weighted average of hit rates and latencies. Optimizing cache hit ratios and minimizing miss penalties are the most powerful ways to shrink EAT.\n\nModern processors move data faster than any single memory technology can keep up. Registers can deliver a word in a single clock cycle, L1 caches in a few cycles, DRAM in dozens, and SSDs in thousands. The memory hierarchy—a pyramid of increasingly large but slower storage—exists precisely because no single device can offer both the capacity and speed the CPU demands. Consequently, the effective access time (EAT) that a program experiences is not the latency of any single level; it is the statistical blend of hits, misses, and the cost of each level’s access. Understanding this blend is essential for performance engineers, compiler writers, and anyone who wants to squeeze every ounce of speed from a system.\n\nThese numbers are representative; real values vary with technology node, CPU micro‑architecture, and memory controller design. The key pattern is latency grows roughly exponentially while capacity grows linearly. That exponential growth makes each level a potential bottleneck.",
+      "tags": [
+        "computer architecture",
+        "memory hierarchy",
+        "performance engineering",
+        "caching",
+        "effective access time"
+      ],
+      "scheduled_at": "2026-05-17T04:01:38Z",
       "status": "pending"
     }
   ]
