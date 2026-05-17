@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-17T18:01:38Z",
+  "last_scheduled_at": "2026-05-17T19:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -13894,6 +13894,20 @@
         "transactional-systems"
       ],
       "scheduled_at": "2026-05-17T18:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Hidden Memory Hazards in Lock-Free Data Structures",
+      "url": "https://martinuke0.github.io/posts/2026-05-17-hidden-memory-hazards-in-lock-free-data-structures/",
+      "social_hook": "> TL;DR — Lock‑free algorithms can appear safe while silently corrupting memory due to ABA, reclamation, and subtle reordering. Understanding the hardware memory model, using proper reclamation schemes, and testing with dedicated tools are essential to avoid these hidden hazards.\n\nLock‑free data structures are celebrated for eliminating lock‑contention, improving scalability, and reducing latency. Yet the same qualities that make them attractive also expose them to a class of bugs that are notoriously hard to see. While most developers focus on correctness of the algorithmic steps—ensuring that every operation eventually makes progress—they often overlook the interaction between those steps and the underlying memory subsystem. This article uncovers the hidden memory hazards that can sabotage even the most carefully designed lock‑free structures, illustrates them with concrete C++ examples, and provides a toolbox of diagnostics and mitigation strategies that you can apply today.\n\nLock‑free code promises progress: at least one thread will complete its operation in a finite number of steps, regardless of the behavior of others. This guarantee is expressed in terms of atomic operations such as `compare_exchange_strong` and `fetch_add`. However, progress does not automatically imply memory safety. The C++ memory model distinguishes between ordering (when a write becomes visible) and visibility (when a read observes that write). Without explicit memory‑order specifications, compilers and CPUs are free to reorder instructions as long as they respect the as‑if‑single‑threaded rule.",
+      "tags": [
+        "concurrency",
+        "lock-free",
+        "memory-reclamation",
+        "ABA",
+        "performance"
+      ],
+      "scheduled_at": "2026-05-17T19:01:38Z",
       "status": "pending"
     }
   ]
