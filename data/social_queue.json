@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-18T00:01:38Z",
+  "last_scheduled_at": "2026-05-18T01:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -13978,6 +13978,20 @@
         "handlers"
       ],
       "scheduled_at": "2026-05-18T00:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "The Thread Safety Tradeoffs of Epoch Based Reclamation",
+      "url": "https://martinuke0.github.io/posts/2026-05-17-the-thread-safety-tradeoffs-of-epoch-based-reclamation/",
+      "social_hook": "> TL;DR — Epoch based reclamation (EBR) offers lock‑free memory safety with low overhead, but it relies on cooperative threads to advance epochs. If a thread stalls, memory can be retained indefinitely, and certain data‑race scenarios still require careful design.\n\nIn modern lock‑free data structures, reclaiming retired nodes without introducing blocking operations is a perennial challenge. Epoch based reclamation (EBR) emerged as a pragmatic answer: threads announce the “epoch” they are operating in, and memory is reclaimed only after all threads have moved past the epoch in which the node was retired. This article unpacks the mechanics of EBR, examines the thread‑safety guarantees it provides, and weighs its trade‑offs against hazard pointers, RCU, and other reclamation schemes. By the end you’ll understand when EBR is a good fit, what hidden costs to expect, and how to avoid the most common pitfalls.\n\nEBR was popularized by Michael and Scott’s lock‑free queue and later formalized in the Linux kernel’s RCU (Read‑Copy‑Update) subsystem. The core idea is simple:",
+      "tags": [
+        "concurrency",
+        "memory-management",
+        "epoch-reclamation",
+        "thread-safety",
+        "systems-programming"
+      ],
+      "scheduled_at": "2026-05-18T01:01:38Z",
       "status": "pending"
     }
   ]
