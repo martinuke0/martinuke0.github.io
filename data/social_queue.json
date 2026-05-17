@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-17T00:01:38Z",
+  "last_scheduled_at": "2026-05-17T01:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -13642,6 +13642,20 @@
         "performance"
       ],
       "scheduled_at": "2026-05-17T00:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "When Two Nodes Believe They Are Leader",
+      "url": "https://martinuke0.github.io/posts/2026-05-17-when-two-nodes-believe-they-are-leader/",
+      "social_hook": "> TL;DR — When two nodes mistakenly act as leaders, the cluster can diverge, causing data loss or corruption. Understanding the failure modes of consensus protocols and applying quorum checks, fencing, and robust monitoring stops split‑brain before it hurts your users.\n\nIn a distributed system, the notion of “the leader” is a contract: exactly one node is authorized to make decisions that affect the shared state. When that contract is broken and two nodes both believe they are the leader, the system enters a split‑brain state. The symptoms range from subtle read‑your‑write anomalies to catastrophic double‑writes that overwrite each other. This article dissects why dual‑leader scenarios arise, how they manifest in popular consensus algorithms, and what concrete safeguards you can put in place to keep your cluster healthy.\n\nLeader election is the process by which a cluster selects a single node to coordinate writes, serialize commands, or orchestrate configuration changes. Most modern systems rely on a quorum‑based algorithm—Raft, Paxos, or variants such as Zab in ZooKeeper—to guarantee that a majority of nodes agree on who the leader is.",
+      "tags": [
+        "distributed-systems",
+        "consensus",
+        "leader-election",
+        "split-brain",
+        "high-availability"
+      ],
+      "scheduled_at": "2026-05-17T01:01:38Z",
       "status": "pending"
     }
   ]
