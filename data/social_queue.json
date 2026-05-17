@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-17T10:01:38Z",
+  "last_scheduled_at": "2026-05-17T11:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -13782,6 +13782,20 @@
         "transactional-consistency"
       ],
       "scheduled_at": "2026-05-17T10:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Why Exactly-Once Delivery Requires Idempotence to Work",
+      "url": "https://martinuke0.github.io/posts/2026-05-17-why-exactly-once-delivery-requires-idempotence-to-work/",
+      "social_hook": "> TL;DR — Exactly‑once delivery is a promise that a consumer sees each logical event no more than once. The only reliable way to honor that promise over unreliable networks is to make the consumer’s processing idempotent, so repeats are harmless. Without idempotence, duplicates break the contract, no matter how perfect the transport layer appears.\n\nIn modern event‑driven architectures, “exactly‑once” is the gold standard for reliability. Yet the term is often misunderstood as a transport‑layer guarantee, when in reality it hinges on the behavior of the downstream consumer. This article unpacks the relationship between exactly‑once delivery and idempotence, walks through concrete implementation patterns, and equips you with the tools to test and verify your system’s guarantees.\n\nExactly‑once delivery promises that each logical message (or event) is processed one time and only one time by the consumer, regardless of retries, crashes, or network partitions. The promise is logical rather than physical: a duplicate network packet is acceptable as long as the business effect occurs a single time.",
+      "tags": [
+        "distributed systems",
+        "messaging",
+        "idempotence",
+        "exactly-once",
+        "reliability"
+      ],
+      "scheduled_at": "2026-05-17T11:01:38Z",
       "status": "pending"
     }
   ]
