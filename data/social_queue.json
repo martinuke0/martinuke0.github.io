@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-17T08:01:38Z",
+  "last_scheduled_at": "2026-05-17T09:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -13754,6 +13754,20 @@
         "data-engineering"
       ],
       "scheduled_at": "2026-05-17T08:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "The Mathematical Mechanics Behind Elliptic Curve Cryptography Fundamentals",
+      "url": "https://martinuke0.github.io/posts/2026-05-17-the-mathematical-mechanics-behind-elliptic-curve-cryptography-fundamentals/",
+      "social_hook": "> TL;DR — Elliptic Curve Cryptography (ECC) relies on the algebraic group formed by points on a curve over a finite field. The infeasibility of the elliptic curve discrete logarithm problem (ECDLP) makes ECC both secure and efficient for modern cryptographic protocols.\n\nElliptic curves have moved from pure mathematics textbooks to the heart of TLS, cryptocurrency wallets, and IoT security. Their appeal lies in offering comparable security to RSA or DH with dramatically smaller key sizes, which translates to faster computations and lower bandwidth. This article unpacks the core mathematics that give ECC its strength: the definition of curves over finite fields, the group law that lets us add points, and the hard problem that underpins security. We’ll also look at how standards choose safe curves, see concrete Python snippets for point arithmetic, and discuss common pitfalls when implementing ECC in real systems.\n\nwhere the coefficients \\(a\\) and \\(b\\) belong to a field \\(K\\) and satisfy the non‑singularity condition \\(4a^{3}+27b^{2}\\neq0\\). In cryptography we never work over the real numbers; instead we use a finite field \\(\\mathbb{F}_p\\) (prime field) or \\(\\mathbb{F}_{2^m}\\) (binary field). The choice of field determines how arithmetic on the curve is performed and influences performance and side‑channel resistance.",
+      "tags": [
+        "cryptography",
+        "elliptic-curves",
+        "mathematics",
+        "security",
+        "programming"
+      ],
+      "scheduled_at": "2026-05-17T09:01:38Z",
       "status": "pending"
     }
   ]
