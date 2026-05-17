@@ -13810,7 +13810,7 @@
         "opentelemetry"
       ],
       "scheduled_at": "2026-05-17T12:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "The Performance Tradeoffs of TLS 1.3 Zero Round‑Trip Resumption",
