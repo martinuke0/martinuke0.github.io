@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-17T13:01:38Z",
+  "last_scheduled_at": "2026-05-17T14:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -13824,6 +13824,20 @@
         "cryptography"
       ],
       "scheduled_at": "2026-05-17T13:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "The Mechanical Reality of Cheney Semispace Copying",
+      "url": "https://martinuke0.github.io/posts/2026-05-17-the-mechanical-reality-of-cheney-semispace-copying/",
+      "social_hook": "> TL;DR — Cheney's semispace copying collector divides the heap into two equal regions, continuously copying live objects from the from‑space to the to‑space during collection. The algorithm offers simple pause‑time guarantees but demands careful handling of pointer updates, object forwarding, and memory fragmentation.\n\nGarbage collection is often presented as a black‑box service that magically reclaims memory, yet the underlying mechanics of a collector can dramatically affect a language’s performance characteristics. Among the classic algorithms, Cheney’s semispace copying collector stands out for its elegance and deterministic pause behaviour. This article pulls back the curtain, describing each mechanical step, analysing the runtime costs, and offering concrete guidance for engineers who need to implement or tune a Cheney‑style collector in a production runtime.\n\nAt its core, Cheney’s algorithm is a breadth‑first copying collector that operates on a semispace model: the heap is split into two equal halves, called from‑space and to‑space. Only one semispace is active for allocation; the other is reserved for the next collection cycle.",
+      "tags": [
+        "garbage-collection",
+        "cheney-algorithm",
+        "memory-management",
+        "runtime",
+        "systems"
+      ],
+      "scheduled_at": "2026-05-17T14:01:38Z",
       "status": "pending"
     }
   ]
