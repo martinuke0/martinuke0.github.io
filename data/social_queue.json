@@ -13782,7 +13782,7 @@
         "transactional-consistency"
       ],
       "scheduled_at": "2026-05-17T10:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Why Exactly-Once Delivery Requires Idempotence to Work",
