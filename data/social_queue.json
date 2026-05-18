@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-18T12:01:38Z",
+  "last_scheduled_at": "2026-05-18T13:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -14146,6 +14146,20 @@
         "consistency"
       ],
       "scheduled_at": "2026-05-18T12:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "How Erlang Process Isolation Governs the Actor Model",
+      "url": "https://martinuke0.github.io/posts/2026-05-18-how-erlang-process-isolation-governs-the-actor-model/",
+      "social_hook": "> TL;DR — Erlang’s process isolation gives each actor its own memory and scheduler slot, turning message passing into a safe, fault‑contained primitive. This design lets developers build highly concurrent, self‑healing systems without the pitfalls of shared‑memory threading.\n\nErlang was created in the late 1980s to power telecom switches, a domain where downtime is simply unacceptable. From the start, its designers chose a radical approach: instead of sharing memory between threads, they gave every unit of work its own isolated process. Over four decades later, that choice still underpins the language’s ability to implement the Actor Model at scale. In this article we unpack the technical details of Erlang’s process isolation, trace how it maps onto the classic Actor Model concepts, and illustrate why the combination remains a gold standard for fault‑tolerant, distributed systems.\n\nThe Actor Model was first described by Carl Hewitt, Peter Bishop, and Richard Steiger in a 1973 paper — a response to the growing need for a formalism that could express distributed, concurrent computation without the hazards of shared state — see the original description in the ACM Digital Library (Hewitt et al., 1973). The model defines three primitive operations:",
+      "tags": [
+        "erlang",
+        "actor-model",
+        "process-isolation",
+        "concurrency",
+        "distributed-systems"
+      ],
+      "scheduled_at": "2026-05-18T13:01:38Z",
       "status": "pending"
     }
   ]
