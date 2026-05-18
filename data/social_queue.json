@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-18T03:01:38Z",
+  "last_scheduled_at": "2026-05-18T04:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -14020,6 +14020,20 @@
         "performance engineering"
       ],
       "scheduled_at": "2026-05-18T03:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "How Paxos Resolves the Persistence of Dueling Proposers",
+      "url": "https://martinuke0.github.io/posts/2026-05-18-how-paxos-resolves-the-persistence-of-dueling-proposers/",
+      "social_hook": "> TL;DR — Paxos prevents endless clashes between multiple proposers by using monotonically increasing ballot numbers, a two‑phase commit, and an implicit leader election that forces all participants to agree on a single proposal, thereby preserving both safety and liveness.\n\nIn distributed systems, achieving agreement among unreliable nodes is notoriously hard. The Paxos algorithm, introduced by Leslie Lamport in 1998, is a cornerstone of fault‑tolerant consensus. One of its most subtle challenges is handling dueling proposers: two or more nodes simultaneously trying to drive different values through the protocol. Left unchecked, such competition can lead to livelocks where no value ever gets chosen. This post walks through the mechanics that let Paxos resolve that persistence, from ballot numbers to the implicit leader election that emerges from the protocol’s own rules.\n\nWhen a client submits a command to a replicated state machine, any node may act as a proposer and start the Paxos process. If two proposers, say P1 and P2, launch concurrently with different values, they each issue a prepare request (Phase 1a) to a quorum of acceptors. Because acceptors must promise not to accept lower‑numbered proposals, the two proposers can end up repeatedly overwriting each other's promises:",
+      "tags": [
+        "distributed systems",
+        "consensus",
+        "paxos",
+        "fault tolerance",
+        "algorithms"
+      ],
+      "scheduled_at": "2026-05-18T04:01:38Z",
       "status": "pending"
     }
   ]
