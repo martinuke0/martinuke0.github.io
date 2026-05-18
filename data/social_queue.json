@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-18T09:01:38Z",
+  "last_scheduled_at": "2026-05-18T10:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -14104,6 +14104,20 @@
         "linux"
       ],
       "scheduled_at": "2026-05-18T09:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "How Paxos Breaks the Cycle of Dueling Proposers",
+      "url": "https://martinuke0.github.io/posts/2026-05-18-how-paxos-breaks-the-cycle-of-dueling-proposers/",
+      "social_hook": "> TL;DR — Paxos avoids the endless back‑and‑forth of dueling proposers by forcing each proposer to obtain a majority of promises before any value can be accepted. The prepare‑promise mechanism guarantees that once a value is chosen, all later proposals must respect it, thereby preserving safety while still allowing progress when a stable leader emerges.\n\nIn distributed systems, reaching agreement among unreliable processes is notoriously hard. One of the classic obstacles is the dueling proposers scenario, where two or more nodes simultaneously try to drive the consensus algorithm forward, each believing it has the right to propose a value. Without a disciplined coordination mechanism, these contenders can starve each other, violating liveness and, in the worst case, even safety. The Paxos algorithm—first described by Leslie Lamport in his seminal paper The Part-Time Parliament—introduces a two‑phase protocol that systematically eliminates this race condition. This post unpacks the dueling proposers problem, walks through Paxos’s prepare and accept phases, and shows why the protocol guarantees that the cycle eventually breaks.\n\nIn any consensus algorithm that allows multiple proposers to initiate a value, the system must decide which value will be ultimately chosen. If two proposers send conflicting proposals at roughly the same time, each can receive a subset of acknowledgments from the acceptors (the nodes responsible for persisting proposals). Without a global ordering, the acceptors may end up in divergent states:",
+      "tags": [
+        "distributed-systems",
+        "consensus",
+        "paxos",
+        "fault-tolerance",
+        "algorithms"
+      ],
+      "scheduled_at": "2026-05-18T10:01:38Z",
       "status": "pending"
     }
   ]
