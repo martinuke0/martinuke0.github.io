@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-18T04:01:38Z",
+  "last_scheduled_at": "2026-05-18T05:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -14034,6 +14034,20 @@
         "algorithms"
       ],
       "scheduled_at": "2026-05-18T04:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "How TCP Slow Start Becomes Congestion Avoidance",
+      "url": "https://martinuke0.github.io/posts/2026-05-18-how-tcp-slow-start-becomes-congestion-avoidance/",
+      "social_hook": "> TL;DR — TCP begins a new connection in Slow Start, rapidly expanding its congestion window (cwnd) until loss is detected or a pre‑set threshold (ssthresh) is reached. At that point the algorithm switches to Congestion Avoidance, increasing cwnd more conservatively to probe available bandwidth while keeping the network stable.\n\nTCP is the workhorse of the modern Internet, moving everything from email to video streams. Its reliability hinges on sophisticated congestion control mechanisms that balance throughput against network stability. Two of the most recognizable phases are Slow Start and Congestion Avoidance. Though they sound like separate algorithms, they are tightly coupled steps of a single state machine that adapts to changing network conditions. This article unpacks how Slow Start grows the congestion window, why it must give way to Congestion Avoidance, and what the transition tells us about the health of the path.\n\nThe congestion window (`cwnd`) is a sender‑side variable that limits the amount of unacknowledged data a TCP endpoint may have in flight. It is expressed in segments (usually 1460‑byte packets) rather than bytes, allowing the algorithm to react to packet loss at the granularity of whole packets.",
+      "tags": [
+        "TCP",
+        "CongestionControl",
+        "Networking",
+        "ComputerScience",
+        "Internet"
+      ],
+      "scheduled_at": "2026-05-18T05:01:38Z",
       "status": "pending"
     }
   ]
