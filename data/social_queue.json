@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-18T10:01:38Z",
+  "last_scheduled_at": "2026-05-18T11:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -14118,6 +14118,20 @@
         "algorithms"
       ],
       "scheduled_at": "2026-05-18T10:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Why Algebraic Effects Replace the Need for Monad Transformers",
+      "url": "https://martinuke0.github.io/posts/2026-05-18-why-algebraic-effects-replace-the-need-for-monad-transformers/",
+      "social_hook": "> TL;DR — Algebraic effects let you describe, compose, and handle side‑effects directly, removing the need for deep monad‑transformer stacks. They reduce boilerplate, improve modularity, and keep type inference tractable, making them a pragmatic replacement for most use‑cases where monad transformers were previously required.\n\nEffectful programming is a cornerstone of modern functional languages. For years, monad transformers have been the go‑to technique for layering effects such as state, logging, and error handling. However, the transformer approach brings a steep learning curve, verbose type signatures, and a brittle stack that is hard to refactor. Algebraic effects—originally formalised in the early 2000s and now implemented in languages like Haskell (Polysemy, Eff), OCaml, and Koka—offer a composable abstraction that sidesteps these pain points.\n\nA typical Haskell application that needs `Reader`, `State`, `Except`, and `IO` might define a stack like:",
+      "tags": [
+        "algebraic effects",
+        "monad transformers",
+        "functional programming",
+        "type theory",
+        "software design"
+      ],
+      "scheduled_at": "2026-05-18T11:01:38Z",
       "status": "pending"
     }
   ]
