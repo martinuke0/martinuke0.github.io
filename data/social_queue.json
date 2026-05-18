@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-18T02:01:38Z",
+  "last_scheduled_at": "2026-05-18T03:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -14006,6 +14006,20 @@
         "randomized algorithms"
       ],
       "scheduled_at": "2026-05-18T02:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Selecting the Right Metric for Load Shedding Strategies",
+      "url": "https://martinuke0.github.io/posts/2026-05-18-selecting-the-right-metric-for-load-shedding-strategies/",
+      "social_hook": "> TL;DR — The success of a load‑shedding strategy hinges on the metric you monitor. Choose a signal that directly reflects your service‑level objectives, reacts quickly to overload, and can be measured with low latency. Combine a primary health metric with a secondary safety net, and embed hysteresis to avoid oscillations.\n\nLoad shedding—deliberately rejecting or throttling incoming requests when a system is under stress—is a safety valve that protects downstream services, preserves data integrity, and keeps user‑facing latency within acceptable bounds. However, the valve’s effectiveness is only as good as the pressure gauge you trust. In this article we dissect the most common metrics, outline a decision framework for picking the right one, and walk through a production‑ready implementation pattern that balances responsiveness with stability.\n\nA load‑shedding mechanism must answer a single question in real time: Is the system currently unable to honor its SLA without jeopardizing stability? Without a reliable, low‑latency indicator, the controller either fails to act (letting overload cascade) or acts too aggressively (needlessly rejecting traffic). The metric therefore becomes the single source of truth for the shedding policy.",
+      "tags": [
+        "load shedding",
+        "metrics",
+        "capacity planning",
+        "system reliability",
+        "performance engineering"
+      ],
+      "scheduled_at": "2026-05-18T03:01:38Z",
       "status": "pending"
     }
   ]
