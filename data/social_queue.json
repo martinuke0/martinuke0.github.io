@@ -14202,7 +14202,7 @@
         "indexing"
       ],
       "scheduled_at": "2026-05-18T16:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Why Query Planners Fail at Cardinality Estimation",
