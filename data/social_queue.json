@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-19T00:01:38Z",
+  "last_scheduled_at": "2026-05-19T01:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -14308,6 +14308,20 @@
         "functional-programming"
       ],
       "scheduled_at": "2026-05-19T00:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Where Stream Processing Systems Draw the Line for Late Data",
+      "url": "https://martinuke0.github.io/posts/2026-05-18-where-stream-processing-systems-draw-the-line-for-late-data/",
+      "social_hook": "> TL;DR — Stream processing systems use watermarks and configurable allowed‑lateness windows to decide when data is “late.” Each engine (Flink, Beam, Spark, Kafka Streams) draws the line differently, offering side‑outputs or retractions for data that arrives after the cutoff. Understanding these mechanisms lets you balance latency, correctness, and operational complexity.\n\nReal‑time analytics hinges on the assumption that events arrive roughly in the order they happen. In practice, network hiccups, batch uploads, and clock skew cause late data—records whose event‑time timestamp is earlier than the current processing progress. How far a system tolerates this lateness determines both result accuracy and end‑to‑end latency. This article explains the core concepts (event time, watermarks, allowed lateness), surveys the policies of the major stream processing engines, and presents practical patterns for building pipelines that stay correct even when the clock runs against you.\n\n Event time** is the timestamp embedded in the data (e.g., a sensor reading’s generation time).",
+      "tags": [
+        "stream-processing",
+        "late-data",
+        "watermarks",
+        "apache-flink",
+        "real-time-analytics"
+      ],
+      "scheduled_at": "2026-05-19T01:01:38Z",
       "status": "pending"
     }
   ]
