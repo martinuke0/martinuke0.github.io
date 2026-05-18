@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-18T22:01:38Z",
+  "last_scheduled_at": "2026-05-18T23:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -14280,6 +14280,20 @@
         "caching"
       ],
       "scheduled_at": "2026-05-18T22:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Where Service Mesh Circuit Breakers Fail Under Pressure",
+      "url": "https://martinuke0.github.io/posts/2026-05-18-where-service-mesh-circuit-breakers-fail-under-pressure/",
+      "social_hook": "> TL;DR — When traffic surges, circuit breakers in a service mesh can unintentionally throttle healthy services, amplify latency, or even cause cascading failures. Understanding why these break down and applying adaptive thresholds, hierarchical policies, and robust observability can keep your mesh resilient under pressure.\n\nService meshes such as Istio, Linkerd, and Consul provide a declarative way to enforce circuit‑breaker policies across dozens or hundreds of microservices. In theory, a breaker protects downstream services from overload, but in practice the same mechanism can become the very source of instability when the mesh is stressed. This article dissects the technical reasons why circuit breakers fail under pressure, shows how to spot the symptoms, and offers concrete mitigation patterns you can apply today.\n\n2. Open – Requests are short‑circuited after a configurable failure threshold is crossed.",
+      "tags": [
+        "service-mesh",
+        "circuit-breaker",
+        "microservices",
+        "observability",
+        "resilience"
+      ],
+      "scheduled_at": "2026-05-18T23:01:38Z",
       "status": "pending"
     }
   ]
