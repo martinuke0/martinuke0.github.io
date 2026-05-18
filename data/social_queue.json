@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-18T08:01:38Z",
+  "last_scheduled_at": "2026-05-18T09:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -14090,6 +14090,20 @@
         "performance"
       ],
       "scheduled_at": "2026-05-18T08:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "How Copy-on-Write Pages Prevent Fork from Exhausting Memory",
+      "url": "https://martinuke0.github.io/posts/2026-05-18-how-copy-on-write-pages-prevent-fork-from-exhausting-memory/",
+      "social_hook": "> TL;DR — When a process calls `fork()`, the kernel doesn’t duplicate every memory page. Instead, it marks pages as copy‑on‑write, letting parent and child share the same physical pages until one of them writes, at which point only that page is copied. This strategy reduces memory pressure dramatically and prevents the system from running out of RAM during massive forking workloads.\n\nForking is the classic way Unix‑like systems create a new process. The naïve mental model—“make a complete snapshot of the parent’s address space”—suggests an enormous memory cost that would quickly exhaust RAM on any non‑trivial program. The reality is far more clever: modern kernels use copy‑on‑write (COW) pages to share memory between the parent and child until a write occurs. Understanding how COW works, why it’s safe, and where its limits lie is essential for systems programmers, DevOps engineers, and anyone who worries about memory consumption in containerized or high‑concurrency environments.\n\nHistorically, the `fork()` primitive was defined to create a duplicate of the calling process. Early operating systems without virtual memory indeed copied the entire address space, a process that required linear time and memory proportional to the program size. The cost quickly became prohibitive as programs grew into megabytes and later gigabytes.",
+      "tags": [
+        "operating-systems",
+        "memory-management",
+        "fork",
+        "copy-on-write",
+        "linux"
+      ],
+      "scheduled_at": "2026-05-18T09:01:38Z",
       "status": "pending"
     }
   ]
