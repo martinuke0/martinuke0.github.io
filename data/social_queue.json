@@ -14160,7 +14160,7 @@
         "distributed-systems"
       ],
       "scheduled_at": "2026-05-18T13:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "How the MESI Protocol Resolves Stale Cache States",
@@ -14174,7 +14174,7 @@
         "Performance"
       ],
       "scheduled_at": "2026-05-18T14:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "The Statistical Reality of Quorum Reads and Writes",
@@ -14188,7 +14188,7 @@
         "database design"
       ],
       "scheduled_at": "2026-05-18T15:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Reducing Lock Contention with Side Pointers in B‑link Trees",
