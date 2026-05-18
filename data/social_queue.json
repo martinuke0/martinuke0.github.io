@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-18T15:01:38Z",
+  "last_scheduled_at": "2026-05-18T16:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -14188,6 +14188,20 @@
         "database design"
       ],
       "scheduled_at": "2026-05-18T15:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Reducing Lock Contention with Side Pointers in B‑link Trees",
+      "url": "https://martinuke0.github.io/posts/2026-05-18-reducing-lock-contention-with-side-pointers-in-blink-trees/",
+      "social_hook": "> TL;DR — Adding side pointers to B‑link tree nodes allows readers to skip locked interior nodes, dramatically reducing lock contention under high concurrency. The technique preserves the tree’s lock‑coupling guarantees while delivering up to 2× throughput on typical OLTP workloads.\n\nB‑link trees are a proven foundation for high‑performance, concurrent index structures, but they still suffer from hot‑spot locks when many transactions traverse the same interior path. Side pointers—tiny forward links stored alongside the usual sibling links—give readers a safe shortcut around locked nodes, cutting contention without redesigning the whole locking protocol. In this article we unpack the problem, walk through the side‑pointer algorithm, and show real‑world performance numbers.\n\nA B‑link tree is a variation of the classic B‑tree that adds a right sibling pointer (the “link”) to every node. This extra pointer lets a search operation continue safely even if a node is split after the search has read its key range. The original paper by Lehman and Yao introduced the structure to support highly concurrent insertions and deletions without global locks — see the seminal work in the IEEE Transactions on Computers.",
+      "tags": [
+        "b-link-trees",
+        "concurrency",
+        "databases",
+        "lock-contention",
+        "indexing"
+      ],
+      "scheduled_at": "2026-05-18T16:01:38Z",
       "status": "pending"
     }
   ]
