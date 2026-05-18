@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-18T20:01:38Z",
+  "last_scheduled_at": "2026-05-18T21:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -14252,6 +14252,20 @@
       "social_hook": "title: \"Why Conflict-Free Replicated Data Types Enable Seamless Collaborative Editing\"\n\ndescription: \"Explore how Conflict‑Free Replicated Data Types (CRDTs) power real‑time collaborative editors, guaranteeing convergence without central coordination.\"\n\nsummary: \"This article explains the theory behind CRDTs, their practical benefits for collaborative editing, and real‑world libraries that make seamless co‑authoring possible.\"",
       "tags": [],
       "scheduled_at": "2026-05-18T20:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "How Path Compression Flattens the Union-Find Tree Structure",
+      "url": "https://martinuke0.github.io/posts/2026-05-18-how-path-compression-flattens-the-union-find-tree-structure/",
+      "social_hook": "> TL;DR — Path compression rewrites the parent pointers of every node visited during a find so that future queries jump straight to the set representative. The result is an almost flat forest where each operation runs in near‑constant amortized time.\n\nUnion‑Find (also called the Disjoint‑Set Union, DSU) is a cornerstone of graph algorithms, from Kruskal’s minimum‑spanning‑tree to offline connectivity queries. Its elegance lies in two simple operations—make‑set, union, and find—but the naïve implementation can degrade to linear time per operation. Path compression is the single most effective tweak that restores the data structure to near‑constant performance, and understanding why it works gives insight into amortized analysis and modern algorithmic engineering.\n\nA Union‑Find structure maintains a collection of disjoint sets. Internally it stores each element as a node in a forest of rooted trees:",
+      "tags": [
+        "union-find",
+        "disjoint-set",
+        "algorithm",
+        "data-structures",
+        "path-compression"
+      ],
+      "scheduled_at": "2026-05-18T21:01:38Z",
       "status": "pending"
     }
   ]
