@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-18T11:01:38Z",
+  "last_scheduled_at": "2026-05-18T12:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -14132,6 +14132,20 @@
         "software design"
       ],
       "scheduled_at": "2026-05-18T11:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "When Snapshot Isolation Fails to Prevent Write Skew",
+      "url": "https://martinuke0.github.io/posts/2026-05-18-when-snapshot-isolation-fails-to-prevent-write-skew/",
+      "social_hook": "> TL;DR — Snapshot isolation protects against lost updates and dirty reads, yet it cannot stop write‑skew anomalies where concurrent transactions read overlapping data and write disjoint rows. Understanding the root cause, spotting the pattern, and employing serializable isolation or explicit row locks are essential for safe, high‑integrity applications.\n\nSnapshot isolation (SI) is a popular concurrency control level in modern relational databases such as PostgreSQL and MySQL. It offers a compelling blend of performance and safety: each transaction sees a consistent snapshot of the database, and write‑write conflicts are automatically aborted. However, SI is not a panacea. A classic, yet often misunderstood, failure mode is write skew—a logical inconsistency that can arise even when no two transactions update the same row. This post dives deep into the mechanics of SI, demonstrates why write skew slips through, and equips you with practical tools to detect and prevent it.\n\nWhen a transaction starts under SI, the database records the current transaction ID (or a similar logical timestamp). All subsequent reads are served from the version of each row that was committed before that ID. This guarantees that the transaction works with a stable view of the data, regardless of concurrent modifications.",
+      "tags": [
+        "databases",
+        "transaction-isolation",
+        "write-skew",
+        "snapshot-isolation",
+        "consistency"
+      ],
+      "scheduled_at": "2026-05-18T12:01:38Z",
       "status": "pending"
     }
   ]
