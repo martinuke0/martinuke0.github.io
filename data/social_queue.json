@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-18T01:01:38Z",
+  "last_scheduled_at": "2026-05-18T02:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -13992,6 +13992,20 @@
         "systems-programming"
       ],
       "scheduled_at": "2026-05-18T01:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "How Random Timers Prevent Deadlock in Raft Leader Elections",
+      "url": "https://martinuke0.github.io/posts/2026-05-18-how-random-timers-prevent-deadlock-in-raft-leader-elections/",
+      "social_hook": "> TL;DR — Randomized election timers in Raft ensure that at least one server times out before the others, guaranteeing a leader election without deadlock.\n\nRaft’s reputation for simplicity stems from its clear state machine and well‑defined message flow, but the algorithm’s robustness hinges on a subtle probabilistic trick: each follower picks a random election timeout. Without that randomness, perfectly synchronized nodes could wait forever, causing a deadlock that stalls the entire cluster. This article dives deep into why the random timer is essential, how it mathematically prevents deadlock, and what practical considerations developers must keep in mind when configuring Raft in production systems.\n\nRaft divides time into terms. At the start of each term, a single server may become the leader, responsible for log replication and client request handling. If a leader fails or becomes unreachable, the remaining servers start a new election.",
+      "tags": [
+        "Raft",
+        "distributed systems",
+        "consensus",
+        "leader election",
+        "randomized algorithms"
+      ],
+      "scheduled_at": "2026-05-18T02:01:38Z",
       "status": "pending"
     }
   ]
