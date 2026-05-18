@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-18T18:01:38Z",
+  "last_scheduled_at": "2026-05-18T19:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -14230,6 +14230,20 @@
         "java"
       ],
       "scheduled_at": "2026-05-18T18:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "How CRDTs Reconcile Concurrent Edits Without a Central Server",
+      "url": "https://martinuke0.github.io/posts/2026-05-18-how-crdts-reconcile-concurrent-edits-without-a-central-server/",
+      "social_hook": "> TL;DR — CRDTs let each replica apply local edits instantly and then exchange compact operation or state metadata; because the operations are mathematically commutative and idempotent, all replicas converge to the same document without ever needing a master server.\n\nConcurrent editing is the holy grail of modern collaboration tools. Users expect their changes to appear instantly, even when they are offline or connected through a flaky peer‑to‑peer mesh. Traditional client‑server architectures solve this by funneling every edit through a single authority that serialises operations and resolves conflicts. That approach introduces latency, a single point of failure, and scaling headaches. Conflict‑free Replicated Data Types (CRDTs) flip the problem on its head: every replica can accept edits locally, and the system guarantees eventual convergence without any central coordinator. In this article we unpack the mathematics, the concrete data structures, and the networking patterns that make server‑less collaboration possible.\n\nWhen two users type at the same time, their edits may interleave in ways that are ambiguous without additional context. A naïve merge algorithm that simply concatenates the two streams of characters will produce garbled output, and a naïve “last write wins” policy discards valuable work. Centralised systems avoid this by:",
+      "tags": [
+        "CRDT",
+        "distributed-systems",
+        "collaboration",
+        "eventual-consistency",
+        "peer-to-peer"
+      ],
+      "scheduled_at": "2026-05-18T19:01:38Z",
       "status": "pending"
     }
   ]
