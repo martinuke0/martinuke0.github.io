@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-18T14:01:38Z",
+  "last_scheduled_at": "2026-05-18T15:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -14174,6 +14174,20 @@
         "Performance"
       ],
       "scheduled_at": "2026-05-18T14:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "The Statistical Reality of Quorum Reads and Writes",
+      "url": "https://martinuke0.github.io/posts/2026-05-18-the-statistical-reality-of-quorum-reads-and-writes/",
+      "social_hook": "> TL;DR — Quorum reads and writes are not a binary guarantee; they are statistical contracts that depend on replication factor, failure probability, and timing. By modelling these variables you can predict stale‑read risk and write durability, and make informed trade‑offs between latency and consistency.\n\nIn any system that spreads data across multiple machines, the promise of “quorum” is often taken at face value: a read that contacts a majority of replicas will see the most recent write, and a write that reaches a majority will survive node failures. The reality is more nuanced. Network partitions, clock skew, and transient outages turn the quorum guarantee into a probability distribution. This article unpacks the mathematics, walks through concrete examples, and shows how to apply the insights to Cassandra, DynamoDB, and other quorum‑based stores.\n\n Q** – the number of replicas that must acknowledge a read or write operation for it to be considered successful.",
+      "tags": [
+        "distributed systems",
+        "quorum",
+        "consistency",
+        "CAP theorem",
+        "database design"
+      ],
+      "scheduled_at": "2026-05-18T15:01:38Z",
       "status": "pending"
     }
   ]
