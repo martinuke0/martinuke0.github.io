@@ -14294,7 +14294,7 @@
         "resilience"
       ],
       "scheduled_at": "2026-05-18T23:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "How Idris Uses Types to Verify Program Logic",
