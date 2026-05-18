@@ -14252,7 +14252,7 @@
       "social_hook": "title: \"Why Conflict-Free Replicated Data Types Enable Seamless Collaborative Editing\"\n\ndescription: \"Explore how Conflict‑Free Replicated Data Types (CRDTs) power real‑time collaborative editors, guaranteeing convergence without central coordination.\"\n\nsummary: \"This article explains the theory behind CRDTs, their practical benefits for collaborative editing, and real‑world libraries that make seamless co‑authoring possible.\"",
       "tags": [],
       "scheduled_at": "2026-05-18T20:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "How Path Compression Flattens the Union-Find Tree Structure",
