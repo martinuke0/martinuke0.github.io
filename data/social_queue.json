@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-18T19:01:38Z",
+  "last_scheduled_at": "2026-05-18T20:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -14244,6 +14244,14 @@
         "peer-to-peer"
       ],
       "scheduled_at": "2026-05-18T19:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Why Conflict-Free Replicated Data Types Enable Seamless Collaborative Editing",
+      "url": "https://martinuke0.github.io/posts/2026-05-18-python-illustration-of-a-gcounter-merge/",
+      "social_hook": "title: \"Why Conflict-Free Replicated Data Types Enable Seamless Collaborative Editing\"\n\ndescription: \"Explore how Conflict‑Free Replicated Data Types (CRDTs) power real‑time collaborative editors, guaranteeing convergence without central coordination.\"\n\nsummary: \"This article explains the theory behind CRDTs, their practical benefits for collaborative editing, and real‑world libraries that make seamless co‑authoring possible.\"",
+      "tags": [],
+      "scheduled_at": "2026-05-18T20:01:38Z",
       "status": "pending"
     }
   ]
