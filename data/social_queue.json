@@ -13978,7 +13978,7 @@
         "handlers"
       ],
       "scheduled_at": "2026-05-18T00:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "The Thread Safety Tradeoffs of Epoch Based Reclamation",
