@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-18T21:01:38Z",
+  "last_scheduled_at": "2026-05-18T22:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -14266,6 +14266,20 @@
         "path-compression"
       ],
       "scheduled_at": "2026-05-18T21:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "How jemalloc Balances Arenas Against Thread Caches",
+      "url": "https://martinuke0.github.io/posts/2026-05-18-how-jemalloc-balances-arenas-against-thread-caches/",
+      "social_hook": "> TL;DR — jemalloc isolates allocation activity into multiple arenas and pairs each arena with per‑thread caches. The allocator dynamically balances these structures to keep lock contention low while preserving memory locality, and developers can tune the balance with a handful of runtime knobs.\n\njemalloc has become the default memory allocator for many high‑performance servers, containers, and language runtimes because it can scale to thousands of threads without the bottlenecks that plagued older allocators. At the heart of that scalability lies a two‑layered design: arenas, which own large chunks of virtual memory and serialize bulk operations, and thread caches, which provide lock‑free fast‑path allocation for each thread. Understanding how these two layers interact—and how jemalloc continuously rebalances them—lets you diagnose latency spikes, trim memory footprints, and squeeze out extra throughput.\n\nAn arena in jemalloc is a logical heap that owns a set of memory chunks (typically 4 MiB each). Each arena has its own mutex‑protected data structures:",
+      "tags": [
+        "jemalloc",
+        "memory allocation",
+        "performance",
+        "multithreading",
+        "caching"
+      ],
+      "scheduled_at": "2026-05-18T22:01:38Z",
       "status": "pending"
     }
   ]
