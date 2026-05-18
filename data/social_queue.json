@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-18T13:01:38Z",
+  "last_scheduled_at": "2026-05-18T14:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -14160,6 +14160,20 @@
         "distributed-systems"
       ],
       "scheduled_at": "2026-05-18T13:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "How the MESI Protocol Resolves Stale Cache States",
+      "url": "https://martinuke0.github.io/posts/2026-05-18-how-the-mesi-protocol-resolves-stale-cache-states/",
+      "social_hook": "> TL;DR — The MESI protocol adds four well‑defined states (Modified, Exclusive, Shared, Invalid) to each cache line, letting cores coordinate reads and writes without ever serving stale data. By broadcasting intent on a shared bus (or via a directory), MESI forces a line into the Invalid state before another core can write, guaranteeing that every core sees the most recent value.\n\nModern processors rely on on‑chip caches to bridge the speed gap between the CPU core and main memory. When several cores share a memory region, stale data can appear if each core keeps its own private copy without coordination. The MESI protocol—short for Modified, Exclusive, Shared, Invalid—is the industry‑standard coherence mechanism that ensures every core observes the latest value while still benefiting from fast cache hits. This article unpacks the protocol’s four states, walks through read/write scenarios, and shows concrete code examples that illustrate how stale cache states are eliminated in practice.\n\nA cache line is the smallest unit of data that a CPU can move between memory hierarchy levels. Typical line sizes are 64 bytes on x86‑64 architectures, meaning that any load or store operation touches the whole 64‑byte block, even if the program accesses a single byte inside it. This granularity is what makes caches fast—large chunks are transferred in one bus transaction—but also what creates the potential for stale data when multiple cores hold copies of the same line.",
+      "tags": [
+        "MESI",
+        "Cache Coherence",
+        "CPU Architecture",
+        "Multicore",
+        "Performance"
+      ],
+      "scheduled_at": "2026-05-18T14:01:38Z",
       "status": "pending"
     }
   ]
