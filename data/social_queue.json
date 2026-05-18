@@ -13992,7 +13992,7 @@
         "systems-programming"
       ],
       "scheduled_at": "2026-05-18T01:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "How Random Timers Prevent Deadlock in Raft Leader Elections",
