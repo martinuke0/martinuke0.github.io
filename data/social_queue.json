@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-18T05:01:38Z",
+  "last_scheduled_at": "2026-05-18T06:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -14048,6 +14048,20 @@
         "Internet"
       ],
       "scheduled_at": "2026-05-18T05:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "The Geometric Intuition Behind Elliptic Curve Cryptography Basics",
+      "url": "https://martinuke0.github.io/posts/2026-05-18-the-geometric-intuition-behind-elliptic-curve-cryptography-basics/",
+      "social_hook": "> TL;DR — Elliptic curve cryptography (ECC) relies on a simple geometric operation: adding two points on a smooth curve by drawing a line, finding its third intersection, and reflecting it. This group law creates a hard-to-reverse “scalar multiplication” that underpins modern public‑key security.\n\nElliptic curves look like elegant, looping graphs on a piece of paper, but they conceal a powerful algebraic structure that makes them ideal for cryptography. In this post we unpack the geometry that defines the ECC group law, show why that geometry translates into computational hardness, and give a concrete Python illustration of the core operations. By the end you’ll see how a handful of lines and reflections on a curve become the backbone of secure communications on the internet.\n\nIn the context of cryptography we work over a finite field 𝔽ₚ (prime field) or 𝔽₂ⁿ (binary field). An elliptic curve E over a field K is the set of solutions (x, y) to the Weierstrass equation",
+      "tags": [
+        "cryptography",
+        "elliptic curves",
+        "math",
+        "security",
+        "geometry"
+      ],
+      "scheduled_at": "2026-05-18T06:01:38Z",
       "status": "pending"
     }
   ]
