@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-18T07:01:38Z",
+  "last_scheduled_at": "2026-05-18T08:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -14076,6 +14076,20 @@
         "performance"
       ],
       "scheduled_at": "2026-05-18T07:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Where Extents Outperform Traditional Block Allocation Strategies",
+      "url": "https://martinuke0.github.io/posts/2026-05-18-where-extents-outperform-traditional-block-allocation-strategies/",
+      "social_hook": "> TL;DR — Extents group many contiguous blocks into a single descriptor, slashing metadata, cutting fragmentation, and speeding up reads/writes. In workloads with large files or high concurrency, extent‑based filesystems such as XFS, ext4, and NTFS consistently outperform traditional contiguous, linked, or indexed allocation.\n\nModern storage stacks are built on the assumption that a file’s data can be scattered across a device but still be accessed quickly. The way a filesystem records where those fragments live is the allocation strategy. For decades, textbooks taught three classic schemes—contiguous, linked, and indexed allocation—each with clear pedagogical value but practical limitations at scale. Extent‑based allocation replaces the per‑block pointer model with a range model, and that simple shift yields measurable gains across CPU, memory, and I/O dimensions.\n\nBelow we unpack the theory, walk through concrete code examples, and examine real‑world filesystems that have embraced extents. By the end you’ll understand exactly when and why extents beat the older methods.",
+      "tags": [
+        "filesystems",
+        "storage",
+        "extents",
+        "block allocation",
+        "performance"
+      ],
+      "scheduled_at": "2026-05-18T08:01:38Z",
       "status": "pending"
     }
   ]
