@@ -14118,7 +14118,7 @@
         "algorithms"
       ],
       "scheduled_at": "2026-05-18T10:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Why Algebraic Effects Replace the Need for Monad Transformers",
