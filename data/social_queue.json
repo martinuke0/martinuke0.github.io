@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-18T23:01:38Z",
+  "last_scheduled_at": "2026-05-19T00:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -14294,6 +14294,20 @@
         "resilience"
       ],
       "scheduled_at": "2026-05-18T23:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "How Idris Uses Types to Verify Program Logic",
+      "url": "https://martinuke0.github.io/posts/2026-05-18-how-idris-uses-types-to-verify-program-logic/",
+      "social_hook": "> TL;DR — Idris’s dependent types let you write specifications as part of a program’s type signatures. The compiler then checks those specifications, guaranteeing properties such as array bounds, totality, and custom invariants before any code runs.\n\nIdris is a pure functional language that pushes the boundary between programming and proving. By treating types as first‑class logical propositions, Idris lets you express what a program should do directly in its type signatures. The compiler then verifies those propositions, turning many runtime errors into compile‑time guarantees. In this post we’ll unpack the core ideas behind Idris’s type‑driven verification, walk through concrete examples, and point out the tooling that makes the workflow practical.\n\nIn most languages a type is a static description that does not depend on runtime values. A `List Int` tells the compiler the list contains integers, but it says nothing about the list’s length. A dependent type is a type that can be parameterised by a value, allowing the type system to capture richer invariants.",
+      "tags": [
+        "idris",
+        "dependent-types",
+        "type-systems",
+        "program-verification",
+        "functional-programming"
+      ],
+      "scheduled_at": "2026-05-19T00:01:38Z",
       "status": "pending"
     }
   ]
