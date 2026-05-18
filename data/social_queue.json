@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-18T16:01:38Z",
+  "last_scheduled_at": "2026-05-18T17:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -14202,6 +14202,20 @@
         "indexing"
       ],
       "scheduled_at": "2026-05-18T16:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Why Query Planners Fail at Cardinality Estimation",
+      "url": "https://martinuke0.github.io/posts/2026-05-18-why-query-planners-fail-at-cardinality-estimation/",
+      "social_hook": "> TL;DR — Query planners rely on statistical shortcuts that can be stale, ignore column correlation, and oversimplify data distribution. The result is wildly inaccurate cardinality estimates, but disciplined statistics maintenance, extended statistics, and adaptive execution can dramatically reduce the pain.\n\nDatabase engines spend a surprising amount of time trying to guess how many rows a predicate will return. That guess—known as cardinality estimation—feeds every downstream decision: join order, index usage, parallelism, and even whether a query should be rewritten at all. When the estimate is off by an order of magnitude, the optimizer can pick a plan that runs minutes instead of seconds, or that exhausts memory and crashes. Understanding why planners fail at this step is essential for anyone who writes performance‑critical SQL.\n\n1. Generate candidate plans – permutations of join orders, access paths, and parallel execution strategies.",
+      "tags": [
+        "database",
+        "query-planner",
+        "cardinality-estimation",
+        "sql",
+        "performance"
+      ],
+      "scheduled_at": "2026-05-18T17:01:38Z",
       "status": "pending"
     }
   ]
