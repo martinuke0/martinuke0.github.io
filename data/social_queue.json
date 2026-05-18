@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-18T06:01:38Z",
+  "last_scheduled_at": "2026-05-18T07:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -14062,6 +14062,20 @@
         "geometry"
       ],
       "scheduled_at": "2026-05-18T06:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "The Hidden Mechanics of Lock Striping in Hash Maps",
+      "url": "https://martinuke0.github.io/posts/2026-05-18-the-hidden-mechanics-of-lock-striping-in-hash-maps/",
+      "social_hook": "> TL;DR — Lock striping splits a hash map’s internal bucket array into independently locked segments, dramatically reducing contention under parallel access. Understanding its bucket‑to‑lock mapping, memory‑visibility guarantees, and failure modes lets you tune concurrent collections for maximum throughput.\n\nConcurrent hash maps are the workhorses of modern server‑side software, from in‑memory caches to shared state in micro‑services. Their performance hinges on how they reconcile two opposing forces: fast, lock‑free reads and safe, low‑contention writes. The answer many mainstream libraries adopt is lock striping—a technique that spreads a small set of locks across a large bucket array, allowing many threads to operate on disjoint parts of the map simultaneously.\n\nBelow we unpack the hidden mechanics behind lock striping, walk through its implementation in Java’s `ConcurrentHashMap`, discuss performance trade‑offs, and surface common pitfalls that can turn a high‑throughput data structure into a hidden bottleneck.",
+      "tags": [
+        "hash maps",
+        "concurrency",
+        "lock striping",
+        "data structures",
+        "performance"
+      ],
+      "scheduled_at": "2026-05-18T07:01:38Z",
       "status": "pending"
     }
   ]
