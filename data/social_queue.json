@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-18T17:01:38Z",
+  "last_scheduled_at": "2026-05-18T18:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -14216,6 +14216,20 @@
         "performance"
       ],
       "scheduled_at": "2026-05-18T17:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "When Reader-Writer Locks Leave Your Writers Starving",
+      "url": "https://martinuke0.github.io/posts/2026-05-18-when-reader-writer-locks-leave-your-writers-starving/",
+      "social_hook": "> TL;DR — Reader‑writer locks boost read parallelism but can let writers wait indefinitely when reads dominate. Detect starvation with lock‑wait metrics, then apply writer‑preference policies, upgradeable locks, or entirely different synchronization primitives to keep your system responsive.\n\nIn many high‑throughput services, the temptation to replace a simple mutex with a reader‑writer lock is strong: reads are cheap, writes are rare, and the theory promises more parallelism. In practice, however, the “rare writes” assumption can break down under load, leading to a subtle but dangerous condition known as writer starvation. This article walks through the mechanics of the problem, shows how to spot it in production, and presents concrete strategies—complete with code snippets—for ensuring your writers never go hungry.\n\nA reader‑writer lock (sometimes called a shared‑exclusive lock) allows multiple threads to hold the lock in shared (read) mode simultaneously, while exclusive (write) mode is granted to only one thread at a time. The classic contract is:",
+      "tags": [
+        "concurrency",
+        "locks",
+        "performance",
+        "python",
+        "java"
+      ],
+      "scheduled_at": "2026-05-18T18:01:38Z",
       "status": "pending"
     }
   ]
