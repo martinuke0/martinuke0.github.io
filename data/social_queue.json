@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-19T18:01:38Z",
+  "last_scheduled_at": "2026-05-19T19:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -14560,6 +14560,20 @@
         "architectures"
       ],
       "scheduled_at": "2026-05-19T18:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Scaling Python Applications: Using Celery as a Distributed Task Queue for Production-Ready Workflows",
+      "url": "https://martinuke0.github.io/posts/2026-05-19-scaling-python-applications-using-celery-as-a-distributed-task-queue-for-production-ready-workflows/",
+      "social_hook": "> TL;DR — Celery lets you off‑load work to a fleet of workers, turning a monolithic Python service into a horizontally scalable system. By picking the right broker, configuring worker concurrency, and wiring in Prometheus‑based observability, you can run Celery at internet scale with predictable latency and graceful failure handling.\n\nIn modern Python services, the need to execute CPU‑bound or I/O‑bound work outside the request thread is no longer optional—it's a prerequisite for reliability and cost efficiency. Celery has matured from a hobbyist library into the de‑facto standard for distributed task queues, powering everything from e‑commerce order pipelines to machine‑learning inference farms. This post walks through the full production stack: architecture, broker selection, worker patterns, deployment on Docker and Kubernetes, observability, and common failure modes.\n\nWhen a web request triggers a long‑running operation—sending an email, generating a PDF, or invoking a third‑party API—the latency seen by the client can explode. Synchronous handling also ties up worker threads, increasing the chance of thread‑pool exhaustion and cascading failures. A distributed task queue solves three problems simultaneously:",
+      "tags": [
+        "celery",
+        "python",
+        "distributed-systems",
+        "microservices",
+        "performance"
+      ],
+      "scheduled_at": "2026-05-19T19:01:38Z",
       "status": "pending"
     }
   ]
