@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-19T20:01:38Z",
+  "last_scheduled_at": "2026-05-19T21:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -14588,6 +14588,20 @@
         "performance"
       ],
       "scheduled_at": "2026-05-19T20:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Redash for Enterprise Analytics: Architecture, SQL Dashboards, and Production-Ready Data Visualization",
+      "url": "https://martinuke0.github.io/posts/2026-05-19-mastering-redash-for-enterprise-analytics-architecture-sql-dashboards-and-production-ready-data-visualization/",
+      "social_hook": "> TL;DR — Redash can be turned into a production‑grade analytics platform when you treat it as a set of services: a stateless web tier, a query‑execution worker pool, and a persistent data store. Deploy with Kubernetes, enforce query hygiene, and instrument monitoring to keep dashboards fast and reliable for thousands of daily users.\n\nEnterprises that rely on self‑service analytics quickly outgrow a single‑node Redash instance. The platform’s strength—letting analysts write raw SQL and instantly share results—also introduces operational challenges: query contention, credential sprawl, and unpredictable latency. This post walks through a battle‑tested architecture, concrete SQL‑dashboard patterns, and the day‑to‑day ops checklist that turns Redash from a hobby project into an enterprise analytics backbone.\n\nRedash’s core is deceptively simple: a Flask web server, a Celery worker pool, a PostgreSQL metadata store, and a Redis cache. In production you must externalize each piece, isolate failure domains, and give the platform the elasticity it needs to handle bursty query loads.",
+      "tags": [
+        "Redash",
+        "Analytics",
+        "SQL",
+        "DataVisualization",
+        "Enterprise"
+      ],
+      "scheduled_at": "2026-05-19T21:01:38Z",
       "status": "pending"
     }
   ]
