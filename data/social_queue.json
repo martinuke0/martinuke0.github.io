@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-19T14:01:38Z",
+  "last_scheduled_at": "2026-05-19T15:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -14504,6 +14504,20 @@
         "seq-lock"
       ],
       "scheduled_at": "2026-05-19T14:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Small Language Models: Pruning, Quantization, and Techniques for Local Edge Inference",
+      "url": "https://martinuke0.github.io/posts/2026-05-19-optimizing-small-language-models-pruning-quantization-and-techniques-for-local-edge-inference/",
+      "social_hook": "> TL;DR — Small language models can run on edge hardware when you combine structured pruning, aggressive quantization, and a lightweight inference stack. In practice, a 7 B model trimmed to 30 % of its original parameters and converted to INT8 can achieve sub‑100 ms latency on a modern ARM NPU while staying under 2 GB of memory.\n\nEdge inference for language models is no longer a research curiosity; it is a production requirement for privacy‑first products, low‑cost IoT assistants, and on‑device analytics pipelines. This post walks through the three pillars—pruning, quantization, and deployment architecture—that let you ship a small LLM to a Raspberry Pi, a Jetson Nano, or an Android phone without sacrificing the conversational quality that users expect.\n\n1. Data sovereignty – Keeping user prompts on‑device eliminates the need to transmit raw text to cloud APIs, reducing regulatory risk under GDPR or HIPAA.",
+      "tags": [
+        "pruning",
+        "quantization",
+        "edge-ai",
+        "language-models",
+        "production-ml"
+      ],
+      "scheduled_at": "2026-05-19T15:01:38Z",
       "status": "pending"
     }
   ]
