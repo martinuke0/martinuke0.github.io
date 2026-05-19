@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-19T21:01:38Z",
+  "last_scheduled_at": "2026-05-19T22:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -14602,6 +14602,20 @@
         "Enterprise"
       ],
       "scheduled_at": "2026-05-19T21:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Mobile Device Management for Enterprise Endpoints: Security, Policy Enforcement, and Production-Ready Deployment",
+      "url": "https://martinuke0.github.io/posts/2026-05-19-architecting-mobile-device-management-for-enterprise-endpoints-security-policy-enforcement-and-production-ready-deployment/",
+      "social_hook": "> TL;DR — Modern MDM must blend zero‑trust security, granular policy enforcement, and automated deployment pipelines. By layering a cloud‑native control plane, device‑side agents, and observability hooks, you can manage thousands of iOS, Android, and Windows endpoints with the same rigor you apply to server fleets.\n\nEnterprises today treat laptops, phones, and tablets as extensions of their data plane. A single mis‑configured device can become a foothold for ransomware or data exfiltration. Mobile Device Management (MDM) is no longer a “nice‑to‑have” add‑on; it is a core security control that must be architected, operated, and monitored with the same discipline as any production service. This post walks through a production‑ready MDM architecture, the policies that keep devices compliant, and the deployment practices that let you ship updates without interrupting the workforce.\n\n1. Regulatory pressure – GDPR, CCPA, and industry‑specific standards (HIPAA, PCI‑DSS) now require granular control over data at rest on mobile devices.",
+      "tags": [
+        "MDM",
+        "Security",
+        "Enterprise",
+        "Policy",
+        "Deployment"
+      ],
+      "scheduled_at": "2026-05-19T22:01:38Z",
       "status": "pending"
     }
   ]
