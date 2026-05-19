@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-19T15:01:38Z",
+  "last_scheduled_at": "2026-05-19T16:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -14518,6 +14518,20 @@
         "production-ml"
       ],
       "scheduled_at": "2026-05-19T15:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Distributed Python Applications with Celery: Task Queues, Workers, and Production-Ready Patterns",
+      "url": "https://martinuke0.github.io/posts/2026-05-19-architecting-distributed-python-applications-with-celery-task-queues-workers-and-production-ready-patterns/",
+      "social_hook": "> TL;DR — Celery remains a pragmatic backbone for Python‑centric microservices. By pairing a reliable broker (Redis or RabbitMQ) with idempotent tasks, autoscaling workers, and systematic monitoring, you can ship fault‑tolerant distributed applications at scale.\n\nBuilding a distributed system in Python often feels like assembling a puzzle where the pieces keep moving. Celery provides the glue—an open‑source task queue that abstracts messaging, retries, and result storage. In this post we walk through a production‑grade architecture, explain the core components, and share patterns that keep latency low, failures predictable, and operations observable.\n\nEven after a decade of alternatives (Temporal, Dramatiq, RQ), Celery enjoys a unique combination of:",
+      "tags": [
+        "celery",
+        "python",
+        "distributed-systems",
+        "task-queues",
+        "devops"
+      ],
+      "scheduled_at": "2026-05-19T16:01:38Z",
       "status": "pending"
     }
   ]
