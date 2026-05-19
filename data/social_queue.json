@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-20T05:01:38Z",
+  "last_scheduled_at": "2026-05-20T06:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -14714,6 +14714,20 @@
         "systems"
       ],
       "scheduled_at": "2026-05-20T05:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing WebGPU-Accelerated Quantization for Local Llama Inference: A Deep Dive into Browser-Based Performance",
+      "url": "https://martinuke0.github.io/posts/2026-05-19-implementing-webgpu-accelerated-quantization-for-local-llama-inference-a-deep-dive-into-browser-based-performance/",
+      "social_hook": "> TL;DR — By converting Llama weights to 4‑bit or 8‑bit formats and feeding them through a custom WebGPU compute shader, you can achieve sub‑second token generation on a mid‑range laptop GPU, all from within a standard browser. The approach hinges on careful buffer alignment, shader‑level SIMD, and a lightweight inference loop that avoids costly CPU‑GPU round‑trips.\n\nRunning large language models (LLMs) directly in the browser used to be a research curiosity; today, with WebGPU’s low‑level access to the GPU and modern quantization techniques, it’s a practical option for internal tools, demos, and even edge‑deployed products. This post walks you through the end‑to‑end pipeline: preparing quantized Llama weights, designing a compute‑shader‑centric inference engine, and measuring real‑world latency on a typical consumer device. All code samples are runnable in Chrome 124+ or any browser that ships the WebGPU flag.\n\nWebGPU is the successor to WebGL, exposing a Vulkan‑like API to JavaScript and TypeScript. Unlike WebGL’s graphics‑first mindset, WebGPU is built for general‑purpose compute, giving developers:",
+      "tags": [
+        "WebGPU",
+        "Llama",
+        "Quantization",
+        "Browser",
+        "Performance"
+      ],
+      "scheduled_at": "2026-05-20T06:01:38Z",
       "status": "pending"
     }
   ]
