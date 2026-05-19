@@ -14518,7 +14518,7 @@
         "production-ml"
       ],
       "scheduled_at": "2026-05-19T15:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Architecting Distributed Python Applications with Celery: Task Queues, Workers, and Production-Ready Patterns",
