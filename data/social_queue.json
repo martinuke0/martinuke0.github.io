@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-19T08:01:38Z",
+  "last_scheduled_at": "2026-05-19T09:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -14420,6 +14420,20 @@
         "programming"
       ],
       "scheduled_at": "2026-05-19T08:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Why Snapshots Prevent Database Locking During Concurrent Reads",
+      "url": "https://martinuke0.github.io/posts/2026-05-19-why-snapshots-prevent-database-locking-during-concurrent-reads/",
+      "social_hook": "> TL;DR — Snapshot isolation (often built on MVCC) gives each reader a consistent view of the data without acquiring shared locks. Because reads operate on a point‑in‑time version chain, they never block writers, and writers never block readers, dramatically reducing lock contention in high‑concurrency workloads.\n\nDatabases that rely on row‑level locking can quickly become bottlenecks when many clients issue overlapping read queries. Modern engines solve this problem by taking snapshots of the data state at transaction start, allowing reads to proceed without waiting for locks. This article explains the theory behind snapshots, how they are implemented in popular RDBMSs, and why they effectively prevent locking during concurrent reads.\n\nLocks are a concurrency control primitive that enforce serializability—the guarantee that the outcome of concurrent transactions is equivalent to some sequential order. In a traditional two‑phase locking (2PL) system, a transaction:",
+      "tags": [
+        "database",
+        "snapshot",
+        "concurrency",
+        "isolation",
+        "locking"
+      ],
+      "scheduled_at": "2026-05-19T09:01:38Z",
       "status": "pending"
     }
   ]
