@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-19T23:01:38Z",
+  "last_scheduled_at": "2026-05-20T00:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -14630,6 +14630,20 @@
         "observability"
       ],
       "scheduled_at": "2026-05-19T23:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing TCP BBR Congestion Control: Optimizing Network Throughput for Production-Ready Infrastructure",
+      "url": "https://martinuke0.github.io/posts/2026-05-19-implementing-tcp-bbr-congestion-control-optimizing-network-throughput-for-production-ready-infrastructure/",
+      "social_hook": "> TL;DR — BBR (Bottleneck Bandwidth and Round‑Trip propagation time) replaces loss‑based congestion control with a model‑based approach, delivering up to 30 % higher throughput on high‑latency links. By upgrading the kernel, configuring sysctls, and wiring BBR into your Kubernetes CNI, you can achieve production‑grade performance while retaining observability through existing metrics pipelines.\n\nNetwork engineers have been chasing higher throughput for decades, but most data‑center stacks still rely on loss‑based TCP algorithms such as Cubic or Reno. Google’s BBR flips the script by estimating the path’s bottleneck bandwidth and minimum RTT, then pacing packets to match that envelope. The result is dramatically lower queuing delay and better utilization of modern high‑speed links. This post walks you through the end‑to‑end process of deploying BBR in a production environment: kernel readiness, cloud‑provider nuances, Kubernetes integration, monitoring, and real‑world tuning patterns.\n\n1. Throughput vs. latency trade‑off – Traditional loss‑based congestion control backs off aggressively when packet loss is detected, which can underutilize a 10 Gbps link that experiences occasional retransmissions. BBR’s pacing keeps the pipe full without triggering loss, improving bandwidth usage while keeping queueing delay low.",
+      "tags": [
+        "tcp",
+        "bbr",
+        "networking",
+        "performance",
+        "kubernetes"
+      ],
+      "scheduled_at": "2026-05-20T00:01:38Z",
       "status": "pending"
     }
   ]
