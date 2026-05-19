@@ -14546,7 +14546,7 @@
         "architecture"
       ],
       "scheduled_at": "2026-05-19T17:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Architecting Asynchronous Consensus Protocols for Multi-Agent Decision Engines",
