@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-20T01:01:38Z",
+  "last_scheduled_at": "2026-05-20T02:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -14658,6 +14658,20 @@
         "Head-of-Line Blocking"
       ],
       "scheduled_at": "2026-05-20T01:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Read Performance in LSM-Trees: Integrating Bloom Filters for Production-Grade Storage Engines",
+      "url": "https://martinuke0.github.io/posts/2026-05-19-optimizing-read-performance-in-lsm-trees-integrating-bloom-filters-for-production-grade-storage-engines/",
+      "social_hook": "> TL;DR — Adding a Bloom filter per SSTable can cut LSM‑tree read amplification by 70 % or more. The post walks through the data path changes, a production‑ready Go implementation, and the operational knobs you need to monitor.\n\nRead‑heavy workloads on modern storage engines—whether they serve Kafka log segments, serve time‑series data in InfluxDB, or power a high‑throughput key‑value store like RocksDB—often hit the classic LSM‑tree read amplification problem. Each logical read may probe dozens of on‑disk sorted string tables (SSTables) before finding a key or confirming its absence. Bloom filters give you a probabilistic “shortcut” that tells you, with a false‑positive rate you control, whether a key is definitely not in an SSTable. In production, that shortcut translates into lower latency, reduced I/O, and predictable tail‑latency.\n\nBelow we unpack the problem, design an integration that works with existing compaction pipelines, and share concrete metrics from a 12‑node deployment that processed 150 M reads per second.",
+      "tags": [
+        "LSM-Tree",
+        "Bloom Filter",
+        "Storage Engine",
+        "Performance",
+        "Kafka"
+      ],
+      "scheduled_at": "2026-05-20T02:01:38Z",
       "status": "pending"
     }
   ]
