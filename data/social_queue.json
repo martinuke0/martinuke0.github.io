@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-20T07:01:38Z",
+  "last_scheduled_at": "2026-05-20T08:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -14742,6 +14742,20 @@
         "runtime-engineering"
       ],
       "scheduled_at": "2026-05-20T07:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing LSM-Tree Compaction in RocksDB: A Deep Dive into Write Amplification and Performance Tuning",
+      "url": "https://martinuke0.github.io/posts/2026-05-19-optimizing-lsm-tree-compaction-in-rocksdb-a-deep-dive-into-write-amplification-and-performance-tuning/",
+      "social_hook": "> TL;DR — By adjusting RocksDB’s compaction style, level sizes, and write buffers you can cut write amplification by up to 60 % and shave milliseconds off tail latency. The post walks through the knobs, shows production‑grade configurations, and explains how to monitor the impact.\n\nRocksDB powers everything from ad‑tech pipelines to time‑series stores because its log‑structured merge‑tree (LSM‑tree) design offers high write throughput. However, the same design can generate massive write amplification when compaction is left at defaults. In this article we dissect the compaction pipeline, explain why write amplification matters, and give you a step‑by‑step recipe for tuning RocksDB in a real production environment.\n\nWrite amplification is the ratio of total bytes written to storage versus the bytes supplied by the client. In an LSM‑tree each incoming write first lands in a memtable, then is flushed as an SST file, and later merged during compaction. Every merge copies data, inflating the amount of I/O the storage subsystem sees.",
+      "tags": [
+        "RocksDB",
+        "LSM-Tree",
+        "Compaction",
+        "Performance",
+        "Database"
+      ],
+      "scheduled_at": "2026-05-20T08:01:38Z",
       "status": "pending"
     }
   ]
