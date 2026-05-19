@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-19T12:01:38Z",
+  "last_scheduled_at": "2026-05-19T13:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -14476,6 +14476,20 @@
         "crdt"
       ],
       "scheduled_at": "2026-05-19T12:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "The Mathematical Impossibility of Reaching a Perfect Consensus",
+      "url": "https://martinuke0.github.io/posts/2026-05-19-the-mathematical-impossibility-of-reaching-a-perfect-consensus/",
+      "social_hook": "> TL;DR — Perfect consensus cannot be guaranteed by any voting rule that respects basic fairness criteria. Arrow’s Impossibility Theorem and the Condorcet Paradox mathematically demonstrate that collective rationality inevitably clashes with individual preferences.\n\nIn any group—be it a boardroom, a parliament, or an online community—participants hope that a voting mechanism will translate diverse opinions into a single, universally accepted decision. Yet the mathematics of social choice tells a sobering story: when preferences are genuinely heterogeneous, no rule can simultaneously satisfy a modest set of fairness conditions without sometimes producing contradictory outcomes. This article walks through the most influential impossibility theorems, explains why they matter for real‑world decision‑making, and outlines practical ways to navigate the inevitable trade‑offs.\n\nConsensus, in the strict sense, means that every participant agrees on the same outcome and that the outcome reflects the collective preferences in a logically consistent way. Mathematicians formalize this idea using preference profiles, which are matrices where each row represents an individual’s ranking of alternatives. For a set of alternatives \\\\(A = \\{a_1, a_2, \\dots, a_m\\}\\\\) and \\\\(n\\\\) voters, a profile \\\\(P\\\\) looks like:",
+      "tags": [
+        "consensus",
+        "mathematics",
+        "social choice",
+        "impossibility theorems",
+        "decision theory"
+      ],
+      "scheduled_at": "2026-05-19T13:01:38Z",
       "status": "pending"
     }
   ]
