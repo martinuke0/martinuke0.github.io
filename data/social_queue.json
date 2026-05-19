@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-19T22:01:38Z",
+  "last_scheduled_at": "2026-05-19T23:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -14616,6 +14616,20 @@
         "Deployment"
       ],
       "scheduled_at": "2026-05-19T22:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Deep Dive into Tail Latency: Avoiding the Little's Law Trap in High-Throughput Systems",
+      "url": "https://martinuke0.github.io/posts/2026-05-19-deep-dive-into-tail-latency-avoiding-the-little/",
+      "social_hook": "> TL;DR — Little's Law smooths over the long tail, so you must measure and engineer for the 99th‑percentile. Use queue‑length monitoring, request‑level tracing, and hedged requests to keep tail latency under control.\n\nHigh‑throughput services—think Kafka ingest pipelines, real‑time recommendation engines, or API gateways handling millions of requests per second—are judged by two numbers: throughput (requests per second) and average latency. That pair feels safe because Little’s Law (L = λ × W) promises a tidy relationship: if you know any two, you can infer the third. In practice, however, the tail of the latency distribution can explode while the average stays within SLA, and the law silently masks the problem. This post unpacks why the “Little’s Law trap” is dangerous, shows how to surface the tail, and presents production‑grade patterns (including concrete architecture snippets) that keep 99th‑percentile latency under control.\n\nThe law holds regardless of arrival distribution, service discipline, or network topology, as long as the system is stable (λ < service capacity) and the averages exist. That universality is why engineers love it—plug in your observed throughput and average latency, and you get an estimate of queue depth.",
+      "tags": [
+        "latency",
+        "little's law",
+        "high-throughput",
+        "distributed systems",
+        "observability"
+      ],
+      "scheduled_at": "2026-05-19T23:01:38Z",
       "status": "pending"
     }
   ]
