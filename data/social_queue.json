@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-19T17:01:38Z",
+  "last_scheduled_at": "2026-05-19T18:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -14546,6 +14546,20 @@
         "architecture"
       ],
       "scheduled_at": "2026-05-19T17:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Asynchronous Consensus Protocols for Multi-Agent Decision Engines",
+      "url": "https://martinuke0.github.io/posts/2026-05-19-architecting-asynchronous-consensus-protocols-for-multi-agent-decision-engines/",
+      "social_hook": "> TL;DR — Asynchronous consensus lets multi‑agent decision engines stay responsive while still guaranteeing agreement. By combining leader‑less gossip, quorum‑based Raft tweaks, and CRDTs, you can build a fault‑tolerant system that survives network partitions, node crashes, and slow learners without sacrificing latency.\n\nRunning a decision engine that coordinates dozens—or thousands—of autonomous agents is a classic distributed‑systems challenge. Traditional synchronous protocols (e.g., classic Paxos) stall the whole pipeline when any participant lags, which is unacceptable for real‑time pricing, fraud detection, or ad‑tech workloads. This post walks through the architectural choices, concrete implementation steps, and production‑grade fault‑tolerance patterns that let you run an asynchronous consensus layer on top of modern message‑bus platforms such as Kafka or NATS. We’ll see how to blend proven algorithms (Raft, gossip, CRDTs) with practical engineering tricks—circuit breakers, exponential back‑off, snapshotting—so your multi‑agent engine stays alive even when the network does not.\n\nMulti‑agent decision engines (MADEs) are the glue that turns streams of sensor data, user events, or market feeds into coordinated actions. Typical characteristics include:",
+      "tags": [
+        "consensus",
+        "asynchronous",
+        "fault-tolerance",
+        "distributed-systems",
+        "architectures"
+      ],
+      "scheduled_at": "2026-05-19T18:01:38Z",
       "status": "pending"
     }
   ]
