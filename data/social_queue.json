@@ -14560,7 +14560,7 @@
         "architectures"
       ],
       "scheduled_at": "2026-05-19T18:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Scaling Python Applications: Using Celery as a Distributed Task Queue for Production-Ready Workflows",
