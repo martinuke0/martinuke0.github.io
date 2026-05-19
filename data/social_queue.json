@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-19T13:01:38Z",
+  "last_scheduled_at": "2026-05-19T14:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -14490,6 +14490,20 @@
         "decision theory"
       ],
       "scheduled_at": "2026-05-19T13:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "How Sequence Locks Achieve Optimistic Reads in the Linux Kernel",
+      "url": "https://martinuke0.github.io/posts/2026-05-19-how-sequence-locks-achieve-optimistic-reads-in-the-linux-kernel/",
+      "social_hook": "> TL;DR — Sequence locks (seqlocks) let writers serialize updates with a simple counter while readers perform lock‑free, optimistic reads that are validated by checking the counter before and after the read. The pattern yields very low read‑side overhead, making it ideal for high‑frequency, read‑heavy kernel data such as statistics or per‑CPU counters.\n\nIn the Linux kernel, data structures that are read far more often than they are written can become bottlenecks when protected by traditional spinlocks or mutexes. Sequence locks (often abbreviated as seqlocks) were introduced to address this imbalance by allowing readers to proceed without taking a lock, trusting that a quick validation step will catch any concurrent write. This article unpacks the design, the kernel APIs, real‑world usage patterns, and the trade‑offs you need to consider before reaching for a seqlock.\n\nKernel subsystems—networking, scheduler statistics, filesystem metadata—frequently expose counters or small structs that many CPUs read each tick. When those structures are protected by a spinlock, each read incurs:",
+      "tags": [
+        "linux",
+        "kernel",
+        "synchronization",
+        "optimistic-locking",
+        "seq-lock"
+      ],
+      "scheduled_at": "2026-05-19T14:01:38Z",
       "status": "pending"
     }
   ]
