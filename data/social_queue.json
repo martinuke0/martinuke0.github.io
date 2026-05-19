@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-19T05:01:38Z",
+  "last_scheduled_at": "2026-05-19T06:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -14378,6 +14378,20 @@
         "performance"
       ],
       "scheduled_at": "2026-05-19T05:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Where TCP Transmission Speed Meets the Congestion Window Boundary",
+      "url": "https://martinuke0.github.io/posts/2026-05-19-where-tcp-transmission-speed-meets-the-congestion-window-boundary/",
+      "social_hook": "> TL;DR — TCP’s transmission speed is bounded by the congestion window (cwnd). Understanding how cwnd grows, shrinks, and interacts with RTT, MSS, and loss events lets you tune the stack for higher throughput without risking congestion collapse.\n\nTCP is the workhorse of the Internet, delivering reliable, ordered streams of bytes over an unreliable packet network. Its reliability comes from a set of control mechanisms that adapt the sending rate to the prevailing network conditions. Central among those mechanisms is the congestion window (`cwnd`), a software‑only counter that limits the amount of unacknowledged data a sender may have “in flight”. When the sender’s data rate pushes against the cwnd boundary, the network’s capacity, latency, and loss characteristics dictate whether throughput will increase, stay flat, or collapse.\n\n Explain the mathematical relationship between `cwnd`, Maximum Segment Size (MSS), and Round‑Trip Time** (RTT).",
+      "tags": [
+        "TCP",
+        "CongestionControl",
+        "Networking",
+        "Performance",
+        "Linux"
+      ],
+      "scheduled_at": "2026-05-19T06:01:38Z",
       "status": "pending"
     }
   ]
