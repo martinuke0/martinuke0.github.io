@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-20T04:01:38Z",
+  "last_scheduled_at": "2026-05-20T05:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -14700,6 +14700,20 @@
         "observability"
       ],
       "scheduled_at": "2026-05-20T04:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Deep Dive into jemalloc Arenas and Thread Caches: Architecture, Scalability, and Memory Management Patterns",
+      "url": "https://martinuke0.github.io/posts/2026-05-19-deep-dive-into-jemalloc-arenas-and-thread-caches-architecture-scalability-and-memory-management-patterns/",
+      "social_hook": "> TL;DR — jemalloc isolates allocation work into per‑thread caches (tcaches) backed by per‑CPU arenas, dramatically reducing lock contention. By configuring arena count, tcache size, and NUMA policies you can achieve linear scalability on modern servers, but mis‑tuning can lead to fragmentation and hidden latency spikes.\n\njemalloc has become the de‑facto allocator for many high‑performance services—Facebook, Redis, and many cloud‑native workloads rely on its predictable latency and scalability. While the library’s API is simple (`malloc`, `free`, `realloc`), the magic happens under the hood: a hierarchy of arenas, each with its own thread cache (tcache). Understanding this hierarchy lets you diagnose memory‑related bottlenecks, tune for NUMA‑aware workloads, and avoid common pitfalls that turn a fast allocator into a silent performance killer.\n\njemalloc is a general‑purpose memory allocator written in C, originally developed for the FreeBSD project and later adopted by large‑scale services for its low fragmentation, deterministic latency, and built‑in profiling tools. Unlike the default libc `malloc`, jemalloc decouples allocation from deallocation through a multi‑level hierarchy:",
+      "tags": [
+        "jemalloc",
+        "memory-management",
+        "performance",
+        "c++",
+        "systems"
+      ],
+      "scheduled_at": "2026-05-20T05:01:38Z",
       "status": "pending"
     }
   ]
