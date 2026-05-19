@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-19T07:01:38Z",
+  "last_scheduled_at": "2026-05-19T08:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -14406,6 +14406,20 @@
         "debugging"
       ],
       "scheduled_at": "2026-05-19T07:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "When Recursion Stops Using the Stack: Tail Calls, Trampolines, and Iterative Transformations",
+      "url": "https://martinuke0.github.io/posts/2026-05-19-when-recursion-stops-using-the-stack-tail-calls-trampolines-and-iterative-transformations/",
+      "social_hook": "> TL;DR — Recursive functions normally consume a stack frame per call, but tail‑call optimization, trampolines, and explicit iteration can eliminate that growth. Modern compilers and some runtimes implement TCO automatically, while other languages require manual transformation.\n\nRecursion is beloved for its elegance: a complex problem becomes a simple self‑reference. Yet every recursive call pushes a new frame onto the call stack, and deep recursion can trigger a stack overflow. Developers therefore need to understand where recursion stops using the stack, what language/runtime support exists, and how to rewrite code when the support is absent. This article unpacks the theory, shows concrete examples in Python, JavaScript, and C, and provides actionable guidelines for writing stack‑safe recursive code.\n\nWhen a function is invoked, the runtime allocates a stack frame (or activation record) that stores:",
+      "tags": [
+        "recursion",
+        "tail-call",
+        "trampoline",
+        "performance",
+        "programming"
+      ],
+      "scheduled_at": "2026-05-19T08:01:38Z",
       "status": "pending"
     }
   ]
