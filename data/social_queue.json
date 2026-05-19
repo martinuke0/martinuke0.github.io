@@ -14406,7 +14406,7 @@
         "debugging"
       ],
       "scheduled_at": "2026-05-19T07:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "When Recursion Stops Using the Stack: Tail Calls, Trampolines, and Iterative Transformations",
