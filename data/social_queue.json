@@ -14504,7 +14504,7 @@
         "seq-lock"
       ],
       "scheduled_at": "2026-05-19T14:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Optimizing Small Language Models: Pruning, Quantization, and Techniques for Local Edge Inference",
