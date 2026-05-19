@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-19T11:01:38Z",
+  "last_scheduled_at": "2026-05-19T12:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -14462,6 +14462,20 @@
         "read-write-locks"
       ],
       "scheduled_at": "2026-05-19T11:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building Verifiable State Consistency Across Distributed Nodes",
+      "url": "https://martinuke0.github.io/posts/2026-05-19-building-verifiable-state-consistency-across-distributed-nodes/",
+      "social_hook": "> TL;DR — Verifiable state consistency is achieved by layering cryptographic hashes, Merkle proofs, and conflict‑free data structures on top of proven consensus protocols. The combination lets each node prove that its view of the system matches the global truth without trusting a single authority.\n\nDistributed applications—from blockchain platforms to geo‑replicated databases—must answer a simple question: Does every participant see the same state? Traditional consensus algorithms give us agreement, but they rarely expose a lightweight, verifiable proof that a remote node’s state truly matches the agreed‑upon version. This post walks through the building blocks—hash chains, Merkle trees, CRDTs, and modern consensus protocols—and shows how to stitch them together into a verifiable state layer that can be audited, debugged, and trusted by third parties.\n\nStrong consistency eliminates stale reads but incurs higher latency and coordination overhead. Eventual consistency relaxes coordination, allowing higher throughput at the price of temporary divergence. In practice, many systems adopt a hybrid model: strong for critical metadata, eventual for bulk data. Verifiable state consistency can be layered on top of either model, but the verification mechanisms differ.",
+      "tags": [
+        "distributed-systems",
+        "state-consistency",
+        "verifiable-data",
+        "merkle-trees",
+        "crdt"
+      ],
+      "scheduled_at": "2026-05-19T12:01:38Z",
       "status": "pending"
     }
   ]
