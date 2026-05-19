@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-20T06:01:38Z",
+  "last_scheduled_at": "2026-05-20T07:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -14728,6 +14728,20 @@
         "Performance"
       ],
       "scheduled_at": "2026-05-20T06:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing Concurrent Garbage Collection: Deep Dive into Tri-Color Marking for Low-Latency Memory Management",
+      "url": "https://martinuke0.github.io/posts/2026-05-19-implementing-concurrent-garbage-collection-deep-dive-into-tri-color-marking-for-low-latency-memory-management/",
+      "social_hook": "> TL;DR — Tri‑color marking lets a collector run alongside the mutator with only a few microseconds of pause per GC cycle. By preserving the white‑gray‑black invariant and using write barriers, production systems such as the HotSpot JVM and Go runtime achieve sub‑millisecond latency even at multi‑gigabyte heap sizes.\n\nConcurrent garbage collection (GC) used to be a niche research topic; today it is the default in the JVM, Go, and even experimental Rust runtimes. The secret sauce is the tri‑color algorithm, a simple yet powerful abstraction that lets a collector interleave marking work with the application's own memory writes. In this post we unpack the algorithm, walk through a reference implementation, and show how major platforms have adapted it to meet strict latency Service Level Objectives (SLOs).\n\nAt its core, tri‑color marking classifies every object in the heap into one of three sets:",
+      "tags": [
+        "garbage-collection",
+        "concurrency",
+        "tri-color",
+        "low-latency",
+        "runtime-engineering"
+      ],
+      "scheduled_at": "2026-05-20T07:01:38Z",
       "status": "pending"
     }
   ]
