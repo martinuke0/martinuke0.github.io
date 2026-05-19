@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-20T00:01:38Z",
+  "last_scheduled_at": "2026-05-20T01:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -14644,6 +14644,20 @@
         "kubernetes"
       ],
       "scheduled_at": "2026-05-20T00:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Deep Dive into QUIC Stream Multiplexing: Eliminating Head-of-Line Blocking for Low-Latency Network Architecture",
+      "url": "https://martinuke0.github.io/posts/2026-05-19-deep-dive-into-quic-stream-multiplexing-eliminating-head-of-line-blocking-for-low-latency-network-architecture/",
+      "social_hook": "> TL;DR — QUIC replaces TCP's single stream model with independent, bidirectional streams that are multiplexed over one UDP connection. Because each stream is delivered on its own flow‑control window, loss on one stream no longer stalls the others, eliminating head‑of‑line (HOL) blocking and delivering sub‑100 ms latency even under packet loss.\n\nNetwork engineers have long wrestled with HOL blocking, first in TCP and later in HTTP/2’s multiplexed streams. QUIC, standardized as RFC 9000, rewrites the transport layer to give each logical stream its own reliability guarantees while preserving the benefits of a single connection. This article unpacks the protocol mechanics, shows how they map to production architectures, and provides concrete patterns you can adopt today to squeeze latency out of latency‑sensitive services.\n\nQUIC (Quick UDP Internet Connections) is a user‑space transport protocol that runs over UDP. By moving the stack out of the kernel, providers can iterate on congestion control, loss recovery, and security without waiting for OS updates. The protocol is encrypted from the first byte, using TLS 1.3, which also eliminates the TCP three‑way handshake.",
+      "tags": [
+        "QUIC",
+        "Network Architecture",
+        "Low Latency",
+        "Stream Multiplexing",
+        "Head-of-Line Blocking"
+      ],
+      "scheduled_at": "2026-05-20T01:01:38Z",
       "status": "pending"
     }
   ]
