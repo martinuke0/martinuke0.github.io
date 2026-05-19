@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-19T09:01:38Z",
+  "last_scheduled_at": "2026-05-19T10:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -14434,6 +14434,20 @@
         "locking"
       ],
       "scheduled_at": "2026-05-19T09:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "How jemalloc Segregates Memory Between Arenas and Thread Caches",
+      "url": "https://martinuke0.github.io/posts/2026-05-19-how-jemalloc-segregates-memory-between-arenas-and-thread-caches/",
+      "social_hook": "> TL;DR — jemalloc isolates allocation work by assigning each thread a private cache that draws from a set of arenas.\n\n> This separation eliminates lock contention, improves locality, and lets developers tune both arenas and caches for predictable performance.\n\njemalloc has become the de‑facto allocator for many high‑performance services because it carefully balances scalability and latency. The secret lies in splitting the heap into arenas—coarse‑grained memory pools protected by a small number of mutexes—and thread caches, which are per‑thread, lock‑free buffers that satisfy most small allocation requests. Understanding how these two layers interact lets you diagnose fragmentation, tune throughput, and avoid surprising latency spikes.",
+      "tags": [
+        "jemalloc",
+        "memory management",
+        "arenas",
+        "thread cache",
+        "performance"
+      ],
+      "scheduled_at": "2026-05-19T10:01:38Z",
       "status": "pending"
     }
   ]
