@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-19T04:01:38Z",
+  "last_scheduled_at": "2026-05-19T05:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -14364,6 +14364,20 @@
         "security"
       ],
       "scheduled_at": "2026-05-19T04:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Why Hardware Transactional Memory Failed to Go Mainstream",
+      "url": "https://martinuke0.github.io/posts/2026-05-19-why-hardware-transactional-memory-failed-to-go-mainstream/",
+      "social_hook": "> TL;DR — Hardware transactional memory (HTM) looked like a silver bullet for concurrency, yet its unpredictable latency, high silicon overhead, and a mismatched software ecosystem prevented it from becoming mainstream.\n\nModern software increasingly relies on parallelism to squeeze performance out of multicore processors.  The promise of HTM was simple: let the hardware automatically detect conflicts between threads and roll back only the offending part, freeing programmers from manual lock management.  In theory this would make lock‑free code as easy to write as ordinary sequential code.  In practice, a combination of technical, economic, and ecosystem factors kept HTM on the sidelines of mainstream computing.\n\nHardware transactional memory is a set of CPU extensions that allow a sequence of memory accesses to be executed atomically, much like a software transaction in a database.  The processor monitors the read‑ and write‑sets of the transaction; if another core writes to a location that the transaction has read, the hardware aborts the transaction, rolls back any speculative writes, and optionally retries.",
+      "tags": [
+        "hardware transactional memory",
+        "computer architecture",
+        "parallel programming",
+        "software engineering",
+        "performance"
+      ],
+      "scheduled_at": "2026-05-19T05:01:38Z",
       "status": "pending"
     }
   ]
