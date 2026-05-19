@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-19T10:01:38Z",
+  "last_scheduled_at": "2026-05-19T11:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -14448,6 +14448,20 @@
         "performance"
       ],
       "scheduled_at": "2026-05-19T10:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "When Continuous Read Access Starves Your Background Writers",
+      "url": "https://martinuke0.github.io/posts/2026-05-19-when-continuous-read-access-starves-your-background-writers/",
+      "social_hook": "> TL;DR — When read queries dominate a database without proper throttling or lock management, background writers can be starved, leading to stale data and performance degradation. Implement back‑pressure, appropriate isolation levels, and observability to keep both readers and writers healthy.\n\nIn modern web services, the temptation to serve every request with the freshest possible data often leads engineers to expose read‑only APIs at massive scale. While this sounds like a win for latency, the hidden cost is that background writers—batch updaters, analytics pipelines, and maintenance jobs—can be throttled to a crawl. This article dissects the mechanics of read‑induced writer starvation, illustrates real‑world failure modes, and offers a toolbox of strategies you can apply today.\n\nMost relational databases implement a form of Multi‑Version Concurrency Control (MVCC). MVCC allows readers to see a consistent snapshot while writers create new versions of rows. In theory, readers never block writers and vice‑versa. In practice, a few subtleties break this promise:",
+      "tags": [
+        "database",
+        "concurrency",
+        "performance",
+        "background-jobs",
+        "read-write-locks"
+      ],
+      "scheduled_at": "2026-05-19T11:01:38Z",
       "status": "pending"
     }
   ]
