@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-20T03:01:38Z",
+  "last_scheduled_at": "2026-05-20T04:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -14686,6 +14686,20 @@
         "scalable-architecture"
       ],
       "scheduled_at": "2026-05-20T03:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Production Rate Limiters: A Deep Dive into Token Bucket vs. Leaky Bucket Algorithms",
+      "url": "https://martinuke0.github.io/posts/2026-05-19-architecting-production-rate-limiters-a-deep-dive-into-token-bucket-vs-leaky-bucket-algorithms/",
+      "social_hook": "> TL;DR — Token bucket excels when you need burst capacity and fine‑grained throttling, while leaky bucket provides a smoother, predictable outflow. In production, combine the two with a hybrid architecture, instrument with histograms, and scale the limiter behind a distributed cache like Redis or DynamoDB.\n\nRate limiting is the unsung hero of any high‑traffic service. Whether you’re protecting a public API from abuse, smoothing traffic spikes into a downstream Kafka pipeline, or enforcing SLA‑level request quotas for internal microservices, the choice of algorithm shapes latency, resource utilization, and operational complexity. This post walks through the two classic designs—Token Bucket and Leaky Bucket—and shows how to embed them in a production‑grade architecture that scales, monitors, and recovers gracefully.\n\nBefore diving into algorithms, let’s frame the constraints that real systems face:",
+      "tags": [
+        "rate limiting",
+        "token bucket",
+        "leaky bucket",
+        "distributed systems",
+        "observability"
+      ],
+      "scheduled_at": "2026-05-20T04:01:38Z",
       "status": "pending"
     }
   ]
