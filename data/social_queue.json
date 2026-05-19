@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-19T03:01:38Z",
+  "last_scheduled_at": "2026-05-19T04:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -14350,6 +14350,20 @@
         "programming-paradigms"
       ],
       "scheduled_at": "2026-05-19T03:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Why Speculative Execution Needs Branch Prediction to Succeed",
+      "url": "https://martinuke0.github.io/posts/2026-05-19-why-speculative-execution-needs-branch-prediction-to-succeed/",
+      "social_hook": "> TL;DR — Speculative execution speeds up programs by guessing future instructions, but without accurate branch prediction the CPU would waste cycles on wrong paths. Modern processors combine sophisticated predictors with speculation to keep pipelines full, delivering performance gains while also creating exploitable side‑channels.\n\nModern processors face a fundamental dilemma: they must keep their deep pipelines busy to achieve high clock rates, yet the exact sequence of instructions cannot be known until runtime. Speculative execution, paired with branch prediction, offers a practical solution. This article explains why branch prediction is indispensable for speculation, walks through the underlying hardware mechanisms, quantifies performance benefits, and discusses the security trade‑offs that have emerged in the past decade.\n\nSpeculative execution is the practice of executing instructions before the processor knows for certain that they will be needed. When the CPU reaches a conditional branch (e.g., `if (x < y)`) it must decide which path to follow. Rather than stalling the pipeline while the condition is resolved, the processor speculatively follows one path, records the results, and later either commits them (if the guess was correct) or discards them (if the guess was wrong).",
+      "tags": [
+        "speculation",
+        "branch-prediction",
+        "cpu-architecture",
+        "performance",
+        "security"
+      ],
+      "scheduled_at": "2026-05-19T04:01:38Z",
       "status": "pending"
     }
   ]
