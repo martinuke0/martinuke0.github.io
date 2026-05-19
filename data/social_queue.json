@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-20T02:01:38Z",
+  "last_scheduled_at": "2026-05-20T03:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -14672,6 +14672,20 @@
         "Kafka"
       ],
       "scheduled_at": "2026-05-20T02:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Scalable Python Applications: Using Celery as a Distributed Task Queue for Production Pipelines",
+      "url": "https://martinuke0.github.io/posts/2026-05-19-architecting-scalable-python-applications-using-celery-as-a-distributed-task-queue-for-production-pipelines/",
+      "social_hook": "> TL;DR — Celery lets you off‑load CPU‑bound or I/O‑heavy work from the request thread, scale out workers horizontally, and survive failures with retries and result backends. By wiring Celery into a well‑defined architecture—broker, workers, result store, and observability—you can turn ad‑hoc scripts into production‑grade pipelines that handle millions of tasks per day.\n\nIn modern data‑intensive companies, Python still dominates the glue code that moves data between services, runs ML inference, or orchestrates ETL steps. However, a monolithic Flask/Django process that does everything quickly hits latency walls, runs out of memory, and becomes a single point of failure. The solution most engineering teams adopt is a distributed task queue. Celery, the de‑facto standard in the Python ecosystem, provides a battle‑tested way to delegate work to a fleet of workers, manage retries, and observe progress—all while staying agnostic to the underlying broker (RabbitMQ, Redis, SQS, etc.).\n\nThis post walks through a production‑ready architecture, explains why Celery fits the bill, and shows concrete patterns you can copy into your own pipelines. We’ll cover:",
+      "tags": [
+        "celery",
+        "python",
+        "distributed-systems",
+        "task-queue",
+        "scalable-architecture"
+      ],
+      "scheduled_at": "2026-05-20T03:01:38Z",
       "status": "pending"
     }
   ]
