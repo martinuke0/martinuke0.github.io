@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-19T06:01:38Z",
+  "last_scheduled_at": "2026-05-19T07:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -14392,6 +14392,20 @@
         "Linux"
       ],
       "scheduled_at": "2026-05-19T06:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Tracing Distributed Requests Without Losing the Thread",
+      "url": "https://martinuke0.github.io/posts/2026-05-19-tracing-distributed-requests-without-losing-the-thread/",
+      "social_hook": "> TL;DR — Traditional thread‑local tracing breaks down once a request hops between services. By propagating a lightweight context (trace‑id, span‑id, baggage) through HTTP headers, message payloads, or task queues, you can stitch together a full‑trace without ever losing the original execution thread.\n\nDistributed systems are built on the promise of scalability, but that promise comes with a hidden cost: the loss of a single, coherent execution thread. When a user request traverses dozens of services, background workers, and message brokers, the naïve assumption that “the same thread” continues to exist is false. Observability teams therefore need a systematic way to carry request identity across process and language boundaries. This post walks through the why, the how, and the common pitfalls of tracing distributed requests without losing the thread, using open standards like W3C Trace Context and practical tooling such as OpenTelemetry.\n\nIn monolithic Java or Python applications, many tracing libraries rely on thread‑local storage (TLS) to keep the current span in a global variable. The pattern looks like:",
+      "tags": [
+        "tracing",
+        "distributed-systems",
+        "observability",
+        "microservices",
+        "debugging"
+      ],
+      "scheduled_at": "2026-05-19T07:01:38Z",
       "status": "pending"
     }
   ]
