@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-19T02:01:38Z",
+  "last_scheduled_at": "2026-05-19T03:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -14336,6 +14336,20 @@
         "dotnet"
       ],
       "scheduled_at": "2026-05-19T02:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Encoding State Transitions with Phantom Types for Safety",
+      "url": "https://martinuke0.github.io/posts/2026-05-19-encoding-state-transitions-with-phantom-types-for-safety/",
+      "social_hook": "> TL;DR — Phantom types let you embed state information directly in a type’s signature, so the compiler can reject illegal transitions before the code runs. By modeling each state as a distinct type and tying transition functions to those types, you gain zero‑cost safety for complex workflows.\n\nState machines appear everywhere—from network protocols to UI wizards—but implementing them safely often relies on runtime checks that can be missed or mis‑ordered. In languages with a rich type system, you can move those checks to compile time. This article explains the theory behind phantom types, demonstrates a complete Rust implementation, and discusses the practical trade‑offs of this approach.\n\nA state machine describes a system that can be in one of a finite set of states and may transition between them in response to events. Formalizing this logic has two immediate benefits:",
+      "tags": [
+        "rust",
+        "type-safety",
+        "phantom-types",
+        "state-machine",
+        "programming-paradigms"
+      ],
+      "scheduled_at": "2026-05-19T03:01:38Z",
       "status": "pending"
     }
   ]
