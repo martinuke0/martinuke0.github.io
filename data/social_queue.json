@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-19T16:01:38Z",
+  "last_scheduled_at": "2026-05-19T17:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -14532,6 +14532,20 @@
         "devops"
       ],
       "scheduled_at": "2026-05-19T16:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing Circuit Breakers in Service Meshes: Architecture, Traffic Management, and Resiliency Patterns",
+      "url": "https://martinuke0.github.io/posts/2026-05-19-implementing-circuit-breakers-in-service-meshes-architecture-traffic-management-and-resiliency-patterns/",
+      "social_hook": "> TL;DR — Circuit breakers inside a service mesh let you isolate flaky services, protect downstream workloads, and keep latency predictable. By wiring them into the data plane (e.g., Envoy or Linkerd) you gain declarative traffic‑management, automatic fallback, and rich observability without changing application code.\n\nService meshes have become the de‑facto platform for managing inter‑service communication at scale. Yet many teams still struggle with transient failures that cascade across the graph, leading to outages that could have been contained. Implementing circuit breakers directly in the mesh gives you a language‑agnostic safety valve: the mesh watches error rates, latency, and request volume, and when thresholds are breached it short‑circuits calls before they hit the downstream service. The result is a more resilient architecture, clearer traffic‑management policies, and observability that scales with your deployment.\n\n1. Fail‑fast semantics – Downstream services that are overloaded or unhealthy respond slowly. A circuit breaker returns an error immediately, freeing client threads and keeping latency budgets intact.",
+      "tags": [
+        "service mesh",
+        "circuit breaker",
+        "resiliency",
+        "traffic management",
+        "architecture"
+      ],
+      "scheduled_at": "2026-05-19T17:01:38Z",
       "status": "pending"
     }
   ]
