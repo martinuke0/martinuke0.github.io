@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-19T01:01:38Z",
+  "last_scheduled_at": "2026-05-19T02:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -14322,6 +14322,20 @@
         "real-time-analytics"
       ],
       "scheduled_at": "2026-05-19T01:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Why Short-Lived Objects Die Young in Modern GCs",
+      "url": "https://martinuke0.github.io/posts/2026-05-19-why-short-lived-objects-die-young-in-modern-gcs/",
+      "social_hook": "> TL;DR — Modern generational garbage collectors treat most newly allocated objects as transient, reclaiming them in the young generation within milliseconds. This design reduces pause times, improves cache locality, and lets the runtime apply aggressive optimizations like stack allocation and escape analysis.\n\nIn managed runtimes such as the JVM, .NET CLR, and Go, the phrase short‑lived objects die young is more than a catchy slogan—it reflects a deliberate engineering choice. By separating memory into generations and applying heuristics that predict object longevity, these runtimes achieve low‑latency pauses while still delivering high throughput. Understanding the why and how behind this behavior equips developers to write code that works with the collector rather than against it.\n\nMost high‑performance runtimes adopt a generational model, dividing the heap into at least two logical regions:",
+      "tags": [
+        "garbage-collection",
+        "memory-management",
+        "performance",
+        "java",
+        "dotnet"
+      ],
+      "scheduled_at": "2026-05-19T02:01:38Z",
       "status": "pending"
     }
   ]
