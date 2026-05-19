@@ -14490,7 +14490,7 @@
         "decision theory"
       ],
       "scheduled_at": "2026-05-19T13:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "How Sequence Locks Achieve Optimistic Reads in the Linux Kernel",
