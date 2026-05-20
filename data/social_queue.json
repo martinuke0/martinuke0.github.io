@@ -14784,7 +14784,7 @@
         "architecture"
       ],
       "scheduled_at": "2026-05-20T10:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Implementing Concurrent Garbage Collection: A Deep Dive into Tri-Color Marking and Barrier Techniques",
