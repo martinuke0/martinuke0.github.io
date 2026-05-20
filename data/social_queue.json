@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-20T09:01:38Z",
+  "last_scheduled_at": "2026-05-20T10:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -14770,6 +14770,20 @@
         "devops"
       ],
       "scheduled_at": "2026-05-20T09:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Log-Structured Merge Trees for Write-Intensive Distributed Databases",
+      "url": "https://martinuke0.github.io/posts/2026-05-20-optimizing-log-structured-merge-trees-for-write-intensive-distributed-databases/",
+      "social_hook": "> TL;DR — In write‑intensive distributed databases, LSM trees achieve high throughput by separating mutable memtables from immutable SSTables, but careful architecture choices, adaptive compaction policies, and observability are essential to keep read latency and storage overhead in check.\n\nWrite‑heavy workloads dominate modern services such as telemetry ingestion, event streaming, and ad‑tech pipelines. Log‑Structured Merge (LSM) trees have become the de‑facto storage engine for systems that must sustain millions of writes per second while still serving low‑latency reads. This post unpacks the architecture of a distributed LSM, quantifies its performance characteristics, and walks through the compaction patterns that keep the system healthy at scale. All examples reference production‑grade stacks—RocksDB, Apache Cassandra, and ScyllaDB—so you can see how the theory translates into day‑to‑day ops.\n\n1. Memtable (in‑memory mutable structure) – usually a skip‑list or a balanced tree that accepts writes instantly.",
+      "tags": [
+        "LSM",
+        "distributed databases",
+        "performance",
+        "compaction",
+        "architecture"
+      ],
+      "scheduled_at": "2026-05-20T10:01:38Z",
       "status": "pending"
     }
   ]
