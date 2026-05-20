@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-21T06:01:38Z",
+  "last_scheduled_at": "2026-05-21T07:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -15065,6 +15065,20 @@
         "PerformanceEngineering"
       ],
       "scheduled_at": "2026-05-21T06:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Go for Modern Backend Engineering: Architecture, Concurrent Services, and Production-Ready Patterns",
+      "url": "https://martinuke0.github.io/posts/2026-05-20-mastering-go-for-modern-backend-engineering-architecture-concurrent-services-and-production-ready-patterns/",
+      "social_hook": "> TL;DR — Go’s static typing, goroutine model, and built‑in tooling let you craft high‑performance microservice backends that are easy to operate. Adopt patterns like worker pools, context‑driven cancellation, and structured logging to move from prototype to production.\n\nGo has become the de‑facto language for many cloud‑native teams because it strikes a rare balance between developer productivity and runtime efficiency. In this post we’ll walk through the architectural decisions, concurrency patterns, and production‑ready practices that let you turn a simple Go binary into a resilient, scalable backend service. Real‑world examples from projects that serve millions of requests per day will illustrate each concept.\n\nThe language’s design encourages a “single binary, many services” mindset, which dovetails nicely with container orchestration platforms like Kubernetes.",
+      "tags": [
+        "go",
+        "backend",
+        "architecture",
+        "concurrency",
+        "production"
+      ],
+      "scheduled_at": "2026-05-21T07:01:38Z",
       "status": "pending"
     }
   ]
