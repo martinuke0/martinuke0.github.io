@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-20T21:01:38Z",
+  "last_scheduled_at": "2026-05-20T22:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -14938,6 +14938,20 @@
         "microservices"
       ],
       "scheduled_at": "2026-05-20T21:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing Liter-LLM: Architecting Rust-Powered Polyglot Bindings for Multi-Provider LLM Integration at Scale",
+      "url": "https://martinuke0.github.io/posts/2026-05-20-implementing-liter-llm-architecting-rust-powered-polyglot-bindings-for-multi-provider-llm-integration-at-scale/",
+      "social_hook": "> TL;DR — Liter‑LLM wraps OpenAI, Anthropic, and Hugging Face APIs behind a single, type‑safe Rust core. By exposing thin FFI bindings for Python, Go, and JavaScript, teams can call any provider from their preferred language while the Rust engine handles connection pooling, rate‑limit enforcement, and observability at scale.\n\nIn modern AI‑first products, the “one‑provider‑fits‑all” assumption quickly crumbles. Teams need to switch providers for cost, latency, or feature reasons without rewriting business logic. Liter‑LLM is a production‑grade solution that centralises LLM orchestration in Rust—leveraging its performance, memory safety, and ecosystem—while offering polyglot bindings so engineers can stay in the language they love.\n\n1. Cost optimisation – OpenAI’s pricing spikes during high‑traffic events, while a local Hugging Face inference endpoint can be run on spot instances for a fraction of the cost.",
+      "tags": [
+        "rust",
+        "llm",
+        "api",
+        "polyglot",
+        "scalability"
+      ],
+      "scheduled_at": "2026-05-20T22:01:38Z",
       "status": "pending"
     }
   ]
