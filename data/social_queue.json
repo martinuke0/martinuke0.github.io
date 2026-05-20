@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-21T00:01:38Z",
+  "last_scheduled_at": "2026-05-21T01:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -14980,6 +14980,20 @@
         "production"
       ],
       "scheduled_at": "2026-05-21T00:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Celery: Scaling Distributed Task Queues for Production-Ready Python Application Architecture",
+      "url": "https://martinuke0.github.io/posts/2026-05-20-mastering-celery-scaling-distributed-task-queues-for-production-ready-python-application-architecture/",
+      "social_hook": "> TL;DR — Celery remains the go‑to solution for Python‑based asynchronous workloads when you pair a robust broker (Redis or RabbitMQ) with a well‑designed worker topology, observability stack, and Kubernetes‑native deployment. Follow the patterns below to move from a single‑process demo to a resilient, horizontally‑scalable production system.\n\nCelery powers everything from email newsletters at startups to data‑pipeline orchestration at Fortune‑500 firms. Yet many teams treat it as a black box, adding workers ad‑hoc and hoping monitoring will catch the rest. This post unpacks Celery’s internals, shows how to choose the right broker, demonstrates production‑grade deployment on Kubernetes, and provides concrete patterns for scaling, retrying, and observing tasks in real time.\n\n1. Mature ecosystem – Over a decade of battle‑tested extensions (flower, celery‑beat, django‑celery‑results) keep the library relevant.",
+      "tags": [
+        "celery",
+        "python",
+        "distributed-systems",
+        "task-queue",
+        "scalability"
+      ],
+      "scheduled_at": "2026-05-21T01:01:38Z",
       "status": "pending"
     }
   ]
