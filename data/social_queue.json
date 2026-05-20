@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-20T11:01:38Z",
+  "last_scheduled_at": "2026-05-20T12:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -14798,6 +14798,20 @@
         "systems-engineering"
       ],
       "scheduled_at": "2026-05-20T11:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting LiteLLM with Rust: Building High-Performance Polyglot Bindings for Multi-Provider LLM Orchestration",
+      "url": "https://martinuke0.github.io/posts/2026-05-20-architecting-litellm-with-rust-building-high-performance-polyglot-bindings-for-multi-provider-llm-orchestration/",
+      "social_hook": "> TL;DR — By embedding a Rust layer inside LiteLLM you gain zero‑cost abstractions, thread‑safe async execution, and compiled‑language performance while keeping the familiar Python API. The result is a single, polyglot binding that orchestrates OpenAI, Anthropic, Azure, and custom LLM endpoints with sub‑millisecond latency overhead.\n\nLiteLLM has become the de‑facto gateway for teams that need to call many large‑language‑model (LLM) providers behind a unified HTTP API. In production, however, the Python interpreter can become a bottleneck when request rates climb into the thousands per second or when latency budgets shrink to a few hundred milliseconds. This post shows how to augment LiteLLM with a Rust‑based binding layer that delivers low‑latency, type‑safe orchestration without sacrificing the flexibility of the original Python SDK. We’ll walk through the architectural decisions, concrete Rust code, production‑grade patterns, and real‑world benchmark results.\n\nRust guarantees memory safety without a garbage collector. For a service that holds dozens of concurrent HTTP connections to remote LLM APIs, avoiding GC pauses eliminates a common source of jitter. The language’s ownership model also forces developers to think about lifetimes early, which translates into fewer runtime crashes when the service runs for weeks unattended.",
+      "tags": [
+        "rust",
+        "llm",
+        "api",
+        "microservices",
+        "cloud"
+      ],
+      "scheduled_at": "2026-05-20T12:01:38Z",
       "status": "pending"
     }
   ]
