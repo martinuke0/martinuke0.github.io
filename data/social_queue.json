@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-20T20:01:38Z",
+  "last_scheduled_at": "2026-05-20T21:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -14924,6 +14924,20 @@
         "Production"
       ],
       "scheduled_at": "2026-05-20T20:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing Effective Load Shedding Strategies: Architecture and Patterns for Resilient Systems Under Overload",
+      "url": "https://martinuke0.github.io/posts/2026-05-20-implementing-effective-load-shedding-strategies-architecture-and-patterns-for-resilient-systems-under-overload/",
+      "social_hook": "> TL;DR — Load shedding is a safety valve for modern distributed systems. By combining priority‑based throttling, circuit‑breaker patterns, and back‑pressure‑aware proxies such as Envoy, you can keep latency low and avoid cascading failures even when traffic spikes beyond capacity.\n\nIn high‑traffic environments, a sudden surge—whether from a flash‑sale, a bot attack, or a downstream dependency slowdown—can push services past their design limits. Without a disciplined strategy, the overload propagates, inflating latency, exhausting thread pools, and eventually taking the entire system offline. This post walks through concrete load‑shedding architectures, production‑tested patterns, and step‑by‑step implementations using Kafka, Envoy, and Kubernetes. By the end you’ll have a reusable blueprint you can adapt to any microservice stack.\n\nLoad shedding is the act of deliberately rejecting or deferring work when a system is saturated. The goal is not to “solve” the overload but to protect core functionality and maintain graceful degradation.",
+      "tags": [
+        "load shedding",
+        "resilience",
+        "architecture",
+        "patterns",
+        "microservices"
+      ],
+      "scheduled_at": "2026-05-20T21:01:38Z",
       "status": "pending"
     }
   ]
