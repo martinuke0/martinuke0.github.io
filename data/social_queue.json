@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-20T10:01:38Z",
+  "last_scheduled_at": "2026-05-20T11:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -14784,6 +14784,20 @@
         "architecture"
       ],
       "scheduled_at": "2026-05-20T10:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing Concurrent Garbage Collection: A Deep Dive into Tri-Color Marking and Barrier Techniques",
+      "url": "https://martinuke0.github.io/posts/2026-05-20-implementing-concurrent-garbage-collection-a-deep-dive-into-tri-color-marking-and-barrier-techniques/",
+      "social_hook": "> TL;DR — Tri‑color marking combined with carefully designed write barriers lets you collect garbage without stopping the world; this post shows the algorithm, barrier implementations, and how large‑scale services like Kafka Streams or GCP’s Go runtime make it work in production.\n\nConcurrent garbage collection (GC) is no longer a luxury for experimental languages; it is a production requirement for services that must stay online while reclaiming memory. Engineers building high‑throughput back‑ends—think Kafka, Aerospike, or the Go runtime on GCP—need a collector that can run alongside mutating application threads. The classic “stop‑the‑world” mark‑and‑sweep approach guarantees correctness but incurs latency spikes that break SLAs. Tri‑color marking, paired with write barriers, provides a lock‑step mechanism that lets the collector progress while the program continues to allocate and mutate objects.\n\n1. Mark – pause all mutators, walk the object graph from roots, and set a mark bit on every reachable object.",
+      "tags": [
+        "garbage-collection",
+        "concurrency",
+        "tri-color",
+        "write-barrier",
+        "systems-engineering"
+      ],
+      "scheduled_at": "2026-05-20T11:01:38Z",
       "status": "pending"
     }
   ]
