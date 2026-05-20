@@ -14798,7 +14798,7 @@
         "systems-engineering"
       ],
       "scheduled_at": "2026-05-20T11:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Architecting LiteLLM with Rust: Building High-Performance Polyglot Bindings for Multi-Provider LLM Orchestration",
