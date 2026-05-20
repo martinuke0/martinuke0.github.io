@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-20T18:01:38Z",
+  "last_scheduled_at": "2026-05-20T19:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -14896,6 +14896,20 @@
         "observability"
       ],
       "scheduled_at": "2026-05-20T18:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Low-Latency Cross-Regional Replication for Vector Search Clusters: Strategy, Consistency, and Deployment Patterns",
+      "url": "https://martinuke0.github.io/posts/2026-05-20-architecting-low-latency-cross-regional-replication-for-vector-search-clusters-strategy-consistency-and-deployment-patterns/",
+      "social_hook": "> TL;DR — To achieve sub‑10 ms cross‑regional vector search, combine synchronous intra‑region replication with asynchronous inter‑region tail‑chasing, enforce bounded staleness via version vectors, and automate the whole stack with GitOps‑driven Kubernetes operators.\n\nEnterprises that expose AI‑powered similarity search (e.g., recommendation engines, semantic document retrieval, or visual product search) can no longer afford a single‑region deployment. Users expect instant results no matter where they are, and a regional outage must not silence the service. This post walks through a production‑ready approach: the replication strategies that keep latency low, the consistency models that make search results trustworthy, and the deployment patterns that let you roll out changes safely across continents.\n\n1. Heavy compute per query – Approximate Nearest Neighbor (ANN) algorithms such as HNSW or IVF‑PQ require traversing graph structures or scanning inverted lists, which already consumes a few milliseconds on a modern CPU/GPU. Adding network latency can push the tail latency beyond acceptable thresholds for interactive UI or real‑time recommendation loops.",
+      "tags": [
+        "vector-search",
+        "replication",
+        "low-latency",
+        "cloud-architecture",
+        "kubernetes"
+      ],
+      "scheduled_at": "2026-05-20T19:01:38Z",
       "status": "pending"
     }
   ]
