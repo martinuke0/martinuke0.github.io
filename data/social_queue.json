@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-21T05:01:38Z",
+  "last_scheduled_at": "2026-05-21T06:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -15051,6 +15051,20 @@
         "data-consistency"
       ],
       "scheduled_at": "2026-05-21T05:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing LSM-Tree Read Performance: A Deep Dive into Bloom Filter Architecture and Implementation",
+      "url": "https://martinuke0.github.io/posts/2026-05-20-optimizing-lsm-tree-read-performance-a-deep-dive-into-bloom-filter-architecture-and-implementation/",
+      "social_hook": "> TL;DR — Bloom filters are the low‑overhead gatekeeper that can cut LSM‑tree point‑lookup latency by 30‑80 % when tuned correctly. This post explains the filter’s internals, shows how RocksDB and Cassandra wire them into their compaction pipelines, and gives concrete knobs you can adjust in production.\n\nModern key‑value stores such as RocksDB, Cassandra, and ScyllaDB all rely on the Log‑Structured Merge (LSM) tree to achieve high write throughput. The trade‑off is that reads must probe multiple sorted string tables (SSTables) before they find the latest version of a key. Bloom filters are the cheap probabilistic index that lets a reader skip most SSTables, dramatically improving read latency. In the sections below we dissect the filter’s architecture, walk through a reference implementation, and expose the operational patterns that keep latency low at petabyte scale.\n\nAn LSM tree writes incoming records to an in‑memory memtable. When the memtable fills, it is flushed to disk as an immutable SSTable. Subsequent flushes are merged (compacted) into larger levels, reducing the number of files a read must scan. The read amplification is roughly the number of levels (often 4‑7) plus any overlapping SSTables within a level.",
+      "tags": [
+        "LSM-Tree",
+        "BloomFilter",
+        "RocksDB",
+        "Cassandra",
+        "PerformanceEngineering"
+      ],
+      "scheduled_at": "2026-05-21T06:01:38Z",
       "status": "pending"
     }
   ]
