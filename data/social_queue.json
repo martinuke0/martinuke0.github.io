@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-20T14:01:38Z",
+  "last_scheduled_at": "2026-05-20T15:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -14840,6 +14840,20 @@
         "production"
       ],
       "scheduled_at": "2026-05-20T14:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Robust Payment Systems: Engineering for High-Availability Scalability and End-to-End Security",
+      "url": "https://martinuke0.github.io/posts/2026-05-20-architecting-robust-payment-systems-engineering-for-high-availability-scalability-and-end-to-end-security/",
+      "social_hook": "> TL;DR — A payment platform must blend redundancy, multi‑region data pipelines, and strict encryption. By wiring Apache Kafka for durable event streaming, Kubernetes for autoscaling, and HashiCorp Vault for secrets, you can achieve five‑nine availability while staying PCI‑DSS compliant.\n\nModern commerce moves at the speed of a click, yet a single outage can cost millions and erode trust. Engineers building payment back‑ends therefore need a blueprint that treats uptime, throughput, and security as inseparable pillars rather than afterthoughts. This post walks through a production‑grade architecture, highlights concrete patterns (Kafka, Kubernetes, Vault), and shows how to measure and operate the system safely.\n\n1. Active‑Active Services – Deploy each microservice behind a load balancer in at least two availability zones (AZs). If an AZ loses power, traffic is instantly rerouted without client‑side retries.",
+      "tags": [
+        "payment",
+        "high-availability",
+        "scalability",
+        "security",
+        "architecture"
+      ],
+      "scheduled_at": "2026-05-20T15:01:38Z",
       "status": "pending"
     }
   ]
