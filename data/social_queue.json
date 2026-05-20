@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-20T19:01:38Z",
+  "last_scheduled_at": "2026-05-20T20:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -14910,6 +14910,20 @@
         "kubernetes"
       ],
       "scheduled_at": "2026-05-20T19:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Apache Kafka Topic Partitioning and Consumer Group Rebalancing for Production-Ready Pipelines",
+      "url": "https://martinuke0.github.io/posts/2026-05-20-mastering-apache-kafka-topic-partitioning-and-consumer-group-rebalancing-for-production-ready-pipelines/",
+      "social_hook": "> TL;DR — Properly sizing partitions and configuring consumer‑group rebalancing eliminates hot spots, reduces latency spikes, and lets you scale pipelines predictably. Follow the patterns below to keep Kafka reliable at production scale.\n\nApache Kafka powers everything from click‑stream analytics to fraud detection, but the magic only works when you treat partitions and consumer groups as first‑class architectural concerns. In this post we’ll unpack why naïve defaults break under load, walk through concrete partition‑design calculations, and show how to tame rebalancing with the latest client APIs and operational safeguards.\n\nA Kafka partition is the unit of parallelism. Each broker stores one or more ordered logs; each consumer in a group reads from a distinct subset of those logs. The two most common failure modes stem directly from partition choices:",
+      "tags": [
+        "Kafka",
+        "Topic Partitioning",
+        "Consumer Groups",
+        "Rebalancing",
+        "Production"
+      ],
+      "scheduled_at": "2026-05-20T20:01:38Z",
       "status": "pending"
     }
   ]
