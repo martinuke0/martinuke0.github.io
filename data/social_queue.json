@@ -14924,7 +14924,7 @@
         "Production"
       ],
       "scheduled_at": "2026-05-20T20:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Implementing Effective Load Shedding Strategies: Architecture and Patterns for Resilient Systems Under Overload",
