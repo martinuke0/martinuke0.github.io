@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-20T08:01:38Z",
+  "last_scheduled_at": "2026-05-20T09:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -14756,6 +14756,20 @@
         "Database"
       ],
       "scheduled_at": "2026-05-20T08:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Sentry: Implementing Modern Error Monitoring and Full-Stack Observability for Production Systems",
+      "url": "https://martinuke0.github.io/posts/2026-05-20-mastering-sentry-implementing-modern-error-monitoring-and-full-stack-observability-for-production-systems/",
+      "social_hook": "> TL;DR — Sentry can become the backbone of modern error monitoring when you treat it as a full‑stack observability layer: provision projects per service, ship enriched SDK payloads, tie alerts to incident‑response pipelines, and continuously iterate on context‑rich events.\n\nIn today’s microservice‑heavy world, a single uncaught exception can cascade through queues, trigger retries, and silently degrade user experience. Traditional logging tells you that something happened, but not why or how it propagates. Sentry bridges that gap by turning every exception into a searchable, richly‑contextualized event that lives alongside traces, metrics, and release data. This post shows you, step by step, how to turn Sentry from a simple crash reporter into a production‑grade observability platform.\n\n1. Speed of detection – Real‑time alerts shrink mean‑time‑to‑detect (MTTD) from hours to seconds.",
+      "tags": [
+        "error monitoring",
+        "sentry",
+        "observability",
+        "production",
+        "devops"
+      ],
+      "scheduled_at": "2026-05-20T09:01:38Z",
       "status": "pending"
     }
   ]
