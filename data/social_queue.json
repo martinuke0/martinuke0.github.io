@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-20T16:01:38Z",
+  "last_scheduled_at": "2026-05-20T17:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -14868,6 +14868,20 @@
         "PCI-DSS"
       ],
       "scheduled_at": "2026-05-20T16:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Go for Modern Backend Engineering: A Comprehensive Guide to Architecture, Concurrency, and Production-Ready Services",
+      "url": "https://martinuke0.github.io/posts/2026-05-20-mastering-go-for-modern-backend-engineering-a-comprehensive-guide-to-architecture-concurrency-and-production-ready-services/",
+      "social_hook": "> TL;DR — Go’s static typing, lightweight goroutines, and fast compilation make it ideal for high‑throughput backends. By combining proven microservice architectures, disciplined concurrency patterns, and production‑grade observability, you can ship services that scale to millions of requests per second while staying maintainable.\n\nBuilding a backend with Go today means more than writing a few `http.Handler`s. Enterprises run Go services at the core of their payment pipelines, ad‑tech stacks, and real‑time analytics platforms. This guide walks through the architectural choices, concurrency idioms, and operational tooling that turn a simple Go program into a production‑ready service you can confidently run on Kubernetes, monitor with OpenTelemetry, and evolve over years.\n\n- Compiled, low‑latency binaries – No JIT warm‑up, predictable GC pauses (< 200 µs for most workloads) 【source: official Go blog】(https://go.dev/blog/intro).",
+      "tags": [
+        "Go",
+        "Backend",
+        "Architecture",
+        "Concurrency",
+        "Production"
+      ],
+      "scheduled_at": "2026-05-20T17:01:38Z",
       "status": "pending"
     }
   ]
