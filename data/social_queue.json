@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-20T12:01:38Z",
+  "last_scheduled_at": "2026-05-20T13:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -14812,6 +14812,20 @@
         "cloud"
       ],
       "scheduled_at": "2026-05-20T12:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Storage Management Strategies for Modern IT Infrastructure: Architecture, Scalability, and Production Patterns",
+      "url": "https://martinuke0.github.io/posts/2026-05-20-mastering-storage-management-strategies-for-modern-it-infrastructure-architecture-scalability-and-production-patterns/",
+      "social_hook": "> TL;DR — Effective storage management starts with a clear architectural hierarchy, leverages automated tiering and sharding for scale, and follows production‑grade patterns such as lifecycle policies, observability, and fault‑tolerant pipelines.\n\nModern enterprises juggle petabytes of data across on‑prem racks, public clouds, and edge devices. Choosing the right storage tier, scaling it predictably, and operating it with repeatable patterns can mean the difference between a smooth‑running service and costly outages. This article walks through concrete architectural decisions, scalability techniques, and production‑ready patterns—complete with real‑world examples from Kafka, PostgreSQL, and Kubernetes—that you can adopt today.\n\nA robust storage architecture is a layered construct rather than a single monolithic service. The three dominant layers are:",
+      "tags": [
+        "storage",
+        "architecture",
+        "scalability",
+        "cloud",
+        "devops"
+      ],
+      "scheduled_at": "2026-05-20T13:01:38Z",
       "status": "pending"
     }
   ]
