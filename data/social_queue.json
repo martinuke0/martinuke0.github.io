@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-21T02:01:38Z",
+  "last_scheduled_at": "2026-05-21T03:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -15009,6 +15009,20 @@
         "Performance"
       ],
       "scheduled_at": "2026-05-21T02:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing TLS 1.3 Zero Round-Trip Resumption: Architecture, Security Trade-offs, and Production-Ready Performance Tips",
+      "url": "https://martinuke0.github.io/posts/2026-05-20-implementing-tls-13-zero-round-trip-resumption-architecture-security-trade-offs-and-production-ready-performance-tips/",
+      "social_hook": "> TL;DR — TLS 1.3 0‑RTT resumption can shave 1–2 RTTs from the handshake, but it introduces replay risks and weaker forward secrecy. By using short‑lived tickets, strict replay detection, and tuned cipher suites, you can reap the latency benefits while keeping production security posture intact.\n\nIn today’s latency‑sensitive services—mobile APIs, edge micro‑services, and real‑time gaming—every millisecond counts. TLS 1.3’s zero‑round‑trip (0‑RTT) resumption promises to eliminate the client‑to‑server round‑trip that a full handshake normally requires. This post walks through the end‑to‑end architecture, highlights the security trade‑offs, and delivers concrete performance‑tuning tips that have survived production at scale in large SaaS platforms.\n\n2. ServerHello (server selects cipher, sends its own random, and optionally a HelloRetryRequest).",
+      "tags": [
+        "TLS",
+        "Security",
+        "Performance",
+        "Architecture",
+        "DevOps"
+      ],
+      "scheduled_at": "2026-05-21T03:01:38Z",
       "status": "pending"
     }
   ]
