@@ -14840,7 +14840,7 @@
         "production"
       ],
       "scheduled_at": "2026-05-20T14:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Architecting Robust Payment Systems: Engineering for High-Availability Scalability and End-to-End Security",
