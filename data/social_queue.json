@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-20T17:01:38Z",
+  "last_scheduled_at": "2026-05-20T18:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -14882,6 +14882,20 @@
         "Production"
       ],
       "scheduled_at": "2026-05-20T17:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Deep Dive into Tail Latency: Avoiding the Little's Law Trap in High-Throughput Systems",
+      "url": "https://martinuke0.github.io/posts/2026-05-20-deep-dive-into-tail-latency-avoiding-the-little/",
+      "social_hook": "> TL;DR — Tail latency often violates the average‑based assumptions of Little’s Law, especially under bursty workloads. By instrumenting percentile metrics, employing queue‑based buffering (e.g., Kafka), and applying adaptive timeout patterns, you can keep the tail under control without sacrificing throughput.\n\nHigh‑throughput services—think Kafka pipelines, GCP Cloud Run micro‑services, or massive API gateways—are built on the comforting promise of Little’s Law: L = λ × W. In theory, if you know request arrival rate (λ) and average service time (W), you can predict the number of items in the system (L). In practice, the “average” hides a dangerous beast: the tail. A few outliers can inflate latency enough to break SLAs, even when the average looks healthy. This post walks through why the law can be misleading, how to surface the tail, and concrete architectural patterns that tame it.\n\n3. System is work‑conserving (no intentional idle time) and the queue is FIFO unless otherwise specified.",
+      "tags": [
+        "latency",
+        "distributed-systems",
+        "performance-engineering",
+        "kafka",
+        "observability"
+      ],
+      "scheduled_at": "2026-05-20T18:01:38Z",
       "status": "pending"
     }
   ]
