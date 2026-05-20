@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-21T04:01:38Z",
+  "last_scheduled_at": "2026-05-21T05:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -15037,6 +15037,20 @@
         "Systems Engineering"
       ],
       "scheduled_at": "2026-05-21T04:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing Schema Registry for Event-Driven Microservices on Kafka: Ensuring Data Consistency in Distributed Systems",
+      "url": "https://martinuke0.github.io/posts/2026-05-20-implementing-schema-registry-for-event-driven-microservices-on-kafka-ensuring-data-consistency-in-distributed-systems/",
+      "social_hook": "> TL;DR — Using Confluent Schema Registry with Kafka lets microservices share a single source of truth for message contracts. By enforcing Avro (or Protobuf/JSON Schema) compatibility at production scale, you avoid costly deserialization errors and keep data pipelines consistent across teams.\n\nIn modern event‑driven architectures, Kafka is the de‑facto backbone for high‑throughput, low‑latency data streams. Yet the moment you start publishing and consuming messages across dozens of services, schema drift becomes a real operational hazard. This post walks you through the why, what, and how of deploying a Schema Registry, wiring it into Java and Python clients, and establishing production‑ready patterns that guarantee data consistency.\n\nWhen a team first creates a topic, it’s tempting to treat the payload as an opaque byte array. Early on, this works: producers push JSON blobs, consumers parse them with ad‑hoc code, and the system appears flexible. The hidden cost surfaces when:",
+      "tags": [
+        "kafka",
+        "schema-registry",
+        "microservices",
+        "event-driven",
+        "data-consistency"
+      ],
+      "scheduled_at": "2026-05-21T05:01:38Z",
       "status": "pending"
     }
   ]
