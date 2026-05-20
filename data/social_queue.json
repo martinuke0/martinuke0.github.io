@@ -14672,7 +14672,7 @@
         "Kafka"
       ],
       "scheduled_at": "2026-05-20T02:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Architecting Scalable Python Applications: Using Celery as a Distributed Task Queue for Production Pipelines",
