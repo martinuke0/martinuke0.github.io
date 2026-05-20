@@ -14868,7 +14868,7 @@
         "PCI-DSS"
       ],
       "scheduled_at": "2026-05-20T16:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Mastering Go for Modern Backend Engineering: A Comprehensive Guide to Architecture, Concurrency, and Production-Ready Services",
