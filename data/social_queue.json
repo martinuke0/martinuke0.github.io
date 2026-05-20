@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-21T03:01:38Z",
+  "last_scheduled_at": "2026-05-21T04:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -15023,6 +15023,20 @@
         "DevOps"
       ],
       "scheduled_at": "2026-05-21T03:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Deep Dive into Copy‑on‑Write Semantics: Memory Management and Performance in Modern Linux Kernels",
+      "url": "https://martinuke0.github.io/posts/2026-05-20-deep-dive-into-copyonwrite-semantics-memory-management-and-performance-in-modern-linux-kernels/",
+      "social_hook": "> TL;DR — Copy‑on‑Write (CoW) lets the Linux kernel share pages between processes until a write occurs, dramatically reducing memory pressure. Understanding the page‑fault path, the role of the `mm_struct`, and the interaction with modern subsystems like OverlayFS lets you tune latency and throughput for container‑heavy workloads.\n\nLinux engineers constantly wrestle with the trade‑off between memory efficiency and latency. The classic example is the `fork()` system call: instead of copying an entire address space, the kernel marks pages read‑only and defers duplication until a process actually writes. This “copy‑on‑write” trick has been in the kernel since the early 1990s, but recent evolutions—such as transparent huge pages (THP), the `kcmp` syscall, and the rise of container overlays—have given CoW new performance dimensions. In this post we dissect the kernel’s CoW implementation, walk through the relevant data structures, and surface practical knobs you can adjust in production environments.\n\nWhen a process calls `fork()`, the kernel performs the following high‑level steps:",
+      "tags": [
+        "Linux",
+        "Memory Management",
+        "Copy-on-Write",
+        "Kernel Performance",
+        "Systems Engineering"
+      ],
+      "scheduled_at": "2026-05-21T04:01:38Z",
       "status": "pending"
     }
   ]
