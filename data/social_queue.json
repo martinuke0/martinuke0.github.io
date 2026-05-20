@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-21T01:01:38Z",
+  "last_scheduled_at": "2026-05-21T02:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -14994,6 +14994,21 @@
         "scalability"
       ],
       "scheduled_at": "2026-05-21T01:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing WebGPU-Accelerated Quantization for Local Llama Inference: Architecture, Performance, and Production Deployment",
+      "url": "https://martinuke0.github.io/posts/2026-05-20-implementing-webgpu-accelerated-quantization-for-local-llama-inference-architecture-performance-and-production-deployment/",
+      "social_hook": "> TL;DR — By off‑loading the matmul core of Llama inference to WebGPU and applying 4‑bit integer quantization, you can achieve up to 2.8× speed‑up on a consumer‑grade GPU while staying under 1 GB RAM. The post walks through the full stack—from shader design to containerized production deployment—so you can reproduce the results on any modern browser or headless runtime.\n\nRunning large language models locally has moved from “research demo” to “production necessity” for many SaaS teams that need low latency, data‑privacy guarantees, or offline capability. The Llama family, especially the 7‑B and 13‑B variants, fits that sweet spot, but naïve CPU inference quickly runs into memory and throughput bottlenecks. WebGPU, the emerging cross‑platform graphics‑compute API, gives us a portable GPU layer that works in browsers, Node.js, and even server‑side runtimes like Deno. Coupling WebGPU with aggressive integer quantization (4‑bit or 5‑bit) closes the performance gap without sacrificing the open‑source friendliness of Llama.cpp.\n\nBelow is a production‑ready blueprint: architecture diagrams, concrete shader snippets, benchmark tables, and deployment scripts. Feel free to copy the code, adapt the metrics, and ship a quantized Llama inference service that runs on a laptop, a Raspberry Pi with a USB‑C GPU, or a cloud VM with a modest NVIDIA RTX 3060.",
+      "tags": [
+        "WebGPU",
+        "Quantization",
+        "Llama",
+        "Inference",
+        "Production",
+        "Performance"
+      ],
+      "scheduled_at": "2026-05-21T02:01:38Z",
       "status": "pending"
     }
   ]
