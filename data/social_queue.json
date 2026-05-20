@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-20T22:01:38Z",
+  "last_scheduled_at": "2026-05-20T23:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -14952,6 +14952,20 @@
         "scalability"
       ],
       "scheduled_at": "2026-05-20T22:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Small Language Models: Quantization, Hardware Acceleration, and Efficient Local Edge Inference",
+      "url": "https://martinuke0.github.io/posts/2026-05-20-optimizing-small-language-models-quantization-hardware-acceleration-and-efficient-local-edge-inference/",
+      "social_hook": "> TL;DR — Quantizing a 7 B model to 4‑bit, pairing it with a TensorRT‑enabled GPU, and wiring the inference pipeline through ONNX Runtime yields sub‑second latency on a Jetson Nano. The same pattern scales to Raspberry Pi 4 with OpenVINO, delivering a usable chat experience without cloud dependencies.\n\nSmall language models (LLMs) have crossed the 1 B‑parameter barrier, yet many enterprises still need sub‑10 B models that run on‑premise for privacy, cost, or latency reasons. In practice, the biggest barrier isn’t the model size itself but the mismatch between dense 16‑bit weights and the limited compute/memory of edge hardware. This post walks through three tightly coupled levers—quantization, hardware acceleration, and inference architecture—that turn a 7 B transformer into a responsive local service. Real‑world numbers from Jetson, Raspberry Pi, and Intel NPU deployments illustrate each step.\n\nQuantization reduces the numerical precision of model parameters and activations, shrinking memory footprints and enabling integer‑only kernels on accelerators. There are three practical levels for production:",
+      "tags": [
+        "LLM",
+        "Quantization",
+        "EdgeAI",
+        "HardwareAcceleration",
+        "InferenceOptimization"
+      ],
+      "scheduled_at": "2026-05-20T23:01:38Z",
       "status": "pending"
     }
   ]
