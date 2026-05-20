@@ -14882,7 +14882,7 @@
         "Production"
       ],
       "scheduled_at": "2026-05-20T17:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Deep Dive into Tail Latency: Avoiding the Little's Law Trap in High-Throughput Systems",
