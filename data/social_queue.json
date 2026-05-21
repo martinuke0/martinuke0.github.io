@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-21T14:01:38Z",
+  "last_scheduled_at": "2026-05-21T15:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -15177,6 +15177,21 @@
         "Architecture"
       ],
       "scheduled_at": "2026-05-21T14:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Deep Dive into Postgres MVCC: Architecture, Transaction Isolation, and Performance at Scale",
+      "url": "https://martinuke0.github.io/posts/2026-05-21-deep-dive-into-postgres-mvcc-architecture-transaction-isolation-and-performance-at-scale/",
+      "social_hook": "> TL;DR — PostgreSQL’s MVCC isolates transactions by keeping multiple tuple versions on disk, allowing readers to see a consistent snapshot without blocking writers. Proper vacuuming, autovacuum tuning, and awareness of snapshot lifetimes keep MVCC overhead low, even when scaling to thousands of concurrent transactions.\n\nPostgreSQL’s Multi‑Version Concurrency Control (MVCC) is the unsung hero behind the database’s strong consistency guarantees and its ability to serve massive read‑write workloads. In this article we unpack the low‑level architecture that makes MVCC possible, walk through each isolation level, and share production‑tested patterns that keep performance predictable as traffic scales.\n\nAt a high level, MVCC lets PostgreSQL present each transaction with a snapshot of the database as it existed at a particular point in time. Instead of locking rows, the engine writes a new version of a row for every UPDATE or DELETE. The old version stays on disk until it is no longer visible to any active transaction.",
+      "tags": [
+        "PostgreSQL",
+        "MVCC",
+        "Performance",
+        "Architecture",
+        "Isolation",
+        "Scaling"
+      ],
+      "scheduled_at": "2026-05-21T15:01:38Z",
       "status": "pending"
     }
   ]
