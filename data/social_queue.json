@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-22T03:01:38Z",
+  "last_scheduled_at": "2026-05-22T04:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -15360,6 +15360,20 @@
         "kubernetes"
       ],
       "scheduled_at": "2026-05-22T03:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Deep Dive into Postgres Multi-Version Concurrency Control: Architecture, Snapshot Isolation, and Performance Optimization",
+      "url": "https://martinuke0.github.io/posts/2026-05-21-deep-dive-into-postgres-multi-version-concurrency-control-architecture-snapshot-isolation-and-performance-optimization/",
+      "social_hook": "> TL;DR — PostgreSQL isolates each transaction with a lightweight snapshot of the database, stores every row version in the heap, and relies on periodic vacuuming to reclaim space. Understanding tuple visibility, managing long‑running transactions, and tuning autovacuum are the three levers that keep MVCC fast and predictable in production.\n\nPostgreSQL’s reputation for consistency and scalability rests on its implementation of Multi‑Version Concurrency Control (MVCC). Unlike lock‑based engines, PostgreSQL never blocks readers on writers; instead it keeps a history of row versions and lets each transaction see a self‑consistent “snapshot” of the data. The trade‑off is that stale tuples accumulate and must be cleaned, which introduces operational complexity. This article unpacks the architecture that makes MVCC possible, explains how snapshot isolation is realized, and provides concrete performance‑optimization patterns you can apply today.\n\nAt the heart of PostgreSQL’s MVCC is the heap tuple header, which stores two 32‑bit transaction identifiers:",
+      "tags": [
+        "postgresql",
+        "mvcc",
+        "snapshot-isolation",
+        "performance",
+        "architecture"
+      ],
+      "scheduled_at": "2026-05-22T04:01:38Z",
       "status": "pending"
     }
   ]
