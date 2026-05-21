@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-21T09:01:38Z",
+  "last_scheduled_at": "2026-05-21T10:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -15107,6 +15107,20 @@
         "auditability"
       ],
       "scheduled_at": "2026-05-21T09:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Deep Dive into Linux I/O Evolution: From epoll Readiness to io_uring Completion Models",
+      "url": "https://martinuke0.github.io/posts/2026-05-21-deep-dive-into-linux-io-evolution-from-epoll-readiness-to-io_uring-completion-models/",
+      "social_hook": "> TL;DR — Linux’s I/O stack has migrated from an edge‑triggered readiness model (epoll) to a true asynchronous completion model (io_uring). The new model reduces syscalls, eliminates per‑event wake‑ups, and delivers up to 5× higher throughput in high‑concurrency services such as NGINX and PostgreSQL.\n\nModern services that handle millions of concurrent connections cannot afford the overhead of the classic epoll loop. This post walks through the architectural evolution, shows concrete C snippets, compares real‑world benchmarks, and offers a pragmatic migration path for production engineers.\n\n`epoll` is a level‑ or edge‑triggered interface that tells the kernel when a file descriptor becomes ready for I/O. The typical pattern looks like this:",
+      "tags": [
+        "Linux",
+        "I/O",
+        "epoll",
+        "io_uring",
+        "systems"
+      ],
+      "scheduled_at": "2026-05-21T10:01:38Z",
       "status": "pending"
     }
   ]
