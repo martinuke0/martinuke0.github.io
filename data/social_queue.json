@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-22T02:01:38Z",
+  "last_scheduled_at": "2026-05-22T03:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -15346,6 +15346,20 @@
         "devops"
       ],
       "scheduled_at": "2026-05-22T02:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Storage Management Strategies for Modern IT Infrastructure: Architecture, Scalability, and Real-World Implementation",
+      "url": "https://martinuke0.github.io/posts/2026-05-21-optimizing-storage-management-strategies-for-modern-it-infrastructure-architecture-scalability-and-real-world-implementation/",
+      "social_hook": "> TL;DR — Modern storage must blend tiered architectures, automated scaling, and observability. By combining object‑store caching, distributed file systems, and Kubernetes‑native storage classes, you can achieve petabyte‑scale durability while keeping latency and cost predictable.\n\nEnterprises today juggle data lakes, transactional databases, and AI‑driven analytics on the same infrastructure. The challenge isn’t just “more storage” – it’s how you organize, scale, and operate that storage so that developers get fast reads, ops teams avoid manual bottlenecks, and finance stays within budget. This post walks through the architectural building blocks, proven scalability patterns, and concrete production implementations that turn a chaotic storage sprawl into a disciplined, observable platform.\n\nA solid storage architecture starts with layered responsibilities. Think of the stack as three concentric rings:",
+      "tags": [
+        "storage",
+        "architecture",
+        "scalability",
+        "cloud",
+        "kubernetes"
+      ],
+      "scheduled_at": "2026-05-22T03:01:38Z",
       "status": "pending"
     }
   ]
