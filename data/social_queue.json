@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-21T23:01:38Z",
+  "last_scheduled_at": "2026-05-22T00:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -15304,6 +15304,20 @@
         "Architecture"
       ],
       "scheduled_at": "2026-05-21T23:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Cgroups v2 Resource Isolation: Implementation Strategies for Modern Linux Systems and Container Routines",
+      "url": "https://martinuke0.github.io/posts/2026-05-21-mastering-cgroups-v2-resource-isolation-implementation-strategies-for-modern-linux-systems-and-container-routines/",
+      "social_hook": "> TL;DR — cgroups v2 offers a unified hierarchy, richer controllers, and easier accounting. By switching systemd, Docker, and Kubernetes to v2 you gain deterministic CPU, memory, and I/O limits while simplifying observability.\n\nModern Linux distributions ship with cgroups v2 enabled by default, yet many production teams still run workloads on the legacy v1 hierarchy. This mismatch creates hidden fragmentation: some pods get precise throttling, others fall back to coarse limits. In this post we walk through the architecture of cgroups v2, outline a step‑by‑step migration path, and provide concrete configuration snippets for systemd, Docker, and Kubernetes. You’ll leave with a checklist you can run in a staging cluster today.\n\n Unified hierarchy** – All controllers live under a single tree, eliminating the “split‑brain” problem of v1 where `cpu` and `memory` lived in different subsystems.",
+      "tags": [
+        "cgroups",
+        "linux",
+        "containers",
+        "kubernetes",
+        "performance"
+      ],
+      "scheduled_at": "2026-05-22T00:01:38Z",
       "status": "pending"
     }
   ]
