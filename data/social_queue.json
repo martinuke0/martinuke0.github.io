@@ -15079,7 +15079,7 @@
         "production"
       ],
       "scheduled_at": "2026-05-21T07:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Scaling Python Applications with Celery: Architecture, Task Distribution, and Production-Ready Patterns",
