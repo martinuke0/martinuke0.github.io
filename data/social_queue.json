@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-21T21:01:38Z",
+  "last_scheduled_at": "2026-05-21T22:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -15276,6 +15276,20 @@
         "Systems"
       ],
       "scheduled_at": "2026-05-21T21:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing LSM-Tree Read Performance: Bloom Filter Implementation, Tuning, and Production-Ready Patterns",
+      "url": "https://martinuke0.github.io/posts/2026-05-21-optimizing-lsm-tree-read-performance-bloom-filter-implementation-tuning-and-production-ready-patterns/",
+      "social_hook": "> TL;DR — Adding a well‑tuned Bloom filter to each SSTable can shave tens of microseconds off every read. Choose an appropriate false‑positive rate, align hash functions with your key distribution, and monitor filter hit‑rate metrics to keep latency predictable in production.\n\nLSM‑trees power many modern data platforms—RocksDB, Apache Cassandra, ScyllaDB, and even Kafka’s log compaction. Their write‑optimized design makes them ideal for high‑throughput ingestion, but reads can suffer when the system must probe many on‑disk files. Bloom filters are the classic antidote: a compact probabilistic index that tells you, with a configurable false‑positive rate, whether a key might exist in a given SSTable. This post walks through the mathematics, shows concrete implementation snippets for RocksDB and Cassandra, explains how to tune the filter for real workloads, and outlines production‑ready patterns that keep read latency low even as data scales.\n\nAn LSM‑tree stores data in a series of immutable sorted string tables (SSTables) that are periodically compacted. A read request follows this path:",
+      "tags": [
+        "LSM-Tree",
+        "Bloom Filter",
+        "Database Performance",
+        "Production Patterns",
+        "Kafka"
+      ],
+      "scheduled_at": "2026-05-21T22:01:38Z",
       "status": "pending"
     }
   ]
