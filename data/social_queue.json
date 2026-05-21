@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-21T07:01:38Z",
+  "last_scheduled_at": "2026-05-21T08:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -15079,6 +15079,20 @@
         "production"
       ],
       "scheduled_at": "2026-05-21T07:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Scaling Python Applications with Celery: Architecture, Task Distribution, and Production-Ready Patterns",
+      "url": "https://martinuke0.github.io/posts/2026-05-21-scaling-python-applications-with-celery-architecture-task-distribution-and-production-ready-patterns/",
+      "social_hook": "> TL;DR — Celery lets you turn Python functions into asynchronous, fault‑tolerant jobs that can be sharded across many machines. By choosing the right broker, configuring robust routing, and layering production‑ready patterns (retries, idempotency, monitoring, Kubernetes deployment), you can scale from a single‑node prototype to a multi‑region, high‑throughput service.\n\nCelery has become the de‑facto standard for background processing in Python because it blends a simple programming model with a flexible, pluggable architecture. In this post we’ll walk through the pieces that make Celery production‑ready, explore concrete task‑distribution patterns, and show how to wire everything together on Kubernetes. The goal is to give working engineers a checklist they can apply today to move from “it works locally” to “it survives traffic spikes in production”.\n\n1. Producer (the client code) – Calls `task.delay()` or `task.apply_async()` to push a message onto a broker.",
+      "tags": [
+        "celery",
+        "python",
+        "scaling",
+        "distributed-systems",
+        "microservices"
+      ],
+      "scheduled_at": "2026-05-21T08:01:38Z",
       "status": "pending"
     }
   ]
