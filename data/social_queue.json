@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-21T08:01:38Z",
+  "last_scheduled_at": "2026-05-21T09:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -15093,6 +15093,20 @@
         "microservices"
       ],
       "scheduled_at": "2026-05-21T08:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Immutable Ledger Design for Financial Systems: Consistency, Integrity, and Auditability Patterns",
+      "url": "https://martinuke0.github.io/posts/2026-05-21-architecting-immutable-ledger-design-for-financial-systems-consistency-integrity-and-auditability-patterns/",
+      "social_hook": "> TL;DR — Immutable ledgers achieve regulatory‑grade consistency, tamper‑proof integrity, and effortless auditability by combining append‑only storage, cryptographic chaining, and proven consensus protocols. The patterns below show how to implement them at scale on modern cloud stacks.\n\nFinancial institutions must reconcile three non‑negotiable requirements: every transaction must appear in the same order for all participants (consistency), the data must never be altered without detection (integrity), and regulators need a complete, reproducible history (auditability). Traditional relational databases can meet two of these goals, but they fall short on immutable append‑only semantics and distributed ordering. This post walks through the architecture and concrete patterns that let you build a ledger that behaves like a blockchain—without the public‑network overhead—using tools such as Apache Kafka, Amazon QLDB, and PostgreSQL’s logical replication.\n\nConsistency in a financial ledger is not “eventual” but linearizable: once a transaction is committed, every subsequent read sees it, and no two readers can observe different orders. Achieving this across a cluster requires a deterministic ordering service.",
+      "tags": [
+        "ledger",
+        "immutability",
+        "financial-systems",
+        "consistency",
+        "auditability"
+      ],
+      "scheduled_at": "2026-05-21T09:01:38Z",
       "status": "pending"
     }
   ]
