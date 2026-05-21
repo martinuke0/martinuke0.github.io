@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-22T05:01:38Z",
+  "last_scheduled_at": "2026-05-22T06:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -15388,6 +15388,20 @@
         "cloud"
       ],
       "scheduled_at": "2026-05-22T05:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing Copy-on-Write B-Trees: A Deep Dive into High-Performance Database Snapshot Architecture",
+      "url": "https://martinuke0.github.io/posts/2026-05-21-implementing-copy-on-write-b-trees-a-deep-dive-into-high-performance-database-snapshot-architecture/",
+      "social_hook": "> TL;DR — Copy‑on‑write (COW) B‑trees let a database take immutable, point‑in‑time snapshots without blocking writers. By sharing unchanged nodes and only copying the path that changes, you get O(log N) write overhead and near‑zero snapshot cost, which is why modern storage engines such as RocksDB and PostgreSQL’s ZHeap rely on this pattern.\n\nDatabase snapshots are the backbone of analytics pipelines, point‑in‑time recovery, and multi‑tenant isolation. Yet many engineers still roll their own ad‑hoc copy mechanisms that lock tables or double‑write entire files. This post shows how a disciplined COW B‑tree design eliminates those pitfalls, walks through the core data structures, and surfaces the performance numbers you need to convince leadership that the extra engineering effort is worth it.\n\nCopy‑on‑Write is a memory‑management technique where a writer first duplicates the data it intends to modify, leaving readers to continue using the original version. The pattern originated in file systems (e.g., ZFS) and was later adopted by databases to implement Multi‑Version Concurrency Control (MVCC). In a B‑tree, each node is a fixed‑size block that can be addressed directly on disk. When a leaf or internal node changes, the engine creates a new copy of that node, updates the parent pointer, and writes the new block to the log.",
+      "tags": [
+        "B-Tree",
+        "Copy-on-Write",
+        "Database",
+        "Snapshots",
+        "Performance"
+      ],
+      "scheduled_at": "2026-05-22T06:01:38Z",
       "status": "pending"
     }
   ]
