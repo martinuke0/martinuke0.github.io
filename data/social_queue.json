@@ -15149,7 +15149,7 @@
         "devops"
       ],
       "scheduled_at": "2026-05-21T12:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Implementing Circuit Breakers in Service Meshes: Architecture, Traffic Management, and Resiliency Patterns",
