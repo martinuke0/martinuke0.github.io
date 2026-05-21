@@ -15121,7 +15121,7 @@
         "systems"
       ],
       "scheduled_at": "2026-05-21T10:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Architecting Production Retrieval-Augmented Generation: Scalable Data Pipelines, Vector Stores, and Reliability Patterns",
