@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-21T12:01:38Z",
+  "last_scheduled_at": "2026-05-21T13:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -15149,6 +15149,20 @@
         "devops"
       ],
       "scheduled_at": "2026-05-21T12:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing Circuit Breakers in Service Meshes: Architecture, Traffic Management, and Resiliency Patterns",
+      "url": "https://martinuke0.github.io/posts/2026-05-21-implementing-circuit-breakers-in-service-meshes-architecture-traffic-management-and-resiliency-patterns/",
+      "social_hook": "> TL;DR — Circuit breakers in a service mesh let you isolate flaky services, prevent cascading failures, and keep latency predictable. By configuring mesh‑level policies (Istio, Linkerd, or Envoy) you gain declarative traffic control, automatic retries, and real‑time metrics without touching application code.\n\nService meshes have become the de‑facto platform for managing east‑west traffic in Kubernetes clusters. While they already provide observability, mTLS, and traffic shaping, they also give you a clean place to enforce resiliency patterns such as circuit breaking. This post walks through the architectural pieces, shows concrete Istio and Linkerd configurations, and highlights production‑ready patterns that keep latency low even when downstream services misbehave.\n\n1. Fail‑fast semantics – When a downstream service starts returning errors or latency spikes, the breaker opens and short‑circuits calls, returning an error immediately.",
+      "tags": [
+        "service-mesh",
+        "circuit-breaker",
+        "resiliency",
+        "kubernetes",
+        "istio"
+      ],
+      "scheduled_at": "2026-05-21T13:01:38Z",
       "status": "pending"
     }
   ]
