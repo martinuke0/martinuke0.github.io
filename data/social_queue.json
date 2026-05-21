@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-22T00:01:38Z",
+  "last_scheduled_at": "2026-05-22T01:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -15318,6 +15318,20 @@
         "performance"
       ],
       "scheduled_at": "2026-05-22T00:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing Multimodal RAG Pipelines: Architecting Vision-Language Models for Production-Ready Data Retrieval",
+      "url": "https://martinuke0.github.io/posts/2026-05-21-implementing-multimodal-rag-pipelines-architecting-vision-language-models-for-production-ready-data-retrieval/",
+      "social_hook": "> TL;DR — Multimodal Retrieval‑Augmented Generation (RAG) pipelines fuse image and text embeddings with large language models to answer complex queries. This post walks through a production‑ready architecture, data‑flow patterns, scaling tricks, and observability practices you can copy into your own stack.\n\nBuilding a RAG system that understands both pictures and prose feels like science‑fiction, but the ingredients are now commodity: CLIP‑style vision encoders, dense vector stores, and LLMs that can be prompted with retrieved context. The challenge lies in wiring them together so that latency stays sub‑second, costs are predictable, and failures are visible before customers notice. Below we unpack a reference architecture, dive into concrete implementation details, and surface the operational patterns that keep the pipeline humming in a production environment.\n\n Richer user intent** – A customer can upload a diagram, screenshot, or product photo and ask “What warranty does this device have?” The system must interpret visual cues and retrieve the right policy text.",
+      "tags": [
+        "RAG",
+        "multimodal",
+        "vision-language",
+        "MLOps",
+        "retrieval-augmented-generation"
+      ],
+      "scheduled_at": "2026-05-22T01:01:38Z",
       "status": "pending"
     }
   ]
