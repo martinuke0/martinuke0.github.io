@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-21T22:01:38Z",
+  "last_scheduled_at": "2026-05-21T23:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -15290,6 +15290,20 @@
         "Kafka"
       ],
       "scheduled_at": "2026-05-21T22:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing Copy-on-Write B-Trees: Architecture and Patterns for Efficient Database Snapshots",
+      "url": "https://martinuke0.github.io/posts/2026-05-21-implementing-copy-on-write-b-trees-architecture-and-patterns-for-efficient-database-snapshots/",
+      "social_hook": "> TL;DR — Copy‑on‑write (CoW) B‑trees let you take point‑in‑time snapshots without blocking writes. By sharing unchanged nodes and only copying the path to modified data, you get O(log N) write overhead and O(1) snapshot cost, a pattern used by RocksDB, FoundationDB, and PostgreSQL's MVCC.\n\nDatabase snapshots are a cornerstone of modern data pipelines: they power point‑in‑time recovery, analytical off‑loading, and zero‑downtime schema migrations. Yet achieving low‑latency, low‑overhead snapshots on a write‑heavy workload is non‑trivial. This post unpacks the copy‑on‑write B‑tree—a data structure that makes snapshots cheap and safe—by walking through its core concepts, production‑grade architecture, and concrete patterns you can adopt today.\n\n1. Disaster recovery – A snapshot taken before a risky deployment can be rolled back instantly.",
+      "tags": [
+        "B-Tree",
+        "Copy-on-Write",
+        "Database",
+        "Snapshots",
+        "Architecture"
+      ],
+      "scheduled_at": "2026-05-21T23:01:38Z",
       "status": "pending"
     }
   ]
