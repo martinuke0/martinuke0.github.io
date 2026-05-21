@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-21T13:01:38Z",
+  "last_scheduled_at": "2026-05-21T14:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -15163,6 +15163,20 @@
         "istio"
       ],
       "scheduled_at": "2026-05-21T13:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Go for Modern Backend Engineering: Architecture, Concurrency, and Production-Ready Services",
+      "url": "https://martinuke0.github.io/posts/2026-05-21-mastering-go-for-modern-backend-engineering-architecture-concurrency-and-production-ready-services/",
+      "social_hook": "> TL;DR — Go’s static typing, lightweight goroutine model, and thriving ecosystem make it ideal for building microservice‑oriented backends. By combining hexagonal architecture, context‑driven concurrency, and production‑grade observability, teams can ship scalable services that stay reliable under load.\n\nModern backend teams are under pressure to deliver APIs that serve millions of requests per second, evolve quickly, and remain observable in production. Go (golang) has become a de‑facto language for this problem space because it balances developer productivity with runtime efficiency. In this post we’ll unpack how to structure Go services, leverage its concurrency primitives, and apply production‑ready patterns that you’ll find in large‑scale systems at companies like Uber, Shopify, and Cloudflare.\n\nGo’s design philosophy—“less is more”—means a small standard library, clear syntax, and a single binary output. These traits reduce deployment friction and eliminate the “dependency hell” that plagues Java or Node.js ecosystems. Benchmarks from the TechEmpower Framework Benchmarks consistently place Go’s `net/http` server within the top three for raw request throughput.",
+      "tags": [
+        "Go",
+        "Backend",
+        "Concurrency",
+        "Microservices",
+        "Architecture"
+      ],
+      "scheduled_at": "2026-05-21T14:01:38Z",
       "status": "pending"
     }
   ]
