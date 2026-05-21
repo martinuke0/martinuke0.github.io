@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-21T16:01:38Z",
+  "last_scheduled_at": "2026-05-21T17:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -15206,6 +15206,20 @@
         "HeadOfLineBlocking"
       ],
       "scheduled_at": "2026-05-21T16:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Payments Security across Modern Enterprises: Robust Frameworks, Compliance, and Production-Ready Protocols",
+      "url": "https://martinuke0.github.io/posts/2026-05-21-architecting-payments-security-across-modern-enterprises-robust-frameworks-compliance-and-production-ready-protocols/",
+      "social_hook": "> TL;DR — Secure payment processing demands a layered architecture that couples zero‑trust networking, tokenization, and strong compliance tooling. By adopting production‑ready protocols like TLS 1.3 +mTLS and automating PCI‑DSS controls with IaC, enterprises can protect card data at scale while staying audit‑ready.\n\nEnterprises that move billions of dollars every day cannot treat payments security as an afterthought. The stakes are high: a single breach can trigger regulatory fines, brand damage, and loss of customer trust. In this post we walk through the threat landscape, outline the core security pillars, and present concrete, production‑grade patterns—complete with code snippets and real‑world references—that you can adopt in your own cloud‑native stack.\n\nPayments systems today span on‑prem data centers, public clouds, and edge devices. Attackers exploit any weak link, from legacy card‑present terminals to misconfigured API gateways. The most common vectors include:",
+      "tags": [
+        "payments",
+        "security",
+        "architecture",
+        "compliance",
+        "cloud"
+      ],
+      "scheduled_at": "2026-05-21T17:01:38Z",
       "status": "pending"
     }
   ]
