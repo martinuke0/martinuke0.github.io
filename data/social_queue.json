@@ -14994,7 +14994,7 @@
         "scalability"
       ],
       "scheduled_at": "2026-05-21T01:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Implementing WebGPU-Accelerated Quantization for Local Llama Inference: Architecture, Performance, and Production Deployment",
