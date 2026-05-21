@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-21T10:01:38Z",
+  "last_scheduled_at": "2026-05-21T11:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -15121,6 +15121,20 @@
         "systems"
       ],
       "scheduled_at": "2026-05-21T10:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Production Retrieval-Augmented Generation: Scalable Data Pipelines, Vector Stores, and Reliability Patterns",
+      "url": "https://martinuke0.github.io/posts/2026-05-21-architecting-production-retrieval-augmented-generation-scalable-data-pipelines-vector-stores-and-reliability-patterns/",
+      "social_hook": "> TL;DR — Production‑grade Retrieval‑Augmented Generation (RAG) hinges on three pillars: a streaming‑friendly data pipeline that continuously enriches embeddings, a vector store that can scale horizontally while guaranteeing low‑latency similarity search, and a suite of reliability patterns (idempotent writes, circuit breakers, and graceful degradation) that keep the service alive under load or partial failure.\n\nRAG has moved from research notebooks to the backbone of customer‑facing AI products such as enterprise search, code assistants, and personalized recommendation engines. Building a system that can ingest terabytes of text, keep embeddings fresh, and serve sub‑second responses at millions of QPS requires deliberate architectural choices. This post walks through a production‑ready design, highlights concrete tooling (Kafka, Airflow, Pinecone, Milvus, LangChain), and shares patterns you can copy into your own stack.\n\nRAG couples a retriever—typically a similarity search over dense embeddings—with a generator (e.g., LLM) that conditions on the retrieved chunks. The classic flow is:",
+      "tags": [
+        "RAG",
+        "VectorDB",
+        "DataPipeline",
+        "Reliability",
+        "ScalableAI"
+      ],
+      "scheduled_at": "2026-05-21T11:01:38Z",
       "status": "pending"
     }
   ]
