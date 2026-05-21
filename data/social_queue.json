@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-22T06:01:38Z",
+  "last_scheduled_at": "2026-05-22T07:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -15402,6 +15402,20 @@
         "Performance"
       ],
       "scheduled_at": "2026-05-22T06:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Deep Dive into jemalloc Arenas and Thread Caches: Architecture, Concurrency, and Memory Allocation Patterns",
+      "url": "https://martinuke0.github.io/posts/2026-05-21-deep-dive-into-jemalloc-arenas-and-thread-caches-architecture-concurrency-and-memory-allocation-patterns/",
+      "social_hook": "> TL;DR — jemalloc isolates contention by assigning each thread a private cache backed by a set of per‑CPU arenas. Understanding arena sizing, thread‑cache flush policies, and the `MALLOC_CONF` knobs lets you cut allocation latency by 30 %‑50 % in latency‑sensitive services.\n\njemalloc has become the default allocator for many high‑traffic services (e.g., Facebook, MongoDB, and Rust’s standard library) because its arena‑based design scales on modern multi‑core hardware. This post unpacks the internal architecture, explains how concurrency is managed without global locks, and walks through the memory‑allocation patterns you’ll see in production. We’ll also show concrete configuration snippets you can drop into your CI pipeline to extract predictable performance gains.\n\nAt its core jemalloc separates allocation from deallocation work using three cooperating structures:",
+      "tags": [
+        "jemalloc",
+        "memory-management",
+        "concurrency",
+        "performance",
+        "systems-engineering"
+      ],
+      "scheduled_at": "2026-05-22T07:01:38Z",
       "status": "pending"
     }
   ]
