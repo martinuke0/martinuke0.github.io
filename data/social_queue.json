@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-21T11:01:38Z",
+  "last_scheduled_at": "2026-05-21T12:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -15135,6 +15135,20 @@
         "ScalableAI"
       ],
       "scheduled_at": "2026-05-21T11:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing the USE Method: A Deep Dive into Utilization, Saturation, and Errors for Systems Performance",
+      "url": "https://martinuke0.github.io/posts/2026-05-21-implementing-the-use-method-a-deep-dive-into-utilization-saturation-and-errors-for-systems-performance/",
+      "social_hook": "> TL;DR — The USE method remains the most actionable performance framework when you tie each metric to a concrete resource (CPU, disk, network, queue). Deploy Prometheus exporters, watch saturation spikes, and correlate errors to capacity limits to keep latency under control in production.\n\nModern services are a mash‑up of containers, managed databases, and event streams. When latency spikes or error rates climb, engineers scramble for a signal. The Utilization, Saturation, Errors (USE) method, popularized by Brendan Gregg, offers a three‑pronged lens that cuts through noise. This post shows how to implement the method end‑to‑end: instrumenting the right exporters, wiring them into a Grafana dashboard, and embedding the insights into runbooks for Kafka, PostgreSQL, and Kubernetes workloads.\n\nWhen all three are low, the system is healthy. When any one climbs, you have a focused troubleshooting path.",
+      "tags": [
+        "performance",
+        "monitoring",
+        "observability",
+        "systems",
+        "devops"
+      ],
+      "scheduled_at": "2026-05-21T12:01:38Z",
       "status": "pending"
     }
   ]
