@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-21T15:01:38Z",
+  "last_scheduled_at": "2026-05-21T16:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -15192,6 +15192,20 @@
         "Scaling"
       ],
       "scheduled_at": "2026-05-21T15:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Deep Dive into QUIC Stream Multiplexing: Eliminating Head-of-Line Blocking for High-Performance Networking",
+      "url": "https://martinuke0.github.io/posts/2026-05-21-deep-dive-into-quic-stream-multiplexing-eliminating-head-of-line-blocking-for-high-performance-networking/",
+      "social_hook": "> TL;DR — QUIC replaces TCP's single‑stream model with independent, multiplexed streams that eliminate head‑of‑line blocking. By moving congestion control and encryption to the transport layer, QUIC delivers lower latency and higher throughput, especially for micro‑service meshes and edge‑centric workloads.\n\nModern cloud services demand sub‑millisecond latency while moving terabytes of data across geographically distributed data centers. Traditional TCP connections, despite decades of optimization, still suffer from head‑of‑line (HoL) blocking: a single lost packet stalls all subsequent data on that connection. QUIC, the UDP‑based transport protocol standardized by IETF (RFC 9000), solves this problem with per‑stream flow control and independent retransmission. This post unpacks QUIC's stream multiplexing, shows how production teams integrate it with tools like quic-go, aioquic, and nghttp2, and provides concrete patterns for scaling high‑performance networking in the field.\n\nQUIC (Quick UDP Internet Connections) originated at Google as gQUIC and later evolved into the open standard (RFC 9000). It bundles three traditionally separate layers:",
+      "tags": [
+        "QUIC",
+        "Networking",
+        "Performance",
+        "StreamMultiplexing",
+        "HeadOfLineBlocking"
+      ],
+      "scheduled_at": "2026-05-21T16:01:38Z",
       "status": "pending"
     }
   ]
