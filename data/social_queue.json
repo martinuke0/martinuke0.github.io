@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-22T01:01:38Z",
+  "last_scheduled_at": "2026-05-22T02:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -15332,6 +15332,20 @@
         "retrieval-augmented-generation"
       ],
       "scheduled_at": "2026-05-22T01:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Storage Management Strategies: Architecture, Lifecycle Policies, and Modern IT Infrastructure Patterns",
+      "url": "https://martinuke0.github.io/posts/2026-05-21-optimizing-storage-management-strategies-architecture-lifecycle-policies-and-modern-it-infrastructure-patterns/",
+      "social_hook": "> TL;DR — Align storage architecture with business data velocity, use tiered lifecycle policies to automate tier migration, and adopt immutable, event‑driven patterns to keep costs low while guaranteeing durability.\n\nEnterprises today juggle petabytes of hot logs, cold archives, and everything in between. The cost of storing a single terabyte on premium SSD can be ten times higher than on a cold object store, yet moving data manually is error‑prone and slows down product cycles. This post walks through a production‑grade storage stack, shows how to codify lifecycle policies with Terraform and native APIs, and highlights patterns—such as immutable backups and event‑driven tiering—that keep the system both cheap and reliable.\n\nModern storage is no longer a monolith. Instead, a data plane (the actual bytes) is separated from a control plane (metadata, policies, and orchestration). This split enables independent scaling, tighter security, and the ability to plug in heterogeneous back‑ends.",
+      "tags": [
+        "storage",
+        "cloud",
+        "architecture",
+        "lifecycle",
+        "devops"
+      ],
+      "scheduled_at": "2026-05-22T02:01:38Z",
       "status": "pending"
     }
   ]
