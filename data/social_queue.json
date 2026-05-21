@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-21T19:01:38Z",
+  "last_scheduled_at": "2026-05-21T20:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -15248,6 +15248,20 @@
         "Scaling"
       ],
       "scheduled_at": "2026-05-21T19:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Inside Performance Profiling: Identifying Critical Bottlenecks Hidden by Standard CPU Flame Graphs",
+      "url": "https://martinuke0.github.io/posts/2026-05-21-inside-performance-profiling-identifying-critical-bottlenecks-hidden-by-standard-cpu-flame-graphs/",
+      "social_hook": "> TL;DR — Traditional CPU flame graphs excel at visualizing hot call stacks but often hide I/O wait, lock contention, and async latency. By enriching flame graphs with async stacks, hardware counters, and eBPF‑based telemetry, you can surface the real bottlenecks that keep production services from meeting SLAs.\n\nIn modern micro‑service environments, a single misbehaving request can cascade into latency spikes, increased error rates, and lost revenue. Engineers reach for CPU flame graphs because they’re quick to generate and visually intuitive, yet many teams discover that the “hot” paths highlighted by those graphs are not the true culprits. This article walks through the blind spots of standard flame graphs, introduces a toolbox of advanced profiling techniques, and demonstrates a production‑grade architecture that stitches everything together. By the end you’ll be able to pinpoint latency that lives outside the CPU‑centric view and apply concrete fixes that shrink tail latency.\n\nA classic CPU flame graph is built from a sampling profiler (e.g., `perf record`, `go tool pprof`) that records the currently executing instruction pointer at regular intervals. The resulting stack samples are aggregated into a hierarchical bar chart where:",
+      "tags": [
+        "performance",
+        "profiling",
+        "flame-graphs",
+        "observability",
+        "go"
+      ],
+      "scheduled_at": "2026-05-21T20:01:38Z",
       "status": "pending"
     }
   ]
