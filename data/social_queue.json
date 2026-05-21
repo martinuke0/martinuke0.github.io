@@ -14980,7 +14980,7 @@
         "production"
       ],
       "scheduled_at": "2026-05-21T00:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Mastering Celery: Scaling Distributed Task Queues for Production-Ready Python Application Architecture",
