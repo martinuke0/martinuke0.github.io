@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-21T17:01:38Z",
+  "last_scheduled_at": "2026-05-21T18:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -15220,6 +15220,20 @@
         "cloud"
       ],
       "scheduled_at": "2026-05-21T17:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering cgroups v2 Resource Isolation: Implementation Strategies, Unified Hierarchy, and Production-Ready Performance Controls",
+      "url": "https://martinuke0.github.io/posts/2026-05-21-mastering-cgroups-v2-resource-isolation-implementation-strategies-unified-hierarchy-and-production-ready-performance-controls/",
+      "social_hook": "> TL;DR — cgroups v2 replaces the fragmented v1 tree with a single, unified hierarchy, giving you deterministic CPU, memory, and I/O limits. By mapping the hierarchy to systemd slices or Kubernetes QoS classes and using the new `io.max` and `cpu.max` interfaces, you can enforce production‑grade isolation without rewriting your application code.\n\nResource isolation is the backbone of any multi‑tenant service platform. While cgroups v1 gave us the building blocks, its split‑controller model made large‑scale tuning brittle. This post walks you through the architectural shift to cgroups v2, shows how to wire it into systemd and Kubernetes, and provides ready‑to‑run snippets that turn theory into production‑ready performance controls.\n\n1. Unified hierarchy – All controllers live under a single tree, eliminating the “controller‑specific mount” confusion that caused silent policy drift.",
+      "tags": [
+        "cgroups",
+        "linux",
+        "resource-management",
+        "kubernetes",
+        "performance"
+      ],
+      "scheduled_at": "2026-05-21T18:01:38Z",
       "status": "pending"
     }
   ]
