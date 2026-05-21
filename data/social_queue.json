@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-22T04:01:38Z",
+  "last_scheduled_at": "2026-05-22T05:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -15374,6 +15374,20 @@
         "architecture"
       ],
       "scheduled_at": "2026-05-22T04:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Payments Security across Modern Enterprises: Strategic Frameworks, Protocols, and Production-Ready Implementation Patterns",
+      "url": "https://martinuke0.github.io/posts/2026-05-21-architecting-payments-security-across-modern-enterprises-strategic-frameworks-protocols-and-production-ready-implementation-patterns/",
+      "social_hook": "> TL;DR — Secure payment processing demands a layered, zero‑trust architecture, strict PCI‑DSS controls, and automated observability. By combining tokenization, end‑to‑end encryption, and cloud‑native policies, enterprises can ship payment features faster while keeping fraud and breach risk low.\n\nEnterprises that handle billions of dollars in transactions cannot afford ad‑hoc security measures. Instead, they need a repeatable, auditable framework that aligns with compliance mandates, integrates with existing data pipelines, and survives the churn of cloud migrations. This post walks through a strategic blueprint, maps each piece to real‑world tools (Kafka, GCP, AWS, Vault), and delivers production‑ready patterns you can copy into your own services.\n\nPayment systems sit at the intersection of high‑value data and public‑facing APIs, making them prime targets for:",
+      "tags": [
+        "payments",
+        "security",
+        "architecture",
+        "PCI-DSS",
+        "cloud"
+      ],
+      "scheduled_at": "2026-05-22T05:01:38Z",
       "status": "pending"
     }
   ]
