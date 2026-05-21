@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-21T20:01:38Z",
+  "last_scheduled_at": "2026-05-21T21:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -15262,6 +15262,20 @@
         "go"
       ],
       "scheduled_at": "2026-05-21T20:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Deep Dive into Copy-on-Write Semantics in Modern Linux Kernels: Architecture, Implementation, and Real-World Patterns",
+      "url": "https://martinuke0.github.io/posts/2026-05-21-deep-dive-into-copy-on-write-semantics-in-modern-linux-kernels-architecture-implementation-and-real-world-patterns/",
+      "social_hook": "> TL;DR — Copy‑on‑Write (CoW) in Linux isolates writes by sharing pages until a fault, saving memory and I/O; the kernel’s page‑fault path, `mm_struct`, and KSM illustrate its architecture, while production patterns like container image layering and database snapshots leverage CoW for efficiency and safety.\n\nCopy‑on‑Write is one of the quiet workhorses that lets Linux scale from tiny embedded devices to massive cloud fleets. When a process forks, the kernel can expose the same physical pages to both parent and child, postponing the actual copy until one of them tries to modify the data. That single design decision ripples through memory management, file systems, containers, and databases. In this post we unpack the kernel’s CoW plumbing, walk through the critical code paths, and then map those mechanisms onto the patterns you’ll see in production today.\n\nThe original Unix `fork()` semantics were already CoW‑enabled in the early 1970s, but the implementation was a simple reference‑count bump on each page table entry. Over the decades, Linux added layers of sophistication:",
+      "tags": [
+        "Linux",
+        "Copy-on-Write",
+        "Kernel",
+        "Performance",
+        "Systems"
+      ],
+      "scheduled_at": "2026-05-21T21:01:38Z",
       "status": "pending"
     }
   ]
