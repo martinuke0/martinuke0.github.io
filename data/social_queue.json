@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-21T18:01:38Z",
+  "last_scheduled_at": "2026-05-21T19:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -15234,6 +15234,20 @@
         "performance"
       ],
       "scheduled_at": "2026-05-21T18:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Autonomous Memory Systems for Distributed AI Agent Orchestration: Structural Patterns and Production Scaling",
+      "url": "https://martinuke0.github.io/posts/2026-05-21-architecting-autonomous-memory-systems-for-distributed-ai-agent-orchestration-structural-patterns-and-production-scaling/",
+      "social_hook": "> TL;DR — Autonomous memory for AI agents must blend high‑throughput vector stores, deterministic caching, and strong consistency guarantees. By layering shared caches, sharded vector indexes, and event‑driven state sync, you can scale orchestration from a single node to a global fleet without sacrificing latency or correctness.\n\nDistributed AI agents—think autonomous assistants, swarm robotics, or multi‑modal chat pipelines—need fast, reliable access to both raw embeddings and mutable context. Building a memory system that can keep up with thousands of concurrent agents while staying resilient under failure is a systems engineering problem, not a research curiosity. This post walks through the concrete patterns, architectural sketches, and production‑grade scaling knobs that have proven effective at companies running large‑scale agent fleets.\n\nBefore diving into patterns, it helps to enumerate the pain points that surface when a memory layer moves from a prototype to production.",
+      "tags": [
+        "AI",
+        "Distributed Systems",
+        "Memory Architecture",
+        "Orchestration",
+        "Scaling"
+      ],
+      "scheduled_at": "2026-05-21T19:01:38Z",
       "status": "pending"
     }
   ]
