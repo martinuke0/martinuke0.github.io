@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-23T05:01:38Z",
+  "last_scheduled_at": "2026-05-23T06:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -15725,6 +15725,21 @@
         "linux"
       ],
       "scheduled_at": "2026-05-23T05:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Distributed Vector Database Systems: Engineering Reliable Infrastructure for Scalable Semantic Search Pipelines",
+      "url": "https://martinuke0.github.io/posts/2026-05-22-architecting-distributed-vector-database-systems-engineering-reliable-infrastructure-for-scalable-semantic-search-pipelines/",
+      "social_hook": "> TL;DR — Distributed vector databases must blend classic sharding‑replication patterns with vector‑specific optimizations. By combining deterministic routing, lazy re‑balancing, and tiered consistency, you can achieve low‑latency semantic search at petabyte scale while keeping operational risk low.\n\nSemantic search has moved from research notebooks to production‑grade services that answer user queries in milliseconds. At the heart of those services lies a vector database that stores billions of high‑dimensional embeddings and returns the nearest neighbors for each query. Building such a system is not a matter of scaling a traditional relational DB; it requires a purpose‑built architecture that respects the geometry of vectors, the latency expectations of interactive apps, and the reliability demands of enterprise SLAs.\n\nIn this post we walk through the end‑to‑end engineering of a distributed vector database, from data ingestion pipelines to query serving, and we highlight concrete patterns that have proven successful in production environments like Milvus, Pinecone, and Weaviate.",
+      "tags": [
+        "vector-database",
+        "distributed-systems",
+        "semantic-search",
+        "architecture",
+        "scalability",
+        "reliability"
+      ],
+      "scheduled_at": "2026-05-23T06:01:38Z",
       "status": "pending"
     }
   ]
