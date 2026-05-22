@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-23T01:01:38Z",
+  "last_scheduled_at": "2026-05-23T02:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -15669,6 +15669,20 @@
         "Multi-Provider"
       ],
       "scheduled_at": "2026-05-23T01:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Network Throughput with TCP BBR: Implementation, Performance Tuning, and Production‑Ready Patterns",
+      "url": "https://martinuke0.github.io/posts/2026-05-22-optimizing-network-throughput-with-tcp-bbr-implementation-performance-tuning-and-productionready-patterns/",
+      "social_hook": "> TL;DR — Enabling TCP BBR on modern Linux kernels can lift network throughput by 30‑70 % in data‑intensive workloads. Follow the three‑step recipe: (1) enable BBR via sysctl, (2) tune `net.core` and BBR‑specific knobs, and (3) embed production patterns such as per‑service pacing and eBPF‑based monitoring to keep latency predictable.\n\nNetwork teams often hit a ceiling when scaling micro‑services that stream large payloads—think video transcoding pipelines, real‑time analytics, or high‑frequency trading feeds. Traditional loss‑based congestion controllers like CUBIC react to packet loss, which in lossy datacenter fabrics translates to unnecessary throttling. Google’s BBR (Bottleneck Bandwidth and Round‑Trip propagation time) takes a model‑based approach, probing for the true bottleneck bandwidth and RTT, then pacing traffic at that rate. The result is higher link utilization with lower queuing delay, but only if BBR is correctly provisioned and guarded against the quirks of production environments. This post walks you through the end‑to‑end journey: from kernel activation to performance tuning, and finally to patterns that make BBR safe for mission‑critical services.\n\n1. Loss‑based controllers (CUBIC, Reno) interpret any packet drop as a sign of congestion, cutting the congestion window (cwnd) dramatically.",
+      "tags": [
+        "network",
+        "tcp",
+        "bbr",
+        "performance",
+        "devops"
+      ],
+      "scheduled_at": "2026-05-23T02:01:38Z",
       "status": "pending"
     }
   ]
