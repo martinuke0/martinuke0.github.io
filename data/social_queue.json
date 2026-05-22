@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-22T19:01:38Z",
+  "last_scheduled_at": "2026-05-22T20:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -15584,6 +15584,20 @@
         "cloud-architecture"
       ],
       "scheduled_at": "2026-05-22T19:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing RocksDB Performance: A Deep Dive into Tiered versus Leveled Compaction Strategies",
+      "url": "https://martinuke0.github.io/posts/2026-05-22-optimizing-rocksdb-performance-a-deep-dive-into-tiered-versus-leveled-compaction-strategies/",
+      "social_hook": "> TL;DR — Tiered compaction boosts write throughput and reduces write amplification for hot data, while leveled compaction offers tighter read latency and lower space overhead; choose based on your workload’s read/write mix and storage cost constraints.\n\nRocksDB is the de‑facto embedded key‑value store for high‑performance services, from messaging platforms to time‑series databases. Its compaction engine determines how fast data can be written, how predictable reads are, and how much disk space you actually pay for. In production, engineers often wrestle with two mutually exclusive styles—Tiered and Leveled—each with distinct trade‑offs. This post unpacks the inner workings of both, shows real‑world patterns where they shine, and provides concrete tuning knobs you can apply today.\n\nCompaction is the background process that reorganizes immutable SST (Sorted String Table) files:",
+      "tags": [
+        "RocksDB",
+        "Compaction",
+        "Performance",
+        "Database Engineering",
+        "Storage Systems"
+      ],
+      "scheduled_at": "2026-05-22T20:01:38Z",
       "status": "pending"
     }
   ]
