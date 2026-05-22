@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-22T18:01:38Z",
+  "last_scheduled_at": "2026-05-22T19:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -15570,6 +15570,20 @@
         "go"
       ],
       "scheduled_at": "2026-05-22T18:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Low-Latency Cross-Regional Replication for Vector Search Clusters: Design Patterns and Global Consistency",
+      "url": "https://martinuke0.github.io/posts/2026-05-22-architecting-low-latency-cross-regional-replication-for-vector-search-clusters-design-patterns-and-global-consistency/",
+      "social_hook": "> TL;DR — Replicating vector search across regions can stay under 10 ms when you combine a write‑ahead log, deterministic sharding, and a hybrid consistency model. The pattern relies on a fast data plane (e.g., gRPC over private links) and a control plane that reconciles divergent indexes using conflict‑free replicated data types (CRDTs).\n\nVector search has moved from research labs to production workloads that power recommendation engines, semantic search, and AI‑augmented retrieval. Yet most deployments still live in a single data center, making them vulnerable to latency spikes and regional outages. In this post we dive into a production‑grade architecture that spreads a vector index across AWS us‑east‑1, GCP europe‑west1, and Azure eastus, while keeping query latency under 10 ms and guaranteeing global consistency.\n\n1. User‑experience latency – A user in Berlin hitting a service hosted in Virginia experiences ~70 ms round‑trip. By placing a replica in Europe you cut that to ~10 ms.",
+      "tags": [
+        "vector-search",
+        "replication",
+        "low-latency",
+        "distributed-systems",
+        "cloud-architecture"
+      ],
+      "scheduled_at": "2026-05-22T19:01:38Z",
       "status": "pending"
     }
   ]
