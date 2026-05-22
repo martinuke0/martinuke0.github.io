@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-22T11:01:38Z",
+  "last_scheduled_at": "2026-05-22T12:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -15472,6 +15472,20 @@
         "architecture"
       ],
       "scheduled_at": "2026-05-22T11:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Token Bucket vs Leaky Bucket Rate Limiting: Architecture, Performance, and Production-Ready Patterns",
+      "url": "https://martinuke0.github.io/posts/2026-05-22-mastering-token-bucket-vs-leaky-bucket-rate-limiting-architecture-performance-and-production-ready-patterns/",
+      "social_hook": "> TL;DR — Token bucket excels when you need controlled bursts, while leaky bucket guarantees a smooth outflow. Choose the algorithm that matches your latency budget, state‑management constraints, and scaling model, then apply proven production patterns such as distributed counters or side‑car proxies.\n\nRate limiting is no longer a niche feature; it’s a core pillar of reliability for any internet‑scale service. From protecting public APIs against abuse to smoothing traffic for downstream databases, the choice between a token bucket and a leaky bucket can dictate latency, resource utilization, and operational complexity. This post walks through the inner workings of each algorithm, contrasts their architectural footprints, and hands you production‑ready patterns you can copy into a Kubernetes or bare‑metal environment today.\n\nModern SaaS platforms experience unpredictable traffic bursts—think a marketing email blast, a sudden viral trend, or a bot‑driven credential‑stuffing attempt. Without a gatekeeper, those spikes can:",
+      "tags": [
+        "rate limiting",
+        "token bucket",
+        "leaky bucket",
+        "architecture",
+        "production"
+      ],
+      "scheduled_at": "2026-05-22T12:01:38Z",
       "status": "pending"
     }
   ]
