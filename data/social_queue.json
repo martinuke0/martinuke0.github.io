@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-23T03:01:38Z",
+  "last_scheduled_at": "2026-05-23T04:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -15697,6 +15697,20 @@
         "architecture"
       ],
       "scheduled_at": "2026-05-23T03:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Deep Dive into Linux Namespaces: The Core Mechanics Behind How Containers Actually Work",
+      "url": "https://martinuke0.github.io/posts/2026-05-22-deep-dive-into-linux-namespaces-the-core-mechanics-behind-how-containers-actually-work/",
+      "social_hook": "> TL;DR — Linux namespaces carve out separate views of system resources, enabling containers to run as if they were independent machines. Understanding each namespace type, the kernel mechanics, and real‑world tooling lets you design safer, more performant container platforms.\n\nContainers feel magical because they appear to run on their own kernel, but the magic lives in a handful of kernel features called namespaces. This post unpacks every namespace type, shows how the kernel enforces isolation, and ties the theory to the tools you already use—Docker, containerd, and `kubectl`. By the end you’ll be able to reason about failure modes, benchmark overhead, and confidently troubleshoot namespace‑related bugs in production.\n\nA namespace is a kernel abstraction that provides a view of a particular resource group. When a process is placed inside a namespace, system calls that query that resource return values limited to the namespace’s contents. The process cannot see—or affect—resources outside its view.",
+      "tags": [
+        "Linux",
+        "Containers",
+        "Namespaces",
+        "Kubernetes",
+        "DevOps"
+      ],
+      "scheduled_at": "2026-05-23T04:01:38Z",
       "status": "pending"
     }
   ]
