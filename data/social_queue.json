@@ -15570,7 +15570,7 @@
         "go"
       ],
       "scheduled_at": "2026-05-22T18:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Architecting Low-Latency Cross-Regional Replication for Vector Search Clusters: Design Patterns and Global Consistency",
