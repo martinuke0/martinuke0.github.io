@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-23T00:01:38Z",
+  "last_scheduled_at": "2026-05-23T01:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -15655,6 +15655,20 @@
         "Production Patterns"
       ],
       "scheduled_at": "2026-05-23T00:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing Liter-LLM: Architecting Rust-Powered Polyglot Bindings for Multi-Provider Large Language Models",
+      "url": "https://martinuke0.github.io/posts/2026-05-22-implementing-liter-llm-architecting-rust-powered-polyglot-bindings-for-multi-provider-large-language-models/",
+      "social_hook": "> TL;DR — Liter-LLM demonstrates a production‑ready pattern for exposing OpenAI, Anthropic, Cohere, and other LLM services through a single, async‑first Rust crate. By leveraging Tokio, `serde`, and `jemalloc`, the library achieves low latency, deterministic memory usage, and a clean, language‑agnostic binding layer that can be called from Python, Go, or JavaScript.\n\nLarge language models (LLMs) are no longer research curiosities; they are core components of recommendation engines, chat assistants, and data‑pipeline enrichments. Yet most teams end up writing a separate thin wrapper for each vendor—OpenAI, Anthropic, Cohere, etc.—in the language of their service. This fragmentation hurts observability, adds duplicated error‑handling code, and makes scaling across providers a nightmare. In this post I walk through the design and implementation of Liter-LLM, a Rust‑native library that unifies those disparate APIs behind a single, ergonomic interface while exposing polyglot bindings for Python, Go, and Node.js.\n\n Zero‑cost abstractions** – Rust’s ownership model eliminates data races without a runtime penalty, crucial when you’re streaming tens of thousands of token‑by‑token responses.",
+      "tags": [
+        "Rust",
+        "LLM",
+        "Polyglot",
+        "Architecture",
+        "Multi-Provider"
+      ],
+      "scheduled_at": "2026-05-23T01:01:38Z",
       "status": "pending"
     }
   ]
