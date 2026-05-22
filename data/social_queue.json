@@ -15514,7 +15514,7 @@
         "Production"
       ],
       "scheduled_at": "2026-05-22T14:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Implementing Sentry for Modern Error Monitoring and Observability: Architecture, Patterns, and Production Strategies",
