@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-22T20:01:38Z",
+  "last_scheduled_at": "2026-05-22T21:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -15598,6 +15598,21 @@
         "Storage Systems"
       ],
       "scheduled_at": "2026-05-22T20:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing Idempotency Keys in Payment APIs: Architecture, Safety, and Production-Ready Patterns",
+      "url": "https://martinuke0.github.io/posts/2026-05-22-implementing-idempotency-keys-in-payment-apis-architecture-safety-and-production-ready-patterns/",
+      "social_hook": "> TL;DR — Idempotency keys let you safely retry payment requests without risking double charges; implement them with a write‑ahead log, short‑lived cache, and strict validation to achieve production‑grade reliability.\n\nIn the world of online commerce, a single network hiccup can turn a successful charge into a dreaded duplicate. While retries are essential for resiliency, they become dangerous when the underlying operation isn’t idempotent. This article shows you, step by step, how to embed idempotency keys into a payment API, why the pattern is non‑negotiable for compliance, and which production‑ready building blocks keep your system safe, observable, and performant.\n\n1. Customer trust – A duplicated charge erodes confidence faster than any UI bug.",
+      "tags": [
+        "payments",
+        "idempotency",
+        "api",
+        "architecture",
+        "patterns",
+        "security"
+      ],
+      "scheduled_at": "2026-05-22T21:01:38Z",
       "status": "pending"
     }
   ]
