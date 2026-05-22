@@ -15542,7 +15542,7 @@
         "go"
       ],
       "scheduled_at": "2026-05-22T16:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Implementing TLS 1.3 Zero Round-Trip Resumption: Architecture, Security Trade-offs, and Practical Deployment Patterns",
