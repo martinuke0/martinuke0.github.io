@@ -15627,7 +15627,7 @@
         "Deployment"
       ],
       "scheduled_at": "2026-05-22T22:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Mastering Sentry for Modern Error Monitoring and Observability: Architecture, Workflows, and Performance Insights",
