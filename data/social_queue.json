@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-22T12:01:38Z",
+  "last_scheduled_at": "2026-05-22T13:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -15486,6 +15486,20 @@
         "production"
       ],
       "scheduled_at": "2026-05-22T12:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Distributed Vector Databases: Scaling Semantic Search Infrastructure for Production-Ready Applications",
+      "url": "https://martinuke0.github.io/posts/2026-05-22-architecting-distributed-vector-databases-scaling-semantic-search-infrastructure-for-production-ready-applications/",
+      "social_hook": "> TL;DR — Distributed vector databases combine sharding, replication, and query routing to deliver low‑latency semantic search at petabyte scale. By aligning data layout with embedding dimensions, using incremental indexing pipelines, and automating health‑checks, teams can run production‑ready search services that handle billions of vectors with predictable cost.\n\nSemantic search has moved from research labs to the core of many SaaS products—recommendations, document retrieval, and AI‑augmented assistants all rely on fast nearest‑neighbor lookups. Yet the naïve “single‑node FAISS index” quickly hits memory, latency, and reliability walls once you cross a few hundred million vectors. This post walks through the architecture, scaling patterns, and operational guardrails you need to turn a vector store into a production‑grade, globally‑available service.\n\n1. Volume – Modern LLM pipelines generate embeddings for every user interaction. A popular chatbot can easily create >10 M new vectors per day, translating to >3 B vectors per year.",
+      "tags": [
+        "vector-database",
+        "semantic-search",
+        "distributed-systems",
+        "architecture",
+        "production"
+      ],
+      "scheduled_at": "2026-05-22T13:01:38Z",
       "status": "pending"
     }
   ]
