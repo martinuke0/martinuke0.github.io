@@ -15641,7 +15641,7 @@
         "architecture"
       ],
       "scheduled_at": "2026-05-22T23:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Architecting Autonomous Memory Systems for Distributed AI Agent Orchestration: Patterns and Production Workflows",
