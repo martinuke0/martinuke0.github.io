@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-22T07:01:38Z",
+  "last_scheduled_at": "2026-05-22T08:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -15416,6 +15416,20 @@
         "systems-engineering"
       ],
       "scheduled_at": "2026-05-22T07:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Asynchronous Consensus Protocols for Multi-Agent Decision Engines: From Theory to Production-Ready Implementation",
+      "url": "https://martinuke0.github.io/posts/2026-05-22-architecting-asynchronous-consensus-protocols-for-multi-agent-decision-engines-from-theory-to-production-ready-implementation/",
+      "social_hook": "> TL;DR — Asynchronous consensus lets dozens of decision agents agree on a shared state without blocking. By combining Kafka’s durable log with a lightweight Raft state machine, you can ship a production‑grade engine that scales, recovers fast, and stays observable.\n\nIn modern AI‑augmented platforms, a single monolithic model is rarely enough. Instead, a fleet of specialized agents—recommendation, fraud detection, pricing, routing—must collaborate in near‑real time. The coordination layer is the hidden glue that guarantees every agent works off the same view of the world. This post walks through the theory behind asynchronous consensus, maps it onto concrete Kafka + Raft architecture, and ends with a runnable Python prototype plus an ops checklist you can copy into your own CI/CD pipeline.\n\nMost production decision pipelines rely on eventual consistency: each microservice publishes an event, downstream services consume it when they can. That model works when latency budgets are generous, but it breaks down when agents need to make joint decisions—think of a bidding engine that must ensure two separate price‑optimizers never oversell inventory. In such cases you need strong coordination without sacrificing the asynchronous nature of modern event streams.",
+      "tags": [
+        "consensus",
+        "distributed-systems",
+        "kafka",
+        "raft",
+        "microservices"
+      ],
+      "scheduled_at": "2026-05-22T08:01:38Z",
       "status": "pending"
     }
   ]
