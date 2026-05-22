@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-22T08:01:38Z",
+  "last_scheduled_at": "2026-05-22T09:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -15430,6 +15430,20 @@
         "microservices"
       ],
       "scheduled_at": "2026-05-22T08:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Multimodal RAG Pipelines: Integrating Vision-Language Models for Production-Ready Search and Retrieval",
+      "url": "https://martinuke0.github.io/posts/2026-05-22-architecting-multimodal-rag-pipelines-integrating-vision-language-models-for-production-ready-search-and-retrieval/",
+      "social_hook": "> TL;DR — Multimodal RAG pipelines fuse text and visual embeddings, store them in a unified vector index, and orchestrate retrieval with low‑latency messaging (e.g., Kafka). By wiring CLIP‑style vision‑language models, Faiss or Milvus, and a lightweight LLM, you can serve production‑ready search that answers queries with combined image‑text context.\n\nEnterprises that rely on knowledge bases, product catalogs, or internal documentation are increasingly asked to surface visual information alongside text. A traditional RAG (Retrieval‑Augmented Generation) stack excels at pulling relevant passages, but it falls short when the query references an image, a diagram, or a video frame. This post walks through a production‑ready architecture that unifies vision‑language models (VLMs) with classic text retrieval, showing concrete patterns, code snippets, and scaling tricks that work in day‑to‑day LinkedIn‑level engineering teams.\n\n1. User expectations – Modern users type “show me the wiring diagram for the XYZ sensor” and expect a single result that includes the diagram and a concise explanation.",
+      "tags": [
+        "RAG",
+        "multimodal",
+        "vision-language",
+        "search",
+        "production"
+      ],
+      "scheduled_at": "2026-05-22T09:01:38Z",
       "status": "pending"
     }
   ]
