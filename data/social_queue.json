@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-22T23:01:38Z",
+  "last_scheduled_at": "2026-05-23T00:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -15641,6 +15641,20 @@
         "architecture"
       ],
       "scheduled_at": "2026-05-22T23:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Autonomous Memory Systems for Distributed AI Agent Orchestration: Patterns and Production Workflows",
+      "url": "https://martinuke0.github.io/posts/2026-05-22-architecting-autonomous-memory-systems-for-distributed-ai-agent-orchestration-patterns-and-production-workflows/",
+      "social_hook": "> TL;DR — Autonomous memory systems combine event‑sourced logs, vector indexes, and consistent caching to let thousands of AI agents share state without bottlenecks. Deploying a layered architecture—ingest → durable store → vector store → query cache—along with idempotent pipelines and observability guarantees yields production‑ready orchestration at scale.\n\nDistributed AI agents have moved from isolated chat bots to fleets that collaborate on complex tasks such as multi‑step planning, data synthesis, and real‑time monitoring. The missing piece in most deployments is a memory layer that can persist, retrieve, and reason over heterogeneous data (text, embeddings, structured metadata) while staying responsive under high concurrency. This post walks through the architecture, patterns, and production workflows that make an autonomous memory system reliable, scalable, and easy to operate.\n\n1. Stateful coordination – Agents need to read each other's intermediate results (e.g., a planning agent writes a task list that an execution agent later consumes).",
+      "tags": [
+        "AI",
+        "Distributed Systems",
+        "Memory Architecture",
+        "Orchestration",
+        "Production Patterns"
+      ],
+      "scheduled_at": "2026-05-23T00:01:38Z",
       "status": "pending"
     }
   ]
