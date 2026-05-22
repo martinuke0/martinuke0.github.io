@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-22T14:01:38Z",
+  "last_scheduled_at": "2026-05-22T15:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -15514,6 +15514,20 @@
         "Production"
       ],
       "scheduled_at": "2026-05-22T14:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing Sentry for Modern Error Monitoring and Observability: Architecture, Patterns, and Production Strategies",
+      "url": "https://martinuke0.github.io/posts/2026-05-22-implementing-sentry-for-modern-error-monitoring-and-observability-architecture-patterns-and-production-strategies/",
+      "social_hook": "> TL;DR — Sentry can be woven into a cloud‑native stack with minimal latency, rich context, and automated triage. By following a layered architecture, sampling patterns, and Helm‑driven deployments, teams gain observability without sacrificing performance.\n\nModern services run thousands of requests per second, yet a single uncaught exception can cascade into downtime, revenue loss, and brand damage. Traditional log‑only approaches make it hard to pinpoint the root cause, especially when services span multiple languages and runtimes. Sentry provides a unified error‑monitoring platform that captures stack traces, request metadata, and custom breadcrumbs in real time, turning raw exceptions into actionable alerts.\n\nIn this post we’ll walk through how to integrate Sentry into production‑grade systems, explore architectural choices that keep latency low, and share patterns that help large engineering orgs stay on top of error velocity. Expect concrete diagrams, code snippets for Python, Go, and Node, plus Helm/YAML examples for Kubernetes deployments.",
+      "tags": [
+        "sentry",
+        "error-monitoring",
+        "observability",
+        "architecture",
+        "devops"
+      ],
+      "scheduled_at": "2026-05-22T15:01:38Z",
       "status": "pending"
     }
   ]
