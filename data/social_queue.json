@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-23T04:01:38Z",
+  "last_scheduled_at": "2026-05-23T05:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -15711,6 +15711,20 @@
         "DevOps"
       ],
       "scheduled_at": "2026-05-23T04:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Deep Dive into Flame Graphs: Profiling Blind Spots, Sampling Bias, and Hidden Execution Costs",
+      "url": "https://martinuke0.github.io/posts/2026-05-22-deep-dive-into-flame-graphs-profiling-blind-spots-sampling-bias-and-hidden-execution-costs/",
+      "social_hook": "> TL;DR — Flame graphs turn sampled stacks into instantly readable heat maps, but they inherit the biases of the sampler. Understanding those blind spots, tuning your sampling interval, and wiring flame‑graph generation into a CI/CD pipeline lets you surface hidden CPU, lock, and I/O costs before they become outages.\n\nProfiling production services is a balancing act: you need enough detail to debug hot paths, yet you must keep overhead low enough not to disturb the workload. Flame graphs have become the de‑facto visual tool for that balance, but many engineers treat them as a black box. This post unpacks the internals of flame‑graph generation, explains where sampling can mislead, and shows how to embed a robust, production‑grade profiling pipeline into modern cloud‑native stacks.\n\n X‑axis** – cumulative width of all samples that share a particular call stack prefix. Wider bars mean more time spent in that code path.",
+      "tags": [
+        "profiling",
+        "flame-graphs",
+        "performance",
+        "observability",
+        "linux"
+      ],
+      "scheduled_at": "2026-05-23T05:01:38Z",
       "status": "pending"
     }
   ]
