@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-22T21:01:38Z",
+  "last_scheduled_at": "2026-05-22T22:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -15613,6 +15613,20 @@
         "security"
       ],
       "scheduled_at": "2026-05-22T21:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Mobile Device Management for Enterprise Endpoints: Architecture, Security, and Lifecycle Deployment Strategies",
+      "url": "https://martinuke0.github.io/posts/2026-05-22-mastering-mobile-device-management-for-enterprise-endpoints-architecture-security-and-lifecycle-deployment-strategies/",
+      "social_hook": "> TL;DR — Modern MDM is a layered service that couples a lightweight device agent with a cloud‑native policy engine, zero‑trust controls, and automated lifecycle pipelines. By treating enrollment, policy distribution, and de‑provisioning as immutable, versioned artifacts, enterprises can scale to tens of thousands of endpoints while keeping security posture measurable and auditable.\n\nEnterprises today manage fleets that range from a few hundred corporate‑issued phones to hundreds of thousands of BYOD devices. The challenge isn’t just “how do we push a configuration?” but “how do we guarantee that every device remains compliant, that revocation happens instantly, and that the architecture can survive a regional outage?” This post walks through a production‑ready MDM architecture, security patterns that survive real‑world attacks, and a step‑by‑step lifecycle deployment strategy you can adopt with tools like Microsoft Endpoint Manager, VMware Workspace ONE, and open‑source Kafka for event streaming.\n\nA robust MDM platform consists of four logical layers that map cleanly onto cloud services and on‑prem components:",
+      "tags": [
+        "MDM",
+        "Enterprise",
+        "Security",
+        "Architecture",
+        "Deployment"
+      ],
+      "scheduled_at": "2026-05-22T22:01:38Z",
       "status": "pending"
     }
   ]
