@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-22T22:01:38Z",
+  "last_scheduled_at": "2026-05-22T23:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -15627,6 +15627,20 @@
         "Deployment"
       ],
       "scheduled_at": "2026-05-22T22:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Sentry for Modern Error Monitoring and Observability: Architecture, Workflows, and Performance Insights",
+      "url": "https://martinuke0.github.io/posts/2026-05-22-mastering-sentry-for-modern-error-monitoring-and-observability-architecture-workflows-and-performance-insights/",
+      "social_hook": "> TL;DR — Sentry can be run as a managed SaaS or self‑hosted cluster that scales to millions of events per day. By understanding its ingestion pipeline, storage layout, and sampling knobs, you can keep latency sub‑second, control costs, and integrate alerts directly into your incident response playbooks.\n\nModern applications generate a relentless stream of exceptions, performance traces, and custom breadcrumbs. Without a disciplined observability stack, those signals drown in noise, delay MTTR, and inflate cloud bills. Sentry is one of the few tools that combines full‑stack error capture with performance monitoring, and it offers a surprisingly granular set of knobs for production teams. This post unpacks the end‑to‑end architecture, walks through a typical workflow from SDK capture to on‑call resolution, and dives into the performance levers you need to master to keep Sentry both fast and affordable.\n\n Full‑stack visibility** – Sentry’s SDKs automatically attach request context, user data, and stack traces across languages (Python, Go, JavaScript, Java, etc.). That eliminates the “log‑only” gap where you have to manually correlate logs and metrics.",
+      "tags": [
+        "sentry",
+        "observability",
+        "error-monitoring",
+        "devops",
+        "architecture"
+      ],
+      "scheduled_at": "2026-05-22T23:01:38Z",
       "status": "pending"
     }
   ]
