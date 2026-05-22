@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-22T10:01:38Z",
+  "last_scheduled_at": "2026-05-22T11:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -15458,6 +15458,20 @@
         "production"
       ],
       "scheduled_at": "2026-05-22T10:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting a Software Factory: A Comprehensive Guide to Structured Agent Workflows and Production Pipelines",
+      "url": "https://martinuke0.github.io/posts/2026-05-22-architecting-a-software-factory-a-comprehensive-guide-to-structured-agent-workflows-and-production-pipelines/",
+      "social_hook": "> TL;DR — A software factory stitches together autonomous agents, event streams, and orchestrators into a repeatable production pipeline. By grounding the design in Kafka, Airflow (or Temporal), and observability best‑practices, teams can ship AI‑augmented features at scale with predictable reliability.\n\nModern product teams are no longer just writing code; they are curating behaviors that run continuously—data ingestion, model inference, validation, and rollout. Treating these behaviors as agents that exchange messages through a structured workflow turns ad‑hoc scripts into a disciplined, version‑controlled factory. This guide walks through the architectural pillars, concrete patterns, and production‑grade tooling you need to turn that vision into reality.\n\n1. Predictable throughput – By defining explicit stages (ingest → process → validate → deploy), you can measure cycle time and spot bottlenecks.",
+      "tags": [
+        "software-factory",
+        "agent-workflows",
+        "production-pipelines",
+        "devops",
+        "architecture"
+      ],
+      "scheduled_at": "2026-05-22T11:01:38Z",
       "status": "pending"
     }
   ]
