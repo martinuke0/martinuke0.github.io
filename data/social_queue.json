@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-22T17:01:38Z",
+  "last_scheduled_at": "2026-05-22T18:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -15556,6 +15556,20 @@
         "Production"
       ],
       "scheduled_at": "2026-05-22T17:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Deep Dive into Flame Graphs: Visualizing Performance Bottlenecks and Navigating Hidden Execution Metadata",
+      "url": "https://martinuke0.github.io/posts/2026-05-22-deep-dive-into-flame-graphs-visualizing-performance-bottlenecks-and-navigating-hidden-execution-metadata/",
+      "social_hook": "> TL;DR — Flame graphs turn raw stack‑sampling data into an instantly readable heat map of CPU time. By wiring them into CI/CD or observability pipelines you can spot hidden hot paths, understand metadata like in‑kernel wait states, and act on concrete performance bugs before they reach users.\n\nPerformance engineers spend countless hours chasing “slow” requests, only to discover that the root cause lives in a few microseconds of kernel‑mode activity or an obscure library call. Flame graphs compress that noise into a visual hierarchy that highlights where the program actually spends its time. This post walks through the theory, the tooling, and the production‑ready architecture you need to turn a stack trace dump into actionable insight.\n\nA flame graph is a stacked, horizontally‑oriented histogram where each box represents a function (or symbol) and its width is proportional to the amount of sampled time spent in that stack frame. The “flames” rise from the bottom (root functions) to the top (leaf functions), making hot paths visually pop like a fire.",
+      "tags": [
+        "performance",
+        "profiling",
+        "flame-graphs",
+        "observability",
+        "go"
+      ],
+      "scheduled_at": "2026-05-22T18:01:38Z",
       "status": "pending"
     }
   ]
