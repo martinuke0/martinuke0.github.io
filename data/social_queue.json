@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-22T15:01:38Z",
+  "last_scheduled_at": "2026-05-22T16:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -15528,6 +15528,20 @@
         "devops"
       ],
       "scheduled_at": "2026-05-22T15:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Deep Dive into Flame Graphs: Visualizing Performance Bottlenecks and Identifying Hidden Execution Latency",
+      "url": "https://martinuke0.github.io/posts/2026-05-22-deep-dive-into-flame-graphs-visualizing-performance-bottlenecks-and-identifying-hidden-execution-latency/",
+      "social_hook": "> TL;DR — Flame graphs turn massive stacks of sampled CPU data into a compact, color‑coded visualization that highlights hot paths. By wiring a small pipeline (perf → collapsed stack → flamegraph.pl) into CI/CD or live observability, you can spot hidden latency in Java, Go, Rust, or any native binary within minutes.\n\nPerformance engineers spend countless hours chasing “slow” endpoints, only to discover that the real culprit lives deep inside a library call or a GC pause. Traditional profiling tools give you raw numbers, but they rarely show the shape of the problem. Flame graphs fill that gap: they compress millions of stack frames into a hierarchical heat map where width equals time spent, and color encodes additional dimensions such as CPU core or thread ID. This post walks you through the theory, the production‑grade architecture, concrete tooling for Java, Go, and Rust, and the patterns you need to adopt to make flame graphs a first‑class part of your observability stack.\n\nA flame graph is a visual representation of stack trace samples collected over a period of execution. Each horizontal bar corresponds to a function (or method) and its width is proportional to the cumulative time spent in that function and all its callees. Stacks are stacked vertically: the bottom row represents leaf functions (the innermost calls), and each row above shows the caller. The resulting “flame” shape lets you instantly spot the widest bars—the hot paths.",
+      "tags": [
+        "performance",
+        "flamegraphs",
+        "profiling",
+        "observability",
+        "go"
+      ],
+      "scheduled_at": "2026-05-22T16:01:38Z",
       "status": "pending"
     }
   ]
