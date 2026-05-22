@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-23T06:01:38Z",
+  "last_scheduled_at": "2026-05-23T07:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -15740,6 +15740,20 @@
         "reliability"
       ],
       "scheduled_at": "2026-05-23T06:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Deep Dive into Generational Garbage Collection: Memory Management in Modern JVM and .NET Runtimes",
+      "url": "https://martinuke0.github.io/posts/2026-05-22-deep-dive-into-generational-garbage-collection-memory-management-in-modern-jvm-and-net-runtimes/",
+      "social_hook": "> TL;DR — Generational GC in JVM and .NET separates short‑lived from long‑lived objects, enabling fast minor collections and predictable pause times; tuning the young generation size and promotion thresholds can unlock significant latency and throughput gains in production.\n\nMemory management is the silent workhorse behind every high‑throughput service. Modern runtimes—most notably the HotSpot JVM and the .NET CLR—rely on generational garbage collection to keep pause times low while still reclaiming billions of objects per second. This post peels back the abstraction layers, shows you the exact data structures each runtime uses, and gives you concrete knobs to turn in a production environment.\n\nEmpirical studies of real‑world workloads (e.g., web request handling, microservice orchestration) consistently show that most objects die young. In a typical Java or .NET service, 70‑90 % of allocations become unreachable within a few milliseconds. By grouping objects into generations based on age, a collector can focus its effort on the subset most likely to be reclaimable.",
+      "tags": [
+        "JVM",
+        "dotnet",
+        "garbage-collection",
+        "performance",
+        "architecture"
+      ],
+      "scheduled_at": "2026-05-23T07:01:38Z",
       "status": "pending"
     }
   ]
