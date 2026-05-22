@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-23T02:01:38Z",
+  "last_scheduled_at": "2026-05-23T03:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -15683,6 +15683,20 @@
         "devops"
       ],
       "scheduled_at": "2026-05-23T02:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Robust Payment Systems: Engineering for High-Availability Scalability and Enterprise-Grade Security",
+      "url": "https://martinuke0.github.io/posts/2026-05-22-architecting-robust-payment-systems-engineering-for-high-availability-scalability-and-enterprise-grade-security/",
+      "social_hook": "> TL;DR — Building a payment platform that never goes down requires active‑active data centers, stateless microservices, and strict PCI‑DSS controls. By combining Kafka‑driven event pipelines, sharded PostgreSQL, and automated secrets management, you can scale to millions of transactions per second while keeping cardholder data safe.\n\nPayment systems sit at the intersection of business revenue, regulatory compliance, and user trust. A single outage can freeze cash flow, erode brand reputation, and trigger hefty fines. This post walks through the architectural pillars—availability, scalability, and security—that keep modern payment platforms humming in production, and shows how to apply them with concrete tools such as Apache Kafka, Kubernetes, and PostgreSQL.\n\nMeeting these constraints simultaneously forces you to think in terms of distributed design rather than a single monolith.",
+      "tags": [
+        "payment",
+        "high-availability",
+        "scalability",
+        "security",
+        "architecture"
+      ],
+      "scheduled_at": "2026-05-23T03:01:38Z",
       "status": "pending"
     }
   ]
