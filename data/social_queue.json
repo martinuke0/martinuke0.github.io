@@ -15444,7 +15444,7 @@
         "production"
       ],
       "scheduled_at": "2026-05-22T09:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Architecting Distributed Vector Databases: Scaling Semantic Search for High‑Throughput Production",
