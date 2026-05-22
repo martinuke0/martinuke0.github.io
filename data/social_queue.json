@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-22T09:01:38Z",
+  "last_scheduled_at": "2026-05-22T10:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -15444,6 +15444,20 @@
         "production"
       ],
       "scheduled_at": "2026-05-22T09:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Distributed Vector Databases: Scaling Semantic Search for High‑Throughput Production",
+      "url": "https://martinuke0.github.io/posts/2026-05-22-architecting-distributed-vector-databases-scaling-semantic-search-for-highthroughput-production/",
+      "social_hook": "> TL;DR — Distributed vector databases combine sharding, replica sets, and ANN indexes to deliver sub‑10 ms latency at millions of QPS. By separating storage, indexing, and query routing, you can scale each tier independently and keep cost predictable.\n\nSemantic search has moved from research notebooks to core product features—think “search by meaning” in e‑commerce, recommendation engines, and enterprise knowledge bases. The challenge is no longer how to compute a single cosine similarity; it’s how to serve billions of vectors, keep them fresh, and answer queries at line‑rate without sacrificing relevance. This post walks through the building blocks, proven architecture patterns, and concrete scaling tricks used by teams running Milvus, Pinecone, and proprietary systems at scale.\n\n1. Data volume – Modern embeddings (e.g., 768‑dim BERT, 1536‑dim OpenAI text‑embedding‑ada) quickly reach terabytes. A single node’s RAM or SSD cannot hold the full index.",
+      "tags": [
+        "vector-db",
+        "semantic-search",
+        "distributed-systems",
+        "scalability",
+        "production"
+      ],
+      "scheduled_at": "2026-05-22T10:01:38Z",
       "status": "pending"
     }
   ]
