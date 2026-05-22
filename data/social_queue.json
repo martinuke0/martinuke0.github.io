@@ -15458,7 +15458,7 @@
         "production"
       ],
       "scheduled_at": "2026-05-22T10:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Architecting a Software Factory: A Comprehensive Guide to Structured Agent Workflows and Production Pipelines",
