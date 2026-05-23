@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-23T22:01:38Z",
+  "last_scheduled_at": "2026-05-23T23:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -15965,6 +15965,20 @@
         "architecture"
       ],
       "scheduled_at": "2026-05-23T22:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Go for Modern Backend Engineering: Architecture, Concurrency, and Production-Ready Services",
+      "url": "https://martinuke0.github.io/posts/2026-05-23-mastering-go-for-modern-backend-engineering-architecture-concurrency-and-production-ready-services/",
+      "social_hook": "> TL;DR — Go’s lightweight goroutine model, built‑in profiling, and strong standard library let you design modular, observable services that scale horizontally. By combining clean architecture, idiomatic concurrency patterns, and production tooling (Prometheus, Jaeger, etc.), you can ship backend systems that survive traffic spikes and operator errors.\n\nModern backend teams are under constant pressure to ship features faster while keeping systems reliable at scale. Go (often called “Golang”) has become a de‑facto language for this challenge because it blends compiled‑language performance with a developer‑friendly syntax and a concurrency model that maps cleanly to distributed architectures. In this post we’ll walk through three pillars of production‑ready Go services:\n\n1. Architecture – how to structure packages, define boundaries, and wire together microservices or event‑driven pipelines.",
+      "tags": [
+        "Go",
+        "Backend",
+        "Concurrency",
+        "Microservices",
+        "Architecture"
+      ],
+      "scheduled_at": "2026-05-23T23:01:38Z",
       "status": "pending"
     }
   ]
