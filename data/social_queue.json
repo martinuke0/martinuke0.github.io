@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-23T08:01:38Z",
+  "last_scheduled_at": "2026-05-23T09:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -15768,6 +15768,20 @@
         "Mobile"
       ],
       "scheduled_at": "2026-05-23T08:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Kafka Streams Real-Time Stream Processing Topologies: From Low-Level DSL to Production-Ready Pipelines",
+      "url": "https://martinuke0.github.io/posts/2026-05-23-architecting-kafka-streams-real-time-stream-processing-topologies-from-low-level-dsl-to-production-ready-pipelines/",
+      "social_hook": "> TL;DR — Kafka Streams lets you compose real‑time pipelines directly in Java. Start with the low‑level DSL to prototype, then evolve the code into modular, fault‑tolerant topologies that scale on Kubernetes or bare metal. This post shows the step‑by‑step architectural patterns, code snippets, and operational tips you need to ship production‑ready stream processing.\n\nKafka Streams has become the go‑to library for teams that need low latency, exactly‑once semantics, and tight integration with Apache Kafka. Yet many engineers stop at the first “Hello World” example and never confront the engineering trade‑offs that arise when a prototype becomes a critical data‑pipeline. In this article we walk through the full lifecycle: from writing a simple DSL topology, to modularizing it with the Processor API, to wiring together reusable sub‑topologies, handling state, scaling, and observability in a production environment.\n\nThe DSL is intentionally concise; a few lines can express joins, aggregations, and windowed computations. Below is a minimal example that reads a topic of click events, groups them by user, and emits a running count.",
+      "tags": [
+        "Kafka",
+        "Kafka Streams",
+        "Real-Time",
+        "Stream Processing",
+        "Architecture"
+      ],
+      "scheduled_at": "2026-05-23T09:01:38Z",
       "status": "pending"
     }
   ]
