@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-23T16:01:38Z",
+  "last_scheduled_at": "2026-05-23T17:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -15880,6 +15880,20 @@
         "CongestionControl"
       ],
       "scheduled_at": "2026-05-23T16:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Apache Kafka Topic Partitioning: Scaling Consumer Group Rebalancing for Production-Ready Pipelines",
+      "url": "https://martinuke0.github.io/posts/2026-05-23-mastering-apache-kafka-topic-partitioning-scaling-consumer-group-rebalancing-for-production-ready-pipelines/",
+      "social_hook": "> TL;DR — Choose partition counts that align with consumer parallelism, adopt the cooperative rebalance protocol or the sticky assignor, and instrument lag & rebalance latency metrics; these steps keep large consumer groups responsive in production pipelines.\n\nKafka’s ability to ingest millions of events per second hinges on two moving parts: topic partitioning and consumer group rebalancing. In a micro‑service ecosystem where dozens of consumer instances spin up and down, a poorly chosen partition layout can turn a routine rebalance into a minutes‑long outage. This post walks through the arithmetic of partition sizing, the mechanics of modern assignors, and production‑grade patterns that keep rebalances short and predictable.\n\nA rebalance occurs whenever the membership of a consumer group changes or when the subscription metadata of any member is updated. Typical triggers in production include:",
+      "tags": [
+        "kafka",
+        "topic-partitioning",
+        "consumer-groups",
+        "scalability",
+        "devops"
+      ],
+      "scheduled_at": "2026-05-23T17:01:38Z",
       "status": "pending"
     }
   ]
