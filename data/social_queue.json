@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-23T14:01:38Z",
+  "last_scheduled_at": "2026-05-23T15:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -15852,6 +15852,20 @@
         "architecture"
       ],
       "scheduled_at": "2026-05-23T14:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Scalable Data Pipeline Orchestration with Luigi: From Dependency Management to Production-Ready Workflows",
+      "url": "https://martinuke0.github.io/posts/2026-05-23-architecting-scalable-data-pipeline-orchestration-with-luigi-from-dependency-management-to-production-ready-workflows/",
+      "social_hook": "> TL;DR — Luigi lets you model complex data pipelines as a directed acyclic graph of tasks. By externalizing the scheduler, using worker farms, and wiring in monitoring, you can turn a prototype into a production‑ready, horizontally scalable workflow that survives failures and provides clear visibility.\n\nIn modern data engineering, the gap between a proof‑of‑concept notebook and a reliable, continuously running pipeline is often the orchestration layer. Luigi, an open‑source Python library from Spotify, offers a lightweight yet powerful way to define task dependencies, schedule work, and integrate with existing data stacks. This post walks through the architectural decisions, concrete patterns, and operational tooling you need to run Luigi at scale in a production environment.\n\n- Explicit Dependency Graph – Each task declares its inputs and outputs, allowing Luigi to build a DAG automatically. This eliminates hidden runtime ordering bugs.",
+      "tags": [
+        "Luigi",
+        "Data Engineering",
+        "Orchestration",
+        "Scalable Architecture",
+        "Production Pipelines"
+      ],
+      "scheduled_at": "2026-05-23T15:01:38Z",
       "status": "pending"
     }
   ]
