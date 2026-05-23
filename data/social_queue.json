@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-24T03:01:38Z",
+  "last_scheduled_at": "2026-05-24T04:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -16035,6 +16035,20 @@
         "architecture"
       ],
       "scheduled_at": "2026-05-24T03:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing Idempotency Keys in Payment APIs: Architecture, Safety Patterns, and Production-Ready Workflows",
+      "url": "https://martinuke0.github.io/posts/2026-05-23-implementing-idempotency-keys-in-payment-apis-architecture-safety-patterns-and-production-ready-workflows/",
+      "social_hook": "> TL;DR — Idempotency keys let your payment service safely absorb retries and network glitches without creating duplicate charges. By storing each key with a deterministic result and wiring it into a well‑defined request flow, you gain strong consistency, auditability, and simple rollback paths for production systems.\n\nIn the fast‑moving world of online commerce, a single extra charge can cascade into refunds, chargebacks, and lost trust. Yet the same reliability guarantees that make HTTP robust—retries, load balancers, and circuit breakers—also increase the chance that a client will issue the same request twice. Implementing idempotency keys is the industry‑standard answer, but turning the concept into a production‑grade feature requires careful architecture, defensive patterns, and observability. This post walks through a real‑world design that has run at scale behind a multi‑tenant payment platform, shows code snippets in Python and SQL, and lists the operational practices you need to keep the system safe day after day.\n\n1. Network retries are inevitable – Mobile carriers, corporate proxies, and CDN edge nodes often retry failed POSTs automatically.",
+      "tags": [
+        "payment",
+        "api",
+        "idempotency",
+        "architecture",
+        "patterns"
+      ],
+      "scheduled_at": "2026-05-24T04:01:38Z",
       "status": "pending"
     }
   ]
