@@ -15782,7 +15782,7 @@
         "Architecture"
       ],
       "scheduled_at": "2026-05-23T09:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Optimizing Small Language Models: Quantization, Hardware Acceleration, and Local Edge Inference Deployment",
