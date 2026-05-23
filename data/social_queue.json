@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-23T20:01:38Z",
+  "last_scheduled_at": "2026-05-23T21:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -15937,6 +15937,20 @@
         "distributed systems"
       ],
       "scheduled_at": "2026-05-23T20:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Sentry: Implementing Modern Error Monitoring and Full-Stack Observability for Production Systems",
+      "url": "https://martinuke0.github.io/posts/2026-05-23-mastering-sentry-implementing-modern-error-monitoring-and-full-stack-observability-for-production-systems/",
+      "social_hook": "> TL;DR — Sentry can become the backbone of modern error monitoring when you treat it as a full‑stack observability layer: instrument every tier, route events through a scalable relay, and automate alerting with production‑ready patterns such as rate limiting, session tracking, and issue grouping.\n\nProduction‑grade systems need more than a “try/catch‑and‑log” approach. Modern error monitoring must surface exceptions, performance regressions, and user‑impact metrics in near‑real time, while keeping the overhead low enough for high‑traffic services. This post shows how to harness Sentry’s SDKs, relay architecture, and integrations to build a resilient observability pipeline that scales from a single Flask app to a polyglot Kubernetes fleet.\n\n Revenue impact:** A 1 % increase in error rate can shave 0.5 % off conversion for e‑commerce sites — see the Stripe post on “Revenue loss from error spikes.”",
+      "tags": [
+        "sentry",
+        "error-monitoring",
+        "observability",
+        "devops",
+        "production"
+      ],
+      "scheduled_at": "2026-05-23T21:01:38Z",
       "status": "pending"
     }
   ]
