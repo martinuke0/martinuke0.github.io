@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-23T21:01:38Z",
+  "last_scheduled_at": "2026-05-23T22:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -15951,6 +15951,20 @@
         "production"
       ],
       "scheduled_at": "2026-05-23T21:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Distributed Task Queues with Celery: A Deep Dive into High-Performance Python Applications",
+      "url": "https://martinuke0.github.io/posts/2026-05-23-architecting-distributed-task-queues-with-celery-a-deep-dive-into-high-performance-python-applications/",
+      "social_hook": "> TL;DR — Celery can power millions of tasks per day when you treat the broker, workers, and result backend as a cohesive distributed system. Choose the right broker, tune worker concurrency, and instrument observability to keep latency low and failures visible.\n\nCelery has been the go‑to task queue for Python for over a decade, but many teams still struggle to run it at scale. In this post we unpack the full stack—broker, worker, result backend, and monitoring—showing how to assemble a production‑grade pipeline that handles high throughput, low latency, and graceful degradation. Real‑world numbers from large e‑commerce and SaaS platforms illustrate each decision.\n\nEven with the rise of serverless functions and Kafka‑based stream processing, Celery remains attractive for:",
+      "tags": [
+        "celery",
+        "distributed-systems",
+        "python",
+        "task-queues",
+        "architecture"
+      ],
+      "scheduled_at": "2026-05-23T22:01:38Z",
       "status": "pending"
     }
   ]
