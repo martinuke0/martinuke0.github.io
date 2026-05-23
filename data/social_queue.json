@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-23T18:01:38Z",
+  "last_scheduled_at": "2026-05-23T19:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -15908,6 +15908,20 @@
         "devops"
       ],
       "scheduled_at": "2026-05-23T18:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Resilient Service Meshes: Implementing Circuit Breakers for Fault-Tolerant Distributed Communication",
+      "url": "https://martinuke0.github.io/posts/2026-05-23-architecting-resilient-service-meshes-implementing-circuit-breakers-for-fault-tolerant-distributed-communication/",
+      "social_hook": "> TL;DR — Circuit breakers in a service mesh stop cascading failures by cutting off unhealthy calls, and Istio/Envoy let you configure them declaratively. Deploying the right patterns and observability hooks turns a fragile microservice landscape into a fault‑tolerant, production‑ready system.\n\nModern microservice environments run thousands of inter‑service calls per second. When one downstream instance trips, the ripple can overwhelm upstream services, exhaust thread pools, and bring the whole cluster down. A well‑architected service mesh equipped with circuit breakers provides an automatic “stop‑light” that isolates the problem before it spreads.\n\n Prevent Cascading Failures** – A failing service quickly exhausts connection pools of callers. The circuit breaker detects high error rates and opens, returning fast failures instead of queuing more requests.",
+      "tags": [
+        "service mesh",
+        "circuit breaker",
+        "resilience",
+        "kubernetes",
+        "istio"
+      ],
+      "scheduled_at": "2026-05-23T19:01:38Z",
       "status": "pending"
     }
   ]
