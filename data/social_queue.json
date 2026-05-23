@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-23T11:01:38Z",
+  "last_scheduled_at": "2026-05-23T12:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -15810,6 +15810,20 @@
         "production"
       ],
       "scheduled_at": "2026-05-23T11:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing Resilient Service Meshes: A Deep Dive into Circuit Breaker Architecture and Patterns",
+      "url": "https://martinuke0.github.io/posts/2026-05-23-implementing-resilient-service-meshes-a-deep-dive-into-circuit-breaker-architecture-and-patterns/",
+      "social_hook": "> TL;DR — Circuit breakers are the backbone of resilient service meshes. By embedding them in Envoy (Istio) or the Linkerd data plane, you get automatic failure isolation, latency protection, and observability without touching application code.\n\nService meshes have moved from experimental labs to production‑grade platforms at companies like Lyft, Shopify, and Capital One. The promise is simple: let the mesh handle traffic routing, security, and resiliency, while developers focus on business logic. In practice, the most valuable resiliency primitive is the circuit breaker. This post dissects its architecture, shows how Istio and Linkerd implement it, and shares patterns you can copy into your own clusters.\n\n1. Failure amplification – A single downstream latency spike can cascade through dozens of services, exhausting thread pools and CPU.",
+      "tags": [
+        "service mesh",
+        "circuit breaker",
+        "microservices",
+        "kubernetes",
+        "observability"
+      ],
+      "scheduled_at": "2026-05-23T12:01:38Z",
       "status": "pending"
     }
   ]
