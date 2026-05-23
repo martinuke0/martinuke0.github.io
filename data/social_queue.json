@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-23T19:01:38Z",
+  "last_scheduled_at": "2026-05-23T20:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -15922,6 +15922,21 @@
         "istio"
       ],
       "scheduled_at": "2026-05-23T19:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Scalable Rate Limiters: A Deep Dive into Token Bucket and Leaky Bucket Implementations",
+      "url": "https://martinuke0.github.io/posts/2026-05-23-architecting-scalable-rate-limiters-a-deep-dive-into-token-bucket-and-leaky-bucket-implementations/",
+      "social_hook": "> TL;DR — Token bucket and leaky bucket are the two workhorses for high‑performance rate limiting. By sharding state, leveraging atomic counters, and coupling the algorithms with modern data stores like Redis or Cassandra, you can enforce per‑user, per‑API, or per‑service quotas at millions of requests per second with deterministic latency.\n\nRate limiting is no longer a “nice‑to‑have” feature; it’s a core guardrail for any SaaS platform that must protect downstream services, enforce SLAs, and prevent abuse. While the concept is simple—allow only N requests in a given window—the engineering challenges explode when you need to scale the limiter across multiple data centers, keep latency sub‑millisecond, and survive node failures. This post walks through the token bucket and leaky bucket algorithms, shows production‑ready implementations, and compares architectural patterns that make them work at internet scale.\n\nModern APIs often expose a handful of endpoints that collectively serve billions of requests per day. Engineers must answer three questions:",
+      "tags": [
+        "rate limiting",
+        "token bucket",
+        "leaky bucket",
+        "architecture",
+        "scalability",
+        "distributed systems"
+      ],
+      "scheduled_at": "2026-05-23T20:01:38Z",
       "status": "pending"
     }
   ]
