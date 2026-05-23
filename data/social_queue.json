@@ -15810,7 +15810,7 @@
         "production"
       ],
       "scheduled_at": "2026-05-23T11:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Implementing Resilient Service Meshes: A Deep Dive into Circuit Breaker Architecture and Patterns",
