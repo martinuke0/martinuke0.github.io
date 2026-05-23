@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-23T07:01:38Z",
+  "last_scheduled_at": "2026-05-23T08:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -15754,6 +15754,20 @@
         "architecture"
       ],
       "scheduled_at": "2026-05-23T07:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing Mobile Device Management for Enterprise Endpoints: Security, Orchestration, and Production-Ready Deployment Strategies",
+      "url": "https://martinuke0.github.io/posts/2026-05-23-implementing-mobile-device-management-for-enterprise-endpoints-security-orchestration-and-production-ready-deployment-strategies/",
+      "social_hook": "> TL;DR — A production‑ready MDM rollout hinges on three pillars: hardening device security, automating enrollment and policy distribution with an orchestration engine (e.g., Airflow), and staging deployments behind feature flags while monitoring health with observability tools.\n\nEnterprises that hand out smartphones, tablets, or rugged Android devices to field workers, sales teams, and executives quickly discover that unmanaged endpoints become the weakest link in their security chain. Mobile Device Management (MDM) platforms—such as Microsoft Intune, VMware Workspace ONE, or open‑source alternatives like Flyve MDM—provide the controls needed to enforce encryption, app whitelisting, and remote wipe. Yet many organizations stumble when they try to move from a pilot to a fleet of 10 k+ devices. This post walks through the security foundations, orchestration patterns, and deployment tactics you need to treat MDM as a production service rather than an ad‑hoc script.\n\n1. Data protection – Mobile devices store corporate emails, documents, and sometimes on‑device analytics. Without enforced encryption and remote‑wipe capabilities, a lost phone can leak sensitive data.",
+      "tags": [
+        "MDM",
+        "EnterpriseSecurity",
+        "Orchestration",
+        "Deployment",
+        "Mobile"
+      ],
+      "scheduled_at": "2026-05-23T08:01:38Z",
       "status": "pending"
     }
   ]
