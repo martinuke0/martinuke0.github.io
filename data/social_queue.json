@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-23T12:01:38Z",
+  "last_scheduled_at": "2026-05-23T13:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -15824,6 +15824,20 @@
         "observability"
       ],
       "scheduled_at": "2026-05-23T12:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Redash for Enterprise Analytics: Architecture, SQL Dashboards, and Production-Ready Data Visualization",
+      "url": "https://martinuke0.github.io/posts/2026-05-23-mastering-redash-for-enterprise-analytics-architecture-sql-dashboards-and-production-ready-data-visualization/",
+      "social_hook": "> TL;DR — Redash can be hardened for enterprise use by deploying it on Kubernetes, separating query workers, and applying strict data‑source permissions. With reusable SQL snippets, version‑controlled dashboards, and automated health checks, you get reliable, self‑service analytics at scale.\n\nEnterprises that rely on ad‑hoc analysis quickly outgrow Redash’s default single‑node setup. The platform shines when you treat it as a production service: design a resilient architecture, enforce disciplined SQL development, and automate operational tasks. This guide walks through each layer—infra, query design, and ops—so you can hand Redash over to thousands of analysts without fearing outages.\n\n1. Web server – serves the UI, handles authentication, and stores dashboard metadata in PostgreSQL.",
+      "tags": [
+        "Redash",
+        "Analytics",
+        "DataVisualization",
+        "SQL",
+        "Enterprise"
+      ],
+      "scheduled_at": "2026-05-23T13:01:38Z",
       "status": "pending"
     }
   ]
