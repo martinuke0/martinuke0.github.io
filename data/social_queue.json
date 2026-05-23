@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-24T04:01:38Z",
+  "last_scheduled_at": "2026-05-24T05:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -16049,6 +16049,20 @@
         "patterns"
       ],
       "scheduled_at": "2026-05-24T04:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing Cgroups v2 Resource Isolation: Control Groups, Unified Hierarchy, and Production Management Strategies",
+      "url": "https://martinuke0.github.io/posts/2026-05-23-implementing-cgroups-v2-resource-isolation-control-groups-unified-hierarchy-and-production-management-strategies/",
+      "social_hook": "> TL;DR — cgroups v2 replaces the fragmented v1 tree with a single unified hierarchy, giving you precise CPU, memory, and I/O controls. By wiring those controllers into systemd or a container runtime and adding automated enforcement, you can keep production workloads predictable and safe at scale.\n\nResource isolation is no longer a nice‑to‑have feature; it’s a hard requirement for any modern Linux service that runs dozens or hundreds of containers, batch jobs, or micro‑services on shared hardware. The second generation of control groups—cgroups v2—delivers a cleaner API, tighter integration with systemd, and a unified hierarchy that eliminates many of the edge‑case bugs that plagued the legacy v1 implementation. This post walks you through the core concepts, shows concrete commands, and then scales the discussion up to production‑grade architecture and operational patterns.\n\ncgroups (short for control groups) are a kernel feature that groups processes and applies resource limits, accounting, and isolation policies to the entire group. The v2 redesign, merged into the mainline kernel in 2015, addresses three pain points of v1:",
+      "tags": [
+        "cgroups",
+        "linux",
+        "resource-management",
+        "devops",
+        "performance"
+      ],
+      "scheduled_at": "2026-05-24T05:01:38Z",
       "status": "pending"
     }
   ]
