@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-23T10:01:38Z",
+  "last_scheduled_at": "2026-05-23T11:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -15796,6 +15796,20 @@
         "Inference"
       ],
       "scheduled_at": "2026-05-23T10:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Multi-Agent Workflows with the Swarm Protocol: Patterns, Handoffs, and Production-Ready Orchestration",
+      "url": "https://martinuke0.github.io/posts/2026-05-23-architecting-multi-agent-workflows-with-the-swarm-protocol-patterns-handoffs-and-production-ready-orchestration/",
+      "social_hook": "> TL;DR — The Swarm Protocol lets you connect autonomous agents into a single, observable workflow. By applying proven patterns—pipeline, fan‑out/fan‑in, and stateful handoffs—you can move from a prototype to a production‑grade system that scales, recovers, and debugs like any mature microservice.\n\nMulti‑agent systems are no longer a research curiosity; they power everything from AI‑driven recommendation engines to autonomous incident response. Yet teams often stumble when they try to stitch together dozens of stateless bots, each with its own API, into a coherent, reliable pipeline. The Swarm Protocol, an open‑source coordination layer built on top of gRPC and protobuf, supplies the glue: a lightweight message format, built‑in correlation IDs, and a pluggable transport that works on‑prem or in the cloud. This post walks through the architectural choices, production‑ready patterns, and concrete handoff techniques you need to run Swarm at scale.\n\nHistorically, engineers built multi‑agent pipelines with shell scripts, cron jobs, or simple HTTP callbacks. Those approaches suffer from:",
+      "tags": [
+        "swarm",
+        "multi-agent",
+        "orchestration",
+        "patterns",
+        "production"
+      ],
+      "scheduled_at": "2026-05-23T11:01:38Z",
       "status": "pending"
     }
   ]
