@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-23T17:01:38Z",
+  "last_scheduled_at": "2026-05-23T18:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -15894,6 +15894,20 @@
         "devops"
       ],
       "scheduled_at": "2026-05-23T17:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Deep Dive into Linux Namespaces: The Core Mechanics Behind Container Isolation and Architecture",
+      "url": "https://martinuke0.github.io/posts/2026-05-23-deep-dive-into-linux-namespaces-the-core-mechanics-behind-container-isolation-and-architecture/",
+      "social_hook": "> TL;DR — Linux namespaces split the kernel’s global resources into isolated views, letting a single host run many containers that behave like independent machines. By combining PID, mount, network, UTS, IPC, user, and cgroup namespaces, production runtimes achieve security, resource control, and reproducibility without hypervisors.\n\nContainers feel like lightweight VMs, but the magic lives in namespaces. In this post we unpack each namespace type, see how the kernel enforces isolation, and explore the architectural patterns that large‑scale teams use to ship secure, multi‑tenant workloads.\n\nNamespaces were introduced to the Linux kernel in 2002 as a way to give processes separate views of global system resources. Over the past two decades they have become the backbone of container technology, enabling Docker, Kubernetes, and LXC to run thousands of isolated workloads on a single host.",
+      "tags": [
+        "linux",
+        "containers",
+        "namespaces",
+        "kubernetes",
+        "devops"
+      ],
+      "scheduled_at": "2026-05-23T18:01:38Z",
       "status": "pending"
     }
   ]
