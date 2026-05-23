@@ -15979,7 +15979,7 @@
         "Architecture"
       ],
       "scheduled_at": "2026-05-23T23:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Deep Dive into io_uring vs epoll: Architecture, Performance Trade-offs, and Production Implementation",
