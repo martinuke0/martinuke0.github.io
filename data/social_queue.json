@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-23T23:01:38Z",
+  "last_scheduled_at": "2026-05-24T00:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -15979,6 +15979,20 @@
         "Architecture"
       ],
       "scheduled_at": "2026-05-23T23:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Deep Dive into io_uring vs epoll: Architecture, Performance Trade-offs, and Production Implementation",
+      "url": "https://martinuke0.github.io/posts/2026-05-23-deep-dive-into-io_uring-vs-epoll-architecture-performance-trade-offs-and-production-implementation/",
+      "social_hook": "> TL;DR — io_uring offers lower syscall overhead and batch I/O, making it a win for high‑throughput workloads, but epoll remains simpler, more battle‑tested, and better suited for legacy codebases. Choose io_uring when you can afford the integration cost; stick with epoll when latency predictability and ecosystem support are paramount.\n\nModern Linux servers still rely heavily on the `epoll` API introduced in 2002, yet the kernel‑space `io_uring` interface, shipped since 5.1, is rapidly gaining traction for its promise of near‑zero syscall overhead. This post walks through the two subsystems side‑by‑side: their internal design, real‑world performance numbers, and concrete steps to adopt either (or both) in a production service. All examples compile on recent Ubuntu LTS releases; the patterns apply equally to Rust, Go, or C++ codebases.\n\nBoth `io_uring` and `epoll` aim to decouple the application’s event loop from the kernel’s I/O scheduler, but they take fundamentally different paths.",
+      "tags": [
+        "io_uring",
+        "epoll",
+        "linux",
+        "performance",
+        "production"
+      ],
+      "scheduled_at": "2026-05-24T00:01:38Z",
       "status": "pending"
     }
   ]
