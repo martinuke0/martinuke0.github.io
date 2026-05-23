@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-24T01:01:38Z",
+  "last_scheduled_at": "2026-05-24T02:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -16007,6 +16007,20 @@
         "production"
       ],
       "scheduled_at": "2026-05-24T01:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing the Saga Pattern for Distributed Transactions: Architecture, Consistency, and Commerce Workflows",
+      "url": "https://martinuke0.github.io/posts/2026-05-23-implementing-the-saga-pattern-for-distributed-transactions-architecture-consistency-and-commerce-workflows/",
+      "social_hook": "> TL;DR — The Saga pattern replaces heavyweight two‑phase commit with a sequence of locally‑atomic steps and compensating actions, letting microservices stay independent while preserving overall consistency. In e‑commerce, an orchestrated saga can reliably manage order creation, payment, inventory reservation, and shipping even when services fail or network partitions occur.\n\nIn modern microservice ecosystems, a single business transaction often spans dozens of independent services—order, payment, inventory, shipping, notifications, and more. Traditional ACID transactions cannot span network boundaries without severe latency and availability penalties. The Saga pattern offers a pragmatic alternative: break the global transaction into a series of local, idempotent steps, each paired with a compensating action that can undo its effects if the overall workflow must roll back. This post walks through the pattern’s architecture, contrasts orchestration with choreography, shows how to guarantee eventual consistency, and illustrates a production‑grade commerce workflow built on top of Kafka and Spring Boot.\n\n1. Decoupling – Each service owns its data and schema, avoiding the need for a shared database lock manager.",
+      "tags": [
+        "Saga",
+        "Distributed Transactions",
+        "Microservices",
+        "Architecture",
+        "E-commerce"
+      ],
+      "scheduled_at": "2026-05-24T02:01:38Z",
       "status": "pending"
     }
   ]
