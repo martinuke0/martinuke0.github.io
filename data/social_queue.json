@@ -15768,7 +15768,7 @@
         "Mobile"
       ],
       "scheduled_at": "2026-05-23T08:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Architecting Kafka Streams Real-Time Stream Processing Topologies: From Low-Level DSL to Production-Ready Pipelines",
