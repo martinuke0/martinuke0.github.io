@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-23T13:01:38Z",
+  "last_scheduled_at": "2026-05-23T14:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -15838,6 +15838,20 @@
         "Enterprise"
       ],
       "scheduled_at": "2026-05-23T13:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing Idempotency Keys in Payment APIs: Designing for Consistency and Preventing Duplicate Transactions",
+      "url": "https://martinuke0.github.io/posts/2026-05-23-implementing-idempotency-keys-in-payment-apis-designing-for-consistency-and-preventing-duplicate-transactions/",
+      "social_hook": "> TL;DR — Idempotency keys let a payment API treat retries as the same logical request, eliminating double charges. By storing each key with its outcome and designing the service to be write‑once, you get strong consistency without sacrificing latency.\n\nPayment systems process billions of dollars every day, and a single duplicated charge can erode trust and trigger costly disputes. Modern APIs—whether you’re building on Stripe, PayPal, or a home‑grown gateway—must survive network glitches, client retries, and human error. This post walks through the why, the how, and the where‑to‑store of idempotency keys, showing concrete patterns (write‑ahead logs, Redis deduplication, and transactional upserts) that keep your service consistent at scale.\n\n1. Customer experience – A shopper who clicks “Pay” twice should see one charge, not two.",
+      "tags": [
+        "payments",
+        "api-design",
+        "idempotency",
+        "distributed-systems",
+        "architecture"
+      ],
+      "scheduled_at": "2026-05-23T14:01:38Z",
       "status": "pending"
     }
   ]
