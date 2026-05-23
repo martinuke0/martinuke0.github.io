@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-24T00:01:38Z",
+  "last_scheduled_at": "2026-05-24T01:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -15993,6 +15993,20 @@
         "production"
       ],
       "scheduled_at": "2026-05-24T00:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering CSP Channels in Go: Architecting Scalable Logic for Concurrent Production Systems",
+      "url": "https://martinuke0.github.io/posts/2026-05-23-mastering-csp-channels-in-go-architecting-scalable-logic-for-concurrent-production-systems/",
+      "social_hook": "> TL;DR — Go's CSP channels let you compose clean, back‑pressured pipelines that scale from a single core to a fleet of microservices. By combining fan‑out/fan‑in patterns, worker pools, and observability hooks, you can turn ad‑hoc goroutine spaghetti into production‑grade, maintainable logic.\n\nConcurrent production systems demand more than raw speed; they need deterministic flow control, graceful shutdown, and visibility into latency spikes. This post walks you through the Go language primitives that implement Communicating Sequential Processes (CSP), shows battle‑tested patterns for scaling them, and stitches everything together with Kafka, OpenTelemetry, and robust testing strategies.\n\nCommunicating Sequential Processes (CSP) is a formal model introduced by Tony Hoare in the 1970s. It treats a program as a collection of independent processes that interact only through message‑passing channels. In Go, the `go` keyword creates lightweight processes (goroutines) and the built‑in `chan` type supplies the communication fabric.",
+      "tags": [
+        "go",
+        "concurrency",
+        "csp",
+        "architecture",
+        "production"
+      ],
+      "scheduled_at": "2026-05-24T01:01:38Z",
       "status": "pending"
     }
   ]
