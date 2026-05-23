@@ -15852,7 +15852,7 @@
         "architecture"
       ],
       "scheduled_at": "2026-05-23T14:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Architecting Scalable Data Pipeline Orchestration with Luigi: From Dependency Management to Production-Ready Workflows",
