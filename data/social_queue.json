@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-24T06:01:38Z",
+  "last_scheduled_at": "2026-05-24T07:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -16077,6 +16077,20 @@
         "Deployment"
       ],
       "scheduled_at": "2026-05-24T06:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Scaling Luigi for Enterprise Workflows: Architecting High-Throughput Data Pipeline Orchestration for Production-Ready Systems",
+      "url": "https://martinuke0.github.io/posts/2026-05-23-scaling-luigi-for-enterprise-workflows-architecting-high-throughput-data-pipeline-orchestration-for-production-ready-systems/",
+      "social_hook": "> TL;DR — Luigi can be turned into an enterprise‑grade orchestrator by decoupling the scheduler, horizontally scaling workers, sharding the dependency graph, and wiring in robust monitoring. The result is a high‑throughput, low‑latency pipeline that survives real‑world failure modes.\n\nEnterprises that have outgrown Airflow’s heavy UI or Prefect’s SaaS model often rediscover Luigi’s simplicity and Python‑first design. Yet the vanilla Luigi installation is a single‑process scheduler with a handful of workers—hardly sufficient for tens of thousands of tasks per hour. This post walks you through a production‑ready architecture, concrete scaling patterns, and operational guardrails that let Luigi drive mission‑critical data pipelines at enterprise scale.\n\nLuigi’s core strengths—explicit task dependencies, deterministic execution, and a tiny footprint—remain valuable:",
+      "tags": [
+        "Luigi",
+        "DataPipeline",
+        "Orchestration",
+        "Scalability",
+        "Enterprise"
+      ],
+      "scheduled_at": "2026-05-24T07:01:38Z",
       "status": "pending"
     }
   ]
