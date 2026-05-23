@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-24T02:01:38Z",
+  "last_scheduled_at": "2026-05-24T03:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -16021,6 +16021,20 @@
         "E-commerce"
       ],
       "scheduled_at": "2026-05-24T02:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Deep Dive into RocksDB Compaction Strategies: Leveled versus Tiered Architectures for Production Workloads",
+      "url": "https://martinuke0.github.io/posts/2026-05-23-deep-dive-into-rocksdb-compaction-strategies-leveled-versus-tiered-architectures-for-production-workloads/",
+      "social_hook": "> TL;DR — Leveled compaction offers predictable read latency at the cost of higher write amplification, while tiered compaction maximizes write throughput and storage efficiency for append‑only workloads. Choose the strategy that matches your latency‑vs‑throughput profile and tune thresholds accordingly.\n\nRocksDB powers many latency‑sensitive services—from ad‑targeting pipelines to time‑series stores—by persisting data on flash or NVMe devices. Its performance hinges on how it reorganizes immutable SST files, a process known as compaction. Two primary compaction architectures dominate production deployments: Leveled (the default) and Tiered (also called Universal). Understanding their internal mechanics, failure modes, and real‑world trade‑offs is essential for any engineer tasked with scaling RocksDB beyond the sandbox.\n\nCompaction is the background activity that merges sorted string tables (SST files) into larger, more compact structures. It serves three purposes:",
+      "tags": [
+        "rocksdb",
+        "compaction",
+        "database",
+        "performance",
+        "architecture"
+      ],
+      "scheduled_at": "2026-05-24T03:01:38Z",
       "status": "pending"
     }
   ]
