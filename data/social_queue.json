@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-23T09:01:38Z",
+  "last_scheduled_at": "2026-05-23T10:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -15782,6 +15782,20 @@
         "Architecture"
       ],
       "scheduled_at": "2026-05-23T09:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Small Language Models: Quantization, Hardware Acceleration, and Local Edge Inference Deployment",
+      "url": "https://martinuke0.github.io/posts/2026-05-23-optimizing-small-language-models-quantization-hardware-acceleration-and-local-edge-inference-deployment/",
+      "social_hook": "> TL;DR — Quantizing a 7 B parameter model to 4‑bit, pairing it with a TensorRT‑optimized GPU, and containerizing the inference pipeline with ONNX Runtime can cut latency by >70 % while keeping accuracy within 1 % of the full‑precision baseline, making real‑time edge AI feasible.\n\nSmall language models (LLMs) have moved from research curiosities to production workhorses that power autocomplete, summarization, and domain‑specific assistants. Yet many organizations still struggle to run them on edge devices—smart cameras, IoT gateways, or even laptops—without blowing up latency or power budgets. This post walks through concrete, production‑grade techniques: aggressive quantization, hardware‑specific acceleration, and a repeatable edge‑deployment architecture. We’ll reference real‑world tools (TensorRT, ONNX Runtime, Core ML) and share code snippets you can drop into your CI pipeline today.\n\n1. Latency‑critical use cases – real‑time transcription, on‑device code completion, and safety‑critical alerts demand sub‑200 ms responses.",
+      "tags": [
+        "LLM",
+        "Quantization",
+        "EdgeAI",
+        "HardwareAcceleration",
+        "Inference"
+      ],
+      "scheduled_at": "2026-05-23T10:01:38Z",
       "status": "pending"
     }
   ]
