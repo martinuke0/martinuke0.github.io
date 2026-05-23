@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-24T05:01:38Z",
+  "last_scheduled_at": "2026-05-24T06:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -16063,6 +16063,20 @@
         "performance"
       ],
       "scheduled_at": "2026-05-24T05:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing Lite-LLM: Architecting Rust-Powered Polyglot Bindings for Multi-Provider LLM Integration and Deployment",
+      "url": "https://martinuke0.github.io/posts/2026-05-23-implementing-lite-llm-architecting-rust-powered-polyglot-bindings-for-multi-provider-llm-integration-and-deployment/",
+      "social_hook": "> TL;DR — Lite-LLM uses a thin Rust library as the lingua franca for LLM calls, then generates Python, Node.js, and Go bindings. The design isolates provider quirks behind a common trait, leverages Tokio for async throughput, and ships in a Docker image that scales on Kubernetes or serverless platforms.\n\nLarge language models are now a shared service layer across SaaS products, but the ecosystem is fragmented: OpenAI, Anthropic, Cohere, and emerging niche providers each expose distinct REST contracts, authentication schemes, and rate‑limit semantics. Teams that need to switch providers on‑the‑fly or run A/B experiments often end up duplicating request logic in several languages. Lite‑LLM solves this by making Rust the single source of truth for provider integration and then exposing polyglot bindings that feel native to Python, JavaScript/TypeScript, and Go. The result is a compact, battle‑tested core that can be deployed as a container, a Cloud Run service, or a side‑car in a larger micro‑service architecture.\n\nBelow we walk through the architectural decisions, concrete implementation patterns, and production‑ready deployment strategies that make Lite‑LLM viable for a LinkedIn‑savvy engineering audience.",
+      "tags": [
+        "Rust",
+        "LLM",
+        "Polyglot",
+        "Architecture",
+        "Deployment"
+      ],
+      "scheduled_at": "2026-05-24T06:01:38Z",
       "status": "pending"
     }
   ]
