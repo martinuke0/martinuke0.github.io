@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-23T15:01:38Z",
+  "last_scheduled_at": "2026-05-23T16:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -15866,6 +15866,20 @@
         "Production Pipelines"
       ],
       "scheduled_at": "2026-05-23T15:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Network Performance with TCP BBR: Implementing High-Throughput Congestion Control in Production Environments",
+      "url": "https://martinuke0.github.io/posts/2026-05-23-optimizing-network-performance-with-tcp-bbr-implementing-high-throughput-congestion-control-in-production-environments/",
+      "social_hook": "> TL;DR — Deploying TCP BBR in production can double throughput and cut latency by 30‑40 % when you configure kernel parameters, monitor RTT, and handle fallback to Cubic on loss spikes.\n\nNetwork teams are constantly asked to squeeze more bandwidth out of existing links without over‑provisioning hardware. TCP BBR (Bottleneck Bandwidth and Round‑trip propagation time) offers a fundamentally different congestion‑control paradigm that bases its sending rate on measured bottleneck bandwidth and RTT instead of packet loss. This post walks through the architecture of BBR, shows how to enable it on modern Linux distributions, and provides concrete tuning, monitoring, and fallback patterns that have proven reliable in large‑scale production environments such as multi‑regional cloud services and high‑frequency trading platforms.\n\n- Loss‑agnostic control – Traditional loss‑based algorithms (Cubic, Reno) throttle the sender when packets are dropped, which can be counter‑productive on networks with deep buffers or aggressive ECN. BBR keeps the pipe full by targeting the estimated bottleneck bandwidth.",
+      "tags": [
+        "TCP",
+        "BBR",
+        "Network",
+        "Performance",
+        "CongestionControl"
+      ],
+      "scheduled_at": "2026-05-23T16:01:38Z",
       "status": "pending"
     }
   ]
