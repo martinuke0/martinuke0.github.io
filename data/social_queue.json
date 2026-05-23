@@ -15880,7 +15880,7 @@
         "CongestionControl"
       ],
       "scheduled_at": "2026-05-23T16:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Mastering Apache Kafka Topic Partitioning: Scaling Consumer Group Rebalancing for Production-Ready Pipelines",
