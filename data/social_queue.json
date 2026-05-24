@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-24T14:01:38Z",
+  "last_scheduled_at": "2026-05-24T15:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -16189,6 +16189,20 @@
         "Enterprise"
       ],
       "scheduled_at": "2026-05-24T14:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering the USE Method: Performance Analysis for Utilization, Saturation, and Errors in Production Systems",
+      "url": "https://martinuke0.github.io/posts/2026-05-24-mastering-the-use-method-performance-analysis-for-utilization-saturation-and-errors-in-production-systems/",
+      "social_hook": "> TL;DR — The USE method lets you turn raw metrics into actionable insights by looking at Utilization, Saturation, and Errors together. By instrumenting Kafka, PostgreSQL, and Kubernetes with Prometheus, you can spot bottlenecks before they become outages and drive systematic performance improvements.\n\nProduction systems are noisy, distributed, and constantly evolving. Engineers who rely on a single metric—CPU percent, request latency, or error count—often chase ghosts. The USE method, popularized by Brendan Gregg, gives a disciplined three‑lens view that aligns directly with the resources you actually provision: CPU, memory, disk, network, and the software queues that sit on top of them. This post walks through each lens, shows how to extract the right signals from real‑world stacks (Kafka, PostgreSQL, GKE), and stitches the pieces together into a repeatable architecture for continuous performance analysis.\n\nThe acronym stands for Utilization, Saturation, and Errors. The core idea is simple:",
+      "tags": [
+        "performance",
+        "monitoring",
+        "ops",
+        "observability",
+        "systems"
+      ],
+      "scheduled_at": "2026-05-24T15:01:38Z",
       "status": "pending"
     }
   ]
