@@ -20,8 +20,8 @@
       <text x="20" y="29" font-family="system-ui, sans-serif" font-size="20" font-weight="500" fill="#ffffff">monitoring</text>
     </g>
     <g transform="translate(480, 720)">
-      <rect width="82" height="44" rx="22" fill="rgba(255,255,255,0.18)"/>
-      <text x="20" y="29" font-family="system-ui, sans-serif" font-size="20" font-weight="500" fill="#ffffff">ops</text>
+      <rect width="222" height="44" rx="22" fill="rgba(255,255,255,0.18)"/>
+      <text x="20" y="29" font-family="system-ui, sans-serif" font-size="20" font-weight="500" fill="#ffffff">observability</text>
     </g>
   <text x="1520" y="795" text-anchor="end" font-family="system-ui, sans-serif" font-size="22" font-weight="500" fill="rgba(255,255,255,0.7)">martinuke0.github.io</text>
 </svg>
