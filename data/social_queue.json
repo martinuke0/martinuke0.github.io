@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-25T05:01:38Z",
+  "last_scheduled_at": "2026-05-25T06:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -16399,6 +16399,20 @@
         "transactions"
       ],
       "scheduled_at": "2026-05-25T05:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering eBPF: Implementing System-Wide Tracing and Observability for Production-Ready Environments",
+      "url": "https://martinuke0.github.io/posts/2026-05-24-mastering-ebpf-implementing-system-wide-tracing-and-observability-for-production-ready-environments/",
+      "social_hook": "> TL;DR — eBPF lets you instrument the Linux kernel without kernel patches, providing low‑overhead, system‑wide tracing that scales to production. By combining BPFtrace, Cilium Hubble, and the BCC toolchain you can build a reusable observability stack that captures latency, resource usage, and security events safely and efficiently.\n\nObservability is no longer a luxury reserved for micro‑service clouds; modern monoliths, edge devices, and hybrid workloads need the same depth of insight. Traditional tools (strace, perf, sysdig) either impose too much overhead or require invasive kernel changes. eBPF fills that gap with programmable, JIT‑compiled probes that run in kernel space, yet are verified for safety before execution. This article walks you through the architecture, production patterns, and hands‑on snippets you need to turn eBPF from a curiosity into a core component of your observability platform.\n\n Zero‑downtime deployment** – eBPF programs are loaded at runtime via `bpftool` or higher‑level libraries, meaning you never need to reboot or rebuild the kernel.",
+      "tags": [
+        "eBPF",
+        "observability",
+        "tracing",
+        "Linux",
+        "production"
+      ],
+      "scheduled_at": "2026-05-25T06:01:38Z",
       "status": "pending"
     }
   ]
