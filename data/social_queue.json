@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-24T10:01:38Z",
+  "last_scheduled_at": "2026-05-24T11:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -16133,6 +16133,20 @@
         "Temporal"
       ],
       "scheduled_at": "2026-05-24T10:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Scalable Data Pipeline Orchestration with Luigi: From Dependency Management to Production Deployment",
+      "url": "https://martinuke0.github.io/posts/2026-05-24-architecting-scalable-data-pipeline-orchestration-with-luigi-from-dependency-management-to-production-deployment/",
+      "social_hook": "> TL;DR — Luigi provides a lightweight, Pythonic way to model complex data pipelines. By leveraging its built‑in dependency graph, parameterization, and central scheduler, you can build horizontally scalable workflows, monitor them with Prometheus, and ship them to production using Docker, Kubernetes, and CI/CD pipelines.\n\nIn modern data engineering, the gap between a prototype notebook and a resilient, production‑grade pipeline is often the orchestration layer. Luigi, originally open‑sourced by Spotify, fills that gap with a clear task‑centric model, a central scheduler, and a plug‑in ecosystem for storage, messaging, and monitoring. This post walks through the end‑to‑end journey: defining reproducible dependencies, structuring the codebase for scale, adding observability, and finally deploying the whole stack on Kubernetes with automated testing and rollout.\n\nLuigi’s core abstraction is a Task—a small Python class that declares its inputs, outputs, and `run()` method. Compared to Airflow’s DAG‑first approach, Luigi lets you write tasks as ordinary Python functions, which lowers the learning curve for engineers already comfortable with the language.",
+      "tags": [
+        "Luigi",
+        "Data Engineering",
+        "Orchestration",
+        "Scalable Architecture",
+        "Production"
+      ],
+      "scheduled_at": "2026-05-24T11:01:38Z",
       "status": "pending"
     }
   ]
