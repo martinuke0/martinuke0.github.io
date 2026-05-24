@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-24T23:01:38Z",
+  "last_scheduled_at": "2026-05-25T00:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -16315,6 +16315,20 @@
         "Architecture"
       ],
       "scheduled_at": "2026-05-24T23:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Deep Dive into RocksDB Compaction Strategies: Leveled vs. Tiered Architecture and Performance Trade‑offs",
+      "url": "https://martinuke0.github.io/posts/2026-05-24-deep-dive-into-rocksdb-compaction-strategies-leveled-vs-tiered-architecture-and-performance-tradeoffs/",
+      "social_hook": "> TL;DR — Leveled compaction keeps read latency low by maintaining a bounded number of sorted files per level, while tiered compaction maximizes write throughput by allowing large overlapping file sets. Choose the strategy that matches your workload: latency‑sensitive services gravitate to leveled, write‑heavy pipelines benefit from tiered, and hybrid workloads often use dynamic level‑size or hybrid configurations.\n\nRocksDB is the de‑facto embedded key‑value store for high‑performance services, from caching layers in microservices to the storage engine behind large‑scale analytics platforms. Its ability to sustain millions of writes per second hinges on how it reorganizes immutable SST files—a process called compaction. Two primary compaction styles dominate production deployments: Leveled (the default) and Tiered (also called universal). This post unpacks their internal architectures, walks through the key configuration knobs, and quantifies the performance trade‑offs you’ll see in a real‑world service.\n\nBefore diving into the two styles, it helps to recall why compaction exists at all.",
+      "tags": [
+        "RocksDB",
+        "Compaction",
+        "Leveled",
+        "Tiered",
+        "Performance"
+      ],
+      "scheduled_at": "2026-05-25T00:01:38Z",
       "status": "pending"
     }
   ]
