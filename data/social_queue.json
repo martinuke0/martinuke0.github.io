@@ -16091,7 +16091,7 @@
         "Enterprise"
       ],
       "scheduled_at": "2026-05-24T07:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Optimizing Small Language Models: Pruning, Quantization, and Deployment for Local Edge Inference",
