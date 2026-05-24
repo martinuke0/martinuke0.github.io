@@ -16259,7 +16259,7 @@
         "Architecture"
       ],
       "scheduled_at": "2026-05-24T19:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Implementing CSP Channels in Go: Architecture, Patterns, and Strategies for Production-Ready Concurrent Systems",
