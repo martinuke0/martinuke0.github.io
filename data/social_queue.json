@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-24T13:01:38Z",
+  "last_scheduled_at": "2026-05-24T14:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -16175,6 +16175,20 @@
         "protocols"
       ],
       "scheduled_at": "2026-05-24T13:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Redash for Enterprise Analytics: Architecture, SQL Dashboards, and Production-Ready Data Visualization",
+      "url": "https://martinuke0.github.io/posts/2026-05-24-mastering-redash-for-enterprise-analytics-architecture-sql-dashboards-and-production-ready-data-visualization/",
+      "social_hook": "> TL;DR — Redash can be hardened for enterprise use by containerizing its services, scaling query workers, and applying strict access controls. Combine a modular architecture with reusable SQL snippets and automated monitoring to deliver fast, secure dashboards that survive production shocks.\n\nEnterprises often treat analytics as a secondary concern, yet data‑driven decisions require a platform that scales, stays secure, and delivers insights on demand. Redash, an open‑source query‑and‑visualization tool, fits this niche when its core components are wired together thoughtfully. In this post we walk through Redash’s production architecture, show how to build maintainable SQL dashboards, and cover the operational guardrails needed for a truly enterprise‑ready deployment.\n\nRedash’s architecture is intentionally simple: a web server, a background worker pool, a PostgreSQL metadata store, and a Redis queue. The simplicity becomes a strength when you apply proven production patterns such as container orchestration, horizontal scaling, and observability.",
+      "tags": [
+        "Redash",
+        "Analytics",
+        "DataVisualization",
+        "SQL",
+        "Enterprise"
+      ],
+      "scheduled_at": "2026-05-24T14:01:38Z",
       "status": "pending"
     }
   ]
