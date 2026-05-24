@@ -16217,7 +16217,7 @@
         "production"
       ],
       "scheduled_at": "2026-05-24T16:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Deep Dive into Generational Garbage Collection: Memory Management Patterns in Modern JVM and .NET Runtimes",
