@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-24T19:01:38Z",
+  "last_scheduled_at": "2026-05-24T20:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -16259,6 +16259,20 @@
         "Architecture"
       ],
       "scheduled_at": "2026-05-24T19:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing CSP Channels in Go: Architecture, Patterns, and Strategies for Production-Ready Concurrent Systems",
+      "url": "https://martinuke0.github.io/posts/2026-05-24-implementing-csp-channels-in-go-architecture-patterns-and-strategies-for-production-ready-concurrent-systems/",
+      "social_hook": "> TL;DR — Go’s CSP channels can power high‑throughput, resilient pipelines when you combine disciplined architecture, back‑pressure patterns, and observability. This post walks through a production‑ready design, concrete Go code, and the tooling you need to keep it reliable.\n\nConcurrent systems in large‑scale services rarely survive on a handful of goroutines and ad‑hoc channels. Engineers need a repeatable architecture that scales, handles failures gracefully, and remains observable in production. In this article we’ll unpack the core concepts of CSP (Communicating Sequential Processes) as implemented by Go, then dive into a production‑grade pipeline architecture, common patterns like fan‑out/fan‑in and back‑pressure, and the operational strategies that keep the system healthy.\n\nGo’s channels are first‑class primitives that embody CSP’s “processes communicate via messages”. A channel is a typed conduit:",
+      "tags": [
+        "go",
+        "concurrency",
+        "csp",
+        "architecture",
+        "production"
+      ],
+      "scheduled_at": "2026-05-24T20:01:38Z",
       "status": "pending"
     }
   ]
