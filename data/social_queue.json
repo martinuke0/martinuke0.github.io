@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-25T01:01:38Z",
+  "last_scheduled_at": "2026-05-25T02:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -16343,6 +16343,20 @@
         "performance"
       ],
       "scheduled_at": "2026-05-25T01:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering OpenTelemetry Context Propagation: A Deep Dive into Distributed Trace Continuity across Services",
+      "url": "https://martinuke0.github.io/posts/2026-05-24-mastering-opentelemetry-context-propagation-a-deep-dive-into-distributed-trace-continuity-across-services/",
+      "social_hook": "> TL;DR — OpenTelemetry’s context propagation lets you stitch together spans from every service in a request chain. By configuring the right propagators, wiring them into your framework (Flask, Spring Boot, etc.), and deploying a collector pipeline, you guarantee end‑to‑end trace continuity even across async boundaries like Kafka.\n\nDistributed tracing has become a cornerstone of modern observability, yet many teams still see gaps when a request hops between services, languages, or messaging systems. Those gaps are almost always caused by missing or malformed context propagation. This post walks you through the exact steps—code, configuration, and architecture—to make OpenTelemetry propagate trace context flawlessly across heterogeneous services.\n\nWhen a user request hits your front‑end API, a trace is created: a tree of spans that represent work performed by each service. If a downstream service cannot read the incoming trace identifiers, it starts a brand‑new trace, breaking the tree and making root‑cause analysis painful.",
+      "tags": [
+        "OpenTelemetry",
+        "Tracing",
+        "ContextPropagation",
+        "DistributedSystems",
+        "Observability"
+      ],
+      "scheduled_at": "2026-05-25T02:01:38Z",
       "status": "pending"
     }
   ]
