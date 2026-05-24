@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-24T22:01:38Z",
+  "last_scheduled_at": "2026-05-24T23:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -16301,6 +16301,20 @@
         "devops"
       ],
       "scheduled_at": "2026-05-24T22:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Apache Kafka Topic Partitioning and Consumer Group Rebalancing for Scalable Production Systems",
+      "url": "https://martinuke0.github.io/posts/2026-05-24-mastering-apache-kafka-topic-partitioning-and-consumer-group-rebalancing-for-scalable-production-systems/",
+      "social_hook": "> TL;DR — Properly sizing partitions and using cooperative rebalancing keep your Kafka pipelines performant and stable as you add or remove consumers. Follow the patterns below to avoid hot partitions, long pause times, and unexpected data loss in production.\n\nKafka has become the de‑facto backbone for event‑driven architectures, yet many teams still wrestle with two seemingly simple questions: How many partitions should a topic have? and What happens when a consumer joins or leaves a group? The answers are far from “one‑size‑fits‑all.” In this post we unpack the mathematics of partitioning, walk through the rebalance protocol introduced in Kafka 2.4, and stitch together production‑grade patterns that let you scale horizontally without sacrificing latency or durability.\n\nEach partition is an ordered, immutable log stored on a single broker. The number of partitions directly influences three critical dimensions:",
+      "tags": [
+        "Kafka",
+        "Partitioning",
+        "ConsumerGroups",
+        "Scalability",
+        "Architecture"
+      ],
+      "scheduled_at": "2026-05-24T23:01:38Z",
       "status": "pending"
     }
   ]
