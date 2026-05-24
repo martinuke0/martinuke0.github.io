@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-24T15:01:38Z",
+  "last_scheduled_at": "2026-05-24T16:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -16203,6 +16203,20 @@
         "systems"
       ],
       "scheduled_at": "2026-05-24T15:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Sentry for Modern Error Monitoring: A Comprehensive Guide to Production Observability and Debugging",
+      "url": "https://martinuke0.github.io/posts/2026-05-24-mastering-sentry-for-modern-error-monitoring-a-comprehensive-guide-to-production-observability-and-debugging/",
+      "social_hook": "> TL;DR — Sentry can become the backbone of production observability when you treat it as a first‑class data pipeline: configure SDKs with proper sampling, route events through Kafka for durability, and use its rich context (breadcrumbs, releases, and performance spans) to debug issues faster than a manual log search.\n\nModern applications generate more telemetry than ever, yet many teams still treat errors as an after‑thought. By the time a stack trace lands in a Slack channel, the offending request may have already impacted dozens of users. This guide shows how to make Sentry a proactive, production‑grade observability layer—complete with architecture diagrams, concrete SDK snippets, and proven patterns for scaling across microservices, data pipelines, and scheduled jobs.\n\n- Speed of detection – A well‑instrumented Sentry project surfaces a new exception within seconds, allowing you to trigger PagerDuty or Slack alerts before customers notice.",
+      "tags": [
+        "sentry",
+        "error-monitoring",
+        "observability",
+        "debugging",
+        "production"
+      ],
+      "scheduled_at": "2026-05-24T16:01:38Z",
       "status": "pending"
     }
   ]
