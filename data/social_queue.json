@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-24T07:01:38Z",
+  "last_scheduled_at": "2026-05-24T08:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -16091,6 +16091,20 @@
         "Enterprise"
       ],
       "scheduled_at": "2026-05-24T07:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Small Language Models: Pruning, Quantization, and Deployment for Local Edge Inference",
+      "url": "https://martinuke0.github.io/posts/2026-05-24-optimizing-small-language-models-pruning-quantization-and-deployment-for-local-edge-inference/",
+      "social_hook": "> TL;DR — Pruning and quantization can shrink a 200 M‑parameter transformer to under 50 MB with <2 % accuracy loss, and tools like ONNX Runtime, TensorRT, and TVM let you run it on a Raspberry Pi or an ARM‑based NPU with sub‑second latency.\n\nEdge inference for language models is no longer a research curiosity; it’s a production reality for voice assistants, on‑device summarizers, and low‑latency chat bots. This post walks through a battle‑tested pipeline: start with a modest‑size model, trim the dead weight with structured pruning, lock in size and speed with post‑training or quantization‑aware quantization, then ship the artifact to an ARM‑Linux box using a runtime that matches the hardware. You’ll see concrete code, real‑world numbers, and a reusable architecture pattern that scales from a single Raspberry Pi to a fleet of IoT gateways.\n\nRunning LLMs on the cloud gives you virtually unlimited compute, but it also adds latency, bandwidth cost, and privacy risk. For many consumer‑facing products—smart speakers, AR glasses, industrial controllers—sub‑second response time and offline capability are non‑negotiable. Edge inference also reduces API spend: a single request to a hosted model can cost $0.0004 + network egress, while a local inference runs on free electricity.",
+      "tags": [
+        "pruning",
+        "quantization",
+        "edge",
+        "LLM",
+        "deployment"
+      ],
+      "scheduled_at": "2026-05-24T08:01:38Z",
       "status": "pending"
     }
   ]
