@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-24T18:01:38Z",
+  "last_scheduled_at": "2026-05-24T19:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -16245,6 +16245,20 @@
         "cloud-native"
       ],
       "scheduled_at": "2026-05-24T18:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering OpenTelemetry Context Propagation: Implementation Across Distributed Services and Production-Ready Microservices Architecture",
+      "url": "https://martinuke0.github.io/posts/2026-05-24-mastering-opentelemetry-context-propagation-implementation-across-distributed-services-and-production-ready-microservices-architecture/",
+      "social_hook": "> TL;DR — OpenTelemetry’s context propagation lets you stitch together spans across service boundaries. By using the W3C TraceContext format and wiring the SDK into your language runtimes (Go, Java, Python), you can achieve end‑to‑end visibility in a production microservices mesh with minimal latency overhead.\n\nDistributed systems only make sense when you can see what is happening across their many moving parts. A request that traverses an API gateway, a payment service, a fraud‑detection engine, and a data warehouse can generate dozens of spans, yet without proper context propagation those spans appear as isolated islands. In this post we’ll unpack the mechanics of OpenTelemetry context propagation, walk through concrete implementations in three popular runtimes, and tie everything together with architecture‑level patterns that survive real‑world traffic spikes, retries, and partial failures.\n\nWhen a request enters a system, a trace ID is generated (or extracted from an inbound header). Every subsequent service that participates in the request must:",
+      "tags": [
+        "OpenTelemetry",
+        "DistributedTracing",
+        "Microservices",
+        "Observability",
+        "Architecture"
+      ],
+      "scheduled_at": "2026-05-24T19:01:38Z",
       "status": "pending"
     }
   ]
