@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-24T09:01:38Z",
+  "last_scheduled_at": "2026-05-24T10:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -16119,6 +16119,20 @@
         "Production"
       ],
       "scheduled_at": "2026-05-24T09:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Asynchronous Consensus Protocols for Multi-Agent Decision Engines",
+      "url": "https://martinuke0.github.io/posts/2026-05-24-architecting-asynchronous-consensus-protocols-for-multi-agent-decision-engines/",
+      "social_hook": "> TL;DR — Building reliable asynchronous consensus for multi‑agent decision engines requires a clear separation between the consensus engine, the message bus, and the application state. By re‑using proven patterns like Raft, CRDTs, and Kafka‑based log replication, you can achieve low‑latency decisions while tolerating node failures and network partitions.\n\nIn modern data‑intensive products, a single monolithic decision service quickly becomes a bottleneck. Teams split the workload into independent agents—each responsible for a slice of the problem space—yet the agents must still agree on a shared view of the world. This post walks through the architecture, concrete implementation snippets, and production‑grade patterns that make asynchronous consensus both scalable and maintainable.\n\n1. Latency vs. Consistency trade‑off – Synchronous protocols (two‑phase commit, Paxos) guarantee strong consistency but add round‑trip latency that hurts user‑facing response times.",
+      "tags": [
+        "asynchronous-consensus",
+        "multi-agent-systems",
+        "distributed-architecture",
+        "Kafka",
+        "Temporal"
+      ],
+      "scheduled_at": "2026-05-24T10:01:38Z",
       "status": "pending"
     }
   ]
