@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-25T02:01:38Z",
+  "last_scheduled_at": "2026-05-25T03:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -16357,6 +16357,20 @@
         "Observability"
       ],
       "scheduled_at": "2026-05-25T02:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Deep Dive into RocksDB Compaction Strategies: Leveled versus Tiered Architectures for Production Workloads",
+      "url": "https://martinuke0.github.io/posts/2026-05-24-deep-dive-into-rocksdb-compaction-strategies-leveled-versus-tiered-architectures-for-production-workloads/",
+      "social_hook": "> TL;DR — Leveled compaction gives predictable read latency at the cost of higher write amplification, while tiered (FIFO) compaction excels for write‑heavy, append‑only workloads with looser latency guarantees. Pick the strategy that matches your latency SLAs, data churn, and storage budget, and tune the relevant RocksDB options accordingly.\n\nRocksDB powers everything from real‑time analytics pipelines to high‑throughput caching layers. Its core strength lies in the Log‑Structured Merge (LSM) tree, but the way data moves between levels—compaction—determines latency, throughput, and storage efficiency in production. This post unpacks the two dominant compaction models—Leveled and Tiered (FIFO)—by walking through their architectures, trade‑offs, real‑world benchmarks, and concrete configuration patterns you can copy into your services today.\n\nRocksDB stores data as an ordered sequence of immutable SST files (Sorted String Tables). New writes are first buffered in a memtable; when it fills, the memtable is flushed to disk as an SST. Over time, many SSTs accumulate, and without compaction reads would have to scan across dozens of files, breaking latency guarantees.",
+      "tags": [
+        "RocksDB",
+        "Compaction",
+        "Leveled",
+        "Tiered",
+        "Production"
+      ],
+      "scheduled_at": "2026-05-25T03:01:38Z",
       "status": "pending"
     }
   ]
