@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-24T17:01:38Z",
+  "last_scheduled_at": "2026-05-24T18:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -16231,6 +16231,20 @@
         "performance"
       ],
       "scheduled_at": "2026-05-24T17:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting the Modern Software Factory: Designing Specialized Agent Workflows for Production-Ready Development Pipelines",
+      "url": "https://martinuke0.github.io/posts/2026-05-24-architecting-the-modern-software-factory-designing-specialized-agent-workflows-for-production-ready-development-pipelines/",
+      "social_hook": "> TL;DR — Specialized AI agents can be woven into existing CI/CD ecosystems to automate validation, self‑healing, and observability. By treating each agent as a microservice that talks over an event bus (Kafka) and is orchestrated by Airflow, teams gain a modular, production‑ready factory that scales with cloud‑native tooling.\n\nModern engineering teams are no longer satisfied with static build pipelines. The rise of large‑language models, observability‑first cultures, and serverless execution environments makes it possible to embed “intelligent agents” directly into the software factory. This post explains how to design those agents, connect them through robust messaging, and deploy the whole system on Google Cloud Platform (GCP) while keeping the stack observable and fault‑tolerant.\n\nTraditional pipelines rely on static scripts that run the same checks on every commit. As codebases grow, the number of quality gates—security scans, performance budgets, compliance checks—explodes. Maintaining a monolithic script becomes a maintenance nightmare.",
+      "tags": [
+        "software-factory",
+        "agent-workflows",
+        "CI/CD",
+        "observability",
+        "cloud-native"
+      ],
+      "scheduled_at": "2026-05-24T18:01:38Z",
       "status": "pending"
     }
   ]
