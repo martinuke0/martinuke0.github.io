@@ -16301,7 +16301,7 @@
         "devops"
       ],
       "scheduled_at": "2026-05-24T22:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Mastering Apache Kafka Topic Partitioning and Consumer Group Rebalancing for Scalable Production Systems",
