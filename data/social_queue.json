@@ -16245,7 +16245,7 @@
         "cloud-native"
       ],
       "scheduled_at": "2026-05-24T18:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Mastering OpenTelemetry Context Propagation: Implementation Across Distributed Services and Production-Ready Microservices Architecture",
