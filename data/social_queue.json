@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-24T12:01:38Z",
+  "last_scheduled_at": "2026-05-24T13:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -16161,6 +16161,20 @@
         "Database Architecture"
       ],
       "scheduled_at": "2026-05-24T12:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Deep Dive into QUIC Stream Multiplexing: Eliminating Head-of-Line Blocking for High-Performance Networking",
+      "url": "https://martinuke0.github.io/posts/2026-05-24-deep-dive-into-quic-stream-multiplexing-eliminating-head-of-line-blocking-for-high-performance-networking/",
+      "social_hook": "> TL;DR — QUIC’s stream multiplexing rewrites the transport layer by assigning independent, non‑blocking streams to a single UDP connection, eradicating head‑of‑line (HoL) blocking that plagues TCP/TLS. The result is lower tail latency, smoother congestion control, and a production‑ready path for latency‑critical services such as video streaming, gaming, and API gateways.\n\nModern web traffic demands sub‑millisecond tail latency, yet the classic TCP + TLS stack still suffers from HoL blocking when a single packet loss stalls all pending data. QUIC, the UDP‑based transport protocol standardized by the IETF, was built to address exactly that problem. In this deep dive we unpack the internals of QUIC stream multiplexing, illustrate how the protocol eliminates HoL blocking, and provide concrete patterns for deploying QUIC in high‑performance production environments.\n\nBefore we can appreciate stream multiplexing we need a quick refresher on the layers that QUIC replaces.",
+      "tags": [
+        "QUIC",
+        "networking",
+        "stream multiplexing",
+        "performance",
+        "protocols"
+      ],
+      "scheduled_at": "2026-05-24T13:01:38Z",
       "status": "pending"
     }
   ]
