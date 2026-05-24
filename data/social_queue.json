@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-24T11:01:38Z",
+  "last_scheduled_at": "2026-05-24T12:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -16147,6 +16147,20 @@
         "Production"
       ],
       "scheduled_at": "2026-05-24T11:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing Copy-on-Write B-Trees: Engineering Durable Database Snapshots and Point-in-Time Recovery Architecture",
+      "url": "https://martinuke0.github.io/posts/2026-05-24-implementing-copy-on-write-b-trees-engineering-durable-database-snapshots-and-point-in-time-recovery-architecture/",
+      "social_hook": "> TL;DR — Copy‑on‑write (COW) B‑trees let a database take instant, crash‑consistent snapshots without stopping writes. By versioning leaf and inner pages, you can rebuild the state of the tree at any previous LSN, enabling point‑in‑time recovery (PITR) with low latency and bounded storage overhead.\n\nDatabases that promise “instant snapshots” and “point‑in‑time recovery” must reconcile two seemingly opposite goals: write throughput and immutable historical views. Traditional B‑tree implementations rewrite pages in place, which forces a full copy of the affected branch for every snapshot. Copy‑on‑write B‑trees flip that model—pages become immutable once written, and new versions are allocated on demand. The result is a data structure that naturally supports durable snapshots, efficient garbage collection, and deterministic recovery paths. In this article we dissect the engineering behind COW B‑trees, walk through a production‑grade architecture, and provide concrete code snippets that you can adapt to your own storage engine.\n\n1. Operational agility – Developers need to spin up a read‑only copy of production data for analytics, testing, or regulatory audits without impacting OLTP latency.",
+      "tags": [
+        "B-Tree",
+        "Copy-on-Write",
+        "Snapshots",
+        "Point-in-Time Recovery",
+        "Database Architecture"
+      ],
+      "scheduled_at": "2026-05-24T12:01:38Z",
       "status": "pending"
     }
   ]
