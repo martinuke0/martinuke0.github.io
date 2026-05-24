@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-25T03:01:38Z",
+  "last_scheduled_at": "2026-05-25T04:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -16371,6 +16371,20 @@
         "Production"
       ],
       "scheduled_at": "2026-05-25T03:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing TCP BBR Congestion Control: Optimizing Network Throughput for High‑Performance Production Environments",
+      "url": "https://martinuke0.github.io/posts/2026-05-24-implementing-tcp-bbr-congestion-control-optimizing-network-throughput-for-highperformance-production-environments/",
+      "social_hook": "> TL;DR — BBR replaces loss‑based congestion control with a bottleneck‑bandwidth‑and‑RTT model, delivering 20‑40 % higher throughput in production when tuned correctly and monitored for queue‑delay spikes.\n\nIn the era of micro‑services, real‑time analytics, and edge‑to‑cloud pipelines, network throughput is often the hidden bottleneck that stalls otherwise well‑engineered systems. Google’s BBR (Bottleneck Bandwidth and Round‑Trip propagation time) congestion control algorithm has emerged as a practical alternative to the default loss‑based TCP Cubic, promising higher utilization of available bandwidth while keeping latency in check. This post walks through the theory, Linux‑level architecture, production‑grade deployment steps, and real‑world performance validation you need to adopt BBR safely in high‑performance environments.\n\nTraditional TCP congestion control (Cubic, Reno) reacts to packet loss as a proxy for congestion. In modern data centers with deep buffers, loss can be rare even when queues are building, leading to bufferbloat—high latency without any indication that the link is saturated. BBR, introduced by Google in 2016 and later standardized in the IETF draft “BBR Congestion Control”, flips the model: it continuously estimates the maximum delivery rate (bottleneck bandwidth) and the minimum round‑trip time (RTT) and then paces packets to match those estimates.",
+      "tags": [
+        "TCP",
+        "BBR",
+        "Congestion Control",
+        "Networking",
+        "Performance"
+      ],
+      "scheduled_at": "2026-05-25T04:01:38Z",
       "status": "pending"
     }
   ]
