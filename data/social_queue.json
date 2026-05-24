@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-24T20:01:38Z",
+  "last_scheduled_at": "2026-05-24T21:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -16273,6 +16273,20 @@
         "production"
       ],
       "scheduled_at": "2026-05-24T20:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Robust Payment Systems: Engineering for High-Availability Scalability and End-to-End Security",
+      "url": "https://martinuke0.github.io/posts/2026-05-24-architecting-robust-payment-systems-engineering-for-high-availability-scalability-and-end-to-end-security/",
+      "social_hook": "> TL;DR — Build payment services as a set of independent, idempotent micro‑services backed by multi‑region Kafka streams, deploy with active‑active load balancers, and enforce PCI‑DSS controls at every hop. The result is a system that can survive node failures, handle traffic spikes, and keep card data safe.\n\nPayment platforms sit at the intersection of latency‑sensitive user experiences, massive transaction volumes, and strict regulatory mandates. A single outage can translate into millions of dollars lost and irreparable brand damage. In this post we walk through the architecture, patterns, and concrete tooling choices that let you deliver high‑availability, horizontal scalability, and end‑to‑end security in production‑grade payment systems.\n\nBefore diving into diagrams, enumerate the non‑negotiable service‑level objectives (SLOs) that shape every design decision.",
+      "tags": [
+        "payment",
+        "high-availability",
+        "scalability",
+        "security",
+        "architecture"
+      ],
+      "scheduled_at": "2026-05-24T21:01:38Z",
       "status": "pending"
     }
   ]
