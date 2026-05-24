@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-24T08:01:38Z",
+  "last_scheduled_at": "2026-05-24T09:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -16105,6 +16105,20 @@
         "deployment"
       ],
       "scheduled_at": "2026-05-24T08:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Multi-Version Concurrency Control in Postgres: Architecture, Isolation Levels, and Performance Tuning for Production",
+      "url": "https://martinuke0.github.io/posts/2026-05-24-mastering-multi-version-concurrency-control-in-postgres-architecture-isolation-levels-and-performance-tuning-for-production/",
+      "social_hook": "> TL;DR — PostgreSQL’s MVCC stores a version chain per row, enabling snapshot isolation without heavy locking. Choose the right isolation level, tune `vacuum`, `max_worker_processes`, and `wal` settings, and monitor bloat to keep production workloads performant.\n\nPostgreSQL powers everything from fintech transaction engines to large‑scale analytics pipelines, and its Multi‑Version Concurrency Control (MVCC) is the silent workhorse that lets dozens of transactions read and write the same tables without stepping on each other’s toes. In this post we unpack the low‑level architecture, compare the four standard isolation levels, and walk through the knobs you should adjust before you ship a high‑throughput service to production.\n\nEvery row in a PostgreSQL table lives in a heap page and carries two hidden system columns: `xmin` and `xmax`. They store the transaction IDs (XIDs) that created and (potentially) deleted the tuple.",
+      "tags": [
+        "PostgreSQL",
+        "MVCC",
+        "Performance",
+        "Isolation",
+        "Production"
+      ],
+      "scheduled_at": "2026-05-24T09:01:38Z",
       "status": "pending"
     }
   ]
