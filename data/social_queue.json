@@ -16007,7 +16007,7 @@
         "production"
       ],
       "scheduled_at": "2026-05-24T01:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Implementing the Saga Pattern for Distributed Transactions: Architecture, Consistency, and Commerce Workflows",
