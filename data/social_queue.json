@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-25T04:01:38Z",
+  "last_scheduled_at": "2026-05-25T05:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -16385,6 +16385,20 @@
         "Performance"
       ],
       "scheduled_at": "2026-05-25T04:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting High-Throughput Payment Infrastructure: A Deep Dive into Scalability, Security, and Transactional Integrity",
+      "url": "https://martinuke0.github.io/posts/2026-05-24-architecting-high-throughput-payment-infrastructure-a-deep-dive-into-scalability-security-and-transactional-integrity/",
+      "social_hook": "> TL;DR — High‑throughput payment platforms succeed by combining sharded data stores, event‑driven pipelines (Kafka + Kubernetes), strict PCI‑DSS controls, and idempotent, exactly‑once transaction processing.\n\nPayments move at the speed of business, but the underlying systems must survive spikes, attacks, and regulatory audits. This post unpacks a reference architecture that delivers millions of transactions per second (TPS), meets security certifications, and guarantees that every debit or credit lands exactly once.\n\n3. Front‑End → Kafka – Produce a `payment.initiated` event; the key is the account ID for partitioning.",
+      "tags": [
+        "payment",
+        "scalability",
+        "security",
+        "architecture",
+        "transactions"
+      ],
+      "scheduled_at": "2026-05-25T05:01:38Z",
       "status": "pending"
     }
   ]
