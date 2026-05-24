@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-24T21:01:38Z",
+  "last_scheduled_at": "2026-05-24T22:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -16287,6 +16287,20 @@
         "architecture"
       ],
       "scheduled_at": "2026-05-24T21:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing TLS 1.3 Zero Round-Trip Resumption: Architecture, Security Trade-offs, and Performance Optimization",
+      "url": "https://martinuke0.github.io/posts/2026-05-24-implementing-tls-13-zero-round-trip-resumption-architecture-security-trade-offs-and-performance-optimization/",
+      "social_hook": "> TL;DR — TLS 1.3 zero‑round‑trip (0‑RTT) resumption can shave 30‑50 ms off cold connections, but it introduces replay risks. By combining a stateless ticket store, strict replay detection, and tuned server configs, you get production‑grade latency gains without sacrificing core security guarantees.\n\nIn modern micro‑service ecosystems, every millisecond of latency matters. Clients that repeatedly talk to the same back‑end often suffer the full TLS handshake cost, even though the cryptographic work has already been performed. TLS 1.3’s 0‑RTT resumption feature lets a client send encrypted application data before the server finishes verifying the session ticket, effectively eliminating one round‑trip. This post walks through the end‑to‑end architecture needed to safely deploy 0‑RTT, the security trade‑offs you must acknowledge, and the performance knobs you can tune for real‑world workloads.\n\n1. Cold‑start latency – A full TLS 1.3 handshake typically requires one round‑trip (≈30 ms on a 150 ms RTT link) plus the cost of key derivation. In high‑frequency APIs, that latency adds up linearly.",
+      "tags": [
+        "TLS",
+        "security",
+        "performance",
+        "architecture",
+        "devops"
+      ],
+      "scheduled_at": "2026-05-24T22:01:38Z",
       "status": "pending"
     }
   ]
