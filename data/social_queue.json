@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-25T07:01:38Z",
+  "last_scheduled_at": "2026-05-25T08:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -16427,6 +16427,20 @@
         "Architecture"
       ],
       "scheduled_at": "2026-05-25T07:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Scaling Luigi for Enterprise Data Orchestration: Architecture, Dependency Management, and Production-Ready Pipelines",
+      "url": "https://martinuke0.github.io/posts/2026-05-25-scaling-luigi-for-enterprise-data-orchestration-architecture-dependency-management-and-production-ready-pipelines/",
+      "social_hook": "> TL;DR — Luigi can be hardened for enterprise use by separating scheduler and workers, using a central metadata store, and applying proven patterns such as task versioning, idempotent outputs, and automated health checks. The result is a resilient, observable pipeline that scales to thousands of daily tasks.\n\nLuigi has been the workhorse of many data teams for years, but moving from a handful of ad‑hoc jobs to a mission‑critical, multi‑team orchestration platform introduces new challenges. In this post we unpack the architectural decisions, dependency‑management tricks, and production‑ready practices that let you run Luigi at enterprise scale while keeping latency low, failure modes visible, and operational overhead manageable.\n\nThe most common scaling pitfall is treating the scheduler as a single point of failure. A robust enterprise deployment isolates the scheduler in its own node pool, persists its state in a durable DB, and adds health‑checking sidecars that restart the process on failure.",
+      "tags": [
+        "luigi",
+        "data-orchestration",
+        "architecture",
+        "pipeline",
+        "production"
+      ],
+      "scheduled_at": "2026-05-25T08:01:38Z",
       "status": "pending"
     }
   ]
