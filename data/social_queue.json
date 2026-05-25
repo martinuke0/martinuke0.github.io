@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-25T15:01:38Z",
+  "last_scheduled_at": "2026-05-25T16:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -16539,6 +16539,20 @@
         "E-commerce"
       ],
       "scheduled_at": "2026-05-25T15:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Deep Dive into Tail Latency: Avoiding the Little’s Law Trap in High-Throughput Systems",
+      "url": "https://martinuke0.github.io/posts/2026-05-25-deep-dive-into-tail-latency-avoiding-the-littles-law-trap-in-high-throughput-systems/",
+      "social_hook": "> TL;DR — Average latency metrics hide dangerous outliers. By augmenting Little’s Law with variance‑aware calculations, precise tail‑measurement tooling, and production‑grade patterns (sharding, back‑pressure, SLO‑driven admission control), you can keep 99th‑percentile latencies in check even at massive scale.\n\nIn modern micro‑service ecosystems, the phrase “low latency” is often reduced to a single number—average response time. That shortcut works for early‑stage prototypes, but in production it can mask the very failures that ruin user experience. This post unpacks why Little’s Law, while elegant, is insufficient for tail‑latency awareness, and walks you through concrete architectures, measurement techniques, and mitigation patterns that engineering teams at Netflix, Uber, and Google use to keep the long tail under control.\n\nThe formula is mathematically sound for steady‑state systems with stable arrival and service processes. It’s a favorite on whiteboards because it gives a quick sanity check: if you know two of the three variables, you can infer the third.",
+      "tags": [
+        "tail latency",
+        "little's law",
+        "high-throughput",
+        "distributed systems",
+        "performance engineering"
+      ],
+      "scheduled_at": "2026-05-25T16:01:38Z",
       "status": "pending"
     }
   ]
