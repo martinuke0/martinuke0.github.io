@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-25T19:01:38Z",
+  "last_scheduled_at": "2026-05-25T20:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -16595,6 +16595,20 @@
         "systems engineering"
       ],
       "scheduled_at": "2026-05-25T19:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing Idempotency Keys in Payment APIs: Architecture, Safety Patterns, and Production-Ready Workflows",
+      "url": "https://martinuke0.github.io/posts/2026-05-25-implementing-idempotency-keys-in-payment-apis-architecture-safety-patterns-and-production-ready-workflows/",
+      "social_hook": "> TL;DR — Idempotency keys protect payment APIs from duplicate charges caused by retries, network glitches, or client bugs. By storing the key with a deterministic request hash and a status record, you can safely guarantee exactly‑once semantics without sacrificing latency.\n\nPayment teams constantly battle duplicate charge bugs, especially when a client retries after a timeout or when an upstream load balancer retries a failed request. An idempotency key—provided by the client and persisted by the server—turns a potentially unsafe “fire‑and‑forget” call into a guaranteed‑once operation. This post walks through the full stack: why idempotency matters, a production‑grade architecture, safety patterns like deterministic hashing and unique constraints, and the operational workflow you need to keep the system healthy.\n\n1. Financial risk – A double‑charge can lead to chargebacks, refunds, and loss of customer trust.",
+      "tags": [
+        "payment",
+        "api",
+        "idempotency",
+        "architecture",
+        "devops"
+      ],
+      "scheduled_at": "2026-05-25T20:01:38Z",
       "status": "pending"
     }
   ]
