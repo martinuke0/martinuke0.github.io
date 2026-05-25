@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-25T08:01:38Z",
+  "last_scheduled_at": "2026-05-25T09:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -16441,6 +16441,20 @@
         "production"
       ],
       "scheduled_at": "2026-05-25T08:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting a Software Factory with Structured Agent Workflows",
+      "url": "https://martinuke0.github.io/posts/2026-05-25-architecting-a-software-factory-with-structured-agent-workflows/",
+      "social_hook": "> TL;DR — Structured agent workflows let you compose reusable, observable micro‑services into a scalable software factory. By combining pattern‑driven design with Kafka‑backed event streams and Airflow‑orchestrated pipelines, you can ship code, run tests, and deploy artifacts reliably at enterprise scale.\n\nBuilding a software factory means treating the entire lifecycle of a code change—lint, test, build, containerize, and deploy—as a repeatable, observable pipeline. In production, the hardest part is not the individual steps but the glue that coordinates them, handles failures, and provides traceability. This post walks through the patterns that make agent‑centric workflows robust, shows a concrete architecture built on Kafka and Apache Airflow, and shares production‑ready snippets you can copy into your own environment.\n\nMost teams start with a handful of Bash scripts that invoke `docker build`, `pytest`, or `kubectl`. Over time these scripts diverge:",
+      "tags": [
+        "software factory",
+        "agent workflows",
+        "pipeline patterns",
+        "production",
+        "architecture"
+      ],
+      "scheduled_at": "2026-05-25T09:01:38Z",
       "status": "pending"
     }
   ]
