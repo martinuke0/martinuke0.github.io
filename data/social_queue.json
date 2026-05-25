@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-25T20:01:38Z",
+  "last_scheduled_at": "2026-05-25T21:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -16609,6 +16609,20 @@
         "devops"
       ],
       "scheduled_at": "2026-05-25T20:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Scalable Python Applications: Implementing Celery as a Distributed Task Queue for Production-Ready Pipelines",
+      "url": "https://martinuke0.github.io/posts/2026-05-25-architecting-scalable-python-applications-implementing-celery-as-a-distributed-task-queue-for-production-ready-pipelines/",
+      "social_hook": "> TL;DR — Celery lets you off‑load work from your Python services into a fault‑tolerant, horizontally scalable queue. By choosing the right broker, configuring workers for your workload, and wiring in monitoring, you can run production‑grade pipelines that handle thousands of tasks per second.\n\nIn modern data‑intensive organizations, Python remains the lingua franca for ETL, ML inference, and API back‑ends. Yet a single monolithic process quickly becomes a bottleneck when you need to run CPU‑heavy transformations, retry flaky external calls, or respect rate limits. A distributed task queue solves those problems, and Celery is the most battle‑tested option in the Python ecosystem. This post walks through the end‑to‑end architecture, concrete patterns, and production‑ready deployment tactics you can copy into your own services.\n\n1. Mature ecosystem – Over a decade of active development, with extensions for monitoring (Flower), result back‑ends, and a rich set of retry policies.",
+      "tags": [
+        "python",
+        "celery",
+        "distributed-systems",
+        "architecture",
+        "devops"
+      ],
+      "scheduled_at": "2026-05-25T21:01:38Z",
       "status": "pending"
     }
   ]
