@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-25T17:01:38Z",
+  "last_scheduled_at": "2026-05-25T18:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -16567,6 +16567,20 @@
         "kafka"
       ],
       "scheduled_at": "2026-05-25T17:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Storage Management Strategies for Modern IT Infrastructure: Architecture, Scalability, and Production Patterns",
+      "url": "https://martinuke0.github.io/posts/2026-05-25-optimizing-storage-management-strategies-for-modern-it-infrastructure-architecture-scalability-and-production-patterns/",
+      "social_hook": "> TL;DR — Modern storage must be decoupled, tiered, and automated. By adopting a layered architecture, leveraging horizontal scaling, and embedding observability, engineers can keep costs low while meeting latency SLAs in production.\n\nEnterprises today juggle petabytes of hot, warm, and cold data across clouds, on‑premises, and edge sites. The challenge isn’t just buying more disks; it’s designing a storage stack that scales predictably, recovers gracefully, and stays observable. This post walks through the architectural building blocks, scalability patterns, and production‑grade practices that turn “big storage” from a cost sink into a strategic advantage.\n\nThe first principle borrowed from cloud‑native design is separation of concerns: compute workloads (containers, VMs, functions) should never own the disks they write to. Instead, they attach to abstract storage services—object stores, block volumes, or distributed file systems—via well‑defined APIs.",
+      "tags": [
+        "storage",
+        "architecture",
+        "scalability",
+        "cloud",
+        "production"
+      ],
+      "scheduled_at": "2026-05-25T18:01:38Z",
       "status": "pending"
     }
   ]
