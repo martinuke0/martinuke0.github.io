@@ -16511,7 +16511,7 @@
         "Pruning"
       ],
       "scheduled_at": "2026-05-25T13:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Mastering the Postgres Write-Ahead Log: Architecture, Durability Guarantees, and Implementation for Data Integrity",
