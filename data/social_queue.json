@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-25T14:01:38Z",
+  "last_scheduled_at": "2026-05-25T15:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -16525,6 +16525,20 @@
         "Architecture"
       ],
       "scheduled_at": "2026-05-25T14:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing the Saga Pattern for Distributed Transactions: Architecture, Consistency, and Commerce Workflows",
+      "url": "https://martinuke0.github.io/posts/2026-05-25-implementing-the-saga-pattern-for-distributed-transactions-architecture-consistency-and-commerce-workflows/",
+      "social_hook": "> TL;DR — The Saga pattern lets you coordinate distributed transactions across microservices without a heavyweight two‑phase commit. By combining an orchestrator (or choreography) with explicit compensation actions, you achieve eventual consistency, low latency, and fault‑tolerant commerce flows such as order creation → payment → inventory → shipping.\n\nIn modern e‑commerce platforms, a single “checkout” often touches dozens of bounded contexts: cart, pricing, payment gateway, inventory, fraud detection, and shipping. Treating each context as an independent microservice gives you scalability, but it also breaks the classic ACID transaction model. The Saga pattern fills that gap by turning a multi‑step business process into a series of local transactions linked by events and, when necessary, compensating actions that roll back partial work.\n\nBelow we walk through the pattern’s core concepts, a production‑ready architecture that uses Apache Kafka for reliable event transport, consistency guarantees you can count on, and concrete code snippets you can copy into a Python‑based orchestrator. The goal is to give engineers a checklist they can apply to a real checkout workflow today.",
+      "tags": [
+        "Saga",
+        "Distributed Transactions",
+        "Microservices",
+        "Architecture",
+        "E-commerce"
+      ],
+      "scheduled_at": "2026-05-25T15:01:38Z",
       "status": "pending"
     }
   ]
