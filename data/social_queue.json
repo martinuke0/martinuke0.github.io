@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-25T12:01:38Z",
+  "last_scheduled_at": "2026-05-25T13:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -16497,6 +16497,20 @@
         "devops"
       ],
       "scheduled_at": "2026-05-25T12:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Small Language Models: Pruning, Quantization, and Techniques for Local Edge Inference",
+      "url": "https://martinuke0.github.io/posts/2026-05-25-optimizing-small-language-models-pruning-quantization-and-techniques-for-local-edge-inference/",
+      "social_hook": "> TL;DR — Pruning removes redundant weights, quantization squeezes numbers into fewer bits, and a careful edge‑first architecture (ONNX Runtime, TensorFlow Lite, or vLLM‑Lite) lets small LLMs run under 2 GB RAM with sub‑100 ms latency on a modern ARM CPU.\n\nRunning a 7‑B parameter model on a laptop is already a stretch; deploying a 300‑M parameter LLM on a Raspberry Pi or an IoT gateway is a different beast. In production, the trade‑off isn’t just “accuracy vs. size” – it’s also “latency vs. power budget” and “update cadence vs. OTA bandwidth”. This post walks through three concrete levers—pruning, quantization, and edge‑centric deployment patterns—illustrated with real tools (🤗 Transformers, ONNX Runtime, TensorFlow Lite) and production numbers from recent field studies.\n\n1. Data sovereignty – Sensitive text never leaves the device, satisfying GDPR or HIPAA without extra encryption layers.",
+      "tags": [
+        "LLM",
+        "Edge Computing",
+        "Model Compression",
+        "Quantization",
+        "Pruning"
+      ],
+      "scheduled_at": "2026-05-25T13:01:38Z",
       "status": "pending"
     }
   ]
