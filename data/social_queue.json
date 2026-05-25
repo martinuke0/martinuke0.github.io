@@ -16581,7 +16581,7 @@
         "production"
       ],
       "scheduled_at": "2026-05-25T18:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Implementing Concurrent Garbage Collection: Tri-Color Marking Architecture, Synchronization, and Real-World Patterns",
