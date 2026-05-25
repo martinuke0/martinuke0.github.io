@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-25T23:01:38Z",
+  "last_scheduled_at": "2026-05-26T00:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -16651,6 +16651,20 @@
         "architecture"
       ],
       "scheduled_at": "2026-05-25T23:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing Load Shedding Strategies: Architecting Resilient Systems for High-Load Production Environments",
+      "url": "https://martinuke0.github.io/posts/2026-05-25-implementing-load-shedding-strategies-architecting-resilient-systems-for-high-load-production-environments/",
+      "social_hook": "> TL;DR — Load shedding prevents cascading failures by rejecting or throttling excess requests before they overwhelm downstream services. Combining token‑bucket rate limiters, circuit‑breaker fallbacks, and priority queues—wired into Kafka‑driven pipelines on GCP—delivers a production‑ready resilience layer that scales with traffic spikes.\n\nIn modern microservice ecosystems, traffic bursts are the norm rather than the exception. A single endpoint that spikes to thousands of requests per second can saturate CPU, exhaust database connections, and ultimately bring an entire platform down. Load shedding is the disciplined practice of shedding excess load early—at the edge or at strategic choke points—so that downstream services continue to operate within their safe operating envelope. This post walks through the why, the common patterns, and a concrete architecture that ties everything together with Kafka, Envoy, and Google Cloud services.\n\n1. Protect downstream state – Databases, caches, and third‑party APIs often have hard limits (connection pools, rate limits). Over‑loading them leads to timeouts that ripple back as 5xx errors.",
+      "tags": [
+        "load shedding",
+        "resilience",
+        "microservices",
+        "kafka",
+        "gcp"
+      ],
+      "scheduled_at": "2026-05-26T00:01:38Z",
       "status": "pending"
     }
   ]
