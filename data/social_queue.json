@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-26T04:01:38Z",
+  "last_scheduled_at": "2026-05-26T05:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -16721,6 +16721,20 @@
         "ProductionEngineering"
       ],
       "scheduled_at": "2026-05-26T04:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Payments Security across Modern Enterprises: Services, Infrastructure, and Real-World Implementation Patterns",
+      "url": "https://martinuke0.github.io/posts/2026-05-25-architecting-payments-security-across-modern-enterprises-services-infrastructure-and-real-world-implementation-patterns/",
+      "social_hook": "> TL;DR — Securing payments at scale requires a layered approach that combines tokenization services, zero‑trust networking, and automated compliance checks. By treating security as a set of reusable, observable services rather than an after‑thought, enterprises can meet PCI‑DSS while keeping latency low and development velocity high.\n\nEnterprises that process thousands to millions of transactions per day cannot afford ad‑hoc security measures. Instead, they must bake payment protection into every layer of their architecture—from the API edge down to the data store—while leveraging cloud‑native tooling to stay agile. This post walks through the modern threat landscape, outlines concrete service‑level patterns, details the infrastructure primitives that make them possible, and shares production‑ready blueprints you can adopt today.\n\nPayments are a high‑value target for cybercriminals. Understanding the most common attack vectors helps you prioritize defenses.",
+      "tags": [
+        "payments",
+        "security",
+        "architecture",
+        "cloud",
+        "compliance"
+      ],
+      "scheduled_at": "2026-05-26T05:01:38Z",
       "status": "pending"
     }
   ]
