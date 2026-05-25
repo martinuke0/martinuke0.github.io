@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-26T03:01:38Z",
+  "last_scheduled_at": "2026-05-26T04:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -16707,6 +16707,20 @@
         "rust"
       ],
       "scheduled_at": "2026-05-26T03:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Production Retrieval-Augmented Generation: Scalability, Latency, and Resilient Data Pipeline Patterns",
+      "url": "https://martinuke0.github.io/posts/2026-05-25-architecting-production-retrieval-augmented-generation-scalability-latency-and-resilient-data-pipeline-patterns/",
+      "social_hook": "> TL;DR — Production RAG systems need three pillars: horizontally scalable vector stores, latency‑focused caching/inference patterns, and resilient pipelines built on idempotent ingestion and robust observability. By combining Kafka for streaming, Milvus for vector search, and async orchestration, you can serve millions of queries per day with sub‑second latency while staying resilient to node failures.\n\nRetrieval‑Augmented Generation (RAG) has moved from research notebooks to mission‑critical services—think real‑time customer support, code‑assistant bots, and knowledge‑base search. The moment you start serving thousands of concurrent users, the naive “run a vector search then call an LLM” stack collapses under load, spikes, or a single node outage. This post walks through a production‑grade architecture, concrete scaling numbers, and proven pipeline patterns that keep latency low and reliability high.\n\n1. Variable query load – Traffic can jump from 100 QPS to 10 kQPS during a product launch.",
+      "tags": [
+        "RAG",
+        "Scalability",
+        "Latency",
+        "DataPipeline",
+        "ProductionEngineering"
+      ],
+      "scheduled_at": "2026-05-26T04:01:38Z",
       "status": "pending"
     }
   ]
