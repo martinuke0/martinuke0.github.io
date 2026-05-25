@@ -16651,7 +16651,7 @@
         "architecture"
       ],
       "scheduled_at": "2026-05-25T23:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Implementing Load Shedding Strategies: Architecting Resilient Systems for High-Load Production Environments",
