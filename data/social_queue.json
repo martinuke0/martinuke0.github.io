@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-26T05:01:38Z",
+  "last_scheduled_at": "2026-05-26T06:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -16735,6 +16735,20 @@
         "compliance"
       ],
       "scheduled_at": "2026-05-26T05:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Scalable Data Pipeline Orchestration with Luigi: From Task Dependencies to Production Deployment",
+      "url": "https://martinuke0.github.io/posts/2026-05-25-architecting-scalable-data-pipeline-orchestration-with-luigi-from-task-dependencies-to-production-deployment/",
+      "social_hook": "> TL;DR — Luigi lets you express complex data pipelines as a directed acyclic graph of lightweight Python tasks. By modularising tasks, using parameterised targets, and deploying workers in containers on Kubernetes, you can scale from a single‑machine prototype to a fault‑tolerant production system.\n\nLuigi has been a quiet workhorse behind many data‑driven products at companies like Spotify and Airbnb. Its simplicity—tasks are just Python classes—belies the power you get when you start treating those tasks as reusable building blocks, orchestrating them across a fleet of workers, and wiring the whole thing into CI/CD pipelines. This post walks through the entire journey: from the core concepts of tasks and dependencies, through architectural patterns that keep pipelines maintainable, to concrete steps for production deployment with Docker and Kubernetes.\n\nAt its heart, Luigi models a pipeline as a set of Task objects that declare their inputs and outputs via Target objects. A task is considered complete when all its output targets exist. This model makes idempotence trivial: re‑running a task simply checks the presence of its outputs.",
+      "tags": [
+        "Luigi",
+        "Data Engineering",
+        "Pipeline Orchestration",
+        "Scalable Architecture",
+        "Production Deployment"
+      ],
+      "scheduled_at": "2026-05-26T06:01:38Z",
       "status": "pending"
     }
   ]
