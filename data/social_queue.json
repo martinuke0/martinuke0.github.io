@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-25T06:01:38Z",
+  "last_scheduled_at": "2026-05-25T07:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -16413,6 +16413,20 @@
         "production"
       ],
       "scheduled_at": "2026-05-25T06:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Apache Kafka Topic Partitioning and Consumer Group Rebalancing: From Basics to Production-Ready Pipelines",
+      "url": "https://martinuke0.github.io/posts/2026-05-25-mastering-apache-kafka-topic-partitioning-and-consumer-group-rebalancing-from-basics-to-production-ready-pipelines/",
+      "social_hook": "> TL;DR — Choosing the right partition count and configuring consumer group rebalancing are the two levers that keep Kafka pipelines scalable and stable. Follow the patterns below to avoid thundering‑herd failures, achieve predictable throughput, and ship production‑ready data streams.\n\nKafka has become the de‑facto backbone for event‑driven architectures, yet many teams stumble when they move from a toy topic with a single partition to a multi‑partition, multi‑consumer‑group deployment that serves millions of events per second. This post walks through the math, the configuration knobs, and the production patterns you need to master topic partitioning and consumer‑group rebalancing, with concrete code snippets, metrics to watch, and real‑world failure‑mode mitigations.\n\nA Kafka partition is the unit of parallelism. Each partition lives on a single broker, is ordered, and can be consumed by at most one thread in a consumer group at any given time. The three main reasons to increase partition count are:",
+      "tags": [
+        "Kafka",
+        "Partitioning",
+        "ConsumerGroups",
+        "Streaming",
+        "Architecture"
+      ],
+      "scheduled_at": "2026-05-25T07:01:38Z",
       "status": "pending"
     }
   ]
