@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-25T16:01:38Z",
+  "last_scheduled_at": "2026-05-25T17:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -16553,6 +16553,20 @@
         "performance engineering"
       ],
       "scheduled_at": "2026-05-25T16:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Asynchronous Consensus Protocols for Multi-Agent Decision Engines: From Theory to Production-Ready Implementations",
+      "url": "https://martinuke0.github.io/posts/2026-05-25-architecting-asynchronous-consensus-protocols-for-multi-agent-decision-engines-from-theory-to-production-ready-implementations/",
+      "social_hook": "> TL;DR — Asynchronous consensus lets multi‑agent decision engines stay consistent without blocking on slow nodes. By combining proven protocols (Raft, EPaxos) with event‑driven platforms like Kafka and a solid observability stack, you can ship production‑grade systems that tolerate network partitions, leader failures, and version upgrades.\n\nMulti‑agent decision engines—think automated trading desks, real‑time fraud detection pipelines, or autonomous fleet coordination—must make a single logical decision despite each participant running on its own host, possibly in different data centers. Traditional synchronous protocols (two‑phase commit, classic Raft) stall when a node lags, which is unacceptable for latency‑sensitive workloads. This post walks you through the theory behind asynchronous consensus, shows how to map that theory onto concrete infrastructure (Kafka, Docker, Prometheus), and bundles the whole thing into a reproducible, production‑ready pattern.\n\n1. Latency budgets are tight – A trading algorithm may have a 10 ms window; waiting for a slow replica kills profitability.",
+      "tags": [
+        "consensus",
+        "distributed-systems",
+        "asynchronous",
+        "architecture",
+        "kafka"
+      ],
+      "scheduled_at": "2026-05-25T17:01:38Z",
       "status": "pending"
     }
   ]
