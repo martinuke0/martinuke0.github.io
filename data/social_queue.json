@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-26T01:01:38Z",
+  "last_scheduled_at": "2026-05-26T02:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -16679,6 +16679,20 @@
         "architecture"
       ],
       "scheduled_at": "2026-05-26T01:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Autonomous Memory Systems: Distributed AI Agent Orchestration, Patterns, and Production-Ready Workflows",
+      "url": "https://martinuke0.github.io/posts/2026-05-25-architecting-autonomous-memory-systems-distributed-ai-agent-orchestration-patterns-and-production-ready-workflows/",
+      "social_hook": "> TL;DR — Autonomous memory systems let AI agents share state without tight coupling. By combining an event‑driven bus (Kafka), a task graph engine (Airflow), and a durable vector store, you can build production‑ready pipelines that scale, observe, and evolve safely.\n\nModern AI products no longer consist of a single monolithic model. Instead, they are ensembles of specialized agents—retrievers, planners, executors, and evaluators—each needing fast, consistent access to a shared “memory” of embeddings, logs, and intermediate results. Architecting that memory as a first‑class, autonomous service unlocks horizontal scaling, fault isolation, and rapid iteration. The following guide walks through the core building blocks, proven orchestration patterns, and end‑to‑end production workflows that have powered large‑scale deployments at companies like Stripe, Shopify, and Meta.\n\n3. Coordinates concurrent access by multiple AI agents without a central lock service.",
+      "tags": [
+        "AI",
+        "Orchestration",
+        "DistributedSystems",
+        "MemoryManagement",
+        "Production"
+      ],
+      "scheduled_at": "2026-05-26T02:01:38Z",
       "status": "pending"
     }
   ]
