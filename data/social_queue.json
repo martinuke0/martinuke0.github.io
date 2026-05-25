@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-25T09:01:38Z",
+  "last_scheduled_at": "2026-05-25T10:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -16455,6 +16455,20 @@
         "architecture"
       ],
       "scheduled_at": "2026-05-25T09:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Storage Management Strategies for Modern IT Infrastructure: Architecture, Scalability, and Production-Ready Patterns",
+      "url": "https://martinuke0.github.io/posts/2026-05-25-mastering-storage-management-strategies-for-modern-it-infrastructure-architecture-scalability-and-production-ready-patterns/",
+      "social_hook": "> TL;DR — Modern storage must be treated as a composable service layer. By adopting a tiered architecture, horizontal scaling patterns, and production‑ready observability, you can keep performance predictable, costs under control, and failures graceful across cloud, on‑prem, and hybrid environments.\n\nEnterprises today juggle petabytes of structured and unstructured data, multi‑cloud footprints, and ever‑shrinking SLAs. The old “big‑disk” mindset no longer scales; instead, storage is a set of loosely coupled services that must be designed, monitored, and evolved like any other production system. This post walks through the architectural foundations, scalability patterns, and concrete production‑ready practices you can start applying immediately.\n\nA solid storage architecture is the backbone for any data‑intensive application. It defines where data lives, how it moves, and what guarantees each layer provides.",
+      "tags": [
+        "storage",
+        "architecture",
+        "scalability",
+        "cloud",
+        "devops"
+      ],
+      "scheduled_at": "2026-05-25T10:01:38Z",
       "status": "pending"
     }
   ]
