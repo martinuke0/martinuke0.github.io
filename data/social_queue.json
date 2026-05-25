@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-25T18:01:38Z",
+  "last_scheduled_at": "2026-05-25T19:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -16581,6 +16581,20 @@
         "production"
       ],
       "scheduled_at": "2026-05-25T18:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing Concurrent Garbage Collection: Tri-Color Marking Architecture, Synchronization, and Real-World Patterns",
+      "url": "https://martinuke0.github.io/posts/2026-05-25-implementing-concurrent-garbage-collection-tri-color-marking-architecture-synchronization-and-real-world-patterns/",
+      "social_hook": "> TL;DR — Tri‑color marking lets a garbage collector run alongside application threads by maintaining three invariant color sets. Proper write barriers, safe‑point coordination, and incremental scanning turn the algorithm into a production‑grade, low‑pause collector seen in HotSpot, Go, and Rust.\n\nConcurrent garbage collection (GC) is no longer a research curiosity; it powers the latency‑sensitive services that dominate cloud workloads today. The tri‑color marking algorithm is the backbone of most low‑pause collectors, yet many engineers struggle to map its theoretical invariants to concrete synchronization primitives and deployment‑ready patterns. This post unpacks the architecture, walks through the synchronization details, and showcases how three major runtimes have hardened the approach for production.\n\nThe collector repeatedly moves objects from Gray to Black, scanning outgoing references and turning newly discovered white objects gray. When the Gray set empties, all reachable objects are black, and the remaining whites can be reclaimed.",
+      "tags": [
+        "garbage collection",
+        "concurrency",
+        "tri-color",
+        "runtime",
+        "systems engineering"
+      ],
+      "scheduled_at": "2026-05-25T19:01:38Z",
       "status": "pending"
     }
   ]
