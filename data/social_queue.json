@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-25T10:01:38Z",
+  "last_scheduled_at": "2026-05-25T11:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -16469,6 +16469,20 @@
         "devops"
       ],
       "scheduled_at": "2026-05-25T10:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing TLS 1.3 Zero Round-Trip Resumption: Architecture, Security Trade-offs, and Production Performance Optimization",
+      "url": "https://martinuke0.github.io/posts/2026-05-25-implementing-tls-13-zero-round-trip-resumption-architecture-security-trade-offs-and-production-performance-optimization/",
+      "social_hook": "> TL;DR — TLS 1.3 zero round‑trip (0‑RTT) resumption can shave 30‑50 ms off latency for repeat connections, but it introduces replay risk and requires careful ticket management. By centralizing session ticket stores, tightening replay detection, and tuning NGINX/Envoy configs, you can reap performance gains while keeping the attack surface manageable.\n\nModern services that serve billions of requests per day cannot afford even a few milliseconds of extra latency. TLS 1.3’s 0‑RTT resumption promises “instant” handshakes for returning clients, but the shortcut comes with nuanced security trade‑offs and operational challenges. This post walks through the end‑to‑end architecture of a production‑grade 0‑RTT implementation, examines the security implications, and provides concrete performance‑tuning recipes for the most common edge proxies (NGINX, Envoy) and application runtimes (Go, Java).\n\n Latency budget – Mobile browsers on 4G/5G networks typically see 30 ms round‑trip times. Adding a full TLS handshake (≈2 RTTs) can consume 60–80 ms, which directly impacts page‑load metrics like First Contentful Paint**.",
+      "tags": [
+        "tls",
+        "security",
+        "performance",
+        "cloud",
+        "devops"
+      ],
+      "scheduled_at": "2026-05-25T11:01:38Z",
       "status": "pending"
     }
   ]
