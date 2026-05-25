@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-25T22:01:38Z",
+  "last_scheduled_at": "2026-05-25T23:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -16637,6 +16637,20 @@
         "high-availability"
       ],
       "scheduled_at": "2026-05-25T22:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing Liter-LLM: Architecting Rust-Powered Polyglot Bindings for Multi-Provider LLM Integration and Production Pipelines",
+      "url": "https://martinuke0.github.io/posts/2026-05-25-implementing-liter-llm-architecting-rust-powered-polyglot-bindings-for-multi-provider-llm-integration-and-production-pipelines/",
+      "social_hook": "> TL;DR — Liter‑LLM is a Rust library that abstracts OpenAI, Anthropic, Azure OpenAI, and other LLM services behind a single, type‑safe API. By exposing Python and Node.js bindings via PyO3 and Neon, teams can call the same Rust core from any language while keeping latency low and observability high in production pipelines.\n\nIn modern AI‑first products, developers rarely want to lock themselves into a single large‑language‑model vendor. Switching providers, A/B testing new models, or falling back on a cheaper alternative are operational realities. This article walks through the design and implementation of Liter‑LLM, a Rust‑centric, polyglot binding layer that lets you speak to multiple LLM APIs from a single, production‑ready codebase. We’ll explore the crate layout, the trait‑based provider abstraction, the FFI bindings for Python and JavaScript, and the patterns that make the system resilient at scale.\n\n1. Cost elasticity – OpenAI’s GPT‑4 pricing spikes during peak demand, while Anthropic’s Claude may be cheaper for long‑form generation.",
+      "tags": [
+        "rust",
+        "llm",
+        "polyglot",
+        "production",
+        "architecture"
+      ],
+      "scheduled_at": "2026-05-25T23:01:38Z",
       "status": "pending"
     }
   ]
