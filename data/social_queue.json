@@ -16609,7 +16609,7 @@
         "devops"
       ],
       "scheduled_at": "2026-05-25T20:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Architecting Scalable Python Applications: Implementing Celery as a Distributed Task Queue for Production-Ready Pipelines",
