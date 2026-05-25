@@ -16413,7 +16413,7 @@
         "production"
       ],
       "scheduled_at": "2026-05-25T06:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Mastering Apache Kafka Topic Partitioning and Consumer Group Rebalancing: From Basics to Production-Ready Pipelines",
