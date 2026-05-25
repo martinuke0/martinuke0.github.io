@@ -16441,7 +16441,7 @@
         "production"
       ],
       "scheduled_at": "2026-05-25T08:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Architecting a Software Factory with Structured Agent Workflows",
