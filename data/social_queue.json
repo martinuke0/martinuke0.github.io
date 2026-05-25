@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-25T13:01:38Z",
+  "last_scheduled_at": "2026-05-25T14:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -16511,6 +16511,20 @@
         "Pruning"
       ],
       "scheduled_at": "2026-05-25T13:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering the Postgres Write-Ahead Log: Architecture, Durability Guarantees, and Implementation for Data Integrity",
+      "url": "https://martinuke0.github.io/posts/2026-05-25-mastering-the-postgres-write-ahead-log-architecture-durability-guarantees-and-implementation-for-data-integrity/",
+      "social_hook": "> TL;DR — PostgreSQL’s Write‑Ahead Log (WAL) is the backbone of durability and crash‑recovery. Understanding its segmented architecture, LSN flow, and tuning knobs lets you guarantee data integrity while meeting latency SLAs.\n\nPostgreSQL’s WAL is more than a simple redo log; it is a carefully engineered pipeline that persists every change before it touches the data files. In modern micro‑service back‑ends, analytics platforms, and financial systems, the WAL is the silent guarantor that a power loss or node crash never corrupts user data. This post walks through the low‑level architecture, explains the durability guarantees PostgreSQL makes, and shows concrete configuration and monitoring patterns you can adopt today.\n\nAt a high level PostgreSQL writes every modification to a write‑ahead log before any data page is flushed to the main tablespace. The WAL is stored as a series of fixed‑size segment files (default 16 MiB) in `$PGDATA/pg_wal`. Each segment is identified by a log sequence number (LSN) that monotonically increases.",
+      "tags": [
+        "PostgreSQL",
+        "WAL",
+        "Durability",
+        "DataIntegrity",
+        "Architecture"
+      ],
+      "scheduled_at": "2026-05-25T14:01:38Z",
       "status": "pending"
     }
   ]
