@@ -16637,7 +16637,7 @@
         "high-availability"
       ],
       "scheduled_at": "2026-05-25T22:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Implementing Liter-LLM: Architecting Rust-Powered Polyglot Bindings for Multi-Provider LLM Integration and Production Pipelines",
