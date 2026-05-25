@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-26T02:01:38Z",
+  "last_scheduled_at": "2026-05-26T03:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -16693,6 +16693,20 @@
         "Production"
       ],
       "scheduled_at": "2026-05-26T02:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing Concurrent Garbage Collection: Tri-Color Marking Architecture, Mutator Barriers, and Real-World Patterns",
+      "url": "https://martinuke0.github.io/posts/2026-05-25-implementing-concurrent-garbage-collection-tri-color-marking-architecture-mutator-barriers-and-real-world-patterns/",
+      "social_hook": "> TL;DR — Tri‑color marking lets a collector walk the object graph while the application mutates it, using write barriers to keep the invariant intact. Production systems combine this core algorithm with generational coupling, adaptive scheduling, and robust fallback paths to achieve sub‑10 ms pause times at billions of live objects.\n\nConcurrent garbage collection is no longer a research curiosity; it is the default in the HotSpot JVM, the Go runtime, and even experimental Rust collectors. Yet the underlying ideas—tri‑color marking, mutator barriers, and a handful of production‑grade patterns—are often glossed over in blog posts that focus on pause‑time graphs. This article unpacks each piece, shows how they fit together in a real‑world pipeline, and provides concrete code snippets you can adapt to your own runtime.\n\nThe tri‑color abstraction was introduced by Dijkstra in the 1970s and later refined for incremental and concurrent collectors. It divides the heap into three disjoint sets:",
+      "tags": [
+        "garbage-collection",
+        "concurrency",
+        "systems",
+        "java",
+        "rust"
+      ],
+      "scheduled_at": "2026-05-26T03:01:38Z",
       "status": "pending"
     }
   ]
