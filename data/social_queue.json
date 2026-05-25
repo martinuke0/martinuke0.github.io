@@ -16427,7 +16427,7 @@
         "Architecture"
       ],
       "scheduled_at": "2026-05-25T07:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Scaling Luigi for Enterprise Data Orchestration: Architecture, Dependency Management, and Production-Ready Pipelines",
