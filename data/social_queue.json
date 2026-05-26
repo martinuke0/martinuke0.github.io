@@ -16861,7 +16861,7 @@
         "Architecture"
       ],
       "scheduled_at": "2026-05-26T14:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Mastering the Thundering Herd Problem: Mitigations, Caching Strategies, and Production-Ready Patterns",
