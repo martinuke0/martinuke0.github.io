@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-27T00:01:38Z",
+  "last_scheduled_at": "2026-05-27T01:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -17001,6 +17001,20 @@
         "devops"
       ],
       "scheduled_at": "2026-05-27T00:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Immutable Ledger Design for Financial Systems: Consistency, Integrity, and Real-World Implementation Patterns",
+      "url": "https://martinuke0.github.io/posts/2026-05-26-architecting-immutable-ledger-design-for-financial-systems-consistency-integrity-and-real-world-implementation-patterns/",
+      "social_hook": "> TL;DR — Immutable ledgers give financial platforms a single source of truth that never rewrites history. By combining append‑only storage (Kafka, PostgreSQL), cryptographic hashing, and optional blockchain anchoring, you can guarantee strong consistency and tamper‑evidence while keeping latency low enough for real‑time trading.\n\nFinancial institutions have moved from batch‑oriented accounting to event‑driven, low‑latency processing, yet they still need an audit trail that cannot be altered. An immutable ledger satisfies regulators, satisfies auditors, and simplifies debugging. In this post we unpack the consistency guarantees you must enforce, the integrity mechanisms that protect the chain, and three production‑ready patterns that have shipped at scale in banks, fintechs, and crypto‑native firms.\n\n1. Regulatory compliance – Basel III, PCI DSS, and the EU’s MiFID II all require immutable logs of transaction events.",
+      "tags": [
+        "ledger",
+        "architecture",
+        "consistency",
+        "integrity",
+        "financial-systems"
+      ],
+      "scheduled_at": "2026-05-27T01:01:38Z",
       "status": "pending"
     }
   ]
