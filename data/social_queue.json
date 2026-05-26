@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-26T17:01:38Z",
+  "last_scheduled_at": "2026-05-26T18:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -16903,6 +16903,20 @@
         "Production"
       ],
       "scheduled_at": "2026-05-26T17:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Deep Dive into Copy-on-Write Semantics: Architecture, Efficiency, and Modern Linux Kernel Implementation",
+      "url": "https://martinuke0.github.io/posts/2026-05-26-deep-dive-into-copy-on-write-semantics-architecture-efficiency-and-modern-linux-kernel-implementation/",
+      "social_hook": "> TL;DR — Copy‑on‑Write (COW) lets the Linux kernel share pages between processes until one writes, dramatically cutting memory use. Modern kernels have optimized the page‑fault path, integrated COW into Btrfs snapshots, and expose tunables that matter in large‑scale production.\n\nCopy‑on‑Write is one of those quietly powerful mechanisms that most engineers have heard of but rarely understand under the hood. In this post we peel back the abstraction layers, walk through the kernel’s data structures, and show concrete patterns you can adopt when building containers, databases, or any memory‑intensive service. By the end you’ll know where the performance gains come from, how to measure them, and which knobs to turn when COW becomes a bottleneck.\n\n3. On the first write, the kernel allocates a fresh page, copies the original contents, and updates the writer’s page table entry.",
+      "tags": [
+        "copy-on-write",
+        "linux",
+        "kernel",
+        "performance",
+        "systems"
+      ],
+      "scheduled_at": "2026-05-26T18:01:38Z",
       "status": "pending"
     }
   ]
