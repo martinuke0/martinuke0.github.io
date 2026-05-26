@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-26T18:01:38Z",
+  "last_scheduled_at": "2026-05-26T19:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -16917,6 +16917,20 @@
         "systems"
       ],
       "scheduled_at": "2026-05-26T18:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Autonomous Memory Systems: Distributed AI Agent Orchestration, Patterns, and Production-Ready Workflows",
+      "url": "https://martinuke0.github.io/posts/2026-05-26-architecting-autonomous-memory-systems-distributed-ai-agent-orchestration-patterns-and-production-ready-workflows/",
+      "social_hook": "> TL;DR — Autonomous memory systems let AI agents share context at scale. By combining vector‑store sharding, event‑driven orchestration (Kafka, NATS), and CI/CD‑driven deployment, you can build production‑ready pipelines that survive network partitions, stale data, and rapid model updates.\n\nIn modern AI‑first products, a single monolithic model is no longer sufficient. Teams stitch together dozens of specialized agents—retrievers, planners, executors—each needing fast, consistent access to a shared “memory” that persists across requests and even across deployments. This post walks through the end‑to‑end architecture, concrete patterns, and the tooling you need to run such a system in production today.\n\n1. Persistence Layer – durable vector stores (e.g., Pinecone, Milvus) and key‑value caches (Redis, DynamoDB) that hold embeddings, raw documents, and short‑term state.",
+      "tags": [
+        "AI",
+        "Distributed Systems",
+        "Memory Management",
+        "Orchestration",
+        "Production"
+      ],
+      "scheduled_at": "2026-05-26T19:01:38Z",
       "status": "pending"
     }
   ]
