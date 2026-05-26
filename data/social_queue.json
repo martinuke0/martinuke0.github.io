@@ -16735,7 +16735,7 @@
         "compliance"
       ],
       "scheduled_at": "2026-05-26T05:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Architecting Scalable Data Pipeline Orchestration with Luigi: From Task Dependencies to Production Deployment",
