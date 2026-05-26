@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-26T06:01:38Z",
+  "last_scheduled_at": "2026-05-26T07:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -16749,6 +16749,20 @@
         "Production Deployment"
       ],
       "scheduled_at": "2026-05-26T06:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Deep Dive into QUIC Stream Multiplexing: Eliminating Head-of-Line Blocking in Modern Network Protocols",
+      "url": "https://martinuke0.github.io/posts/2026-05-26-deep-dive-into-quic-stream-multiplexing-eliminating-head-of-line-blocking-in-modern-network-protocols/",
+      "social_hook": "> TL;DR — QUIC replaces TCP’s single‑stream bottleneck with independent, loss‑isolated streams, eradicating head‑of‑line (HoL) blocking. By understanding QUIC’s stream IDs, flow‑control, and production‑ready patterns, engineers can cut latency by 20‑40 % in real‑world services.\n\nQUIC (Quick UDP Internet Connections) has moved from a research prototype to the backbone of modern web traffic, powering HTTP/3, Cloudflare’s edge, and Google’s massive services. Its most lauded feature—stream multiplexing—eliminates the classic HoL blocking that plagued HTTP/2 over TCP. This post dissects the protocol’s internals, shows how production teams deploy it, and offers concrete tuning advice you can apply today.\n\n Transport Layer** – QUIC runs directly on UDP, sidestepping TCP’s three‑way handshake and congestion‑control coupling.",
+      "tags": [
+        "QUIC",
+        "Network Protocols",
+        "Head-of-Line Blocking",
+        "Streaming",
+        "Production Engineering"
+      ],
+      "scheduled_at": "2026-05-26T07:01:38Z",
       "status": "pending"
     }
   ]
