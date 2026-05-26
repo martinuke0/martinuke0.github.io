@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-26T12:01:38Z",
+  "last_scheduled_at": "2026-05-26T13:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -16833,6 +16833,20 @@
         "Production"
       ],
       "scheduled_at": "2026-05-26T12:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing the Saga Pattern for Distributed Transactions: Consistency Architecture in Modern E-commerce Systems",
+      "url": "https://martinuke0.github.io/posts/2026-05-26-implementing-the-saga-pattern-for-distributed-transactions-consistency-architecture-in-modern-e-commerce-systems/",
+      "social_hook": "> TL;DR — The Saga pattern lets you achieve eventual consistency across loosely coupled microservices without a heavyweight two‑phase commit. By modeling each business step as an independent transaction and pairing it with a compensating action, you can build a resilient order flow that survives network glitches, partial failures, and scaling pressure—especially when backed by Kafka and Spring Boot.\n\nIn modern e‑commerce platforms, a single “checkout” request can touch inventory, payment, shipping, loyalty, and analytics services. Each of those services owns its own database, and the traditional ACID transaction model collapses under the weight of network latency and independent scaling requirements. The Saga pattern offers a pragmatic alternative: break the global transaction into a series of local transactions, coordinate them via events, and define explicit compensation steps for rollback. This post walks through the architectural decisions, concrete implementation details, and production‑grade patterns you need to adopt the Saga pattern in a high‑traffic storefront.\n\n Customer experience is fragile.** A user who sees an “order placed” confirmation only to later receive a “payment failed” email loses trust.",
+      "tags": [
+        "Saga",
+        "Microservices",
+        "E-commerce",
+        "Kafka",
+        "SpringBoot"
+      ],
+      "scheduled_at": "2026-05-26T13:01:38Z",
       "status": "pending"
     }
   ]
