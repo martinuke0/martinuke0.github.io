@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-26T22:01:38Z",
+  "last_scheduled_at": "2026-05-26T23:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -16973,6 +16973,20 @@
         "gcp"
       ],
       "scheduled_at": "2026-05-26T22:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing Liter-LLM: Architecting Rust-Powered Polyglot Bindings for Multi-Provider LLM Integration and Production Pipelines",
+      "url": "https://martinuke0.github.io/posts/2026-05-26-implementing-liter-llm-architecting-rust-powered-polyglot-bindings-for-multi-provider-llm-integration-and-production-pipelines/",
+      "social_hook": "> TL;DR — Liter-LLM is a Rust library that exposes a single, type‑safe API for OpenAI, Anthropic, and Hugging Face models. By leveraging `tokio`, `serde`, and `cbindgen`, it generates polyglot bindings for Python, Go, and Java, and integrates cleanly with Kafka‑driven pipelines, Kubernetes, and Prometheus‑based observability.\n\nLarge language models (LLMs) have become core services in recommendation engines, chat assistants, and data‑centric workflows. Yet most production teams still juggle provider‑specific SDKs, disparate auth mechanisms, and ad‑hoc retry logic. Liter‑LLM solves this fragmentation by providing a single Rust‑native abstraction that can be called from any language, supports dynamic provider selection at runtime, and plugs into existing event‑driven pipelines such as Kafka or Pulsar. This post walks through the architectural decisions, the Rust implementation details, the generated language bindings, and the operational patterns that make multi‑provider LLMs production‑ready.\n\nRust’s zero‑cost abstractions and strict ownership model eliminate the memory‑leaks and data‑races that plague C‑based SDKs. In a benchmark that generated 10 k requests per second across three providers, the Rust core sustained ~1 µs per request overhead compared with ~12 µs for a pure Python wrapper (see the table in the “Benchmark” subsection).",
+      "tags": [
+        "Rust",
+        "LLM",
+        "Polyglot",
+        "Production",
+        "Architecture"
+      ],
+      "scheduled_at": "2026-05-26T23:01:38Z",
       "status": "pending"
     }
   ]
