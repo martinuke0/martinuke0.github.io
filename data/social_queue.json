@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-27T01:01:38Z",
+  "last_scheduled_at": "2026-05-27T02:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -17015,6 +17015,20 @@
         "financial-systems"
       ],
       "scheduled_at": "2026-05-27T01:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Multi-Agent Workflows with the Swarm Protocol: Orchestration Patterns and Production Implementation",
+      "url": "https://martinuke0.github.io/posts/2026-05-26-architecting-multi-agent-workflows-with-the-swarm-protocol-orchestration-patterns-and-production-implementation/",
+      "social_hook": "> TL;DR — The Swarm protocol lets you treat autonomous agents as first‑class services, enabling reliable, scalable workflows. By applying proven orchestration patterns—pipeline, fan‑out/fan‑in, and state‑machine—you can ship production‑grade multi‑agent systems that survive network partitions, back‑pressure, and version churn.\n\nMulti‑agent systems have moved from research labs into the heart of modern products: recommendation engines, autonomous testing bots, and AI‑augmented support desks. Yet most engineers still build ad‑hoc glue code that collapses under load. This post shows how to think about Swarm‑based workflows as a disciplined architecture, walk through concrete patterns, and drop in production‑ready snippets that run on Kubernetes, Kafka, and OpenTelemetry.\n\nThe Swarm protocol (see the official repository OpenAI Swarm) defines a lightweight JSON‑over‑HTTP contract for:",
+      "tags": [
+        "swarm",
+        "multi-agent",
+        "orchestration",
+        "distributed-systems",
+        "production"
+      ],
+      "scheduled_at": "2026-05-27T02:01:38Z",
       "status": "pending"
     }
   ]
