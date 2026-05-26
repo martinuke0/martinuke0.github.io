@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-27T03:01:38Z",
+  "last_scheduled_at": "2026-05-27T04:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -17043,6 +17043,20 @@
         "production"
       ],
       "scheduled_at": "2026-05-27T03:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing Schema Registry in Event-Driven Microservices: Architecting Data Evolution for Kafka Pipelines",
+      "url": "https://martinuke0.github.io/posts/2026-05-26-implementing-schema-registry-in-event-driven-microservices-architecting-data-evolution-for-kafka-pipelines/",
+      "social_hook": "> TL;DR — Deploy Confluent Schema Registry alongside Kafka, enforce Avro/Protobuf contracts at the producer, and use compatibility modes to evolve schemas without breaking downstream services. The pattern scales from a single topic to a multi‑team microservice mesh, keeping data pipelines stable while allowing incremental change.\n\nEvent‑driven microservices thrive on loose coupling, but the very flexibility that makes them attractive also creates a hidden dependency: every producer and consumer must agree on the shape of the messages they exchange. In practice, teams iterate on their domain models, add fields, rename attributes, or retire old concepts. Without a disciplined approach to schema evolution, a seemingly harmless change can cascade into runtime errors, data loss, or costly rollbacks. This post shows how to embed Confluent Schema Registry into a Kafka‑centric architecture, walk through concrete producer/consumer patterns, and adopt production‑grade compatibility policies that keep your pipelines humming.\n\n Runtime deserialization failures** – Consumers that still expect the old schema will throw `SerializationException` as soon as a new field appears.",
+      "tags": [
+        "Kafka",
+        "Schema Registry",
+        "Microservices",
+        "Data Evolution",
+        "Event-Driven Architecture"
+      ],
+      "scheduled_at": "2026-05-27T04:01:38Z",
       "status": "pending"
     }
   ]
