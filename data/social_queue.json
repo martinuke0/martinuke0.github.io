@@ -16707,7 +16707,7 @@
         "rust"
       ],
       "scheduled_at": "2026-05-26T03:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Architecting Production Retrieval-Augmented Generation: Scalability, Latency, and Resilient Data Pipeline Patterns",
