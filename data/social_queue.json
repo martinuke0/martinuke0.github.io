@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-26T13:01:38Z",
+  "last_scheduled_at": "2026-05-26T14:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -16847,6 +16847,20 @@
         "SpringBoot"
       ],
       "scheduled_at": "2026-05-26T13:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Production-Ready Retrieval-Augmented Generation: Patterns, Scalability, and Enterprise Infrastructure Services",
+      "url": "https://martinuke0.github.io/posts/2026-05-26-architecting-production-ready-retrieval-augmented-generation-patterns-scalability-and-enterprise-infrastructure-services/",
+      "social_hook": "> TL;DR — Retrieval‑Augmented Generation (RAG) can be production‑ready when you separate concerns into a deterministic retrieval layer, a stateless LLM inference layer, and a robust orchestration fabric. Using vector stores like Milvus, event streams such as Kafka, and observability stacks built on Prometheus + Grafana gives you the scalability and reliability enterprises demand.\n\nEnterprises are moving from “experiment‑only” large language model (LLM) projects to mission‑critical applications that combine the creativity of generative AI with the precision of a searchable knowledge base. Retrieval‑Augmented Generation (RAG) sits at the intersection, feeding relevant context into an LLM at inference time. This post walks through the architecture, patterns, and infrastructure services you need to turn a proof‑of‑concept RAG demo into a production‑grade service that can handle millions of queries per day while meeting security, latency, and compliance requirements.\n\n1. Accuracy at scale – By grounding LLM output in up‑to‑date documents, you reduce hallucinations and improve factual correctness.",
+      "tags": [
+        "RAG",
+        "LLM",
+        "Scalability",
+        "Enterprise",
+        "Architecture"
+      ],
+      "scheduled_at": "2026-05-26T14:01:38Z",
       "status": "pending"
     }
   ]
