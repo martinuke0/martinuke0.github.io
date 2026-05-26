@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-26T14:01:38Z",
+  "last_scheduled_at": "2026-05-26T15:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -16861,6 +16861,20 @@
         "Architecture"
       ],
       "scheduled_at": "2026-05-26T14:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering the Thundering Herd Problem: Mitigations, Caching Strategies, and Production-Ready Patterns",
+      "url": "https://martinuke0.github.io/posts/2026-05-26-mastering-the-thundering-herd-problem-mitigations-caching-strategies-and-production-ready-patterns/",
+      "social_hook": "> TL;DR — The thundering herd problem occurs when many clients simultaneously request the same expensive resource, overwhelming downstream services. By applying distributed locks, staggered back‑offs, and layered caches (in‑memory + CDN), you can flatten spikes and keep latency predictable in production.\n\nIn modern microservice environments a single “cold” cache miss can turn into a cascade of requests that hammer databases, third‑party APIs, or heavy computation pipelines. This article unpacks why the herd forms, how to spot it in telemetry, and which production‑grade patterns—ranging from lock‑based gating to hierarchical caching—keep your systems resilient under load.\n\nWhen a popular key expires or a service restarts, a flood of concurrent requests may all try to recompute or fetch the same data. The classic textbook example involves many processes waking up after a `sleep()` and immediately hitting a database. In a cloud‑native stack the same symptom appears as:",
+      "tags": [
+        "thundering-herd",
+        "caching",
+        "distributed-systems",
+        "kafka",
+        "microservices"
+      ],
+      "scheduled_at": "2026-05-26T15:01:38Z",
       "status": "pending"
     }
   ]
