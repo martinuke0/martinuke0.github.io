@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-26T09:01:38Z",
+  "last_scheduled_at": "2026-05-26T10:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -16791,6 +16791,20 @@
         "Engineering"
       ],
       "scheduled_at": "2026-05-26T09:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Deep Dive into the Go Work-Stealing Scheduler: Internal Mechanics and Production Performance Patterns",
+      "url": "https://martinuke0.github.io/posts/2026-05-26-deep-dive-into-the-go-work-stealing-scheduler-internal-mechanics-and-production-performance-patterns/",
+      "social_hook": "> TL;DR — Go’s work‑stealing scheduler balances CPU cores and goroutine latency by shuffling work between per‑P queues, preempting long‑running tasks, and leveraging GOMAXPROCS. Understanding its internals lets you tune GOMAXPROCS, avoid hidden contention, and apply proven patterns for latency‑sensitive services and batch workers.\n\nGo’s runtime scheduler is the unsung hero behind the language’s reputation for low‑latency concurrency. While most engineers set `GOMAXPROCS` and forget the rest, production systems that push the limits of CPU utilization benefit from a deeper grasp of the work‑stealing algorithm, preemption mechanics, and the observability hooks the runtime exposes. This post unpacks the scheduler’s architecture, walks through the critical code paths, and distills three production‑ready patterns you can adopt today.\n\nThe Go scheduler lives in the `runtime` package and follows a M:N model: many goroutines (M) are multiplexed onto a smaller set of OS threads (N). The core concepts are:",
+      "tags": [
+        "go",
+        "scheduler",
+        "performance",
+        "microservices",
+        "concurrency"
+      ],
+      "scheduled_at": "2026-05-26T10:01:38Z",
       "status": "pending"
     }
   ]
