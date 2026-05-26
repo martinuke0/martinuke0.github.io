@@ -16889,7 +16889,7 @@
         "ops"
       ],
       "scheduled_at": "2026-05-26T16:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Mastering Apache Airflow DAGs: A Comprehensive Guide from Foundational Basics to Production-Ready Pipelines",
