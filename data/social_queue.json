@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-26T11:01:38Z",
+  "last_scheduled_at": "2026-05-26T12:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -16819,6 +16819,20 @@
         "performance"
       ],
       "scheduled_at": "2026-05-26T11:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Google Cloud Platform: Service Architecture, Scalability, and Security for Production Workloads",
+      "url": "https://martinuke0.github.io/posts/2026-05-26-architecting-google-cloud-platform-service-architecture-scalability-and-security-for-production-workloads/",
+      "social_hook": "> TL;DR — Building production‑grade workloads on GCP demands a clear service decomposition, autoscaling baked into the design, and security enforced at every layer. This post walks through concrete patterns, real‑world Terraform examples, and the GCP‑specific controls you need to ship reliably at scale.\n\nGoogle Cloud Platform (GCP) offers a rich catalog of managed services, but turning that catalog into a resilient, performant, and secure production system is non‑trivial. In this article we’ll walk through a full‑stack architecture, from high‑level service boundaries to the nitty‑gritty of IAM policies and cost‑aware autoscaling. The focus is on patterns you can copy into your own Terraform pipelines and CI/CD workflows, with concrete code snippets and links to the official docs.\n\nThe first design decision is what to own versus what to consume. In production environments the rule of thumb is: if Google offers a fully‑managed, SLA‑backed alternative, use it. This reduces operational overhead and lets you focus on business logic.",
+      "tags": [
+        "GCP",
+        "Architecture",
+        "Scalability",
+        "Security",
+        "Production"
+      ],
+      "scheduled_at": "2026-05-26T12:01:38Z",
       "status": "pending"
     }
   ]
