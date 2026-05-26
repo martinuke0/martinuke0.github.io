@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-26T10:01:38Z",
+  "last_scheduled_at": "2026-05-26T11:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -16805,6 +16805,20 @@
         "concurrency"
       ],
       "scheduled_at": "2026-05-26T10:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Deep Dive into Linux I/O Evolution: From epoll Mastery to io_uring Architecture and Performance",
+      "url": "https://martinuke0.github.io/posts/2026-05-26-deep-dive-into-linux-io-evolution-from-epoll-mastery-to-io_uring-architecture-and-performance/",
+      "social_hook": "> TL;DR — epoll remains a solid edge‑triggered poller for simple event loops, but its kernel‑user handshakes limit scalability. io_uring swaps the poller for a submission‑completion queue pair, slashing syscalls and latency, and is now the recommended path for high‑throughput services.\n\nLinux networking and storage workloads have outgrown the original asynchronous APIs that were baked into the kernel a decade ago. While epoll has powered everything from Nginx to Redis, the rising demand for sub‑microsecond latency and millions of concurrent connections pushes engineers toward the newer io_uring interface. This article dissects both APIs, compares their internals, and shows how production teams can migrate safely while extracting measurable performance gains.\n\n Connection explosion** – Cloud‑native microservices routinely handle 100 k+ concurrent sockets per node.",
+      "tags": [
+        "linux",
+        "io",
+        "epoll",
+        "io_uring",
+        "performance"
+      ],
+      "scheduled_at": "2026-05-26T11:01:38Z",
       "status": "pending"
     }
   ]
