@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-27T02:01:38Z",
+  "last_scheduled_at": "2026-05-27T03:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -17029,6 +17029,20 @@
         "production"
       ],
       "scheduled_at": "2026-05-27T02:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Multimodal RAG Pipelines: Integrating Vision-Language Models for Production-Ready Search and Retrieval",
+      "url": "https://martinuke0.github.io/posts/2026-05-26-architecting-multimodal-rag-pipelines-integrating-vision-language-models-for-production-ready-search-and-retrieval/",
+      "social_hook": "> TL;DR — Multimodal Retrieval‑Augmented Generation (RAG) combines vision‑language encoders with vector search to let users retrieve both text and visual context at scale. This post walks through the architecture, tooling, and production patterns you need to ship a reliable, low‑latency multimodal search service.\n\nEnterprises are increasingly asking their AI assistants to understand screenshots, product photos, and PDFs alongside plain text. Traditional RAG pipelines excel at text‑only retrieval, but they fall short when the query or knowledge base contains visual information. By fusing a vision‑language model (VLM) such as CLIP or Florence with a vector database, you can index image embeddings alongside text embeddings and serve truly multimodal answers. Below we unpack the end‑to‑end design, from data ingestion to monitoring, and highlight concrete patterns that keep latency under 200 ms in production.\n\n- User expectations – Modern users paste screenshots or product images into chat interfaces expecting the assistant to reference them.",
+      "tags": [
+        "RAG",
+        "multimodal",
+        "vision-language",
+        "search",
+        "production"
+      ],
+      "scheduled_at": "2026-05-27T03:01:38Z",
       "status": "pending"
     }
   ]
