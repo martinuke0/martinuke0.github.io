@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-26T20:01:38Z",
+  "last_scheduled_at": "2026-05-26T21:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -16945,6 +16945,20 @@
         "architecture"
       ],
       "scheduled_at": "2026-05-26T20:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Network Performance with TCP BBR: Implementation, Tuning, and Real-World Production Patterns",
+      "url": "https://martinuke0.github.io/posts/2026-05-26-optimizing-network-performance-with-tcp-bbr-implementation-tuning-and-real-world-production-patterns/",
+      "social_hook": "> TL;DR — Enabling TCP BBR on a recent Linux kernel is a three‑step process (kernel check, sysctl switch, and optional tuning). With a handful of tuned knobs you can double latency‑sensitive throughput on 10 GbE links, and production teams typically pair BBR with ECN and per‑service pacing to avoid bufferbloat.\n\nNetwork engineers spend countless cycles wrestling with congestion‑control defaults that were chosen for fairness, not raw performance. TCP BBR (Bottleneck Bandwidth and Round‑Trip propagation time) rewrites that story by probing the true bottleneck bandwidth and RTT, then pacing traffic at the optimal rate. In this post we walk through the exact steps to turn on BBR on Linux, the knobs that matter in production, and the architectural patterns that keep it stable at scale.\n\nTCP BBR was introduced by Google in 2016 — see the original paper BBR: Congestion-Based Congestion Control. Unlike loss‑based algorithms such as CUBIC or Reno, BBR treats loss as a symptom and focuses on two measurements:",
+      "tags": [
+        "networking",
+        "tcp",
+        "bbr",
+        "performance",
+        "linux"
+      ],
+      "scheduled_at": "2026-05-26T21:01:38Z",
       "status": "pending"
     }
   ]
