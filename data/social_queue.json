@@ -16819,7 +16819,7 @@
         "performance"
       ],
       "scheduled_at": "2026-05-26T11:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Architecting Google Cloud Platform: Service Architecture, Scalability, and Security for Production Workloads",
@@ -16833,7 +16833,7 @@
         "Production"
       ],
       "scheduled_at": "2026-05-26T12:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Implementing the Saga Pattern for Distributed Transactions: Consistency Architecture in Modern E-commerce Systems",
