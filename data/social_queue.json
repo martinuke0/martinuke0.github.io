@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-26T15:01:38Z",
+  "last_scheduled_at": "2026-05-26T16:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -16875,6 +16875,20 @@
         "microservices"
       ],
       "scheduled_at": "2026-05-26T15:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Storage Management Strategies for Modern IT Infrastructure: A Deep Dive into Production-Ready Architecture",
+      "url": "https://martinuke0.github.io/posts/2026-05-26-optimizing-storage-management-strategies-for-modern-it-infrastructure-a-deep-dive-into-production-ready-architecture/",
+      "social_hook": "> TL;DR — Modern IT workloads demand storage that can scale, cost‑optimize, and stay resilient. By combining tiered placement, automated lifecycle policies, and platform‑specific primitives (Kafka log retention, GCP Coldline, Postgres tablespaces), you can cut storage spend by 30‑50 % while keeping latency within SLA limits.\n\nIn the last five years, storage has shifted from a peripheral concern to a core component of every production system. Whether you’re streaming billions of events through Kafka, serving petabytes of media from GCP Cloud Storage, or running OLTP workloads on Postgres, the way you provision, move, and retire data determines both cost and reliability. This post walks through the most effective storage‑management strategies, shows how they map onto real‑world architectures, and provides concrete code snippets you can copy into your own pipelines.\n\nMost production stacks blend these classes. A typical e‑commerce platform might keep hot order data on SSD‑backed block storage, move older order histories to cheap object storage, and use a shared file system for batch‑processing inputs.",
+      "tags": [
+        "storage",
+        "architecture",
+        "cloud",
+        "performance",
+        "ops"
+      ],
+      "scheduled_at": "2026-05-26T16:01:38Z",
       "status": "pending"
     }
   ]
