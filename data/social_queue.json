@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-26T08:01:38Z",
+  "last_scheduled_at": "2026-05-26T09:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -16777,6 +16777,20 @@
         "cloud"
       ],
       "scheduled_at": "2026-05-26T08:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing LSM-tree Compaction in RocksDB: A Deep Dive into Write Amplification and Performance Tuning",
+      "url": "https://martinuke0.github.io/posts/2026-05-26-optimizing-lsm-tree-compaction-in-rocksdb-a-deep-dive-into-write-amplification-and-performance-tuning/",
+      "social_hook": "> TL;DR — By adjusting RocksDB’s compaction triggers, level sizing, and parallelism you can slash write amplification by 30‑50 % while keeping latency flat. The article walks through the internals, shows real‑world configuration snippets, and maps each knob to a production pattern.\n\nRocksDB’s LSM‑tree architecture delivers blazing write throughput, but its compaction engine can become a hidden cost center. In large‑scale services—think Facebook’s messenger backend or a high‑frequency trading order book—excessive write amplification inflates I/O, drives up storage bills, and hurts latency. This post unpacks the compaction pipeline, quantifies the amplification trade‑offs, and presents a step‑by‑step tuning checklist that engineers can apply to a live cluster without a full outage.\n\nAn LSM (Log‑Structured Merge) tree stores data in a series of immutable sorted files called SSTables. Writes land first in a mutable memtable, flush to an SSTable on disk, and then get merged into larger files through compaction. The core advantage is write‑friendly sequential I/O, but each merge copies data, creating write amplification:",
+      "tags": [
+        "RocksDB",
+        "LSM-tree",
+        "Compaction",
+        "Performance",
+        "Engineering"
+      ],
+      "scheduled_at": "2026-05-26T09:01:38Z",
       "status": "pending"
     }
   ]
