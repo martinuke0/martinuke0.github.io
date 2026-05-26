@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-26T07:01:38Z",
+  "last_scheduled_at": "2026-05-26T08:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -16763,6 +16763,20 @@
         "Production Engineering"
       ],
       "scheduled_at": "2026-05-26T07:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing TCP BBR Congestion Control: Optimizing Network Performance for Production-Ready Infrastructure",
+      "url": "https://martinuke0.github.io/posts/2026-05-26-implementing-tcp-bbr-congestion-control-optimizing-network-performance-for-production-ready-infrastructure/",
+      "social_hook": "> TL;DR — Enabling TCP BBR on Linux can shave milliseconds off tail latency and increase throughput by 20‑30 % in typical cloud workloads. The switch is a matter of kernel version, a few sysctl tweaks, and disciplined rollout with observability baked in.\n\nNetwork engineers and site reliability teams constantly chase the last few percent of latency and bandwidth. While hardware upgrades are costly, the Linux kernel offers a software‑only congestion control algorithm—BBR (Bottleneck Bandwidth and Round‑trip propagation time)—that often outperforms the default CUBIC in data‑center and wide‑area scenarios. This post shows how to make BBR production‑ready: from kernel prerequisites, through configuration patterns, to monitoring and failure‑mode handling, with concrete numbers from real deployments.\n\n Throughput‑centric design** – BBR estimates the bottleneck bandwidth and the minimum RTT, then drives the sending rate to fill the pipe without building a queue. In contrast, loss‑based algorithms like CUBIC increase the cwnd until packet loss occurs, which can inflate buffers and increase latency.",
+      "tags": [
+        "networking",
+        "tcp",
+        "bbr",
+        "performance",
+        "cloud"
+      ],
+      "scheduled_at": "2026-05-26T08:01:38Z",
       "status": "pending"
     }
   ]
