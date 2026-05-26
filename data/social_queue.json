@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-26T19:01:38Z",
+  "last_scheduled_at": "2026-05-26T20:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -16931,6 +16931,20 @@
         "Production"
       ],
       "scheduled_at": "2026-05-26T19:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Robust Payment Systems: Engineering for High-Availability Scalability and Enterprise-Grade Security",
+      "url": "https://martinuke0.github.io/posts/2026-05-26-architecting-robust-payment-systems-engineering-for-high-availability-scalability-and-enterprise-grade-security/",
+      "social_hook": "> TL;DR — Building a payment platform that never sleeps requires active‑active replication, event‑driven pipelines, and a security‑first mindset. By combining proven HA patterns, sharding strategies, and PCI‑DSS aligned controls, engineers can deliver a system that scales with transaction volume while staying compliant.\n\nPayment systems sit at the intersection of revenue, trust, and regulatory scrutiny. A single millisecond of latency can translate into lost conversions, while any data breach erodes brand equity overnight. In this post we unpack the architecture decisions, production patterns, and tooling choices that let large‑scale enterprises run payment services with five‑nines availability, elastic throughput, and enterprise‑grade security.\n\n1. Ingress Layer – APIs, SDKs, and webhooks that accept payment initiation requests from merchants, mobile apps, or partner services.",
+      "tags": [
+        "payment",
+        "high-availability",
+        "scalability",
+        "security",
+        "architecture"
+      ],
+      "scheduled_at": "2026-05-26T20:01:38Z",
       "status": "pending"
     }
   ]
