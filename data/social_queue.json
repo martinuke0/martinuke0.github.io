@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-27T06:01:38Z",
+  "last_scheduled_at": "2026-05-27T07:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -17085,6 +17085,20 @@
         "Architecture"
       ],
       "scheduled_at": "2026-05-27T06:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Google Cloud Platform: Service Structures, Resilience, and Production-Ready Infrastructure Patterns",
+      "url": "https://martinuke0.github.io/posts/2026-05-27-architecting-google-cloud-platform-service-structures-resilience-and-production-ready-infrastructure-patterns/",
+      "social_hook": "> TL;DR — Building on GCP means treating each managed service as a building block, wiring them with latency‑aware patterns, and adding resilience at every layer. By following the Google Cloud Architecture Framework and proven production patterns, you can ship services that survive regional outages, scale to millions of requests, and stay cost‑effective.\n\nModern enterprises are moving from monolithic VMs to a mosaic of managed services—Pub/Sub, Cloud Run, BigQuery, and Spanner—while still demanding the same SLAs they had on‑prem. This post walks through how to structure those services, embed resilience, and adopt production‑ready infrastructure patterns that scale on Google Cloud Platform (GCP).\n\nInstead of a single GCP project hosting every microservice, segment by business domain (e.g., payments, analytics, user‑profile). This isolates IAM policies, quota limits, and billing reports.",
+      "tags": [
+        "GCP",
+        "architecture",
+        "resilience",
+        "production",
+        "cloud"
+      ],
+      "scheduled_at": "2026-05-27T07:01:38Z",
       "status": "pending"
     }
   ]
