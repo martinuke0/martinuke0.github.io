@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-27T21:01:38Z",
+  "last_scheduled_at": "2026-05-27T22:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -17295,6 +17295,20 @@
         "Production"
       ],
       "scheduled_at": "2026-05-27T21:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering eBPF for Tracing: Implementing Low-Overhead Observability in Production-Ready Systems",
+      "url": "https://martinuke0.github.io/posts/2026-05-27-mastering-ebpf-for-tracing-implementing-low-overhead-observability-in-production-ready-systems/",
+      "social_hook": "> TL;DR — eBPF lets you attach safe, JIT‑compiled programs to kernel hooks, giving you nanosecond‑level visibility with negligible overhead. By embedding eBPF probes into your service mesh, DB layer, or custom daemon, you can collect rich metrics and traces without invasive instrumentation.\n\nObservability is no longer a luxury; it’s a prerequisite for scaling micro‑services, data pipelines, and edge workloads. Traditional agents often add measurable latency, especially under high QPS. eBPF flips the script: it runs inside the kernel, uses a verifier to guarantee safety, and streams data to user‑space via perf buffers or ring‑buffers. This post walks you through the why, the what, and the how of building production‑ready tracing pipelines with eBPF, complete with architecture diagrams, code samples, and patterns you can copy into your own stack.\n\n1. Cost of latency – A 1 ms increase on a service handling 100 k RPS translates to a 100‑second per‑second aggregate delay, inflating CPU usage and cloud bills.",
+      "tags": [
+        "eBPF",
+        "observability",
+        "tracing",
+        "Linux",
+        "production"
+      ],
+      "scheduled_at": "2026-05-27T22:01:38Z",
       "status": "pending"
     }
   ]
