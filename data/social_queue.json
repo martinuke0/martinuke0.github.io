@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-27T18:01:38Z",
+  "last_scheduled_at": "2026-05-27T19:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -17253,6 +17253,20 @@
         "systems"
       ],
       "scheduled_at": "2026-05-27T18:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Autonomous Memory Systems for Distributed AI Agent Orchestration: Lifecycle Management and Production Patterns",
+      "url": "https://martinuke0.github.io/posts/2026-05-27-architecting-autonomous-memory-systems-for-distributed-ai-agent-orchestration-lifecycle-management-and-production-patterns/",
+      "social_hook": "> TL;DR — Autonomous memory is the hidden backbone that lets thousands of AI agents share state reliably. By treating memory as a self‑governing service with clear lifecycle stages and production‑grade patterns, you can avoid data loss, hot‑spots, and operational chaos at scale.\n\nDistributed AI agents—whether they are chat‑bots, recommendation engines, or autonomous robots—must read and write state at sub‑second latency while surviving node failures, version upgrades, and traffic spikes. Traditional monolithic caches or simple key‑value stores quickly become bottlenecks when the orchestration layer itself is a distributed system. This post walks through a production‑ready architecture for an autonomous memory system, shows how to manage its lifecycle, and extracts repeatable patterns you can copy into any cloud‑native stack.\n\nWhen you start with a handful of agents, a single Redis instance or an in‑memory map inside the orchestrator may be sufficient. As the fleet grows to tens of thousands of agents, each making dozens of state mutations per second, the following problems surface:",
+      "tags": [
+        "AI",
+        "DistributedSystems",
+        "MemoryManagement",
+        "Orchestration",
+        "ProductionPatterns"
+      ],
+      "scheduled_at": "2026-05-27T19:01:38Z",
       "status": "pending"
     }
   ]
