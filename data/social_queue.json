@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-27T19:01:38Z",
+  "last_scheduled_at": "2026-05-27T20:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -17267,6 +17267,20 @@
         "ProductionPatterns"
       ],
       "scheduled_at": "2026-05-27T19:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Immutable Ledger Design for Financial Systems: Consistency, Auditability, and Real-World Patterns",
+      "url": "https://martinuke0.github.io/posts/2026-05-27-architecting-immutable-ledger-design-for-financial-systems-consistency-auditability-and-real-world-patterns/",
+      "social_hook": "> TL;DR — Immutable ledgers give financial systems a single source of truth that never changes, enabling linearizable consistency and tamper‑evident audit trails. By combining append‑only storage (Kafka, Postgres), cryptographic hash chaining, and strict write‑once policies, you can ship production‑grade ledgers that survive regulatory scrutiny and scale to billions of records.\n\nFinancial institutions are under constant pressure to prove every transaction is accurate, immutable, and instantly verifiable. Traditional relational databases excel at ACID guarantees but fall short when auditors demand an append‑only, tamper‑evident history. This post walks through the architectural foundations of immutable ledgers, shows how to enforce consistency and auditability in practice, and presents real‑world patterns that already run at scale in banks, fintechs, and crypto custodians.\n\nRegulators such as the SEC, FCA, and MAS require audit trails that cannot be retroactively altered. An immutable ledger satisfies the “write‑once, read‑many” (WORM) requirement, simplifying compliance reporting and reducing the risk of hidden fraud.",
+      "tags": [
+        "ledger",
+        "immutability",
+        "finance",
+        "architecture",
+        "kafka"
+      ],
+      "scheduled_at": "2026-05-27T20:01:38Z",
       "status": "pending"
     }
   ]
