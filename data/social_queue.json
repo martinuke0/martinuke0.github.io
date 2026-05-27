@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-27T08:01:38Z",
+  "last_scheduled_at": "2026-05-27T09:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -17113,6 +17113,20 @@
         "Aerospike"
       ],
       "scheduled_at": "2026-05-27T08:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Deep Dive into Postgres MVCC: Architecture, Transaction Isolation, and Performance at Scale",
+      "url": "https://martinuke0.github.io/posts/2026-05-27-deep-dive-into-postgres-mvcc-architecture-transaction-isolation-and-performance-at-scale/",
+      "social_hook": "> TL;DR — PostgreSQL’s MVCC engine isolates readers from writers by versioning rows, enforces the four ANSI isolation levels through a combination of snapshot handling and locking, and can sustain tens of thousands of concurrent transactions when tuned with proper vacuuming, checkpointing, and index strategies.\n\nPostgreSQL’s multi‑version concurrency control (MVCC) is the silent workhorse that lets the database serve billions of queries daily without sacrificing consistency. In this post we unpack the architecture that makes MVCC possible, map the isolation levels to concrete implementation details, and share performance‑oriented patterns you can apply in a production environment that handles massive write traffic.\n\nThese 32‑bit transaction identifiers are stored alongside the visible columns, and they allow PostgreSQL to reconstruct the state of the table as of any given snapshot. The snapshot is a list of transaction IDs that are considered in‑progress for the current backend; any tuple whose `xmin` is in that list is invisible, and any tuple whose `xmax` is in that list is also invisible.",
+      "tags": [
+        "PostgreSQL",
+        "MVCC",
+        "Performance",
+        "Architecture",
+        "Transaction Isolation"
+      ],
+      "scheduled_at": "2026-05-27T09:01:38Z",
       "status": "pending"
     }
   ]
