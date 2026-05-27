@@ -17281,7 +17281,7 @@
         "kafka"
       ],
       "scheduled_at": "2026-05-27T20:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Mastering Go for Modern Backend Engineering: Architecture, Concurrency, and Production-Ready Services",
