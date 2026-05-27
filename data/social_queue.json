@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-27T07:01:38Z",
+  "last_scheduled_at": "2026-05-27T08:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -17099,6 +17099,20 @@
         "cloud"
       ],
       "scheduled_at": "2026-05-27T07:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Tail Latency Performance: Avoiding the Little’s Law Trap in High-Throughput Distributed Systems",
+      "url": "https://martinuke0.github.io/posts/2026-05-27-mastering-tail-latency-performance-avoiding-the-littles-law-trap-in-high-throughput-distributed-systems/",
+      "social_hook": "> TL;DR — Little’s Law looks clean on paper but hides queuing dynamics that explode tail latency in modern microservice pipelines. By applying request co‑scheduling, bulkhead isolation, and real‑time telemetry (e.g., Kafka + Aerospike), you can keep the 99th‑percentile latency under control even at millions of requests per second.\n\nIn high‑throughput environments, engineers often chase average latency improvements while the customers feel the pain of occasional spikes. Those spikes—tail latency—are the silent revenue killers behind “slow page loads” and “timeout errors.” This post unpacks why the classic Little’s Law formula (L = λ · W) can be a trap when applied to distributed systems, and it equips you with concrete architectural patterns, production‑grade tooling, and monitoring recipes that keep the tail in check.\n\nTail latency is the latency experienced by the slowest % of requests, typically measured at the 95th, 99th, or even 99.9th percentile. In a service that processes 10 M RPS, a 99.9th‑percentile latency of 200 ms translates to 10 K requests per second that are noticeably slower than the rest. Those outliers can cascade:",
+      "tags": [
+        "tail latency",
+        "Little’s Law",
+        "distributed systems",
+        "Kafka",
+        "Aerospike"
+      ],
+      "scheduled_at": "2026-05-27T08:01:38Z",
       "status": "pending"
     }
   ]
