@@ -17267,7 +17267,7 @@
         "ProductionPatterns"
       ],
       "scheduled_at": "2026-05-27T19:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Architecting Immutable Ledger Design for Financial Systems: Consistency, Auditability, and Real-World Patterns",
