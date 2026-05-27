@@ -17043,7 +17043,7 @@
         "production"
       ],
       "scheduled_at": "2026-05-27T03:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Implementing Schema Registry in Event-Driven Microservices: Architecting Data Evolution for Kafka Pipelines",
