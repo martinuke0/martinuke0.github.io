@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-27T13:01:38Z",
+  "last_scheduled_at": "2026-05-27T14:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -17183,6 +17183,20 @@
         "architecture"
       ],
       "scheduled_at": "2026-05-27T13:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing RocksDB Performance: A Comparative Deep Dive into Leveled and Tiered Compaction Strategies",
+      "url": "https://martinuke0.github.io/posts/2026-05-27-optimizing-rocksdb-performance-a-comparative-deep-dive-into-leveled-and-tiered-compaction-strategies/",
+      "social_hook": "> TL;DR — Leveled compaction delivers predictable read latency by keeping data evenly spread across levels, while Tiered compaction maximizes write throughput and reduces write amplification at the cost of higher read latency. Choose Leveled for latency‑sensitive services (e.g., Kafka log storage) and Tiered for write‑heavy workloads (e.g., time‑series ingest on GCP), then fine‑tune thresholds, compression, and parallelism to hit your SLA.\n\nRocksDB is the de‑facto embedded storage engine behind many high‑scale systems—Kafka’s local log, Google’s Spanner replicas, and countless time‑series pipelines. Its performance hinges on how it reorganizes immutable SST files, a process called compaction. RocksDB ships two primary strategies: Leveled Compaction (LC) and Tiered Compaction (TC). While both aim to reclaim space and keep the key‑space searchable, they differ dramatically in write amplification, read amplification, and space overhead. This post walks through the internal mechanics, benchmarks a realistic Kafka‑like workload, and provides production‑ready tuning patterns.\n\nCompaction is RocksDB’s way of turning many small, write‑ahead log (WAL) generated SST files into larger, sorted structures that can be searched efficiently. Every write first lands in a memtable; when the memtable fills, it is flushed to an immutable SST file at Level‑0 (L0). From there, compaction policies decide when and how to merge files into deeper levels.",
+      "tags": [
+        "RocksDB",
+        "Compaction",
+        "Performance",
+        "Kafka",
+        "GCP"
+      ],
+      "scheduled_at": "2026-05-27T14:01:38Z",
       "status": "pending"
     }
   ]
