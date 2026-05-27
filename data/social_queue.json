@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-27T05:01:38Z",
+  "last_scheduled_at": "2026-05-27T06:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -17071,6 +17071,20 @@
         "systems"
       ],
       "scheduled_at": "2026-05-27T05:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Deep Dive into Linux Namespaces: The Core Mechanics Behind Container Isolation and Architecture",
+      "url": "https://martinuke0.github.io/posts/2026-05-27-deep-dive-into-linux-namespaces-the-core-mechanics-behind-container-isolation-and-architecture/",
+      "social_hook": "> TL;DR — Linux namespaces are the building blocks that let Docker, Kubernetes, and other runtimes give each container its own view of the system. Understanding the six namespace families, how they are stacked, and the pitfalls of misconfiguration lets engineers design tighter isolation, debug failures faster, and build custom runtimes that rival production‑grade solutions.\n\nContainers have become the lingua franca of modern infrastructure, yet many engineers still treat them as a black box. Under the hood, the isolation you see in Docker or Kubernetes is nothing more than a handful of kernel‑level features called namespaces. This post walks through every namespace type, shows how Docker composes them, and presents production‑ready patterns for building your own minimal container runtime.\n\nA Linux namespace isolates a specific global resource view for a group of processes. When a process enters a new namespace, it sees a different set of identifiers—PIDs, network interfaces, mount points, etc.—while the rest of the system continues to see the original view. The kernel enforces this separation at the syscall level, so no privileged‑only tricks are required.",
+      "tags": [
+        "Linux",
+        "Containers",
+        "Docker",
+        "Kubernetes",
+        "Architecture"
+      ],
+      "scheduled_at": "2026-05-27T06:01:38Z",
       "status": "pending"
     }
   ]
