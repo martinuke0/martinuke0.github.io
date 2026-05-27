@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-27T11:01:38Z",
+  "last_scheduled_at": "2026-05-27T12:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -17155,6 +17155,20 @@
         "engineering"
       ],
       "scheduled_at": "2026-05-27T11:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing the Saga Pattern for Distributed Transactions: Commerce Architecture and Data Consistency Patterns",
+      "url": "https://martinuke0.github.io/posts/2026-05-27-implementing-the-saga-pattern-for-distributed-transactions-commerce-architecture-and-data-consistency-patterns/",
+      "social_hook": "> TL;DR — The Saga pattern lets you achieve ACID‑like guarantees across loosely coupled services by chaining local transactions and compensating actions. In a commerce stack, combining Kafka‑driven choreography with Spring Boot orchestration gives you a scalable, observable, and fault‑tolerant way to keep orders, inventory, and payments consistent.\n\nIn modern e‑commerce platforms, a single user action—such as “checkout” — touches inventory, payment, shipping, and notification services that may be owned by different teams and even run in different data centers. Traditional two‑phase commit is a performance and reliability nightmare at that scale. The Saga pattern replaces a monolithic transaction with a sequence of autonomous steps, each committing locally and publishing an event that triggers the next step. When something goes wrong, a compensating transaction undoes the work already done, guaranteeing eventual consistency without a global lock.\n\n1. Customer experience is non‑negotiable – A failed checkout must roll back quickly; otherwise the user sees duplicate charges or out‑of‑stock items.",
+      "tags": [
+        "Saga",
+        "Distributed Transactions",
+        "Microservices",
+        "Kafka",
+        "SpringBoot"
+      ],
+      "scheduled_at": "2026-05-27T12:01:38Z",
       "status": "pending"
     }
   ]
