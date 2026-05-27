@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-27T10:01:38Z",
+  "last_scheduled_at": "2026-05-27T11:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -17141,6 +17141,20 @@
         "DevOps"
       ],
       "scheduled_at": "2026-05-27T10:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Deep Dive into Flame Graphs: Profiling Blind Spots, Sampling Bias, and Hidden Execution Latency",
+      "url": "https://martinuke0.github.io/posts/2026-05-27-deep-dive-into-flame-graphs-profiling-blind-spots-sampling-bias-and-hidden-execution-latency/",
+      "social_hook": "> TL;DR — Flame graphs turn millions of stack samples into a single, instantly readable picture of where time is spent. By understanding the sampling pipeline, you can spot low‑frequency hot paths, correct bias introduced by OS schedulers, and combine flame graphs with tracing to surface hidden latency that traditional profilers miss.\n\nProfiling in large‑scale services is rarely a one‑off activity. Engineers often rely on quick CPU snapshots, yet the most costly latency bugs hide in the tails of execution. Flame graphs, popularized by Brendan Gregg, give you a visual map of those tails, but only if you understand how the underlying sampling works, where blind spots arise, and how to mitigate bias in production environments. This article walks through the end‑to‑end pipeline—from the kernel’s perf events to the final SVG—while anchoring the discussion in real systems such as Kafka consumers and Google Cloud Run services.\n\n1. Scalability – Sampling reduces overhead from O(N) instrumentation to O(1) per time slice, letting you profile a 100‑core service in production without a noticeable pause.",
+      "tags": [
+        "profiling",
+        "performance",
+        "flamegraphs",
+        "observability",
+        "engineering"
+      ],
+      "scheduled_at": "2026-05-27T11:01:38Z",
       "status": "pending"
     }
   ]
