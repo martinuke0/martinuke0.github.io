@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-28T01:01:38Z",
+  "last_scheduled_at": "2026-05-28T02:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -17351,6 +17351,20 @@
         "architecture"
       ],
       "scheduled_at": "2026-05-28T01:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering the Thundering Herd Problem: Mitigation Strategies for Scalable and Resilient Production Systems",
+      "url": "https://martinuke0.github.io/posts/2026-05-27-mastering-the-thundering-herd-problem-mitigation-strategies-for-scalable-and-resilient-production-systems/",
+      "social_hook": "> TL;DR — The thundering herd problem occurs when many clients simultaneously request a cached resource that has just expired, overwhelming backend services. Mitigate it with staggered expirations, probabilistic back‑off, and layered rate‑limiting so your system stays responsive under load.\n\nIn modern micro‑service architectures, a single cache miss can cascade into thousands of identical requests that hammer a downstream database, API, or message broker. This phenomenon, known as the thundering herd, is a silent performance killer that often surfaces only during traffic spikes or after a deployment. In this post we’ll unpack why the problem happens, explore proven mitigation patterns, and walk through concrete implementations using Redis, Nginx, and Kafka that you can drop into production today.\n\n1. Cache Expiration Synchrony – When a TTL expires, every waiting client may retry at the same instant.",
+      "tags": [
+        "thundering-herd",
+        "scalability",
+        "resilience",
+        "distributed-systems",
+        "performance"
+      ],
+      "scheduled_at": "2026-05-28T02:01:38Z",
       "status": "pending"
     }
   ]
