@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-27T17:01:38Z",
+  "last_scheduled_at": "2026-05-27T18:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -17239,6 +17239,20 @@
         "memory-management"
       ],
       "scheduled_at": "2026-05-27T17:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Deep Dive into io_uring and epoll: Internal Architecture, Performance Tradeoffs, and System Call Evolution",
+      "url": "https://martinuke0.github.io/posts/2026-05-27-deep-dive-into-io_uring-and-epoll-internal-architecture-performance-tradeoffs-and-system-call-evolution/",
+      "social_hook": "> TL;DR — epoll remains a robust, low‑overhead edge‑triggered poller for most workloads, but io_uring’s submission/completion queues eliminate a system‑call round‑trip and enable zero‑copy I/O. In production, hybrid designs that keep epoll for simple sockets and switch to io_uring for heavy batch I/O deliver the best cost‑performance balance.\n\nThe Linux kernel’s asynchronous I/O story has been dominated by epoll for over a decade, yet the arrival of io_uring in kernel 5.1 introduced a fundamentally different programming model. This post unpacks the internal data structures, walks through the system‑call sequences, and benchmarks the two mechanisms on realistic workloads. By the end you’ll know when to reach for io_uring, when epoll still makes sense, and how the evolution from `select` to `io_uring` informs the design of modern, high‑throughput services such as NGINX, PostgreSQL, and Redpanda.\n\n`select(2)` and `poll(2)` were the first multiplexing primitives in Unix, but both suffer from O(N) scanning of file descriptor sets. Kernel developers introduced epoll in Linux 2.5.44 to address scalability for thousands of sockets. The API (epoll_create1, epoll_ctl, epoll_wait) quickly became the de‑facto standard for event‑driven servers, and the kernel has since added edge‑triggered and one‑shot semantics to reduce spurious wake‑ups.",
+      "tags": [
+        "linux",
+        "io_uring",
+        "epoll",
+        "performance",
+        "systems"
+      ],
+      "scheduled_at": "2026-05-27T18:01:38Z",
       "status": "pending"
     }
   ]
