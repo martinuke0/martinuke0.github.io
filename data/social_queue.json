@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-27T15:01:38Z",
+  "last_scheduled_at": "2026-05-27T16:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -17211,6 +17211,20 @@
         "systems"
       ],
       "scheduled_at": "2026-05-27T15:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Cgroups v2 Resource Isolation: A Deep Dive into Unified Hierarchy and Control Controllers",
+      "url": "https://martinuke0.github.io/posts/2026-05-27-mastering-cgroups-v2-resource-isolation-a-deep-dive-into-unified-hierarchy-and-control-controllers/",
+      "social_hook": "> TL;DR — cgroups v2 replaces the fragmented v1 tree with a single, unified hierarchy and a set of modular controllers. By mastering its mount options, controller activation, and per‑cgroup configuration files, you can achieve deterministic CPU, memory, I/O, and device isolation for containers, VMs, or any Linux workload.\n\nResource isolation has become a non‑negotiable requirement for modern cloud‑native workloads. While cgroups v1 served us well for a decade, its scattered hierarchy and controller‑specific quirks made large‑scale tuning a nightmare. This post unpacks the unified hierarchy, walks through each control controller, and shows how production teams at Netflix, Shopify, and Red Hat have baked cgroups v2 into their deployment pipelines.\n\ncgroups v2 collapses the eight (or more) separate v1 hierarchies into a single virtual filesystem mounted at `/sys/fs/cgroup`. All enabled controllers operate side‑by‑side on the same tree, which eliminates cross‑hierarchy race conditions and simplifies bookkeeping.",
+      "tags": [
+        "cgroups",
+        "linux",
+        "resource-management",
+        "devops",
+        "containers"
+      ],
+      "scheduled_at": "2026-05-27T16:01:38Z",
       "status": "pending"
     }
   ]
