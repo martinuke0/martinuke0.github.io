@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-27T12:01:38Z",
+  "last_scheduled_at": "2026-05-27T13:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -17169,6 +17169,20 @@
         "SpringBoot"
       ],
       "scheduled_at": "2026-05-27T12:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing the Saga Pattern for Distributed Transactions: A Guide to Consistency in Commerce Architecture",
+      "url": "https://martinuke0.github.io/posts/2026-05-27-implementing-the-saga-pattern-for-distributed-transactions-a-guide-to-consistency-in-commerce-architecture/",
+      "social_hook": "> TL;DR — The Saga pattern replaces heavyweight two‑phase commit with a series of local transactions and compensating actions, letting e‑commerce platforms stay consistent even when services fail. By combining an event‑driven coordinator (Kafka) with idempotent microservices (Spring Boot), you can achieve ACID‑like guarantees without a single point of failure.\n\nIn today’s high‑velocity commerce environments, a single purchase can touch inventory, pricing, payment, fraud detection, and shipping services—all owned by different teams and often deployed independently. Traditional monolithic transactions cannot span these boundaries, and naïve retries quickly lead to duplicate orders or lost inventory. This post walks you through the Saga pattern, shows how to wire it into a real‑world e‑commerce architecture, and provides concrete code snippets, monitoring tips, and failure‑mode handling that production engineers can copy into their own pipelines.\n\nA saga is a sequence of local transactions where each step publishes an event that triggers the next step. If any step fails, a series of compensating transactions roll back the work already done. Unlike a traditional ACID transaction that locks resources across services, a saga:",
+      "tags": [
+        "saga",
+        "distributed-transactions",
+        "microservices",
+        "ecommerce",
+        "architecture"
+      ],
+      "scheduled_at": "2026-05-27T13:01:38Z",
       "status": "pending"
     }
   ]
