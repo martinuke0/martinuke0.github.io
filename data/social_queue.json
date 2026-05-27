@@ -17085,7 +17085,7 @@
         "Architecture"
       ],
       "scheduled_at": "2026-05-27T06:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Architecting Google Cloud Platform: Service Structures, Resilience, and Production-Ready Infrastructure Patterns",
