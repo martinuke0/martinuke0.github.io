@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-27T09:01:38Z",
+  "last_scheduled_at": "2026-05-27T10:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -17127,6 +17127,20 @@
         "Transaction Isolation"
       ],
       "scheduled_at": "2026-05-27T09:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing TLS 1.3 Zero Round-Trip Resumption: Architecture, Security Trade-offs, and Performance Patterns",
+      "url": "https://martinuke0.github.io/posts/2026-05-27-implementing-tls-13-zero-round-trip-resumption-architecture-security-trade-offs-and-performance-patterns/",
+      "social_hook": "> TL;DR — Zero round‑trip (0‑RTT) resumption in TLS 1.3 lets a client resume a session without waiting for a full handshake, cutting latency by 30‑70 % in most microservice calls. The gain comes at the price of replay‑ability and reduced forward secrecy, so production teams must isolate 0‑RTT traffic, enforce strict replay detection, and choose between stateless tickets or server‑side session caches.\n\nTLS 1.3 arrived with a promise: faster, safer connections. One of its most compelling features is Zero‑RTT (0‑RTT) resumption, where a client can send encrypted application data on the first flight of a resumed handshake. For latency‑sensitive workloads—API gateways, mobile back‑ends, or high‑frequency trading—those saved milliseconds translate into tangible revenue. This post walks through the end‑to‑end architecture, the security calculus, and performance patterns you can copy into NGINX, Envoy, or custom Go services.\n\n1. User‑perceived latency – A full TLS 1.3 handshake needs two round‑trips (client‑hello → server‑hello + encrypted extensions → finished). In a typical 40 ms WAN, that’s ~80 ms before any HTTP payload can travel. Zero‑RTT eliminates the second round‑trip entirely.",
+      "tags": [
+        "TLS",
+        "Security",
+        "Performance",
+        "Architecture",
+        "DevOps"
+      ],
+      "scheduled_at": "2026-05-27T10:01:38Z",
       "status": "pending"
     }
   ]
