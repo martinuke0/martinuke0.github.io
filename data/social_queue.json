@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-28T00:01:38Z",
+  "last_scheduled_at": "2026-05-28T01:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -17337,6 +17337,20 @@
         "Architecture"
       ],
       "scheduled_at": "2026-05-28T00:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Event-Driven Microservices with Kafka and Schema Registry: A Deep Dive into Production Implementation",
+      "url": "https://martinuke0.github.io/posts/2026-05-27-architecting-event-driven-microservices-with-kafka-and-schema-registry-a-deep-dive-into-production-implementation/",
+      "social_hook": "> TL;DR — Building event‑driven microservices on Kafka requires disciplined topic design, explicit schema contracts, and automated validation via Schema Registry. By applying the outbox pattern, idempotent consumers, and robust monitoring, teams can achieve low‑latency, resilient pipelines that evolve safely in production.\n\nEvent‑driven microservices have become the de‑facto standard for scaling modern platforms, but the devil is in the details: how do you keep schemas in sync across dozens of services, avoid data loss during upgrades, and monitor a constantly moving stream of events? This post walks through a production‑grade architecture that leverages Apache Kafka and Confluent Schema Registry, illustrates concrete patterns (outbox, dead‑letter queues, idempotent consumers), and shares the operational tooling we use at scale.\n\n1. Loose coupling – Services publish to a topic without needing to know who consumes it.",
+      "tags": [
+        "kafka",
+        "event-driven",
+        "microservices",
+        "schema-registry",
+        "architecture"
+      ],
+      "scheduled_at": "2026-05-28T01:01:38Z",
       "status": "pending"
     }
   ]
