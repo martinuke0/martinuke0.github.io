@@ -17323,7 +17323,7 @@
         "resource bottlenecks"
       ],
       "scheduled_at": "2026-05-27T23:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Deep Dive into PostgreSQL MVCC: Internals, Transaction Isolation, and Performance at Scale",
