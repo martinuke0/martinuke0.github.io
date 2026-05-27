@@ -17099,7 +17099,7 @@
         "cloud"
       ],
       "scheduled_at": "2026-05-27T07:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Mastering Tail Latency Performance: Avoiding the Little’s Law Trap in High-Throughput Distributed Systems",
