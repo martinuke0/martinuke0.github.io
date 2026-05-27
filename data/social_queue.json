@@ -17169,7 +17169,7 @@
         "SpringBoot"
       ],
       "scheduled_at": "2026-05-27T12:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Implementing the Saga Pattern for Distributed Transactions: A Guide to Consistency in Commerce Architecture",
@@ -17183,7 +17183,7 @@
         "architecture"
       ],
       "scheduled_at": "2026-05-27T13:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Optimizing RocksDB Performance: A Comparative Deep Dive into Leveled and Tiered Compaction Strategies",
