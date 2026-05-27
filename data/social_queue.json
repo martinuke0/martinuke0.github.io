@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-28T02:01:38Z",
+  "last_scheduled_at": "2026-05-28T03:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -17365,6 +17365,20 @@
         "performance"
       ],
       "scheduled_at": "2026-05-28T02:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Log-Structured Merge Trees for Write-Intensive Distributed Databases: Architecture, Performance, and Production Patterns",
+      "url": "https://martinuke0.github.io/posts/2026-05-27-optimizing-log-structured-merge-trees-for-write-intensive-distributed-databases-architecture-performance-and-production-patterns/",
+      "social_hook": "> TL;DR — For write‑intensive distributed databases, the secret to low latency and high throughput lies in fine‑tuning LSM‑tree compaction policies, write‑ahead logging, and real‑time health metrics. A small set of production patterns—tiered compaction, adaptive level sizing, and automated back‑pressure—delivers measurable gains without sacrificing durability.\n\nWrite‑heavy workloads are the raison d’être of Log‑Structured Merge (LSM) trees, yet many teams treat them as a black box: “turn on RocksDB, it works.” In practice, the default settings in Cassandra, ScyllaDB, or HBase often lead to compaction storms, write amplification, and unpredictable latency. This article unpacks the anatomy of an LSM tree, maps it onto modern distributed architectures, and distills production‑grade patterns that keep the write path humming at millions of ops per second.\n\nAn LSM tree replaces random‑write‑heavy on‑disk structures (B‑trees) with a series of sorted runs that are first written to a write‑ahead log (WAL) and then flushed to immutable files (SSTables) on disk. Over time, these runs are merged (compacted) into larger levels, reducing read amplification at the cost of write amplification.",
+      "tags": [
+        "LSM",
+        "Distributed Databases",
+        "Performance Tuning",
+        "Architecture",
+        "Production Patterns"
+      ],
+      "scheduled_at": "2026-05-28T03:01:38Z",
       "status": "pending"
     }
   ]
