@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-27T16:01:38Z",
+  "last_scheduled_at": "2026-05-27T17:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -17225,6 +17225,20 @@
         "containers"
       ],
       "scheduled_at": "2026-05-27T16:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Deep Dive into Generational Garbage Collection: Memory Management in Modern JVM and .NET Runtimes",
+      "url": "https://martinuke0.github.io/posts/2026-05-27-deep-dive-into-generational-garbage-collection-memory-management-in-modern-jvm-and-net-runtimes/",
+      "social_hook": "> TL;DR — Both the JVM and .NET CLR rely on a generational heap to keep most allocations cheap and pause times short. Understanding young‑generation collection, promotion thresholds, and the concrete tuning knobs lets you shave seconds off latency and save gigabytes of RAM in production services.\n\nModern back‑end services run for weeks or months under heavy load, yet the majority of their memory churn happens in a few milliseconds. Generational garbage collection (GC) is the engine that makes this possible, but the knobs and observability signals differ between the HotSpot/OpenJDK world and the .NET Core/CLR ecosystem. This post unpacks the theory, dives into the concrete implementations, and shows you how to profile, tune, and monitor generational GC in the two most common enterprise runtimes.\n\nEmpirical studies of real‑world workloads (e.g., web servers, stream processors) show that most objects die young—often within a handful of allocations. By separating “young” objects from “old” ones, a collector can:",
+      "tags": [
+        "JVM",
+        "dotnet",
+        "garbage-collection",
+        "performance",
+        "memory-management"
+      ],
+      "scheduled_at": "2026-05-27T17:01:38Z",
       "status": "pending"
     }
   ]
