@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-27T14:01:38Z",
+  "last_scheduled_at": "2026-05-27T15:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -17197,6 +17197,20 @@
         "GCP"
       ],
       "scheduled_at": "2026-05-27T14:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Deep Dive into jemalloc Arenas and Thread Caches: Architecture, Scalability, and Performance Optimization",
+      "url": "https://martinuke0.github.io/posts/2026-05-27-deep-dive-into-jemalloc-arenas-and-thread-caches-architecture-scalability-and-performance-optimization/",
+      "social_hook": "> TL;DR — jemalloc isolates allocation work into per‑core arenas backed by thread‑local caches, eliminating lock contention and improving latency. By tuning arena count, cache size, and decay policies you can achieve near‑linear scalability on modern multi‑core servers.\n\njemalloc has become the de‑facto memory allocator for high‑performance services ranging from Facebook’s backend to Redis and Nginx. Its reputation rests on a sophisticated arena model that spreads allocation work across cores, while thread caches provide an ultra‑fast hot‑path for small objects. This post unpacks the architecture, explains why it scales, and gives concrete knobs you can turn in production to extract every microsecond of latency savings.\n\njemalloc was originally written for the Facebook infrastructure and later open‑sourced. Its primary design goals are:",
+      "tags": [
+        "jemalloc",
+        "memory-management",
+        "performance",
+        "scalability",
+        "systems"
+      ],
+      "scheduled_at": "2026-05-27T15:01:38Z",
       "status": "pending"
     }
   ]
