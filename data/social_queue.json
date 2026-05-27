@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-27T20:01:38Z",
+  "last_scheduled_at": "2026-05-27T21:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -17281,6 +17281,20 @@
         "kafka"
       ],
       "scheduled_at": "2026-05-27T20:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Go for Modern Backend Engineering: Architecture, Concurrency, and Production-Ready Services",
+      "url": "https://martinuke0.github.io/posts/2026-05-27-mastering-go-for-modern-backend-engineering-architecture-concurrency-and-production-ready-services/",
+      "social_hook": "> TL;DR — Go’s static typing, zero‑cost goroutines, and mature tooling let you ship backend services that scale, stay observable, and survive real‑world failures. By applying proven architectural patterns, disciplined concurrency, and production‑grade observability, you can turn a simple Go binary into a resilient microservice fleet.\n\nGo has become the lingua franca of modern backend teams that need to ship low‑latency, high‑throughput services without sacrificing developer velocity. This post walks through the architectural decisions, concurrency patterns, and operational practices that turn a Go codebase from a prototype into a production‑ready system you can trust at scale.\n\nCompanies like Uber, Dropbox, and Cloudflare have publicly documented migrations from Java or Python to Go because the language’s runtime characteristics line up with the need for predictable latency and easy deployment pipelines.",
+      "tags": [
+        "Go",
+        "Backend",
+        "Architecture",
+        "Concurrency",
+        "Production"
+      ],
+      "scheduled_at": "2026-05-27T21:01:38Z",
       "status": "pending"
     }
   ]
