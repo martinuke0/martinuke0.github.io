@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-27T22:01:38Z",
+  "last_scheduled_at": "2026-05-27T23:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -17309,6 +17309,20 @@
         "production"
       ],
       "scheduled_at": "2026-05-27T22:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering the USE Method: Performance Analysis Strategies for Production Systems and Resource Bottlenecks",
+      "url": "https://martinuke0.github.io/posts/2026-05-27-mastering-the-use-method-performance-analysis-strategies-for-production-systems-and-resource-bottlenecks/",
+      "social_hook": "> TL;DR — The USE method (Utilization, Saturation, Errors) gives you a three‑dimensional view of every resource. By instrumenting each dimension with the right metrics and coupling them to concrete alerts, you can pinpoint CPU, memory, disk, and network bottlenecks before they cascade into outages.\n\nProduction systems are a mosaic of CPUs, RAM, SSDs, network interfaces, and the software that stitches them together. When one piece stalls, the whole service can feel the pain. The USE method, originally coined by Brendan Gregg, provides a pragmatic checklist that maps directly onto the observability stack most enterprises already run—Prometheus, Grafana, OpenTelemetry, and the like. This post walks through each leg of the method, shows you how to instrument it with real‑world tooling, and ties the metrics into architectural patterns that survive at scale.\n\nThe acronym stands for Utilization, Saturation, and Errors. Each dimension answers a specific question:",
+      "tags": [
+        "performance",
+        "monitoring",
+        "ops",
+        "USE method",
+        "resource bottlenecks"
+      ],
+      "scheduled_at": "2026-05-27T23:01:38Z",
       "status": "pending"
     }
   ]
