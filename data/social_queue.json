@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-27T23:01:38Z",
+  "last_scheduled_at": "2026-05-28T00:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -17323,6 +17323,20 @@
         "resource bottlenecks"
       ],
       "scheduled_at": "2026-05-27T23:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Deep Dive into PostgreSQL MVCC: Internals, Transaction Isolation, and Performance at Scale",
+      "url": "https://martinuke0.github.io/posts/2026-05-27-deep-dive-into-postgresql-mvcc-internals-transaction-isolation-and-performance-at-scale/",
+      "social_hook": "> TL;DR — PostgreSQL’s MVCC stores multiple row versions on disk, using `xmin`/`xmax` timestamps to decide visibility. Understanding the interaction of isolation levels, vacuum, and HOT updates lets you tune for millions of concurrent transactions without sacrificing latency.\n\nPostgreSQL powers everything from fintech transaction processors to social‑media timelines, and a large part of its scalability comes from its implementation of Multi‑Version Concurrency Control (MVCC). In this post we’ll peel back the layers of PostgreSQL’s MVCC engine, examine how the classic isolation levels are realized, and dive into the performance‑critical mechanisms—vacuum, HOT updates, and index maintenance—that keep a high‑throughput system humming at scale.\n\n `xmax`** – the XID that deleted or superseded the row (or a special “in‑progress” marker).",
+      "tags": [
+        "PostgreSQL",
+        "MVCC",
+        "Performance",
+        "Database",
+        "Architecture"
+      ],
+      "scheduled_at": "2026-05-28T00:01:38Z",
       "status": "pending"
     }
   ]
