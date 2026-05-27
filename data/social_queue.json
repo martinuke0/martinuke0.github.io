@@ -17239,7 +17239,7 @@
         "memory-management"
       ],
       "scheduled_at": "2026-05-27T17:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Deep Dive into io_uring and epoll: Internal Architecture, Performance Tradeoffs, and System Call Evolution",
