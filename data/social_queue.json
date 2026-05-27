@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-27T04:01:38Z",
+  "last_scheduled_at": "2026-05-27T05:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -17057,6 +17057,20 @@
         "Event-Driven Architecture"
       ],
       "scheduled_at": "2026-05-27T04:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Deep Dive into jemalloc Arenas and Thread Caches: Architecture, Scalability, and Memory Management Patterns",
+      "url": "https://martinuke0.github.io/posts/2026-05-27-deep-dive-into-jemalloc-arenas-and-thread-caches-architecture-scalability-and-memory-management-patterns/",
+      "social_hook": "> TL;DR — jemalloc isolates allocation work in per‑thread caches backed by a pool of arenas, dramatically lowering lock contention on multi‑core workloads. By tuning arena count, thread‑cache size, and decay policies you can achieve near‑linear scalability for high‑QPS services while keeping fragmentation under control.\n\njemalloc has become the de‑facto allocator for performance‑critical services ranging from Facebook’s web stack to Cloudflare’s edge nodes. Its success hinges on two orthogonal mechanisms: arenas, which are independent heap partitions, and thread caches, which let each worker thread satisfy most small allocations locally. This post unpacks the internals, shows how the pieces fit together in production, and provides concrete tuning patterns you can apply today.\n\njemalloc was originally written for the FreeBSD kernel and later open‑sourced by Facebook. It differs from the classic `malloc`/`free` pair by:",
+      "tags": [
+        "jemalloc",
+        "memory-management",
+        "performance",
+        "scalability",
+        "systems"
+      ],
+      "scheduled_at": "2026-05-27T05:01:38Z",
       "status": "pending"
     }
   ]
