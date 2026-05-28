@@ -17351,7 +17351,7 @@
         "architecture"
       ],
       "scheduled_at": "2026-05-28T01:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Mastering the Thundering Herd Problem: Mitigation Strategies for Scalable and Resilient Production Systems",
