@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-28T21:01:38Z",
+  "last_scheduled_at": "2026-05-28T22:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -17631,6 +17631,20 @@
         "production"
       ],
       "scheduled_at": "2026-05-28T21:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Deep Dive into Postgres Write-Ahead Logging: Ensuring Data Durability and Crash Recovery in Production",
+      "url": "https://martinuke0.github.io/posts/2026-05-28-deep-dive-into-postgres-write-ahead-logging-ensuring-data-durability-and-crash-recovery-in-production/",
+      "social_hook": "> TL;DR — PostgreSQL’s Write‑Ahead Log (WAL) writes every change to a sequential log before touching data files, guaranteeing durability and enabling fast crash recovery. By understanding WAL buffers, checkpoint strategy, and replication hooks, you can tune a production cluster for both safety and performance.\n\nPostgreSQL’s reputation for reliability stems largely from its Write‑Ahead Logging subsystem. In a modern micro‑service landscape where a single outage can cascade across multiple teams, knowing exactly how WAL works, how it interacts with replication, and how to tune it for your hardware is no longer optional—it’s a core production skill. This article walks through the WAL pipeline, the architecture that powers point‑in‑time recovery (PITR) and streaming replication, and concrete configuration patterns you can apply today.\n\nEvery modification that PostgreSQL accepts generates a Log Sequence Number (LSN), a 64‑bit monotonic counter that uniquely identifies a byte offset inside the WAL stream. Internally PostgreSQL stores two LSNs per transaction:",
+      "tags": [
+        "PostgreSQL",
+        "WAL",
+        "DataDurability",
+        "CrashRecovery",
+        "Production"
+      ],
+      "scheduled_at": "2026-05-28T22:01:38Z",
       "status": "pending"
     }
   ]
