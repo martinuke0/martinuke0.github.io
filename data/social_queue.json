@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-28T09:01:38Z",
+  "last_scheduled_at": "2026-05-28T10:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -17463,6 +17463,20 @@
         "Production"
       ],
       "scheduled_at": "2026-05-28T09:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Storage Management Strategies for Modern IT Infrastructure: Architecture, Scalability, and Production-Ready Implementation",
+      "url": "https://martinuke0.github.io/posts/2026-05-28-mastering-storage-management-strategies-for-modern-it-infrastructure-architecture-scalability-and-production-ready-implementation/",
+      "social_hook": "> TL;DR — Modern storage must blend tiered architecture, automated scaling, and observability. By layering hot, warm, and cold tiers, leveraging object stores like Amazon S3, and codifying policies with tools such as Terraform and Ceph, you can achieve petabyte‑scale reliability without sacrificing cost or performance.\n\nEnterprises today juggle petabytes of structured logs, unstructured media, and latency‑sensitive transactional data. A naïve “one‑size‑fits‑all” storage plan quickly crumbles under growth, leading to costly over‑provisioning or painful outages. This post walks you through a production‑ready storage stack, from high‑level architecture to concrete Terraform snippets, and highlights the patterns that keep large‑scale systems both fast and affordable.\n\nThe cornerstone of any scalable storage strategy is tiering—matching data access patterns to the appropriate medium.",
+      "tags": [
+        "storage",
+        "architecture",
+        "scalability",
+        "cloud",
+        "production"
+      ],
+      "scheduled_at": "2026-05-28T10:01:38Z",
       "status": "pending"
     }
   ]
