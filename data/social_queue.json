@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-28T07:01:38Z",
+  "last_scheduled_at": "2026-05-28T08:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -17435,6 +17435,20 @@
         "runtime-architecture"
       ],
       "scheduled_at": "2026-05-28T07:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Apache Airflow DAGs: A Comprehensive Guide to Building Robust Production-Ready Pipelines",
+      "url": "https://martinuke0.github.io/posts/2026-05-28-mastering-apache-airflow-dags-a-comprehensive-guide-to-building-robust-production-ready-pipelines/",
+      "social_hook": "> TL;DR — A production‑ready Airflow DAG is built on clear naming, modular Python code, explicit dependencies, and built‑in observability. Follow the patterns, testing workflow, and deployment checklist below to keep pipelines reliable at scale.\n\nAirflow has become the de‑facto orchestrator for data‑centric workloads, but moving from a notebook proof‑of‑concept to a fault‑tolerant production pipeline still trips many engineers up. This guide walks you through the entire lifecycle of a DAG—design, implementation, testing, deployment, and monitoring—using concrete examples from real‑world stacks (GCP Composer, Astronomer, and on‑prem Kubernetes). By the end you’ll have a reusable template and a checklist you can apply to any new workflow.\n\nA DAG (Directed Acyclic Graph) is simply a Python object that declares tasks and the edges that connect them. The Airflow scheduler parses the DAG file every minute, builds a dependency graph, and enqueues ready tasks for execution.",
+      "tags": [
+        "airflow",
+        "dag",
+        "pipeline",
+        "devops",
+        "cloud"
+      ],
+      "scheduled_at": "2026-05-28T08:01:38Z",
       "status": "pending"
     }
   ]
