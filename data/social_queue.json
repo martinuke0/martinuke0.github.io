@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-28T11:01:38Z",
+  "last_scheduled_at": "2026-05-28T12:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -17491,6 +17491,20 @@
         "real-time"
       ],
       "scheduled_at": "2026-05-28T11:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering the USE Method: Investigating System Bottlenecks through Utilization, Saturation, and Errors",
+      "url": "https://martinuke0.github.io/posts/2026-05-28-mastering-the-use-method-investigating-system-bottlenecks-through-utilization-saturation-and-errors/",
+      "social_hook": "> TL;DR — The USE Method lets you turn three simple metrics—Utilization, Saturation, and Errors—into a systematic bottleneck‑hunting process. By wiring those signals into a real‑time pipeline (Kafka → Prometheus → Grafana) you can spot, alert on, and resolve performance constraints before they cascade into outages.\n\nSystem performance problems are rarely mysterious; they are usually the result of one or more resources operating at the edge of their capacity. The USE Method, popularized by Brendan Gregg, gives engineers a repeatable checklist that maps directly onto the metrics most observability platforms already expose. In this post we’ll unpack each component, show how to collect the right data at scale, and walk through a production‑grade architecture that turns raw numbers into actionable alerts.\n\nUtilization measures how busy a resource is relative to its theoretical maximum. For a CPU core, it’s the percentage of time spent executing non‑idle instructions; for a disk, it’s the fraction of I/O bandwidth consumed; for a network interface, it’s the proportion of link capacity used.",
+      "tags": [
+        "performance",
+        "monitoring",
+        "observability",
+        "systems",
+        "engineering"
+      ],
+      "scheduled_at": "2026-05-28T12:01:38Z",
       "status": "pending"
     }
   ]
