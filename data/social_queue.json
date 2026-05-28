@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-28T05:01:38Z",
+  "last_scheduled_at": "2026-05-28T06:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -17407,6 +17407,20 @@
         "cloud"
       ],
       "scheduled_at": "2026-05-28T05:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Mobile Device Management for Enterprise Endpoints: Security, Deployment, and Lifecycle Administration",
+      "url": "https://martinuke0.github.io/posts/2026-05-28-mastering-mobile-device-management-for-enterprise-endpoints-security-deployment-and-lifecycle-administration/",
+      "social_hook": "> TL;DR — Effective MDM combines zero‑trust security, automated enrollment pipelines, and a clear lifecycle policy. By aligning Intune, Workspace ONE, or open‑source stacks with a modular architecture, enterprises can protect data while keeping device rollout fast and repeatable.\n\nEnterprises that issue smartphones, tablets, or rugged hand‑helds to employees now face the same security, compliance, and operational challenges that once belonged to traditional PCs. A well‑architected Mobile Device Management (MDM) platform is the keystone that turns a fleet of heterogeneous devices into a manageable, auditable, and secure asset class. This post walks through the security foundations, deployment patterns, and lifecycle administration techniques you need to master today.\n\n1. Data protection – Mobile endpoints store corporate emails, documents, and VPN credentials. A breach on a single device can cascade to the entire network.",
+      "tags": [
+        "MDM",
+        "Enterprise Security",
+        "Device Lifecycle",
+        "Deployment",
+        "Mobile Management"
+      ],
+      "scheduled_at": "2026-05-28T06:01:38Z",
       "status": "pending"
     }
   ]
