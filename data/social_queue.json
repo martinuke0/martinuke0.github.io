@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-28T13:01:38Z",
+  "last_scheduled_at": "2026-05-28T14:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -17519,6 +17519,20 @@
         "data-consistency"
       ],
       "scheduled_at": "2026-05-28T13:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing Schema Registry in Event-Driven Microservices: Architecting Data Governance for Production Kafka Pipelines",
+      "url": "https://martinuke0.github.io/posts/2026-05-28-implementing-schema-registry-in-event-driven-microservices-architecting-data-governance-for-production-kafka-pipelines/",
+      "social_hook": "> TL;DR — Adding Confluent Schema Registry to a Kafka‑centric microservice stack gives you explicit data contracts, automated compatibility checks, and centralized governance. With a few architectural tweaks you can achieve zero‑downtime schema evolution and observability without sacrificing throughput.\n\nEvent‑driven microservices have become the de‑facto standard for scaling complex business logic, but the flexibility of Kafka topics often hides a silent source of risk: schema drift. When producers and consumers speak different data shapes, outages cascade across the system. This post walks through a production‑grade design that puts Confluent Schema Registry at the heart of the data plane, shows concrete integration patterns for Java and Python services, and covers the operational safeguards you need to keep the pipeline humming.\n\nKafka guarantees ordering and durability, but it does not enforce schema. In a typical microservice landscape you’ll see:",
+      "tags": [
+        "Kafka",
+        "Schema Registry",
+        "Microservices",
+        "Data Governance",
+        "Event-Driven"
+      ],
+      "scheduled_at": "2026-05-28T14:01:38Z",
       "status": "pending"
     }
   ]
