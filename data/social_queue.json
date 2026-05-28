@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-28T19:01:38Z",
+  "last_scheduled_at": "2026-05-28T20:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -17603,6 +17603,20 @@
         "gcp"
       ],
       "scheduled_at": "2026-05-28T19:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Deep Dive into jemalloc Arenas and Thread Caches: Architecture, Scalability, and Memory Management Patterns",
+      "url": "https://martinuke0.github.io/posts/2026-05-28-deep-dive-into-jemalloc-arenas-and-thread-caches-architecture-scalability-and-memory-management-patterns/",
+      "social_hook": "> TL;DR — jemalloc isolates allocation work into per‑thread caches backed by a pool of arenas, dramatically reducing lock contention and fragmentation. By tuning arena count, cache sizes, and NUMA placement, you can scale memory allocation to thousands of cores while keeping latency predictable.\n\nIn modern cloud services, memory allocation latency is often the silent bottleneck that erodes tail‑latency SLAs. jemalloc, the default allocator for Redis, Firefox, and many high‑throughput Go services, tackles this problem with a two‑layer design: arenas that own large chunks of virtual memory, and thread caches that serve fast‑path allocations without touching arena locks. This post unpacks that architecture, walks through the code paths that matter in production, and gives concrete patterns for configuring jemalloc in large‑scale deployments.\n\nAn arena is essentially a private heap that obtains memory from the operating system via `mmap` (on Linux) or `VirtualAlloc` (on Windows). Each arena maintains its own metadata structures—free lists, bins, and a bitmap that tracks which size classes are available. The key invariants are:",
+      "tags": [
+        "jemalloc",
+        "memory-management",
+        "performance",
+        "scalability",
+        "systems"
+      ],
+      "scheduled_at": "2026-05-28T20:01:38Z",
       "status": "pending"
     }
   ]
