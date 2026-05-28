@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-29T01:01:38Z",
+  "last_scheduled_at": "2026-05-29T02:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -17687,6 +17687,20 @@
         "data-consistency"
       ],
       "scheduled_at": "2026-05-29T01:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Robust Payment Systems: Engineering for High-Stakes Scalability, Security, and Fault Tolerance",
+      "url": "https://martinuke0.github.io/posts/2026-05-28-architecting-robust-payment-systems-engineering-for-high-stakes-scalability-security-and-fault-tolerance/",
+      "social_hook": "> TL;DR — Payment platforms must combine horizontal scalability, strict security controls, and layered fault‑tolerance. By leveraging event‑driven pipelines, idempotent APIs, and proven patterns like circuit breakers, you can ship a system that handles spikes, protects cardholder data, and recovers gracefully from failures.\n\nPayments are the lifeblood of any commerce‑enabled business, yet they also sit at the intersection of massive traffic bursts, regulatory scrutiny, and unforgiving uptime requirements. A single latency spike can translate into lost revenue, while a data breach erodes trust forever. This post walks through the engineering decisions that let you build a payment service that scales like a social media feed, stays locked down like a vault, and recovers from failures without manual intervention.\n\nBefore diving into patterns, it helps to enumerate the non‑negotiable requirements most payment teams face:",
+      "tags": [
+        "payment",
+        "scalability",
+        "security",
+        "fault-tolerance",
+        "architecture"
+      ],
+      "scheduled_at": "2026-05-29T02:01:38Z",
       "status": "pending"
     }
   ]
