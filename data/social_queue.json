@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-29T00:01:38Z",
+  "last_scheduled_at": "2026-05-29T01:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -17673,6 +17673,20 @@
         "Production Patterns"
       ],
       "scheduled_at": "2026-05-29T00:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Event-Driven Microservices with Kafka and Schema Registry: Ensuring Data Consistency in Production Environments",
+      "url": "https://martinuke0.github.io/posts/2026-05-28-architecting-event-driven-microservices-with-kafka-and-schema-registry-ensuring-data-consistency-in-production-environments/",
+      "social_hook": "> TL;DR — Combining Apache Kafka with Confluent Schema Registry lets you enforce contract‑driven communication, achieve exactly‑once processing, and evolve data models safely. Follow the architecture and operational patterns below to keep your microservices consistent and resilient in production.\n\nEvent‑driven microservices have become the de‑facto standard for building scalable, loosely‑coupled systems. Yet the flexibility of asynchronous messaging often hides a subtle enemy: data inconsistency. When producers, consumers, and schemas evolve independently, you can quickly end up with missing fields, incompatible payloads, or duplicate processing. This post shows how to harness Kafka together with Schema Registry to create a production‑ready, contract‑first ecosystem that guarantees data consistency while still benefiting from the agility of microservices.\n\n1. Scalability – Decoupled services can be scaled independently; Kafka’s partitioning spreads load across brokers.",
+      "tags": [
+        "kafka",
+        "microservices",
+        "event-driven",
+        "schema-registry",
+        "data-consistency"
+      ],
+      "scheduled_at": "2026-05-29T01:01:38Z",
       "status": "pending"
     }
   ]
