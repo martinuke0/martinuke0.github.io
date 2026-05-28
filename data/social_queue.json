@@ -17561,7 +17561,7 @@
         "architecture"
       ],
       "scheduled_at": "2026-05-28T16:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Implementing Idempotency Keys in Payment APIs: Architecture, Patterns, and Reliable Distributed Systems",
