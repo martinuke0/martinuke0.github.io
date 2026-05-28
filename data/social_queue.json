@@ -17477,7 +17477,7 @@
         "production"
       ],
       "scheduled_at": "2026-05-28T10:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Architecting Kafka Streams Topologies: A Deep Dive into Real-Time Stream Processing Logic and State Management",
