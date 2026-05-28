@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-28T20:01:38Z",
+  "last_scheduled_at": "2026-05-28T21:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -17617,6 +17617,20 @@
         "systems"
       ],
       "scheduled_at": "2026-05-28T20:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering eBPF for Tracing and Production Observability: Architecture, Performance, and Real-World Implementation",
+      "url": "https://martinuke0.github.io/posts/2026-05-28-mastering-ebpf-for-tracing-and-production-observability-architecture-performance-and-real-world-implementation/",
+      "social_hook": "> TL;DR — eBPF lets you run safe, JIT‑compiled programs inside the Linux kernel, turning the kernel itself into a high‑performance observability engine. By mastering its map types, verifier rules, and integration points like Cilium or bpftrace, you can collect nanosecond‑level traces, export low‑overhead metrics to Prometheus, and scale across thousands of nodes without sacrificing latency.\n\nObservability teams have spent years wrestling with agents that poll, instrument, or scrape services, often paying a hidden latency penalty. eBPF flips the script: the kernel becomes the data collector, eliminating context‑switch overhead and giving you deterministic visibility into system calls, network packets, and CPU scheduling. This post walks through the underlying architecture, production‑grade patterns, performance considerations, and a step‑by‑step implementation that you can drop into a Kubernetes cluster today.\n\n1. Zero‑touch instrumentation – You can attach probes to any kernel function without recompiling the target binary.",
+      "tags": [
+        "eBPF",
+        "observability",
+        "tracing",
+        "performance",
+        "production"
+      ],
+      "scheduled_at": "2026-05-28T21:01:38Z",
       "status": "pending"
     }
   ]
