@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-28T23:01:38Z",
+  "last_scheduled_at": "2026-05-29T00:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -17659,6 +17659,20 @@
         "Production"
       ],
       "scheduled_at": "2026-05-28T23:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Autonomous Memory Systems for Distributed AI Agent Orchestration: Patterns and Production Frameworks",
+      "url": "https://martinuke0.github.io/posts/2026-05-28-architecting-autonomous-memory-systems-for-distributed-ai-agent-orchestration-patterns-and-production-frameworks/",
+      "social_hook": "> TL;DR — Autonomous memory systems let thousands of AI agents share state without a central bottleneck. By combining locality‑aware sharding, event‑sourced replication, and cloud‑native state stores (e.g., Milvus or CockroachDB), you can achieve low latency, strong consistency, and graceful degradation at scale.\n\nDistributed AI agents—think autonomous chat assistants, robotic swarms, or edge‑deployed recommendation bots—must read, write, and reason over shared knowledge in near‑real‑time. Traditional monolithic databases quickly become a choke point, while naïve caching layers introduce stale data and hard‑to‑debug race conditions. This post walks through the architectural patterns that turn a memory layer into a self‑governing service, and it showcases production‑grade frameworks you can adopt today.\n\nWhen you scale an agent fleet from dozens to tens of thousands, three forces dominate:",
+      "tags": [
+        "AI",
+        "Distributed Systems",
+        "Memory Architecture",
+        "Orchestration",
+        "Production Patterns"
+      ],
+      "scheduled_at": "2026-05-29T00:01:38Z",
       "status": "pending"
     }
   ]
