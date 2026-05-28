@@ -17449,7 +17449,7 @@
         "cloud"
       ],
       "scheduled_at": "2026-05-28T08:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Mastering Go for Modern Backend Development: Architecture, Concurrency, and Production-Ready Services",
