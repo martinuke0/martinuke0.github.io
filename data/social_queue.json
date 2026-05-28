@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-28T16:01:38Z",
+  "last_scheduled_at": "2026-05-28T17:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -17561,6 +17561,20 @@
         "architecture"
       ],
       "scheduled_at": "2026-05-28T16:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing Idempotency Keys in Payment APIs: Architecture, Patterns, and Reliable Distributed Systems",
+      "url": "https://martinuke0.github.io/posts/2026-05-28-implementing-idempotency-keys-in-payment-apis-architecture-patterns-and-reliable-distributed-systems/",
+      "social_hook": "> TL;DR — Idempotency keys let you turn a flaky “try‑again” payment request into a safe, exactly‑once operation. By persisting the key with request metadata, checking it early in the pipeline, and handling race conditions explicitly, you can guarantee that retries never double‑charge a customer, even under high load or network partitions.\n\nIn modern payment platforms, a single HTTP request can be retried dozens of times—by browsers, mobile SDKs, or automated retry middleware. Without a disciplined approach, each retry risks creating duplicate charges, refunds, or inventory reservations. This post walks through the full stack: why idempotency matters, the data model that backs it, proven patterns (store‑and‑replay, cache‑first deduplication, deterministic IDs), and a production‑ready Python/Flask example that plugs into PostgreSQL and Redis. You’ll come away with a checklist you can apply to any payment‑centric microservice today.\n\n Regulatory compliance** – PCI‑DSS and banking regulations require that duplicate transactions be avoided or easily reversible.",
+      "tags": [
+        "payments",
+        "idempotency",
+        "api-design",
+        "distributed-systems",
+        "architecture"
+      ],
+      "scheduled_at": "2026-05-28T17:01:38Z",
       "status": "pending"
     }
   ]
