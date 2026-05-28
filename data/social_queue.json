@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-28T10:01:38Z",
+  "last_scheduled_at": "2026-05-28T11:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -17477,6 +17477,20 @@
         "production"
       ],
       "scheduled_at": "2026-05-28T10:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Kafka Streams Topologies: A Deep Dive into Real-Time Stream Processing Logic and State Management",
+      "url": "https://martinuke0.github.io/posts/2026-05-28-architecting-kafka-streams-topologies-a-deep-dive-into-real-time-stream-processing-logic-and-state-management/",
+      "social_hook": "> TL;DR — Kafka Streams topologies are built from a small set of processor primitives that can be composed into powerful, fault‑tolerant pipelines. Mastering state stores, windowing, and the exactly‑once semantics lets you ship production‑grade real‑time analytics with predictable latency and resilience.\n\nReal‑time stream processing has moved from niche prototypes to the backbone of modern data platforms. Companies such as LinkedIn, Uber, and Netflix rely on Kafka Streams to enrich, aggregate, and react to events in milliseconds. This post walks through the architectural decisions, code patterns, and operational knobs you need to turn a simple topology into a production‑ready service that handles state, scaling, and failure gracefully.\n\nKafka Streams abstracts the low‑level consumer/producer APIs into a DSL (Domain‑Specific Language) and a Processor API. Understanding both is essential for constructing flexible topologies.",
+      "tags": [
+        "kafka",
+        "stream-processing",
+        "state-management",
+        "architecture",
+        "real-time"
+      ],
+      "scheduled_at": "2026-05-28T11:01:38Z",
       "status": "pending"
     }
   ]
