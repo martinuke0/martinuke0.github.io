@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-29T02:01:38Z",
+  "last_scheduled_at": "2026-05-29T03:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -17701,6 +17701,20 @@
         "architecture"
       ],
       "scheduled_at": "2026-05-29T02:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering CSP Channels in Go: Architecting Robust Communication for Concurrent Systems",
+      "url": "https://martinuke0.github.io/posts/2026-05-28-mastering-csp-channels-in-go-architecting-robust-communication-for-concurrent-systems/",
+      "social_hook": "> TL;DR — Go’s CSP channels become a first‑class integration point when you treat them as explicit pipelines: use fan‑out/fan‑in for parallelism, back‑pressure to avoid overload, and `select`‑driven multiplexing for graceful shutdown. The result is a production‑ready, observable, and maintainable concurrent architecture.\n\nConcurrent systems in Go are built on a deceptively simple primitive: the channel. Yet, when you move from toy examples to a service handling thousands of requests per second, the way you structure those channels makes the difference between graceful scaling and catastrophic overload. This article walks through the most common channel patterns, shows how they fit into real‑world architectures (Kafka‑driven event processing, HTTP request handling, and background workers), and gives you concrete code you can copy into production today.\n\nGo’s concurrency model is often described as “CSP (Communicating Sequential Processes) meets shared memory”. The key idea is that goroutines run independently and synchronize only through channels. This eliminates many classes of race conditions that plague lock‑based designs, but it also introduces new responsibilities:",
+      "tags": [
+        "go",
+        "concurrency",
+        "csp",
+        "architecture",
+        "patterns"
+      ],
+      "scheduled_at": "2026-05-29T03:01:38Z",
       "status": "pending"
     }
   ]
