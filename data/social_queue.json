@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-28T15:01:38Z",
+  "last_scheduled_at": "2026-05-28T16:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -17547,6 +17547,20 @@
         "production"
       ],
       "scheduled_at": "2026-05-28T15:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Deep Dive into Copy-on-Write Semantics: Memory Management and Performance in Modern Linux Kernels",
+      "url": "https://martinuke0.github.io/posts/2026-05-28-deep-dive-into-copy-on-write-semantics-memory-management-and-performance-in-modern-linux-kernels/",
+      "social_hook": "> TL;DR — Copy‑on‑Write (COW) lets the Linux kernel share pages between processes until a write occurs, dramatically reducing memory pressure. Understanding the VFS, page‑cache, and fork‑path internals helps you tune performance and avoid common pitfalls in production workloads.\n\nCopy‑on‑Write is one of the quiet workhorses of the Linux kernel. Every time a process forks, a container spawns, or a snapshot is taken, COW decides whether pages stay shared or become private. For engineers building high‑throughput services, databases, or container orchestration platforms, the hidden cost of a “copy” can be the difference between a smooth rollout and a latency spike. This article walks through the kernel’s COW implementation, the data structures that make it possible, and concrete patterns you can apply today.\n\nWhen a parent process creates a child with `fork()`, naïvely copying the entire address space would double the resident set size (RSS). In server environments where dozens of workers fork from a common binary, that approach is untenable.",
+      "tags": [
+        "linux",
+        "memory-management",
+        "copy-on-write",
+        "performance",
+        "architecture"
+      ],
+      "scheduled_at": "2026-05-28T16:01:38Z",
       "status": "pending"
     }
   ]
