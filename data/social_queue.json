@@ -17589,7 +17589,7 @@
         "Streaming"
       ],
       "scheduled_at": "2026-05-28T18:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Designing Resilient Distributed Systems: Load Shedding Strategies for Protective Management Under Critical Overload",
