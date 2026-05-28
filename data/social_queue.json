@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-28T03:01:38Z",
+  "last_scheduled_at": "2026-05-28T04:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -17379,6 +17379,20 @@
         "Production Patterns"
       ],
       "scheduled_at": "2026-05-28T03:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Low-Latency Cross-Regional Replication for Vector Search Clusters: A Deep Dive into Distributed Consistency",
+      "url": "https://martinuke0.github.io/posts/2026-05-28-architecting-low-latency-cross-regional-replication-for-vector-search-clusters-a-deep-dive-into-distributed-consistency/",
+      "social_hook": "> TL;DR — Cross‑regional vector search can achieve sub‑50 ms query latency by combining leader‑follower sharding, quorum‑based writes, and asynchronous HNSW index stitching. A tight coupling of write‑ahead logs, deterministic vector IDs, and region‑aware routing preserves strong consistency without sacrificing performance.\n\nVector search engines such as Milvus, Pinecone, and Elasticsearch’s k‑NN plugin have become the backbone of recommendation, similarity, and AI‑augmented retrieval workloads. As organizations expand globally, the need to serve low‑latency queries from multiple continents while keeping the index consistent across data‑centers becomes a real engineering challenge. This post dissects a production‑grade architecture, explains the consistency models that matter, and shares concrete patterns you can copy into your own stack.\n\n- Vector similarity is computationally heavy; adding network hops can push tail latency over 100 ms.",
+      "tags": [
+        "vector search",
+        "distributed systems",
+        "replication",
+        "low latency",
+        "consistency"
+      ],
+      "scheduled_at": "2026-05-28T04:01:38Z",
       "status": "pending"
     }
   ]
