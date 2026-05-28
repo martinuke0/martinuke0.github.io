@@ -17379,7 +17379,7 @@
         "Production Patterns"
       ],
       "scheduled_at": "2026-05-28T03:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Architecting Low-Latency Cross-Regional Replication for Vector Search Clusters: A Deep Dive into Distributed Consistency",
