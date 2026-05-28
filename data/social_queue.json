@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-28T06:01:38Z",
+  "last_scheduled_at": "2026-05-28T07:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -17421,6 +17421,20 @@
         "Mobile Management"
       ],
       "scheduled_at": "2026-05-28T06:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Deep Dive into Generational Garbage Collection: Memory Management in Modern JVM and .NET Runtimes",
+      "url": "https://martinuke0.github.io/posts/2026-05-28-deep-dive-into-generational-garbage-collection-memory-management-in-modern-jvm-and-net-runtimes/",
+      "social_hook": "> TL;DR — Generational garbage collection isolates short‑lived objects in a young generation, dramatically reducing pause times for both JVM and .NET. Understanding heap layout, promotion policies, and runtime‑specific tuning knobs lets you keep latency low even under heavy production loads.\n\nModern services run on massive heaps, yet they still need sub‑millisecond latency for request handling. Both the HotSpot JVM and the .NET CLR have converged on a generational approach that separates new objects from long‑lived ones. This post dissects the architecture, shows real‑world metrics, and gives concrete tuning steps you can apply today.\n\n Object lifetime skew** – Empirical studies (e.g., the “Weak Reference” paper from 1997) show that > 80 % of objects die within a few milliseconds.",
+      "tags": [
+        "JVM",
+        "dotnet",
+        "garbage-collection",
+        "memory-management",
+        "runtime-architecture"
+      ],
+      "scheduled_at": "2026-05-28T07:01:38Z",
       "status": "pending"
     }
   ]
