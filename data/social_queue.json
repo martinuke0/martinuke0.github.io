@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-28T12:01:38Z",
+  "last_scheduled_at": "2026-05-28T13:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -17505,6 +17505,20 @@
         "engineering"
       ],
       "scheduled_at": "2026-05-28T12:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting the Saga Pattern for Distributed Transactions: Maintaining Data Consistency in Modern Commerce Systems",
+      "url": "https://martinuke0.github.io/posts/2026-05-28-architecting-the-saga-pattern-for-distributed-transactions-maintaining-data-consistency-in-modern-commerce-systems/",
+      "social_hook": "> TL;DR — The Saga pattern replaces heavyweight two‑phase commit with a series of local transactions and compensating actions, letting modern commerce systems stay highly available while guaranteeing eventual consistency. By combining an orchestration engine (e.g., Temporal) with a robust event bus (Kafka) and disciplined idempotent services, you can build a production‑grade saga that survives crashes, network partitions, and operator error.\n\nModern e‑commerce platforms process thousands of orders per second, yet each order touches inventory, payment, shipping, loyalty, and analytics services. A single failure in any step can leave the system in an inconsistent state if the surrounding services continue to assume success. Traditional distributed‑transaction protocols such as two‑phase commit (2PC) lock resources across services, dramatically hurting latency and availability—unacceptable for a consumer‑facing checkout flow. The Saga pattern offers a pragmatic alternative: break the global transaction into a chain of local, autonomous actions, each paired with a compensating rollback. This post walks through the full lifecycle of engineering a saga for a real‑world order‑management service, from high‑level architecture to concrete Python code, failure handling, and observability.\n\n2PC guarantees atomicity by first preparing all participants and then committing them in a single coordinated step. In a microservice world, this approach forces every service to expose a prepare endpoint, hold locks for the entire duration of the transaction, and survive network partitions. The result is:",
+      "tags": [
+        "saga",
+        "distributed-systems",
+        "microservices",
+        "ecommerce",
+        "data-consistency"
+      ],
+      "scheduled_at": "2026-05-28T13:01:38Z",
       "status": "pending"
     }
   ]
