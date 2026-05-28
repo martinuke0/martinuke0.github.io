@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-28T04:01:38Z",
+  "last_scheduled_at": "2026-05-28T05:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -17393,6 +17393,20 @@
         "consistency"
       ],
       "scheduled_at": "2026-05-28T04:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Storage Management Strategies: Architecture, Scalability, and Performance for Modern IT Infrastructure",
+      "url": "https://martinuke0.github.io/posts/2026-05-28-optimizing-storage-management-strategies-architecture-scalability-and-performance-for-modern-it-infrastructure/",
+      "social_hook": "> TL;DR — Modern storage systems require a layered architecture, disciplined scalability patterns, and targeted performance tweaks. By aligning your design with proven patterns from Kafka, Ceph, and cloud object stores, you can keep latency low, throughput high, and operational cost predictable.\n\nIn today’s hyper‑scale environments, storage is no longer a passive repository; it’s a dynamic engine that must keep pace with compute, networking, and business demand. Whether you’re running a Kafka stream processing pipeline, a Ceph-backed object store on GCP, or a hybrid on‑prem / cloud data lake, the same three pillars—architecture, scalability, and performance—drive success. This post walks through each pillar, shows how they intertwine, and offers concrete patterns you can start deploying this week.\n\nA robust storage architecture starts with clear separation of concerns. Think of it as a three‑layer stack:",
+      "tags": [
+        "storage",
+        "architecture",
+        "scalability",
+        "performance",
+        "cloud"
+      ],
+      "scheduled_at": "2026-05-28T05:01:38Z",
       "status": "pending"
     }
   ]
