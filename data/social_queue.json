@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-28T22:01:38Z",
+  "last_scheduled_at": "2026-05-28T23:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -17645,6 +17645,20 @@
         "Production"
       ],
       "scheduled_at": "2026-05-28T22:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Apache Airflow DAGs: A Comprehensive Guide from Foundation to Production-Ready Pipelines",
+      "url": "https://martinuke0.github.io/posts/2026-05-28-mastering-apache-airflow-dags-a-comprehensive-guide-from-foundation-to-production-ready-pipelines/",
+      "social_hook": "> TL;DR — Mastering Airflow DAGs starts with a solid grasp of the DAG definition API, moves through reusable patterns and testing, and finishes with production‑grade monitoring, CI/CD, and scaling strategies. Follow the guide to turn a simple DAG into a resilient, observable pipeline that can survive real‑world traffic.\n\nAirflow has become the de‑facto orchestrator for modern data platforms, but many teams still stumble when moving from a toy example to a production‑ready pipeline. This post walks you through every stage: core concepts, architectural choices, reusable patterns, testing, CI/CD, and monitoring. By the end you’ll have a concrete checklist and code snippets you can drop into your own repo.\n\nA Directed Acyclic Graph (DAG) is a collection of tasks with explicit dependencies that must not contain cycles. In Airflow the DAG object lives in Python code, which gives you the full power of the language to generate dynamic pipelines.",
+      "tags": [
+        "Airflow",
+        "DAG",
+        "Data Engineering",
+        "Orchestration",
+        "Production"
+      ],
+      "scheduled_at": "2026-05-28T23:01:38Z",
       "status": "pending"
     }
   ]
