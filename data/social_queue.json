@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-28T17:01:38Z",
+  "last_scheduled_at": "2026-05-28T18:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -17575,6 +17575,20 @@
         "architecture"
       ],
       "scheduled_at": "2026-05-28T17:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Apache Kafka Topic Partitioning and Consumer Group Rebalancing for Production-Ready Pipelines",
+      "url": "https://martinuke0.github.io/posts/2026-05-28-mastering-apache-kafka-topic-partitioning-and-consumer-group-rebalancing-for-production-ready-pipelines/",
+      "social_hook": "> TL;DR — Proper partition sizing and deterministic consumer group rebalancing are the twin pillars of a stable Kafka pipeline. Use data‑driven partition counts, static group membership, and the cooperative rebalance protocol to keep latency low and throughput high in production.\n\nKafka has become the de‑facto backbone for event‑driven architectures, yet many teams stumble on the two levers that most directly affect latency, throughput, and operational stability: topic partitioning and consumer group rebalancing. In this post we’ll walk through the math behind partition counts, the mechanics of the rebalance protocol, and concrete patterns you can copy into a production pipeline today.\n\nA Kafka partition is the unit of parallelism. Each partition lives on a single broker, is ordered, and can be consumed by only one thread in a consumer group at a time. The number of partitions therefore determines:",
+      "tags": [
+        "Kafka",
+        "Topic Partitioning",
+        "Consumer Groups",
+        "Rebalancing",
+        "Streaming"
+      ],
+      "scheduled_at": "2026-05-28T18:01:38Z",
       "status": "pending"
     }
   ]
