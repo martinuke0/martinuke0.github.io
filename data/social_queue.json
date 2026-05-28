@@ -17547,7 +17547,7 @@
         "production"
       ],
       "scheduled_at": "2026-05-28T15:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Deep Dive into Copy-on-Write Semantics: Memory Management and Performance in Modern Linux Kernels",
