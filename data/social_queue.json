@@ -17337,7 +17337,7 @@
         "Architecture"
       ],
       "scheduled_at": "2026-05-28T00:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Architecting Event-Driven Microservices with Kafka and Schema Registry: A Deep Dive into Production Implementation",
