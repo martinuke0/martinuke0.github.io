@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-28T18:01:38Z",
+  "last_scheduled_at": "2026-05-28T19:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -17589,6 +17589,20 @@
         "Streaming"
       ],
       "scheduled_at": "2026-05-28T18:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Designing Resilient Distributed Systems: Load Shedding Strategies for Protective Management Under Critical Overload",
+      "url": "https://martinuke0.github.io/posts/2026-05-28-designing-resilient-distributed-systems-load-shedding-strategies-for-protective-management-under-critical-overload/",
+      "social_hook": "> TL;DR — When traffic bursts push a distributed service past its capacity, proactive load shedding (circuit breakers, rate limiting, and lag‑aware throttling) prevents cascading failures. By coupling these patterns with real‑time metrics and automated back‑off, you can keep latency low and avoid costly downtime.\n\nA sudden surge—whether from a flash‑sale, a bot attack, or a misbehaving upstream service—can overwhelm any modern microservice architecture. In production, the difference between a graceful degradation and a full‑scale outage often hinges on how quickly you stop admitting work that the system cannot finish. This post walks through the why, what, and how of load‑shedding strategies, anchoring the discussion in concrete platforms such as Apache Kafka, Google Cloud Pub/Sub, and the Hystrix pattern that powers Netflix‑scale services.\n\n1. Thread pool exhaustion – Worker threads block on I/O, leaving no room for new requests.",
+      "tags": [
+        "distributed-systems",
+        "load-shedding",
+        "resilience",
+        "kafka",
+        "gcp"
+      ],
+      "scheduled_at": "2026-05-28T19:01:38Z",
       "status": "pending"
     }
   ]
