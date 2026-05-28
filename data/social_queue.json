@@ -17645,7 +17645,7 @@
         "Production"
       ],
       "scheduled_at": "2026-05-28T22:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Mastering Apache Airflow DAGs: A Comprehensive Guide from Foundation to Production-Ready Pipelines",
