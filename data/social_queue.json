@@ -17533,7 +17533,7 @@
         "Event-Driven"
       ],
       "scheduled_at": "2026-05-28T14:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Mastering Go for Modern Backend Engineering: Architecture, Concurrency, and Production-Ready Services",
