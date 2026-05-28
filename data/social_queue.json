@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-28T08:01:38Z",
+  "last_scheduled_at": "2026-05-28T09:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -17449,6 +17449,20 @@
         "cloud"
       ],
       "scheduled_at": "2026-05-28T08:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Go for Modern Backend Development: Architecture, Concurrency, and Production-Ready Services",
+      "url": "https://martinuke0.github.io/posts/2026-05-28-mastering-go-for-modern-backend-development-architecture-concurrency-and-production-ready-services/",
+      "social_hook": "> TL;DR — Go’s low‑overhead runtime, built‑in concurrency primitives, and strong standard library let you ship backend services that scale horizontally, stay responsive under load, and survive real‑world failures with minimal operational debt.\n\nModern backend teams are under constant pressure to deliver APIs that handle millions of requests per second while keeping latency in the single‑digit millisecond range. Go (often called Golang) has become a default choice for many of these teams because it blends the performance of a compiled language with a developer experience that rivals interpreted languages. This post walks through the architectural decisions, concurrency patterns, and production‑ready practices that let you turn a simple Go binary into a resilient, observable, and maintainable service at scale.\n\n1. Predictable performance – Go compiles to native code, avoiding the warm‑up penalties of JIT runtimes. The garbage collector (GC) is designed for low‑latency workloads, typically capping pause times under 100 µs for heaps up to several gigabytes see the Go GC paper.",
+      "tags": [
+        "Go",
+        "Backend",
+        "Concurrency",
+        "Microservices",
+        "Production"
+      ],
+      "scheduled_at": "2026-05-28T09:01:38Z",
       "status": "pending"
     }
   ]
