@@ -17631,7 +17631,7 @@
         "production"
       ],
       "scheduled_at": "2026-05-28T21:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Deep Dive into Postgres Write-Ahead Logging: Ensuring Data Durability and Crash Recovery in Production",
