@@ -17799,7 +17799,7 @@
         "runtime"
       ],
       "scheduled_at": "2026-05-29T09:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Mastering Celery: Scaling Python Applications with Distributed Task Queues and Production-Ready Patterns",
