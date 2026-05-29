@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-29T14:01:38Z",
+  "last_scheduled_at": "2026-05-29T15:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -17869,6 +17869,20 @@
         "kubernetes"
       ],
       "scheduled_at": "2026-05-29T14:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Deep Dive into io_uring and epoll: Architecture, Performance Trade-offs, and Production Implementation Patterns",
+      "url": "https://martinuke0.github.io/posts/2026-05-29-deep-dive-into-io_uring-and-epoll-architecture-performance-trade-offs-and-production-implementation-patterns/",
+      "social_hook": "> TL;DR — io_uring offers lower syscall overhead and batch‑oriented completions, while epoll remains a battle‑tested, edge‑triggered event loop. Choose io_uring for ultra‑low latency workloads that can tolerate newer kernel dependencies; keep epoll for legacy stacks or when you need maximum portability.\n\nBoth epoll and io_uring are cornerstone APIs for building high‑performance network servers on Linux, yet they solve the same problem in fundamentally different ways. In this post we unpack the kernel architecture behind each, benchmark their raw throughput, and walk through production‑grade patterns that let you harness their strengths without falling into common pitfalls.\n\nWhile `select` and `poll` copy the entire fd set on every call, `epoll` introduced an interest list that lives in kernel space, reducing per‑event overhead. `io_ur`ing goes a step further: it removes the need for a per‑event system call entirely after the initial ring setup, allowing user space to submit and reap completions with pure memory operations.",
+      "tags": [
+        "linux",
+        "io_uring",
+        "epoll",
+        "performance",
+        "architecture"
+      ],
+      "scheduled_at": "2026-05-29T15:01:38Z",
       "status": "pending"
     }
   ]
