@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-30T02:01:38Z",
+  "last_scheduled_at": "2026-05-30T03:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -18037,6 +18037,20 @@
         "devops"
       ],
       "scheduled_at": "2026-05-30T02:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Asynchronous Consensus Protocols for Multi-Agent Decision Engines: From Theory to Production-Ready Systems",
+      "url": "https://martinuke0.github.io/posts/2026-05-29-architecting-asynchronous-consensus-protocols-for-multi-agent-decision-engines-from-theory-to-production-ready-systems/",
+      "social_hook": "> TL;DR — Asynchronous consensus can be tamed for production‑scale multi‑agent decision engines by combining proven protocols (Raft, EPaxos), event‑driven pipelines (Kafka), and systematic observability. This post walks you through the theory, architectural patterns, failure modes, and concrete implementation snippets you can ship today.\n\nIn modern AI‑augmented services—real‑time bidding, autonomous fleet coordination, fraud detection—decisions are no longer made by a single monolith. Instead, a swarm of micro‑agents processes streams of events, each holding a piece of the global state. Achieving a consistent view across those agents without sacrificing latency forces engineers to adopt asynchronous consensus protocols. While academic papers present elegant proofs, production teams need concrete patterns, tooling choices, and operational guardrails. This article bridges that gap, showing how to move from theory to a battle‑tested system you can run on Kubernetes today.\n\nMulti‑agent decision engines differ from classic distributed databases in two key ways:",
+      "tags": [
+        "consensus",
+        "asynchronous",
+        "multi-agent",
+        "architecture",
+        "production"
+      ],
+      "scheduled_at": "2026-05-30T03:01:38Z",
       "status": "pending"
     }
   ]
