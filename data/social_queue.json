@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-29T11:01:38Z",
+  "last_scheduled_at": "2026-05-29T12:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -17827,6 +17827,20 @@
         "ecommerce"
       ],
       "scheduled_at": "2026-05-29T11:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Deep Dive into jemalloc Arenas and Thread Caches: Architecture, Performance, and Production Tuning",
+      "url": "https://martinuke0.github.io/posts/2026-05-29-deep-dive-into-jemalloc-arenas-and-thread-caches-architecture-performance-and-production-tuning/",
+      "social_hook": "> TL;DR — jemalloc isolates allocation contention by partitioning memory into per‑thread caches and per‑core arenas. By sizing arenas, binding them to CPUs, and tuning thread‑cache limits you can shave 10‑30 % latency on high‑throughput services, while keeping fragmentation under control.\n\njemalloc has become the default allocator for many large‑scale services—Facebook, Cloudflare, and Rust’s standard library all rely on it. Its “arena” model is a departure from the traditional single‑heap `malloc`, and mastering it unlocks measurable latency reductions in latency‑sensitive back‑ends. This post walks through the internal architecture, benchmarks key performance knobs, and provides a production‑ready checklist for tuning arenas and thread caches.\n\n1. Single heap – All threads allocate from a global data structure protected by a lock or CAS loop.",
+      "tags": [
+        "jemalloc",
+        "memory-management",
+        "performance",
+        "systems",
+        "production"
+      ],
+      "scheduled_at": "2026-05-29T12:01:38Z",
       "status": "pending"
     }
   ]
