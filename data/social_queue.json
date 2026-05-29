@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-29T19:01:38Z",
+  "last_scheduled_at": "2026-05-29T20:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -17939,6 +17939,20 @@
         "Data Governance"
       ],
       "scheduled_at": "2026-05-29T19:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Storage Management Strategies for Modern IT Infrastructure: Design Patterns and Implementation Guide",
+      "url": "https://martinuke0.github.io/posts/2026-05-29-architecting-storage-management-strategies-for-modern-it-infrastructure-design-patterns-and-implementation-guide/",
+      "social_hook": "> TL;DR — Modern infra needs a layered storage strategy that blends hot caches, durable object stores, and immutable archives. By applying proven design patterns—tiered caching, data locality, and policy‑driven lifecycle—you can cut latency by 40 % while slashing storage spend by up to 30 % in production.\n\nEnterprises today juggle petabytes of logs, AI model checkpoints, and transactional data across on‑prem, hybrid, and multi‑cloud environments. The old “one‑size‑fits‑all” SAN approach collapses under the weight of variable access patterns, compliance mandates, and cost pressure. This post walks you through the most common storage design patterns, maps them to concrete architectures (Kubernetes + Ceph, AWS S3, Azure Blob), and provides a step‑by‑step implementation guide you can copy into a production repo.\n\n1. Latency vs. Cost Trade‑offs – Hot data (e.g., user sessions) demands sub‑millisecond reads; cold data (e.g., audit logs) can tolerate minutes of retrieval time. Mixing them in a single tier inflates both latency and spend.",
+      "tags": [
+        "storage",
+        "architecture",
+        "patterns",
+        "kubernetes",
+        "cloud"
+      ],
+      "scheduled_at": "2026-05-29T20:01:38Z",
       "status": "pending"
     }
   ]
