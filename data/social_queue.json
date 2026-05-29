@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-29T06:01:38Z",
+  "last_scheduled_at": "2026-05-29T07:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -17757,6 +17757,20 @@
         "Security"
       ],
       "scheduled_at": "2026-05-29T06:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering the USE Method: Performance Analysis for Utilization, Saturation, and Errors in Production Systems",
+      "url": "https://martinuke0.github.io/posts/2026-05-29-mastering-the-use-method-performance-analysis-for-utilization-saturation-and-errors-in-production-systems/",
+      "social_hook": "> TL;DR — The USE method gives you three concrete lenses—Utilization, Saturation, and Errors—to turn raw metrics into actionable signals. By wiring those lenses into Kafka, PostgreSQL, and Kubernetes, you can spot capacity limits before they become outages.\n\nPerformance teams spend countless hours chasing “why is latency high?” only to discover a missing metric or an ambiguous alert. The USE method, popularized by Brendan Gregg, collapses that chaos into a repeatable three‑step routine. In this article we’ll:\n\n* Show how to instrument three cornerstone platforms (Kafka, PostgreSQL, Kubernetes) with Prometheus and native tooling.",
+      "tags": [
+        "performance",
+        "monitoring",
+        "USE method",
+        "observability",
+        "production"
+      ],
+      "scheduled_at": "2026-05-29T07:01:38Z",
       "status": "pending"
     }
   ]
