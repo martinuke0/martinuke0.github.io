@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-29T10:01:38Z",
+  "last_scheduled_at": "2026-05-29T11:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -17813,6 +17813,20 @@
         "scalability"
       ],
       "scheduled_at": "2026-05-29T10:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing the Saga Pattern for Distributed Transactions: Ensuring Data Consistency in Commerce Microservices",
+      "url": "https://martinuke0.github.io/posts/2026-05-29-implementing-the-saga-pattern-for-distributed-transactions-ensuring-data-consistency-in-commerce-microservices/",
+      "social_hook": "> TL;DR — The Saga pattern replaces heavyweight two‑phase commit with a series of local transactions and compensating actions, letting commerce microservices stay autonomous while guaranteeing eventual consistency. This post shows how to design, code, and monitor a Saga‑based order flow using Kafka and Temporal.\n\nIn modern e‑commerce platforms, a single user action—adding an item to a cart, reserving inventory, charging a payment method, and dispatching a shipment—often spans multiple bounded contexts. When each context lives in its own microservice with its own database, the classic ACID transaction model collapses. Engineers resort to eventual consistency, but without a disciplined pattern the system quickly devolves into race conditions, orphaned records, and “half‑paid” orders. The Saga pattern offers a production‑ready choreography for stitching together those independent commits while keeping each service loosely coupled.\n\nTwo‑phase commit (2PC) guarantees atomicity across multiple databases, but it carries heavy coordination overhead and assumes a stable network. In a cloud‑native e‑commerce stack you typically see:",
+      "tags": [
+        "microservices",
+        "saga",
+        "distributed-systems",
+        "transactions",
+        "ecommerce"
+      ],
+      "scheduled_at": "2026-05-29T11:01:38Z",
       "status": "pending"
     }
   ]
