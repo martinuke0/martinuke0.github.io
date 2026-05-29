@@ -17813,7 +17813,7 @@
         "scalability"
       ],
       "scheduled_at": "2026-05-29T10:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Implementing the Saga Pattern for Distributed Transactions: Ensuring Data Consistency in Commerce Microservices",
