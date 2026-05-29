@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-29T05:01:38Z",
+  "last_scheduled_at": "2026-05-29T06:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -17743,6 +17743,20 @@
         "Deployment"
       ],
       "scheduled_at": "2026-05-29T05:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing TLS 1.3 Zero Round-Trip Resumption: Architecture, Low-Latency Networking, and Security Best Practices",
+      "url": "https://martinuke0.github.io/posts/2026-05-29-implementing-tls-13-zero-round-trip-resumption-architecture-low-latency-networking-and-security-best-practices/",
+      "social_hook": "> TL;DR — TLS 1.3 0‑RTT resumption can shave 30‑70 ms off the first request of a client‑server interaction, but it demands careful ticket lifecycle management, replay mitigation, and tight integration with your edge stack. This post walks through a production‑ready architecture, networking tricks, and security hardening steps you can copy into Envoy, NGINX, or any modern reverse proxy.\n\nIn today’s ultra‑low‑latency world, the extra round‑trip of a full TLS handshake is no longer acceptable for high‑frequency APIs, mobile back‑ends, or edge‑driven microservices. TLS 1.3 introduced zero round‑trip time (0‑RTT) resumption, allowing a client to send encrypted application data on the first flight after presenting a pre‑issued session ticket. While the performance gains are compelling, the feature also opens a narrow attack surface—replay attacks, ticket leakage, and clock‑drift issues. This article shows how to design a robust 0‑RTT pipeline, embed it into common production components, and enforce best‑in‑class security controls.\n\n Latency impact** – A typical TCP + TLS handshake on a 100 ms RTT network adds ~2 × RTT (client hello → server hello → finished). 0‑RTT eliminates the server‑side round‑trip, reducing first‑request latency by up to 70 ms on a 100 ms link and even more on satellite or high‑latency mobile links.",
+      "tags": [
+        "TLS",
+        "TLS1.3",
+        "ZeroRTT",
+        "Networking",
+        "Security"
+      ],
+      "scheduled_at": "2026-05-29T06:01:38Z",
       "status": "pending"
     }
   ]
