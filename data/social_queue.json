@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-29T04:01:38Z",
+  "last_scheduled_at": "2026-05-29T05:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -17729,6 +17729,20 @@
         "performance"
       ],
       "scheduled_at": "2026-05-29T04:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Mobile Device Management for Enterprise Endpoints: Architecture, Security, and Production-Ready Deployment Strategies",
+      "url": "https://martinuke0.github.io/posts/2026-05-29-mastering-mobile-device-management-for-enterprise-endpoints-architecture-security-and-production-ready-deployment-strategies/",
+      "social_hook": "> TL;DR — Successful enterprise MDM hinges on a modular, zero‑trust architecture, hardened enrollment pipelines, and a staged rollout backed by observability. Follow the patterns below to move from proof‑of‑concept to a production‑grade, globally‑distributed fleet.\n\nEnterprises that manage hundreds or thousands of smartphones, tablets, and rugged devices cannot rely on ad‑hoc scripts or point‑and‑click consoles. A disciplined Mobile Device Management (MDM) strategy must treat every endpoint as a first‑class citizen in the corporate network, with clear ownership, immutable policies, and auditable change control. This post walks through the essential building blocks, security hardening techniques, and deployment playbooks that let you run MDM at scale on platforms such as Microsoft Intune, Google Android Enterprise, and Apple Business Manager.\n\n1. Device‑side agents – lightweight daemons or system extensions that enforce policies, report telemetry, and execute remote commands.",
+      "tags": [
+        "MDM",
+        "Enterprise",
+        "Security",
+        "Architecture",
+        "Deployment"
+      ],
+      "scheduled_at": "2026-05-29T05:01:38Z",
       "status": "pending"
     }
   ]
