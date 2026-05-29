@@ -17883,7 +17883,7 @@
         "architecture"
       ],
       "scheduled_at": "2026-05-29T15:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Architecting Apache Kafka Topic Partitioning and Consumer Group Rebalancing for Production-Ready Pipelines",
