@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-29T09:01:38Z",
+  "last_scheduled_at": "2026-05-29T10:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -17799,6 +17799,20 @@
         "runtime"
       ],
       "scheduled_at": "2026-05-29T09:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Celery: Scaling Python Applications with Distributed Task Queues and Production-Ready Patterns",
+      "url": "https://martinuke0.github.io/posts/2026-05-29-mastering-celery-scaling-python-applications-with-distributed-task-queues-and-production-ready-patterns/",
+      "social_hook": "> TL;DR — Celery can power millions of tasks per day if you treat it as a first‑class component: design a clear broker‑worker topology, apply idempotent task patterns, and instrument health metrics. Deploying workers on Kubernetes with autoscaling, combined with proper retry and rate‑limit policies, turns a simple queue into a production‑grade, self‑healing pipeline.\n\nCelery has been the go‑to asynchronous task framework for Python developers since its 2009 debut, but many teams stop at “just get it working.” In large‑scale services, that approach quickly runs into hidden bottlenecks: unbounded queue growth, flaky retries, and opaque monitoring. This article walks through the full stack—broker choice, worker architecture, reliability patterns, observability, and Kubernetes deployment—so you can confidently run Celery at production scale.\n\n Producer** – any Python process that calls `my_task.delay()` or `apply_async()`.",
+      "tags": [
+        "celery",
+        "python",
+        "distributed-systems",
+        "task-queues",
+        "scalability"
+      ],
+      "scheduled_at": "2026-05-29T10:01:38Z",
       "status": "pending"
     }
   ]
