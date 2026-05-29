@@ -17869,7 +17869,7 @@
         "kubernetes"
       ],
       "scheduled_at": "2026-05-29T14:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Deep Dive into io_uring and epoll: Architecture, Performance Trade-offs, and Production Implementation Patterns",
