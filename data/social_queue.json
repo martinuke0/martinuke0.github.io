@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-29T22:01:38Z",
+  "last_scheduled_at": "2026-05-29T23:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -17981,6 +17981,20 @@
         "devops"
       ],
       "scheduled_at": "2026-05-29T22:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering cgroups v2 Resource Isolation: Implementation Strategies for Production Workload Performance and Control",
+      "url": "https://martinuke0.github.io/posts/2026-05-29-mastering-cgroups-v2-resource-isolation-implementation-strategies-for-production-workload-performance-and-control/",
+      "social_hook": "> TL;DR — cgroups v2 gives you fine‑grained, hierarchical resource controls; by structuring controllers, using a unified hierarchy, and wiring them into systemd/Kubernetes you can guarantee performance SLAs and avoid noisy‑neighbor issues in production.\n\nResource isolation is no longer a nice‑to‑have feature; it is a production prerequisite. Whether you run a fleet of micro‑services on Kubernetes, a batch processing cluster on bare metal, or a container‑heavy CI pipeline, uncontrolled CPU, memory, and I/O can cascade into latency spikes and costly outages. The Linux kernel’s second‑generation control groups (cgroups v2) provide a single, unified hierarchy that simplifies the mental model while delivering more precise throttling, accounting, and delegation. This post walks through the architecture, shows how to embed cgroups v2 into systemd and Kubernetes, and equips you with concrete patterns and monitoring tricks that have proved reliable at scale.\n\ncgroups v1 required mounting a separate filesystem for each controller (e.g., `cpu`, `memory`, `blkio`). In a large cluster this produced a tangled forest of mount points, making it easy to mis‑configure delegation or forget a controller entirely. cgroups v2 collapses all controllers under a single mount point (`/sys/fs/cgroup`), guaranteeing that every task inherits the same set of controllers unless explicitly disabled. This uniformity reduces configuration drift—a common source of production incidents.",
+      "tags": [
+        "cgroups",
+        "linux",
+        "resource-management",
+        "kubernetes",
+        "performance"
+      ],
+      "scheduled_at": "2026-05-29T23:01:38Z",
       "status": "pending"
     }
   ]
