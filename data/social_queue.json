@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-29T21:01:38Z",
+  "last_scheduled_at": "2026-05-29T22:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -17967,6 +17967,20 @@
         "cloud"
       ],
       "scheduled_at": "2026-05-29T21:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering cgroups v2 Resource Isolation: Implementation, Unified Hierarchy, and Production-Ready Control Groups",
+      "url": "https://martinuke0.github.io/posts/2026-05-29-mastering-cgroups-v2-resource-isolation-implementation-unified-hierarchy-and-production-ready-control-groups/",
+      "social_hook": "> TL;DR — cgroups v2 replaces the fragmented v1 tree with a single, unified hierarchy that lets you enforce CPU, memory, I/O, and pressure limits per workload. By enabling the kernel flag, configuring systemd slices, and applying the “resource‑control” attributes, you can build production‑grade isolation that scales from a single VM to a multi‑tenant Kubernetes cluster.\n\nResource isolation is no longer a nice‑to‑have feature; it’s a hard requirement for any service that must meet SLAs under noisy‑neighbor conditions. While most engineers are familiar with the legacy cgroups v1 interface, the Linux kernel has shipped cgroups v2 as the default since 5.4, and most modern distributions expose it through systemd. This post shows you how to move from “cgroups are on” to “cgroups are a first‑class production primitive”, with concrete commands, configuration snippets, and architectural patterns that you can copy into your own environments.\n\n1. Unified hierarchy – Unlike v1, where each controller (cpu, memory, blkio, etc.) built its own tree, v2 presents a single tree. This eliminates the “controller mismatch” problem that caused processes to be placed in different sub‑trees for CPU vs. memory, leading to unintuitive resource accounting.",
+      "tags": [
+        "cgroups",
+        "linux",
+        "resource-management",
+        "kubernetes",
+        "devops"
+      ],
+      "scheduled_at": "2026-05-29T22:01:38Z",
       "status": "pending"
     }
   ]
