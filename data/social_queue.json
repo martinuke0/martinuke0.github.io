@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-29T12:01:38Z",
+  "last_scheduled_at": "2026-05-29T13:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -17841,6 +17841,20 @@
         "production"
       ],
       "scheduled_at": "2026-05-29T12:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Immutable Ledger Design for Financial Systems: Consistency, Compliance, and Real-World Patterns",
+      "url": "https://martinuke0.github.io/posts/2026-05-29-architecting-immutable-ledger-design-for-financial-systems-consistency-compliance-and-real-world-patterns/",
+      "social_hook": "> TL;DR — Immutable ledgers give financial systems a single source of truth that never changes, enabling strong consistency and auditability. By combining append‑only storage, cryptographic hashing, and event‑sourced processing, you can satisfy both regulatory compliance and high‑throughput transaction workloads.\n\nFinancial institutions are under constant pressure to reconcile three competing demands: absolute data integrity, strict regulatory audit trails, and the need to process millions of transactions per second. Traditional relational databases can enforce ACID guarantees, but they fall short when a regulator asks for a tamper‑evident history of every balance change. The answer is an immutable ledger—a system that only ever appends new records, never updates or deletes existing ones. In this post we unpack the architectural choices that make immutability practical at scale, map those choices to consistency guarantees required by finance, and illustrate production‑ready patterns using real services such as AWS QLDB, Google Cloud Spanner, and Hyperledger Fabric.\n\n- Auditability – Regulations like the SEC’s Rule 17a‑4(f) and the EU’s MiFID II demand a complete, unalterable record of every trade, settlement, and balance adjustment.",
+      "tags": [
+        "immutability",
+        "ledger",
+        "financial",
+        "consistency",
+        "compliance"
+      ],
+      "scheduled_at": "2026-05-29T13:01:38Z",
       "status": "pending"
     }
   ]
