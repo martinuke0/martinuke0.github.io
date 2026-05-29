@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-29T23:01:38Z",
+  "last_scheduled_at": "2026-05-30T00:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -17995,6 +17995,20 @@
         "performance"
       ],
       "scheduled_at": "2026-05-29T23:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Deep Dive into Apache Kafka Topic Partitioning: Strategizing for Consumer Group Rebalancing and Scalability",
+      "url": "https://martinuke0.github.io/posts/2026-05-29-deep-dive-into-apache-kafka-topic-partitioning-strategizing-for-consumer-group-rebalancing-and-scalability/",
+      "social_hook": "> TL;DR — Choosing the right partition count is a capacity‑planning decision, not a guess. Align partitions with consumer parallelism, network bandwidth, and hot‑key patterns, then adopt cooperative rebalancing to keep latency low while scaling consumer groups.\n\nKafka’s brilliance lies in its ability to turn a single logical stream into many independent, ordered slices called partitions. Those slices are the work units that drive parallelism across producers, brokers, and, most importantly, consumers. Yet every production engineer learns the hard way that a mis‑chosen partition count can cause painful rebalances, uneven load, or throttling at scale. This article walks through the math, the protocols, and the architectural patterns you need to size partitions, tame consumer‑group rebalancing, and keep your pipeline performant as traffic grows.\n\nA Kafka topic is a logical name; behind the scenes it is a set of N partitions, each hosted on a leader broker and replicated to a set of follower brokers. Messages are appended to a partition log in the order they arrive, and each message gets a monotonically increasing offset that uniquely identifies its position within that partition.",
+      "tags": [
+        "Kafka",
+        "Partitioning",
+        "ConsumerGroups",
+        "Scalability",
+        "Architecture"
+      ],
+      "scheduled_at": "2026-05-30T00:01:38Z",
       "status": "pending"
     }
   ]
