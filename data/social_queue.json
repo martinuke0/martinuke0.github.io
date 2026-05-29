@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-29T03:01:38Z",
+  "last_scheduled_at": "2026-05-29T04:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -17715,6 +17715,20 @@
         "patterns"
       ],
       "scheduled_at": "2026-05-29T03:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Deep Dive into Generational Garbage Collection: Memory Management in Modern JVM and .NET Runtimes",
+      "url": "https://martinuke0.github.io/posts/2026-05-29-deep-dive-into-generational-garbage-collection-memory-management-in-modern-jvm-and-net-runtimes/",
+      "social_hook": "> TL;DR — Generational GC splits the heap into young and old regions, letting the JVM and .NET reclaim most objects quickly. Understanding each runtime’s layout, pause‑time characteristics, and tuning knobs can shave milliseconds off latency and reduce footprint in production.\n\nModern back‑ends—whether they run on the HotSpot JVM or the .NET CLR—rely on generational garbage collection to keep latency low while still providing automatic memory management. The core idea is simple: most objects die young, so a fast, frequently run collector can reclaim a large fraction of memory without scanning the entire heap. In practice, the two runtimes implement this pattern differently, expose distinct metrics, and provide a handful of knobs that production engineers can adjust. This post unpacks the architecture of each system, walks through real‑world logs, and delivers concrete tuning patterns you can apply today.\n\n1. Young vs. Old – The heap is divided into a young (or ephemeral) generation where new objects are allocated, and an old (or tenured) generation that holds objects that have survived several collection cycles.",
+      "tags": [
+        "JVM",
+        "dotnet",
+        "garbage-collection",
+        "memory-management",
+        "performance"
+      ],
+      "scheduled_at": "2026-05-29T04:01:38Z",
       "status": "pending"
     }
   ]
