@@ -17771,7 +17771,7 @@
         "production"
       ],
       "scheduled_at": "2026-05-29T07:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Mastering Apache Kafka Topic Partitioning and Consumer Group Rebalancing for Production-Ready Data Streams",
