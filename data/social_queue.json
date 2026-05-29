@@ -17673,7 +17673,7 @@
         "Production Patterns"
       ],
       "scheduled_at": "2026-05-29T00:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Architecting Event-Driven Microservices with Kafka and Schema Registry: Ensuring Data Consistency in Production Environments",
