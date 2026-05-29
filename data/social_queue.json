@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-29T17:01:38Z",
+  "last_scheduled_at": "2026-05-29T18:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -17911,6 +17911,20 @@
         "devops"
       ],
       "scheduled_at": "2026-05-29T17:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Robust Payment Systems: Strategies for High-Volume Scalability and Enterprise-Grade Security",
+      "url": "https://martinuke0.github.io/posts/2026-05-29-architecting-robust-payment-systems-strategies-for-high-volume-scalability-and-enterprise-grade-security/",
+      "social_hook": "> TL;DR — Building a payment system that processes millions of transactions per second requires a decoupled, event‑driven architecture, strategic sharding, and immutable audit trails. Pair those patterns with zero‑trust networking, automated PCI‑DSS controls, and observability pipelines to achieve enterprise‑grade security.\n\nPayment platforms sit at the intersection of massive throughput and stringent compliance. A single latency spike can translate into lost revenue, while a minor security lapse can expose billions of dollars in fraud. This article walks through the concrete architectural blocks, scaling patterns, and security mechanisms that power today’s high‑volume payment engines—from Stripe’s global network to the open‑source tools that underpin them.\n\n1. Throughput – Ability to ingest, validate, and settle millions of transactions per second (TPS).",
+      "tags": [
+        "payment",
+        "scalability",
+        "security",
+        "architecture",
+        "distributed-systems"
+      ],
+      "scheduled_at": "2026-05-29T18:01:38Z",
       "status": "pending"
     }
   ]
