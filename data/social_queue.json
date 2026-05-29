@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-30T01:01:38Z",
+  "last_scheduled_at": "2026-05-30T02:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -18023,6 +18023,20 @@
         "patterns"
       ],
       "scheduled_at": "2026-05-30T01:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering cgroups v2 Resource Isolation: Implementation Strategies for Production Workload Management",
+      "url": "https://martinuke0.github.io/posts/2026-05-29-mastering-cgroups-v2-resource-isolation-implementation-strategies-for-production-workload-management/",
+      "social_hook": "> TL;DR — cgroups v2 gives you a single unified hierarchy, fine‑grained controllers, and tighter integration with systemd. By enabling it at boot, defining per‑service resource profiles, and wiring metrics into Prometheus, you can reliably isolate CPU, memory, and I/O for any production workload—from a sidecar container to a stateful database.\n\nResource isolation is no longer a nicety; it’s a prerequisite for predictable latency, cost control, and safe multi‑tenant deployments. While many teams still cling to cgroups v1, the kernel’s v2 implementation eliminates the “multiple‑hierarchy” nightmare and provides a clean API that modern orchestrators like Kubernetes already understand. This post walks through the architecture of cgroups v2, shows how to turn it on in a production Linux host, and presents reusable patterns you can copy into your own CI/CD pipeline.\n\ncgroups v1 exposed each controller (cpu, memory, blkio, etc.) as a separate virtual filesystem. On a busy host you could end up with dozens of mount points, each with its own hierarchy, making it easy to mis‑configure or double‑count resources. The kernel team introduced cgroups v2 to address those pain points:",
+      "tags": [
+        "cgroups",
+        "linux",
+        "resource-management",
+        "kubernetes",
+        "devops"
+      ],
+      "scheduled_at": "2026-05-30T02:01:38Z",
       "status": "pending"
     }
   ]
