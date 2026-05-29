@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-29T18:01:38Z",
+  "last_scheduled_at": "2026-05-29T19:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -17925,6 +17925,20 @@
         "distributed-systems"
       ],
       "scheduled_at": "2026-05-29T18:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Event-Driven Microservices with Kafka and Schema Registry: A Deep Dive into Data Governance",
+      "url": "https://martinuke0.github.io/posts/2026-05-29-architecting-event-driven-microservices-with-kafka-and-schema-registry-a-deep-dive-into-data-governance/",
+      "social_hook": "> TL;DR — Building event‑driven microservices on Kafka demands a disciplined schema strategy. By pairing the Confluent Schema Registry with clear governance policies, you get versioned contracts, backward‑compatible evolution, and runtime validation that keep downstream services stable at scale.\n\nEvent‑driven architectures have moved from “nice‑to‑have” experiments to the backbone of many high‑throughput platforms—think fraud detection pipelines at Stripe, recommendation engines at Netflix, or telemetry ingestion at Uber. Kafka provides the durable log, but without a contract layer the ecosystem quickly devolves into “fire‑and‑forget” integrations that break with the slightest schema change. This post walks through a production‑grade design that couples Kafka with the Confluent Schema Registry, embeds data‑governance checks into CI/CD, and demonstrates concrete patterns you can copy into your own services.\n\nKafka’s strength lies in its immutable log and high‑throughput publish/subscribe model. However, topics are just byte arrays; the broker does not enforce any structure. In a microservice world where dozens of services produce and consume the same events, the lack of a shared contract leads to three common pain points:",
+      "tags": [
+        "Kafka",
+        "Microservices",
+        "Event-Driven",
+        "Schema Registry",
+        "Data Governance"
+      ],
+      "scheduled_at": "2026-05-29T19:01:38Z",
       "status": "pending"
     }
   ]
