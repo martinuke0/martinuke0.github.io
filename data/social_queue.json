@@ -17855,7 +17855,7 @@
         "compliance"
       ],
       "scheduled_at": "2026-05-29T13:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Mastering the Thundering Herd Problem: Mitigation Strategies, Cache Patterns, and Production-Ready Architectures",
