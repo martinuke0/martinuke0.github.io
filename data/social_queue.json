@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-29T08:01:38Z",
+  "last_scheduled_at": "2026-05-29T09:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -17785,6 +17785,20 @@
         "Production"
       ],
       "scheduled_at": "2026-05-29T08:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Deep Dive into the Go Work-Stealing Scheduler: Internal Architecture, Mechanics, and Runtime Performance",
+      "url": "https://martinuke0.github.io/posts/2026-05-29-deep-dive-into-the-go-work-stealing-scheduler-internal-architecture-mechanics-and-runtime-performance/",
+      "social_hook": "> TL;DR — Go’s scheduler is a lightweight, work‑stealing system that balances goroutine execution across OS threads. Understanding its runqueue layout, stealing algorithm, and interaction with `GOMAXPROCS` lets you tune latency‑critical services and avoid common pitfalls like thread starvation.\n\nGo’s runtime has been quietly evolving since the language’s inception, yet the work‑stealing scheduler remains the beating heart of every production‑grade Go service. In this post we unpack the scheduler’s internal architecture, walk through the exact stealing mechanics, and benchmark the impact of various tuning knobs on latency‑sensitive workloads. By the end you’ll have a concrete mental model you can apply when profiling a high‑throughput API or when deciding whether to adjust `GOMAXPROCS` in a containerized deployment.\n\nGo’s scheduler is a cooperative, preemptive system that maps millions of lightweight goroutines onto a relatively small pool of OS threads (called Ms). The design borrows heavily from the Cilk and TBB work‑stealing models, but it is tightly coupled with Go’s garbage collector, network poller, and the language’s built‑in concurrency primitives.",
+      "tags": [
+        "go",
+        "scheduler",
+        "concurrency",
+        "performance",
+        "runtime"
+      ],
+      "scheduled_at": "2026-05-29T09:01:38Z",
       "status": "pending"
     }
   ]
