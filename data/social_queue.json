@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-29T20:01:38Z",
+  "last_scheduled_at": "2026-05-29T21:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -17953,6 +17953,20 @@
         "cloud"
       ],
       "scheduled_at": "2026-05-29T20:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Low-Latency Cross-Regional Replication for Vector Search Clusters: Design Patterns and Implementation Strategy",
+      "url": "https://martinuke0.github.io/posts/2026-05-29-architecting-low-latency-cross-regional-replication-for-vector-search-clusters-design-patterns-and-implementation-strategy/",
+      "social_hook": "> TL;DR — By pairing an active‑active Milvus deployment with a Kafka‑driven change‑data capture (CDC) pipeline and leveraging GCP’s global load balancer, you can keep vector indexes in sync across continents with sub‑10 ms read latency and predictable write latency.\n\nCross‑regional vector search is becoming a core capability for recommendation engines, similarity‑based fraud detection, and AI‑augmented search. Yet many teams struggle to keep embeddings fresh while delivering millisecond‑level query responses to users on opposite continents. This post dissects the problem, presents a battle‑tested architecture, and supplies concrete configuration snippets you can copy into your own CI/CD pipeline.\n\n1. Stateful Index Updates – Vector databases store high‑dimensional indexes that must be rebuilt or incrementally updated whenever a new embedding arrives.",
+      "tags": [
+        "vector-search",
+        "replication",
+        "low-latency",
+        "architecture",
+        "cloud"
+      ],
+      "scheduled_at": "2026-05-29T21:01:38Z",
       "status": "pending"
     }
   ]
