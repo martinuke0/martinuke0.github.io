@@ -17687,7 +17687,7 @@
         "data-consistency"
       ],
       "scheduled_at": "2026-05-29T01:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Architecting Robust Payment Systems: Engineering for High-Stakes Scalability, Security, and Fault Tolerance",
