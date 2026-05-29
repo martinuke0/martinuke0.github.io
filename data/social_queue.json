@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-29T07:01:38Z",
+  "last_scheduled_at": "2026-05-29T08:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -17771,6 +17771,20 @@
         "production"
       ],
       "scheduled_at": "2026-05-29T07:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Apache Kafka Topic Partitioning and Consumer Group Rebalancing for Production-Ready Data Streams",
+      "url": "https://martinuke0.github.io/posts/2026-05-29-mastering-apache-kafka-topic-partitioning-and-consumer-group-rebalancing-for-production-ready-data-streams/",
+      "social_hook": "> TL;DR — Proper partition design and controlled consumer group rebalancing are the backbone of resilient Kafka pipelines. Use key‑based partitioning, static membership, and incremental cooperative rebalance to avoid latency spikes and data loss in production.\n\nKafka powers everything from click‑stream analytics to financial transaction processing, but a mis‑designed partition layout or a chaotic rebalance can cripple a system that otherwise looks healthy. This post walks through the anatomy of Kafka topic partitioning, the mechanics of consumer group rebalancing, and battle‑tested patterns that let you ship data streams at scale without surprise downtime.\n\nA Kafka topic is split into partitions, each an ordered, immutable log. Partitions give you:",
+      "tags": [
+        "Kafka",
+        "Topic Partitioning",
+        "Consumer Groups",
+        "Streaming",
+        "Production"
+      ],
+      "scheduled_at": "2026-05-29T08:01:38Z",
       "status": "pending"
     }
   ]
