@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-29T13:01:38Z",
+  "last_scheduled_at": "2026-05-29T14:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -17855,6 +17855,20 @@
         "compliance"
       ],
       "scheduled_at": "2026-05-29T13:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering the Thundering Herd Problem: Mitigation Strategies, Cache Patterns, and Production-Ready Architectures",
+      "url": "https://martinuke0.github.io/posts/2026-05-29-mastering-the-thundering-herd-problem-mitigation-strategies-cache-patterns-and-production-ready-architectures/",
+      "social_hook": "> TL;DR — The thundering herd problem spikes latency and crashes services when many clients simultaneously miss a cache or restart. By combining staggered retries, jittered expirations, and a layered architecture built around pull‑based back‑pressure, you can eliminate the herd while keeping latency low and throughput high.\n\nIn production, a sudden surge of identical requests—often triggered by a cache miss, a deployment, or a scheduled job—can overwhelm downstream services. The result is a cascade of timeouts, thread pool exhaustion, and sometimes a full‑blown outage. This post walks through the root causes, shows concrete mitigation patterns, and presents a production‑ready architecture that you can copy into any Kubernetes‑based microservice environment.\n\nThe thundering herd problem occurs when a large number of processes or threads simultaneously attempt to perform the same expensive operation—typically a cache read that results in a miss, a database query, or a call to an external API. The classic example is a web service that caches user‑profile data; when the cache entry expires, every request for that user’s profile hits the database at once, overloading it.",
+      "tags": [
+        "caching",
+        "distributed-systems",
+        "performance",
+        "architecture",
+        "kubernetes"
+      ],
+      "scheduled_at": "2026-05-29T14:01:38Z",
       "status": "pending"
     }
   ]
