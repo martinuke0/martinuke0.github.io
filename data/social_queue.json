@@ -18037,7 +18037,7 @@
         "devops"
       ],
       "scheduled_at": "2026-05-30T02:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Architecting Asynchronous Consensus Protocols for Multi-Agent Decision Engines: From Theory to Production-Ready Systems",
