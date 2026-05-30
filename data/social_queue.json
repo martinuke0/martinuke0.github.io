@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-30T12:01:38Z",
+  "last_scheduled_at": "2026-05-30T13:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -18177,6 +18177,20 @@
         "Production"
       ],
       "scheduled_at": "2026-05-30T12:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing the Saga Pattern for Distributed Transactions: Architecting Data Consistency in Complex Commerce Workflows",
+      "url": "https://martinuke0.github.io/posts/2026-05-30-implementing-the-saga-pattern-for-distributed-transactions-architecting-data-consistency-in-complex-commerce-workflows/",
+      "social_hook": "> TL;DR — The Saga pattern lets you coordinate distributed transactions without a global lock, using either choreography or orchestration. By modeling each step as an independent, compensatable action and wiring them through a reliable message bus (Kafka is a common choice), you can achieve eventual consistency for complex e‑commerce order flows while keeping services loosely coupled.\n\nIn today’s hyper‑scale commerce platforms, a single “checkout” can touch inventory, pricing, payment, fraud, shipping, and notifications—each owned by a different microservice. Traditional two‑phase commit is a poor fit: it adds latency, requires a shared database, and becomes a single point of failure. The Saga pattern replaces the monolithic transaction with a series of local, autonomous actions and explicit compensation steps, delivering resilience, observability, and operational agility. This post walks through the pattern, shows how to design a real‑world order saga, and provides production‑ready code and monitoring tips.\n\nIf any step fails, the whole operation must roll back to a clean state, otherwise you end up with ghost inventory, double‑charged cards, or orphaned shipments. In a monolith you could wrap everything in a single ACID transaction, but in a microservice world each service owns its own database, follows its own scaling curve, and often lives behind different network zones. The “distributed transaction” problem becomes a coordination problem.",
+      "tags": [
+        "saga",
+        "distributed-transactions",
+        "microservices",
+        "ecommerce",
+        "architecture"
+      ],
+      "scheduled_at": "2026-05-30T13:01:38Z",
       "status": "pending"
     }
   ]
