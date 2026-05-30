@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-30T10:01:38Z",
+  "last_scheduled_at": "2026-05-30T11:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -18149,6 +18149,20 @@
         "microservices"
       ],
       "scheduled_at": "2026-05-30T10:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Sentry: Implementing Modern Error Monitoring and Full-Stack Observability for Production Systems",
+      "url": "https://martinuke0.github.io/posts/2026-05-30-mastering-sentry-implementing-modern-error-monitoring-and-full-stack-observability-for-production-systems/",
+      "social_hook": "> TL;DR — Sentry can become the central nervous system for error monitoring and observability when you wire it into every tier of your stack, use its performance tracing to correlate failures, and apply production‑grade patterns like multi‑region DSNs and adaptive sampling.\n\nProduction‑grade systems can no longer afford to treat errors as after‑thoughts. Modern users expect sub‑second recovery, and the cost of a single uncaught exception can cascade into revenue loss, brand damage, and costly firefighting. Sentry offers a cloud‑native platform that unifies crash reporting, performance tracing, and release health, giving engineers a single pane of glass for the entire request lifecycle. This post walks through the architectural considerations, concrete integration steps for Python, JavaScript, and mobile, and the operational patterns you need to keep Sentry performant at scale.\n\n Speed of detection** – In a microservice world, a failure in one service can trigger a cascade across dozens of downstream APIs. Real‑time alerts cut mean‑time‑to‑detect (MTTD) from minutes to seconds.",
+      "tags": [
+        "observability",
+        "error-monitoring",
+        "sentry",
+        "devops",
+        "production"
+      ],
+      "scheduled_at": "2026-05-30T11:01:38Z",
       "status": "pending"
     }
   ]
