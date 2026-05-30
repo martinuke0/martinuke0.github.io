@@ -18331,7 +18331,7 @@
         "Architecture"
       ],
       "scheduled_at": "2026-05-30T23:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Mastering OpenTelemetry Context Propagation: Implementation, Header Standards, and Distributed Trace Continuity across Microservices",
