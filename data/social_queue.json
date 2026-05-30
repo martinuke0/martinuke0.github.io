@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-31T02:01:38Z",
+  "last_scheduled_at": "2026-05-31T03:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -18373,6 +18373,21 @@
         "mobile"
       ],
       "scheduled_at": "2026-05-31T02:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Deep Dive into QUIC Stream Multiplexing: Eliminating Head-of-Line Blocking for High-Performance Networking",
+      "url": "https://martinuke0.github.io/posts/2026-05-30-deep-dive-into-quic-stream-multiplexing-eliminating-head-of-line-blocking-for-high-performance-networking/",
+      "social_hook": "> TL;DR — QUIC’s stream multiplexing gives each logical stream its own ordering, so a loss on one stream never stalls others. The result is dramatically lower latency and higher throughput for modern micro‑services, CDNs, and gaming back‑ends.\n\nIn the last few years, QUIC has moved from a Google experiment to a cornerstone of the Internet stack, now standardized in RFC 9000 and supported by browsers, CDNs, and cloud providers. While most articles focus on QUIC’s 0‑RTT handshake or its built‑in congestion control, the real performance hero is stream multiplexing—the ability to carry dozens, even hundreds, of independent streams over a single UDP connection without the dreaded head‑of‑line (HOL) blocking that plagues TCP/TLS. This post walks through the protocol mechanics, production‑grade architecture patterns, and concrete code samples you can copy into your own services.\n\nTCP delivers a byte‑stream: every byte is ordered, and loss forces the sender to retransmit from the missing segment onward. When TLS runs on top, the encrypted records inherit the same ordering guarantees. In a typical HTTP/2 over TCP scenario, multiple logical streams are interleaved in the same TCP connection, but the underlying transport still enforces a single order. If a packet is lost on stream 3, the entire connection stalls until the missing data is recovered, even though streams 1 and 2 are perfectly fine. This is the classic HOL blocking problem.",
+      "tags": [
+        "QUIC",
+        "Networking",
+        "Performance",
+        "Stream Multiplexing",
+        "Head-of-Line Blocking",
+        "Protocol Engineering"
+      ],
+      "scheduled_at": "2026-05-31T03:01:38Z",
       "status": "pending"
     }
   ]
