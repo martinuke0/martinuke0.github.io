@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-30T16:01:38Z",
+  "last_scheduled_at": "2026-05-30T17:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -18233,6 +18233,20 @@
         "scalability"
       ],
       "scheduled_at": "2026-05-30T16:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Deep Dive into Linux I/O Evolution: From epoll to io_uring Architecture and Performance Patterns",
+      "url": "https://martinuke0.github.io/posts/2026-05-30-deep-dive-into-linux-io-evolution-from-epoll-to-io_uring-architecture-and-performance-patterns/",
+      "social_hook": "> TL;DR — epoll has served Linux networking for a decade, but its edge‑triggered model forces extra syscalls and state tracking. io_uring replaces that pattern with a single, lock‑free submission/completion queue, cutting latency by 30‑70 % in real‑world services. Adopt io_uring for high‑throughput workloads, but keep epoll alive for legacy code paths and rare edge cases.\n\nLinux’s asynchronous I/O story reads like a product roadmap: early polling mechanisms, the event‑driven epoll API, and now the revolutionary io_uring interface. For engineers who ship billions of requests per day, the difference between “good enough” and “optimal” often hinges on how many kernel‑user transitions a request incurs. This post walks through the architecture of epoll and io_uring, highlights production‑ready patterns, and backs the discussion with concrete benchmark data.\n\nWhen the kernel first introduced select(2) and poll(2), developers were forced to scan every file descriptor on each iteration—a O(N) operation that quickly became a bottleneck for servers handling thousands of sockets. The kernel responded with epoll(7) in 2.5, providing an O(1) readiness notification model.",
+      "tags": [
+        "linux",
+        "io",
+        "epoll",
+        "io_uring",
+        "performance"
+      ],
+      "scheduled_at": "2026-05-30T17:01:38Z",
       "status": "pending"
     }
   ]
