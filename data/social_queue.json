@@ -18205,7 +18205,7 @@
         "architecture"
       ],
       "scheduled_at": "2026-05-30T14:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Implementing Concurrent Garbage Collection: Tri-Color Marking Architecture and Production Heap Management Strategies",
