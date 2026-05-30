@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-31T00:01:38Z",
+  "last_scheduled_at": "2026-05-31T01:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -18345,6 +18345,20 @@
         "Observability"
       ],
       "scheduled_at": "2026-05-31T00:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing WebGPU-Accelerated Quantization for Local Llama Inference: A Deep Dive into High-Performance Browser Architectures",
+      "url": "https://martinuke0.github.io/posts/2026-05-30-implementing-webgpu-accelerated-quantization-for-local-llama-inference-a-deep-dive-into-high-performance-browser-architectures/",
+      "social_hook": "> TL;DR — By quantizing a Llama checkpoint to 8‑bit integers and off‑loading the matmul kernels to WebGPU, you can achieve sub‑second token generation on a mid‑range laptop GPU, all without leaving the browser. The post walks through the complete stack: model preparation, WGSL kernels, JavaScript glue, and production‑grade patterns like streaming I/O and fallback CPU paths.\n\nLocal large‑language‑model (LLM) inference has traditionally been the domain of native binaries or cloud GPUs. Recent advances in the WebGPU API and the rise of 8‑bit quantization make it possible to run a full‑size Llama 2‑7B model directly in a user’s browser, keeping data private and latency predictable. This article dissects the architecture, shows concrete WGSL kernels, and provides the engineering patterns you need to ship a production‑ready inference service inside a web app.\n\nWebGPU is the first browser graphics/compute API that exposes explicit GPU resource management and shader‑level programming comparable to Vulkan or DirectX 12. For LLM inference the two most valuable properties are:",
+      "tags": [
+        "WebGPU",
+        "Quantization",
+        "Llama",
+        "BrowserPerformance",
+        "MachineLearning"
+      ],
+      "scheduled_at": "2026-05-31T01:01:38Z",
       "status": "pending"
     }
   ]
