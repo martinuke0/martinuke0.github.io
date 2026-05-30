@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-30T05:01:38Z",
+  "last_scheduled_at": "2026-05-30T06:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -18079,6 +18079,20 @@
         "Transaction Isolation"
       ],
       "scheduled_at": "2026-05-30T05:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Deep Dive into Copy-on-Write Semantics: Memory Management and Performance in Modern Linux Kernels",
+      "url": "https://martinuke0.github.io/posts/2026-05-30-deep-dive-into-copy-on-write-semantics-memory-management-and-performance-in-modern-linux-kernels/",
+      "social_hook": "> TL;DR — Copy‑on‑Write (COW) lets the Linux kernel share physical pages between processes until one writes, at which point the kernel clones the page. Understanding the page‑fault path, the `mm_struct` layout, and the performance characteristics of COW is essential for building fork‑heavy services, container runtimes, and memory‑intensive workloads.\n\nFork‑heavy applications—think web servers spawning per‑request workers, container runtimes launching hundreds of short‑lived containers, or databases that rely on snapshotting—depend on the kernel’s ability to avoid copying memory unnecessarily. Linux achieves this with copy‑on‑write, a subtle but powerful semantic baked into the virtual memory (VM) subsystem. In this post we’ll peel back the abstraction layers, walk through the kernel’s COW implementation, measure its latency impact, and surface production‑grade patterns that let you harness COW safely.\n\n1. Sharing Phase – When a process calls `fork()`, the child receives a new `mm_struct` that points to the same set of page‑frame objects as the parent. All pages are marked read‑only in both address spaces.",
+      "tags": [
+        "linux",
+        "memory-management",
+        "copy-on-write",
+        "kernel",
+        "performance"
+      ],
+      "scheduled_at": "2026-05-30T06:01:38Z",
       "status": "pending"
     }
   ]
