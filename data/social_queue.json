@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-30T20:01:38Z",
+  "last_scheduled_at": "2026-05-30T21:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -18289,6 +18289,20 @@
         "scalability"
       ],
       "scheduled_at": "2026-05-30T20:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing TCP BBR Congestion Control: Optimizing Network Throughput and Latency for Production Systems",
+      "url": "https://martinuke0.github.io/posts/2026-05-30-implementing-tcp-bbr-congestion-control-optimizing-network-throughput-and-latency-for-production-systems/",
+      "social_hook": "> TL;DR — BBR replaces loss‑based congestion control with a model‑based approach, delivering up to 30 % higher throughput and 40 % lower latency on typical cloud workloads. Deploy it by upgrading the kernel, enabling the `bbr` algorithm via `sysctl`, and instrumenting RTT and pacing metrics with Prometheus or eBPF.\n\nNetwork performance is often the silent bottleneck behind sluggish APIs, noisy video streams, and expensive cloud egress charges. While most engineers reach for application‑level caching or CDN tricks first, the transport layer can yield dramatic gains with little code change. This post walks through the practical steps to roll out TCP BBR (Bottleneck Bandwidth and Round‑Trip propagation time) in a production environment, covering kernel requirements, sysctl tuning, architectural patterns, and observability best practices.\n\nTraditional TCP congestion control algorithms—Cubic on Linux, Reno on older systems—react to packet loss as a proxy for congestion. In data‑center and cloud environments where buffers are deep and loss is rare, these algorithms can overshoot the available bandwidth, fill queues, and inflate latency (the infamous “bufferbloat”). BBR, introduced by Google in 2016 and standardized in RFC 8890, estimates the path’s bottleneck bandwidth and minimum RTT, then paces packets to match that envelope.",
+      "tags": [
+        "tcp",
+        "bbr",
+        "congestion-control",
+        "network",
+        "production"
+      ],
+      "scheduled_at": "2026-05-30T21:01:38Z",
       "status": "pending"
     }
   ]
