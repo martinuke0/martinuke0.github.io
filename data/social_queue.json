@@ -18135,7 +18135,7 @@
         "Storage Architecture"
       ],
       "scheduled_at": "2026-05-30T09:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Implementing Circuit Breakers in Service Meshes: Architecture, Fault Tolerance, and Production-Ready Patterns",
