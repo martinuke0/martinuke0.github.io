@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-30T23:01:38Z",
+  "last_scheduled_at": "2026-05-31T00:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -18331,6 +18331,20 @@
         "Architecture"
       ],
       "scheduled_at": "2026-05-30T23:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering OpenTelemetry Context Propagation: Implementation, Header Standards, and Distributed Trace Continuity across Microservices",
+      "url": "https://martinuke0.github.io/posts/2026-05-30-mastering-opentelemetry-context-propagation-implementation-header-standards-and-distributed-trace-continuity-across-microservices/",
+      "social_hook": "> TL;DR — Proper context propagation is the glue that keeps a distributed trace intact. By using OpenTelemetry’s SDKs, adhering to the W3C `traceparent` header (or B3 when needed), and wiring propagation into ingress/egress points, you can guarantee end‑to‑end visibility across any microservice topology.\n\nIn modern cloud‑native environments, a single user request often hops through dozens of services, queues, and serverless functions before a response is produced. Without reliable context propagation, each hop generates an isolated span, breaking the story that developers need to debug latency, detect cascading failures, and understand business‑level flows. This post walks through the concrete steps to implement OpenTelemetry propagation, decodes the most common header standards, and presents production‑ready architectural patterns that keep traces alive across heterogeneous stacks.\n\n Root‑cause debugging** – When a latency spike appears, a continuous trace lets you pinpoint the exact service and code path responsible.",
+      "tags": [
+        "OpenTelemetry",
+        "DistributedTracing",
+        "Microservices",
+        "ContextPropagation",
+        "Observability"
+      ],
+      "scheduled_at": "2026-05-31T00:01:38Z",
       "status": "pending"
     }
   ]
