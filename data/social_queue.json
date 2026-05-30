@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-30T07:01:38Z",
+  "last_scheduled_at": "2026-05-30T08:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -18107,6 +18107,20 @@
         "production"
       ],
       "scheduled_at": "2026-05-30T07:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Redash for Enterprise Analytics: Architecture, Deployment, and Production-Ready Data Visualization Patterns",
+      "url": "https://martinuke0.github.io/posts/2026-05-30-mastering-redash-for-enterprise-analytics-architecture-deployment-and-production-ready-data-visualization-patterns/",
+      "social_hook": "> TL;DR — Redash can be turned into a robust, enterprise‑grade analytics platform by separating query execution, using container orchestration (Kubernetes or Docker Swarm), and applying a handful of visualization best‑practices such as data source caching, row‑level security, and asynchronous query handling.\n\nEnterprises that rely on ad‑hoc SQL dashboards often start with a single‑node Redash instance and quickly hit limits: query latency spikes, credential sprawl, and brittle upgrades. This post walks through the core components of Redash’s architecture, shows how to deploy it on modern infrastructure, and distills production‑ready patterns that keep dashboards fast, secure, and maintainable at scale.\n\nRedash’s architecture is intentionally modular. Understanding the moving parts helps you design a system that can grow from a handful of users to tens of thousands.",
+      "tags": [
+        "Redash",
+        "DataVisualization",
+        "AnalyticsArchitecture",
+        "Kubernetes",
+        "EnterpriseBI"
+      ],
+      "scheduled_at": "2026-05-30T08:01:38Z",
       "status": "pending"
     }
   ]
