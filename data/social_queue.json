@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-30T03:01:38Z",
+  "last_scheduled_at": "2026-05-30T04:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -18051,6 +18051,20 @@
         "production"
       ],
       "scheduled_at": "2026-05-30T03:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Apache Kafka Topic Partitioning and Consumer Group Rebalancing: From Basics to Production-Ready Pipelines",
+      "url": "https://martinuke0.github.io/posts/2026-05-30-mastering-apache-kafka-topic-partitioning-and-consumer-group-rebalancing-from-basics-to-production-ready-pipelines/",
+      "social_hook": "> TL;DR — Effective partitioning and smooth consumer‑group rebalancing are the twin pillars of a scalable Kafka pipeline. Choose keys that spread load evenly, configure the right rebalance protocol, and instrument metrics to keep rebalances from becoming a production outage.\n\nKafka is the de‑facto backbone for event‑driven architectures, yet many teams stumble when they move from a single‑digit‑producer proof‑of‑concept to a multi‑region, high‑throughput production system. The root cause is often a mismatch between how topics are partitioned and how consumer groups are rebalanced under load. This post walks you through the fundamentals, then scales up to concrete patterns you can copy into your own pipelines.\n\nA Kafka partition is an ordered, immutable log that lives on a single broker. Each record in a partition has an offset, which is the only way to uniquely identify it. Partitions give you two critical properties:",
+      "tags": [
+        "kafka",
+        "partitioning",
+        "consumer-groups",
+        "scalability",
+        "architecture"
+      ],
+      "scheduled_at": "2026-05-30T04:01:38Z",
       "status": "pending"
     }
   ]
