@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-30T14:01:38Z",
+  "last_scheduled_at": "2026-05-30T15:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -18205,6 +18205,20 @@
         "architecture"
       ],
       "scheduled_at": "2026-05-30T14:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing Concurrent Garbage Collection: Tri-Color Marking Architecture and Production Heap Management Strategies",
+      "url": "https://martinuke0.github.io/posts/2026-05-30-implementing-concurrent-garbage-collection-tri-color-marking-architecture-and-production-heap-management-strategies/",
+      "social_hook": "> TL;DR — Tri‑color marking lets a collector run alongside mutators with only micro‑second pauses. By combining a precise write barrier, incremental mark phases, and a generational heap layout, you can keep pause times below 10 ms even on multi‑core workloads.\n\nConcurrent garbage collection (GC) used to be a research curiosity; today it powers billions of requests per day in services built on OpenJDK, Go, and .NET. The secret sauce is the tri‑color marking algorithm, a disciplined way to traverse object graphs while the application keeps allocating and mutating. This post unpacks the algorithm, shows how production runtimes wire it together, and shares pragmatic heap‑management patterns that keep latency predictable.\n\nThe invariant that guarantees correctness is “no black object points to a white object.” If this holds when the mark phase ends, any remaining white objects are unreachable and safe to collect.",
+      "tags": [
+        "garbage-collection",
+        "concurrency",
+        "runtime",
+        "systems-engineering",
+        "java"
+      ],
+      "scheduled_at": "2026-05-30T15:01:38Z",
       "status": "pending"
     }
   ]
