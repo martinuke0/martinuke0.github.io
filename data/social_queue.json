@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-30T08:01:38Z",
+  "last_scheduled_at": "2026-05-30T09:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -18121,6 +18121,20 @@
         "EnterpriseBI"
       ],
       "scheduled_at": "2026-05-30T08:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing RocksDB Performance: A Deep Dive into Leveled and Tiered Compaction Strategies",
+      "url": "https://martinuke0.github.io/posts/2026-05-30-optimizing-rocksdb-performance-a-deep-dive-into-leveled-and-tiered-compaction-strategies/",
+      "social_hook": "> TL;DR — Leveled compaction gives predictable read latency for hot workloads, while tiered compaction maximizes write throughput for append‑only streams. By profiling your write pattern, sizing write buffers, and tuning `target_file_size_base` and `max_bytes_for_level_base`, you can achieve up to 2‑3× higher QPS on the same hardware.\n\nRocksDB has become the go‑to embedded store for high‑performance services ranging from Kafka log segments to Facebook’s social graph. Yet many teams hit a wall when their write‑heavy pipelines start stalling or their read latency spikes. The root cause is almost always compaction: how the engine reorganizes immutable SST files on‑disk. This post walks through the two primary compaction modes—Leveled and Tiered—explains the underlying architecture, and delivers a checklist of concrete knobs you can turn in a production environment.\n\nRocksDB stores data in a Log‑Structured Merge (LSM) tree. Writes land in an in‑memory memtable, are flushed to immutable SST files, and later merged (compacted) to keep read paths short. Compaction is why RocksDB can sustain millions of writes per second, but it also consumes CPU, I/O, and space.",
+      "tags": [
+        "RocksDB",
+        "Compaction",
+        "Performance Tuning",
+        "Data Engineering",
+        "Storage Architecture"
+      ],
+      "scheduled_at": "2026-05-30T09:01:38Z",
       "status": "pending"
     }
   ]
