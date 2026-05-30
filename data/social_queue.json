@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-30T13:01:38Z",
+  "last_scheduled_at": "2026-05-30T14:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -18191,6 +18191,20 @@
         "architecture"
       ],
       "scheduled_at": "2026-05-30T13:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Distributed Vector Databases: Scalability Patterns and Infrastructure for High-Volume Semantic Search",
+      "url": "https://martinuke0.github.io/posts/2026-05-30-architecting-distributed-vector-databases-scalability-patterns-and-infrastructure-for-high-volume-semantic-search/",
+      "social_hook": "> TL;DR — Distributed vector databases can sustain billions of embeddings and sub‑100 ms latency by combining deterministic sharding, multi‑region replication, and purpose‑built storage engines. The post walks through concrete architecture diagrams, scaling patterns, and production‑grade infrastructure knobs you can apply today.\n\nSemantic search has moved from research notebooks to mission‑critical user‑facing services—think product recommendation, document retrieval, and AI‑augmented chat. At that scale, a single‑node vector store quickly becomes a bottleneck: memory pressure, I/O saturation, and network latency all conspire to break SLAs. This article shows how to design a distributed vector database that scales horizontally, stays highly available, and integrates cleanly with existing data pipelines.\n\n Deterministic sharding** (e.g., hash of a primary key) guarantees that a given vector always lands on the same node, simplifying updates and deletions.",
+      "tags": [
+        "vector-database",
+        "scalability",
+        "semantic-search",
+        "distributed-systems",
+        "architecture"
+      ],
+      "scheduled_at": "2026-05-30T14:01:38Z",
       "status": "pending"
     }
   ]
