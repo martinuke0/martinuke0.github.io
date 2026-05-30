@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-31T01:01:38Z",
+  "last_scheduled_at": "2026-05-31T02:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -18359,6 +18359,20 @@
         "MachineLearning"
       ],
       "scheduled_at": "2026-05-31T01:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Mobile Device Management: Architecture, Security, and Lifecycle Strategies for Enterprise Endpoints",
+      "url": "https://martinuke0.github.io/posts/2026-05-30-mastering-mobile-device-management-architecture-security-and-lifecycle-strategies-for-enterprise-endpoints/",
+      "social_hook": "> TL;DR — Effective MDM hinges on a three‑tier architecture (device, edge gateway, cloud console), zero‑trust security policies, and automated lifecycle hooks that keep devices compliant from enrollment to retirement.\n\nEnterprises today juggle dozens of operating systems, regulatory regimes, and BYOD expectations. A well‑engineered Mobile Device Management (MDM) platform can turn that chaos into a predictable, auditable flow. In this post we break down the canonical architecture, walk through hardened security patterns, and outline end‑to‑end lifecycle strategies that keep your fleet compliant while minimizing manual toil.\n\nA production‑grade MDM stack is rarely a single monolith. Most vendors (Microsoft Intune, VMware Workspace ONE, IBM MaaS360) expose three logical layers:",
+      "tags": [
+        "MDM",
+        "security",
+        "architecture",
+        "enterprise",
+        "mobile"
+      ],
+      "scheduled_at": "2026-05-31T02:01:38Z",
       "status": "pending"
     }
   ]
