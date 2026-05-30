@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-30T19:01:38Z",
+  "last_scheduled_at": "2026-05-30T20:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -18275,6 +18275,20 @@
         "performance engineering"
       ],
       "scheduled_at": "2026-05-30T19:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing Liter-LLM: Architecting Rust-Powered Polyglot Bindings for Multi-Provider LLM Integration at Scale",
+      "url": "https://martinuke0.github.io/posts/2026-05-30-implementing-liter-llm-architecting-rust-powered-polyglot-bindings-for-multi-provider-llm-integration-at-scale/",
+      "social_hook": "> TL;DR — Liter‑LLM uses Rust as a zero‑cost core to expose idiomatic bindings for Python, JavaScript, and Go, letting production teams route requests to OpenAI, Anthropic, or Cohere without rewriting business logic. The design hinges on async Tokio, connection pooling, and a thin FFI layer that scales horizontally on Kubernetes.\n\nLarge language model (LLM) providers each ship their own API quirks, authentication schemes, and rate‑limit policies. In a micro‑service environment that must stay responsive under burst traffic, duplicating client code across languages quickly becomes a maintenance nightmare. Liter‑LLM solves that problem by centralising the network, retry, and telemetry logic in a single Rust library, then exposing thin, language‑native bindings. The result is a polyglot stack that feels native to each consumer while guaranteeing the performance and safety guarantees that Rust offers.\n\n1. Vendor lock‑in reduction – A single codebase can switch from OpenAI to Anthropic (or run both) with a config change.",
+      "tags": [
+        "rust",
+        "llm",
+        "polyglot",
+        "microservices",
+        "scalability"
+      ],
+      "scheduled_at": "2026-05-30T20:01:38Z",
       "status": "pending"
     }
   ]
