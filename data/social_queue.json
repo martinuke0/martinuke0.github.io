@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-30T09:01:38Z",
+  "last_scheduled_at": "2026-05-30T10:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -18135,6 +18135,20 @@
         "Storage Architecture"
       ],
       "scheduled_at": "2026-05-30T09:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing Circuit Breakers in Service Meshes: Architecture, Fault Tolerance, and Production-Ready Patterns",
+      "url": "https://martinuke0.github.io/posts/2026-05-30-implementing-circuit-breakers-in-service-meshes-architecture-fault-tolerance-and-production-ready-patterns/",
+      "social_hook": "> TL;DR — Circuit breakers in a service mesh act as a thin, programmable guard that watches upstream latency and error rates, opens to protect downstream services, and closes automatically when health returns. By leveraging the data‑plane proxy (Envoy, Linkerd‑proxy) and the control plane’s dynamic configuration, you can achieve production‑grade fault isolation without writing custom code.\n\nService meshes have become the de‑facto standard for managing east‑west traffic in Kubernetes clusters, yet many teams still grapple with how to make those meshes resilient to cascading failures. This post walks through the architectural underpinnings of circuit breakers, shows how Istio and Linkerd expose them as first‑class primitives, and provides production‑ready patterns—complete with YAML snippets and operational tips—that you can copy into a live cluster today.\n\nWhen a downstream service experiences latency spikes or crashes, naïve callers keep hammering it, amplifying the problem. The classic “thundering herd” effect can quickly consume CPU, memory, and network bandwidth across the entire mesh, leading to a full‑blown outage. A circuit breaker solves this by:",
+      "tags": [
+        "service-mesh",
+        "circuit-breaker",
+        "fault-tolerance",
+        "kubernetes",
+        "microservices"
+      ],
+      "scheduled_at": "2026-05-30T10:01:38Z",
       "status": "pending"
     }
   ]
