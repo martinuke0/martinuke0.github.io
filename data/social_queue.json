@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-30T11:01:38Z",
+  "last_scheduled_at": "2026-05-30T12:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -18163,6 +18163,20 @@
         "production"
       ],
       "scheduled_at": "2026-05-30T11:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Autonomous Memory Systems for Distributed AI Agent Orchestration: Patterns and Production Frameworks",
+      "url": "https://martinuke0.github.io/posts/2026-05-30-architecting-autonomous-memory-systems-for-distributed-ai-agent-orchestration-patterns-and-production-frameworks/",
+      "social_hook": "> TL;DR — Autonomous memory layers are the glue that lets thousands of AI agents coordinate without a central bottleneck. By combining event‑sourced state stores, vector‑enabled caches, and CRDT‑based replication, you can build a resilient, low‑latency fabric using Kafka, RedisAI, and PostgreSQL + pgvector.\n\nIn modern enterprises, AI agents are no longer isolated chatbots; they are fleets of micro‑agents that act on streams of data, invoke tools, and hand off work to one another. The moment you start orchestrating dozens—or hundreds of thousands—of such agents, the classic request‑response model collapses under latency and consistency pressure. What you need is an autonomous memory system: a self‑governing data plane that stores, updates, and serves state without a single point of control. This post walks through the architectural foundations, concrete production patterns, and ready‑to‑run frameworks that let you ship such a system today.\n\n1. Latency‑Critical Decision Loops – An agent that must retrieve a vector embedding, enrich it with recent events, and decide within 30 ms cannot afford a round‑trip to a monolithic database.",
+      "tags": [
+        "AI",
+        "Distributed Systems",
+        "Memory Architecture",
+        "Orchestration",
+        "Production"
+      ],
+      "scheduled_at": "2026-05-30T12:01:38Z",
       "status": "pending"
     }
   ]
