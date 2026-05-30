@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-30T22:01:38Z",
+  "last_scheduled_at": "2026-05-30T23:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -18317,6 +18317,20 @@
         "distributed-systems"
       ],
       "scheduled_at": "2026-05-30T22:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Deep Dive into Copy-on-Write Semantics in Modern Linux Kernels: Architecture, Mechanisms, and Optimization Patterns",
+      "url": "https://martinuke0.github.io/posts/2026-05-30-deep-dive-into-copy-on-write-semantics-in-modern-linux-kernels-architecture-mechanisms-and-optimization-patterns/",
+      "social_hook": "> TL;DR — Copy‑on‑Write (COW) lets the Linux kernel share physical pages until a write occurs, dramatically reducing memory churn for `fork`, `mmap(MAP_PRIVATE)`, and container overlays. Understanding the fault‑path code (`handle_cow_fault`), the associated data structures (`mm_struct`, `vm_area_struct`), and a handful of sysctl knobs lets you tune COW for latency‑critical services such as Kafka or Airflow workers.\n\nIn modern cloud‑native environments, every micro‑service instance starts from a common image layer. That layer is mapped read‑only, and the kernel relies on COW to give each container a private view without eagerly copying gigabytes of data. While the concept is simple, the actual implementation spans several subsystems, from the low‑level page‑fault handler to the high‑level `fork` path. This post unpacks the architecture, walks through the kernel’s COW mechanisms, and then shows production‑grade patterns that keep COW overhead under control.\n\nCopy‑on‑Write originated in the early Unix `fork` implementation to avoid the O(N) cost of duplicating a process’s address space. The 4.2BSD kernel introduced the “shared page table” trick, and Linux inherited the idea in its very first releases. Over the decades the mechanism has been generalized: any mapping that is private (`MAP_PRIVATE`) can become a COW candidate, and the kernel now supports huge pages, NUMA awareness, and user‑space fault handling.",
+      "tags": [
+        "Linux",
+        "Kernel",
+        "Copy-on-Write",
+        "Performance",
+        "Architecture"
+      ],
+      "scheduled_at": "2026-05-30T23:01:38Z",
       "status": "pending"
     }
   ]
