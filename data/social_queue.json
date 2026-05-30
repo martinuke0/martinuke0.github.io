@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-30T15:01:38Z",
+  "last_scheduled_at": "2026-05-30T16:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -18219,6 +18219,20 @@
         "java"
       ],
       "scheduled_at": "2026-05-30T15:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Apache Kafka Topic Partitioning and Consumer Group Rebalancing for Production-Ready Data Pipelines",
+      "url": "https://martinuke0.github.io/posts/2026-05-30-mastering-apache-kafka-topic-partitioning-and-consumer-group-rebalancing-for-production-ready-data-pipelines/",
+      "social_hook": "> TL;DR — Properly sizing topic partitions and configuring consumer‑group rebalancing are the twin levers that turn a Kafka cluster from “works in dev” to a production‑grade data pipeline. This post shows concrete formulas, real‑world rebalance strategies, and architecture patterns you can copy into your own services.\n\nRunning a high‑throughput data pipeline on Apache Kafka is no longer a novelty; it’s the default for many LinkedIn‑scale services. Yet teams still stumble on two classic pitfalls: over‑ or under‑partitioned topics, and uncontrolled consumer group rebalances that cause latency spikes or duplicate processing. In the sections that follow we’ll unpack the math behind partition count, walk through the rebalance lifecycle, and stitch together proven production patterns—complete with config snippets and monitoring tips—that keep latency low, throughput high, and operational risk minimal.\n\nA Kafka topic is internally a set of ordered logs called partitions. Each partition can be read by only one consumer instance within a consumer group at a time, which means the maximum parallelism of a group equals the number of partitions. Too few partitions and you bottleneck the group; too many and you waste broker resources and increase coordination overhead.",
+      "tags": [
+        "kafka",
+        "topic-partitioning",
+        "consumer-groups",
+        "data-pipelines",
+        "scalability"
+      ],
+      "scheduled_at": "2026-05-30T16:01:38Z",
       "status": "pending"
     }
   ]
