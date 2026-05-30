@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-30T04:01:38Z",
+  "last_scheduled_at": "2026-05-30T05:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -18065,6 +18065,20 @@
         "architecture"
       ],
       "scheduled_at": "2026-05-30T04:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Deep Dive into Postgres MVCC: Architecture, Transaction Isolation, and Performance at Scale",
+      "url": "https://martinuke0.github.io/posts/2026-05-30-deep-dive-into-postgres-mvcc-architecture-transaction-isolation-and-performance-at-scale/",
+      "social_hook": "> TL;DR — PostgreSQL’s MVCC stores a timeline of row versions that lets each transaction see a consistent snapshot without blocking writers. Understanding visibility rules, vacuum mechanics, and the interaction with WAL is essential for maintaining low latency at billions of rows, and a handful of configuration tweaks can prevent the classic “bloat‑induced slowdown” that surprises many ops teams.\n\nPostgreSQL’s Multi‑Version Concurrency Control (MVCC) is the engine that makes the database feel instantaneously consistent while still allowing massive parallelism. In practice, however, MVCC’s elegance can turn into hidden latency when version chains grow, autovacuum lags, or isolation levels are mis‑chosen. This article walks you through the low‑level architecture, the semantics of each isolation level, and a set of production‑grade patterns that keep PostgreSQL humming at scale.\n\nEvery row lives in a heap page as a tuple. When a transaction modifies a row, PostgreSQL never overwrites the original tuple; instead it writes a new version with its own `xmin` (inserting transaction ID) and `xmax` (deleting transaction ID). The old tuple stays on disk until no active transaction can see it.",
+      "tags": [
+        "PostgreSQL",
+        "MVCC",
+        "Performance",
+        "Architecture",
+        "Transaction Isolation"
+      ],
+      "scheduled_at": "2026-05-30T05:01:38Z",
       "status": "pending"
     }
   ]
