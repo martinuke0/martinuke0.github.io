@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-30T18:01:38Z",
+  "last_scheduled_at": "2026-05-30T19:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -18261,6 +18261,20 @@
         "Architecture"
       ],
       "scheduled_at": "2026-05-30T18:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Deep Dive into Flame Graphs: Profiling Blind Spots, Sampling Bias, and Hidden Execution Costs",
+      "url": "https://martinuke0.github.io/posts/2026-05-30-deep-dive-into-flame-graphs-profiling-blind-spots-sampling-bias-and-hidden-execution-costs/",
+      "social_hook": "> TL;DR — Flame graphs are a powerful visual tool, but they inherit sampling bias and can hide short‑lived hot paths. By combining deterministic tracing, multi‑process aggregation, and careful bucket sizing, you can surface hidden execution costs in systems like Kafka, Go micro‑services, and Java workloads.\n\nPerformance engineers often reach for flame graphs when a latency spike defies explanation. The heat‑map style instantly shows which functions dominate CPU time, yet many teams treat the output as a silver bullet. In reality, flame graphs inherit the characteristics of the underlying sampler, can mask rare but expensive calls, and sometimes mislead when the sampling interval is too coarse. This post unpacks those blind spots, demonstrates how to mitigate sampling bias, and shows concrete patterns for wiring flame graphs into a production observability stack.\n\nA flame graph is a stack‑sample histogram rendered as a series of horizontally stacked boxes:",
+      "tags": [
+        "flame graphs",
+        "profiling",
+        "observability",
+        "sampling bias",
+        "performance engineering"
+      ],
+      "scheduled_at": "2026-05-30T19:01:38Z",
       "status": "pending"
     }
   ]
