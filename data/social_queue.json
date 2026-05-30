@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-30T21:01:38Z",
+  "last_scheduled_at": "2026-05-30T22:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -18303,6 +18303,20 @@
         "production"
       ],
       "scheduled_at": "2026-05-30T21:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Low-Latency Cross-Regional Replication for Vector Search Clusters: Design Patterns and Implementation Strategy",
+      "url": "https://martinuke0.github.io/posts/2026-05-30-architecting-low-latency-cross-regional-replication-for-vector-search-clusters-design-patterns-and-implementation-strategy/",
+      "social_hook": "> TL;DR — Low‑latency cross‑regional replication for vector search is achievable with an active‑active design that combines change‑data capture, geo‑partitioned sharding, and CRDT‑based write‑through caches. Using Milvus, Kafka, and gRPC you can stay under 10 ms tail latency while keeping consistency guarantees suitable for recommendation and semantic search workloads.\n\nEnterprises that power AI‑driven recommendation engines, semantic search portals, or similarity‑based fraud detection cannot afford a single‑region bottleneck. When a user in Europe queries a vector index that lives primarily in us‑west‑2, the round‑trip latency can swell past 100 ms, eroding user experience. Replicating the index across regions solves the latency problem, but naïve replication introduces stale results, split‑brain writes, and operational complexity. This post walks through the design goals, proven patterns, and a concrete implementation strategy that has been battle‑tested in production at a mid‑scale SaaS (≈10 B vectors, 5 TB active memory).\n\n1. User‑Facing Latency – Studies show every 100 ms added to a response reduces conversion by ~1 % McKinsey.",
+      "tags": [
+        "vector-search",
+        "replication",
+        "low-latency",
+        "architecture",
+        "distributed-systems"
+      ],
+      "scheduled_at": "2026-05-30T22:01:38Z",
       "status": "pending"
     }
   ]
