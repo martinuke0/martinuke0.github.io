@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-30T06:01:38Z",
+  "last_scheduled_at": "2026-05-30T07:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -18093,6 +18093,20 @@
         "performance"
       ],
       "scheduled_at": "2026-05-30T06:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Scaling Distributed Workflows with Luigi: Architecture, Dependency Management, and Production-Ready Data Pipelines",
+      "url": "https://martinuke0.github.io/posts/2026-05-30-scaling-distributed-workflows-with-luigi-architecture-dependency-management-and-production-ready-data-pipelines/",
+      "social_hook": "> TL;DR — Luigi can power massive, fault‑tolerant data pipelines when you run a central scheduler, shard workers, and treat the task graph as a first‑class artifact. This guide shows the architecture, concrete dependency tricks, and battle‑tested production patterns.\n\nDistributed data teams need more than a simple cron job. They need a system that can express arbitrary DAGs, schedule them across a fleet, and survive node failures without manual intervention. Luigi, the Python‑based workflow engine originally open‑sourced by Spotify, hits that sweet spot. In this post we’ll unpack its architecture, dive deep into dependency management, and walk through a production‑ready scaling strategy that you can copy into your own GCP, AWS, or on‑prem environment.\n\n1. Explicit DAG definition – Every task declares its inputs and outputs, letting Luigi infer the full dependency graph at runtime.",
+      "tags": [
+        "luigi",
+        "distributed-systems",
+        "data-pipelines",
+        "workflow-orchestration",
+        "production"
+      ],
+      "scheduled_at": "2026-05-30T07:01:38Z",
       "status": "pending"
     }
   ]
