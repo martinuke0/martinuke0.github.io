@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-06-01T02:01:38Z",
+  "last_scheduled_at": "2026-06-01T03:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -18711,6 +18711,20 @@
         "production-ml"
       ],
       "scheduled_at": "2026-06-01T02:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Deep Dive into Generational Garbage Collection: Memory Management in Modern JVM and .NET Runtimes",
+      "url": "https://martinuke0.github.io/posts/2026-05-31-deep-dive-into-generational-garbage-collection-memory-management-in-modern-jvm-and-net-runtimes/",
+      "social_hook": "> TL;DR — Generational garbage collection splits the heap into young and old regions, letting the JVM and .NET collect short‑lived objects quickly while minimizing pause times for long‑lived data. Tuning the size of these generations, choosing the right collector, and monitoring key metrics can cut latency by 30 % – 70 % in production workloads.\n\nModern services run on massive heaps, but latency budgets are often measured in milliseconds. Both the HotSpot/OpenJDK JVM and the .NET runtime (CoreCLR) have converged on generational garbage collection as the default strategy because it matches the empirical “most objects die young” pattern observed in real‑world applications. This post walks through the underlying architecture, the concrete algorithms each platform ships, and the knobs you can turn to keep pause times predictable under load.\n\n Object lifetime distribution – Empirical studies (e.g., the DaCapo* benchmarks) show > 80 % of heap allocations become unreachable within a few milliseconds.",
+      "tags": [
+        "garbage collection",
+        "JVM",
+        "dotnet",
+        "performance",
+        "memory management"
+      ],
+      "scheduled_at": "2026-06-01T03:01:38Z",
       "status": "pending"
     }
   ]
