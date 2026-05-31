@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-31T14:01:38Z",
+  "last_scheduled_at": "2026-05-31T15:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -18543,6 +18543,20 @@
         "devops"
       ],
       "scheduled_at": "2026-05-31T14:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Autonomous Memory Systems: Patterns for Scalable Distributed AI Agent Orchestration and State Synchronization",
+      "url": "https://martinuke0.github.io/posts/2026-05-31-architecting-autonomous-memory-systems-patterns-for-scalable-distributed-ai-agent-orchestration-and-state-synchronization/",
+      "social_hook": "> TL;DR — Autonomous memory for AI agents hinges on three repeatable patterns: event‑sourced logs for immutable audit trails, CRDT‑based replication for conflict‑free merges, and vector‑indexed stores for rapid similarity lookup. Wire these together with a lightweight orchestration layer (Ray or Dapr) and you get a horizontally scalable, self‑healing system that keeps thousands of agents in lockstep without a single point of failure.\n\nIn production, AI‑driven services no longer live in isolation. Whether you’re running a fleet of customer‑service bots, a swarm of recommendation agents, or an autonomous data‑labeling pipeline, each component must read, write, and reason over a shared “memory” that evolves in real time. Traditional monolithic databases crumble under the combined load of high‑throughput writes, low‑latency reads, and the need for strong consistency across geo‑distributed nodes. This post walks through the architectural building blocks, concrete patterns, and battle‑tested tooling that let you construct an autonomous memory system capable of scaling to tens of thousands of agents while preserving correctness.\n\nWhen you distribute state across many nodes, the CAP theorem forces a trade‑off between Consistency, Availability, and Partition tolerance. AI agents often demand near‑real‑time responses (high availability) but also need coherent world models (strong consistency). In practice, you can achieve a practical middle ground by:",
+      "tags": [
+        "AI",
+        "Distributed Systems",
+        "Memory Architecture",
+        "Ray",
+        "CRDT"
+      ],
+      "scheduled_at": "2026-05-31T15:01:38Z",
       "status": "pending"
     }
   ]
