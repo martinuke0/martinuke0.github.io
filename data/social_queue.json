@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-31T21:01:38Z",
+  "last_scheduled_at": "2026-05-31T22:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -18641,6 +18641,20 @@
         "Production"
       ],
       "scheduled_at": "2026-05-31T21:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing the Saga Pattern for Distributed Transactions: Ensuring Consistency in Complex Commerce Microservices",
+      "url": "https://martinuke0.github.io/posts/2026-05-31-implementing-the-saga-pattern-for-distributed-transactions-ensuring-consistency-in-complex-commerce-microservices/",
+      "social_hook": "> TL;DR — The saga pattern replaces heavyweight two‑phase commits with a series of local transactions and compensating actions, letting you keep eventual consistency across order, inventory, and payment services. By wiring these steps through Kafka (or another durable broker) and making each service idempotent, you can ship a commerce‑grade microservice ecosystem that survives network glitches, partial failures, and scaling pressure.\n\nModern commerce platforms rarely run on a single monolith any more. Instead, they consist of dozens of independently deployable services—catalog, cart, order, inventory, payment, shipping, fraud, and more. Each service owns its own database, and a single business operation (e.g., “place an order”) must touch several of them. Traditional ACID transactions cannot span these boundaries, so engineers either accept eventual inconsistency or resort to complex two‑phase commit (2PC) solutions that hurt latency and availability.\n\nThe saga pattern offers a pragmatic middle ground: break the global transaction into a chain of local transactions, each followed by a compensating transaction that undoes its effects if something later fails. The result is a workflow that is both resilient and observable, while still guaranteeing that the system ends up in a consistent state.",
+      "tags": [
+        "microservices",
+        "saga",
+        "distributed-transactions",
+        "ecommerce",
+        "architecture"
+      ],
+      "scheduled_at": "2026-05-31T22:01:38Z",
       "status": "pending"
     }
   ]
