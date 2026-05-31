@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-31T04:01:38Z",
+  "last_scheduled_at": "2026-05-31T05:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -18402,6 +18402,20 @@
         "architecture"
       ],
       "scheduled_at": "2026-05-31T04:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Multimodal RAG Pipelines: Integrating Vision-Language Models for Production-Ready Applications",
+      "url": "https://martinuke0.github.io/posts/2026-05-31-architecting-multimodal-rag-pipelines-integrating-vision-language-models-for-production-ready-applications/",
+      "social_hook": "> TL;DR — Multimodal RAG pipelines combine image and text embeddings from vision‑language models with a traditional LLM, stored in a vector database and orchestrated by a workflow engine. By following proven architectural patterns—synchronous query paths, asynchronous indexing, and hybrid retrieval—you can ship a scalable, observable, and secure system that answers questions with both visual and textual context.\n\nEnterprises are now asking AI not just to read documents but to “see” them. Product catalogs, medical scans, engineering drawings, and social media posts all contain rich visual information that, when combined with text, dramatically improves retrieval relevance and generation quality. Building such a system, however, is far more intricate than plugging a single model into an API. You need a robust data pipeline, a performant vector store that handles high‑dimensional image embeddings, a reliable orchestrator for batch indexing, and observability that spans both modalities. This post walks you through a production‑ready architecture, concrete tool choices, and code snippets you can copy into your own repo.\n\n1. Higher answer fidelity – A query like “What design flaws are visible in this brake disc?” requires visual inspection; a pure‑text RAG system would fall back on captions that often miss subtle defects.",
+      "tags": [
+        "RAG",
+        "multimodal",
+        "vision-language",
+        "MLOps",
+        "architecture"
+      ],
+      "scheduled_at": "2026-05-31T05:01:38Z",
       "status": "pending"
     }
   ]
