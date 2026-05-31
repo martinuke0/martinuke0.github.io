@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-31T12:01:38Z",
+  "last_scheduled_at": "2026-05-31T13:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -18515,6 +18515,20 @@
         "Production Patterns"
       ],
       "scheduled_at": "2026-05-31T12:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Storage Management Strategies for Modern IT Infrastructure: Architecture, Scalability, and Production Patterns",
+      "url": "https://martinuke0.github.io/posts/2026-05-31-mastering-storage-management-strategies-for-modern-it-infrastructure-architecture-scalability-and-production-patterns/",
+      "social_hook": "> TL;DR — Modern storage is no longer a single monolithic silo. By layering block, file, and object stores, applying sharding or tiered‑storage policies, and wiring robust production patterns (monitoring, automated healing, consistency checks), you can achieve petabyte‑scale, low‑latency, and highly available data pipelines across cloud and on‑prem environments.\n\nEnterprises today juggle everything from high‑speed transaction logs to cold‑archive blobs, all while keeping cost, latency, and durability in balance. The secret sauce isn’t a single technology; it’s a disciplined architecture that separates concerns, a set of scalability patterns that let you add capacity without re‑architecting, and production‑grade practices that turn “it works in dev” into “it works 24×7 at scale.” In this post we’ll unpack those three pillars, anchor the discussion in real‑world tools like Kafka, Ceph, and Google Cloud Storage, and walk through concrete configuration snippets you can copy into your own repos.\n\n1. Block Layer – raw disks or NVMe devices presented via iSCSI, Fibre Channel, or NVMe‑oF. Ideal for databases that need deterministic I/O latency (e.g., PostgreSQL, MySQL, or Oracle).",
+      "tags": [
+        "storage",
+        "architecture",
+        "scalability",
+        "cloud",
+        "devops"
+      ],
+      "scheduled_at": "2026-05-31T13:01:38Z",
       "status": "pending"
     }
   ]
