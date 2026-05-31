@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-06-01T00:01:38Z",
+  "last_scheduled_at": "2026-06-01T01:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -18683,6 +18683,20 @@
         "architecture"
       ],
       "scheduled_at": "2026-06-01T00:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing Circuit Breakers in Service Meshes: Architecture, Traffic Management, and Resiliency Patterns",
+      "url": "https://martinuke0.github.io/posts/2026-05-31-implementing-circuit-breakers-in-service-meshes-architecture-traffic-management-and-resiliency-patterns/",
+      "social_hook": "> TL;DR — Circuit breakers in a service mesh let you fail fast, isolate flaky services, and protect upstream workloads. By leveraging Envoy’s out‑of‑the‑box retry and circuit‑breaker settings (or Istio’s `DestinationRule`), you can codify resiliency patterns, monitor health, and tune thresholds without touching application code.\n\nService meshes have turned networking concerns—load balancing, retries, TLS termination—into declarative configuration. Yet, the very flexibility that makes a mesh powerful also introduces a new failure surface: a cascade of latency spikes when a downstream service degrades. Implementing circuit breakers at the mesh layer gives platform teams a safety valve that works across languages and runtimes, and it does so with the same observability stack already in place for tracing and metrics.\n\n Fail‑fast semantics** – When a downstream pod repeatedly returns 5xx or exceeds latency SLAs, the mesh can stop sending traffic, reducing tail latency for healthy callers.",
+      "tags": [
+        "service-mesh",
+        "circuit-breaker",
+        "resiliency",
+        "kubernetes",
+        "istio"
+      ],
+      "scheduled_at": "2026-06-01T01:01:38Z",
       "status": "pending"
     }
   ]
