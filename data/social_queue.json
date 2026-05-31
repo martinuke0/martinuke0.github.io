@@ -18641,7 +18641,7 @@
         "Production"
       ],
       "scheduled_at": "2026-05-31T21:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Implementing the Saga Pattern for Distributed Transactions: Ensuring Consistency in Complex Commerce Microservices",
