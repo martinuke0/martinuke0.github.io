@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-31T15:01:38Z",
+  "last_scheduled_at": "2026-05-31T16:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -18557,6 +18557,20 @@
         "CRDT"
       ],
       "scheduled_at": "2026-05-31T15:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Kafka Streams Topologies: Architecting Real-Time Processing Graphs for Production-Ready Pipelines",
+      "url": "https://martinuke0.github.io/posts/2026-05-31-mastering-kafka-streams-topologies-architecting-real-time-processing-graphs-for-production-ready-pipelines/",
+      "social_hook": "> TL;DR — Mastering Kafka Streams topologies means treating the processing graph as a first‑class architecture artifact: define clear boundaries between stateless and stateful steps, use named state stores, and instrument every node. With the patterns, testing strategies, and operational hooks described here, you can ship a real‑time pipeline that scales, recovers, and stays observable under production load.\n\nKafka Streams is often introduced with a “hello‑world” word‑count example, but production pipelines demand far more discipline. In a micro‑service world, a single Streams application can replace dozens of custom consumers, perform joins, enrichments, and windowed aggregations, all while guaranteeing exactly‑once semantics. This article walks you through the end‑to‑end process of building a production‑ready topology: from core concepts, through architectural patterns, to testing, scaling, and observability.\n\nA topology is a directed acyclic graph (DAG) of stream processors. Each node represents an operation—`map`, `filter`, `join`, `aggregate`, etc.—and edges define the flow of records. At runtime the library materializes this graph into a set of tasks that are distributed across the application’s instances, respecting the underlying Kafka partitioning.",
+      "tags": [
+        "kafka",
+        "kafka-streams",
+        "real-time",
+        "data-pipelines",
+        "architecture"
+      ],
+      "scheduled_at": "2026-05-31T16:01:38Z",
       "status": "pending"
     }
   ]
