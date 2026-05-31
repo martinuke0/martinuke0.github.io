@@ -18585,7 +18585,7 @@
         "Head-of-Line Blocking"
       ],
       "scheduled_at": "2026-05-31T17:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Deep Dive into the Postgres Write-Ahead Log: Ensuring Durability and Data Integrity for Production Systems",
