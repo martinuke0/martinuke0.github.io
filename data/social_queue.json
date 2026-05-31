@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-31T10:01:38Z",
+  "last_scheduled_at": "2026-05-31T11:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -18486,6 +18486,21 @@
         "production"
       ],
       "scheduled_at": "2026-05-31T10:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Python Applications with Celery: A Deep Dive into Distributed Task Queue Management",
+      "url": "https://martinuke0.github.io/posts/2026-05-31-architecting-python-applications-with-celery-a-deep-dive-into-distributed-task-queue-management/",
+      "social_hook": "> TL;DR — Celery lets Python services off‑load work to a distributed pool of workers, but getting production‑grade reliability requires careful broker selection, explicit task routing, robust monitoring, and graceful shutdown patterns. This post walks through a reference architecture, code samples, and operational playbooks you can copy into your own stack.\n\nA modern Python backend rarely runs a single monolithic process. Whether you’re sending email notifications, generating PDFs, or crunching machine‑learning predictions, the latency and failure characteristics of those jobs differ from the fast request‑response path of your API. Celery provides a battle‑tested way to decouple these workloads, but the “just install Celery” approach often falls short once traffic scales beyond a few requests per second. In this deep dive we’ll unpack Celery’s internals, map them onto real‑world infrastructure, and give you a checklist for production readiness.\n\nEven with the rise of serverless functions and Kafka Streams, Celery remains a first‑class choice for Python‑centric teams because:",
+      "tags": [
+        "celery",
+        "python",
+        "distributed-systems",
+        "architecture",
+        "task-queues",
+        "devops"
+      ],
+      "scheduled_at": "2026-05-31T11:01:38Z",
       "status": "pending"
     }
   ]
