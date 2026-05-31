@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-31T06:01:38Z",
+  "last_scheduled_at": "2026-05-31T07:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -18430,6 +18430,20 @@
         "reliability"
       ],
       "scheduled_at": "2026-05-31T06:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Deep Dive into Postgres Write-Ahead Logging: Ensuring Durability and Data Integrity for Production Systems",
+      "url": "https://martinuke0.github.io/posts/2026-05-31-deep-dive-into-postgres-write-ahead-logging-ensuring-durability-and-data-integrity-for-production-systems/",
+      "social_hook": "> TL;DR — PostgreSQL’s Write‑Ahead Logging guarantees that every committed transaction survives power loss or crash. By understanding WAL internals, configuring archiving, and applying proven tuning patterns, you can build a fault‑tolerant production database that never loses data.\n\nPostgreSQL’s reputation for reliability stems largely from its Write‑Ahead Logging (WAL) subsystem. While the concept of logging changes before they touch the data files is simple, the implementation packs a wealth of knobs, architectural choices, and failure‑recovery pathways that can make or break a production deployment. This post unpacks the WAL pipeline, shows how it interacts with replication and backup, and hands you concrete patterns you can copy into your own environments.\n\nWhen a client issues `INSERT`, `UPDATE`, or `DELETE`, PostgreSQL does not immediately modify the on‑disk heap pages. Instead it:",
+      "tags": [
+        "PostgreSQL",
+        "WAL",
+        "Durability",
+        "DataIntegrity",
+        "Production"
+      ],
+      "scheduled_at": "2026-05-31T07:01:38Z",
       "status": "pending"
     }
   ]
