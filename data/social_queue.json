@@ -18501,7 +18501,7 @@
         "devops"
       ],
       "scheduled_at": "2026-05-31T11:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Implementing Copy-on-Write B-Trees for Database Snapshots: Architecture, Consistency, and Production Patterns",
