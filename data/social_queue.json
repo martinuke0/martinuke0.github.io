@@ -18458,7 +18458,7 @@
         "ops"
       ],
       "scheduled_at": "2026-05-31T08:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Architecting Immutable Ledger Design for Financial Systems: Consistency, Integrity, and Real-World Patterns",
