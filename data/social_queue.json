@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-31T17:01:38Z",
+  "last_scheduled_at": "2026-05-31T18:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -18585,6 +18585,20 @@
         "Head-of-Line Blocking"
       ],
       "scheduled_at": "2026-05-31T17:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Deep Dive into the Postgres Write-Ahead Log: Ensuring Durability and Data Integrity for Production Systems",
+      "url": "https://martinuke0.github.io/posts/2026-05-31-deep-dive-into-the-postgres-write-ahead-log-ensuring-durability-and-data-integrity-for-production-systems/",
+      "social_hook": "> TL;DR — PostgreSQL’s Write-Ahead Log (WAL) is the backbone of durability; understanding its sequence numbers, checkpoint cycle, and flush policies lets you tune for low latency and zero data loss even under heavy load.\n\nIn modern micro‑service back‑ends, PostgreSQL often sits at the heart of transaction processing, analytics pipelines, and event sourcing layers. When a single node goes down or a power surge hits a data center, the system’s ability to recover without missing committed rows hinges on the Write‑Ahead Log. This post unpacks the WAL’s architecture, walks through the critical configuration knobs, and shows you how to monitor and troubleshoot it in production‑grade deployments.\n\nPostgreSQL follows the classic write‑ahead principle: before any data page is modified on disk, a description of that change is appended to a sequential log. The WAL guarantees two essential properties:",
+      "tags": [
+        "postgres",
+        "wal",
+        "durability",
+        "data-integrity",
+        "architecture"
+      ],
+      "scheduled_at": "2026-05-31T18:01:38Z",
       "status": "pending"
     }
   ]
