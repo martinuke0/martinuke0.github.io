@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-31T05:01:38Z",
+  "last_scheduled_at": "2026-05-31T06:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -18416,6 +18416,20 @@
         "architecture"
       ],
       "scheduled_at": "2026-05-31T05:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering the PostgreSQL Write-Ahead Log: A Deep Dive into Durable Transactional Architectures",
+      "url": "https://martinuke0.github.io/posts/2026-05-31-mastering-the-postgresql-write-ahead-log-a-deep-dive-into-durable-transactional-architectures/",
+      "social_hook": "> TL;DR — PostgreSQL’s Write-Ahead Log (WAL) is the backbone of durability. Understanding its architecture, LSN handling, and checkpoint mechanics lets you design safe CDC pipelines, point‑in‑time recovery, and zero‑downtime failover with confidence.\n\nPostgreSQL’s reputation for data integrity stems from a single, well‑engineered component: the Write‑Ahead Log. Whether you’re building a high‑throughput event sourcing service, a multi‑region analytics pipeline, or a mission‑critical financial ledger, the way you interact with WAL determines both reliability and operational complexity. This article walks through WAL’s internals, maps them to concrete production patterns, and hands you a checklist of knobs you can tweak without breaking the guarantees you rely on.\n\nAt a high level, WAL enforces write‑ahead semantics: every change to a data page is first recorded in a sequential log before the page itself is flushed to disk. This design gives PostgreSQL three core properties:",
+      "tags": [
+        "postgresql",
+        "wal",
+        "transactions",
+        "architecture",
+        "reliability"
+      ],
+      "scheduled_at": "2026-05-31T06:01:38Z",
       "status": "pending"
     }
   ]
