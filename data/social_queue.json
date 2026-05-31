@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-31T22:01:38Z",
+  "last_scheduled_at": "2026-05-31T23:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -18655,6 +18655,20 @@
         "architecture"
       ],
       "scheduled_at": "2026-05-31T22:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Go CSP Channels: Architecting Concurrent Systems for Production-Ready Data Pipelines",
+      "url": "https://martinuke0.github.io/posts/2026-05-31-mastering-go-csp-channels-architecting-concurrent-systems-for-production-ready-data-pipelines/",
+      "social_hook": "> TL;DR — Go’s CSP channels let you turn a tangled mess of goroutine coordination into a clean, back‑pressured pipeline. By applying proven patterns—fan‑out/fan‑in, bounded buffers, and context‑driven cancellation—you can ship data pipelines that scale to millions of messages per second while staying debuggable and testable.\n\nIn modern data‑intensive organizations, pipelines that ingest, transform, and ship events must survive spikes, partial outages, and evolving schema requirements. Go’s native CSP (Communicating Sequential Processes) model gives you a low‑overhead, type‑safe way to express back‑pressure and graceful shutdown without pulling in heavyweight brokers. This post walks through the mental model, concrete Go patterns, and production‑grade tooling you need to turn a prototype into a reliable service that can sit behind Kafka, Pub/Sub, or a custom TCP ingest layer.\n\n1. Back‑pressure is built‑in – A channel’s `len` vs `cap` semantics let the sender block when downstream stages fall behind, preventing unbounded memory growth.",
+      "tags": [
+        "go",
+        "concurrency",
+        "csp",
+        "data-pipelines",
+        "architecture"
+      ],
+      "scheduled_at": "2026-05-31T23:01:38Z",
       "status": "pending"
     }
   ]
