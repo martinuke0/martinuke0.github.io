@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-31T23:01:38Z",
+  "last_scheduled_at": "2026-06-01T00:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -18669,6 +18669,20 @@
         "architecture"
       ],
       "scheduled_at": "2026-05-31T23:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Go CSP Channels: Architecting Concurrent Systems for Production-Ready Parallelism and Communication",
+      "url": "https://martinuke0.github.io/posts/2026-05-31-mastering-go-csp-channels-architecting-concurrent-systems-for-production-ready-parallelism-and-communication/",
+      "social_hook": "> TL;DR — Go’s CSP‑style channels let you compose highly concurrent pipelines, but production‑grade systems need disciplined patterns: bounded channels, context‑driven cancellation, and explicit back‑pressure. This post shows how to wire those patterns into real architectures, avoid common deadlocks, and benchmark safely.\n\nConcurrency is no longer a research curiosity; it’s the backbone of modern micro‑services, streaming pipelines, and real‑time analytics. Go gives us CSP (communicating sequential processes) out of the box, but the raw primitives can become a maintenance nightmare without a solid architectural playbook. Below we walk through the mental model, proven production patterns, and concrete Go code you can copy into a service that must run 24/7 under load.\n\nThe Go spec describes channels as “first‑class communication primitives” that block on send or receive until the counterpart is ready, unless the channel is buffered. This blocking behavior is the source of both safety (no data races) and danger (deadlocks).",
+      "tags": [
+        "go",
+        "concurrency",
+        "csp",
+        "channels",
+        "architecture"
+      ],
+      "scheduled_at": "2026-06-01T00:01:38Z",
       "status": "pending"
     }
   ]
