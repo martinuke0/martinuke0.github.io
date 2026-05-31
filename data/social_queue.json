@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-31T19:01:38Z",
+  "last_scheduled_at": "2026-05-31T20:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -18613,6 +18613,20 @@
         "networking"
       ],
       "scheduled_at": "2026-05-31T19:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Log-Structured Merge Trees: Optimizing Write-Intensive Distributed Databases for High-Throughput Production Environments",
+      "url": "https://martinuke0.github.io/posts/2026-05-31-mastering-log-structured-merge-trees-optimizing-write-intensive-distributed-databases-for-high-throughput-production-environments/",
+      "social_hook": "> TL;DR — LSM trees turn sequential writes into cheap disk appends, but their real power comes from disciplined compaction, bloom‑filter tuning, and careful integration with back‑pressure‑aware pipelines such as Kafka. Master the key knobs and patterns, and you can sustain millions of writes per second across a multi‑region cluster without sacrificing read latency.\n\nWrite‑intensive workloads dominate modern data platforms: event streams from IoT devices, click‑through logs, time‑series metrics, and financial tick data all demand high‑throughput ingestion while still serving point lookups and range scans. Log‑Structured Merge (LSM) trees are the backbone of many production‑grade storage engines—Cassandra, ScyllaDB, RocksDB, LevelDB, and even Google Cloud Spanner’s underlying storage. Yet engineers often treat LSM‑based systems as black boxes, reacting to “compaction storms” or “read latency spikes” without a clear mental model. This article breaks down the LSM architecture, maps its components to concrete services, and provides a cookbook of tuning parameters, monitoring alerts, and design patterns that keep write paths smooth at scale.\n\nAt its core, an LSM tree separates writes from reads by buffering incoming mutations in an in‑memory structure (the memtable) and periodically flushing immutable snapshots to disk as sorted string tables (SSTables). The write path looks like this:",
+      "tags": [
+        "LSM",
+        "distributed-databases",
+        "performance",
+        "architecture",
+        "Kafka"
+      ],
+      "scheduled_at": "2026-05-31T20:01:38Z",
       "status": "pending"
     }
   ]
