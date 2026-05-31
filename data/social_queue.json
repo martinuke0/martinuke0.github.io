@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-31T20:01:38Z",
+  "last_scheduled_at": "2026-05-31T21:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -18627,6 +18627,20 @@
         "Kafka"
       ],
       "scheduled_at": "2026-05-31T20:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing LSM-Tree Read Performance with Bloom Filters: Architecture, Tuning, and Production Implementation",
+      "url": "https://martinuke0.github.io/posts/2026-05-31-optimizing-lsm-tree-read-performance-with-bloom-filters-architecture-tuning-and-production-implementation/",
+      "social_hook": "> TL;DR — A well‑sized Bloom filter can reduce LSM‑tree point‑lookup latency by 70 % or more. By aligning filter granularity with your SSTable layout, monitoring false‑positive rates, and automating re‑size on compaction, you get predictable read performance in production systems such as Kafka Streams, RocksDB, and Cassandra.\n\nThe LSM‑tree (Log‑Structured Merge Tree) is the workhorse behind many modern data platforms because it turns sequential writes into cheap disk operations. The trade‑off is a read path that must probe multiple sorted string tables (SSTables) on disk, which can become a latency hotspot under high QPS. Bloom filters—probabilistic, space‑efficient set membership structures—are the de‑facto solution to prune those unnecessary disk reads. In this post we dive deep into the architecture of Bloom filters inside LSM‑trees, explore tuning knobs that matter in real workloads, and walk through a production implementation that shipped at scale for a Kafka‑RocksDB pipeline.\n\nBefore we add Bloom filters into the mix, it helps to visualize the baseline read flow:",
+      "tags": [
+        "LSM-Tree",
+        "Bloom Filter",
+        "Database Performance",
+        "Architecture",
+        "Production"
+      ],
+      "scheduled_at": "2026-05-31T21:01:38Z",
       "status": "pending"
     }
   ]
