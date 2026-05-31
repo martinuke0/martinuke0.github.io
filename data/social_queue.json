@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-31T08:01:38Z",
+  "last_scheduled_at": "2026-05-31T09:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -18458,6 +18458,20 @@
         "ops"
       ],
       "scheduled_at": "2026-05-31T08:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Immutable Ledger Design for Financial Systems: Consistency, Integrity, and Real-World Patterns",
+      "url": "https://martinuke0.github.io/posts/2026-05-31-architecting-immutable-ledger-design-for-financial-systems-consistency-integrity-and-real-world-patterns/",
+      "social_hook": "> TL;DR — Immutable ledgers achieve audit‑ready consistency by never overwriting history. Combine cryptographic hashes, append‑only storage, and consensus‑driven replication to build financial systems that survive crashes, fraud attempts, and regulatory scrutiny.\n\nFinancial institutions are under relentless pressure to prove every cent’s provenance while maintaining sub‑second latency for customer‑facing services. Traditional relational databases can provide ACID guarantees, but they rely on mutable rows that complicate audit trails and open subtle pathways for data tampering. An immutable ledger—a tamper‑evident, append‑only sequence of cryptographically linked records—offers a clean separation between “write once, read many” and “state reconstruction”. In this post we unpack the architectural pillars that make immutable ledgers reliable at scale, examine concrete integrity mechanisms, and walk through production‑grade patterns used by firms running multi‑region, high‑throughput financial platforms.\n\n1. Regulatory auditability – Regulations such as the EU’s MiFID II, the U.S. Dodd‑Frank Act, and Basel III require immutable records of trades, settlements, and risk calculations. An append‑only log satisfies “write‑once, never‑alter” mandates without the need for costly manual reconciliation.",
+      "tags": [
+        "ledger",
+        "immutability",
+        "finance",
+        "architecture",
+        "distributed-systems"
+      ],
+      "scheduled_at": "2026-05-31T09:01:38Z",
       "status": "pending"
     }
   ]
