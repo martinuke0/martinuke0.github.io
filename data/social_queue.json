@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-31T13:01:38Z",
+  "last_scheduled_at": "2026-05-31T14:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -18529,6 +18529,20 @@
         "devops"
       ],
       "scheduled_at": "2026-05-31T13:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Google Cloud Platform for Production Workloads: Infrastructure, Services, and Scalability Patterns",
+      "url": "https://martinuke0.github.io/posts/2026-05-31-architecting-google-cloud-platform-for-production-workloads-infrastructure-services-and-scalability-patterns/",
+      "social_hook": "> TL;DR — Building production‑grade workloads on GCP starts with a well‑structured organization hierarchy, managed services that reduce operational burden, and autoscaling patterns that keep latency low while controlling spend. By combining VPC design, GKE or Cloud Run, and Cloud Monitoring you can achieve the reliability of a large SaaS platform without reinventing the wheel.\n\nProduction workloads on Google Cloud are no longer a “lift‑and‑shift” experiment; they are the backbone of many modern SaaS businesses. This post walks through the concrete pieces you need to assemble—networking, compute, data, observability, and cost controls—while anchoring every recommendation in a GCP‑native service that already runs at scale for Google itself.\n\nApply Organization Policy Service to enforce constraints such as `constraints/compute.requireOsLogin` or `constraints/iam.allowedPolicyMemberDomains`. This locks down who can create resources and where.",
+      "tags": [
+        "GCP",
+        "cloud architecture",
+        "scalability",
+        "production",
+        "devops"
+      ],
+      "scheduled_at": "2026-05-31T14:01:38Z",
       "status": "pending"
     }
   ]
