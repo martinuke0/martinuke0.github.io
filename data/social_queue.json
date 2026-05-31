@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-31T07:01:38Z",
+  "last_scheduled_at": "2026-05-31T08:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -18444,6 +18444,20 @@
         "Production"
       ],
       "scheduled_at": "2026-05-31T07:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering the USE Method: Investigating System Bottlenecks through Utilization, Saturation, and Errors",
+      "url": "https://martinuke0.github.io/posts/2026-05-31-mastering-the-use-method-investigating-system-bottlenecks-through-utilization-saturation-and-errors/",
+      "social_hook": "> TL;DR — The USE Method reduces noisy data to three actionable signals: utilization (how busy a resource is), saturation (how much demand exceeds capacity), and errors (failed operations). By instrumenting each layer—CPU, disk, network, Kafka, Postgres—and correlating those three metrics, you can isolate the true bottleneck in minutes instead of hours.\n\nIn modern production environments the sheer volume of telemetry can obscure the very problem you’re trying to solve. CPU graphs, latency heat maps, and thousands of alerts compete for attention, and engineers waste precious time chasing red herrings. The USE Method, popularized by Brendan Gregg, cuts through the noise by forcing you to ask three simple questions for every resource: Is it utilized? Is it saturated? Is it erroring? This post walks through the method from first principles to concrete implementation on Linux servers, Kafka clusters, and PostgreSQL instances, and shows how to embed the patterns into an observability pipeline that scales with your organization.\n\nUtilization measures the proportion of time a resource is actively doing work. For a CPU, it’s the percentage of cycles spent executing non‑idle instructions. For a network interface, it’s the ratio of bits transmitted to the link’s maximum bandwidth.",
+      "tags": [
+        "performance",
+        "monitoring",
+        "observability",
+        "systems",
+        "ops"
+      ],
+      "scheduled_at": "2026-05-31T08:01:38Z",
       "status": "pending"
     }
   ]
