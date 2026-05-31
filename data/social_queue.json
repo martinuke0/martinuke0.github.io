@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-31T09:01:38Z",
+  "last_scheduled_at": "2026-05-31T10:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -18472,6 +18472,20 @@
         "distributed-systems"
       ],
       "scheduled_at": "2026-05-31T09:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Bloom Filters in LSM-Trees: Performance Tuning, Probabilistic Structures, and Production-Ready Implementation Strategies",
+      "url": "https://martinuke0.github.io/posts/2026-05-31-optimizing-bloom-filters-in-lsm-trees-performance-tuning-probabilistic-structures-and-production-ready-implementation-strategies/",
+      "social_hook": "> TL;DR — Bloom filters dramatically cut I/O in LSM‑tree workloads, but only when you size them correctly, pick the right hash functions, and embed them in a tiered architecture that respects compaction dynamics. This guide walks you through the math, the knobs, and the production‑grade patterns that turn a textbook filter into a latency‑saving engine component.\n\nLSM‑trees (Log‑Structured Merge Trees) dominate modern key‑value stores because they batch writes and defer expensive compactions. Yet each read still faces the risk of probing a level that does not contain the key. Bloom filters—compact probabilistic sets—are the primary defense, allowing the engine to skip whole SSTables with a single memory lookup. In practice, however, a poorly configured filter can inflate false positives, waste RAM, or even become a source of latency spikes during compaction. Below we dissect the mathematics, walk through the most impactful configuration knobs, and present battle‑tested architectural patterns used in production systems such as RocksDB, Cassandra, and ScyllaDB.\n\nAn LSM‑tree stores data in a series of immutable sorted string tables (SSTables) across multiple levels. When a read request arrives, the engine consults the Bloom filter attached to each SSTable at the target level:",
+      "tags": [
+        "bloom-filter",
+        "lsm-tree",
+        "performance",
+        "probabilistic-data-structures",
+        "production"
+      ],
+      "scheduled_at": "2026-05-31T10:01:38Z",
       "status": "pending"
     }
   ]
