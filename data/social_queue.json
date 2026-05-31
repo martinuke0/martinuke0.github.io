@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-05-31T16:01:38Z",
+  "last_scheduled_at": "2026-05-31T17:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -18571,6 +18571,20 @@
         "architecture"
       ],
       "scheduled_at": "2026-05-31T16:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Deep Dive into QUIC Stream Multiplexing: Eliminating Head-of-Line Blocking for High-Performance Networking",
+      "url": "https://martinuke0.github.io/posts/2026-05-31-deep-dive-into-quic-stream-multiplexing-eliminating-head-of-line-blocking-for-high-performance-networking/",
+      "social_hook": "> TL;DR — QUIC’s stream multiplexing lets each logical stream progress independently, removing the head‑of‑line blocking that plagues TCP+TLS. In production, this translates to higher throughput, lower tail latency, and smoother connection migration, especially when combined with HTTP/3 and modern proxies like Envoy.\n\nModern web‑scale services need every millisecond of latency shaved off while handling millions of concurrent flows. The legacy TCP stack, even when layered with TLS, forces all data on a single connection to wait for the loss‑recovery of the first lost packet—a classic head‑of‑line (HoL) blocking problem. QUIC, standardized in RFC 9000, solves this by turning the transport into a multiplexed, packet‑level protocol where each stream has its own flow‑control and loss‑recovery state. This post walks through the mechanics, production architectures, and real‑world tuning knobs that let engineers eliminate HoL blocking for high‑performance networking.\n\nBefore diving into streams, it helps to recall the two layers that QUIC replaces:",
+      "tags": [
+        "QUIC",
+        "Networking",
+        "Performance",
+        "Stream Multiplexing",
+        "Head-of-Line Blocking"
+      ],
+      "scheduled_at": "2026-05-31T17:01:38Z",
       "status": "pending"
     }
   ]
