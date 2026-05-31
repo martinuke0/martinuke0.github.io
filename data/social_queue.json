@@ -18388,7 +18388,7 @@
         "Protocol Engineering"
       ],
       "scheduled_at": "2026-05-31T03:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Deep Dive into PostgreSQL MVCC: Transaction Isolation, Snapshot Management, and Real-World Concurrency Control",
