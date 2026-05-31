@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-06-01T01:01:38Z",
+  "last_scheduled_at": "2026-06-01T02:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -18697,6 +18697,20 @@
         "istio"
       ],
       "scheduled_at": "2026-06-01T01:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Multimodal RAG Pipelines: Integrating Vision-Language Models for Production-Ready Document Intelligence",
+      "url": "https://martinuke0.github.io/posts/2026-05-31-architecting-multimodal-rag-pipelines-integrating-vision-language-models-for-production-ready-document-intelligence/",
+      "social_hook": "> TL;DR — Multimodal Retrieval‑Augmented Generation (RAG) fuses vision‑language encoders, vector stores, and LLMs to turn any document—PDF, scanned image, or table—into searchable knowledge. By layering a staged architecture (pre‑processing, embedding, retrieval, generation) on top of robust orchestration tools like Airflow or Temporal, you can ship a production‑ready system that scales, monitors, and recovers from failures.\n\nEnterprises increasingly need to extract value from heterogeneous document fleets: contracts scanned as images, engineering diagrams, and tabular reports. Traditional text‑only RAG pipelines stumble when visual context is essential. This post shows how to extend a classic RAG stack with vision‑language models (VLMs), design the surrounding architecture for reliability, and choose the right cloud‑native components for a production launch.\n\n1. Hidden semantics in visuals – A schematic may convey relationships that a plain OCR transcript cannot capture. VLMs such as CLIP, Flamingo, or OpenAI’s GPT‑4V embed both pixel data and textual captions, enabling similarity search across modalities.",
+      "tags": [
+        "RAG",
+        "multimodal",
+        "vision-language",
+        "document-intelligence",
+        "production-ml"
+      ],
+      "scheduled_at": "2026-06-01T02:01:38Z",
       "status": "pending"
     }
   ]
