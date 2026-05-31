@@ -18486,7 +18486,7 @@
         "production"
       ],
       "scheduled_at": "2026-05-31T10:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Architecting Python Applications with Celery: A Deep Dive into Distributed Task Queue Management",
