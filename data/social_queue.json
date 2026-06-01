@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-06-02T01:01:38Z",
+  "last_scheduled_at": "2026-06-02T02:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -19033,6 +19033,20 @@
         "scalable-architecture"
       ],
       "scheduled_at": "2026-06-02T01:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Deep Dive into QUIC Stream Multiplexing: Eliminating Head-of-Line Blocking for High-Performance Networking",
+      "url": "https://martinuke0.github.io/posts/2026-06-01-deep-dive-into-quic-stream-multiplexing-eliminating-head-of-line-blocking-for-high-performance-networking/",
+      "social_hook": "> TL;DR — QUIC replaces TCP's single‑stream model with independent, multiplexed streams that are retransmitted separately, eradicating head‑of‑line blocking and delivering order‑preserving low latency even under loss. The pattern is now production‑ready in CDNs, cloud load balancers, and modern service meshes.\n\nQUIC (Quick UDP Internet Connections) has moved from a research project to the backbone of HTTP/3 and many next‑generation services. While its cryptographic handshake and connection migration get most of the press, the real performance win comes from how QUIC multiplexes streams inside a single UDP flow. This post unpacks the wire format, flow‑control mechanisms, and production‑grade architectures that let engineers eliminate head‑of‑line (HoL) blocking without sacrificing reliability.\n\nTCP delivers a byte stream over a single ordered sequence. If a packet is lost, the receiver cannot acknowledge any later bytes until the missing segment is retransmitted and received. In high‑latency or lossy environments—mobile networks, satellite links, or congested data centers—this head‑of‑line blocking becomes a latency bottleneck.",
+      "tags": [
+        "QUIC",
+        "Networking",
+        "Performance",
+        "StreamMultiplexing",
+        "HeadOfLineBlocking"
+      ],
+      "scheduled_at": "2026-06-02T02:01:38Z",
       "status": "pending"
     }
   ]
