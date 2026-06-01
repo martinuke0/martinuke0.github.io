@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-06-01T20:01:38Z",
+  "last_scheduled_at": "2026-06-01T21:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -18963,6 +18963,20 @@
         "architecture"
       ],
       "scheduled_at": "2026-06-01T20:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Linux cgroups v2 Resource Isolation: Implementation, Control Groups, and Production Performance Tuning",
+      "url": "https://martinuke0.github.io/posts/2026-06-01-mastering-linux-cgroups-v2-resource-isolation-implementation-control-groups-and-production-performance-tuning/",
+      "social_hook": "> TL;DR — cgroups v2 gives you a single‑unified hierarchy for fine‑grained CPU, memory, and I/O limits. By creating slices or manual control groups, you can enforce hard caps, prioritize workloads, and diagnose contention without touching application code.\n\nLinux engineers have relied on cgroups since the early 2000s, but the migration to version 2 (v2) unlocks a cleaner API, better accounting, and tighter integration with systemd and Kubernetes. This post walks through the underlying architecture, shows concrete `bash` commands for creating and managing groups, and presents production‑ready patterns that keep your services fast, predictable, and safe from noisy neighbors.\n\ncgroups v2 replaces the multiple‑hierarchy model of v1 with a single unified hierarchy. All controllers (cpu, memory, io, pids, etc.) are attached to the same tree, eliminating the “controller mismatch” problems that plagued mixed‑v1 setups.",
+      "tags": [
+        "cgroups",
+        "linux",
+        "performance",
+        "kubernetes",
+        "devops"
+      ],
+      "scheduled_at": "2026-06-01T21:01:38Z",
       "status": "pending"
     }
   ]
