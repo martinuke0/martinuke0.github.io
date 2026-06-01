@@ -18865,7 +18865,7 @@
         "production"
       ],
       "scheduled_at": "2026-06-01T13:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Architecting Event-Driven Microservices with Kafka and Schema Registry: A Deep Dive into Data Governance",
