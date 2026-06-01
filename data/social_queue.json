@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-06-02T00:01:38Z",
+  "last_scheduled_at": "2026-06-02T01:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -19019,6 +19019,20 @@
         "Performance"
       ],
       "scheduled_at": "2026-06-02T00:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting a Software Factory: Building Scalable Development Engines with Structured Agent Workflows",
+      "url": "https://martinuke0.github.io/posts/2026-06-01-architecting-a-software-factory-building-scalable-development-engines-with-structured-agent-workflows/",
+      "social_hook": "> TL;DR — A software factory combines deterministic pipelines, AI‑driven agents, and event‑streaming infrastructure to turn feature ideas into production code at scale. By structuring agent responsibilities, using Kafka for reliable messaging, and orchestrating with Airflow, teams can achieve predictable throughput, observability, and graceful failure handling.\n\nModern engineering organizations are under constant pressure to ship features faster while keeping quality high. The “software factory” metaphor treats the end‑to‑end development process as a production line, where each station is a narrowly scoped, automated service. Recent advances in large‑language models (LLMs) and agentic AI make it possible to replace many manual hand‑offs with structured agents that act on well‑defined contracts. This post walks through the architecture, patterns, and concrete tooling you need to turn that vision into a production‑grade engine.\n\n1. Predictable throughput – Like a manufacturing line, you can measure cycles‑per‑hour, identify bottlenecks, and plan capacity.",
+      "tags": [
+        "software-factory",
+        "agent-workflows",
+        "devops",
+        "automation",
+        "scalable-architecture"
+      ],
+      "scheduled_at": "2026-06-02T01:01:38Z",
       "status": "pending"
     }
   ]
