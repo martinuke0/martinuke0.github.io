@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-06-01T04:01:38Z",
+  "last_scheduled_at": "2026-06-01T05:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -18739,6 +18739,20 @@
         "Production"
       ],
       "scheduled_at": "2026-06-01T04:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Payments Security Across Modern Enterprises: Strategy, Compliance, and Production-Ready Defense Patterns",
+      "url": "https://martinuke0.github.io/posts/2026-06-01-architecting-payments-security-across-modern-enterprises-strategy-compliance-and-production-ready-defense-patterns/",
+      "social_hook": "> TL;DR — Secure payments at scale start with a clear strategy, strict PCI‑DSS alignment, and reusable defense patterns like tokenization, webhook verification, and zero‑trust network segmentation. Implement these with cloud‑native services (e.g., AWS KMS, GCP Secret Manager) and observability tooling to keep compliance auditable and attacks detectable.\n\nEnterprises that process billions of dollars each year cannot treat payments as an after‑thought. A single breach not only threatens revenue but also erodes brand trust and invites hefty regulatory fines. This post walks through a practical, production‑ready approach to payments security: from high‑level strategy, through the compliance maze, down to concrete patterns you can copy‑paste into your own architecture.\n\n1. What is in scope? Identify every system that touches cardholder data (CHD) – from front‑end SDKs to back‑office batch jobs.",
+      "tags": [
+        "payments",
+        "security",
+        "PCI-DSS",
+        "architecture",
+        "devops"
+      ],
+      "scheduled_at": "2026-06-01T05:01:38Z",
       "status": "pending"
     }
   ]
