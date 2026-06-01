@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-06-01T05:01:38Z",
+  "last_scheduled_at": "2026-06-01T06:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -18753,6 +18753,20 @@
         "devops"
       ],
       "scheduled_at": "2026-06-01T05:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Production-Ready Retrieval-Augmented Generation: Scaling Systems for Performance, Reliability, and Data Consistency",
+      "url": "https://martinuke0.github.io/posts/2026-06-01-architecting-production-ready-retrieval-augmented-generation-scaling-systems-for-performance-reliability-and-data-consistency/",
+      "social_hook": "> TL;DR — Building a production‑ready RAG service requires a layered architecture: sharded vector stores, async message queues, and strong observability. By combining these patterns you can achieve millisecond‑level latency, five‑nine availability, and transactional consistency across your knowledge base and LLM calls.\n\nRetrieval‑Augmented Generation (RAG) has moved from research demos to mission‑critical applications such as customer‑support bots, knowledge‑base search, and compliance‑aware assistants. The jump to production introduces hard constraints: latency budgets in the low‑hundreds of milliseconds, uptime that rivals SaaS SLAs, and data consistency guarantees that prevent stale answers. This post walks through a battle‑tested reference architecture, the patterns that make it scale, and concrete practices you can adopt today.\n\n1. Ingestion – Transform raw documents into embeddings and store them in a vector database.",
+      "tags": [
+        "RAG",
+        "Scalability",
+        "Reliability",
+        "DataConsistency",
+        "Architecture"
+      ],
+      "scheduled_at": "2026-06-01T06:01:38Z",
       "status": "pending"
     }
   ]
