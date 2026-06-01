@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-06-01T22:01:38Z",
+  "last_scheduled_at": "2026-06-01T23:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -18991,6 +18991,20 @@
         "devops"
       ],
       "scheduled_at": "2026-06-01T22:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering the Go Work-Stealing Scheduler: Architecture, Goroutine Management, and Production Performance Patterns",
+      "url": "https://martinuke0.github.io/posts/2026-06-01-mastering-the-go-work-stealing-scheduler-architecture-goroutine-management-and-production-performance-patterns/",
+      "social_hook": "> TL;DR — Go’s work‑stealing scheduler is a thin, lock‑free system that balances CPU‑bound and I/O‑bound goroutines across P‑locals and a global runqueue. By understanding the scheduler’s states, tuning GOMAXPROCS, and applying production patterns like bounded fan‑out, you can consistently hit low‑latency, high‑throughput targets in real services.\n\nGo’s runtime is often described as “magic” because it hides thread management behind the simple `go` keyword. Under the hood, the runtime runs a work‑stealing scheduler that decides when and where each goroutine executes. For engineers building latency‑sensitive services, mastering this scheduler is as valuable as mastering the language itself. In this post we unpack the scheduler’s architecture, walk through goroutine lifecycle management, and present concrete patterns that have proven their worth in production at scale.\n\nBefore diving into work‑stealing, it helps to recall the three core runtime entities:",
+      "tags": [
+        "go",
+        "scheduler",
+        "work-stealing",
+        "performance",
+        "production"
+      ],
+      "scheduled_at": "2026-06-01T23:01:38Z",
       "status": "pending"
     }
   ]
