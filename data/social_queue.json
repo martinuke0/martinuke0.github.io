@@ -18977,7 +18977,7 @@
         "devops"
       ],
       "scheduled_at": "2026-06-01T21:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Mastering Cgroups v2 Resource Isolation: A Deep Dive into Effective Linux Control Groups",
