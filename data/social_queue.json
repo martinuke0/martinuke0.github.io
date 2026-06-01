@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-06-01T08:01:38Z",
+  "last_scheduled_at": "2026-06-01T09:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -18795,6 +18795,20 @@
         "enterprise-architecture"
       ],
       "scheduled_at": "2026-06-01T08:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Mobile Device Management for Enterprise Endpoints: Architecture, Security, and Lifecycle Management at Scale",
+      "url": "https://martinuke0.github.io/posts/2026-06-01-mastering-mobile-device-management-for-enterprise-endpoints-architecture-security-and-lifecycle-management-at-scale/",
+      "social_hook": "> TL;DR — Successful MDM at enterprise scale hinges on a layered architecture (cloud control plane, edge gateways, and device agents), zero‑trust policies enforced at the OS level, and automated lifecycle pipelines that handle enrollment, compliance, and retirement without manual hand‑offs.\n\nEnterprises today field thousands of smartphones, tablets, and IoT handsets that store corporate data, act as authentication tokens, and even run critical production workloads. Managing that fleet is no longer a “nice‑to‑have” IT project; it’s a security imperative. This post walks you through the core components of a production‑grade MDM solution, shows how to lock down devices with zero‑trust controls, and provides a repeatable lifecycle workflow that scales from a few hundred to tens of thousands of endpoints.\n\n Data leakage risk** – A lost device can expose emails, CRM records, or proprietary code.",
+      "tags": [
+        "MDM",
+        "Enterprise",
+        "Security",
+        "Architecture",
+        "Lifecycle"
+      ],
+      "scheduled_at": "2026-06-01T09:01:38Z",
       "status": "pending"
     }
   ]
