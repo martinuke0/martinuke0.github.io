@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-06-02T02:01:38Z",
+  "last_scheduled_at": "2026-06-02T03:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -19047,6 +19047,20 @@
         "HeadOfLineBlocking"
       ],
       "scheduled_at": "2026-06-02T02:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Multimodal RAG Pipelines: Integrating Vision-Language Models for Production-Ready Applications",
+      "url": "https://martinuke0.github.io/posts/2026-06-01-architecting-multimodal-rag-pipelines-integrating-vision-language-models-for-production-ready-applications/",
+      "social_hook": "> TL;DR — Multimodal Retrieval‑Augmented Generation (RAG) can be productionized by chaining a vision encoder, a vector store, and a large language model (LLM) with clear data contracts, async processing, and observability. Using proven components like CLIP, Milvus, and LangChain lets you scale from prototype to enterprise while keeping latency, cost, and reliability in check.\n\nBuilding a Retrieval‑Augmented Generation system that understands both text and images feels like science fiction a few years ago. Today, open‑source vision‑language models (VLMs) such as CLIP, BLIP‑2, and Gemini‑Vision are mature enough to be used as retrievers for image embeddings, while vector databases like Milvus, Pinecone, or Weaviate provide the low‑latency similarity search needed for real‑time applications. The challenge is not the models themselves but the pipeline: how to stitch them together, version data, handle failures, and monitor performance at scale. This post walks through a production‑ready architecture, concrete code snippets, and operational patterns that have been battle‑tested in high‑traffic SaaS products.\n\n1. Ingestion & Indexing – Convert raw media (images, PDFs, video frames) into dense embeddings and store them in a vector DB.",
+      "tags": [
+        "RAG",
+        "multimodal",
+        "vision-language",
+        "LLM",
+        "production"
+      ],
+      "scheduled_at": "2026-06-02T03:01:38Z",
       "status": "pending"
     }
   ]
