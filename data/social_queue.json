@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-06-01T10:01:38Z",
+  "last_scheduled_at": "2026-06-01T11:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -18823,6 +18823,20 @@
         "ProductionPatterns"
       ],
       "scheduled_at": "2026-06-01T10:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Network Throughput with TCP BBR: Implementation, Performance Tuning, and Production-Ready Patterns",
+      "url": "https://martinuke0.github.io/posts/2026-06-01-optimizing-network-throughput-with-tcp-bbr-implementation-performance-tuning-and-production-ready-patterns/",
+      "social_hook": "> TL;DR — Enabling TCP BBR on modern Linux kernels can double or triple raw throughput on congested links. The key is to apply a small set of sysctl tweaks, monitor pacing metrics, and follow proven deployment patterns such as staged rollout and fallback to CUBIC.\n\nNetwork teams constantly wrestle with the classic trade‑off between latency and bandwidth utilization. Traditional loss‑based congestion controllers like CUBIC react to packet loss, which can be noisy on high‑speed, shallow‑buffer paths. Google’s Bottleneck Bandwidth and Round‑Trip propagation time (BBR) takes a model‑based approach: it measures the bottleneck bandwidth and the minimum RTT, then paces traffic at the product of those two values. The result is a smoother, more predictable flow that often unlocks latent capacity in data‑center fabrics, cross‑region links, and even public cloud VPCs.\n\nIn this post we walk through how to enable BBR on Linux, which knobs matter in production, and patterns that keep your services stable when you switch congestion control algorithms. Real‑world numbers from a 10 GbE pod, a Kubernetes‑based microservice mesh, and a public‑cloud web tier illustrate the impact.",
+      "tags": [
+        "networking",
+        "tcp",
+        "bbr",
+        "performance",
+        "production"
+      ],
+      "scheduled_at": "2026-06-01T11:01:38Z",
       "status": "pending"
     }
   ]
