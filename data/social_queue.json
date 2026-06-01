@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-06-01T07:01:38Z",
+  "last_scheduled_at": "2026-06-01T08:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -18781,6 +18781,20 @@
         "distributed-systems"
       ],
       "scheduled_at": "2026-06-01T07:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Production-Ready Retrieval-Augmented Generation: Patterns, Scalability, and Enterprise Reliability Pipelines",
+      "url": "https://martinuke0.github.io/posts/2026-06-01-architecting-production-ready-retrieval-augmented-generation-patterns-scalability-and-enterprise-reliability-pipelines/",
+      "social_hook": "> TL;DR — Production‑ready RAG combines a vector store, an embedding service, and an LLM behind a fault‑tolerant, autoscaling architecture. By layering caching, asynchronous pipelines, and robust observability, teams can serve millions of queries with sub‑second latency while keeping model updates safe.\n\nRetrieval‑augmented generation (RAG) has moved from research demos to the backbone of enterprise knowledge‑assistants, code‑completion tools, and customer‑support bots. The promise is simple: retrieve relevant context from a private corpus, then let a large language model (LLM) generate answers grounded in that context. Yet the simplicity of the idea belies the engineering challenges of delivering it at scale—high throughput, low latency, data freshness, and strict reliability guarantees. This post walks through the end‑to‑end architecture, production patterns, scaling tactics, and reliability pipelines you need to turn a proof‑of‑concept RAG system into a mission‑critical service.\n\n1. Ingestion & Embedding – Documents are cleaned, chunked, and transformed into dense vectors via an embedding model (e.g., OpenAI’s `text-embedding-ada-002` or a locally hosted sentence‑transformer).",
+      "tags": [
+        "RAG",
+        "retrieval-augmented-generation",
+        "scalability",
+        "observability",
+        "enterprise-architecture"
+      ],
+      "scheduled_at": "2026-06-01T08:01:38Z",
       "status": "pending"
     }
   ]
