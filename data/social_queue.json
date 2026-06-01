@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-06-01T18:01:38Z",
+  "last_scheduled_at": "2026-06-01T19:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -18935,6 +18935,20 @@
         "devops"
       ],
       "scheduled_at": "2026-06-01T18:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Scalable Data Pipelines with Luigi: Dependency Management, Orchestration, and Production-Ready Patterns",
+      "url": "https://martinuke0.github.io/posts/2026-06-01-architecting-scalable-data-pipelines-with-luigi-dependency-management-orchestration-and-production-ready-patterns/",
+      "social_hook": "> TL;DR — Luigi lets you declare data‑flow graphs in pure Python, automatically resolves dependencies, and runs reliably at scale when you pair its central scheduler with disciplined task design, resource‑aware parallelism, and production‑grade patterns such as idempotence, retries, and centralized logging.\n\nIn modern data engineering, pipelines must ingest terabytes, survive node failures, and evolve without breaking downstream analytics. Luigi, the open‑source workflow engine from Spotify, excels at turning a collection of Python scripts into a self‑healing DAG that can be run on a single laptop or a Kubernetes cluster. This post walks through the core concepts of dependency management, explores orchestration options that keep a fleet of workers busy without overwhelming shared resources, and codifies production‑ready patterns you can copy into any enterprise environment.\n\nLuigi’s philosophy is simple: a task declares what it needs, and Luigi makes it happen. The framework builds a directed acyclic graph (DAG) by invoking each task’s `requires()` method, then walks the graph depth‑first, materializing outputs only when necessary. This explicit contract eliminates the “magic” often associated with cron‑based pipelines.",
+      "tags": [
+        "Luigi",
+        "Data Pipelines",
+        "Orchestration",
+        "Dependency Management",
+        "Production Patterns"
+      ],
+      "scheduled_at": "2026-06-01T19:01:38Z",
       "status": "pending"
     }
   ]
