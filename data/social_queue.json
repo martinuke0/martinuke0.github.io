@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-06-01T23:01:38Z",
+  "last_scheduled_at": "2026-06-02T00:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -19005,6 +19005,20 @@
         "production"
       ],
       "scheduled_at": "2026-06-01T23:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing WebGPU-Accelerated Quantization: A Deep Dive into High-Performance Local LLaMA Inference",
+      "url": "https://martinuke0.github.io/posts/2026-06-01-implementing-webgpu-accelerated-quantization-a-deep-dive-into-high-performance-local-llama-inference/",
+      "social_hook": "> TL;DR — By offloading the quantization and matrix‑multiply kernels to WebGPU, you can run a 7B LLaMA model locally with 4‑bit weights at >2 tokens /ms on a mid‑range laptop GPU, while keeping the codebase portable across Windows, macOS, and Linux.\n\nRunning large language models (LLMs) on a workstation used to be a luxury reserved for data‑center GPUs. The recent convergence of WebGPU, WGSL (WebGPU Shading Language), and open‑source GGML‑based LLaMA runtimes has changed that narrative. In this post we walk through the full stack: why WebGPU is a sensible choice, how to restructure the GGML pipeline, the exact WGSL kernels needed for 4‑bit and 8‑bit quantization, and real‑world benchmark numbers that prove the approach scales from an integrated Intel Iris Xe up to an RTX 3070. The goal is to give engineers a production‑ready blueprint that can be dropped into an existing Rust or Python inference service with minimal friction.\n\nWebGPU is a modern, standards‑based API that abstracts Vulkan, Metal, Direct3D 12, and even the browser’s GPU back‑ends behind a single, safe interface. Unlike CUDA, it does not require proprietary drivers, making it usable on a broader set of hardware—including the integrated GPUs that power most developer laptops. The GPUWeb spec guarantees that a shader written once will compile to native code on every platform, which is essential for reproducible inference latency across CI pipelines.",
+      "tags": [
+        "WebGPU",
+        "Quantization",
+        "Llama",
+        "Inference",
+        "Performance"
+      ],
+      "scheduled_at": "2026-06-02T00:01:38Z",
       "status": "pending"
     }
   ]
