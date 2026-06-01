@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-06-01T03:01:38Z",
+  "last_scheduled_at": "2026-06-01T04:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -18725,6 +18725,20 @@
         "memory management"
       ],
       "scheduled_at": "2026-06-01T03:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Deep Dive into RocksDB Compaction Strategies: Leveled versus Tiered Architectures for Production Workloads",
+      "url": "https://martinuke0.github.io/posts/2026-06-01-deep-dive-into-rocksdb-compaction-strategies-leveled-versus-tiered-architectures-for-production-workloads/",
+      "social_hook": "> TL;DR — Leveled compaction gives predictable read latency at the cost of higher write amplification, while tiered compaction maximizes write throughput and reduces write amplification but can increase read latency. Choose the strategy that matches your SLA: latency‑critical services lean on leveled, ingestion‑heavy pipelines benefit from tiered, and hybrid workloads often combine both with per‑column‑family tuning.\n\nRocksDB powers everything from social‑media timelines to IoT ingest pipelines, and its performance hinges on how it reorganizes data on‑disk. The two dominant compaction strategies—Leveled and Tiered—are not interchangeable knobs; they embody fundamentally different trade‑offs in write amplification, read amplification, space amplification, and operational complexity. This post unpacks the internal mechanics, walks through real‑world architecture patterns, and hands you concrete configuration snippets you can drop into a production deployment today.\n\nRocksDB stores data as a Log‑Structured Merge‑Tree (LSM‑tree). Writes are first appended to an in‑memory memtable, flushed to immutable SST files, and later merged (compacted) into larger files. Compaction is the engine that keeps read performance acceptable and reclaims space.",
+      "tags": [
+        "RocksDB",
+        "Compaction",
+        "Leveled",
+        "Tiered",
+        "Production"
+      ],
+      "scheduled_at": "2026-06-01T04:01:38Z",
       "status": "pending"
     }
   ]
