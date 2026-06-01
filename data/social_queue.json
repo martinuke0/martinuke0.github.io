@@ -18683,7 +18683,7 @@
         "architecture"
       ],
       "scheduled_at": "2026-06-01T00:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Implementing Circuit Breakers in Service Meshes: Architecture, Traffic Management, and Resiliency Patterns",
