@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-06-01T17:01:38Z",
+  "last_scheduled_at": "2026-06-01T18:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -18921,6 +18921,20 @@
         "performance"
       ],
       "scheduled_at": "2026-06-01T17:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Cgroups v2 Resource Isolation: Implementation, Architecture, and Performance for Production Systems",
+      "url": "https://martinuke0.github.io/posts/2026-06-01-mastering-cgroups-v2-resource-isolation-implementation-architecture-and-performance-for-production-systems/",
+      "social_hook": "> TL;DR — cgroups v2 provides a unified, fine‑grained way to isolate CPU, memory, I/O, and more. By wiring it into systemd, Docker, and Kubernetes you can enforce strict limits, avoid noisy neighbor problems, and gain predictable performance at scale.\n\nResource isolation is no longer a luxury; it’s a necessity for any production environment that runs multi‑tenant services, high‑throughput pipelines, or latency‑sensitive workloads. While most engineers are familiar with the legacy cgroups v1 interface, the kernel’s cgroups v2 redesign delivers a cleaner hierarchy, richer controllers, and deterministic accounting. This post walks through the architecture of cgroups v2, shows step‑by‑step implementation on modern Linux distributions, and presents performance data from a Kafka‑driven streaming stack. By the end you’ll have a production‑ready recipe for leveraging cgroups v2 across Docker and Kubernetes.\n\n Unified hierarchy** – Unlike v1, where each controller could mount its own tree, v2 enforces a single, consistent hierarchy. This eliminates the “split‑brain” situation where a process lives under one controller’s limits but not another’s.",
+      "tags": [
+        "cgroups",
+        "linux",
+        "containers",
+        "performance",
+        "devops"
+      ],
+      "scheduled_at": "2026-06-01T18:01:38Z",
       "status": "pending"
     }
   ]
