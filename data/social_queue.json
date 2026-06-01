@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-06-01T21:01:38Z",
+  "last_scheduled_at": "2026-06-01T22:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -18977,6 +18977,20 @@
         "devops"
       ],
       "scheduled_at": "2026-06-01T21:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Cgroups v2 Resource Isolation: A Deep Dive into Effective Linux Control Groups",
+      "url": "https://martinuke0.github.io/posts/2026-06-01-mastering-cgroups-v2-resource-isolation-a-deep-dive-into-effective-linux-control-groups/",
+      "social_hook": "> TL;DR — cgroups v2 gives you a single, unified hierarchy to limit CPU, memory, and I/O per workload. By wiring the controllers into systemd units or container runtimes, you can enforce strict isolation, observe real‑time metrics, and recover from quota violations without rebooting the host.\n\nResource isolation is no longer a “nice‑to‑have” feature; it’s a prerequisite for running latency‑sensitive services alongside batch jobs on the same Linux host. While the original cgroups (v1) required juggling multiple hierarchies, cgroups v2 consolidates everything under one tree, simplifying both configuration and observability. This post walks you through the internal architecture, shows production‑grade patterns, and gives you ready‑to‑paste snippets for common tooling such as systemd, Kubernetes, and Docker.\n\n Single hierarchy** – No more “CPU‑only” vs “memory‑only” mounts; everything lives under `/sys/fs/cgroup`.",
+      "tags": [
+        "cgroups",
+        "linux",
+        "resource-isolation",
+        "performance",
+        "devops"
+      ],
+      "scheduled_at": "2026-06-01T22:01:38Z",
       "status": "pending"
     }
   ]
