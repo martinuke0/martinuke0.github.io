@@ -18935,7 +18935,7 @@
         "devops"
       ],
       "scheduled_at": "2026-06-01T18:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Architecting Scalable Data Pipelines with Luigi: Dependency Management, Orchestration, and Production-Ready Patterns",
