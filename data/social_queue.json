@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-06-01T15:01:38Z",
+  "last_scheduled_at": "2026-06-01T16:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -18893,6 +18893,20 @@
         "architecture"
       ],
       "scheduled_at": "2026-06-01T15:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing the Saga Pattern for Distributed Transactions in Commerce: Architecture and Failure Recovery Patterns",
+      "url": "https://martinuke0.github.io/posts/2026-06-01-implementing-the-saga-pattern-for-distributed-transactions-in-commerce-architecture-and-failure-recovery-patterns/",
+      "social_hook": "> TL;DR — The Saga pattern lets you coordinate multi‑service business flows without a global lock, using either an orchestrator or choreography. By pairing compensating actions, idempotent messaging, and observability tooling, you can recover from failures in a live commerce platform while keeping latency low.\n\nIn modern e‑commerce platforms, a single checkout can touch inventory, pricing, payment, order fulfillment, and loyalty services—all backed by independent databases. When any step fails, the whole transaction must roll back, but traditional two‑phase commit (2PC) is too heavyweight for high‑throughput, cloud‑native environments. The Saga pattern replaces a monolithic ACID transaction with a series of local transactions and explicit compensations. This post walks through a production‑grade saga architecture, shows how to wire it to Kafka, and details the failure‑recovery patterns that keep customer orders consistent even when services misbehave.\n\nE‑commerce workloads demand both strong consistency (e.g., you cannot sell more items than you have in stock) and high availability (customers expect sub‑second responses). When a checkout spans multiple bounded contexts, a failure in any one service can leave the system in an inconsistent state—think a payment captured but inventory never decremented.",
+      "tags": [
+        "saga",
+        "distributed-transactions",
+        "microservices",
+        "kafka",
+        "observability"
+      ],
+      "scheduled_at": "2026-06-01T16:01:38Z",
       "status": "pending"
     }
   ]
