@@ -18851,7 +18851,7 @@
         "architecture"
       ],
       "scheduled_at": "2026-06-01T12:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Implementing Liter-LLM: Architecting Rust-Powered Polyglot Bindings for Multi-Provider Inference and Production-Ready Pipelines",
