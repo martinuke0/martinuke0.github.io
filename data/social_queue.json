@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-06-01T13:01:38Z",
+  "last_scheduled_at": "2026-06-01T14:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -18865,6 +18865,20 @@
         "production"
       ],
       "scheduled_at": "2026-06-01T13:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Event-Driven Microservices with Kafka and Schema Registry: A Deep Dive into Data Governance",
+      "url": "https://martinuke0.github.io/posts/2026-06-01-architecting-event-driven-microservices-with-kafka-and-schema-registry-a-deep-dive-into-data-governance/",
+      "social_hook": "> TL;DR — Event‑driven microservices built on Kafka become maintainable and secure when you pair them with Confluent Schema Registry. A disciplined schema‑first approach enforces data contracts, reduces downstream bugs, and gives you auditability across teams.\n\nEvent‑driven architectures have moved from “nice to have” to a production‑grade necessity for companies scaling their digital platforms. In this post we’ll unpack how to design microservices that publish and consume Kafka events while using Schema Registry to enforce data governance, versioning, and compatibility. You’ll see concrete architecture diagrams, configuration snippets, and real‑world patterns that have survived high‑throughput, multi‑team environments.\n\n1. Loose coupling – Services communicate through immutable logs instead of direct RPC calls, allowing independent deployment cycles.",
+      "tags": [
+        "Kafka",
+        "Microservices",
+        "Event-Driven",
+        "Schema Registry",
+        "Data Governance"
+      ],
+      "scheduled_at": "2026-06-01T14:01:38Z",
       "status": "pending"
     }
   ]
