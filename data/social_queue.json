@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-06-01T06:01:38Z",
+  "last_scheduled_at": "2026-06-01T07:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -18767,6 +18767,20 @@
         "Architecture"
       ],
       "scheduled_at": "2026-06-01T06:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering CSP Channels in Go: Implementing Robust Communication Patterns for Concurrent Systems",
+      "url": "https://martinuke0.github.io/posts/2026-06-01-mastering-csp-channels-in-go-implementing-robust-communication-patterns-for-concurrent-systems/",
+      "social_hook": "> TL;DR — Go’s CSP‑style channels let you compose clean, back‑pressured pipelines, fan‑out/fan‑in topologies, and safe worker pools. By following a few production‑ready patterns—bounded buffers, context‑driven cancellation, and explicit error channels—you can turn ad‑hoc goroutine chatter into a robust, observable communication fabric.\n\nConcurrent Go programs often start with a handful of `go func(){}` calls and a few `chan` variables. In the wild, that simplicity evaporates under load: deadlocks, leaked goroutines, and uncontrolled memory usage creep in. This post walks through the most common channel‑based communication patterns, shows how to wire them together in a real‑world microservice architecture, and supplies concrete code, testing tips, and performance knobs that keep your system healthy at scale.\n\nCommunicating Sequential Processes (CSP) was introduced by Tony Hoare in the 1970s and later adopted by Go as its concurrency primitive. The key ideas are:",
+      "tags": [
+        "go",
+        "concurrency",
+        "csp",
+        "channels",
+        "distributed-systems"
+      ],
+      "scheduled_at": "2026-06-01T07:01:38Z",
       "status": "pending"
     }
   ]
