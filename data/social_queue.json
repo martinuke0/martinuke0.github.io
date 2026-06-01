@@ -18949,7 +18949,7 @@
         "Production Patterns"
       ],
       "scheduled_at": "2026-06-01T19:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Implementing eBPF for Tracing and Production Observability: Architecture, Performance, and Real-World Patterns",
