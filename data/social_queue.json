@@ -18809,7 +18809,7 @@
         "Lifecycle"
       ],
       "scheduled_at": "2026-06-01T09:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Optimizing Apache Kafka Topic Partitioning and Consumer Group Rebalancing",
