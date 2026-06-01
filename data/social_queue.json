@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-06-01T19:01:38Z",
+  "last_scheduled_at": "2026-06-01T20:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -18949,6 +18949,20 @@
         "Production Patterns"
       ],
       "scheduled_at": "2026-06-01T19:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing eBPF for Tracing and Production Observability: Architecture, Performance, and Real-World Patterns",
+      "url": "https://martinuke0.github.io/posts/2026-06-01-implementing-ebpf-for-tracing-and-production-observability-architecture-performance-and-real-world-patterns/",
+      "social_hook": "> TL;DR — eBPF lets you attach safe, low‑overhead programs to kernel events, giving you nanosecond‑level visibility without kernel patches. By wiring those programs into a modular pipeline (collector → aggregator → UI) you can build a production observability stack that scales to billions of events per second while staying within strict latency budgets.\n\nObservability teams have long wrestled with the trade‑off between depth of insight and impact on production workloads. Traditional agents rely on uprobes, perf events, or user‑space sampling, each of which introduces latency spikes or blind spots. eBPF flips the equation: the kernel runs verified bytecode at the point of interest, delivering deterministic performance and rich context. This post walks through a production‑ready architecture, quantifies the performance impact, and distills the patterns that have survived real‑world failures at scale.\n\n Zero‑touch deployment** – eBPF programs are loaded from user space via `bpf()` syscalls; no kernel recompilation is required.",
+      "tags": [
+        "eBPF",
+        "tracing",
+        "observability",
+        "performance",
+        "architecture"
+      ],
+      "scheduled_at": "2026-06-01T20:01:38Z",
       "status": "pending"
     }
   ]
