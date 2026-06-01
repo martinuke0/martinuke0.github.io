@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-06-01T14:01:38Z",
+  "last_scheduled_at": "2026-06-01T15:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -18879,6 +18879,20 @@
         "Data Governance"
       ],
       "scheduled_at": "2026-06-01T14:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Distributed Task Queues with Celery: A Deep Dive into Powering Python Applications",
+      "url": "https://martinuke0.github.io/posts/2026-06-01-architecting-distributed-task-queues-with-celery-a-deep-dive-into-powering-python-applications/",
+      "social_hook": "> TL;DR — Celery can turn a handful of Python functions into a fault‑tolerant, horizontally scalable processing fabric. Pick the right broker, configure workers for your latency and throughput goals, and instrument the stack with Prometheus and Flower to keep the system healthy in production.\n\nIn modern Python services, background processing is no longer a nice‑to‑have; it’s a requirement for everything from email notifications to ML inference pipelines. Celery has been the go‑to library for years, but many teams still wrestle with the “how do I make it production‑ready?” question. This post walks through the end‑to‑end architecture of a distributed task queue built on Celery, highlights patterns that survive at scale, and provides concrete code snippets you can drop into your own repositories.\n\n1. Mature ecosystem – official support for RabbitMQ, Redis, Amazon SQS, and more.",
+      "tags": [
+        "celery",
+        "distributed-systems",
+        "python",
+        "task-queue",
+        "architecture"
+      ],
+      "scheduled_at": "2026-06-01T15:01:38Z",
       "status": "pending"
     }
   ]
