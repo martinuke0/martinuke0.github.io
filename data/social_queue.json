@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-06-01T12:01:38Z",
+  "last_scheduled_at": "2026-06-01T13:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -18851,6 +18851,20 @@
         "architecture"
       ],
       "scheduled_at": "2026-06-01T12:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing Liter-LLM: Architecting Rust-Powered Polyglot Bindings for Multi-Provider Inference and Production-Ready Pipelines",
+      "url": "https://martinuke0.github.io/posts/2026-06-01-implementing-liter-llm-architecting-rust-powered-polyglot-bindings-for-multi-provider-inference-and-production-ready-pipelines/",
+      "social_hook": "> TL;DR — Liter-LLM puts a high‑performance Rust inference core at the center of a multi‑provider LLM service, then ships zero‑overhead Python, Node, and Go bindings. Combine Tokio‑driven async I/O, OpenTelemetry tracing, and a RabbitMQ‑backed task queue to turn ad‑hoc inference into a production‑grade pipeline.\n\nLarge language models (LLMs) have become the de‑facto AI service layer for everything from code assistants to customer‑service bots. Most teams reach for a single cloud vendor’s SDK—Python, Node, or Java—only to discover lock‑in, latency spikes, or missing features. Liter‑LLM solves that pain by:\n\n1. Writing the inference engine in Rust, where we get deterministic memory safety, SIMD‑accelerated tokenization, and a small binary footprint.",
+      "tags": [
+        "rust",
+        "llm",
+        "inference",
+        "polyglot",
+        "production"
+      ],
+      "scheduled_at": "2026-06-01T13:01:38Z",
       "status": "pending"
     }
   ]
