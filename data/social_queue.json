@@ -18767,7 +18767,7 @@
         "Architecture"
       ],
       "scheduled_at": "2026-06-01T06:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Mastering CSP Channels in Go: Implementing Robust Communication Patterns for Concurrent Systems",
