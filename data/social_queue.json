@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-06-01T16:01:38Z",
+  "last_scheduled_at": "2026-06-01T17:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -18907,6 +18907,20 @@
         "observability"
       ],
       "scheduled_at": "2026-06-01T16:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing eBPF for Production Observability: A Deep Dive into High-Performance Tracing and Monitoring",
+      "url": "https://martinuke0.github.io/posts/2026-06-01-implementing-ebpf-for-production-observability-a-deep-dive-into-high-performance-tracing-and-monitoring/",
+      "social_hook": "> TL;DR — eBPF lets you attach lightweight, kernel‑level probes to any Linux subsystem without kernel patches. By combining eBPF programs, map‑based data structures, and tools like bpftrace or Cilium, you can build high‑throughput, low‑overhead observability pipelines that scale to production traffic.\n\nObservability has moved past simple logs and metrics; modern services need per‑request latency, syscalls, and network‑level insights—all in real time. eBPF (extended Berkeley Packet Filter) offers a programmable hook inside the kernel that runs safely, making it the ideal foundation for high‑performance tracing and monitoring. In this post we’ll unpack the eBPF stack, walk through concrete production patterns, and show how to ship a resilient observability pipeline on Kubernetes without compromising safety or performance.\n\n1. Zero‑touch instrumentation – You can probe functions, tracepoints, and network packets without rebuilding binaries or restarting services.",
+      "tags": [
+        "eBPF",
+        "observability",
+        "tracing",
+        "monitoring",
+        "performance"
+      ],
+      "scheduled_at": "2026-06-01T17:01:38Z",
       "status": "pending"
     }
   ]
