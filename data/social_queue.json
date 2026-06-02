@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-06-02T11:01:38Z",
+  "last_scheduled_at": "2026-06-02T12:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -19173,6 +19173,20 @@
         "open-source"
       ],
       "scheduled_at": "2026-06-02T11:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing Copy-on-Write B-Trees for Database Snapshots: Architecture, Consistency, and Production Patterns",
+      "url": "https://martinuke0.github.io/posts/2026-06-02-implementing-copy-on-write-b-trees-for-database-snapshots-architecture-consistency-and-production-patterns/",
+      "social_hook": "> TL;DR — Copy‑on‑write (COW) B‑trees let you take point‑in‑time snapshots without blocking writes. By sharing unchanged pages and versioning modified nodes, you get O(log N) reads, cheap snapshots, and strong consistency guarantees that scale in production systems like CockroachDB and RocksDB.\n\nDatabase snapshots are a cornerstone of modern data platforms—think point‑in‑time restores, analytical clones, or multi‑tenant tenant isolation. Traditional approaches (full copy, logical dump, or heavyweight MVCC) either stall the workload or explode storage costs. A COW B‑tree combines the elegance of B‑tree indexing with immutable page semantics, delivering near‑zero‑copy snapshots that integrate cleanly into existing write‑ahead logs (WAL). This post walks through the architecture, consistency model, and production‑ready patterns you need to adopt COW B‑trees in a real system.\n\n Fast Snapshots** – Creating a snapshot is a single atomic pointer update; no data movement is required.",
+      "tags": [
+        "b-trees",
+        "copy-on-write",
+        "database-snapshots",
+        "architecture",
+        "production-patterns"
+      ],
+      "scheduled_at": "2026-06-02T12:01:38Z",
       "status": "pending"
     }
   ]
