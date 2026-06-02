@@ -19047,7 +19047,7 @@
         "HeadOfLineBlocking"
       ],
       "scheduled_at": "2026-06-02T02:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Architecting Multimodal RAG Pipelines: Integrating Vision-Language Models for Production-Ready Applications",
