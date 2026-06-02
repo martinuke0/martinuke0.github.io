@@ -19229,7 +19229,7 @@
         "performance"
       ],
       "scheduled_at": "2026-06-02T15:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Deep Dive into Tail Latency: Avoiding the Little's Law Trap in High‑Throughput Systems",
@@ -19243,7 +19243,7 @@
         "distributed systems"
       ],
       "scheduled_at": "2026-06-02T16:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Deep Dive into the Postgres Write-Ahead Log: Ensuring Data Durability and Crash Recovery",
@@ -19257,7 +19257,7 @@
         "Architecture"
       ],
       "scheduled_at": "2026-06-02T17:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Mastering Apache Kafka Topic Partitioning and Consumer Group Rebalancing: Architecture, Scaling, and Production Patterns",
@@ -19271,7 +19271,7 @@
         "Production Patterns"
       ],
       "scheduled_at": "2026-06-02T18:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Deep Dive into PostgreSQL MVCC: Transaction Isolation, Snapshot Management, and Concurrency Control for Production",
