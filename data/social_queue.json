@@ -19328,7 +19328,7 @@
         "Architecture"
       ],
       "scheduled_at": "2026-06-02T22:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Optimizing Small Language Models for Local Edge Inference: Techniques, Constraints, and Production Deployment Patterns",
@@ -19342,7 +19342,7 @@
         "production"
       ],
       "scheduled_at": "2026-06-02T23:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Implementing Idempotency Keys in Payment APIs: Architecture, Reliability, and Production-Ready Patterns",
