@@ -19117,7 +19117,7 @@
         "architecture"
       ],
       "scheduled_at": "2026-06-02T07:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Architecting Google Cloud Platform: Service Selection and Infrastructure Patterns for Production Workloads",
