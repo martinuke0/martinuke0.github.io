@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-06-02T22:01:38Z",
+  "last_scheduled_at": "2026-06-02T23:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -19328,6 +19328,20 @@
         "Architecture"
       ],
       "scheduled_at": "2026-06-02T22:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Small Language Models for Local Edge Inference: Techniques, Constraints, and Production Deployment Patterns",
+      "url": "https://martinuke0.github.io/posts/2026-06-02-optimizing-small-language-models-for-local-edge-inference-techniques-constraints-and-production-deployment-patterns/",
+      "social_hook": "> TL;DR — Small language models can run on edge devices when you combine quantization, pruning, and clever runtime choices. Deploy them with container‑native pipelines, monitor resource usage, and fallback to cloud‑assisted inference for rare queries.\n\nEdge devices—smart cameras, industrial IoT gateways, or even consumer smartphones—are no longer limited to simple rule‑based logic. With the rise of tiny transformer variants (e.g., LLaMA‑7B‑Q4, DistilGPT‑2), engineers can embed natural‑language capabilities directly where data is generated. Doing so reduces latency, protects privacy, and cuts bandwidth costs. However, squeezing a language model into a few hundred megabytes of RAM, a low‑power CPU, or a modest GPU brings a new set of engineering challenges. This post walks through the hard constraints you’ll meet on the edge, the most effective model‑size‑reduction techniques, and production‑grade deployment patterns that keep your inference pipeline reliable at scale.\n\nBefore you start pruning weights, you need a concrete picture of the hardware envelope you’re targeting.",
+      "tags": [
+        "edge",
+        "mlops",
+        "llm",
+        "inference",
+        "production"
+      ],
+      "scheduled_at": "2026-06-02T23:01:38Z",
       "status": "pending"
     }
   ]
