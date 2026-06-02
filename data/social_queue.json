@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-06-02T07:01:38Z",
+  "last_scheduled_at": "2026-06-02T08:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -19117,6 +19117,20 @@
         "architecture"
       ],
       "scheduled_at": "2026-06-02T07:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Google Cloud Platform: Service Selection and Infrastructure Patterns for Production Workloads",
+      "url": "https://martinuke0.github.io/posts/2026-06-02-architecting-google-cloud-platform-service-selection-and-infrastructure-patterns-for-production-workloads/",
+      "social_hook": "> TL;DR — Picking the right GCP services is a trade‑off between latency, cost, and operational burden. By grouping services into compute, data, and observability layers and applying patterns such as “stateless front‑ends + managed back‑ends” and “infrastructure-as-code pipelines,” you can ship production workloads that scale predictably and stay within budget.\n\nRunning a production workload on Google Cloud Platform (GCP) is no longer an academic exercise; it’s a daily reality for millions of engineers. The platform offers over 200 fully managed services, each with its own SLAs, pricing model, and operational quirks. This post shows how to navigate that landscape, decide which services belong where, and stitch them together using battle‑tested infrastructure patterns. All examples target real‑world constraints—high traffic, multi‑region availability, and strict cost caps—so you can copy the approach directly into your own Terraform or Cloud Build pipelines.\n\nChoosing a service without a structured framework leads to “shiny‑object syndrome” and hidden operational debt. The following three‑step matrix helps you map business requirements to GCP primitives.",
+      "tags": [
+        "GCP",
+        "Architecture",
+        "Production",
+        "Infrastructure",
+        "Patterns"
+      ],
+      "scheduled_at": "2026-06-02T08:01:38Z",
       "status": "pending"
     }
   ]
