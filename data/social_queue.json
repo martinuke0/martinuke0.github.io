@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-06-02T20:01:38Z",
+  "last_scheduled_at": "2026-06-02T21:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -19300,6 +19300,20 @@
         "python"
       ],
       "scheduled_at": "2026-06-02T20:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing eBPF for Production Observability: A Deep Dive into High-Performance System Tracing and Monitoring",
+      "url": "https://martinuke0.github.io/posts/2026-06-02-implementing-ebpf-for-production-observability-a-deep-dive-into-high-performance-system-tracing-and-monitoring/",
+      "social_hook": "> TL;DR — eBPF lets you collect nanosecond‑granular telemetry from the Linux kernel without modifying application code. By wiring eBPF programs into your existing observability pipeline, you can achieve production‑grade tracing and monitoring with minimal overhead and maximal flexibility.\n\nObservability teams have long relied on agents that instrument user‑space libraries or inject sidecars into containers. Those approaches work, but they add latency, require code changes, and often miss low‑level kernel events that matter most in high‑throughput services. eBPF (extended Berkeley Packet Filter) flips that model: you write small, verified programs that run inside the kernel, attach them to hooks such as kprobes, tracepoints, or XDP, and stream the results to user space. This post walks through the architectural decisions, production patterns, and concrete code you need to adopt eBPF for observability at scale.\n\n Zero‑touch instrumentation** – No need to recompile binaries or add language‑specific SDKs. A single eBPF program can observe thousands of processes across the host.",
+      "tags": [
+        "eBPF",
+        "Observability",
+        "Tracing",
+        "Monitoring",
+        "Production"
+      ],
+      "scheduled_at": "2026-06-02T21:01:38Z",
       "status": "pending"
     }
   ]
