@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-06-02T04:01:38Z",
+  "last_scheduled_at": "2026-06-02T05:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -19075,6 +19075,20 @@
         "Architecture"
       ],
       "scheduled_at": "2026-06-02T04:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Celery: Architecting Robust Distributed Task Queues for Production-Ready Python Applications",
+      "url": "https://martinuke0.github.io/posts/2026-06-02-mastering-celery-architecting-robust-distributed-task-queues-for-production-ready-python-applications/",
+      "social_hook": "> TL;DR — Celery remains a battle‑tested backbone for Python‑based async workloads. By choosing the right broker, configuring worker pools, and wiring up Prometheus‑compatible metrics, you can run a zero‑downtime, auto‑scaled task queue on Kubernetes that survives network partitions and traffic spikes.\n\nIn modern microservice stacks, background processing is rarely an afterthought. Whether you’re generating PDFs, crunching ML inference, or syncing data across SaaS APIs, Celery gives you a mature, language‑native way to off‑load work. This post walks through the full production stack: broker selection, worker topology, deployment patterns, scaling knobs, and observability pipelines that keep your queue healthy at scale.\n\n Maturity** – Over a decade of battle‑testing means the core codebase handles edge‑cases that newer libraries still discover.",
+      "tags": [
+        "celery",
+        "python",
+        "distributed-systems",
+        "task-queue",
+        "devops"
+      ],
+      "scheduled_at": "2026-06-02T05:01:38Z",
       "status": "pending"
     }
   ]
