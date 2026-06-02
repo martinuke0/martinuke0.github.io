@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-06-02T03:01:38Z",
+  "last_scheduled_at": "2026-06-02T04:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -19061,6 +19061,20 @@
         "production"
       ],
       "scheduled_at": "2026-06-02T03:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Autonomous Memory Systems for Distributed AI Agent Orchestration: A Deep Dive",
+      "url": "https://martinuke0.github.io/posts/2026-06-02-architecting-autonomous-memory-systems-for-distributed-ai-agent-orchestration-a-deep-dive/",
+      "social_hook": "> TL;DR — Autonomous memory for distributed AI agents must blend low‑latency key‑value stores, durable logs, and vector indexes. By layering a Memory‑as‑a‑Service API over Kafka, Redis, and PostgreSQL, you get strong consistency where you need it and eventual consistency where you can trade latency for scale.\n\nDistributed AI agents—whether they are autonomous chat assistants, swarm robotics, or multi‑step reasoning pipelines—need a place to store and retrieve state that is both fast and reliable. In monolithic setups a single process can keep everything in RAM, but at scale the state lives across data‑centers, survives pod restarts, and must be searchable by embeddings. This post shows how to build an Autonomous Memory System (AMS) that meets those constraints, using off‑the‑shelf open‑source components and proven production patterns.\n\n Temporal continuity** – An agent may need to remember a user’s preference across dozens of calls spanning minutes or hours.",
+      "tags": [
+        "AI",
+        "DistributedSystems",
+        "Memory",
+        "Orchestration",
+        "Architecture"
+      ],
+      "scheduled_at": "2026-06-02T04:01:38Z",
       "status": "pending"
     }
   ]
