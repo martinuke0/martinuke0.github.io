@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-06-02T17:01:38Z",
+  "last_scheduled_at": "2026-06-02T18:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -19257,6 +19257,20 @@
         "Architecture"
       ],
       "scheduled_at": "2026-06-02T17:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Apache Kafka Topic Partitioning and Consumer Group Rebalancing: Architecture, Scaling, and Production Patterns",
+      "url": "https://martinuke0.github.io/posts/2026-06-02-mastering-apache-kafka-topic-partitioning-and-consumer-group-rebalancing-architecture-scaling-and-production-patterns/",
+      "social_hook": "> TL;DR — Properly sizing partitions and tuning consumer‑group rebalancing are the keys to linear Kafka scalability. By applying deterministic partitioning, custom rebalance listeners, and proven production patterns, you can keep latency sub‑second even as you add dozens of brokers and hundreds of consumers.\n\nKafka has become the de‑facto backbone for event‑driven architectures, but many teams hit a wall when they try to grow beyond a few dozen partitions or when frequent rebalances cause latency spikes. This post walks through the architecture of topic partitioning, the internals of consumer‑group rebalancing, and production‑ready patterns that let you scale Kafka predictably.\n\nA Kafka topic is split into partitions, each a sequential, immutable log stored on a broker. The number of partitions determines:",
+      "tags": [
+        "Kafka",
+        "Topic Partitioning",
+        "Consumer Groups",
+        "Scaling",
+        "Production Patterns"
+      ],
+      "scheduled_at": "2026-06-02T18:01:38Z",
       "status": "pending"
     }
   ]
