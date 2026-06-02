@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-06-02T21:01:38Z",
+  "last_scheduled_at": "2026-06-02T22:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -19314,6 +19314,20 @@
         "Production"
       ],
       "scheduled_at": "2026-06-02T21:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing TLS 1.3 Zero Round-Trip Resumption: Architecture, Low-Latency Security, and Performance Patterns",
+      "url": "https://martinuke0.github.io/posts/2026-06-02-implementing-tls-13-zero-round-trip-resumption-architecture-low-latency-security-and-performance-patterns/",
+      "social_hook": "> TL;DR — TLS 1.3 zero round‑trip (0‑RTT) resumption slashes handshake latency by re‑using session tickets, but it demands careful architecture, replay protection, and observability. This post shows a production‑ready design, Nginx/OpenSSL integration steps, and benchmark patterns to verify the latency win.\n\nImplementing TLS 1.3 0‑RTT resumption is no longer a research curiosity; it’s a practical technique for latency‑sensitive services—API gateways, edge caches, and micro‑service meshes—that need to finish a TLS handshake in a single network round‑trip. In this article we unpack the protocol flow, map it onto real‑world components (Nginx, OpenSSL, Envoy), and provide reproducible performance tests. By the end you’ll have a blueprint you can drop into your CI pipeline and a checklist of security trade‑offs.\n\nTLS 1.3 reduces the classic 2‑RTT handshake to a single round‑trip for a fresh connection. The client sends a ClientHello with supported cipher suites and a key_share (ECDHE). The server replies with ServerHello, EncryptedExtensions, Certificate, CertificateVerify, and Finished. The round‑trip latency is dominated by network RTT and the server’s cryptographic cost.",
+      "tags": [
+        "TLS",
+        "TLS1.3",
+        "Zero-RTT",
+        "Performance",
+        "Architecture"
+      ],
+      "scheduled_at": "2026-06-02T22:01:38Z",
       "status": "pending"
     }
   ]
