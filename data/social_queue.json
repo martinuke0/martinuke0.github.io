@@ -19075,7 +19075,7 @@
         "Architecture"
       ],
       "scheduled_at": "2026-06-02T04:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Mastering Celery: Architecting Robust Distributed Task Queues for Production-Ready Python Applications",
