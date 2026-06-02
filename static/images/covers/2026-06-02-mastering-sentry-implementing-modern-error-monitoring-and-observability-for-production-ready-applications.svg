@@ -13,15 +13,15 @@
     <text x="80" y="504" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="78" font-weight="700" fill="#ffffff">Monitoring and Observability</text>
   <g transform="translate(80, 720)">
       <rect width="124" height="44" rx="22" fill="rgba(255,255,255,0.18)"/>
-      <text x="20" y="29" font-family="system-ui, sans-serif" font-size="20" font-weight="500" fill="#ffffff">sentry</text>
+      <text x="20" y="29" font-family="system-ui, sans-serif" font-size="20" font-weight="500" fill="#ffffff">Sentry</text>
     </g>
     <g transform="translate(280, 720)">
       <rect width="264" height="44" rx="22" fill="rgba(255,255,255,0.18)"/>
-      <text x="20" y="29" font-family="system-ui, sans-serif" font-size="20" font-weight="500" fill="#ffffff">error-monitoring</text>
+      <text x="20" y="29" font-family="system-ui, sans-serif" font-size="20" font-weight="500" fill="#ffffff">Error Monitoring</text>
     </g>
     <g transform="translate(480, 720)">
       <rect width="222" height="44" rx="22" fill="rgba(255,255,255,0.18)"/>
-      <text x="20" y="29" font-family="system-ui, sans-serif" font-size="20" font-weight="500" fill="#ffffff">observability</text>
+      <text x="20" y="29" font-family="system-ui, sans-serif" font-size="20" font-weight="500" fill="#ffffff">Observability</text>
     </g>
   <text x="1520" y="795" text-anchor="end" font-family="system-ui, sans-serif" font-size="22" font-weight="500" fill="rgba(255,255,255,0.7)">martinuke0.github.io</text>
 </svg>
