@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-06-02T13:01:38Z",
+  "last_scheduled_at": "2026-06-02T14:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -19201,6 +19201,20 @@
         "ops"
       ],
       "scheduled_at": "2026-06-02T13:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Token Bucket vs. Leaky Bucket Rate Limiters: Implementation Strategies for Production-Ready Services",
+      "url": "https://martinuke0.github.io/posts/2026-06-02-architecting-token-bucket-vs-leaky-bucket-rate-limiters-implementation-strategies-for-production-ready-services/",
+      "social_hook": "> TL;DR — Token bucket excels at handling bursts, while leaky bucket provides a smoother outflow. Choose the algorithm that matches your service’s latency guarantees, then scale it with Redis, Envoy, or sharded stores to survive production traffic spikes.\n\nRate limiting is a non‑negotiable guardrail for any public‑facing API, microservice, or edge gateway. Yet the choice between a token bucket and a leaky bucket is rarely reduced to “which one is faster.” It hinges on burst tolerance, latency expectations, and the operational realities of distributed state. This post walks through the mathematics, production‑grade architecture patterns, and concrete code snippets that let you ship a reliable limiter on Kafka, GCP, or a simple Redis cluster.\n\nA token bucket maintains a counter C that represents how many tokens are currently available. Tokens are added at a fixed refill rate r (tokens per second) up to a maximum capacity B (the bucket size). An incoming request consumes n tokens (usually 1). If `C >= n` the request is allowed and `C -= n`; otherwise it is rejected or delayed.",
+      "tags": [
+        "rate limiting",
+        "token bucket",
+        "leaky bucket",
+        "distributed systems",
+        "architecture"
+      ],
+      "scheduled_at": "2026-06-02T14:01:38Z",
       "status": "pending"
     }
   ]
