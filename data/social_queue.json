@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-06-02T14:01:38Z",
+  "last_scheduled_at": "2026-06-02T15:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -19215,6 +19215,20 @@
         "architecture"
       ],
       "scheduled_at": "2026-06-02T14:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Deep Dive into QUIC Stream Multiplexing: Eliminating Head-of-Line Blocking for High-Performance Networking",
+      "url": "https://martinuke0.github.io/posts/2026-06-02-deep-dive-into-quic-stream-multiplexing-eliminating-head-of-line-blocking-for-high-performance-networking/",
+      "social_hook": "> TL;DR — QUIC’s stream multiplexing replaces TCP’s single‑stream model, eradicating head‑of‑line blocking and enabling sub‑millisecond latency and multi‑gigabit throughput in production environments. The post explains the protocol internals, real‑world deployment patterns, and sample code you can run today.\n\nModern services—from video streaming to real‑time gaming—depend on networks that can deliver many concurrent flows without one slow flow dragging the rest down. While TCP’s reliable byte‑stream model has served the internet for decades, its built‑in head‑of‑line (HoL) blocking becomes a performance bottleneck when a single packet loss stalls the entire connection. QUIC, the transport layer protocol standardized in RFC 9000, solves this problem with stream multiplexing, allowing independent streams to progress in parallel over a single encrypted connection.\n\n* Show concrete production patterns used by Cloudflare, Google, and other operators.",
+      "tags": [
+        "QUIC",
+        "networking",
+        "stream-multiplexing",
+        "head-of-line-blocking",
+        "performance"
+      ],
+      "scheduled_at": "2026-06-02T15:01:38Z",
       "status": "pending"
     }
   ]
