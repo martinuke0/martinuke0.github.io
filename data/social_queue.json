@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-06-02T09:01:38Z",
+  "last_scheduled_at": "2026-06-02T10:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -19145,6 +19145,20 @@
         "high-availability"
       ],
       "scheduled_at": "2026-06-02T09:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Deep Dive into the Go Work-Stealing Scheduler: Architecture, Mechanics, and Runtime Performance",
+      "url": "https://martinuke0.github.io/posts/2026-06-02-deep-dive-into-the-go-work-stealing-scheduler-architecture-mechanics-and-runtime-performance/",
+      "social_hook": "> TL;DR — Go’s scheduler is a lightweight, work‑stealing runtime that balances millions of goroutines across OS threads. Understanding its queue design, steal policy, and GOMAXPROCS tuning can shave 10‑20 % latency in high‑concurrency services.\n\nGo’s runtime has become the silent workhorse behind microservices that handle tens of thousands of concurrent requests. While most engineers treat the scheduler as a black box, subtle configuration choices and a solid mental model of its work‑stealing mechanics can translate into measurable latency reductions and smoother scaling. This post unpacks the scheduler’s architecture, walks through the stealing algorithm, and presents production‑grade performance data you can replicate today.\n\nEach P owns a local runqueue (a circular buffer) that holds ready G objects. An M is attached to a P to execute the goroutine at the head of that queue. When a P runs out of work, it attempts to steal from another P’s queue. This design keeps contention low because most operations are confined to a single CPU’s cache line.",
+      "tags": [
+        "go",
+        "scheduler",
+        "work-stealing",
+        "performance",
+        "runtime"
+      ],
+      "scheduled_at": "2026-06-02T10:01:38Z",
       "status": "pending"
     }
   ]
