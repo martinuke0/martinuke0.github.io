@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-06-02T06:01:38Z",
+  "last_scheduled_at": "2026-06-02T07:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -19103,6 +19103,20 @@
         "observability"
       ],
       "scheduled_at": "2026-06-02T06:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Robust Payment Systems: Engineering for High-Availability Scalability and End-to-End Security Standards",
+      "url": "https://martinuke0.github.io/posts/2026-06-02-architecting-robust-payment-systems-engineering-for-high-availability-scalability-and-end-to-end-security-standards/",
+      "social_hook": "> TL;DR — Building a payment system that never sleeps requires a layered architecture: stateless front‑ends, durable event streams, and immutable audit trails. Pair those with automated failover, capacity‑driven scaling, and a security‑by‑design checklist to meet PCI‑DSS and modern threat models.\n\nPayment processors sit at the intersection of revenue, regulation, and user trust. One outage can freeze millions of dollars, while a single breach can erase a brand’s reputation. In this post we walk through the concrete building blocks, production‑grade patterns, and security standards that turn a naïve checkout flow into a resilient, globally‑available service. The focus is on real‑world tools—Kafka, Terraform, AWS RDS, and OpenTelemetry—so you can map each recommendation directly onto your stack.\n\nThe separation of concerns is intentional: every component can be scaled, patched, or replaced without cascading failures. Stateless front‑ends can be replicated behind a load balancer; the event backbone guarantees exactly‑once processing when combined with the right consumer pattern; and the ledger database is the source of truth for all monetary movements.",
+      "tags": [
+        "payment",
+        "high-availability",
+        "scalability",
+        "security",
+        "architecture"
+      ],
+      "scheduled_at": "2026-06-02T07:01:38Z",
       "status": "pending"
     }
   ]
