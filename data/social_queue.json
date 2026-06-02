@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-06-02T08:01:38Z",
+  "last_scheduled_at": "2026-06-02T09:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -19131,6 +19131,20 @@
         "Patterns"
       ],
       "scheduled_at": "2026-06-02T08:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Robust Payment Systems: Engineering for High-Availability Scalability and End-to-End Security",
+      "url": "https://martinuke0.github.io/posts/2026-06-02-architecting-robust-payment-systems-engineering-for-high-availability-scalability-and-end-to-end-security/",
+      "social_hook": "> TL;DR — Build payment services around three immutable pillars: redundant, region‑aware deployment for high availability; event‑driven, sharded pipelines for horizontal scalability; and cryptographically enforced, audit‑ready data flows for end‑to‑end security. Applying the patterns below lets you ship features faster without compromising uptime or compliance.\n\nPayments are the lifeblood of any internet‑scale business, yet they operate under the harshest expectations: milliseconds of latency, zero‑downtime, and iron‑clad protection of financial data. In this post we unpack how the world’s biggest processors—Stripe, PayPal, Adyen—combine cloud‑native architecture, proven design patterns, and rigorous operational discipline to meet those expectations. Whether you’re building a new merchant‑on‑ramp or modernizing a legacy gateway, the concepts here map directly onto Kubernetes, Kafka, Terraform, and other tools you already use.\n\n1. Active‑active multi‑region topology – Deploy the same service stack in at least two cloud regions (e.g., `us-east1` and `eu-west1`). Use a global load balancer (Google Cloud HTTP(S) Load Balancer, AWS Global Accelerator) that performs health checks on each region and routes traffic to the healthiest endpoint.",
+      "tags": [
+        "payment",
+        "architecture",
+        "scalability",
+        "security",
+        "high-availability"
+      ],
+      "scheduled_at": "2026-06-02T09:01:38Z",
       "status": "pending"
     }
   ]
