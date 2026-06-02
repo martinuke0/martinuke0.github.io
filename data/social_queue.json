@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-06-02T10:01:38Z",
+  "last_scheduled_at": "2026-06-02T11:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -19159,6 +19159,20 @@
         "runtime"
       ],
       "scheduled_at": "2026-06-02T10:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing Redash for Data Visualization: Mastering Open-Source Analytics and Production-Ready Dashboards",
+      "url": "https://martinuke0.github.io/posts/2026-06-02-implementing-redash-for-data-visualization-mastering-open-source-analytics-and-production-ready-dashboards/",
+      "social_hook": "> TL;DR — Redash can be turned into a production‑grade analytics layer with a few disciplined steps: containerize the stack, harden authentication, configure a reliable PostgreSQL backend, and adopt alerting and scaling patterns that keep dashboards fast and secure.\n\nRedash has become a go‑to open‑source alternative when teams need self‑service SQL‑driven visualizations without the licensing overhead of Tableau or Power BI. In this post we walk through the entire lifecycle—from provisioning a Docker‑Compose cluster on a GCP VM to wiring alerts into Slack—so you can hand off a rock‑solid, maintainable analytics environment to your data engineers and product managers.\n\n1. SQL‑first mindset – Redash treats every visualization as a query, which aligns naturally with data‑engineer workflows that already write dbt models or Airflow jobs.",
+      "tags": [
+        "redash",
+        "data-visualization",
+        "analytics",
+        "dashboards",
+        "open-source"
+      ],
+      "scheduled_at": "2026-06-02T11:01:38Z",
       "status": "pending"
     }
   ]
