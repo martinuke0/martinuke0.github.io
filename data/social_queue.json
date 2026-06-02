@@ -19033,7 +19033,7 @@
         "scalable-architecture"
       ],
       "scheduled_at": "2026-06-02T01:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Deep Dive into QUIC Stream Multiplexing: Eliminating Head-of-Line Blocking for High-Performance Networking",
