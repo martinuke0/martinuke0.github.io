@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-06-02T16:01:38Z",
+  "last_scheduled_at": "2026-06-02T17:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -19243,6 +19243,20 @@
         "distributed systems"
       ],
       "scheduled_at": "2026-06-02T16:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Deep Dive into the Postgres Write-Ahead Log: Ensuring Data Durability and Crash Recovery",
+      "url": "https://martinuke0.github.io/posts/2026-06-02-deep-dive-into-the-postgres-write-ahead-log-ensuring-data-durability-and-crash-recovery/",
+      "social_hook": "> TL;DR — PostgreSQL’s Write-Ahead Log (WAL) writes every change to disk before applying it, guaranteeing durability and enabling rapid crash recovery; proper configuration and monitoring keep the system resilient under load.\n\nPostgreSQL powers everything from fintech platforms to social media back‑ends, and its ability to survive power failures or kernel panics is a non‑negotiable requirement for any production deployment. The secret sauce behind that reliability is the Write‑Ahead Log (WAL). In this post we’ll peel back the abstraction layers, look at the on‑disk format, walk through the checkpoint algorithm, and show how you can tune the WAL for both durability and performance in real‑world environments.\n\nWhen a client issues an `INSERT`, `UPDATE`, or `DELETE`, PostgreSQL does not immediately modify the data files on disk. Instead, it follows a strict sequence:",
+      "tags": [
+        "PostgreSQL",
+        "WAL",
+        "Durability",
+        "Crash Recovery",
+        "Architecture"
+      ],
+      "scheduled_at": "2026-06-02T17:01:38Z",
       "status": "pending"
     }
   ]
