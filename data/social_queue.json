@@ -19145,7 +19145,7 @@
         "high-availability"
       ],
       "scheduled_at": "2026-06-02T09:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Deep Dive into the Go Work-Stealing Scheduler: Architecture, Mechanics, and Runtime Performance",
