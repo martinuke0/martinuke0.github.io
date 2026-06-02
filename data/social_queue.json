@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-06-02T12:01:38Z",
+  "last_scheduled_at": "2026-06-02T13:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -19187,6 +19187,20 @@
         "production-patterns"
       ],
       "scheduled_at": "2026-06-02T12:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Storage Management Strategies for Modern IT Infrastructure: Architecture, Scalability, and Production-Ready Patterns",
+      "url": "https://martinuke0.github.io/posts/2026-06-02-mastering-storage-management-strategies-for-modern-it-infrastructure-architecture-scalability-and-production-ready-patterns/",
+      "social_hook": "> TL;DR — Modern storage is a layered, policy‑driven fabric. Combine a tiered architecture (NVMe → SSD → HDD → object), automate tier migration, and bake observability and failure‑mode handling into your pipelines to achieve both performance and cost efficiency at scale.\n\nEnterprises today juggle petabytes of hot transactional data, cold analytical archives, and everything in between. The challenge isn’t just buying more disks; it’s about orchestrating those disks so that latency, durability, and cost meet the business SLAs. This post walks through a production‑ready storage stack, shows how to scale it on‑prem and in the cloud, and distills reusable patterns you can copy into your own environments.\n\nA resilient storage system is rarely a monolith. Instead, it follows a layered architecture that separates concerns:",
+      "tags": [
+        "storage",
+        "architecture",
+        "scalability",
+        "cloud",
+        "ops"
+      ],
+      "scheduled_at": "2026-06-02T13:01:38Z",
       "status": "pending"
     }
   ]
