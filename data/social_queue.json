@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-06-02T15:01:38Z",
+  "last_scheduled_at": "2026-06-02T16:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -19229,6 +19229,20 @@
         "performance"
       ],
       "scheduled_at": "2026-06-02T15:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Deep Dive into Tail Latency: Avoiding the Little's Law Trap in High‑Throughput Systems",
+      "url": "https://martinuke0.github.io/posts/2026-06-02-deep-dive-into-tail-latency-avoiding-the-little/",
+      "social_hook": "> TL;DR — Little's Law only guarantees average latency, not the 99th‑percentile spikes that hurt user experience. By combining request shaping, back‑pressure, and explicit tail‑latency budgets, you can keep tail latency under control even when the system processes millions of messages per second.\n\nIn modern microservice ecosystems, engineers often celebrate low average latency while overlooking the occasional but costly outliers. Those outliers—tail latency—are the true enemy of reliability, especially in data‑intensive pipelines built on Kafka, Flink, or similar high‑throughput platforms. This post unpacks why Little's Law can be a misleading comfort zone, and it delivers production‑ready patterns you can apply today.\n\nAverage latency (mean response time) is easy to compute and fits neatly into a single number on dashboards. Tail latency, typically measured at the 95th, 99th, or 99.9th percentile, tells you how the worst‑case requests behave. In a system that handles 10 M requests per second, a 1 ms average can coexist with a 200 ms 99th‑percentile spike—enough to breach SLAs and cascade failures downstream.",
+      "tags": [
+        "tail latency",
+        "little's law",
+        "high-throughput",
+        "kafka",
+        "distributed systems"
+      ],
+      "scheduled_at": "2026-06-02T16:01:38Z",
       "status": "pending"
     }
   ]
