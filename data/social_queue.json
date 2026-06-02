@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-06-02T23:01:38Z",
+  "last_scheduled_at": "2026-06-03T00:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -19342,6 +19342,20 @@
         "production"
       ],
       "scheduled_at": "2026-06-02T23:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing Idempotency Keys in Payment APIs: Architecture, Reliability, and Production-Ready Patterns",
+      "url": "https://martinuke0.github.io/posts/2026-06-02-implementing-idempotency-keys-in-payment-apis-architecture-reliability-and-production-ready-patterns/",
+      "social_hook": "> TL;DR — Idempotency keys turn flaky, duplicate payment requests into safe, repeatable operations. By storing keys with deterministic hashes and coupling them to a robust persistence layer, you can guarantee exactly‑once semantics even under network partitions and high traffic spikes.\n\nPayment platforms that expose HTTP‑based charge endpoints must survive retries from client libraries, mobile networks, and load balancers. Without a disciplined idempotency strategy, a single user double‑click can generate two charges, leading to refunds, chargebacks, and lost trust. This post walks through the end‑to‑end design of idempotency keys, the supporting architecture, and production‑ready patterns that keep your payment API reliable at scale.\n\n1. User Experience – Mobile networks often drop connections; SDKs automatically retry.",
+      "tags": [
+        "idempotency",
+        "payment-api",
+        "architecture",
+        "reliability",
+        "patterns"
+      ],
+      "scheduled_at": "2026-06-03T00:01:38Z",
       "status": "pending"
     }
   ]
