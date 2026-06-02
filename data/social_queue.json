@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-06-02T05:01:38Z",
+  "last_scheduled_at": "2026-06-02T06:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -19089,6 +19089,20 @@
         "devops"
       ],
       "scheduled_at": "2026-06-02T05:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Deep Dive into Flame Graphs: Visualizing Performance Bottlenecks and Identifying Hidden Execution Latency",
+      "url": "https://martinuke0.github.io/posts/2026-06-02-deep-dive-into-flame-graphs-visualizing-performance-bottlenecks-and-identifying-hidden-execution-latency/",
+      "social_hook": "> TL;DR — Flame graphs turn millions of stack samples into a single, color‑coded image that spots hot paths and hidden latency at a glance. By automating perf → stack collapse → SVG generation, you can pinpoint bottlenecks in Kafka brokers, Postgres queries, or any latency‑critical service within minutes.\n\nPerformance engineering is often described as “finding a needle in a haystack.” In practice, the haystack is a massive collection of stack traces, CPU counters, and I/O timestamps. Flame graphs give you a heat‑map of that haystack, letting you see the hottest code paths first. This post walks through the theory, the tooling (Linux perf, Brendan Gregg’s scripts, and open‑source alternatives), how to embed the pipeline into CI/CD, and how to read the resulting SVGs against real production workloads such as Kafka, Airflow, and PostgreSQL.\n\nThe concept was popularized by Brendan Gregg in 2010 and has since become the de‑facto standard for CPU‑bound profiling, latency analysis, and even JavaScript runtime debugging. The key insight is aggregation: instead of showing each individual sample, the graph merges identical prefixes, which compresses millions of frames into a few hundred rectangles.",
+      "tags": [
+        "flamegraphs",
+        "performance",
+        "profiling",
+        "linux",
+        "observability"
+      ],
+      "scheduled_at": "2026-06-02T06:01:38Z",
       "status": "pending"
     }
   ]
