@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-06-02T19:01:38Z",
+  "last_scheduled_at": "2026-06-02T20:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -19285,6 +19285,21 @@
         "Architecture"
       ],
       "scheduled_at": "2026-06-02T19:01:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Sentry: Implementing Modern Error Monitoring and Observability for Production-Ready Applications",
+      "url": "https://martinuke0.github.io/posts/2026-06-02-mastering-sentry-implementing-modern-error-monitoring-and-observability-for-production-ready-applications/",
+      "social_hook": "> TL;DR — Sentry gives you instant visibility into exceptions, performance bottlenecks, and release health. By wiring the SDK early, configuring sampling, and wiring alerts to your incident response tool, you can keep production services reliable without drowning in noise.\n\nProduction teams that ship dozens of services a day cannot afford to discover bugs after a user has already been impacted. Modern error monitoring goes beyond “stack trace email” and becomes a core observability pillar, feeding data into dashboards, alerting pipelines, and post‑mortem analyses. In this post we walk through the practical steps to make Sentry a production‑grade component: from SDK installation to architecture patterns, performance tuning, and advanced alerting.\n\n Speed of detection** – The median time‑to‑detect (MTTD) for critical failures drops from hours to seconds when a centralized service like Sentry streams events in real time.",
+      "tags": [
+        "sentry",
+        "error-monitoring",
+        "observability",
+        "production",
+        "devops",
+        "python"
+      ],
+      "scheduled_at": "2026-06-02T20:01:38Z",
       "status": "pending"
     }
   ]
