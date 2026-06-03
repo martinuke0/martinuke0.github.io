@@ -19356,7 +19356,7 @@
         "patterns"
       ],
       "scheduled_at": "2026-06-03T00:01:38Z",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Mastering TLS 1.3 Zero Round-Trip Resumption: Latency Optimization, Security Trade-offs, and Real-World Implementation",
@@ -19370,7 +19370,7 @@
         "DevOps"
       ],
       "scheduled_at": "2026-06-03T01:01:38Z",
-      "status": "pending"
+      "status": "posted"
     }
   ]
 }
