@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-02T05:44:55Z",
+  "last_scheduled_at": "2026-09-02T06:44:55Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -19525,6 +19525,20 @@
         "portfolio-projects"
       ],
       "scheduled_at": "2026-09-02T05:44:55Z",
+      "status": "pending"
+    },
+    {
+      "title": "Designing Resilient Ledger Systems: Architecture, Double-Entry Patterns, and Production Strategies for Financial Integrity",
+      "url": "https://martinuke0.github.io/posts/2026-09-01-designing-resilient-ledger-systems-architecture-double-entry-patterns-and-production-strategies-for-financial-integrity/",
+      "social_hook": "> TL;DR — A financial ledger is one of the few systems where being eventually consistent is unacceptable. This post walks through the architecture, invariants, and production patterns that keep money correct: double-entry as a non-negotiable invariant, event sourcing for auditability, idempotent posting for retries, and daily reconciliation as the last line of defense.\n\nMost distributed systems optimize for availability and latency. A ledger optimizes for correctness first, then everything else. When a Kafka cluster drops a message, you can re-read and replay. When a ledger drops a debit, a customer is missing money, and the business learns about it from a chargeback.\n\n- Partial failures must be reconcilable. If the journal write succeeds but the balance cache update fails, the system must converge.",
+      "tags": [
+        "ledger-systems",
+        "double-entry",
+        "distributed-systems",
+        "event-sourcing",
+        "financial-engineering"
+      ],
+      "scheduled_at": "2026-09-02T06:44:55Z",
       "status": "pending"
     }
   ]
