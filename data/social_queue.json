@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-02T04:44:55Z",
+  "last_scheduled_at": "2026-09-02T05:44:55Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -19511,6 +19511,20 @@
         "systems-performance"
       ],
       "scheduled_at": "2026-09-02T04:44:55Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building a Webhook Delivery System with Idempotency Keys: A Production-Flavored Portfolio Project",
+      "url": "https://martinuke0.github.io/posts/2026-09-01-building-a-webhook-delivery-system-with-idempotency-keys-a-production-flavored-portfolio-project/",
+      "social_hook": "> TL;DR — A webhook delivery system is one of the strongest portfolio projects you can ship in a weekend: it's small enough to finish, but it touches queues, retries, idempotency, and observability — every box a hiring manager for a backend or platform role ticks. In this guide we build one with FastAPI, Redis Streams, and Postgres, with real runnable code, then map out a roadmap to turn it into senior-level territory.\n\nHiring managers for backend, platform, and infrastructure roles have a quiet bias: they want to see that you've finished something end-to-end. Not a tutorial clone, not a TODO-laden repo with a glowing README — a project that actually runs, has tests, has a Makefile, and has opinions. A webhook delivery system is a perfect candidate. It's a component every SaaS company ships (think Stripe, GitHub, Shopify), it has well-defined semantics in the relevant IETF draft, and it forces you to make real decisions about state, retries, and failure.\n\nThis guide walks you through building one from a blank directory to a running service, then maps out the upgrades that turn it from \"weekend project\" into \"interview talking point.\"",
+      "tags": [
+        "python",
+        "fastapi",
+        "webhooks",
+        "distributed-systems",
+        "portfolio-projects"
+      ],
+      "scheduled_at": "2026-09-02T05:44:55Z",
       "status": "pending"
     }
   ]
