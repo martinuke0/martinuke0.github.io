@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-06-03T01:01:38Z",
+  "last_scheduled_at": "2026-09-01T19:44:55Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -19371,6 +19371,20 @@
       ],
       "scheduled_at": "2026-06-03T01:01:38Z",
       "status": "posted"
+    },
+    {
+      "title": "Inside Go's Work-Stealing Scheduler: Architecture, Goroutines, and Production Performance",
+      "url": "https://martinuke0.github.io/posts/2026-09-01-inside-go/",
+      "social_hook": "> TL;DR — Go's scheduler runs an M:N model: G (goroutines) are multiplexed onto P (logical processors), each holding an M (OS thread). Idle Ps steal runnable goroutines from busy Ps to balance load, which is why a single Go binary can keep hundreds of cores busy without explicit thread-pool tuning. Knowing this model turns mysterious latency spikes into diagnosable problems.\n\nMost Go code reads like a recipe for disaster to anyone who's spent time tuning Java thread pools or configuring Tokio reactor threads. You start goroutines with `go func()`, you share memory via channels, and the runtime just handles it. That magic is the runtime scheduler, and for the vast majority of services it stays invisible.\n\n- `GODEBUG=gctrace=1` shows nothing suspicious, but `runtime/pprof` reveals goroutine piles stacked on a single channel send.",
+      "tags": [
+        "golang",
+        "go-runtime",
+        "goroutines",
+        "scheduler",
+        "performance"
+      ],
+      "scheduled_at": "2026-09-01T19:44:55Z",
+      "status": "pending"
     }
   ]
 }
