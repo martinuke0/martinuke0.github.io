@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-01T22:44:55Z",
+  "last_scheduled_at": "2026-09-01T23:44:55Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -19426,6 +19426,21 @@
         "agent-architecture"
       ],
       "scheduled_at": "2026-09-01T22:44:55Z",
+      "status": "pending"
+    },
+    {
+      "title": "Build a 300-Line Container Runtime in Go: A CV-Worthy Side Project",
+      "url": "https://martinuke0.github.io/posts/2026-09-01-build-a-300-line-container-runtime-in-go-a-cv-worthy-side-project/",
+      "social_hook": "> TL;DR — In this guide you'll build a working container runtime called `mango` in around 300 lines of Go. It uses Linux namespaces for isolation (PID, mount, UTS, IPC, NET), cgroups v2 for resource limits, and `chroot`/`pivot_root` for a filesystem root. It's the kind of project that tells a hiring manager you actually understand what Docker is doing under the hood — not just how to call it.\n\nA few years ago I was chatting with a hiring manager at a large infra team and asked what made a candidate stand out for a platform engineering role. His answer stuck with me: \"Anyone can write `Dockerfile` and `docker-compose.yml`. Show me someone who's read the man page for `clone(2)`.\" This project is exactly that — a weekend-sized piece of code that proves you've been down to the syscall layer.\n\nThe goal here isn't to ship a Docker competitor. It's to ship evidence on a CV that you understand Linux, processes, and isolation primitives well enough to wield them directly. By the end you'll have a binary that, given a rootfs directory and a command, spawns an isolated process tree with its own PID, hostname, filesystem root, and memory limits. Let's build it.",
+      "tags": [
+        "linux",
+        "containers",
+        "golang",
+        "namespaces",
+        "cgroups",
+        "devops"
+      ],
+      "scheduled_at": "2026-09-01T23:44:55Z",
       "status": "pending"
     }
   ]
