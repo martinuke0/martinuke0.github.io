@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-02T01:44:55Z",
+  "last_scheduled_at": "2026-09-02T02:44:55Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -19469,6 +19469,20 @@
         "system-design"
       ],
       "scheduled_at": "2026-09-02T01:44:55Z",
+      "status": "pending"
+    },
+    {
+      "title": "Inside QUIC Multiplexing: A Deep Dive into Stream Concurrency and Head-of-Line Blocking",
+      "url": "https://martinuke0.github.io/posts/2026-09-01-inside-quic-multiplexing-a-deep-dive-into-stream-concurrency-and-head-of-line-blocking/",
+      "social_hook": "> TL;DR — QUIC runs many independent byte streams over a single UDP connection and isolates them with per-stream flow control, which eliminates the TCP head-of-line blocking that slows down HTTP/2 in lossy networks. The trade-off is a more complex transport that still suffers from application-level blocking, connection-id churn, and middlebox interference — so understanding the model matters before you turn it on.\n\nFor thirty years, TCP has been the workhorse of reliable transport. The HTTP/1.1 era chained requests on a single connection, and the obvious fix was to open more TCP connections — six per origin was the long-standing browser default. HTTP/2 fixed request pipelining by multiplexing many request-response pairs over one TCP connection, and HTTP/3 took the next logical step: it threw out TCP and built a multiplexed transport on top of UDP, called QUIC.\n\nThe problem HTTP/2 did not solve lives one layer below. A TCP connection is a single, in-order byte stream. If a single packet is lost, every byte after it — even bytes that belong to a different HTTP/2 stream the server already has buffered — must wait at the receiver until the missing packet is retransmitted and reassembled. This is TCP-level head-of-line blocking, and it shows up clearly in measurements by Cloudflare and in the HTTP/3 RFC, which exists precisely to escape it.",
+      "tags": [
+        "quic",
+        "http3",
+        "networking",
+        "performance",
+        "transport-layer"
+      ],
+      "scheduled_at": "2026-09-02T02:44:55Z",
       "status": "pending"
     }
   ]
