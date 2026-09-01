@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-02T00:44:55Z",
+  "last_scheduled_at": "2026-09-02T01:44:55Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -19455,6 +19455,20 @@
         "backend-engineering"
       ],
       "scheduled_at": "2026-09-02T00:44:55Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Log-Structured Merge Trees for Write-Intensive Distributed Databases",
+      "url": "https://martinuke0.github.io/posts/2026-09-01-architecting-log-structured-merge-trees-for-write-intensive-distributed-databases/",
+      "social_hook": "> TL;DR — Log-Structured Merge (LSM) trees trade random writes for sequential ones by buffering mutations in memory and flushing immutable sorted runs to disk, then merging them in the background. The compaction strategy you pick — size-tiered, leveled, or a hybrid like RocksDB's universal — is the single biggest lever you have over write amplification, read amplification, and space amplification in systems like Cassandra, RocksDB, and ScyllaDB.\n\nClassic B-tree based engines like InnoDB or PostgreSQL's heap+btree layout are excellent for reads but punish write-heavy workloads. Every `INSERT` or `UPDATE` requires locating the target page, latching it, and writing it back in place. On a hot index, those page writes queue up, the buffer pool fills, and throughput collapses. The deeper the B-tree, the more random I/O per write.\n\nLSM trees, formalized by O'Neil et al. in their 1996 paper \"The Log-Structured Merge-Tree (LSM-Tree)\", invert that model. Mutations are appended to an in-memory buffer called a memtable, then flushed as immutable sorted SSTables (Sorted String Tables). Reads must consult the memtable plus several on-disk levels, but writes become purely sequential — fast on both spinning disk and SSD. The trade is paid back in background compaction work that merges overlapping SSTables.",
+      "tags": [
+        "lsm-tree",
+        "distributed-databases",
+        "write-intensive",
+        "storage-engines",
+        "system-design"
+      ],
+      "scheduled_at": "2026-09-02T01:44:55Z",
       "status": "pending"
     }
   ]
