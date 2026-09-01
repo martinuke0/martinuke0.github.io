@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-02T03:44:55Z",
+  "last_scheduled_at": "2026-09-02T04:44:55Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -19497,6 +19497,20 @@
         "performance"
       ],
       "scheduled_at": "2026-09-02T03:44:55Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Async I/O with io_uring vs. epoll: A Deep Dive into Linux Performance Models",
+      "url": "https://martinuke0.github.io/posts/2026-09-01-architecting-async-io-with-io_uring-vs-epoll-a-deep-dive-into-linux-performance-models/",
+      "social_hook": "> TL;DR — `epoll` is a readiness notification model: the kernel tells you a fd is ready, then you issue syscalls. `io_uring` is a completion-based model: you describe the entire I/O operation in shared ring buffers and reap results asynchronously. Both are async, but they sit at very different points on the syscall, latency, and complexity curve — and the right choice depends on whether your bottleneck is connection count, per-op overhead, or storage latency.\n\nModern servers spend most of their CPU time waiting, not computing. A web proxy holding 100k idle keep-alive connections, a database answering point queries on NVMe, a log shipper tailing journals — each has a different I/O profile, and each pays a different tax for the wrong abstraction. The choice between `epoll` and `io_uring` is not a religious war; it is an architecture decision with measurable consequences in CPU per request, tail latency, and code complexity.\n\nLinux has spent fifteen years evolving its async I/O story. `epoll` arrived in 2.6, scaled past `select` and `poll`, and became the default event loop for NGINX, Redis, and Envoy. `io_uring` shipped in 5.1 (2019), matured through 5.11+, and now powers Caddy, ScyllaDB, and the Rust Tokio runtime. Understanding both is non-optional for anyone building high-throughput services on Linux.",
+      "tags": [
+        "io_uring",
+        "epoll",
+        "linux-kernel",
+        "async-io",
+        "systems-performance"
+      ],
+      "scheduled_at": "2026-09-02T04:44:55Z",
       "status": "pending"
     }
   ]
