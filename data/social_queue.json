@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-01T21:44:55Z",
+  "last_scheduled_at": "2026-09-01T22:44:55Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -19412,6 +19412,20 @@
         "machine-learning"
       ],
       "scheduled_at": "2026-09-01T21:44:55Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building a pi-agent for Long-Horizon Tasks: Patterns That Actually Work",
+      "url": "https://martinuke0.github.io/posts/2026-09-01-building-a-pi-agent-for-long-horizon-tasks-patterns-that-actually-work/",
+      "social_hook": "> TL;DR — A pi-agent only earns the \"long-horizon\" label when it can run for hours across hundreds of tool calls without drifting, looping, or forgetting why it started. The winning pattern in production is a tight inner loop (think, act, verify) wrapped by persistent memory, an explicit plan, and a cheap verifier that catches garbage before it compounds.\n\nShort demos make agentic AI look easy. Give a model a browser, a shell, and a goal, and within twenty tool calls it has usually booked the flight, refactored the file, or pulled the report. The illusion breaks the moment the task stretches past an hour. Tool counts climb into the hundreds. Context windows fill with half-finished subtasks. The model's \"objective\" silently drifts toward whatever it was doing five minutes ago rather than the goal you set at the start.\n\nThis is the long-horizon problem, and it is the reason your clever weekend prototype quietly dies the first time you ask it to migrate a 40-service monorepo. The challenge is not smarter reasoning. It is state management under unbounded execution: how does an agent remember what it is doing, prove it is making progress, and refuse to keep grinding when it has lost the plot?",
+      "tags": [
+        "ai-agents",
+        "long-horizon",
+        "llm",
+        "tool-use",
+        "agent-architecture"
+      ],
+      "scheduled_at": "2026-09-01T22:44:55Z",
       "status": "pending"
     }
   ]
