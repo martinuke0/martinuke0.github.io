@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-02T02:44:55Z",
+  "last_scheduled_at": "2026-09-02T03:44:55Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -19483,6 +19483,20 @@
         "transport-layer"
       ],
       "scheduled_at": "2026-09-02T02:44:55Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing TCP BBR Congestion Control: A Deep Dive into Production Deployment",
+      "url": "https://martinuke0.github.io/posts/2026-09-01-optimizing-tcp-bbr-congestion-control-a-deep-dive-into-production-deployment/",
+      "social_hook": "> TL;DR — BBR models the network as a (bandwidth, RTT) pair rather than reacting to packet loss, which lets it achieve 2–25x higher throughput on bufferbloated paths compared to CUBIC. The trade-off is fairness with loss-based flows, which is why BBR v2 and v3 add explicit loss-rate and ECN-aware pacing. In production, gains depend almost entirely on kernel version, qdisc choice, and how much middlebox policing your traffic encounters.\n\nFor most of the last two decades, the dominant congestion control on the public internet has been CUBIC. It's a loss-based algorithm: it probes for bandwidth by increasing its window until packets are dropped, then backs off. That model is fine when switches and routers run RED/AQM and drop packets proactively, but on the modern internet, bottlenecks are almost always deep-buffer (home gateways, cellular base stations, hyperscaler ToR switches with MBs of buffers). The result is bufferbloat: a single CUBIC flow fills the buffer, RTT explodes from 20 ms to 400 ms, and everything behind that flow stalls.\n\nBBR (Bottleneck Bandwidth and Round-trip propagation time) takes a different approach. Instead of asking \"how much can I send before something breaks?\", it continuously estimates two properties of the path:",
+      "tags": [
+        "tcp",
+        "bbr",
+        "networking",
+        "linux-kernel",
+        "performance"
+      ],
+      "scheduled_at": "2026-09-02T03:44:55Z",
       "status": "pending"
     }
   ]
