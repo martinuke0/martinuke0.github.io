@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-01T20:44:55Z",
+  "last_scheduled_at": "2026-09-01T21:44:55Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -19398,6 +19398,20 @@
         "production"
       ],
       "scheduled_at": "2026-09-01T20:44:55Z",
+      "status": "pending"
+    },
+    {
+      "title": "Build Your Own Inference Engine: From Scratch",
+      "url": "https://martinuke0.github.io/posts/2026-09-01-build-your-own-inference-engine-from-scratch/",
+      "social_hook": "> TL;DR — A working LLM inference engine is just four stages: tokenize the prompt, run a forward pass through transformer blocks while filling a KV cache, sample the next token, and repeat until the model emits an end-of-sequence. We will build all four in pure Python, then look at why production systems like vLLM and TensorRT-LLM optimize each one differently.\n\nEvery time you call an LLM API, a sophisticated runtime is at work. It manages tokenization, schedules prefill and decode phases across GPUs, juggles a key-value cache to avoid redundant computation, and samples tokens at a temperature you probably never think about. The usual abstractions — `model.generate()` in Hugging Face, or a one-line call to OpenAI's API — hide all of this behind a convenient function.\n\nThat convenience is great until something goes wrong. Maybe tokens are streaming out at 20 per second when you expect 200. Maybe a long context bloats memory until the GPU OOMs. Maybe two users share an instance and one of them is waiting on the other without knowing why. None of these problems make sense until you have seen what an inference engine actually does.",
+      "tags": [
+        "llm",
+        "inference",
+        "systems",
+        "python",
+        "machine-learning"
+      ],
+      "scheduled_at": "2026-09-01T21:44:55Z",
       "status": "pending"
     }
   ]
