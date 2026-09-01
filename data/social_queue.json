@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-01T19:44:55Z",
+  "last_scheduled_at": "2026-09-01T20:44:55Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -19384,6 +19384,20 @@
         "performance"
       ],
       "scheduled_at": "2026-09-01T19:44:55Z",
+      "status": "pending"
+    },
+    {
+      "title": "FastAPI for AI Engineers: Production Patterns That Actually Ship",
+      "url": "https://martinuke0.github.io/posts/2026-09-01-fastapi-for-ai-engineers-production-patterns-that-actually-ship/",
+      "social_hook": "> TL;DR — FastAPI is the de facto standard for serving AI models in Python, but the tutorial examples don't survive a GPU under load. This post walks through the patterns that do: async correctness around blocking calls, streaming for LLMs, dependency-injected lifecycle for model loading, and the observability hooks you need before the first 3 AM pager.\n\nIf you've ever copy-pasted the FastAPI hello world, swapped in `model.predict()`, and shipped it to production, you already know the punchline: it works until it doesn't. The first concurrency spike turns your \"AI service\" into a queue that times out, your GPU into an underutilized paperweight, and your latency dashboards into a sad trombone.\n\nThis post is the version of FastAPI I'd hand to an AI engineer on day one. It's opinionated, it's grounded in what actually breaks, and every pattern has been validated against real workloads — RAG pipelines, embedding services, vision classifiers, and LLM gateways.",
+      "tags": [
+        "fastapi",
+        "python",
+        "mlops",
+        "api-design",
+        "production"
+      ],
+      "scheduled_at": "2026-09-01T20:44:55Z",
       "status": "pending"
     }
   ]
