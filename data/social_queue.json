@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-01T23:44:55Z",
+  "last_scheduled_at": "2026-09-02T00:44:55Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -19441,6 +19441,20 @@
         "devops"
       ],
       "scheduled_at": "2026-09-01T23:44:55Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Distributed Task Pipelines with Celery: A Deep Dive into Production Python Backends",
+      "url": "https://martinuke0.github.io/posts/2026-09-01-architecting-distributed-task-pipelines-with-celery-a-deep-dive-into-production-python-backends/",
+      "social_hook": "> TL;DR — Celery is more than `task.delay()`: it's a distributed runtime where broker choice, canvas composition, and idempotency discipline decide whether your backend scales or stalls. This post walks through the architecture, the patterns that survive contact with production, and the failure modes that bit teams hardest.\n\nEight years after its first release, Celery remains the default Python task queue — and for good reason. It sits underneath ingestion pipelines at Instagram, payment systems at Robinhood, and ML feature stores across countless startups. The reason is not nostalgia. It's because Celery solves a hard problem cleanly: turning Python callables into durable, retryable, distributed units of work without forcing you to write a custom scheduler.\n\nThe mental model is simple. You define a function, decorate it, and the runtime takes care of serializing arguments, handing the job to a broker, and handing it back to a worker process. The reality of running it in production — where a single team might process millions of tasks per hour across dozens of services — is more nuanced. The abstractions are leaky, and the seams between Celery, Redis/RabbitMQ, and your application code are where the interesting engineering happens.",
+      "tags": [
+        "celery",
+        "python",
+        "distributed-systems",
+        "task-queues",
+        "backend-engineering"
+      ],
+      "scheduled_at": "2026-09-02T00:44:55Z",
       "status": "pending"
     }
   ]
