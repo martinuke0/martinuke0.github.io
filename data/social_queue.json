@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-05T12:58:53Z",
+  "last_scheduled_at": "2026-09-05T13:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -19941,6 +19941,21 @@
         "production-ml"
       ],
       "scheduled_at": "2026-09-05T12:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Learning AI Engineering from Scratch in 2026: A Production-First Roadmap",
+      "url": "https://martinuke0.github.io/posts/2026-09-02-learning-ai-engineering-from-scratch-in-2026-a-production-first-roadmap/",
+      "social_hook": "> TL;DR — AI engineering in 2026 is less about training models and more about orchestrating them: wiring LLMs, vector stores, retrieval pipelines, and evals behind reliable APIs. The fastest path from zero is to commit to one stack (Python + a frontier model API + a vector DB), build three end-to-end projects, and treat evaluation as a first-class engineering concern from day one.\n\nThree years ago, the dominant path into applied AI meant learning PyTorch, downloading ImageNet, and worrying about gradient accumulation. That path is still valid for researchers, but it's the wrong on-ramp for most engineers entering the field today.\n\nIn 2026, the bottleneck has moved. Foundation models are commodity infrastructure you rent by the token. The scarce skills are the ones around the model:",
+      "tags": [
+        "AI Engineering",
+        "LLM",
+        "RAG",
+        "MLOps",
+        "Vector Databases",
+        "Production AI"
+      ],
+      "scheduled_at": "2026-09-05T13:58:53Z",
       "status": "pending"
     }
   ]
