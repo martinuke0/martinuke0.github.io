@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-02T17:44:55Z",
+  "last_scheduled_at": "2026-09-02T18:44:55Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -19697,6 +19697,20 @@
         "backend"
       ],
       "scheduled_at": "2026-09-02T17:44:55Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Production-Ready Retrieval-Augmented Generation Systems",
+      "url": "https://martinuke0.github.io/posts/2026-09-02-architecting-production-ready-retrieval-augmented-generation-systems/",
+      "social_hook": "> TL;DR — Production RAG is less about clever prompts and more about disciplined pipelines: deterministic ingestion, hybrid retrieval over well-chunked documents, vector stores tuned for your access pattern, and a tight feedback loop for evaluation. Treat retrieval as a first-class system, not a sidecar, and the rest of the architecture follows.\n\nA RAG demo is a single Jupyter notebook: load a few PDFs, embed them, shove the vectors into a store, ask a question, and watch a clean answer appear. Production RAG is something else entirely. It's a distributed system that has to handle versioned document corpora, embedding model rollouts, semantic caches, query rewriting, hybrid retrieval, latency budgets, and a cost model that scales with the number of tokens you didn't mean to send to the LLM.\n\nThe failure modes are well known and well documented in production write-ups: Pinterest's lessons on grounding LLMs at scale and Notion's writeup on RAG at scale both emphasize that retrieval quality, not generation quality, is the dominant variable. Most \"the LLM got it wrong\" complaints are actually \"the retriever returned the wrong chunks.\"",
+      "tags": [
+        "rag",
+        "llm",
+        "vector-database",
+        "mlops",
+        "architecture"
+      ],
+      "scheduled_at": "2026-09-02T18:44:55Z",
       "status": "pending"
     }
   ]
