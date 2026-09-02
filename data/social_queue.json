@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-02T20:44:55Z",
+  "last_scheduled_at": "2026-09-02T21:44:55Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -19739,6 +19739,20 @@
         "performance"
       ],
       "scheduled_at": "2026-09-02T20:44:55Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing the Saga Pattern for Distributed Transactions in Modern Commerce Platforms",
+      "url": "https://martinuke0.github.io/posts/2026-09-02-implementing-the-saga-pattern-for-distributed-transactions-in-modern-commerce-platforms/",
+      "social_hook": "> TL;DR — The Saga pattern replaces global ACID transactions in commerce platforms by sequencing local transactions and defining compensations for rollback. Choreography works well for small flows with few services; orchestration gives you visibility and control for complex order pipelines. Production success depends on idempotency, timeouts, observability, and tested compensations — not just the core pattern.\n\nWhen an order is placed on a modern commerce platform, it touches at least five services: cart, payment, inventory, tax, fulfillment, and notifications. In a monolith, you'd wrap that whole flow in a single SQL transaction and call it a day. In a microservice architecture, that transaction no longer exists — each service owns its own database, and a coordinator can't reach across all of them with a single commit.\n\nTwo-phase commit was the textbook answer for decades, but it's brittle at scale. A coordinator crash mid-prepare can leave resources locked for the duration of the timeout, and modern systems like Apache Kafka and Amazon DynamoDB don't support it at all. The Saga pattern, described by Garcia-Molina and Salem in 1987 and revived for microservices by Chris Richardson, sidesteps the problem entirely: instead of one big atomic transaction, you break the work into local transactions and pre-define how to undo each one.",
+      "tags": [
+        "saga-pattern",
+        "distributed-systems",
+        "microservices",
+        "event-driven",
+        "commerce"
+      ],
+      "scheduled_at": "2026-09-02T21:44:55Z",
       "status": "pending"
     }
   ]
