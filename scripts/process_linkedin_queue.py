@@ -79,8 +79,10 @@ def main() -> None:
             continue
 
         try:
-            post_to_linkedin(title=title, url=url, social_hook=social_hook, tags=tags)
+            urn = post_to_linkedin(title=title, url=url, social_hook=social_hook, tags=tags)
             entry["status"] = "posted"
+            if urn:
+                entry["post_urn"] = urn  # for P3 engagement stats collection
             posts_made += 1
             print(f"Posted to LinkedIn: {title}")
         except SystemExit as exc:
