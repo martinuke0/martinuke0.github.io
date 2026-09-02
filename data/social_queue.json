@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-05T19:58:53Z",
+  "last_scheduled_at": "2026-09-05T20:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20043,6 +20043,20 @@
         "Production ML"
       ],
       "scheduled_at": "2026-09-05T19:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "AI Engineering Is No Longer Just About Knowing How to Use an LLM",
+      "url": "https://martinuke0.github.io/posts/2026-09-02-ai-engineering-is-no-longer-just-about-knowing-how-to-use-an-llm/",
+      "social_hook": "> TL;DR — Prompting an LLM is the easy part. Production AI systems demand retrieval, evaluation, observability, cost controls, and guardrails — and the engineers who can build that surrounding stack are the ones shipping reliable features in 2026.\n\nA year ago, \"AI engineering\" on most job descriptions still meant little more than prompt design and a thin wrapper around the OpenAI API. That framing is now quietly breaking. The teams shipping AI features that actually retain users are not the ones with the cleverest prompts — they are the ones who treat the model as one dependency inside a much larger distributed system.\n\nIf you have ever watched a prototype work beautifully on a laptop and then melt down the first time real traffic hit it, you already understand why. An LLM is stochastic, expensive, rate-limited, occasionally hallucinates, and has no native memory of your domain. You have to engineer around every one of those properties.",
+      "tags": [
+        "ai-engineering",
+        "llm",
+        "production-systems",
+        "mlops",
+        "system-design"
+      ],
+      "scheduled_at": "2026-09-05T20:58:53Z",
       "status": "pending"
     }
   ]
