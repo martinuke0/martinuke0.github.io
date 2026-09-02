@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-02T09:44:55Z",
+  "last_scheduled_at": "2026-09-02T10:44:55Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -19581,6 +19581,20 @@
         "performance"
       ],
       "scheduled_at": "2026-09-02T09:44:55Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Log-Structured Merge Trees for Write-Intensive Distributed Databases",
+      "url": "https://martinuke0.github.io/posts/2026-09-02-architecting-log-structured-merge-trees-for-write-intensive-distributed-databases/",
+      "social_hook": "> TL;DR — Log-Structured Merge (LSM) trees trade read amplification and write amplification for blazing sequential writes, which is exactly the bargain distributed databases like Cassandra, ScyllaDB, and the storage engines behind Kafka and TiDB need. Getting the architecture right means tuning memtable sizing, compaction strategy (leveled vs. size-tiered), and Bloom filters as a unit — not as independent knobs.\n\nThe classic B-tree was designed in an era when memory was scarce and random I/O dominated. It optimizes beautifully for reads: a balanced tree with high fanout gives you O(log n) lookups with at most a handful of disk seeks, and the buffer pool keeps the hot interior nodes resident. Writes, however, are a nightmare. Every insert is an in-place update, which means:\n\nIn a write-intensive distributed database — think time-series ingestion, clickstream events, ad impressions, IoT telemetry — the workload can easily exceed 100k writes/sec per node. B-trees collapse under that pressure because every write is a small random I/O, and flash storage wears out fast under random write patterns. You need a different shape.",
+      "tags": [
+        "distributed-systems",
+        "databases",
+        "lsm-tree",
+        "storage-engine",
+        "system-design"
+      ],
+      "scheduled_at": "2026-09-02T10:44:55Z",
       "status": "pending"
     }
   ]
