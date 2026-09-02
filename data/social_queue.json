@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-02T10:44:55Z",
+  "last_scheduled_at": "2026-09-02T11:44:55Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -19595,6 +19595,20 @@
         "system-design"
       ],
       "scheduled_at": "2026-09-02T10:44:55Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing Bloom Filters in LSM-Trees: Reducing Read Amplification",
+      "url": "https://martinuke0.github.io/posts/2026-09-02-implementing-bloom-filters-in-lsm-trees-reducing-read-amplification/",
+      "social_hook": "> TL;DR — LSM-trees write fast but pay a steep tax on reads: a point lookup may touch every level of the sorted run stack. A per-SSTable bloom filter turns that worst case into a tight constant, dropping read amplification from O(L) to roughly 1 disk hit per level that might contain the key. The trick is sizing the filter correctly — too small and false positives kill you, too large and you waste memory that could fund block cache.\n\nA log-structured merge-tree is a write-optimized data structure. New writes go to an in-memory memtable, flush into immutable sorted string tables (SSTables), and get compacted in the background. The reward is sequential writes and high throughput. The price is paid on the read side.\n\n3. Each subsequent level's sorted run, looking for the file whose key range covers the target.",
+      "tags": [
+        "lsm-tree",
+        "bloom-filter",
+        "storage-engine",
+        "rocksdb",
+        "distributed-systems"
+      ],
+      "scheduled_at": "2026-09-02T11:44:55Z",
       "status": "pending"
     }
   ]
