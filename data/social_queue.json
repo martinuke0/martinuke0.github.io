@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-02T06:44:55Z",
+  "last_scheduled_at": "2026-09-02T07:44:55Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -19539,6 +19539,20 @@
         "financial-engineering"
       ],
       "scheduled_at": "2026-09-02T06:44:55Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building a Distributed Token Bucket Rate Limiter in Go with Redis: A CV-Ready Microservice Project",
+      "url": "https://martinuke0.github.io/posts/2026-09-02-building-a-distributed-token-bucket-rate-limiter-in-go-with-redis-a-cv-ready-microservice-project/",
+      "social_hook": "> TL;DR — A distributed token bucket rate limiter is a small project that punches well above its weight on a CV. It touches concurrency, Redis atomicity, HTTP middleware, observability, and fault tolerance — the exact stack hiring managers screen for. This guide walks you through a runnable Go service (using `redis/go-redis` and a server-side Lua script for atomicity), shows you how to test it, and gives you a six-step roadmap to harden it from a weekend hack into senior-staff-grade work.\n\nA rate limiter is one of those components that looks trivial — \"just count requests\" — until you actually build one and discover it has to be distributed, atomic, fair across multiple instances, and survive Redis going down. That tension between simplicity and rigor is what makes it a perfect CV project. It's small enough to finish in a weekend but deep enough that you can talk about it intelligently in a system design interview for an hour.\n\nThe version we'll build here is a token bucket implemented in Go, stored in Redis, and exposed both as an HTTP middleware and as a standalone gRPC service. By the end you'll have ~400 lines of focused, runnable code and a clear list of upgrades that turn it from \"follows a tutorial\" into \"solves a real problem.\"",
+      "tags": [
+        "go",
+        "redis",
+        "microservices",
+        "rate-limiting",
+        "system-design"
+      ],
+      "scheduled_at": "2026-09-02T07:44:55Z",
       "status": "pending"
     }
   ]
