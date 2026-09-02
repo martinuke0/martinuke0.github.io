@@ -78,7 +78,7 @@ Window aggregation can be performed **incrementally** using **pre‑aggregated s
 | Engine | Language Support | State Backend | Exactly‑Once Guarantees | Typical Latency (95‑pct) |
 |--------|------------------|---------------|------------------------|--------------------------|
 | **Apache Flink** | Java, Scala, Python (PyFlink) | RocksDB, In‑Memory, Custom | Yes (checkpointing) | 5‑15 ms |
-| **Spark Structured Streaming** | Scala, Java, Python, R | In‑Memory, Disk | Yes (micro‑batch, checkpoint) | 30‑50 ms |
+| **Spark Structured Streaming** | Scala, Java, Python, R | RocksDB, In‑Memory | Yes (checkpointing) | 30‑50 ms micro‑batch; as low as 5 ms in real‑time mode |
 | **Kafka Streams** | Java, Kotlin | RocksDB, In‑Memory | Yes (transactional) | 5‑12 ms |
 | **Apache Pulsar Functions** | Java, Python, Go | BookKeeper, Tiered Storage | Yes (state snapshots) | 8‑20 ms |
 
@@ -89,6 +89,8 @@ Window aggregation can be performed **incrementally** using **pre‑aggregated s
 * **Managed keyed state** that scales horizontally without manual sharding.
 
 If you already own a Kafka‑centric stack and need minimal operational overhead, **Kafka Streams** is a solid alternative—especially when the pipeline lives entirely within a single JVM process.
+
+Spark Structured Streaming is also an option for ultra‑low‑latency stateful workloads. Databricks **real‑time mode** processes streaming data with end‑to‑end latency **as low as 5 ms** and supports stateful operations (including custom logic via `transformWithState`, backed by RocksDB) for use cases such as real‑time fraud detection and personalization. See the Databricks docs on [real‑time mode](https://docs.databricks.com/aws/en/structured-streaming/real-time/), [stateful streaming](https://docs.databricks.com/aws/en/structured-streaming/stateful-streaming), and the [RocksDB state store](https://docs.databricks.com/aws/en/structured-streaming/rocksdb-state-store).
 
 ---
 
