@@ -19426,7 +19426,7 @@
         "agent-architecture"
       ],
       "scheduled_at": "2026-09-02T17:58:53+00:00",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Build a 300-Line Container Runtime in Go: A CV-Worthy Side Project",
