@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-05T15:58:53Z",
+  "last_scheduled_at": "2026-09-05T16:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -19985,6 +19985,21 @@
         "vector-search"
       ],
       "scheduled_at": "2026-09-05T15:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "The Complete AI Agent Architecture: From Perception to Action",
+      "url": "https://martinuke0.github.io/posts/2026-09-02-the-complete-ai-agent-architecture-from-perception-to-action/",
+      "social_hook": "> TL;DR — An AI agent is a loop: perceive the world, reason about the next step, pick a tool, execute, observe the result, and repeat. Production-grade agents add three layers the demos skip — durable memory, structured tool routing, and explicit guardrails for failure modes. Get those right and your agent scales; skip them and you ship a demo.\n\nThere's a recurring pattern in the AI agent discourse: a polished demo video of a model clicking through a browser, a five-tweet explainer with overlapping circles, and then silence when someone asks how it actually fails. Most production teams I talk to are not struggling to get an LLM to do something. They're struggling to get it to stop doing the wrong thing reliably, repeatedly, and within budget.\n\nThis post is the architecture I wish someone had handed me the first time I shipped an agent into a real pipeline. It's not a survey of every framework — it's the layer cake that any serious agent system ends up with, regardless of whether you build it on LangGraph, the OpenAI Agents SDK, CrewAI, or hand-rolled code. We'll walk top-down from perception to action, then look at the cross-cutting concerns — memory, observability, guardrails — that determine whether your agent survives contact with real users.",
+      "tags": [
+        "ai-agents",
+        "llm",
+        "agent-architecture",
+        "tool-use",
+        "rag",
+        "autonomous-systems"
+      ],
+      "scheduled_at": "2026-09-05T16:58:53Z",
       "status": "pending"
     }
   ]
