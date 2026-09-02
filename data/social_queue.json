@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-05T13:58:53Z",
+  "last_scheduled_at": "2026-09-05T14:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -19956,6 +19956,20 @@
         "Production AI"
       ],
       "scheduled_at": "2026-09-05T13:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "What If Your Coding Agent's Context Was Infinite?",
+      "url": "https://martinuke0.github.io/posts/2026-09-02-what-if-your-coding-agent/",
+      "social_hook": "> TL;DR — An infinite context window would shift the bottleneck in coding agents from what fits in the prompt to what the model can actually reason about. Real wins come in long-horizon refactors and codebase-wide understanding, but raw token count is not the same as comprehension. Curation, attention, and tooling still decide whether the agent is useful.\n\nEvery working engineer who has pasted a stack trace into a chatbot has felt it: the moment the model quietly forgets the file you uploaded three messages ago, or hallucinates a function you never wrote. That feeling is the context bottleneck — the fact that today's language models can only \"see\" a fixed number of tokens at once, and that any meaningful engineering task usually exceeds that limit.\n\nFor a few years now, the race has been to push that wall outward. GPT-4-class models started at 8K tokens. By mid-2024, 128K and 200K windows were normal. By 2025, Gemini shipped a million-token context, and the term \"infinite context\" stopped being a meme and started being a roadmap item, as detailed in Google's Gemini 1.5 technical report. Anthropic, Meta, and Mistral have all signaled variants of the same goal: never forget, ever.",
+      "tags": [
+        "AI",
+        "LLM",
+        "Coding Agents",
+        "Context Windows",
+        "Developer Productivity"
+      ],
+      "scheduled_at": "2026-09-05T14:58:53Z",
       "status": "pending"
     }
   ]
