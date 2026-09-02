@@ -21,7 +21,7 @@ def build_post(title: str, url: str, social_hook: str, tags: list = None) -> str
         return LINKEDIN_TEMPLATE.format(
             title=title, social_hook=social_hook.strip(), url=url, hashtags=hashtags
         )
-    return f"Hi! {title}\n\nRead the full guide: {url}\n\n{hashtags}".rstrip()
+    return f"{title}\n\nRead the full guide: {url}\n\n{hashtags}".rstrip()
 
 
 def post_to_linkedin(title: str, url: str, social_hook: str, tags: list = None) -> None:
