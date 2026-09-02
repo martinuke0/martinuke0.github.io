@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-05T20:58:53Z",
+  "last_scheduled_at": "2026-09-05T21:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20057,6 +20057,20 @@
         "system-design"
       ],
       "scheduled_at": "2026-09-05T20:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "\\\"Attention Is All You Need\\\" — The Paper That Rewrote NLP and Reshaped Modern AI",
+      "url": "https://martinuke0.github.io/posts/2026-09-02-/",
+      "social_hook": "> TL;DR — The 2017 paper \"Attention Is All You Need\" introduced the Transformer, an architecture that drops recurrence and convolutions entirely in favor of self-attention. That single design choice unlocked the parallelism, scale, and generality behind every modern large language model — from BERT and GPT to the systems running in production at OpenAI, Anthropic, and Google today.\n\nMost \"foundational\" deep learning papers age quickly. The LSTM paper from 1997 is still cited, but nobody ships LSTMs into production chat systems anymore. \"Attention Is All You Need\" is one of the rare exceptions — almost a decade after publication, the architecture it introduced is still the default for language, the basis for nearly all vision-language models, and the structural backbone of the largest production AI systems on the planet.\n\n- The mechanism is general. Attention isn't tied to sequence length or modality. It works on tokens, image patches (as in ViT), audio frames, and protein sequences.",
+      "tags": [
+        "transformers",
+        "attention",
+        "deep-learning",
+        "nlp",
+        "research-papers"
+      ],
+      "scheduled_at": "2026-09-05T21:58:53Z",
       "status": "pending"
     }
   ]
