@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-05T21:58:53Z",
+  "last_scheduled_at": "2026-09-05T22:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20071,6 +20071,20 @@
         "research-papers"
       ],
       "scheduled_at": "2026-09-05T21:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Transformer Architectures: 2017 → 2025+",
+      "url": "https://martinuke0.github.io/posts/2026-09-02-transformer-architectures-2017-2025/",
+      "social_hook": "> TL;DR — The original 2017 transformer was a clean encoder–decoder with scaled dot-product attention. Eight years later, the architecture has fragmented into a family of variants — grouped-query attention, rotary embeddings, mixture-of-experts, and state-space hybrids — each trading memory, throughput, and quality in different ways. Picking the right one today means understanding which subcomponent you're actually buying.\n\nThe original transformer paper by Vaswani et al. arrived in 2017 with a quietly radical claim: you don't need recurrence or convolution to model sequences. Attention is enough. Almost a decade later, every frontier language model — from the Llama series to Claude, from GPT-4 to open-source MoE models — still routes through some descendant of that paper. What has changed is everything around the attention block.\n\nThis post is a tour of that evolution, written for engineers who already know what a softmax is and want to understand which architectural choices matter when you're actually shipping or fine-tuning a model.",
+      "tags": [
+        "transformers",
+        "deep-learning",
+        "llm",
+        "attention",
+        "architecture"
+      ],
+      "scheduled_at": "2026-09-05T22:58:53Z",
       "status": "pending"
     }
   ]
