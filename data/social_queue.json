@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-02T14:44:55Z",
+  "last_scheduled_at": "2026-09-02T15:44:55Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -19653,6 +19653,21 @@
         "side-project"
       ],
       "scheduled_at": "2026-09-02T14:44:55Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Distributed Vector Databases: Scaling Semantic Search from Prototype to Production",
+      "url": "https://martinuke0.github.io/posts/2026-09-02-architecting-distributed-vector-databases-scaling-semantic-search-from-prototype-to-production/",
+      "social_hook": "> TL;DR — Semantic search is a distributed systems problem the moment your index crosses a few hundred million vectors. Production-grade vector databases combine sharded ANN indexes (HNSW, IVF, or DiskANN), consistent-hashing replication, hybrid sparse-plus-dense retrieval, and careful observability to deliver sub-100ms p99 recall at scale.\n\nA single-node vector index is straightforward. You embed your corpus, build an HNSW graph, and serve approximate nearest neighbor (ANN) queries in milliseconds. The trouble starts when your corpus stops fitting in RAM on one machine, your QPS exceeds what one CPU can serve, or your customers expect 99.9% availability. At that point, you are no longer running a vector index — you are running a distributed database whose primary access pattern is nearest-neighbor search.\n\nThe hard problems shift accordingly. You need to partition the vector space across nodes in a way that preserves locality, since random sharding destroys ANN performance. You need replication that stays consistent under concurrent writes, but you do not want to pay the cost of synchronous consensus on every embedding insert. You need a query coordinator that can scatter-gather across shards, merge candidates, and return top-k in bounded time. And you need all of this without losing the recall that made semantic search useful in the first place.",
+      "tags": [
+        "vector-databases",
+        "distributed-systems",
+        "semantic-search",
+        "rag",
+        "embeddings",
+        "system-design"
+      ],
+      "scheduled_at": "2026-09-02T15:44:55Z",
       "status": "pending"
     }
   ]
