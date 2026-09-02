@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-02T21:44:55Z",
+  "last_scheduled_at": "2026-09-06T00:01:08+00:00",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -13529,7 +13529,7 @@
       "url": "https://martinuke0.github.io/posts/2026-05-16-where-distributed-tracing-fails-and-sampling-saves-the-budget/",
       "social_hook": "> TL;DR — Full‑fidelity distributed tracing quickly overwhelms storage and network budgets in large microservice fleets. By applying probabilistic and adaptive sampling, teams retain the most flows across modern, cloud‑native systems. Yet, many organizations discover that the very data they rely valuable traces while cutting costs dramatically.\n\nDistributed tracing has become the de‑facto way to understand request on can become a hidden expense, leading to dropped spans, throttled back‑ends, and ultimately, a loss of confidence in observability. This post dissects the common failure modes of tracing at scale and shows how systematic sampling—both probabilistic and adaptive—keeps the insight you need without blowing the budget.\n\nWhen a request traverses dozens of services, a trace stitches together latency, errors, and context into a single, searchable story. Tools like Jaeger, Zipkin, and OpenTelemetry make it easy to emit a span per RPC, database query, or background job. The promise is simple:",
       "tags": [],
-      "scheduled_at": "2026-05-16T16:01:38Z",
+      "scheduled_at": "2026-09-02T15:01:08+00:00",
       "status": "pending"
     },
     {
@@ -19383,7 +19383,7 @@
         "scheduler",
         "performance"
       ],
-      "scheduled_at": "2026-09-01T19:44:55Z",
+      "scheduled_at": "2026-09-02T18:01:08+00:00",
       "status": "pending"
     },
     {
@@ -19397,7 +19397,7 @@
         "api-design",
         "production"
       ],
-      "scheduled_at": "2026-09-01T20:44:55Z",
+      "scheduled_at": "2026-09-02T21:01:08+00:00",
       "status": "pending"
     },
     {
@@ -19411,7 +19411,7 @@
         "python",
         "machine-learning"
       ],
-      "scheduled_at": "2026-09-01T21:44:55Z",
+      "scheduled_at": "2026-09-03T00:01:08+00:00",
       "status": "pending"
     },
     {
@@ -19425,7 +19425,7 @@
         "tool-use",
         "agent-architecture"
       ],
-      "scheduled_at": "2026-09-01T22:44:55Z",
+      "scheduled_at": "2026-09-03T03:01:08+00:00",
       "status": "pending"
     },
     {
@@ -19440,7 +19440,7 @@
         "cgroups",
         "devops"
       ],
-      "scheduled_at": "2026-09-01T23:44:55Z",
+      "scheduled_at": "2026-09-03T06:01:08+00:00",
       "status": "pending"
     },
     {
@@ -19454,7 +19454,7 @@
         "task-queues",
         "backend-engineering"
       ],
-      "scheduled_at": "2026-09-02T00:44:55Z",
+      "scheduled_at": "2026-09-03T09:01:08+00:00",
       "status": "pending"
     },
     {
@@ -19468,7 +19468,7 @@
         "storage-engines",
         "system-design"
       ],
-      "scheduled_at": "2026-09-02T01:44:55Z",
+      "scheduled_at": "2026-09-03T12:01:08+00:00",
       "status": "pending"
     },
     {
@@ -19482,7 +19482,7 @@
         "performance",
         "transport-layer"
       ],
-      "scheduled_at": "2026-09-02T02:44:55Z",
+      "scheduled_at": "2026-09-03T15:01:08+00:00",
       "status": "pending"
     },
     {
@@ -19496,7 +19496,7 @@
         "linux-kernel",
         "performance"
       ],
-      "scheduled_at": "2026-09-02T03:44:55Z",
+      "scheduled_at": "2026-09-03T18:01:08+00:00",
       "status": "pending"
     },
     {
@@ -19510,7 +19510,7 @@
         "async-io",
         "systems-performance"
       ],
-      "scheduled_at": "2026-09-02T04:44:55Z",
+      "scheduled_at": "2026-09-03T21:01:08+00:00",
       "status": "pending"
     },
     {
@@ -19524,7 +19524,7 @@
         "distributed-systems",
         "portfolio-projects"
       ],
-      "scheduled_at": "2026-09-02T05:44:55Z",
+      "scheduled_at": "2026-09-04T00:01:08+00:00",
       "status": "pending"
     },
     {
@@ -19538,7 +19538,7 @@
         "event-sourcing",
         "financial-engineering"
       ],
-      "scheduled_at": "2026-09-02T06:44:55Z",
+      "scheduled_at": "2026-09-04T03:01:08+00:00",
       "status": "pending"
     },
     {
@@ -19552,7 +19552,7 @@
         "rate-limiting",
         "system-design"
       ],
-      "scheduled_at": "2026-09-02T07:44:55Z",
+      "scheduled_at": "2026-09-04T06:01:08+00:00",
       "status": "pending"
     },
     {
@@ -19566,7 +19566,7 @@
         "llm",
         "runtime-tuning"
       ],
-      "scheduled_at": "2026-09-02T08:44:55Z",
+      "scheduled_at": "2026-09-04T09:01:08+00:00",
       "status": "pending"
     },
     {
@@ -19580,7 +19580,7 @@
         "storage",
         "performance"
       ],
-      "scheduled_at": "2026-09-02T09:44:55Z",
+      "scheduled_at": "2026-09-04T12:01:08+00:00",
       "status": "pending"
     },
     {
@@ -19594,7 +19594,7 @@
         "storage-engine",
         "system-design"
       ],
-      "scheduled_at": "2026-09-02T10:44:55Z",
+      "scheduled_at": "2026-09-04T15:01:08+00:00",
       "status": "pending"
     },
     {
@@ -19608,7 +19608,7 @@
         "rocksdb",
         "distributed-systems"
       ],
-      "scheduled_at": "2026-09-02T11:44:55Z",
+      "scheduled_at": "2026-09-04T18:01:08+00:00",
       "status": "pending"
     },
     {
@@ -19622,7 +19622,7 @@
         "compaction",
         "performance-tuning"
       ],
-      "scheduled_at": "2026-09-02T12:44:55Z",
+      "scheduled_at": "2026-09-04T21:01:08+00:00",
       "status": "pending"
     },
     {
@@ -19637,7 +19637,7 @@
         "systems-programming",
         "performance"
       ],
-      "scheduled_at": "2026-09-02T13:44:55Z",
+      "scheduled_at": "2026-09-05T00:01:08+00:00",
       "status": "pending"
     },
     {
@@ -19652,7 +19652,7 @@
         "databases",
         "side-project"
       ],
-      "scheduled_at": "2026-09-02T14:44:55Z",
+      "scheduled_at": "2026-09-05T03:01:08+00:00",
       "status": "pending"
     },
     {
@@ -19667,7 +19667,7 @@
         "embeddings",
         "system-design"
       ],
-      "scheduled_at": "2026-09-02T15:44:55Z",
+      "scheduled_at": "2026-09-05T06:01:08+00:00",
       "status": "pending"
     },
     {
@@ -19682,7 +19682,7 @@
         "fintech",
         "scalability"
       ],
-      "scheduled_at": "2026-09-02T16:44:55Z",
+      "scheduled_at": "2026-09-05T09:01:08+00:00",
       "status": "pending"
     },
     {
@@ -19696,7 +19696,7 @@
         "system-design",
         "backend"
       ],
-      "scheduled_at": "2026-09-02T17:44:55Z",
+      "scheduled_at": "2026-09-05T12:01:08+00:00",
       "status": "pending"
     },
     {
@@ -19710,7 +19710,7 @@
         "mlops",
         "architecture"
       ],
-      "scheduled_at": "2026-09-02T18:44:55Z",
+      "scheduled_at": "2026-09-05T15:01:08+00:00",
       "status": "pending"
     },
     {
@@ -19724,7 +19724,7 @@
         "distributed-systems",
         "event-driven"
       ],
-      "scheduled_at": "2026-09-02T19:44:55Z",
+      "scheduled_at": "2026-09-05T18:01:08+00:00",
       "status": "pending"
     },
     {
@@ -19738,7 +19738,7 @@
         "storage-engine",
         "performance"
       ],
-      "scheduled_at": "2026-09-02T20:44:55Z",
+      "scheduled_at": "2026-09-05T21:01:08+00:00",
       "status": "pending"
     },
     {
@@ -19752,7 +19752,7 @@
         "event-driven",
         "commerce"
       ],
-      "scheduled_at": "2026-09-02T21:44:55Z",
+      "scheduled_at": "2026-09-06T00:01:08+00:00",
       "status": "pending"
     }
   ]
