@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-02T12:44:55Z",
+  "last_scheduled_at": "2026-09-02T13:44:55Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -19623,6 +19623,21 @@
         "performance-tuning"
       ],
       "scheduled_at": "2026-09-02T12:44:55Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering io_uring vs epoll: A Deep Dive into Linux Async I/O Architectures",
+      "url": "https://martinuke0.github.io/posts/2026-09-02-mastering-io_uring-vs-epoll-a-deep-dive-into-linux-async-io-architectures/",
+      "social_hook": "> TL;DR — epoll is a readiness-notification API that scales to millions of file descriptors but still requires one syscall per I/O operation, while io_uring is a true asynchronous submission/completion model that batches work and eliminates most syscalls. The right choice depends on your workload: epoll wins for connection-heavy servers with light per-connection I/O, io_uring wins for I/O-heavy paths where syscall overhead dominates.\n\nAfter two decades of evolution, Linux still offers two fundamentally different mental models for handling I/O without blocking a thread. The first, `epoll`, treats the kernel as a notification service: \"tell me when this socket is readable, and I'll come back to read it.\" The second, `io_uring`, treats the kernel as a work queue: \"here are 10,000 operations, do them, and ring the doorbell when you're done.\" They aren't just different APIs — they encode different assumptions about the cost of a syscall, the role of userspace, and what a \"thread\" is for.\n\nThis matters because the bottlenecks have moved. In 2003 when `epoll` arrived, the cost was waking waiters and walking descriptor lists. Today, on a 128-core server with DPDK, SPDK, and NVMe, the cost is often the syscall itself, the cache line crossing between ring buffers, and the lock contention on shared submission queues. `io_uring` was designed explicitly to attack these new bottlenecks — and as a result, the choice between the two has become a real architectural decision rather than a stylistic one.",
+      "tags": [
+        "linux",
+        "io_uring",
+        "epoll",
+        "async-io",
+        "systems-programming",
+        "performance"
+      ],
+      "scheduled_at": "2026-09-02T13:44:55Z",
       "status": "pending"
     }
   ]
