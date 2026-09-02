@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-02T15:44:55Z",
+  "last_scheduled_at": "2026-09-02T16:44:55Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -19668,6 +19668,21 @@
         "system-design"
       ],
       "scheduled_at": "2026-09-02T15:44:55Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Resilient Payment Systems: Scalable Architecture Patterns and Security Best Practices",
+      "url": "https://martinuke0.github.io/posts/2026-09-02-architecting-resilient-payment-systems-scalable-architecture-patterns-and-security-best-practices/",
+      "social_hook": "> TL;DR — A resilient payment system is built on three pillars: idempotent, event-driven transaction processing; strict data isolation (tokenization, vaulting) to shrink PCI scope; and a layered defense that treats every external boundary as untrusted. The patterns below are what separate a system that survives Black Friday from one that double-charges customers and lands on the news.\n\nMost distributed systems worry about throughput, latency, and correctness. Payment systems add a fourth, ugly dimension: money. When your service is down, users see a 500 page. When Stripe or a card processor has a bad day, users see duplicate charges, missing refunds, and a trust deficit that takes quarters to rebuild.\n\nThe numbers make the stakes concrete. Stripe documented a 2023 outage that lasted just over an hour but affected thousands of merchants globally, with the incident report openly published to preserve trust. Adyen's engineering blog describes how their platform is designed around \"graceful degradation\" — the idea that a regional failure must never cause a financial inconsistency, only a delay.",
+      "tags": [
+        "payments",
+        "distributed-systems",
+        "architecture",
+        "security",
+        "fintech",
+        "scalability"
+      ],
+      "scheduled_at": "2026-09-02T16:44:55Z",
       "status": "pending"
     }
   ]
