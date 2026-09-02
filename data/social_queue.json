@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-06T00:01:08+00:00",
+  "last_scheduled_at": "2026-09-06T01:01:08Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -19753,6 +19753,20 @@
         "commerce"
       ],
       "scheduled_at": "2026-09-06T00:01:08+00:00",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Concurrent Go Systems: A Deep Dive into CSP Channels for Production-Ready Pipelines",
+      "url": "https://martinuke0.github.io/posts/2026-09-02-architecting-concurrent-go-systems-a-deep-dive-into-csp-channels-for-production-ready-pipelines/",
+      "social_hook": "> TL;DR — Go channels are not queues, they are synchronization primitives. Production-grade CSP pipelines are built around bounded buffers, explicit cancellation, and a clear contract between stages — not around fire-and-forget goroutines and `sync.WaitGroup`.\n\nThe conversation around Go concurrency has matured. Most senior engineers stopped asking \"should I use channels or mutexes\" years ago. The interesting question now is how to design channel-based systems that survive real traffic, real failures, and real on-call rotations.\n\nCommunicating Sequential Processes (CSP), the formal model Tony Hoare described in 1978, is the substrate underneath every Go channel. What Go adds is a runtime with goroutines, a scheduler, and the `select` statement — tools that turn the theory into something you can ship. But the runtime doesn't save you from design mistakes. It just makes those mistakes run faster.",
+      "tags": [
+        "golang",
+        "concurrency",
+        "csp",
+        "channels",
+        "distributed-systems"
+      ],
+      "scheduled_at": "2026-09-06T01:01:08Z",
       "status": "pending"
     }
   ]
