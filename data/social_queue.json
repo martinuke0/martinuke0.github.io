@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-05T23:58:53Z",
+  "last_scheduled_at": "2026-09-06T00:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20099,6 +20099,20 @@
         "marketing"
       ],
       "scheduled_at": "2026-09-05T23:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Double-Entry Ledger Systems: Schema, Concurrency, and Auditability for Financial Integrity",
+      "url": "https://martinuke0.github.io/posts/2026-09-02-architecting-double-entry-ledger-systems-schema-concurrency-and-auditability-for-financial-integrity/",
+      "social_hook": "> TL;DR — A correct ledger is enforced by the database, not the application. Use a normalized schema with per-account transaction sequences, enforce double-entry invariants through check constraints and triggers, and serialize per-account writes with row-level locks under `READ COMMITTED`. Append every change to an immutable audit log so that the state of the system at any point in time can be reconstructed.\n\nAccounting's central guarantee is simple: the sum of all debits always equals the sum of all credits. In a hand-written ledger, this is a discipline enforced by clerks and verified by trial balances. In software, we get to do better — we can make the database physically incapable of recording an unbalanced transaction.\n\nThis matters for more than banks. Any system that tracks obligations between parties — wallets, marketplaces, ad-tech revenue share, payroll, insurance reserves, even internal cost allocation — has the same shape. Get the ledger right and the rest of the system becomes much easier to reason about. Get it wrong and you will spend years writing reconciliation jobs that try to patch over a model that does not conserve value.",
+      "tags": [
+        "databases",
+        "postgres",
+        "fintech",
+        "system-design",
+        "accounting"
+      ],
+      "scheduled_at": "2026-09-06T00:58:53Z",
       "status": "pending"
     }
   ]
