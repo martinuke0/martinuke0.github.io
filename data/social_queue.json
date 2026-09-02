@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-05T17:58:53Z",
+  "last_scheduled_at": "2026-09-05T18:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20015,6 +20015,20 @@
         "Machine Learning"
       ],
       "scheduled_at": "2026-09-05T17:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "LLM Gateway: One Layer to Manage Multiple AI Models",
+      "url": "https://martinuke0.github.io/posts/2026-09-02-llm-gateway-one-layer-to-manage-multiple-ai-models/",
+      "social_hook": "> TL;DR — An LLM gateway is a single API endpoint that sits between your application and every model provider (OpenAI, Anthropic, Bedrock, vLLM, etc.), giving you unified auth, routing, fallbacks, caching, and observability. Teams that skip this layer end up rebuilding it inside every service — usually badly.\n\nThe first time a team ships an LLM feature, the integration looks innocent: a single `openai.ChatCompletion.create(...)` call, wrapped in a thin client class, deployed behind a feature flag. Then the second provider shows up. Then the third. Then someone needs to A/B test a fine-tune against the base model. Then a regulator asks for an audit log of every prompt that touched a customer. Then finance wants a per-team cost breakdown. Then a model goes down for four hours and Slack catches fire.\n\nThe naive answer is to push all of this into each consuming service. The experienced answer is: don't. Push it into one place, and let every consumer talk to that one place instead.",
+      "tags": [
+        "llm",
+        "ai-infrastructure",
+        "api-gateway",
+        "llmops",
+        "production-engineering"
+      ],
+      "scheduled_at": "2026-09-05T18:58:53Z",
       "status": "pending"
     }
   ]
