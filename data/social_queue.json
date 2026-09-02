@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-05T22:58:53Z",
+  "last_scheduled_at": "2026-09-05T23:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20085,6 +20085,20 @@
         "architecture"
       ],
       "scheduled_at": "2026-09-05T22:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Backlinks Won't Get You Your First Customers",
+      "url": "https://martinuke0.github.io/posts/2026-09-02-backlinks-won/",
+      "social_hook": "> TL;DR — Backlinks reward domains that already have traffic, authority, and brand recall. If you have none of those, chasing links is a slow, expensive way to acquire the visibility you don't yet need. Your first customers come from showing up where they already are: communities, cold outreach, product-led demos, and one founder-to-founder conversation at a time.\n\nEvery early-stage founder eventually hits the same wall. They build something solid, write a decent landing page, and then wait. Crickets. So they Google \"how to get traffic\" and the entire SEO industry tells them the same thing: backlinks.\n\nSomewhere between a tweet thread and a $400/month Ahrefs subscription, a magical belief takes hold: if you just acquire enough referring domains, the customers will materialize. They won't.",
+      "tags": [
+        "seo",
+        "startup",
+        "distribution",
+        "growth",
+        "marketing"
+      ],
+      "scheduled_at": "2026-09-05T23:58:53Z",
       "status": "pending"
     }
   ]
