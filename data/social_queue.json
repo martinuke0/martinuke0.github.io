@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-02T13:44:55Z",
+  "last_scheduled_at": "2026-09-02T14:44:55Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -19638,6 +19638,21 @@
         "performance"
       ],
       "scheduled_at": "2026-09-02T13:44:55Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building a Mini LSM-Tree Key-Value Store in Rust: A CV-Grade Systems Project",
+      "url": "https://martinuke0.github.io/posts/2026-09-02-building-a-mini-lsm-tree-key-value-store-in-rust-a-cv-grade-systems-project/",
+      "social_hook": "> TL;DR — A working LSM-tree key-value store in Rust is one of the highest-signal side projects you can build. It exercises the same primitives that power RocksDB, LevelDB, and Cassandra: a write-ahead log for durability, an in-memory memtable for hot writes, immutable SSTables for cold storage, and background compaction. The whole engine fits in roughly 1,000 lines of Rust and is something you can demo, test, and extend.\n\nHiring managers who review systems roles scan for evidence that you can build software that touches the disk, the network, and the OS scheduler — not just glue code between libraries. A mini key-value store signals a specific, rare bundle of competencies that are otherwise hard to demonstrate from a CRUD side project.\n\n- Storage engines and on-disk data structures. The LSM-tree is the dominant write-optimized structure in production. RocksDB, LevelDB, Cassandra's SSTable, InfluxDB's TSM, and even parts of DuckDB's storage layer descend from the same O'Neil & Chang paper. A candidate who can describe the memtable/SSTable/compaction pipeline from first principles is rare.",
+      "tags": [
+        "rust",
+        "systems",
+        "lsm-tree",
+        "wal",
+        "databases",
+        "side-project"
+      ],
+      "scheduled_at": "2026-09-02T14:44:55Z",
       "status": "pending"
     }
   ]
