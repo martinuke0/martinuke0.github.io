@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-02T08:44:55Z",
+  "last_scheduled_at": "2026-09-02T09:44:55Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -19567,6 +19567,20 @@
         "runtime-tuning"
       ],
       "scheduled_at": "2026-09-02T08:44:55Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing RocksDB LSM-Tree Compaction: Strategies for Write Amplification and Storage Efficiency",
+      "url": "https://martinuke0.github.io/posts/2026-09-02-optimizing-rocksdb-lsm-tree-compaction-strategies-for-write-amplification-and-storage-efficiency/",
+      "social_hook": "> TL;DR — RocksDB's compaction strategy is the single biggest lever you have for trading off write amplification, read amplification, and space amplification. Picking the right base strategy (leveled, universal, FIFO, or tiered) and tuning its parameters around your workload's key size, update pattern, and read/write ratio is what separates a database that's burning flash at 30x write amp from one running cleanly at 3x.\n\nIf you've ever opened a RocksDB dashboard and watched the \"write amplification\" chart creep past 10x while your SSDs quietly aged, you already know that compaction is where storage engines live or die. RocksDB doesn't have one compaction policy — it has a small library of them, plus a sophisticated tuning surface behind each one. The right configuration can drop write amp by an order of magnitude. The wrong one can turn a hot database into a thrashing mess.\n\nThis post walks through what compaction actually does in an LSM-tree, why the four base strategies behave so differently, and which knobs matter when you're tuning for production.",
+      "tags": [
+        "rocksdb",
+        "lsm-tree",
+        "compaction",
+        "storage",
+        "performance"
+      ],
+      "scheduled_at": "2026-09-02T09:44:55Z",
       "status": "pending"
     }
   ]
