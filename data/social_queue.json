@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-04T14:21:38+00:00",
+  "last_scheduled_at": "2026-09-04T15:21:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -19840,6 +19840,20 @@
         "prompt-engineering"
       ],
       "scheduled_at": "2026-09-04T14:21:38+00:00",
+      "status": "pending"
+    },
+    {
+      "title": "Your First 7 Days with Hermes: A Practical Onboarding Guide for Engineers",
+      "url": "https://martinuke0.github.io/posts/2026-09-02-your-first-7-days-with-hermes-a-practical-onboarding-guide-for-engineers/",
+      "social_hook": "> TL;DR — Hermes works best when you treat the first week as scaffolding, not heroics. Spend day one on installation and a clean inbox reset, days two and three on indexing your existing knowledge into graph-backed collections, days four and five on building a daily capture ritual, and days six and seven on team rollout with a shared taxonomy. By day eight, Hermes stops being \"a new tool\" and becomes your second brain.\n\nMost engineers adopt new tools the way they adopt new linters: install it on a Friday, ignore it through the weekend, and forget which command launches the UI by Monday. Hermes doesn't reward that. It's a context layer — part personal wiki, part semantic index, part capture surface — and like any context layer, its value compounds only once you've seeded it with enough material that retrieval becomes meaningful.\n\nAnecdotally, the engineers I've seen succeed with Hermes all describe the same arc: a clumsy first 48 hours, an \"oh, it clicked\" moment around day three or four, and a quiet dependency by the end of the week. This post is designed to compress that arc into seven deliberate days, so you can reach the inflection point by Wednesday and start shipping real value on Friday.",
+      "tags": [
+        "hermes",
+        "onboarding",
+        "developer-experience",
+        "engineering-workflow",
+        "knowledge-management"
+      ],
+      "scheduled_at": "2026-09-04T15:21:38Z",
       "status": "pending"
     }
   ]
