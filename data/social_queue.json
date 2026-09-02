@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-06T02:32:46Z",
+  "last_scheduled_at": "2026-09-06T03:32:46Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -19797,6 +19797,20 @@
         "ai-workflow"
       ],
       "scheduled_at": "2026-09-06T02:32:46Z",
+      "status": "pending"
+    },
+    {
+      "title": "Your First 7 Days With Codex: A Working Engineer's Survival Guide",
+      "url": "https://martinuke0.github.io/posts/2026-09-02-your-first-7-days-with-codex-a-working-engineer/",
+      "social_hook": "> TL;DR — Treat Codex like a fast junior engineer with no long-term memory: give it tight scope, repo context, and explicit tests. The first week is about building the feedback loop — sandboxed tasks, deterministic verification, and a short prompt library — not chasing headline demos.\n\nWeek one with a new coding agent is where most teams either build a durable habit or quietly let the tool rot in a side tab. The difference is rarely the model. It's the scaffolding around it: the way you scope tasks, the way you verify output, and the small library of prompts you accumulate by day five. This post is a day-by-day plan built for engineers who already ship code for a living and want Codex to actually pay back the subscription.\n\nThe single biggest mistake on day one is treating Codex like a chatbot. It isn't. It's a tool that reads files, runs commands, and writes diffs. The quality of every later day depends on how you prepare the repository it operates in.",
+      "tags": [
+        "codex",
+        "ai-coding",
+        "developer-productivity",
+        "openai",
+        "engineering-workflow"
+      ],
+      "scheduled_at": "2026-09-06T03:32:46Z",
       "status": "pending"
     }
   ]
