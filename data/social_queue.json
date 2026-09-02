@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-02T16:44:55Z",
+  "last_scheduled_at": "2026-09-02T17:44:55Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -19683,6 +19683,20 @@
         "scalability"
       ],
       "scheduled_at": "2026-09-02T16:44:55Z",
+      "status": "pending"
+    },
+    {
+      "title": "Build a Durable Postgres Job Queue: A Portfolio Project That Signals Real Systems Skill",
+      "url": "https://martinuke0.github.io/posts/2026-09-02-build-a-durable-postgres-job-queue-a-portfolio-project-that-signals-real-systems-skill/",
+      "social_hook": "> TL;DR — A job queue is one of the highest signal-to-effort projects you can put on a CV: it exercises concurrency, failure handling, and schema design in a way hiring managers immediately recognize. This guide walks through building a durable queue on Postgres using `SELECT ... FOR UPDATE SKIP LOCKED`, with retries, exponential backoff, and a dead-letter table — all runnable locally in under 200 lines of Python.\n\nHiring managers skim portfolios. They don't read every README. The projects that land interviews are the ones where the reader can tell in five seconds that you understand how real systems work — concurrency, failure, observability, durability. A job queue is one of those projects. It's small enough to build in a weekend, but it forces you to make every decision that distinguishes a toy from a production system.\n\nThis is a hands-on build guide. You'll write real code, run it against a real Postgres instance, watch it retry, and watch it dead-letter. By the end, you'll have a project you can talk about fluently in interviews.",
+      "tags": [
+        "postgres",
+        "python",
+        "job-queue",
+        "system-design",
+        "backend"
+      ],
+      "scheduled_at": "2026-09-02T17:44:55Z",
       "status": "pending"
     }
   ]
