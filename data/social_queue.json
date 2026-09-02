@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-02T18:44:55Z",
+  "last_scheduled_at": "2026-09-02T19:44:55Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -19711,6 +19711,20 @@
         "architecture"
       ],
       "scheduled_at": "2026-09-02T18:44:55Z",
+      "status": "pending"
+    },
+    {
+      "title": "Designing Kafka Streams Topologies: A Deep Dive into Real-Time Stream Processing for Production",
+      "url": "https://martinuke0.github.io/posts/2026-09-02-designing-kafka-streams-topologies-a-deep-dive-into-real-time-stream-processing-for-production/",
+      "social_hook": "> TL;DR — A Kafka Streams topology is more than a chain of `map` and `filter` calls. In production, the difference between a healthy cluster and a fire drill comes down to topology shape (linear vs. branched), state store sizing, partition assignment, and whether you actually need exactly-once. This post walks through the design decisions that matter — with code, diagrams, and the failure modes that don't show up in the quickstart.\n\nMost Kafka Streams tutorials stop at \"here's a `KStream` and here's a word count.\" That's fine for learning the API. It's a terrible foundation for running the same code in production with a million messages per second, five downstream topics, and a state store large enough to fit on a thumb drive — except it doesn't, because someone forgot to provision RAM.\n\nStream processing is a systems design problem. The library gives you the primitives; the architecture is on you. What follows is the playbook I've refined across several production deployments — the topology patterns, the state store decisions, and the operational realities of running Kafka Streams as a long-lived service rather than a demo.",
+      "tags": [
+        "kafka",
+        "stream-processing",
+        "java",
+        "distributed-systems",
+        "event-driven"
+      ],
+      "scheduled_at": "2026-09-02T19:44:55Z",
       "status": "pending"
     }
   ]
