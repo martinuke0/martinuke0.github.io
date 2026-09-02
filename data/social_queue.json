@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-04T15:21:38Z",
+  "last_scheduled_at": "2026-09-04T16:21:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -19854,6 +19854,20 @@
         "knowledge-management"
       ],
       "scheduled_at": "2026-09-04T15:21:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Poisoning Attacks on LLMs: How Adversaries Corrupt Models and What Defenders Can Do",
+      "url": "https://martinuke0.github.io/posts/2026-09-02-poisoning-attacks-on-llms-how-adversaries-corrupt-models-and-what-defenders-can-do/",
+      "social_hook": "> TL;DR — LLM poisoning isn't theoretical: adversaries can inject malicious documents into pretraining corpora, backdoor fine-tuning datasets, or tamper with model weights to plant sleeper behaviors. The attack surface spans the entire ML supply chain, and defenders need controls at data ingestion, training, and inference to have a chance at catching it.\n\nLarge language models are trained on internet-scale corpora, fine-tuned on curated instruction sets, and increasingly customized by end users through RAG and LoRA adapters. Every one of those stages is an opportunity for an attacker to influence model behavior. Unlike a jailbreak, which manipulates a prompt at inference time, a poisoning attack corrupts the model itself. The compromise is persistent, often invisible, and can survive across deployments.\n\nThe economics have shifted too. Open-weights models are downloaded millions of times, and even a small fraction of users fine-tuning on a poisoned public checkpoint can spread the backdoor. Meanwhile, vendors that scrape the web for fresh training data (Common Crawl, GitHub, ArXiv) are continuously ingesting content that may have been crafted to manipulate their next model release. This is a supply-chain problem disguised as a modeling problem.",
+      "tags": [
+        "llm-security",
+        "adversarial-ml",
+        "data-poisoning",
+        "machine-learning",
+        "ai-safety"
+      ],
+      "scheduled_at": "2026-09-04T16:21:38Z",
       "status": "pending"
     }
   ]
