@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-02T19:44:55Z",
+  "last_scheduled_at": "2026-09-02T20:44:55Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -19725,6 +19725,20 @@
         "event-driven"
       ],
       "scheduled_at": "2026-09-02T19:44:55Z",
+      "status": "pending"
+    },
+    {
+      "title": "Inside LSM-Tree Bloom Filters: Architecture, Trade-offs, and Production Tuning",
+      "url": "https://martinuke0.github.io/posts/2026-09-02-inside-lsm-tree-bloom-filters-architecture-trade-offs-and-production-tuning/",
+      "social_hook": "> TL;DR — A Bloom filter is a probabilistic bitset that sits in front of every SSTable in an LSM-tree and answers \"definitely not here\" with no I/O. Used well, it cuts read amplification by an order of magnitude; used poorly, it leaks memory and false-positive rate into your hot path. Tuning comes down to bits-per-key, hash function choice, and whether you use vanilla, blocked, or ribbon filters.\n\nIf you have ever stared at a RocksDB `get()` taking 8 ms and wondered where the time went, the answer usually involves at least one disk seek — and at least one Bloom filter saving you from another. Bloom filters are the unsung heroes of log-structured merge-tree (LSM-tree) storage engines, and they are one of the few components where a tiny tweak in configuration can swing tail latency by 3–5x.\n\nThis post walks through how they work, why LSM-trees in particular lean on them so hard, the math behind the false-positive rate, and the tuning levers that matter when you are running RocksDB, Cassandra, or HBase in production.",
+      "tags": [
+        "lsm-tree",
+        "bloom-filter",
+        "databases",
+        "storage-engine",
+        "performance"
+      ],
+      "scheduled_at": "2026-09-02T20:44:55Z",
       "status": "pending"
     }
   ]
