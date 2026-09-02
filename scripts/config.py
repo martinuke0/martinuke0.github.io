@@ -49,11 +49,12 @@ Full guide → {url}
 
 {hashtags}"""
 
-# LinkedIn post template
-LINKEDIN_TEMPLATE = """Hi! {title}
+# LinkedIn post template.
+# Leads with the social_hook: the first line is what the feed ranks on, so a
+# greeting ("Hi!") wasted it. Title now follows the hook as context.
+LINKEDIN_TEMPLATE = """{social_hook}
 
-{social_hook}
-
+{title}
 Read the full guide: {url}
 
 {hashtags}"""
