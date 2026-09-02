@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-06T00:32:46+00:00",
+  "last_scheduled_at": "2026-09-06T01:32:46Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -19767,6 +19767,21 @@
         "distributed-systems"
       ],
       "scheduled_at": "2026-09-06T00:32:46+00:00",
+      "status": "pending"
+    },
+    {
+      "title": "The LLM Inference Roadmap I Wish More Engineers Followed",
+      "url": "https://martinuke0.github.io/posts/2026-09-02-the-llm-inference-roadmap-i-wish-more-engineers-followed/",
+      "social_hook": "> TL;DR — LLM inference in production is a systems problem, not an API problem. The teams that hit good cost and latency numbers treat batching, KV cache management, quantization, and observability as first-class engineering concerns, not afterthoughts.\n\nI've been on a few different sides of the LLM inference stack now — training, fine-tuning, and shipping models behind production endpoints. The gap that surprises me every time is between what the model card implies (\"you can serve this with one GPU!\") and what actually happens when traffic goes from a notebook demo to a million requests a day.\n\nMost engineers approach inference like any other REST endpoint: pick a model, point a client at it, add retries. That works until the first time you profile the GPU and realize you're spending 70% of your memory on the KV cache, your batch size is effectively 1 because you're using naive batching, and your \"low-latency\" streaming endpoint is making each user wait on the tail of a 200-token generation.",
+      "tags": [
+        "llm-inference",
+        "production-engineering",
+        "vllm",
+        "kv-cache",
+        "model-serving",
+        "performance"
+      ],
+      "scheduled_at": "2026-09-06T01:32:46Z",
       "status": "pending"
     }
   ]
