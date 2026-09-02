@@ -24,7 +24,7 @@ def build_post(title: str, url: str, social_hook: str, tags: list = None) -> str
     return f"{title}\n\nRead the full guide: {url}\n\n{hashtags}".rstrip()
 
 
-def post_to_linkedin(title: str, url: str, social_hook: str, tags: list = None) -> None:
+def post_to_linkedin(title: str, url: str, social_hook: str, tags: list = None) -> str:
     access_token = os.environ.get("LINKEDIN_ACCESS_TOKEN")
     person_urn = os.environ.get("LINKEDIN_PERSON_URN")
 
@@ -78,6 +78,7 @@ def post_to_linkedin(title: str, url: str, social_hook: str, tags: list = None) 
 
     post_id = resp.headers.get("x-restli-id", resp.json().get("id", "unknown"))
     print(f"LinkedIn post created: {post_id}")
+    return post_id  # URN (urn:li:ugcPost:...) — stored on the queue entry for stats collection
 
 
 if __name__ == "__main__":
