@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-02T11:44:55Z",
+  "last_scheduled_at": "2026-09-02T12:44:55Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -19609,6 +19609,20 @@
         "distributed-systems"
       ],
       "scheduled_at": "2026-09-02T11:44:55Z",
+      "status": "pending"
+    },
+    {
+      "title": "Inside RocksDB LSM-Tree Compaction: Strategies, Trade-offs, and Production Tuning",
+      "url": "https://martinuke0.github.io/posts/2026-09-02-inside-rocksdb-lsm-tree-compaction-strategies-trade-offs-and-production-tuning/",
+      "social_hook": "> TL;DR — RocksDB's compaction strategy is the single biggest knob for tuning an LSM-tree workload. Leveled compaction minimizes read amplification but burns write bandwidth; universal compaction maximizes write throughput but punishes range scans. Picking the right style — and the right `CompactionOptions` — depends on whether your workload is read-heavy, write-heavy, or time-series.\n\nIf you've ever shipped a service backed by RocksDB — or any storage engine descended from LevelDB — you've bumped into the same paradox: writes are blazing fast until they aren't, reads are cheap until they aren't, and somewhere between the two, your disk is doing four to ten times more work than your application thinks it is. That hidden tax is write amplification, and compaction is both its source and its lever.\n\nThis post walks through how RocksDB compacts data, what each compaction style actually does under the hood, and how to pick and tune one for a real production workload.",
+      "tags": [
+        "rocksdb",
+        "lsm-tree",
+        "storage-engine",
+        "compaction",
+        "performance-tuning"
+      ],
+      "scheduled_at": "2026-09-02T12:44:55Z",
       "status": "pending"
     }
   ]
