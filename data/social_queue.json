@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-05T09:58:53Z",
+  "last_scheduled_at": "2026-09-05T10:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -19897,6 +19897,20 @@
         "information-retrieval"
       ],
       "scheduled_at": "2026-09-05T09:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering the USE Method: A Comprehensive Guide to Utilization, Saturation, and Error Analysis",
+      "url": "https://martinuke0.github.io/posts/2026-09-02-mastering-the-use-method-a-comprehensive-guide-to-utilization-saturation-and-error-analysis/",
+      "social_hook": "> TL;DR — The USE method (Utilization, Saturation, Errors), coined by Brendan Gregg, is a checklist-first approach to performance work: for every resource, check how busy it is, how much work is queued, and how many errors it produced. It complements the RED method and is most powerful when you treat it as a triage loop, not a one-shot investigation.\n\nWhen a service starts misbehaving in production, the instinct is to open a flame graph, run `top`, or grep logs. Those are reasonable moves, but they suffer from a hidden bias: you investigate what you suspect is broken, not what is actually broken. The USE method inverts that loop. You commit, up front, to checking every resource in the system, asking three identical questions for each one. The structure of the method is the value — it prevents blind spots, shortens the time to a smoking gun, and makes your postmortems reproducible.\n\nThis guide walks through the method end to end: the underlying mental model, a concrete checklist for the four classic resources, the tooling you actually need on Linux, and the patterns that show up in real incident triage.",
+      "tags": [
+        "performance",
+        "observability",
+        "sre",
+        "linux",
+        "monitoring"
+      ],
+      "scheduled_at": "2026-09-05T10:58:53Z",
       "status": "pending"
     }
   ]
