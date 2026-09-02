@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-05T14:58:53Z",
+  "last_scheduled_at": "2026-09-05T15:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -19970,6 +19970,21 @@
         "Developer Productivity"
       ],
       "scheduled_at": "2026-09-05T14:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "RAG vs CAG: What the Difference Actually Means in Production",
+      "url": "https://martinuke0.github.io/posts/2026-09-02-rag-vs-cag-what-the-difference-actually-means-in-production/",
+      "social_hook": "> TL;DR — RAG fetches fresh knowledge from a vector store or search index at query time, while CAG preloads long, stable context directly into the model's prompt window. RAG wins for freshness and scale; CAG wins for latency, determinism, and cost on bounded corpora. Most production systems end up combining both.\n\nFor two letters that get thrown around constantly, RAG and CAG are surprisingly easy to confuse. They both sit in front of the same thing — a large language model — and they both exist to solve the same root problem: language models don't know what they don't know, and they hallucinate when asked anyway.\n\nRetrieval-Augmented Generation (RAG) is the older, more established pattern. At inference, the system takes the user's question, embeds it, runs a similarity search against an external knowledge base, fetches the top k chunks, stuffs them into the prompt, and lets the LLM answer. The retrieval happens per query. Knowledge is \"out there,\" in a vector database like pgvector, Pinecone, or Weaviate.",
+      "tags": [
+        "rag",
+        "cag",
+        "llm",
+        "retrieval-augmented-generation",
+        "ai-architecture",
+        "vector-search"
+      ],
+      "scheduled_at": "2026-09-05T15:58:53Z",
       "status": "pending"
     }
   ]
