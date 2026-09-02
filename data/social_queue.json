@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-05T16:58:53Z",
+  "last_scheduled_at": "2026-09-05T17:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20000,6 +20000,21 @@
         "autonomous-systems"
       ],
       "scheduled_at": "2026-09-05T16:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Forward Deployed Engineer (FDE): The New AI Engineer at the Frontline",
+      "url": "https://martinuke0.github.io/posts/2026-09-02-forward-deployed-engineer-fde-the-new-ai-engineer-at-the-frontline/",
+      "social_hook": "> TL;DR — The Forward Deployed Engineer (FDE) is the role Palantir built and OpenAI, Anthropic, and Sierra copied. FDEs embed with enterprise customers, translate messy real-world workflows into shipped software, and own outcomes from kickoff to production. In the AI era, the FDE has quietly become the most valuable engineering seat in the room — not because they write the cleverest models, but because they make the models work on Tuesday morning inside a Fortune 500 finance org.\n\nThere's a job title that's been quietly taking over engineering Twitter, recruiting inboxes, and the careers pages of the most-hyped AI companies of the last two years. It isn't \"AI Researcher\" and it isn't \"ML Engineer.\" It's Forward Deployed Engineer (FDE) — a hybrid engineer-consultant-product owner who lives inside the customer's environment until something actually ships and works.\n\nThe role has been around for two decades in one form or another. Palantir built it into a discipline. But in the AI era — where models are powerful but brittle, integrations are messy, and customers are drowning in vendor pitches — the FDE has gone from niche to essential. If you've ever wondered what FDEs actually do all day, why they get paid like staff engineers at the most selective companies in tech, or how to become one, this post is for you.",
+      "tags": [
+        "Forward Deployed Engineer",
+        "FDE",
+        "AI Engineering",
+        "Enterprise AI",
+        "Palantir",
+        "Machine Learning"
+      ],
+      "scheduled_at": "2026-09-05T17:58:53Z",
       "status": "pending"
     }
   ]
