@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-06T03:32:46Z",
+  "last_scheduled_at": "2026-09-06T04:32:46Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -19811,6 +19811,21 @@
         "engineering-workflow"
       ],
       "scheduled_at": "2026-09-06T03:32:46Z",
+      "status": "pending"
+    },
+    {
+      "title": "Your First 7 Days with Grok: An Engineer's Field Notes",
+      "url": "https://martinuke0.github.io/posts/2026-09-02-your-first-7-days-with-grok-an-engineer/",
+      "social_hook": "> TL;DR — Grok is faster and chattier than most frontier models, with a personality that genuinely affects how you should prompt it. After a week of daily use, three patterns emerged: lean prompts beat long ones, real-time search grounding is its sharpest differentiator, and a small set of \"Grok-flavoured\" techniques (sarcasm-tolerant instructions, explicit persona resets, and asking for receipts) consistently produces better answers.\n\nI write code for a living, half of it on backend services and the other half on data pipelines. I rotate through models the way I rotate through keyboards — usually every few weeks when one of them starts giving me confidently wrong answers. Grok had been on my list for a while, partly because of the noise and partly because xAI's Grok 4 release notes made some unusually specific performance claims. I wanted to see how it held up against the boring, unglamorous tasks that fill most of my week: reviewing a colleague's pull request, debugging a Kafka consumer that stopped draining, writing a CTE that doesn't make me weep.\n\nSo I cleared a week. Same prompts, same tasks, same laptop. Here is what I learned.",
+      "tags": [
+        "grok",
+        "xai",
+        "llm",
+        "developer-tools",
+        "ai-engineering",
+        "prompting"
+      ],
+      "scheduled_at": "2026-09-06T04:32:46Z",
       "status": "pending"
     }
   ]
