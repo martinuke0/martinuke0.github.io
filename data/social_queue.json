@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-05T10:58:53Z",
+  "last_scheduled_at": "2026-09-05T11:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -19911,6 +19911,21 @@
         "monitoring"
       ],
       "scheduled_at": "2026-09-05T10:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Designing Resilient Circuit Breakers in Service Meshes: Patterns for Production-Ready Microservices",
+      "url": "https://martinuke0.github.io/posts/2026-09-02-designing-resilient-circuit-breakers-in-service-meshes-patterns-for-production-ready-microservices/",
+      "social_hook": "> TL;DR — Circuit breakers in a service mesh protect upstream services from cascading failures, but production-grade resilience demands more than a boolean flag. Combine Envoy-style outlier detection with sliding windows, layered timeouts, and half-open probing — and validate everything with chaos engineering before the failure finds you.\n\nA traditional circuit breaker lives inside the application. The order service checks a counter, decides the payment service is \"down,\" and short-circuits for 30 seconds. This works — until you have 200 services written in six languages, each with its own bespoke retry library and its own idea of what \"down\" means.\n\nA service mesh moves these decisions out of the application and into the sidecar (typically Envoy). Suddenly, every service gets consistent failure semantics regardless of language, framework, or team. That's powerful, but it also means the breaker is now network policy, not just runtime logic. You're no longer asking \"did my function return an error?\" — you're asking \"what does the mesh observe about this endpoint?\"",
+      "tags": [
+        "microservices",
+        "service-mesh",
+        "circuit-breaker",
+        "resilience",
+        "istio",
+        "distributed-systems"
+      ],
+      "scheduled_at": "2026-09-05T11:58:53Z",
       "status": "pending"
     }
   ]
