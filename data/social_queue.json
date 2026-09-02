@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-06T01:32:46Z",
+  "last_scheduled_at": "2026-09-06T02:32:46Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -19782,6 +19782,21 @@
         "performance"
       ],
       "scheduled_at": "2026-09-06T01:32:46Z",
+      "status": "pending"
+    },
+    {
+      "title": "Your First 7 Days with Claude: A Practical Onboarding Guide for Engineers",
+      "url": "https://martinuke0.github.io/posts/2026-09-02-your-first-7-days-with-claude-a-practical-onboarding-guide-for-engineers/",
+      "social_hook": "> TL;DR — Treat Claude like a capable new teammate, not an oracle: spend day one setting up the SDK and a prompt library, days two and three learning the prompt patterns that actually work (XML tags, system prompts, thinking), and the rest of the week wiring it into a real workflow with tool use, retrieval, and evaluation. By day seven you should have a working prototype, a small evaluation set, and a list of failure modes you understand.\n\nMost engineers \"try\" Claude by opening the web UI, pasting in a function, and being mildly disappointed when it hallucinates an API parameter. That's not a fair test. The model is doing exactly what it was trained to do — produce plausible continuations — but you've skipped the scaffolding that turns a chat toy into a useful engineering tool.\n\nA week is long enough to build muscle memory and short enough to stay focused. The plan below mirrors what a senior engineer would do on a real product team: get the environment stable, learn the primitives, fail fast, measure, and then integrate. None of it requires a research budget — just the API, a terminal, and a willingness to throw away your first three attempts.",
+      "tags": [
+        "claude",
+        "anthropic",
+        "llm",
+        "prompt-engineering",
+        "developer-tools",
+        "ai-workflow"
+      ],
+      "scheduled_at": "2026-09-06T02:32:46Z",
       "status": "pending"
     }
   ]
