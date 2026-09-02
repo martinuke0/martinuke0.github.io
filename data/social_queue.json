@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-02T07:44:55Z",
+  "last_scheduled_at": "2026-09-02T08:44:55Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -19553,6 +19553,20 @@
         "system-design"
       ],
       "scheduled_at": "2026-09-02T07:44:55Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Small Language Models for Local Edge Inference: Quantization, Pruning, and Runtime Tuning",
+      "url": "https://martinuke0.github.io/posts/2026-09-02-optimizing-small-language-models-for-local-edge-inference-quantization-pruning-and-runtime-tuning/",
+      "social_hook": "> TL;DR — Small language models (1B–7B parameters) can hit 30+ tokens/sec on a modern laptop CPU and exceed 100 tokens/sec on a phone NPU, but only if you stack three layers of optimization: aggressive quantization (INT4/INT8 weight-only or full INT8), structural pruning tuned to the target hardware, and runtime tuning of the KV cache, batch size, and prefill/chunking strategy. Measure prefill latency, decode throughput, and first-token time separately — average tokens/sec lies.\n\nFor most of the last five years, \"local LLM\" meant \"an M3 MacBook pretending it isn't a server.\" That changed when three things converged:\n\n1. Open weights for genuinely capable small models. Llama 3.2 1B/3B, Phi-3.5-mini, Qwen2.5-3B/7B, Gemma 2 2B, and Mistral 7B all deliver usable instruction-following and reasoning at sub-7B scale. The quality gap between 7B and 70B has narrowed dramatically.",
+      "tags": [
+        "edge-inference",
+        "quantization",
+        "model-optimization",
+        "llm",
+        "runtime-tuning"
+      ],
+      "scheduled_at": "2026-09-02T08:44:55Z",
       "status": "pending"
     }
   ]
