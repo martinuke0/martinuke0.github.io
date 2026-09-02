@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-05T08:58:53Z",
+  "last_scheduled_at": "2026-09-05T09:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -19882,6 +19882,21 @@
         "portfolio"
       ],
       "scheduled_at": "2026-09-05T08:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building a Mini Search Engine with an Inverted Index and TF-IDF: A Hands-On CV Project",
+      "url": "https://martinuke0.github.io/posts/2026-09-02-building-a-mini-search-engine-with-an-inverted-index-and-tf-idf-a-hands-on-cv-project/",
+      "social_hook": "> TL;DR — A working search engine is one of the best CV projects you can build in a weekend: it touches data structures, text processing, ranking algorithms, and a query API. In this guide we build one in plain Python with a real inverted index, BM25-style TF-IDF ranking, and a tiny HTTP server, then map out the upgrades that turn the toy into a credible systems project.\n\nMost CV side projects live in the same boring neighborhood: a to-do app, a weather widget, a Twitter clone. They demonstrate that you can glue a frontend to a backend. They do not demonstrate that you understand how software thinks.\n\nA mini search engine is different. Search is one of the few problems where every layer of the stack matters: data structures, algorithms, file I/O, concurrency, ranking heuristics, and user-facing latency. Hiring managers know this. When they see a search project on a CV, they read it as a signal that the candidate can think about systems, not just features.",
+      "tags": [
+        "python",
+        "search-engine",
+        "tf-idf",
+        "inverted-index",
+        "portfolio-project",
+        "information-retrieval"
+      ],
+      "scheduled_at": "2026-09-05T09:58:53Z",
       "status": "pending"
     }
   ]
