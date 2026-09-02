@@ -1,0 +1,53 @@
+name: Collect LinkedIn Stats
+
+on:
+  schedule:
+    - cron: "0 9 * * *"    # daily 09:00 UTC
+  workflow_dispatch: {}
+
+# Don't cancel in-flight runs; serialize writes to social_queue.json.
+concurrency:
+  group: social-queue-writer
+  cancel-in-progress: false
+
+jobs:
+  collect-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PAT_TOKEN }}
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Collect engagement stats
+        env:
+          LINKEDIN_ACCESS_TOKEN: ${{ secrets.LINKEDIN_ACCESS_TOKEN }}
+        run: python scripts/collect_linkedin_stats.py
+
+      - name: Print engagement report (log only)
+        env:
+          LINKEDIN_ACCESS_TOKEN: ${{ secrets.LINKEDIN_ACCESS_TOKEN }}
+        run: python scripts/collect_linkedin_stats.py --report
+
+      - name: Commit updated stats
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/social_queue.json
+          git diff --cached --quiet && echo "no stats changed" && exit 0
+          git commit -m "chore: update LinkedIn engagement stats"
+          # rebase-retry so we don't lose the race against queue-on-push / the poster
+          for i in 1 2 3; do
+            git pull --rebase --autostash && git push && exit 0
+            echo "push race, retry $i" && sleep 5
+          done
+          echo "push failed after retries" && exit 1
