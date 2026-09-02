@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-05T11:58:53Z",
+  "last_scheduled_at": "2026-09-05T12:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -19926,6 +19926,21 @@
         "distributed-systems"
       ],
       "scheduled_at": "2026-09-05T11:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Small Language Models for Local Edge Inference: A Production-Ready Guide",
+      "url": "https://martinuke0.github.io/posts/2026-09-02-optimizing-small-language-models-for-local-edge-inference-a-production-ready-guide/",
+      "social_hook": "> TL;DR — Small language models (1B–8B parameters) can comfortably run on edge devices, but only if you treat quantization, KV-cache budget, and runtime selection as first-class engineering decisions. This guide walks through the production stack — from model format to telemetry — that turns \"it works on my laptop\" into a service you can actually operate.\n\nThe default assumption in 2024 was that any serious LLM work happened in the cloud. By 2026, that assumption has collapsed in a very specific direction: small language models (SLMs) — think Phi-4-mini, Qwen2.5-3B, Llama-3.2-3B, Gemma-2-2B, and the SmolLM2 family — are now good enough at narrow tasks that sending every request to a GPU cluster is wasteful, slow, and often a privacy liability.\n\n1. Quantization matured. GGUF Q4_K_M, AWQ, and GPTQ-Int4 all give 70–85% of a model's quality at a quarter of the memory. Tools like llama.cpp and AutoGPTQ made this accessible without a research team.",
+      "tags": [
+        "edge-inference",
+        "llm-optimization",
+        "quantization",
+        "gguf",
+        "llama-cpp",
+        "production-ml"
+      ],
+      "scheduled_at": "2026-09-05T12:58:53Z",
       "status": "pending"
     }
   ]
