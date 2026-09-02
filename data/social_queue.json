@@ -19384,7 +19384,7 @@
         "performance"
       ],
       "scheduled_at": "2026-09-02T15:32:46+00:00",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "FastAPI for AI Engineers: Production Patterns That Actually Ship",
