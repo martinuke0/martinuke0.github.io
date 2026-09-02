@@ -19441,7 +19441,7 @@
         "devops"
       ],
       "scheduled_at": "2026-09-02T19:58:53+00:00",
-      "status": "pending"
+      "status": "posted"
     },
     {
       "title": "Architecting Distributed Task Pipelines with Celery: A Deep Dive into Production Python Backends",
