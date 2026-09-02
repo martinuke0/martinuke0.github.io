@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-06T04:32:46Z",
+  "last_scheduled_at": "2026-09-06T05:32:46Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -19826,6 +19826,20 @@
         "prompting"
       ],
       "scheduled_at": "2026-09-06T04:32:46Z",
+      "status": "pending"
+    },
+    {
+      "title": "Your First 7 Days with Grok Bot: A Production-Ready Field Guide",
+      "url": "https://martinuke0.github.io/posts/2026-09-02-your-first-7-days-with-grok-bot-a-production-ready-field-guide/",
+      "social_hook": "> TL;DR — Grok Bot is more useful on day seven than on day one because the integration choices you make early (model selection, tool wiring, eval harness) compound. This guide walks through seven practical lessons — from API key hygiene to prompt caching and feedback loops — so you ship a working agent in a week instead of a prototype in a month.\n\nWhen xAI shipped Grok and the Grok Bot surface area around it, the marketing focused on personality. After a week of real use, the thing that actually matters is plumbing: how you wire it to your data, how you keep it honest, and how you avoid the slow bleed of token costs. Below is the field guide I wish I had on day one — the playbook for going from a fresh API key to a running, observable agent in seven days.\n\nGrok is a family, not a single model. The fastest mistake new users make is grabbing the most capable endpoint and burning through quota on tasks a smaller model would handle fine. The xAI console exposes the lineup in the xAI API documentation, and the right answer depends on the job.",
+      "tags": [
+        "xai",
+        "grok",
+        "ai-agents",
+        "developer-workflow",
+        "prompt-engineering"
+      ],
+      "scheduled_at": "2026-09-06T05:32:46Z",
       "status": "pending"
     }
   ]
