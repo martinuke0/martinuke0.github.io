@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-05T18:58:53Z",
+  "last_scheduled_at": "2026-09-05T19:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20029,6 +20029,20 @@
         "production-engineering"
       ],
       "scheduled_at": "2026-09-05T18:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "NVIDIA Model Optimizer: The Compiler-Style Playbook for Production LLM Inference",
+      "url": "https://martinuke0.github.io/posts/2026-09-02-nvidia-model-optimizer-the-compiler-style-playbook-for-production-llm-inference/",
+      "social_hook": "> TL;DR — NVIDIA's Model Optimizer treats LLM inference optimization like a compiler problem: a single toolchain that quantizes, prunes, sparsifies, and exports models to TensorRT-LLM, Triton, or vLLM. Used well, it cuts serving cost by 2–4× without changing application code — and it forces engineering teams to think about quantization the same way they've long thought about GCC optimization flags.\n\nMost teams shipping LLM features hit the same wall six weeks after launch. Latency is fine in the demo. P95 is fine in staging. Then real traffic arrives with 4k-token prompts, mixed conversation history, and a JSON-parsing postamble, and the GPU bill looks like a mortgage payment. The instinct is usually to throw more A100s at the problem. The smarter instinct is to treat the model as something you compile, not just something you serve.\n\nThat's the lens NVIDIA's Model Optimizer repo invites you to adopt. It's a relatively new open-source toolkit that bundles a family of post-training optimization techniques — quantization, pruning, sparsity, and distillation-aware compression — behind a single CLI. Under the hood it leans heavily on TensorRT-LLM and the broader inference ecosystem, but the abstraction is deliberate: one command takes a Hugging Face checkpoint and produces an optimized engine.",
+      "tags": [
+        "LLM Inference",
+        "Model Optimization",
+        "Quantization",
+        "NVIDIA",
+        "Production ML"
+      ],
+      "scheduled_at": "2026-09-05T19:58:53Z",
       "status": "pending"
     }
   ]
