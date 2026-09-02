@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-05T07:58:53+00:00",
+  "last_scheduled_at": "2026-09-05T08:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -19868,6 +19868,20 @@
         "ai-safety"
       ],
       "scheduled_at": "2026-09-05T07:58:53+00:00",
+      "status": "pending"
+    },
+    {
+      "title": "Building a Durable Job Queue in Postgres: A Portfolio Project That Signals Real Systems Skill",
+      "url": "https://martinuke0.github.io/posts/2026-09-02-building-a-durable-job-queue-in-postgres-a-portfolio-project-that-signals-real-systems-skill/",
+      "social_hook": "> TL;DR — You'll build a real, runnable job queue on Postgres with `SELECT ... FOR UPDATE SKIP LOCKED`, retries driven by exponential backoff with jitter, and a dead-letter queue for poison messages. It's a weekend-sized project that surfaces the same engineering concerns — idempotency, observability, backpressure — that production queues like Sidekiq, SQS, and Celery solve every day.\n\nHiring managers skim dozens of CRUD apps, todo lists, and weather dashboards. What stops the scroll is a project that visibly grapples with concurrency, failure, and state — the three forces that separate toy software from real systems. A Postgres-backed job queue checks all three.\n\n- Concurrency primitives. You'll use `SELECT ... FOR UPDATE SKIP LOCKED`, the same pattern Sidekiq, River, and `pg_cron` rely on for safe concurrent dequeues without a separate broker. Hiring managers recognize the phrase — it signals you understand how queues actually work under the hood.",
+      "tags": [
+        "postgres",
+        "job-queue",
+        "python",
+        "system-design",
+        "portfolio"
+      ],
+      "scheduled_at": "2026-09-05T08:58:53Z",
       "status": "pending"
     }
   ]
