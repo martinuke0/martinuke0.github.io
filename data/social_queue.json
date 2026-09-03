@@ -19620,7 +19620,8 @@
         "distributed-systems"
       ],
       "scheduled_at": "2026-09-03T19:58:53+00:00",
-      "status": "pending"
+      "status": "posted",
+      "post_urn": "urn:li:share:7501384081222565889"
     },
     {
       "title": "Inside RocksDB LSM-Tree Compaction: Strategies, Trade-offs, and Production Tuning",
