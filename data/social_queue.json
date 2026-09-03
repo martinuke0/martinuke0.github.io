@@ -19470,7 +19470,8 @@
         "system-design"
       ],
       "scheduled_at": "2026-09-02T23:58:53+00:00",
-      "status": "pending"
+      "status": "posted",
+      "post_urn": "urn:li:share:7501066712889516033"
     },
     {
       "title": "Inside QUIC Multiplexing: A Deep Dive into Stream Concurrency and Head-of-Line Blocking",
