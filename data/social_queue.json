@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-06T06:58:53Z",
+  "last_scheduled_at": "2026-09-06T07:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20205,6 +20205,20 @@
         "low-latency"
       ],
       "scheduled_at": "2026-09-06T06:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Multi-Provider AI Pipelines: A Deep Dive into Liter-LLM and Rust-Powered Polyglot Bindings",
+      "url": "https://martinuke0.github.io/posts/2026-09-03-architecting-multi-provider-ai-pipelines-a-deep-dive-into-liter-llm-and-rust-powered-polyglot-bindings/",
+      "social_hook": "> TL;DR — Liter-LLM solves the messy reality of multi-provider AI work by giving you a single typed interface that fans out to OpenAI, Anthropic, Cohere, and local models. The trick: a Rust core handles concurrency, retries, and streaming, while PyO3 bindings expose a Pythonic API so data scientists never touch a Cargo.toml.\n\nMost teams don't start multi-provider. They start with one model, one SDK, one bill. Then a product manager asks for fallbacks. Then legal wants data residency in the EU. Then a new model drops and suddenly half your prompts work better on it. Six months in, you have a `if provider == \"openai\": ... elif provider == \"anthropic\": ...` ladder that's 400 lines long and crashes when anyone sneezes.\n\nThe libraries we've built to manage this — LangChain, LlamaIndex, LiteLLM — are all Python-first, which is great for ergonomics and terrible for performance once you start fanning out hundreds of calls per request. Latency stacks up. GIL contention shows up. Memory pressure on long-context workloads shows up.",
+      "tags": [
+        "rust",
+        "llm",
+        "ai-pipelines",
+        "python-bindings",
+        "polyglot"
+      ],
+      "scheduled_at": "2026-09-06T07:58:53Z",
       "status": "pending"
     }
   ]
