@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-06T14:58:53Z",
+  "last_scheduled_at": "2026-09-06T15:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20324,6 +20324,21 @@
         "cryptography"
       ],
       "scheduled_at": "2026-09-06T14:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting a Real-Time Video Pipeline with WebRTC and Janus",
+      "url": "https://martinuke0.github.io/posts/2026-09-03-architecting-a-real-time-video-pipeline-with-webrtc-and-janus/",
+      "social_hook": "> TL;DR — WebRTC gives you the browser-side plumbing, but production video products live or die on the media server. Janus Gateway is a lightweight, modular C SFU that handles NAT traversal, simulcast, and plugin-based media processing — making it a strong default when you need a self-hostable, open-source alternative to managed services like Agora or LiveKit Cloud.\n\nIf you've ever been asked to add \"Zoom-style\" video to a product, you've probably had the same conversation twice: once about the WebRTC spec, and once about the thing that actually moves packets between peers. The browser handles the first one for free. The second is where the real architecture starts.\n\nThe simplest WebRTC setup is a mesh: every peer sends media to every other peer. It works fine for a 4-person standup. It collapses somewhere between 6 and 10 participants, because every additional participant multiplies the upstream bandwidth the browser has to send. A peer in a 10-person mesh isn't sending 10 streams; it's sending 10 copies of its own stream to 9 other peers.",
+      "tags": [
+        "webrtc",
+        "janus-gateway",
+        "real-time-video",
+        "sfu",
+        "streaming-architecture",
+        "media-servers"
+      ],
+      "scheduled_at": "2026-09-06T15:58:53Z",
       "status": "pending"
     }
   ]
