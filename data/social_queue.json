@@ -19530,7 +19530,8 @@
         "portfolio-projects"
       ],
       "scheduled_at": "2026-09-03T07:58:53+00:00",
-      "status": "pending"
+      "status": "posted",
+      "post_urn": "urn:li:share:7501191328022847488"
     },
     {
       "title": "Designing Resilient Ledger Systems: Architecture, Double-Entry Patterns, and Production Strategies for Financial Integrity",
