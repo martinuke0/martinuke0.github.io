@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-06T09:58:53Z",
+  "last_scheduled_at": "2026-09-06T10:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20250,6 +20250,20 @@
         "system-design"
       ],
       "scheduled_at": "2026-09-06T09:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Inside TLS 1.3 Zero Round-Trip Resumption: Architecture, Trade-Offs, and Production Deployment",
+      "url": "https://martinuke0.github.io/posts/2026-09-03-inside-tls-13-zero-round-trip-resumption-architecture-trade-offs-and-production-deployment/",
+      "social_hook": "> TL;DR — TLS 1.3's 0-RTT mode lets a returning client send application payload in its very first flight, cutting handshake latency by roughly one round trip. The cost is real: 0-RTT data is not forward-secret and is replayable, so safe deployment requires strict idempotency, anti-replay defenses at the edge, and careful separation of which routes accept 0-RTT.\n\nIf you've ever wondered why your bank's mobile app re-prompts for auth on a flaky LTE connection while a content site just streams immediately on reconnect, the answer often comes down to a single bit in a TLS ClientHello: the `early_data` extension. TLS 1.3's Zero Round-Trip Resumption (commonly called 0-RTT) is the most consequential performance feature in the protocol, and the most dangerous one if deployed without thinking it through. This post walks through how it actually works, where it lives in the stack, and how production systems — from CDNs to service meshes — gate it to keep latency low without trading away safety.\n\nBefore TLS 1.3, every session reuse required at least one full round trip — a `ClientHello` carrying the session ticket, then a `ServerHello`, `Finished`, and an application response. On a mobile network where the round-trip time between client and edge might be 80–200 ms, that \"free\" resumption still cost noticeable latency, especially on the first request of a session resumption.",
+      "tags": [
+        "TLS 1.3",
+        "0-RTT",
+        "TLS Resumption",
+        "Networking",
+        "Security"
+      ],
+      "scheduled_at": "2026-09-06T10:58:53Z",
       "status": "pending"
     }
   ]
