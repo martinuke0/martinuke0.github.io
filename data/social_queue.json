@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-06T02:58:53Z",
+  "last_scheduled_at": "2026-09-06T03:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20144,6 +20144,21 @@
         "https"
       ],
       "scheduled_at": "2026-09-06T02:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing Bloom Filters in LSM-Tree Storage Engines for High-Throughput Key Lookups",
+      "url": "https://martinuke0.github.io/posts/2026-09-03-implementing-bloom-filters-in-lsm-tree-storage-engines-for-high-throughput-key-lookups/",
+      "social_hook": "> TL;DR — In an LSM-tree, point reads must probe every sorted run from newest to oldest until a key is found. A bloom filter placed in front of each SSTable rejects 99%+ of non-existent keys with a single cache-resident probe, collapsing read amplification from \"touches every level\" to \"touches the level that actually owns the key.\" Sizing is governed by the equation `m = -n·ln(p) / (ln 2)²`, and most production engines default to ~10 bits per key at a 1% false positive rate.\n\nLog-Structured Merge-trees (LSMs) optimize for write throughput by absorbing incoming keys into an in-memory memtable and flushing immutable sorted runs (SSTables) to disk. The trade-off is well documented: writes are sequential and cheap, but a point read for a key that does not exist must, in the worst case, check every level from L0 to the bottom. Each check usually means a binary search inside an SSTable, plus at least one block cache miss when the block has been evicted.\n\nFor a write-heavy workload this is fine. For a read-heavy or mixed workload — think user-facing key-value stores, time-series dedup, or session caches — the cost compounds. A modern LSM like RocksDB or Cassandra typically has 4–7 levels, and at steady state each level holds roughly 10× more data than the one above it. The probability that a missing key lives in only the deepest level is high, but the I/O cost of proving that is paid on every miss.",
+      "tags": [
+        "bloom-filters",
+        "lsm-trees",
+        "storage-engines",
+        "rocksdb",
+        "databases",
+        "performance"
+      ],
+      "scheduled_at": "2026-09-06T03:58:53Z",
       "status": "pending"
     }
   ]
