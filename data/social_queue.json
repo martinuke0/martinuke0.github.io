@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-06T13:58:53Z",
+  "last_scheduled_at": "2026-09-06T14:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20310,6 +20310,20 @@
         "cilium"
       ],
       "scheduled_at": "2026-09-06T13:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Inside WebAuthn: How Passkeys Really Work Under the Hood",
+      "url": "https://martinuke0.github.io/posts/2026-09-03-inside-webauthn-how-passkeys-really-work-under-the-hood/",
+      "social_hook": "> TL;DR — WebAuthn is a W3C standard that lets a browser or platform register a public key with a server and later prove possession of the corresponding private key during login. The server never sees the private key, the origin is cryptographically bound to the assertion, and that combination is what makes passkeys genuinely phishing-resistant rather than just \"passwordless.\"\n\nPasswords are a 60-year-old hack. They are easy to phish, easy to reuse, easy to leak in breaches, and terrible at scale — every major breach since 2013 has had passwords at the center. FIDO Alliance, the W3C, and the major platform vendors spent nearly a decade designing a replacement that didn't trust the human to remember anything sensitive, and the result is the Web Authentication API, commonly called WebAuthn, with credentials that consumers know as passkeys.\n\nThe core idea is older than the web: a public/private keypair, generated on the user's device, where the server only ever stores the public half. When the user logs in, the server sends a random challenge, the device signs it with the private key, and the server verifies the signature. Simple in principle, but the protocol layers on top of this are what make it actually work on the open web: origin binding, attestation, resident credentials, discoverable credentials, user verification, and the awkward two-protocol split between WebAuthn and CTAP2.",
+      "tags": [
+        "webauthn",
+        "passkeys",
+        "authentication",
+        "security",
+        "cryptography"
+      ],
+      "scheduled_at": "2026-09-06T14:58:53Z",
       "status": "pending"
     }
   ]
