@@ -19545,7 +19545,8 @@
         "financial-engineering"
       ],
       "scheduled_at": "2026-09-03T09:58:53+00:00",
-      "status": "pending"
+      "status": "posted",
+      "post_urn": "urn:li:share:7501248128059183104"
     },
     {
       "title": "Building a Distributed Token Bucket Rate Limiter in Go with Redis: A CV-Ready Microservice Project",
@@ -19559,7 +19560,8 @@
         "system-design"
       ],
       "scheduled_at": "2026-09-03T11:58:53+00:00",
-      "status": "pending"
+      "status": "posted",
+      "post_urn": "urn:li:share:7501248129657266176"
     },
     {
       "title": "Optimizing Small Language Models for Local Edge Inference: Quantization, Pruning, and Runtime Tuning",
