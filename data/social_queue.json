@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-06T03:58:53Z",
+  "last_scheduled_at": "2026-09-06T04:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20161,6 +20161,20 @@
         "performance"
       ],
       "scheduled_at": "2026-09-06T03:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "9 Distributed Systems Patterns You Should Know",
+      "url": "https://martinuke0.github.io/posts/2026-09-03-9-distributed-systems-patterns-you-should-know/",
+      "social_hook": "> TL;DR — Distributed systems fail in predictable ways: networks partition, processes crash, clocks drift. The nine patterns below are the standard toolkit engineers reach for to stay reliable through those failures. Each one trades off consistency, latency, and complexity in a specific way, and most production stacks combine several of them at once.\n\nIf you've ever debugged a flaky microservice, watched a Kafka consumer rebalance loop, or wondered why your database uses a commit log under the hood, you've already brushed against these patterns. They're not academic — they show up in Amazon's architecture papers, the design of Cassandra's consistency model, and the Kubernetes control plane.\n\nIn any cluster that needs a single source of truth at a given moment — a primary database, a scheduler, a lock manager — you need to pick one node to be in charge. That's leader election.",
+      "tags": [
+        "distributed-systems",
+        "system-design",
+        "architecture",
+        "scalability",
+        "reliability"
+      ],
+      "scheduled_at": "2026-09-06T04:58:53Z",
       "status": "pending"
     }
   ]
