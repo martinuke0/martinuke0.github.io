@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-06T04:58:53Z",
+  "last_scheduled_at": "2026-09-06T05:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20175,6 +20175,20 @@
         "reliability"
       ],
       "scheduled_at": "2026-09-06T04:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Designing the Saga Pattern for Distributed Transactions: Orchestration, Compensation, and Commerce Resilience",
+      "url": "https://martinuke0.github.io/posts/2026-09-03-designing-the-saga-pattern-for-distributed-transactions-orchestration-compensation-and-commerce-resilience/",
+      "social_hook": "> TL;DR — The saga pattern trades ACID atomicity for eventual consistency by sequencing local transactions across services and defining compensating actions for each step. In commerce systems, orchestrated sagas (driven by a central coordinator like Temporal or a custom orchestrator) usually beat choreographed ones because order state, retries, and compensations need a single source of truth.\n\nThe classic two-phase commit (2PC) and XA transactions assume synchronous coordinators, holding locks across the network. That model collapses under modern commerce workloads for three reasons:\n\n- Latency budgets are tight. A checkout flow that touches inventory, payments, loyalty, tax, and fulfillment cannot tolerate the 200ms–2s pauses that 2PC imposes while participants block on a coordinator.",
+      "tags": [
+        "saga-pattern",
+        "distributed-systems",
+        "microservices",
+        "orchestration",
+        "event-driven"
+      ],
+      "scheduled_at": "2026-09-06T05:58:53Z",
       "status": "pending"
     }
   ]
