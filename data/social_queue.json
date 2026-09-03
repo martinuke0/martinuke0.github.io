@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-06T10:58:53Z",
+  "last_scheduled_at": "2026-09-06T11:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20264,6 +20264,20 @@
         "Security"
       ],
       "scheduled_at": "2026-09-06T10:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Becoming a Claude Certified Architect: What It Actually Takes",
+      "url": "https://martinuke0.github.io/posts/2026-09-03-becoming-a-claude-certified-architect-what-it-actually-takes/",
+      "social_hook": "> TL;DR — The Claude Certified Architect credential validates that you can design, secure, and operate production systems on top of Anthropic's Claude models. It tests four real-world domains — foundations, prompting, retrieval, and operations — through scenario-based questions, not trivia. Preparation is most effective when you pair the official study guide with hands-on work in the Anthropic Console, the Agent SDK, and the prompt caching + tool use APIs.\n\nAnthropic announced the Claude Certified Architect program in 2025 as the highest tier in a three-level certification ladder that runs from Claude Certified User through Claude Certified Developer up to Architect. The Architect track is explicitly aimed at engineers, tech leads, and solution architects who design systems where Claude is a load-bearing component — not a chatbot on a marketing site.\n\n1. Foundations of Claude (~20%) — model family differences (Haiku, Sonnet, Opus), context windows, token economics, and the constitutional / safety principles baked into the models. This is the \"know your tools\" section.",
+      "tags": [
+        "claude",
+        "anthropic",
+        "ai-architecture",
+        "llm",
+        "certification"
+      ],
+      "scheduled_at": "2026-09-06T11:58:53Z",
       "status": "pending"
     }
   ]
