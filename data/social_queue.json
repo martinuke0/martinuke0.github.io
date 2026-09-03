@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-06T11:58:53Z",
+  "last_scheduled_at": "2026-09-06T12:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20278,6 +20278,20 @@
         "certification"
       ],
       "scheduled_at": "2026-09-06T11:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Inside Bazel 7: Remote Build Execution and the Architecture of Distributed Caching",
+      "url": "https://martinuke0.github.io/posts/2026-09-03-inside-bazel-7-remote-build-execution-and-the-architecture-of-distributed-caching/",
+      "social_hook": "> TL;DR — Bazel 7's Remote Build Execution is not \"run my shell commands on a bigger machine.\" It is a tightly specified protocol that ships action inputs by digest, executes hermetically on remote workers, and returns outputs the client verifies against a Merkle-tree content-addressable store. The result is a build system where cache hits are correctness-preserving and parallelism scales linearly with fleet size.\n\nIf you have ever watched a clean rebuild of a medium-sized C++ monorepo grind for nine minutes while you know, you know, that ninety percent of those object files already exist somewhere on disk — Bazel's Remote Build Execution (RBE) is the answer to that specific kind of frustration. But the interesting story is not the wall-clock improvement. The interesting story is the architecture: how Bazel decomposes a build into a directed acyclic graph of actions, ships that graph to a remote service, and relies on cryptographic content addressing to make every cached byte trustworthy.\n\nThis post walks through Bazel 7's RBE stack — the Remote Execution API v2, the Action Cache, the Content Addressable Storage (CAS), and the executor model — with enough specificity that you can reason about failure modes and design your own integration. If you have used Bazel locally, most of these pieces already run on your laptop. RBE is what happens when you stop pretending the laptop is fast enough.",
+      "tags": [
+        "bazel",
+        "build-systems",
+        "remote-execution",
+        "distributed-caching",
+        "developer-productivity"
+      ],
+      "scheduled_at": "2026-09-06T12:58:53Z",
       "status": "pending"
     }
   ]
