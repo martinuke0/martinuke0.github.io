@@ -19590,7 +19590,8 @@
         "performance"
       ],
       "scheduled_at": "2026-09-03T15:58:53+00:00",
-      "status": "pending"
+      "status": "posted",
+      "post_urn": "urn:li:share:7501308490557255680"
     },
     {
       "title": "Architecting Log-Structured Merge Trees for Write-Intensive Distributed Databases",
