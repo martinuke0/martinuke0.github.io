@@ -2,6 +2,7 @@
 """Post to LinkedIn via API v2 using an OAuth 2.0 bearer token."""
 
 import os
+import re
 import sys
 from pathlib import Path
 
@@ -15,11 +16,26 @@ def build_hashtags(tags: list) -> str:
     return " ".join(f"#{t.replace(' ', '').replace('-', '')}" for t in tags[:5])
 
 
+def clean_hook(hook: str) -> str:
+    """The hook is often the article's `> **TL;DR** — ...` blockquote. LinkedIn
+    renders no markdown, so strip the `>` blockquote markers, the TL;DR label,
+    and stray `*`/`#` emphasis so the first line reads as a plain, natural hook."""
+    # drop leading blockquote marker on each line
+    text = "\n".join(re.sub(r"^\s*>\s?", "", ln) for ln in hook.splitlines()).strip()
+    # drop a leading "TL;DR" / "**TL;DR**" label and its dash/colon separator
+    text = re.sub(r"^\**\s*TL;?DR\s*\**\s*[—–\-:]?\s*", "", text, flags=re.IGNORECASE)
+    # markdown emphasis/heading markers LinkedIn shows literally
+    text = text.replace("**", "").replace("__", "")
+    text = re.sub(r"^\s*#+\s*", "", text)
+    return text.strip()
+
+
 def build_post(title: str, url: str, social_hook: str, tags: list = None) -> str:
     hashtags = build_hashtags(tags or [])
-    if social_hook and social_hook.strip():
+    hook = clean_hook(social_hook or "")
+    if hook:
         return LINKEDIN_TEMPLATE.format(
-            title=title, social_hook=social_hook.strip(), url=url, hashtags=hashtags
+            title=title, social_hook=hook, url=url, hashtags=hashtags
         )
     return f"{title}\n\nRead the full guide: {url}\n\n{hashtags}".rstrip()
 
