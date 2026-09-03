@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-06T05:58:53Z",
+  "last_scheduled_at": "2026-09-06T06:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20189,6 +20189,21 @@
         "event-driven"
       ],
       "scheduled_at": "2026-09-06T05:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing Concurrent Garbage Collection with Tri-Color Marking: From Theory to Production-Ready JVM Tuning",
+      "url": "https://martinuke0.github.io/posts/2026-09-03-implementing-concurrent-garbage-collection-with-tri-color-marking-from-theory-to-production-ready-jvm-tuning/",
+      "social_hook": "> TL;DR — Tri-color marking is the algorithm G1, ZGC, and Shenandoah all use to reclaim heap space while your application threads keep running. The hard part isn't the colors themselves — it's the SATB and incremental-update write barriers that keep the invariant intact. Get those wrong and you get silent memory leaks; get the JVM flags right and you can run p99 pauses in the sub-millisecond range.\n\nIf you're running a service on the JVM, every garbage collection cycle is, at some level, a tax on your response times. The original mark-and-sweep collectors of the 1990s were stop-the-world by design: the runtime would freeze every application thread, walk the object graph, and only then resume. For a 100 MB heap that was fine. For a 100 GB heap serving 50k requests per second, it's not.\n\nConcurrent collectors — G1, ZGC, and Shenandoah — exist because the heap got too big and the latency budget got too small. All three are built on the same conceptual foundation: tri-color marking, an algorithm first formalized by Dijkstra in a 1978 paper on graph marking. Understanding that algorithm is the difference between treating the JVM like a black box and being able to reason about why a particular `-XX` flag actually matters.",
+      "tags": [
+        "jvm",
+        "garbage-collection",
+        "tri-color-marking",
+        "performance-tuning",
+        "java",
+        "low-latency"
+      ],
+      "scheduled_at": "2026-09-06T06:58:53Z",
       "status": "pending"
     }
   ]
