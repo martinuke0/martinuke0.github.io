@@ -19500,7 +19500,8 @@
         "performance"
       ],
       "scheduled_at": "2026-09-03T03:58:53+00:00",
-      "status": "pending"
+      "status": "posted",
+      "post_urn": "urn:li:share:7501142283690631168"
     },
     {
       "title": "Architecting Async I/O with io_uring vs. epoll: A Deep Dive into Linux Performance Models",
