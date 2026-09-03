@@ -19605,7 +19605,8 @@
         "system-design"
       ],
       "scheduled_at": "2026-09-03T17:58:53+00:00",
-      "status": "pending"
+      "status": "posted",
+      "post_urn": "urn:li:share:7501338736132268032"
     },
     {
       "title": "Implementing Bloom Filters in LSM-Trees: Reducing Read Amplification",
