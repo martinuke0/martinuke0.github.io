@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-06T07:58:53Z",
+  "last_scheduled_at": "2026-09-06T08:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20219,6 +20219,20 @@
         "polyglot"
       ],
       "scheduled_at": "2026-09-06T07:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Retrieval-Augmented Generation Systems: A Deep Dive into Production Pipelines",
+      "url": "https://martinuke0.github.io/posts/2026-09-03-architecting-retrieval-augmented-generation-systems-a-deep-dive-into-production-pipelines/",
+      "social_hook": "> TL;DR — Production RAG is less about picking an embedding model and more about orchestrating ingestion, retrieval, reranking, and evaluation as a single system. The teams that win treat chunking strategy, hybrid search, and freshness as first-class concerns — and instrument every stage so they can debug \"the model hallucinated\" all the way down to \"the wrong paragraph was retrieved.\"\n\nRetrieval-Augmented Generation (RAG) started life as a clever way to ground a language model in private data without fine-tuning. In 2026, it is the default architecture for any product that needs an LLM to answer questions about documents it wasn't trained on: enterprise search, developer copilots, customer support automation, legal review, and on. The interesting engineering has moved past the naive \"embed your docs and stuff the top-k into the prompt\" demo. What's left is the hard part: making the system correct, fast, cheap, and fresh enough that real users trust it.\n\nThis post walks through how to architect a RAG system for production. We'll move from the data pipeline inward, touch the retrieval stack, spend real time on reranking and evaluation, and finish with the failure modes that only show up once you have traffic.",
+      "tags": [
+        "rag",
+        "llm",
+        "ml-systems",
+        "vector-search",
+        "production-engineering"
+      ],
+      "scheduled_at": "2026-09-06T08:58:53Z",
       "status": "pending"
     }
   ]
