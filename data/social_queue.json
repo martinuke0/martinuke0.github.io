@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-06T08:58:53Z",
+  "last_scheduled_at": "2026-09-06T09:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20233,6 +20233,21 @@
         "production-engineering"
       ],
       "scheduled_at": "2026-09-06T08:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Autonomous Memory Systems for Distributed AI Agent Orchestration",
+      "url": "https://martinuke0.github.io/posts/2026-09-03-architecting-autonomous-memory-systems-for-distributed-ai-agent-orchestration/",
+      "social_hook": "> TL;DR — Distributed AI agents need more than a context window; they need a memory substrate that spans working, episodic, and semantic tiers across many nodes. This post walks through the architecture of such systems — from write paths and consistency trade-offs to vector stores, TTLs, and the orchestration patterns that keep agents coherent at scale.\n\nAnyone who has shipped a non-trivial one has felt the pain: a multi-agent workflow runs beautifully in the first turn, then forgets what tool B learned from tool A by turn three. The naive fix — pasting prior outputs back into the prompt — collapses once you have more than two agents, more than a few minutes of runtime, or any kind of long-horizon task.\n\nThe problem isn't that the model is forgetful. The model is, by design, stateless per call. Memory is an infrastructure concern, and like all infrastructure concerns, it has a shape that determines whether the system scales or suffocates.",
+      "tags": [
+        "ai-agents",
+        "distributed-systems",
+        "memory-architecture",
+        "agent-orchestration",
+        "vector-databases",
+        "system-design"
+      ],
+      "scheduled_at": "2026-09-06T09:58:53Z",
       "status": "pending"
     }
   ]
