@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-06T00:58:53Z",
+  "last_scheduled_at": "2026-09-06T01:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20115,6 +20115,20 @@
         "accounting"
       ],
       "scheduled_at": "2026-09-06T00:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Build an HTTP Load Balancer in Go: A CV-Worthy Side Project",
+      "url": "https://martinuke0.github.io/posts/2026-09-03-build-an-http-load-balancer-in-go-a-cv-worthy-side-project/",
+      "social_hook": "> TL;DR — A load balancer is one of the highest signal-per-line-of-code side projects you can ship: it touches networking, concurrency, failure handling, and observability in ~500 lines of Go. This guide walks you through building a least-connections router with active health checks, then maps out the upgrades — sticky sessions, TLS, Prometheus metrics, and chaos testing — that push it from a tutorial demo to something you'd defend in a staff interview.\n\nHiring managers in backend, platform, and infrastructure roles have seen every todo app and CRUD API that hits their desk. What makes them stop scrolling is a project that demonstrates you understand how the internet actually works at the request-routing layer. NGINX, Envoy, HAProxy, and the AWS ALB all solve the same problem you'll solve here, and being able to explain — and modify — one of those systems is a strong signal you can work on them.\n\nA load balancer is a \"force multiplier\" project. In a few hundred lines you touch a surprising number of the competencies a staff engineer is supposed to have:",
+      "tags": [
+        "golang",
+        "load-balancer",
+        "systems-design",
+        "side-project",
+        "distributed-systems"
+      ],
+      "scheduled_at": "2026-09-06T01:58:53Z",
       "status": "pending"
     }
   ]
