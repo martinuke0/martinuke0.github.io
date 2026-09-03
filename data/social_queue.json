@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-06T15:58:53Z",
+  "last_scheduled_at": "2026-09-06T16:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20341,6 +20341,20 @@
         "media-servers"
       ],
       "scheduled_at": "2026-09-06T15:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Inside the V8 TurboFan Compiler: How Speculative JIT Compilation Really Works",
+      "url": "https://martinuke0.github.io/posts/2026-09-03-inside-the-v8-turbofan-compiler-how-speculative-jit-compilation-really-works/",
+      "social_hook": "> TL;DR — TurboFan is V8's mid-tier optimizing JIT, and it is fundamentally a speculative compiler: it bets heavily on type feedback from Ignition, generates tight machine code assuming those bets hold, and ships a deoptimization escape hatch for when they don't. The Sea of Nodes IR, feedback-driven inlining, and load/store elimination are what make modern V8 fast on real workloads.\n\nIf you've ever wondered why your JavaScript hot path suddenly runs 10× faster after a few hundred iterations — or why your carefully crafted monomorphic call site got slower the moment you passed in a `string` — the answer lives inside TurboFan. V8's optimizing compiler is one of the most aggressive speculative JITs ever shipped in a production runtime, and understanding it makes you a better JavaScript engineer even if you never touch a single bytecode.\n\nV8 runs JavaScript through a multi-tier pipeline. At the bottom sits Ignition, a register-based bytecode interpreter that every function starts in. Ignition is small, predictable, and warm-fast — meaning it collects type feedback for hot functions almost immediately. Above Ignition sits Sparkplug, a non-optimizing baseline JIT that skips bytecode interpretation and emits straightforward machine code. Above Sparkplug sits TurboFan, the mid-tier optimizing compiler that the V8 team introduced in 2017 to replace the aging Crankshaft.",
+      "tags": [
+        "v8",
+        "javascript",
+        "jit",
+        "compilers",
+        "performance"
+      ],
+      "scheduled_at": "2026-09-06T16:58:53Z",
       "status": "pending"
     }
   ]
