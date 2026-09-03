@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-06T12:58:53Z",
+  "last_scheduled_at": "2026-09-06T13:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20293,6 +20293,21 @@
         "developer-productivity"
       ],
       "scheduled_at": "2026-09-06T12:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Multi-Cluster Service Mesh with Istio Ambient Mode and eBPF",
+      "url": "https://martinuke0.github.io/posts/2026-09-03-architecting-multi-cluster-service-mesh-with-istio-ambient-mode-and-ebpf/",
+      "social_hook": "> TL;DR — Istio Ambient Mode splits the sidecar into two layers: an eBPF-accelerated `ztunnel` (L4) and an optional waypoint proxy (L7). Across multiple clusters, this gives you a lighter, more uniform data plane that scales better than sidecars, while still letting you pin L7 policy to namespaces or services. The trade-off is operational complexity in identity, certificate, and control-plane federation.\n\nThe classic Istio story — one Envoy sidecar per pod — is a love letter to consistency and a tax on infrastructure. Every pod pays for an extra container, an extra init, and an extra iptables redirection chain, even when the workload is a tiny gRPC service that only needs mTLS. At a few hundred pods, that tax is fine. At 10,000, it shows up in your node budgets and your cold-start latency.\n\nAmbient Mode is Istio's answer: split the sidecar into two roles. The ztunnel is a per-node, Rust-based L4 proxy that handles mTLS, L4 authorization, and telemetry. The waypoint is an optional, deployment-scoped Envoy that handles L7 policy — retries, header routing, ext-auth. Workloads join the mesh by selecting a namespace or a `Service` label; they don't need an injection webhook at all.",
+      "tags": [
+        "istio",
+        "service-mesh",
+        "ebpf",
+        "multi-cluster",
+        "kubernetes",
+        "cilium"
+      ],
+      "scheduled_at": "2026-09-06T13:58:53Z",
       "status": "pending"
     }
   ]
