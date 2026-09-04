@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-06T20:58:53Z",
+  "last_scheduled_at": "2026-09-06T21:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20416,6 +20416,21 @@
         "kubernetes"
       ],
       "scheduled_at": "2026-09-06T20:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Inside HashiCorp Vault: Unsealing, Audit Logs, and Transit Encryption",
+      "url": "https://martinuke0.github.io/posts/2026-09-04-inside-hashicorp-vault-unsealing-audit-logs-and-transit-encryption/",
+      "social_hook": "> TL;DR — Vault separates the encryption root from the operational state via Shamir's Secret Sharing, which is why \"unsealing\" exists at all. Every request can be persisted to a tamper-evident audit device, and the transit engine lets you encrypt application data in your own datastore without Vault ever holding the ciphertext or plaintext. Together, these three primitives turn Vault into a control plane for secrets rather than a glorified password file.\n\nIf you've deployed it once, you've had the moment: you `vault operator init`, you get five key shards and an initial root token, and your stomach drops because you realize that one of those shards, combined with the other four, is the master key to your entire secrets estate. Everything that follows — unsealing, audit logging, transit encryption — exists to make that power usable without making it catastrophic. This post walks through how those three pieces actually work under the hood, with the knobs engineers care about.\n\nVault is built around a single uncomfortable fact: a secrets manager that stores the keys to your kingdom has to be more secure than the kingdom itself. HashiCorp's answer is to split that responsibility into layers.",
+      "tags": [
+        "vault",
+        "hashicorp",
+        "secrets-management",
+        "security",
+        "transit",
+        "devops"
+      ],
+      "scheduled_at": "2026-09-06T21:58:53Z",
       "status": "pending"
     }
   ]
