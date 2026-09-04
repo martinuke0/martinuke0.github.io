@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-06T19:58:53Z",
+  "last_scheduled_at": "2026-09-06T20:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20399,6 +20399,21 @@
         "iot"
       ],
       "scheduled_at": "2026-09-06T19:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Inside gVisor: How User-Space Kernels Sandbox Containers at the Syscall Boundary",
+      "url": "https://martinuke0.github.io/posts/2026-09-04-inside-gvisor-how-user-space-kernels-sandbox-containers-at-the-syscall-boundary/",
+      "social_hook": "> TL;DR — gVisor re-implements enough of the Linux kernel in user space to intercept every syscall a container makes, so untrusted application code never talks to the host kernel directly. It costs you CPU, but it shrinks the kernel attack surface by roughly 80% and is the same approach Google uses to run multi-tenant workloads on Cloud Run and App Engine.\n\nWhen a container \"runs\" on Linux, the kernel does most of the heavy lifting: the `open`, `read`, `write`, `clone`, and `mmap` syscalls all execute in ring 0, inside the same monolithic kernel that hosts every other tenant on the machine. The isolation story is namespaces, cgroups, and seccomp — strong, but the kernel itself is the trust boundary. A bug in any of those tens of millions of lines of code is a bug in your container's wall.\n\ngVisor takes a different bet: what if the application never actually calls into the host kernel at all? Instead, the application calls into a userspace re-implementation of Linux that itself decides what is safe to forward to the real kernel. That intermediate layer — the Sentry — becomes the trust boundary, and the host kernel becomes an unwitting I/O multiplexer.",
+      "tags": [
+        "gVisor",
+        "containers",
+        "sandboxing",
+        "syscalls",
+        "security",
+        "kubernetes"
+      ],
+      "scheduled_at": "2026-09-06T20:58:53Z",
       "status": "pending"
     }
   ]
