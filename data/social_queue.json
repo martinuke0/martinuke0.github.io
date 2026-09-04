@@ -19811,7 +19811,8 @@
         "performance"
       ],
       "scheduled_at": "2026-09-04T19:58:53+00:00",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-04T20:01:38Z"
     },
     {
       "title": "Your First 7 Days with Claude: A Practical Onboarding Guide for Engineers",
