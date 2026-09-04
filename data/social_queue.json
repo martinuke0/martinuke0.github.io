@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-06T22:58:53Z",
+  "last_scheduled_at": "2026-09-06T23:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20448,6 +20448,20 @@
         "security"
       ],
       "scheduled_at": "2026-09-06T22:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Inside V8's TurboFan Optimizing Pipeline: Tracing JIT Compilation from Bytecode to Machine Code",
+      "url": "https://martinuke0.github.io/posts/2026-09-04-inside-v8/",
+      "social_hook": "> TL;DR — TurboFan is V8's optimizing JIT, but it doesn't see your JavaScript source at all — it consumes a sea-of-nodes IR built from Ignition bytecode. The pipeline runs typed lowering, escape analysis, redundant load elimination, loop-unrolling, and instruction selection, then emits machine code with register allocation and a parallel deoptimization machinery that lets the runtime bail out to Ignition when speculation fails.\n\nMost explanations of \"how V8 works\" stop at \"Ignition interprets, TurboFan optimizes.\" That's true but it hides the interesting part: the boundary between the two engines is a serializable bytecode stream, not AST nodes or source. The moment a function becomes hot — usually a few thousand invocations, or sooner if it's a top-level script or has tight loops — V8's `Sparkplug` baseline compiler hands its bytecode plus collected type feedback to TurboFan. From that point on, TurboFan is reasoning about a typed bytecode program, not the original JavaScript you wrote.\n\n1. Speculation is observable. TurboFan will assume a function always sees an `Array` until proven otherwise. If you suddenly pass a `string` and trigger a deopt, you don't just pay a recompile cost — the bytecode interpreter resumes from the exact bytecode offset where the assumption broke.",
+      "tags": [
+        "v8",
+        "javascript",
+        "jit-compilation",
+        "turbofan",
+        "performance"
+      ],
+      "scheduled_at": "2026-09-06T23:58:53Z",
       "status": "pending"
     }
   ]
