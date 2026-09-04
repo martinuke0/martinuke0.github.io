@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-07T01:58:53Z",
+  "last_scheduled_at": "2026-09-07T02:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20496,6 +20496,20 @@
         "production-engineering"
       ],
       "scheduled_at": "2026-09-07T01:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Continuous Batching: How vLLM and Friends Keep GPUs Fed",
+      "url": "https://martinuke0.github.io/posts/2026-09-04-continuous-batching-how-vllm-and-friends-keep-gpus-fed/",
+      "social_hook": "> TL;DR — Continuous batching schedules requests at every decode step instead of waiting for an entire batch to finish, so short prompts don't leave long ones holding GPU slots idle. Production engines like vLLM, TGI, and TensorRT-LLM use this trick (often alongside PagedAttention) to push tokens-per-second-per-GPU up by 10x or more versus naive static batching.\n\nThe first wave of LLM serving stacks borrowed from CNN serving: pack a batch of N requests, run them together, return when the last one finishes. For BERT-style classifiers that's fine — every request takes the same number of forward passes. For an autoregressive decoder, it's catastrophic.\n\nConsider a batch of 64 requests where 63 finished generating after 30 tokens and one is still going at 800 tokens. With static batching, those 63 finished requests have already shipped their responses, but the GPU keeps crunching the 64th sequence alone. You're paying for the whole batch's worth of memory and compute to serve a single straggler. This problem is well-known; it's the throughput killer that motivated the design of vLLM's PagedAttention paper and the Anyscale write-up on continuous batching.",
+      "tags": [
+        "llm-inference",
+        "vllm",
+        "continuous-batching",
+        "gpu",
+        "pytorch"
+      ],
+      "scheduled_at": "2026-09-07T02:58:53Z",
       "status": "pending"
     }
   ]
