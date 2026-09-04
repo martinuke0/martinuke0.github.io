@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-07T16:58:53Z",
+  "last_scheduled_at": "2026-09-07T17:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20720,6 +20720,21 @@
         "noise-protocol"
       ],
       "scheduled_at": "2026-09-07T16:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building Flash Attention from Scratch in Pure NumPy: A CV-Worthy Systems Project",
+      "url": "https://martinuke0.github.io/posts/2026-09-04-building-flash-attention-from-scratch-in-pure-numpy-a-cv-worthy-systems-project/",
+      "social_hook": "> TL;DR — Flash attention is a memory-efficient attention algorithm used in every modern transformer stack (GPT, LLaMA, Claude). In this build we implement it from scratch in pure NumPy: we tile the query, key, and value matrices into SRAM-sized blocks, fuse the softmax across tiles using the online softmax trick, and avoid ever materializing the full N×N attention matrix. The result is a single-file project that demonstrates GPU-style kernel design, numerical stability, and profiling — all skills that hiring managers for ML infra, performance engineering, and platform teams immediately recognize.\n\nMost \"from-scratch\" attention implementations on GitHub are the same thing: three `np.dot` calls, a softmax across an axis, and a final matmul. They look like homework. They do not differentiate you.\n\nA flash-attention kernel is different, and here's why a hiring manager's eye will linger on it:",
+      "tags": [
+        "flash-attention",
+        "numpy",
+        "gpu-kernels",
+        "systems-engineering",
+        "transformers",
+        "machine-learning-infrastructure"
+      ],
+      "scheduled_at": "2026-09-07T17:58:53Z",
       "status": "pending"
     }
   ]
