@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-07T12:58:53Z",
+  "last_scheduled_at": "2026-09-07T13:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20652,6 +20652,20 @@
         "architecture"
       ],
       "scheduled_at": "2026-09-07T12:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Cloudflare Zero to Hero: A Working Engineer's Guide to Building on the Edge",
+      "url": "https://martinuke0.github.io/posts/2026-09-04-cloudflare-zero-to-hero-a-working-engineer/",
+      "social_hook": "> TL;DR — Cloudflare's edge platform goes far beyond CDN and DDoS protection. With Workers, R2, KV, Durable Objects, and D1, you can ship globally distributed applications that run close to users without managing a single origin server — but the trade-offs around cold starts, consistency, and binding limits matter.\n\nIf you've used Cloudflare as a DNS provider or a CDN, it's easy to underestimate what's actually under the hood. The same network that fronts your static assets can run your application code, store your data, and authenticate your users — all from 300+ data centers across 100+ countries. The promise is appealing: write JavaScript or WASM, deploy with `wrangler deploy`, and your code runs within milliseconds of every visitor on Earth.\n\nThis post walks through what Cloudflare actually offers in 2026, how the pieces fit together, and what you need to know before trusting it with production traffic. It's aimed at engineers who already know how to ship a web app — and want to know what changes when the edge becomes your runtime.",
+      "tags": [
+        "cloudflare",
+        "edge-computing",
+        "workers",
+        "performance",
+        "architecture"
+      ],
+      "scheduled_at": "2026-09-07T13:58:53Z",
       "status": "pending"
     }
   ]
