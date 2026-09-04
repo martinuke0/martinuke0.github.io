@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-07T00:58:53Z",
+  "last_scheduled_at": "2026-09-07T01:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20482,6 +20482,20 @@
         "tracing"
       ],
       "scheduled_at": "2026-09-07T00:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "KV Caching in Production: How Transformers Trade Memory for Latency",
+      "url": "https://martinuke0.github.io/posts/2026-09-04-kv-caching-in-production-how-transformers-trade-memory-for-latency/",
+      "social_hook": "> TL;DR — KV caching stores the Key and Value projections of every previous token so autoregressive decoders don't recompute attention for the entire prompt on every step. It turns inference from O(n²) per token into O(n), but the cache itself grows linearly with sequence length and batch size, often becoming the dominant GPU memory consumer at long context lengths.\n\nA transformer decoder generates one token at a time. After it picks token t, it has to pick t+1, and t+2, and so on. The naive implementation runs a full forward pass for each new token: recompute attention over the entire prompt plus everything generated so far.\n\nFor a 2048-token context, generating the 2048th token naively means doing attention over 2047 previous tokens. Generating the 4096th token means doing attention over 4095. The work per step grows linearly with sequence length, and total work for a full response grows quadratically. That math is brutal at long context: decoding a single 32k-token response this way is roughly 16x slower than decoding a 16k one, even though the prompt only doubled.",
+      "tags": [
+        "llm",
+        "transformers",
+        "inference",
+        "kv-cache",
+        "production-engineering"
+      ],
+      "scheduled_at": "2026-09-07T01:58:53Z",
       "status": "pending"
     }
   ]
