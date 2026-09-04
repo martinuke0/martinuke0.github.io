@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-06T17:58:53Z",
+  "last_scheduled_at": "2026-09-06T18:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20370,6 +20370,20 @@
         "performance"
       ],
       "scheduled_at": "2026-09-06T17:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing Karpenter's Consolidation Disruption Policies for Spot Instance Workloads",
+      "url": "https://martinuke0.github.io/posts/2026-09-04-implementing-karpenter/",
+      "social_hook": "> TL;DR — Consolidation is Karpenter's most powerful disruption policy because it can both replace nodes (drift) and delete underutilized ones. For Spot workloads, the right pattern is `consolidateAfter` with a price-capacity-optimized instance mix, per-workload `doNotDisrupt` annotations for steady-state batch jobs, and `expireAfter` as a hard backstop. Get the defaults wrong and you get either wasted spend or a self-inflicted pod rebalance every five minutes.\n\nKarpenter ships four disruption mechanisms, and they solve very different problems:\n\n- Drift reacts to AWS-side changes: instance type deprecation, a node getting marked unhealthy, the AMI no longer matching the latest `EC2NodeClass`. This is non-negotiable — you have to roll those nodes.",
+      "tags": [
+        "kubernetes",
+        "karpenter",
+        "spot-instances",
+        "cost-optimization",
+        "aws-eks"
+      ],
+      "scheduled_at": "2026-09-06T18:58:53Z",
       "status": "pending"
     }
   ]
