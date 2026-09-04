@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-07T02:58:53Z",
+  "last_scheduled_at": "2026-09-07T03:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20510,6 +20510,20 @@
         "pytorch"
       ],
       "scheduled_at": "2026-09-07T02:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Quantization in Production: Trading Precision for Scale",
+      "url": "https://martinuke0.github.io/posts/2026-09-04-quantization-in-production-trading-precision-for-scale/",
+      "social_hook": "> TL;DR — Quantization maps a model's weights and activations from FP16/FP32 to lower-precision integer or sub-byte formats, typically cutting memory 2–4× and latency 1.5–3× with under 1% accuracy loss on most workloads. The real engineering work is choosing a scheme (PTQ vs QAT, INT8 vs INT4 vs FP8), validating it against your eval set, and rolling it out behind feature flags so you can detect regressions before they hit the P99 bill.\n\nIf you've shipped an LLM, a vision model, or even a moderately sized embedding service in the last two years, you've almost certainly looked at quantization. It is the rare ML optimization that delivers a double-digit percentage cost reduction on the same hardware, often without a single line of architecture change. The story sounds too good to be true, and in some edge cases it is — but for the overwhelming majority of inference workloads, quantization is the first thing you should try, not the last.\n\nThis post is the writeup I wish I had when I was rolling out INT8 BERT and then INT4 LLMs at scale. I'll cover what quantization actually does at the bit level, the formats you'll encounter, the two main techniques (post-training and quantization-aware training), and the production patterns that separate a smooth rollout from a 3 a.m. incident.",
+      "tags": [
+        "machine-learning",
+        "quantization",
+        "inference",
+        "performance",
+        "production-engineering"
+      ],
+      "scheduled_at": "2026-09-07T03:58:53Z",
       "status": "pending"
     }
   ]
