@@ -19746,8 +19746,9 @@
         "event-driven"
       ],
       "scheduled_at": "2026-09-04T11:58:53+00:00",
-      "status": "posting",
-      "claimed_at": "2026-09-04T12:01:48Z"
+      "status": "posted",
+      "claimed_at": "2026-09-04T12:01:48Z",
+      "post_urn": "urn:li:share:7501610480763969536"
     },
     {
       "title": "Inside LSM-Tree Bloom Filters: Architecture, Trade-offs, and Production Tuning",
