@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-06T23:58:53Z",
+  "last_scheduled_at": "2026-09-07T00:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20467,6 +20467,21 @@
         "production-engineering"
       ],
       "scheduled_at": "2026-09-06T23:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "NVIDIA Dynamo: A Practical Guide to the Open-Source Inference Serving Framework",
+      "url": "https://martinuke0.github.io/posts/2026-09-04-nvidia-dynamo-a-practical-guide-to-the-open-source-inference-serving-framework/",
+      "social_hook": "> TL;DR — NVIDIA Dynamo is an open-source inference serving framework designed for multi-node, multi-GPU LLM deployments. It disaggregates prefill and decode phases, ships KV cache over a high-speed bus, and layers smart scheduling on top — letting you trade latency, throughput, and cost in ways monolithic engines (vLLM, TGI, SGLang) can't easily match.\n\nIf you've ever watched a 70B-parameter model grind through a long prompt with a packed KV cache and thought \"I bet half my GPUs are idle during prefill and the other half are idle during decode\" — Dynamo is, broadly speaking, NVIDIA's answer to that thought. Released at GTC 2025 and now stewarded under the Dynamo GitHub org, it pulls apart the two phases of autoregressive inference and treats them as independent scaling problems.\n\nThis post walks through what Dynamo actually does, how its architecture differs from a vanilla vLLM deploy, and where it fits (and doesn't fit) in a production stack.",
+      "tags": [
+        "nvidia",
+        "dynamo",
+        "llm-inference",
+        "gpu",
+        "kubernetes",
+        "tracing"
+      ],
+      "scheduled_at": "2026-09-07T00:58:53Z",
       "status": "pending"
     }
   ]
