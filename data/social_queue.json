@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-07T13:58:53Z",
+  "last_scheduled_at": "2026-09-07T14:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20666,6 +20666,21 @@
         "architecture"
       ],
       "scheduled_at": "2026-09-07T13:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "GitHub Zero to Hero: The Engineer’s Guide to Shipping Code Without Drama",
+      "url": "https://martinuke0.github.io/posts/2026-09-04-github-zero-to-hero-the-engineers-guide-to-shipping-code-without-drama/",
+      "social_hook": "> TL;DR — GitHub is more than a git host; it’s a delivery platform. Move from `git init` to a production-ready setup in five stages: repository hygiene, branching and PR workflow, automation with GitHub Actions, security and supply-chain hardening, and finally Codespaces + Copilot for an environment-agnostic workflow. Master the loop and the rest of the SDLC gets dramatically cheaper.\n\nMost engineers don’t have a GitHub problem — they have a workflow problem. They can `git clone`, push a branch, and open a pull request, but they ship in spite of GitHub rather than because of it. The teams that move fast on LinkedIn and at conferences aren’t using secret commands; they’ve just wired GitHub into every part of the delivery pipeline so the friction of doing the right thing is near zero.\n\nThis guide is the path from \"I have a repo\" to \"I trust my repo.\" It assumes you can already use a terminal and have written at least one line of code. What it gives you is the production playbook — the habits, configuration, and integrations that experienced engineers rely on, drawn from how GitHub itself is used at companies like Shopify and GitHub’s own engineering blog.",
+      "tags": [
+        "github",
+        "git",
+        "devops",
+        "pull-requests",
+        "ci-cd",
+        "developer-productivity"
+      ],
+      "scheduled_at": "2026-09-07T14:58:53Z",
       "status": "pending"
     }
   ]
