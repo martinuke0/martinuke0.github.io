@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-06T16:58:53Z",
+  "last_scheduled_at": "2026-09-06T17:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20356,6 +20356,20 @@
         "performance"
       ],
       "scheduled_at": "2026-09-06T16:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Inside eBPF: How the Linux Kernel Runs Sandboxed Programs Inside Itself",
+      "url": "https://martinuke0.github.io/posts/2026-09-04-inside-ebpf-how-the-linux-kernel-runs-sandboxed-programs-inside-itself/",
+      "social_hook": "> TL;DR — eBPF lets you load and run sandboxed bytecode inside the Linux kernel at near-native speed, attached to hooks like network events, syscalls, and tracepoints. A static verifier guarantees the program terminates and stays safe before a JIT compiler turns it into machine code, which is why tools like Cilium, Pixie, and bpftrace have reshaped observability and networking in production.\n\nIf you've shipped a service on Linux in the last five years, you've almost certainly been touched by eBPF — even if you never wrote a program yourself. Cilium powers the networking and service mesh layer for hyperscalers like AWS and Shopify. Datadog and New Relic ship kernel probes for zero-instrumentation tracing. Cloudflare uses eBPF to do connection tracking and DDoS mitigation at line rate. The reason this is possible is a piece of kernel machinery that turns \"the kernel is a closed black box\" into \"the kernel is a programmable, observable, auditable system,\" without compromising its stability.\n\nThis post walks through how that machinery actually works — the verifier, the JIT, the hook points, the maps — and how it shows up in the systems you already run.",
+      "tags": [
+        "ebpf",
+        "linux-kernel",
+        "observability",
+        "networking",
+        "performance"
+      ],
+      "scheduled_at": "2026-09-06T17:58:53Z",
       "status": "pending"
     }
   ]
