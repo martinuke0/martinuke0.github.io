@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-06T18:58:53Z",
+  "last_scheduled_at": "2026-09-06T19:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20384,6 +20384,21 @@
         "aws-eks"
       ],
       "scheduled_at": "2026-09-06T18:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Designing eBPF-Based Telemetry Pipelines for Constrained Embedded Linux Devices",
+      "url": "https://martinuke0.github.io/posts/2026-09-04-designing-ebpf-based-telemetry-pipelines-for-constrained-embedded-linux-devices/",
+      "social_hook": "> TL;DR — eBPF lets you observe kernel and application behavior on embedded devices with near-zero overhead, but the same constraints that make it attractive (small RAM, slow flash, no FPU, locked kernels) demand a different design than a cloud VM. The winning pattern is a small, CO-RE-portable BPF core, a bounded ring buffer, and a userspace collector that batches, compresses, and ships only the deltas that matter.\n\nEmbedded Linux is having a strange moment. A modern IoT gateway — an NXP i.MX 8M, a Raspberry Pi Compute Module 4, a TI Sitara AM62x — boots a full Linux kernel, runs systemd, talks TLS over Wi-Fi, and yet ships with 64–256 MB of RAM and 256 MB–2 GB of NAND. Traditional observability agents (statsd, node_exporter, Telegraf, OpenTelemetry SDKs) were written for servers with gigabytes of memory, multiple vCPUs, and writable filesystems. Drop one of those onto a 64 MB device and you get OOM kills, journald thrashing, and brownouts.\n\neBPF changes the economics. Because programs run in-kernel in a verified sandbox, there is no context-switch cost to count events, no userspace buffering for sampling decisions, and no interpreter. You attach a single program to a tracepoint, kprobe, or hook, and it counts, timestamps, and aggregates as close to the event as the kernel allows. The same mechanism that powers Pixie and Parca on a beefy Kubernetes node can run on a router — provided you design for it.",
+      "tags": [
+        "ebpf",
+        "embedded-linux",
+        "telemetry",
+        "observability",
+        "linux-kernel",
+        "iot"
+      ],
+      "scheduled_at": "2026-09-06T19:58:53Z",
       "status": "pending"
     }
   ]
