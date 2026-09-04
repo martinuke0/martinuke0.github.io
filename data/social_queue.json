@@ -19714,7 +19714,8 @@
         "backend"
       ],
       "scheduled_at": "2026-09-04T07:58:53+00:00",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-04T08:01:55Z"
     },
     {
       "title": "Architecting Production-Ready Retrieval-Augmented Generation Systems",
