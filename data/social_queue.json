@@ -19794,8 +19794,9 @@
         "distributed-systems"
       ],
       "scheduled_at": "2026-09-04T17:58:53+00:00",
-      "status": "posting",
-      "claimed_at": "2026-09-04T18:01:23Z"
+      "status": "posted",
+      "claimed_at": "2026-09-04T18:01:23Z",
+      "post_urn": "urn:li:share:7501700970285006848"
     },
     {
       "title": "The LLM Inference Roadmap I Wish More Engineers Followed",
