@@ -19667,7 +19667,8 @@
         "side-project"
       ],
       "scheduled_at": "2026-09-04T01:58:53+00:00",
-      "status": "pending"
+      "status": "posted",
+      "post_urn": "urn:li:share:7501499043819274240"
     },
     {
       "title": "Architecting Distributed Vector Databases: Scaling Semantic Search from Prototype to Production",
@@ -19682,7 +19683,8 @@
         "system-design"
       ],
       "scheduled_at": "2026-09-04T03:58:53+00:00",
-      "status": "pending"
+      "status": "posted",
+      "post_urn": "urn:li:share:7501499045555892224"
     },
     {
       "title": "Architecting Resilient Payment Systems: Scalable Architecture Patterns and Security Best Practices",
