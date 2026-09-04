@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-06T22:58:53Z",
+  "last_scheduled_at": "2026-09-06T23:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20452,6 +20452,21 @@
         "security"
       ],
       "scheduled_at": "2026-09-06T22:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "SGLang in Production: How Structured Generation Makes LLM Serving Actually Fast",
+      "url": "https://martinuke0.github.io/posts/2026-09-04-sglang-in-production-how-structured-generation-makes-llm-serving-actually-fast/",
+      "social_hook": "> TL;DR — SGLang isn't just another inference engine; it's a serving stack co-designed around how real LLM programs actually look — structured prompts, tool calls, and multi-turn agents. Its RadixAttention KV cache reuses prefixes across requests, which routinely delivers 1.5–5× throughput wins on agent workloads where vLLM and TGI leave the cache cold.\n\nMost \"fast LLM serving\" posts treat inference as a numbers problem — bigger batches, more FLOPs, lower p99. That's the vLLM story, and it's a good one. But if you've watched a production trace from a tool-using agent or a RAG pipeline, you know the real bottleneck isn't arithmetic. It's structure. The same system prompt shipped on every request. The same retrieved document chunk. The same JSON schema enforced across thousands of calls. Standard inference engines see these as unrelated requests with no shared state; SGLang sees them as the same computation, repeated.\n\nThat's the through-line of this post. We'll dig into what SGLang actually is, why its frontend language and runtime belong together, how RadixAttention works under the hood, and what changes when you put it in front of real traffic next to (or instead of) vLLM.",
+      "tags": [
+        "sglang",
+        "llm-inference",
+        "structured-generation",
+        "radixattention",
+        "vllm",
+        "production-engineering"
+      ],
+      "scheduled_at": "2026-09-06T23:58:53Z",
       "status": "pending"
     }
   ]
