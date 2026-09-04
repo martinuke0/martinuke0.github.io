@@ -48,4 +48,12 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/social_queue.json
           git commit -m "chore: mark LinkedIn post(s) as posted"
-          git push
+          # Rebase-retry: a concurrent push (queue-on-push / stats workflow) makes a
+          # plain push non-fast-forward. If we DROP this commit, the entry stays
+          # 'pending' and the next run RE-POSTS it (duplicate on LinkedIn). Retry
+          # until the posted-status lands; fail loudly if it truly can't.
+          for i in 1 2 3 4 5; do
+            git pull --rebase --autostash && git push && exit 0
+            echo "push race, retry $i" && sleep 5
+          done
+          echo "ERROR: could not persist posted-status after retries" && exit 1
