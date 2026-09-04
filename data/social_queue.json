@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-07T07:58:53Z",
+  "last_scheduled_at": "2026-09-07T08:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20580,6 +20580,20 @@
         "gpu-optimization"
       ],
       "scheduled_at": "2026-09-07T07:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "How Cybercabs Work: The Engineering Behind Autonomous Ride-Hail",
+      "url": "https://martinuke0.github.io/posts/2026-09-04-how-cybercabs-work-the-engineering-behind-autonomous-ride-hail/",
+      "social_hook": "> TL;DR — A cybercab is a fully driverless, hailable robotaxi built on an electric vehicle platform. Its brain is a stack of perception, prediction, behavior planning, and control running on automotive-grade compute, while its fleet is managed by a ride-hail backend that handles dispatch, charging, and remote assistance. The hard parts are not the models — they are the edge cases, the safety case, and the ops.\n\nThe term cybercab is mostly a marketing label for a specific product shape: an autonomous vehicle (AV) purpose-built (or retrofitted) to operate as a driverless taxi, summoned through an app, priced per ride, and supervised — when needed — by humans in a remote operations center. The most prominent examples are Waymo's robotaxi service running on Jaguar I-PACE and Geely Zeekr platforms, Cruise's now-wound-down Origin program, and Tesla's Cybercab concept revealed in 2024.\n\nWhat separates a cybercab from, say, an ADAS-equipped passenger car is who is responsible when the car gets confused. In a normal car, you are. In a cybercab, the operator is — and that shifts enormous engineering weight onto redundancy, fallback handling, and the operations layer.",
+      "tags": [
+        "autonomous-vehicles",
+        "robotics",
+        "machine-learning",
+        "rideshare",
+        "engineering"
+      ],
+      "scheduled_at": "2026-09-07T08:58:53Z",
       "status": "pending"
     }
   ]
