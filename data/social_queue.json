@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-07T15:58:53Z",
+  "last_scheduled_at": "2026-09-07T16:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20695,6 +20695,21 @@
         "observability"
       ],
       "scheduled_at": "2026-09-07T15:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Inside eBPF and Cilium: How Kernel-Level Filtering Rewrites Container Networking",
+      "url": "https://martinuke0.github.io/posts/2026-09-04-inside-ebpf-and-cilium-how-kernel-level-filtering-rewrites-container-networking/",
+      "social_hook": "> TL;DR — eBPF lets you run sandboxed programs inside the Linux kernel without patching it, and Cilium uses that to replace iptables with a compiled, in-kernel datapath. The result is lower latency, fewer CPU cycles per packet, richer observability, and a security model that ties policy to identity rather than IP. This post walks through the kernel hooks, the datapath, and the trade-offs that matter when you run it in production.\n\nIf you've ever watched a Kubernetes node chug through `iptables -L -t nat` on a cluster with tens of thousands of services, you've already met the problem Cilium was built to solve. The classic kube-proxy model pushes every Service, every Endpoint, and every translation rule into a chain of netfilter tables that the kernel walks linearly on every packet. It works — until it doesn't.\n\nCilium's bet is simple and a little radical: stop bouncing packets through user space and stop walking gigantic netfilter chains. Do the filtering inside the kernel, with a JIT-compiled program attached to the kernel's own socket, XDP, and TC hooks. That's the eBPF promise, and Cilium is now the production-grade proof that it works at scale.",
+      "tags": [
+        "ebpf",
+        "cilium",
+        "kubernetes",
+        "networking",
+        "linux-kernel",
+        "cloud-native"
+      ],
+      "scheduled_at": "2026-09-07T16:58:53Z",
       "status": "pending"
     }
   ]
