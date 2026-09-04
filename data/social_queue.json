@@ -19778,8 +19778,9 @@
         "commerce"
       ],
       "scheduled_at": "2026-09-04T15:58:53+00:00",
-      "status": "posting",
-      "claimed_at": "2026-09-04T16:01:48Z"
+      "status": "posted",
+      "claimed_at": "2026-09-04T16:01:48Z",
+      "post_urn": "urn:li:share:7501670881035706368"
     },
     {
       "title": "Architecting Concurrent Go Systems: A Deep Dive into CSP Channels for Production-Ready Pipelines",
