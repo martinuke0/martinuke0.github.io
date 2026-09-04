@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-07T11:58:53Z",
+  "last_scheduled_at": "2026-09-07T12:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20638,6 +20638,20 @@
         "simulation"
       ],
       "scheduled_at": "2026-09-07T11:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "LLM-to-LLM Communication: Why Hero-to-Hero Beats Hero-to-API",
+      "url": "https://martinuke0.github.io/posts/2026-09-04-llm-to-llm-communication-why-hero-to-hero-beats-hero-to-api/",
+      "social_hook": "> TL;DR — The classic agent loop (\"hero LLM + N tool APIs\") is hitting a wall at scale: tool sprawl, fragile JSON schemas, and context-window bloat. The emerging alternative is hero-to-hero: agents that negotiate, delegate, and verify work through structured inter-agent protocols like Anthropic's Model Context Protocol and Google's Agent2Agent. When two models can speak a native protocol instead of pretending to be REST clients, everything from auth to long-horizon planning gets cheaper and more reliable.\n\nFor the last two years, the default mental model for an \"AI agent\" has been a single frontier model wrapped around a fat bundle of tool definitions. You take GPT-4o, Claude, or Gemini, paste in 40 function-calling schemas, and let the model decide which endpoint to hit. It works — until it doesn't.\n\n1. Schema drift. A vendor renames a field from `max_tokens` to `maxOutputTokens` and your carefully once-tuned agent now hallucinates parameter names.",
+      "tags": [
+        "llm",
+        "agentic-ai",
+        "mcp",
+        "multi-agent-systems",
+        "architecture"
+      ],
+      "scheduled_at": "2026-09-07T12:58:53Z",
       "status": "pending"
     }
   ]
