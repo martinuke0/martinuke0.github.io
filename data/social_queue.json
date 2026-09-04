@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-07T06:58:53Z",
+  "last_scheduled_at": "2026-09-07T07:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20566,6 +20566,20 @@
         "backend-engineering"
       ],
       "scheduled_at": "2026-09-07T06:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Serving LLMs in Production: A Practical Guide to Latency, Throughput, and Cost",
+      "url": "https://martinuke0.github.io/posts/2026-09-04-serving-llms-in-production-a-practical-guide-to-latency-throughput-and-cost/",
+      "social_hook": "> TL;DR — Serving LLMs in production is mostly a memory-bandwidth problem, not a compute one. The wins come from continuous batching, KV cache paging, weight quantization, and disciplined observability — not from buying more GPUs.\n\nIf you've ever watched a single A100 sit at 40% utilization while requests pile up in a queue, you've already learned the central lesson of LLM inference: GPUs are memory-bandwidth bound, not compute bound. The arithmetic intensity of decoding is tiny — one token per forward pass per request — so the bottleneck is moving weights and KV cache into the tensor cores, not multiplying them. Everything in this post flows from that observation.\n\nThis guide walks through the patterns that actually move latency, throughput, and cost in production. It assumes you already know how to call an LLM and want to stop treating inference as a black box.",
+      "tags": [
+        "llm-inference",
+        "production-engineering",
+        "vllm",
+        "quantization",
+        "gpu-optimization"
+      ],
+      "scheduled_at": "2026-09-07T07:58:53Z",
       "status": "pending"
     }
   ]
