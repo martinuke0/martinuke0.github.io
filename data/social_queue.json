@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-07T10:58:53Z",
+  "last_scheduled_at": "2026-09-07T11:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20623,6 +20623,21 @@
         "Shor's algorithm"
       ],
       "scheduled_at": "2026-09-07T10:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Physics Zero to Hero: A Self-Teaching Roadmap for Working Engineers",
+      "url": "https://martinuke0.github.io/posts/2026-09-04-physics-zero-to-hero-a-self-teaching-roadmap-for-working-engineers/",
+      "social_hook": "> TL;DR — You don't need a PhD to become physics-fluent; you need a sequence. This roadmap starts with motion and forces, threads through electromagnetism and thermodynamics, and ends at quantum mechanics and relativity — every step anchored to tools and systems you already use as an engineer.\n\nMost working engineers don't wake up wanting to derive Maxwell's equations. They want to know why their drone drifts in crosswinds, why their EM simulation disagrees with the bench, or why their game engine's rigid body solver explodes at high angular velocity. The unifying answer is physics — not as an academic discipline, but as the operating system the universe actually runs on.\n\nTreating physics as a stack of layers — kinematics, dynamics, fields, thermodynamics, quantum — turns a sprawling subject into a sequence of tractable problems. The same instinct that makes you learn a new framework by reading its data model first applies here. Newtonian mechanics is the data model; everything else is an extension.",
+      "tags": [
+        "physics",
+        "learning",
+        "engineering",
+        "mathematics",
+        "robotics",
+        "simulation"
+      ],
+      "scheduled_at": "2026-09-07T11:58:53Z",
       "status": "pending"
     }
   ]
