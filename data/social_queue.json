@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-07T04:58:53Z",
+  "last_scheduled_at": "2026-09-07T05:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20538,6 +20538,20 @@
         "performance"
       ],
       "scheduled_at": "2026-09-07T04:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "GPU Memory in 2026: HBM, KV-Cache, and the Real Bottlenecks Behind LLM Inference",
+      "url": "https://martinuke0.github.io/posts/2026-09-04-gpu-memory-in-2026-hbm-kv-cache-and-the-real-bottlenecks-behind-llm-inference/",
+      "social_hook": "> TL;DR — In 2026, GPU memory is no longer about \"do I have enough VRAM?\" — it's about HBM4 bandwidth, KV-cache residency, and fragmentation. The teams shipping reliable LLM inference are the ones who treat GPU memory as a tiered, pageable, schedulable resource rather than a flat pool.\n\nWhen the NVIDIA H100 launched in late 2022, the conversation was simple: 80 GB of HBM3, 3.35 TB/s. We celebrated capacity. Four years later, with Blackwell, MI400, and HBM4 in production, the conversation has shifted. Capacity is cheap relative to attention. The scarce resource is coherent, low-latency HBM bandwidth feeding a KV-cache that grows every token. This post is the mental model I wish I had when I started optimizing inference clusters in 2024.\n\nBefore we talk bottlenecks, let's nail the layers. GPU memory is a stack, and confusing the layers is the #1 reason \"GPU OOM\" tickets stay open.",
+      "tags": [
+        "gpu-memory",
+        "llm-inference",
+        "hbm",
+        "kv-cache",
+        "cuda"
+      ],
+      "scheduled_at": "2026-09-07T05:58:53Z",
       "status": "pending"
     }
   ]
