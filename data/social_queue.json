@@ -19828,7 +19828,8 @@
         "ai-workflow"
       ],
       "scheduled_at": "2026-09-04T21:58:53+00:00",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-04T22:01:31Z"
     },
     {
       "title": "Your First 7 Days With Codex: A Working Engineer's Survival Guide",
