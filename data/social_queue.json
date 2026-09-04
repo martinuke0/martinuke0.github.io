@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-06T21:58:53Z",
+  "last_scheduled_at": "2026-09-06T22:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20432,6 +20432,21 @@
         "devops"
       ],
       "scheduled_at": "2026-09-06T21:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Inside Apache Flink's Checkpointing Algorithm: How Exactly-Once State Guarantees Survive Pipeline Failures",
+      "url": "https://martinuke0.github.io/posts/2026-09-04-inside-apache-flink/",
+      "social_hook": "> TL;DR — Flink's exactly-once guarantees are not a single mechanism but a protocol: operators inject checkpoint barriers into the data stream, the job manager persists a globally consistent snapshot of all operator state to durable storage, and on failure the streams are rewound and the state is rehydrated from that snapshot. Understanding barriers, alignment, and the recovery loop is the difference between a job that loses data and one that doesn't.\n\nA streaming job looks deceptively simple — data in, transformations, data out. The hard part is state: a windowed aggregation, a join buffer, a RocksDB-backed value table. Every operator that touches a record may also touch state, and that state has to be consistent with the records it has processed. The moment a TaskManager dies, you have two competing concerns:\n\n1. Don't lose state. A window over the last 60 seconds can't be recomputed if you don't remember what arrived in the last 60 seconds.",
+      "tags": [
+        "apache-flink",
+        "streaming",
+        "exactly-once",
+        "checkpointing",
+        "distributed-systems",
+        "stateful-processing"
+      ],
+      "scheduled_at": "2026-09-06T22:58:53Z",
       "status": "pending"
     }
   ]
