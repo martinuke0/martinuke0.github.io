@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-07T14:58:53Z",
+  "last_scheduled_at": "2026-09-07T15:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20681,6 +20681,20 @@
         "developer-productivity"
       ],
       "scheduled_at": "2026-09-07T14:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Distributed Tracing Across Kafka and gRPC With OpenTelemetry Context Propagation",
+      "url": "https://martinuke0.github.io/posts/2026-09-04-distributed-tracing-across-kafka-and-grpc-with-opentelemetry-context-propagation/",
+      "social_hook": "> TL;DR — OpenTelemetry's W3C Trace Context propagates cleanly over gRPC out of the box, but Kafka is just bytes on a wire, so you must manually inject and extract the `traceparent` header on `ProducerRecord` and `ConsumerRecord`. Get this right once in a shared interceptor/filter, and you get continuous traces from HTTP ingress through Kafka to a downstream worker — even when consumers process in batches or reprocess after a rebalance.\n\nIf you have ever stared at a tracing UI and seen a beautiful waterfall that suddenly forks into a dozen disconnected root spans the moment work lands on a message queue, you have hit this exact problem. gRPC and HTTP/2-based protocols carry `traceparent` headers natively because they were designed by the same generation of engineers who lost sleep over correlation. Kafka is a different beast: a `ProducerRecord` is a bag of bytes, and nothing about the wire protocol cares whether your payload is JSON, Avro, or a postcard from your grandmother.\n\nThe result is that the W3C Trace Context — the `traceparent` and `tracestate` headers that link spans together — has to be carried by your application code, either as message headers on the record or, more commonly, embedded inside the payload envelope. Forget this once, and you have orphan spans. Forget it in two services, and your trace graph looks like a bowl of spaghetti.",
+      "tags": [
+        "opentelemetry",
+        "distributed-tracing",
+        "kafka",
+        "grpc",
+        "observability"
+      ],
+      "scheduled_at": "2026-09-07T15:58:53Z",
       "status": "pending"
     }
   ]
