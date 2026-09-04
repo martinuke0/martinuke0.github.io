@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-07T17:58:53Z",
+  "last_scheduled_at": "2026-09-07T16:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -19828,8 +19828,9 @@
         "ai-workflow"
       ],
       "scheduled_at": "2026-09-04T21:58:53+00:00",
-      "status": "posting",
-      "claimed_at": "2026-09-04T22:01:31Z"
+      "status": "posted",
+      "claimed_at": "2026-09-04T22:01:31Z",
+      "post_urn": "urn:li:share:7501761403037523969"
     },
     {
       "title": "Your First 7 Days With Codex: A Working Engineer's Survival Guide",
@@ -20719,21 +20720,6 @@
         "noise-protocol"
       ],
       "scheduled_at": "2026-09-07T16:58:53Z",
-      "status": "pending"
-    },
-    {
-      "title": "Building Flash Attention from Scratch in NumPy: A CV-Worthy Side Project",
-      "url": "https://martinuke0.github.io/posts/2026-09-04-building-flash-attention-from-scratch-in-numpy-a-cv-worthy-side-project/",
-      "social_hook": "> TL;DR — Flash Attention is best understood by implementing it: you tile the Q·Kᵀ matmul into SRAM-sized blocks, fuse the softmax in a single pass using the online (Milakov & Gimelshein) recurrence, and stream the result back into the output buffer. A pure NumPy port is small enough to ship in an afternoon, runs on a laptop, and demonstrates memory-aware kernel design, numerical stability under streaming, and the kind of low-level care that hiring managers look for in systems and ML infra roles.\n\nMost \"I implemented attention\" repos on GitHub are ten lines of PyTorch that call `F.scaled_dot_product_attention`. Hiring managers know this. The differentiator is showing you understand why that function is fast.\n\nA from-scratch Flash Attention kernel in NumPy demonstrates, in code that any reviewer can read without a GPU:",
-      "tags": [
-        "flash-attention",
-        "numpy",
-        "kernels",
-        "ml-systems",
-        "side-project",
-        "transformers"
-      ],
-      "scheduled_at": "2026-09-07T17:58:53Z",
       "status": "pending"
     }
   ]
