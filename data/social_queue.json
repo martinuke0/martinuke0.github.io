@@ -19730,7 +19730,8 @@
         "architecture"
       ],
       "scheduled_at": "2026-09-04T09:58:53+00:00",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-04T10:01:59Z"
     },
     {
       "title": "Designing Kafka Streams Topologies: A Deep Dive into Real-Time Stream Processing for Production",
