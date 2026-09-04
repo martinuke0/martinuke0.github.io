@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-07T16:58:53Z",
+  "last_scheduled_at": "2026-09-07T15:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -19811,8 +19811,9 @@
         "performance"
       ],
       "scheduled_at": "2026-09-04T19:58:53+00:00",
-      "status": "posting",
-      "claimed_at": "2026-09-04T20:01:38Z"
+      "status": "posted",
+      "claimed_at": "2026-09-04T20:01:38Z",
+      "post_urn": "urn:li:share:7501731252853633025"
     },
     {
       "title": "Your First 7 Days with Claude: A Practical Onboarding Guide for Engineers",
@@ -20702,20 +20703,6 @@
         "observability"
       ],
       "scheduled_at": "2026-09-07T15:58:53Z",
-      "status": "pending"
-    },
-    {
-      "title": "Building a Mini-GPT From Scratch: A Portfolio Project That Signals Real ML Systems Skill",
-      "url": "https://martinuke0.github.io/posts/2026-09-04-building-a-mini-gpt-from-scratch-a-portfolio-project-that-signals-real-ml-systems-skill/",
-      "social_hook": "> TL;DR — This is a runnable, from-scratch PyTorch training loop for a mini GPT that wires together the five techniques hiring managers actually look for: automatic mixed precision (AMP), gradient accumulation, cosine LR warmup, weight tying, and AdamW. By the end you will have a single, well-tested module you can drop into a CV, walk a recruiter through on a whiteboard, and extend toward distributed training, persistent checkpoints, and benchmarking.\n\nMost \"I built a transformer\" portfolio pieces are actually a fork of nanoGPT or a copy-paste of the Hugging Face `Trainer` callback chain. Both are fine starting points, but neither signals the thing senior interviewers probe for: can this person reason about the training loop itself — about numerical stability, memory pressure, throughput, and the dozen small decisions that decide whether a 7B-parameter model converges on Tuesday or silently NaNs?\n\nThis project targets that gap deliberately. By implementing the loop yourself — and committing the resulting code to a public GitHub repo with a clean README and a `make train` target — you demonstrate:",
-      "tags": [
-        "pytorch",
-        "mixed-precision",
-        "transformers",
-        "machine-learning",
-        "ml-systems"
-      ],
-      "scheduled_at": "2026-09-07T16:58:53Z",
       "status": "pending"
     }
   ]
