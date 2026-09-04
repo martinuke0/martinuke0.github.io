@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-07T05:58:53Z",
+  "last_scheduled_at": "2026-09-07T06:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20552,6 +20552,20 @@
         "cuda"
       ],
       "scheduled_at": "2026-09-07T05:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Throughput vs Latency: Why Optimizing One Will Almost Always Break the Other",
+      "url": "https://martinuke0.github.io/posts/2026-09-04-throughput-vs-latency-why-optimizing-one-will-almost-always-break-the-other/",
+      "social_hook": "> TL;DR — Latency is how long one operation takes; throughput is how many operations complete per second. They are coupled by Little's Law, which means you cannot push one arbitrarily high without consequences for the other. Every \"we made it faster\" story in production is really a story about which side of that trade-off you chose to spend your budget on.\n\nIf you have ever watched a dashboard where p99 latency is climbing while requests-per-second stays flat, you have already met the central tension in this post. Throughput and latency look like two flavors of \"performance,\" but they answer different questions and respond to different knobs. Treat them as one metric and you will spend weeks chasing a number that does not exist.\n\nThis post walks through what each metric actually means, how they relate through queueing theory, where the trade-offs show up in real systems, and the patterns engineers use to get the best of both when they cannot get all of both.",
+      "tags": [
+        "performance",
+        "systems-design",
+        "distributed-systems",
+        "observability",
+        "backend-engineering"
+      ],
+      "scheduled_at": "2026-09-07T06:58:53Z",
       "status": "pending"
     }
   ]
