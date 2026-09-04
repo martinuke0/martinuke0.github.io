@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-07T09:58:53Z",
+  "last_scheduled_at": "2026-09-07T10:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20609,6 +20609,20 @@
         "production-systems"
       ],
       "scheduled_at": "2026-09-07T09:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Quantum Computing Zero to Hero: From Qubits to Production Algorithms",
+      "url": "https://martinuke0.github.io/posts/2026-09-04-quantum-computing-zero-to-hero-from-qubits-to-production-algorithms/",
+      "social_hook": "> TL;DR — Quantum computers exploit superposition and entanglement to evaluate many computational paths at once, but they only win on problems with specific structure. This guide walks from a single qubit to Shor's and Grover's algorithms, then grounds it in today's hardware — IBM Heron, Google Willow, and the surface code — so you know what's real in 2026 and what's still hype.\n\nQuantum computing is no longer a thought experiment. IBM's 156-qubit Heron r2 processor and Google's 105-qubit Willow chip are accessible through the cloud, with logical-qubit demonstrations crossing the error-correction threshold in late 2024. Yet most working engineers have never written a circuit.\n\n- Cryptography roadmaps — RSA-2048 is still safe, but NIST's post-quantum standards (FIPS 203/204/205) are already published. You need to know what \"harvest now, decrypt later\" means for your data retention policy.",
+      "tags": [
+        "quantum computing",
+        "qubits",
+        "quantum algorithms",
+        "error correction",
+        "Shor's algorithm"
+      ],
+      "scheduled_at": "2026-09-07T10:58:53Z",
       "status": "pending"
     }
   ]
