@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-07T08:58:53Z",
+  "last_scheduled_at": "2026-09-07T09:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20594,6 +20594,21 @@
         "engineering"
       ],
       "scheduled_at": "2026-09-07T08:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Probabilities Zero to Hero: From Coin Flips to Bayesian Inference in Production",
+      "url": "https://martinuke0.github.io/posts/2026-09-04-probabilities-zero-to-hero-from-coin-flips-to-bayesian-inference-in-production/",
+      "social_hook": "> TL;DR — Probability is the algebra of uncertainty, and every modern intelligent system — fraud detectors, search rankers, recommendation engines, A/B testing platforms — is a probability engine under the hood. This post walks from sample spaces and Bayes' theorem to the production patterns you can actually ship, with concrete examples from Stripe Radar, Netflix's ranking stack, and Bayesian experimentation at Booking.com.\n\nEvery time you press \"send\" on a payment, a probability model decides within milliseconds whether you're a fraudster. Every time Netflix queues a thumbnail, a Bayesian ranking model estimates the probability you'll click it. Every time Booking.com runs an experiment, a probability calculation tells them whether a 1.3% lift is real signal or noise.\n\nThe narrative that \"deep learning killed statistics\" was always marketing. In practice, the systems that ship to production are probability engines with neural networks inside them, not the other way around. A logistic regression is just a model where the output is interpreted as a probability. A classifier head on a transformer is a softmax over a categorical distribution. Even the cross-entropy loss that trains your model is the negative log-likelihood under a Bernoulli or multinomial.",
+      "tags": [
+        "probability",
+        "bayesian-inference",
+        "machine-learning",
+        "data-engineering",
+        "statistics",
+        "production-systems"
+      ],
+      "scheduled_at": "2026-09-07T09:58:53Z",
       "status": "pending"
     }
   ]
