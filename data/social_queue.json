@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-07T15:58:53Z",
+  "last_scheduled_at": "2026-09-07T16:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20703,6 +20703,21 @@
         "observability"
       ],
       "scheduled_at": "2026-09-07T15:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Inside the Noise Protocol Framework: Building Forward-Secure Handshakes from Scratch",
+      "url": "https://martinuke0.github.io/posts/2026-09-04-inside-the-noise-protocol-framework-building-forward-secure-handshakes-from-scratch/",
+      "social_hook": "> TL;DR — The Noise Protocol Framework is a minimal, auditable toolkit for building cryptographic handshakes that don't drag along the ceremony of TLS. By composing a small set of tokens (`e`, `s`, `ee`, `es`, `se`, `ss`) into named patterns like XX, IK, and NN, you get forward secrecy, mutual authentication, and identity hiding without a single certificate authority in sight. We'll walk the protocol, then implement an end-to-end XX handshake in Python.\n\nEvery time you reach for TLS, you're inheriting a 30-year-old design that has been patched, extended, renegotiated, and bolted onto until the handshake alone spans multiple round trips, half a dozen RFCs, and an X.509 certificate chain you almost certainly didn't audit. It works, but it isn't small. For greenfield protocols — WireGuard, Lightning, WhatsApp's Signal-PQ hybrid, the IETF's TLS 1.3 PSK exporters — engineers increasingly reach for the Noise Protocol Framework instead.\n\nNoise was published by Trevor Perrin in 2016 as a deliberate counter-movement. It treats a handshake like a recipe: a small, declarative pattern of Diffie-Hellman operations and symmetric key derivations, compiled into a sequence of message tokens. There are no certificate authorities in the spec, no cipher suite negotiation byzantineness — just two parties, a handful of DH keys, and a transcript they both agree on.",
+      "tags": [
+        "cryptography",
+        "networking",
+        "security",
+        "protocols",
+        "tls",
+        "noise-protocol"
+      ],
+      "scheduled_at": "2026-09-07T16:58:53Z",
       "status": "pending"
     }
   ]
