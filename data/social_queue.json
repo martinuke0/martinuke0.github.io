@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-06T21:58:53Z",
+  "last_scheduled_at": "2026-09-06T22:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20434,6 +20434,20 @@
         "devops"
       ],
       "scheduled_at": "2026-09-06T21:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing WebAuthn Passkeys: Inside the FIDO2 Registration Ceremony",
+      "url": "https://martinuke0.github.io/posts/2026-09-04-implementing-webauthn-passkeys-inside-the-fido2-registration-ceremony/",
+      "social_hook": "> TL;DR — The WebAuthn registration ceremony is a four-party handshake between the user, browser, authenticator, and relying party that produces a public key bound to an account. Implement it by generating a server-side challenge, serializing it with `PublicKeyCredentialCreationOptions`, letting the authenticator mint a key, and verifying the returned attestation against your stored credential.\n\nPasswords are a liability. They get phished, sprayed, reused, and leaked. WebAuthn — the browser API behind passkeys — replaces that liability with public-key cryptography. A passkey is just a credential whose private key never leaves the user's device, can't be phished because it's bound to the origin, and can be synced across the user's own devices via iCloud Keychain, Google Password Manager, or 1Password.\n\nIf you're a backend engineer tasked with wiring this up, the registration half of the ceremony is the most important thing to get right, because once a credential is registered badly, every subsequent login inherits the rot. This post walks through the entire registration flow end-to-end, with the protocol framing, the JSON shapes, the cryptographic checks, and the failure modes you actually need to defend against.",
+      "tags": [
+        "webauthn",
+        "passkeys",
+        "fido2",
+        "authentication",
+        "security"
+      ],
+      "scheduled_at": "2026-09-06T22:58:53Z",
       "status": "pending"
     }
   ]
