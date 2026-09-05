@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-08T05:58:53Z",
+  "last_scheduled_at": "2026-09-08T06:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20935,6 +20935,21 @@
         "benchmarking"
       ],
       "scheduled_at": "2026-09-08T05:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "GenRec: An LLM-Backed Recommendation Ranker",
+      "url": "https://martinuke0.github.io/posts/2026-09-05-genrec-an-llm-backed-recommendation-ranker/",
+      "social_hook": "> TL;DR — GenRec frames recommendation as a conditional language modeling problem: a fine-tuned LLM reads the user's recent interactions as a token sequence and generates the next item, with the logit over the catalog acting as the ranking signal. It collapses a stack of two-tower retrievers, cross-features, and GBM rankers into one model, at the cost of stricter latency and serving discipline.\n\nClassical recommenders are a pipeline. A candidate generator (matrix factorization, two-tower neural net, or a graph model) returns a few hundred items. A lightweight ranker — usually a gradient-boosted tree on top of cross-features — reorders them. A re-ranker with business rules sits on top. Each stage has its own features, its own training data, and its own serving infra. The complexity compounds with every product surface.\n\nGrbovic and Cheng's 2018 \"Real-time Personalization at Airbnb\" work, which popularized long-term session embeddings, is still the standard mental model. GenRec's pitch is sharper: one LLM, end-to-end, with the catalog embedded in the vocabulary.",
+      "tags": [
+        "recommender-systems",
+        "llm",
+        "ranking",
+        "machine-learning",
+        "search",
+        "architecture"
+      ],
+      "scheduled_at": "2026-09-08T06:58:53Z",
       "status": "pending"
     }
   ]
