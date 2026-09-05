@@ -20009,7 +20009,8 @@
         "Production AI"
       ],
       "scheduled_at": "2026-09-05T13:58:53Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-05T14:01:49Z"
     },
     {
       "title": "What If Your Coding Agent's Context Was Infinite?",
