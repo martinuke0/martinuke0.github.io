@@ -20059,7 +20059,8 @@
         "autonomous-systems"
       ],
       "scheduled_at": "2026-09-05T16:58:53Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-05T17:16:39Z"
     },
     {
       "title": "Forward Deployed Engineer (FDE): The New AI Engineer at the Frontline",
