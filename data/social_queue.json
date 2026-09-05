@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-08T01:58:53Z",
+  "last_scheduled_at": "2026-09-08T02:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20879,6 +20879,20 @@
         "prompt-engineering"
       ],
       "scheduled_at": "2026-09-08T01:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Prompt Audit and Security: Engineering Defenses for LLM-Powered Systems",
+      "url": "https://martinuke0.github.io/posts/2026-09-05-prompt-audit-and-security-engineering-defenses-for-llm-powered-systems/",
+      "social_hook": "> TL;DR — LLM security is not a single filter — it's a pipeline. Treat prompts as untrusted input, log every request and response with provenance metadata, run continuous red-team evals against an allow-list of failure modes (injection, exfiltration, jailbreak, PII leak), and gate releases on those scores. The teams shipping safely in production are the ones that audit prompts the same way they audit code.\n\nMost production LLM features fail open. A user types something clever, the model interprets it as an instruction instead of data, and suddenly your support chatbot is issuing refunds, your SQL copilot is summarizing other customers' tables, or your summarizer is exfiltrating your system prompt to a third-party URL. None of this is hypothetical — the OWASP Top 10 for LLM Applications has been documenting exactly these failure modes since 2023, and they have not gotten less common.\n\nThe fix is not \"better prompting.\" The fix is treating the prompt as an attack surface, the response as exfiltratable output, and the whole pipeline as something you can audit, replay, and grade. This post walks through how to build that pipeline.",
+      "tags": [
+        "llm-security",
+        "prompt-engineering",
+        "ai-governance",
+        "red-teaming",
+        "owasp"
+      ],
+      "scheduled_at": "2026-09-08T02:58:53Z",
       "status": "pending"
     }
   ]
