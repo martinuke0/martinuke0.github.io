@@ -19992,8 +19992,9 @@
         "production-ml"
       ],
       "scheduled_at": "2026-09-05T12:58:53Z",
-      "status": "posting",
-      "claimed_at": "2026-09-05T14:01:49Z"
+      "status": "posted",
+      "claimed_at": "2026-09-05T14:01:49Z",
+      "post_urn": "urn:li:share:7502003069501665280"
     },
     {
       "title": "Learning AI Engineering from Scratch in 2026: A Production-First Roadmap",
