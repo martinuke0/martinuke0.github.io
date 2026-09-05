@@ -19893,7 +19893,8 @@
         "knowledge-management"
       ],
       "scheduled_at": "2026-09-05T05:58:53+00:00",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-05T06:01:48Z"
     },
     {
       "title": "Poisoning Attacks on LLMs: How Adversaries Corrupt Models and What Defenders Can Do",
