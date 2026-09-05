@@ -20140,7 +20140,8 @@
         "research-papers"
       ],
       "scheduled_at": "2026-09-05T21:58:53Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-05T22:02:22Z"
     },
     {
       "title": "Transformer Architectures: 2017 → 2025+",
