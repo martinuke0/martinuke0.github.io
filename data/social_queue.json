@@ -19909,7 +19909,8 @@
         "ai-safety"
       ],
       "scheduled_at": "2026-09-05T07:58:53+00:00",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-05T08:02:49Z"
     },
     {
       "title": "Building a Durable Job Queue in Postgres: A Portfolio Project That Signals Real Systems Skill",
