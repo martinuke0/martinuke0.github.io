@@ -19861,8 +19861,9 @@
         "prompting"
       ],
       "scheduled_at": "2026-09-05T01:58:53+00:00",
-      "status": "posting",
-      "claimed_at": "2026-09-05T03:02:44Z"
+      "status": "posted",
+      "claimed_at": "2026-09-05T03:02:44Z",
+      "post_urn": "urn:li:share:7501837204885995520"
     },
     {
       "title": "Your First 7 Days with Grok Bot: A Production-Ready Field Guide",
