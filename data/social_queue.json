@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-07T21:58:53Z",
+  "last_scheduled_at": "2026-09-07T22:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20823,6 +20823,20 @@
         "production-ai"
       ],
       "scheduled_at": "2026-09-07T21:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Fine-Tuning a Small LLM: A Hands-On Experiment",
+      "url": "https://martinuke0.github.io/posts/2026-09-05-fine-tuning-a-small-llm-a-hands-on-experiment/",
+      "social_hook": "> TL;DR — I fine-tuned Llama-3.2-1B with LoRA on 2,000 domain-specific Q&A pairs on a single A100. End-to-end it took about 90 minutes and cost under three dollars in cloud spend. The fine-tuned model beat the base model on my eval set by 18 points of exact-match accuracy and started producing answers in the house format I wanted — proof that for narrow, well-scoped tasks, small fine-tunes still deliver outsized gains.\n\nThe default reflex in 2026 is to point a prompt at GPT-4-class, Claude-class, or Gemini-class frontier model, add a few retrieval-augmented examples, and call it a day. That works for a lot of things. It does not work well when you need any of the following:\n\nFor those cases, a small open-weight model — a 1B to 7B parameter class LLM — fine-tuned on your own data, served on your own hardware, is genuinely competitive. The catch is that \"fine-tuned\" does not mean \"throw the whole thing into `AdamW` and pray.\" It almost always means parameter-efficient fine-tuning (PEFT) with LoRA or QLoRA, on a curated, task-shaped dataset.",
+      "tags": [
+        "llm",
+        "fine-tuning",
+        "transformers",
+        "peft",
+        "machine-learning"
+      ],
+      "scheduled_at": "2026-09-07T22:58:53Z",
       "status": "pending"
     }
   ]
