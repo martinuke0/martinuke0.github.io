@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-08T03:58:53Z",
+  "last_scheduled_at": "2026-09-08T04:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20907,6 +20907,20 @@
         "ai-systems"
       ],
       "scheduled_at": "2026-09-08T03:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Claude Loop Engineering: Designing Agentic Workflows That Actually Converge",
+      "url": "https://martinuke0.github.io/posts/2026-09-05-claude-loop-engineering-designing-agentic-workflows-that-actually-converge/",
+      "social_hook": "> TL;DR — Claude loop engineering is the discipline of wrapping Claude in a deterministic outer loop — tool calls, scratchpad memory, validators, and stop conditions — so that an otherwise stochastic model becomes a reliable agent. Production-grade loops converge, are bounded by step and cost budgets, validate every tool result, and expose state for debugging.\n\nA raw Claude invocation is a function: it takes a prompt and returns text. An agent is something else entirely — a system that can decide what to do next, call tools, observe results, and iterate until a goal is reached. The model is the brain; the loop is the nervous system.\n\nIn production, teams quickly discover that prompt-only designs collapse under real workloads. A research agent that can search the web, read PDFs, and write a report needs hundreds of small decisions. A coding agent that edits files and runs tests needs to recover from syntax errors, missing imports, and flaky test suites. Without a thoughtfully engineered outer loop, these systems:",
+      "tags": [
+        "claude",
+        "agentic-ai",
+        "llm",
+        "prompt-engineering",
+        "workflow-design"
+      ],
+      "scheduled_at": "2026-09-08T04:58:53Z",
       "status": "pending"
     }
   ]
