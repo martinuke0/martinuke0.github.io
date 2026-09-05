@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-07T20:58:53Z",
+  "last_scheduled_at": "2026-09-07T19:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20025,8 +20025,9 @@
         "Developer Productivity"
       ],
       "scheduled_at": "2026-09-05T14:58:53Z",
-      "status": "posting",
-      "claimed_at": "2026-09-05T15:02:11Z"
+      "status": "posted",
+      "claimed_at": "2026-09-05T15:02:11Z",
+      "post_urn": "urn:li:share:7502018264433344512"
     },
     {
       "title": "RAG vs CAG: What the Difference Actually Means in Production",
@@ -20787,21 +20788,6 @@
         "portfolio-project"
       ],
       "scheduled_at": "2026-09-07T19:58:53Z",
-      "status": "pending"
-    },
-    {
-      "title": "Building a FlashAttention-2 Forward Kernel in Pure NumPy",
-      "url": "https://martinuke0.github.io/posts/2026-09-05-building-a-flashattention-2-forward-kernel-in-pure-numpy/",
-      "social_hook": "> TL;DR — FlashAttention-2 is an IO-aware attention algorithm that fuses the softmax and matrix multiply into tiled CUDA kernels. We rebuild the forward pass from scratch in pure NumPy: blocking the QKV matrices into tiles, running a streaming softmax per block, and rescaling outputs online. The result is a runnable, testable side project that demonstrates memory-hierarchy thinking, numerical stability, and GPU-style programming patterns — exactly what hiring managers look for on a CV.\n\nMost \"implement attention from scratch\" tutorials stop at a naive softmax(QKᵀ)V in ~30 lines of NumPy or PyTorch. That's a college assignment. FlashAttention-2 is a different beast: it never materializes the full N×N attention matrix, streams softmax statistics tile-by-tile, and rescales partial outputs on the fly. Building it on a CPU in NumPy forces you to understand why those tricks matter for memory bandwidth — which is precisely the insight a hiring manager wants to see in a systems interview.\n\nThis post walks through a complete, runnable forward kernel: tiled QKV, online softmax with running max and sum, log-sum-exp accumulation, and an output rescaling trick that keeps numerical error bounded. By the end you'll have a project you can benchmark, unit-test, and put on GitHub with a real README.",
-      "tags": [
-        "flashattention",
-        "numpy",
-        "deep-learning",
-        "systems-engineering",
-        "portfolio-project",
-        "transformers"
-      ],
-      "scheduled_at": "2026-09-07T20:58:53Z",
       "status": "pending"
     }
   ]
