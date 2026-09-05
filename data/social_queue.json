@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-09T03:58:53Z",
+  "last_scheduled_at": "2026-09-09T02:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20124,8 +20124,9 @@
         "system-design"
       ],
       "scheduled_at": "2026-09-05T20:58:53Z",
-      "status": "posting",
-      "claimed_at": "2026-09-05T21:01:17Z"
+      "status": "posted",
+      "claimed_at": "2026-09-05T21:01:17Z",
+      "post_urn": "urn:li:share:7502108631988006912"
     },
     {
       "title": "\\\"Attention Is All You Need\\\" — The Paper That Rewrote NLP and Reshaped Modern AI",
@@ -21242,20 +21243,6 @@
         "inference"
       ],
       "scheduled_at": "2026-09-09T02:58:53Z",
-      "status": "pending"
-    },
-    {
-      "title": "Inside NATS JetStream: Building Exactly-Once Delivery with Replicated Logs and Consumer Acks",
-      "url": "https://martinuke0.github.io/posts/2026-09-05-inside-nats-jetstream-building-exactly-once-delivery-with-replicated-logs-and-consumer-acks/",
-      "social_hook": "> TL;DR — JetStream delivers exactly-once by combining Raft-replicated streams (so messages survive node failures), per-consumer ack tracking with heartbeats and redelivery (so in-flight messages are never lost), and a server-side dedup window (so retries from clients never create duplicates downstream). The result is a system where idempotency is enforced at the storage layer rather than being left to application code.\n\nDistributed message systems have a long history of promising exactly-once delivery. The honest answer, as articulated in the Kafka documentation on delivery semantics, is that \"exactly-once is the holy grail.\" Any network can drop a packet, any process can crash mid-message, and any client can retry an ack that already arrived at the server. Each of these failures creates the conditions for either lost messages or duplicates.\n\nJetStream, the persistence layer built into NATS, attacks the problem in two layers. The first is the stream, a Raft-replicated log that survives node loss without losing or reordering messages. The second is the consumer, which tracks which messages have been acknowledged and which need redelivery. Together they enforce idempotency at the server boundary, so applications that use JetStream's dedup features can treat the queue as exactly-once even if their own code is not perfectly idempotent.",
-      "tags": [
-        "nats",
-        "jetstream",
-        "exactly-once",
-        "message-queue",
-        "distributed-systems"
-      ],
-      "scheduled_at": "2026-09-09T03:58:53Z",
       "status": "pending"
     }
   ]
