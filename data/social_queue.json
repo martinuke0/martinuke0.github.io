@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-07T19:58:53Z",
+  "last_scheduled_at": "2026-09-07T20:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20778,6 +20778,21 @@
         "portfolio-project"
       ],
       "scheduled_at": "2026-09-07T19:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Build a Mixture-of-Experts Router From Scratch in PyTorch",
+      "url": "https://martinuke0.github.io/posts/2026-09-05-build-a-mixture-of-experts-router-from-scratch-in-pytorch/",
+      "social_hook": "> TL;DR — A mixture-of-experts (MoE) layer routes each token to a small subset of \"expert\" sub-networks, and a learnable gating network makes that routing decision. In this guide we build one from scratch in pure PyTorch: a top-k router, an auxiliary load-balancing loss that prevents expert collapse, and Switch Transformer–style capacity factors that throttle each expert's token load. By the end you'll have ~200 lines of runnable code, a unit test that proves expert utilization is balanced, and a concrete roadmap for extending it into a portfolio-grade project.\n\nHiring managers in ML engineering are tired of seeing the same ResNet-on-CIFAR-10 GitHub pin. The bar has moved. The projects that now stand out are the ones that demonstrate you understand how modern architectures actually work — not how to call `transformers.AutoModelForCausalLM.from_pretrained()`. Mixture-of-Experts is one of the few topics where a from-scratch implementation is both tractable for a solo weekend and genuinely impressive, because it forces you to grapple with the same systems-level concerns that show up in production LLM inference: sparsity, load balancing, capacity, and routing collapse.\n\nThis post is a complete build guide. We will write a `SparseMoE` module, a `TopKRouter`, a load-balancing loss, and Switch Transformer capacity-factor masking, with real, runnable code. Then we will test that it works, and finish with a roadmap that turns the toy into something that looks like it could ship.",
+      "tags": [
+        "pytorch",
+        "mixture-of-experts",
+        "deep-learning",
+        "machine-learning-engineering",
+        "transformers",
+        "project-ideas"
+      ],
+      "scheduled_at": "2026-09-07T20:58:53Z",
       "status": "pending"
     }
   ]
