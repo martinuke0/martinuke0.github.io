@@ -20042,8 +20042,9 @@
         "vector-search"
       ],
       "scheduled_at": "2026-09-05T15:58:53Z",
-      "status": "posting",
-      "claimed_at": "2026-09-05T17:16:39Z"
+      "status": "posted",
+      "claimed_at": "2026-09-05T17:16:39Z",
+      "post_urn": "urn:li:share:7502052103264124929"
     },
     {
       "title": "The Complete AI Agent Architecture: From Perception to Action",
