@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-07T19:58:53Z",
+  "last_scheduled_at": "2026-09-07T20:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20794,6 +20794,21 @@
         "portfolio-project"
       ],
       "scheduled_at": "2026-09-07T19:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Graphify Replaces the RAG Vector Store: Why Graph-Based Retrieval Is the Next Leap",
+      "url": "https://martinuke0.github.io/posts/2026-09-05-graphify-replaces-the-rag-vector-store-why-graph-based-retrieval-is-the-next-leap/",
+      "social_hook": "> TL;DR — Graphify replaces the chunk-and-embed pipeline with a typed knowledge graph and a hybrid retriever, yielding measurable wins on multi-hop, temporal, and entity-centric questions. Teams that migrate see fewer hallucinations, simpler prompt construction, and lower token cost per query — at the price of an ETL step most vector stacks never had to do.\n\nFor two years the default RAG recipe was almost identical: chunk a corpus, embed each chunk with a sentence-transformer, drop vectors into Pinecone or pgvector, retrieve by cosine similarity, and stuff the top-k into a prompt. It worked beautifully for \"What is the capital of Burkina Faso?\" and it fell apart in roughly the same way every time: anything that required reasoning across more than one passage.\n\nThe failure modes are now well documented. Microsoft Research's GraphRAG paper showed that pure-vector retrieval loses recall sharply on questions like \"Which executives left after the 2023 restructuring and where are they now?\" because the answer is stitched across three documents, two of which share no vocabulary with the query. Anthropic's evaluations of long-context retrieval reach a similar conclusion from a different angle: as context windows grow, models still miss connections that are not lexically close to the question.",
+      "tags": [
+        "rag",
+        "graph-rag",
+        "vector-database",
+        "knowledge-graph",
+        "llm",
+        "retrieval-augmented-generation"
+      ],
+      "scheduled_at": "2026-09-07T20:58:53Z",
       "status": "pending"
     }
   ]
