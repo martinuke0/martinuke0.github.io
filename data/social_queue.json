@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-08T22:58:53Z",
+  "last_scheduled_at": "2026-09-08T23:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21182,6 +21182,20 @@
         "simt"
       ],
       "scheduled_at": "2026-09-08T22:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Why Quantization Works: The Mathematics That Makes LLMs 4x Smaller",
+      "url": "https://martinuke0.github.io/posts/2026-09-05-why-quantization-works-the-mathematics-that-makes-llms-4x-smaller/",
+      "social_hook": "> TL;DR — Quantization works because neural network weights are not uniformly distributed: most values cluster near zero, and a small tail of large magnitudes carries most of the information. By exploiting that distribution with affine or k-means-based mappings, we can represent each weight in 4 bits instead of 16, cutting Llama-70B from 140GB to ~35GB while losing under 1% of benchmark accuracy.\n\nA 70-billion-parameter LLM in `float16` weighs about 140GB. You cannot fit it on a single 96GB H100, you cannot load it on any consumer GPU, and the cost of serving it is dominated by memory bandwidth, not arithmetic. Yet production systems like vLLM and TensorRT-LLM routinely run these models on hardware that mathematically should not be able to hold them.\n\nThe trick is quantization: representing each weight and activation in fewer bits. After 4-bit quantization, that same Llama-70B shrinks to roughly 35GB and fits comfortably on one H100, with throughput gains of 2–3x because every memory access now transfers half (or a quarter) of the bytes.",
+      "tags": [
+        "quantization",
+        "llm-inference",
+        "machine-learning",
+        "model-compression",
+        "gpu-optimization"
+      ],
+      "scheduled_at": "2026-09-08T23:58:53Z",
       "status": "pending"
     }
   ]
