@@ -20025,7 +20025,8 @@
         "Developer Productivity"
       ],
       "scheduled_at": "2026-09-05T14:58:53Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-05T15:02:11Z"
     },
     {
       "title": "RAG vs CAG: What the Difference Actually Means in Production",
