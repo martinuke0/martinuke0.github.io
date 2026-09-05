@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-08T19:58:53Z",
+  "last_scheduled_at": "2026-09-08T20:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21138,6 +21138,20 @@
         "production-ai"
       ],
       "scheduled_at": "2026-09-08T19:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "AI Networking: How GPUs, Fabrics, and Collective Operations Reshaped the Datacenter",
+      "url": "https://martinuke0.github.io/posts/2026-09-05-ai-networking-how-gpus-fabrics-and-collective-operations-reshaped-the-datacenter/",
+      "social_hook": "> TL;DR — AI training is a bandwidth problem disguised as a compute problem. Every GPU-to-GPU gradient exchange is a tightly-scheduled, latency-sensitive network transaction, which is why modern AI fabrics rely on RDMA, lossless Ethernet (PFC + ECN), and topologies like fat-tree and rail-optimized designs. If you operate these clusters, your network is the cluster.\n\nTraditional web and microservice traffic is bursty, latency-tolerant, and dominated by request-response patterns. AI training traffic is the opposite: long-running collectives where thousands of GPUs exchange partial gradients in lockstep, often for hours at a time. The network is not a side effect of the workload — it is the medium through which the workload is performed.\n\nConcretely, distributed training does three things to the network that nothing else really does:",
+      "tags": [
+        "ai-infrastructure",
+        "networking",
+        "gpu",
+        "rdma",
+        "datacenter"
+      ],
+      "scheduled_at": "2026-09-08T20:58:53Z",
       "status": "pending"
     }
   ]
