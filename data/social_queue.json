@@ -19925,7 +19925,8 @@
         "portfolio"
       ],
       "scheduled_at": "2026-09-05T08:58:53Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-05T09:02:19Z"
     },
     {
       "title": "Building a Mini Search Engine with an Inverted Index and TF-IDF: A Hands-On CV Project",
