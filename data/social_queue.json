@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-08T11:58:53Z",
+  "last_scheduled_at": "2026-09-08T12:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21023,6 +21023,20 @@
         "kserve"
       ],
       "scheduled_at": "2026-09-08T11:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Inference Is Becoming a Distributed-Systems Problem",
+      "url": "https://martinuke0.github.io/posts/2026-09-05-inference-is-becoming-a-distributed-systems-problem/",
+      "social_hook": "> TL;DR — Modern LLM inference is no longer a single-device compute problem; it is a distributed-systems problem with sharded weights, replicated KV caches, prefix sharing across requests, and millisecond-scale scheduling decisions. Engineers who treat it like a Python script hitting `model.generate()` will lose to teams who treat it like a microservice fleet.\n\nFive years ago, \"running inference\" meant loading a checkpoint into VRAM on one box and calling it a day. A 1.5B parameter model was a 3 GB blob, comfortably resident on a single consumer GPU. A 7B model took ~14 GB, a stretch but still tractable. Latency came down to how fast your GPU could stream tokens through a transformer.\n\nToday's frontier models — Llama 4, Claude 4, Gemini 2.5, Qwen3 — span hundreds of billions of parameters. Even with aggressive quantization, a 70B-parameter model at INT4 still weighs ~35 GB, which does not fit on a single H100's 80 GB of HBM. A 400B-class model needs four to eight accelerators just for the weights, before you allocate anything for the KV cache, activations, or CUDA workspaces. And the KV cache alone can dwarf the weights at long context: a 400B model serving 200 concurrent requests at 32k tokens consumes more cache memory than the parameters themselves.",
+      "tags": [
+        "distributed-systems",
+        "inference",
+        "llm-infrastructure",
+        "model-serving",
+        "kubernetes"
+      ],
+      "scheduled_at": "2026-09-08T12:58:53Z",
       "status": "pending"
     }
   ]
