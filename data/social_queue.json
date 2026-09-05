@@ -20108,7 +20108,8 @@
         "Production ML"
       ],
       "scheduled_at": "2026-09-05T19:58:53Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-05T20:01:29Z"
     },
     {
       "title": "AI Engineering Is No Longer Just About Knowing How to Use an LLM",
