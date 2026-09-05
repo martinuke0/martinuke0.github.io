@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-09T02:58:53Z",
+  "last_scheduled_at": "2026-09-09T03:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21243,6 +21243,20 @@
         "inference"
       ],
       "scheduled_at": "2026-09-09T02:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building Flash Attention From Scratch in NumPy: A CV-Grade Side Project",
+      "url": "https://martinuke0.github.io/posts/2026-09-05-building-flash-attention-from-scratch-in-numpy-a-cv-grade-side-project/",
+      "social_hook": "> TL;DR — Flash attention is the same math as standard attention, but reorganised so it never materialises the full \\(N \\times N\\) attention matrix in HBM. This guide walks through a from-scratch NumPy implementation that uses online softmax and block tiling, then verifies it against a naive reference. It signals real systems thinking on a CV — GPU kernels, memory bandwidth, and numerical stability — and ships as a weekend-sized project with a clear path to senior-level extensions.\n\nIf you are a working or aspiring ML or systems engineer looking for a portfolio piece that actually impresses hiring managers, flash attention is one of the highest signal-to-effort projects you can pick. It is short enough to finish in a weekend, deep enough to teach you real GPU programming concepts, and famous enough that interviewers will immediately recognise what you have built. The 2022 paper from Tri Dao and collaborators is the kind of primary source you cite in a systems interview, and the engineering tricks you learn — online softmax, tiling, kernel fusion — show up across the ML systems stack from vLLM to xFormers to PyTorch's `torch.compile`.\n\nThis guide is for engineers who already know what attention is and have written at least one transformer. We will not re-derive scaled dot-product attention from first principles. Instead, we will build the flash version, block by block, with runnable NumPy code.",
+      "tags": [
+        "flash-attention",
+        "numpy",
+        "transformers",
+        "cuda-kernels",
+        "systems-engineering"
+      ],
+      "scheduled_at": "2026-09-09T03:58:53Z",
       "status": "pending"
     }
   ]
