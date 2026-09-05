@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-08T07:58:53Z",
+  "last_scheduled_at": "2026-09-08T08:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20965,6 +20965,21 @@
         "monorepo"
       ],
       "scheduled_at": "2026-09-08T07:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "AI Infrastructure Is Becoming the Next Major Infrastructure Discipline",
+      "url": "https://martinuke0.github.io/posts/2026-09-05-ai-infrastructure-is-becoming-the-next-major-infrastructure-discipline/",
+      "social_hook": "> TL;DR — AI infrastructure is no longer just \"ML on top of Kubernetes.\" It's becoming a distinct discipline with its own hardware (GPUs, TPUs, custom silicon), its own scheduling problems (topology-aware placement, multi-tenant fairness), and its own observability stack. Treat it like networking or storage was treated in the 2010s: as a first-class platform concern with dedicated teams, runbooks, and SLOs.\n\nFor most of the last decade, machine learning workloads were treated as a flavor of batch computing. A data scientist would hand a notebook to a platform team, who would containerize it and run it on whatever spare capacity was available. That worked when models were small and training was occasional.\n\nThat world is gone. Today, a single training run for a frontier model can consume thousands of GPUs for weeks, costing tens of millions of dollars in compute alone. Inference fleets at companies like OpenAI and Anthropic serve billions of tokens per day. The hardware is exotic — H100s, MI300Xs, custom TPUs with high-bandwidth memory and NVLink topologies that don't exist anywhere else in the datacenter. The failure modes are exotic too: a single dropped NCCL collective can stall an 8,000-GPU job for hours.",
+      "tags": [
+        "AI Infrastructure",
+        "MLOps",
+        "GPU Computing",
+        "Distributed Systems",
+        "Platform Engineering",
+        "Kubernetes"
+      ],
+      "scheduled_at": "2026-09-08T08:58:53Z",
       "status": "pending"
     }
   ]
