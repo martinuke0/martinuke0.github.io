@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-08T10:58:53Z",
+  "last_scheduled_at": "2026-09-08T11:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21009,6 +21009,20 @@
         "finops"
       ],
       "scheduled_at": "2026-09-08T10:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Kubernetes for AI Inference: Serving Models at Production Scale",
+      "url": "https://martinuke0.github.io/posts/2026-09-05-kubernetes-for-ai-inference-serving-models-at-production-scale/",
+      "social_hook": "> TL;DR — Kubernetes won the AI inference runtime race not because it was designed for it, but because it already solved the hard problems: bin-packing expensive GPUs, rolling out new weights safely, scaling on demand, and giving platform teams one control plane to operate. The interesting work is in the details — request routing, KV-cache aware scheduling, and the gap between \"the pod is running\" and \"the model is serving within SLO.\"\n\nFive years ago, most teams I worked with served ML models from a hand-built fleet of EC2 instances behind a load balancer. A startup would launch with a single `gunicorn` process on a p3.2xlarge, add autoscaling by hand, and pray. The first time they needed to serve three models with different GPU footprints, they wrote a Slack bot to manage capacity.\n\nKubernetes didn't replace that world by being a better model server. It replaced it by being a better operating system. The same control plane that already runs your batch jobs, your API, and your CI workers can also run your model servers — with the same rolling updates, the same HPA, the same RBAC, and the same dashboards. That's a much bigger deal than any single inference optimization.",
+      "tags": [
+        "kubernetes",
+        "ai-inference",
+        "mlops",
+        "gpu",
+        "kserve"
+      ],
+      "scheduled_at": "2026-09-08T11:58:53Z",
       "status": "pending"
     }
   ]
