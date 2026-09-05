@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-09T00:58:53Z",
+  "last_scheduled_at": "2026-09-09T01:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21210,6 +21210,21 @@
         "inference-optimization"
       ],
       "scheduled_at": "2026-09-09T00:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing gVisor: Inside the User-Space Kernel That Sandboxes Docker Containers",
+      "url": "https://martinuke0.github.io/posts/2026-09-05-implementing-gvisor-inside-the-user-space-kernel-that-sandboxes-docker-containers/",
+      "social_hook": "> TL;DR — gVisor sandboxes containers by inserting a user-space kernel (the sentry) between the application and the host kernel. Every syscall is intercepted in Go, then handed to a re-implementation of Linux subsystems, dramatically shrinking the host attack surface at the price of some throughput and memory overhead.\n\nContainers promise isolation, but at the OS level they are still processes making real syscalls on the host kernel. A single vulnerability in the kernel — or in the syscall surface a container can reach — and the \"isolation\" disappears. This is the problem gVisor was built to solve.\n\nThe original gVisor announcement from Google Cloud frames it bluntly: the goal is to reduce the amount of host kernel code that an untrusted application can touch. Instead of letting containerized code call `open`, `read`, `write`, and `mount` directly on the host, gVisor intercepts those calls in user space and re-implements the relevant kernel semantics on behalf of the application.",
+      "tags": [
+        "gVisor",
+        "Docker",
+        "containers",
+        "security",
+        "linux",
+        "sandboxing"
+      ],
+      "scheduled_at": "2026-09-09T01:58:53Z",
       "status": "pending"
     }
   ]
