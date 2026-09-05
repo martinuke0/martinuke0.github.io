@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-09T02:58:53Z",
+  "last_scheduled_at": "2026-09-09T03:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21239,6 +21239,21 @@
         "inference"
       ],
       "scheduled_at": "2026-09-09T02:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Triton Kernels for Custom Attention Patterns on H100 GPUs",
+      "url": "https://martinuke0.github.io/posts/2026-09-05-optimizing-triton-kernels-for-custom-attention-patterns-on-h100-gpus/",
+      "social_hook": "> TL;DR — FlashAttention is the easy 80% of dense self-attention, but production rarely stays dense. Custom masking, sliding windows, paged KV, and cross-attention with structured sparsity all demand bespoke kernels. On the H100, the levers that matter are tile shape, num_stages, num_warps, warp-specialized producer/consumer splits, and TMA descriptor reuse — not raw FLOPs.\n\nIf you've spent the last two years working with transformer inference, you've probably shipped some variant of FlashAttention and called it a day. And for dense, unmasked, single-batch self-attention on Qwen-shaped context lengths, that's the right call. The reference kernels are good, well-tested, and someone else is paying for the maintenance.\n\nThe trouble starts the moment attention stops being vanilla. The moment you need:",
+      "tags": [
+        "triton",
+        "gpu-kernels",
+        "h100",
+        "attention-mechanisms",
+        "transformer-inference",
+        "performance-engineering"
+      ],
+      "scheduled_at": "2026-09-09T03:58:53Z",
       "status": "pending"
     }
   ]
