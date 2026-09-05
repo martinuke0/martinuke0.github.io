@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-08T08:58:53Z",
+  "last_scheduled_at": "2026-09-08T09:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20980,6 +20980,20 @@
         "Kubernetes"
       ],
       "scheduled_at": "2026-09-08T08:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "From Prompt to Pixels: Tracing an LLM Request Through an API to a GPU",
+      "url": "https://martinuke0.github.io/posts/2026-09-05-from-prompt-to-pixels-tracing-an-llm-request-through-an-api-to-a-gpu/",
+      "social_hook": "> TL;DR — An LLM API call looks like one HTTP request, but behind it sits a request router, a scheduler, a token-level batching loop, a quantized model loader, and ultimately CUDA kernels that are heavily memory-bound. The interesting engineering happens in those layers, and understanding them is what separates \"the model is slow\" from \"I know exactly which lever to pull.\"\n\nIf you've shipped anything built on an LLM — a chatbot, a code reviewer, a retrieval-augmented search box — you've probably hit one of three walls: latency on the first token, throughput per dollar, or a tail-latency spike at 3 a.m. that pages someone. Each wall lives at a specific hop along the path from prompt to GPU, and most \"model improvements\" you can apply (quantization, speculative decoding, prefix caching, prompt compression) only make sense once you can name the hop they affect.\n\nThis post traces a single request from the moment your client code calls `chat.completions.create(...)` to the moment CUDA writes a token id back into host memory. We'll stop at each hop, name the moving parts, and call out the knobs that production teams actually turn.",
+      "tags": [
+        "llm",
+        "inference",
+        "gpu",
+        "api-design",
+        "mlops"
+      ],
+      "scheduled_at": "2026-09-08T09:58:53Z",
       "status": "pending"
     }
   ]
