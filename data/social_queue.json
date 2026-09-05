@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-07T18:58:53Z",
+  "last_scheduled_at": "2026-09-07T19:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20755,6 +20755,21 @@
         "side-project"
       ],
       "scheduled_at": "2026-09-07T18:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building a GGUF Weight Loader From Scratch: A CV-Grade ML Systems Project",
+      "url": "https://martinuke0.github.io/posts/2026-09-05-building-a-gguf-weight-loader-from-scratch-a-cv-grade-ml-systems-project/",
+      "social_hook": "> TL;DR — GGUF is the file format used by llama.cpp to ship quantized LLMs, and reading it yourself is one of the most concrete ML-systems projects you can put on a CV. This guide walks through parsing the header, walking the tensor metadata, dequantizing Q4_K and Q6_K blocks with bit-exact logic, and mapping the result into a PyTorch `LlamaForCausalLM`. The whole loader is a few hundred lines of NumPy and PyTorch, and it ends in a runnable forward pass on real weights.\n\nMost \"I built a transformer from scratch\" tutorials stop at a 50M-parameter nano-GPT trained on TinyStories. That is fine for learning, but on a CV it signals \"I read Karpathy's repo.\" A GGUF loader signals something different and more interesting to a hiring loop:\n\n- You understand the actual artifact shipping in production. GGUF is the format Hugging Face, Ollama, LM Studio, and llama.cpp all serve models in. Knowing its layout means you can debug model-load failures, quantization bugs, and converter regressions — the kind of work a staff MLE does when a $20M inference fleet silently ships wrong weights.",
+      "tags": [
+        "gguf",
+        "llama.cpp",
+        "pytorch",
+        "quantization",
+        "ml-systems",
+        "portfolio-project"
+      ],
+      "scheduled_at": "2026-09-07T19:58:53Z",
       "status": "pending"
     }
   ]
