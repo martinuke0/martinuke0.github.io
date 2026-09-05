@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-08T14:58:53Z",
+  "last_scheduled_at": "2026-09-08T15:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21066,6 +21066,20 @@
         "production-engineering"
       ],
       "scheduled_at": "2026-09-08T14:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Agent Infrastructure Is Creating New Security Challenges",
+      "url": "https://martinuke0.github.io/posts/2026-09-05-agent-infrastructure-is-creating-new-security-challenges/",
+      "social_hook": "> TL;DR — Agent infrastructure extends AI beyond prompts into autonomous code execution, credential handling, and tool invocation. This breaks traditional threat models built around human-in-the-loop services. Treat agents like a new class of principal with their own identity, sandbox, and audit trail.\n\nFor the last decade, \"application security\" has meant securing code that humans run through predictable APIs. A request comes in, your service handles it, and the surface area is roughly the routes you expose. AI agents break that mental model. An agent decides for itself which tools to call, in what order, with arguments drawn from arbitrary model output. It acts more like a junior engineer with shell access than like a stateless API consumer.\n\nThat's a different security problem, and most teams have not caught up to it yet.",
+      "tags": [
+        "ai-agents",
+        "security",
+        "infrastructure",
+        "llm",
+        "devops"
+      ],
+      "scheduled_at": "2026-09-08T15:58:53Z",
       "status": "pending"
     }
   ]
