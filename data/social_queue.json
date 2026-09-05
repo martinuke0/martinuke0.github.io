@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-08T20:58:53Z",
+  "last_scheduled_at": "2026-09-08T21:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21152,6 +21152,20 @@
         "datacenter"
       ],
       "scheduled_at": "2026-09-08T20:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "LLMOps and GenAIOps: Production Patterns for Reliable LLM Systems",
+      "url": "https://martinuke0.github.io/posts/2026-09-05-llmops-and-genaiops-production-patterns-for-reliable-llm-systems/",
+      "social_hook": "> TL;DR — LLMOps is the discipline of shipping and operating LLM-backed applications in production: evaluation harnesses, retrieval pipelines, guardrails, cost controls, and observability for non-deterministic systems. GenAIOps extends the MLOps playbook for generative workloads — content quality, safety, and human feedback loops — and treats the prompt, model, and retrieval index as first-class deployable artifacts.\n\nMost LLM projects die the same way: a great demo, an even greater pitch deck, and a quiet Slack channel where someone asks, \"so, how do we put this in front of customers?\" The gap between a notebook and a production service is exactly what LLMOps and GenAIOps are designed to close. This post walks through the patterns that actually hold up in production — the ones you only learn after the third on-call rotation.\n\nClassical MLOps assumes you ship a model artifact — a serialized `model.pkl` or a TensorFlow graph — and serve it behind a stable input schema. The contract is tidy: inputs go in, predictions come out, latency is bounded, and the failure modes are well understood.",
+      "tags": [
+        "llmops",
+        "genaaiops",
+        "mlops",
+        "production-engineering",
+        "vector-databases"
+      ],
+      "scheduled_at": "2026-09-08T21:58:53Z",
       "status": "pending"
     }
   ]
