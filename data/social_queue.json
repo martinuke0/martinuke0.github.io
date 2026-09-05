@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-07T22:58:53Z",
+  "last_scheduled_at": "2026-09-07T23:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20837,6 +20837,20 @@
         "machine-learning"
       ],
       "scheduled_at": "2026-09-07T22:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building Agentic APIs: When Your Endpoint Thinks for Itself",
+      "url": "https://martinuke0.github.io/posts/2026-09-05-building-agentic-apis-when-your-endpoint-thinks-for-itself/",
+      "social_hook": "> TL;DR — An agentic API is a single endpoint that exposes an LLM-driven agent instead of a fixed business operation. The agent plans, calls tools, retries on failure, and returns a synthesized answer. The trade-off is predictability, so success depends on tight tool contracts, durable observability, hard cost ceilings, and a deterministic escape hatch when the loop goes wrong.\n\nA traditional REST endpoint is a contract: given this input, return this output, in roughly this time. An agentic API trades that contract for something closer to a colleague's inbox. You send a goal — \"reconcile the last 24 hours of Stripe payouts against our ledger and flag anything over $500\" — and the endpoint returns a result, an explanation, and possibly a partial failure that the agent has already mitigated.\n\nThe shift matters because most production LLM apps today are still synchronous completion wrappers: one prompt in, one completion out. Anthropic's own agent guidance and the OpenAI function calling docs both emphasize that \"agentic\" specifically means the model is in a loop, selecting tools, observing results, and deciding what to do next. That's the capability you expose.",
+      "tags": [
+        "agentic-ai",
+        "api-design",
+        "llm-agents",
+        "backend-architecture",
+        "production-engineering"
+      ],
+      "scheduled_at": "2026-09-07T23:58:53Z",
       "status": "pending"
     }
   ]
