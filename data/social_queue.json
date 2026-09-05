@@ -20124,7 +20124,8 @@
         "system-design"
       ],
       "scheduled_at": "2026-09-05T20:58:53Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-05T21:01:17Z"
     },
     {
       "title": "\\\"Attention Is All You Need\\\" — The Paper That Rewrote NLP and Reshaped Modern AI",
