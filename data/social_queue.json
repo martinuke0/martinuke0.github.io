@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-07T19:58:53Z",
+  "last_scheduled_at": "2026-09-07T20:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20772,6 +20772,21 @@
         "portfolio-project"
       ],
       "scheduled_at": "2026-09-07T19:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building a Paged KV Cache with GQA Sharing and Prefix-Reuse Eviction",
+      "url": "https://martinuke0.github.io/posts/2026-09-05-building-a-paged-kv-cache-with-gqa-sharing-and-prefix-reuse-eviction/",
+      "social_hook": "> TL;DR — A paged KV cache with grouped-query attention (GQA) sharing and a prefix-reuse eviction policy is one of the most credible LLM-systems projects you can ship to a CV in a weekend. It mirrors the design choices in vLLM, SGLang, and the RadixAttention paper, demonstrates that you understand memory hierarchies, attention math, and eviction, and produces a runnable artifact you can benchmark on real prompts.\n\nHiring managers for inference, ML platform, and applied-LLM roles scan portfolios for evidence that a candidate can translate a paper into a working system. A paged KV cache hits that target harder than almost any other weekend project because the design space is genuinely contested in production: vLLM ships PagedAttention, SGLang ships RadixAttention, TensorRT-LLM ships in-flight batching with custom paged kernels, and HuggingFace TGI ships its own block manager. Building one from scratch proves you have read those systems and understood why they look the way they do.\n\n- You understand transformer internals, not just the `transformers` API. You can explain why decoder-only inference is memory-bound, why KV cache size scales with `2 · n_layers · n_heads · seq_len · head_dim`, and why GQA shrinks that footprint.",
+      "tags": [
+        "llm-inference",
+        "kv-cache",
+        "paged-attention",
+        "gqa",
+        "python",
+        "systems"
+      ],
+      "scheduled_at": "2026-09-07T20:58:53Z",
       "status": "pending"
     }
   ]
