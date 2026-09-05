@@ -19844,7 +19844,8 @@
         "engineering-workflow"
       ],
       "scheduled_at": "2026-09-04T23:58:53+00:00",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-05T00:01:21Z"
     },
     {
       "title": "Your First 7 Days with Grok: An Engineer's Field Notes",
