@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-09T01:58:53Z",
+  "last_scheduled_at": "2026-09-09T02:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21225,6 +21225,20 @@
         "sandboxing"
       ],
       "scheduled_at": "2026-09-09T01:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Language Models Can Now Control Their Own Attention",
+      "url": "https://martinuke0.github.io/posts/2026-09-05-language-models-can-now-control-their-own-attention/",
+      "social_hook": "> TL;DR — A new class of techniques lets language models gate and route their own attention, deciding which tokens matter before the quadratic cost is paid. Attention output gating, learned top-k routing, and self-reflective decoding can cut inference FLOPs by 30–60% on long-context workloads without degrading quality, and they are quietly landing in serving stacks like vLLM, TensorRT-LLM, and llama.cpp.\n\nFor years, the transformer architecture has been a polite guest in someone else's house: it attends everywhere, all the time, and pays for every pairwise interaction. That changed in the last 18 months. A handful of techniques — gathered under the loose banner of attention output gating — let the model itself decide which attention outputs to keep, route, or throw away. The result is not a new architecture but a new degree of freedom: the model gets to be a little cheap about where it looks.\n\nThis post walks through how that control actually works, what it costs, where it is already shipping, and what to watch out for if you try it on your own stack.",
+      "tags": [
+        "llm",
+        "attention",
+        "transformers",
+        "mechanistic-interpretability",
+        "inference"
+      ],
+      "scheduled_at": "2026-09-09T02:58:53Z",
       "status": "pending"
     }
   ]
