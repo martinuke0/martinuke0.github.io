@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-08T15:58:53Z",
+  "last_scheduled_at": "2026-09-08T16:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21080,6 +21080,21 @@
         "devops"
       ],
       "scheduled_at": "2026-09-08T15:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "AI Infrastructure Hiring Is Converging: What It Means for Engineers",
+      "url": "https://martinuke0.github.io/posts/2026-09-05-ai-infrastructure-hiring-is-converging-what-it-means-for-engineers/",
+      "social_hook": "> TL;DR — AI infrastructure hiring is collapsing into a single hybrid role that demands platform engineering, MLOps, and distributed systems fluency at the same time. Companies are hiring fewer specialists and more generalists who can take a model from notebook to production-scale serving on GPUs, Kubernetes, and observability stacks. Engineers who bridge these layers are now the most competitive candidates on the market.\n\nA few years ago, \"AI infrastructure\" wasn't really a job title. It was a Slack channel where backend engineers grudgingly helped ML folks debug their flaky CUDA drivers, while data engineers complained about feature stores that nobody owned. That separation is gone. In 2026, the most sought-after hires are people who can stand in all three lanes at once — and the job descriptions prove it.\n\nThe convergence didn't arrive because of a single technology shift. It arrived because three forces hit at the same time.",
+      "tags": [
+        "ai-infrastructure",
+        "hiring",
+        "mlops",
+        "platform-engineering",
+        "distributed-systems",
+        "career"
+      ],
+      "scheduled_at": "2026-09-08T16:58:53Z",
       "status": "pending"
     }
   ]
