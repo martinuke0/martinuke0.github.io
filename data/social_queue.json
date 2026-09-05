@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-07T20:58:53Z",
+  "last_scheduled_at": "2026-09-07T21:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20809,6 +20809,20 @@
         "retrieval-augmented-generation"
       ],
       "scheduled_at": "2026-09-07T20:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "The Hardest RAG Ingestion Problems and How Engineers Actually Solve Them",
+      "url": "https://martinuke0.github.io/posts/2026-09-05-the-hardest-rag-ingestion-problems-and-how-engineers-actually-solve-them/",
+      "social_hook": "> TL;DR — RAG quality is bounded by ingestion quality. The five hardest problems are bad chunking, stale indexes, mixed-modality documents, identity collisions during updates, and embedding-model drift. Production teams solve them with structured chunking, change-data-capture reindexing, vision-aware parsers, content-addressable IDs, and embedding-version pinning.\n\nRetrieval-augmented generation has a marketing problem. Every demo looks magical because the corpus is small, clean, and curated. The moment you point a RAG pipeline at a real company's SharePoint, Confluence, PDFs, scanned invoices, and Notion pages, the magic evaporates. Retrieval returns the wrong paragraph. The LLM hallucinates a clause that doesn't exist. A \"simple\" question about last quarter's revenue pulls a slide from three years ago.\n\nThe cause almost never lives in the prompt or the model. It lives in the ingestion layer — the boring, unglamorous, deterministic pipeline that turns human-authored documents into vectors the system can search. Once data enters an embedding space, the system has already lost most of its chances to recover meaning that wasn't preserved at parse time. Garbage in, structured garbage out.",
+      "tags": [
+        "rag",
+        "llm",
+        "vector-databases",
+        "data-engineering",
+        "production-ai"
+      ],
+      "scheduled_at": "2026-09-07T21:58:53Z",
       "status": "pending"
     }
   ]
