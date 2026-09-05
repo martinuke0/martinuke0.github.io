@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-08T23:58:53Z",
+  "last_scheduled_at": "2026-09-09T00:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21196,6 +21196,20 @@
         "gpu-optimization"
       ],
       "scheduled_at": "2026-09-08T23:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mooncake: Turning KV Cache into a Distributed LLM Serving Layer",
+      "url": "https://martinuke0.github.io/posts/2026-09-05-mooncake-turning-kv-cache-into-a-distributed-llm-serving-layer/",
+      "social_hook": "> TL;DR — Mooncake is Moonshot AI's serving stack for Kimi's trillion-token workloads. It treats the KV cache as a distributed, network-attached resource, separating the attention context store from GPU HBM. The result: a 75% reduction in time-to-first-token under bursty load and a multi-x throughput win on long-context traffic compared to tightly-coupled prefill/decode pipelines.\n\nIf you have ever watched a 70B-parameter model melt under a thousand-user spike, you already know the bottleneck is not the matrix multiplies. It is the attention state. Every token a model emits requires keeping the key and value tensors of every prior token resident in fast memory, and on modern transformers that state is enormous: tens of megabytes per request, per layer, per head. Naive serving keeps that state in GPU HBM next to the weights, which means context length, batch size, and weight residency are all fighting over the same megabytes.\n\nMooncake, the architecture Moonshot AI published in 2024 and has since iterated on for the Kimi chat product, takes a different bet. It treats the KV cache as its own distributed object, an attention state store that any GPU in the cluster can attach to and detach from over the network. Prefill happens on nodes optimized for compute. Decode happens on nodes optimized for memory bandwidth. The KV cache lives in between, in a pool of DRAM and SSDs managed by a custom store.",
+      "tags": [
+        "llm-infrastructure",
+        "kv-cache",
+        "distributed-systems",
+        "moonshot-ai",
+        "inference-optimization"
+      ],
+      "scheduled_at": "2026-09-09T00:58:53Z",
       "status": "pending"
     }
   ]
