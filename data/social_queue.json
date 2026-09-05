@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-08T18:58:53Z",
+  "last_scheduled_at": "2026-09-08T19:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21124,6 +21124,20 @@
         "distributed-systems"
       ],
       "scheduled_at": "2026-09-08T18:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Distributed Inference: How Modern AI Systems Scale Beyond a Single GPU",
+      "url": "https://martinuke0.github.io/posts/2026-09-05-distributed-inference-how-modern-ai-systems-scale-beyond-a-single-gpu/",
+      "social_hook": "> TL;DR — Distributed inference splits a single model across multiple accelerators so it fits in memory and runs fast enough for production traffic. The three core strategies are tensor parallelism (split operators across GPUs), pipeline parallelism (split layers across GPUs), and expert parallelism (route tokens to specialized experts). Picking the right mix, and getting the KV cache right, is what separates a toy demo from a serving system that handles real users.\n\nIn 2019, a 1.5B-parameter BERT model fit comfortably on a single 16 GB GPU. In 2026, the open-weight frontier is 400B+ parameters, and even small production models routinely pass 70B. A single H100 holds 80 GB of VRAM, which is not enough to host a 400B model in FP16, let alone its KV cache, optimizer states, or activation memory at any reasonable batch size.\n\nThis is the central problem distributed inference solves: a model too large for one device must be served as if it were a single endpoint, with predictable latency, throughput, and availability. Modern systems like vLLM, TensorRT-LLM, SGLang, and DeepSeek's open stack all attack the same problem, but they make different trade-offs about where to draw the boundaries between machines.",
+      "tags": [
+        "distributed-inference",
+        "model-serving",
+        "llmops",
+        "gpu",
+        "production-ai"
+      ],
+      "scheduled_at": "2026-09-08T19:58:53Z",
       "status": "pending"
     }
   ]
