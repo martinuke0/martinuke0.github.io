@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-08T13:58:53Z",
+  "last_scheduled_at": "2026-09-08T14:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21052,6 +21052,20 @@
         "mlops"
       ],
       "scheduled_at": "2026-09-08T13:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "AI Gateways: The Missing Layer Between Your Apps and Every LLM Provider",
+      "url": "https://martinuke0.github.io/posts/2026-09-05-ai-gateways-the-missing-layer-between-your-apps-and-every-llm-provider/",
+      "social_hook": "> TL;DR — An AI gateway is the control plane for LLM traffic: one client, many providers, with routing, caching, rate limits, and observability baked in. Teams adopt them to negotiate price, dodge outages, and centralize policy — the same reasons CDNs and API gateways exist for traditional web traffic.\n\nTwo years ago, most teams shipping LLM features wrote their own thin client around one provider, usually OpenAI. That worked fine until it didn't. By mid-2025, a serious production stack had to talk to at least three providers, swap models behind a feature flag, fall back when one vendor degraded, and meter every request for cost attribution. That is no longer \"wrap a client\" work. That is infrastructure work, and it looks suspiciously like what API gateways did for microservices in the 2010s.\n\nThe official guidance from OpenAI's production best practices already nudges teams toward \"build a wrapper to track spend, enforce rate limits, and centralize retry logic.\" Anthropic and Google publish the same advice in slightly different words. Once every vendor tells you to write the same plumbing, the plumbing deserves a name. The name is the AI gateway.",
+      "tags": [
+        "ai-gateway",
+        "llm",
+        "litellm",
+        "api-management",
+        "production-engineering"
+      ],
+      "scheduled_at": "2026-09-08T14:58:53Z",
       "status": "pending"
     }
   ]
