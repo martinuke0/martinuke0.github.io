@@ -19877,7 +19877,8 @@
         "prompt-engineering"
       ],
       "scheduled_at": "2026-09-05T03:58:53+00:00",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-05T04:02:59Z"
     },
     {
       "title": "Your First 7 Days with Hermes: A Practical Onboarding Guide for Engineers",
