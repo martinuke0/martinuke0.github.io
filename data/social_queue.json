@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-08T02:58:53Z",
+  "last_scheduled_at": "2026-09-08T03:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20893,6 +20893,20 @@
         "owasp"
       ],
       "scheduled_at": "2026-09-08T02:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Context Engineering: The Discipline Behind Reliable LLM Applications",
+      "url": "https://martinuke0.github.io/posts/2026-09-05-context-engineering-the-discipline-behind-reliable-llm-applications/",
+      "social_hook": "> TL;DR — Context engineering is the practice of curating exactly what enters an LLM's context window — system prompts, retrieved documents, tool outputs, prior turns — to maximize reliability and minimize cost. It's replacing \"prompt engineering\" as the real discipline behind production AI systems, and it's where teams should be investing their iteration cycles in 2026.\n\nFor a few years, \"prompt engineering\" was the term. People argued over which magic words unlocked a model's best behavior, traded clever suffixes on Twitter, and shipped thin wrappers around GPT. That era is fading. The frontier models keep getting better at following instructions, so the marginal return on crafting one has shrunk. What has grown — and what now determines whether your AI feature actually works — is the quality, structure, and discipline of the context you put into the model.\n\nContext engineering is the deliberate design of everything that enters an LLM's context window before the model is called: the system prompt, the user message, the retrieved documents, tool outputs, prior conversation turns, structured instructions, and any other supporting material. Its goal is to maximize the probability that the model produces a correct, safe, and useful output — at the lowest possible token cost.",
+      "tags": [
+        "context-engineering",
+        "llm",
+        "prompt-design",
+        "rag",
+        "ai-systems"
+      ],
+      "scheduled_at": "2026-09-08T03:58:53Z",
       "status": "pending"
     }
   ]
