@@ -20076,7 +20076,8 @@
         "Machine Learning"
       ],
       "scheduled_at": "2026-09-05T17:58:53Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-05T18:01:51Z"
     },
     {
       "title": "LLM Gateway: One Layer to Manage Multiple AI Models",
