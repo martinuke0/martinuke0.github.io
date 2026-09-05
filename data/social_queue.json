@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-08T04:58:53Z",
+  "last_scheduled_at": "2026-09-08T05:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20921,6 +20921,20 @@
         "workflow-design"
       ],
       "scheduled_at": "2026-09-08T04:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "DeepSeek's Harness Framework: The Engineering Behind Frontier Model Evaluation",
+      "url": "https://martinuke0.github.io/posts/2026-09-05-deepseek/",
+      "social_hook": "> TL;DR — DeepSeek's harness is a modular, open-source evaluation framework that separates model inference from task logic, supports distributed generation and judging, and ships with dozens of plug-in benchmarks (MMLU, GSM8K, HumanEval, IFEval, BBH, and more). It is the de facto infrastructure behind DeepSeek's published numbers and has become a reference architecture for anyone running serious LLM evals.\n\nIf you've ever tried to compare two language models fairly — same prompts, same scoring, same hardware, same generation parameters — you already know the pain. Every lab rolls its own scaffolding. Public leaderboards sometimes quietly change the prompt template between submissions, and reproduction efforts routinely fail because the eval harness is private. The community has been begging for a reference implementation, and the closest things we have today are EleutherAI's lm-evaluation-harness, OpenAI's simple-evals, and the subject of this post: DeepSeek's eval harness, released alongside DeepSeek-V2 and V3.\n\nDeepSeek's take is opinionated in ways that matter for production work: it bakes in vLLM-style continuous batching, it treats the LM as an HTTP service so you can swap backends, and it ships with a long-tail of weird benchmarks that most labs quietly skip (IFEval strict-mode, BBH's canary tasks, Chinese-focused evals like C-Eval and CMMLU). If you are evaluating a model before shipping it to users, understanding this framework pays for itself in a single afternoon.",
+      "tags": [
+        "deepseek",
+        "harness-framework",
+        "llm-evaluation",
+        "open-source",
+        "benchmarking"
+      ],
+      "scheduled_at": "2026-09-08T05:58:53Z",
       "status": "pending"
     }
   ]
