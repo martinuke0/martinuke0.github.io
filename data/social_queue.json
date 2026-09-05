@@ -19942,7 +19942,8 @@
         "information-retrieval"
       ],
       "scheduled_at": "2026-09-05T09:58:53Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-05T10:02:10Z"
     },
     {
       "title": "Mastering the USE Method: A Comprehensive Guide to Utilization, Saturation, and Error Analysis",
