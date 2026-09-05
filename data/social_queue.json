@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-08T21:58:53Z",
+  "last_scheduled_at": "2026-09-08T22:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21168,6 +21168,20 @@
         "vector-databases"
       ],
       "scheduled_at": "2026-09-08T21:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "GPU Architecture for Backend Engineers: Why Your Workloads Run on Massively Parallel Silicon",
+      "url": "https://martinuke0.github.io/posts/2026-09-05-gpu-architecture-for-backend-engineers-why-your-workloads-run-on-massively-parallel-silicon/",
+      "social_hook": "> TL;DR — A modern GPU is an array of hundreds to thousands of small execution cores organized into Streaming Multiprocessors (SMs), each running groups of 32 threads (\"warps\") in lockstep on dedicated ALUs. That SIMT design trades single-thread speed for massive throughput, and a deep, programmer-controlled memory hierarchy hides the cost of doing so — which is exactly why GPUs dominate AI training, inference, analytics, and simulation.\n\nFor a long time, \"GPU programming\" meant graphics: renderers, shaders, vertex transforms. Then CUDA arrived in 2007, frameworks like PyTorch and TensorFlow rode the wave, and suddenly a CPU-side backend engineer is asked to optimize a vector search, fine-tune a 7B-parameter model, or ship a real-time fraud-scoring service that runs entirely on GPU. At that point, knowing the difference between a Streaming Multiprocessor and a CPU core isn't trivia — it's the difference between a service that costs $0.0002 per request and one that costs $0.02.\n\nThis post is a ground-up tour of GPU architecture aimed at engineers who already understand CPUs, virtual memory, and cache hierarchies. We'll focus on the design decisions that matter for production workloads: why GPUs are throughput machines, how the SM / warp / thread model works, where the memory bottlenecks actually live, and how all of this shapes the way you should write code.",
+      "tags": [
+        "gpu",
+        "gpu-architecture",
+        "parallel-computing",
+        "cuda",
+        "simt"
+      ],
+      "scheduled_at": "2026-09-08T22:58:53Z",
       "status": "pending"
     }
   ]
