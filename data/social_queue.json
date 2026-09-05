@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-07T18:58:53Z",
+  "last_scheduled_at": "2026-09-07T19:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20753,6 +20753,20 @@
         "side-project"
       ],
       "scheduled_at": "2026-09-07T18:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Inside Cranelift: How a Baseline JIT Compiler Optimizes WebAssembly for Production Workloads",
+      "url": "https://martinuke0.github.io/posts/2026-09-05-inside-cranelift-how-a-baseline-jit-compiler-optimizes-webassembly-for-production-workloads/",
+      "social_hook": "> TL;DR — Cranelift is a fast, multi-tier JIT compiler purpose-built for WebAssembly and used in production by Wasmtime and Fastly Compute. It trades peak single-thread performance for predictable, low-pause compilation, which is exactly what runtime and edge systems need. This post walks through its pipeline, the optimizations that matter at the baseline tier, and how it stacks up against LLVM and V8's TurboFan.\n\nWebAssembly (Wasm) was designed to be a portable, deterministic compilation target for the web. By 2019, the same properties that made it good for browsers — sandboxed execution, fast cold starts, predictable performance — made it attractive well beyond the browser. Today Wasm is the runtime substrate for Fastly Compute, Cloudflare Workers, Cosmonic wasmCloud, and the Wasmtime server-side runtime.\n\nBut running Wasm efficiently is not the same as running JavaScript efficiently. Wasm modules are statically typed, structured-control-flow validated, and free of hidden allocation. That makes optimization different. You do not need type feedback or speculation; you do need to compile fast, because most Wasm modules are short-lived, especially at the edge. A request handler that takes 30ms to JIT has already lost the latency budget.",
+      "tags": [
+        "wasm",
+        "cranelift",
+        "jit",
+        "compilers",
+        "performance"
+      ],
+      "scheduled_at": "2026-09-07T19:58:53Z",
       "status": "pending"
     }
   ]
