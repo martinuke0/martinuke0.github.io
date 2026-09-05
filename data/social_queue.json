@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-08T17:58:53Z",
+  "last_scheduled_at": "2026-09-08T18:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21110,6 +21110,20 @@
         "sre"
       ],
       "scheduled_at": "2026-09-08T17:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "GPU Scheduling at Scale: How Modern Systems Stop Fighting Over Silicon",
+      "url": "https://martinuke0.github.io/posts/2026-09-05-gpu-scheduling-at-scale-how-modern-systems-stop-fighting-over-silicon/",
+      "social_hook": "> TL;DR — GPUs are the scarcest resource in modern AI infrastructure, and naive scheduling wastes 30–60% of their capacity. Production systems use a layered toolkit: hardware partitioning (MIG, MPS), kernel-level time-slicing, gang scheduling across nodes, and topology-aware placement. Choosing the right combination is the difference between a cluster that hums and one that melts down at peak load.\n\nCPUs have been \"shared\" since the 1960s. GPUs, by contrast, were sold as discrete accelerators for decades — one job, one device, one user. That assumption broke the moment teams started running inference alongside training, serving multiple tenants on shared hardware, and stitching hundreds of accelerators into a single training job.\n\nThe mismatch is fundamental. A CPU is a latency-optimized, preemptible unit that the Linux scheduler has spent thirty years learning to share fairly. A modern GPU like an NVIDIA H100 is a throughput-optimized monster with 80 GB of HBM3, 3 TB/s of memory bandwidth, and a CUDA context that costs hundreds of milliseconds to set up and several gigabytes of VRAM to keep alive. Treating it like \"a fast CPU\" produces queues that starve, jobs that OOM each other, and clusters where everyone complains that \"the GPUs are busy but nothing is running.\"",
+      "tags": [
+        "gpu-scheduling",
+        "kubernetes",
+        "ml-infrastructure",
+        "cuda",
+        "distributed-systems"
+      ],
+      "scheduled_at": "2026-09-08T18:58:53Z",
       "status": "pending"
     }
   ]
