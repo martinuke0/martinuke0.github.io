@@ -19861,7 +19861,8 @@
         "prompting"
       ],
       "scheduled_at": "2026-09-05T01:58:53+00:00",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-05T03:02:44Z"
     },
     {
       "title": "Your First 7 Days with Grok Bot: A Production-Ready Field Guide",
