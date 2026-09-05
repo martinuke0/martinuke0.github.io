@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-08T12:58:53Z",
+  "last_scheduled_at": "2026-09-08T13:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21037,6 +21037,21 @@
         "kubernetes"
       ],
       "scheduled_at": "2026-09-08T12:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "GPU Utilization Is Becoming a Business Metric",
+      "url": "https://martinuke0.github.io/posts/2026-09-05-gpu-utilization-is-becoming-a-business-metric/",
+      "social_hook": "> TL;DR — GPUs have crossed from engineering KPIs into executive KPIs. Cloud bills for accelerators now rival salaries in some ML-heavy orgs, so utilization is being measured next to ARR, gross margin, and CAC. The teams that treat GPU efficiency as a product metric — not a runtime concern — ship faster models at lower cost.\n\nFor most of the 2010s, GPUs were a specialized line item buried in a \"research\" or \"infrastructure\" budget. A small team would request a few boxes, finance would approve it, and nobody asked follow-up questions about whether the silicon sat idle between training runs.\n\nWalk into a modern ML-heavy company and you will find GPU spend sitting in a spreadsheet next to headcount and cloud compute. At mid-sized AI-native companies, accelerator spend can exceed $5M per quarter. At frontier labs, eight-figure monthly GPU bills are routine. When numbers get that large, the question stops being \"are we training models?\" and starts being \"are we using what we bought?\"",
+      "tags": [
+        "gpu",
+        "ml-infrastructure",
+        "finops",
+        "kubernetes",
+        "cost-optimization",
+        "mlops"
+      ],
+      "scheduled_at": "2026-09-08T13:58:53Z",
       "status": "pending"
     }
   ]
