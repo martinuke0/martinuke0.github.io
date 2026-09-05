@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-08T16:58:53Z",
+  "last_scheduled_at": "2026-09-08T17:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21095,6 +21095,21 @@
         "career"
       ],
       "scheduled_at": "2026-09-08T16:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "From Terraform to Token Economics: The Six Skills That Became One Discipline",
+      "url": "https://martinuke0.github.io/posts/2026-09-05-from-terraform-to-token-economics-the-six-skills-that-became-one-discipline/",
+      "social_hook": "> TL;DR — AI infrastructure is not \"MLOps with GPUs.\" It is the collapse of six mature disciplines — Terraform, Kubernetes, GPU orchestration, inference-aware routing, SRE, and FinOps — into one operating model where the unit of accounting is the token and the unit of failure is a 200ms p99 regression on a cold A100.\n\nA few years ago, \"AI infrastructure\" was a slide in someone else's deck. It lived next to \"data labeling\" and \"model registry\" on a MarTech vendor's homepage. That world is gone. Today, the people shipping production LLM systems are the same people who used to run Kafka at 3 a.m., reconcile a cloud bill, and write Terraform modules for VPC peering. The tools changed. The disciplines didn't — they fused.\n\nThis post walks through the six disciplines that, taken together, define AI infrastructure in 2026. It is not a survey of frameworks. It is a working engineer's map of the territory.",
+      "tags": [
+        "ai-infrastructure",
+        "kubernetes",
+        "gpu-orchestration",
+        "inference-routing",
+        "finops",
+        "sre"
+      ],
+      "scheduled_at": "2026-09-08T17:58:53Z",
       "status": "pending"
     }
   ]
