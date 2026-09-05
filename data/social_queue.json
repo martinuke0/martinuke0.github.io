@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-07T19:58:53Z",
+  "last_scheduled_at": "2026-09-07T20:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20776,6 +20776,21 @@
         "portfolio-project"
       ],
       "scheduled_at": "2026-09-07T19:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Build a Speculative Decoder From Scratch: A Portfolio Project That Signals Real Systems Skill",
+      "url": "https://martinuke0.github.io/posts/2026-09-05-build-a-speculative-decoder-from-scratch-a-portfolio-project-that-signals-real-systems-skill/",
+      "social_hook": "> TL;DR — Speculative decoding trades a few extra forward passes for many cheap verifications, often 2–3× faster LLM sampling without changing outputs. This guide walks you through building one from scratch in ~300 lines of Python: an n-gram drafter proposes K tokens, a target model scores them all in parallel, and we accept the longest prefix the target agrees with. You get a runnable artifact for your CV, plus a concrete roadmap to evolve it toward production.\n\nMost engineers building portfolio projects reach for the same handful of ideas: a RAG chatbot, a fine-tuned classifier, a web scraper. These are fine, but they don't differentiate. Hiring managers reviewing systems-level resumes are looking for evidence that you understand how inference actually works — not just how to call an API. A speculative decoder is a sweet spot: it's small enough to finish in a weekend, deep enough to require real understanding of tokenization, autoregressive sampling, and batched GPU math, and it connects directly to a topic shipping in vLLM, TGI, and TensorRT-LLM right now.\n\nThis is not a tutorial on \"speculative decoding in 5 lines using the Hugging Face API.\" We're building the loop ourselves.",
+      "tags": [
+        "speculative-decoding",
+        "llm-inference",
+        "python",
+        "systems-engineering",
+        "machine-learning",
+        "n-grams"
+      ],
+      "scheduled_at": "2026-09-07T20:58:53Z",
       "status": "pending"
     }
   ]
