@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-07T20:58:53Z",
+  "last_scheduled_at": "2026-09-07T19:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20076,8 +20076,9 @@
         "Machine Learning"
       ],
       "scheduled_at": "2026-09-05T17:58:53Z",
-      "status": "posting",
-      "claimed_at": "2026-09-05T18:01:51Z"
+      "status": "posted",
+      "claimed_at": "2026-09-05T18:01:51Z",
+      "post_urn": "urn:li:share:7502063479403601922"
     },
     {
       "title": "LLM Gateway: One Layer to Manage Multiple AI Models",
@@ -20793,21 +20794,6 @@
         "portfolio-project"
       ],
       "scheduled_at": "2026-09-07T19:58:53Z",
-      "status": "pending"
-    },
-    {
-      "title": "Build a GGUF Parser and Safetensors Loader: A From-Scratch Mmap-Backed Weight Inspector",
-      "url": "https://martinuke0.github.io/posts/2026-09-05-build-a-gguf-parser-and-safetensors-loader-a-from-scratch-mmap-backed-weight-inspector/",
-      "social_hook": "> TL;DR — GGUF and safetensors are the two formats almost every open-weight LLM ships in, and both are designed to be memory-mapped. In one weekend you can build a small Python package that parses their headers, validates tensor integrity (SHA-256 in safetensors, the GGUF `general.file_type` flags and KV metadata in GGUF), and exposes tensors as numpy views backed by `mmap` — a tight, real-systems project that signals serious ML-infrastructure skill on a CV.\n\nHiring managers for ML platform, inference, or model-serving roles skim a portfolio for evidence that you understand what actually happens between `huggingface-cli download` and `forward()`. A weight-loader project hits that nerve exactly, and unusually directly.\n\n- Binary file format literacy. Both GGUF and safetensors have a non-trivial header format. Parsing them by hand — not via `transformers` — shows you can read a spec and implement it, which is the same skill required to wire up a custom model checkpoint format at a real company.",
-      "tags": [
-        "python",
-        "llm-inference",
-        "memory-mapping",
-        "gguf",
-        "safetensors",
-        "systems-engineering"
-      ],
-      "scheduled_at": "2026-09-07T20:58:53Z",
       "status": "pending"
     }
   ]
