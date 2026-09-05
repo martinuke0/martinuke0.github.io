@@ -19975,8 +19975,9 @@
         "distributed-systems"
       ],
       "scheduled_at": "2026-09-05T11:58:53Z",
-      "status": "posting",
-      "claimed_at": "2026-09-05T12:07:56Z"
+      "status": "posted",
+      "claimed_at": "2026-09-05T12:07:56Z",
+      "post_urn": "urn:li:share:7501974407779803136"
     },
     {
       "title": "Optimizing Small Language Models for Local Edge Inference: A Production-Ready Guide",
