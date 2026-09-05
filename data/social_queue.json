@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-08T06:58:53Z",
+  "last_scheduled_at": "2026-09-08T07:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20950,6 +20950,21 @@
         "architecture"
       ],
       "scheduled_at": "2026-09-08T06:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Inside TikTok's HarnessDev: How They Made Scaffolding for Microservices Scale to 6,000+ Services",
+      "url": "https://martinuke0.github.io/posts/2026-09-05-inside-tiktok/",
+      "social_hook": "> TL;DR — HarnessDev is TikTok's internal framework for scaffolding new microservices from a curated, versioned set of templates that bake in observability, security policy, and \"golden path\" defaults. It has been used to create more than 6,000 services across dozens of stacks, and the recently published paper shows how it balances developer autonomy with platform guardrails by treating templates as products.\n\nWhen an engineering org is small, \"create a new microservice\" is a Slack message, a copy-pasted README, and an afternoon someone loses. When that org is TikTok — somewhere north of 6,000 production microservices, with dozens of stacks (Go, Java, Python, Node, Rust, plus several internal DSLs) — the cost of inconsistency compounds. Every service that ships without tracing, without a sane retry policy, without a tested CI workflow, becomes a small piece of technical debt that platform and SRE teams will pay interest on for years.\n\nThe recently published paper on HarnessDev describes how TikTok responded to that compounding cost. Rather than treat scaffolding as documentation, they treated it as a product: a versioned, policy-aware code generator with its own release train, its own compatibility matrix, and its own internal users (the application developers who `harness new` to start a service).",
+      "tags": [
+        "tiktok",
+        "microservices",
+        "platform-engineering",
+        "developer-experience",
+        "code-generation",
+        "monorepo"
+      ],
+      "scheduled_at": "2026-09-08T07:58:53Z",
       "status": "pending"
     }
   ]
