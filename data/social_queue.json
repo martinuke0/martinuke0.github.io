@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-07T17:58:53Z",
+  "last_scheduled_at": "2026-09-07T18:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20737,6 +20737,20 @@
         "machine-learning-infrastructure"
       ],
       "scheduled_at": "2026-09-07T17:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Build a Speculative Decoding Sampler: A CV-Worthy Side Project",
+      "url": "https://martinuke0.github.io/posts/2026-09-05-build-a-speculative-decoding-sampler-a-cv-worthy-side-project/",
+      "social_hook": "> TL;DR — Speculative decoding lets a cheap draft model propose several tokens that a larger LLM verifies in a single forward pass, often 2–3× faster than autoregressive sampling with identical output distributions. In this post we build a runnable Python sampler that pairs a KenLM n-gram draft with Hugging Face Transformers, then extend it with caching, batching, observability, and fault tolerance so it reads like a real inference service on a CV.\n\nThere's a particular kind of side project that hiring managers stop scrolling for: one that proves you can take a paper from arXiv, turn it into working code, and reason about the system-level consequences. Speculative decoding is exactly that kind of project. The paper by Leviathan, Kalman, and Matias (and independently Chen et al.) introduced the idea; two years later it ships inside vLLM, TensorRT-LLM, and llama.cpp. Building your own minimal version teaches you more about LLM inference than reading another \"Intro to Transformers\" tutorial.\n\nHiring managers scanning a portfolio ask two questions: can this person ship? and do they understand systems, not just notebooks? This project answers both.",
+      "tags": [
+        "speculative-decoding",
+        "llm",
+        "inference",
+        "python",
+        "side-project"
+      ],
+      "scheduled_at": "2026-09-07T18:58:53Z",
       "status": "pending"
     }
   ]
