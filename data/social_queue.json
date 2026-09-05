@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-07T23:58:53Z",
+  "last_scheduled_at": "2026-09-08T00:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20851,6 +20851,20 @@
         "production-engineering"
       ],
       "scheduled_at": "2026-09-07T23:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Split Agent Architecture in Harness: Separating Reasoning from Execution",
+      "url": "https://martinuke0.github.io/posts/2026-09-05-split-agent-architecture-in-harness-separating-reasoning-from-execution/",
+      "social_hook": "> TL;DR — Harness splits its coding agent into a planner that reasons about what to do and an executor that actually runs code, edits files, and shells out. The planner stays in your IDE loop with low latency; the executor runs in an ephemeral sandbox with full audit trails. The split is what makes the agent fast enough to feel interactive and safe enough to ship to enterprise teams.\n\nIf you've used an AI coding agent long enough, you've probably hit the same wall I have: the moment the agent needs to do something non-trivial — clone a repo, run tests, mutate a database, hit a real API — the experience falls apart. The model has to either pretend to do it (hallucinated output) or actually do it (and suddenly you're running untrusted code in your laptop's userland).\n\nThe naive answer is to give the model a tool-calling loop: let it write code, execute it, read the output, and iterate. This works for demos. It breaks down in production for three reasons:",
+      "tags": [
+        "harness",
+        "ai-agents",
+        "software-engineering",
+        "devops",
+        "agent-architecture"
+      ],
+      "scheduled_at": "2026-09-08T00:58:53Z",
       "status": "pending"
     }
   ]
