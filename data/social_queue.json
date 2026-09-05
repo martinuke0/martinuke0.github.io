@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-08T09:58:53Z",
+  "last_scheduled_at": "2026-09-08T10:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20994,6 +20994,21 @@
         "mlops"
       ],
       "scheduled_at": "2026-09-08T09:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "From Prompt to Packet: Tracing an AI Request Through the Modern Inference Stack",
+      "url": "https://martinuke0.github.io/posts/2026-09-05-from-prompt-to-packet-tracing-an-ai-request-through-the-modern-inference-stack/",
+      "social_hook": "> TL;DR — A production AI request crosses at least nine distinct layers — app, agent runtime, gateway, inference server, GPU scheduler, container orchestrator, fabric, observability, and FinOps — and each one is a place where latency, cost, or security can leak. Tracing the path end to end is the only way to debug tail latency, right-size capacity, and defend against the new attack surface that agents open up.\n\nFive years ago, the hard part of shipping an AI feature was getting the model to do the thing. Today, the hard part is everything around the model. A typical agent request on a modern stack will touch:\n\n5. A Kubernetes scheduler + GPU operator (Karpenter, NVIDIA device plugin, time-slicing).",
+      "tags": [
+        "ai-infrastructure",
+        "kubernetes",
+        "gpu",
+        "networking",
+        "observability",
+        "finops"
+      ],
+      "scheduled_at": "2026-09-08T10:58:53Z",
       "status": "pending"
     }
   ]
