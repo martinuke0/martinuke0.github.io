@@ -20092,8 +20092,9 @@
         "production-engineering"
       ],
       "scheduled_at": "2026-09-05T18:58:53Z",
-      "status": "posting",
-      "claimed_at": "2026-09-05T18:58:54Z"
+      "status": "posted",
+      "claimed_at": "2026-09-05T18:58:54Z",
+      "post_urn": "urn:li:share:7502077829401210881"
     },
     {
       "title": "NVIDIA Model Optimizer: The Compiler-Style Playbook for Production LLM Inference",
