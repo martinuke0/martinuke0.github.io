@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-08T00:58:53Z",
+  "last_scheduled_at": "2026-09-08T01:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20865,6 +20865,20 @@
         "agent-architecture"
       ],
       "scheduled_at": "2026-09-08T00:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building Production Systems on the Claude API: A Practical Engineering Guide",
+      "url": "https://martinuke0.github.io/posts/2026-09-05-building-production-systems-on-the-claude-api-a-practical-engineering-guide/",
+      "social_hook": "> TL;DR — The Claude API is more than an HTTP wrapper around a model; it's a set of primitives (messages, tools, system prompts, caching, batching) that reward careful system design. This guide covers the architectural patterns, reliability techniques, and cost-control levers that separate a working demo from a system you can actually run in production.\n\nThe first time you call the Claude API, it feels almost trivial. You POST some JSON, you get a string back. The second time, you wrap it in a retry loop. The third time, you're arguing with yourself about whether to stream tokens, whether to cache the system prompt, and whether your `max_tokens` budget will survive a long-context summarization pipeline.\n\nThis post is for the engineer on that third call — the one who has moved past \"does it work?\" and into \"will it work at 3 AM, at scale, without bankrupting the team?\" Everything below assumes you've already read the Anthropic API quickstart and have a working prototype. We're going to focus on the engineering discipline around it.",
+      "tags": [
+        "claude-api",
+        "anthropic",
+        "llm-integration",
+        "production-ai",
+        "prompt-engineering"
+      ],
+      "scheduled_at": "2026-09-08T01:58:53Z",
       "status": "pending"
     }
   ]
