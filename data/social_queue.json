@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-07T19:58:53Z",
+  "last_scheduled_at": "2026-09-07T20:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20770,6 +20770,21 @@
         "portfolio-project"
       ],
       "scheduled_at": "2026-09-07T19:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building a GGUF Parser and Tensor Loader From Scratch: A Portfolio Project That Actually Signals Systems Skill",
+      "url": "https://martinuke0.github.io/posts/2026-09-05-building-a-gguf-parser-and-tensor-loader-from-scratch-a-portfolio-project-that-actually-signals-systems-skill/",
+      "social_hook": "> TL;DR — GGUF is the format behind every local Llama-family model. A from-scratch parser that handles header metadata, q4_0/q8_0 dequantization, and mmap'd weight streaming into a working forward pass demonstrates file format fluency, low-level numerics, memory-mapped I/O, and transformer internals — the exact stack ML systems teams hire for.\n\nMost \"LLM projects\" on portfolios are API wrappers in Python that call `openai.ChatCompletion.create()`. They look identical to every other applicant, and they signal nothing about how you think about hardware, memory, or data layout. A GGUF parser is different. It's the kind of project that makes a hiring manager at an ML infra team stop scrolling.\n\n- Binary format literacy. GGUF is a versioned, little-endian binary container with typed metadata (strings, arrays, nested kv-pairs) and a tensor index. Reading it from scratch means writing endian-correct struct decoders, validating magic numbers, and reasoning about alignment — the same muscles used for protocol buffers, FlatBuffers, or image codecs.",
+      "tags": [
+        "gguf",
+        "llm-internals",
+        "rust",
+        "quantization",
+        "systems-engineering",
+        "portfolio"
+      ],
+      "scheduled_at": "2026-09-07T20:58:53Z",
       "status": "pending"
     }
   ]
