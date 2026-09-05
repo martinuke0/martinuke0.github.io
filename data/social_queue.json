@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-07T19:58:53Z",
+  "last_scheduled_at": "2026-09-07T20:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20774,6 +20774,20 @@
         "portfolio-project"
       ],
       "scheduled_at": "2026-09-07T19:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Inside Apache Flink's Two-Phase Commit Sink: Exactly-Once Guarantees Across Sinks",
+      "url": "https://martinuke0.github.io/posts/2026-09-05-inside-apache-flink/",
+      "social_hook": "> TL;DR — Apache Flink delivers end-to-end exactly-once semantics by pairing its distributed checkpoint algorithm with a two-phase commit (2PC) protocol at the sink. Each checkpoint acts as the \"prepare\" phase and the next successful checkpoint acts as the \"commit\" trigger, which is why sinks must implement `TwoPhaseCommitSinkFunction` and why idempotent or transactional downstream systems are non-negotiable.\n\nA streaming pipeline rarely ends at a Flink operator. Records eventually have to land somewhere durable: a Kafka topic, a Postgres table, a S3 prefix, or a JDBC warehouse. Once they leave the JVM, Flink can no longer guarantee anything about them on its own — it can only coordinate.\n\nThis is where most teams quietly lose their \"exactly-once\" promise. They configure Flink with the right checkpointing settings, point the sink at Kafka, and assume the contract holds. In practice, the guarantee is only as strong as the sink's commit protocol, and most built-in sinks fall into one of two camps:",
+      "tags": [
+        "apache-flink",
+        "stream-processing",
+        "exactly-once",
+        "two-phase-commit",
+        "distributed-systems"
+      ],
+      "scheduled_at": "2026-09-07T20:58:53Z",
       "status": "pending"
     }
   ]
