@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-09T05:58:53Z",
+  "last_scheduled_at": "2026-09-09T06:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21318,6 +21318,20 @@
         "data pipelines"
       ],
       "scheduled_at": "2026-09-09T05:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "The Token Tax: Why Most AI Coding Costs Are Wasted on Work a $0.10 Model Could Do",
+      "url": "https://martinuke0.github.io/posts/2026-09-06-the-token-tax-why-most-ai-coding-costs-are-wasted-on-work-a-010-model-could-do/",
+      "social_hook": "> TL;DR — The majority of tokens your AI coding agent burns aren't spent reasoning, they're spent reading boilerplate and writing boilerplate. By routing I/O-heavy tasks to a cheap model via a hook-based delegation layer, you can keep the frontier model only for the work that actually requires it. The pattern is simple, the savings are dramatic, and the architecture generalizes far beyond coding assistants.\n\nThere's a category mistake happening inside every AI coding agent, and it's costing you money every single day. The mistake is treating \"reading a 600-line file to find one method\" the same as \"designing a distributed lock with idempotency guarantees.\" Both end up in your token ledger as roughly equivalent expenses, but the actual cognitive work involved is wildly different. One is a grep with extra steps. The other is a system design decision.\n\nA frontier model like Claude Opus 4 or GPT-5 is genuinely extraordinary at the second task. It's catastrophically overqualified for the first. And yet, in a typical session, the ratio is usually inverted: dozens of file reads, dozens of boilerplate writes, and maybe a handful of moments that actually require deep reasoning. You're paying for an F1 engine to drive to the mailbox.",
+      "tags": [
+        "ai-agents",
+        "llm",
+        "developer-tools",
+        "cost-optimization",
+        "claude-code"
+      ],
+      "scheduled_at": "2026-09-09T06:58:53Z",
       "status": "pending"
     }
   ]
