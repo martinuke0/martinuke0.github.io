@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-09T02:58:53Z",
+  "last_scheduled_at": "2026-09-09T03:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21249,6 +21249,21 @@
         "inference"
       ],
       "scheduled_at": "2026-09-09T02:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Build a Mini GPT From Scratch in Pure NumPy: A Hiring-Manager-Worthy Project",
+      "url": "https://martinuke0.github.io/posts/2026-09-06-build-a-mini-gpt-from-scratch-in-pure-numpy-a-hiring-manager-worthy-project/",
+      "social_hook": "> TL;DR — This project trains a tiny decoder-only transformer from absolute scratch in pure NumPy — no PyTorch, no JAX — using float16/bfloat16 mixed precision, AdamW, a cosine learning rate, and gradient accumulation to simulate large effective batch sizes. It's the rare portfolio piece that proves you understand both the math and the systems under the hood of every modern LLM stack.\n\nMost ML side projects stop at the model. They download a pretrained checkpoint from the Hugging Face Hub, fine-tune it on a Kaggle CSV, and call it done. That tells a hiring manager one thing: you can `pip install` and run a notebook. It doesn't tell them you understand what's happening when that notebook crashes at 3 AM in production.\n\nThis project is different. You're not using an autograd engine. You're not using an optimizer someone else wrote. You're implementing the whole loop — forward pass, backward pass, parameter updates — and then you're wrapping it in the same systems-level patterns that real LLM training runs rely on:",
+      "tags": [
+        "machine-learning",
+        "numpy",
+        "deep-learning",
+        "gpt",
+        "python",
+        "career"
+      ],
+      "scheduled_at": "2026-09-09T03:58:53Z",
       "status": "pending"
     }
   ]
