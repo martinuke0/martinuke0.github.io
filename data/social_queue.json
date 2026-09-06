@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-09T03:58:53Z",
+  "last_scheduled_at": "2026-09-09T02:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20318,8 +20318,9 @@
         "production-engineering"
       ],
       "scheduled_at": "2026-09-06T08:58:53Z",
-      "status": "posting",
-      "claimed_at": "2026-09-06T09:02:16Z"
+      "status": "posted",
+      "claimed_at": "2026-09-06T09:02:16Z",
+      "post_urn": "urn:li:share:7502290072571101184"
     },
     {
       "title": "Architecting Autonomous Memory Systems for Distributed AI Agent Orchestration",
@@ -21266,20 +21267,6 @@
         "inference"
       ],
       "scheduled_at": "2026-09-09T02:58:53Z",
-      "status": "pending"
-    },
-    {
-      "title": "Build a WordPiece Tokenizer From Scratch: A CV-Worthy NLP Project",
-      "url": "https://martinuke0.github.io/posts/2026-09-06-build-a-wordpiece-tokenizer-from-scratch-a-cv-worthy-nlp-project/",
-      "social_hook": "> TL;DR — A from-scratch WordPiece tokenizer is a small, runnable system that proves you understand subword segmentation, the greedy longest-match algorithm, and BERT's special-token contract end-to-end. It fits on a single weekend but signals NLP depth, careful testing habits, and the kind of systems thinking hiring managers look for in ML and platform roles.\n\nHiring teams in 2026 are drowning in portfolio projects that wrap an LLM API. The projects that cut through are ones where the candidate shows they understand what sits underneath the API surface. A tokenizer is one of those layers. Almost every modern NLP system — BERT, DistilBERT, RoBERTa, ALBERT, the encoder half of T5 — uses WordPiece as its subword algorithm, and the people who can reason about it confidently are the ones who can debug tokenization drift, vocabulary mismatches, and \"why does this one input blow up my model\" bugs in production.\n\n- Algorithm literacy. You can explain and implement the longest-match-first scoring rule, the `##` continuation convention, and the difference between BPE merge-order learning and WordPiece likelihood scoring. That vocabulary is what shows up in system design interviews for ML platform roles.",
-      "tags": [
-        "nlp",
-        "python",
-        "tokenization",
-        "bert",
-        "side-projects"
-      ],
-      "scheduled_at": "2026-09-09T03:58:53Z",
       "status": "pending"
     }
   ]
