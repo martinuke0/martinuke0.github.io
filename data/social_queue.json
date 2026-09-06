@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-09T06:58:53Z",
+  "last_scheduled_at": "2026-09-09T05:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20367,8 +20367,9 @@
         "certification"
       ],
       "scheduled_at": "2026-09-06T11:58:53Z",
-      "status": "posting",
-      "claimed_at": "2026-09-06T12:01:43Z"
+      "status": "posted",
+      "claimed_at": "2026-09-06T12:01:43Z",
+      "post_urn": "urn:li:share:7502335236328882176"
     },
     {
       "title": "Inside Bazel 7: Remote Build Execution and the Architecture of Distributed Caching",
@@ -21315,21 +21316,6 @@
         "data pipelines"
       ],
       "scheduled_at": "2026-09-09T05:58:53Z",
-      "status": "pending"
-    },
-    {
-      "title": "Implementing End-to-End Encrypted Push Notifications with Signal and MLS",
-      "url": "https://martinuke0.github.io/posts/2026-09-06-implementing-end-to-end-encrypted-push-notifications-with-signal-and-mls/",
-      "social_hook": "> TL;DR — Push notifications are an underappreciated privacy hole: the gateway, OS, and cloud messaging fabric all see the plaintext. You can close that hole by treating the push payload as just another Signal Protocol or MLS message, sealing it on the sender side and only delivering ciphertext through APNs or FCM. The result is a notification pipeline where the server is a blind courier, but you pay for it in payload size limits, key management, and silent-push complexity.\n\nMost \"end-to-end encrypted\" messengers quietly break their promise the moment a notification fires. On iOS, APNs requires a visible alert payload; on Android, FCM hands its `data` payload to the system and any installed app with notification access. Either way, the notification body — the most context-revealing part of any message — ends up in a log file somewhere you do not control.\n\nThe fix is conceptually simple: never let the gateway see plaintext. Treat push as a transport, the same way you treat a TLS connection. The sender encrypts a small \"wake-up\" envelope to the recipient's notification key, the server blindly forwards it, and the recipient's device decrypts and renders the alert locally. This is the model Signal adopted in 2017 with Sealed Sender and later refined for notifications, and it is the model the IETF's MLS working group is standardizing for group chats in RFC 9420.",
-      "tags": [
-        "messaging-security",
-        "signal-protocol",
-        "mls",
-        "push-notifications",
-        "applied-cryptography",
-        "distributed-systems"
-      ],
-      "scheduled_at": "2026-09-09T06:58:53Z",
       "status": "pending"
     }
   ]
