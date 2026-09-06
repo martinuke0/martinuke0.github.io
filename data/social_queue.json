@@ -20481,7 +20481,8 @@
         "aws-eks"
       ],
       "scheduled_at": "2026-09-06T18:58:53Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-06T19:29:09Z"
     },
     {
       "title": "Designing eBPF-Based Telemetry Pipelines for Constrained Embedded Linux Devices",
