@@ -20548,7 +20548,8 @@
         "security"
       ],
       "scheduled_at": "2026-09-06T22:58:53Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-06T23:04:01Z"
     },
     {
       "title": "SGLang in Production: How Structured Generation Makes LLM Serving Actually Fast",
