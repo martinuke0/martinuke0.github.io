@@ -20286,7 +20286,8 @@
         "low-latency"
       ],
       "scheduled_at": "2026-09-06T06:58:53Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-06T08:01:47Z"
     },
     {
       "title": "Architecting Multi-Provider AI Pipelines: A Deep Dive into Liter-LLM and Rust-Powered Polyglot Bindings",
