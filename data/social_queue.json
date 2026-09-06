@@ -20532,7 +20532,8 @@
         "devops"
       ],
       "scheduled_at": "2026-09-06T21:58:53Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-06T23:04:01Z"
     },
     {
       "title": "Implementing WebAuthn Passkeys: Inside the FIDO2 Registration Ceremony",
