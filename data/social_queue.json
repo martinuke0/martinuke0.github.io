@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-09T05:58:53Z",
+  "last_scheduled_at": "2026-09-09T06:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21316,6 +21316,21 @@
         "data pipelines"
       ],
       "scheduled_at": "2026-09-09T05:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing Hermetic Builds with Bazel and Buildbuddy for Reproducible CI Pipelines",
+      "url": "https://martinuke0.github.io/posts/2026-09-06-implementing-hermetic-builds-with-bazel-and-buildbuddy-for-reproducible-ci-pipelines/",
+      "social_hook": "> TL;DR — Bazel enforces hermeticity by sandboxing every action and hashing its inputs, while Buildbuddy layers on a remote cache and execution backend that turns that hermeticity into shared, distributed speedups. Together they collapse flaky, slow CI into a reproducible pipeline where the same commit always produces the same artifacts.\n\nA hermetic build is one whose output depends only on the declared inputs — source files, toolchain, environment — and nothing else. No ambient `$PATH` that a teammate happened to install, no cached `~/.m2/repository` that differs between runners, no clock skew, no leftover files from a previous build. If you replayed the build on a clean machine in a clean room, you'd get byte-identical output.\n\nIn CI, the absence of hermeticity shows up as the worst class of bug: the sometimes-green, sometimes-red build. Engineers learn to retry. PRs sit in queue. Releases slip. Worse, when you ship binaries, non-determinism lets attackers slip tampered artifacts into your supply chain without breaking the build — because the build \"looks fine.\"",
+      "tags": [
+        "bazel",
+        "buildbuddy",
+        "hermetic-builds",
+        "ci-cd",
+        "reproducible-builds",
+        "supply-chain"
+      ],
+      "scheduled_at": "2026-09-09T06:58:53Z",
       "status": "pending"
     }
   ]
