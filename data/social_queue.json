@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-09T02:58:53Z",
+  "last_scheduled_at": "2026-09-09T03:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21267,6 +21267,21 @@
         "inference"
       ],
       "scheduled_at": "2026-09-09T02:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building a LoRA Training Loop From Scratch in Pure NumPy",
+      "url": "https://martinuke0.github.io/posts/2026-09-06-building-a-lora-training-loop-from-scratch-in-pure-numpy/",
+      "social_hook": "> TL;DR — LoRA fine-tunes a model by learning two small matrices whose product approximates a weight update. This guide walks you through implementing the entire training loop — forward pass, MSE loss, and manual backward gradients through both low-rank matrices — in pure NumPy. You'll end up with a runnable artifact that's small enough to read in one sitting but dense enough to demonstrate that you understand how PyTorch actually works under the hood.\n\nThere's a strange gap in most ML portfolios. Candidates can fine-tune a model with `peft` and `transformers` in ten lines of code, but few can explain what those ten lines are actually doing. Hiring managers notice. The project below is designed to close that gap: it's a complete LoRA training loop written from first principles, with every gradient computed by hand. It's small, it's runnable, and it's the kind of artifact that prompts the follow-up question you actually want in an interview: \"Tell me more about how you built that.\"\n\nMost ML side projects fall into one of two buckets: \"I fine-tuned BERT on a Kaggle dataset\" or \"I read the Transformer paper and built an animation.\" Neither is bad, but both have become table stakes. What makes a project stand out in 2026 is whether it demonstrates that you understand the mechanics of modern training, not just how to call into a high-level library.",
+      "tags": [
+        "lora",
+        "numpy",
+        "deep-learning",
+        "machine-learning",
+        "python",
+        "side-projects"
+      ],
+      "scheduled_at": "2026-09-09T03:58:53Z",
       "status": "pending"
     }
   ]
