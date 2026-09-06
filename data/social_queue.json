@@ -20172,8 +20172,9 @@
         "marketing"
       ],
       "scheduled_at": "2026-09-05T23:58:53Z",
-      "status": "posting",
-      "claimed_at": "2026-09-06T00:01:34Z"
+      "status": "posted",
+      "claimed_at": "2026-09-06T00:01:34Z",
+      "post_urn": "urn:li:share:7502154016018116609"
     },
     {
       "title": "Architecting Double-Entry Ledger Systems: Schema, Concurrency, and Auditability for Financial Integrity",
