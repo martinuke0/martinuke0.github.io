@@ -20253,7 +20253,8 @@
         "reliability"
       ],
       "scheduled_at": "2026-09-06T04:58:53Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-06T06:02:34Z"
     },
     {
       "title": "Designing the Saga Pattern for Distributed Transactions: Orchestration, Compensation, and Commerce Resilience",
