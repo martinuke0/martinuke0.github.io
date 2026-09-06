@@ -20269,8 +20269,9 @@
         "event-driven"
       ],
       "scheduled_at": "2026-09-06T05:58:53Z",
-      "status": "posting",
-      "claimed_at": "2026-09-06T06:02:34Z"
+      "status": "posted",
+      "claimed_at": "2026-09-06T06:02:34Z",
+      "post_urn": "urn:li:share:7502244871735537664"
     },
     {
       "title": "Implementing Concurrent Garbage Collection with Tri-Color Marking: From Theory to Production-Ready JVM Tuning",
