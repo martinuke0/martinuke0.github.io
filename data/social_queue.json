@@ -20416,7 +20416,8 @@
         "cryptography"
       ],
       "scheduled_at": "2026-09-06T14:58:53Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-06T15:34:19Z"
     },
     {
       "title": "Architecting a Real-Time Video Pipeline with WebRTC and Janus",
