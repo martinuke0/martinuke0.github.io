@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-09T04:58:53Z",
+  "last_scheduled_at": "2026-09-09T05:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21300,6 +21300,20 @@
         "context-engineering"
       ],
       "scheduled_at": "2026-09-09T04:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "AI Engineering From Scratch: The Production Blueprint Most Tutorials Skip",
+      "url": "https://martinuke0.github.io/posts/2026-09-06-ai-engineering-from-scratch-the-production-blueprint-most-tutorials-skip/",
+      "social_hook": "> TL;DR — AI engineering is the discipline of turning models into reliable products. That means owning the data, the training loop, the eval harness, the serving surface, and the monitoring that catches silent regressions. This post lays out the end-to-end blueprint most tutorials skip, with concrete patterns from real production stacks like those running on Kafka, Airflow, and Postgres.\n\nThere's a difference between someone who can call a model API and someone who can put a model behind a $20M feature. The first is a skill; the second is a discipline. AI engineering is the discipline.\n\nThe core problem: models are stochastic, data drifts, GPUs are expensive, latency budgets are unforgiving, and the failure modes are silent. A well-tuned notebook can degrade 12% in production without anyone noticing for six weeks. The engineer who builds the system has to design for that — not just for the happy path on a held-out test set.",
+      "tags": [
+        "ai engineering",
+        "machine learning",
+        "MLOps",
+        "production ml",
+        "data pipelines"
+      ],
+      "scheduled_at": "2026-09-09T05:58:53Z",
       "status": "pending"
     }
   ]
