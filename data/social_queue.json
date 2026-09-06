@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-09T02:58:53Z",
+  "last_scheduled_at": "2026-09-09T03:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21257,6 +21257,21 @@
         "inference"
       ],
       "scheduled_at": "2026-09-09T02:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building Mixed-Precision AdamW with ZeRO-1 from Scratch in Pure PyTorch",
+      "url": "https://martinuke0.github.io/posts/2026-09-06-building-mixed-precision-adamw-with-zero-1-from-scratch-in-pure-pytorch/",
+      "social_hook": "> TL;DR — Mixed-precision AdamW and ZeRO-1 are two of the most-cited optimisations in modern training stacks (Apex, Megatron, DeepSpeed, FairScale). Rebuilding them in pure PyTorch — without leaning on `torch.cuda.amp` or `DeepSpeed` — gives you a CV project that proves you understand FP16 underflow, gradient scaling, parameter sharding, and `all-gather`/`reduce-scatter` collectives from first principles.\n\nMost ML side projects on hiring managers' desks are Jupyter notebooks that fine-tune a HuggingFace model on a sentiment dataset. They demonstrate familiarity with a library, not engineering depth. This project is different. It forces you to engage with the layers that production training frameworks sit on:\n\n- Mixed-precision arithmetic: FP16/BF16 storage, FP32 master weights, safe downcast/cast boundaries, and the gradient-scaling machinery that prevents underflow. You'll understand why Apex and `torch.cuda.amp` exist rather than just calling them.",
+      "tags": [
+        "pytorch",
+        "deep-learning",
+        "distributed-training",
+        "mixed-precision",
+        "ze-ro",
+        "optimizers"
+      ],
+      "scheduled_at": "2026-09-09T03:58:53Z",
       "status": "pending"
     }
   ]
