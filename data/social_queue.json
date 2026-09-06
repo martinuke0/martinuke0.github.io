@@ -20400,7 +20400,8 @@
         "cilium"
       ],
       "scheduled_at": "2026-09-06T13:58:53Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-06T14:02:13Z"
     },
     {
       "title": "Inside WebAuthn: How Passkeys Really Work Under the Hood",
