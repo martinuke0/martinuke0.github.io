@@ -20237,7 +20237,8 @@
         "performance"
       ],
       "scheduled_at": "2026-09-06T03:58:53Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-06T04:03:00Z"
     },
     {
       "title": "9 Distributed Systems Patterns You Should Know",
