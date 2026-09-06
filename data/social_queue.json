@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-09T03:58:53Z",
+  "last_scheduled_at": "2026-09-09T04:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21286,6 +21286,20 @@
         "production-engineering"
       ],
       "scheduled_at": "2026-09-09T03:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Context Graphs for Coding Agents: Why Tool-Call Counts Are the New Token Bill",
+      "url": "https://martinuke0.github.io/posts/2026-09-06-context-graphs-for-coding-agents-why-tool-call-counts-are-the-new-token-bill/",
+      "social_hook": "> TL;DR — Modern coding agents spend the majority of their token budget on retrieval: grepping, listing files, and re-reading modules they've already seen. Precomputed context graphs shift that work out of the agent loop, cutting tool calls by 46%, tokens by 42%, and wall-clock time by 60% in public benchmarks — without hurting, and often improving, correctness.\n\nIf you have watched a coding agent work — Claude Code, Cursor, Codex, Gemini CLI — you have probably noticed something strange. The model is supposed to be writing code, yet a large fraction of its turns are spent reading the same files twice, listing directories it has already listed, and grepping for symbols it has already resolved. On a recent refactor across a TypeScript service, I watched an agent burn through roughly 60% of its tool-call budget before it wrote a single line of new code.\n\nLLMs do not have a persistent mental model of your repository. Every turn begins with whatever is in the context window and whatever tools it can call. To answer even a small question like \"where is authentication handled?\", the agent typically issues a chain like:",
+      "tags": [
+        "ai-agents",
+        "llm",
+        "developer-tools",
+        "code-search",
+        "context-engineering"
+      ],
+      "scheduled_at": "2026-09-09T04:58:53Z",
       "status": "pending"
     }
   ]
