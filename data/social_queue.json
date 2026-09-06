@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-09T06:58:53Z",
+  "last_scheduled_at": "2026-09-09T07:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21332,6 +21332,21 @@
         "claude-code"
       ],
       "scheduled_at": "2026-09-09T06:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building a Rotary Positional Embedding Kernel from Scratch: A Portfolio Project That Signals Real Systems Skill",
+      "url": "https://martinuke0.github.io/posts/2026-09-06-building-a-rotary-positional-embedding-kernel-from-scratch-a-portfolio-project-that-signals-real-systems-skill/",
+      "social_hook": "> TL;DR — Rotary Positional Embeddings (RoPE) are the positional scheme behind Llama, Mistral, Qwen, and most modern transformers. This post walks you through building a from-scratch RoPE kernel in PyTorch with a custom `torch.autograd.Function`, a fused `torch.compile`/Triton-style forward pass, and a test harness that proves it numerically matches the reference. It is short enough to finish in a weekend and dense enough to demonstrate GPU kernels, autograd internals, and numerical literacy — exactly the stack hiring managers look for on a CV.\n\nIf you want a portfolio piece that does more than \"I trained a CNN on CIFAR-10,\" this is the one. RoPE is the positional encoding used by essentially every modern open-weight LLM — see the original RoPE paper (Su et al., 2021) and its wide adoption in models like Llama 2 and Qwen. Implementing it from the metal up shows you understand why those models work the way they do.\n\nMost CV-side ML projects collapse into one of two buckets: \"I called `model.fit()`\" or \"I fine-tuned Llama with LoRA.\" Neither tells a hiring manager anything about how you think at the systems layer. A custom kernel project does, because it forces you to touch every layer of the stack:",
+      "tags": [
+        "cuda",
+        "pytorch",
+        "rotary-positional-embeddings",
+        "systems-engineering",
+        "machine-learning",
+        "portfolio-project"
+      ],
+      "scheduled_at": "2026-09-09T07:58:53Z",
       "status": "pending"
     }
   ]
