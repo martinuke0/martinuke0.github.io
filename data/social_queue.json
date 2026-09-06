@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-09T02:58:53Z",
+  "last_scheduled_at": "2026-09-09T03:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21253,6 +21253,20 @@
         "inference"
       ],
       "scheduled_at": "2026-09-09T02:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building a Sliding-Window Attention Manager from Scratch",
+      "url": "https://martinuke0.github.io/posts/2026-09-06-building-a-sliding-window-attention-manager-from-scratch/",
+      "social_hook": "> TL;DR — A sliding-window attention manager with prefix-caching is one of the highest-signal side projects you can ship in 2026: it touches KV-cache memory budgets, eviction policies, and request-level caching, all of which appear in production inference stacks like vLLM, TensorRT-LLM, and llama.cpp. This guide walks through a ~600-line Python implementation, with runnable code for tokenization, the ring-buffer KV store, the eviction policy, and an LRU prefix-cache, then shows how to extend it into something production-flavored.\n\nMost \"build an LLM from scratch\" tutorials stop at the forward pass. That's the easy part. The interesting engineering lives in how a serving system decides what to keep in memory when a 200k-token conversation rolls in and you have 16 GB of VRAM. That decision is what this project is about.\n\n- Promotes stable prompt prefixes into a shared LRU cache so two requests with the same system prompt share KV blocks",
+      "tags": [
+        "python",
+        "machine-learning",
+        "infrastructure",
+        "systems-design",
+        "portfolio"
+      ],
+      "scheduled_at": "2026-09-09T03:58:53Z",
       "status": "pending"
     }
   ]
