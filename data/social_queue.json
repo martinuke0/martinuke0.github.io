@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-09T02:58:53Z",
+  "last_scheduled_at": "2026-09-09T03:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21245,6 +21245,21 @@
         "inference"
       ],
       "scheduled_at": "2026-09-09T02:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Designing Lock-Free Queues: Inside the Linux KFIFO and Ringbuffer Implementations",
+      "url": "https://martinuke0.github.io/posts/2026-09-06-designing-lock-free-queues-inside-the-linux-kfifo-and-ringbuffer-implementations/",
+      "social_hook": "> TL;DR — Linux's `kfifo` is a lock-free, wait-free FIFO built around a single power-of-two ring and a single `unsigned long` atomic that packs both the in and out offsets. With one producer and one consumer thread, no lock, no CAS loop, and no retry is needed — just two acquire/release pairs on a single integer. The same shape shows up in DPDK rings, `io_uring` SQ/CQ rings, and many audio/video pipelines.\n\nA FIFO is the most boring data structure in computer science. You push on one end, you pop on the other, you don't even need to think. The moment two threads enter the picture, the boring FIFO becomes one of the most subtle objects you can implement. The classic wrong version — `in` and `out` as two separate integers guarded by a mutex — is correct but slow. The naive lock-free version — `in` and `out` as two separate atomics with CAS — is correct only if you're careful about wrap-around, modulo arithmetic, and the fact that `in == out` ambiguously means both \"empty\" and \"full\" when the ring has size `N`.\n\nThe Linux kernel's `kfifo` (defined in `include/linux/kfifo.h` and implemented in `lib/kfifo.c`) sidesteps all of these landmines with two design choices:",
+      "tags": [
+        "linux-kernel",
+        "lock-free",
+        "ringbuffer",
+        "kfifo",
+        "data-structures",
+        "concurrency"
+      ],
+      "scheduled_at": "2026-09-09T03:58:53Z",
       "status": "pending"
     }
   ]
