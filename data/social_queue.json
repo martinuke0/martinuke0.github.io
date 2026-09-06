@@ -20318,7 +20318,8 @@
         "production-engineering"
       ],
       "scheduled_at": "2026-09-06T08:58:53Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-06T09:02:16Z"
     },
     {
       "title": "Architecting Autonomous Memory Systems for Distributed AI Agent Orchestration",
