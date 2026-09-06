@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-09T02:58:53Z",
+  "last_scheduled_at": "2026-09-09T03:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21261,6 +21261,21 @@
         "inference"
       ],
       "scheduled_at": "2026-09-09T02:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Build a GPTQ int4 Quantization Engine in Python/NumPy",
+      "url": "https://martinuke0.github.io/posts/2026-09-06-build-a-gptq-int4-quantization-engine-in-pythonnumpy/",
+      "social_hook": "> TL;DR — You'll build a complete GPTQ-style int4 weight-only quantization pipeline in ~300 lines of Python/NumPy: Hessian-based calibration, group-wise affine scales, packed int4 storage, and a fused dequantize-matmul kernel that beats naive matmul on memory bandwidth. It's the kind of project that signals you understand how modern LLM serving (vLLM, TGI, llama.cpp, ExLlamaV2) actually works under the hood.\n\nThere's a gap on most ML engineering CVs between \"I trained a model in a Kaggle notebook\" and \"I shipped an inference system.\" Building a quantization engine from scratch — even a small one — closes that gap. It forces you to confront the real frictions of ML systems work: numerical stability under low precision, memory layout, kernel fusion, and the calibration-vs-quantization tradeoff. None of that shows up in a typical PyTorch tutorial, and all of it shows up in production LLM serving.\n\nThis guide walks through the build end-to-end. Every code block runs. By the end you'll have a project that demonstrates the same mental model the AutoGPTQ, bitsandbytes, and llama.cpp teams use daily.",
+      "tags": [
+        "python",
+        "numpy",
+        "quantization",
+        "gptq",
+        "llm-inference",
+        "ml-systems"
+      ],
+      "scheduled_at": "2026-09-09T03:58:53Z",
       "status": "pending"
     }
   ]
