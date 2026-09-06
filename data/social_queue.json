@@ -20302,7 +20302,8 @@
         "polyglot"
       ],
       "scheduled_at": "2026-09-06T07:58:53Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-06T08:01:47Z"
     },
     {
       "title": "Architecting Retrieval-Augmented Generation Systems: A Deep Dive into Production Pipelines",
