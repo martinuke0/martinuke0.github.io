@@ -20498,7 +20498,8 @@
         "iot"
       ],
       "scheduled_at": "2026-09-06T19:58:53Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-06T21:33:00Z"
     },
     {
       "title": "Inside gVisor: How User-Space Kernels Sandbox Containers at the Syscall Boundary",
