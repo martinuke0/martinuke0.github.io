@@ -20220,7 +20220,8 @@
         "https"
       ],
       "scheduled_at": "2026-09-06T02:58:53Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-06T04:03:00Z"
     },
     {
       "title": "Implementing Bloom Filters in LSM-Tree Storage Engines for High-Throughput Key Lookups",
