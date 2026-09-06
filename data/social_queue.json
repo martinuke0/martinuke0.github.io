@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-09T07:58:53Z",
+  "last_scheduled_at": "2026-09-09T06:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20465,8 +20465,9 @@
         "performance"
       ],
       "scheduled_at": "2026-09-06T17:58:53Z",
-      "status": "posting",
-      "claimed_at": "2026-09-06T18:01:55Z"
+      "status": "posted",
+      "claimed_at": "2026-09-06T18:01:55Z",
+      "post_urn": "urn:li:share:7502425882398158848"
     },
     {
       "title": "Implementing Karpenter's Consolidation Disruption Policies for Spot Instance Workloads",
@@ -21341,20 +21342,6 @@
         "claude-code"
       ],
       "scheduled_at": "2026-09-09T06:58:53Z",
-      "status": "pending"
-    },
-    {
-      "title": "Architecting CRDT-Based Collaboration with Yjs: Inside the Operational Transform Engine",
-      "url": "https://martinuke0.github.io/posts/2026-09-06-architecting-crdt-based-collaboration-with-yjs-inside-the-operational-transform-engine/",
-      "social_hook": "> TL;DR — Yjs is a high-performance CRDT framework for real-time collaboration. Instead of running a single authoritative server, every client holds a replica of the document and merges changes through a deterministic conflict-free data structure. The operational transform layer underneath is what makes that merge fast, network-efficient, and eventually consistent across thousands of concurrent edits.\n\nWhen two users type into the same Google Doc at the same time, neither sees flicker, lost keystrokes, or duplicated lines. That seamless experience is the product of decades of research into distributed consistency, and most of the modern stacks that power it converge on the same idea: replicated data types that converge by construction, not by central arbitration.\n\nYjs, an open-source CRDT library originally built by Kevin Jahns, is one of the most production-ready implementations of that idea. It ships in Evernote's editor, powers collaborative features in Affinity's suite, and is the runtime behind several open-source editors including TipTap and ProseMirror's y-prosemirror bindings. Understanding how it works under the hood is useful even if you never write a CRDT by hand — because the patterns inside Yjs are the same patterns that show up in operational databases, multi-region replication, and vector clock systems.",
-      "tags": [
-        "crdt",
-        "yjs",
-        "collaboration",
-        "operational-transform",
-        "distributed-systems"
-      ],
-      "scheduled_at": "2026-09-09T07:58:53Z",
       "status": "pending"
     }
   ]
