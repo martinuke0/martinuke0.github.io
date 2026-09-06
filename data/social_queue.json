@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-09T02:58:53Z",
+  "last_scheduled_at": "2026-09-09T03:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21271,6 +21271,21 @@
         "inference"
       ],
       "scheduled_at": "2026-09-09T02:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "The Architecture of an Agentic Harness: How Production AI Agents Actually Work",
+      "url": "https://martinuke0.github.io/posts/2026-09-06-the-architecture-of-an-agentic-harness-how-production-ai-agents-actually-work/",
+      "social_hook": "> TL;DR — An agentic harness is the runtime that sits between an LLM and the real world: a planner, a tool router, a memory layer, a sandbox, and an observability stack wired together by a loop. The model is the easy part — the harness is what determines whether your agent is a demo or a product.\n\nThe term gets thrown around loosely, so let's pin it down. An agentic harness is the deterministic software scaffolding that lets a non-deterministic language model take real actions. The LLM generates plans, code, and tool calls; the harness decides what runs, what gets blocked, what gets persisted, and what gets retried.\n\nYou can think of it as the operating system for an agent. The model is a process; the harness is the kernel, the scheduler, the syscall interface, and the audit log all in one.",
+      "tags": [
+        "ai-agents",
+        "architecture",
+        "llm",
+        "infrastructure",
+        "orchestration",
+        "production-engineering"
+      ],
+      "scheduled_at": "2026-09-09T03:58:53Z",
       "status": "pending"
     }
   ]
