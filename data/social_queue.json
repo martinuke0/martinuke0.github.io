@@ -20351,7 +20351,8 @@
         "Security"
       ],
       "scheduled_at": "2026-09-06T10:58:53Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-06T11:01:46Z"
     },
     {
       "title": "Becoming a Claude Certified Architect: What It Actually Takes",
