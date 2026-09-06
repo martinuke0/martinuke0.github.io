@@ -20449,8 +20449,9 @@
         "performance"
       ],
       "scheduled_at": "2026-09-06T16:58:53Z",
-      "status": "posting",
-      "claimed_at": "2026-09-06T17:02:00Z"
+      "status": "posted",
+      "claimed_at": "2026-09-06T17:02:00Z",
+      "post_urn": "urn:li:share:7502410802038071296"
     },
     {
       "title": "Inside eBPF: How the Linux Kernel Runs Sandboxed Programs Inside Itself",
