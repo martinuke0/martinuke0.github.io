@@ -20367,7 +20367,8 @@
         "certification"
       ],
       "scheduled_at": "2026-09-06T11:58:53Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-06T12:01:43Z"
     },
     {
       "title": "Inside Bazel 7: Remote Build Execution and the Architecture of Distributed Caching",
