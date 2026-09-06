@@ -20156,7 +20156,8 @@
         "architecture"
       ],
       "scheduled_at": "2026-09-05T22:58:53Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-06T00:01:34Z"
     },
     {
       "title": "Backlinks Won't Get You Your First Customers",
