@@ -20875,8 +20875,9 @@
         "side-project"
       ],
       "scheduled_at": "2026-09-07T18:58:53Z",
-      "status": "posting",
-      "claimed_at": "2026-09-07T19:27:58Z"
+      "status": "posted",
+      "claimed_at": "2026-09-07T19:27:58Z",
+      "post_urn": "urn:li:share:7502809945105539072"
     },
     {
       "title": "Building a GGUF Weight Loader From Scratch: A CV-Grade ML Systems Project",
