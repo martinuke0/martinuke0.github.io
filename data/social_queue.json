@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-09T14:58:53Z",
+  "last_scheduled_at": "2026-09-09T15:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21503,6 +21503,20 @@
         "vllm"
       ],
       "scheduled_at": "2026-09-09T14:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Build a Byte-Level BPE Tokenizer From Scratch: A Portfolio Project That Actually Signals Systems Skill",
+      "url": "https://martinuke0.github.io/posts/2026-09-07-build-a-byte-level-bpe-tokenizer-from-scratch-a-portfolio-project-that-actually-signals-systems-skill/",
+      "social_hook": "> TL;DR — A byte-level BPE tokenizer is one of the few side projects small enough to finish in a weekend yet deep enough to demonstrate real systems thinking: streaming I/O, regex pretokenization, priority-queue merge scheduling, and visualization. In this guide we build the whole pipeline in roughly 300 lines of Python, animate the merge steps, and leave you with a clear upgrade path toward production tooling like SentencePiece and tiktoken.\n\nMost \"from scratch\" ML projects on GitHub are neural network architectures trained on MNIST or CIFAR. Hiring managers have seen hundreds. A tokenizer is different: it sits underneath every modern LLM, it has well-defined formal behavior, and building one forces you to touch real systems concerns that neural net demos usually skip.\n\n- Comfort with bytes and encodings — UTF-8, multi-byte characters, and the realization that \"characters\" are a fiction layered on top of bytes. This is the same skill you need when debugging a Kafka consumer that silently corrupts non-ASCII payloads.",
+      "tags": [
+        "NLP",
+        "BPE",
+        "tokenization",
+        "python",
+        "systems"
+      ],
+      "scheduled_at": "2026-09-09T15:58:53Z",
       "status": "pending"
     }
   ]
