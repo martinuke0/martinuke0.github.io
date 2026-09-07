@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-09T11:58:53Z",
+  "last_scheduled_at": "2026-09-09T12:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21448,6 +21448,20 @@
         "production-architecture"
       ],
       "scheduled_at": "2026-09-09T11:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building LLMs from Scratch: A Working Engineer's Guide",
+      "url": "https://martinuke0.github.io/posts/2026-09-07-building-llms-from-scratch-a-working-engineer/",
+      "social_hook": "> TL;DR — A GPT-style LLM is a surprisingly small amount of code once you strip the abstractions: a tokenizer, an embedding, a stack of attention-plus-MLP blocks, a causal mask, and a cross-entropy loss. This post walks through each piece in PyTorch, then zooms out to the systems problems — memory, sharding, throughput — that decide whether your model can actually train.\n\nMost engineers I've talked to treat large language models as something that lives behind an API. That's fair — production LLMs are enormous, and the people training them at frontier scale have PhDs and eight-figure compute budgets. But there's a strange second-order effect: the engineers who understand how the model works under the hood write better prompts, debug better integrations, and make smarter calls about cost, latency, and failure modes. The fastest way to get that understanding is to build one.\n\nSo we're going to build a GPT-style model from scratch. Not a toy one with stubbed layers — a working model that you can train on a single GPU, generate text from, and reason about end-to-end. Then we'll talk about what breaks when you try to scale that same code to something resembling a real production model.",
+      "tags": [
+        "llm",
+        "transformers",
+        "pytorch",
+        "machine-learning",
+        "from-scratch"
+      ],
+      "scheduled_at": "2026-09-09T12:58:53Z",
       "status": "pending"
     }
   ]
