@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-09T13:58:53Z",
+  "last_scheduled_at": "2026-09-09T14:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21485,6 +21485,20 @@
         "llm"
       ],
       "scheduled_at": "2026-09-09T13:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building a Paged KV Cache Manager with Prefix Sharing and Copy-on-Write",
+      "url": "https://martinuke0.github.io/posts/2026-09-07-building-a-paged-kv-cache-manager-with-prefix-sharing-and-copy-on-write/",
+      "social_hook": "> TL;DR — A paged KV cache with block-level prefix sharing and copy-on-write is the heart of modern LLM serving (vLLM's PagedAttention, SGLang's RadixAttention). Building one yourself signals real systems fluency: memory layout design, reference counting, virtual-to-physical mapping, and inference-path integration. This guide walks through a runnable Python implementation, then maps out the upgrades that turn the toy into a portfolio-grade project.\n\nMost CV-side projects that claim \"LLM systems\" end up being a thin wrapper around an OpenAI client and a Streamlit dashboard. Hiring managers know this. What actually moves the needle is a project where you touched the data structure that decides whether a 70B model serves 10 requests per second or 200.\n\nThe paged KV cache is exactly that data structure. In a transformer decoder, every generated token requires keeping the Key and Value projections of every previous token in attention. For a 7B model with a 32k context, that is roughly 5 GB of KV state per request. Naively, frameworks allocate one contiguous tensor per request — and immediately waste 60–80% of GPU memory to fragmentation, while also making prompt sharing (the same system prompt across 100 users) impossible.",
+      "tags": [
+        "llm-inference",
+        "systems",
+        "python",
+        "kv-cache",
+        "paged-attention"
+      ],
+      "scheduled_at": "2026-09-09T14:58:53Z",
       "status": "pending"
     }
   ]
