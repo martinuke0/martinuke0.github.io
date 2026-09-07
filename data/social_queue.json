@@ -20743,7 +20743,8 @@
         "Shor's algorithm"
       ],
       "scheduled_at": "2026-09-07T10:58:53Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-07T11:03:59Z"
     },
     {
       "title": "Physics Zero to Hero: A Self-Teaching Roadmap for Working Engineers",
