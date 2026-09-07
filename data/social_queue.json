@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-09T13:58:53Z",
+  "last_scheduled_at": "2026-09-09T14:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21487,6 +21487,20 @@
         "llm"
       ],
       "scheduled_at": "2026-09-09T13:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Build a Paged-Attention KV Cache Manager: A Hands-On Project That Actually Impresses Hiring Managers",
+      "url": "https://martinuke0.github.io/posts/2026-09-07-build-a-paged-attention-kv-cache-manager-a-hands-on-project-that-actually-impresses-hiring-managers/",
+      "social_hook": "> TL;DR — Paged attention treats each sequence's KV cache as a vector of fixed-size blocks instead of one contiguous tensor. Building your own manager shows you understand memory, scheduling, and inference internals — the exact skills teams running vLLM, SGLang, and TensorRT-LLM care about. We'll ship a runnable Python implementation with prefix-sharing and LRU block eviction, then chart a path to production-grade extensions.\n\nMost \"LLM projects\" on portfolios are thin wrappers over an API. Hiring managers know it. They skim your repo, see `openai.ChatCompletion.create(...)` behind a Flask route, and move on. The projects that get callbacks are the ones that show you understand what's underneath the API — the part where memory pressure, request scheduling, and hardware utilization actually decide whether a serving system is profitable.\n\nThis is a build guide for exactly that kind of project. We're going to implement a paged-attention KV cache manager from scratch: the data structure that powers vLLM's PagedAttention, the inference engine used in production at scale. You'll finish with a runnable Python package, a clear mental model, and a roadmap for turning the toy into something a senior engineer would be proud to ship.",
+      "tags": [
+        "llm-inference",
+        "systems-engineering",
+        "python",
+        "paged-attention",
+        "vllm"
+      ],
+      "scheduled_at": "2026-09-09T14:58:53Z",
       "status": "pending"
     }
   ]
