@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-09T07:58:53Z",
+  "last_scheduled_at": "2026-09-09T06:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20646,8 +20646,9 @@
         "performance"
       ],
       "scheduled_at": "2026-09-07T04:58:53Z",
-      "status": "posting",
-      "claimed_at": "2026-09-07T05:01:41Z"
+      "status": "posted",
+      "claimed_at": "2026-09-07T05:01:41Z",
+      "post_urn": "urn:li:share:7502591918263123968"
     },
     {
       "title": "GPU Memory in 2026: HBM, KV-Cache, and the Real Bottlenecks Behind LLM Inference",
@@ -21363,20 +21364,6 @@
         "claude-code"
       ],
       "scheduled_at": "2026-09-09T06:58:53Z",
-      "status": "pending"
-    },
-    {
-      "title": "Optimizing vLLM's PagedAttention Allocator for High-Throughput Batched Inference",
-      "url": "https://martinuke0.github.io/posts/2026-09-07-optimizing-vllm/",
-      "social_hook": "> TL;DR — PagedAttention treats KV cache like virtual memory: sequences are split into fixed-size blocks and an allocator maps them onto non-contiguous GPU memory. The throughput wins come from fixing fragmentation, picking the right block size, and tuning prefix sharing, not from buying more VRAM. This post walks through the allocator's internals, the knobs that actually move the needle, and the failure modes you'll hit at scale.\n\nIn autoregressive decoding, every active sequence has a KV cache that grows one token per step. A 70B-parameter model on an H100 generates about 5 MB of KV cache per token — and a single batch can hold dozens of concurrent sequences, each running for thousands of steps. Within seconds, the KV cache for a single batch consumes more VRAM than the model weights themselves.\n\nNaive implementations pre-allocate one contiguous tensor per request, sized for the maximum possible sequence length. That approach has three problems that show up fast in production:",
-      "tags": [
-        "vllm",
-        "pagedattention",
-        "llm-inference",
-        "gpu-memory",
-        "kv-cache"
-      ],
-      "scheduled_at": "2026-09-09T07:58:53Z",
       "status": "pending"
     }
   ]
