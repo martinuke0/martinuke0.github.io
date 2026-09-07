@@ -57,4 +57,10 @@ LINKEDIN_TEMPLATE = """{social_hook}
 {title}
 Read the full guide: {url}
 
-{hashtags}"""
+{cta}{hashtags}"""
+
+# Consulting CTA, added to ~1 in 10 posts (see build_post) — occasional, not spammy.
+LINKEDIN_CTA = (
+    "→ I build systems like this for teams as an AI/systems contractor — "
+    "open to new projects. Book a call: https://calendly.com/alexandrumartiniuc-dev/30min"
+)
