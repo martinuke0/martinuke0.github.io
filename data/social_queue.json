@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-09T23:58:53Z",
+  "last_scheduled_at": "2026-09-10T00:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21632,6 +21632,21 @@
         "python"
       ],
       "scheduled_at": "2026-09-09T23:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Build a Paged KV Cache Manager From Scratch: A Portfolio Project That Signals Real Systems Skill",
+      "url": "https://martinuke0.github.io/posts/2026-09-07-build-a-paged-kv-cache-manager-from-scratch-a-portfolio-project-that-signals-real-systems-skill/",
+      "social_hook": "> TL;DR — A paged KV cache manager is the engine behind vLLM, SGLang, and every high-throughput LLM server. In this build, you'll implement one in ~300 lines of runnable Python: fixed-size blocks, per-request block tables, prefix sharing through a radix tree, and copy-on-write for beam search. It is small enough to finish in a weekend and deep enough to demo real systems thinking — memory layout, reference counting, eviction, and the kinds of decisions senior inference engineers make every day.\n\nMost portfolio projects sit in one of two camps: a CRUD app with a React frontend, or a thin wrapper around an OpenAI key. Neither signals much. The project in this post is different. It touches the same moving parts that production inference systems at vLLM, Anthropic, and SGLang deal with every day: virtual memory for tensors, sharing, eviction under pressure, and concurrency.\n\n- Memory systems thinking. You understand that KV tensors are not \"arrays\" — they are pages with lifetimes that have to be managed. That is the same muscle as writing a garbage collector, a slab allocator, or a database buffer pool.",
+      "tags": [
+        "llm-inference",
+        "kv-cache",
+        "paged-attention",
+        "systems-engineering",
+        "python",
+        "portfolio"
+      ],
+      "scheduled_at": "2026-09-10T00:58:53Z",
       "status": "pending"
     }
   ]
