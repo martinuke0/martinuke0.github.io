@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-10T06:58:53Z",
+  "last_scheduled_at": "2026-09-10T07:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21797,6 +21797,21 @@
       "scheduled_at": "2026-09-10T06:58:53Z",
       "status": "pending",
       "cta": false
+    },
+    {
+      "title": "Distributed LLM Inference: Parallelism Strategies",
+      "url": "https://martinuke0.github.io/posts/2026-09-07-distributed-llm-inference-parallelism-strategies/",
+      "social_hook": "> TL;DR — Serving large language models at scale demands a careful interplay of tensor, pipeline, data, and expert parallelism. Each strategy attacks a different bottleneck — memory bandwidth, compute saturation, or throughput — and modern serving engines like vLLM and Megatron-LM compose them into hybrid schemes that push billions of parameters through GPUs with sub-second latency.\n\nA 70-billion-parameter model doesn't fit on a single GPU. Even a 7-billion-parameter model strains the memory of an A100 with 80 GB of VRAM once you account for the KV cache, activation buffers, and the overhead of a serving framework. The question isn't whether to distribute inference across devices — it's how.\n\nDistributed LLM inference sits at the intersection of hardware constraints, model architecture, and latency requirements. The parallelism strategy you choose determines whether your serving stack delivers 10 ms tokens per user or 2 seconds of buffering. It dictates how many GPUs you need, how much networking bandwidth you burn, and how gracefully the system degrades under load.",
+      "tags": [
+        "distributed systems",
+        "LLM inference",
+        "tensor parallelism",
+        "pipeline parallelism",
+        "vLLM",
+        "deep learning infrastructure"
+      ],
+      "scheduled_at": "2026-09-10T07:58:53Z",
+      "status": "pending"
     }
   ]
 }
