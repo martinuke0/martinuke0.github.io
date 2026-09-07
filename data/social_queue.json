@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-09T14:58:53Z",
+  "last_scheduled_at": "2026-09-09T15:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21501,6 +21501,21 @@
         "vllm"
       ],
       "scheduled_at": "2026-09-09T14:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Change Data Capture with Debezium and PostgreSQL: A Production Pipeline Walkthrough",
+      "url": "https://martinuke0.github.io/posts/2026-09-07-architecting-change-data-capture-with-debezium-and-postgresql-a-production-pipeline-walkthrough/",
+      "social_hook": "> TL;DR — Change Data Capture with Debezium turns PostgreSQL's write-ahead log into a durable stream of row-level events that downstream systems can consume in near real time. A production-grade CDC pipeline needs careful attention to the replication slot, the connector configuration, topic naming, idempotent consumers, and schema evolution — skip any of those and you'll get either silent data loss or a noisy downstream.\n\nThere's a particular kind of bug that only shows up after a Postgres primary has been running for a few months: the analytics dashboard quietly drifts from the operational database, the search index falls behind, and nobody notices until a customer complains. Polling-based replication — running a `SELECT` every few seconds against a `updated_at` timestamp — eventually fails because someone forgets to add the column to a new table, or the poll interval doesn't survive a traffic spike.\n\nChange Data Capture (CDC) solves this by reading the database's own transaction log. In PostgreSQL, that log is the Write-Ahead Log (WAL), and Debezium is the de facto engine for turning that log into a stream of structured events. This post walks through how to design a CDC pipeline that survives the things that kill naive ones: schema changes, rebalances, backpressure, and the inevitable primary failover.",
+      "tags": [
+        "debezium",
+        "postgresql",
+        "change-data-capture",
+        "kafka",
+        "data-engineering",
+        "event-driven"
+      ],
+      "scheduled_at": "2026-09-09T15:58:53Z",
       "status": "pending"
     }
   ]
