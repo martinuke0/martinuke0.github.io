@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-09T07:58:53Z",
+  "last_scheduled_at": "2026-09-09T06:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20743,8 +20743,9 @@
         "Shor's algorithm"
       ],
       "scheduled_at": "2026-09-07T10:58:53Z",
-      "status": "posting",
-      "claimed_at": "2026-09-07T11:03:59Z"
+      "status": "posted",
+      "claimed_at": "2026-09-07T11:03:59Z",
+      "post_urn": "urn:li:share:7502683089748402176"
     },
     {
       "title": "Physics Zero to Hero: A Self-Teaching Roadmap for Working Engineers",
@@ -21375,20 +21376,6 @@
         "claude-code"
       ],
       "scheduled_at": "2026-09-09T06:58:53Z",
-      "status": "pending"
-    },
-    {
-      "title": "Agentic AI in 2026: What Stanford's Overview Actually Means for Working Engineers",
-      "url": "https://martinuke0.github.io/posts/2026-09-07-agentic-ai-in-2026-what-stanford/",
-      "social_hook": "> TL;DR — Stanford's 2025 overview frames agentic AI as four cooperating patterns (reflection, planning, tool use, multi-agent) layered over a perception–planning–action cycle. For working engineers, the value isn't the taxonomy — it's that production-grade agents now look more like distributed systems than chatbots, with hard ceilings around context length, tool reliability, and evaluation.\n\nIf you've spent the last two years building anything that calls an LLM, you've noticed the shape of the work has changed. We started with \"write a prompt, get a paragraph.\" We moved to \"stuff a PDF into context, ask a question.\" And now, in 2026, we spend most of our time reasoning about tool schemas, retry policies, vector store latency, and how to stop an agent from deleting the wrong row in Postgres.\n\nThat shift is what the Stanford agentic AI overview is really about. The taxonomy it proposes — what counts as an agent — matters less than the operational reality it points at: building a useful agent is a distributed systems problem wearing an LLM costume. This post unpacks that reality, section by section, with concrete patterns and production gotchas.",
-      "tags": [
-        "agentic-ai",
-        "llm",
-        "machine-learning",
-        "software-architecture",
-        "mlops"
-      ],
-      "scheduled_at": "2026-09-09T07:58:53Z",
       "status": "pending"
     }
   ]
