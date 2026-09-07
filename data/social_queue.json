@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-09T07:58:53Z",
+  "last_scheduled_at": "2026-09-09T08:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21391,6 +21391,21 @@
         "mcp"
       ],
       "scheduled_at": "2026-09-09T07:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building and Evaluating Agents: A Production Engineer's Playbook",
+      "url": "https://martinuke0.github.io/posts/2026-09-07-building-and-evaluating-agents-a-production-engineer/",
+      "social_hook": "> TL;DR — A reliable agent is mostly engineering, not prompting: tight tool contracts, deterministic harnesses, structured eval datasets, and observability that treats the LLM like any other distributed dependency. Build the smallest viable loop first, score it offline before you score it online, and never ship without trace-level visibility into every step.\n\nEvery week a new agent demo lands on Hacker News: a CLI that books flights, a chatbot that queries your warehouse, a planner that ships PRs. A few months later, the same team posts a quieter follow-up: \"Lessons from running agents in production.\" The lessons are almost always the same.\n\nThe gap between a demo and a production system isn't model quality. It's plumbing. Agents fail in ways that look like intelligence problems but are really contract problems. The model \"hallucinates\" because the tool schema is ambiguous. The agent \"loops forever\" because there is no step budget and no termination condition. The \"answer is wrong\" because the eval harness only measured final output, not the path that produced it.",
+      "tags": [
+        "agents",
+        "llm",
+        "evaluation",
+        "rag",
+        "mlops",
+        "observability"
+      ],
+      "scheduled_at": "2026-09-09T08:58:53Z",
       "status": "pending"
     }
   ]
