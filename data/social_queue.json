@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-09T15:58:53Z",
+  "last_scheduled_at": "2026-09-09T16:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21517,6 +21517,21 @@
         "systems"
       ],
       "scheduled_at": "2026-09-09T15:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building a Speculative Decoding Engine From Scratch: A Portfolio Project That Actually Signals Systems Skill",
+      "url": "https://martinuke0.github.io/posts/2026-09-07-building-a-speculative-decoding-engine-from-scratch-a-portfolio-project-that-actually-signals-systems-skill/",
+      "social_hook": "> TL;DR — Speculative decoding cuts LLM latency by letting a cheap draft model propose tokens that a larger target model verifies in parallel. In this guide you'll build a from-scratch Python engine with an n-gram speculator and a draft-and-verify loop, wire it up to a real Hugging Face model, benchmark acceptance rate, and ship a project that reads as serious systems work on a CV.\n\nMost \"build an LLM project\" tutorials stop at a ChatGPT wrapper or a RAG demo with LangChain. Those signal \"I can call an API.\" To stand out in 2026 you need a project that demonstrates you understand how inference actually works under the hood — KV caching, token-level parallelism, statistical acceptance sampling, and the trade-offs between throughput and latency. Speculative decoding is the single best topic for that, because it sits at the intersection of model internals, systems optimization, and applied probability, and it's what every production inference stack (vLLM, TensorRT-LLM, llama.cpp) is racing to ship.\n\nThis post walks you through building a complete, runnable speculative decoding engine from scratch — n-gram draft model, target verifier, acceptance sampling, KV-cache continuity, and a benchmark harness. By the end you'll have a GitHub repo that an interviewer can clone, run, and read.",
+      "tags": [
+        "speculative-decoding",
+        "llm-inference",
+        "python",
+        "systems-engineering",
+        "portfolio-project",
+        "n-gram-speculator"
+      ],
+      "scheduled_at": "2026-09-09T16:58:53Z",
       "status": "pending"
     }
   ]
