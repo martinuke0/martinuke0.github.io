@@ -20909,7 +20909,8 @@
         "retrieval-augmented-generation"
       ],
       "scheduled_at": "2026-09-07T20:58:53Z",
-      "status": "pending"
+      "status": "pending",
+      "cta": true
     },
     {
       "title": "The Hardest RAG Ingestion Problems and How Engineers Actually Solve Them",
@@ -20923,7 +20924,8 @@
         "production-ai"
       ],
       "scheduled_at": "2026-09-07T21:58:53Z",
-      "status": "pending"
+      "status": "pending",
+      "cta": false
     },
     {
       "title": "Fine-Tuning a Small LLM: A Hands-On Experiment",
@@ -20937,7 +20939,8 @@
         "machine-learning"
       ],
       "scheduled_at": "2026-09-07T22:58:53Z",
-      "status": "pending"
+      "status": "pending",
+      "cta": false
     },
     {
       "title": "Building Agentic APIs: When Your Endpoint Thinks for Itself",
@@ -20951,7 +20954,8 @@
         "production-engineering"
       ],
       "scheduled_at": "2026-09-07T23:58:53Z",
-      "status": "pending"
+      "status": "pending",
+      "cta": false
     },
     {
       "title": "Split Agent Architecture in Harness: Separating Reasoning from Execution",
@@ -20965,7 +20969,8 @@
         "agent-architecture"
       ],
       "scheduled_at": "2026-09-08T00:58:53Z",
-      "status": "pending"
+      "status": "pending",
+      "cta": false
     },
     {
       "title": "Building Production Systems on the Claude API: A Practical Engineering Guide",
@@ -20979,7 +20984,8 @@
         "prompt-engineering"
       ],
       "scheduled_at": "2026-09-08T01:58:53Z",
-      "status": "pending"
+      "status": "pending",
+      "cta": false
     },
     {
       "title": "Prompt Audit and Security: Engineering Defenses for LLM-Powered Systems",
@@ -20993,7 +20999,8 @@
         "owasp"
       ],
       "scheduled_at": "2026-09-08T02:58:53Z",
-      "status": "pending"
+      "status": "pending",
+      "cta": false
     },
     {
       "title": "Context Engineering: The Discipline Behind Reliable LLM Applications",
@@ -21007,7 +21014,8 @@
         "ai-systems"
       ],
       "scheduled_at": "2026-09-08T03:58:53Z",
-      "status": "pending"
+      "status": "pending",
+      "cta": false
     },
     {
       "title": "Claude Loop Engineering: Designing Agentic Workflows That Actually Converge",
@@ -21021,7 +21029,8 @@
         "workflow-design"
       ],
       "scheduled_at": "2026-09-08T04:58:53Z",
-      "status": "pending"
+      "status": "pending",
+      "cta": false
     },
     {
       "title": "DeepSeek's Harness Framework: The Engineering Behind Frontier Model Evaluation",
@@ -21035,7 +21044,8 @@
         "benchmarking"
       ],
       "scheduled_at": "2026-09-08T05:58:53Z",
-      "status": "pending"
+      "status": "pending",
+      "cta": false
     },
     {
       "title": "GenRec: An LLM-Backed Recommendation Ranker",
@@ -21050,7 +21060,8 @@
         "architecture"
       ],
       "scheduled_at": "2026-09-08T06:58:53Z",
-      "status": "pending"
+      "status": "pending",
+      "cta": true
     },
     {
       "title": "Inside TikTok's HarnessDev: How They Made Scaffolding for Microservices Scale to 6,000+ Services",
@@ -21065,7 +21076,8 @@
         "monorepo"
       ],
       "scheduled_at": "2026-09-08T07:58:53Z",
-      "status": "pending"
+      "status": "pending",
+      "cta": false
     },
     {
       "title": "AI Infrastructure Is Becoming the Next Major Infrastructure Discipline",
@@ -21080,7 +21092,8 @@
         "Kubernetes"
       ],
       "scheduled_at": "2026-09-08T08:58:53Z",
-      "status": "pending"
+      "status": "pending",
+      "cta": false
     },
     {
       "title": "From Prompt to Pixels: Tracing an LLM Request Through an API to a GPU",
@@ -21094,7 +21107,8 @@
         "mlops"
       ],
       "scheduled_at": "2026-09-08T09:58:53Z",
-      "status": "pending"
+      "status": "pending",
+      "cta": false
     },
     {
       "title": "From Prompt to Packet: Tracing an AI Request Through the Modern Inference Stack",
@@ -21109,7 +21123,8 @@
         "finops"
       ],
       "scheduled_at": "2026-09-08T10:58:53Z",
-      "status": "pending"
+      "status": "pending",
+      "cta": false
     },
     {
       "title": "Kubernetes for AI Inference: Serving Models at Production Scale",
@@ -21123,7 +21138,8 @@
         "kserve"
       ],
       "scheduled_at": "2026-09-08T11:58:53Z",
-      "status": "pending"
+      "status": "pending",
+      "cta": false
     },
     {
       "title": "Inference Is Becoming a Distributed-Systems Problem",
@@ -21137,7 +21153,8 @@
         "kubernetes"
       ],
       "scheduled_at": "2026-09-08T12:58:53Z",
-      "status": "pending"
+      "status": "pending",
+      "cta": false
     },
     {
       "title": "GPU Utilization Is Becoming a Business Metric",
@@ -21152,7 +21169,8 @@
         "mlops"
       ],
       "scheduled_at": "2026-09-08T13:58:53Z",
-      "status": "pending"
+      "status": "pending",
+      "cta": false
     },
     {
       "title": "AI Gateways: The Missing Layer Between Your Apps and Every LLM Provider",
@@ -21166,7 +21184,8 @@
         "production-engineering"
       ],
       "scheduled_at": "2026-09-08T14:58:53Z",
-      "status": "pending"
+      "status": "pending",
+      "cta": false
     },
     {
       "title": "Agent Infrastructure Is Creating New Security Challenges",
@@ -21180,7 +21199,8 @@
         "devops"
       ],
       "scheduled_at": "2026-09-08T15:58:53Z",
-      "status": "pending"
+      "status": "pending",
+      "cta": false
     },
     {
       "title": "AI Infrastructure Hiring Is Converging: What It Means for Engineers",
@@ -21195,7 +21215,8 @@
         "career"
       ],
       "scheduled_at": "2026-09-08T16:58:53Z",
-      "status": "pending"
+      "status": "pending",
+      "cta": true
     },
     {
       "title": "From Terraform to Token Economics: The Six Skills That Became One Discipline",
@@ -21210,7 +21231,8 @@
         "sre"
       ],
       "scheduled_at": "2026-09-08T17:58:53Z",
-      "status": "pending"
+      "status": "pending",
+      "cta": false
     },
     {
       "title": "GPU Scheduling at Scale: How Modern Systems Stop Fighting Over Silicon",
@@ -21224,7 +21246,8 @@
         "distributed-systems"
       ],
       "scheduled_at": "2026-09-08T18:58:53Z",
-      "status": "pending"
+      "status": "pending",
+      "cta": false
     },
     {
       "title": "Distributed Inference: How Modern AI Systems Scale Beyond a Single GPU",
@@ -21238,7 +21261,8 @@
         "production-ai"
       ],
       "scheduled_at": "2026-09-08T19:58:53Z",
-      "status": "pending"
+      "status": "pending",
+      "cta": false
     },
     {
       "title": "AI Networking: How GPUs, Fabrics, and Collective Operations Reshaped the Datacenter",
@@ -21252,7 +21276,8 @@
         "datacenter"
       ],
       "scheduled_at": "2026-09-08T20:58:53Z",
-      "status": "pending"
+      "status": "pending",
+      "cta": false
     },
     {
       "title": "LLMOps and GenAIOps: Production Patterns for Reliable LLM Systems",
@@ -21266,7 +21291,8 @@
         "vector-databases"
       ],
       "scheduled_at": "2026-09-08T21:58:53Z",
-      "status": "pending"
+      "status": "pending",
+      "cta": false
     },
     {
       "title": "GPU Architecture for Backend Engineers: Why Your Workloads Run on Massively Parallel Silicon",
@@ -21280,7 +21306,8 @@
         "simt"
       ],
       "scheduled_at": "2026-09-08T22:58:53Z",
-      "status": "pending"
+      "status": "pending",
+      "cta": false
     },
     {
       "title": "Why Quantization Works: The Mathematics That Makes LLMs 4x Smaller",
@@ -21294,7 +21321,8 @@
         "gpu-optimization"
       ],
       "scheduled_at": "2026-09-08T23:58:53Z",
-      "status": "pending"
+      "status": "pending",
+      "cta": false
     },
     {
       "title": "Mooncake: Turning KV Cache into a Distributed LLM Serving Layer",
@@ -21308,7 +21336,8 @@
         "inference-optimization"
       ],
       "scheduled_at": "2026-09-09T00:58:53Z",
-      "status": "pending"
+      "status": "pending",
+      "cta": false
     },
     {
       "title": "Implementing gVisor: Inside the User-Space Kernel That Sandboxes Docker Containers",
@@ -21323,7 +21352,8 @@
         "sandboxing"
       ],
       "scheduled_at": "2026-09-09T01:58:53Z",
-      "status": "pending"
+      "status": "pending",
+      "cta": false
     },
     {
       "title": "Language Models Can Now Control Their Own Attention",
@@ -21337,7 +21367,8 @@
         "inference"
       ],
       "scheduled_at": "2026-09-09T02:58:53Z",
-      "status": "pending"
+      "status": "pending",
+      "cta": true
     },
     {
       "title": "The Architecture of an Agentic Harness: How Production AI Agents Actually Work",
@@ -21352,7 +21383,8 @@
         "production-engineering"
       ],
       "scheduled_at": "2026-09-09T03:58:53Z",
-      "status": "pending"
+      "status": "pending",
+      "cta": false
     },
     {
       "title": "Context Graphs for Coding Agents: Why Tool-Call Counts Are the New Token Bill",
@@ -21366,7 +21398,8 @@
         "context-engineering"
       ],
       "scheduled_at": "2026-09-09T04:58:53Z",
-      "status": "pending"
+      "status": "pending",
+      "cta": false
     },
     {
       "title": "AI Engineering From Scratch: The Production Blueprint Most Tutorials Skip",
@@ -21380,7 +21413,8 @@
         "data pipelines"
       ],
       "scheduled_at": "2026-09-09T05:58:53Z",
-      "status": "pending"
+      "status": "pending",
+      "cta": false
     },
     {
       "title": "The Token Tax: Why Most AI Coding Costs Are Wasted on Work a $0.10 Model Could Do",
@@ -21394,7 +21428,8 @@
         "claude-code"
       ],
       "scheduled_at": "2026-09-09T06:58:53Z",
-      "status": "pending"
+      "status": "pending",
+      "cta": false
     },
     {
       "title": "Agentic AI in Production: How Autonomous Agents Are Rewiring the Stack",
@@ -21409,7 +21444,8 @@
         "mcp"
       ],
       "scheduled_at": "2026-09-09T07:58:53Z",
-      "status": "pending"
+      "status": "pending",
+      "cta": false
     },
     {
       "title": "Building and Evaluating Agents: A Production Engineer's Playbook",
@@ -21424,7 +21460,8 @@
         "observability"
       ],
       "scheduled_at": "2026-09-09T08:58:53Z",
-      "status": "pending"
+      "status": "pending",
+      "cta": false
     },
     {
       "title": "Building Effective Agents: Patterns That Survive Production",
@@ -21438,7 +21475,8 @@
         "patterns"
       ],
       "scheduled_at": "2026-09-09T09:58:53Z",
-      "status": "pending"
+      "status": "pending",
+      "cta": false
     },
     {
       "title": "Building Agents with MCP: The Model Context Protocol in Practice",
@@ -21452,7 +21490,8 @@
         "tool-use"
       ],
       "scheduled_at": "2026-09-09T10:58:53Z",
-      "status": "pending"
+      "status": "pending",
+      "cta": false
     },
     {
       "title": "Building an Agent from Scratch: A Production-Oriented Walkthrough",
@@ -21466,7 +21505,8 @@
         "production-architecture"
       ],
       "scheduled_at": "2026-09-09T11:58:53Z",
-      "status": "pending"
+      "status": "pending",
+      "cta": false
     },
     {
       "title": "Building LLMs from Scratch: A Working Engineer's Guide",
@@ -21480,7 +21520,8 @@
         "from-scratch"
       ],
       "scheduled_at": "2026-09-09T12:58:53Z",
-      "status": "pending"
+      "status": "pending",
+      "cta": true
     },
     {
       "title": "Stop Letting Your AI Agent Grep Blind: The Rise of Repository Maps",
@@ -21495,7 +21536,8 @@
         "llm"
       ],
       "scheduled_at": "2026-09-09T13:58:53Z",
-      "status": "pending"
+      "status": "pending",
+      "cta": false
     },
     {
       "title": "Build a Paged-Attention KV Cache Manager: A Hands-On Project That Actually Impresses Hiring Managers",
@@ -21509,7 +21551,8 @@
         "vllm"
       ],
       "scheduled_at": "2026-09-09T14:58:53Z",
-      "status": "pending"
+      "status": "pending",
+      "cta": false
     },
     {
       "title": "Build a Byte-Level BPE Tokenizer From Scratch: A Portfolio Project That Actually Signals Systems Skill",
@@ -21523,7 +21566,8 @@
         "systems"
       ],
       "scheduled_at": "2026-09-09T15:58:53Z",
-      "status": "pending"
+      "status": "pending",
+      "cta": false
     },
     {
       "title": "Building a Speculative Decoding Engine From Scratch: A Portfolio Project That Actually Signals Systems Skill",
@@ -21538,7 +21582,8 @@
         "n-gram-speculator"
       ],
       "scheduled_at": "2026-09-09T16:58:53Z",
-      "status": "pending"
+      "status": "pending",
+      "cta": false
     },
     {
       "title": "Building a GGUF Parser from Scratch: A Portfolio Project That Signals Real Systems Skill",
@@ -21553,7 +21598,8 @@
         "portfolio-project"
       ],
       "scheduled_at": "2026-09-09T17:58:53Z",
-      "status": "pending"
+      "status": "pending",
+      "cta": false
     },
     {
       "title": "Building a Gradient Checkpointing Memory Scheduler From Scratch: A Portfolio Project That Actually Signals ML Systems Skill",
@@ -21567,7 +21613,8 @@
         "ML Infrastructure"
       ],
       "scheduled_at": "2026-09-09T18:58:53Z",
-      "status": "pending"
+      "status": "pending",
+      "cta": false
     },
     {
       "title": "Build a GPTQ-Style Int4 Quantization Engine From Scratch",
@@ -21581,7 +21628,8 @@
         "python"
       ],
       "scheduled_at": "2026-09-09T19:58:53Z",
-      "status": "pending"
+      "status": "pending",
+      "cta": false
     },
     {
       "title": "Inside etcd's Raft Implementation: Lease-Based Leader Election and Read Consistency",
@@ -21595,7 +21643,8 @@
         "consensus"
       ],
       "scheduled_at": "2026-09-09T20:58:53Z",
-      "status": "pending"
+      "status": "pending",
+      "cta": false
     },
     {
       "title": "Architecting Fault-Tolerant State Machines with etcd's Raft: Lease Semantics and Split-Brain Recovery",
@@ -21609,7 +21658,8 @@
         "kubernetes"
       ],
       "scheduled_at": "2026-09-09T21:58:53Z",
-      "status": "pending"
+      "status": "pending",
+      "cta": false
     },
     {
       "title": "Build a Paged KV Cache With Continuous Batching and Prefix Sharing: A From-Scratch Guide",
@@ -21624,7 +21674,8 @@
         "python"
       ],
       "scheduled_at": "2026-09-09T22:58:53Z",
-      "status": "pending"
+      "status": "pending",
+      "cta": true
     },
     {
       "title": "Build a Hybrid Sparse-Dense Retriever from Scratch: A CV Project That Actually Signals Systems Skill",
@@ -21638,7 +21689,8 @@
         "python"
       ],
       "scheduled_at": "2026-09-09T23:58:53Z",
-      "status": "pending"
+      "status": "pending",
+      "cta": false
     },
     {
       "title": "Build a Paged KV Cache Manager From Scratch: A Portfolio Project That Signals Real Systems Skill",
@@ -21653,7 +21705,8 @@
         "portfolio"
       ],
       "scheduled_at": "2026-09-10T00:58:53Z",
-      "status": "pending"
+      "status": "pending",
+      "cta": false
     },
     {
       "title": "Inside V8's TurboFan's Maglev: How Speculative JIT Compilation Powers Modern JavaScript",
@@ -21667,7 +21720,8 @@
         "jit-compilation"
       ],
       "scheduled_at": "2026-09-10T01:58:53Z",
-      "status": "pending"
+      "status": "pending",
+      "cta": false
     },
     {
       "title": "Build a Hybrid Sparse-Dense Retriever: A CV-Worthy RAG Side Project",
@@ -21681,7 +21735,8 @@
         "engineering-portfolio"
       ],
       "scheduled_at": "2026-09-10T02:58:53Z",
-      "status": "pending"
+      "status": "pending",
+      "cta": false
     },
     {
       "title": "Inside Apache Pulsar: Architecting Tiered Storage for Petabyte-Scale Streaming Retention",
@@ -21695,7 +21750,8 @@
         "distributed-systems"
       ],
       "scheduled_at": "2026-09-10T03:58:53Z",
-      "status": "pending"
+      "status": "pending",
+      "cta": false
     },
     {
       "title": "Building Grouped-Query Attention with RoPE and Flash-Attention from Scratch",
@@ -21709,7 +21765,8 @@
         "machine-learning"
       ],
       "scheduled_at": "2026-09-10T04:58:53Z",
-      "status": "pending"
+      "status": "pending",
+      "cta": false
     },
     {
       "title": "Optimizing GPU Memory Pools: Inside PyTorch's CUDA Caching Allocator",
@@ -21723,7 +21780,8 @@
         "deep-learning"
       ],
       "scheduled_at": "2026-09-10T05:58:53Z",
-      "status": "pending"
+      "status": "pending",
+      "cta": false
     },
     {
       "title": "Backpropagation Demystified: How Neural Networks Actually Learn",
@@ -21737,7 +21795,8 @@
         "gradient-descent"
       ],
       "scheduled_at": "2026-09-10T06:58:53Z",
-      "status": "pending"
+      "status": "pending",
+      "cta": false
     }
   ]
 }
