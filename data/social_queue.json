@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-10T01:58:53Z",
+  "last_scheduled_at": "2026-09-10T02:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21661,6 +21661,20 @@
         "jit-compilation"
       ],
       "scheduled_at": "2026-09-10T01:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Build a Hybrid Sparse-Dense Retriever: A CV-Worthy RAG Side Project",
+      "url": "https://martinuke0.github.io/posts/2026-09-07-build-a-hybrid-sparse-dense-retriever-a-cv-worthy-rag-side-project/",
+      "social_hook": "> TL;DR — A hybrid retriever combines BM25's lexical precision with dense embeddings' semantic recall, then reranks the top candidates with a cross-encoder. Building one from scratch — including your own HNSW index — demonstrates systems thinking that few CVs show: graph algorithms, ANN tuning, recall/precision trade-offs, and the kind of end-to-end engineering that hiring managers at search and AI teams actually look for.\n\nMost \"AI engineering\" portfolios stop at \"I called `OpenAI()` and streamed tokens.\" That signal is now table stakes. The projects that get callbacks in 2026 are the ones that show you understand the machinery underneath the API call. A hybrid sparse-dense retriever with a from-scratch HNSW index does exactly that.\n\n- Vector search fundamentals. You have implemented, not just consumed, an approximate nearest neighbor algorithm. HNSW (Hierarchical Navigable Small Worlds) is the algorithm behind Pinecone, Weaviate, Qdrant, and pgvector's HNSW index — knowing its internals (`ef_construction`, `M`, layer assignment via random levels, neighbor pruning) means you can debug, tune, and reason about any vector DB you'll encounter at work. See the original Malkov & Yashunin 2018 paper for the source of truth.",
+      "tags": [
+        "retrieval-augmented-generation",
+        "hnsw",
+        "bm25",
+        "vector-search",
+        "engineering-portfolio"
+      ],
+      "scheduled_at": "2026-09-10T02:58:53Z",
       "status": "pending"
     }
   ]
