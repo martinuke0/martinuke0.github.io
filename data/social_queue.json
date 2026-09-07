@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-09T13:58:53Z",
+  "last_scheduled_at": "2026-09-09T14:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21477,6 +21477,20 @@
         "llm"
       ],
       "scheduled_at": "2026-09-09T13:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building a Streaming Sliding-Window Attention Engine in Pure Python",
+      "url": "https://martinuke0.github.io/posts/2026-09-07-building-a-streaming-sliding-window-attention-engine-in-pure-python/",
+      "social_hook": "> TL;DR — This post walks through building a streaming, sliding-window attention engine with prefix KV-cache reuse and dynamic context eviction in pure Python. It's a deliberately small codebase (~400 lines) that signals deep understanding of LLM inference internals — the exact skills that distinguish \"knows how to call an API\" engineers from those who can reason about production serving systems.\n\nMost portfolio projects fall into two traps: they're either too trivial (a TODO app) or too derivative (yet another RAG wrapper). The sweet spot — and what makes a hiring manager stop scrolling — is a project that exposes a real systems-level problem and solves it with code you can defend in an interview. This one sits exactly there. We're building a streaming attention engine, the kind of machinery humming behind vLLM's PagedAttention, Hugging Face TGI, and every long-context chatbot you've used this year.\n\nThe full source lives in roughly 400 lines of NumPy-only Python. No PyTorch, no CUDA, no magic. By the end you'll have a runnable engine that streams tokens, reuses KV cache across overlapping prefixes, evicts old context, and exposes the same knobs that production frameworks gate behind config flags.",
+      "tags": [
+        "python",
+        "machine-learning",
+        "llm-infrastructure",
+        "attention-mechanisms",
+        "portfolio-projects"
+      ],
+      "scheduled_at": "2026-09-09T14:58:53Z",
       "status": "pending"
     }
   ]
