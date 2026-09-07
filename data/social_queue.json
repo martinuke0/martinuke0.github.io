@@ -20776,7 +20776,8 @@
         "architecture"
       ],
       "scheduled_at": "2026-09-07T12:58:53Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-07T13:02:12Z"
     },
     {
       "title": "Cloudflare Zero to Hero: A Working Engineer's Guide to Building on the Edge",
