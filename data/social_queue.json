@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-10T04:58:53Z",
+  "last_scheduled_at": "2026-09-10T05:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21703,6 +21703,20 @@
         "machine-learning"
       ],
       "scheduled_at": "2026-09-10T04:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing GPU Memory Pools: Inside PyTorch's CUDA Caching Allocator",
+      "url": "https://martinuke0.github.io/posts/2026-09-07-optimizing-gpu-memory-pools-inside-pytorch/",
+      "social_hook": "> TL;DR — PyTorch's CUDA caching allocator intercepts every `cudaMalloc` and serves it from a per-device block pool, eliminating the 1–10 ms cost of talking to the driver. Understanding block sizes, the LRU eviction path, and tools like `expandable_segments` and `torch.cuda.memory_stats()` is the difference between training a 7B model at 60% GPU utilization and one that fits a 30% longer context window on the same H100.\n\nThe first thing every CUDA learner finds out is that `cudaMalloc` is slow. On modern GPUs it costs anywhere from a few hundred microseconds to several milliseconds, depending on the driver, the size requested, and the current fragmentation state of the heap. For a model with hundreds of millions of parameters and activations that change shape every layer, calling `cudaMalloc` on every forward pass is not a rounding error — it can eat 10–20% of your wall-clock time.\n\nThe traditional fix is what every high-performance runtime eventually reinvents: a memory pool. PyTorch's CUDA caching allocator is its implementation of that pattern, designed to make subsequent allocations of the same shape effectively free.",
+      "tags": [
+        "pytorch",
+        "cuda",
+        "gpu",
+        "memory-management",
+        "deep-learning"
+      ],
+      "scheduled_at": "2026-09-10T05:58:53Z",
       "status": "pending"
     }
   ]
