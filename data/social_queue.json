@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-09T07:58:53Z",
+  "last_scheduled_at": "2026-09-09T06:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20565,8 +20565,9 @@
         "production-engineering"
       ],
       "scheduled_at": "2026-09-06T23:58:53Z",
-      "status": "posting",
-      "claimed_at": "2026-09-07T00:02:21Z"
+      "status": "posted",
+      "claimed_at": "2026-09-07T00:02:21Z",
+      "post_urn": "urn:li:share:7502516588277891072"
     },
     {
       "title": "NVIDIA Dynamo: A Practical Guide to the Open-Source Inference Serving Framework",
@@ -21353,20 +21354,6 @@
         "claude-code"
       ],
       "scheduled_at": "2026-09-09T06:58:53Z",
-      "status": "pending"
-    },
-    {
-      "title": "Inside the Lua VM: How the Reference Implementation Compiles and Executes Bytecode",
-      "url": "https://martinuke0.github.io/posts/2026-09-07-inside-the-lua-vm-how-the-reference-implementation-compiles-and-executes-bytecode/",
-      "social_hook": "> TL;DR — The reference Lua VM is a register-based, single-pass compiler that turns source into a compact bytecode stream, then runs it through a portable interpreter loop using tagged-value registers. Understanding its pipeline explains why Lua is small, fast, and easy to embed — and why features like coroutines, generational GC, and the `LUAI_MAXSTACK` constant exist.\n\nLua is the kind of language that hides in plain sight. It powers game scripting in Roblox, World of Warcraft add-ons, and Angry Birds; it sits inside Nginx as the OpenResty glue; it runs configuration and orchestration logic in Redis, Wireshark, and even parts of the Linux kernel build system. Almost everywhere you find it, you find the reference implementation — sometimes called PUC-Rio Lua after the Pontifical Catholic University of Rio de Janeiro where Roberto Ierusalimschy and his collaborators built it.\n\nWhat makes the reference VM worth dissecting in 2026 is that it has stayed remarkably true to its design choices: a tiny C codebase, a register-based bytecode, and a portable interpreter that compiles and executes without needing a JIT compiler in the loop. Studying it is a masterclass in how to build a production-grade virtual machine that fits in roughly 17,000 lines of C and still benchmarks competitively with much larger runtimes.",
-      "tags": [
-        "lua",
-        "virtual-machines",
-        "bytecode",
-        "interpreters",
-        "language-implementation"
-      ],
-      "scheduled_at": "2026-09-09T07:58:53Z",
       "status": "pending"
     }
   ]
