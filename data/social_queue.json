@@ -20859,7 +20859,8 @@
         "machine-learning-infrastructure"
       ],
       "scheduled_at": "2026-09-07T17:58:53Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-07T19:27:58Z"
     },
     {
       "title": "Build a Speculative Decoding Sampler: A CV-Worthy Side Project",
