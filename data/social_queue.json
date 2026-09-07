@@ -20710,7 +20710,8 @@
         "engineering"
       ],
       "scheduled_at": "2026-09-07T08:58:53Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-07T10:01:37Z"
     },
     {
       "title": "Probabilities Zero to Hero: From Coin Flips to Bayesian Inference in Production",
