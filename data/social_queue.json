@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-09T17:58:53Z",
+  "last_scheduled_at": "2026-09-09T18:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21547,6 +21547,20 @@
         "portfolio-project"
       ],
       "scheduled_at": "2026-09-09T17:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building a Gradient Checkpointing Memory Scheduler From Scratch: A Portfolio Project That Actually Signals ML Systems Skill",
+      "url": "https://martinuke0.github.io/posts/2026-09-07-building-a-gradient-checkpointing-memory-scheduler-from-scratch-a-portfolio-project-that-actually-signals-ml-systems-skill/",
+      "social_hook": "> TL;DR — Gradient checkpointing trades compute for memory by dropping activations during the forward pass and recomputing them in backward. This post walks through a from-scratch memory scheduler — a small policy layer that decides which checkpoints to keep, when to evict, and how to stream the rest — implemented in pure PyTorch against a mini GPT. You finish with a runnable repo, measurable memory savings, and a clear roadmap for evolving it into a senior-level ML systems artifact.\n\nMost \"I trained a transformer\" repos look identical: a tiny GPT, a Hugging Face Trainer call, a loss curve, done. They demonstrate familiarity, not engineering. A custom memory scheduler is different. It signals the things hiring managers for ML infra, performance, or research-engineering roles actually screen for.\n\n- Memory-model literacy. You are reasoning about activation lifetimes, CUDA allocator behavior, and the difference between stored and recomputable tensors. That is the daily vocabulary of ML performance engineers at Meta, Google, and any inference-platform team.",
+      "tags": [
+        "PyTorch",
+        "Deep Learning",
+        "Systems Engineering",
+        "Portfolio Project",
+        "ML Infrastructure"
+      ],
+      "scheduled_at": "2026-09-09T18:58:53Z",
       "status": "pending"
     }
   ]
