@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-10T05:58:53Z",
+  "last_scheduled_at": "2026-09-10T06:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21717,6 +21717,20 @@
         "deep-learning"
       ],
       "scheduled_at": "2026-09-10T05:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Backpropagation Demystified: How Neural Networks Actually Learn",
+      "url": "https://martinuke0.github.io/posts/2026-09-07-backpropagation-demystified-how-neural-networks-actually-learn/",
+      "social_hook": "> TL;DR — Backpropagation is the chain rule applied to a computational graph of operations. Forward pass computes predictions; backward pass propagates gradients from the loss back to every parameter. Modern frameworks like PyTorch and JAX implement this with reverse-mode automatic differentiation, so you write forward code and get gradients for free.\n\nIf you've trained a neural network, you've used backpropagation — even if you've never written a single line of it yourself. Frameworks like PyTorch, TensorFlow, and JAX handle the gradient computation automatically, which is wonderful for productivity but can make the underlying mechanics feel like a black box.\n\nThat black box is worth opening. Not because you'll implement backprop by hand in production (you almost certainly won't), but because understanding it changes how you debug models, reason about vanishing gradients, and design architectures that train well.",
+      "tags": [
+        "machine-learning",
+        "deep-learning",
+        "neural-networks",
+        "backpropagation",
+        "gradient-descent"
+      ],
+      "scheduled_at": "2026-09-10T06:58:53Z",
       "status": "pending"
     }
   ]
