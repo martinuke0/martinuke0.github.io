@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-09T09:58:53Z",
+  "last_scheduled_at": "2026-09-09T10:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21420,6 +21420,20 @@
         "patterns"
       ],
       "scheduled_at": "2026-09-09T09:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building Agents with MCP: The Model Context Protocol in Practice",
+      "url": "https://martinuke0.github.io/posts/2026-09-07-building-agents-with-mcp-the-model-context-protocol-in-practice/",
+      "social_hook": "> TL;DR — The Model Context Protocol (MCP) is an open standard that lets LLMs discover and call external tools over JSON-RPC. Rather than hand-wiring tool schemas into every agent framework, you implement an MCP server once and any MCP-compatible host (Claude Desktop, Cursor, Zed, Continue) can use it. The real leverage is composition: one server per capability, swappable hosts, and a transport you can scale.\n\nIf you've shipped even a toy agent, you've felt the friction: every host has its own way to register tools, every framework reinvents tool schemas, and the moment you want to expose a new capability you write a fresh integration layer. Anthropic open-sourced the Model Context Protocol in late 2024 to fix that, and a year later it's becoming the de facto standard for connecting models to the outside world.\n\nThis post walks through the protocol the way you'd actually use it: what a server and a host are, how the JSON-RPC messages look on the wire, and which patterns hold up when you ship a server that real engineers will depend on.",
+      "tags": [
+        "mcp",
+        "model-context-protocol",
+        "ai-agents",
+        "llm",
+        "tool-use"
+      ],
+      "scheduled_at": "2026-09-09T10:58:53Z",
       "status": "pending"
     }
   ]
