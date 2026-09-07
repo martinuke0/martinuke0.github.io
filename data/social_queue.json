@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-09T18:58:53Z",
+  "last_scheduled_at": "2026-09-09T19:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21561,6 +21561,20 @@
         "ML Infrastructure"
       ],
       "scheduled_at": "2026-09-09T18:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Build a GPTQ-Style Int4 Quantization Engine From Scratch",
+      "url": "https://martinuke0.github.io/posts/2026-09-07-build-a-gptq-style-int4-quantization-engine-from-scratch/",
+      "social_hook": "> TL;DR — This project packages four high-leverage skills into one tight repo: linear-algebra numerics, quantization-aware inference kernels, group-symmetric packing for memory bandwidth, and clean testing on CPU. Hiring managers read \"built a GPTQ-style int4 engine\" as a signal that you understand how modern LLM serving (vLLM, ExLlamaV2, llama.cpp) actually works under the hood — not just how to call an API.\n\nMost ML side projects stop at \"fine-tuned a 7B model on my custom dataset.\" That bar is now table stakes. The differentiator in 2026 is showing you understand the serving stack: how weights are packed into memory, how dequantization fuses with matmul, and how numerical fidelity is preserved across quantization groups. This guide walks you through building exactly that — a from-scratch int4 quantization engine with grouped scales, asymmetric zero points, and a CUDA-free dequant matmul kernel that you can run on any laptop.\n\nHiring managers at companies shipping LLMs (Anthropic, Mistral, Together, Cohere, and the inference-platform tier at AWS/GCP/Azure) screen for a specific cluster of skills. This project demonstrates all of them in one self-contained repo:",
+      "tags": [
+        "quantization",
+        "gptq",
+        "cuda",
+        "inference",
+        "python"
+      ],
+      "scheduled_at": "2026-09-09T19:58:53Z",
       "status": "pending"
     }
   ]
