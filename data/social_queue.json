@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-10T08:58:53Z",
+  "last_scheduled_at": "2026-09-10T07:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20909,9 +20909,10 @@
         "retrieval-augmented-generation"
       ],
       "scheduled_at": "2026-09-07T20:58:53Z",
-      "status": "posting",
+      "status": "posted",
       "cta": true,
-      "claimed_at": "2026-09-07T21:04:12Z"
+      "claimed_at": "2026-09-07T21:04:12Z",
+      "post_urn": "urn:li:share:7502834142997438464"
     },
     {
       "title": "The Hardest RAG Ingestion Problems and How Engineers Actually Solve Them",
@@ -21812,20 +21813,6 @@
         "deep learning infrastructure"
       ],
       "scheduled_at": "2026-09-10T07:58:53Z",
-      "status": "pending"
-    },
-    {
-      "title": "User Safety: Building Secure and Resilient Experiences for Real-World Systems",
-      "url": "https://martinuke0.github.io/posts/2026-09-07-user-safety-building-secure-and-resilient-experiences-for-real-world-systems/",
-      "social_hook": "> TL;DR — User safety in software systems is not a feature you bolt on later; it’s an architecture discipline that spans authentication, authorization, data isolation, and graceful failure handling. When engineered properly, it protects users, preserves trust, and reduces the blast radius of production incidents.\n\nUser safety in digital products is often mistaken for \"security,\" but the two are distinct. Security focuses on protecting the system from adversaries; user safety ensures that the system behaves predictably and harmlessly for its legitimate users, even when things go wrong. In production engineering, safe user experiences emerge from deliberate design choices in identity management, data partitioning, error handling, and observability. This post walks through the concrete patterns and production‑grade architectures that engineering teams use to keep users safe, from the first login to graceful degradation during incidents.\n\nEvery safe system starts with a clear answer to \"who is this user?\" In modern web architectures, this rarely means rolling your own password store. Instead, teams adopt standardized protocols that have been battle‑tested at scale.",
-      "tags": [
-        "user-safety",
-        "security",
-        "authentication",
-        "production-engineering",
-        "software-architecture"
-      ],
-      "scheduled_at": "2026-09-10T08:58:53Z",
       "status": "pending"
     }
   ]
