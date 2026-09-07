@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-09T12:58:53Z",
+  "last_scheduled_at": "2026-09-09T13:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21462,6 +21462,21 @@
         "from-scratch"
       ],
       "scheduled_at": "2026-09-09T12:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Stop Letting Your AI Agent Grep Blind: The Rise of Repository Maps",
+      "url": "https://martinuke0.github.io/posts/2026-09-07-stop-letting-your-ai-agent-grep-blind-the-rise-of-repository-maps/",
+      "social_hook": "> TL;DR — Today's coding agents waste roughly 95% of their context budget on grep-and-read passes that return noisy, redundant, and stale code. Repository-mapping CLIs compute a ranked call graph, blast radius, and test selection up front, replacing megabytes of file bodies with kilobytes of signed summaries. The result is faster agents, cheaper runs, and edits that survive review.\n\nIf you have watched a coding agent work on a non-trivial repo, you have probably seen the loop. It runs `grep -r` across the tree, reads a dozen candidate files in full, quotes large swaths back into its own context, and only then proposes an edit. When the edit fails a build, it does the same thing again — same greps, same reads, same duplicated snippets.\n\nThis pattern is not unique to one vendor. Claude Code, the Codex CLI, Cursor's agent mode, Aider, and Continue all converge on the same default behavior: treat the repo as opaque text, query it liberally, and re-read whatever the model needs. The cost shows up in three places:",
+      "tags": [
+        "ai-agents",
+        "developer-tools",
+        "context-engineering",
+        "code-search",
+        "ripgrep",
+        "llm"
+      ],
+      "scheduled_at": "2026-09-09T13:58:53Z",
       "status": "pending"
     }
   ]
