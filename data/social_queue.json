@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-09T22:58:53Z",
+  "last_scheduled_at": "2026-09-09T23:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21618,6 +21618,20 @@
         "python"
       ],
       "scheduled_at": "2026-09-09T22:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Build a Hybrid Sparse-Dense Retriever from Scratch: A CV Project That Actually Signals Systems Skill",
+      "url": "https://martinuke0.github.io/posts/2026-09-07-build-a-hybrid-sparse-dense-retriever-from-scratch-a-cv-project-that-actually-signals-systems-skill/",
+      "social_hook": "> TL;DR — You'll build a hybrid retriever in under 400 lines of Python that ingests a corpus, indexes it with both learned BM25 and dense embeddings, fuses the two score streams with reciprocal rank fusion, and serves a streaming RAG generation loop. It's the right size to finish in a weekend but exercises enough real systems primitives (indexing, vector search, score fusion, async streaming, observability) to read as production-grade thinking on a CV.\n\nMost \"RAG projects\" on portfolios are 200-line wrappers around an OpenAI client plus a vector database call. Hiring managers see them, mentally check a box, and move on. The project below is different in three specific ways:\n\n1. It implements two retrieval algorithms, not one. A naive RAG demo uses a single dense retriever. This project runs BM25 and embeddings in parallel and fuses them. That choice immediately signals that you understand the tradeoffs — dense retrieval is great for semantic similarity, but it misses exact-term matches (model names, error codes, API paths), and BM25 handles those cleanly. Knowing this is a differentiator between someone who's read one tutorial and someone who's actually shipped search.",
+      "tags": [
+        "retrieval-augmented-generation",
+        "hybrid-search",
+        "bm25",
+        "vector-search",
+        "python"
+      ],
+      "scheduled_at": "2026-09-09T23:58:53Z",
       "status": "pending"
     }
   ]
