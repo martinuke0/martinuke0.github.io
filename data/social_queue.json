@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-09T06:58:53Z",
+  "last_scheduled_at": "2026-09-09T07:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21356,6 +21356,21 @@
         "claude-code"
       ],
       "scheduled_at": "2026-09-09T06:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Inside DuckDB's Vectorized Execution Engine: How Columnar Storage Meets SIMD-Aware Query Processing",
+      "url": "https://martinuke0.github.io/posts/2026-09-07-inside-duckdb/",
+      "social_hook": "> TL;DR — DuckDB fuses two ideas that, on paper, shouldn't compose cleanly: a pure columnar in-memory format and a vectorized, SIMD-aware execution engine. The result is a single-process analytical database that routinely beats well-resourced cloud warehouses on per-core throughput, because the vector layout is also the operator layout is also the SIMD lane layout.\n\nFor most of the database era, the orthodoxy was clear: row stores for transactions, column stores for analytics. The split made sense in the disk era — a row store keeps a full record contiguous so updates and point lookups touch one page, while a column store keeps a single attribute contiguous so a scan over that attribute is cheap.\n\nBut that framing is incomplete. By the 2010s, three things changed simultaneously:",
+      "tags": [
+        "duckdb",
+        "columnar-storage",
+        "simd",
+        "vectorized-execution",
+        "olap",
+        "query-engine"
+      ],
+      "scheduled_at": "2026-09-09T07:58:53Z",
       "status": "pending"
     }
   ]
