@@ -20943,8 +20943,9 @@
         "machine-learning"
       ],
       "scheduled_at": "2026-09-07T22:58:53Z",
-      "status": "pending",
-      "cta": false
+      "status": "posting",
+      "cta": false,
+      "claimed_at": "2026-09-07T23:01:30Z"
     },
     {
       "title": "Building Agentic APIs: When Your Endpoint Thinks for Itself",
