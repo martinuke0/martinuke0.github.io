@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-09T13:58:53Z",
+  "last_scheduled_at": "2026-09-09T14:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21483,6 +21483,21 @@
         "llm"
       ],
       "scheduled_at": "2026-09-09T13:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building nanoGPT From Scratch: A Portfolio-Worthy Deep Learning Project",
+      "url": "https://martinuke0.github.io/posts/2026-09-07-building-nanogpt-from-scratch-a-portfolio-worthy-deep-learning-project/",
+      "social_hook": "> TL;DR — nanoGPT is the single best deep-learning side project for a CV: it's small enough to finish in a weekend, but it touches every real-world ML systems concern (mixed-precision via `torch.amp`, gradient accumulation for effective batch sizing, cosine LR scheduling, weight tying, efficient data loading). We'll build it step-by-step in pure PyTorch with runnable code, then map the upgrade path to senior-level distributed training.\n\nWhen I review engineering portfolios, I look for one signal: can the candidate ship a non-trivial system end-to-end? A from-scratch nanoGPT is unusual because it's both short (the entire training loop fits in one file) and complete — it forces you to make decisions about precision, memory, learning rate policy, and data pipelines that production ML engineers make every day. Andrej Karpathy's nanoGPT is the canonical reference, and the patterns below are directly drawn from how teams train LLMs on a single node or across a cluster.\n\nThis isn't a tutorial that prints \"TODO: implement attention.\" Every code block below is runnable.",
+      "tags": [
+        "pytorch",
+        "deep-learning",
+        "nanogpt",
+        "mixed-precision",
+        "gradient-accumulation",
+        "ml-systems"
+      ],
+      "scheduled_at": "2026-09-09T14:58:53Z",
       "status": "pending"
     }
   ]
