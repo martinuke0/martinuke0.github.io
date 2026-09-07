@@ -20760,7 +20760,8 @@
         "simulation"
       ],
       "scheduled_at": "2026-09-07T11:58:53Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-07T12:02:10Z"
     },
     {
       "title": "LLM-to-LLM Communication: Why Hero-to-Hero Beats Hero-to-API",
