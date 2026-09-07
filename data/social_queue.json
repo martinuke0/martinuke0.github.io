@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-09T21:58:53Z",
+  "last_scheduled_at": "2026-09-09T22:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21603,6 +21603,21 @@
         "kubernetes"
       ],
       "scheduled_at": "2026-09-09T21:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Build a Paged KV Cache With Continuous Batching and Prefix Sharing: A From-Scratch Guide",
+      "url": "https://martinuke0.github.io/posts/2026-09-07-build-a-paged-kv-cache-with-continuous-batching-and-prefix-sharing-a-from-scratch-guide/",
+      "social_hook": "> TL;DR — This project ships a small but faithful re-implementation of the core trick behind modern LLM inference servers: a paged KV cache (à la vLLM's PagedAttention paper) combined with continuous batching and prefix sharing. It's ~300 lines of Python, runs end-to-end against a toy transformer, and gives hiring managers something concrete to talk about: memory math, scheduling, and systems design.\n\nIf you've shipped LLM features but never touched the serving stack, this is the project that closes the gap between \"I called an API\" and \"I know how the engine works.\" It's also the kind of side project that tends to start conversations in interviews rather than end them.\n\nMost portfolio projects stop at \"I called OpenAI with `requests`.\" Yours will go further. Specifically, you'll be able to say — and defend in a system design interview — that you implemented:",
+      "tags": [
+        "llm-inference",
+        "kv-cache",
+        "vllm",
+        "systems-engineering",
+        "portfolio-project",
+        "python"
+      ],
+      "scheduled_at": "2026-09-09T22:58:53Z",
       "status": "pending"
     }
   ]
