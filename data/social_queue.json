@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-09T13:58:53Z",
+  "last_scheduled_at": "2026-09-09T14:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21479,6 +21479,20 @@
         "llm"
       ],
       "scheduled_at": "2026-09-09T13:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Build a Mini GPT From Scratch: A Mixed-Precision Training Loop That Actually Impresses",
+      "url": "https://martinuke0.github.io/posts/2026-09-07-build-a-mini-gpt-from-scratch-a-mixed-precision-training-loop-that-actually-impresses/",
+      "social_hook": "> TL;DR — A mini GPT trained from scratch with bf16 mixed precision, a custom autograd engine, gradient checkpointing, and AdamW is a small-but-real systems build: ~500 lines of PyTorch that exercises the same machinery production LLM stacks use. This post walks through every piece with runnable code and ends with a roadmap to senior-level extensions.\n\nMost \"built a transformer\" portfolio projects stop at `nn.TransformerEncoderLayer` and a copy of Karpathy's nanoGPT. That's fine — it proves you can read code. What hiring managers at ML systems teams actually scan for is whether you understand the infrastructure underneath: how autograd actually backpropagates, where memory goes, why bf16 differs from fp16, and how checkpointing trades compute for RAM. This project delivers all of that in a single repo you can demo in under ten minutes.\n\nHiring managers don't read every line of your GitHub. They read the README and skim the code for signals. This project emits several strong ones:",
+      "tags": [
+        "pytorch",
+        "deep-learning",
+        "mixed-precision",
+        "autograd",
+        "systems-engineering"
+      ],
+      "scheduled_at": "2026-09-09T14:58:53Z",
       "status": "pending"
     }
   ]
