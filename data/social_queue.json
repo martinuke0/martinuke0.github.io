@@ -20792,7 +20792,8 @@
         "architecture"
       ],
       "scheduled_at": "2026-09-07T13:58:53Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-07T14:01:31Z"
     },
     {
       "title": "GitHub Zero to Hero: The Engineer’s Guide to Shipping Code Without Drama",
