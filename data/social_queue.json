@@ -20727,8 +20727,9 @@
         "production-systems"
       ],
       "scheduled_at": "2026-09-07T09:58:53Z",
-      "status": "posting",
-      "claimed_at": "2026-09-07T10:01:37Z"
+      "status": "posted",
+      "claimed_at": "2026-09-07T10:01:37Z",
+      "post_urn": "urn:li:share:7502667432034025472"
     },
     {
       "title": "Quantum Computing Zero to Hero: From Qubits to Production Algorithms",
