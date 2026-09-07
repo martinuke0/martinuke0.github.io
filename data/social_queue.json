@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-09T19:58:53Z",
+  "last_scheduled_at": "2026-09-09T20:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21575,6 +21575,20 @@
         "python"
       ],
       "scheduled_at": "2026-09-09T19:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Inside etcd's Raft Implementation: Lease-Based Leader Election and Read Consistency",
+      "url": "https://martinuke0.github.io/posts/2026-09-07-inside-etcd/",
+      "social_hook": "> TL;DR — etcd combines Raft consensus with two key tricks: a leader lease that eliminates the need for heartbeats on every read, and a read-index protocol that forces reads to confirm leadership via the quorum before returning data. Together these give Kubernetes clients linearizable reads without paying the latency cost of a full write quorum on every GET, while still tolerating minority failures.\n\nIf you've ever debugged a Kubernetes apiserver hanging on `etcdserver: request timed out`, you've already brushed against one of the most carefully engineered consensus stacks in the modern control-plane world. etcd isn't just a key-value store. Under the hood, it's a Raft-replicated state machine with a BoltDB-backed MVCC layer, wrapped in a gRPC API that powers every Kubernetes object you've ever created.\n\nThis post walks through the two pieces of etcd's design that make it feel both fast and correct: lease-based leader election and the read-index protocol for linearizable reads. We'll look at the actual code paths in `etcd-io/raft` and `etcd-io/etcd`, and we'll ground it in the production scenario most readers care about: a 3-node etcd cluster behind a Kubernetes control plane.",
+      "tags": [
+        "etcd",
+        "raft",
+        "distributed-systems",
+        "kubernetes",
+        "consensus"
+      ],
+      "scheduled_at": "2026-09-09T20:58:53Z",
       "status": "pending"
     }
   ]
