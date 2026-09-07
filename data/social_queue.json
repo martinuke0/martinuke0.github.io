@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-09T14:58:53Z",
+  "last_scheduled_at": "2026-09-09T13:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -20792,8 +20792,9 @@
         "architecture"
       ],
       "scheduled_at": "2026-09-07T13:58:53Z",
-      "status": "posting",
-      "claimed_at": "2026-09-07T14:01:31Z"
+      "status": "posted",
+      "claimed_at": "2026-09-07T14:01:31Z",
+      "post_urn": "urn:li:share:7502727771006156800"
     },
     {
       "title": "GitHub Zero to Hero: The Engineer’s Guide to Shipping Code Without Drama",
@@ -21482,21 +21483,6 @@
         "llm"
       ],
       "scheduled_at": "2026-09-09T13:58:53Z",
-      "status": "pending"
-    },
-    {
-      "title": "Implementing eBPF for Granular Seccomp Filtering in Rootless Podman Containers",
-      "url": "https://martinuke0.github.io/posts/2026-09-07-implementing-ebpf-for-granular-seccomp-filtering-in-rootless-podman-containers/",
-      "social_hook": "> TL;DR — Rootless Podman already sandboxes user namespaces, but its seccomp defaults are coarse. By attaching a small eBPF program to the `seccomp` tracepoint you can intercept syscalls before seccomp evaluates them, inspect arguments via `bpf_probe_read`, and ship verdicts back to userspace over a ring buffer. The result is per-container policy that runs without root, survives CRI-O restarts, and adds under 200 nanoseconds of overhead per syscall.\n\nRootless Podman maps the container's UID 0 to your host UID through user namespaces. That's a strong primitive — the container cannot read `/etc/shadow`, cannot mount filesystems, and cannot load kernel modules. But the seccomp profile that ships in `containers/common` is a static JSON blob: roughly 350 allowed syscalls, 40 outright denied, and the rest silently killed with `SCMP_ACT_KILL_PROCESS`.\n\n1. Coarse verdicts. `SCMP_ACT_ALLOW` or `SCMP_ACT_KILL_PROCESS` is binary. You can't say \"allow `openat` only when the path resolves inside `/srv/data`.\"",
-      "tags": [
-        "ebpf",
-        "podman",
-        "seccomp",
-        "containers",
-        "linux-security",
-        "rootless"
-      ],
-      "scheduled_at": "2026-09-09T14:58:53Z",
       "status": "pending"
     }
   ]
