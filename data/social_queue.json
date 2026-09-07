@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-09T06:58:53Z",
+  "last_scheduled_at": "2026-09-09T07:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21368,6 +21368,20 @@
         "claude-code"
       ],
       "scheduled_at": "2026-09-09T06:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Scaling TensorRT-LLM: Kernel Fusion and Inflight Batching in Production",
+      "url": "https://martinuke0.github.io/posts/2026-09-07-scaling-tensorrt-llm-kernel-fusion-and-inflight-batching-in-production/",
+      "social_hook": "> TL;DR — TensorRT-LLM ships two compounding wins for production LLM serving: aggressive kernel fusion that turns a multi-op graph into a single launchable CUDA kernel, and inflight batching (a.k.a. continuous batching) that interleaves decode steps from requests at different lengths so no SM sits idle. Together, they routinely push effective GPU utilization from the 20–30% you get with naive serving to 70–80%+.\n\nIf you have ever looked at `nvidia-smi` while serving an LLM and wondered why the GPU is at 22% utilization while your latency SLO is on fire, you have met the two problems TensorRT-LLM was built to solve. The first is kernel-launch overhead — every matmul, softmax, and rope rotation is a separate launch, and launches are not free. The second is request heterogeneity — one prompt with 512 tokens, three with 64, one with 2048 — and static batching forces the slowest request to dictate throughput for the whole batch.\n\nThis post walks through both halves of the engine: the graph-level optimizations that make each forward pass cheaper, and the scheduler-level optimizations that make every millisecond of GPU time earn its keep.",
+      "tags": [
+        "tensorrt-llm",
+        "inference",
+        "kernel-fusion",
+        "inflight-batching",
+        "llmops"
+      ],
+      "scheduled_at": "2026-09-09T07:58:53Z",
       "status": "pending"
     }
   ]
