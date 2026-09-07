@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-09T20:58:53Z",
+  "last_scheduled_at": "2026-09-09T21:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21589,6 +21589,20 @@
         "consensus"
       ],
       "scheduled_at": "2026-09-09T20:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Fault-Tolerant State Machines with etcd's Raft: Lease Semantics and Split-Brain Recovery",
+      "url": "https://martinuke0.github.io/posts/2026-09-07-architecting-fault-tolerant-state-machines-with-etcd/",
+      "social_hook": "> TL;DR — etcd's Raft layer uses a leader lease plus a strict quorum of `floor(N/2)+1` votes to ensure only one leader can ever commit a log entry per term. Split-brain isn't prevented by the lease alone — it's prevented by the combination of lease-bounded commits, persistent term counters, and a recovery protocol where a stale leader steps down the moment it discovers a higher term. Get any of those three wrong, and your state machine will silently fork.\n\nIf you've ever watched a Kubernetes API server refuse writes during a brief network partition, or watched `etcdctl endpoint status` flip its leader mid-incident, you've already seen etcd's Raft implementation working exactly as designed. Most engineers treat etcd as a \"reliable key-value store\" and never look under the hood. That's a mistake — the way etcd handles leases, leadership transfer, and split-brain recovery is a masterclass in consensus engineering, and the patterns transfer directly to any state machine you build on top.\n\nThis post walks through the architecture: how Raft's lease semantics actually work in etcd's Go implementation, where the failure modes hide, and how to design a state machine that survives the messy realities of production deployments.",
+      "tags": [
+        "raft",
+        "etcd",
+        "distributed-systems",
+        "consensus",
+        "kubernetes"
+      ],
+      "scheduled_at": "2026-09-09T21:58:53Z",
       "status": "pending"
     }
   ]
