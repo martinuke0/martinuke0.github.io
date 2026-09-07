@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-09T06:58:53Z",
+  "last_scheduled_at": "2026-09-09T07:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21376,6 +21376,21 @@
         "claude-code"
       ],
       "scheduled_at": "2026-09-09T06:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Agentic AI in Production: How Autonomous Agents Are Rewiring the Stack",
+      "url": "https://martinuke0.github.io/posts/2026-09-07-agentic-ai-in-production-how-autonomous-agents-are-rewiring-the-stack/",
+      "social_hook": "> TL;DR — Agentic AI replaces single-prompt LLM calls with autonomous loops that plan, call external tools, observe results, and recover from failure. In production, the model is only one piece of the system — orchestration, tool contracts, memory, and evaluation pipelines decide whether an agent is shippable or a demo.\n\nTwo years ago, most LLM applications were a single prompt in and a string of text out. The model was the application. If the prompt was good and the model was strong, the output was usable. If either was off, the user got a hallucination, a refusal, or a paraphrase of their own question.\n\nAgentic AI inverts that picture. The model becomes one component inside a control loop that owns planning, action, and recovery. Instead of asking the model to produce a final answer, you ask it to produce the next step, observe the result of that step, and decide what to do next. The agent runs until it hits a termination condition — task done, budget exhausted, or stuck.",
+      "tags": [
+        "agentic-ai",
+        "llm",
+        "orchestration",
+        "rag",
+        "tooling",
+        "mcp"
+      ],
+      "scheduled_at": "2026-09-09T07:58:53Z",
       "status": "pending"
     }
   ]
