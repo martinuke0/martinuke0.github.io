@@ -20892,7 +20892,8 @@
         "portfolio-project"
       ],
       "scheduled_at": "2026-09-07T19:58:53Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-07T20:39:10Z"
     },
     {
       "title": "Graphify Replaces the RAG Vector Store: Why Graph-Based Retrieval Is the Next Leap",
