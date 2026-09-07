@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-10T02:58:53Z",
+  "last_scheduled_at": "2026-09-10T03:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21675,6 +21675,20 @@
         "engineering-portfolio"
       ],
       "scheduled_at": "2026-09-10T02:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Inside Apache Pulsar: Architecting Tiered Storage for Petabyte-Scale Streaming Retention",
+      "url": "https://martinuke0.github.io/posts/2026-09-07-inside-apache-pulsar-architecting-tiered-storage-for-petabyte-scale-streaming-retention/",
+      "social_hook": "> TL;DR — Pulsar splits streaming data into two tiers: hot data lives in BookKeeper for low-latency reads and writes, while cold data gets offloaded to long-term stores like S3 or HDFS. The boundary between tiers is just another segment, which means retention, lookup, and replay work the same whether data is five minutes or five years old.\n\nMost streaming systems were designed when \"long term\" meant seven days. That worked when log retention was an operational afterthought. It does not work when data products depend on months of replayable history: fraud models retraining on two quarters of clickstream, IoT platforms replaying a year of sensor events for a firmware regression, compliance teams asking for \"everything we ever shipped\" on a Tuesday afternoon.\n\nThe naive fix is bigger disks. That works until it doesn't. A single Pulsar topic on a busy cluster can ingest gigabytes per second. Even at modest scale, keeping weeks of data on local journal drives becomes a cost problem long before it becomes a stability problem. Pulsar's answer, formalized years ago and now standard across the Apache Pulsar documentation, is to acknowledge that hot and cold data have different access patterns and treat them as fundamentally different storage problems.",
+      "tags": [
+        "apache-pulsar",
+        "tiered-storage",
+        "streaming",
+        "architecture",
+        "distributed-systems"
+      ],
+      "scheduled_at": "2026-09-10T03:58:53Z",
       "status": "pending"
     }
   ]
