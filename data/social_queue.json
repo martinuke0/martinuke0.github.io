@@ -20842,7 +20842,8 @@
         "noise-protocol"
       ],
       "scheduled_at": "2026-09-07T16:58:53Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-07T16:59:13Z"
     },
     {
       "title": "Building Flash Attention from Scratch in Pure NumPy: A CV-Worthy Systems Project",
