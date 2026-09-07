@@ -31,11 +31,14 @@ def clean_hook(hook: str) -> str:
     return text.strip()
 
 
-def build_post(title: str, url: str, social_hook: str, tags: list = None, cta_prob: float = 0.10) -> str:
+def build_post(title: str, url: str, social_hook: str, tags: list = None,
+               cta: bool = None, cta_prob: float = 0.10) -> str:
     hashtags = build_hashtags(tags or [])
     hook = clean_hook(social_hook or "")
-    # Consulting CTA on ~1 in 10 posts (cta_prob overridable for tests).
-    cta = f"{LINKEDIN_CTA}\n\n" if random.random() < cta_prob else ""
+    # Consulting CTA: explicit `cta` flag wins (used to pre-seed the queue at 1/10);
+    # otherwise a random cta_prob chance (default 1 in 10) for ad-hoc posts.
+    include_cta = cta if cta is not None else (random.random() < cta_prob)
+    cta = f"{LINKEDIN_CTA}\n\n" if include_cta else ""
     if hook:
         return LINKEDIN_TEMPLATE.format(
             title=title, social_hook=hook, url=url, hashtags=hashtags, cta=cta
@@ -43,7 +46,7 @@ def build_post(title: str, url: str, social_hook: str, tags: list = None, cta_pr
     return f"{title}\n\nRead the full guide: {url}\n\n{cta}{hashtags}".rstrip()
 
 
-def post_to_linkedin(title: str, url: str, social_hook: str, tags: list = None) -> str:
+def post_to_linkedin(title: str, url: str, social_hook: str, tags: list = None, cta: bool = None) -> str:
     access_token = os.environ.get("LINKEDIN_ACCESS_TOKEN")
     person_urn = os.environ.get("LINKEDIN_PERSON_URN")
 
@@ -58,7 +61,7 @@ def post_to_linkedin(title: str, url: str, social_hook: str, tags: list = None) 
     if missing:
         sys.exit(f"Error: Missing env vars: {', '.join(missing)}")
 
-    post_text = build_post(title, url, social_hook, tags or [])
+    post_text = build_post(title, url, social_hook, tags or [], cta=cta)
     print(f"Posting to LinkedIn:\n{post_text}", file=sys.stderr)
 
     headers = {
