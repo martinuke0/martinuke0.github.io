@@ -21000,7 +21000,7 @@
       ],
       "scheduled_at": "2026-09-08T02:58:53Z",
       "status": "pending",
-      "cta": false
+      "cta": true
     },
     {
       "title": "Context Engineering: The Discipline Behind Reliable LLM Applications",
@@ -21061,7 +21061,7 @@
       ],
       "scheduled_at": "2026-09-08T06:58:53Z",
       "status": "pending",
-      "cta": true
+      "cta": false
     },
     {
       "title": "Inside TikTok's HarnessDev: How They Made Scaffolding for Microservices Scale to 6,000+ Services",
@@ -21093,7 +21093,7 @@
       ],
       "scheduled_at": "2026-09-08T08:58:53Z",
       "status": "pending",
-      "cta": false
+      "cta": true
     },
     {
       "title": "From Prompt to Pixels: Tracing an LLM Request Through an API to a GPU",
@@ -21185,7 +21185,7 @@
       ],
       "scheduled_at": "2026-09-08T14:58:53Z",
       "status": "pending",
-      "cta": false
+      "cta": true
     },
     {
       "title": "Agent Infrastructure Is Creating New Security Challenges",
@@ -21216,7 +21216,7 @@
       ],
       "scheduled_at": "2026-09-08T16:58:53Z",
       "status": "pending",
-      "cta": true
+      "cta": false
     },
     {
       "title": "From Terraform to Token Economics: The Six Skills That Became One Discipline",
@@ -21277,7 +21277,7 @@
       ],
       "scheduled_at": "2026-09-08T20:58:53Z",
       "status": "pending",
-      "cta": false
+      "cta": true
     },
     {
       "title": "LLMOps and GenAIOps: Production Patterns for Reliable LLM Systems",
@@ -21445,7 +21445,7 @@
       ],
       "scheduled_at": "2026-09-09T07:58:53Z",
       "status": "pending",
-      "cta": false
+      "cta": true
     },
     {
       "title": "Building and Evaluating Agents: A Production Engineer's Playbook",
@@ -21521,7 +21521,7 @@
       ],
       "scheduled_at": "2026-09-09T12:58:53Z",
       "status": "pending",
-      "cta": true
+      "cta": false
     },
     {
       "title": "Stop Letting Your AI Agent Grep Blind: The Rise of Repository Maps",
@@ -21537,7 +21537,7 @@
       ],
       "scheduled_at": "2026-09-09T13:58:53Z",
       "status": "pending",
-      "cta": false
+      "cta": true
     },
     {
       "title": "Build a Paged-Attention KV Cache Manager: A Hands-On Project That Actually Impresses Hiring Managers",
@@ -21629,7 +21629,7 @@
       ],
       "scheduled_at": "2026-09-09T19:58:53Z",
       "status": "pending",
-      "cta": false
+      "cta": true
     },
     {
       "title": "Inside etcd's Raft Implementation: Lease-Based Leader Election and Read Consistency",
@@ -21675,7 +21675,7 @@
       ],
       "scheduled_at": "2026-09-09T22:58:53Z",
       "status": "pending",
-      "cta": true
+      "cta": false
     },
     {
       "title": "Build a Hybrid Sparse-Dense Retriever from Scratch: A CV Project That Actually Signals Systems Skill",
@@ -21721,7 +21721,7 @@
       ],
       "scheduled_at": "2026-09-10T01:58:53Z",
       "status": "pending",
-      "cta": false
+      "cta": true
     },
     {
       "title": "Build a Hybrid Sparse-Dense Retriever: A CV-Worthy RAG Side Project",
