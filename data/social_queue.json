@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-09T06:58:53Z",
+  "last_scheduled_at": "2026-09-09T07:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21354,6 +21354,20 @@
         "claude-code"
       ],
       "scheduled_at": "2026-09-09T06:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Build a Continuous Batching LLM Scheduler From Scratch",
+      "url": "https://martinuke0.github.io/posts/2026-09-07-build-a-continuous-batching-llm-scheduler-from-scratch/",
+      "social_hook": "> TL;DR — Continuous batching is the technique behind vLLM, TGI, and TensorRT-LLM. In this build, you'll implement one: a request queue, a paged KV cache, a token-by-token scheduler that interleaves requests, and a minimal \"model\" that produces logits. You'll end with a runnable Python project that demonstrates real LLM serving internals — the kind of artifact that signals systems-level thinking on a CV.\n\nMost portfolio LLM apps are wrappers around an OpenAI client. Hiring managers for inference, platform, or ML systems roles skim past them in seconds. A from-scratch scheduler is different — it's a project only someone who actually read the vLLM paper and the SARATHI work could have written. Concretely, it demonstrates:\n\n- Systems thinking: you understand batching, preemption, memory accounting, and scheduling — the same vocabulary used in vLLM's PagedAttention paper.",
+      "tags": [
+        "llm-serving",
+        "continuous-batching",
+        "paged-kv-cache",
+        "python",
+        "systems"
+      ],
+      "scheduled_at": "2026-09-09T07:58:53Z",
       "status": "pending"
     }
   ]
