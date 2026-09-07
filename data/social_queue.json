@@ -20582,7 +20582,8 @@
         "tracing"
       ],
       "scheduled_at": "2026-09-07T00:58:53Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-07T01:05:37Z"
     },
     {
       "title": "KV Caching in Production: How Transformers Trade Memory for Latency",
