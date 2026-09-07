@@ -2,6 +2,7 @@
 """Post to LinkedIn via API v2 using an OAuth 2.0 bearer token."""
 
 import os
+import random
 import re
 import sys
 from pathlib import Path
@@ -9,7 +10,7 @@ from pathlib import Path
 import requests
 
 sys.path.insert(0, str(Path(__file__).parent))
-from config import LINKEDIN_TEMPLATE
+from config import LINKEDIN_TEMPLATE, LINKEDIN_CTA
 
 
 def build_hashtags(tags: list) -> str:
@@ -30,14 +31,16 @@ def clean_hook(hook: str) -> str:
     return text.strip()
 
 
-def build_post(title: str, url: str, social_hook: str, tags: list = None) -> str:
+def build_post(title: str, url: str, social_hook: str, tags: list = None, cta_prob: float = 0.10) -> str:
     hashtags = build_hashtags(tags or [])
     hook = clean_hook(social_hook or "")
+    # Consulting CTA on ~1 in 10 posts (cta_prob overridable for tests).
+    cta = f"{LINKEDIN_CTA}\n\n" if random.random() < cta_prob else ""
     if hook:
         return LINKEDIN_TEMPLATE.format(
-            title=title, social_hook=hook, url=url, hashtags=hashtags
-        )
-    return f"{title}\n\nRead the full guide: {url}\n\n{hashtags}".rstrip()
+            title=title, social_hook=hook, url=url, hashtags=hashtags, cta=cta
+        ).rstrip()
+    return f"{title}\n\nRead the full guide: {url}\n\n{cta}{hashtags}".rstrip()
 
 
 def post_to_linkedin(title: str, url: str, social_hook: str, tags: list = None) -> str:
