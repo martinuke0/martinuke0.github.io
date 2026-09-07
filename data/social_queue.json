@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-09T16:58:53Z",
+  "last_scheduled_at": "2026-09-09T17:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21532,6 +21532,21 @@
         "n-gram-speculator"
       ],
       "scheduled_at": "2026-09-09T16:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building a GGUF Parser from Scratch: A Portfolio Project That Signals Real Systems Skill",
+      "url": "https://martinuke0.github.io/posts/2026-09-07-building-a-gguf-parser-from-scratch-a-portfolio-project-that-signals-real-systems-skill/",
+      "social_hook": "> TL;DR — A GGUF parser is the kind of project that quietly proves you understand file formats, memory mapping, endianness, and tensor metadata end-to-end. We'll build one in Rust that streams tensor shards off disk into memory-mapped buffers and re-exports them as safetensors tensors, with real code, a working test, and a clear extension roadmap for CV signal.\n\nHiring managers skim portfolios fast. A web app in React and a CRUD API in FastAPI blend into a blur. A from-scratch binary format parser does not. Here's what this specific project signals, and the roles it opens doors to.\n\n- Binary format literacy. GGUF (GPT-Generated Unified Format) is a real, evolving binary container used by llama.cpp and the wider local-LLM ecosystem. Parsing it means reading the GGUF spec, handling version fields, key-value metadata, and typed tensor descriptors — exactly the skill set used in codec work, protocol implementations, and database storage engines.",
+      "tags": [
+        "gguf",
+        "llm-inference",
+        "rust",
+        "safetensors",
+        "systems-engineering",
+        "portfolio-project"
+      ],
+      "scheduled_at": "2026-09-09T17:58:53Z",
       "status": "pending"
     }
   ]
