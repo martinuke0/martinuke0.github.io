@@ -133,6 +133,7 @@ def main() -> None:
             urn = post_to_linkedin(
                 title=title, url=url,
                 social_hook=entry.get("social_hook", ""), tags=entry.get("tags", []),
+                cta=entry.get("cta"),  # explicit per-entry CTA flag (None => random 1/10)
             )
             entry["status"] = "posted"
             if urn:
