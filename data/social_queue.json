@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-09T08:58:53Z",
+  "last_scheduled_at": "2026-09-09T09:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21406,6 +21406,20 @@
         "observability"
       ],
       "scheduled_at": "2026-09-09T08:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building Effective Agents: Patterns That Survive Production",
+      "url": "https://martinuke0.github.io/posts/2026-09-07-building-effective-agents-patterns-that-survive-production/",
+      "social_hook": "> TL;DR — Effective agents aren't magic; they're disciplined compositions of four primitives — a controller loop, tools, memory, and a planning strategy. The agents that survive production are the ones where every step is observable, every tool call is bounded, and every failure has a typed recovery path.\n\nThere's a peculiar gap in the agent literature. The academic side loves benchmarks and reasoning traces. The Twitter side loves demos of an LLM booking flights or \"debugging\" a repo. Neither tells you what to do on day 47 when your agent silently hallucinates a SQL schema, returns plausible-looking nonsense to a paying customer, and burns $400 in tokens before anyone notices.\n\nThis post is about that day. It's a practitioner's playbook for building LLM agents that survive contact with real users, real data, and real on-call rotations. We'll go through the four primitives, the patterns that actually compose them, and the failure modes that bite even well-funded teams.",
+      "tags": [
+        "agents",
+        "llm",
+        "architecture",
+        "production",
+        "patterns"
+      ],
+      "scheduled_at": "2026-09-09T09:58:53Z",
       "status": "pending"
     }
   ]
