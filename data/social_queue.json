@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-10T03:58:53Z",
+  "last_scheduled_at": "2026-09-10T04:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21689,6 +21689,20 @@
         "distributed-systems"
       ],
       "scheduled_at": "2026-09-10T03:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building Grouped-Query Attention with RoPE and Flash-Attention from Scratch",
+      "url": "https://martinuke0.github.io/posts/2026-09-07-building-grouped-query-attention-with-rope-and-flash-attention-from-scratch/",
+      "social_hook": "> TL;DR — You can build a from-scratch grouped-query multi-head attention block with rotary position embeddings and a tiled, online-softmax Flash-Attention forward pass in roughly 300 lines of pure PyTorch. It runs on CPU or MPS/CUDA, matches `torch.nn.functional.scaled_dot_product_attention` numerically, and ships with a tiny test harness. As a portfolio piece, it signals real systems-level ML skill: memory-aware kernels, modern attention variants, and the kind of engineering taste hiring managers look for.\n\nThere's a gap between \"I read the Attention Is All You Need paper\" and \"I shipped a kernel that scales.\" Most CV-worthy ML side projects fall into the first bucket — they call `nn.MultiheadAttention` and call it done. That's fine for learning, but it doesn't differentiate you.\n\nWhat does differentiate you is a project where you've stared at the math, made the trade-offs yourself, and ended up with code you can explain line by line. This guide walks you through exactly that: a from-scratch Grouped-Query Attention (GQA) block with Rotary Position Embeddings (RoPE) and a Flash-Attention-style forward pass using the online softmax. Every line is runnable, every line is explained, and the result is something you can confidently put on your CV and defend in an interview.",
+      "tags": [
+        "pytorch",
+        "transformers",
+        "attention",
+        "flash-attention",
+        "machine-learning"
+      ],
+      "scheduled_at": "2026-09-10T04:58:53Z",
       "status": "pending"
     }
   ]
