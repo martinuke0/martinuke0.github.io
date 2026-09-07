@@ -20678,8 +20678,9 @@
         "backend-engineering"
       ],
       "scheduled_at": "2026-09-07T06:58:53Z",
-      "status": "posting",
-      "claimed_at": "2026-09-07T07:02:17Z"
+      "status": "posted",
+      "claimed_at": "2026-09-07T07:02:17Z",
+      "post_urn": "urn:li:share:7502622285825089536"
     },
     {
       "title": "Serving LLMs in Production: A Practical Guide to Latency, Throughput, and Cost",
