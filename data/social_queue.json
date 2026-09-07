@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-09T10:58:53Z",
+  "last_scheduled_at": "2026-09-09T11:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21434,6 +21434,20 @@
         "tool-use"
       ],
       "scheduled_at": "2026-09-09T10:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building an Agent from Scratch: A Production-Oriented Walkthrough",
+      "url": "https://martinuke0.github.io/posts/2026-09-07-building-an-agent-from-scratch-a-production-oriented-walkthrough/",
+      "social_hook": "> TL;DR — An agent is just an LLM wrapped in a loop that decides what to do, calls tools, observes results, and repeats until done. The hard part isn't the loop — it's the memory model, tool contracts, error handling, and the observability that lets you debug a non-deterministic system in production.\n\nEvery team I talk to right now is building some flavor of an \"agent.\" Most of them have the same story arc: a quick prototype that impressed the demo room, followed by six weeks of pain once it met real traffic. The reason isn't that agents are magic. It's that the patterns that make a demo feel alive — clever prompting, a few hand-wired API calls — are almost the opposite of the patterns that make a service survive Monday morning.\n\nThis post walks through how to build an agent from scratch with that production lens. We'll start from the minimal loop, then layer on the things you actually need: structured tool contracts, a real memory model, guardrails against runaway costs, and enough observability to debug a system that makes different decisions on every run.",
+      "tags": [
+        "ai-agents",
+        "llm",
+        "python",
+        "tool-use",
+        "production-architecture"
+      ],
+      "scheduled_at": "2026-09-09T11:58:53Z",
       "status": "pending"
     }
   ]
