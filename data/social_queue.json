@@ -20809,7 +20809,8 @@
         "developer-productivity"
       ],
       "scheduled_at": "2026-09-07T14:58:53Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-07T15:02:45Z"
     },
     {
       "title": "Distributed Tracing Across Kafka and gRPC With OpenTelemetry Context Propagation",
