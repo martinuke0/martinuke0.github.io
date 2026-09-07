@@ -20926,9 +20926,10 @@
         "production-ai"
       ],
       "scheduled_at": "2026-09-07T21:58:53Z",
-      "status": "posting",
+      "status": "posted",
       "cta": false,
-      "claimed_at": "2026-09-07T22:10:46Z"
+      "claimed_at": "2026-09-07T22:10:46Z",
+      "post_urn": "urn:li:share:7502850892182872064"
     },
     {
       "title": "Fine-Tuning a Small LLM: A Hands-On Experiment",
