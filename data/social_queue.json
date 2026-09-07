@@ -20662,7 +20662,8 @@
         "cuda"
       ],
       "scheduled_at": "2026-09-07T05:58:53Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-07T07:02:17Z"
     },
     {
       "title": "Throughput vs Latency: Why Optimizing One Will Almost Always Break the Other",
