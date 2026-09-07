@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-10T00:58:53Z",
+  "last_scheduled_at": "2026-09-10T01:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21647,6 +21647,20 @@
         "portfolio"
       ],
       "scheduled_at": "2026-09-10T00:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Inside V8's TurboFan's Maglev: How Speculative JIT Compilation Powers Modern JavaScript",
+      "url": "https://martinuke0.github.io/posts/2026-09-07-inside-v8/",
+      "social_hook": "> TL;DR — Maglev is V8's mid-tier JIT compiler that fires ahead of TurboFan, using speculative type feedback and a sea-of-nodes SSA IR to compile hot functions in a few milliseconds while delivering most of TurboFan's peak performance. It exists because TurboFan alone was too slow to tier up to, leaving a perf gap between Sparkplug and fully optimized code that real workloads kept falling into.\n\nIf you've ever opened Chrome DevTools, run a flame chart, and wondered why some hot function suddenly became dramatically faster after a few hundred iterations, you've watched V8's tier-up machinery in action. For years that story was a two-hop journey: Ignition interprets bytecode, Sparkplug does a quick non-optimizing JIT pass, and TurboFan eventually delivers the heavily optimized code. The middle hop, Sparkplug-to-TurboFan, was a long one — and on real workloads it often cost more than it saved.\n\nMaglev is Google's answer to that gap. Introduced by the V8 team in 2023 and shipped to stable Chrome in 2024, it's a purpose-built mid-tier optimizing compiler designed to be fast to compile, smart about speculation, and structurally similar enough to TurboFan that future improvements transfer cleanly between the two.",
+      "tags": [
+        "v8",
+        "javascript",
+        "maglev",
+        "turbofan",
+        "jit-compilation"
+      ],
+      "scheduled_at": "2026-09-10T01:58:53Z",
       "status": "pending"
     }
   ]
