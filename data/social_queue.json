@@ -21255,9 +21255,10 @@
         "career"
       ],
       "scheduled_at": "2026-09-08T16:58:53Z",
-      "status": "posting",
+      "status": "posted",
       "cta": false,
-      "claimed_at": "2026-09-08T17:23:43Z"
+      "claimed_at": "2026-09-08T17:23:43Z",
+      "post_urn": "urn:li:share:7503141041483579395"
     },
     {
       "title": "From Terraform to Token Economics: The Six Skills That Became One Discipline",
