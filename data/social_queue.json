@@ -21116,9 +21116,10 @@
         "Kubernetes"
       ],
       "scheduled_at": "2026-09-08T08:58:53Z",
-      "status": "posting",
+      "status": "posted",
       "cta": true,
-      "claimed_at": "2026-09-08T09:09:08Z"
+      "claimed_at": "2026-09-08T09:09:08Z",
+      "post_urn": "urn:li:share:7503016577563451392"
     },
     {
       "title": "From Prompt to Pixels: Tracing an LLM Request Through an API to a GPU",
