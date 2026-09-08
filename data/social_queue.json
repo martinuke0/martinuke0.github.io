@@ -20960,8 +20960,9 @@
         "production-engineering"
       ],
       "scheduled_at": "2026-09-07T23:58:53Z",
-      "status": "pending",
-      "cta": false
+      "status": "posting",
+      "cta": false,
+      "claimed_at": "2026-09-08T00:04:34Z"
     },
     {
       "title": "Split Agent Architecture in Harness: Separating Reasoning from Execution",
