@@ -21220,9 +21220,10 @@
         "production-engineering"
       ],
       "scheduled_at": "2026-09-08T14:58:53Z",
-      "status": "posting",
+      "status": "posted",
       "cta": true,
-      "claimed_at": "2026-09-08T15:03:13Z"
+      "claimed_at": "2026-09-08T15:03:13Z",
+      "post_urn": "urn:li:share:7503105689465081856"
     },
     {
       "title": "Agent Infrastructure Is Creating New Security Challenges",
