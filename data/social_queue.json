@@ -21324,9 +21324,10 @@
         "datacenter"
       ],
       "scheduled_at": "2026-09-08T20:58:53Z",
-      "status": "posting",
+      "status": "posted",
       "cta": true,
-      "claimed_at": "2026-09-08T21:03:36Z"
+      "claimed_at": "2026-09-08T21:03:36Z",
+      "post_urn": "urn:li:share:7503196401175228416"
     },
     {
       "title": "LLMOps and GenAIOps: Production Patterns for Reliable LLM Systems",
