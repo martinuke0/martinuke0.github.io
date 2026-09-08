@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-10T07:58:53Z",
+  "last_scheduled_at": "2026-09-10T08:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21837,6 +21837,18 @@
         "deep learning infrastructure"
       ],
       "scheduled_at": "2026-09-10T07:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "User Safety: safe",
+      "url": "https://martinuke0.github.io/posts/2026-09-08-user-safety-safe/",
+      "social_hook": "> TL;DR — Automated trading systems require layered security: API key restrictions, rate limiting, withdrawal whitelists, and real-time monitoring to prevent unauthorized access and financial loss.\n\nAutomated trading has become integral to modern finance, but it introduces significant security challenges. This post examines the critical safety measures needed to protect users and capital in algorithmic trading environments.\n\n- Key restrictions: Bind API keys to specific IP addresses, user agents, and time windows",
+      "tags": [
+        "trading",
+        "security",
+        "risk-management"
+      ],
+      "scheduled_at": "2026-09-10T08:58:53Z",
       "status": "pending"
     }
   ]
