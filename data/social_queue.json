@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-10T07:58:53Z",
+  "last_scheduled_at": "2026-09-10T08:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21827,6 +21827,20 @@
         "deep learning infrastructure"
       ],
       "scheduled_at": "2026-09-10T07:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Hands‑On Build Guide: A Portfolio Metrics Service for Your CV",
+      "url": "https://martinuke0.github.io/posts/2026-09-08-handson-build-guide-a-portfolio-metrics-service-for-your-cv/",
+      "social_hook": "We need to produce a complete markdown file with frontmatter and body. Must follow all rules.\n\nFirst, frontmatter: title, date (must be exactly \"2026-09-08T06:01:05.111\"), draft false, tags array 3-6 tags, description 140-160 chars, summary 1-2 sentences, showToc true, TocOpen false, cover image /images/covers/2026-09-08-handson-build-guide-a-portfolio-metrics-service-for-your-cv.svg, alt and caption etc.\n\nWe need to ensure no code fences around frontmatter. The frontmatter itself must start with \"---\" line, then key-values each on its own line, ending with \"---\". Must wrap string values in double quotes. tags must be JSON-style array with each tag in double quotes, no dashes. Eg: tags: [\"docker\", \"python\", \"ci-cd\"].",
+      "tags": [
+        "python",
+        "fastapi",
+        "docker",
+        "postgresql",
+        "ci-cd"
+      ],
+      "scheduled_at": "2026-09-10T08:58:53Z",
       "status": "pending"
     }
   ]
