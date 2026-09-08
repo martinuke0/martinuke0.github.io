@@ -21151,9 +21151,10 @@
         "finops"
       ],
       "scheduled_at": "2026-09-08T10:58:53Z",
-      "status": "posting",
+      "status": "posted",
       "cta": false,
-      "claimed_at": "2026-09-08T12:02:29Z"
+      "claimed_at": "2026-09-08T12:02:29Z",
+      "post_urn": "urn:li:share:7503060239987073026"
     },
     {
       "title": "Kubernetes for AI Inference: Serving Models at Production Scale",
