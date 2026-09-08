@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-10T07:58:53Z",
+  "last_scheduled_at": "2026-09-10T08:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21817,6 +21817,20 @@
         "deep learning infrastructure"
       ],
       "scheduled_at": "2026-09-10T07:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Exactly-Once Semantics with Apache Flink Checkpoints",
+      "url": "https://martinuke0.github.io/posts/2026-09-08-architecting-exactly-once-semantics-with-apache-flink-checkpoints/",
+      "social_hook": "TL;DR — Apache Flink’s checkpointing mechanism provides exactly-once semantics by taking atomic snapshots of operator state and coordinating them with two-phase commit-style barriers. In production, this means failures can be recovered without data duplication or loss, but only when checkpoint configurations, state backend choices, and pipeline topology are tuned correctly. This post walks through the architecture, common pitfalls, and patterns that engineering teams use to guarantee exactly-once processing at scale.\n\nStream processing systems must balance latency, throughput, and fault tolerance. Apache Flink’s approach to exactly-once semantics is built on distributed checkpoints and a precisely coordinated barrier stream. Unlike at-least-once models that rely on idempotent operators or at-most-once models that drop records on failure, Flink’s design ensures that every record is processed precisely once, even when job managers or task managers crash, network partitions occur, or upgrades are rolled out. This section explores how that guarantee is constructed, where the trade-offs live, and what it takes to operate Flink pipelines confidently in production.\n\nAt the heart of Flink’s exactly-once guarantee lies the barrier-driven checkpoint. When a checkpoint is triggered—either periodically by a timer, programmatically, or via the Flink REST API—Flink inserts barriers into the input data stream. These barriers travel downstream in lockstep with the actual data records. Each operator buffers incoming data until its barrier arrives, then snapshots its current state, and finally forwards the barrier further downstream.",
+      "tags": [
+        "apache-flink",
+        "exactly-once",
+        "stream-processing",
+        "data-integrity",
+        "distributed-systems"
+      ],
+      "scheduled_at": "2026-09-10T08:58:53Z",
       "status": "pending"
     }
   ]
