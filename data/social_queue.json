@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-10T07:58:53Z",
+  "last_scheduled_at": "2026-09-10T08:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21845,6 +21845,21 @@
         "deep learning infrastructure"
       ],
       "scheduled_at": "2026-09-10T07:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "The Hidden Tax of AI Coding: Why Your Agent Is Burning Money on I/O",
+      "url": "https://martinuke0.github.io/posts/2026-09-08-the-hidden-tax-of-ai-coding-why-your-agent-is-burning-money-on-io/",
+      "social_hook": "> TL;DR — AI coding agents spend up to 90% of their tokens on I/O operations — reading files, generating boilerplate, updating docs — not on actual reasoning. By routing that grunt work to cheaper, smaller models and reserving frontier models for complex problems, engineering teams can cut token costs dramatically. The architecture is simpler than you think: two modes, a plugin, and a routing layer.\n\nEvery developer who has used an AI coding assistant in production knows the feeling: you ask a simple question about a function, and the assistant reads fourteen files, generates a test file, updates three documentation pages, and then gives you a one-line answer. The token count is staggering. The reasoning content inside that massive context window? Almost nothing.\n\nThis isn't a hypothetical problem. According to industry estimates, by 2028, AI coding costs are expected to exceed the average developer's salary. A quarter of engineering leaders already burn between $200 and $500 per developer per month on tokens alone, with some teams well past $2,000 [1]. The seat license is not what hurts — it is the token consumption at scale.",
+      "tags": [
+        "AI coding agents",
+        "LLM routing",
+        "token optimization",
+        "Spotify",
+        "Claude Code",
+        "cost engineering"
+      ],
+      "scheduled_at": "2026-09-10T08:58:53Z",
       "status": "pending"
     }
   ]
