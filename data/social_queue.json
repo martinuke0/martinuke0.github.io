@@ -20994,8 +20994,9 @@
         "prompt-engineering"
       ],
       "scheduled_at": "2026-09-08T01:58:53Z",
-      "status": "pending",
-      "cta": false
+      "status": "posting",
+      "cta": false,
+      "claimed_at": "2026-09-08T02:03:58Z"
     },
     {
       "title": "Prompt Audit and Security: Engineering Defenses for LLM-Powered Systems",
