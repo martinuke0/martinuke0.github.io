@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-10T08:58:53Z",
+  "last_scheduled_at": "2026-09-10T07:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21290,9 +21290,10 @@
         "distributed-systems"
       ],
       "scheduled_at": "2026-09-08T18:58:53Z",
-      "status": "posting",
+      "status": "posted",
       "cta": false,
-      "claimed_at": "2026-09-08T19:04:37Z"
+      "claimed_at": "2026-09-08T19:04:37Z",
+      "post_urn": "urn:li:share:7503166438690578432"
     },
     {
       "title": "Distributed Inference: How Modern AI Systems Scale Beyond a Single GPU",
@@ -21856,20 +21857,6 @@
         "deep learning infrastructure"
       ],
       "scheduled_at": "2026-09-10T07:58:53Z",
-      "status": "pending"
-    },
-    {
-      "title": "Architecting High-Performance JIT Compilation in the GraalVM Polyglot Runtime",
-      "url": "https://martinuke0.github.io/posts/2026-09-08-architecting-high-performance-jit-compilation-in-the-graalvm-polyglot-runtime/",
-      "social_hook": "> TL;DR — GraalVM’s tiered JIT combines interpreter fast‑path with adaptive compilation, letting polyglot code achieve near‑native speeds while preserving language interop. The approach profiles execution hot spots and escalates them through optimizing compilers, reducing warm‑up latency. Benchmarks indicate up to 3× throughput improvement for mixed‑language workloads.\n\nThe Java Virtual Machine has long relied on just‑in‑time (JIT) compilation to turn bytecode into native instructions at runtime. GraalVM extends this concept to a polyglot runtime where JavaScript, Python, Ruby, and WebAssembly coexist with Java and native code. Its tiered optimization strategy is the engine that makes this possible: a lightweight interpreter handles cold code, a client compiler applies modest optimizations, and an aggressive optimizing compiler lifts hot paths to near‑native performance. In this deep dive we explore how the tiers are structured, how profiling drives adaptive upgrades, and what performance gains engineers can expect in real polyglot services.\n\nGraalVM’s polyglot engine presents a single runtime where each language is represented by its own guest language implementation. The core abstraction is the Truffle language framework, which implements languages as self‑described abstract syntax trees (ASTs) that the Truffle interpreter can execute directly. Because each language plugin registers its own node types, the runtime can freely mix values, call functions, and share objects across language boundaries without marshaling.",
-      "tags": [
-        "graalvm",
-        "jit",
-        "tiered optimization",
-        "polyglot",
-        "performance"
-      ],
-      "scheduled_at": "2026-09-10T08:58:53Z",
       "status": "pending"
     }
   ]
