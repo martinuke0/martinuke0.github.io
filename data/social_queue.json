@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-10T07:58:53Z",
+  "last_scheduled_at": "2026-09-10T08:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21853,6 +21853,21 @@
         "deep learning infrastructure"
       ],
       "scheduled_at": "2026-09-10T07:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Build an HNSW Vector Index from Scratch in Python for RAG",
+      "url": "https://martinuke0.github.io/posts/2026-09-08-build-an-hnsw-vector-index-from-scratch-in-python-for-rag/",
+      "social_hook": "> TL;DR — Building an HNSW vector index from scratch in Python is one of the most impressive portfolio projects an engineer can ship: it demonstrates deep knowledge of graph algorithms, approximate nearest neighbor search, and distributed systems thinking. This guide walks you through a fully working implementation — graph construction, multi-layer navigation, approximate search, and a complete RAG pipeline — all in pure Python with no external vector database dependencies.\n\nMost portfolio projects stop at \"I built a web app\" or \"I fine-tuned a model.\" An HNSW-powered RAG pipeline signals something fundamentally different. It tells a hiring manager you understand the full stack of modern AI infrastructure — not just the model, but the systems that make models usable at scale.\n\n- Algorithmic depth: You implemented HNSW, the same algorithm powering FAISS, Qdrant, and Milvus. Understanding why `M=16` versus `M=48` changes recall-latency tradeoffs proves you can reason about data structures beyond what a framework hands you.",
+      "tags": [
+        "HNSW",
+        "RAG",
+        "Vector Index",
+        "Python",
+        "Systems Engineering",
+        "Machine Learning"
+      ],
+      "scheduled_at": "2026-09-10T08:58:53Z",
       "status": "pending"
     }
   ]
