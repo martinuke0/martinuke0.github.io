@@ -21133,8 +21133,9 @@
         "mlops"
       ],
       "scheduled_at": "2026-09-08T09:58:53Z",
-      "status": "pending",
-      "cta": false
+      "status": "posting",
+      "cta": false,
+      "claimed_at": "2026-09-08T12:02:29Z"
     },
     {
       "title": "From Prompt to Packet: Tracing an AI Request Through the Modern Inference Stack",
