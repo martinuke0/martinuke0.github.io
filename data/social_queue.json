@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-10T07:58:53Z",
+  "last_scheduled_at": "2026-09-10T08:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21831,6 +21831,21 @@
         "deep learning infrastructure"
       ],
       "scheduled_at": "2026-09-10T07:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "User Safety: A Hands-On Portfolio Project for Real‑World Engineering",
+      "url": "https://martinuke0.github.io/posts/2026-09-08-user-safety-a-hands-on-portfolio-project-for-realworld-engineering/",
+      "social_hook": "> TL;DR — In this post we build a runnable user‑safety service with FastAPI, Postgres, and Celery that validates inbound payloads, flags suspicious patterns, and stores audit logs. The project is containerised, testable, and easy to extend with persistence, scaling and observability – perfect for a CV that shows you can ship real‑world backend systems.\n\nBuilding a portfolio project that hiring managers can immediately evaluate is about more than “hello world.” It needs to demonstrate that you can design a small but complete system: API layer, data store, async processing, containerisation, and observability. User Safety does exactly that – a service that receives user‑submitted data, validates it against known malicious patterns, persists safe records, and logs every decision for audit or downstream analytics. The stack (FastAPI + SQLAlchemy + Postgres + Celery + Redis) is industry‑standard, so the code you write is directly transferable to real‑world back‑end roles (backend engineer, security engineer, DevOps, data platform).\n\n- Input‑validation & secure coding – You’ll write Pydantic models with regex‑based sanitisation, a skill that shows up in every backend interview when discussing SQL injection or XSS prevention.",
+      "tags": [
+        "security",
+        "python",
+        "fastapi",
+        "postgres",
+        "docker",
+        "celery"
+      ],
+      "scheduled_at": "2026-09-10T08:58:53Z",
       "status": "pending"
     }
   ]
