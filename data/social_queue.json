@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-10T07:58:53Z",
+  "last_scheduled_at": "2026-09-10T08:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21843,6 +21843,21 @@
         "deep learning infrastructure"
       ],
       "scheduled_at": "2026-09-10T07:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Inside eBPF: Extending the Linux Kernel with User-Space Efficiency",
+      "url": "https://martinuke0.github.io/posts/2026-09-08-inside-ebpf-extending-the-linux-kernel-with-user-space-efficiency/",
+      "social_hook": "> TL;DR — eBPF lets you attach sandboxed programs to kernel hooks — syscalls, network events, tracepoints — without modifying kernel source or loading traditional kernel modules. A built-in verifier guarantees safety, a JIT compiler delivers near-native speed, and maps provide the bridge between kernel and user space. The result is a paradigm shift in how we build observability, networking, and security tooling on Linux.\n\nFor decades, extending the Linux kernel meant one of two unpleasant choices: patch the kernel source and rebuild, or load a kernel module (LKM) with all the attendant risks of memory corruption, privilege escalation, and system instability. Neither option suited the needs of modern, dynamic infrastructure. Network packet filtering was the original use case — the classic `tcpdump` filter ran through the original BPF interpreter, which was slow and limited to 16 registers and a small instruction set.\n\nThe landscape changed dramatically with the introduction of eBPF (extended BPF) in kernel 3.18 (2015) and its maturation through kernel 5.x and beyond. Today, eBPF underpins Cilium's networking layer, Falco's runtime security monitoring, and the observability pipelines behind companies running thousands of nodes. The technology has become foundational infrastructure in its own right.",
+      "tags": [
+        "ebpf",
+        "linux-kernel",
+        "observability",
+        "systems-programming",
+        "networking",
+        "security"
+      ],
+      "scheduled_at": "2026-09-10T08:58:53Z",
       "status": "pending"
     }
   ]
