@@ -21273,8 +21273,9 @@
         "sre"
       ],
       "scheduled_at": "2026-09-08T17:58:53Z",
-      "status": "pending",
-      "cta": false
+      "status": "posting",
+      "cta": false,
+      "claimed_at": "2026-09-08T18:02:09Z"
     },
     {
       "title": "GPU Scheduling at Scale: How Modern Systems Stop Fighting Over Silicon",
