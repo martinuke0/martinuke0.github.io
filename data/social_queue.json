@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-10T07:58:53Z",
+  "last_scheduled_at": "2026-09-10T08:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21849,6 +21849,21 @@
         "deep learning infrastructure"
       ],
       "scheduled_at": "2026-09-10T07:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Build a Distributed Log Store: The Side Project That Signals Real Systems Skill",
+      "url": "https://martinuke0.github.io/posts/2026-09-08-build-a-distributed-log-store-the-side-project-that-signals-real-systems-skill/",
+      "social_hook": "> TL;DR — Build a distributed log store in Go that ingests logs over HTTP, replicates them across nodes, persists to disk, and serves queries through a REST API. This project demonstrates networking, concurrency, consensus-adjacent patterns, and observability — the exact skills hiring managers look for in senior systems roles.\n\nIf you are an engineer looking to stand out on a CV, most tutorial projects (to-do apps, CRUD dashboards) signal familiarity with frameworks but not systems thinking. What hiring managers in infrastructure, platform engineering, and backend roles actually screen for is evidence that you understand how data moves through a system under load, how components fail, and how you reason about correctness when there is no single source of truth. A distributed log store hits all of those marks, and — critically — it contains none of the tokenization-heavy machinery that has become saturated in the AI/LLM tooling space. You are building raw plumbing: bytes on the wire, writes to disk, and agreement between nodes.\n\nA distributed log store is not another TODO app. It is the foundational primitive behind Apache Kafka, Fluentd, and the internal logging infrastructure at virtually every large technology company. When you build one, you demonstrate:",
+      "tags": [
+        "distributed-systems",
+        "go",
+        "networking",
+        "portfolio",
+        "side-project",
+        "engineering"
+      ],
+      "scheduled_at": "2026-09-10T08:58:53Z",
       "status": "pending"
     }
   ]
