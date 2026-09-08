@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-10T07:58:53Z",
+  "last_scheduled_at": "2026-09-10T08:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21833,6 +21833,20 @@
         "deep learning infrastructure"
       ],
       "scheduled_at": "2026-09-10T07:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Build a Transformer Self-Attention Block from Scratch in Pure Python",
+      "url": "https://martinuke0.github.io/posts/2026-09-08-build-a-transformer-self-attention-block-from-scratch-in-pure-python/",
+      "social_hook": "> TL;DR — Build a complete transformer self-attention block from scratch in pure Python, including rotary positional embeddings (RoPE), causal masking, and grouped-query attention (GQA). This project demonstrates deep systems-level understanding of the architecture powering GPT, LLaMA, and PaLM — making it one of the most signal-rich side projects you can add to a CV. This guide gives you real, runnable code and a clear path to production-grade extensions.\n\nIf you have ever wanted to prove to a hiring manager that you do not just call `model.fit()` but actually understand what happens inside a transformer, this project is your answer. Most tutorials stop at \"here is the attention formula.\" This guide takes you all the way to a working, modular implementation with three features that separate toy models from production systems: rotary positional embeddings, causal masking, and grouped-query attention.\n\nBy the end, you will have a codebase that demonstrates mathematical reasoning, systems architecture thinking, and the ability to ship a working component — exactly the skills senior engineering roles look for.",
+      "tags": [
+        "transformers",
+        "deep-learning",
+        "python",
+        "nlp",
+        "systems-engineering"
+      ],
+      "scheduled_at": "2026-09-10T08:58:53Z",
       "status": "pending"
     }
   ]
