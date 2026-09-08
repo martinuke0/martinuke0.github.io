@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-10T07:58:53Z",
+  "last_scheduled_at": "2026-09-10T08:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21857,6 +21857,20 @@
         "deep learning infrastructure"
       ],
       "scheduled_at": "2026-09-10T07:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering WireGuard: Modern VPN Protocol Implementation Guide for Network Engineers",
+      "url": "https://martinuke0.github.io/posts/2026-09-08-mastering-wireguard-modern-vpn-protocol-implementation-guide-for-network-engineers/",
+      "social_hook": "> TL;DR — WireGuard offers a lean, auditable VPN solution that can replace heavyweight IPsec stacks. Its simple key‑exchange, static‑peer configuration, and kernel‑level performance make it ideal for modern data‑center and edge deployments. This guide walks you through design, deployment, tuning, and troubleshooting patterns that network engineers can apply today.\n\nWireGuard has rapidly become the de‑facto standard for lightweight site‑to‑site and remote‑access VPNs. Unlike IPsec, its codebase is under 4 000 lines, the handshake is based on modern cryptography (Curve25519, ChaCha20, Poly1305), and peers are identified by static public keys rather than volatile IP addresses. For network engineers, this translates to faster spin‑up, simpler troubleshooting, and tighter integration with existing routing and firewall tooling.\n\nThe simplicity stems from a design goal: “keep the implementation small enough to audit, fast enough for production, and expressive enough for complex topologies.”",
+      "tags": [
+        "wireguard",
+        "vpn",
+        "network engineering",
+        "security",
+        "linux"
+      ],
+      "scheduled_at": "2026-09-10T08:58:53Z",
       "status": "pending"
     }
   ]
