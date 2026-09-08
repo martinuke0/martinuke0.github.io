@@ -21062,9 +21062,10 @@
         "benchmarking"
       ],
       "scheduled_at": "2026-09-08T05:58:53Z",
-      "status": "posting",
+      "status": "posted",
       "cta": false,
-      "claimed_at": "2026-09-08T06:05:18Z"
+      "claimed_at": "2026-09-08T06:05:18Z",
+      "post_urn": "urn:li:share:7502970337047953408"
     },
     {
       "title": "GenRec: An LLM-Backed Recommendation Ranker",
