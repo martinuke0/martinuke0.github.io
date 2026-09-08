@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-10T07:58:53Z",
+  "last_scheduled_at": "2026-09-10T08:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21823,6 +21823,21 @@
         "deep learning infrastructure"
       ],
       "scheduled_at": "2026-09-10T07:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building a Production-Grade Model Quantizer for Your Portfolio",
+      "url": "https://martinuke0.github.io/posts/2026-09-08-building-a-production-grade-model-quantizer-for-your-portfolio/",
+      "social_hook": "tags: [\"quantization\", \"machine-learning\", \"systems\", \"python\", \"portfolio\", \"deep-learning\"]\n\ndescription: \"Build a runnable model quantizer for edge AI, showcasing systems skills and practical ML optimization techniques that hiring managers love today.\"\n\nsummary: \"A step-by-step guide to building a model quantizer that shrinks neural networks for edge deployment, demonstrating systems engineering skills to recruiters.\"",
+      "tags": [
+        "quantization",
+        "machine-learning",
+        "systems",
+        "python",
+        "portfolio",
+        "deep-learning"
+      ],
+      "scheduled_at": "2026-09-10T08:58:53Z",
       "status": "pending"
     }
   ]
