@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-10T08:58:53Z",
+  "last_scheduled_at": "2026-09-10T07:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21028,9 +21028,10 @@
         "ai-systems"
       ],
       "scheduled_at": "2026-09-08T03:58:53Z",
-      "status": "posting",
+      "status": "posted",
       "cta": false,
-      "claimed_at": "2026-09-08T04:05:39Z"
+      "claimed_at": "2026-09-08T04:05:39Z",
+      "post_urn": "urn:li:share:7502940205041999872"
     },
     {
       "title": "Claude Loop Engineering: Designing Agentic Workflows That Actually Converge",
@@ -21826,20 +21827,6 @@
         "deep learning infrastructure"
       ],
       "scheduled_at": "2026-09-10T07:58:53Z",
-      "status": "pending"
-    },
-    {
-      "title": "Pure‑Python LLM Inference Engine with Entropy‑Guided Sliding‑Window KV Cache",
-      "url": "https://martinuke0.github.io/posts/2026-09-08-purepython-llm-inference-engine-with-entropyguided-slidingwindow-kv-cache/",
-      "social_hook": "> TL;DR — This post walks you through building a pure‑Python LLM inference engine that uses an entropy‑guided sliding‑window KV cache backed by hash‑indexed circular pages. You’ll end up with a runnable side project that showcases low‑latency serving patterns, cache‑aware data structures, and systems‑level thinking — exactly the kind of thing hiring managers look for.\n\nBuilding a portfolio side‑project that doubles as a proof‑of‑concept for production‑grade LLM serving is a powerful way to signal systems competence. Hiring managers on LinkedIn and at technical interviews are looking for concrete examples of how you think about memory, latency, and scalability — not just “I used Hugging Face.” This guide walks you through a complete, runnable pure‑Python inference engine that couples a hash‑indexed circular KV cache with an entropy‑guided sliding‑window policy. The code is deliberately minimal yet functional: you can clone the repo, run `python run.py`, and watch a generated paragraph emerge in under a second on a modest laptop.\n\nEmployers scanning CVs for ML‑related roles see dozens of “fine‑tuned a BERT model” entries. What differentiates this project are the concrete systems skills it demonstrates:",
-      "tags": [
-        "llm",
-        "python",
-        "caching",
-        "inference",
-        "performance"
-      ],
-      "scheduled_at": "2026-09-10T08:58:53Z",
       "status": "pending"
     }
   ]
