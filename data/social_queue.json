@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-10T07:58:53Z",
+  "last_scheduled_at": "2026-09-10T08:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21861,6 +21861,21 @@
         "deep learning infrastructure"
       ],
       "scheduled_at": "2026-09-10T07:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "User Safety: Safe – A Hands-On Portfolio Project",
+      "url": "https://martinuke0.github.io/posts/2026-09-08-user-safety-safe-a-hands-on-portfolio-project/",
+      "social_hook": "tags: [\"portfolio\", \"systems\", \"user-safety\", \"fastapi\", \"docker\", \"observability\"]\n\ndescription: \"Learn to build a real-time user safety service using FastAPI, Redis, and Docker, demonstrating systems engineering skills for hiring managers.\"\n\nsummary: \"A practical guide to building a real-time user safety service with FastAPI, Redis, and Docker, showing hiring managers your systems engineering capabilities.\"",
+      "tags": [
+        "portfolio",
+        "systems",
+        "user-safety",
+        "fastapi",
+        "docker",
+        "observability"
+      ],
+      "scheduled_at": "2026-09-10T08:58:53Z",
       "status": "pending"
     }
   ]
