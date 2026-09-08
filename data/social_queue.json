@@ -21290,8 +21290,9 @@
         "distributed-systems"
       ],
       "scheduled_at": "2026-09-08T18:58:53Z",
-      "status": "pending",
-      "cta": false
+      "status": "posting",
+      "cta": false,
+      "claimed_at": "2026-09-08T19:04:37Z"
     },
     {
       "title": "Distributed Inference: How Modern AI Systems Scale Beyond a Single GPU",
