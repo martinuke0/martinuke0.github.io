@@ -21168,8 +21168,9 @@
         "kserve"
       ],
       "scheduled_at": "2026-09-08T11:58:53Z",
-      "status": "pending",
-      "cta": false
+      "status": "posting",
+      "cta": false,
+      "claimed_at": "2026-09-08T12:02:29Z"
     },
     {
       "title": "Inference Is Becoming a Distributed-Systems Problem",
