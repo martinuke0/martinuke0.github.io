@@ -21185,8 +21185,9 @@
         "kubernetes"
       ],
       "scheduled_at": "2026-09-08T12:58:53Z",
-      "status": "pending",
-      "cta": false
+      "status": "posting",
+      "cta": false,
+      "claimed_at": "2026-09-08T13:02:20Z"
     },
     {
       "title": "GPU Utilization Is Becoming a Business Metric",
