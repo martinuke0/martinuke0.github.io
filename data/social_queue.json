@@ -20977,9 +20977,10 @@
         "agent-architecture"
       ],
       "scheduled_at": "2026-09-08T00:58:53Z",
-      "status": "posting",
+      "status": "posted",
       "cta": false,
-      "claimed_at": "2026-09-08T02:03:58Z"
+      "claimed_at": "2026-09-08T02:03:58Z",
+      "post_urn": "urn:li:share:7502909581526867968"
     },
     {
       "title": "Building Production Systems on the Claude API: A Practical Engineering Guide",
