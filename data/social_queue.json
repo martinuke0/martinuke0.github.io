@@ -21062,8 +21062,9 @@
         "benchmarking"
       ],
       "scheduled_at": "2026-09-08T05:58:53Z",
-      "status": "pending",
-      "cta": false
+      "status": "posting",
+      "cta": false,
+      "claimed_at": "2026-09-08T06:05:18Z"
     },
     {
       "title": "GenRec: An LLM-Backed Recommendation Ranker",
