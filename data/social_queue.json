@@ -21600,8 +21600,9 @@
         "from-scratch"
       ],
       "scheduled_at": "2026-09-09T12:58:53Z",
-      "status": "pending",
-      "cta": false
+      "status": "posting",
+      "cta": false,
+      "claimed_at": "2026-09-09T13:01:41Z"
     },
     {
       "title": "Stop Letting Your AI Agent Grep Blind: The Rise of Repository Maps",
