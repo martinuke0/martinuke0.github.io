@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-10T08:58:53Z",
+  "last_scheduled_at": "2026-09-10T07:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21427,9 +21427,10 @@
         "inference"
       ],
       "scheduled_at": "2026-09-09T02:58:53Z",
-      "status": "posting",
+      "status": "posted",
       "cta": true,
-      "claimed_at": "2026-09-09T03:04:33Z"
+      "claimed_at": "2026-09-09T03:04:33Z",
+      "post_urn": "urn:li:share:7503287216564043776"
     },
     {
       "title": "The Architecture of an Agentic Harness: How Production AI Agents Actually Work",
@@ -21872,20 +21873,6 @@
         "deep learning infrastructure"
       ],
       "scheduled_at": "2026-09-10T07:58:53Z",
-      "status": "pending"
-    },
-    {
-      "title": "Mastering CUDA Graphs: Low-Overhead Kernel Launching for High-Performance Computing",
-      "url": "https://martinuke0.github.io/posts/2026-09-09-mastering-cuda-graphs-low-overhead-kernel-launching-for-high-performance-computing/",
-      "social_hook": "> TL;DR — CUDA Graphs replace per-kernel launch latency with a single graph construction phase, enabling sub-microsecond kernel dispatch and dynamic edge reordering. For HPC workloads with repetitive patterns, this translates to 2–3× throughput gains and predictable scheduling, making graphs a cornerstone of low-latency kernel orchestration in production systems.\n\nTraditional CUDA kernel launches, while flexible, carry a non-trivial per-invocation cost. Each `cudaLaunchKernel` call involves driver overhead, context synchronization, and OS-mediated scheduling that can add 5–10 microseconds of latency even before the GPU begins executing the kernel. In high-frequency patterns—such as time-stepping loops, iterative solvers, or task-parallel pipelines—this overhead accumulates, bottlenecks throughput, and limits strong scaling. CUDA Graphs address this by collapsing the launch pathway into a recorded, replayable execution flow, reducing per-invocation latency to the sub-microsecond range and enabling dynamic dependency adjustments without full graph reconstruction.\n\nBeyond latency, graphs unlock architectural patterns that are awkward or impossible with standard launches: seamless stream interoperability, edge filtering for selective kernel execution, and unified scheduling across CPU and GPU work. For engineers building HPC workloads on NVIDIA platforms, mastering graphs is less a nice-to-have optimization and more a structural requirement for performance-at-scale.",
-      "tags": [
-        "cuda",
-        "high-performance-computing",
-        "kernel-launching",
-        "performance-optimization",
-        "parallel-computing"
-      ],
-      "scheduled_at": "2026-09-10T08:58:53Z",
       "status": "pending"
     }
   ]
