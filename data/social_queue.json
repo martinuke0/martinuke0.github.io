@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-10T08:58:53Z",
+  "last_scheduled_at": "2026-09-10T07:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21410,9 +21410,10 @@
         "sandboxing"
       ],
       "scheduled_at": "2026-09-09T01:58:53Z",
-      "status": "posting",
+      "status": "posted",
       "cta": false,
-      "claimed_at": "2026-09-09T02:02:56Z"
+      "claimed_at": "2026-09-09T02:02:56Z",
+      "post_urn": "urn:li:share:7503271713996967936"
     },
     {
       "title": "Language Models Can Now Control Their Own Attention",
@@ -21870,20 +21871,6 @@
         "deep learning infrastructure"
       ],
       "scheduled_at": "2026-09-10T07:58:53Z",
-      "status": "pending"
-    },
-    {
-      "title": "Message Queues and Event Streaming: Foundations for Scalable Systems",
-      "url": "https://martinuke0.github.io/posts/2026-09-09-message-queues-and-event-streaming-foundations-for-scalable-systems/",
-      "social_hook": "tags: [\"message-queues\", \"event-streaming\", \"architecture\", \"scalability\", \"distributed-systems\"]\n\ndescription: \"Explore how message queues and event streaming enable reliable, scalable communication in distributed systems, with practical patterns and real-world examples.\"\n\nsummary: \"Message queues and event streaming are essential building blocks for reliable, scalable communication in modern distributed systems.\"",
-      "tags": [
-        "message-queues",
-        "event-streaming",
-        "architecture",
-        "scalability",
-        "distributed-systems"
-      ],
-      "scheduled_at": "2026-09-10T08:58:53Z",
       "status": "pending"
     }
   ]
