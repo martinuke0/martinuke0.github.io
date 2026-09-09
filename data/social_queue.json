@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-10T08:58:53Z",
+  "last_scheduled_at": "2026-09-10T07:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21670,9 +21670,10 @@
         "n-gram-speculator"
       ],
       "scheduled_at": "2026-09-09T16:58:53Z",
-      "status": "posting",
+      "status": "posted",
       "cta": false,
-      "claimed_at": "2026-09-09T17:04:06Z"
+      "claimed_at": "2026-09-09T17:04:06Z",
+      "post_urn": "urn:li:share:7503498498147831808"
     },
     {
       "title": "Building a GGUF Parser from Scratch: A Portfolio Project That Signals Real Systems Skill",
@@ -21900,20 +21901,6 @@
         "deep learning infrastructure"
       ],
       "scheduled_at": "2026-09-10T07:58:53Z",
-      "status": "pending"
-    },
-    {
-      "title": "Picking gVisor for Secure Multi-Tenant Container Workloads",
-      "url": "https://martinuke0.github.io/posts/2026-09-09-picking-gvisor-for-secure-multi-tenant-container-workloads/",
-      "social_hook": "> TL;DR — gVisor provides a user-space kernel that intercepts syscalls to isolate container workloads from the host OS, making it a strong choice for multi-tenant SaaS and security-sensitive environments. It trades some performance for stronger isolation, and can be deployed via Krun or runsc with minimal code changes. This post walks through gVisor’s architecture, when it makes sense in production, and a pragmatic migration path.\n\nIn modern cloud-native platforms, the container runtime sits between your application code and the host operating system. For single-tenant workloads, Docker’s default runtime using `runc` and the host kernel is usually sufficient. But when you’re running dozens or hundreds of isolated customer workloads on shared infrastructure, the kernel becomes a trusted computing base — and any kernel vulnerability can break tenant isolation.\n\nTraditional approaches have added a full virtual machine per workload (think KVM, Firecracker, Kata Containers). This gives strong isolation but incurs significant boot latency, memory overhead, and CPU virtualization costs. gVisor takes a different route: it replaces the host kernel with a user-space sandbox called the Sentry, while the container still runs on Linux. The container’s processes make syscalls that the Sentry intercepts, translates, and forwards to the real kernel only when safe. This design gives process-level isolation without the overhead of hardware virtualization.",
-      "tags": [
-        "containers",
-        "gvisor",
-        "cloud-native",
-        "security",
-        "virtualization"
-      ],
-      "scheduled_at": "2026-09-10T08:58:53Z",
       "status": "pending"
     }
   ]
