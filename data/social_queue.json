@@ -21358,8 +21358,9 @@
         "simt"
       ],
       "scheduled_at": "2026-09-08T22:58:53Z",
-      "status": "pending",
-      "cta": false
+      "status": "posting",
+      "cta": false,
+      "claimed_at": "2026-09-09T00:04:57Z"
     },
     {
       "title": "Why Quantization Works: The Mathematics That Makes LLMs 4x Smaller",
