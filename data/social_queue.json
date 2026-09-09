@@ -21756,9 +21756,10 @@
         "kubernetes"
       ],
       "scheduled_at": "2026-09-09T21:58:53Z",
-      "status": "posting",
+      "status": "posted",
       "cta": false,
-      "claimed_at": "2026-09-09T21:59:23Z"
+      "claimed_at": "2026-09-09T21:59:23Z",
+      "post_urn": "urn:li:share:7503572803095486464"
     },
     {
       "title": "Build a Paged KV Cache With Continuous Batching and Prefix Sharing: A From-Scratch Guide",
