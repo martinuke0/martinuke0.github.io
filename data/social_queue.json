@@ -21514,8 +21514,9 @@
         "mcp"
       ],
       "scheduled_at": "2026-09-09T07:58:53Z",
-      "status": "pending",
-      "cta": true
+      "status": "posting",
+      "cta": true,
+      "claimed_at": "2026-09-09T08:06:58Z"
     },
     {
       "title": "Building and Evaluating Agents: A Production Engineer's Playbook",
