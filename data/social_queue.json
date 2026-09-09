@@ -21635,8 +21635,9 @@
         "vllm"
       ],
       "scheduled_at": "2026-09-09T14:58:53Z",
-      "status": "pending",
-      "cta": false
+      "status": "posting",
+      "cta": false,
+      "claimed_at": "2026-09-09T15:03:21Z"
     },
     {
       "title": "Build a Byte-Level BPE Tokenizer From Scratch: A Portfolio Project That Actually Signals Systems Skill",
