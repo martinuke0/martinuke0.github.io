@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-10T07:58:53Z",
+  "last_scheduled_at": "2026-09-10T08:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21867,6 +21867,21 @@
         "deep learning infrastructure"
       ],
       "scheduled_at": "2026-09-10T07:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building a Pure-Python HNSW Index with IVF Clustering and Brute-Force Rescoring",
+      "url": "https://martinuke0.github.io/posts/2026-09-09-building-a-pure-python-hnsw-index-with-ivf-clustering-and-brute-force-rescoring/",
+      "social_hook": "> TL;DR — Building a pure-Python HNSW index with IVF (Inverted File) clustering and brute-force rescoring is one of the most impressive side projects an engineer can undertake. It demonstrates mastery of data structures, algorithmic thinking, and production-grade systems design — the exact trifecta hiring managers look for in senior ML infrastructure and search engineering roles. This guide walks you through every line of code, from graph construction to query execution.\n\nVector similarity search has become the backbone of modern recommendation systems, semantic search, and retrieval-augmented generation (RAG) pipelines. Companies like Spotify, Pinterest, and GitHub rely on approximate nearest neighbor (ANN) algorithms to serve billions of queries daily. Yet most engineers interact with these systems through black-box libraries like FAISS or Milvus without understanding what happens underneath.\n\nBuilding one from scratch changes that. It forces you to confront the trade-offs between recall, latency, and memory — the same trade-offs that define production systems at scale. This project is not an academic exercise. It is a deliberate demonstration of systems thinking, algorithmic rigor, and engineering maturity.",
+      "tags": [
+        "machine-learning",
+        "vector-search",
+        "hnsw",
+        "python",
+        "systems-engineering",
+        "similarity-search"
+      ],
+      "scheduled_at": "2026-09-10T08:58:53Z",
       "status": "pending"
     }
   ]
