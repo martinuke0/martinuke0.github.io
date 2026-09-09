@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-10T08:58:53Z",
+  "last_scheduled_at": "2026-09-10T07:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21566,9 +21566,10 @@
         "tool-use"
       ],
       "scheduled_at": "2026-09-09T10:58:53Z",
-      "status": "posting",
+      "status": "posted",
       "cta": false,
-      "claimed_at": "2026-09-09T12:01:28Z"
+      "claimed_at": "2026-09-09T12:01:28Z",
+      "post_urn": "urn:li:share:7503422353679491072"
     },
     {
       "title": "Building an Agent from Scratch: A Production-Oriented Walkthrough",
@@ -21888,21 +21889,6 @@
         "deep learning infrastructure"
       ],
       "scheduled_at": "2026-09-10T07:58:53Z",
-      "status": "pending"
-    },
-    {
-      "title": "Build a LoRA Adapter from Scratch: A Portfolio-Ready PyTorch Project",
-      "url": "https://martinuke0.github.io/posts/2026-09-09-build-a-lora-adapter-from-scratch-a-portfolio-ready-pytorch-project/",
-      "social_hook": "> TL;DR — LoRA (Low-Rank Adaptation) freezes the original model weights and injects small, trainable rank-decomposed matrices into each transformer layer, cutting trainable parameters by 90–99% while preserving downstream performance. This guide walks through building a complete LoRA adapter from scratch in PyTorch, wiring it into BERT, and running a full fine-tuning loop — a project that signals deep systems and ML engineering competence to any hiring manager.\n\nHiring managers in ML engineering and research filter resumes for candidates who can ship, not just theorize. A LoRA implementation from scratch demonstrates a rare cluster of skills in a single artifact:\n\n- Deep understanding of transformer internals. You've manually traced how weight matrices live inside attention layers and linear projections, and you've modified them without breaking gradient flow.",
-      "tags": [
-        "LoRA",
-        "PyTorch",
-        "BERT",
-        "Fine-Tuning",
-        "Low-Rank Adaptation",
-        "Machine Learning Engineering"
-      ],
-      "scheduled_at": "2026-09-10T08:58:53Z",
       "status": "pending"
     }
   ]
