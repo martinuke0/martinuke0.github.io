@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-10T07:58:53Z",
+  "last_scheduled_at": "2026-09-10T08:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21879,6 +21879,20 @@
         "deep learning infrastructure"
       ],
       "scheduled_at": "2026-09-10T07:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Hands‑On Build Guide: Rotary Positional Embedding for a Tiny GPT",
+      "url": "https://martinuke0.github.io/posts/2026-09-09-handson-build-guide-rotary-positional-embedding-for-a-tiny-gpt/",
+      "social_hook": "> TL;DR — In this post we build a minimal GPT from scratch that uses rotary positional embeddings (RoPE), train it on a tiny text corpus, and benchmark token‑per‑second throughput. The resulting model fits in < 5 MB, can be inspected layer‑by‑layer, and the codebase is a concrete showcase of transformer engineering skills recruiters love.\n\nThis guide walks you through every layer of building a tiny GPT that leverages rotary positional embeddings (RoPE) instead of absolute sinusoidal embeddings. You’ll end up with a runnable PyTorch model, a training loop, and a set of benchmark numbers you can paste directly into a CV or interview conversation. The project is deliberately small so you can iterate quickly, yet it touches real‑world concerns such as attention weight layout, mixed‑precision training, and model introspection.\n\nRecruiters for ML‑focused engineering roles see dozens of “Hello World” transformers. This project differentiates you because it demonstrates four concrete competencies simultaneously:",
+      "tags": [
+        "machine-learning",
+        "transformers",
+        "rotary-positional-embeddings",
+        "gpt",
+        "python"
+      ],
+      "scheduled_at": "2026-09-10T08:58:53Z",
       "status": "pending"
     }
   ]
