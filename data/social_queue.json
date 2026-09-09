@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-10T07:58:53Z",
+  "last_scheduled_at": "2026-09-10T08:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21873,6 +21873,20 @@
         "deep learning infrastructure"
       ],
       "scheduled_at": "2026-09-10T07:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building a Production-Grade Semantic Search Engine from Scratch",
+      "url": "https://martinuke0.github.io/posts/2026-09-09-building-a-production-grade-semantic-search-engine-from-scratch/",
+      "social_hook": "> TL;DR — Build a semantic search engine from scratch using Python, Sentence-Transformers, and FAISS. This project demonstrates mastery of vector indexing, quantization, and retrieval pipelines—skills that separate junior developers from senior systems engineers.\n\nIn today's AI-first landscape, simply returning keyword matches is obsolete. Building a semantic search engine from scratch is the perfect portfolio project to signal that you understand the full lifecycle of machine learning in production. It bridges the gap between raw NLP models and high-throughput distributed systems, proving you can handle the messy realities of vector data: dimensionality, quantization, and low-latency retrieval.\n\nThis guide will walk you through constructing a functional, optimized semantic search pipeline. You will implement core components like embedding generation, Product Quantization (PQ) for index compression, and a retrieval engine, culminating in a system that is both practically useful and deeply impressive to hiring managers.",
+      "tags": [
+        "Python",
+        "Vector Databases",
+        "Machine Learning",
+        "System Design",
+        "FAISS"
+      ],
+      "scheduled_at": "2026-09-10T08:58:53Z",
       "status": "pending"
     }
   ]
