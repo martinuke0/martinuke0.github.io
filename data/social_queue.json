@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-10T07:58:53Z",
+  "last_scheduled_at": "2026-09-10T08:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21875,6 +21875,21 @@
         "deep learning infrastructure"
       ],
       "scheduled_at": "2026-09-10T07:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "User Safety: safe – A Hands-On Build Guide for a Portfolio CV Project",
+      "url": "https://martinuke0.github.io/posts/2026-09-09-user-safety-safe-a-hands-on-build-guide-for-a-portfolio-cv-project/",
+      "social_hook": "> TL;DR — In this post we build \"safe\", a user safety event pipeline that ingests reports via a Go service, streams them through Kafka, persists them in PostgreSQL, and exposes real-time alerts and metrics. You'll finish with a runnable Docker-compose project, tests, and a clear roadmap to production-grade extensions like horizontal scaling and fault tolerance.\n\nIf you're looking to signal real systems engineering chops on your CV without spending months on a contrived toy, this guide delivers a complete, end-to-end project you can type, run, and talk about in interviews. The system integrates event streaming, relational persistence, containerized orchestration, and observability — all in a single repository you can clone, `docker compose up`, and extend. Hiring managers for backend, platform, and site reliability roles can inspect the code, quiz you on design decisions, and see concrete metrics of throughput and latency. In the following sections you'll scaffold the project step by step, run it locally, prove it works with simple integration tests, and then evolve it toward production resilience.\n\nEmployers scanning dozens of portfolio repos look for two things: technical depth (did you solve real problems with the right tools?) and context (can you explain trade-offs, scale concerns, and operational patterns?). The `safe` project signals several concrete competencies:",
+      "tags": [
+        "go",
+        "kafka",
+        "postgresql",
+        "docker",
+        "observability",
+        "systems-design"
+      ],
+      "scheduled_at": "2026-09-10T08:58:53Z",
       "status": "pending"
     }
   ]
