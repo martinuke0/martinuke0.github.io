@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-10T07:58:53Z",
+  "last_scheduled_at": "2026-09-10T08:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21895,6 +21895,21 @@
         "deep learning infrastructure"
       ],
       "scheduled_at": "2026-09-10T07:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building a Portfolio Side Project That Signals Real Systems Skill",
+      "url": "https://martinuke0.github.io/posts/2026-09-09-building-a-portfolio-side-project-that-signals-real-systems-skill/",
+      "social_hook": "tags: [\"portfolio\", \"side-project\", \"websockets\", \"supabase\", \"stripe\", \"telegram\"]\n\ndescription: \"A practical guide to building a portfolio side project that showcases real systems skills, from zero to one, with websockets, Telegram, Supabase, and Stripe.\"\n\nsummary: \"Learn how to build a portfolio side project that showcases real systems skills, integrating websockets, Telegram, Supabase, Stripe, and dynamic programming challenges.\"",
+      "tags": [
+        "portfolio",
+        "side-project",
+        "websockets",
+        "supabase",
+        "stripe",
+        "telegram"
+      ],
+      "scheduled_at": "2026-09-10T08:58:53Z",
       "status": "pending"
     }
   ]
