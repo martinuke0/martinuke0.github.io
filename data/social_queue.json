@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-10T07:58:53Z",
+  "last_scheduled_at": "2026-09-10T08:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21891,6 +21891,21 @@
         "deep learning infrastructure"
       ],
       "scheduled_at": "2026-09-10T07:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building a Production-Grade RAG Pipeline: A Hands-On Portfolio Project That Signals Real Systems Skill",
+      "url": "https://martinuke0.github.io/posts/2026-09-09-building-a-production-grade-rag-pipeline-a-hands-on-portfolio-project-that-signals-real-systems-skill/",
+      "social_hook": "> TL;DR — Most RAG tutorials stop at \"chunk docs, embed them, query with an LLM.\" This guide builds a production-flavored retrieval-augmented generation pipeline with hybrid retrieval, cross-encoder re-ranking, citation tracing, and automated evaluation — all runnable code. The result is a portfolio project that signals you understand not just how RAG works, but how to make it reliable, measurable, and maintainable.\n\nThe RAG space is crowded. Every tutorial blog post shows the same stack: FAISS for vector storage, LangChain for orchestration, OpenAI for generation. If you deploy that on your CV, a hiring manager has seen it a hundred times. What separates a junior tutorial-follower from someone who understands distributed systems, data pipelines, and observability is depth — measurable retrieval quality, fault tolerance, and a clear understanding of the trade-offs at each stage.\n\nThis guide walks you through building exactly that. You'll construct a multi-document question-answering system with hybrid retrieval (dense + sparse), cross-encoder re-ranking, citation provenance, and an automated evaluation harness. Every step includes real, runnable Python code.",
+      "tags": [
+        "RAG",
+        "LangChain",
+        "Vector Databases",
+        "Python",
+        "Systems Engineering",
+        "Open Source"
+      ],
+      "scheduled_at": "2026-09-10T08:58:53Z",
       "status": "pending"
     }
   ]
