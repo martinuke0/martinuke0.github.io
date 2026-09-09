@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-10T07:58:53Z",
+  "last_scheduled_at": "2026-09-10T08:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21893,6 +21893,21 @@
         "deep learning infrastructure"
       ],
       "scheduled_at": "2026-09-10T07:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building 'safe': A Hands-On Guide to a User Safety System That Signals Real Systems Skill",
+      "url": "https://martinuke0.github.io/posts/2026-09-09-building-/",
+      "social_hook": "> TL;DR — Build `safe`, a real-time user safety gateway that inspects posts, comments, and messages for toxicity, PII leaks, and abuse patterns before they reach other users. It combines a FastAPI serving layer, a multi-stage scoring pipeline, Redis-based rate limiting, and a configurable policy engine — the kind of system that demonstrates distributed systems thinking, ML integration, and production-grade engineering on a single CV line item.\n\nYou do not need a billion-dollar platform to demonstrate systems thinking on a CV. What you need is a project that forces you to make the same architectural decisions real platforms make: where to draw the latency budget, how to degrade gracefully, what to log for post-hoc audit, and how to let policy change without a code deploy. `safe` is a hands-on build that asks exactly those questions.\n\nHiring managers and staff-level reviewers scan portfolios for signals that a candidate has operated beyond tutorial territory. `safe` delivers several of those signals simultaneously.",
+      "tags": [
+        "systems-engineering",
+        "content-moderation",
+        "python",
+        "fastapi",
+        "redis",
+        "portfolio-project"
+      ],
+      "scheduled_at": "2026-09-10T08:58:53Z",
       "status": "pending"
     }
   ]
