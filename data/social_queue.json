@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-10T07:58:53Z",
+  "last_scheduled_at": "2026-09-10T08:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21911,6 +21911,21 @@
         "deep learning infrastructure"
       ],
       "scheduled_at": "2026-09-10T07:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "User Safety: Building Safe Experiences for Real People",
+      "url": "https://martinuke0.github.io/posts/2026-09-09-user-safety-building-safe-experiences-for-real-people/",
+      "social_hook": "description: \"Practical strategies for building user-safe software, from authentication to abuse prevention. Learn how to protect real people in production systems.\"\n\nsummary: \"User safety is not a feature—it's a foundation. This post explores concrete patterns for authentication, authorization, and abuse prevention that engineering teams can implement today.\"\n\nimage: \"/images/covers/2026-09-09-user-safety-building-safe-experiences-for-real-people.svg\"",
+      "tags": [
+        "user-safety",
+        "security",
+        "privacy",
+        "engineering",
+        "trust",
+        "ux"
+      ],
+      "scheduled_at": "2026-09-10T08:58:53Z",
       "status": "pending"
     }
   ]
