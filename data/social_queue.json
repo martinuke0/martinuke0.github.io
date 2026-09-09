@@ -21774,8 +21774,9 @@
         "python"
       ],
       "scheduled_at": "2026-09-09T22:58:53Z",
-      "status": "pending",
-      "cta": false
+      "status": "posting",
+      "cta": false,
+      "claimed_at": "2026-09-09T23:02:29Z"
     },
     {
       "title": "Build a Hybrid Sparse-Dense Retriever from Scratch: A CV Project That Actually Signals Systems Skill",
