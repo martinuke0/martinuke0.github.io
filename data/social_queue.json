@@ -21479,9 +21479,10 @@
         "data pipelines"
       ],
       "scheduled_at": "2026-09-09T05:58:53Z",
-      "status": "posting",
+      "status": "posted",
       "cta": false,
-      "claimed_at": "2026-09-09T06:05:17Z"
+      "claimed_at": "2026-09-09T06:05:17Z",
+      "post_urn": "urn:li:share:7503332721495207936"
     },
     {
       "title": "The Token Tax: Why Most AI Coding Costs Are Wasted on Work a $0.10 Model Could Do",
