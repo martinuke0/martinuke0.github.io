@@ -21427,8 +21427,9 @@
         "inference"
       ],
       "scheduled_at": "2026-09-09T02:58:53Z",
-      "status": "pending",
-      "cta": true
+      "status": "posting",
+      "cta": true,
+      "claimed_at": "2026-09-09T03:04:33Z"
     },
     {
       "title": "The Architecture of an Agentic Harness: How Production AI Agents Actually Work",
