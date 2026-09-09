@@ -21496,8 +21496,9 @@
         "claude-code"
       ],
       "scheduled_at": "2026-09-09T06:58:53Z",
-      "status": "pending",
-      "cta": false
+      "status": "posting",
+      "cta": false,
+      "claimed_at": "2026-09-09T07:05:35Z"
     },
     {
       "title": "Agentic AI in Production: How Autonomous Agents Are Rewiring the Stack",
