@@ -21462,8 +21462,9 @@
         "context-engineering"
       ],
       "scheduled_at": "2026-09-09T04:58:53Z",
-      "status": "pending",
-      "cta": false
+      "status": "posting",
+      "cta": false,
+      "claimed_at": "2026-09-09T06:05:17Z"
     },
     {
       "title": "AI Engineering From Scratch: The Production Blueprint Most Tutorials Skip",
