@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-10T08:58:53Z",
+  "last_scheduled_at": "2026-09-10T07:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21514,9 +21514,10 @@
         "mcp"
       ],
       "scheduled_at": "2026-09-09T07:58:53Z",
-      "status": "posting",
+      "status": "posted",
       "cta": true,
-      "claimed_at": "2026-09-09T08:06:58Z"
+      "claimed_at": "2026-09-09T08:06:58Z",
+      "post_urn": "urn:li:share:7503363322210344961"
     },
     {
       "title": "Building and Evaluating Agents: A Production Engineer's Playbook",
@@ -21882,20 +21883,6 @@
         "deep learning infrastructure"
       ],
       "scheduled_at": "2026-09-10T07:58:53Z",
-      "status": "pending"
-    },
-    {
-      "title": "Build a FlashAttention‑2 Engine from Scratch in Triton",
-      "url": "https://martinuke0.github.io/posts/2026-09-09-build-a-flashattention2-engine-from-scratch-in-triton/",
-      "social_hook": "> TL;DR — FlashAttention‑2 cuts memory bandwidth by fusing attention with softmax, delivering faster training and inference. This post builds a minimal, runnable Triton kernel from scratch, complete with tiled forward/backward passes, causal masks, and PyTorch autograd integration. By the end you’ll have a concrete project you can ship, benchmark, and discuss in interviews.\n\nImplementing FlashAttention‑2 from scratch is a practical way to signal low‑level GPU competence while staying grounded in the mechanics of modern transformer training. The following guide walks you through every artifact you need: environment setup, kernel design, autograd wiring, local testing, and a roadmap for production‑grade evolution. The code is fully runnable on a single GPU and requires only the Triton compiler and PyTorch.\n\nHiring managers for ML‑focused engineering roles see many candidates who can call `torch.nn.functional.scaled_dot_product_attention`. Few can explain why that kernel is fast, how it avoids global memory spills, and what it takes to beat it. Building a FlashAttention‑2 clone demonstrates:",
-      "tags": [
-        "triton",
-        "flashattention",
-        "tutorial",
-        "gpu",
-        "python"
-      ],
-      "scheduled_at": "2026-09-10T08:58:53Z",
       "status": "pending"
     }
   ]
