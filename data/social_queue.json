@@ -21375,9 +21375,10 @@
         "gpu-optimization"
       ],
       "scheduled_at": "2026-09-08T23:58:53Z",
-      "status": "posting",
+      "status": "posted",
       "cta": false,
-      "claimed_at": "2026-09-09T00:04:57Z"
+      "claimed_at": "2026-09-09T00:04:57Z",
+      "post_urn": "urn:li:share:7503242042253393920"
     },
     {
       "title": "Mooncake: Turning KV Cache into a Distributed LLM Serving Layer",
