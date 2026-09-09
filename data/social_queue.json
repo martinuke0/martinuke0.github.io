@@ -21739,8 +21739,9 @@
         "consensus"
       ],
       "scheduled_at": "2026-09-09T20:58:53Z",
-      "status": "pending",
-      "cta": false
+      "status": "posting",
+      "cta": false,
+      "claimed_at": "2026-09-09T21:01:29Z"
     },
     {
       "title": "Architecting Fault-Tolerant State Machines with etcd's Raft: Lease Semantics and Split-Brain Recovery",
