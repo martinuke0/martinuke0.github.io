@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-10T08:58:53Z",
+  "last_scheduled_at": "2026-09-10T07:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21358,9 +21358,10 @@
         "simt"
       ],
       "scheduled_at": "2026-09-08T22:58:53Z",
-      "status": "posting",
+      "status": "posted",
       "cta": false,
-      "claimed_at": "2026-09-09T00:04:57Z"
+      "claimed_at": "2026-09-09T00:04:57Z",
+      "post_urn": "urn:li:share:7503242017188143104"
     },
     {
       "title": "Why Quantization Works: The Mathematics That Makes LLMs 4x Smaller",
@@ -21864,20 +21865,6 @@
         "deep learning infrastructure"
       ],
       "scheduled_at": "2026-09-10T07:58:53Z",
-      "status": "pending"
-    },
-    {
-      "title": "Deep Dive into eBPF: Tracing Kernel Functions for Performance Analysis",
-      "url": "https://martinuke0.github.io/posts/2026-09-09-deep-dive-into-ebpf-tracing-kernel-functions-for-performance-analysis/",
-      "social_hook": "> TL;DR — eBPF lets you safely run sandboxed kernel code to trace function entry/exit with microsecond-scale overhead, enabling real-time latency breakdowns and hotpath profiling without perturbing production workloads. Combined with map-driven data aggregation and userspace readers, eBPF transforms the kernel into a programmable observability platform, revealing bottlenecks from syscall latency to lock contention across diverse architectures. When paired with tools like bpftrace or Cilium, teams can instrument production services at granularity that traditional perf or strace simply cannot match.\n\neBPF has become the de facto standard for high‑performance tracing in modern Linux environments. Where traditional tools like `strace` or `perf` introduce measurable overhead and require privileged contexts, eBPF programs attach safely at kernel entry points, execute compiled bytecode verified by the BPF verifier, and exit without compromising system stability. This capability has unlocked a new class of observability patterns: per‑function latency heatmaps, kernel‑space deadlock detection, and real‑time traffic‑aware routing decisions. In this post, we walk through the mechanics of tracing kernel functions with eBPF, the architecture of a typical tracing pipeline, and production‑grade patterns for safely instrumenting running services.\n\nClassical profiling tools rely on sampling interrupt vectors or user‑space syscall wrappers. `perf` can attribute cycles to functions, but it does so at the cost of enabling kernel preemption and, in some configurations, perturbing the very workloads you’re trying to optimize. `strace` intercepts every system call, which quickly becomes infeasible for high‑throughput services.",
-      "tags": [
-        "ebpf",
-        "kernel",
-        "tracing",
-        "performance",
-        "systems-programming"
-      ],
-      "scheduled_at": "2026-09-10T08:58:53Z",
       "status": "pending"
     }
   ]
