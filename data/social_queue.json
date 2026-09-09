@@ -21549,8 +21549,9 @@
         "patterns"
       ],
       "scheduled_at": "2026-09-09T09:58:53Z",
-      "status": "pending",
-      "cta": false
+      "status": "posting",
+      "cta": false,
+      "claimed_at": "2026-09-09T10:01:38Z"
     },
     {
       "title": "Building Agents with MCP: The Model Context Protocol in Practice",
