@@ -21583,9 +21583,10 @@
         "production-architecture"
       ],
       "scheduled_at": "2026-09-09T11:58:53Z",
-      "status": "posting",
+      "status": "posted",
       "cta": false,
-      "claimed_at": "2026-09-09T12:01:28Z"
+      "claimed_at": "2026-09-09T12:01:28Z",
+      "post_urn": "urn:li:share:7503422388974428160"
     },
     {
       "title": "Building LLMs from Scratch: A Working Engineer's Guide",
