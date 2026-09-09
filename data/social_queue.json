@@ -21688,8 +21688,9 @@
         "portfolio-project"
       ],
       "scheduled_at": "2026-09-09T17:58:53Z",
-      "status": "pending",
-      "cta": false
+      "status": "posting",
+      "cta": false,
+      "claimed_at": "2026-09-09T18:02:37Z"
     },
     {
       "title": "Building a Gradient Checkpointing Memory Scheduler From Scratch: A Portfolio Project That Actually Signals ML Systems Skill",
