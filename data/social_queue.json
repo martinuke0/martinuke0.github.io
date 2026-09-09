@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-10T08:58:53Z",
+  "last_scheduled_at": "2026-09-10T07:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21549,9 +21549,10 @@
         "patterns"
       ],
       "scheduled_at": "2026-09-09T09:58:53Z",
-      "status": "posting",
+      "status": "posted",
       "cta": false,
-      "claimed_at": "2026-09-09T10:01:38Z"
+      "claimed_at": "2026-09-09T10:01:38Z",
+      "post_urn": "urn:li:share:7503392177671094274"
     },
     {
       "title": "Building Agents with MCP: The Model Context Protocol in Practice",
@@ -21886,21 +21887,6 @@
         "deep learning infrastructure"
       ],
       "scheduled_at": "2026-09-10T07:58:53Z",
-      "status": "pending"
-    },
-    {
-      "title": "Implementing RISC-V Vector Extensions for Low-Power Edge Vision Inference",
-      "url": "https://martinuke0.github.io/posts/2026-09-09-implementing-risc-v-vector-extensions-for-low-power-edge-vision-inference/",
-      "social_hook": "> TL;DR — RISC-V Vector Extensions (RVV) provide a flexible, configurable SIMD backbone that can dramatically accelerate convolutional and transformer-based vision workloads on edge devices. By aligning the vector length with the silicon budget, designers can achieve 3–8× throughput improvements over scalar cores while maintaining sub-watt power envelopes. This post covers the architectural foundations, implementation patterns, and production considerations for deploying RVV-accelerated vision inference on real hardware.\n\nEdge vision inference—running object detection, semantic segmentation, or depth estimation directly on a camera module or microcontroller—has outgrown the capabilities of traditional embedded CPUs. A typical MobileNetV3-small model deployed on a Cortex-M7 at 480 MHz consumes roughly 300–500 mW and still struggles to hit 30 FPS at Q8 quantization. The problem is not just clock speed; it is the memory bandwidth wall. Convolutional layers require repeated weight loading, and on a MCU with no cache hierarchy, every byte fetched from external flash costs orders of magnitude more energy than a single multiply-accumulate operation.\n\nRISC-V Vector Extensions (RVV), ratified in the 2019-12 specification and refined through subsequent drafts, address exactly this mismatch. Unlike fixed-width SIMD units (e.g., ARM NEON's 128-bit lanes), RVV introduces a variable-length, variable-lane-width vector model governed by the `vsetvl` instruction. This means the same binary can scale from a 128-bit FPGA implementation to a 512-bit ASIC without recompilation—a property that is invaluable when targeting a family of edge devices with different power budgets.",
-      "tags": [
-        "RISC-V",
-        "Vector Extensions",
-        "Edge AI",
-        "Embedded Vision",
-        "Low-Power Computing",
-        "RVV"
-      ],
-      "scheduled_at": "2026-09-10T08:58:53Z",
       "status": "pending"
     }
   ]
