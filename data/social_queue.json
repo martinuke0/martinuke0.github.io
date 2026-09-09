@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-10T08:58:53Z",
+  "last_scheduled_at": "2026-09-10T07:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21652,9 +21652,10 @@
         "systems"
       ],
       "scheduled_at": "2026-09-09T15:58:53Z",
-      "status": "posting",
+      "status": "posted",
       "cta": false,
-      "claimed_at": "2026-09-09T16:05:30Z"
+      "claimed_at": "2026-09-09T16:05:30Z",
+      "post_urn": "urn:li:share:7503483749238534144"
     },
     {
       "title": "Building a Speculative Decoding Engine From Scratch: A Portfolio Project That Actually Signals Systems Skill",
@@ -21898,20 +21899,6 @@
         "deep learning infrastructure"
       ],
       "scheduled_at": "2026-09-10T07:58:53Z",
-      "status": "pending"
-    },
-    {
-      "title": "Hands-On Build Guide: Quantization‑Aware Portfolio Project for Engineering CV",
-      "url": "https://martinuke0.github.io/posts/2026-09-09-hands-on-build-guide-quantizationaware-portfolio-project-for-engineering-cv/",
-      "social_hook": "- Model Loader: Uses `transformers.AutoModelForCausalLM` to download a small decoder‑only model (e.g., `meta-llama/Llama-3.2-1B`) and move it to CPU/CUDA.\n\n- Calibrator: Supplies a representative subset of tokens (a few hundred sentences from the Wikitext‑2 dataset) to calibrate the quantization scale.\n\n- Quantizer: Employs the `bitsandbytes` library to convert the model to int8 (or 4‑bit) using `load_inference_model`.",
-      "tags": [
-        "quantization",
-        "systems",
-        "cv",
-        "side-project",
-        "engineering"
-      ],
-      "scheduled_at": "2026-09-10T08:58:53Z",
       "status": "pending"
     }
   ]
