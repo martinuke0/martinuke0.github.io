@@ -21445,8 +21445,9 @@
         "production-engineering"
       ],
       "scheduled_at": "2026-09-09T03:58:53Z",
-      "status": "pending",
-      "cta": false
+      "status": "posting",
+      "cta": false,
+      "claimed_at": "2026-09-09T04:02:00Z"
     },
     {
       "title": "Context Graphs for Coding Agents: Why Tool-Call Counts Are the New Token Bill",
