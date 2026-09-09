@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-10T08:58:53Z",
+  "last_scheduled_at": "2026-09-10T07:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21739,9 +21739,10 @@
         "consensus"
       ],
       "scheduled_at": "2026-09-09T20:58:53Z",
-      "status": "posting",
+      "status": "posted",
       "cta": false,
-      "claimed_at": "2026-09-09T21:01:29Z"
+      "claimed_at": "2026-09-09T21:01:29Z",
+      "post_urn": "urn:li:share:7503558239020756992"
     },
     {
       "title": "Architecting Fault-Tolerant State Machines with etcd's Raft: Lease Semantics and Split-Brain Recovery",
@@ -21908,21 +21909,6 @@
         "deep learning infrastructure"
       ],
       "scheduled_at": "2026-09-10T07:58:53Z",
-      "status": "pending"
-    },
-    {
-      "title": "Mastering Kong Gateway: Advanced Rate Limiting and Request Transformation Patterns",
-      "url": "https://martinuke0.github.io/posts/2026-09-09-mastering-kong-gateway-advanced-rate-limiting-and-request-transformation-patterns/",
-      "social_hook": "> TL;DR — Kong Gateway offers far more than basic rate limiting. By combining sliding window algorithms, distributed counters via Redis, and granular per-consumer policies, you can enforce sophisticated traffic controls. Paired with request transformation capabilities—header manipulation, body rewriting, and upstream URI remapping—you can decouple your external API contract from internal microservice topology.\n\nAPI gateways have become the de facto control plane for modern microservice architectures. Kong Gateway, built on the battle-tested NGINX proxy core, provides a plugin-driven architecture that lets you enforce policies at the edge without touching your upstream services. While many teams use Kong for simple route matching and basic authentication, the real power emerges when you combine its rate limiting and request transformation plugins into cohesive, production-grade traffic policies.\n\nThis article goes beyond the documentation basics. We'll explore advanced configurations that solve real problems: preventing noisy neighbors from starving critical endpoints, transforming legacy API contracts on the fly, and building multi-layered rate limiting strategies that scale horizontally.",
-      "tags": [
-        "Kong Gateway",
-        "API Gateway",
-        "Rate Limiting",
-        "Request Transformation",
-        "Kong Plugins",
-        "Microservices"
-      ],
-      "scheduled_at": "2026-09-10T08:58:53Z",
       "status": "pending"
     }
   ]
