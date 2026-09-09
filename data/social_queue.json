@@ -21392,8 +21392,9 @@
         "inference-optimization"
       ],
       "scheduled_at": "2026-09-09T00:58:53Z",
-      "status": "pending",
-      "cta": false
+      "status": "posting",
+      "cta": false,
+      "claimed_at": "2026-09-09T01:02:05Z"
     },
     {
       "title": "Implementing gVisor: Inside the User-Space Kernel That Sandboxes Docker Containers",
