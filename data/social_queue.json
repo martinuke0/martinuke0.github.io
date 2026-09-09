@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-10T08:58:53Z",
+  "last_scheduled_at": "2026-09-10T07:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21722,9 +21722,10 @@
         "python"
       ],
       "scheduled_at": "2026-09-09T19:58:53Z",
-      "status": "posting",
+      "status": "posted",
       "cta": true,
-      "claimed_at": "2026-09-09T20:03:56Z"
+      "claimed_at": "2026-09-09T20:03:56Z",
+      "post_urn": "urn:li:share:7503543754667212800"
     },
     {
       "title": "Inside etcd's Raft Implementation: Lease-Based Leader Election and Read Consistency",
@@ -21906,20 +21907,6 @@
         "deep learning infrastructure"
       ],
       "scheduled_at": "2026-09-10T07:58:53Z",
-      "status": "pending"
-    },
-    {
-      "title": "Mastering Build Cache Invalidation with Bazelisk and BuildKit",
-      "url": "https://martinuke0.github.io/posts/2026-09-09-mastering-build-cache-invalidation-with-bazelisk-and-buildkit/",
-      "social_hook": "> TL;DR — Bazelisk proxies builds to BuildKit, which stores per‑file digests; cache misses are detected via content‑addressable hashes, and invalidation is triggered automatically when source files change, eliminating stale artifacts and cutting CI times by up to 40%.\n\nIn modern CI/CD pipelines, build time is often the bottleneck that determines developer velocity. A well‑tuned cache can shave minutes off every pull‑request check, but the same cache becomes a liability when it serves outdated artifacts after a source change. Bazelisk, the lightweight Go wrapper around Bazel, and Docker’s BuildKit, the next‑generation build engine, together provide a robust mechanism for content‑addressable caching and automatic invalidation. This article walks through the architecture, configuration, and real‑world patterns for mastering cache invalidation with Bazelisk and BuildKit, and includes concrete tips you can apply today.\n\n- Build latency: Even a 5 % cache miss ratio on a medium‑sized Go monorepo can add 2–3 minutes per pipeline run.",
-      "tags": [
-        "bazel",
-        "buildkit",
-        "cache-invalidation",
-        "ci-cd",
-        "go"
-      ],
-      "scheduled_at": "2026-09-10T08:58:53Z",
       "status": "pending"
     }
   ]
