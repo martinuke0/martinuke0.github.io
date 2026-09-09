@@ -21532,9 +21532,10 @@
         "observability"
       ],
       "scheduled_at": "2026-09-09T08:58:53Z",
-      "status": "posting",
+      "status": "posted",
       "cta": false,
-      "claimed_at": "2026-09-09T09:14:34Z"
+      "claimed_at": "2026-09-09T09:14:34Z",
+      "post_urn": "urn:li:share:7503380333208178689"
     },
     {
       "title": "Building Effective Agents: Patterns That Survive Production",
