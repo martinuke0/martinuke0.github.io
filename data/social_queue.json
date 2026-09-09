@@ -21705,8 +21705,9 @@
         "ML Infrastructure"
       ],
       "scheduled_at": "2026-09-09T18:58:53Z",
-      "status": "pending",
-      "cta": false
+      "status": "posting",
+      "cta": false,
+      "claimed_at": "2026-09-09T19:47:55Z"
     },
     {
       "title": "Build a GPTQ-Style Int4 Quantization Engine From Scratch",
