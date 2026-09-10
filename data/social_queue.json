@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-10T23:05:33Z",
+  "last_scheduled_at": "2026-09-11T00:05:33Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -22062,6 +22062,20 @@
         "Developer Productivity"
       ],
       "scheduled_at": "2026-09-10T23:05:33Z",
+      "status": "pending"
+    },
+    {
+      "title": "Hands-On Build Guide: Pure‑Python GGUF Weight Loader with Lazy Memory‑Mapped Tensor Initialization",
+      "url": "https://martinuke0.github.io/posts/2026-09-10-hands-on-build-guide-purepython-gguf-weight-loader-with-lazy-memorymapped-tensor-initialization/",
+      "social_hook": "> TL;DR — This post walks you through building a pure‑Python GGUF weight loader that lazily memory‑maps tensors on demand. You’ll end up with a runnable module that demonstrates low‑level memory management, binary‑format parsing, and performance‑aware design — ideal for CV signals in ML‑focused engineering roles.\n\nHiring managers for ML infrastructure, data‑engineering, and systems‑focused engineering roles see dozens of “hello‑world” notebooks. This project signals three concrete competencies:\n\n1. Binary‑format literacy – you can read and parse a non‑trivial binary header (magic number, version, tensor metadata) without a high‑level library.",
+      "tags": [
+        "python",
+        "gguf",
+        "memory-mapped",
+        "cv",
+        "side-project"
+      ],
+      "scheduled_at": "2026-09-11T00:05:33Z",
       "status": "pending"
     }
   ]
