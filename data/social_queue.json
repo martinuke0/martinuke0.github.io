@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-10T17:05:07Z",
+  "last_scheduled_at": "2026-09-10T20:02:17Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -22003,6 +22003,21 @@
         "ai-architecture"
       ],
       "scheduled_at": "2026-09-10T17:05:07Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building a Real-Time User Safety Pipeline: A Portfolio Project",
+      "url": "https://martinuke0.github.io/posts/2026-09-10-building-a-real-time-user-safety-pipeline-a-portfolio-project/",
+      "social_hook": "tags: [\"user-safety\", \"systems-design\", \"portfolio\", \"python\", \"fastapi\", \"real-time\"]\n\ndescription: \"Learn to build a real-time user safety pipeline with FastAPI and Redis that flags harmful content, perfect for showcasing systems engineering skills to hiring managers.\"\n\nsummary: \"A hands-on guide to building a production-flavored user safety service that ingests, moderates, and logs user content in real time.\"",
+      "tags": [
+        "user-safety",
+        "systems-design",
+        "portfolio",
+        "python",
+        "fastapi",
+        "real-time"
+      ],
+      "scheduled_at": "2026-09-10T20:02:17Z",
       "status": "pending"
     }
   ]
