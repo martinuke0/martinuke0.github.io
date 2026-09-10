@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-10T07:58:53Z",
+  "last_scheduled_at": "2026-09-10T11:01:20Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21929,6 +21929,21 @@
         "deep learning infrastructure"
       ],
       "scheduled_at": "2026-09-10T07:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Build an INT4 Block-Wise Weight-Only Quantizer for Transformer Attention Layers",
+      "url": "https://martinuke0.github.io/posts/2026-09-10-build-an-int4-block-wise-weight-only-quantizer-for-transformer-attention-layers/",
+      "social_hook": "> TL;DR — Building a pure-Python INT4 block-wise weight-only quantizer for transformer attention layers is one of the most signal-rich portfolio projects you can ship. It demonstrates deep understanding of model compression, memory hierarchies, and numerical methods while producing real, runnable code. This guide walks through the full implementation — calibration, quantization, dequantization, and benchmarking — with production-quality patterns you can point to in an interview.\n\nHiring managers scanning portfolio projects see hundreds of \"fine-tuned BERT on HuggingFace\" repos. An INT4 quantizer stands out because it sits at the intersection of three domains that few candidates genuinely understand:\n\n- Numerical methods and low-level optimization. You're working with IEEE 754 representations, bit manipulation, and rounding modes — skills directly transferable to kernel engineering, compiler development, and ML infrastructure roles.",
+      "tags": [
+        "quantization",
+        "transformers",
+        "python",
+        "ml-systems",
+        "portfolio-project",
+        "deep-learning-engineering"
+      ],
+      "scheduled_at": "2026-09-10T11:01:20Z",
       "status": "pending"
     }
   ]
