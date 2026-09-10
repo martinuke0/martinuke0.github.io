@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-10T11:01:20Z",
+  "last_scheduled_at": "2026-09-10T14:05:07Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21946,6 +21946,20 @@
         "deep-learning-engineering"
       ],
       "scheduled_at": "2026-09-10T11:01:20Z",
+      "status": "pending"
+    },
+    {
+      "title": "Hands‑On Build Guide: Adaptive Nucleus (top‑p) Decoder for LLM Text Generation",
+      "url": "https://martinuke0.github.io/posts/2026-09-10-handson-build-guide-adaptive-nucleus-topp-decoder-for-llm-text-generation/",
+      "social_hook": "We need to generate a complete markdown file per the rules. Let's parse the instructions.\n\nWe need to output a markdown file with frontmatter starting with \"---\". Then frontmatter fields as specified: title, date, draft, tags, description, summary, showToc, TocOpen, cover.\n\nThe title should be relevant. The date must be exactly \"2026-09-10T14:00:59.828\" wrapped in double quotes.",
+      "tags": [
+        "python",
+        "machine-learning",
+        "llm",
+        "decoder",
+        "cv-project"
+      ],
+      "scheduled_at": "2026-09-10T14:05:07Z",
       "status": "pending"
     }
   ]
