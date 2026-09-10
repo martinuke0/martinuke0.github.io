@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-11T00:05:33Z",
+  "last_scheduled_at": "2026-09-11T01:05:33Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -22076,6 +22076,21 @@
         "side-project"
       ],
       "scheduled_at": "2026-09-11T00:05:33Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Hedged Requests for Resilient Low-Latency Distributed Systems",
+      "url": "https://martinuke0.github.io/posts/2026-09-10-architecting-hedged-requests-for-resilient-low-latency-distributed-systems/",
+      "social_hook": "> TL;DR — Hedged requests are a latency-reduction technique where a client issues duplicate RPC calls when an initial request exceeds a latency threshold. By betting on faster replicas, systems can dramatically cut tail latency (p99, p999) at the cost of increased load. This post covers the architecture, trade-offs, and production patterns that make hedged requests a cornerstone of resilient distributed systems.\n\nIn any distributed system, the average request latency tells only half the story. The other half lives in the tail — the p99, p999, and p9999 percentile latencies that define the worst experiences your users actually endure. A service that averages 10ms but spikes to 2 seconds at the p99 is a service that feels broken to a subset of users, no matter how fast the median is.\n\nThe root cause is almost always straggler nodes: individual replicas that fall behind due to garbage collection pauses, network jitter, disk contention, or noisy neighbors on shared hardware. A single slow host among a hundred can dominate your tail latency. Research from Google's \"The Tail at Scale\" paper demonstrated that even modest tail latency at the server level compounds into unacceptable user-facing latency when multiple downstream RPCs are chained in a request path. Each hop multiplies the probability of hitting a straggler.",
+      "tags": [
+        "distributed systems",
+        "latency",
+        "hedged requests",
+        "resilience",
+        "architecture",
+        "microservices"
+      ],
+      "scheduled_at": "2026-09-11T01:05:33Z",
       "status": "pending"
     }
   ]
