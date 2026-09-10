@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-10T16:05:07Z",
+  "last_scheduled_at": "2026-09-10T17:05:07Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21989,6 +21989,20 @@
         "Systems-Engineering"
       ],
       "scheduled_at": "2026-09-10T16:05:07Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building a Multi-Head Self-Attention Block with RoPE and ALiBi from Scratch",
+      "url": "https://martinuke0.github.io/posts/2026-09-10-building-a-multi-head-self-attention-block-with-rope-and-alibi-from-scratch/",
+      "social_hook": "> TL;DR — Building a multi-head self-attention block with Rotary Positional Embeddings (RoPE) and ALiBi from scratch proves you understand the core mechanics of modern LLMs and how to optimize them for performance. This project bridges the gap between theoretical machine learning and production-grade systems engineering, signaling to hiring managers that you can architect and debug foundational AI components.\n\nThe transition from using high-level APIs like HuggingFace `transformers` to implementing the core mechanics of a Large Language Model (LLM) from scratch is a defining moment for any aspiring ML engineer. While leveraging pre-built modules accelerates prototyping, it obscures the intricate tensor operations, memory constraints, and numerical stability challenges that define production systems.\n\nBuilding a multi-head self-attention block with Rotary Positional Embeddings (RoPE) and Attention with Linear Biases (ALiBi) from scratch forces you to confront the exact linear algebra and systems optimizations that power today's most advanced models. It is a project that demonstrates you don't just call `model.fit()`, but you understand the mathematical primitives and hardware constraints underneath.",
+      "tags": [
+        "deep-learning",
+        "pytorch",
+        "transformers",
+        "systems-engineering",
+        "ai-architecture"
+      ],
+      "scheduled_at": "2026-09-10T17:05:07Z",
       "status": "pending"
     }
   ]
