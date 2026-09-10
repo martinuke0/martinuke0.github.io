@@ -21877,9 +21877,10 @@
         "machine-learning"
       ],
       "scheduled_at": "2026-09-10T04:58:53Z",
-      "status": "posting",
+      "status": "posted",
       "cta": false,
-      "claimed_at": "2026-09-10T06:25:59Z"
+      "claimed_at": "2026-09-10T06:25:59Z",
+      "post_urn": "urn:li:share:7503700298113351680"
     },
     {
       "title": "Optimizing GPU Memory Pools: Inside PyTorch's CUDA Caching Allocator",
