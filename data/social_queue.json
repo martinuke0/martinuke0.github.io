@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-10T07:58:53Z",
+  "last_scheduled_at": "2026-09-10T08:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21913,6 +21913,21 @@
         "deep learning infrastructure"
       ],
       "scheduled_at": "2026-09-10T07:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building a GGUF Weight Loader from Scratch in Pure Python",
+      "url": "https://martinuke0.github.io/posts/2026-09-10-building-a-gguf-weight-loader-from-scratch-in-pure-python/",
+      "social_hook": "> TL;DR — This post walks you through building a minimal GGUF weight loader in pure Python with zero dependencies on llama.cpp. You'll parse the binary container format — header, metadata key–value pairs, and tensor chunk offsets — to extract model weights directly. The result is a portfolio project that demonstrates binary parsing, systems architecture, and ML infrastructure skills that hiring managers notice.\n\nMost ML engineers can use a model. Far fewer can open the container that holds one and walk out with the weights. A GGUF loader built from scratch signals three distinct competencies that hiring managers and senior engineers explicitly look for:\n\n- Binary format fluency. You're not reading JSON from an API — you're interpreting magic bytes, version fields, and structured arrays directly from disk. This is the same skill that underlies protocol buffer parsing, database engine work, and embedded systems programming.",
+      "tags": [
+        "python",
+        "gguf",
+        "binary-formats",
+        "machine-learning",
+        "systems-engineering",
+        "portfolio-project"
+      ],
+      "scheduled_at": "2026-09-10T08:58:53Z",
       "status": "pending"
     }
   ]
