@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-10T07:58:53Z",
+  "last_scheduled_at": "2026-09-10T08:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21919,6 +21919,20 @@
         "deep learning infrastructure"
       ],
       "scheduled_at": "2026-09-10T07:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing a Multi-Paxos Consensus Log: Learners, Leadership, and Crash Recovery",
+      "url": "https://martinuke0.github.io/posts/2026-09-10-implementing-a-multi-paxos-consensus-log-learners-leadership-and-crash-recovery/",
+      "social_hook": "> TL;DR — Multi-Paxos reduces consensus overhead by stabilizing a single leader across client requests, but it introduces complexity around log replication, learner catch-up, and crash recovery. A stable leader, reliable learner synchronization, and idempotent log truncation are the three pillars that keep the system available and consistent under partial failures.\n\nImplementing a Multi-Paxos consensus layer is a rite of passage for engineers building distributed systems. Whether you're running etcd, Consul, or a custom key-value store, understanding how learners sync, how leadership gets decided, and what happens when nodes crash is essential for operating production-grade services. This post walks through the mechanics of Multi-Paxos with a focus on the practical concerns that show up at 3 AM: leader elections, split-brain scenarios, log compaction, and graceful recovery.\n\nAt its heart, Multi-Paxos is about turning a series of independent Paxos instances into a single, stable consensus group. In classic Paxos, every client command requires a new round of prepare-and-accept, which means two round-trips per operation. Multi-Paxos amortizes that cost by electing a leader that dominates the proposal process: once a leader is accepted, subsequent commands only need a single round-trip because the leader's proposal is assumed to be accepted unless a new leader takes over.",
+      "tags": [
+        "paxos",
+        "distributed-systems",
+        "consensus",
+        "raft",
+        "crash-recovery"
+      ],
+      "scheduled_at": "2026-09-10T08:58:53Z",
       "status": "pending"
     }
   ]
