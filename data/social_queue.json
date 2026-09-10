@@ -21860,8 +21860,9 @@
         "distributed-systems"
       ],
       "scheduled_at": "2026-09-10T03:58:53Z",
-      "status": "pending",
-      "cta": false
+      "status": "posting",
+      "cta": false,
+      "claimed_at": "2026-09-10T04:04:44Z"
     },
     {
       "title": "Building Grouped-Query Attention with RoPE and Flash-Attention from Scratch",
