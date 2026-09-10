@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-10T21:05:33Z",
+  "last_scheduled_at": "2026-09-10T22:05:33Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -22032,6 +22032,21 @@
         "side-project"
       ],
       "scheduled_at": "2026-09-10T21:05:33Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building MCP Servers on Cloudflare: A Practical Guide",
+      "url": "https://martinuke0.github.io/posts/2026-09-10-building-mcp-servers-on-cloudflare-a-practical-guide/",
+      "social_hook": "> TL;DR — Cloudflare's MCP integration lets you expose any Cloudflare resource—D1 databases, R2 buckets, Workers KV—as standardized tools that AI assistants can discover and call. Running an MCP server on Workers means zero cold starts at scale, built-in auth, and a single deployment pipeline for your entire AI tooling stack.\n\nThe Model Context Protocol (MCP) has rapidly become the connective tissue between AI assistants and the services they need to interact with. Originally launched by Anthropic, MCP provides a standardized way for LLMs to discover tools, read resources, and execute actions across a wide range of backends. What makes the protocol particularly compelling is its transport-agnostic design: a single MCP server can serve clients over stdio, SSE, or streamable HTTP.\n\nCloudflare has positioned itself as a natural host for MCP servers. With Workers offering lightweight, globally distributed compute, D1 providing serverless SQLite, R2 delivering object storage without egress fees, and KV offering low-latency key-value storage, the platform already has everything needed to build production-grade MCP servers. The result is a tightly integrated system where AI assistants can query databases, read files, and trigger workflows—all without leaving Cloudflare's edge network.",
+      "tags": [
+        "cloudflare",
+        "mcp",
+        "model-context-protocol",
+        "workers",
+        "ai",
+        "serverless"
+      ],
+      "scheduled_at": "2026-09-10T22:05:33Z",
       "status": "pending"
     }
   ]
