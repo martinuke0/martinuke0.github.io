@@ -21929,7 +21929,8 @@
         "deep learning infrastructure"
       ],
       "scheduled_at": "2026-09-10T07:58:53Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-10T11:02:00Z"
     },
     {
       "title": "Build an INT4 Block-Wise Weight-Only Quantizer for Transformer Attention Layers",
