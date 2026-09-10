@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-10T07:58:53Z",
+  "last_scheduled_at": "2026-09-10T08:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21915,6 +21915,20 @@
         "deep learning infrastructure"
       ],
       "scheduled_at": "2026-09-10T07:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building a Safetensors Schema Validator and mmap-Backed Tensor Reader for Sharded Model Weights",
+      "url": "https://martinuke0.github.io/posts/2026-09-10-building-a-safetensors-schema-validator-and-mmap-backed-tensor-reader-for-sharded-model-weights/",
+      "social_hook": "title: \"Building a Safetensors Schema Validator and mmap-Backed Tensor Reader for Sharded Model Weights\"\n\ndescription: \"Build a safetensors schema validator and mmap-backed reader for sharded model weights, avoiding full RAM load, to showcase systems engineering skills.\"\n\nsummary: \"This project demonstrates how to validate safetensors schemas and read sharded model weights using memory-mapped files, showing practical systems expertise.\"",
+      "tags": [
+        "safetensors",
+        "mmap",
+        "python",
+        "systems",
+        "performance"
+      ],
+      "scheduled_at": "2026-09-10T08:58:53Z",
       "status": "pending"
     }
   ]
