@@ -21826,8 +21826,9 @@
         "jit-compilation"
       ],
       "scheduled_at": "2026-09-10T01:58:53Z",
-      "status": "pending",
-      "cta": true
+      "status": "posting",
+      "cta": true,
+      "claimed_at": "2026-09-10T02:02:50Z"
     },
     {
       "title": "Build a Hybrid Sparse-Dense Retriever: A CV-Worthy RAG Side Project",
