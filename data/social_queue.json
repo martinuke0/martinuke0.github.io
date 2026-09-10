@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-10T15:05:07Z",
+  "last_scheduled_at": "2026-09-10T16:05:07Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21975,6 +21975,20 @@
         "performance"
       ],
       "scheduled_at": "2026-09-10T15:05:07Z",
+      "status": "pending"
+    },
+    {
+      "title": "Build a Mini LLM Inference Engine with Tree-Attention Speculative Decoding",
+      "url": "https://martinuke0.github.io/posts/2026-09-10-build-a-mini-llm-inference-engine-with-tree-attention-speculative-decoding/",
+      "social_hook": "title: \"Build a Mini LLM Inference Engine with Tree-Attention Speculative Decoding\"\n\ntags: [\"LLM\", \"Inference\", \"Speculative-Decoding\", \"Python\", \"Systems-Engineering\"]\n\ndescription: \"A practical guide to building a mini LLM inference engine with tree-attention speculative decoding and reusable draft-token KV caches, perfect for your CV.\"",
+      "tags": [
+        "LLM",
+        "Inference",
+        "Speculative-Decoding",
+        "Python",
+        "Systems-Engineering"
+      ],
+      "scheduled_at": "2026-09-10T16:05:07Z",
       "status": "pending"
     }
   ]
