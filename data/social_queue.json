@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-10T14:05:07Z",
+  "last_scheduled_at": "2026-09-10T15:05:07Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21960,6 +21960,21 @@
         "cv-project"
       ],
       "scheduled_at": "2026-09-10T14:05:07Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Redis Cluster Eviction: Predictable Latency Under Memory Pressure",
+      "url": "https://martinuke0.github.io/posts/2026-09-10-optimizing-redis-cluster-eviction-predictable-latency-under-memory-pressure/",
+      "social_hook": "> TL;DR — Redis Cluster eviction under memory pressure is one of the most common sources of latency spikes in production caches. The default `allkeys-lru` policy, combined with aggressive `maxmemory`, creates synchronous eviction cycles that block client requests. By tuning eviction policies, adjusting memory watermarks, and layering client-side strategies, you can reduce p99 eviction latency from hundreds of milliseconds to single-digit milliseconds.\n\nWhen a Redis instance approaches its `maxmemory` limit, the server must free space before accepting writes. This eviction process is not free — it involves looking up keys, computing their idle time, removing them from data structures, and updating internal bookkeeping. Under the default configuration, this work happens synchronously on the main event loop.\n\nConsider a production scenario: a Redis Cluster with 12 shards serving a recommendation engine. Each shard holds roughly 4 GB of data against a `maxmemory` of 5 GB. During a traffic spike, write throughput doubles, and all shards simultaneously cross the memory threshold. The result is a wave of synchronous eviction across every shard, and the p99 latency jumps from 2 ms to 180 ms.",
+      "tags": [
+        "redis",
+        "cluster",
+        "eviction",
+        "latency",
+        "memory-management",
+        "performance"
+      ],
+      "scheduled_at": "2026-09-10T15:05:07Z",
       "status": "pending"
     }
   ]
