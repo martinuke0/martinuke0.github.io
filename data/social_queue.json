@@ -21929,8 +21929,9 @@
         "deep learning infrastructure"
       ],
       "scheduled_at": "2026-09-10T07:58:53Z",
-      "status": "posting",
-      "claimed_at": "2026-09-10T11:02:00Z"
+      "status": "posted",
+      "claimed_at": "2026-09-10T11:02:00Z",
+      "post_urn": "urn:li:share:7503769754436849664"
     },
     {
       "title": "Build an INT4 Block-Wise Weight-Only Quantizer for Transformer Attention Layers",
