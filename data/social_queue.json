@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-10T22:05:33Z",
+  "last_scheduled_at": "2026-09-10T23:05:33Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -22047,6 +22047,21 @@
         "serverless"
       ],
       "scheduled_at": "2026-09-10T22:05:33Z",
+      "status": "pending"
+    },
+    {
+      "title": "The Rise of Local-First Autonomous Development: How Offline AI Pipelines Are Reshaping Software Engineering",
+      "url": "https://martinuke0.github.io/posts/2026-09-10-the-rise-of-local-first-autonomous-development-how-offline-ai-pipelines-are-reshaping-software-engineering/",
+      "social_hook": "> TL;DR — Local-first autonomous development pipelines represent a paradigm shift in how software gets built. By orchestrating multiple AI model roles locally — using tools like Ollama — developers can now go from a rough idea to tested, committed code without ever touching a cloud API. The implications for privacy, cost, and developer workflow are profound, and the architectural patterns emerging from this space are worth studying regardless of whether you adopt any specific tool.\n\nFor the better part of two years, the dominant narrative around AI-assisted development has been cloud-bound. Every major player — GitHub Copilot, Cursor, Claude Code, Google Gemini Code Assist — routes your prompts, context, and generated code through remote data centers. This works remarkably well, but it introduces friction that many developers have learned to tolerate rather than question: latency, subscription costs, data sovereignty concerns, and an uncomfortable dependency on third-party availability.\n\nWhat happens when you remove that dependency entirely? The answer is quietly emerging in projects like Siesta, which demonstrate that a fully autonomous development pipeline can run on local hardware, orchestrated by a local daemon and served by local or nearby model endpoints. The implications extend far beyond novelty. This approach touches on fundamental questions about developer autonomy, the economics of AI tooling, and the architectural patterns that will define the next generation of coding assistants.",
+      "tags": [
+        "AI Engineering",
+        "Autonomous Development",
+        "Local-First",
+        "Ollama",
+        "Software Architecture",
+        "Developer Productivity"
+      ],
+      "scheduled_at": "2026-09-10T23:05:33Z",
       "status": "pending"
     }
   ]
