@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-10T07:58:53Z",
+  "last_scheduled_at": "2026-09-10T08:58:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -21927,6 +21927,20 @@
         "deep learning infrastructure"
       ],
       "scheduled_at": "2026-09-10T07:58:53Z",
+      "status": "pending"
+    },
+    {
+      "title": "Switch Transformer-Style Sparse MoE Layer from Scratch in PyTorch",
+      "url": "https://martinuke0.github.io/posts/2026-09-10-switch-transformer-style-sparse-moe-layer-from-scratch-in-pytorch/",
+      "social_hook": "tags: [\"pytorch\", \"mixture-of-experts\", \"deep-learning\", \"systems\", \"switch-transformer\"]\n\ndescription: \"Build a Switch Transformer sparse MoE layer in PyTorch with differentiable routing, capacity limits, and load-balancing loss for a portfolio project.\"\n\nsummary: \"Implement a Switch Transformer‑style sparse mixture‑of‑experts layer in PyTorch, complete with differentiable routing, capacity limits, and load‑balancing loss.\"",
+      "tags": [
+        "pytorch",
+        "mixture-of-experts",
+        "deep-learning",
+        "systems",
+        "switch-transformer"
+      ],
+      "scheduled_at": "2026-09-10T08:58:53Z",
       "status": "pending"
     }
   ]
