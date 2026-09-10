@@ -21809,8 +21809,9 @@
         "portfolio"
       ],
       "scheduled_at": "2026-09-10T00:58:53Z",
-      "status": "pending",
-      "cta": false
+      "status": "posting",
+      "cta": false,
+      "claimed_at": "2026-09-10T01:02:21Z"
     },
     {
       "title": "Inside V8's TurboFan's Maglev: How Speculative JIT Compilation Powers Modern JavaScript",
