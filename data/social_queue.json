@@ -21911,8 +21911,9 @@
         "gradient-descent"
       ],
       "scheduled_at": "2026-09-10T06:58:53Z",
-      "status": "pending",
-      "cta": false
+      "status": "posting",
+      "cta": false,
+      "claimed_at": "2026-09-10T07:03:35Z"
     },
     {
       "title": "Distributed LLM Inference: Parallelism Strategies",
