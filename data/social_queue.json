@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-10T20:02:17Z",
+  "last_scheduled_at": "2026-09-10T21:05:33Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -22018,6 +22018,20 @@
         "real-time"
       ],
       "scheduled_at": "2026-09-10T20:02:17Z",
+      "status": "pending"
+    },
+    {
+      "title": "Build a LoRA Adapter Layer from Scratch in PyTorch",
+      "url": "https://martinuke0.github.io/posts/2026-09-10-build-a-lora-adapter-layer-from-scratch-in-pytorch/",
+      "social_hook": "> TL;DR — LoRA (Low‑Rank Adaptation) inserts two tiny trainable matrices into frozen transformer weights, enabling parameter‑efficient fine‑tuning. The forward pass adds the adapter output to the original activation, and at inference the adapter merges back so no extra latency. This guide walks through a minimal, runnable PyTorch implementation from scratch.\n\nImplementing LoRA from scratch is a great way to demonstrate understanding of transformer internals, gradient flow, and parameter‑efficient fine‑tuning. In this post we’ll build a minimal PyTorch module that injects a rank‑B × rank‑A decomposition into frozen attention and MLP weight matrices, provides a clean merge/unmerge API, and includes tests you can run locally.\n\n- Deep‑learning framework fluency – You show you can subclass `nn.Module`, manage parameter freezing, and manipulate weight tensors directly.",
+      "tags": [
+        "pytorch",
+        "lora",
+        "deep-learning",
+        "cv",
+        "side-project"
+      ],
+      "scheduled_at": "2026-09-10T21:05:33Z",
       "status": "pending"
     }
   ]
