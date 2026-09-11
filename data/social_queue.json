@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-11T16:05:33Z",
+  "last_scheduled_at": "2026-09-11T18:02:00Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -22306,6 +22306,20 @@
         "cryptography"
       ],
       "scheduled_at": "2026-09-11T16:05:33Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building a Pure-Python Speculative Decoding Engine for Your Portfolio",
+      "url": "https://martinuke0.github.io/posts/2026-09-11-building-a-pure-python-speculative-decoding-engine-for-your-portfolio/",
+      "social_hook": "description: \"Hands‑on guide to building a pure‑Python speculative decoding engine with a draft LLM and parallel acceptance‑reject sampling, showcasing systems skills.\"\n\nsummary: \"Build a pure‑Python speculative decoding engine that uses a draft LLM and parallel acceptance‑reject sampling to speed up text generation. This project highlights real systems engineering skills for your CV.\"\n\nimage: \"/images/covers/2026-09-11-building-a-pure-python-speculative-decoding-engine-for-your-portfolio.svg\"",
+      "tags": [
+        "speculative-decoding",
+        "python",
+        "llm",
+        "systems",
+        "portfolio"
+      ],
+      "scheduled_at": "2026-09-11T18:02:00Z",
       "status": "pending"
     }
   ]
