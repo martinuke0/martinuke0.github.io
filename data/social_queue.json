@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-11T04:05:33Z",
+  "last_scheduled_at": "2026-09-11T05:05:33Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -22135,6 +22135,20 @@
         "deep-learning"
       ],
       "scheduled_at": "2026-09-11T04:05:33Z",
+      "status": "pending"
+    },
+    {
+      "title": "From Scratch: GPTQ‑Style Post‑Training Quantizer in NumPy",
+      "url": "https://martinuke0.github.io/posts/2026-09-11-from-scratch-gptqstyle-posttraining-quantizer-in-numpy/",
+      "social_hook": "description: \"Build a GPTQ-style post-training quantizer in NumPy with block-wise INT4 weight quantization, optimal scaling, zero-point calibration, and fake-quant inference.\"\n\nsummary: \"This guide walks you through implementing a GPTQ-style post-training quantizer entirely in NumPy. The resulting script compresses transformer weights and measures accuracy impact, showcasing your ability to ship low-level ML infrastructure.\"\n\nimage: \"/images/covers/2026-09-11-from-scratch-gptqstyle-posttraining-quantizer-in-numpy.svg\"",
+      "tags": [
+        "quantization",
+        "numpy",
+        "machine-learning",
+        "systems",
+        "portfolio"
+      ],
+      "scheduled_at": "2026-09-11T05:05:33Z",
       "status": "pending"
     }
   ]
