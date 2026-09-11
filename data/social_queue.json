@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-11T15:05:33Z",
+  "last_scheduled_at": "2026-09-11T16:05:33Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -22292,6 +22292,20 @@
         "cv"
       ],
       "scheduled_at": "2026-09-11T15:05:33Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Argon2 Password Hashing: Secure Storage Strategies for Modern Applications",
+      "url": "https://martinuke0.github.io/posts/2026-09-11-mastering-argon2-password-hashing-secure-storage-strategies-for-modern-applications/",
+      "social_hook": "> TL;DR — Argon2’s memory‑hard function defeats GPU‑based attacks, and when you set the right time cost, memory cost, and parallelism, you get strong protection with predictable performance; this post shows how to generate hashes, salt properly, tune parameters, and migrate existing passwords without downtime.\n\nPassword hashing is the first line of defense when user credentials leak. In the last decade, bcrypt and scrypt dominated discussions, but modern threat models—GPU clusters, ASICs, and side‑channel attacks—have exposed their limitations. Argon2, the winner of the Password Hashing Competition, combines memory hardness with configurable time and parallelism, making it suitable for today’s cloud‑native and edge environments. This article walks through the practical steps of adopting Argon2: from generating a hash in your language of choice, to salting strategies, parameter tuning, and safe migration of legacy password stores. We’ll also explore how Argon2 fits into a larger authentication pipeline and why it matters for teams running Kafka, Airflow, or GCP‑based services.\n\nArgon2’s design forces an attacker to allocate a large amount of RAM per hash computation. Even with a modest memory cost of 64 MiB, a single GPU can only evaluate a few hundred hashes per second, compared with thousands for bcrypt. The competition’s criteria—resistance to GPU/ASIC attacks, trade‑off flexibility, and simplicity—make Argon2 a drop‑in replacement for many existing systems.",
+      "tags": [
+        "argon2",
+        "password-hashing",
+        "security",
+        "devops",
+        "cryptography"
+      ],
+      "scheduled_at": "2026-09-11T16:05:33Z",
       "status": "pending"
     }
   ]
