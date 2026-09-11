@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-11T13:05:33Z",
+  "last_scheduled_at": "2026-09-11T14:05:33Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -22264,6 +22264,20 @@
         "side-project"
       ],
       "scheduled_at": "2026-09-11T13:05:33Z",
+      "status": "pending"
+    },
+    {
+      "title": "Hands‑On Build Guide: LoRA‑Based LLM Fine‑Tuning for Your Portfolio CV",
+      "url": "https://martinuke0.github.io/posts/2026-09-11-handson-build-guide-lorabased-llm-finetuning-for-your-portfolio-cv/",
+      "social_hook": "> TL;DR — LoRA lets you fine‑tune huge LLMs with tiny parameter updates, making it possible to create a custom CV/portfolio model in hours rather than weeks. This guide walks you through building a complete pipeline—from data prep to a runnable training script—using PyTorch, Transformers, and the PEFT library. By the end you’ll have a reproducible project that signals systems‑level skill to hiring managers.\n\nBuilding a custom LLM for your portfolio is a powerful way to demonstrate that you can take a research idea and turn it into a runnable, maintainable system. Hiring managers love seeing a concrete project that shows you understand data pipelines, model serving, and production‑grade tooling—all while staying within a reasonable time and compute budget.\n\n- Systems‑level thinking: You design a full pipeline (data ingestion → tokenization → LoRA wrapper → training loop → checkpointing → inference). That signals you can operate end‑to‑end, not just notebook tweaks.",
+      "tags": [
+        "LLM",
+        "LoRA",
+        "Fine-tuning",
+        "Python",
+        "Machine Learning"
+      ],
+      "scheduled_at": "2026-09-11T14:05:33Z",
       "status": "pending"
     }
   ]
