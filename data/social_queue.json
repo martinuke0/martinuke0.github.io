@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-11T02:05:33Z",
+  "last_scheduled_at": "2026-09-11T03:05:33Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -22105,6 +22105,21 @@
         "performance-optimization"
       ],
       "scheduled_at": "2026-09-11T02:05:33Z",
+      "status": "pending"
+    },
+    {
+      "title": "User Safety: safe — A Hands-On Build Guide for Your Portfolio",
+      "url": "https://martinuke0.github.io/posts/2026-09-11-user-safety-safe-a-hands-on-build-guide-for-your-portfolio/",
+      "social_hook": "> TL;DR — Build a real-time User Safety scoring engine that evaluates user-submitted content against configurable safety policies. This project demonstrates distributed systems thinking, ML pipeline integration, and observability — exactly the skills hiring managers scan for. By the end, you'll have a runnable system with an API layer, a rules engine, and a scoring pipeline you can point to in interviews.\n\nThe demand for Trust & Safety infrastructure has exploded across platforms, from social media to fintech. Yet most portfolio projects stop at CRUD apps. A User Safety system signals something different: you understand how to handle harmful content at scale, manage policy-as-code, and design for the edge cases that break naive systems. This guide walks you through building one from scratch — with real, runnable code — so you can add it to your CV and actually explain the architecture in an interview.\n\nHiring managers reviewing portfolios see hundreds of to-do apps and blog platforms. A User Safety system immediately differentiates you because it touches several high-value engineering domains simultaneously:",
+      "tags": [
+        "systems-design",
+        "content-moderation",
+        "python",
+        "fastapi",
+        "trust-safety",
+        "portfolio-project"
+      ],
+      "scheduled_at": "2026-09-11T03:05:33Z",
       "status": "pending"
     }
   ]
