@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-11T18:02:00Z",
+  "last_scheduled_at": "2026-09-11T19:02:00Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -22320,6 +22320,21 @@
         "portfolio"
       ],
       "scheduled_at": "2026-09-11T18:02:00Z",
+      "status": "pending"
+    },
+    {
+      "title": "Build a Pure-Python Continuous Batching LLM Serving Engine from Scratch",
+      "url": "https://martinuke0.github.io/posts/2026-09-11-build-a-pure-python-continuous-batching-llm-serving-engine-from-scratch/",
+      "social_hook": "> TL;DR — This guide walks you through building a production-flavored LLM serving engine entirely in pure Python: continuous batching with dynamic scheduling, a PagedAttention-inspired KV cache manager, and request prefetching. You'll ship runnable code at every step, producing a portfolio project that demonstrates exactly the systems skills hiring managers look for in senior backend and ML infrastructure roles.\n\nMost LLM portfolio projects stop at \"I called the OpenAI API\" or \"I fine-tuned a model with LoRA.\" Those are valuable, but they signal consumption, not construction. A continuous batching serving engine signals something different: you understand the plumbing between the model and the user.\n\n- Systems-level concurrency — You manage async request lifecycles, preemption, and scheduling under resource constraints. This is the same problem space as a web server's request queue, but with GPU memory as the binding constraint.",
+      "tags": [
+        "LLM Serving",
+        "Systems Engineering",
+        "Python",
+        "PagedAttention",
+        "Continuous Batching",
+        "Distributed Systems"
+      ],
+      "scheduled_at": "2026-09-11T19:02:00Z",
       "status": "pending"
     }
   ]
