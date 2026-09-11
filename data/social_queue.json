@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-11T19:02:00Z",
+  "last_scheduled_at": "2026-09-11T20:02:00Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -22335,6 +22335,20 @@
         "Distributed Systems"
       ],
       "scheduled_at": "2026-09-11T19:02:00Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Varnish Cache Purges with BAN Tables and Incremental Invalidation",
+      "url": "https://martinuke0.github.io/posts/2026-09-11-optimizing-varnish-cache-purges-with-ban-tables-and-incremental-invalidation/",
+      "social_hook": "> TL;DR — Varnish Cache's `PURGE` and `BAN` mechanisms serve fundamentally different roles, and choosing the wrong one at scale can overwhelm your origin or bloat memory. BAN tables with regex matching and incremental invalidation let you target groups of objects precisely, avoiding the thundering herd problem that blanket `PURGE` requests create. This post walks through the architecture, configuration patterns, and production-tested optimizations that keep cache coherence without sacrificing throughput.\n\nEvery high-traffic website eventually hits the same wall: stale content needs to disappear, but evicting it naively triggers a stampede of requests back to the origin. When a single cached object is invalidated and thousands of concurrent users request it simultaneously, Varnish hands every one of those requests to the backend. This is the thundering herd, and it can take down an origin in seconds.\n\nTraditional `PURGE` requests in Varnish operate on exact URL matches. You send a `PURGE /article/123` and Varnish removes that specific object from cache. Simple enough — until you need to invalidate every variant of that article: every language, every device class, every query-parameter permutation. Suddenly one content change means dozens of `PURGE` calls, and if you miss one, users see stale data.",
+      "tags": [
+        "varnish",
+        "caching",
+        "performance",
+        "cdn",
+        "devops"
+      ],
+      "scheduled_at": "2026-09-11T20:02:00Z",
       "status": "pending"
     }
   ]
