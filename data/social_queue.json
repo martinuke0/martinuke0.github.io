@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-11T08:05:33Z",
+  "last_scheduled_at": "2026-09-11T09:05:33Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -22191,6 +22191,21 @@
         "python"
       ],
       "scheduled_at": "2026-09-11T08:05:33Z",
+      "status": "pending"
+    },
+    {
+      "title": "Build a Sparse MoE Router from Scratch in NumPy",
+      "url": "https://martinuke0.github.io/posts/2026-09-11-build-a-sparse-moe-router-from-scratch-in-numpy/",
+      "social_hook": "> TL;DR — Build a sparse Mixture-of-Experts (MoE) router in pure NumPy featuring noisy top-k gating, capacity-factor-based token batching, and auxiliary load-balancing loss. This project demonstrates systems-level thinking about parallelism, load balancing, and numerical stability — exactly the kind of depth that separates candidates who used transformers from those who understand them.\n\nA Mixture-of-Experts architecture is the backbone of modern large-scale models like Google's Switch Transformer and Mixtral. Understanding how the router works — how it assigns tokens to experts, how it prevents overload, and how it balances expert utilization — is one of the most transferable skills you can build for ML systems roles. This guide walks you through implementing every piece from scratch in NumPy, with real, runnable code you can point to in an interview or GitHub profile.\n\nHiring managers and senior engineers scan portfolios for signals that go beyond \"I trained a model.\" This project communicates several distinct, high-value competencies simultaneously:",
+      "tags": [
+        "machine-learning",
+        "numpy",
+        "moe",
+        "systems-engineering",
+        "deep-learning",
+        "portfolio-project"
+      ],
+      "scheduled_at": "2026-09-11T09:05:33Z",
       "status": "pending"
     }
   ]
