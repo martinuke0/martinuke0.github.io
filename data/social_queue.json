@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-11T03:05:33Z",
+  "last_scheduled_at": "2026-09-11T04:05:33Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -22120,6 +22120,21 @@
         "portfolio-project"
       ],
       "scheduled_at": "2026-09-11T03:05:33Z",
+      "status": "pending"
+    },
+    {
+      "title": "From Scratch Sparse MoE Inference Engine",
+      "url": "https://martinuke0.github.io/posts/2026-09-11-from-scratch-sparse-moe-inference-engine/",
+      "social_hook": "tags: [\"machine-learning\", \"mixture-of-experts\", \"python\", \"systems\", \"inference\", \"deep-learning\"]\n\ndescription: \"A hands‑on guide to building a sparse Mixture‑of‑Experts inference engine in pure Python, with top‑k gating, capacity constraints, and load‑balancing loss.\"\n\nsummary: \"Build a sparse Mixture‑of‑Experts inference engine from scratch in Python, mastering top‑k gating, capacity‑constrained dispatch, and load‑balancing loss.\"",
+      "tags": [
+        "machine-learning",
+        "mixture-of-experts",
+        "python",
+        "systems",
+        "inference",
+        "deep-learning"
+      ],
+      "scheduled_at": "2026-09-11T04:05:33Z",
       "status": "pending"
     }
   ]
