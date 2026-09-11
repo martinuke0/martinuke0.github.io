@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-11T20:02:00Z",
+  "last_scheduled_at": "2026-09-11T21:02:00Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -22349,6 +22349,20 @@
         "devops"
       ],
       "scheduled_at": "2026-09-11T20:02:00Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building an IVF-PQ Vector Index from Scratch in Pure Python",
+      "url": "https://martinuke0.github.io/posts/2026-09-11-building-an-ivf-pq-vector-index-from-scratch-in-pure-python/",
+      "social_hook": "> TL;DR — Build a production-grade IVF-PQ vector index from scratch in pure Python to demonstrate mastery of search algorithms, distributed systems concepts, and memory optimization. This project replaces toy linear scans with coarse-to-fine search, signaling to hiring managers that you understand the engineering trade-offs behind modern vector databases like Milvus and Pinecone.\n\nVector search is the backbone of modern AI applications, from semantic retrieval to recommendation engines. While calling an API through a managed service like Pinecone or Weaviate is trivial, understanding the underlying mechanics of how billions of vectors are searched in milliseconds is what separates a software engineer from a systems engineer. Building an IVF-PQ (Inverted File with Product Quantization) index from scratch is the ultimate portfolio project. It proves you can bridge the gap between machine learning theory and low-level systems optimization, handling memory constraints, algorithmic complexity, and approximate search logic.\n\nHiring managers for ML Infrastructure and Search Engineering roles receive hundreds of resumes featuring standard CRUD applications and simple Flask APIs. An IVF-PQ implementation immediately signals a different caliber of engineer.",
+      "tags": [
+        "vector databases",
+        "python",
+        "machine learning",
+        "systems engineering",
+        "product quantization"
+      ],
+      "scheduled_at": "2026-09-11T21:02:00Z",
       "status": "pending"
     }
   ]
