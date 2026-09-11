@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-11T07:05:33Z",
+  "last_scheduled_at": "2026-09-11T08:05:33Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -22177,6 +22177,20 @@
         "tag5"
       ],
       "scheduled_at": "2026-09-11T07:05:33Z",
+      "status": "pending"
+    },
+    {
+      "title": "Build a Fused Causal Self-Attention Block with RoPE and Sliding-Window KV Cache in Pure Python",
+      "url": "https://martinuke0.github.io/posts/2026-09-11-build-a-fused-causal-self-attention-block-with-rope-and-sliding-window-kv-cache-in-pure-python/",
+      "social_hook": "title: \"Build a Fused Causal Self-Attention Block with RoPE and Sliding-Window KV Cache in Pure Python\"\n\ndescription: \"Build a fused causal self-attention block with RoPE and sliding-window KV cache in pure Python, demonstrating practical systems skills for your CV.\"\n\nsummary: \"This guide walks through implementing a fused causal self-attention block with RoPE and a sliding-window KV cache in pure Python, giving you a concrete portfolio piece that highlights systems engineering expertise.\"",
+      "tags": [
+        "transformers",
+        "attention",
+        "rope",
+        "kv-cache",
+        "python"
+      ],
+      "scheduled_at": "2026-09-11T08:05:33Z",
       "status": "pending"
     }
   ]
