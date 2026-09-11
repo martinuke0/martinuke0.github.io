@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-11T01:05:33Z",
+  "last_scheduled_at": "2026-09-11T02:05:33Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -22091,6 +22091,20 @@
         "microservices"
       ],
       "scheduled_at": "2026-09-11T01:05:33Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Layout Thrashing: Profiling and Eliminating Reflow Bottlenecks with the Chrome DevTools Performance Panel",
+      "url": "https://martinuke0.github.io/posts/2026-09-11-mastering-layout-thrashing-profiling-and-eliminating-reflow-bottlenecks-with-the-chrome-devtools-performance-panel/",
+      "social_hook": "> TL;DR — Layout thrashing occurs when the browser repeatedly forces style recalculations and layout passes, killing performance. Chrome DevTools’ Performance panel lets you capture a trace, spot “Layout” and “Recalculate Style” events, and pinpoint scripts that trigger forced synchronous layouts. By restructuring DOM updates, batching style reads, and using techniques like `willReadFrequently` and `ResizeObserver`, you can slash reflow time by an order of magnitude and keep your UI buttery‑smooth.\n\nModern web applications are built on a cascade of style calculations, layout passes, and paint cycles. When those cycles happen more often than necessary—or when they’re forced synchronously by script—the result is layout thrashing, a performance anti‑pattern that can turn a buttery‑smooth UI into a janky, unresponsive experience. In this article we’ll walk through the anatomy of a reflow, show how to capture and diagnose thrashing with the Chrome DevTools Performance panel, and present concrete patterns and architecture changes that eliminate the bottleneck for good.\n\nA browser’s rendering pipeline proceeds in stages: HTML → CSS → Style calculation → Layout → Paint → Composite. Layout (also called reflow) computes the geometry of each element. If a script reads a layout‑affecting property (e.g., `offsetWidth`, `getComputedStyle`, or any property that triggers a reflow) and then writes a style that changes geometry, the browser must recalculate layout synchronously. Repeating this read‑write cycle creates a thrash loop.",
+      "tags": [
+        "web-performance",
+        "chrome-devtools",
+        "layout-thrashing",
+        "reflow",
+        "performance-optimization"
+      ],
+      "scheduled_at": "2026-09-11T02:05:33Z",
       "status": "pending"
     }
   ]
