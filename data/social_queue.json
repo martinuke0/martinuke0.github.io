@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-11T21:02:00Z",
+  "last_scheduled_at": "2026-09-11T22:03:40Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -22363,6 +22363,20 @@
         "product quantization"
       ],
       "scheduled_at": "2026-09-11T21:02:00Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting a Redis Cluster Cache: Shard‑Aware Routing, Failover, and Hot‑Key Mitigation",
+      "url": "https://martinuke0.github.io/posts/2026-09-11-architecting-a-redis-cluster-cache-shardaware-routing-failover-and-hotkey-mitigation/",
+      "social_hook": "> TL;DR — A Redis Cluster gives you horizontal scalability and fault tolerance, but only if clients use shard‑aware routing, detect failover promptly, and actively mitigate hot keys. This post walks through consistent‑hashing client logic, Sentinel‑assisted failover, and concrete hot‑key patterns you can drop into production today.\n\nRedis Cluster provides a distributed key‑value store with automatic sharding and replica sets. Each node owns a subset of hash slots (0‑16383), and clients must route requests to the correct slot. The cluster model eliminates a single point of failure: every master has at least one replica, and failover is orchestrated either by the cluster itself or by an external sentinel process.\n\nUnderstanding the hash‑slot model is the first step toward building a robust client layer. When a client wants to read or write a key, it computes `CRC16(key) mod 16384` to discover the responsible slot, then locates the node owning that slot. If the slot’s node is down, the cluster will reassign the slot to another node during a rebalance, but the client must be prepared for temporary redirects.",
+      "tags": [
+        "redis",
+        "cache",
+        "distributed-systems",
+        "high-availability",
+        "sharding"
+      ],
+      "scheduled_at": "2026-09-11T22:03:40Z",
       "status": "pending"
     }
   ]
