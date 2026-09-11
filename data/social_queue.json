@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-11T10:05:33Z",
+  "last_scheduled_at": "2026-09-11T11:05:33Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -22220,6 +22220,21 @@
         "architecture"
       ],
       "scheduled_at": "2026-09-11T10:05:33Z",
+      "status": "pending"
+    },
+    {
+      "title": "Pure‑Python Paged Attention KV‑Cache Manager: LRU & Random Eviction",
+      "url": "https://martinuke0.github.io/posts/2026-09-11-purepython-paged-attention-kvcache-manager-lru-random-eviction/",
+      "social_hook": "> TL;DR — This post walks you through building a pure‑Python paged attention KV‑cache manager that implements LRU and random eviction. You’ll get runnable code, test patterns, and a roadmap to turn the project into a senior‑level signal. By the end you’ll have a concrete, GitHub‑ready artifact that hiring managers can inspect and run.\n\nBuilding a portable, in‑memory cache from scratch is one of the most effective ways to demonstrate systems‑level thinking without needing a distributed cluster. A paged attention KV‑cache manager mimics the memory‑pressure patterns seen in transformer inference pipelines, yet stays lightweight enough to run on a laptop. The project combines algorithm design (LRU vs. random eviction), Python idioms (OrderedDict, generators), and production‑ready concerns (paging, benchmarking, observability). Because the entire implementation is pure Python, you can ship the repo, run `python -m cache_manager`, and immediately show a hiring manager a working prototype that signals you understand how real‑world caches stay hot under load.\n\nHiring managers for backend, data‑engineering, and ML‑infra roles scan CVs for concrete, runnable artifacts that go beyond “familiar with X.” This project checks several boxes:",
+      "tags": [
+        "python",
+        "kv-cache",
+        "lru",
+        "eviction",
+        "cv",
+        "portfolio"
+      ],
+      "scheduled_at": "2026-09-11T11:05:33Z",
       "status": "pending"
     }
   ]
