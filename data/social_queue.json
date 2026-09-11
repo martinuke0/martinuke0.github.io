@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-11T14:05:33Z",
+  "last_scheduled_at": "2026-09-11T15:05:33Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -22278,6 +22278,20 @@
         "Machine Learning"
       ],
       "scheduled_at": "2026-09-11T14:05:33Z",
+      "status": "pending"
+    },
+    {
+      "title": "Hands‑On: Building a User‑Safety Service for Your Portfolio",
+      "url": "https://martinuke0.github.io/posts/2026-09-11-handson-building-a-usersafety-service-for-your-portfolio/",
+      "social_hook": "> TL;DR — In this post you’ll build a Go‑based user‑safety service that validates requests against profanity, rate‑limit, and IP block lists, persists audit logs, and ships with observability hooks – a concrete, hire‑able portfolio project.\n\nBuilding a side project that demonstrates you can design, implement, and operate a real system is one of the fastest ways to catch a hiring manager’s eye. In this guide you’ll create a User‑Safety Service written in Go that enforces basic safety policies, throttles traffic, and emits structured metrics. The code is fully runnable, the architecture mirrors production patterns, and each extension point maps directly to skills that senior engineers use every day.\n\nHiring managers for backend, security, and platform roles look for three concrete signals: code that compiles and runs, architectural decisions that match production practice, and observable behavior you can probe. This project delivers all three:",
+      "tags": [
+        "go",
+        "security",
+        "portfolio",
+        "side-project",
+        "cv"
+      ],
+      "scheduled_at": "2026-09-11T15:05:33Z",
       "status": "pending"
     }
   ]
