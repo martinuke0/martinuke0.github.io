@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-11T12:05:33Z",
+  "last_scheduled_at": "2026-09-11T13:05:33Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -22249,6 +22249,21 @@
         "side-project"
       ],
       "scheduled_at": "2026-09-11T12:05:33Z",
+      "status": "pending"
+    },
+    {
+      "title": "Hands-On Build Guide: QLoRA Fine‑Tuner From Scratch in PyTorch with NF4 Quantization and LoRA Merging",
+      "url": "https://martinuke0.github.io/posts/2026-09-11-hands-on-build-guide-qlora-finetuner-from-scratch-in-pytorch-with-nf4-quantization-and-lora-merging/",
+      "social_hook": "> TL;DR — This guide walks you through building a QLoRA fine‑tuner from scratch in PyTorch, using NF4 4‑bit quantization to slash memory, LoRA adapters for parameter‑efficient updates, and a weight‑merge step that yields a single, deployable model you can ship to production or showcase on your CV.\n\nBuilding a QLoRA fine‑tuner from scratch is a concrete, high‑impact side project that demonstrates you can manipulate low‑level PyTorch APIs, work with 4‑bit quantized models, and produce a merged, ready‑to‑deploy artifact. Hiring managers see that you understand both the theory of quantized training and the practical steps of inference‑ready model assembly.\n\nA QLoRA implementation signals several production‑grade competencies. First, you show mastery of PyTorch’s lower‑level APIs—loading models with `bitsandbytes`, inserting LoRA modules via the PEFT library, and performing in‑place weight updates without copying the entire parameter set. Second, the project demonstrates familiarity with modern quantization schemes (NF4) that reduce GPU memory by ~50 % while preserving accuracy, a skill directly relevant to roles that work with large language models on constrained hardware. Third, the end‑to‑end pipeline—from data preparation → quantized training → LoRA merging → model export—mirrors the workflow of an ML engineer deploying custom adapters to a serving stack (e.g., FastAPI + HuggingFace Text Generation Inference). Finally, the merged model is a single, portable artifact (Safetensors) that can be version‑controlled, shared in a portfolio, or directly uploaded to a model hub, showcasing your ability to ship reproducible code rather than just notebook experiments. Together, these elements position the project for ML engineer, NLP researcher, or applied AI product developer roles.",
+      "tags": [
+        "pytorch",
+        "qlora",
+        "4bit-quantization",
+        "lora",
+        "cv",
+        "side-project"
+      ],
+      "scheduled_at": "2026-09-11T13:05:33Z",
       "status": "pending"
     }
   ]
