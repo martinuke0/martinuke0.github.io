@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-11T11:05:33Z",
+  "last_scheduled_at": "2026-09-11T12:05:33Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -22235,6 +22235,20 @@
         "portfolio"
       ],
       "scheduled_at": "2026-09-11T11:05:33Z",
+      "status": "pending"
+    },
+    {
+      "title": "Build a Production-Ready Feature Flag Service for Your Portfolio",
+      "url": "https://martinuke0.github.io/posts/2026-09-11-build-a-production-ready-feature-flag-service-for-your-portfolio/",
+      "social_hook": "> TL;DR — Build a local-first feature flag service in Go with Redis backing and a React UI in under an afternoon. You'll practice HTTP servers, distributed caching, feature rollout logic, and observability — skills that hiring managers see as \"production-ready\" rather than toy projects.\n\nBuilding a personal portfolio project that actually signals real systems skill is harder than it looks. Most guides stop at \"create a to-do app\" and leave you with code that works on localhost but nowhere else. Hiring engineers want to see that you can design for rollout, observability, and failure — not just syntax. In this guide, we'll build a feature flag service from scratch using Go for the backend, Redis for distributed state, and a minimal React frontend. Along the way you'll wire up HTTP routing, health checks, a simple UI, and production patterns like feature rollout percentages, time-based flags, and metrics emission. By the end you'll have a runnable, extensible service you can point to in interviews, point to in your GitHub, and extend into a real system.\n\nA feature flag service sits at the intersection of backend services, distributed systems, and product engineering. When you list this project, you're signaling several things to recruiters and hiring managers:",
+      "tags": [
+        "go",
+        "redis",
+        "devops",
+        "fullstack",
+        "side-project"
+      ],
+      "scheduled_at": "2026-09-11T12:05:33Z",
       "status": "pending"
     }
   ]
