@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-11T05:05:33Z",
+  "last_scheduled_at": "2026-09-11T06:05:33Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -22149,6 +22149,20 @@
         "portfolio"
       ],
       "scheduled_at": "2026-09-11T05:05:33Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building a From-Scratch INT8 Strided Convolution Kernel",
+      "url": "https://martinuke0.github.io/posts/2026-09-11-building-a-from-scratch-int8-strided-convolution-kernel/",
+      "social_hook": "> TL;DR — Building a from-scratch INT8 strided convolution kernel demonstrates mastery of memory hierarchy, SIMD vectorization, and low-level ML systems. Unlike generic model quantization tutorials, this project proves you can engineer the actual compute primitives that make AI fast on real hardware.\n\nThe gap between high-level machine learning frameworks and the silicon that executes them is where the most valuable engineering happens. When hiring managers look at a portfolio, they see thousands of resumes claiming proficiency in PyTorch or TensorFlow. What they rarely see is a candidate who understands how a convolution actually traverses memory, how INT8 arithmetic prevents overflow, and how to vectorize a loop to squeeze out every last cycle of a CPU.\n\nA from-scratch INT8 strided convolution kernel is the perfect antidote to generic tutorial fatigue. It sits at the intersection of computer architecture and ML systems, requiring you to manipulate memory layouts, leverage SIMD instructions, and optimize for cache locality. This guide will walk you through building a production-grade primitive that signals exactly the kind of deep systems thinking that top tech companies covet.",
+      "tags": [
+        "systems",
+        "quantization",
+        "c++",
+        "simd",
+        "high-performance-computing"
+      ],
+      "scheduled_at": "2026-09-11T06:05:33Z",
       "status": "pending"
     }
   ]
