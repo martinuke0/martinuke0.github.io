@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-11T09:05:33Z",
+  "last_scheduled_at": "2026-09-11T10:05:33Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -22206,6 +22206,20 @@
         "portfolio-project"
       ],
       "scheduled_at": "2026-09-11T09:05:33Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting FoundationDB's Distributed Transaction Layer: Logs, Sequencers, and Conflict Resolution",
+      "url": "https://martinuke0.github.io/posts/2026-09-11-architecting-foundationdb/",
+      "social_hook": "> TL;DR — FoundationDB's transaction layer achieves serializable isolation by assigning monotonically increasing sequence numbers through a distributed sequencer, batching writes into a commit log, and resolving conflicts via a deterministic read-version check. The entire correctness argument rests on the log providing total ordering and the sequencer guaranteeing that no two concurrent transactions receive the same sequence number.\n\nFoundationDB is a distributed key-value store that exposes a powerful multi-key transactional API — and it does so without relying on a single centralized lock manager or a heavyweight concurrency control protocol. Instead, the transaction layer achieves serializable isolation through a layered architecture composed of a sequencer, a commit proxy, a log system, and a conflict resolver. Understanding how these pieces fit together reveals one of the most elegant solutions to distributed concurrency control in production systems today.\n\nThe design choices made by the FoundationDB team were driven by a single hard constraint: the system must provide strict serializability, not eventual consistency, not snapshot isolation with write conflicts. Every component in the transaction layer exists to serve that guarantee. Let's trace the path of a transaction from client invocation to durable commit.",
+      "tags": [
+        "distributed systems",
+        "foundationdb",
+        "transactions",
+        "consensus",
+        "architecture"
+      ],
+      "scheduled_at": "2026-09-11T10:05:33Z",
       "status": "pending"
     }
   ]
