@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-12T08:04:50Z",
+  "last_scheduled_at": "2026-09-12T09:05:13Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -22506,6 +22506,20 @@
         "data-engineering"
       ],
       "scheduled_at": "2026-09-12T08:04:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Apache NiFi and the Architecture of Schema-Aware Data ETL",
+      "url": "https://martinuke0.github.io/posts/2026-09-12-apache-nifi-and-the-architecture-of-schema-aware-data-etl/",
+      "social_hook": "> TL;DR — Apache NiFi provides a visual, schema-aware data flow engine that handles backpressure, prioritized queues, and real-time ETL without writing custom glue code. In production, it reduces integration overhead by 60%+ compared to ad-hoc scripts, though it demands careful operator governance to avoid flow sprawl.\n\nData pipelines are the circulatory system of modern analytics, yet stitching together reliable ETL flows often devolves into maintenance nightmares of bash scripts, ad-hoc Python producers, and fragile file watches. When volume grows, the latency of homegrown solutions becomes a bottleneck, and when schemas shift, breakage is silent until downstream reports fail. Apache NiFi addresses this by offering a web-based, drag-and-drop data flow engine that moves, transforms, and routes data with built-in backpressure, schema drift handling, and enterprise-grade provenance. In this post, we’ll explore NiFi’s core architecture, the mechanics of its data flow model, and practical patterns for deploying it in production ETL scenarios.\n\nAt the heart of NiFi’s design are three core concepts: FlowFiles, Processors, and Relationships. A FlowFile is an immutable data entity consisting of a content body and a set of dynamic attributes. Unlike traditional message queues where a message is a opaque blob, NiFi treats each piece of data as a richly typed object that can be enriched, routed, and transformed as it moves through the flow.",
+      "tags": [
+        "apache-nifi",
+        "data-pipeline",
+        "etl",
+        "data-ingestion",
+        "distributed-systems"
+      ],
+      "scheduled_at": "2026-09-12T09:05:13Z",
       "status": "pending"
     }
   ]
