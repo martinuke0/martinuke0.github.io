@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-12T07:04:50Z",
+  "last_scheduled_at": "2026-09-12T08:04:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -22491,6 +22491,21 @@
         "Python"
       ],
       "scheduled_at": "2026-09-12T07:04:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing Debezium CDC Pipelines: Exactly-Once State, Schema Evolution, and Backfills",
+      "url": "https://martinuke0.github.io/posts/2026-09-12-implementing-debezium-cdc-pipelines-exactly-once-state-schema-evolution-and-backfills/",
+      "social_hook": "> TL;DR — Building production-grade Debezium CDC pipelines requires more than wiring a connector to Kafka. You need exactly-once semantics via Kafka Transactions and idempotent sinks, a schema registry strategy that handles evolving source tables without breaking consumers, and a backfill framework that reconciles snapshot data with streaming changes. This post walks through all three with concrete patterns and real production tradeoffs.\n\nChange data capture has become the backbone of modern data platforms. Instead of polling databases or running brittle batch jobs, teams use Debezium to stream every insert, update, and delete as an immutable event log. But moving from a working prototype to a pipeline you can trust at 3 AM on a Saturday is a different challenge entirely. The hard problems are exactly-once delivery, schema evolution, and backfills — and they compound on each other in ways that surprise most teams the first time around.\n\nA typical Debezium-based pipeline has four layers. The source database emits WAL (Write-Ahead Log) entries. The Debezium connector reads the WAL and publishes change events to Apache Kafka. The Kafka Streams or ksqlDB layer transforms, filters, and enriches those events. Finally, the sink materializes the data into a downstream system — a data warehouse, a search index, or a read-optimized database.",
+      "tags": [
+        "debezium",
+        "cdc",
+        "kafka",
+        "exactly-once",
+        "schema-evolution",
+        "data-engineering"
+      ],
+      "scheduled_at": "2026-09-12T08:04:50Z",
       "status": "pending"
     }
   ]
