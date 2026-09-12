@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-12T00:01:08Z",
+  "last_scheduled_at": "2026-09-12T01:02:28Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -22392,6 +22392,20 @@
         "eviction-policies"
       ],
       "scheduled_at": "2026-09-12T00:01:08Z",
+      "status": "pending"
+    },
+    {
+      "title": "From-Scratch GGUF Weight Loader with Blockwise Dequantization, mmap Streaming, and Safetensors Export",
+      "url": "https://martinuke0.github.io/posts/2026-09-12-from-scratch-gguf-weight-loader-with-blockwise-dequantization-mmap-streaming-and-safetensors-export/",
+      "social_hook": "title: \"From-Scratch GGUF Weight Loader with Blockwise Dequantization, mmap Streaming, and Safetensors Export\"\n\ndescription: \"Build a from-scratch GGUF weight loader with blockwise dequantization, mmap streaming, and safetensors export to showcase systems engineering skills.\"\n\nsummary: \"A practical guide to implementing a GGUF loader with blockwise dequantization and safetensors export, demonstrating low-level systems expertise.\"",
+      "tags": [
+        "gguf",
+        "safetensors",
+        "mmap",
+        "dequantization",
+        "python"
+      ],
+      "scheduled_at": "2026-09-12T01:02:28Z",
       "status": "pending"
     }
   ]
