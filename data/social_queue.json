@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-11T22:03:40Z",
+  "last_scheduled_at": "2026-09-12T00:01:08Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -22377,6 +22377,21 @@
         "sharding"
       ],
       "scheduled_at": "2026-09-11T22:03:40Z",
+      "status": "pending"
+    },
+    {
+      "title": "Build a Pure-Python Paged Attention KV-Cache with LRU and Frequency-Based Eviction",
+      "url": "https://martinuke0.github.io/posts/2026-09-12-build-a-pure-python-paged-attention-kv-cache-with-lru-and-frequency-based-eviction/",
+      "social_hook": "> TL;DR — Build a pure-Python paged attention KV-cache from scratch, implementing both LRU and frequency-based (LFU) eviction policies. This project mirrors the architecture behind vLLM's PagedAttention and demonstrates virtual-memory management, cache eviction theory, and LLM inference infrastructure — three skills that hiring managers in ML systems actively search for.\n\nThe transformer revolution created an unexpected bottleneck: KV-cache memory management. During inference, every token generated requires reading and writing key-value pairs from GPU memory. Traditional implementations suffer from memory fragmentation and inefficient allocation — problems that operating systems solved decades ago with virtual memory paging.\n\nPagedAttention, introduced by vLLM, borrows directly from OS page tables to manage KV-cache blocks. By building your own implementation in pure Python, you internalize these concepts at a level that no tutorial can match. This post walks you through every line.",
+      "tags": [
+        "systems-engineering",
+        "python",
+        "kv-cache",
+        "paged-attention",
+        "llm-infrastructure",
+        "eviction-policies"
+      ],
+      "scheduled_at": "2026-09-12T00:01:08Z",
       "status": "pending"
     }
   ]
