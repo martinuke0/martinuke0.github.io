@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-12T05:04:50Z",
+  "last_scheduled_at": "2026-09-12T06:04:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -22463,6 +22463,20 @@
         "high-performance-computing"
       ],
       "scheduled_at": "2026-09-12T05:04:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Deep Dive into Buildkite Test Analytics for Flaky Test Triage",
+      "url": "https://martinuke0.github.io/posts/2026-09-12-deep-dive-into-buildkite-test-analytics-for-flaky-test-triage/",
+      "social_hook": "description: \"Learn how Buildkite Test Analytics helps identify and prioritize flaky tests, reducing CI noise and accelerating release cycles for engineering teams.\"\n\nsummary: \"Buildkite Test Analytics surfaces flaky tests with statistical confidence, enabling teams to prioritize fixes and reduce CI noise.\"\n\nimage: \"/images/covers/2026-09-12-deep-dive-into-buildkite-test-analytics-for-flaky-test-triage.svg\"",
+      "tags": [
+        "buildkite",
+        "test-analytics",
+        "flaky-tests",
+        "ci",
+        "testing"
+      ],
+      "scheduled_at": "2026-09-12T06:04:50Z",
       "status": "pending"
     }
   ]
