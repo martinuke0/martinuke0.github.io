@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-12T19:02:44Z",
+  "last_scheduled_at": "2026-09-12T20:03:29Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -22608,6 +22608,21 @@
         "systems"
       ],
       "scheduled_at": "2026-09-12T19:02:44Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building a User Safety Service: A Practical Guide for Your CV",
+      "url": "https://martinuke0.github.io/posts/2026-09-12-building-a-user-safety-service-a-practical-guide-for-your-cv/",
+      "social_hook": "tags: [\"safety\", \"microservice\", \"fastapi\", \"machine-learning\", \"devops\", \"portfolio\"]\n\ndescription: \"A hands-on guide to building a user safety microservice that detects toxic content, ships in Docker, and scales horizontally—perfect for your CV.\"\n\nsummary: \"Learn to build a Dockerized microservice that scores user-generated text for toxicity using a transformer model, with full CI/CD and scaling guidance.\"",
+      "tags": [
+        "safety",
+        "microservice",
+        "fastapi",
+        "machine-learning",
+        "devops",
+        "portfolio"
+      ],
+      "scheduled_at": "2026-09-12T20:03:29Z",
       "status": "pending"
     }
   ]
