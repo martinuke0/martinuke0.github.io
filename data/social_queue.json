@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-12T15:03:12Z",
+  "last_scheduled_at": "2026-09-12T16:03:12Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -22564,6 +22564,21 @@
         "backend"
       ],
       "scheduled_at": "2026-09-12T15:03:12Z",
+      "status": "pending"
+    },
+    {
+      "title": "User Safety: Designing Systems That Protect People at Scale",
+      "url": "https://martinuke0.github.io/posts/2026-09-12-user-safety-designing-systems-that-protect-people-at-scale/",
+      "social_hook": "tags: [\"user-safety\", \"system-design\", \"production\", \"security\", \"architecture\", \"best-practices\"]\n\ndescription: \"How engineering teams can build user safety into their products from day one, with concrete patterns, real-world examples, and measurable outcomes.\"\n\nsummary: \"User safety isn't a feature — it's an architectural constraint. Learn how leading platforms embed protection into their data pipelines, API gateways, and incident response workflows.\"",
+      "tags": [
+        "user-safety",
+        "system-design",
+        "production",
+        "security",
+        "architecture",
+        "best-practices"
+      ],
+      "scheduled_at": "2026-09-12T16:03:12Z",
       "status": "pending"
     }
   ]
