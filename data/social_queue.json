@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-12T16:03:12Z",
+  "last_scheduled_at": "2026-09-12T18:01:23Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -22579,6 +22579,21 @@
         "best-practices"
       ],
       "scheduled_at": "2026-09-12T16:03:12Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing BM25 Ranking with Lucene: Precision, Tuning, and Production Trade-offs",
+      "url": "https://martinuke0.github.io/posts/2026-09-12-implementing-bm25-ranking-with-lucene-precision-tuning-and-production-trade-offs/",
+      "social_hook": "> TL;DR — BM25 is Lucene's default ranking function, but its three tunable parameters (k1, b, and field-length normalization) silently shape result quality across millions of documents. Understanding the math, knowing where to adjust, and recognizing the production trade-offs around memory, latency, and indexing overhead transforms a functional search engine into a precision instrument.\n\nEvery Elasticsearch and OpenSearch cluster ships with BM25 as its default similarity model. Yet most teams treat it as a black box — deploy, index, and hope. The reality is that BM25's behavior is profoundly sensitive to its parameters, and a one-size-fits-all configuration often leaves significant relevance gains on the table.\n\nBM25 belongs to the family of probabilistic retrieval functions derived from the 2-Poisson model. It estimates the probability that a document is relevant given the presence of a query term. Unlike its predecessor TF-IDF, BM25 introduces explicit saturation of term frequency — a term appearing 50 times in a document is not 50 times more relevant than one appearing once. This saturation curve is what makes BM25 robust across diverse document collections.",
+      "tags": [
+        "Lucene",
+        "BM25",
+        "Search Ranking",
+        "Information Retrieval",
+        "Elasticsearch",
+        "Apache Lucene"
+      ],
+      "scheduled_at": "2026-09-12T18:01:23Z",
       "status": "pending"
     }
   ]
