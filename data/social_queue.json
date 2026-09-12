@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-12T04:02:31Z",
+  "last_scheduled_at": "2026-09-12T05:04:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -22449,6 +22449,20 @@
         "portfolio-project"
       ],
       "scheduled_at": "2026-09-12T04:02:31Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Sparse Tensor Computations on NVIDIA Hopper: A Guide to Efficient Memory Management",
+      "url": "https://martinuke0.github.io/posts/2026-09-12-architecting-sparse-tensor-computations-on-nvidia-hopper-a-guide-to-efficient-memory-management/",
+      "social_hook": "> TL;DR — NVIDIA Hopper’s sparse tensor cores and unified memory architecture can deliver up to 3× throughput improvement for AI workloads, but effective memory coalescing, index mapping, and avoiding fragmentation are critical. This guide walks through practical CUDA patterns, kernel design, and production tuning strategies for efficient sparse tensor computations.\n\nSparse tensor operations are the backbone of modern AI training and scientific computing, yet they remain one of the hardest kernels to optimize on GPUs. NVIDIA Hopper introduces dedicated sparse tensor cores, refined L2 cache hierarchy, and the cuSPARSELt library, but leveraging them requires moving beyond dense matrix patterns. In this article, we’ll explore how to structure sparse data, design memory‑efficient CUDA kernels, and avoid common pitfalls on Hopper‑based systems.\n\nHopper (the \"H100\" generation) builds on Ampere with several changes that directly affect sparse workloads. The 4th‑gen Tensor Cores now support sparse operands in CSR, COO, and BSR formats, and the SM microarchitecture increased L2 cache to 50 MB per GPU, with HBM3 delivering 3.35 TB/s of bandwidth. These figures are meaningful only if the data layout respects the hardware’s expectations.",
+      "tags": [
+        "sparse-tensors",
+        "nvidia-hopper",
+        "cuda",
+        "memory-management",
+        "high-performance-computing"
+      ],
+      "scheduled_at": "2026-09-12T05:04:50Z",
       "status": "pending"
     }
   ]
