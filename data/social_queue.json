@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-12T03:02:31Z",
+  "last_scheduled_at": "2026-09-12T04:02:31Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -22435,6 +22435,20 @@
         "devops"
       ],
       "scheduled_at": "2026-09-12T03:02:31Z",
+      "status": "pending"
+    },
+    {
+      "title": "Build a Switch-Style MoE Router from Scratch in Pure Python",
+      "url": "https://martinuke0.github.io/posts/2026-09-12-build-a-switch-style-moe-router-from-scratch-in-pure-python/",
+      "social_hook": "> TL;DR — Build a fully functional Switch-style Mixture of Experts (MoE) inference router from scratch in pure Python and NumPy. You'll implement top-k gating, capacity-constrained token dispatch with expert overflow handling, and a differentiable load-balancing loss — the three pillars that separate a toy model from a production-grade MoE system. This project demonstrates systems architecture, distributed systems thinking, and ML engineering depth that hiring managers in ML infrastructure roles actively look for.\n\nMost portfolio projects stop at training a classifier or serving a model with FastAPI. A from-scratch MoE router signals something different: you understand the intersection of systems design and machine learning, which is exactly where the industry is heading. Here's what it demonstrates:\n\n- Distributed systems intuition. You'll grapple with capacity constraints, token dropping, and load skew — problems that mirror real-world sharding, queueing, and autoscaling challenges in distributed infrastructure.",
+      "tags": [
+        "machine-learning",
+        "mixture-of-experts",
+        "systems-engineering",
+        "python",
+        "portfolio-project"
+      ],
+      "scheduled_at": "2026-09-12T04:02:31Z",
       "status": "pending"
     }
   ]
