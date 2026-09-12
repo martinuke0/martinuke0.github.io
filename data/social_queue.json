@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-12T06:04:50Z",
+  "last_scheduled_at": "2026-09-12T07:04:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -22477,6 +22477,20 @@
         "testing"
       ],
       "scheduled_at": "2026-09-12T06:04:50Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building an Attention-Driven Semantic Caching Layer for LLM APIs",
+      "url": "https://martinuke0.github.io/posts/2026-09-12-building-an-attention-driven-semantic-caching-layer-for-llm-apis/",
+      "social_hook": "> TL;DR — Build a semantic caching layer for LLM APIs that uses self-attention mechanisms to score query relevance, drastically reducing latency and compute costs. This project demonstrates advanced systems skills in memory management, concurrency, and vector indexing that hiring managers actively seek.\n\nThe bottleneck in modern LLM applications isn't the model's intelligence; it's the inference latency and cost. Standard caching mechanisms like Least Recently Used (LRU) fail catastrophically in semantic spaces because a query for \"how to bake a cake\" is fundamentally different from \"recipe instructions,\" even if they share similar recency. To solve this, we need a cache that understands meaning.\n\nEnter the Attention-Driven Semantic Cache. By leveraging self-attention mechanisms, we can dynamically score the relevance of incoming queries against a history of prompts and responses. This project is a hands-on build guide for constructing this infrastructure, proving you can bridge the gap between machine learning theory and distributed systems engineering.",
+      "tags": [
+        "Systems Engineering",
+        "LLM Infrastructure",
+        "Attention Mechanisms",
+        "Caching",
+        "Python"
+      ],
+      "scheduled_at": "2026-09-12T07:04:50Z",
       "status": "pending"
     }
   ]
