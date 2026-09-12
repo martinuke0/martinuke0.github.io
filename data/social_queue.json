@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-12T01:02:28Z",
+  "last_scheduled_at": "2026-09-12T02:02:28Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -22406,6 +22406,20 @@
         "python"
       ],
       "scheduled_at": "2026-09-12T01:02:28Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building LogRelay: A Distributed Log Shipper for Your Portfolio",
+      "url": "https://martinuke0.github.io/posts/2026-09-12-building-logrelay-a-distributed-log-shipper-for-your-portfolio/",
+      "social_hook": "> TL;DR — Build LogRelay, a distributed log shipper in Go that handles network ingestion, batching, and persistent storage. It demonstrates backpressure, fault tolerance, and systems architecture—exactly what hiring managers look for on a CV.\n\nWe are drowning in CRUD applications. Every junior developer builds a to-do app or a blog platform, and by the time they hit the interview stage, those projects blur into a meaningless sea of boilerplate. If you want to signal real systems skill to hiring managers, you need a project that grapples with the messy realities of distributed computing: network failures, resource contention, and data durability.\n\nLogRelay is a distributed log shipper designed to solve exactly this problem. It ingests log lines over TCP, buffers them with strict backpressure, batches them for efficiency, and persists them to a Write-Ahead Log (WAL) before forwarding them to a downstream system like Kafka or Elasticsearch. It is practical, deeply technical, and entirely buildable in a weekend.",
+      "tags": [
+        "systems-engineering",
+        "go",
+        "networking",
+        "portfolio",
+        "distributed-systems"
+      ],
+      "scheduled_at": "2026-09-12T02:02:28Z",
       "status": "pending"
     }
   ]
