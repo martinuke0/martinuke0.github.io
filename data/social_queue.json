@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-12T02:02:28Z",
+  "last_scheduled_at": "2026-09-12T03:02:31Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -22420,6 +22420,21 @@
         "distributed-systems"
       ],
       "scheduled_at": "2026-09-12T02:02:28Z",
+      "status": "pending"
+    },
+    {
+      "title": "Zero to Portfolio: Building a Systems-Ready CV Side Project",
+      "url": "https://martinuke0.github.io/posts/2026-09-12-zero-to-portfolio-building-a-systems-ready-cv-side-project/",
+      "social_hook": "description: \"A practical guide to building a portfolio site that showcases real systems skills, with runnable code and production-grade extensions.\"\n\nsummary: \"Learn how to build a portfolio/CV side project from scratch that signals genuine systems engineering expertise to hiring managers.\"\n\nimage: \"/images/covers/2026-09-12-zero-to-portfolio-building-a-systems-ready-cv-side-project.svg\"",
+      "tags": [
+        "portfolio",
+        "systems",
+        "engineering",
+        "Hugo",
+        "career",
+        "devops"
+      ],
+      "scheduled_at": "2026-09-12T03:02:31Z",
       "status": "pending"
     }
   ]
