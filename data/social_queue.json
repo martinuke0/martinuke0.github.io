@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-12T13:02:34Z",
+  "last_scheduled_at": "2026-09-12T15:03:12Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -22549,6 +22549,21 @@
         "portfolio-project"
       ],
       "scheduled_at": "2026-09-12T13:02:34Z",
+      "status": "pending"
+    },
+    {
+      "title": "Build a Distributed Task Queue: A Portfolio Project for Systems Engineers",
+      "url": "https://martinuke0.github.io/posts/2026-09-12-build-a-distributed-task-queue-a-portfolio-project-for-systems-engineers/",
+      "social_hook": "title: \"Build a Distributed Task Queue: A Portfolio Project for Systems Engineers\"\n\ntags: [\"distributed-systems\", \"python\", \"task-queue\", \"systems-engineering\", \"portfolio\", \"backend\"]\n\ndescription: \"Learn to build a distributed task queue from scratch with Python and Redis. This hands-on guide covers architecture, implementation, testing, and senior-level extensions.\"",
+      "tags": [
+        "distributed-systems",
+        "python",
+        "task-queue",
+        "systems-engineering",
+        "portfolio",
+        "backend"
+      ],
+      "scheduled_at": "2026-09-12T15:03:12Z",
       "status": "pending"
     }
   ]
