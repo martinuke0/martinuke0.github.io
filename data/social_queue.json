@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-12T09:05:13Z",
+  "last_scheduled_at": "2026-09-12T12:02:10Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -22520,6 +22520,21 @@
         "distributed-systems"
       ],
       "scheduled_at": "2026-09-12T09:05:13Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing Go's Work-Stealing Scheduler: Inside Goroutine Execution and Load Balancing",
+      "url": "https://martinuke0.github.io/posts/2026-09-12-implementing-go/",
+      "social_hook": "> TL;DR — Go's scheduler uses a work-stealing algorithm built on the G-M-P (Goroutine, Machine, Processor) model to distribute goroutines across OS threads with minimal contention. When a thread runs out of local work, it steals half the run queue from another busy processor — a strategy that achieves near-optimal load balancing while keeping synchronization overhead low. Understanding this model is essential for writing high-performance concurrent Go applications.\n\nGo's concurrency story is legendary. Millions of goroutines executing simultaneously, scheduled with sub-microsecond latency, and balanced across available CPU cores — all without a single `pthread_mutex` in the critical path. Behind this lies one of the most elegant work-stealing schedulers ever shipped in a production runtime.\n\nUnlike operating system threads, which are expensive to create and context-switch, goroutines are lightweight: they start at ~2 KB of stack and can grow dynamically. But lightweight goroutines are only useful if the scheduler beneath them is equally efficient. Go's scheduler must decide which goroutine runs next, on which OS thread, and how to keep all cores busy without introducing lock contention that would negate the benefits of concurrency.",
+      "tags": [
+        "go",
+        "scheduler",
+        "concurrency",
+        "work-stealing",
+        "goroutines",
+        "architecture"
+      ],
+      "scheduled_at": "2026-09-12T12:02:10Z",
       "status": "pending"
     }
   ]
