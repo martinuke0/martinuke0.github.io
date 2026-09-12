@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-12T12:02:10Z",
+  "last_scheduled_at": "2026-09-12T13:02:34Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -22535,6 +22535,20 @@
         "architecture"
       ],
       "scheduled_at": "2026-09-12T12:02:10Z",
+      "status": "pending"
+    },
+    {
+      "title": "From Scratch: Building an HNSW Vector Index in Pure Python",
+      "url": "https://martinuke0.github.io/posts/2026-09-12-from-scratch-building-an-hnsw-vector-index-in-pure-python/",
+      "social_hook": "tags: [\"hnsw\", \"vector-search\", \"python\", \"systems-engineering\", \"portfolio-project\"]\n\ndescription: \"A hands-on guide to implementing a from-scratch HNSW vector index in Python, with greedy insertion and beam-search retrieval, perfect for a portfolio project that signals real systems skill.\"\n\nsummary: \"Build a working HNSW vector index in pure Python to showcase systems engineering skills to hiring managers.\"",
+      "tags": [
+        "hnsw",
+        "vector-search",
+        "python",
+        "systems-engineering",
+        "portfolio-project"
+      ],
+      "scheduled_at": "2026-09-12T13:02:34Z",
       "status": "pending"
     }
   ]
