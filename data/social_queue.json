@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-12T18:01:23Z",
+  "last_scheduled_at": "2026-09-12T19:02:44Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -22594,6 +22594,20 @@
         "Apache Lucene"
       ],
       "scheduled_at": "2026-09-12T18:01:23Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building a Personal Portfolio API with Go, SQLite, and Docker",
+      "url": "https://martinuke0.github.io/posts/2026-09-12-building-a-personal-portfolio-api-with-go-sqlite-and-docker/",
+      "social_hook": "description: \"A practical guide to creating a lightweight, containerized portfolio API that showcases real systems skills for engineering candidates.\"\n\nsummary: \"Learn to build a Go‑based portfolio API backed by SQLite, packaged with Docker, and wired to GitHub Actions for CI.\"\n\nimage: \"/images/covers/2026-09-12-building-a-personal-portfolio-api-with-go-sqlite-and-docker.svg\"",
+      "tags": [
+        "go",
+        "docker",
+        "api",
+        "portfolio",
+        "systems"
+      ],
+      "scheduled_at": "2026-09-12T19:02:44Z",
       "status": "pending"
     }
   ]
