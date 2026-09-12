@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-12T21:03:29Z",
+  "last_scheduled_at": "2026-09-12T22:03:29Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -22637,6 +22637,21 @@
         "portfolio"
       ],
       "scheduled_at": "2026-09-12T21:03:29Z",
+      "status": "pending"
+    },
+    {
+      "title": "Build an LLM Decoding Sampler from Scratch: A Portfolio Project That Signals Real Systems Skill",
+      "url": "https://martinuke0.github.io/posts/2026-09-12-build-an-llm-decoding-sampler-from-scratch-a-portfolio-project-that-signals-real-systems-skill/",
+      "social_hook": "> TL;DR — Building a from-scratch LLM decoding sampler forces you to understand every nonlinearity between logits and tokens: temperature scaling, top-k and top-p filtering, and contrastive search's perplexity penalty. The result is a single-file Python module that demonstrates systems thinking, numerical stability awareness, and ML engineering depth—exactly the kind of project that separates candidates who have used an API from those who understand what happens underneath.\n\nMost candidates on a hiring manager's short list can call `model.generate()` and tweak a `temperature` parameter. This project signals something different: you understand the algorithm layer of inference, not just the orchestration layer.\n\n- Numerical programming: Implementing softmax, log-softmax, and probability normalization from scratch teaches you to handle underflow, overflow, and the log-sum-exp trick—concepts that surface in distributed systems, probabilistic databases, and reinforcement learning alike.",
+      "tags": [
+        "LLM",
+        "Python",
+        "Sampling",
+        "NLP",
+        "Systems Engineering",
+        "Portfolio"
+      ],
+      "scheduled_at": "2026-09-12T22:03:29Z",
       "status": "pending"
     }
   ]
