@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-13T05:04:12Z",
+  "last_scheduled_at": "2026-09-13T07:01:57Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -22711,6 +22711,20 @@
         "deep-learning"
       ],
       "scheduled_at": "2026-09-13T05:04:12Z",
+      "status": "pending"
+    },
+    {
+      "title": "From Scratch: Building a GPTQ INT4 Quantizer in Pure Python",
+      "url": "https://martinuke0.github.io/posts/2026-09-13-from-scratch-building-a-gptq-int4-quantizer-in-pure-python/",
+      "social_hook": "> TL;DR — Build a from-scratch GPTQ weight-only INT4 quantizer in pure Python featuring per-tensor asymmetric scaling and a custom kernel-free unpacker. This project demonstrates low-level systems programming, numerical linear algebra, and ML optimization skills that stand out to hiring managers.\n\nLarge Language Models (LLMs) are pushing the boundaries of what machines can do, but their massive memory footprints make deployment a significant challenge. Weight-only INT4 quantization, pioneered by the GPTQ algorithm, is the industry-standard bridge between model accuracy and inference speed. However, most engineers rely on black-box libraries like `autoGPTQ` or `bitsandbytes`, missing out on the fundamental mechanics of how quantization actually works.\n\nBuilding a GPTQ quantizer from scratch in pure Python is a premier portfolio project. It forces you to confront the hardware-software boundary, numerical precision limits, and bit-level memory manipulation. It signals to hiring managers that you don't just call APIs—you understand the machinery underneath.",
+      "tags": [
+        "machine-learning",
+        "quantization",
+        "python",
+        "gptq",
+        "systems-engineering"
+      ],
+      "scheduled_at": "2026-09-13T07:01:57Z",
       "status": "pending"
     }
   ]
