@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-13T13:03:16Z",
+  "last_scheduled_at": "2026-09-13T14:03:55Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -22784,6 +22784,21 @@
         "fine-tuning"
       ],
       "scheduled_at": "2026-09-13T13:03:16Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building a Pure-Python Paged-Attention Transformer with LRU KV-Cache Eviction",
+      "url": "https://martinuke0.github.io/posts/2026-09-13-building-a-pure-python-paged-attention-transformer-with-lru-kv-cache-eviction/",
+      "social_hook": "title: \"Building a Pure-Python Paged-Attention Transformer with LRU KV-Cache Eviction\"\n\ndescription: \"Build a pure-Python paged-attention transformer with LRU KV-cache eviction. Hands-on guide showing systems skills that hiring managers notice.\"\n\nsummary: \"Implement a paged-attention transformer with LRU KV-cache eviction in pure Python, demonstrating systems engineering proficiency.\"",
+      "tags": [
+        "python",
+        "transformer",
+        "llm",
+        "systems",
+        "kv-cache",
+        "performance"
+      ],
+      "scheduled_at": "2026-09-13T14:03:55Z",
       "status": "pending"
     }
   ]
