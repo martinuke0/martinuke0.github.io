@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-13T16:02:02Z",
+  "last_scheduled_at": "2026-09-13T18:03:00Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -22814,6 +22814,20 @@
         "portfolio"
       ],
       "scheduled_at": "2026-09-13T16:02:02Z",
+      "status": "pending"
+    },
+    {
+      "title": "Build a FlashAttention-2 Inference Kernel from Scratch in Pure Python",
+      "url": "https://martinuke0.github.io/posts/2026-09-13-build-a-flashattention-2-inference-kernel-from-scratch-in-pure-python/",
+      "social_hook": "> TL;DR — Build a FlashAttention-2 inference kernel from scratch in pure Python using NumPy. By implementing tiled block-sparse causal attention and a fused softmax, you demonstrate deep understanding of memory hierarchies and GPU optimization, signaling senior-level systems architecture skills to hiring managers.\n\nWhen most engineers think about optimizing transformer inference, they reach for pre-built libraries like HuggingFace Transformers or vLLM. However, understanding the low-level mechanics of memory bandwidth bottlenecks and kernel fusion is what separates junior developers from senior systems architects. Building a FlashAttention-2 inference kernel from scratch—specifically implementing tiled block-sparse causal attention and a fused softmax in pure Python—forces you to confront the realities of the memory hierarchy. By simulating how data moves between High Bandwidth Memory (HBM) and fast cache (SRAM), you gain an intuitive grasp of why modern AI systems are designed the way they are. This project is not just an academic exercise; it is a powerful portfolio piece that proves you can reason about performance at the hardware level.\n\nIn a flooded job market, relying on standard PyTorch pipelines is a dime a dozen. Building a custom FlashAttention kernel signals a rare and highly sought-after combination of skills. It demonstrates that you do not just write code; you understand the physics of your code.",
+      "tags": [
+        "Machine Learning",
+        "Systems Engineering",
+        "Python",
+        "High-Performance Computing",
+        "Deep Learning"
+      ],
+      "scheduled_at": "2026-09-13T18:03:00Z",
       "status": "pending"
     }
   ]
