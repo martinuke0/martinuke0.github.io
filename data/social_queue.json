@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-13T04:04:12Z",
+  "last_scheduled_at": "2026-09-13T05:04:12Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -22696,6 +22696,21 @@
         "networking"
       ],
       "scheduled_at": "2026-09-13T04:04:12Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building a Pure Python Incremental KV Cache for Efficient Long-Context LLM Inference",
+      "url": "https://martinuke0.github.io/posts/2026-09-13-building-a-pure-python-incremental-kv-cache-for-efficient-long-context-llm-inference/",
+      "social_hook": "> TL;DR — Building a pure Python incremental KV cache is one of the highest-signal portfolio projects an aspiring ML systems engineer can undertake. It demonstrates mastery of the exact mechanism that powers efficient inference in vLLM, FlashAttention, and every major LLM serving platform. This guide walks you through a fully runnable implementation, testing strategy, and a concrete roadmap to production-grade features.\n\nLong-context LLM inference is one of the most expensive operations in modern machine learning systems. When a model generates tokens autoregressively — one at a time — a naive implementation recomputes the full attention over every previous token for every new step. This is O(n²) in sequence length and quickly becomes untenable for conversations, document analysis, or any workload where context windows exceed a few thousand tokens.\n\nThe solution is the Key-Value (KV) cache: a mechanism that stores the computed key and value tensors from each previous layer and position, so that during decoding you only compute attention for the single new token and look up everything else. This reduces per-token computation from O(n²) to O(1) — the difference between a usable assistant and a sluggish one.",
+      "tags": [
+        "python",
+        "llm",
+        "kv-cache",
+        "inference-engineering",
+        "systems-design",
+        "deep-learning"
+      ],
+      "scheduled_at": "2026-09-13T05:04:12Z",
       "status": "pending"
     }
   ]
