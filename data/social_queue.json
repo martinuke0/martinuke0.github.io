@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-13T12:02:35Z",
+  "last_scheduled_at": "2026-09-13T13:03:16Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -22770,6 +22770,20 @@
         "portfolio-project"
       ],
       "scheduled_at": "2026-09-13T12:02:35Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building a Pure-Python LoRA Adapter for BERT: A Portfolio Project",
+      "url": "https://martinuke0.github.io/posts/2026-09-13-building-a-pure-python-lora-adapter-for-bert-a-portfolio-project/",
+      "social_hook": "description: \"Learn to implement a LoRA adapter injection layer for BERT in pure Python, with a full fine-tuning loop, to showcase systems skill to hiring managers.\"\n\nsummary: \"This post walks through building a LoRA adapter injection layer for BERT in pure Python, including a complete fine-tuning loop, and shows how to extend it for production-grade systems.\"\n\nimage: \"/images/covers/2026-09-13-building-a-pure-python-lora-adapter-for-bert-a-portfolio-project.svg\"",
+      "tags": [
+        "machine-learning",
+        "pytorch",
+        "lora",
+        "bert",
+        "fine-tuning"
+      ],
+      "scheduled_at": "2026-09-13T13:03:16Z",
       "status": "pending"
     }
   ]
