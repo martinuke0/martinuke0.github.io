@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-13T11:02:35Z",
+  "last_scheduled_at": "2026-09-13T12:02:35Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -22755,6 +22755,21 @@
         "deep learning systems"
       ],
       "scheduled_at": "2026-09-13T11:02:35Z",
+      "status": "pending"
+    },
+    {
+      "title": "Build a Speculative Decoding Inference Engine: A Hands-On CV Project",
+      "url": "https://martinuke0.github.io/posts/2026-09-13-build-a-speculative-decoding-inference-engine-a-hands-on-cv-project/",
+      "social_hook": "> TL;DR — Speculative decoding is one of the most elegant latency-reduction techniques in modern LLM inference: a small n-gram model drafts several candidate tokens, and a larger verification transformer scores them all at once, accepting or rejecting the entire draft in a single forward pass. Building this end-to-end from scratch demonstrates systems architecture, ML engineering, and performance optimization skills that hiring managers in ML infrastructure actively look for.\n\nSpeculative decoding sits at the intersection of three domains that hiring managers in ML platforms and infrastructure teams care deeply about: low-latency systems, model optimization, and distributed inference. Here's what this project signals:\n\n- Systems-level ML engineering. You're not just calling `pipeline.generate()`. You're orchestrating two models with different computational profiles, managing token-level state, and optimizing the critical path of inference. This is the kind of work done at companies like DeepSeek (whose DeepSeek-MoE papers popularized speculative decoding), NVIDIA (TensorRT-LLM), and vLLM.",
+      "tags": [
+        "machine-learning",
+        "inference-optimization",
+        "python",
+        "transformers",
+        "nlp-systems",
+        "portfolio-project"
+      ],
+      "scheduled_at": "2026-09-13T12:02:35Z",
       "status": "pending"
     }
   ]
