@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-13T08:01:57Z",
+  "last_scheduled_at": "2026-09-13T11:02:35Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -22740,6 +22740,21 @@
         "Kubernetes"
       ],
       "scheduled_at": "2026-09-13T08:01:57Z",
+      "status": "pending"
+    },
+    {
+      "title": "Build a Learnable Token-Importance KV Cache for LLM Inference",
+      "url": "https://martinuke0.github.io/posts/2026-09-13-build-a-learnable-token-importance-kv-cache-for-llm-inference/",
+      "social_hook": "> TL;DR — This guide walks you through building a learnable token-importance KV cache for LLM inference in PyTorch. You'll implement a system that learns which cached key-value tokens matter most, evicting low-value entries to reduce memory while preserving output quality. The project demonstrates model optimization, systems architecture, and production engineering — exactly the skills hiring managers scan for on senior ML engineer and infrastructure resumes.\n\nInference-time memory is the silent bottleneck in LLM serving. A single 7B-parameter model under greedy decoding can consume over 20 GB of GPU memory just for the KV cache at a 128K context window. Researchers have spent the last two years attacking this problem from every angle — sliding windows, sparse attention, quantization — but one of the most promising directions is learned eviction: training a lightweight model to decide which cached tokens to keep and which to discard.\n\nThis project puts that idea into your hands. By the end, you'll have a working KV cache manager that learns token importance scores and uses them to make eviction decisions — a system that signals real ML-systems engineering depth on a CV.",
+      "tags": [
+        "LLM inference",
+        "KV cache optimization",
+        "PyTorch",
+        "systems engineering",
+        "portfolio project",
+        "deep learning systems"
+      ],
+      "scheduled_at": "2026-09-13T11:02:35Z",
       "status": "pending"
     }
   ]
