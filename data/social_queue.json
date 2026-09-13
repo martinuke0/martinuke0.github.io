@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-13T00:02:03Z",
+  "last_scheduled_at": "2026-09-13T03:04:12Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -22667,6 +22667,20 @@
         "side-project"
       ],
       "scheduled_at": "2026-09-13T00:02:03Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing dbt Incremental Models with Time‑Travel Semantics for Fault‑Tolerant ETL Pipelines",
+      "url": "https://martinuke0.github.io/posts/2026-09-13-implementing-dbt-incremental-models-with-timetravel-semantics-for-faulttolerant-etl-pipelines/",
+      "social_hook": "> TL;DR — dbt incremental models, when paired with database‑level time‑travel columns (`valid_from`/`valid_to`) and idempotent `delete+insert` strategy, let analysts query any point‑in‑time state while the pipeline automatically recovers from upstream failures via materialization retries and dbt test guards.\n\nBuilding reliable ETL pipelines that can both refresh data incrementally and answer “what did our data look like last week?” is a common requirement for analytics engineering teams. dbt’s incremental materialization gives you the refresh logic, but without an explicit time‑travel design you lose the ability to reconstruct historical snapshots after a failure. In this post we’ll walk through a production‑grade pattern that combines dbt incrementals, database time‑travel features, and fault‑tolerant orchestration so that every load is both efficient and reversible.\n\ndbt’s `incremental` materialization sits between a full refresh (`replace`) and a simple append. When you run `dbt run`, dbt compares the existing table (or view) against the new `SELECT` statement and applies one of three strategies:",
+      "tags": [
+        "dbt",
+        "incremental",
+        "time-travel",
+        "ETL",
+        "fault-tolerance"
+      ],
+      "scheduled_at": "2026-09-13T03:04:12Z",
       "status": "pending"
     }
   ]
