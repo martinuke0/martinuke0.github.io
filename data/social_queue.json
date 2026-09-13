@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-13T22:02:16Z",
+  "last_scheduled_at": "2026-09-13T23:03:54Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -22843,6 +22843,20 @@
         "portfolio-project"
       ],
       "scheduled_at": "2026-09-13T22:02:16Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building a Sliding-Window Attention KV Cache with Dynamic Token Pruning",
+      "url": "https://martinuke0.github.io/posts/2026-09-13-building-a-sliding-window-attention-kv-cache-with-dynamic-token-pruning/",
+      "social_hook": "description: \"Learn how to build a sliding-window attention KV cache with dynamic token pruning in Python, with runnable code, tests, and production tips.\"\n\nsummary: \"This guide walks through implementing a sliding-window attention KV cache with dynamic token pruning, providing runnable Python code and tests.\"\n\nimage: \"/images/covers/2026-09-13-building-a-sliding-window-attention-kv-cache-with-dynamic-token-pruning.svg\"",
+      "tags": [
+        "python",
+        "machine-learning",
+        "systems",
+        "attention",
+        "kv-cache"
+      ],
+      "scheduled_at": "2026-09-13T23:03:54Z",
       "status": "pending"
     }
   ]
