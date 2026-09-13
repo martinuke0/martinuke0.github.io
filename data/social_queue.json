@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-12T22:03:29Z",
+  "last_scheduled_at": "2026-09-13T00:02:03Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -22652,6 +22652,21 @@
         "Portfolio"
       ],
       "scheduled_at": "2026-09-12T22:03:29Z",
+      "status": "pending"
+    },
+    {
+      "title": "User Safety: safe — A Hands-On Build Guide for a Systems-Level Side Project",
+      "url": "https://martinuke0.github.io/posts/2026-09-13-user-safety-safe-a-hands-on-build-guide-for-a-systems-level-side-project/",
+      "social_hook": "> TL;DR — Build \"safe,\" a Go-based user safety gateway that combines token-bucket rate limiting, sliding-window anomaly detection, and real-time metrics exposition. It demonstrates distributed systems primitives, observability, and production-grade engineering — exactly the skills that separate staff-level candidates from the rest. This guide gives you every line of code you need to ship it.\n\nPortfolio projects are where hiring managers decide whether to invite you to a second interview. Most candidates build TODO apps or blog clones. The ones who get offers build systems that solve a real problem using real primitives: concurrency, state management, failure modes, and observability.\n\n\"safe\" is a User Safety Gateway — a middleware service that sits in front of any HTTP application and protects it from abusive or anomalous user behavior. It enforces rate limits, detects burst patterns, maintains per-user safety scores, and exposes metrics in Prometheus format. You build it in Go, using nothing but the standard library plus a handful of well-known dependencies.",
+      "tags": [
+        "systems-engineering",
+        "go",
+        "rate-limiting",
+        "anomaly-detection",
+        "portfolio-project",
+        "side-project"
+      ],
+      "scheduled_at": "2026-09-13T00:02:03Z",
       "status": "pending"
     }
   ]
