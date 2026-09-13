@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-13T07:01:57Z",
+  "last_scheduled_at": "2026-09-13T08:01:57Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -22725,6 +22725,21 @@
         "systems-engineering"
       ],
       "scheduled_at": "2026-09-13T07:01:57Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing eBPF Runtime Monitoring for Resource-Constrained Edge Linux Gateways",
+      "url": "https://martinuke0.github.io/posts/2026-09-13-implementing-ebpf-runtime-monitoring-for-resource-constrained-edge-linux-gateways/",
+      "social_hook": "> TL;DR — Traditional monitoring agents consume precious CPU and memory on edge gateways, defeating the purpose of deploying them close to data sources. eBPF lets you attach sandboxed programs to kernel hooks with near-zero overhead, extracting network, filesystem, and scheduler metrics without loading kernel modules. This post walks through a production-grade architecture, implementation patterns using libbpf and BCC, and the optimization tricks that make eBPF viable on devices with as little as 512 MB of RAM.\n\nEdge gateways are not data center servers. A typical industrial edge node might run on a Raspberry Pi-class device, a compact Intel Atom box, or a ruggedized ARM board with 256–512 MB of RAM, a shared CPU, and a flash-based filesystem that degrades under heavy write loads. Yet these devices sit at the most operationally critical junctions: they aggregate sensor telemetry, enforce network policies, and bridge legacy OT protocols to modern cloud platforms.\n\nTraditional observability stacks assume headroom. Prometheus Node Exporter, Datadog agents, and OpenTelemetry collectors each ship a metrics library, a scraper, and often a write-ahead log. Combined, they can consume 150–300 MB of resident memory and periodic CPU bursts that spike I/O wait on slow NAND. On a gateway already running a real-time OS patchset and a container runtime, that headroom simply does not exist.",
+      "tags": [
+        "eBPF",
+        "Edge Computing",
+        "Linux Observability",
+        "Runtime Monitoring",
+        "Infrastructure",
+        "Kubernetes"
+      ],
+      "scheduled_at": "2026-09-13T08:01:57Z",
       "status": "pending"
     }
   ]
