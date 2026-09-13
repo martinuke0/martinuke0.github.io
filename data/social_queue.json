@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-13T14:03:55Z",
+  "last_scheduled_at": "2026-09-13T16:02:02Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -22799,6 +22799,21 @@
         "performance"
       ],
       "scheduled_at": "2026-09-13T14:03:55Z",
+      "status": "pending"
+    },
+    {
+      "title": "Build a LoRA Fine-Tuning & Inference Engine in Pure PyTorch",
+      "url": "https://martinuke0.github.io/posts/2026-09-13-build-a-lora-fine-tuning-inference-engine-in-pure-pytorch/",
+      "social_hook": "> TL;DR — This guide walks you through building a complete LoRA (Low-Rank Adaptation) fine-tuning and inference engine in pure PyTorch, covering low-rank adapter gradient computation, fused weight-update kernels, and runtime adapter swapping without restarting the model. The result is a portfolio project that demonstrates systems-level deep learning engineering — the kind of skill hiring managers look for in ML infrastructure roles.\n\nMost ML engineers can fine-tune a model with Hugging Face `peft` and call it a day. What separates you is understanding why LoRA works, how the gradients flow through low-rank decompositions, and how to build the machinery yourself without framework abstractions. This project signals three distinct skill clusters that map directly to high-value roles:\n\n- ML Systems Engineer: By implementing fused weight updates and custom autograd functions, you prove you understand the intersection of deep learning and systems performance — memory layout, kernel fusion, and computational graphs.",
+      "tags": [
+        "pytorch",
+        "lora",
+        "fine-tuning",
+        "deep-learning",
+        "systems-engineering",
+        "portfolio"
+      ],
+      "scheduled_at": "2026-09-13T16:02:02Z",
       "status": "pending"
     }
   ]
