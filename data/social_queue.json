@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-13T18:03:00Z",
+  "last_scheduled_at": "2026-09-13T22:02:16Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -22828,6 +22828,21 @@
         "Deep Learning"
       ],
       "scheduled_at": "2026-09-13T18:03:00Z",
+      "status": "pending"
+    },
+    {
+      "title": "Build a LoRA Rank Adaptation System From Scratch",
+      "url": "https://martinuke0.github.io/posts/2026-09-13-build-a-lora-rank-adaptation-system-from-scratch/",
+      "social_hook": "> TL;DR — Building a LoRA rank adaptation system from scratch teaches you the exact machinery behind how modern LLMs are fine-tuned efficiently: low-rank matrix decomposition injected into transformer attention layers. This project demonstrates distributed systems thinking, numerical linear algebra, and ML engineering in a single portfolio piece that hiring managers in AI/ML recognize immediately.\n\nFine-tuning a 7-billion-parameter model with full weight updates is prohibitively expensive — we're talking hundreds of gigabytes of GPU memory and days of training on multiple A100s. LoRA (Low-Rank Adaptation), introduced by Hu et al. in 2021, sidesteps this by freezing the original model weights and learning only small, trainable low-rank decomposition matrices. The result: fine-tuning a 7B model with LoRA can fit on a single consumer GPU with 16GB of VRAM.\n\nThis guide walks you through building that entire system from scratch in PyTorch — not using HuggingFace's PEFT library, but implementing the core mechanics yourself. By the end, you'll have a working, testable LoRA adapter system that demonstrates skills spanning numerical computing, software architecture, and ML systems design.",
+      "tags": [
+        "deep-learning",
+        "lora",
+        "fine-tuning",
+        "pytorch",
+        "ml-systems",
+        "portfolio-project"
+      ],
+      "scheduled_at": "2026-09-13T22:02:16Z",
       "status": "pending"
     }
   ]
