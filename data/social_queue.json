@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-13T03:04:12Z",
+  "last_scheduled_at": "2026-09-13T04:04:12Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -22681,6 +22681,21 @@
         "fault-tolerance"
       ],
       "scheduled_at": "2026-09-13T03:04:12Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building Resilient API Gateways with Envoy Proxy: A Practical Implementation Guide",
+      "url": "https://martinuke0.github.io/posts/2026-09-13-building-resilient-api-gateways-with-envoy-proxy-a-practical-implementation-guide/",
+      "social_hook": "> TL;DR — Envoy Proxy is one of the most powerful edge proxies available for building resilient API gateways, but its full potential only emerges when you configure circuit breakers, retries, rate limiting, and health checks as a unified resilience strategy. This guide walks through every piece with production-tested configurations you can drop into your own infrastructure today.\n\nMost teams reach for a gateway solution after watching a cascading failure take down an entire service mesh. Envoy Proxy, originally built at Lyft and now a CNCF graduated project, was designed from the ground up to handle exactly those scenarios. Its architecture — built around a single-threaded non-I/O worker model with multi-threaded listener processors — gives it the throughput and isolation properties that production gateways demand.\n\nUnlike reverse proxies that treat every request as a stateless forwarding operation, Envoy exposes a rich layer of configuration at the route, cluster, and listener level. This means you can apply different resilience policies per upstream service, per endpoint, or even per traffic weight. The result is a gateway that doesn't just route traffic but actively protects your backend services from one another and from abusive clients.",
+      "tags": [
+        "envoy-proxy",
+        "api-gateway",
+        "microservices",
+        "resilience",
+        "infrastructure",
+        "networking"
+      ],
+      "scheduled_at": "2026-09-13T04:04:12Z",
       "status": "pending"
     }
   ]
