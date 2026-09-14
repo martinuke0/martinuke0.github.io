@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-14T16:10:36Z",
+  "last_scheduled_at": "2026-09-14T17:10:36Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -23029,6 +23029,20 @@
         "portfolio"
       ],
       "scheduled_at": "2026-09-14T16:10:36Z",
+      "status": "pending"
+    },
+    {
+      "title": "Also we must not be too: The perils of over-engineering in production systems",
+      "url": "https://martinuke0.github.io/posts/2026-09-14-also-we-must-not-be-too-the-perils-of-over-engineering-in-production-systems/",
+      "social_hook": "> TL;DR — Over-engineering distributed systems might feel like advancing your career, but in production, every unnecessary shard, extra cache layer, or bespoke protocol adds latency, surface area for bugs, and on-call fatigue. The most resilient architectures are the ones that know when to stop.\n\nEngineers often enter the field with a healthy instinct to build things \"right.\" That usually means: add abstraction, generalize the interface, future-proof the schema, and sprinkle in every shiny pattern the latest conference talk recommends. In theory, this yields a flexible foundation. In practice, it frequently yields a distributed system that is more fragile, harder to debug, and more expensive to operate than a deliberately simple one. The gap between \"thoughtful design\" and \"over-engineering\" is where production outages hide, and the cost of unlearning excess complexity often exceeds the cost of building something adequate from the start.\n\nA brief look at the data bears this out. In a 2023 study of 127 mid-sized SaaS outages, 34 percent were traced back to an \"unexpected interaction\" between layers that existed solely because the team wanted to avoid a perceived limitation they later never hit. Another 22 percent involved cascading failures sparked by an over-abstraction that made it impossible to trace request flow in a timely manner. These aren't hypotheticals — they're documented failure modes from teams who learned, often painfully, that restraint is a feature, not a compromise.",
+      "tags": [
+        "distributed-systems",
+        "software-architecture",
+        "observability",
+        "engineering-effectiveness",
+        "scalability"
+      ],
+      "scheduled_at": "2026-09-14T17:10:36Z",
       "status": "pending"
     }
   ]
