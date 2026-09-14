@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-14T10:02:38Z",
+  "last_scheduled_at": "2026-09-14T12:03:08Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -22958,6 +22958,20 @@
         "engineering-portfolio"
       ],
       "scheduled_at": "2026-09-14T10:02:38Z",
+      "status": "pending"
+    },
+    {
+      "title": "Build a Distributed Task Queue from Scratch: A Portfolio Project That Signals Real Systems Skill",
+      "url": "https://martinuke0.github.io/posts/2026-09-14-build-a-distributed-task-queue-from-scratch-a-portfolio-project-that-signals-real-systems-skill/",
+      "social_hook": "> TL;DR — Build a distributed task queue from scratch in Python with FastAPI, SQLite, and a worker pool. This project demonstrates concurrency, persistence, network communication, and fault tolerance — the exact systems skills hiring managers look for. The guide gives you production-quality code, a testing strategy, and a six-step roadmap to senior-level depth.\n\nA portfolio project that genuinely separates you from the crowd isn't another to-do app or a clone of an existing SaaS. It's something that forces you to grapple with the hard problems of distributed systems: concurrent access, state management, network failure, and observability. A distributed task queue hits every one of those nails on the head.\n\nTask queues are the invisible backbone of modern engineering — they power email sends at Stripe, image processing at Slack, and batch ETL at every data platform on earth. Building one yourself means you'll touch networking, concurrency, persistence, and API design in a single project. That's a density of systems concepts that no tutorial app can match.",
+      "tags": [
+        "systems-engineering",
+        "python",
+        "distributed-systems",
+        "portfolio-project",
+        "career-growth"
+      ],
+      "scheduled_at": "2026-09-14T12:03:08Z",
       "status": "pending"
     }
   ]
