@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-14T20:10:36Z",
+  "last_scheduled_at": "2026-09-14T21:10:36Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -23086,6 +23086,20 @@
         "web-development"
       ],
       "scheduled_at": "2026-09-14T20:10:36Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering Apache Beam for Unified Batch and Stream Processing",
+      "url": "https://martinuke0.github.io/posts/2026-09-14-mastering-apache-beam-for-unified-batch-and-stream-processing/",
+      "social_hook": "> TL;DR — Apache Beam provides a single, unified programming model to process both batch and streaming data, eliminating the need to maintain separate codebases. By abstracting away the underlying execution engine, Beam allows engineers to focus on data transformation logic while running on runners like Google Dataflow or Apache Flink. Mastering Beam means building scalable, fault-tolerant data pipelines that adapt seamlessly to real-time and historical workloads.\n\nIn the modern data landscape, the dichotomy between batch processing and stream processing has long plagued engineering teams. Historically, organizations maintained separate pipelines for real-time analytics and historical reporting, leading to duplicated code, inconsistent results, and significant operational overhead. Apache Beam emerged as a paradigm shift, offering a unified programming model that treats batch and streaming data as two extremes of the same continuum. By defining a single set of data transformations, developers can execute workloads on various distributed processing backends, known as runners, without altering the core logic.\n\nThis approach fundamentally changes how data engineering teams operate. Instead of writing a batch ETL job in SQL and a streaming job in Scala, engineers write one pipeline in Python or Java. The pipeline is then portable across multiple execution engines, providing flexibility and protecting against vendor lock-in.",
+      "tags": [
+        "apache-beam",
+        "data-engineering",
+        "stream-processing",
+        "batch-processing",
+        "unified-api"
+      ],
+      "scheduled_at": "2026-09-14T21:10:36Z",
       "status": "pending"
     }
   ]
