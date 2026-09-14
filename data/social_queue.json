@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-14T14:04:41Z",
+  "last_scheduled_at": "2026-09-14T15:10:36Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -23001,6 +23001,20 @@
         "safety-engineering"
       ],
       "scheduled_at": "2026-09-14T14:04:41Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Register Allocation: A Deep Dive into GCC’s Graph Coloring Implementation",
+      "url": "https://martinuke0.github.io/posts/2026-09-14-optimizing-register-allocation-a-deep-dive-into-gccs-graph-coloring-implementation/",
+      "social_hook": "- Topic: Optimizing Register Allocation: A Deep Dive into GCC’s Graph Coloring Implementation\n\n- Frontmatter format exact: title, date (2026-09-14T15:01:12.510), draft: false, tags (3-6), description (140-160 chars), summary (1-2 sentences), showToc: true, TocOpen: false, cover.image: \"/images/covers/2026-09-14-optimizing-register-allocation-a-deep-dive-into-gccs-graph-coloring-implementation.svg\", cover.alt, cover.caption: \"\", cover.relative: false\n\n3. Main sections using \"## Section Title\" (H2). Use \"### Subsection\" (H3) for nesting. Never use H1 in body.",
+      "tags": [
+        "gcc",
+        "compilers",
+        "register-allocation",
+        "graph-coloring",
+        "optimization"
+      ],
+      "scheduled_at": "2026-09-14T15:10:36Z",
       "status": "pending"
     }
   ]
