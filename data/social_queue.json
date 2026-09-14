@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-14T17:10:36Z",
+  "last_scheduled_at": "2026-09-14T18:10:36Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -23043,6 +23043,19 @@
         "scalability"
       ],
       "scheduled_at": "2026-09-14T17:10:36Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Monorepos with Nix: Reproducible Builds at Scale",
+      "url": "https://martinuke0.github.io/posts/2026-09-14-architecting-monorepos-with-nix-reproducible-builds-at-scale/",
+      "social_hook": "> TL;DR — Nix turns monorepo builds into hermetic, reproducible operations by grounding every artifact in the Nix store, eliminating dependency drift, and enabling deterministic caching across teams. With Nix Flakes as a unified manifest, enterprises can scale from a single repo to thousands of engineers without the \"works on my machine\" syndrome, while remote build caches and offline reproducibility become default guarantees rather than afterthoughts.\n\nMonorepos promise code sharing, atomic cross-project changes, and unified dependency management, but at scale they often devolve into dependency sprawl, nondeterministic CI, and the dreaded \"works on my machine\" syndrome. As the number of packages, languages, and toolchains grows, traditional build systems struggle to maintain hermeticity: cached artifacts become stale, transitive dependencies clash, and developers spend disproportionate time reconciling environment drift. Nix, a functional package manager with a content-addressed store and pure functions, offers a principled path to reproducible builds across even the largest monorepos. In this article, we’ll explore how Nix can be architected as the foundational build layer for monorepos, providing deterministic caching, reproducible developer environments, and scalable CI pipelines without sacrificing developer velocity.\n\nLarge monorepos—think Google’s internal codebase, Facebook’s monorepo, or the Linux kernel’s adjacent tree—face a common adversary: reproducibility decay. When hundreds of engineers commit changes across dozens of packages simultaneously, the build graph becomes a tangled web of transitive dependencies. A single version bump in a shared library can cascade, invalidating caches and forcing full rebuilds. Traditional package managers rely on semantic versioning and lockfiles, but they operate at the project level, not the system level. The result is a fragile ecosystem where `yarn install` or `pip install` may produce different binaries on different machines, or where CI caches fill with near-identical artifacts that are nonetheless marked as stale.",
+      "tags": [
+        "nix",
+        "monorepo",
+        "reproducible-builds",
+        "devops"
+      ],
+      "scheduled_at": "2026-09-14T18:10:36Z",
       "status": "pending"
     }
   ]
