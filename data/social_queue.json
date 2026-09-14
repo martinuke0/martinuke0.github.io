@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-14T08:08:36Z",
+  "last_scheduled_at": "2026-09-14T10:02:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -22943,6 +22943,21 @@
         "microservices"
       ],
       "scheduled_at": "2026-09-14T08:08:36Z",
+      "status": "pending"
+    },
+    {
+      "title": "User Safety: safe — A Hands-On Build Guide for a Portfolio-Worthy Systems Project",
+      "url": "https://martinuke0.github.io/posts/2026-09-14-user-safety-safe-a-hands-on-build-guide-for-a-portfolio-worthy-systems-project/",
+      "social_hook": "> TL;DR — Build a real-time user safety engine called `safe` that ingests user-generated content, classifies it for toxicity and policy violations using a fine-tuned transformer model, applies a configurable rule engine, and quarantines flagged content via a FastAPI service backed by PostgreSQL and Redis. This project demonstrates systems architecture, ML integration, distributed caching, and observability — exactly the skills hiring managers look for in senior backend and platform engineering roles.\n\nContent safety and moderation is one of the hardest real-world systems problems at scale. Every major platform — from Discord to Reddit to TikTok — runs some form of this pipeline, and the engineering challenges are deep: low-latency inference, configurable policy engines, graceful degradation when models fail, and audit trails that satisfy regulators.\n\n- Distributed Systems Thinking: You've designed a pipeline with message queues, caching layers, and stateful storage — not just a monolithic script.",
+      "tags": [
+        "python",
+        "systems-design",
+        "content-moderation",
+        "fastapi",
+        "machine-learning",
+        "engineering-portfolio"
+      ],
+      "scheduled_at": "2026-09-14T10:02:38Z",
       "status": "pending"
     }
   ]
