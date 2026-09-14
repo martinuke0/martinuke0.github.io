@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-14T02:09:08Z",
+  "last_scheduled_at": "2026-09-14T03:09:08Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -22885,6 +22885,20 @@
         "frontend-optimization"
       ],
       "scheduled_at": "2026-09-14T02:09:08Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing Pulsar Schema Registry for Real-Time Data Consistency: A Deep Dive",
+      "url": "https://martinuke0.github.io/posts/2026-09-14-implementing-pulsar-schema-registry-for-real-time-data-consistency-a-deep-dive/",
+      "social_hook": "> TL;DR — Apache Pulsar Schema Registry centralizes schema management, enabling safe evolution and strong consistency across producers and consumers in real‑time pipelines. It eliminates schema drift by validating messages against registered schemas and supports backward and forward compatibility rules, so downstream services can upgrade without downtime.\n\nApache Pulsar has become a de‑facto standard for low‑latency, multi‑tenant messaging, and its Schema Registry layer adds a powerful mechanism for handling evolving data models without breaking downstream consumers. In this post we explore how to integrate the registry, the architectural guarantees it provides, and practical patterns for deploying it at scale.\n\nPulsar’s Schema Registry (SR) is an independent service that stores Avro, JSON, or Protobuf schemas and assigns each a unique identifier. Producers embed the schema ID with every message, while consumers retrieve the schema by ID, guaranteeing that every subscriber sees the same version of the data. This design decouples schema evolution from the messaging layer, allowing teams to evolve contracts independently of Pulsar clusters.",
+      "tags": [
+        "Pulsar",
+        "Schema Registry",
+        "Real-Time Data",
+        "Data Consistency",
+        "Apache Pulsar"
+      ],
+      "scheduled_at": "2026-09-14T03:09:08Z",
       "status": "pending"
     }
   ]
