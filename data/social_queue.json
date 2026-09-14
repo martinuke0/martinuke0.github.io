@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-14T03:09:08Z",
+  "last_scheduled_at": "2026-09-14T04:09:08Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -22899,6 +22899,21 @@
         "Apache Pulsar"
       ],
       "scheduled_at": "2026-09-14T03:09:08Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Fault‑Tolerant Distributed Caches: A Deep Dive into etcd's Raft Implementation",
+      "url": "https://martinuke0.github.io/posts/2026-09-14-architecting-faulttolerant-distributed-caches-a-deep-dive-into-etcd/",
+      "social_hook": "> TL;DR — etcd's Raft implementation provides a battle-tested foundation for fault-tolerant distributed caches by serializing writes through a elected leader, replicating a replicated log across a quorum of nodes, and recovering automatically from failures. Understanding its internals — leader election, log replication, and membership changes — is essential for anyone building reliable infrastructure at scale.\n\nDistributed caches have become the invisible backbone of modern cloud-native infrastructure. From session stores and feature flag repositories to configuration centers and rate-limiting backends, the demand for low-latency, highly available key-value stores has never been greater. But availability without consistency is a trap — stale reads, split-brain scenarios, and silent data corruption can cascade into outages that take down entire platforms.\n\netcd emerged as the de facto standard for distributed coordination, famously powering Kubernetes' own control plane. At its core, etcd solves the hardest problem in distributed systems: how do N independent nodes agree on a single sequence of operations, even when some nodes crash or networks partition? The answer is the Raft consensus algorithm, which etcd implements in production-grade Go code that has been hardened over more than a decade of real-world use.",
+      "tags": [
+        "distributed systems",
+        "etcd",
+        "raft consensus",
+        "fault tolerance",
+        "distributed cache",
+        "architecture"
+      ],
+      "scheduled_at": "2026-09-14T04:09:08Z",
       "status": "pending"
     }
   ]
