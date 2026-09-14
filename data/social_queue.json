@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-14T15:10:36Z",
+  "last_scheduled_at": "2026-09-14T16:10:36Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -23015,6 +23015,20 @@
         "optimization"
       ],
       "scheduled_at": "2026-09-14T15:10:36Z",
+      "status": "pending"
+    },
+    {
+      "title": "Build a Minimal Mixture-of-Experts Inference Engine in Pure Python",
+      "url": "https://martinuke0.github.io/posts/2026-09-14-build-a-minimal-mixture-of-experts-inference-engine-in-pure-python/",
+      "social_hook": "description: \"Learn to build a minimal mixture-of-experts inference engine with a learned top-k router, auxiliary load-balancing loss, and feed-forward experts in pure Python.\"\n\nsummary: \"Implement a minimal mixture-of-experts inference engine from scratch in Python, demonstrating systems thinking, custom loss functions, and production-ready patterns.\"\n\nimage: \"/images/covers/2026-09-14-build-a-minimal-mixture-of-experts-inference-engine-in-pure-python.svg\"",
+      "tags": [
+        "mixture-of-experts",
+        "python",
+        "ml",
+        "systems",
+        "portfolio"
+      ],
+      "scheduled_at": "2026-09-14T16:10:36Z",
       "status": "pending"
     }
   ]
