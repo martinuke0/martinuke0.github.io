@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-14T05:09:08Z",
+  "last_scheduled_at": "2026-09-14T08:08:36Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -22929,6 +22929,20 @@
         "isolation"
       ],
       "scheduled_at": "2026-09-14T05:09:08Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Resilience with Resilience4j Circuit Breakers and Retry Policies at Scale",
+      "url": "https://martinuke0.github.io/posts/2026-09-14-architecting-resilience-with-resilience4j-circuit-breakers-and-retry-policies-at-scale/",
+      "social_hook": "> TL;DR — Resilience4j’s circuit breaker and retry primitives let Java microservices gracefully degrade under load, automatically open the circuit after repeated failures, and retry with back‑off to recover without cascading failures. When composed thoughtfully at the service‑mesh or Spring‑Boot layer, they become a production‑grade resilience fabric that protects downstream dependencies and keeps latency budgets intact.\n\nIn large‑scale distributed systems, a single flailing downstream service can amplify latency, exhaust thread pools, and bring down an entire cascade of callers. The classic solution is the circuit breaker pattern, which stops calls to a failing endpoint and optionally provides a fallback. Complementary retry logic adds resilience for transient failures, giving a flaky service a few chances to recover before the circuit opens. Resilience4j is a popular Java library that implements both patterns with fine‑grained configuration, metrics integration, and a fluent API that works standalone or via Spring Cloud. This article walks through the core concepts, provides hands‑on code, and shows how to wire circuit breakers and retries together at scale so that your services remain responsive even when the surrounding infrastructure misbehaves.\n\nA circuit breaker sits between a caller and a callee and monitors call outcomes. It maintains three primary states:",
+      "tags": [
+        "resilience4j",
+        "circuitbreaker",
+        "retry",
+        "java",
+        "microservices"
+      ],
+      "scheduled_at": "2026-09-14T08:08:36Z",
       "status": "pending"
     }
   ]
