@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-14T12:03:08Z",
+  "last_scheduled_at": "2026-09-14T13:04:02Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -22972,6 +22972,20 @@
         "career-growth"
       ],
       "scheduled_at": "2026-09-14T12:03:08Z",
+      "status": "pending"
+    },
+    {
+      "title": "Deep Dive into CUDA Graphs for Efficient Kernel Launch Overhead Reduction",
+      "url": "https://martinuke0.github.io/posts/2026-09-14-deep-dive-into-cuda-graphs-for-efficient-kernel-launch-overhead-reduction/",
+      "social_hook": "title: \"Deep Dive into CUDA Graphs for Efficient Kernel Launch Overhead Reduction\"\n\ndescription: \"Learn how CUDA graphs can cut kernel launch overhead by up to 40% in production workloads, with practical implementation tips and performance benchmarks.\"\n\nsummary: \"CUDA graphs reduce kernel launch overhead by batching operations. They can deliver up to 40% speedups in real-world inference pipelines.\"",
+      "tags": [
+        "CUDA",
+        "GPU",
+        "Performance",
+        "Kernel",
+        "Optimization"
+      ],
+      "scheduled_at": "2026-09-14T13:04:02Z",
       "status": "pending"
     }
   ]
