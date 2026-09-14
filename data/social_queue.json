@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-14T13:04:02Z",
+  "last_scheduled_at": "2026-09-14T14:04:41Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -22986,6 +22986,21 @@
         "Optimization"
       ],
       "scheduled_at": "2026-09-14T13:04:02Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building 'safe.': A User Safety Pipeline That Signals Real Systems Skill",
+      "url": "https://martinuke0.github.io/posts/2026-09-14-building-/",
+      "social_hook": "> TL;DR — Build a real-time user safety pipeline called `safe.` in Go that ingests user-generated content, runs it through parallel ML classifiers (toxicity, PII detection, spam), and takes action based on a configurable risk policy. This project demonstrates concurrent pipeline design, polyglot architecture, observability, and fault tolerance — the exact skills that separate staff engineers from the rest.\n\nEvery platform that touches user-generated content needs a safety layer. Content moderation isn't a nice-to-have — it's a regulatory requirement, a trust signal, and a business imperative. Yet most portfolio projects stop at CRUD apps and todo lists. If you want to signal that you can design systems that are actually deployed in production, you need a project that deals with concurrency, real-time decisioning, and integration with external services.\n\n`safe.` is that project. It's a content safety pipeline — a service that accepts user content (text messages, comments, posts), runs it through multiple parallel classifiers, aggregates risk scores against a configurable policy, and decides whether to allow, flag, or block the content. Along the way, you'll build skills in Go concurrency patterns, gRPC service design, structured logging, distributed tracing, and ML service integration.",
+      "tags": [
+        "systems-engineering",
+        "content-moderation",
+        "go",
+        "pipeline-architecture",
+        "portfolio-project",
+        "safety-engineering"
+      ],
+      "scheduled_at": "2026-09-14T14:04:41Z",
       "status": "pending"
     }
   ]
