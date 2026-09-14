@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-14T00:03:54Z",
+  "last_scheduled_at": "2026-09-14T02:09:08Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -22871,6 +22871,20 @@
         "security"
       ],
       "scheduled_at": "2026-09-14T00:03:54Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing React Rendering with Intersection Observer: Lazy Loading at Scale",
+      "url": "https://martinuke0.github.io/posts/2026-09-14-optimizing-react-rendering-with-intersection-observer-lazy-loading-at-scale/",
+      "social_hook": "> TL;DR — Intersection Observer lets you defer rendering of off-screen React components and images until they’re about to enter the viewport, cutting initial bundle size and improving TTI. When applied at scale—think 200+ list items or infinite-scroll feeds—it eliminates the “render-all” bottleneck, reduces main-thread work by up to 70%, and plays nicely with React’s concurrent mode. This article walks through setup patterns, common gotchas, and a production-ready hook you can drop into any project.\n\nModern React applications often ship with large component trees. Whether it’s a dashboard with 300 data tiles, an infinite-scroll article feed, or a photo gallery, the default “render everything” approach taxes the main thread during mount and can push Time to Interactive (TTI) past the 5-second threshold on mid-range devices. The browser has to compute styles, layout, and paint every component, even those the user will never scroll to.\n\nIntersection Observer changes the game. By asynchronously observing when an element crosses a viewport threshold, you can lazy-load heavy UI only when it’s needed. In a React context, this means you can render placeholder shells initially and swap in the real component once the intersection event fires. The result: smaller initial JavaScript payload, faster first paint, and a smoother scroll experience.",
+      "tags": [
+        "react",
+        "performance",
+        "intersection-observer",
+        "lazy-loading",
+        "frontend-optimization"
+      ],
+      "scheduled_at": "2026-09-14T02:09:08Z",
       "status": "pending"
     }
   ]
