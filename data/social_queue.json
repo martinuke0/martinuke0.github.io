@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-14T18:10:36Z",
+  "last_scheduled_at": "2026-09-14T19:10:36Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -23056,6 +23056,21 @@
         "devops"
       ],
       "scheduled_at": "2026-09-14T18:10:36Z",
+      "status": "pending"
+    },
+    {
+      "title": "Build a Paged KV Cache with Swapping for CPU-Only LLM Inference",
+      "url": "https://martinuke0.github.io/posts/2026-09-14-build-a-paged-kv-cache-with-swapping-for-cpu-only-llm-inference/",
+      "social_hook": "> TL;DR — Building a paged KV cache with swapping from scratch teaches the same memory management patterns that power vLLM and other high-throughput inference engines. This project demonstrates virtual memory abstraction, page-based allocation, and CPU-GPU data movement — all skills that separate senior systems engineers from junior ones.\n\nMost aspiring ML engineers can fine-tune a transformer. Far fewer can explain where the KV cache lives in memory, why it bottlenecks at batch size 8, or how to swap it to CPU without blowing up latency. That gap is exactly what makes a paged KV cache side project so valuable on a CV.\n\nIn this guide, you will build a working paged KV cache manager in Python with PyTorch, implementing page-based allocation, CPU-GPU swapping, and a functional attention forward pass. Every line is real, runnable code — not pseudocode.",
+      "tags": [
+        "llm-inference",
+        "paged-attention",
+        "kv-cache",
+        "systems-engineering",
+        "python",
+        "pyTorch"
+      ],
+      "scheduled_at": "2026-09-14T19:10:36Z",
       "status": "pending"
     }
   ]
