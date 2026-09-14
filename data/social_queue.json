@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-14T04:09:08Z",
+  "last_scheduled_at": "2026-09-14T05:09:08Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -22914,6 +22914,21 @@
         "architecture"
       ],
       "scheduled_at": "2026-09-14T04:09:08Z",
+      "status": "pending"
+    },
+    {
+      "title": "Inside gVisor: Building Secure, Low‑Overhead Sandboxes for Containers",
+      "url": "https://martinuke0.github.io/posts/2026-09-14-inside-gvisor-building-secure-lowoverhead-sandboxes-for-containers/",
+      "social_hook": "> TL;DR — gVisor replaces the host kernel's privilege boundary with a user-space kernel called runsc that intercepts every syscall a container makes. By translating syscalls into safe, mediated operations, it delivers near-seamless isolation with typical overhead under 10% for web-serving workloads. Google has run gVisor in production since 2018, proving that strong sandboxing and acceptable performance are not mutually exclusive.\n\nDocker and container runtimes like containerd rely on Linux namespaces and cgroups to isolate processes. These primitives partition the view of the system — PID trees, network stacks, mount points — but they do not change who can do what. A container running as root still shares the same kernel as every other container on the host. A single kernel exploit or a misconfigured capability can break out of the sandbox entirely.\n\nThe Equifax breach of 2017, the Kubernetes CVE-2018-1002105, and countless container escape vulnerabilities share a common root cause: the kernel is a single point of failure shared across all workloads. When you run thousands of containers on a single host, you are trusting one piece of code to enforce isolation for every one of them.",
+      "tags": [
+        "gVisor",
+        "containers",
+        "security",
+        "sandboxes",
+        "kernel",
+        "isolation"
+      ],
+      "scheduled_at": "2026-09-14T05:09:08Z",
       "status": "pending"
     }
   ]
