@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-14T21:10:36Z",
+  "last_scheduled_at": "2026-09-15T00:04:35Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -23100,6 +23100,20 @@
         "unified-api"
       ],
       "scheduled_at": "2026-09-14T21:10:36Z",
+      "status": "pending"
+    },
+    {
+      "title": "Hands‑On LoRA Fine‑Tuning Portfolio Project",
+      "url": "https://martinuke0.github.io/posts/2026-09-15-handson-lora-finetuning-portfolio-project/",
+      "social_hook": "> TL;DR — In this post we walk through building a complete LoRA fine‑tuning pipeline from data prep to a deployable model, using PyTorch, the PEFT library and Hugging Face Transformers. The result is a portable script you can run, extend, and point to on your CV as proof of systems‑level ML skill.\n\nBuilding a portfolio side‑project that actually runs and demonstrates production‑grade ML engineering is one of the fastest ways to catch a hiring manager’s eye. This guide walks you through creating a LoRA (Low‑Rank Adaptation) fine‑tuning project from scratch: installing dependencies, loading a base model, applying parameter‑efficient adapters, training on a small dataset, and packaging everything so you can point to a working repo on your CV. Along the way you’ll see how LoRA fits into a modern ML stack, why it signals specific skills, and how to evolve the toy into a senior‑level pipeline.\n\nEmployers scanning dozens of CVs look for concrete evidence that you can operate in real ML systems, not just theory. A LoRA fine‑tuning project demonstrates several overlapping competencies:",
+      "tags": [
+        "loRA",
+        "fine-tuning",
+        "PyTorch",
+        "Hugging Face",
+        "PEFT"
+      ],
+      "scheduled_at": "2026-09-15T00:04:35Z",
       "status": "pending"
     }
   ]
