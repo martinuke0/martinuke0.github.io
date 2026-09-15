@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-15T18:02:29Z",
+  "last_scheduled_at": "2026-09-15T19:03:22Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -23251,6 +23251,21 @@
         "cache-eviction"
       ],
       "scheduled_at": "2026-09-15T18:02:29Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building a Paged KV Cache Allocator with Continuous Batching in Pure Python",
+      "url": "https://martinuke0.github.io/posts/2026-09-15-building-a-paged-kv-cache-allocator-with-continuous-batching-in-pure-python/",
+      "social_hook": "title: \"Building a Paged KV Cache Allocator with Continuous Batching in Pure Python\"\n\ntags: [\"Python\", \"Systems\", \"LLM\", \"KV-Cache\", \"Continuous-Batching\", \"Portfolio\"]\n\ndescription: \"A hands-on guide to implementing a paged KV cache allocator with continuous batching in pure Python, ideal for engineers seeking systems credibility.\"",
+      "tags": [
+        "Python",
+        "Systems",
+        "LLM",
+        "KV-Cache",
+        "Continuous-Batching",
+        "Portfolio"
+      ],
+      "scheduled_at": "2026-09-15T19:03:22Z",
       "status": "pending"
     }
   ]
