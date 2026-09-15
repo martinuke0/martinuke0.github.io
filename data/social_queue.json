@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-15T00:04:35Z",
+  "last_scheduled_at": "2026-09-15T01:04:35Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -23114,6 +23114,20 @@
         "PEFT"
       ],
       "scheduled_at": "2026-09-15T00:04:35Z",
+      "status": "pending"
+    },
+    {
+      "title": "Brainstorming Valid Architectural Patterns in Production Systems",
+      "url": "https://martinuke0.github.io/posts/2026-09-15-brainstorming-valid-architectural-patterns-in-production-systems/",
+      "social_hook": "> TL;DR — Brainstorming valid architectural patterns upfront prevents costly rework in distributed systems; teams that formalize validation checkpoints using concrete metrics (latency, throughput, fault tolerance) ship resilient services 3× faster.\n\nThe transition from a monolith to a distributed architecture is as much a cultural exercise as a technical one. Engineers often jump straight into drawing boxes and arrows, eager to adopt the latest streaming framework or database sharding strategy. Yet the most durable systems share a hidden commonality: they began with a deliberate, structured brainstorming phase that validated assumptions before a single line of production code was written. In this post, we’ll explore a repeatable framework for brainstorming valid architectural patterns, grounded in the realities of large‑scale systems that power everything from real‑time analytics pipelines to batch‑processing warehouses.\n\nEvery architectural decision carries a trade‑off. Choosing Apache Kafka over a traditional message queue, for instance, brings massive throughput gains but introduces operational complexity around exactly‑once semantics and topic compaction. When teams skip the validation step, they often discover these trade‑offs in production—through cascading outages, runaway costs, or impossible debugging sessions. A systematic brainstorming process surfaces these risks early, when the cost of pivoting is a whiteboard session rather than a post‑mortem.",
+      "tags": [
+        "architecture",
+        "distributed-systems",
+        "scalability",
+        "design-patterns",
+        "engineering"
+      ],
+      "scheduled_at": "2026-09-15T01:04:35Z",
       "status": "pending"
     }
   ]
