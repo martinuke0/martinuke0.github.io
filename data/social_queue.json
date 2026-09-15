@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-15T01:04:35Z",
+  "last_scheduled_at": "2026-09-15T02:04:35Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -23128,6 +23128,20 @@
         "engineering"
       ],
       "scheduled_at": "2026-09-15T01:04:35Z",
+      "status": "pending"
+    },
+    {
+      "title": "Speculative Decoding with a Draft N‑gram Model: A Pure‑Python Inference Engine",
+      "url": "https://martinuke0.github.io/posts/2026-09-15-speculative-decoding-with-a-draft-ngram-model-a-purepython-inference-engine/",
+      "social_hook": "title: \"Speculative Decoding with a Draft N‑gram Model: A Pure‑Python Inference Engine\"\n\ndescription: \"A hands‑on guide to implementing a minimal speculative decoding engine in pure Python, featuring an n‑gram draft model, proposal and verification loops, and a runnable CLI.\"\n\nsummary: \"This project demonstrates end‑to‑end inference engineering, from language modeling to low‑latency token generation, and signals strong systems skills to hiring managers.\"",
+      "tags": [
+        "speculative-decoding",
+        "python",
+        "nlp",
+        "inference",
+        "side-project"
+      ],
+      "scheduled_at": "2026-09-15T02:04:35Z",
       "status": "pending"
     }
   ]
