@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-15T08:03:41Z",
+  "last_scheduled_at": "2026-09-15T09:03:42Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -23180,6 +23180,20 @@
         "infrastructure"
       ],
       "scheduled_at": "2026-09-15T08:03:41Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing Automated Canary Analysis with Spinnaker and Kayenta",
+      "url": "https://martinuke0.github.io/posts/2026-09-15-implementing-automated-canary-analysis-with-spinnaker-and-kayenta/",
+      "social_hook": "> TL;DR — Automated canary analysis with Spinnaker and Kayenta eliminates manual guesswork by profiling baseline metrics, scoring deployment risk in real time, and gatekeeping rollouts behind data-driven thresholds. In production, this means faster feature delivery with rollback triggered by statistically significant degradation in latency, error rates, or business KPIs.\n\nCanary deployments have become the de facto standard for safely rolling out changes to production systems. They let you validate a new version against a tiny fraction of live traffic while monitoring for regressions before fully committing. But as the scope of your service mesh grows, manual canary analysis quickly becomes a bottleneck: hand-rolling threshold checks, interpreting dashboards, and deciding when to halt or promote creates both delay and human error. This is where Spinnaker and Kayenta come in. Kayenta, Spinnaker’s native canary analysis engine, automates the comparison between a baseline and a canary version, produces a quantitative risk score, and can gate further rollout behind configurable thresholds. In this post, we’ll walk through the architecture, configuration, and production patterns for getting automated canary analysis running with Spinnaker and Kayenta, and we’ll tie concrete numbers and failure modes to each step.\n\nIn a typical Kubernetes deployment, a canary might route 5% of traffic to the new version. Without automated analysis, the operator must watch metrics—latency p99, error rate, request per second—and make a go/no-go decision in real time. That’s manageable with one service, but at scale, you might run a dozen canaries simultaneously across different clusters and regions. Human attention is finite, and fatigue leads to missed regressions.",
+      "tags": [
+        "spinnaker",
+        "kayenta",
+        "canary",
+        "continuous-delivery",
+        "kubernetes"
+      ],
+      "scheduled_at": "2026-09-15T09:03:42Z",
       "status": "pending"
     }
   ]
