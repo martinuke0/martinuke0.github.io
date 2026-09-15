@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-15T07:03:41Z",
+  "last_scheduled_at": "2026-09-15T08:03:41Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -23164,6 +23164,22 @@
       "social_hook": "",
       "tags": [],
       "scheduled_at": "2026-09-15T07:03:41Z",
+      "status": "pending"
+    },
+    {
+      "title": "Build a Pure-Python GGUF and Safetensors Weight Loader",
+      "url": "https://martinuke0.github.io/posts/2026-09-15-build-a-pure-python-gguf-and-safetensors-weight-loader/",
+      "social_hook": "> TL;DR — Build a pure-Python loader that parses GGUF and Safetensors binary formats, memory-maps tensor data, and converts to NumPy arrays for inference. You'll learn binary parsing, memory-mapped I/O, and tensor metadata handling — skills that signal senior systems engineering readiness to any hiring manager.\n\nBinary model formats are where machine learning meets systems engineering. Every LLM you've interacted with — Llama, Mistral, Phi — ships weights in either GGUF or Safetensors. Understanding how these formats work under the hood isn't just an ML exercise; it's a deep dive into binary serialization, memory-mapped I/O, structured header parsing, and tensor algebra. For an engineer who wants to stand out, building this loader is one of the most efficient ways to demonstrate competence across the full stack: from bit-level file parsing to tensor operations to clean API design.\n\nThis guide walks you through building a working loader from scratch. Every code snippet is real and runnable. By the end, you'll have a project on your resume that proves you understand what happens after the GPU and before the model.",
+      "tags": [
+        "python",
+        "machine-learning",
+        "gguf",
+        "safetensors",
+        "systems-programming",
+        "portfolio",
+        "infrastructure"
+      ],
+      "scheduled_at": "2026-09-15T08:03:41Z",
       "status": "pending"
     }
   ]
