@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-15T12:08:24Z",
+  "last_scheduled_at": "2026-09-15T16:02:22Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -23222,6 +23222,20 @@
         "cv"
       ],
       "scheduled_at": "2026-09-15T12:08:24Z",
+      "status": "pending"
+    },
+    {
+      "title": "Build a Paged KV Cache in Pure Python: A Portfolio Project That Signals Real Systems Skill",
+      "url": "https://martinuke0.github.io/posts/2026-09-15-build-a-paged-kv-cache-in-pure-python-a-portfolio-project-that-signals-real-systems-skill/",
+      "social_hook": "> TL;DR — Building a paged KV cache from scratch teaches you the exact memory-management and block-allocation patterns that power vLLM and other high-throughput inference engines. This project demonstrates virtual-memory paging, cache coherence, and systems-level Python engineering — a rare and impressive signal on any CV.\n\nMost portfolio projects for ML engineers involve fine-tuning a Hugging Face model or building a chatbot wrapper around an API. Those are fine for juniors, but they signal consumption, not construction. A paged KV cache is different — it sits at the intersection of deep learning systems, operating systems concepts, and high-performance engineering.\n\n- Systems-level thinking: You understand that inference is not just about models — it is about memory layout, allocation strategies, and waste minimization. The paged KV cache directly borrows from virtual memory paging in OS kernels, a concept that separates engineers who understand where computation happens from those who only understand what computation runs.",
+      "tags": [
+        "paged-attention",
+        "kv-cache",
+        "transformer-inference",
+        "python",
+        "systems-engineering"
+      ],
+      "scheduled_at": "2026-09-15T16:02:22Z",
       "status": "pending"
     }
   ]
