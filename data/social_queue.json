@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-15T20:03:22Z",
+  "last_scheduled_at": "2026-09-15T22:02:47Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -23280,6 +23280,21 @@
         "testing"
       ],
       "scheduled_at": "2026-09-15T20:03:22Z",
+      "status": "pending"
+    },
+    {
+      "title": "Build a Streaming Byte-Level BPE Tokenizer: A Portfolio Project That Signals Real Systems Skill",
+      "url": "https://martinuke0.github.io/posts/2026-09-15-build-a-streaming-byte-level-bpe-tokenizer-a-portfolio-project-that-signals-real-systems-skill/",
+      "social_hook": "> TL;DR — Building a byte-level BPE tokenizer from scratch forces you to confront the same engineering problems that production systems like GPT-2, LLaMA, and SentencePiece solve daily: streaming data without loading everything into memory, atomic state updates under concurrency, and lossless reversible encoding for arbitrary Unicode. This project demonstrates systems thinking, algorithmic depth, and production-grade code quality — exactly the signals hiring managers look for in senior ML infrastructure and backend engineering roles.\n\nA tokenizer is the unsung hero of modern NLP. Every LLM you've interacted with — from GPT-4 to Claude — starts its life by converting raw text into tokens through a process called Byte Pair Encoding (BPE). Most tutorials stop at the textbook algorithm: count character pairs, merge the most frequent one, repeat. But that's a toy. A real tokenizer must handle streaming input, recover gracefully from byte-level corruption, persist its merge rules without downtime, and guarantee that any token can be decoded back to its original bytes — for every language on Earth, not just ASCII.\n\nThis guide walks you through building exactly that: a streaming byte-level BPE tokenizer with persistent merge queues, atomic byte-loss tracking, and reversible byte fallback. It's not a tutorial. It's a build plan with real, runnable code that you can drop into a portfolio and point to in an interview.",
+      "tags": [
+        "nlp",
+        "tokenizers",
+        "bpe",
+        "systems-engineering",
+        "python",
+        "portfolio-project"
+      ],
+      "scheduled_at": "2026-09-15T22:02:47Z",
       "status": "pending"
     }
   ]
