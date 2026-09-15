@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-15T09:03:42Z",
+  "last_scheduled_at": "2026-09-15T10:03:42Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -23194,6 +23194,20 @@
         "kubernetes"
       ],
       "scheduled_at": "2026-09-15T09:03:42Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building a Production-Grade Model Quantizer: A CV Side Project",
+      "url": "https://martinuke0.github.io/posts/2026-09-15-building-a-production-grade-model-quantizer-a-cv-side-project/",
+      "social_hook": "> TL;DR — Building a model quantizer from scratch demonstrates rare systems and ML engineering skills, bridging the gap between high-level frameworks and low-level hardware optimization. This guide walks you through constructing a functional INT8 quantization engine in Rust, covering core algorithms, binary serialization, and rigorous numerical testing. By the end, you will have a portfolio piece that proves you can optimize real-world compute workloads.\n\nIn the competitive landscape of ML engineering and backend systems, a standard CRUD application no longer cuts it. Hiring managers look for projects that demonstrate a deep understanding of the memory-compute tradeoff. A model quantizer—specifically a Post-Training Quantization (PTQ) engine—is the perfect side project to signal this expertise. It forces you to grapple with binary data formats, numerical stability, and hardware constraints, all while delivering a tangible tool that accelerates inference.\n\nA quantizer is not just an ML exercise; it is a systems engineering challenge. When you build one, you demonstrate a rare intersection of skills that separates junior developers from senior infrastructure architects.",
+      "tags": [
+        "machine-learning",
+        "systems-engineering",
+        "quantization",
+        "rust",
+        "performance"
+      ],
+      "scheduled_at": "2026-09-15T10:03:42Z",
       "status": "pending"
     }
   ]
