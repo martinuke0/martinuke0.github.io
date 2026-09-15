@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-15T02:04:35Z",
+  "last_scheduled_at": "2026-09-15T03:04:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -23142,6 +23142,20 @@
         "side-project"
       ],
       "scheduled_at": "2026-09-15T02:04:35Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mini GPT Training Loop with Custom Autograd: A Hands-On Portfolio Project",
+      "url": "https://martinuke0.github.io/posts/2026-09-15-mini-gpt-training-loop-with-custom-autograd-a-hands-on-portfolio-project/",
+      "social_hook": "> TL;DR — Build a minimal GPT‑style training loop from scratch using custom autograd, demonstrating core deep‑learning concepts and production‑ready patterns that hiring engineers love to see.\n\nThis post walks you through creating a bite‑size GPT‑style model from the ground up. You’ll implement a tiny custom autograd engine, wire together a transformer block, and train on a few sentences of text. The result is a runnable script you can drop on a CV, plus a clear roadmap to turn the toy into a production‑grade system.\n\nHiring managers for ML‑focused engineering roles see dozens of notebooks that import `torch` and train a pretrained model. What sets this project apart is that you own the differentiation pipeline: custom autograd, hand‑rolled parameter updates, and a minimal training loop that you can inspect line‑by‑line.",
+      "tags": [
+        "python",
+        "deep-learning",
+        "autograd",
+        "portfolio-project",
+        "ml-engineering"
+      ],
+      "scheduled_at": "2026-09-15T03:04:38Z",
       "status": "pending"
     }
   ]
