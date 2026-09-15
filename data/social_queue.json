@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-15T19:03:22Z",
+  "last_scheduled_at": "2026-09-15T20:03:22Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -23266,6 +23266,20 @@
         "Portfolio"
       ],
       "scheduled_at": "2026-09-15T19:03:22Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building a User Safety Microservice: A Hands‑On Guide",
+      "url": "https://martinuke0.github.io/posts/2026-09-15-building-a-user-safety-microservice-a-handson-guide/",
+      "social_hook": "description: \"Learn to build a production‑grade user safety microservice that validates and filters user input, with real code, Docker, and testing strategies.\"\n\nsummary: \"A practical guide to building a user safety microservice that validates and filters input, with runnable Go code and Docker.\"\n\nimage: \"/images/covers/2026-09-15-building-a-user-safety-microservice-a-handson-guide.svg\"",
+      "tags": [
+        "user-safety",
+        "microservice",
+        "go",
+        "docker",
+        "testing"
+      ],
+      "scheduled_at": "2026-09-15T20:03:22Z",
       "status": "pending"
     }
   ]
