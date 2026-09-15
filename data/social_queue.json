@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-15T10:03:42Z",
+  "last_scheduled_at": "2026-09-15T12:08:24Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -23208,6 +23208,20 @@
         "performance"
       ],
       "scheduled_at": "2026-09-15T10:03:42Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mini GPT from Scratch: NumPy RoPE + fused RMSNorm",
+      "url": "https://martinuke0.github.io/posts/2026-09-15-mini-gpt-from-scratch-numpy-rope-fused-rmsnorm/",
+      "social_hook": "We need to produce a markdown file starting with frontmatter as per spec. Must include title, date, draft, tags, description, summary, showToc, TocOpen, cover. Also must follow rules: no code fences around frontmatter. Frontmatter values: title, date \"2026-09-15T12:02:03.995\", draft: false, tags array 3-6 tags, description 140-160 chars, summary 1-2 sentences, showToc true, TocOpen false, cover.image \"/images/covers/2026-09-15-mini-gpt-from-scratch-numpy-rope-fused-rmsnorm.svg\", alt and caption etc.\n\nWe need to output the whole markdown file starting with \"---\". Then frontmatter block. Then body.\n\nWe must obey content rules: code fences must have language tag; citations with real inline links; bullet points and numbered lists; professional tone; concrete numbers; etc.",
+      "tags": [
+        "numpy",
+        "machine-learning",
+        "deep-learning",
+        "side-project",
+        "cv"
+      ],
+      "scheduled_at": "2026-09-15T12:08:24Z",
       "status": "pending"
     }
   ]
