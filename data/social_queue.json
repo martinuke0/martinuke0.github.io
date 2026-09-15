@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-15T16:02:22Z",
+  "last_scheduled_at": "2026-09-15T18:02:29Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -23236,6 +23236,21 @@
         "systems-engineering"
       ],
       "scheduled_at": "2026-09-15T16:02:22Z",
+      "status": "pending"
+    },
+    {
+      "title": "Build a Paged Attention KV-Cache Manager with LRU Eviction in Pure Python",
+      "url": "https://martinuke0.github.io/posts/2026-09-15-build-a-paged-attention-kv-cache-manager-with-lru-eviction-in-pure-python/",
+      "social_hook": "> TL;DR — Build a working paged attention KV-cache manager with LRU eviction in ~200 lines of pure Python. This project demonstrates the exact memory-management and caching patterns used in vLLM and other high-throughput LLM serving systems. It signals systems-engineering depth that separates junior applicants from senior hires.\n\nIf you have ever peeked under the hood of a modern LLM inference engine like vLLM, you have encountered the concept of paged attention: splitting the key-value (KV) cache into fixed-size pages, much like virtual memory pages in an OS, so that memory can be allocated and reclaimed without fragmentation. Implementing this from scratch — even in pure Python — teaches you more about memory hierarchies, eviction policies, and the architecture of serving systems than most tutorial series.\n\nThis guide walks you through building a complete, runnable paged attention KV-cache manager with LRU (Least Recently Used) eviction. Every section contains real code, not pseudocode. By the end, you will have a project that reads well on a CV and gives you a concrete story to tell in technical interviews.",
+      "tags": [
+        "paged-attention",
+        "kv-cache",
+        "llm-inference",
+        "python",
+        "systems-engineering",
+        "cache-eviction"
+      ],
+      "scheduled_at": "2026-09-15T18:02:29Z",
       "status": "pending"
     }
   ]
