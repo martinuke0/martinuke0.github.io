@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-16T17:08:06Z",
+  "last_scheduled_at": "2026-09-16T19:02:30Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -23468,6 +23468,21 @@
         "ann"
       ],
       "scheduled_at": "2026-09-16T17:08:06Z",
+      "status": "pending"
+    },
+    {
+      "title": "Build a User Safety System: A Hands-On Side Project That Signals Real Systems Skill",
+      "url": "https://martinuke0.github.io/posts/2026-09-16-build-a-user-safety-system-a-hands-on-side-project-that-signals-real-systems-skill/",
+      "social_hook": "> TL;DR — Build a real-time User Safety monitoring system in Go that ingests user events, evaluates them against configurable safety policies, and emits alerts when violations are detected. It combines an event pipeline, a rule engine, and an alerting layer — exactly the architecture you see in production systems at companies like Stripe and Cloudflare. The project demonstrates event-driven design, concurrency, observability, and fault tolerance, all skills that map directly to senior backend and platform engineering roles.\n\nHiring managers in backend, platform, and infrastructure engineering scan portfolios for one thing: can this person reason about systems that must be correct under load, at scale, and under failure? A \"User Safety\" project answers that question directly. Here's the specific signal it sends:\n\n- Event-driven architecture: You've built something that processes streams of events in real time. This is the foundational pattern behind Kafka pipelines, fraud detection systems, and compliance monitoring at every major fintech and SaaS company.",
+      "tags": [
+        "systems-engineering",
+        "go",
+        "safety-monitoring",
+        "portfolio",
+        "backend",
+        "event-driven"
+      ],
+      "scheduled_at": "2026-09-16T19:02:30Z",
       "status": "pending"
     }
   ]
