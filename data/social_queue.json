@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-16T20:05:52Z",
+  "last_scheduled_at": "2026-09-16T21:05:52Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -23497,6 +23497,20 @@
         "orchestration"
       ],
       "scheduled_at": "2026-09-16T20:05:52Z",
+      "status": "pending"
+    },
+    {
+      "title": "User Safety: Building Systems That Protect People",
+      "url": "https://martinuke0.github.io/posts/2026-09-16-user-safety-building-systems-that-protect-people/",
+      "social_hook": "> TL;DR — User safety is a foundational engineering discipline, not a checklist. It spans secure authentication, least-privilege access, data minimization, and transparent incident response. Teams that bake safety into their architecture ship faster, trust more, and survive breaches with far less damage.\n\nEvery software product touches human lives — financial data, health records, private conversations, identity documents. When something goes wrong, it's not just a bug; it's a person whose information is exposed, whose account is compromised, or whose trust is broken.\n\nThe industry has moved from asking \"Does it work?\" to asking \"Does it keep people safe?\" This shift isn't optional. Regulations like GDPR and CCPA, rising consumer awareness, and the sheer cost of breaches — which averaged $4.88 million per incident in 2024 according to IBM's Cost of a Data Breach report — make user safety a business imperative as much as a moral one.",
+      "tags": [
+        "security",
+        "user-safety",
+        "software-engineering",
+        "privacy",
+        "production-systems"
+      ],
+      "scheduled_at": "2026-09-16T21:05:52Z",
       "status": "pending"
     }
   ]
