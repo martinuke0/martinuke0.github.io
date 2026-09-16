@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-16T13:05:58Z",
+  "last_scheduled_at": "2026-09-16T15:02:06Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -23425,6 +23425,21 @@
         "tag5"
       ],
       "scheduled_at": "2026-09-16T13:05:58Z",
+      "status": "pending"
+    },
+    {
+      "title": "Build a Distributed Task Queue From Scratch: A Portfolio Project That Signals Senior Systems Skill",
+      "url": "https://martinuke0.github.io/posts/2026-09-16-build-a-distributed-task-queue-from-scratch-a-portfolio-project-that-signals-senior-systems-skill/",
+      "social_hook": "> TL;DR — Build a distributed task queue from scratch in Go: a broker accepting tasks over HTTP, persistent storage via BoltDB, a worker pool with retry and dead-letter queues, and a web dashboard. This project demonstrates distributed systems design, concurrency, fault tolerance, and observability — exactly the skills hiring managers screen for in senior engineering roles.\n\nA portfolio project that merely crunches numbers or renders a UI tells a hiring manager you can follow a tutorial. A project that implements a distributed task queue tells them you understand how real infrastructure works under load, how to handle failure, and how to design systems that persist state reliably. This guide walks you through building exactly that — a production-flavored task queue inspired by the architecture behind Celery and RabbitMQ, but stripped to the essentials so you can actually finish it.\n\nMost side projects demonstrate one skill: building a web app, say, or writing a data analysis script. A distributed task queue demonstrates at least five simultaneously, and each one maps directly to roles that are hard to fill.",
+      "tags": [
+        "distributed-systems",
+        "go",
+        "portfolio-project",
+        "task-queue",
+        "systems-engineering",
+        "rust"
+      ],
+      "scheduled_at": "2026-09-16T15:02:06Z",
       "status": "pending"
     }
   ]
