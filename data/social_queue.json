@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-16T07:03:23Z",
+  "last_scheduled_at": "2026-09-16T09:02:16Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -23368,6 +23368,21 @@
         "cloud-native"
       ],
       "scheduled_at": "2026-09-16T07:03:23Z",
+      "status": "pending"
+    },
+    {
+      "title": "Build an End-to-End RAG System for Your Portfolio",
+      "url": "https://martinuke0.github.io/posts/2026-09-16-build-an-end-to-end-rag-system-for-your-portfolio/",
+      "social_hook": "description: \"A practical guide to building a retrieval-augmented generation system with FastAPI, LangChain, and OpenAI, perfect for showcasing real systems skills to hiring managers.\"\n\nsummary: \"Learn to build a production-style RAG pipeline that demonstrates end-to-end systems engineering, from data ingestion to API serving.\"\n\nimage: \"/images/covers/2026-09-16-build-an-end-to-end-rag-system-for-your-portfolio.svg\"",
+      "tags": [
+        "RAG",
+        "Python",
+        "FastAPI",
+        "LangChain",
+        "OpenAI",
+        "VectorDB"
+      ],
+      "scheduled_at": "2026-09-16T09:02:16Z",
       "status": "pending"
     }
   ]
