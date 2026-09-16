@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-16T11:03:11Z",
+  "last_scheduled_at": "2026-09-16T12:03:11Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -23397,6 +23397,20 @@
         "Side Project"
       ],
       "scheduled_at": "2026-09-16T11:03:11Z",
+      "status": "pending"
+    },
+    {
+      "title": "Hands‑On Build Guide: Pure‑Python Safetensors Parser & Weight Shard Assembler with mmap Lazy Loading",
+      "url": "https://martinuke0.github.io/posts/2026-09-16-handson-build-guide-purepython-safetensors-parser-weight-shard-assembler-with-mmap-lazy-loading/",
+      "social_hook": "> TL;DR — This post walks you through building a pure‑Python safetensors parser that leverages mmap for lazy‑loading weight shards. You’ll end up with a runnable module, a test suite, and a clear upgrade path to production‑grade model serving.\n\nBuilding a personal portfolio project that doubles as a demonstrable systems‑engineering exercise is a proven way to catch a hiring manager’s eye. In this guide you’ll create a pure‑Python safetensors parser and weight‑shard assembler that uses `mmap` for lazy loading. The result is a lightweight module you can import, test, and later integrate into model‑serving pipelines. Along the way you’ll touch on memory‑mapped I/O, binary‑format parsing, and production‑ready patterns such as observability and fault tolerance.\n\n- Low‑level I/O expertise – Working with `mmap` and binary headers shows you can operate close to the metal, a skill valued for ML infrastructure, high‑performance computing, and embedded systems roles.",
+      "tags": [
+        "python",
+        "safetensors",
+        "mmap",
+        "cv",
+        "machine-learning"
+      ],
+      "scheduled_at": "2026-09-16T12:03:11Z",
       "status": "pending"
     }
   ]
