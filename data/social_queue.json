@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-16T19:02:30Z",
+  "last_scheduled_at": "2026-09-16T20:05:52Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -23483,6 +23483,20 @@
         "event-driven"
       ],
       "scheduled_at": "2026-09-16T19:02:30Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Distributed Workflows with Temporal: State Management at Scale",
+      "url": "https://martinuke0.github.io/posts/2026-09-16-architecting-distributed-workflows-with-temporal-state-management-at-scale/",
+      "social_hook": "> TL;DR — Temporal turns distributed workflows into long-running functions by encoding business logic as code, providing durable execution, exactly-once retries, and built-in state visibility so engineers can abandon brittle retry loops and manual saga orchestration. Its persistence-first model means no more “lost in transit” orders or silent data inconsistencies at scale.\n\nWorking engineers know the pain of distributed state all too well. When a microservice process crashes mid-transaction, or a network partition splits your cluster, the “what happens next” question becomes a game of whack‑a‑mole with retries, idempotency keys, and compensation transactions. Temporal steps into this breach not as a magic bullet, but as a persistence‑first execution engine that turns workflow logic into long‑running, resumable code. In this post, we’ll walk through why distributed state management has become a first‑order concern, how Temporal’s model differs from traditional orchestration, and which production patterns actually work when you’re scaling to thousands of concurrent workflows.\n\nIn a typical service‑oriented architecture, a business process—say, fulfilling an order—spans multiple HTTP calls, database updates, and external API invocations. Each step implicitly carries state: “order received”, “payment authorized”, “shipped”. When things go wrong, you’re left with a few anti‑patterns:",
+      "tags": [
+        "temporal",
+        "distributed-workflows",
+        "state-management",
+        "microservices",
+        "orchestration"
+      ],
+      "scheduled_at": "2026-09-16T20:05:52Z",
       "status": "pending"
     }
   ]
