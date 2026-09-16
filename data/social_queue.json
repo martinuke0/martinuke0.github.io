@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-16T16:08:06Z",
+  "last_scheduled_at": "2026-09-16T17:08:06Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -23454,6 +23454,20 @@
         "cv"
       ],
       "scheduled_at": "2026-09-16T16:08:06Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building a Scalable Approximate Nearest Neighbor Search Service for Your Portfolio",
+      "url": "https://martinuke0.github.io/posts/2026-09-16-building-a-scalable-approximate-nearest-neighbor-search-service-for-your-portfolio/",
+      "social_hook": "> TL;DR — In this post we build a production‑grade ANN search API with Go and FAISS, containerize it with Docker, and deploy it on Kubernetes, giving you a concrete, runnable project that signals distributed‑systems skill to hiring managers.\n\nA portfolio project that demonstrates you can design a real‑world, high‑performance service stands out far more than a toy CRUD app. Hiring managers on LinkedIn and in technical interviews look for evidence that you understand system boundaries, data structures that scale, and operational concerns such as deployment, observability, and fault tolerance. The service we’ll create—an approximate nearest‑neighbor (ANN) search API—combines a modern vector‑search library (FAISS), a production‑grade language (Go), containerisation (Docker) and orchestration (Kubernetes) into a single, end‑to‑end deliverable. You’ll finish the guide with a working API, Docker image, Helm‑ready manifests, and a roadmap of upgrades that turn the prototype into a senior‑level system.\n\nEmployers scanning CVs for engineering talent want to see three categories of signal: technical depth, system‑design maturity, and production‑ready habits.",
+      "tags": [
+        "go",
+        "faiss",
+        "docker",
+        "kubernetes",
+        "ann"
+      ],
+      "scheduled_at": "2026-09-16T17:08:06Z",
       "status": "pending"
     }
   ]
