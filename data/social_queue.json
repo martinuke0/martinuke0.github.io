@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-16T01:03:17Z",
+  "last_scheduled_at": "2026-09-16T02:03:17Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -23309,6 +23309,21 @@
         "portfolio"
       ],
       "scheduled_at": "2026-09-16T01:03:17Z",
+      "status": "pending"
+    },
+    {
+      "title": "Check Against Constraints: How Production Systems Enforce Invariants",
+      "url": "https://martinuke0.github.io/posts/2026-09-16-check-against-constraints-how-production-systems-enforce-invariants/",
+      "social_hook": "> TL;DR — Constraint checking is the practice of ensuring a system never transitions into an invalid state. The most reliable production systems enforce constraints at every layer: the database, the application, and the governance pipeline. Skipping any layer is how you get the outages that make headlines.\n\nMost engineering teams treat validation as an afterthought — something bolted on to satisfy a product manager's request for \"required fields.\" But the teams that ship systems handling millions of transactions per day think about constraints differently. They treat them as first-class architectural citizens, enforced at every boundary, tested as rigorously as business logic, and monitored with the same urgency as latency p99s.\n\nLet's examine how constraint checking works across the stack, where it fails, and what the best teams do differently.",
+      "tags": [
+        "software-engineering",
+        "postgresql",
+        "validation",
+        "policy-as-code",
+        "architecture",
+        "production-systems"
+      ],
+      "scheduled_at": "2026-09-16T02:03:17Z",
       "status": "pending"
     }
   ]
