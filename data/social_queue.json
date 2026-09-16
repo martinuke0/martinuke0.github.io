@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-16T06:03:23Z",
+  "last_scheduled_at": "2026-09-16T07:03:23Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -23353,6 +23353,21 @@
         "machine-learning"
       ],
       "scheduled_at": "2026-09-16T06:03:23Z",
+      "status": "pending"
+    },
+    {
+      "title": "Designing Multi-Cluster Kubernetes Operators: Seamless Cloud Orchestration Across Hybrid Environments",
+      "url": "https://martinuke0.github.io/posts/2026-09-16-designing-multi-cluster-kubernetes-operators-seamless-cloud-orchestration-across-hybrid-environments/",
+      "social_hook": "> TL;DR — Multi-cluster Kubernetes operators are the missing layer between declarative intent and distributed reality. This post covers the architecture patterns, controller design strategies, and production hardening techniques needed to build operators that work reliably across hybrid environments — spanning AWS EKS, Azure AKS, on-prem OpenShift, and bare metal — without fragmenting your operational model.\n\nMost Kubernetes operators are built with a single-cluster assumption baked in. They watch a namespace, reconcile a custom resource, and manage pods on the local API server. This works beautifully until your organization needs to deploy a managed database across three regions, fail over a streaming pipeline from AWS to Azure, or keep a staging cluster in sync with production on-premise.\n\n- API server affinity: A controller using the default `client-go` configuration connects to a single kubeconfig context. There is no built-in awareness of sibling clusters.",
+      "tags": [
+        "kubernetes",
+        "operators",
+        "multi-cluster",
+        "hybrid-cloud",
+        "infrastructure-as-code",
+        "cloud-native"
+      ],
+      "scheduled_at": "2026-09-16T07:03:23Z",
       "status": "pending"
     }
   ]
