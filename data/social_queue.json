@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-15T22:02:47Z",
+  "last_scheduled_at": "2026-09-16T01:03:17Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -23295,6 +23295,20 @@
         "portfolio-project"
       ],
       "scheduled_at": "2026-09-15T22:02:47Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building a BPE Tokenizer from Scratch in Pure Python",
+      "url": "https://martinuke0.github.io/posts/2026-09-16-building-a-bpe-tokenizer-from-scratch-in-pure-python/",
+      "social_hook": "description: \"Learn to build a byte‑pair encoding tokenizer in pure Python, with encode/decode, vocabulary learning, and merge‑based subword segmentation for your portfolio.\"\n\nsummary: \"A hands‑on guide to implementing a byte‑pair encoding tokenizer in pure Python, covering vocabulary learning, encode/decode, and merge‑based subword segmentation.\"\n\nimage: \"/images/covers/2026-09-16-building-a-bpe-tokenizer-from-scratch-in-pure-python.svg\"",
+      "tags": [
+        "bpe",
+        "tokenization",
+        "python",
+        "nlp",
+        "portfolio"
+      ],
+      "scheduled_at": "2026-09-16T01:03:17Z",
       "status": "pending"
     }
   ]
