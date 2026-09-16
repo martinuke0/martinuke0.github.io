@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-16T02:03:17Z",
+  "last_scheduled_at": "2026-09-16T03:05:25Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -23324,6 +23324,20 @@
         "production-systems"
       ],
       "scheduled_at": "2026-09-16T02:03:17Z",
+      "status": "pending"
+    },
+    {
+      "title": "Inside NCCL Topologies: Collective Algorithms for Multi-GPU Training",
+      "url": "https://martinuke0.github.io/posts/2026-09-16-inside-nccl-topologies-collective-algorithms-for-multi-gpu-training/",
+      "social_hook": "> TL;DR — NCCL’s topology-aware collective algorithms (ring-allreduce, tree-based broadcast/reduce, hierarchical patterns) determine the bottleneck in multi-GPU training. By matching ring width to NVLink domains, overlapping communication with computation, and leveraging GPU Direct, practitioners can halve training time on 8+ GPU nodes. This post walks through the algorithms, hardware-aware patterns, and benchmark-driven tuning strategies that separate prototype scripts from production-grade distributed workloads.\n\nMulti-GPU training has become the default for large model experimentation, but the performance ceiling is often set by how efficiently GPUs exchange gradients. NCCL (NVIDIA Collective Communications Library) abstracts this exchange into a set of collective operations—all-reduce, broadcast, reduce, scatter/gather—each of which can be scheduled across different topologies. The choice of topology isn’t just a parameter; it’s a hardware-aware decision that interacts with NVLink bandwidth, PCIe lane allocation, and multi-node InfiniBand/Ethernet fabrics. In this post, we’ll dissect the core collective algorithms NCCL ships with, explain how topology shapes their performance, and give you a practical playbook for matching algorithms to your cluster topology.\n\nBefore diving into topologies, we need to ground the discussion in the operations NCCL exposes. The most fundamental is all-reduce, which combines gradients from every participant and distributes the result back to all. In a training step, every GPU computes a local gradient batch, and all-reduce averages them across the data-parallel group. NCCL exposes several variants: `ncclAllReduce`, `ncclReduce`, `ncclBroadcast`, `ncclScatter`, and `ncclGather`.",
+      "tags": [
+        "distributed-training",
+        "nccl",
+        "multi-gpu",
+        "pytorch",
+        "collective-communication"
+      ],
+      "scheduled_at": "2026-09-16T03:05:25Z",
       "status": "pending"
     }
   ]
