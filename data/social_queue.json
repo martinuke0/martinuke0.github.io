@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-16T15:02:06Z",
+  "last_scheduled_at": "2026-09-16T16:08:06Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -23440,6 +23440,20 @@
         "rust"
       ],
       "scheduled_at": "2026-09-16T15:02:06Z",
+      "status": "pending"
+    },
+    {
+      "title": "Hands‑On Build Guide: Page‑Transformer Inference with Greedy KV‑Cache Eviction and Paged Attention in Numpy",
+      "url": "https://martinuke0.github.io/posts/2026-09-16-handson-build-guide-pagetransformer-inference-with-greedy-kvcache-eviction-and-paged-attention-in-numpy/",
+      "social_hook": "> TL;DR — This post walks you through building a minimal, runnable page‑transformer inference engine in NumPy, complete with greedy KV‑cache eviction and paged attention. You’ll get a concrete project that demonstrates systems‑level thinking, cache‑aware design, and attention‑optimization patterns hiring managers love.\n\nA portfolio project that doubles as a mini‑engine is one of the fastest ways to signal to hiring managers that you understand how production‑grade inference works under the hood. In this post we’ll build a page‑transformer from the ground up using only NumPy. The core ideas are:\n\n Paged attention** – store keys and values in fixed‑size pages, loading only the pages needed for a given query.",
+      "tags": [
+        "numpy",
+        "ml",
+        "inference",
+        "transformers",
+        "cv"
+      ],
+      "scheduled_at": "2026-09-16T16:08:06Z",
       "status": "pending"
     }
   ]
