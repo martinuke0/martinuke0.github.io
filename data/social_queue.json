@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-16T22:05:52Z",
+  "last_scheduled_at": "2026-09-16T23:05:52Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -23526,6 +23526,20 @@
         "deep-learning"
       ],
       "scheduled_at": "2026-09-16T22:05:52Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building a Mini GPT with ZeRO Stage 2 from Scratch in PyTorch",
+      "url": "https://martinuke0.github.io/posts/2026-09-16-building-a-mini-gpt-with-zero-stage-2-from-scratch-in-pytorch/",
+      "social_hook": "> TL;DR — This guide walks you through building a mini GPT training loop from scratch in pure PyTorch, implementing ZeRO Optimizer Stage 2 to shard optimizer states and gradients, and gradient accumulation to simulate larger batch sizes. By the end, you will have a runnable, distributed training system that demonstrates deep systems engineering and large-scale ML infrastructure skills.\n\nWhen hiring managers look at a portfolio, they want to see more than just a notebook that trains a model on a single GPU. They want to see evidence that you understand the systems bottlenecks that arise when scaling machine learning. Building a mini GPT training loop with ZeRO Optimizer Stage 2 and gradient accumulation from scratch in pure PyTorch is the perfect project to signal that you can bridge the gap between model architecture and distributed systems engineering.\n\nThis project forces you to confront memory management, inter-process communication, and numerical stability—concepts that separate a junior data scientist from a senior ML systems engineer.",
+      "tags": [
+        "pytorch",
+        "distributed-training",
+        "deep-learning",
+        "systems-engineering",
+        "transformer"
+      ],
+      "scheduled_at": "2026-09-16T23:05:52Z",
       "status": "pending"
     }
   ]
