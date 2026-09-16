@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-16T21:05:52Z",
+  "last_scheduled_at": "2026-09-16T22:05:52Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -23511,6 +23511,21 @@
         "production-systems"
       ],
       "scheduled_at": "2026-09-16T21:05:52Z",
+      "status": "pending"
+    },
+    {
+      "title": "Build a Speculative Decoding Engine: A Portfolio Project That Signals Real Systems Skill",
+      "url": "https://martinuke0.github.io/posts/2026-09-16-build-a-speculative-decoding-engine-a-portfolio-project-that-signals-real-systems-skill/",
+      "social_hook": "> TL;DR — Speculative decoding is the technique that lets a small, fast model generate candidate tokens while a larger model verifies them in parallel, effectively doubling throughput without sacrificing quality. Building a full speculative decoding engine in pure Python — draft model, verifier, token-level acceptance/rejection logic — is one of the most impressive portfolio projects you can undertake. It signals systems architecture skill, distributed systems thinking, and deep ML engineering knowledge to any hiring manager.\n\nSpeculative decoding isn't a toy concept. It's the core optimization behind NVIDIA's TensorRT-LLM, vLLM's speculative decoding support, and DeepSeek's inference pipeline. The idea is simple in principle: a draft model proposes K tokens at once, the verifier evaluates all of them in a single forward pass, and accepted tokens are committed while rejected ones are re-sampled. The math guarantees that the output distribution matches the target model's, so you get speed with zero quality loss.\n\nWhat makes this project genuinely hard — and genuinely impressive — is that the naive implementation hides layers of complexity: token alignment, probability recalculation, KV-cache management, and the handshake protocol between draft and verifier. Getting all of that right in pure Python means you understand inference engines at a level most candidates never touch.",
+      "tags": [
+        "speculative-decoding",
+        "python",
+        "llm-inference",
+        "systems-engineering",
+        "portfolio-project",
+        "deep-learning"
+      ],
+      "scheduled_at": "2026-09-16T22:05:52Z",
       "status": "pending"
     }
   ]
