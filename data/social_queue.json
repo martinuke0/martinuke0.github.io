@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-16T09:02:16Z",
+  "last_scheduled_at": "2026-09-16T11:03:11Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -23383,6 +23383,20 @@
         "VectorDB"
       ],
       "scheduled_at": "2026-09-16T09:02:16Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building a Mini LLM Inference Engine in Pure Python",
+      "url": "https://martinuke0.github.io/posts/2026-09-16-building-a-mini-llm-inference-engine-in-pure-python/",
+      "social_hook": "> TL;DR — Build a mini LLM inference engine in pure Python to demonstrate deep systems engineering skills. By implementing PagedAttention, prefix-aware block refcounting, and token-budget LRU KV eviction, you signal to hiring managers that you understand memory management, distributed systems, and production-grade architecture, not just model architectures.\n\nMost engineers building portfolio projects focus on fine-tuning models or building chat interfaces with APIs. While understandable, these projects rarely demonstrate the systems-level thinking that hiring managers covet for infrastructure and backend roles. To truly stand out, you need a project that proves you understand the plumbing beneath the model: memory management, caching strategies, and computational scheduling.\n\nA mini LLM inference engine built from scratch is the ultimate systems project. It forces you to confront the reality of the Key-Value (KV) cache—the primary bottleneck in LLM serving—and how to manage it efficiently. By implementing PagedAttention, prefix-aware block refcounting, and token-budget LRU KV eviction in pure Python, you bridge the gap between academic ML knowledge and production systems engineering.",
+      "tags": [
+        "LLM Inference",
+        "PagedAttention",
+        "Python",
+        "Systems Engineering",
+        "Side Project"
+      ],
+      "scheduled_at": "2026-09-16T11:03:11Z",
       "status": "pending"
     }
   ]
