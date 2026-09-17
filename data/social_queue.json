@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-17T14:08:07Z",
+  "last_scheduled_at": "2026-09-17T15:08:58Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -23695,6 +23695,20 @@
         "opa"
       ],
       "scheduled_at": "2026-09-17T14:08:07Z",
+      "status": "pending"
+    },
+    {
+      "title": "Byte-Level BPE Tokenizer: A Hands-On Build Guide for Your CV",
+      "url": "https://martinuke0.github.io/posts/2026-09-17-byte-level-bpe-tokenizer-a-hands-on-build-guide-for-your-cv/",
+      "social_hook": "> TL;DR — Build a byte-level BPE tokenizer from scratch with regex pre-tokenization, complete with runnable Python code and production upgrade paths. Signal hands-on NLP systems engineering skill to hiring managers without relying on opaque libraries.\n\nBuilding a tokenizer from scratch is one of the most effective portfolio projects for engineers targeting NLP, ML infrastructure, or devtools roles. Hiring managers see a candidate who understands the data pipeline's foundation, can optimize low-level operations, and ships reproducible code — not just someone who patches `transformers.AutoTokenizer`. This guide walks you through building a production-flavored, byte-level BPE tokenizer with regex pre-tokenization, complete with runnable Python, testing, and a roadmap to senior-level systems maturity.\n\nA byte-level BPE tokenizer signals three categories of skill that hiring managers actively recruit for:",
+      "tags": [
+        "bpe",
+        "tokenizer",
+        "nlp",
+        "python",
+        "side-project"
+      ],
+      "scheduled_at": "2026-09-17T15:08:58Z",
       "status": "pending"
     }
   ]
