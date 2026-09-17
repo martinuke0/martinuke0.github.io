@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-17T13:04:24Z",
+  "last_scheduled_at": "2026-09-17T14:08:07Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -23681,6 +23681,20 @@
         "Systems Engineering"
       ],
       "scheduled_at": "2026-09-17T13:04:24Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Kubernetes Multi-Tenant Admission Control with Kyverno and OPA Policies",
+      "url": "https://martinuke0.github.io/posts/2026-09-17-architecting-kubernetes-multi-tenant-admission-control-with-kyverno-and-opa-policies/",
+      "social_hook": "> TL;DR — Multi-tenant Kubernetes clusters require fine-grained admission control to enforce namespace isolation, resource quotas, and label ownership at create/update time. By combining Kyverno’s native Kubernetes policy engine with Open Policy Agent Gatekeeper’s constraint-based validation, teams can achieve composable, auditable, and performant tenant isolation without mutating core API objects. This post walks through the architecture, policy patterns, and operational playbooks for deploying multi-tenant admission control at scale.\n\nBuilding a multi-tenant Kubernetes platform demands that each tenant’s workloads are invisible, restricted, and governed by organizational policy. Admission controllers sit at the gateway of the API server, making them the natural enforcement point for tenant boundaries. Unlike namespace-scoped RBAC or deprecated Pod Security Policies, modern admission control with Kyverno and OPA provides declarative, version-controlled policies that integrate directly into CI/CD pipelines. In this article, we’ll explore how to architect a layered defense: Kyverno for namespace lifecycle and label propagation, OPA Gatekeeper for resource shape and constraint enforcement, and the operational patterns that keep policies maintainable across dozens or hundreds of tenants.\n\nIn a typical Kubernetes cluster, multiple teams or customers share the same control plane. Without explicit admission control, a single tenant can inadvertently (or maliciously) consume all available compute, bypass namespace isolation, or deploy resources that violate organizational security standards. The Kubernetes API server processes requests in order: authentication, authorization, then admission. By inserting policies into the admission phase, you gain the ability to reject or mutate requests before they persist, ensuring that tenant boundaries are enforced at the point of creation or modification.",
+      "tags": [
+        "kubernetes",
+        "security",
+        "multi-tenant",
+        "kyverno",
+        "opa"
+      ],
+      "scheduled_at": "2026-09-17T14:08:07Z",
       "status": "pending"
     }
   ]
