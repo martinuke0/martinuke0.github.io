@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-17T18:05:32Z",
+  "last_scheduled_at": "2026-09-17T19:05:32Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -23723,6 +23723,21 @@
         "portfolio"
       ],
       "scheduled_at": "2026-09-17T18:05:32Z",
+      "status": "pending"
+    },
+    {
+      "title": "Build a Pure Python IVF Index with Product Quantization and Residual Vector Quantization",
+      "url": "https://martinuke0.github.io/posts/2026-09-17-build-a-pure-python-ivf-index-with-product-quantization-and-residual-vector-quantization/",
+      "social_hook": "> TL;DR — Build a pure Python vector search engine from scratch using Inverted File Index (IVF) for partitioning, Product Quantization (PQ) for compression, and Residual Vector Quantization (RVQ) for refinement. This project demonstrates systems-level understanding of indexing, compression, and approximate nearest neighbor search — exactly the skills hiring managers look for in ML infrastructure and search engineering roles.\n\nIf you have read about vector databases like Milvus, Qdrant, or Weaviate, you know they all rely on the same fundamental building blocks: a way to partition the vector space, a way to compress vectors so they fit in memory, and a way to search them without scanning every single one. Most tutorials stop at using an off-the-shelf library like FAISS or Annoy. This guide goes the other direction — you will build each component from scratch in pure Python, with no external vector library dependencies beyond NumPy. The result is a portfolio piece that proves you understand not just how vector search works, but why it works, and how to engineer it at scale.\n\nHiring managers scanning portfolio projects on LinkedIn or GitHub see a lot of \"I fine-tuned BERT\" or \"I deployed a Flask API.\" This project signals something different. It demonstrates:",
+      "tags": [
+        "vector search",
+        "quantization",
+        "python",
+        "systems engineering",
+        "machine learning infrastructure",
+        "side project"
+      ],
+      "scheduled_at": "2026-09-17T19:05:32Z",
       "status": "pending"
     }
   ]
