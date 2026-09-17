@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-17T05:07:34Z",
+  "last_scheduled_at": "2026-09-17T06:07:34Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -23597,6 +23597,20 @@
         "performance"
       ],
       "scheduled_at": "2026-09-17T05:07:34Z",
+      "status": "pending"
+    },
+    {
+      "title": "Pure‑Python Adaptive Nucleus Sampler: A Portfolio Project",
+      "url": "https://martinuke0.github.io/posts/2026-09-17-purepython-adaptive-nucleus-sampler-a-portfolio-project/",
+      "social_hook": "description: \"A practical guide to building a pure‑Python adaptive nucleus sampler that tunes temperature and top‑p from token entropy, perfect for a portfolio.\"\n\nsummary: \"Implement an adaptive nucleus sampler in Python that adjusts temperature and top‑p from token entropy, demonstrating systems thinking for hiring managers.\"\n\nimage: \"/images/covers/2026-09-17-purepython-adaptive-nucleus-sampler-a-portfolio-project.svg\"",
+      "tags": [
+        "python",
+        "llm",
+        "sampling",
+        "entropy",
+        "portfolio"
+      ],
+      "scheduled_at": "2026-09-17T06:07:34Z",
       "status": "pending"
     }
   ]
