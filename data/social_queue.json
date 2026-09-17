@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-17T10:10:21Z",
+  "last_scheduled_at": "2026-09-17T12:04:19Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -23653,6 +23653,20 @@
         "cv"
       ],
       "scheduled_at": "2026-09-17T10:10:21Z",
+      "status": "pending"
+    },
+    {
+      "title": "Designing a Lakehouse ETL Architecture with Apache Iceberg and dbt Core",
+      "url": "https://martinuke0.github.io/posts/2026-09-17-designing-a-lakehouse-etl-architecture-with-apache-iceberg-and-dbt-core/",
+      "social_hook": "> TL;DR — Apache Iceberg brings table‑like features (schema evolution, time‑travel, hidden partitioning) to object storage, and dbt Core lets you model transformations as SQL. Together they enable a modular, version‑controlled lakehouse ETL that is both scalable and observable.\n\nA lakehouse merges the best of data warehouses and data lakes: you keep raw files in cheap object storage (S3, GCS, Azure Blob) while gaining schema enforcement, ACID transactions, and query‑engine optimizations. Apache Iceberg is the open‑table format that makes this possible, and dbt Core provides a lightweight, code‑first way to transform data using SQL and Jinja. In this post we’ll walk through a complete ETL architecture that lands raw data into Iceberg tables, then uses dbt to shape, test, and document the analytics layer. We’ll cover Iceberg fundamentals, dbt integration patterns, production‑ready architecture, performance tuning, and practical takeaways you can adopt today.\n\nTraditional ETL pipelines often rely on a central data warehouse (e.g., Snowflake, Redshift) that ingests data via costly extract‑load steps. When data volumes grow, costs rise sharply and flexibility shrinks. A lakehouse flips the model: raw landing zones stay in object storage, and the “warehouse” is simply a query engine (Trino, Spark, Dremio, etc.) that reads the open table format.",
+      "tags": [
+        "data-engineering",
+        "lakehouse",
+        "apache-iceberg",
+        "dbt",
+        "etl"
+      ],
+      "scheduled_at": "2026-09-17T12:04:19Z",
       "status": "pending"
     }
   ]
