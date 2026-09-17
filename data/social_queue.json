@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-17T09:10:21Z",
+  "last_scheduled_at": "2026-09-17T10:10:21Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -23639,6 +23639,20 @@
         "devops"
       ],
       "scheduled_at": "2026-09-17T09:10:21Z",
+      "status": "pending"
+    },
+    {
+      "title": "Hands‑On Build: Mixture‑of‑Experts Top‑K Gating Router in Pure Python",
+      "url": "https://martinuke0.github.io/posts/2026-09-17-handson-build-mixtureofexperts-topk-gating-router-in-pure-python/",
+      "social_hook": "> TL;DR — This post walks you through building a pure‑Python mixture‑of‑experts (MoE) router that selects the top‑k experts per token and adds an auxiliary load‑balancing loss. You’ll get runnable code, a clear architecture, and a roadmap to turn the toy into a production‑grade system that hiring managers will notice.\n\nBuilding a portfolio project that doubles as a signal of systems‑level ML engineering skill is rare. Most CV‑side projects stop at “train a model on MNIST” or “plot a learning curve.” This guide moves beyond toy notebooks and gives you a concrete, runnable implementation of a mixture‑of‑experts (MoE) top‑k gating router with auxiliary load‑balancing loss—pure Python, no heavy frameworks required. The code fits in a single file, runs on a laptop CPU in seconds, and can be extended with the upgrades listed later. Hiring managers see a working engineer who understands how routing decisions are made, why load‑balancing matters, and how to evolve a prototype into a scalable component.\n\n- Systems‑level ML knowledge: You demonstrate understanding of gating networks, sparsemax/top‑k selection, and auxiliary loss functions that keep expert usage balanced—core concepts in large‑scale MoE systems (Switch Transformer, GShard, DeepSpeed MoE).",
+      "tags": [
+        "python",
+        "machine-learning",
+        "systems",
+        "mixture-of-experts",
+        "cv"
+      ],
+      "scheduled_at": "2026-09-17T10:10:21Z",
       "status": "pending"
     }
   ]
