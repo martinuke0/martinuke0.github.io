@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-17T15:08:58Z",
+  "last_scheduled_at": "2026-09-17T18:05:32Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -23709,6 +23709,20 @@
         "side-project"
       ],
       "scheduled_at": "2026-09-17T15:08:58Z",
+      "status": "pending"
+    },
+    {
+      "title": "Build a User Safety & Consent Management Service with Go",
+      "url": "https://martinuke0.github.io/posts/2026-09-17-build-a-user-safety-consent-management-service-with-go/",
+      "social_hook": "> TL;DR — This guide walks you through building a self-hosted User Safety & Consent service in Go, complete with an HTTP API, Postgres persistence, automated data-pruning, Prometheus metrics, and Docker containerization. It’s a runnable, extensible project you can commit to GitHub, demo in interviews, and immediately extend with persistence, scaling, and observability patterns used at senior engineering levels.\n\nIf you’re looking for a side project that doubles as a signal to hiring managers, this one hits the sweet spot: it’s a complete, running system you can build in an afternoon, but it also maps directly to the kind of backend+infrastructure problems you’ll solve on the job. You’ll practice API design, database modeling, containerized deployment, and observability — all while producing a concrete artifact (a URL, a Docker image, a set of metrics) you can point to and say, “Here’s something I built end-to-end.”\n\nHiring managers for backend, SRE, and full-stack roles see dozens of “TODO list” clones. What sets this project apart is that it’s not a toy; it’s a miniature production system that demonstrates several high-value skill clusters simultaneously:",
+      "tags": [
+        "go",
+        "backend",
+        "devops",
+        "privacy",
+        "portfolio"
+      ],
+      "scheduled_at": "2026-09-17T18:05:32Z",
       "status": "pending"
     }
   ]
