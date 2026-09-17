@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-17T03:03:54Z",
+  "last_scheduled_at": "2026-09-17T04:07:34Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -23568,6 +23568,21 @@
         "portfolio"
       ],
       "scheduled_at": "2026-09-17T03:03:54Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building a GPTQ Weight Quantization Engine from Scratch: Fisher Scoring & Mixed-Precision Calibration",
+      "url": "https://martinuke0.github.io/posts/2026-09-17-building-a-gptq-weight-quantization-engine-from-scratch-fisher-scoring-mixed-precision-calibration/",
+      "social_hook": "> TL;DR — GPTQ reduces large language model weights to int4/int8 using Fisher information to prioritize important parameters, and this guide walks you through building a functional quantization engine from scratch in Python with mixed-precision calibration, ready to run, test, and extend for portfolio impact.\n\nBuilding a GPTQ-inspired quantization engine from scratch is one of the most effective portfolio projects for engineers targeting ML systems, model optimization, or infrastructure roles. Hiring managers see a finished, runnable Python implementation that demonstrates your ability to bridge theory and production code: you understand Fisher information as a practical importance metric, you can implement mixed-precision quantization without relying on black‑box libraries, and you’ve thought through calibration, error analysis, and extensibility. Unlike a toy notebook, this project has real numerical edge cases (scale collapse, outlier mishandling), requires disciplined debugging, and can be extended with persistence, distributed computing, and observability — exactly the kind of incremental depth that signals senior‑level readiness.\n\nThis project signals three categories of skill that hiring managers actively recruit for:",
+      "tags": [
+        "gptq",
+        "quantization",
+        "machine-learning",
+        "python",
+        "systems-engineering",
+        "deep-learning"
+      ],
+      "scheduled_at": "2026-09-17T04:07:34Z",
       "status": "pending"
     }
   ]
