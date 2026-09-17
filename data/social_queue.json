@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-17T04:07:34Z",
+  "last_scheduled_at": "2026-09-17T05:07:34Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -23583,6 +23583,20 @@
         "deep-learning"
       ],
       "scheduled_at": "2026-09-17T04:07:34Z",
+      "status": "pending"
+    },
+    {
+      "title": "Build a BPE Tokenizer from Scratch: Parallel Vocab Builder, Priority‑Heap Merge Scheduler, Subword Regularization, and Streaming Encoder with LRU Caching",
+      "url": "https://martinuke0.github.io/posts/2026-09-17-build-a-bpe-tokenizer-from-scratch-parallel-vocab-builder-priorityheap-merge-scheduler-subword-regularization-and-streaming-encoder-with-lru-caching/",
+      "social_hook": "title: \"Build a BPE Tokenizer from Scratch: Parallel Vocab Builder, Priority‑Heap Merge Scheduler, Subword Regularization, and Streaming Encoder with LRU Caching\"\n\ndescription: \"Implement a high‑throughput BPE tokenizer with parallel vocab building, heap‑based merge scheduling, subword regularization, and LRU‑cached streaming encoder.\"\n\nsummary: \"A hands‑on guide to building a production‑grade BPE tokenizer that demonstrates parallel processing, algorithmic scheduling, and caching strategies for hiring managers.\"",
+      "tags": [
+        "tokenization",
+        "BPE",
+        "systems",
+        "Python",
+        "performance"
+      ],
+      "scheduled_at": "2026-09-17T05:07:34Z",
       "status": "pending"
     }
   ]
