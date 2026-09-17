@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-17T06:07:34Z",
+  "last_scheduled_at": "2026-09-17T07:08:11Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -23611,6 +23611,20 @@
         "portfolio"
       ],
       "scheduled_at": "2026-09-17T06:07:34Z",
+      "status": "pending"
+    },
+    {
+      "title": "Deep Dive into Kubernetes eBPF Network Policy Enforcement with Cilium",
+      "url": "https://martinuke0.github.io/posts/2026-09-17-deep-dive-into-kubernetes-ebpf-network-policy-enforcement-with-cilium/",
+      "social_hook": "> TL;DR — Cilium’s eBPF‑based data plane delivers wire‑speed NetworkPolicy enforcement inside Kubernetes, cutting latency from dozens of microseconds to sub‑microsecond ranges and replacing iptables with policy‑as‑code. It provides L3/L4 and L7 visibility, automatic service‑mesh integration, and observability hooks that feed metrics into Prometheus without adding a proxy hop.\n\nKubernetes’ native NetworkPolicy resource gives you a declarative way to control pod‑to‑pod traffic, but the default implementation relies on iptables rules that become a bottleneck at scale. Cilium, an open‑source CNI built on eBPF, steps in to replace those rules with kernel‑level programs that inspect and forward packets at the speed of the network interface. In this post we’ll walk through Cilium’s architecture, see how eBPF compiles NetworkPolicy into kernel hooks, explore the policy types you can express, and finish with production‑ready patterns and takeaways you can apply today.\n\nCilium consists of two primary components: the Cilium agent running on every node and the Cilium operator (often deployed as a Deployment) that stores and reconciles the desired state. The agent watches the Kubernetes API for Custom Resource definitions such as `CiliumNetworkPolicy`, `CiliumClusterwideNetworkPolicy`, and `CiliumService`. When a resource changes, the agent compiles the policy into eBPF bytecode and attaches it to the appropriate kernel hooks.",
+      "tags": [
+        "kubernetes",
+        "ebpf",
+        "cilium",
+        "network-policy",
+        "security"
+      ],
+      "scheduled_at": "2026-09-17T07:08:11Z",
       "status": "pending"
     }
   ]
