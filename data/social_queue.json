@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-17T07:08:11Z",
+  "last_scheduled_at": "2026-09-17T09:10:21Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -23625,6 +23625,20 @@
         "security"
       ],
       "scheduled_at": "2026-09-17T07:08:11Z",
+      "status": "pending"
+    },
+    {
+      "title": "Hands‑On Build Guide: Sliding‑Window Context Manager with Attention‑Weighted Relevance Scoring",
+      "url": "https://martinuke0.github.io/posts/2026-09-17-handson-build-guide-slidingwindow-context-manager-with-attentionweighted-relevance-scoring/",
+      "social_hook": "> TL;DR — This post builds a token‑aware sliding‑window context manager that uses attention‑weighted relevance scoring to dynamically truncate prompts within token limits, enabling efficient LLM prompting under strict length constraints.\n\nA practical need arises when working with large language models: token budgets are finite, and prompt designers must decide which parts of a user’s request to keep or discard. This project delivers a reusable, code‑first context manager that scores each token’s relevance via a lightweight attention‑based model, then evicts the lowest‑scoring tokens until the remaining count fits the target limit. The result is a portable Python package that can be dropped into any LLM‑driven workflow, providing immediate feedback on how much of the original prompt is preserved and why.\n\nThis project signals proficiency in prompt engineering, LLM operations, and systems design. It demonstrates the ability to manage token budgets—a core competency for prompt engineers and AI product teams. Roles such as prompt engineer, AI product manager, backend engineer, and DevOps lead value the skill of dynamically trimming prompts within token limits, a highly sought‑after ability in LLM‑centric job markets. The hands‑on implementation proves you can reason about token budgets, a valued skill in AI‑focused roles.",
+      "tags": [
+        "python",
+        "ai",
+        "prompt-engineering",
+        "systems-design",
+        "devops"
+      ],
+      "scheduled_at": "2026-09-17T09:10:21Z",
       "status": "pending"
     }
   ]
