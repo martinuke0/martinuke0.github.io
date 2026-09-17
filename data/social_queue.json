@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-17T00:05:52Z",
+  "last_scheduled_at": "2026-09-17T03:03:54Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -23554,6 +23554,20 @@
         "python"
       ],
       "scheduled_at": "2026-09-17T00:05:52Z",
+      "status": "pending"
+    },
+    {
+      "title": "Build a Minimal GPT Training Loop with Rotary Positional Embeddings",
+      "url": "https://martinuke0.github.io/posts/2026-09-17-build-a-minimal-gpt-training-loop-with-rotary-positional-embeddings/",
+      "social_hook": "description: \"A hands‑on guide to building a minimal GPT training loop with rotary positional embeddings from scratch, perfect for showcasing systems skills on your CV.\"\n\nsummary: \"Implement a minimal GPT training loop with rotary positional embeddings from scratch to demonstrate real systems skill to hiring managers.\"\n\nimage: \"/images/covers/2026-09-17-build-a-minimal-gpt-training-loop-with-rotary-positional-embeddings.svg\"",
+      "tags": [
+        "deep-learning",
+        "pytorch",
+        "llm",
+        "systems",
+        "portfolio"
+      ],
+      "scheduled_at": "2026-09-17T03:03:54Z",
       "status": "pending"
     }
   ]
