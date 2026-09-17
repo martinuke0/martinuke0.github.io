@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-17T21:05:32Z",
+  "last_scheduled_at": "2026-09-17T23:02:26Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -23768,6 +23768,21 @@
         "data-engineering"
       ],
       "scheduled_at": "2026-09-17T21:05:32Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building a Pure-Python GGUF Weight Loader with Dequantization for Llama Models",
+      "url": "https://martinuke0.github.io/posts/2026-09-17-building-a-pure-python-gguf-weight-loader-with-dequantization-for-llama-models/",
+      "social_hook": "> TL;DR — This guide walks you through building a pure-Python GGUF weight loader that parses binary model files and dequantizes Llama tensors back to FP16/FP32. You'll learn binary format parsing, quantized numerical reconstruction, and memory-mapped tensor access — skills that directly map to systems programming, ML infrastructure, and high-performance computing roles.\n\nHiring managers in ML infrastructure, backend systems, and data-platform engineering scan for projects that demonstrate three things simultaneously: comfort with binary data, understanding of numerical computation, and the discipline to build something real rather than wrapping an API. A GGUF loader checks every box.\n\n- Systems programming depth: You're parsing a custom binary format with headers, magic numbers, version negotiation, and variable-length metadata — the same mental model as parsing a protocol buffer or an ELF binary.",
+      "tags": [
+        "python",
+        "gguf",
+        "llama",
+        "ml-infrastructure",
+        "systems-engineering",
+        "quantization"
+      ],
+      "scheduled_at": "2026-09-17T23:02:26Z",
       "status": "pending"
     }
   ]
