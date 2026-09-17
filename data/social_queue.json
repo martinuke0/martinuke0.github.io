@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-16T23:05:52Z",
+  "last_scheduled_at": "2026-09-17T00:05:52Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -23540,6 +23540,20 @@
         "transformer"
       ],
       "scheduled_at": "2026-09-16T23:05:52Z",
+      "status": "pending"
+    },
+    {
+      "title": "Memory‑Efficient Context Window Manager with Attention‑Guided Token Pruning",
+      "url": "https://martinuke0.github.io/posts/2026-09-17-memoryefficient-context-window-manager-with-attentionguided-token-pruning/",
+      "social_hook": "title: \"Memory‑Efficient Context Window Manager with Attention‑Guided Token Pruning\"\n\ndescription: \"Build a memory‑efficient context window manager that prunes tokens via attention scores, showcasing systems and ML engineering skills for production.\"\n\nsummary: \"This project delivers a runnable Python library that compresses LLM context windows by scoring token importance with attention and dropping low‑impact tokens, demonstrating practical systems and ML engineering.\"",
+      "tags": [
+        "llm",
+        "context-window",
+        "token-pruning",
+        "systems",
+        "python"
+      ],
+      "scheduled_at": "2026-09-17T00:05:52Z",
       "status": "pending"
     }
   ]
