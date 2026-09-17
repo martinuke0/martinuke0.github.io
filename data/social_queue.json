@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-17T12:04:19Z",
+  "last_scheduled_at": "2026-09-17T13:04:24Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -23667,6 +23667,20 @@
         "etl"
       ],
       "scheduled_at": "2026-09-17T12:04:19Z",
+      "status": "pending"
+    },
+    {
+      "title": "From‑Scratch LoRA Adapter Injection and Weight Merging in Pure Python",
+      "url": "https://martinuke0.github.io/posts/2026-09-17-fromscratch-lora-adapter-injection-and-weight-merging-in-pure-python/",
+      "social_hook": "tags: [\"LoRA\", \"Transformer\", \"Python\", \"Machine Learning\", \"Systems Engineering\"]\n\ndescription: \"A hands‑on guide to implementing LoRA adapter injection and weight merging in pure Python, showcasing systems engineering skills for hiring managers.\"\n\nsummary: \"Implement LoRA adapter injection and weight merging from scratch in pure Python, demonstrating transformer systems engineering for hiring managers.\"",
+      "tags": [
+        "LoRA",
+        "Transformer",
+        "Python",
+        "Machine Learning",
+        "Systems Engineering"
+      ],
+      "scheduled_at": "2026-09-17T13:04:24Z",
       "status": "pending"
     }
   ]
