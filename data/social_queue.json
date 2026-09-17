@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-17T20:05:32Z",
+  "last_scheduled_at": "2026-09-17T21:05:32Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -23753,6 +23753,21 @@
         "portfolio"
       ],
       "scheduled_at": "2026-09-17T20:05:32Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing Schema Evolution in Apache Iceberg ETL with Avro Compatibility",
+      "url": "https://martinuke0.github.io/posts/2026-09-17-implementing-schema-evolution-in-apache-iceberg-etl-with-avro-compatibility/",
+      "social_hook": "> TL;DR — Apache Iceberg provides first-class schema evolution support that aligns naturally with Avro's compatibility model, but the interaction between the two introduces subtle gotchas around column mapping, partition evolution, and snapshot isolation. This post walks through the mechanics, a production-grade architecture pattern, and the pitfalls that will burn you at scale.\n\nIn traditional relational databases, ALTER TABLE is a solved problem. In data lakehouses, schema changes propagate through files that were written months ago, and every reader—whether a Spark job, a Flink pipeline, or a Presto query—must interpret those files correctly. A single malformed schema transition can silently corrupt downstream analytics or outright fail a production ETL job.\n\nThe stakes are concrete. Consider a retail data platform where a `customer_events` table accumulates billions of records across hundreds of partitions. When the product team adds a `loyalty_tier` column to the event payload, the ETL pipeline that ingests events from Kafka must:",
+      "tags": [
+        "apache-iceberg",
+        "avro",
+        "etl",
+        "schema-evolution",
+        "data-lakehouse",
+        "data-engineering"
+      ],
+      "scheduled_at": "2026-09-17T21:05:32Z",
       "status": "pending"
     }
   ]
