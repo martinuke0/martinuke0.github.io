@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-17T19:05:32Z",
+  "last_scheduled_at": "2026-09-17T20:05:32Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -23738,6 +23738,21 @@
         "side project"
       ],
       "scheduled_at": "2026-09-17T19:05:32Z",
+      "status": "pending"
+    },
+    {
+      "title": "Build a Google Guava-like Cache From Scratch: A Portfolio Project That Signals Systems Skill",
+      "url": "https://martinuke0.github.io/posts/2026-09-17-build-a-google-guava-like-cache-from-scratch-a-portfolio-project-that-signals-systems-skill/",
+      "social_hook": "> TL;DR — Build a production-grade in-memory cache from scratch in Java: LRU eviction, TTL expiration, thread-safe concurrent access, and runtime statistics. This project demonstrates exactly the systems skills hiring managers screen for — concurrency, eviction algorithms, and observability — and gives you a concrete, runnable artifact to discuss in interviews.\n\nA from-scratch cache library is one of the few side projects that simultaneously proves competency in three domains that hiring managers independently evaluate: concurrent programming, algorithmic thinking, and observability design.\n\n- Concurrency primitives: You understand happens-before relationships, lock striping, and the difference between `synchronized`, `ReentrantReadWriteLock`, and `StampedLock`. A thread-safe cache forces you to reason about visibility and ordering — not just memorize syntax.",
+      "tags": [
+        "systems",
+        "java",
+        "caching",
+        "concurrency",
+        "data-structures",
+        "portfolio"
+      ],
+      "scheduled_at": "2026-09-17T20:05:32Z",
       "status": "pending"
     }
   ]
