@@ -22661,7 +22661,8 @@
         "best-practices"
       ],
       "scheduled_at": "2026-09-12T16:03:12Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-18T19:29:28Z"
     },
     {
       "title": "Implementing BM25 Ranking with Lucene: Precision, Tuning, and Production Trade-offs",
