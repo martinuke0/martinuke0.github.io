@@ -22431,7 +22431,8 @@
         "sharding"
       ],
       "scheduled_at": "2026-09-11T22:03:40Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-18T19:29:28Z"
     },
     {
       "title": "Build a Pure-Python Paged Attention KV-Cache with LRU and Frequency-Based Eviction",
