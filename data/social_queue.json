@@ -22074,7 +22074,8 @@
         "Developer Productivity"
       ],
       "scheduled_at": "2026-09-10T23:05:33Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-18T19:29:28Z"
     },
     {
       "title": "Hands-On Build Guide: Pure‑Python GGUF Weight Loader with Lazy Memory‑Mapped Tensor Initialization",
