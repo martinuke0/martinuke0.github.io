@@ -22928,8 +22928,9 @@
         "portfolio"
       ],
       "scheduled_at": "2026-09-13T16:02:02Z",
-      "status": "posting",
-      "claimed_at": "2026-09-18T19:29:28Z"
+      "status": "posted",
+      "claimed_at": "2026-09-18T19:29:28Z",
+      "post_urn": "urn:li:share:7506801064487141376"
     },
     {
       "title": "Build a FlashAttention-2 Inference Kernel from Scratch in Pure Python",
