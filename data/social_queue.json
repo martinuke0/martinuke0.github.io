@@ -23408,8 +23408,9 @@
         "systems-engineering"
       ],
       "scheduled_at": "2026-09-15T16:02:22Z",
-      "status": "posting",
-      "claimed_at": "2026-09-18T19:29:28Z"
+      "status": "posted",
+      "claimed_at": "2026-09-18T19:29:28Z",
+      "post_urn": "urn:li:share:7506802855622778880"
     },
     {
       "title": "Build a Paged Attention KV-Cache Manager with LRU Eviction in Pure Python",
