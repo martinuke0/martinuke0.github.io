@@ -22448,7 +22448,8 @@
         "eviction-policies"
       ],
       "scheduled_at": "2026-09-12T00:01:08Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-18T19:29:28Z"
     },
     {
       "title": "From-Scratch GGUF Weight Loader with Blockwise Dequantization, mmap Streaming, and Safetensors Export",
