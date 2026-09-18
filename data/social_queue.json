@@ -24228,7 +24228,8 @@
         "systems"
       ],
       "scheduled_at": "2026-09-18T15:06:55Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-18T19:29:28Z"
     },
     {
       "title": "Observability Pipelines: Instrumenting Microservices with OpenTelemetry",
