@@ -12,6 +12,7 @@ cover:
   alt: "A sleek laptop screen displaying a terminal with model benchmark output."  
   caption: ""  
   relative: false  
+---
 
 > **TL;DR** — This post walks you through building a quantization‑aware LLM inference tool from scratch, giving you a runnable pipeline, benchmark numbers, and a concrete project you can showcase on your CV to signal systems‑level engineering skill. You’ll learn how to load a Hugging Face model, calibrate it with a small dataset, apply int8 quantization via BitsAndBytes, measure size and latency gains, and expose a simple HTTP server for serving. The result is a tangible, production‑flavored side project that hiring managers can inspect and run.
 
