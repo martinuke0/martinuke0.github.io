@@ -23656,7 +23656,8 @@
         "cv"
       ],
       "scheduled_at": "2026-09-16T16:08:06Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-18T19:29:28Z"
     },
     {
       "title": "Building a Scalable Approximate Nearest Neighbor Search Service for Your Portfolio",
