@@ -22561,8 +22561,9 @@
         "Python"
       ],
       "scheduled_at": "2026-09-12T07:04:50Z",
-      "status": "posting",
-      "claimed_at": "2026-09-18T19:29:28Z"
+      "status": "posted",
+      "claimed_at": "2026-09-18T19:29:28Z",
+      "post_urn": "urn:li:share:7506800664753238018"
     },
     {
       "title": "Implementing Debezium CDC Pipelines: Exactly-Once State, Schema Evolution, and Backfills",
