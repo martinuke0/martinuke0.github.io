@@ -22761,7 +22761,8 @@
         "side-project"
       ],
       "scheduled_at": "2026-09-13T00:02:03Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-18T19:29:28Z"
     },
     {
       "title": "Implementing dbt Incremental Models with Time‑Travel Semantics for Fault‑Tolerant ETL Pipelines",
