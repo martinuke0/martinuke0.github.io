@@ -24162,7 +24162,8 @@
         "cache-headers"
       ],
       "scheduled_at": "2026-09-18T11:03:12Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-18T19:29:28Z"
     },
     {
       "title": "Turning Your CV into a Live API: A Go + PostgreSQL Portfolio Service",
