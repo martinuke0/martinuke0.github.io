@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-18T03:05:47Z",
+  "last_scheduled_at": "2026-09-18T05:03:59Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -23812,6 +23812,20 @@
         "generation"
       ],
       "scheduled_at": "2026-09-18T03:05:47Z",
+      "status": "pending"
+    },
+    {
+      "title": "Hands‑On Build Guide: Mini‑GPT Training Loop with RoPE, RMSNorm, and GQA",
+      "url": "https://martinuke0.github.io/posts/2026-09-18-handson-build-guide-minigpt-training-loop-with-rope-rmsnorm-and-gqa/",
+      "social_hook": "> TL;DR — This post walks you through building a minimal GPT‑style training loop from the ground up, covering rotary position embeddings (RoPE), RMSNorm, and grouped‑query attention (GQA). You’ll get runnable PyTorch code, tips for testing, and a roadmap to upgrade the toy into a production‑grade model. By the end you’ll have a concrete side‑project that signals systems‑level deep‑learning competence to hiring managers.\n\nBuilding a miniature GPT from scratch might sound like a textbook exercise, but when you own every component—data handling, normalization, attention mechanics, and the training loop—you signal to hiring managers that you understand the plumbing that powers large‑scale transformers. The project demonstrates fluency with PyTorch’s low‑level APIs, knowledge of recent architectural advances (RoPE, RMSNorm, GQA), and the ability to turn research ideas into runnable, debuggable code. It’s especially valuable for roles such as ML engineer, research engineer, or systems engineer focused on model training and serving, because it shows you can iterate quickly, profile bottlenecks, and extend a model without relying on heavyweight frameworks.\n\n- Systems‑level deep‑learning competence – You implement core blocks (RoPE, RMSNorm, GQA) rather than pulling a pre‑packaged model, proving you know how each piece interacts with memory, compute, and autograd.",
+      "tags": [
+        "pytorch",
+        "deep-learning",
+        "mlops",
+        "transformers",
+        "gpt"
+      ],
+      "scheduled_at": "2026-09-18T05:03:59Z",
       "status": "pending"
     }
   ]
