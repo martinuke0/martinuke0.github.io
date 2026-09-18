@@ -23270,8 +23270,9 @@
         "PEFT"
       ],
       "scheduled_at": "2026-09-15T00:04:35Z",
-      "status": "posting",
-      "claimed_at": "2026-09-18T19:29:28Z"
+      "status": "posted",
+      "claimed_at": "2026-09-18T19:29:28Z",
+      "post_urn": "urn:li:share:7506801446726782976"
     },
     {
       "title": "Brainstorming Valid Architectural Patterns in Production Systems",
