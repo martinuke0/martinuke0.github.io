@@ -21975,7 +21975,8 @@
         "performance"
       ],
       "scheduled_at": "2026-09-10T15:05:07Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-18T19:29:28Z"
     },
     {
       "title": "Build a Mini LLM Inference Engine with Tree-Attention Speculative Decoding",
