@@ -1,6 +1,6 @@
 ---
 title: "Mastering Apache Pulsar Functions for Event-Driven Microservices at Scale"
-date: "2
+date: "2026-09-07T08:00:00Z"
 draft: false
 tags: ["Apache Pulsar", "Event-Driven", "Microservices", "Serverless", "Stream Processing"]
 description: "Learn how to leverage Apache Pulsar Functions to build scalable, event-driven microservices. Explore architecture patterns, production best practices, and real-world implementations."
