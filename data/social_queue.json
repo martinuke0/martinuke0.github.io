@@ -22140,7 +22140,8 @@
         "portfolio-project"
       ],
       "scheduled_at": "2026-09-11T03:05:33Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-18T19:29:28Z"
     },
     {
       "title": "From Scratch Sparse MoE Inference Engine",
