@@ -22911,7 +22911,8 @@
         "performance"
       ],
       "scheduled_at": "2026-09-13T14:03:55Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-18T19:29:28Z"
     },
     {
       "title": "Build a LoRA Fine-Tuning & Inference Engine in Pure PyTorch",
