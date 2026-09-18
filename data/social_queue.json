@@ -22238,7 +22238,8 @@
         "portfolio-project"
       ],
       "scheduled_at": "2026-09-11T09:05:33Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-18T19:29:28Z"
     },
     {
       "title": "Architecting FoundationDB's Distributed Transaction Layer: Logs, Sequencers, and Conflict Resolution",
