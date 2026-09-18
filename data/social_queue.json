@@ -22794,8 +22794,9 @@
         "networking"
       ],
       "scheduled_at": "2026-09-13T04:04:12Z",
-      "status": "posting",
-      "claimed_at": "2026-09-18T19:29:28Z"
+      "status": "posted",
+      "claimed_at": "2026-09-18T19:29:28Z",
+      "post_urn": "urn:li:share:7506800919737495553"
     },
     {
       "title": "Building a Pure Python Incremental KV Cache for Efficient Long-Context LLM Inference",
