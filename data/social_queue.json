@@ -24096,8 +24096,9 @@
         "data-resilience"
       ],
       "scheduled_at": "2026-09-18T06:03:59Z",
-      "status": "posting",
-      "claimed_at": "2026-09-18T19:29:28Z"
+      "status": "posted",
+      "claimed_at": "2026-09-18T19:29:28Z",
+      "post_urn": "urn:li:share:7506803600283774976"
     },
     {
       "title": "Optimizing Redis Cache Stampede Protection: Request Coalescing and Probabilistic Early Expiration",
