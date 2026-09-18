@@ -22415,8 +22415,9 @@
         "product quantization"
       ],
       "scheduled_at": "2026-09-11T21:02:00Z",
-      "status": "posting",
-      "claimed_at": "2026-09-18T19:29:28Z"
+      "status": "posted",
+      "claimed_at": "2026-09-18T19:29:28Z",
+      "post_urn": "urn:li:share:7506800503725658112"
     },
     {
       "title": "Architecting a Redis Cluster Cache: Shard‑Aware Routing, Failover, and Hot‑Key Mitigation",
