@@ -23524,8 +23524,9 @@
         "collective-communication"
       ],
       "scheduled_at": "2026-09-16T03:05:25Z",
-      "status": "posting",
-      "claimed_at": "2026-09-18T19:29:28Z"
+      "status": "posted",
+      "claimed_at": "2026-09-18T19:29:28Z",
+      "post_urn": "urn:li:share:7506802974502064128"
     },
     {
       "title": "Building a HNSW Vector Index from Scratch in Python",
