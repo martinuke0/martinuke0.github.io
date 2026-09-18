@@ -24146,7 +24146,8 @@
         "portfolio"
       ],
       "scheduled_at": "2026-09-18T10:03:12Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-18T19:29:28Z"
     },
     {
       "title": "Optimizing Web Performance Using Varnish: HTTP Cache Header Strategies",
