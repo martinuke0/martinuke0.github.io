@@ -23980,7 +23980,8 @@
         "side project"
       ],
       "scheduled_at": "2026-09-17T19:05:32Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-18T19:29:28Z"
     },
     {
       "title": "Build a Google Guava-like Cache From Scratch: A Portfolio Project That Signals Systems Skill",
