@@ -24130,7 +24130,8 @@
         "Performance"
       ],
       "scheduled_at": "2026-09-18T09:02:28Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-18T19:29:28Z"
     },
     {
       "title": "Hierarchical Sliding Window Context Manager with Semantic Eviction and Priority-Based KV Cache",
