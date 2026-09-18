@@ -22744,7 +22744,8 @@
         "Portfolio"
       ],
       "scheduled_at": "2026-09-12T22:03:29Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-18T19:29:28Z"
     },
     {
       "title": "User Safety: safe — A Hands-On Build Guide for a Systems-Level Side Project",
