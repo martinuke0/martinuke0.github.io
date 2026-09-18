@@ -23607,8 +23607,9 @@
         "machine-learning"
       ],
       "scheduled_at": "2026-09-16T12:03:11Z",
-      "status": "posting",
-      "claimed_at": "2026-09-18T19:29:28Z"
+      "status": "posted",
+      "claimed_at": "2026-09-18T19:29:28Z",
+      "post_urn": "urn:li:share:7506803065652477954"
     },
     {
       "title": "Your Title Here",
