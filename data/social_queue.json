@@ -23915,7 +23915,8 @@
         "Systems Engineering"
       ],
       "scheduled_at": "2026-09-17T13:04:24Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-18T19:29:28Z"
     },
     {
       "title": "Architecting Kubernetes Multi-Tenant Admission Control with Kyverno and OPA Policies",
