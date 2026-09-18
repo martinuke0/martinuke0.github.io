@@ -24179,8 +24179,9 @@
         "systems"
       ],
       "scheduled_at": "2026-09-18T12:03:14Z",
-      "status": "posting",
-      "claimed_at": "2026-09-18T19:29:28Z"
+      "status": "posted",
+      "claimed_at": "2026-09-18T19:29:28Z",
+      "post_urn": "urn:li:share:7506803687692972032"
     },
     {
       "title": "Optimizing WebRTC Transport: Congestion Control for Live Streaming",
