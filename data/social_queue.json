@@ -23754,7 +23754,8 @@
         "transformer"
       ],
       "scheduled_at": "2026-09-16T23:05:52Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-18T19:29:28Z"
     },
     {
       "title": "Memory‑Efficient Context Window Manager with Attention‑Guided Token Pruning",
