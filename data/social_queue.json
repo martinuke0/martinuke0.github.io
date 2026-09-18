@@ -22385,7 +22385,8 @@
         "Distributed Systems"
       ],
       "scheduled_at": "2026-09-11T19:02:00Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-18T19:29:28Z"
     },
     {
       "title": "Optimizing Varnish Cache Purges with BAN Tables and Incremental Invalidation",
