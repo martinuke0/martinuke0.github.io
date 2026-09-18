@@ -23108,8 +23108,9 @@
         "career-growth"
       ],
       "scheduled_at": "2026-09-14T12:03:08Z",
-      "status": "posting",
-      "claimed_at": "2026-09-18T19:29:28Z"
+      "status": "posted",
+      "claimed_at": "2026-09-18T19:29:28Z",
+      "post_urn": "urn:li:share:7506801264022822912"
     },
     {
       "title": "Deep Dive into CUDA Graphs for Efficient Kernel Launch Overhead Reduction",
