@@ -22057,8 +22057,9 @@
         "serverless"
       ],
       "scheduled_at": "2026-09-10T22:05:33Z",
-      "status": "posting",
-      "claimed_at": "2026-09-18T19:29:28Z"
+      "status": "posted",
+      "claimed_at": "2026-09-18T19:29:28Z",
+      "post_urn": "urn:li:share:7506800110308302848"
     },
     {
       "title": "The Rise of Local-First Autonomous Development: How Offline AI Pipelines Are Reshaping Software Engineering",
