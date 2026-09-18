@@ -23189,7 +23189,8 @@
         "scalability"
       ],
       "scheduled_at": "2026-09-14T17:10:36Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-18T19:29:28Z"
     },
     {
       "title": "Architecting Monorepos with Nix: Reproducible Builds at Scale",
