@@ -22336,7 +22336,8 @@
         "cv"
       ],
       "scheduled_at": "2026-09-11T15:05:33Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-18T19:29:28Z"
     },
     {
       "title": "Mastering Argon2 Password Hashing: Secure Storage Strategies for Modern Applications",
