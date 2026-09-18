@@ -23286,7 +23286,8 @@
         "engineering"
       ],
       "scheduled_at": "2026-09-15T01:04:35Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-18T19:29:28Z"
     },
     {
       "title": "Speculative Decoding with a Draft N‑gram Model: A Pure‑Python Inference Engine",
