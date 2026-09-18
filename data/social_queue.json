@@ -23392,7 +23392,8 @@
         "cv"
       ],
       "scheduled_at": "2026-09-15T12:08:24Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-18T19:29:28Z"
     },
     {
       "title": "Build a Paged KV Cache in Pure Python: A Portfolio Project That Signals Real Systems Skill",
