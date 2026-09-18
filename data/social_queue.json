@@ -22545,7 +22545,8 @@
         "testing"
       ],
       "scheduled_at": "2026-09-12T06:04:50Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-18T19:29:28Z"
     },
     {
       "title": "Building an Attention-Driven Semantic Caching Layer for LLM APIs",
