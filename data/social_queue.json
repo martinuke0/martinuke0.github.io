@@ -22827,7 +22827,8 @@
         "systems-engineering"
       ],
       "scheduled_at": "2026-09-13T07:01:57Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-18T19:29:28Z"
     },
     {
       "title": "Implementing eBPF Runtime Monitoring for Resource-Constrained Edge Linux Gateways",
