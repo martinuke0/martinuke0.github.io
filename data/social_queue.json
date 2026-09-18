@@ -23883,8 +23883,9 @@
         "cv"
       ],
       "scheduled_at": "2026-09-17T10:10:21Z",
-      "status": "posting",
-      "claimed_at": "2026-09-18T19:29:28Z"
+      "status": "posted",
+      "claimed_at": "2026-09-18T19:29:28Z",
+      "post_urn": "urn:li:share:7506803365012459520"
     },
     {
       "title": "Designing a Lakehouse ETL Architecture with Apache Iceberg and dbt Core",
