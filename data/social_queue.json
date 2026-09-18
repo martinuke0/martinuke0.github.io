@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-18T10:03:12Z",
+  "last_scheduled_at": "2026-09-18T11:03:12Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -23884,6 +23884,20 @@
         "portfolio"
       ],
       "scheduled_at": "2026-09-18T10:03:12Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Web Performance Using Varnish: HTTP Cache Header Strategies",
+      "url": "https://martinuke0.github.io/posts/2026-09-18-optimizing-web-performance-using-varnish-http-cache-header-strategies/",
+      "social_hook": "> TL;DR — Varnish Cache can serve millions of requests per second when configured correctly, but its power is entirely governed by how well you set HTTP cache headers. Understanding `Cache-Control`, `ETag`, `Vary`, and `stale-while-revalidate` transforms Varnish from a simple reverse proxy into a precision caching engine that slashes origin load and cuts latency by orders of magnitude.\n\nVarnish Cache sits between your users and your origin servers, intercepting every HTTP request and deciding whether to serve a cached response or forward the request upstream. That decision-making process is driven almost entirely by HTTP cache headers. Get them right, and you achieve sub-millisecond response times at massive scale. Get them wrong, and you either serve stale content or bypass the cache entirely, negating the entire purpose of deploying Varnish.\n\nUnlike application-level caches that require code changes, Varnish operates at the HTTP layer. This means your caching strategy is expressed through standard HTTP headers — the same headers that browsers, CDNs, and intermediate proxies understand. This universality is both Varnish's greatest strength and its most common source of misconfiguration.",
+      "tags": [
+        "varnish",
+        "http-caching",
+        "web-performance",
+        "reverse-proxy",
+        "cache-headers"
+      ],
+      "scheduled_at": "2026-09-18T11:03:12Z",
       "status": "pending"
     }
   ]
