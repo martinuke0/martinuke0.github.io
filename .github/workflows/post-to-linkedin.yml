@@ -57,3 +57,11 @@ jobs:
             echo "push race, retry $i" && sleep 5
           done
           echo "ERROR: could not persist posted-status after retries" && exit 1
+
+      - name: Notify on failure
+        if: failure()
+        run: |
+          curl -s -X POST "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" \
+            --data-urlencode "chat_id=${{ secrets.TELEGRAM_ALERT_CHAT_ID }}" \
+            --data-urlencode "text=🔴 LinkedIn queue processor failed — posts may not be going out. Check https://github.com/martinuke0/martinuke0.github.io/actions" \
+            --data-urlencode "parse_mode=Markdown"
