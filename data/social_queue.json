@@ -22961,8 +22961,9 @@
         "portfolio-project"
       ],
       "scheduled_at": "2026-09-13T22:02:16Z",
-      "status": "posting",
-      "claimed_at": "2026-09-18T19:29:28Z"
+      "status": "posted",
+      "claimed_at": "2026-09-18T19:29:28Z",
+      "post_urn": "urn:li:share:7506801102680576001"
     },
     {
       "title": "Building a Sliding-Window Attention KV Cache with Dynamic Token Pruning",
