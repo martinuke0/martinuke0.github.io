@@ -24244,7 +24244,8 @@
         "Jaeger"
       ],
       "scheduled_at": "2026-09-18T17:01:45Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-18T19:29:28Z"
     },
     {
       "title": "Tekton, Argo, and GitHub Actions: A Deep Dive into Modern CI/CD Pipelines",
