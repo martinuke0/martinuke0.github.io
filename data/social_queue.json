@@ -22711,8 +22711,9 @@
         "portfolio"
       ],
       "scheduled_at": "2026-09-12T20:03:29Z",
-      "status": "posting",
-      "claimed_at": "2026-09-18T19:29:28Z"
+      "status": "posted",
+      "claimed_at": "2026-09-18T19:29:28Z",
+      "post_urn": "urn:li:share:7506800829300105216"
     },
     {
       "title": "Hands‑On Build Guide: Pure Python Mixture‑of‑Experts Router with Load‑Balanced Top‑K Gating",
