@@ -23075,8 +23075,9 @@
         "microservices"
       ],
       "scheduled_at": "2026-09-14T08:08:36Z",
-      "status": "posting",
-      "claimed_at": "2026-09-18T19:29:28Z"
+      "status": "posted",
+      "claimed_at": "2026-09-18T19:29:28Z",
+      "post_urn": "urn:li:share:7506801227830202368"
     },
     {
       "title": "User Safety: safe — A Hands-On Build Guide for a Portfolio-Worthy Systems Project",
