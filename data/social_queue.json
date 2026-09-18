@@ -22189,8 +22189,9 @@
         "high-performance-computing"
       ],
       "scheduled_at": "2026-09-11T06:05:33Z",
-      "status": "posting",
-      "claimed_at": "2026-09-18T19:29:28Z"
+      "status": "posted",
+      "claimed_at": "2026-09-18T19:29:28Z",
+      "post_urn": "urn:li:share:7506800257461137408"
     },
     {
       "title": "Your Title Here",
