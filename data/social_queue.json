@@ -23867,7 +23867,8 @@
         "devops"
       ],
       "scheduled_at": "2026-09-17T09:10:21Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-18T19:29:28Z"
     },
     {
       "title": "Hands‑On Build: Mixture‑of‑Experts Top‑K Gating Router in Pure Python",
