@@ -24196,7 +24196,8 @@
         "transport-optimization"
       ],
       "scheduled_at": "2026-09-18T13:03:14Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-18T19:29:28Z"
     },
     {
       "title": "Implementing WebAuthn for Passwordless Authentication: A Practical Guide",
