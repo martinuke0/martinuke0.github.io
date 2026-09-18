@@ -22480,8 +22480,9 @@
         "distributed-systems"
       ],
       "scheduled_at": "2026-09-12T02:02:28Z",
-      "status": "posting",
-      "claimed_at": "2026-09-18T19:29:28Z"
+      "status": "posted",
+      "claimed_at": "2026-09-18T19:29:28Z",
+      "post_urn": "urn:li:share:7506800577117421568"
     },
     {
       "title": "Zero to Portfolio: Building a Systems-Ready CV Side Project",
