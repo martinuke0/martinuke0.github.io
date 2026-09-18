@@ -23425,8 +23425,9 @@
         "cache-eviction"
       ],
       "scheduled_at": "2026-09-15T18:02:29Z",
-      "status": "posting",
-      "claimed_at": "2026-09-18T19:29:28Z"
+      "status": "posted",
+      "claimed_at": "2026-09-18T19:29:28Z",
+      "post_urn": "urn:li:share:7506802874094538752"
     },
     {
       "title": "Building a Paged KV Cache Allocator with Continuous Batching in Pure Python",
