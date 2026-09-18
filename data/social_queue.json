@@ -22627,7 +22627,8 @@
         "portfolio-project"
       ],
       "scheduled_at": "2026-09-12T13:02:34Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-18T19:29:28Z"
     },
     {
       "title": "Build a Distributed Task Queue: A Portfolio Project for Systems Engineers",
