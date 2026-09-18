@@ -24113,8 +24113,9 @@
         "performance"
       ],
       "scheduled_at": "2026-09-18T07:03:59Z",
-      "status": "posting",
-      "claimed_at": "2026-09-18T19:29:28Z"
+      "status": "posted",
+      "claimed_at": "2026-09-18T19:29:28Z",
+      "post_urn": "urn:li:share:7506803618042486784"
     },
     {
       "title": "Implementing CUDA Graphs for Low-Latency GPU Inference Pipelines",
