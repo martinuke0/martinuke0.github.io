@@ -24014,8 +24014,9 @@
         "data-engineering"
       ],
       "scheduled_at": "2026-09-17T21:05:32Z",
-      "status": "posting",
-      "claimed_at": "2026-09-18T19:29:28Z"
+      "status": "posted",
+      "claimed_at": "2026-09-18T19:29:28Z",
+      "post_urn": "urn:li:share:7506803511532302339"
     },
     {
       "title": "Building a Pure-Python GGUF Weight Loader with Dequantization for Llama Models",
