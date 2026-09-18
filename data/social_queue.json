@@ -21946,7 +21946,8 @@
         "deep-learning-engineering"
       ],
       "scheduled_at": "2026-09-10T11:01:20Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-18T19:58:44Z"
     },
     {
       "title": "Hands‑On Build Guide: Adaptive Nucleus (top‑p) Decoder for LLM Text Generation",
