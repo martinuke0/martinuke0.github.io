@@ -23508,7 +23508,8 @@
         "production-systems"
       ],
       "scheduled_at": "2026-09-16T02:03:17Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-18T19:29:28Z"
     },
     {
       "title": "Inside NCCL Topologies: Collective Algorithms for Multi-GPU Training",
