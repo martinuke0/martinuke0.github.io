@@ -23541,8 +23541,9 @@
         "machine-learning"
       ],
       "scheduled_at": "2026-09-16T06:03:23Z",
-      "status": "posting",
-      "claimed_at": "2026-09-18T19:29:28Z"
+      "status": "posted",
+      "claimed_at": "2026-09-18T19:29:28Z",
+      "post_urn": "urn:li:share:7506802992717758464"
     },
     {
       "title": "Designing Multi-Cluster Kubernetes Operators: Seamless Cloud Orchestration Across Hybrid Environments",
