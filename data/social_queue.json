@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-18T17:01:45Z",
+  "last_scheduled_at": "2026-09-18T18:03:02Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -23970,6 +23970,22 @@
         "Jaeger"
       ],
       "scheduled_at": "2026-09-18T17:01:45Z",
+      "status": "pending"
+    },
+    {
+      "title": "Tekton, Argo, and GitHub Actions: A Deep Dive into Modern CI/CD Pipelines",
+      "url": "https://martinuke0.github.io/posts/2026-09-18-tekton-argo-and-github-actions-a-deep-dive-into-modern-cicd-pipelines/",
+      "social_hook": "> TL;DR — Tekton, Argo, and GitHub Actions each solve the CI/CD problem from a fundamentally different angle: Tekton embraces Kubernetes primitives for maximum flexibility, Argo enforces GitOps as the source of truth, and GitHub Actions delivers the fastest path to automation with minimal infrastructure overhead. Choosing between them is less about which is \"best\" and more about where your team already lives in the stack.\n\nThe era of a single, monolithic CI/CD platform dominating every organization is over. Today's engineering teams operate across hybrid infrastructure, multi-cloud environments, and increasingly complex Kubernetes clusters. The pipeline tool you choose shapes everything from how developers trigger builds to how observability flows back from production to the commit graph.\n\nTekton, Argo, and GitHub Actions have emerged as the three most influential platforms in this landscape, but they were born from different philosophies and serve different primary audiences. Tekton was designed by Kubernetes contributors to be the build standard for the platform itself. Argo grew out of the GitOps movement and treats declared state as the only source of truth. GitHub Actions leveraged the world's largest code hosting platform to make CI/CD frictionless for millions of repositories.",
+      "tags": [
+        "CI/CD",
+        "Tekton",
+        "Argo",
+        "GitHub Actions",
+        "Kubernetes",
+        "DevOps",
+        "GitOps"
+      ],
+      "scheduled_at": "2026-09-18T18:03:02Z",
       "status": "pending"
     }
   ]
