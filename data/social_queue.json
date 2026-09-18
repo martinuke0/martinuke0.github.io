@@ -24064,7 +24064,8 @@
         "generation"
       ],
       "scheduled_at": "2026-09-18T03:05:47Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-18T19:29:28Z"
     },
     {
       "title": "Hands‑On Build Guide: Mini‑GPT Training Loop with RoPE, RMSNorm, and GQA",
