@@ -23376,8 +23376,9 @@
         "performance"
       ],
       "scheduled_at": "2026-09-15T10:03:42Z",
-      "status": "posting",
-      "claimed_at": "2026-09-18T19:29:28Z"
+      "status": "posted",
+      "claimed_at": "2026-09-18T19:29:28Z",
+      "post_urn": "urn:li:share:7506802821573537792"
     },
     {
       "title": "Mini GPT from Scratch: NumPy RoPE + fused RMSNorm",
