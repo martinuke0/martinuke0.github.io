@@ -22513,8 +22513,9 @@
         "portfolio-project"
       ],
       "scheduled_at": "2026-09-12T04:02:31Z",
-      "status": "posting",
-      "claimed_at": "2026-09-18T19:29:28Z"
+      "status": "posted",
+      "claimed_at": "2026-09-18T19:29:28Z",
+      "post_urn": "urn:li:share:7506800612156796929"
     },
     {
       "title": "Architecting Sparse Tensor Computations on NVIDIA Hopper: A Guide to Efficient Memory Management",
