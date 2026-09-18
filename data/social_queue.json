@@ -23899,7 +23899,8 @@
         "etl"
       ],
       "scheduled_at": "2026-09-17T12:04:19Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-18T19:29:28Z"
     },
     {
       "title": "From‑Scratch LoRA Adapter Injection and Weight Merging in Pure Python",
