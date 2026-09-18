@@ -22894,7 +22894,8 @@
         "fine-tuning"
       ],
       "scheduled_at": "2026-09-13T13:03:16Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-18T19:29:28Z"
     },
     {
       "title": "Building a Pure-Python Paged-Attention Transformer with LRU KV-Cache Eviction",
