@@ -22221,8 +22221,9 @@
         "python"
       ],
       "scheduled_at": "2026-09-11T08:05:33Z",
-      "status": "posting",
-      "claimed_at": "2026-09-18T19:29:28Z"
+      "status": "posted",
+      "claimed_at": "2026-09-18T19:29:28Z",
+      "post_urn": "urn:li:share:7506800290377990145"
     },
     {
       "title": "Build a Sparse MoE Router from Scratch in NumPy",
