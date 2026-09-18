@@ -23173,7 +23173,8 @@
         "portfolio"
       ],
       "scheduled_at": "2026-09-14T16:10:36Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-18T19:29:28Z"
     },
     {
       "title": "Also we must not be too: The perils of over-engineering in production systems",
