@@ -22464,7 +22464,8 @@
         "python"
       ],
       "scheduled_at": "2026-09-12T01:02:28Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-18T19:29:28Z"
     },
     {
       "title": "Building LogRelay: A Distributed Log Shipper for Your Portfolio",
