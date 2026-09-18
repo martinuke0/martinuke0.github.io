@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-18T18:03:02Z",
+  "last_scheduled_at": "2026-09-18T19:07:06Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -23986,6 +23986,20 @@
         "GitOps"
       ],
       "scheduled_at": "2026-09-18T18:03:02Z",
+      "status": "pending"
+    },
+    {
+      "title": "Pure-Python Continuous-Batching LLM Server with Chunked Prefill and Tiled KV‑Cache Eviction",
+      "url": "https://martinuke0.github.io/posts/2026-09-18-pure-python-continuous-batching-llm-server-with-chunked-prefill-and-tiled-kvcache-eviction/",
+      "social_hook": "We need to generate a complete markdown file following all the rules. Let's break down the requirements.\n\nFirst, frontmatter: starting with \"---\" on its own line, then fields. Must include title, date, draft, tags, description, summary, showToc, TocOpen, cover. The cover.image must be \"/images/covers/2026-09-18-pure-python-continuous-batching-llm-server-with-chunked-prefill-and-tiled-kvcache-eviction.svg\". The title must be appropriate. date fixed to \"2026-09-18T19:01:33.052\". tags: 3-6 relevant tags, each in double quotes, JSON-style array. We'll pick tags like \"python\", \"llm\", \"caching\", \"server\", \"hvac\"? Actually relevant: \"python\", \"llm\", \"caching\", \"server\". Maybe 5 tags.\n\nFrontmatter must not be wrapped in code fences. Must start with \"---\". And after frontmatter, the body.",
+      "tags": [
+        "python",
+        "llm",
+        "caching",
+        "server",
+        "performance"
+      ],
+      "scheduled_at": "2026-09-18T19:07:06Z",
       "status": "pending"
     }
   ]
