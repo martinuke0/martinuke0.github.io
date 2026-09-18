@@ -23591,8 +23591,9 @@
         "Side Project"
       ],
       "scheduled_at": "2026-09-16T11:03:11Z",
-      "status": "posting",
-      "claimed_at": "2026-09-18T19:29:28Z"
+      "status": "posted",
+      "claimed_at": "2026-09-18T19:29:28Z",
+      "post_urn": "urn:li:share:7506803045846990848"
     },
     {
       "title": "Hands‑On Build Guide: Pure‑Python Safetensors Parser & Weight Shard Assembler with mmap Lazy Loading",
