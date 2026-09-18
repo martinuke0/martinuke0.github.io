@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-18T12:03:14Z",
+  "last_scheduled_at": "2026-09-18T13:03:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -23913,6 +23913,21 @@
         "systems"
       ],
       "scheduled_at": "2026-09-18T12:03:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing WebRTC Transport: Congestion Control for Live Streaming",
+      "url": "https://martinuke0.github.io/posts/2026-09-18-optimizing-webrtc-transport-congestion-control-for-live-streaming/",
+      "social_hook": "> TL;DR — WebRTC's built-in congestion control is powerful but rarely tuned for the specific demands of live streaming. Understanding how GCC, SCReAM, and transport-wide feedback interact lets you reduce rebuffering by up to 40% and cut latency spikes in production deployments.\n\nWebRTC has quietly become the backbone of real-time communication on the modern internet. From telehealth platforms to interactive live auctions, millions of sessions rely on its sub-500ms latency guarantees. Yet beneath the polished API surface lies a transport layer whose default configurations were never designed for the throughput demands of high-bitrate live video. Congestion control — the mechanism that decides how fast you send data into a lossy network — is where most live streaming failures quietly originate.\n\nThis post dissects the congestion control landscape inside WebRTC, explains the algorithms that power it, and provides actionable strategies for optimizing transport parameters when every millisecond counts.",
+      "tags": [
+        "webrtc",
+        "congestion-control",
+        "live-streaming",
+        "network-protocols",
+        "real-time",
+        "transport-optimization"
+      ],
+      "scheduled_at": "2026-09-18T13:03:14Z",
       "status": "pending"
     }
   ]
