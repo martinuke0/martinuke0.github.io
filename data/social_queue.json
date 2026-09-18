@@ -23931,8 +23931,9 @@
         "opa"
       ],
       "scheduled_at": "2026-09-17T14:08:07Z",
-      "status": "posting",
-      "claimed_at": "2026-09-18T19:29:28Z"
+      "status": "posted",
+      "claimed_at": "2026-09-18T19:29:28Z",
+      "post_urn": "urn:li:share:7506803419697872896"
     },
     {
       "title": "Byte-Level BPE Tokenizer: A Hands-On Build Guide for Your CV",
