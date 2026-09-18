@@ -23344,8 +23344,9 @@
         "infrastructure"
       ],
       "scheduled_at": "2026-09-15T08:03:41Z",
-      "status": "posting",
-      "claimed_at": "2026-09-18T19:29:28Z"
+      "status": "posted",
+      "claimed_at": "2026-09-18T19:29:28Z",
+      "post_urn": "urn:li:share:7506802783870758912"
     },
     {
       "title": "Implementing Automated Canary Analysis with Spinnaker and Kayenta",
