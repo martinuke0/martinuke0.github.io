@@ -24047,7 +24047,8 @@
         "sampler"
       ],
       "scheduled_at": "2026-09-18T00:03:51Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-18T19:29:28Z"
     },
     {
       "title": "Build a Pure‑Python Hybrid RAG Engine with BM25, HNSW, and Cross‑Encoder Reranking",
