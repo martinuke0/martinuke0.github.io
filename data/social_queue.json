@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-18T19:07:06Z",
+  "last_scheduled_at": "2026-09-18T20:07:06Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -24287,6 +24287,21 @@
       "status": "posted",
       "claimed_at": "2026-09-18T19:29:28Z",
       "post_urn": "urn:li:share:7506803793913602048"
+    },
+    {
+      "title": "Building a Pure-Python IVF-PQ Vector Index with On-Disk Inverted Files",
+      "url": "https://martinuke0.github.io/posts/2026-09-18-building-a-pure-python-ivf-pq-vector-index-with-on-disk-inverted-files/",
+      "social_hook": "description: \"Build a pure-Python IVF-PQ vector index with on-disk inverted files and product quantization for fast similarity search and efficient retrieval.\"\n\nsummary: \"A hands-on guide to implementing an IVF-PQ vector index in pure Python, with on-disk inverted files and product quantization for scalable similarity search.\"\n\nimage: \"/images/covers/2026-09-18-building-a-pure-python-ivf-pq-vector-index-with-on-disk-inverted-files.svg\"",
+      "tags": [
+        "vector-search",
+        "python",
+        "ivf",
+        "pq",
+        "indexing",
+        "systems"
+      ],
+      "scheduled_at": "2026-09-18T20:07:06Z",
+      "status": "pending"
     }
   ]
 }
