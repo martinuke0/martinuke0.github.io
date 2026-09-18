@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-18T14:06:55Z",
+  "last_scheduled_at": "2026-09-18T15:06:55Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -23942,6 +23942,20 @@
         "fido2"
       ],
       "scheduled_at": "2026-09-18T14:06:55Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building a Pure‑Python Int4 KV‑Cache for Transformer Inference",
+      "url": "https://martinuke0.github.io/posts/2026-09-18-building-a-purepython-int4-kvcache-for-transformer-inference/",
+      "social_hook": "description: \"A hands‑on guide to implementing an int4 KV‑cache with per‑head scaling and on‑the‑fly dequantization in pure Python, perfect for showcasing systems skills.\"\n\nsummary: \"This project demonstrates low‑level memory optimization, quantization, and efficient inference techniques that signal strong systems engineering expertise to hiring managers.\"\n\nimage: \"/images/covers/2026-09-18-building-a-purepython-int4-kvcache-for-transformer-inference.svg\"",
+      "tags": [
+        "python",
+        "transformers",
+        "kv-cache",
+        "quantization",
+        "systems"
+      ],
+      "scheduled_at": "2026-09-18T15:06:55Z",
       "status": "pending"
     }
   ]
