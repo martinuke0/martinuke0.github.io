@@ -22993,7 +22993,8 @@
         "security"
       ],
       "scheduled_at": "2026-09-14T00:03:54Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-18T19:29:28Z"
     },
     {
       "title": "Optimizing React Rendering with Intersection Observer: Lazy Loading at Scale",
