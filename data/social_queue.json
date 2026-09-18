@@ -23025,8 +23025,9 @@
         "Apache Pulsar"
       ],
       "scheduled_at": "2026-09-14T03:09:08Z",
-      "status": "posting",
-      "claimed_at": "2026-09-18T19:29:28Z"
+      "status": "posted",
+      "claimed_at": "2026-09-18T19:29:28Z",
+      "post_urn": "urn:li:share:7506801173979549696"
     },
     {
       "title": "Architecting Fault‑Tolerant Distributed Caches: A Deep Dive into etcd's Raft Implementation",
