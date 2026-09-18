@@ -22861,7 +22861,8 @@
         "deep learning systems"
       ],
       "scheduled_at": "2026-09-13T11:02:35Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-18T19:29:28Z"
     },
     {
       "title": "Build a Speculative Decoding Inference Engine: A Hands-On CV Project",
