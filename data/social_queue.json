@@ -22254,8 +22254,9 @@
         "architecture"
       ],
       "scheduled_at": "2026-09-11T10:05:33Z",
-      "status": "posting",
-      "claimed_at": "2026-09-18T19:29:28Z"
+      "status": "posted",
+      "claimed_at": "2026-09-18T19:29:28Z",
+      "post_urn": "urn:li:share:7506800325559984128"
     },
     {
       "title": "Pure‑Python Paged Attention KV‑Cache Manager: LRU & Random Eviction",
