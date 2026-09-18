@@ -22157,7 +22157,8 @@
         "deep-learning"
       ],
       "scheduled_at": "2026-09-11T04:05:33Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-18T19:29:28Z"
     },
     {
       "title": "From Scratch: GPTQ‑Style Post‑Training Quantizer in NumPy",
