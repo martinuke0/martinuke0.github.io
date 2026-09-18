@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-18T11:03:12Z",
+  "last_scheduled_at": "2026-09-18T12:03:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -23898,6 +23898,21 @@
         "cache-headers"
       ],
       "scheduled_at": "2026-09-18T11:03:12Z",
+      "status": "pending"
+    },
+    {
+      "title": "Turning Your CV into a Live API: A Go + PostgreSQL Portfolio Service",
+      "url": "https://martinuke0.github.io/posts/2026-09-18-turning-your-cv-into-a-live-api-a-go-postgresql-portfolio-service/",
+      "social_hook": "description: \"Build a self-hosted portfolio API in Go with PostgreSQL, Docker, and CI/CD to demonstrate real systems engineering skills for hiring managers.\"\n\nsummary: \"A practical guide to creating a Go-based portfolio service that stores your projects in PostgreSQL and exposes a JSON API, complete with Docker and CI/CD.\"\n\nimage: \"/images/covers/2026-09-18-turning-your-cv-into-a-live-api-a-go-postgresql-portfolio-service.svg\"",
+      "tags": [
+        "go",
+        "portfolio",
+        "api",
+        "docker",
+        "ci-cd",
+        "systems"
+      ],
+      "scheduled_at": "2026-09-18T12:03:14Z",
       "status": "pending"
     }
   ]
