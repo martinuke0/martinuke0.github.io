@@ -22024,7 +22024,8 @@
         "real-time"
       ],
       "scheduled_at": "2026-09-10T20:02:17Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-18T19:29:28Z"
     },
     {
       "title": "Build a LoRA Adapter Layer from Scratch in PyTorch",
