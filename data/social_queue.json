@@ -22497,7 +22497,8 @@
         "devops"
       ],
       "scheduled_at": "2026-09-12T03:02:31Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-18T19:29:28Z"
     },
     {
       "title": "Build a Switch-Style MoE Router from Scratch in Pure Python",
