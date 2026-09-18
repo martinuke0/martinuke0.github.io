@@ -23997,8 +23997,9 @@
         "portfolio"
       ],
       "scheduled_at": "2026-09-17T20:05:32Z",
-      "status": "posting",
-      "claimed_at": "2026-09-18T19:29:28Z"
+      "status": "posted",
+      "claimed_at": "2026-09-18T19:29:28Z",
+      "post_urn": "urn:li:share:7506803492410322944"
     },
     {
       "title": "Implementing Schema Evolution in Apache Iceberg ETL with Avro Compatibility",
