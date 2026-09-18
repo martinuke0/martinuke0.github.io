@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-18T00:03:51Z",
+  "last_scheduled_at": "2026-09-18T03:05:47Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -23797,6 +23797,21 @@
         "sampler"
       ],
       "scheduled_at": "2026-09-18T00:03:51Z",
+      "status": "pending"
+    },
+    {
+      "title": "Build a Pure‑Python Hybrid RAG Engine with BM25, HNSW, and Cross‑Encoder Reranking",
+      "url": "https://martinuke0.github.io/posts/2026-09-18-build-a-purepython-hybrid-rag-engine-with-bm25-hnsw-and-crossencoder-reranking/",
+      "social_hook": "> TL;DR — This post walks you through building a pure‑Python hybrid RAG engine that layers BM25 sparse retrieval, HNSW vector search, cross‑encoder reranking, and a miniature transformer generator, delivering a tangible, runnable project that showcases systems‑level skill for hiring managers.\n\nBuilding a portfolio project that double‑dips into information‑retrieval and generation is a rare chance to demonstrate both depth and breadth. Hiring managers on LinkedIn see dozens of “ML portfolio” repos that rely on a single notebook; a hybrid RAG system that you can run, benchmark, and extend signals that you understand how production search pipelines are stitched together, how to trade off latency vs. relevance, and how to ship a Python service end‑to‑end. In this guide you’ll create a pure‑Python hybrid RAG engine that uses BM25 for sparse keyword search, HNSW for dense vector search, a cross‑encoder for reranking, and a tiny GPT‑2‑style transformer for generation. By the end you’ll have a working CLI tool, sample tests, and a clear roadmap to production‑grade upgrades.\n\n- Information‑retrieval engineering – you design and tune BM25 parameters, invert document frequencies, and balance sparse vs. dense signals.",
+      "tags": [
+        "python",
+        "rag",
+        "bm25",
+        "hnsw",
+        "cross-encoder",
+        "generation"
+      ],
+      "scheduled_at": "2026-09-18T03:05:47Z",
       "status": "pending"
     }
   ]
