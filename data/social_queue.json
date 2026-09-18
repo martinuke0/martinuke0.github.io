@@ -22944,7 +22944,8 @@
         "Deep Learning"
       ],
       "scheduled_at": "2026-09-13T18:03:00Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-18T19:29:28Z"
     },
     {
       "title": "Build a LoRA Rank Adaptation System From Scratch",
