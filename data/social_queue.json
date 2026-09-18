@@ -23491,8 +23491,9 @@
         "portfolio"
       ],
       "scheduled_at": "2026-09-16T01:03:17Z",
-      "status": "posting",
-      "claimed_at": "2026-09-18T19:29:28Z"
+      "status": "posted",
+      "claimed_at": "2026-09-18T19:29:28Z",
+      "post_urn": "urn:li:share:7506802941136187392"
     },
     {
       "title": "Check Against Constraints: How Production Systems Enforce Invariants",
