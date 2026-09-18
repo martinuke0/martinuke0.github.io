@@ -21962,7 +21962,8 @@
         "cv-project"
       ],
       "scheduled_at": "2026-09-10T14:05:07Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-18T19:58:44Z"
     },
     {
       "title": "Optimizing Redis Cluster Eviction: Predictable Latency Under Memory Pressure",
