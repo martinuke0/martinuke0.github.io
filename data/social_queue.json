@@ -23623,7 +23623,8 @@
         "tag5"
       ],
       "scheduled_at": "2026-09-16T13:05:58Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-18T19:29:28Z"
     },
     {
       "title": "Build a Distributed Task Queue From Scratch: A Portfolio Project That Signals Senior Systems Skill",
