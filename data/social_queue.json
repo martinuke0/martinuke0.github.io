@@ -23059,8 +23059,9 @@
         "isolation"
       ],
       "scheduled_at": "2026-09-14T05:09:08Z",
-      "status": "posting",
-      "claimed_at": "2026-09-18T19:29:28Z"
+      "status": "posted",
+      "claimed_at": "2026-09-18T19:29:28Z",
+      "post_urn": "urn:li:share:7506801210860130304"
     },
     {
       "title": "Architecting Resilience with Resilience4j Circuit Breakers and Retry Policies at Scale",
