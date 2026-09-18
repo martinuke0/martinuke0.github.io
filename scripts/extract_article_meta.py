@@ -69,7 +69,7 @@ def extract(md_path: Path) -> dict:
 def _extract_intro(content: str) -> str:
     """Pull the first 3 non-heading, non-empty paragraphs after the frontmatter."""
     # Strip frontmatter
-    body = re.sub(r"^---.*?---\s*", "", content, count=1, flags=re.DOTALL)
+    body = re.sub(r"^---.*?---\s*", "", content.lstrip(), count=1, flags=re.DOTALL)
     # Strip METADATA block
     body = re.sub(r"<METADATA>.*?</METADATA>", "", body, flags=re.DOTALL)
 
