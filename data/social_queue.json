@@ -23963,7 +23963,8 @@
         "portfolio"
       ],
       "scheduled_at": "2026-09-17T18:05:32Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-18T19:29:28Z"
     },
     {
       "title": "Build a Pure Python IVF Index with Product Quantization and Residual Vector Quantization",
