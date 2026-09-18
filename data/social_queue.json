@@ -24031,8 +24031,9 @@
         "quantization"
       ],
       "scheduled_at": "2026-09-17T23:02:26Z",
-      "status": "posting",
-      "claimed_at": "2026-09-18T19:29:28Z"
+      "status": "posted",
+      "claimed_at": "2026-09-18T19:29:28Z",
+      "post_urn": "urn:li:share:7506803530347806720"
     },
     {
       "title": "Build a Minimal Transformer Inference Engine for Your Portfolio",
