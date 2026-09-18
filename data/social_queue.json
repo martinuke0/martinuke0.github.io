@@ -23803,8 +23803,9 @@
         "deep-learning"
       ],
       "scheduled_at": "2026-09-17T04:07:34Z",
-      "status": "posting",
-      "claimed_at": "2026-09-18T19:29:28Z"
+      "status": "posted",
+      "claimed_at": "2026-09-18T19:29:28Z",
+      "post_urn": "urn:li:share:7506803276735094784"
     },
     {
       "title": "Build a BPE Tokenizer from Scratch: Parallel Vocab Builder, Priority‑Heap Merge Scheduler, Subword Regularization, and Streaming Encoder with LRU Caching",
