@@ -23770,8 +23770,9 @@
         "python"
       ],
       "scheduled_at": "2026-09-17T00:05:52Z",
-      "status": "posting",
-      "claimed_at": "2026-09-18T19:29:28Z"
+      "status": "posted",
+      "claimed_at": "2026-09-18T19:29:28Z",
+      "post_urn": "urn:li:share:7506803243004579841"
     },
     {
       "title": "Build a Minimal GPT Training Loop with Rotary Positional Embeddings",
