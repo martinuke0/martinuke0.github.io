@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-18T09:02:28Z",
+  "last_scheduled_at": "2026-09-18T10:03:12Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -23870,6 +23870,20 @@
         "Performance"
       ],
       "scheduled_at": "2026-09-18T09:02:28Z",
+      "status": "pending"
+    },
+    {
+      "title": "Hierarchical Sliding Window Context Manager with Semantic Eviction and Priority-Based KV Cache",
+      "url": "https://martinuke0.github.io/posts/2026-09-18-hierarchical-sliding-window-context-manager-with-semantic-eviction-and-priority-based-kv-cache/",
+      "social_hook": "title: \"Hierarchical Sliding Window Context Manager with Semantic Eviction and Priority-Based KV Cache\"\n\ndescription: \"Python hierarchical sliding‑window context manager with semantic eviction and priority‑based KV cache, demonstrating systems skills for hiring managers.\"\n\nsummary: \"A practical guide to implementing a hierarchical sliding‑window context manager with semantic eviction and priority‑based KV cache in Python, perfect for showcasing systems expertise.\"",
+      "tags": [
+        "python",
+        "systems",
+        "cache",
+        "architecture",
+        "portfolio"
+      ],
+      "scheduled_at": "2026-09-18T10:03:12Z",
       "status": "pending"
     }
   ]
