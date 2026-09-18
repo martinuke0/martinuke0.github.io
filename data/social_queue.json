@@ -24080,8 +24080,9 @@
         "gpt"
       ],
       "scheduled_at": "2026-09-18T05:03:59Z",
-      "status": "posting",
-      "claimed_at": "2026-09-18T19:29:28Z"
+      "status": "posted",
+      "claimed_at": "2026-09-18T19:29:28Z",
+      "post_urn": "urn:li:share:7506803583032561664"
     },
     {
       "title": "Designing Resilient Storage with ZFS Copy-On-Write Snapshots and Journal Recovery",
