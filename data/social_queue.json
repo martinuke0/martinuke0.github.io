@@ -22811,8 +22811,9 @@
         "deep-learning"
       ],
       "scheduled_at": "2026-09-13T05:04:12Z",
-      "status": "posting",
-      "claimed_at": "2026-09-18T19:29:28Z"
+      "status": "posted",
+      "claimed_at": "2026-09-18T19:29:28Z",
+      "post_urn": "urn:li:share:7506800939916492800"
     },
     {
       "title": "From Scratch: Building a GPTQ INT4 Quantizer in Pure Python",
