@@ -23270,7 +23270,8 @@
         "PEFT"
       ],
       "scheduled_at": "2026-09-15T00:04:35Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-18T19:29:28Z"
     },
     {
       "title": "Brainstorming Valid Architectural Patterns in Production Systems",
