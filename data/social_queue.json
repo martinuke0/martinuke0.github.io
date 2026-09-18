@@ -22594,8 +22594,9 @@
         "distributed-systems"
       ],
       "scheduled_at": "2026-09-12T09:05:13Z",
-      "status": "posting",
-      "claimed_at": "2026-09-18T19:29:28Z"
+      "status": "posted",
+      "claimed_at": "2026-09-18T19:29:28Z",
+      "post_urn": "urn:li:share:7506800699025027072"
     },
     {
       "title": "Implementing Go's Work-Stealing Scheduler: Inside Goroutine Execution and Load Balancing",
