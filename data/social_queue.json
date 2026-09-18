@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-18T06:03:59Z",
+  "last_scheduled_at": "2026-09-18T07:03:59Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -23840,6 +23840,21 @@
         "data-resilience"
       ],
       "scheduled_at": "2026-09-18T06:03:59Z",
+      "status": "pending"
+    },
+    {
+      "title": "Optimizing Redis Cache Stampede Protection: Request Coalescing and Probabilistic Early Expiration",
+      "url": "https://martinuke0.github.io/posts/2026-09-18-optimizing-redis-cache-stampede-protection-request-coalescing-and-probabilistic-early-expiration/",
+      "social_hook": "> TL;DR — Cache stampedes occur when a popular cache key expires and thousands of concurrent requests flood the backend simultaneously. Request coalescing collapses redundant work into a single upstream call, while probabilistic early expiration staggers key expiry to prevent synchronized mass-eviction. Together, they form a robust defense against thundering herd failures in production Redis systems.\n\nCache stampedes — sometimes called thundering herd problems — are among the most insidious failure modes in distributed systems. They don't announce themselves with a crash or an outage alert. Instead, they manifest as a slow, cascading degradation that quietly saturates your database, inflates p99 latency, and burns through connection pools until the entire service grinds to a halt.\n\nThe root cause is deceptively simple: when a heavily cached key expires, every concurrent request that misses the cache hits the backend simultaneously. If that backend is a relational database or an external API, the sudden load spike can overwhelm it. In a system serving 100,000 requests per second with a popular key expiring at an inopportune moment, you can see thousands of redundant queries fire within milliseconds of each other.",
+      "tags": [
+        "redis",
+        "caching",
+        "cache-stampede",
+        "request-coalescing",
+        "distributed-systems",
+        "performance"
+      ],
+      "scheduled_at": "2026-09-18T07:03:59Z",
       "status": "pending"
     }
   ]
