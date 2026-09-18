@@ -22173,7 +22173,8 @@
         "portfolio"
       ],
       "scheduled_at": "2026-09-11T05:05:33Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-18T19:29:28Z"
     },
     {
       "title": "Building a From-Scratch INT8 Strided Convolution Kernel",
