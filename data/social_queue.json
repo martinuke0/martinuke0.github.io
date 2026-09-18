@@ -22878,8 +22878,9 @@
         "portfolio-project"
       ],
       "scheduled_at": "2026-09-13T12:02:35Z",
-      "status": "posting",
-      "claimed_at": "2026-09-18T19:29:28Z"
+      "status": "posted",
+      "claimed_at": "2026-09-18T19:29:28Z",
+      "post_urn": "urn:li:share:7506801011181907968"
     },
     {
       "title": "Building a Pure-Python LoRA Adapter for BERT: A Portfolio Project",
