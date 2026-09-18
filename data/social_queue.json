@@ -22727,7 +22727,8 @@
         "portfolio"
       ],
       "scheduled_at": "2026-09-12T21:03:29Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-18T19:29:28Z"
     },
     {
       "title": "Build an LLM Decoding Sampler from Scratch: A Portfolio Project That Signals Real Systems Skill",
