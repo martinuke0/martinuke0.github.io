@@ -21991,7 +21991,8 @@
         "Systems-Engineering"
       ],
       "scheduled_at": "2026-09-10T16:05:07Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-18T19:29:28Z"
     },
     {
       "title": "Building a Multi-Head Self-Attention Block with RoPE and ALiBi from Scratch",
