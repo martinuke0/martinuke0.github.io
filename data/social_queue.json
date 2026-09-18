@@ -23786,7 +23786,8 @@
         "portfolio"
       ],
       "scheduled_at": "2026-09-17T03:03:54Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-18T19:29:28Z"
     },
     {
       "title": "Building a GPTQ Weight Quantization Engine from Scratch: Fisher Scoring & Mixed-Precision Calibration",
