@@ -24262,7 +24262,8 @@
         "GitOps"
       ],
       "scheduled_at": "2026-09-18T18:03:02Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-18T19:29:28Z"
     },
     {
       "title": "Pure-Python Continuous-Batching LLM Server with Chunked Prefill and Tiled KV‑Cache Eviction",
