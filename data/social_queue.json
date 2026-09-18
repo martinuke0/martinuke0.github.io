@@ -22694,8 +22694,9 @@
         "systems"
       ],
       "scheduled_at": "2026-09-12T19:02:44Z",
-      "status": "posting",
-      "claimed_at": "2026-09-18T19:29:28Z"
+      "status": "posted",
+      "claimed_at": "2026-09-18T19:29:28Z",
+      "post_urn": "urn:li:share:7506800811734355968"
     },
     {
       "title": "Building a User Safety Service: A Practical Guide for Your CV",
