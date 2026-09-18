@@ -22678,7 +22678,8 @@
         "Apache Lucene"
       ],
       "scheduled_at": "2026-09-12T18:01:23Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-18T19:29:28Z"
     },
     {
       "title": "Building a Personal Portfolio API with Go, SQLite, and Docker",
