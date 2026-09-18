@@ -22844,8 +22844,9 @@
         "Kubernetes"
       ],
       "scheduled_at": "2026-09-13T08:01:57Z",
-      "status": "posting",
-      "claimed_at": "2026-09-18T19:29:28Z"
+      "status": "posted",
+      "claimed_at": "2026-09-18T19:29:28Z",
+      "post_urn": "urn:li:share:7506800973789626368"
     },
     {
       "title": "Build a Learnable Token-Importance KV Cache for LLM Inference",
