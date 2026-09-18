@@ -23835,7 +23835,8 @@
         "portfolio"
       ],
       "scheduled_at": "2026-09-17T06:07:34Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-18T19:29:28Z"
     },
     {
       "title": "Deep Dive into Kubernetes eBPF Network Policy Enforcement with Cilium",
