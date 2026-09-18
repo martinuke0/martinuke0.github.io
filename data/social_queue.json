@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-18T13:03:14Z",
+  "last_scheduled_at": "2026-09-18T14:06:55Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -23928,6 +23928,20 @@
         "transport-optimization"
       ],
       "scheduled_at": "2026-09-18T13:03:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing WebAuthn for Passwordless Authentication: A Practical Guide",
+      "url": "https://martinuke0.github.io/posts/2026-09-18-implementing-webauthn-for-passwordless-authentication-a-practical-guide/",
+      "social_hook": "> TL;DR — WebAuthn enables passwordless authentication by leveraging device-bound credentials and public-key cryptography, eliminating password reuse risks while improving user experience across browsers and platforms. This guide walks through the full flow, from client credential creation to secure server verification, with production-ready patterns and common pitfalls.\n\nPasswordless authentication is no longer a futuristic ideal — it's a deployable reality. WebAuthn, standardized by the W3C and FIDO Alliance, provides a browser- and OS-native API for creating and using public-key credentials that never leave the authenticating device. Unlike OTPs or SMS-based 2FA, WebAuthn credentials are phishing-resistant, unshareable, and tied to the specific relying party that issued them. In this article, we'll dissect the protocol flow, examine client and server implementations, and highlight the operational considerations that separate a hobbyist demo from a production-grade deployment.\n\nWebAuthn operates as the web-facing portion of the broader FIDO2 standard. The specification defines two primary APIs: `navigator.credentials.create()` for registering a new credential and `navigator.credentials.get()` for authenticating an existing one. Under the hood, WebAuthn relies on the Client-to-Authenticator Protocol (CTAP) to communicate with authenticators—ranging from built-in biometric sensors (fingerprint, face ID) to external USB/NFC security keys.",
+      "tags": [
+        "webauthn",
+        "authentication",
+        "security",
+        "passwordless",
+        "fido2"
+      ],
+      "scheduled_at": "2026-09-18T14:06:55Z",
       "status": "pending"
     }
   ]
