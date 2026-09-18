@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-17T23:02:26Z",
+  "last_scheduled_at": "2026-09-18T00:03:51Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -23783,6 +23783,20 @@
         "quantization"
       ],
       "scheduled_at": "2026-09-17T23:02:26Z",
+      "status": "pending"
+    },
+    {
+      "title": "Build a Minimal Transformer Inference Engine for Your Portfolio",
+      "url": "https://martinuke0.github.io/posts/2026-09-18-build-a-minimal-transformer-inference-engine-for-your-portfolio/",
+      "social_hook": "description: \"Build a minimal transformer engine with KV cache, custom tokenizer, attention block, and sampler to showcase real systems skill.\"\n\nsummary: \"A practical guide to building a minimal transformer inference engine with KV cache, tokenizer, attention, and sampler. It demonstrates systems skills that hiring managers look for.\"\n\nimage: \"/images/covers/2026-09-18-build-a-minimal-transformer-inference-engine-for-your-portfolio.svg\"",
+      "tags": [
+        "transformer",
+        "kv-cache",
+        "tokenizer",
+        "attention",
+        "sampler"
+      ],
+      "scheduled_at": "2026-09-18T00:03:51Z",
       "status": "pending"
     }
   ]
