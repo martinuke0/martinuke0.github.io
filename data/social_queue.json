@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-18T07:03:59Z",
+  "last_scheduled_at": "2026-09-18T09:02:28Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -23855,6 +23855,21 @@
         "performance"
       ],
       "scheduled_at": "2026-09-18T07:03:59Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing CUDA Graphs for Low-Latency GPU Inference Pipelines",
+      "url": "https://martinuke0.github.io/posts/2026-09-18-implementing-cuda-graphs-for-low-latency-gpu-inference-pipelines/",
+      "social_hook": "tags: [\"CUDA\", \"GPU\", \"Inference\", \"Low-Latency\", \"Deep Learning\", \"Performance\"]\n\ndescription: \"Learn how to use CUDA Graphs to reduce latency and boost throughput in GPU inference pipelines with practical examples and performance tips.\"\n\nsummary: \"CUDA Graphs capture and replay GPU workloads, reducing kernel launch overhead and cutting inference latency by up to 40% in production systems.\"",
+      "tags": [
+        "CUDA",
+        "GPU",
+        "Inference",
+        "Low-Latency",
+        "Deep Learning",
+        "Performance"
+      ],
+      "scheduled_at": "2026-09-18T09:02:28Z",
       "status": "pending"
     }
   ]
