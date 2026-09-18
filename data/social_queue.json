@@ -22777,7 +22777,8 @@
         "fault-tolerance"
       ],
       "scheduled_at": "2026-09-13T03:04:12Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-18T19:29:28Z"
     },
     {
       "title": "Building Resilient API Gateways with Envoy Proxy: A Practical Implementation Guide",
