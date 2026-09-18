@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-18T05:03:59Z",
+  "last_scheduled_at": "2026-09-18T06:03:59Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -23826,6 +23826,20 @@
         "gpt"
       ],
       "scheduled_at": "2026-09-18T05:03:59Z",
+      "status": "pending"
+    },
+    {
+      "title": "Designing Resilient Storage with ZFS Copy-On-Write Snapshots and Journal Recovery",
+      "url": "https://martinuke0.github.io/posts/2026-09-18-designing-resilient-storage-with-zfs-copy-on-write-snapshots-and-journal-recovery/",
+      "social_hook": "> TL;DR — ZFS’s copy‑on‑write pool creates immutable snapshots instantly, while its journal‑driven recovery repairs metadata corruption in seconds, giving you zero‑data‑loss resilience for demanding workloads.\n\nZFS has become a cornerstone of resilient storage in everything from home NAS boxes to large‑scale data centers. Its copy‑on‑write (COW) design, combined with a transaction‑style journal, delivers snapshots that are both space‑efficient and crash‑safe. In this post we’ll explore how the COW mechanism works, how the journal accelerates recovery, and which architectural patterns let you harness these features in production environments.\n\nAt the heart of ZFS lies the copy‑on‑write principle: whenever data is modified, ZFS writes the new version to a fresh block on disk and updates the pointer in the parent metadata. The original block remains untouched until it is explicitly freed. This approach gives ZFS several immediate benefits:",
+      "tags": [
+        "zfs",
+        "storage",
+        "snapshots",
+        "journaling",
+        "data-resilience"
+      ],
+      "scheduled_at": "2026-09-18T06:03:59Z",
       "status": "pending"
     }
   ]
