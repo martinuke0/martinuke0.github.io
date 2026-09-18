@@ -22320,7 +22320,8 @@
         "Machine Learning"
       ],
       "scheduled_at": "2026-09-11T14:05:33Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-18T19:29:28Z"
     },
     {
       "title": "Hands‑On: Building a User‑Safety Service for Your Portfolio",
