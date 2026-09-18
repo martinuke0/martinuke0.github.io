@@ -23059,7 +23059,8 @@
         "isolation"
       ],
       "scheduled_at": "2026-09-14T05:09:08Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-18T19:29:28Z"
     },
     {
       "title": "Architecting Resilience with Resilience4j Circuit Breakers and Retry Policies at Scale",
