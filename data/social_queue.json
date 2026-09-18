@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-18T15:06:55Z",
+  "last_scheduled_at": "2026-09-18T17:01:45Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -23956,6 +23956,20 @@
         "systems"
       ],
       "scheduled_at": "2026-09-18T15:06:55Z",
+      "status": "pending"
+    },
+    {
+      "title": "Observability Pipelines: Instrumenting Microservices with OpenTelemetry",
+      "url": "https://martinuke0.github.io/posts/2026-09-18-observability-pipelines-instrumenting-microservices-with-opentelemetry/",
+      "social_hook": "> TL;DR — Building robust observability pipelines requires moving beyond basic logging to distributed tracing. By leveraging OpenTelemetry and Jaeger, engineering teams can map request flows across complex microservice architectures and pinpoint latency bottlenecks. The architecture relies on instrumentation, a buffering collector, and a scalable backend to ensure telemetry data remains reliable under heavy load.\n\nThe shift from centralized monolithic applications to distributed microservice architectures fundamentally altered how engineering teams approach system monitoring. In a monolith, a single request executes within a unified memory space, making traditional logging sufficient for debugging. However, a single user action in a modern cloud-native application might traverse fifteen distinct services, cross multiple network boundaries, and interact with several databases before returning a response. Capturing the lifecycle of this request requires a paradigm shift from siloed log aggregation to distributed tracing.\n\nAt the core of modern observability pipelines lies the OpenTelemetry project, which provides a unified set of APIs, SDKs, and instrumentation libraries. As detailed in the OpenTelemetry specification, the standard defines a vendor-neutral instrumentation framework that prevents vendor lock-in and ensures interoperability across the ecosystem. The architecture typically consists of three distinct layers: the instrumentation layer embedded within the application, the collection layer responsible for processing and routing telemetry data, and the backend layer where the data is stored and visualized.",
+      "tags": [
+        "OpenTelemetry",
+        "Distributed Tracing",
+        "Microservices",
+        "Observability",
+        "Jaeger"
+      ],
+      "scheduled_at": "2026-09-18T17:01:45Z",
       "status": "pending"
     }
   ]
