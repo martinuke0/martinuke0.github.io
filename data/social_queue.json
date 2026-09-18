@@ -23558,8 +23558,9 @@
         "cloud-native"
       ],
       "scheduled_at": "2026-09-16T07:03:23Z",
-      "status": "posting",
-      "claimed_at": "2026-09-18T19:29:28Z"
+      "status": "posted",
+      "claimed_at": "2026-09-18T19:29:28Z",
+      "post_urn": "urn:li:share:7506803009255927808"
     },
     {
       "title": "Build an End-to-End RAG System for Your Portfolio",
