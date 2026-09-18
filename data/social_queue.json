@@ -24212,8 +24212,9 @@
         "fido2"
       ],
       "scheduled_at": "2026-09-18T14:06:55Z",
-      "status": "posting",
-      "claimed_at": "2026-09-18T19:29:28Z"
+      "status": "posted",
+      "claimed_at": "2026-09-18T19:29:28Z",
+      "post_urn": "urn:li:share:7506803721331347456"
     },
     {
       "title": "Building a Pure‑Python Int4 KV‑Cache for Transformer Inference",
