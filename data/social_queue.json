@@ -23475,7 +23475,8 @@
         "portfolio-project"
       ],
       "scheduled_at": "2026-09-15T22:02:47Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-18T19:29:28Z"
     },
     {
       "title": "Building a BPE Tokenizer from Scratch in Pure Python",
