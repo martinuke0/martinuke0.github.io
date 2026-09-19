@@ -24318,7 +24318,8 @@
         "Architecture"
       ],
       "scheduled_at": "2026-09-19T14:02:44Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-19T14:03:12Z"
     }
   ]
 }
