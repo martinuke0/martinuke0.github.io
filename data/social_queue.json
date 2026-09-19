@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-19T19:03:10Z",
+  "last_scheduled_at": "2026-09-19T20:03:10Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -24354,6 +24354,21 @@
       "status": "posted",
       "claimed_at": "2026-09-19T19:03:35Z",
       "post_urn": "urn:li:share:7507152652280016896"
+    },
+    {
+      "title": "Building a Pure-Python IVF-PQ Vector Index with On-Disk Storage for RAG Pipelines",
+      "url": "https://martinuke0.github.io/posts/2026-09-19-building-a-pure-python-ivf-pq-vector-index-with-on-disk-storage-for-rag-pipelines/",
+      "social_hook": "> TL;DR — You will implement a pure‑Python IVF‑PQ index that stores vectors on disk, delivering sub‑second approximate nearest‑neighbor retrieval for RAG pipelines. The design combines inverted file clustering with product quantization to compress large collections, and it can be extended with persistence, scaling, and observability.\n\nIn the rapidly evolving field of retrieval‑augmented generation (RAG), the ability to quickly find the most relevant documents or embeddings is a bottleneck. While libraries such as FAISS or Annoy provide out‑of‑the‑box solutions, building your own index from first principles signals a deep understanding of vector search, compression, and storage systems—skills that hiring managers value highly. This post walks you through constructing a pure‑Python IVF‑PQ (Inverted File with Product Quantization) index that persists data to disk, integrates with a RAG pipeline, and can be extended to production‑grade features.\n\n- Algorithmic depth – You will implement k‑means clustering, product quantization, and inverted file posting lists, demonstrating mastery of approximate nearest‑neighbor (ANN) search.",
+      "tags": [
+        "vector-search",
+        "python",
+        "rag",
+        "ivf",
+        "pq",
+        "on-disk-storage"
+      ],
+      "scheduled_at": "2026-09-19T20:03:10Z",
+      "status": "pending"
     }
   ]
 }
