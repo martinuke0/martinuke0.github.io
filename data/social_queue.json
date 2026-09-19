@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-19T21:03:10Z",
+  "last_scheduled_at": "2026-09-19T22:03:43Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -24387,6 +24387,20 @@
       "status": "posted",
       "claimed_at": "2026-09-19T21:03:18Z",
       "post_urn": "urn:li:share:7507182866510884864"
+    },
+    {
+      "title": "Speculative Decoding Engine with Draft-Model Verification and KV-Cache Sharing in Pure Python",
+      "url": "https://martinuke0.github.io/posts/2026-09-19-speculative-decoding-engine-with-draft-model-verification-and-kv-cache-sharing-in-pure-python/",
+      "social_hook": "> TL;DR — This project implements a speculative decoding engine in pure Python, combining a fast draft model with a verification step and a shared KV cache to cut inference latency. It showcases concrete systems skills—concurrency, caching, and model integration—making it a compelling portfolio piece.\n\nIn the race to ship faster language models, speculative decoding has emerged as a technique that can reduce latency without sacrificing output quality. By generating several candidate tokens with a lightweight “draft” model and then verifying them with a larger “target” model, you can achieve speedups that are difficult to reach with conventional autoregressive decoding. This post walks you through building a complete, runnable speculative decoding engine in pure Python. You will see how to wire together a draft model, a verification step, and a shared KV‑cache that avoids recomputation across steps. The code is deliberately minimal so you can extend it into a production‑grade service, and the architecture highlights the systems concepts that hiring managers look for.\n\n- End‑to‑end ML systems design – You will implement the full pipeline: tokenization, draft generation, verification, and cache management, demonstrating you can ship a model from research to a working service.",
+      "tags": [
+        "speculative-decoding",
+        "python",
+        "llm",
+        "systems",
+        "performance"
+      ],
+      "scheduled_at": "2026-09-19T22:03:43Z",
+      "status": "pending"
     }
   ]
 }
