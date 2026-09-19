@@ -24368,8 +24368,9 @@
         "on-disk-storage"
       ],
       "scheduled_at": "2026-09-19T20:03:10Z",
-      "status": "posting",
-      "claimed_at": "2026-09-19T20:03:35Z"
+      "status": "posted",
+      "claimed_at": "2026-09-19T20:03:35Z",
+      "post_urn": "urn:li:share:7507167838479216641"
     }
   ]
 }
