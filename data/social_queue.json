@@ -24400,8 +24400,9 @@
         "performance"
       ],
       "scheduled_at": "2026-09-19T22:03:43Z",
-      "status": "posting",
-      "claimed_at": "2026-09-19T22:04:10Z"
+      "status": "posted",
+      "claimed_at": "2026-09-19T22:04:10Z",
+      "post_urn": "urn:li:share:7507198094086885376"
     }
   ]
 }
