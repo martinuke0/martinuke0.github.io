@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-19T14:02:44Z",
+  "last_scheduled_at": "2026-09-19T17:02:29Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -24321,6 +24321,21 @@
       "status": "posted",
       "claimed_at": "2026-09-19T14:03:12Z",
       "post_urn": "urn:li:share:7507077225192714240"
+    },
+    {
+      "title": "User Safety: Building Systems That Protect People",
+      "url": "https://martinuke0.github.io/posts/2026-09-19-user-safety-building-systems-that-protect-people/",
+      "social_hook": "> TL;DR — User safety in software isn't a single feature you bolt on at the end. It's a layered discipline spanning authentication, authorization, data protection, and safe defaults. The teams that get it right treat safety as a first-class architectural concern, not an afterthought, and they bake it into every layer of the stack.\n\nWhen we talk about \"user safety,\" we're really talking about a contract between your software and the people who trust it with their data, their identity, and their time. That contract is broken far more often by architectural shortcuts than by sophisticated attacks. A misconfigured permission, an unvalidated input field, or a default credential left in place — these are the quiet failures that erode trust.\n\nThis post examines what it actually takes to build systems where safety is structural, not aspirational.",
+      "tags": [
+        "user-safety",
+        "security",
+        "software-engineering",
+        "authentication",
+        "data-protection",
+        "safe-coding"
+      ],
+      "scheduled_at": "2026-09-19T17:02:29Z",
+      "status": "pending"
     }
   ]
 }
