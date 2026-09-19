@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-19T22:03:43Z",
+  "last_scheduled_at": "2026-09-19T23:03:43Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -24403,6 +24403,20 @@
       "status": "posted",
       "claimed_at": "2026-09-19T22:04:10Z",
       "post_urn": "urn:li:share:7507198094086885376"
+    },
+    {
+      "title": "Mastering Fully Homomorphic Encryption with Microsoft SEAL",
+      "url": "https://martinuke0.github.io/posts/2026-09-19-mastering-fully-homomorphic-encryption-with-microsoft-seal/",
+      "social_hook": "> TL;DR — Fully Homomorphic Encryption (FHE) allows computations to be performed on ciphertexts, generating an encrypted result that, when decrypted, matches the result of operations performed on plaintext. Microsoft SEAL is the industry-standard library for implementing FHE, offering robust schemes like CKKS and BFV. This post explores how to architect, configure, and optimize encrypted computations using SEAL to build privacy-preserving applications.\n\nFor decades, the cryptography community has sought a holy grail: the ability to compute on data while it remains encrypted. Traditional encryption protects data at rest and in transit, but once data must be processed by a CPU, it must be decrypted, exposing it to the very systems we trust to protect it. Fully Homomorphic Encryption (FHE) shatters this paradigm. By allowing arbitrary computations on ciphertexts, FHE ensures that sensitive data—whether patient genomes or financial records—never leaves its encrypted state, even during processing.\n\nMicrosoft SEAL (Simple Encrypted Arithmetic Library) has emerged as the definitive framework for bringing FHE into production. Unlike early academic implementations that were too slow to be practical, SEAL is optimized for performance, rigorously tested, and maintained by a dedicated team of cryptographers and engineers. In this deep dive, we will explore the architecture of Microsoft SEAL, examine its core schemes, and outline the patterns required to build efficient, encrypted computation pipelines.",
+      "tags": [
+        "homomorphic encryption",
+        "Microsoft SEAL",
+        "privacy",
+        "cryptography",
+        "encrypted computation"
+      ],
+      "scheduled_at": "2026-09-19T23:03:43Z",
+      "status": "pending"
     }
   ]
 }
