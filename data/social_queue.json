@@ -24400,7 +24400,8 @@
         "performance"
       ],
       "scheduled_at": "2026-09-19T22:03:43Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-19T22:04:10Z"
     }
   ]
 }
