@@ -24318,8 +24318,9 @@
         "Architecture"
       ],
       "scheduled_at": "2026-09-19T14:02:44Z",
-      "status": "posting",
-      "claimed_at": "2026-09-19T14:03:12Z"
+      "status": "posted",
+      "claimed_at": "2026-09-19T14:03:12Z",
+      "post_urn": "urn:li:share:7507077225192714240"
     }
   ]
 }
