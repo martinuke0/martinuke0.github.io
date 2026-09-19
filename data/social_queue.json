@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-18T20:07:06Z",
+  "last_scheduled_at": "2026-09-19T14:02:44Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -24305,6 +24305,20 @@
       "status": "posted",
       "claimed_at": "2026-09-19T13:46:38Z",
       "post_urn": "urn:li:share:7507072676541403136"
+    },
+    {
+      "title": "Architecting Real-time Order Processing with Apache Pulsar: Guarantees, Latency, and Cost",
+      "url": "https://martinuke0.github.io/posts/2026-09-19-architecting-real-time-order-processing-with-apache-pulsar-guarantees-latency-and-cost/",
+      "social_hook": "> TL;DR — Apache Pulsar provides exactly‑once delivery and partition‑level ordering, enabling sub‑millisecond order processing. By separating storage from compute and using tiered storage, you can achieve low latency while controlling cost. Design your pipeline with idempotent producers, compacted topics, and careful consumer‑group sizing to meet SLAs.\n\nIn modern e‑commerce, the moment a customer clicks “Place Order” the system must atomically reserve inventory, charge payment, and notify fulfillment—all while presenting a responsive UI. Traditional request‑response stacks often buckle under the resulting burst of synchronous calls, leading to latency spikes and inconsistent state. Event‑driven architectures built on Apache Pulsar address these challenges by decoupling services, guaranteeing delivery semantics, and offering a cost model that scales with throughput rather than idle resources.\n\nA typical Pulsar‑based order processing pipeline consists of three logical layers:",
+      "tags": [
+        "Apache Pulsar",
+        "Real-time",
+        "Order Processing",
+        "Event Streaming",
+        "Architecture"
+      ],
+      "scheduled_at": "2026-09-19T14:02:44Z",
+      "status": "pending"
     }
   ]
 }
