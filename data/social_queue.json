@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-19T20:03:10Z",
+  "last_scheduled_at": "2026-09-19T21:03:10Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -24371,6 +24371,20 @@
       "status": "posted",
       "claimed_at": "2026-09-19T20:03:35Z",
       "post_urn": "urn:li:share:7507167838479216641"
+    },
+    {
+      "title": "Reversible Byte-Level BPE Tokenizer Trainer with Streaming Merge Accumulation",
+      "url": "https://martinuke0.github.io/posts/2026-09-19-reversible-byte-level-bpe-tokenizer-trainer-with-streaming-merge-accumulation/",
+      "social_hook": "> TL;DR — This post walks you through building a pure‑Python reversible byte‑level BPE tokenizer that streams merge accumulations and validates byte‑exact round‑trip fidelity. You'll get runnable code, diagnostic metrics, and a clear roadmap to turn the prototype into a production‑grade tool. By the end you'll have a portfolio project that signals competence in low‑level I/O, algorithm design, and testing.\n\nA reversible byte‑level BPE tokenizer is a rare breed: most implementations either stop at the word‑piece level or sacrifice round‑trip fidelity for speed. By training a tokenizer that works directly on raw bytes, accumulates merge decisions in a streaming fashion, and then proves that every byte survives encode‑decode unchanged, you demonstrate (1) low‑level byte‑manipulation fluency, (2) streaming pipeline design, (3) rigorous automated testing, and (4) the ability to ship a self‑contained, dependency‑light library. Those skills map directly to roles such as ML engineer, data pipeline engineer, dev‑tools specialist, and compiler engineer—people who need to understand how text becomes tokens and how to tinker with that pipeline without pulling in a heavy framework.\n\n- Low‑level byte manipulation – Working with `int` representations of bytes, handling surrogate pairs, and ensuring round‑trip integrity shows you can operate close to the metal.",
+      "tags": [
+        "bpe",
+        "tokenizer",
+        "python",
+        "cv",
+        "streaming"
+      ],
+      "scheduled_at": "2026-09-19T21:03:10Z",
+      "status": "pending"
     }
   ]
 }
