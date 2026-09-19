@@ -24335,8 +24335,9 @@
         "safe-coding"
       ],
       "scheduled_at": "2026-09-19T17:02:29Z",
-      "status": "posting",
-      "claimed_at": "2026-09-19T17:03:07Z"
+      "status": "posted",
+      "claimed_at": "2026-09-19T17:03:07Z",
+      "post_urn": "urn:li:share:7507122378645143552"
     }
   ]
 }
