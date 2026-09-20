@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-20T02:03:43Z",
+  "last_scheduled_at": "2026-09-20T03:07:23Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -24466,6 +24466,20 @@
         "systems-programming"
       ],
       "scheduled_at": "2026-09-20T02:03:43Z",
+      "status": "pending"
+    },
+    {
+      "title": "Hands-On Build Guide: Flash Attention Implementation from Scratch in NumPy",
+      "url": "https://martinuke0.github.io/posts/2026-09-20-hands-on-build-guide-flash-attention-implementation-from-scratch-in-numpy/",
+      "social_hook": "> TL;DR — In this post we build a minimal Flash‑Attention kernel from scratch using only NumPy: tiled multi‑head self‑attention with causal masking, achieving O(N²)‑free memory usage and a ~2× speed‑up over a naïve implementation. The complete, runnable code can be dropped into a portfolio, and the design scales to larger models by swapping tiling parameters and adding a CUDA backend. By the end you’ll have a concrete project that signals proficiency in low‑level optimization, numerical computing, and production‑grade architecture patterns.\n\nBuilding a Flash‑Attention style kernel in NumPy is a fantastic side‑project for engineers who want to demonstrate both deep‑learning fundamentals and systems‑level thinking. You’ll walk away with a runnable codebase, an understanding of tiling tricks that cut memory traffic, and a concrete example you can discuss in interviews.\n\nHiring managers for ML‑focused roles see dozens of “implemented BERT” or “fine‑tuned GPT” entries. What sets this project apart are the concrete signals it sends:",
+      "tags": [
+        "numpy",
+        "attention",
+        "deep-learning",
+        "performance",
+        "cv-portfolio"
+      ],
+      "scheduled_at": "2026-09-20T03:07:23Z",
       "status": "pending"
     }
   ]
