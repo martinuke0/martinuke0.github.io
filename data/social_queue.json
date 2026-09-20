@@ -24569,7 +24569,8 @@
         "Distributed Systems"
       ],
       "scheduled_at": "2026-09-20T16:01:39Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-20T16:02:17Z"
     }
   ]
 }
