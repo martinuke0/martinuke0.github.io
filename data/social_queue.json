@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-19T23:03:43Z",
+  "last_scheduled_at": "2026-09-20T00:03:43Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -24416,6 +24416,21 @@
         "encrypted computation"
       ],
       "scheduled_at": "2026-09-19T23:03:43Z",
+      "status": "pending"
+    },
+    {
+      "title": "User Safety: safe — A Hands-On Build Guide for Systems Engineers",
+      "url": "https://martinuke0.github.io/posts/2026-09-20-user-safety-safe-a-hands-on-build-guide-for-systems-engineers/",
+      "social_hook": "> TL;DR — Build \"safe,\" a User Safety monitoring system that ingests safety events from instrumented applications, classifies them in real time, and fires alerts when thresholds are breached. You'll implement an event pipeline with Redis, a rule engine in Python, and a sliding-window aggregator — all components that mirror production systems like Crashlytics and Sentry. The project signals distributed systems, observability, and reliability engineering skills that hiring managers actively look for.\n\nHiring managers in infrastructure, platform engineering, and backend roles scan portfolios for projects that demonstrate three things: you can own a system end-to-end, you understand failure modes, and you think about scale from day one. \"safe\" checks all three boxes.\n\n- Distributed event processing — You'll build a pipeline that accepts events from multiple producers, buffers them, and processes them asynchronously. This is the same pattern powering Kafka-based systems at companies like Uber and Netflix.",
+      "tags": [
+        "systems-engineering",
+        "python",
+        "redis",
+        "monitoring",
+        "distributed-systems",
+        "career-growth"
+      ],
+      "scheduled_at": "2026-09-20T00:03:43Z",
       "status": "pending"
     }
   ]
