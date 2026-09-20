@@ -24466,7 +24466,8 @@
         "systems-programming"
       ],
       "scheduled_at": "2026-09-20T02:03:43Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-20T03:08:48Z"
     },
     {
       "title": "Hands-On Build Guide: Flash Attention Implementation from Scratch in NumPy",
