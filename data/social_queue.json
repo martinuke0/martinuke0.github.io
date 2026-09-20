@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-20T03:07:23Z",
+  "last_scheduled_at": "2026-09-20T07:02:42Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -24485,6 +24485,21 @@
       "status": "posted",
       "claimed_at": "2026-09-20T03:08:48Z",
       "post_urn": "urn:li:share:7507274611743506433"
+    },
+    {
+      "title": "Building User-Safe Systems: Architecture Patterns That Protect Real People",
+      "url": "https://martinuke0.github.io/posts/2026-09-20-building-user-safe-systems-architecture-patterns-that-protect-real-people/",
+      "social_hook": "> TL;DR — User safety in production systems requires designing for failure modes that harm real people, not just machines. The core patterns are defense in depth, graceful degradation, and continuous monitoring. Most safety incidents trace back to missing guardrails at system boundaries, not algorithmic errors.\n\nUser safety is not a feature you bolt onto a system after it's built. It's an architectural constraint that shapes every design decision from data flow to error handling. Yet in production, we see the same failure modes repeat: users get locked out, their data leaks, their actions get duplicated, or they get exposed to content that harms them. These aren't random events — they're predictable consequences of missing guardrails at system boundaries.\n\nThis post walks through the architecture patterns that production systems use to keep real people safe, with concrete code, real failure modes, and a case study from a system processing over 10 million events per day.",
+      "tags": [
+        "user-safety",
+        "system-design",
+        "production",
+        "architecture",
+        "security",
+        "reliability"
+      ],
+      "scheduled_at": "2026-09-20T07:02:42Z",
+      "status": "pending"
     }
   ]
 }
