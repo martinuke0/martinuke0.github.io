@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-20T21:09:02Z",
+  "last_scheduled_at": "2026-09-20T22:09:02Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -24629,6 +24629,20 @@
         "tag5"
       ],
       "scheduled_at": "2026-09-20T21:09:02Z",
+      "status": "pending"
+    },
+    {
+      "title": "Build a FlashAttention-2 Kernel from Scratch in Triton",
+      "url": "https://martinuke0.github.io/posts/2026-09-20-build-a-flashattention-2-kernel-from-scratch-in-triton/",
+      "social_hook": "> TL;DR — This guide walks you through building a FlashAttention-2 kernel from scratch in Triton, featuring tiled causal masking, FP16 accumulation, and PyTorch benchmarks. You'll produce a runnable project that demonstrates low-level GPU programming, memory optimization, and systems-level thinking — exactly the skills hiring managers look for in senior ML infrastructure roles.\n\nA FlashAttention-2 kernel built from scratch in Triton is not a tutorial clone — it is a signal. It tells a hiring manager that you can reason about GPU memory hierarchies (global memory, shared memory, registers), understand the arithmetic intensity of attention mechanisms, and write code that runs orders of magnitude faster than the naive implementation. Here is what this project specifically demonstrates:\n\n- Systems-level GPU programming: You understand thread hierarchies (grids, blocks, warps), shared memory tiling, and register pressure — concepts that separate CUDA/Triton engineers from framework users.",
+      "tags": [
+        "triton",
+        "flashattention",
+        "gpu-kernels",
+        "pytorch",
+        "high-performance-compute"
+      ],
+      "scheduled_at": "2026-09-20T22:09:02Z",
       "status": "pending"
     }
   ]
