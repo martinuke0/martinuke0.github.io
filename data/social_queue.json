@@ -24518,7 +24518,8 @@
         "Portfolio Project"
       ],
       "scheduled_at": "2026-09-20T08:02:42Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-20T09:39:43Z"
     }
   ]
 }
