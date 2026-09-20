@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-20T00:03:43Z",
+  "last_scheduled_at": "2026-09-20T01:03:43Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -24436,6 +24436,20 @@
       "status": "posted",
       "claimed_at": "2026-09-20T00:21:33Z",
       "post_urn": "urn:li:share:7507232461056094209"
+    },
+    {
+      "title": "User Safety: Safe — A Portfolio Project That Signals Systems Skill",
+      "url": "https://martinuke0.github.io/posts/2026-09-20-user-safety-safe-a-portfolio-project-that-signals-systems-skill/",
+      "social_hook": "> TL;DR — You'll build a runnable Go microservice that validates user-generated content against safety rules, enforces per-user rate limiting, and exposes a clean REST API. It demonstrates systems engineering skills — concurrency, API design, observability, and scalability — that hiring managers look for in backend and platform roles.\n\nIn a crowded job market, your portfolio needs to do more than list languages. It needs to show you can design, build, and operate systems that handle real load. User Safety: Safe is a compact but production-flavored microservice that does exactly that. It validates user-submitted content for safety, prevents abuse through rate limiting, and is structured to scale. In this guide, you'll build it from scratch in Go, with runnable code, tests, and a clear path to production hardening.\n\nThis project signals several specific skills that hiring managers value for backend, platform, and SRE roles:",
+      "tags": [
+        "user-safety",
+        "go",
+        "microservice",
+        "portfolio",
+        "systems-design"
+      ],
+      "scheduled_at": "2026-09-20T01:03:43Z",
+      "status": "pending"
     }
   ]
 }
