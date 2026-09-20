@@ -24449,7 +24449,8 @@
         "systems-design"
       ],
       "scheduled_at": "2026-09-20T01:03:43Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-20T02:03:06Z"
     },
     {
       "title": "Build a GGUF Parser with Memory-Mapped Quantized Tensor Loading in Pure Python",
