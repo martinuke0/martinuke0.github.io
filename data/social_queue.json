@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-20T08:02:42Z",
+  "last_scheduled_at": "2026-09-20T10:03:19Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -24521,6 +24521,21 @@
       "status": "posted",
       "claimed_at": "2026-09-20T09:39:43Z",
       "post_urn": "urn:li:share:7507372929295319040"
+    },
+    {
+      "title": "A BM25 Sparse Retriever + Tiny Transformer Generator RAG Pipeline in Pure Python",
+      "url": "https://martinuke0.github.io/posts/2026-09-20-a-bm25-sparse-retriever-tiny-transformer-generator-rag-pipeline-in-pure-python/",
+      "social_hook": "> TL;DR — This post shows how to implement a BM25 sparse retriever and a tiny decoder‑only transformer generator from scratch in pure Python, then combine them into a functional RAG pipeline. The code is runnable, well‑structured, and demonstrates systems skills that hiring managers look for.\n\nIn the era of large language models, retrieval‑augmented generation (RAG) has become the go‑to pattern for grounding answers in a private corpus. Most tutorials lean on heavy frameworks like LangChain or Hugging Face, but building the core components yourself signals a deeper understanding of information retrieval and sequence modeling. In this guide you will construct a BM25 sparse retriever and a tiny decoder‑only transformer generator entirely in pure Python, then wire them together into a working RAG pipeline that you can run locally and extend for production.\n\n- Algorithmic depth – You will implement BM25 scoring, term‑frequency‑inverse‑document‑frequency (TF‑IDF) variants, and a self‑attention mechanism from first principles, showing you can design retrieval and generation models without relying on black‑box libraries.",
+      "tags": [
+        "RAG",
+        "BM25",
+        "Transformer",
+        "Python",
+        "Machine Learning",
+        "Systems"
+      ],
+      "scheduled_at": "2026-09-20T10:03:19Z",
+      "status": "pending"
     }
   ]
 }
