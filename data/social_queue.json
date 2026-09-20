@@ -24552,7 +24552,8 @@
         "Streaming"
       ],
       "scheduled_at": "2026-09-20T11:03:19Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-20T13:32:10Z"
     }
   ]
 }
