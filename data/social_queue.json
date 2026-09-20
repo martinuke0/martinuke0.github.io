@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-20T10:03:19Z",
+  "last_scheduled_at": "2026-09-20T11:03:19Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -24538,6 +24538,21 @@
       "status": "posted",
       "claimed_at": "2026-09-20T10:03:55Z",
       "post_urn": "urn:li:share:7507379268797190144"
+    },
+    {
+      "title": "Architecting Exactly-Once Processing with Apache Pulsar: Transactions, Fencing, and Failure Recovery",
+      "url": "https://martinuke0.github.io/posts/2026-09-20-architecting-exactly-once-processing-with-apache-pulsar-transactions-fencing-and-failure-recovery/",
+      "social_hook": "> TL;DR — Apache Pulsar's transactional messaging and fencing tokens let you build truly exactly‑once pipelines. By wrapping produce/consume operations in transactions and using fencing to isolate stale clients, you can prevent duplicates even during broker failures. This post walks through the core mechanisms, shows production‑grade patterns, and provides code snippets you can adapt.\n\nExactly‑once processing is a holy grail for streaming engineers. When a system guarantees that each message is processed exactly once, developers can focus on business logic instead of writing idempotency checks or deduplication tables. Apache Pulsar, a cloud‑native distributed pub/sub platform, offers built‑in exactly‑once semantics through two key features: transactions and fencing. Together they let you build reliable pipelines that survive broker crashes, network partitions, and client restarts without double‑counting or losing data.\n\nIn most real‑world applications, a message represents a fact—order placed, payment captured, sensor reading. If the same fact is delivered twice, downstream systems may apply it twice, leading to incorrect aggregates, duplicate charges, or inconsistent state. Traditional at‑least‑once delivery forces you to handle duplicates manually, often with complex key‑value stores or database unique constraints. Exactly‑once semantics eliminate that burden, but they require the messaging system to coordinate producer and consumer acknowledgments atomically.",
+      "tags": [
+        "Apache Pulsar",
+        "Exactly-Once",
+        "Transactions",
+        "Fencing",
+        "Failure Recovery",
+        "Streaming"
+      ],
+      "scheduled_at": "2026-09-20T11:03:19Z",
+      "status": "pending"
     }
   ]
 }
