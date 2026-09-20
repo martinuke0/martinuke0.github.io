@@ -24518,8 +24518,9 @@
         "Portfolio Project"
       ],
       "scheduled_at": "2026-09-20T08:02:42Z",
-      "status": "posting",
-      "claimed_at": "2026-09-20T09:39:43Z"
+      "status": "posted",
+      "claimed_at": "2026-09-20T09:39:43Z",
+      "post_urn": "urn:li:share:7507372929295319040"
     }
   ]
 }
