@@ -24416,8 +24416,9 @@
         "encrypted computation"
       ],
       "scheduled_at": "2026-09-19T23:03:43Z",
-      "status": "posting",
-      "claimed_at": "2026-09-20T00:02:45Z"
+      "status": "posted",
+      "claimed_at": "2026-09-20T00:02:45Z",
+      "post_urn": "urn:li:share:7507227728224604160"
     },
     {
       "title": "User Safety: safe — A Hands-On Build Guide for Systems Engineers",
