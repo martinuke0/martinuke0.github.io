@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-20T18:03:02Z",
+  "last_scheduled_at": "2026-09-20T19:03:02Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -24586,6 +24586,21 @@
         "systems"
       ],
       "scheduled_at": "2026-09-20T18:03:02Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering OpenSSH Key Management: Strengthening SSH Authentication in Modern Infrastructure",
+      "url": "https://martinuke0.github.io/posts/2026-09-20-mastering-openssh-key-management-strengthening-ssh-authentication-in-modern-infrastructure/",
+      "social_hook": "> TL;DR — SSH key management is one of the most overlooked security surfaces in modern infrastructure. This guide covers key types, agent configuration, certificate-based authentication, rotation strategies, and hardening patterns that production teams use to keep their systems resilient against credential compromise.\n\nSSH remains the backbone of remote server administration, CI/CD pipelines, and inter-service communication across cloud and on-premise environments. Yet despite its ubiquity, SSH key management is frequently treated as a \"set it and forget it\" problem — keys are generated once, copied to authorized_keys files, and never revisited. That attitude creates a quietly dangerous attack surface. A single leaked private key can grant an attacker persistent, passwordless access to every system where the corresponding public key is authorized.\n\nThis article dives deep into OpenSSH key management: how to generate stronger keys, manage them with agents, enforce least-privilege access, rotate credentials at scale, and adopt certificate-based authentication to replace the fragile authorized_keys model entirely.",
+      "tags": [
+        "ssh",
+        "openssh",
+        "security",
+        "authentication",
+        "infrastructure",
+        "devops"
+      ],
+      "scheduled_at": "2026-09-20T19:03:02Z",
       "status": "pending"
     }
   ]
