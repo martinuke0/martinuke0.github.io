@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-20T11:03:19Z",
+  "last_scheduled_at": "2026-09-20T16:01:39Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -24555,6 +24555,21 @@
       "status": "posted",
       "claimed_at": "2026-09-20T13:32:10Z",
       "post_urn": "urn:li:share:7507431425088851968"
+    },
+    {
+      "title": "Implementing Exactly-Once Stateful Streaming with Apache Pulsar and RocksDB",
+      "url": "https://martinuke0.github.io/posts/2026-09-20-implementing-exactly-once-stateful-streaming-with-apache-pulsar-and-rocksdb/",
+      "social_hook": "> TL;DR — Exactly-once stateful streaming is the gold standard for financial, e-commerce, and real-time analytics workloads where duplicate or lost state is unacceptable. Apache Pulsar provides the distributed log and messaging substrate with built-in message deduplication and transaction support, while RocksDB delivers a high-performance embedded key-value store for local state management. Together, they form a production-grade stack for exactly-once processing semantics that scales horizontally and survives node failures without data loss or duplication.\n\nIn distributed stream processing, the spectrum of delivery guarantees ranges from at-most-once through at-least-once to exactly-once. At-most-once sacrifices correctness for speed — events vanish into the void. At-least-once ensures no event is lost but introduces the headache of idempotent consumers and duplicate state updates. Exactly-once guarantees that every message is processed precisely one time, with state mutations committed atomically alongside message offsets.\n\nFor industries like financial services, real-time fraud detection, inventory management, and regulatory reporting, the cost of a duplicate debit or a missed event is measured in dollars and compliance violations. Consider a payment processing pipeline handling 50,000 transactions per second. Under at-least-once semantics with network retries, even a 0.1% duplication rate produces 50 spurious transactions per second — each requiring manual reconciliation or automated reversal logic. Exactly-once eliminates this class of bugs entirely.",
+      "tags": [
+        "Apache Pulsar",
+        "RocksDB",
+        "Exactly-Once Semantics",
+        "Stateful Streaming",
+        "Stream Processing",
+        "Distributed Systems"
+      ],
+      "scheduled_at": "2026-09-20T16:01:39Z",
+      "status": "pending"
     }
   ]
 }
