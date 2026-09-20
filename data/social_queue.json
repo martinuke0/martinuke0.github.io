@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-20T07:02:42Z",
+  "last_scheduled_at": "2026-09-20T08:02:42Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -24502,6 +24502,23 @@
       "status": "posted",
       "claimed_at": "2026-09-20T07:03:13Z",
       "post_urn": "urn:li:share:7507333793083469824"
+    },
+    {
+      "title": "Build a From-Scratch LLM Sampler: Temperature, Top-k/Top-p, and Multinomial Sampling vs. Hugging Face",
+      "url": "https://martinuke0.github.io/posts/2026-09-20-build-a-from-scratch-llm-sampler-temperature-top-ktop-p-and-multinomial-sampling-vs-hugging-face/",
+      "social_hook": "> TL;DR — Build a from-scratch LLM sampler that implements temperature scaling, top-k and top-p (nucleus) warping, and multinomial sampling, then validate every stage against Hugging Face's logits pipeline. This project demonstrates deep systems understanding of inference-time control, probability manipulation, and numerical stability—signals that hiring managers in ML infrastructure and platform engineering actively look for.\n\nIf you have ever wondered what happens after a language model produces a logits tensor—how raw scores become the next token you read—you are looking at the exact machinery that separates toy demos from production-grade inference engines. Building this sampler from scratch forces you to confront numerical stability, probability distribution warping, and the subtle art of controlling generative randomness. It is one of the most rewarding portfolio projects because it sits at the intersection of machine learning theory, systems programming, and software engineering.\n\nThis project signals a rare combination of competencies that hiring managers in ML platforms, inference optimization, and AI infrastructure teams actively screen for.",
+      "tags": [
+        "LLM",
+        "Sampling",
+        "Temperature Scaling",
+        "Top-k Top-p",
+        "Python",
+        "Hugging Face",
+        "Systems Engineering",
+        "Portfolio Project"
+      ],
+      "scheduled_at": "2026-09-20T08:02:42Z",
+      "status": "pending"
     }
   ]
 }
