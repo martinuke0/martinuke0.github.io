@@ -24499,8 +24499,9 @@
         "reliability"
       ],
       "scheduled_at": "2026-09-20T07:02:42Z",
-      "status": "posting",
-      "claimed_at": "2026-09-20T07:03:13Z"
+      "status": "posted",
+      "claimed_at": "2026-09-20T07:03:13Z",
+      "post_urn": "urn:li:share:7507333793083469824"
     }
   ]
 }
