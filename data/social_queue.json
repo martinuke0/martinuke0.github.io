@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-20T01:03:43Z",
+  "last_scheduled_at": "2026-09-20T02:03:43Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -24449,6 +24449,21 @@
         "systems-design"
       ],
       "scheduled_at": "2026-09-20T01:03:43Z",
+      "status": "pending"
+    },
+    {
+      "title": "Build a GGUF Parser with Memory-Mapped Quantized Tensor Loading in Pure Python",
+      "url": "https://martinuke0.github.io/posts/2026-09-20-build-a-gguf-parser-with-memory-mapped-quantized-tensor-loading-in-pure-python/",
+      "social_hook": "> TL;DR — Building a GGUF format parser with memory-mapped tensor loading in pure Python demonstrates binary file parsing, zero-copy I/O, quantization math, and systems-level resource management. This project signals to hiring managers that you understand how large language models actually work under the hood, not just how to call an API. Here is a complete, runnable build guide.\n\nLarge language models have made quantization a first-class engineering concern. Formats like GGUF — the successor to GGML, used natively by llama.cpp — store billions of parameters in compact, quantized blocks that demand careful binary parsing and memory management. Most practitioners interact with these models through wrappers like `transformers` or `llama-cpp-python`, never touching the actual tensor data.\n\nBuilding a GGUF parser from scratch in pure Python forces you to confront the raw mechanics: magic headers, metadata key-value stores, tensor definitions, quantization schemes, and memory-mapped file I/O. The result is a portfolio piece that demonstrates systems thinking at a level most applicants never reach.",
+      "tags": [
+        "python",
+        "gguf",
+        "llama.cpp",
+        "memory-mapped-i-o",
+        "quantization",
+        "systems-programming"
+      ],
+      "scheduled_at": "2026-09-20T02:03:43Z",
       "status": "pending"
     }
   ]
