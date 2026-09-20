@@ -24552,8 +24552,9 @@
         "Streaming"
       ],
       "scheduled_at": "2026-09-20T11:03:19Z",
-      "status": "posting",
-      "claimed_at": "2026-09-20T13:32:10Z"
+      "status": "posted",
+      "claimed_at": "2026-09-20T13:32:10Z",
+      "post_urn": "urn:li:share:7507431425088851968"
     }
   ]
 }
