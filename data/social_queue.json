@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-20T16:01:39Z",
+  "last_scheduled_at": "2026-09-20T18:03:02Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -24572,6 +24572,21 @@
       "status": "posted",
       "claimed_at": "2026-09-20T16:02:17Z",
       "post_urn": "urn:li:share:7507469462472851456"
+    },
+    {
+      "title": "Building a HNSW Vector Index from Scratch in Python",
+      "url": "https://martinuke0.github.io/posts/2026-09-20-building-a-hnsw-vector-index-from-scratch-in-python/",
+      "social_hook": "tags: [\"vector-search\", \"hnsw\", \"python\", \"data-structures\", \"machine-learning\", \"systems\"]\n\ndescription: \"Build a production‑grade HNSW vector index in Python, with heap‑based neighbor selection and ef‑search traversal, to showcase systems engineering skills.\"",
+      "tags": [
+        "vector-search",
+        "hnsw",
+        "python",
+        "data-structures",
+        "machine-learning",
+        "systems"
+      ],
+      "scheduled_at": "2026-09-20T18:03:02Z",
+      "status": "pending"
     }
   ]
 }
