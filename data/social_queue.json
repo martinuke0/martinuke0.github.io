@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-20T19:03:02Z",
+  "last_scheduled_at": "2026-09-20T20:03:02Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -24601,6 +24601,20 @@
         "devops"
       ],
       "scheduled_at": "2026-09-20T19:03:02Z",
+      "status": "pending"
+    },
+    {
+      "title": "Build a Sliding-Window Prompt Compressor from Scratch in Pure Python",
+      "url": "https://martinuke0.github.io/posts/2026-09-20-build-a-sliding-window-prompt-compressor-from-scratch-in-pure-python/",
+      "social_hook": "> TL;DR — You will build a working sliding-window prompt compressor in pure Python that scores token importance with a lightweight learned model, evicts low-relevance tokens, and keeps the total context within a fixed budget. The project demonstrates systems-level thinking around context management, memory-constrained inference, and pipeline architecture — exactly the kind of project that separates junior candidates from senior-level hires.\n\nLarge language models have a hard ceiling on context length. Whether you are working with GPT-4's 128k window or a locally hosted Llama 3 model with 4k or 8k tokens, every context window is a budget. When your prompt exceeds that budget, you either truncate — and lose critical information — or you compress. Most developers reach for off-the-shelf summarization APIs, but building your own compressor from scratch teaches you more about attention mechanics, token-level scoring, and the engineering trade-offs that define production LLM systems.\n\nThis guide walks you through constructing a sliding-window prompt compressor in pure Python. No frameworks, no GPU dependencies — just `numpy`, `tokenizers`, and a learned importance scorer that decides which tokens to keep and which to evict. By the end, you will have a runnable project that demonstrates real systems skill.",
+      "tags": [
+        "python",
+        "nlp",
+        "llm-optimization",
+        "prompt-engineering",
+        "systems-engineering"
+      ],
+      "scheduled_at": "2026-09-20T20:03:02Z",
       "status": "pending"
     }
   ]
