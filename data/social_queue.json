@@ -24649,8 +24649,9 @@
         "high-performance-compute"
       ],
       "scheduled_at": "2026-09-20T22:09:02Z",
-      "status": "posting",
-      "claimed_at": "2026-09-21T08:00:50Z"
+      "status": "posted",
+      "claimed_at": "2026-09-21T08:00:50Z",
+      "post_urn": "urn:li:share:7507711764135038977"
     },
     {
       "title": "Implementing LSM Trees in RocksDB: Storage Layout, Compaction, and Latency Trade-offs",
