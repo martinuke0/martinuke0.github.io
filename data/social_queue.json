@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-20T22:09:02Z",
+  "last_scheduled_at": "2026-09-21T00:05:13Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -24643,6 +24643,20 @@
         "high-performance-compute"
       ],
       "scheduled_at": "2026-09-20T22:09:02Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing LSM Trees in RocksDB: Storage Layout, Compaction, and Latency Trade-offs",
+      "url": "https://martinuke0.github.io/posts/2026-09-21-implementing-lsm-trees-in-rocksdb-storage-layout-compaction-and-latency-trade-offs/",
+      "social_hook": "> TL;DR — RocksDB’s LSM tree organizes data into memtables and immutable memtables, which are flushed into SSTables on disk. Compaction merges and discards obsolete key-value pairs to bound read amplification, but each compaction strategy (leveled vs universal) trades write amplification for read latency. Tuning compaction parameters is ultimately about aligning amplification profiles with your workload’s write‑read ratio and latency SLS.\n\nLSM trees are the engine behind RocksDB’s blistering write throughput and its ability to scale to terabytes of data on a single machine. At first glance, the architecture looks simple: incoming writes go to an in‑memory memtable, which is periodically flushed to disk as an SSTable (Sorted String Table). But the devil is in the details of how those SSTables are kept lean, how reads locate keys across many levels, and how compaction—the background maintenance loop—impacts both write and read latency. In this post we’ll walk through RocksDB’s actual storage layout, the mechanics of its compaction strategies, and the latency trade-offs that matter when you’re running production workloads.\n\nWrites in RocksDB first land in a memtable, a skip‑list backed in‑memory structure that provides O(log n) inserts and lookups. The memtable is split into two states: the active memtable accepting writes, and an immutable memtable that has been taken off‑line for flushing. When the active memtable reaches a configurable size threshold (`write_buffer_size`), RocksDB swaps the roles: the immutable memtable becomes the new active one, and a background thread begins flushing the old immutable memtable to disk.",
+      "tags": [
+        "lsm-trees",
+        "rockdb",
+        "storage-engine",
+        "compaction",
+        "database-performance"
+      ],
+      "scheduled_at": "2026-09-21T00:05:13Z",
       "status": "pending"
     }
   ]
