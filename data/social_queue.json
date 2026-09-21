@@ -24814,8 +24814,9 @@
         "distributed-systems"
       ],
       "scheduled_at": "2026-09-21T15:01:28Z",
-      "status": "posting",
-      "claimed_at": "2026-09-21T15:07:10Z"
+      "status": "posted",
+      "claimed_at": "2026-09-21T15:07:10Z",
+      "post_urn": "urn:li:share:7507818987788005376"
     }
   ]
 }
