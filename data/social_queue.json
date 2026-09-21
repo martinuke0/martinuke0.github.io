@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-21T11:01:39Z",
+  "last_scheduled_at": "2026-09-21T12:02:19Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -24766,6 +24766,21 @@
       "status": "posted",
       "claimed_at": "2026-09-21T11:07:08Z",
       "post_urn": "urn:li:share:7507758581966876672"
+    },
+    {
+      "title": "Building a From-Scratch Group-Wise INT4 Quantization Layer for LLaMA Weights",
+      "url": "https://martinuke0.github.io/posts/2026-09-21-building-a-from-scratch-group-wise-int4-quantization-layer-for-llama-weights/",
+      "social_hook": "> TL;DR — This guide walks you through building a from-scratch group-wise INT4 quantization layer for LLaMA-style transformer weights using PyTorch, complete with per-group scale calibration, a fused dequantization kernel, and end-to-end benchmarks. The project demonstrates systems-level ML engineering that stands out on a CV and gives you a concrete artifact to discuss in technical interviews.\n\nQuantization is one of the most practically valuable techniques in modern ML systems engineering. As models grow into the billions of parameters, deploying them at full precision becomes prohibitively expensive. Group-wise quantization — the method behind Llama.cpp's Q4_K_M and similar formats — strikes the best balance between compression ratio and accuracy retention.\n\nWhat makes this project genuinely different from a toy notebook is that you're building the actual machinery: the quantization algorithm, the calibration strategy, the fused kernel, and the benchmark harness. Every line is inspectable, testable, and improvable. Let's build it.",
+      "tags": [
+        "quantization",
+        "llama",
+        "pytorch",
+        "ml-systems",
+        "deep-learning",
+        "python"
+      ],
+      "scheduled_at": "2026-09-21T12:02:19Z",
+      "status": "pending"
     }
   ]
 }
