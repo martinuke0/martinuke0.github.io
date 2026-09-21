@@ -24831,8 +24831,9 @@
         "IoT"
       ],
       "scheduled_at": "2026-09-21T16:02:58Z",
-      "status": "posting",
-      "claimed_at": "2026-09-21T16:08:26Z"
+      "status": "posted",
+      "claimed_at": "2026-09-21T16:08:26Z",
+      "post_urn": "urn:li:share:7507834399632216064"
     }
   ]
 }
