@@ -24780,8 +24780,9 @@
         "python"
       ],
       "scheduled_at": "2026-09-21T12:02:19Z",
-      "status": "posting",
-      "claimed_at": "2026-09-21T12:07:51Z"
+      "status": "posted",
+      "claimed_at": "2026-09-21T12:07:51Z",
+      "post_urn": "urn:li:share:7507773859467780096"
     }
   ]
 }
