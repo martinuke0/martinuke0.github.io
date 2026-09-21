@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-21T18:02:03Z",
+  "last_scheduled_at": "2026-09-21T19:02:03Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -24851,6 +24851,21 @@
       "status": "posted",
       "claimed_at": "2026-09-21T18:07:41Z",
       "post_urn": "urn:li:share:7507864410183401474"
+    },
+    {
+      "title": "Build a Distributed Task Queue from Scratch: A Systems Engineer's Portfolio Project",
+      "url": "https://martinuke0.github.io/posts/2026-09-21-build-a-distributed-task-queue-from-scratch-a-systems-engineer/",
+      "social_hook": "> TL;DR — Build a distributed task queue from scratch in Go: implement Raft consensus for leader election, a write-ahead log for durability, worker pools with retry logic, and a live dashboard. This project demonstrates exactly the systems skills hiring managers look for — concurrency, fault tolerance, distributed state, and observability — and is concrete enough to discuss in any technical interview.\n\nMost portfolio projects are to-do apps or REST APIs wrapped in Docker. They prove you can follow a tutorial. What hiring managers at companies running real infrastructure actually look for is evidence that you understand distributed state, failure modes, and concurrency primitives — the things that separate the engineer who writes code from the one who builds systems.\n\n- Distributed consensus — You've implemented Raft, the same algorithm powering etcd, Consul, and CockroachDB. This alone is a differentiator.",
+      "tags": [
+        "distributed-systems",
+        "golang",
+        "raft-consensus",
+        "portfolio-project",
+        "systems-engineering",
+        "side-project"
+      ],
+      "scheduled_at": "2026-09-21T19:02:03Z",
+      "status": "pending"
     }
   ]
 }
