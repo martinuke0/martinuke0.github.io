@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-21T07:02:29Z",
+  "last_scheduled_at": "2026-09-21T09:13:21Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -24732,6 +24732,21 @@
       "status": "posted",
       "claimed_at": "2026-09-21T07:29:06Z",
       "post_urn": "urn:li:share:7507710317846687744"
+    },
+    {
+      "title": "Optimizing TensorRT-LLM: INT8 Quantization Pipelines for Real-Time Inference on Multi-GPU Clusters",
+      "url": "https://martinuke0.github.io/posts/2026-09-21-optimizing-tensorrt-llm-int8-quantization-pipelines-for-real-time-inference-on-multi-gpu-clusters/",
+      "social_hook": "> TL;DR — TensorRT-LLM’s INT8 quantization pipeline can reduce latency by 2–3× on Ampere+ GPUs while preserving answer quality within 1–2% on benchmarks like MMLU. By combining weight-only static quantization with activation clipping and pipeline parallelism, engineers can serve 7B–70B models on commodity multi-GPU clusters without GPU memory overflow. This post walks through the quantization workflow, multi-GPU scaling patterns, and production pitfalls observed at scale.\n\nReal-time serving of large language models has moved from a nice-to-have to a core requirement for products ranging from coding assistants to enterprise search. However, the memory bandwidth bottleneck on modern GPUs means that FP16 or BF16 inference alone often saturates the data path, leaving compute units underutilized. INT8 quantization addresses this by halving the effective activation and weight footprints, but the devil lies in the pipeline: incorrect clip ranges, unsupported operators, or poorly tuned pipeline parallelism can erode the theoretical gains or even introduce silent correctness bugs. In this article, we’ll trace the end-to-end INT8 quantization workflow in TensorRT-LLM, examine multi-GPU pipeline patterns that keep throughput scaling linearly, and highlight production‑ready tactics such as engine caching, memory‑aware engine planning, and automated sanity‑checking pipelines.\n\nTensorRT-LLM ships with a quantization-aware plugin framework that interposes between the high‑level LLM graph and the low‑level TensorRT engine. The core idea is simple but powerful: weight tensors are quantized to INT8 once at engine‑build time, and activation clipping values are computed either statically (from a representative calibration dataset) or dynamically (per‑token via a small learnable scale). The resulting engine runs entirely in INT8, but the TensorRT runtime automatically dequantizes to FP16/BF16 for operations that are numerically sensitive, such as LayerNorm or softmax reductions.",
+      "tags": [
+        "tensorrt",
+        "llm",
+        "int8",
+        "quantization",
+        "multigpu",
+        "inference"
+      ],
+      "scheduled_at": "2026-09-21T09:13:21Z",
+      "status": "pending"
     }
   ]
 }
