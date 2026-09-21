@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-21T08:02:46Z",
+  "last_scheduled_at": "2026-09-21T07:02:29Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -24601,8 +24601,9 @@
         "devops"
       ],
       "scheduled_at": "2026-09-20T19:03:02Z",
-      "status": "posting",
-      "claimed_at": "2026-09-21T08:00:50Z"
+      "status": "posted",
+      "claimed_at": "2026-09-21T08:00:50Z",
+      "post_urn": "urn:li:share:7507711703053414400"
     },
     {
       "title": "Build a Sliding-Window Prompt Compressor from Scratch in Pure Python",
@@ -24723,21 +24724,6 @@
       "status": "posted",
       "claimed_at": "2026-09-21T07:29:06Z",
       "post_urn": "urn:li:share:7507710317846687744"
-    },
-    {
-      "title": "Implementing Raft Consensus: Log Replication, Leader Elections, and Network Partitions",
-      "url": "https://martinuke0.github.io/posts/2026-09-21-implementing-raft-consensus-log-replication-leader-elections-and-network-partitions/",
-      "social_hook": "> TL;DR — Raft decomposes consensus into leader election, log replication, and safety under partitions, making it implementable in a few thousand lines of code. In production, careful tuning of election timeouts and append‑entry batching can cut latency by 30‑50 % and reduce bandwidth by up to 60 %. Handling network partitions correctly prevents split‑brain and ensures data safety.\n\nImplementing a distributed consensus algorithm is one of the most challenging tasks in building reliable systems. Raft, introduced by Ongaro and Ousterhout, provides an understandable alternative to Paxos by breaking the problem into smaller, manageable sub‑problems: leader election, log replication, and safety during network partitions. This post walks through each component, offers practical implementation guidance, and highlights production‑grade considerations drawn from real‑world deployments such as etcd, Consul, and TiKV.\n\nA Raft cluster consists of servers that each play one of three roles: leader, follower, or candidate. Only the leader accepts client write requests and propagates them to the rest of the cluster. Followers replicate the leader’s log and respond to RPCs. Candidates initiate elections when they detect a lack of leader heartbeats.",
-      "tags": [
-        "distributed-systems",
-        "raft",
-        "consensus",
-        "log-replication",
-        "leader-election",
-        "network-partitions"
-      ],
-      "scheduled_at": "2026-09-21T08:02:46Z",
-      "status": "pending"
     }
   ]
 }
