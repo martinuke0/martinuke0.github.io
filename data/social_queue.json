@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-21T09:13:21Z",
+  "last_scheduled_at": "2026-09-21T11:01:39Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -24749,6 +24749,21 @@
       "status": "posted",
       "claimed_at": "2026-09-21T09:19:01Z",
       "post_urn": "urn:li:share:7507731370522267648"
+    },
+    {
+      "title": "Build a Minimal LLM Inference Engine with Paged Attention and Adaptive KV-Cache Eviction in Pure Python",
+      "url": "https://martinuke0.github.io/posts/2026-09-21-build-a-minimal-llm-inference-engine-with-paged-attention-and-adaptive-kv-cache/",
+      "social_hook": "> TL;DR — This guide walks you through building a minimal LLM inference engine in pure Python that implements paged attention (inspired by NVIDIA's PagedAttention) and an adaptive KV-cache eviction policy. The result is a runnable side project that demonstrates systems-level thinking — memory management, scheduling, and performance optimization — exactly what hiring managers look for in senior infrastructure and ML-systems roles.\n\nIf you have been searching for a portfolio project that signals more than \"I fine-tuned a HuggingFace model,\" building an inference engine from scratch is one of the strongest signals you can send. It sits at the intersection of distributed systems, memory management, and machine learning — a rare combination that immediately separates candidates who use frameworks from those who understand them.\n\nThe project is deliberately constrained: pure Python with NumPy, no PyTorch or vLLM dependencies. This forces you to confront the mechanics that frameworks abstract away — how attention is computed, how KV caches are allocated and freed, and how memory pressure shapes throughput. The code you write will be roughly 400–600 lines, but the architectural decisions embedded in it will speak volumes on a resume.",
+      "tags": [
+        "LLM",
+        "Inference Engine",
+        "Paged Attention",
+        "KV-Cache",
+        "Python",
+        "Systems Engineering"
+      ],
+      "scheduled_at": "2026-09-21T11:01:39Z",
+      "status": "pending"
     }
   ]
 }
