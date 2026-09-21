@@ -24719,8 +24719,9 @@
         "ai-infrastructure"
       ],
       "scheduled_at": "2026-09-21T07:02:29Z",
-      "status": "posting",
-      "claimed_at": "2026-09-21T07:29:06Z"
+      "status": "posted",
+      "claimed_at": "2026-09-21T07:29:06Z",
+      "post_urn": "urn:li:share:7507710317846687744"
     }
   ]
 }
