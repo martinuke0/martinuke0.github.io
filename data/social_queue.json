@@ -24763,7 +24763,8 @@
         "Systems Engineering"
       ],
       "scheduled_at": "2026-09-21T11:01:39Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-21T11:07:08Z"
     }
   ]
 }
