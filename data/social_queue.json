@@ -24746,7 +24746,8 @@
         "inference"
       ],
       "scheduled_at": "2026-09-21T09:13:21Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-21T09:19:01Z"
     }
   ]
 }
