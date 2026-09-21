@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-21T01:05:13Z",
+  "last_scheduled_at": "2026-09-21T04:02:20Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -24671,6 +24671,20 @@
         "systems"
       ],
       "scheduled_at": "2026-09-21T01:05:13Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building a Medusa Speculative Decoding Engine from Scratch",
+      "url": "https://martinuke0.github.io/posts/2026-09-21-building-a-medusa-speculative-decoding-engine-from-scratch/",
+      "social_hook": "> TL;DR — Speculative decoding is the secret weapon for accelerating LLM inference without sacrificing accuracy. By building a Medusa speculative decoding engine from scratch, you will implement auxiliary heads, token-tree verification, and KV-cache rollback. This project demonstrates deep systems and ML engineering skills, proving you can optimize the bottlenecks that matter in production.\n\nLarge Language Models (LLMs) are notoriously slow during inference. While batching and flash attention help, the autoregressive nature of token generation remains a fundamental bottleneck. Speculative decoding solves this by using a smaller, faster \"draft\" model to propose several tokens at once, which a larger \"target\" model then verifies in a single forward pass.\n\nThe Medusa framework takes this a step further by using multiple auxiliary heads to predict the next token in parallel, forming a verification tree. Building this from scratch is an exceptional portfolio project. It forces you to navigate the intersection of PyTorch internals, memory management, and graph theory. Here is how to build it.",
+      "tags": [
+        "machine-learning",
+        "systems-engineering",
+        "llm-optimization",
+        "medusa",
+        "speculative-decoding"
+      ],
+      "scheduled_at": "2026-09-21T04:02:20Z",
       "status": "pending"
     }
   ]
