@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-21T14:01:28Z",
+  "last_scheduled_at": "2026-09-21T15:01:28Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -24800,6 +24800,21 @@
       "status": "posted",
       "claimed_at": "2026-09-21T14:07:05Z",
       "post_urn": "urn:li:share:7507803861940785152"
+    },
+    {
+      "title": "Designing Kubernetes Job Queue Coalescing with Volcano for Predictable Batch Scheduling",
+      "url": "https://martinuke0.github.io/posts/2026-09-21-designing-kubernetes-job-queue-coalescing-with-volcano-for-predictable-batch-sch/",
+      "social_hook": "> TL;DR — Kubernetes' default scheduler lacks native support for batch-oriented job coalescing, leading to fragmented resource allocation and unpredictable scheduling latency. Volcano fills this gap with its queue hierarchy, gang scheduling, and customizable scheduling policies. By designing a coalescing layer on top of Volcano's queue API, teams can bundle complementary batch jobs into single scheduling units, dramatically improving cluster utilization and predictability.\n\nThe Kubernetes default scheduler is purpose-built for long-running microservices. It optimizes for individual pod placement using bin-packing and spreading heuristics, but it has no concept of a job queue, no gang scheduling semantics, and no mechanism to coordinate the simultaneous placement of pods that belong to the same logical unit of work.\n\n- ML training jobs require all replicas to start simultaneously. If even one pod cannot be scheduled, the entire job stalls.",
+      "tags": [
+        "kubernetes",
+        "volcano",
+        "batch-scheduling",
+        "job-coalescing",
+        "resource-management",
+        "distributed-systems"
+      ],
+      "scheduled_at": "2026-09-21T15:01:28Z",
+      "status": "pending"
     }
   ]
 }
