@@ -24687,7 +24687,8 @@
         "speculative-decoding"
       ],
       "scheduled_at": "2026-09-21T04:02:20Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-21T07:29:06Z"
     },
     {
       "title": "Implementing Apache Pulsar Tiered Storage: Backlog Offload and Read Path Tradeoffs",
