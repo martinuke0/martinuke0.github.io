@@ -24586,7 +24586,8 @@
         "systems"
       ],
       "scheduled_at": "2026-09-20T18:03:02Z",
-      "status": "pending"
+      "status": "skipped_dead_url",
+      "note": "post truncated on generation; file deleted 2026-09-21"
     },
     {
       "title": "Mastering OpenSSH Key Management: Strengthening SSH Authentication in Modern Infrastructure",
