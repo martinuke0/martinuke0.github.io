@@ -24665,7 +24665,8 @@
         "database-performance"
       ],
       "scheduled_at": "2026-09-21T00:05:13Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-21T08:00:50Z"
     },
     {
       "title": "Building a BPE Tokenizer from Scratch in Python",
