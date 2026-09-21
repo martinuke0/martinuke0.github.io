@@ -24848,7 +24848,8 @@
         "Compiler"
       ],
       "scheduled_at": "2026-09-21T18:02:03Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-21T18:07:41Z"
     }
   ]
 }
