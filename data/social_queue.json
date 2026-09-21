@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-21T00:05:13Z",
+  "last_scheduled_at": "2026-09-21T01:05:13Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -24657,6 +24657,20 @@
         "database-performance"
       ],
       "scheduled_at": "2026-09-21T00:05:13Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building a BPE Tokenizer from Scratch in Python",
+      "url": "https://martinuke0.github.io/posts/2026-09-21-building-a-bpe-tokenizer-from-scratch-in-python/",
+      "social_hook": "> TL;DR — Building a BPE tokenizer from scratch demonstrates deep understanding of subword segmentation, algorithmic efficiency, and production-ready NLP pipelines. This project gives you a concrete artifact that showcases algorithmic skill, testability, and extensibility, making it stand out to hiring managers.\n\nIn the race to build language models, tokenization is the first bottleneck. A well‑implemented byte‑pair encoding (BPE) tokenizer compresses text into a compact vocabulary, reduces out‑of‑vocabulary issues, and directly impacts model performance. In this post you will build a minimal but fully functional BPE tokenizer in Python, test it on real corpora, and then see how to evolve it into a production‑grade component. The code is runnable, the tests are included, and the architecture is designed for extension—exactly the kind of portfolio piece that signals systems engineering maturity.\n\n- Algorithmic depth – you implement the core BPE merge loop, frequency counting, and vocabulary construction from first principles, showing you can reason about complexity and trade‑offs.",
+      "tags": [
+        "nlp",
+        "tokenization",
+        "python",
+        "bpe",
+        "systems"
+      ],
+      "scheduled_at": "2026-09-21T01:05:13Z",
       "status": "pending"
     }
   ]
