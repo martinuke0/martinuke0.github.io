@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-21T06:02:29Z",
+  "last_scheduled_at": "2026-09-21T07:02:29Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -24699,6 +24699,20 @@
         "Performance"
       ],
       "scheduled_at": "2026-09-21T06:02:29Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building a Gradient Checkpointing Engine from Scratch",
+      "url": "https://martinuke0.github.io/posts/2026-09-21-building-a-gradient-checkpointing-engine-from-scratch/",
+      "social_hook": "> TL;DR — Building a custom gradient checkpointing engine from scratch is the ultimate systems-level side project for AI engineers. It trades compute for memory by strategically discarding and recomputing intermediate activations, proving you understand the intricate mechanics of PyTorch's autograd engine and hardware constraints.\n\nAs large language models and complex deep learning architectures continue to push the boundaries of what is possible, the primary bottleneck has shifted from compute to memory. Training a model like Llama 3 requires staggering amounts of VRAM, and if you run out of memory, your training job crashes—regardless of how many GPUs you have.\n\nGradient checkpointing is the industry-standard solution to this crisis. It works by strategically discarding intermediate activations during the forward pass and recomputing them on-the-fly during the backward pass. While this increases the compute time by roughly 20-30%, it slashes memory usage by up to 60%, allowing you to train significantly larger models or use larger batch sizes.",
+      "tags": [
+        "deep-learning",
+        "pytorch",
+        "systems-engineering",
+        "memory-optimization",
+        "ai-infrastructure"
+      ],
+      "scheduled_at": "2026-09-21T07:02:29Z",
       "status": "pending"
     }
   ]
