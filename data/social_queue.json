@@ -24633,8 +24633,9 @@
         "tag5"
       ],
       "scheduled_at": "2026-09-20T21:09:02Z",
-      "status": "posting",
-      "claimed_at": "2026-09-21T08:00:50Z"
+      "status": "posted",
+      "claimed_at": "2026-09-21T08:00:50Z",
+      "post_urn": "urn:li:share:7507711744631267329"
     },
     {
       "title": "Build a FlashAttention-2 Kernel from Scratch in Triton",
