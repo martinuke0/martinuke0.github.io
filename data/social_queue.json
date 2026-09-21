@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-21T12:02:19Z",
+  "last_scheduled_at": "2026-09-21T14:01:28Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -24783,6 +24783,21 @@
       "status": "posted",
       "claimed_at": "2026-09-21T12:07:51Z",
       "post_urn": "urn:li:share:7507773859467780096"
+    },
+    {
+      "title": "Architecting Scalable API Gateways: Envoy's Request Routing Engine Explained",
+      "url": "https://martinuke0.github.io/posts/2026-09-21-architecting-scalable-api-gateways-envoy/",
+      "social_hook": "> TL;DR — Envoy's request routing engine is a statically-configured, dynamically-discoverable pipeline that matches incoming requests to upstream clusters using a chain of route descriptors, weighted load balancing, and per-route filter policies. Understanding its internals lets you build API gateways that handle canary deployments, circuit breaking, and multi-region failover without a single line of application code.\n\nEvery microservices architecture eventually hits the same wall: how do you route a request from edge to service without introducing latency, cascading failures, or operational blind spots? Load balancers solve the network-layer problem. Service discovery solves the location problem. But neither addresses the full spectrum of routing decisions a modern gateway must make — path matching, header-based routing, traffic splitting, retries, and timeout enforcement, all at millions of requests per second.\n\nEnvoy Proxy was built from the ground up to solve exactly this. Originally developed at Lyft and now a standalone CNCF project, Envoy powers the data plane for virtually every major service mesh, including Istio and AWS App Mesh. Its routing engine is not a plugin bolted onto a generic proxy — it is the architectural centerpiece, designed with explicit awareness of microservice topology.",
+      "tags": [
+        "Envoy",
+        "API Gateway",
+        "Service Mesh",
+        "Routing",
+        "Microservices",
+        "Infrastructure"
+      ],
+      "scheduled_at": "2026-09-21T14:01:28Z",
+      "status": "pending"
     }
   ]
 }
