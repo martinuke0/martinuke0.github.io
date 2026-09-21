@@ -24586,8 +24586,7 @@
         "systems"
       ],
       "scheduled_at": "2026-09-20T18:03:02Z",
-      "status": "skipped_dead_url",
-      "note": "post truncated on generation; file deleted 2026-09-21"
+      "status": "pending"
     },
     {
       "title": "Mastering OpenSSH Key Management: Strengthening SSH Authentication in Modern Infrastructure",
@@ -24672,8 +24671,9 @@
         "systems"
       ],
       "scheduled_at": "2026-09-21T01:05:13Z",
-      "status": "posting",
-      "claimed_at": "2026-09-21T07:29:06Z"
+      "status": "posted",
+      "claimed_at": "2026-09-21T07:29:06Z",
+      "post_urn": "urn:li:share:7507710255863345152"
     },
     {
       "title": "Building a Medusa Speculative Decoding Engine from Scratch",
