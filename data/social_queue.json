@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-21T15:01:28Z",
+  "last_scheduled_at": "2026-09-21T16:02:58Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -24817,6 +24817,21 @@
       "status": "posted",
       "claimed_at": "2026-09-21T15:07:10Z",
       "post_urn": "urn:li:share:7507818987788005376"
+    },
+    {
+      "title": "Implementing Low-Latency Sensor Fusion on ESP32 with FreeRTOS and Kalman Filters",
+      "url": "https://martinuke0.github.io/posts/2026-09-21-implementing-low-latency-sensor-fusion-on-esp32-with-freertos-and-kalman-filters/",
+      "social_hook": "> TL;DR — Implementing low-latency sensor fusion on ESP32 requires careful task decomposition in FreeRTOS, a well-tuned Kalman filter, and strict latency budgeting. By isolating sensor acquisition, fusion computation, and actuator output into separate tasks with priority inheritance, you can achieve sub-10ms end-to-end latency. This post walks through the architecture, filter design, and production patterns that keep the system responsive under real-world noise.\n\nSensor fusion on microcontrollers is often framed as a math problem, but in production it is a scheduling problem. The ESP32, with its dual-core Xtensa LX6 processors and hardware floating-point unit, is a popular platform for edge fusion tasks. Pair it with FreeRTOS, and you get preemptive multitasking, priority inheritance, and fine-grained control over timing. The challenge is not just implementing a Kalman filter—it is making the whole pipeline deterministic enough that a missed I2C read or a SPI collision doesn't blow your latency budget.\n\nIn this post, we will build a low-latency fusion pipeline for an IMU (accelerometer + gyroscope) and a magnetometer, targeting attitude estimation for a drone or robotic platform. The goal is end-to-end latency under 10 ms, with jitter bounded to microseconds. We will cover task architecture, filter selection, covariance tuning, and the failure modes that bite in the field.",
+      "tags": [
+        "ESP32",
+        "FreeRTOS",
+        "Kalman Filter",
+        "Sensor Fusion",
+        "Embedded Systems",
+        "IoT"
+      ],
+      "scheduled_at": "2026-09-21T16:02:58Z",
+      "status": "pending"
     }
   ]
 }
