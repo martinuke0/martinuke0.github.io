@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-21T04:02:20Z",
+  "last_scheduled_at": "2026-09-21T06:02:29Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -24685,6 +24685,20 @@
         "speculative-decoding"
       ],
       "scheduled_at": "2026-09-21T04:02:20Z",
+      "status": "pending"
+    },
+    {
+      "title": "Implementing Apache Pulsar Tiered Storage: Backlog Offload and Read Path Tradeoffs",
+      "url": "https://martinuke0.github.io/posts/2026-09-21-implementing-apache-pulsar-tiered-storage-backlog-offload-and-read-path-tradeoffs/",
+      "social_hook": "> TL;DR — Apache Pulsar's tiered storage moves old messages to cheaper object storage, slashing storage costs, but reading those messages adds latency and requires careful tuning of the read path. This article explains the architecture, offload mechanisms, and the tradeoffs you must balance in production.\n\nApache Pulsar is a distributed messaging and streaming platform that natively supports tiered storage, allowing brokers to offload backlog data to low‑cost object stores such as Amazon S3, Google Cloud Storage, or Azure Blob Storage. By separating the hot data path from the cold data path, Pulsar can retain unlimited message history without expanding the expensive local disk, but this convenience introduces new challenges for read latency, consistency, and operational complexity. In this post, we will walk through the internal architecture of tiered storage, examine how backlog offload works under the hood, and analyze the tradeoffs that affect the read path in a production environment.\n\n- Broker – Handles producer/consumer traffic and coordinates the tiered storage workflow.",
+      "tags": [
+        "Apache Pulsar",
+        "Tiered Storage",
+        "Backlog Offload",
+        "Read Path",
+        "Performance"
+      ],
+      "scheduled_at": "2026-09-21T06:02:29Z",
       "status": "pending"
     }
   ]
