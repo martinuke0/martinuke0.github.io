@@ -24703,7 +24703,8 @@
         "Performance"
       ],
       "scheduled_at": "2026-09-21T06:02:29Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-21T07:29:06Z"
     },
     {
       "title": "Building a Gradient Checkpointing Engine from Scratch",
