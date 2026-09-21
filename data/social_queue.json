@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-21T16:02:58Z",
+  "last_scheduled_at": "2026-09-21T18:02:03Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -24834,6 +24834,21 @@
       "status": "posted",
       "claimed_at": "2026-09-21T16:08:26Z",
       "post_urn": "urn:li:share:7507834399632216064"
+    },
+    {
+      "title": "Deep Dive into GraalVM Partial Evaluation",
+      "url": "https://martinuke0.github.io/posts/2026-09-21-deep-dive-into-graalvm-partial-evaluation/",
+      "social_hook": "> TL;DR — GraalVM's partial evaluation is a meta-tracing compilation technique that specializes generic programs against known runtime constants, producing lean, optimized code. It is the engine behind both the GraalVM JIT compiler's deoptimization capabilities and the Truffle framework's language implementation strategy. Understanding it unlocks a fundamentally different mental model for JVM performance.\n\nPartial evaluation is a program optimization technique formalized by Jones in 1979. The core idea is deceptively simple: given a program with some inputs known at compile time, specialize the program by folding those known constants into the computation, producing a residual program that is faster because it does not need to recompute what is already known.\n\nIn the context of GraalVM, partial evaluation takes this concept and applies it aggressively at the bytecode level. When the GraalVM compiler encounters a method being executed, it does not simply compile it to machine code as a black box. Instead, it constructs an abstract syntax tree (AST) representation of the method and then performs partial evaluation — treating the current execution path's inputs as constants and specializing the AST accordingly.",
+      "tags": [
+        "GraalVM",
+        "Partial Evaluation",
+        "JVM",
+        "Native Image",
+        "Performance",
+        "Compiler"
+      ],
+      "scheduled_at": "2026-09-21T18:02:03Z",
+      "status": "pending"
     }
   ]
 }
