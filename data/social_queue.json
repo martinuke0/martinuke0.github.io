@@ -24848,8 +24848,9 @@
         "Compiler"
       ],
       "scheduled_at": "2026-09-21T18:02:03Z",
-      "status": "posting",
-      "claimed_at": "2026-09-21T18:07:41Z"
+      "status": "posted",
+      "claimed_at": "2026-09-21T18:07:41Z",
+      "post_urn": "urn:li:share:7507864410183401474"
     }
   ]
 }
