@@ -24797,8 +24797,9 @@
         "Infrastructure"
       ],
       "scheduled_at": "2026-09-21T14:01:28Z",
-      "status": "posting",
-      "claimed_at": "2026-09-21T14:07:05Z"
+      "status": "posted",
+      "claimed_at": "2026-09-21T14:07:05Z",
+      "post_urn": "urn:li:share:7507803861940785152"
     }
   ]
 }
