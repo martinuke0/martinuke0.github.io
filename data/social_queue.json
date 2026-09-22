@@ -24899,8 +24899,7 @@
       ],
       "link_label": "Explore the repo",
       "scheduled_at": "2026-09-22T01:01:19Z",
-      "status": "posting",
-      "claimed_at": "2026-09-22T02:07:58Z"
+      "status": "pending"
     },
     {
       "title": "BuilderIO/agent-native: TypeScript framework for building agentic React apps",
@@ -24915,9 +24914,8 @@
       ],
       "link_label": "Explore the repo",
       "scheduled_at": "2026-09-22T02:01:19Z",
-      "status": "posted",
-      "claimed_at": "2026-09-22T02:02:24Z",
-      "post_urn": "urn:li:share:7507983902444060672"
+      "status": "posting",
+      "claimed_at": "2026-09-22T02:02:24Z"
     },
     {
       "title": "yynxxxxx/Codex-X - Visual CLI Manager for OpenAI Codex environments",
