@@ -24930,7 +24930,8 @@
       ],
       "link_label": "Explore the repo",
       "scheduled_at": "2026-09-22T03:01:19Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-22T03:03:01Z"
     },
     {
       "title": "colima: run container runtimes on macOS and Linux with minimal setup",
