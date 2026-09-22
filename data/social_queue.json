@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-22T15:02:26Z",
+  "last_scheduled_at": "2026-09-22T16:03:12Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -25034,6 +25034,20 @@
       "status": "posted",
       "claimed_at": "2026-09-22T15:08:05Z",
       "post_urn": "urn:li:share:7508181613458034689"
+    },
+    {
+      "title": "Building a Speculative RAG Decoder with Retrieval-Token Speculation",
+      "url": "https://martinuke0.github.io/posts/2026-09-22-building-a-speculative-rag-decoder-with-retrieval-token-speculation/",
+      "social_hook": "> TL;DR — This project merges retrieval‑augmented generation with speculative decoding to produce a decoder that can guess the next token while pulling relevant context, cutting latency by 30‑50% without sacrificing factual accuracy. You'll implement it in Python using Hugging Face Transformers, a vector DB, and a lightweight speculation head, then containerize it for production.\n\nBuilding a system that both retrieves relevant documents and predicts the next token in parallel is a frontier challenge in applied machine learning. By combining a retrieval‑augmented generation (RAG) pipeline with speculative decoding, you can serve answers that are both grounded in a knowledge base and generated with the speed of a single forward pass. This post walks you through a complete, runnable implementation that showcases real systems skills—distributed state, low‑latency inference, and extensible architecture—making it a strong addition to any engineer's portfolio.\n\n- End‑to‑end pipeline design – you will wire together a vector database (ChromaDB), a retrieval component (LangChain), a language model (Hugging Face Transformers), and a custom speculation head, demonstrating the ability to architect data flow across heterogeneous services.",
+      "tags": [
+        "RAG",
+        "speculative-decoding",
+        "retrieval",
+        "LLM",
+        "vector-database"
+      ],
+      "scheduled_at": "2026-09-22T16:03:12Z",
+      "status": "pending"
     }
   ]
 }
