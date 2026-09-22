@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-22T21:02:31Z",
+  "last_scheduled_at": "2026-09-22T22:02:31Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -25116,6 +25116,21 @@
       "status": "posted",
       "claimed_at": "2026-09-22T21:08:10Z",
       "post_urn": "urn:li:share:7508272218490105856"
+    },
+    {
+      "title": "Build a Production-Grade Inference Pipeline: A Hands-On CV Project",
+      "url": "https://martinuke0.github.io/posts/2026-09-22-build-a-production-grade-inference-pipeline-a-hands-on-cv-project/",
+      "social_hook": "> TL;DR — Build a real-time inference pipeline: an async API server that loads ML models, batches incoming requests, runs inference with timeout enforcement, caches results, and emits structured metrics. This project signals distributed systems, ML infrastructure, and observability skills in a single repo — exactly what hiring managers screening for senior engineering roles look for.\n\nYou do not need a decade of experience to demonstrate systems thinking on a CV. What you need is a single project that forces you to make real architectural decisions — about concurrency, fault tolerance, latency budgets, and observability — and to implement them with real code. This guide walks you through building exactly that: a production-flavored inference pipeline that serves machine learning models over HTTP with request batching, async processing, result caching, and structured telemetry.\n\nThe project is deliberately scoped to be completable in a weekend but deep enough that each extension maps to a senior-level systems concept. By the end, you will have a working service with real code, real tests, and a roadmap that turns a weekend project into a portfolio piece that opens doors.",
+      "tags": [
+        "inference",
+        "machine-learning",
+        "fastapi",
+        "systems-engineering",
+        "python",
+        "portfolio"
+      ],
+      "scheduled_at": "2026-09-22T22:02:31Z",
+      "status": "pending"
     }
   ]
 }
