@@ -25064,8 +25064,9 @@
         "Decoder"
       ],
       "scheduled_at": "2026-09-22T18:02:15Z",
-      "status": "posting",
-      "claimed_at": "2026-09-22T18:07:48Z"
+      "status": "posted",
+      "claimed_at": "2026-09-22T18:07:48Z",
+      "post_urn": "urn:li:share:7508226832417247233"
     }
   ]
 }
