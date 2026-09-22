@@ -24882,8 +24882,9 @@
         "security-engineering"
       ],
       "scheduled_at": "2026-09-22T00:01:19Z",
-      "status": "posting",
-      "claimed_at": "2026-09-22T00:07:03Z"
+      "status": "posted",
+      "claimed_at": "2026-09-22T00:07:03Z",
+      "post_urn": "urn:li:share:7507954852891877376"
     }
   ]
 }
