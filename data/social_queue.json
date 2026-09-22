@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-22T16:03:12Z",
+  "last_scheduled_at": "2026-09-22T18:02:15Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -25050,6 +25050,21 @@
       "status": "posted",
       "claimed_at": "2026-09-22T16:08:54Z",
       "post_urn": "urn:li:share:7508196910088826880"
+    },
+    {
+      "title": "Build a Pure Python LLM Decoder from Scratch: Temperature, Top-k, and Top-p Sampling",
+      "url": "https://martinuke0.github.io/posts/2026-09-22-build-a-pure-python-llm-decoder-from-scratch-temperature-top-k-and-top-p-samplin/",
+      "social_hook": "> TL;DR — Build a pure Python LLM decoder from scratch that implements temperature scaling, top-k, and top-p (nucleus) sampling. This project demonstrates core systems skills—probability, algorithm design, and low-level inference—that hiring managers recognize as foundational for ML and AI engineering roles. The code is real, runnable, and extensible.\n\nMost engineers building LLM applications today rely on high‑level frameworks like Hugging Face Transformers or LangChain, which abstract away the token generation logic. But the moment you need to debug a hallucination, tune generation quality for a specialized domain, or explain why a model outputs a specific token, that abstraction becomes a wall. Understanding the sampling pipeline—how logits become probabilities, how temperature reshapes the distribution, and how top‑k and top‑p prune the tail—is the difference between calling an API and owning the inference stack.\n\nThis post is a hands‑on build guide. You will implement a complete, pure‑Python decoder that takes raw logits and produces tokens using temperature scaling, top‑k filtering, top‑p (nucleus) filtering, and multinomial sampling. No PyTorch, no TensorFlow, no external ML libraries—just the Python standard library. By the end you will have a portfolio piece that signals real systems skill to hiring managers.",
+      "tags": [
+        "LLM",
+        "Python",
+        "Systems",
+        "Machine Learning",
+        "Sampling",
+        "Decoder"
+      ],
+      "scheduled_at": "2026-09-22T18:02:15Z",
+      "status": "pending"
     }
   ]
 }
