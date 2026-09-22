@@ -25113,8 +25113,9 @@
         "production"
       ],
       "scheduled_at": "2026-09-22T21:02:31Z",
-      "status": "posting",
-      "claimed_at": "2026-09-22T21:08:10Z"
+      "status": "posted",
+      "claimed_at": "2026-09-22T21:08:10Z",
+      "post_urn": "urn:li:share:7508272218490105856"
     }
   ]
 }
