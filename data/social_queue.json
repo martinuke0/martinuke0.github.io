@@ -25080,8 +25080,9 @@
         "Session Management"
       ],
       "scheduled_at": "2026-09-22T19:02:15Z",
-      "status": "posting",
-      "claimed_at": "2026-09-22T19:07:27Z"
+      "status": "posted",
+      "claimed_at": "2026-09-22T19:07:27Z",
+      "post_urn": "urn:li:share:7508241841268555776"
     }
   ]
 }
