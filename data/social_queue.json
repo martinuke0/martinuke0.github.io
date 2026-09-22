@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-22T07:01:19Z",
+  "last_scheduled_at": "2026-09-22T06:01:19Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -24899,8 +24899,7 @@
       ],
       "link_label": "Explore the repo",
       "scheduled_at": "2026-09-22T01:01:19Z",
-      "status": "posting",
-      "claimed_at": "2026-09-22T03:58:24Z"
+      "status": "pending"
     },
     {
       "title": "BuilderIO/agent-native: TypeScript framework for building agentic React apps",
@@ -24978,20 +24977,6 @@
       ],
       "link_label": "Explore the repo",
       "scheduled_at": "2026-09-22T06:01:19Z",
-      "status": "pending"
-    },
-    {
-      "title": "Build a KV Cache Eviction Engine for LLM Context Windows",
-      "url": "https://martinuke0.github.io/posts/2026-09-22-build-a-kv-cache-eviction-engine-for-llm-context-windows/",
-      "social_hook": "> TL;DR — Build a pluggable KV cache eviction engine that lets you extend a model's effective context length while bounding GPU memory. The implementation is pure Python, runs on a single machine, and demonstrates cache coherence, policy swapping, and benchmarking—skills that map directly to senior systems roles.\n\nIn production LLM serving, the KV cache is the primary memory consumer; without a smart eviction policy you either OOM or truncate context, hurting quality. This post walks you through a from‑scratch KV cache manager that supports interchangeable eviction strategies (LRU, FIFO, and a simple learned score), integrates with a minimal transformer forward pass, and ships with tests that prove correctness. You’ll end up with a portfolio piece that showcases systems design, algorithmic thinking, and hands‑on Python engineering.\n\n- Systems‑oriented thinking – You’re not just calling an API; you’re designing a memory subsystem with clear contracts, policy abstraction, and observability hooks.",
-      "tags": [
-        "LLM",
-        "KV-Cache",
-        "Context-Window",
-        "Systems",
-        "Python"
-      ],
-      "scheduled_at": "2026-09-22T07:01:19Z",
       "status": "pending"
     }
   ]
