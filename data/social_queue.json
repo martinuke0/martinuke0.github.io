@@ -25130,7 +25130,8 @@
         "portfolio"
       ],
       "scheduled_at": "2026-09-22T22:02:31Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-22T22:07:04Z"
     }
   ]
 }
