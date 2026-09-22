@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-22T07:01:19Z",
+  "last_scheduled_at": "2026-09-22T12:01:39Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -25001,6 +25001,21 @@
       "status": "posted",
       "claimed_at": "2026-09-22T08:03:43Z",
       "post_urn": "urn:li:share:7508074831289077761"
+    },
+    {
+      "title": "Build a From-Scratch LLM Sampler: Temperature, Top-k, Top-p in Pure Python",
+      "url": "https://martinuke0.github.io/posts/2026-09-22-build-a-from-scratch-llm-sampler-temperature-top-k-top-p-in-pure-python/",
+      "social_hook": "> TL;DR — Build a from-sscratch transformer model and a custom decoding loop in pure Python that implements temperature, top-k, and top-p sampling. This project demonstrates you understand both the math behind LLM generation and the engineering rigor to ship it — exactly what hiring managers look for in ML systems roles.\n\nMost aspiring engineers learn about LLM sampling through tutorials that hand them a `generate()` call from Hugging Face and call it a day. But understanding what happens inside that black box — the probability redistribution, the threshold gating, the numerical stability tricks — is what separates candidates who use models from those who build them. This guide walks you through constructing a minimal transformer and a fully custom sampling pipeline from the ground up in Python, with no framework shortcuts.\n\nA from-scratch sampler project signals a rare and specific combination of competencies that hiring managers in ML infrastructure, research engineering, and applied AI roles actively screen for.",
+      "tags": [
+        "machine-learning",
+        "nlp",
+        "python",
+        "transformers",
+        "sampling",
+        "career-growth"
+      ],
+      "scheduled_at": "2026-09-22T12:01:39Z",
+      "status": "pending"
     }
   ]
 }
