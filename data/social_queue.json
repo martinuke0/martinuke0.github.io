@@ -24965,7 +24965,8 @@
       ],
       "link_label": "Explore the repo",
       "scheduled_at": "2026-09-22T05:01:19Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-22T05:26:01Z"
     },
     {
       "title": "obsidian-skills: Give AI agents structured access to your Obsidian vault",
