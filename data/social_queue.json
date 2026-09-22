@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-22T12:01:39Z",
+  "last_scheduled_at": "2026-09-22T15:02:26Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -25018,6 +25018,20 @@
       "status": "posted",
       "claimed_at": "2026-09-22T12:07:06Z",
       "post_urn": "urn:li:share:7508136060225323008"
+    },
+    {
+      "title": "From Scratch: Building a LoRA Weight Merger in PyTorch",
+      "url": "https://martinuke0.github.io/posts/2026-09-22-from-scratch-building-a-lora-weight-merger-in-pytorch/",
+      "social_hook": "> TL;DR — In this post you'll implement a LoRA weight merger from scratch using PyTorch, turning a theoretical concept into a runnable, testable tool. The project demonstrates real systems skills—data loading, tensor operations, and modular design—that hiring managers look for in ML engineering roles. By the end you'll have a portfolio piece you can extend with persistence, scaling, and observability.\n\nLoRA (Low‑Rank Adaptation) has become the de facto method for fine‑tuning large language models with limited resources. However, many tutorials stop at training a single adapter, leaving the crucial step of merging multiple adapters back into the base model as an exercise. In this guide we will build a robust, reusable LoRA weight merger in PyTorch that can combine several adapters, handle different rank configurations, and produce a single merged model ready for inference.\n\n- Hands‑on PyTorch expertise – You’ll write custom tensor operations, manage device placement, and serialize models, demonstrating fluency with the framework that powers most production ML systems.",
+      "tags": [
+        "PyTorch",
+        "LoRA",
+        "Machine Learning",
+        "Systems Engineering",
+        "Portfolio Project"
+      ],
+      "scheduled_at": "2026-09-22T15:02:26Z",
+      "status": "pending"
     }
   ]
 }
