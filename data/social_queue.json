@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-22T00:01:19Z",
+  "last_scheduled_at": "2026-09-22T01:01:19Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -24885,6 +24885,21 @@
       "status": "posted",
       "claimed_at": "2026-09-22T00:07:03Z",
       "post_urn": "urn:li:share:7507954852891877376"
+    },
+    {
+      "title": "<repo name + one-line pitch, under 100 chars, one line>",
+      "url": "https://github.com/markedjs/marked",
+      "social_hook": "<the post body prose as described above, can span multiple lines>\n\nWe must output only that, no extra text, no markdown fences, no commentary.\n\nThe post must be 120-180 words, in plain prose, not list.\n\nWe need to include what it does, why it matters now, three concrete ways: use directly, side project, something worth reading in source for technique.\n\nTone: direct, specific, no fluff, no hype words like \"game-changer\". Name real files/concepts from repo where possible.\n\nWe need to keep word count 120-180 words.\n\nWe need to output exactly the format.\n\nLet's craft.\n\nFirst, HEADLINE: \"markedjs/marked: A fast markdown parser and compiler\" maybe under 100 chars.\n\nWe need repo name + one-line pitch. Could be \"markedjs/marked: High-speed markdown parser and compiler\". That's under 100 chars.\n\nWe'll do \"markedjs/marked: Fast markdown parser and compiler\".\n\nCount characters: \"markedjs/marked: Fast markdown parser and compiler\" length? Let's count: m(1) a2 r3 k4 e5 d6 j7 s8 /9 m10 a11 r12 k13 e14 d15 :16 space17 F18 a19 s20 t21 space22 m23 a24 r25 k26 d27 o28 w29 n30 space31 p32 a33 r34 s35 e36 r37 space38 a39 n40 d41 space42 c43 o44 m45 p46 i47 l48 e49 r50. That's 50 characters, under 100.\n\nTAGS: need 5 tags. Probably choose from topics: commonmark, compiler, gfm, hacktoberfest, markdown, parser. But need exactly 5 tags separated by commas. Could be \"commonmark, compiler, gfm, markdown, parser\". That's five.\n\nBut the instruction: TAGS: tag1, tag2, tag3, tag4, tag5. So we need exactly five tags. They can be any, but likely from repo topics. We'll use \"commonmark, compiler, gfm, markdown, parser\". That's five.\n\nAlternatively include \"hacktoberfest\" but need exactly five. Could use any five.\n\nWe'll use \"commonmark, compiler, gfm, markdown, parser\".\n\nNow BODY: 120-180 words, prose, not list.\n\nWe need to cover:\n\n1. What it does, in plain terms.\n2. Why it matters right now.\n3. Three concrete, specific ways to work with it: a way to use it directly, a side project you could build with or on it, and something worth reading in its source for the technique it teaches.\n\nTone: direct, specific, no fluff, no hype words like \"game-changer\". Name real files/concepts from the repo where possible.\n\nWe need to include mention of real files/concepts. In marked repo, there are files like \"marked.js\", \"lib/marked.js\", \"src/marked.js\", \"README.md\", \"package.json\", \"test/\", \"src/Renderer.js\", \"src/Tokenizer.js\", \"src/BlockLexer.js\", \"src/InlineLexer.js\", etc. Also concepts like \"GFM\", \"CommonMark\", \"AST\", \"parser\", \"compiler\".\n\nWe can mention \"marked.js\" as entry point, \"lib/marked.js\" compiled, \"src/Tokenizer.js\", \"src/Renderer.js\", \"package.json\".\n\nWe need three concrete ways:\n\n- Use directly: e.g., import marked from 'marked'; marked('# Hello');\n\n- Side project: build a markdown editor, or a static site generator, or a chat app with markdown rendering.\n\n- Something worth reading in its source for technique: maybe read \"src/Tokenizer.js\" to see how it tokenizes, or \"src/BlockLexer.js\" for block parsing, or \"src/Renderer.js\" for rendering.\n\nWe need to name real files/concepts.\n\nAlso need to keep word count 120-180 words.\n\nWe'll write a paragraph (maybe multiple lines) but total word count between 120 and 180.\n\nWe must not include any extra formatting, just plain text.\n\nThe output must be exactly:\n\nHEADLINE: ...\nTAGS: ...\nBODY:\n...\n\nWe can include line breaks in BODY, but must be plain text.\n\nWe need to ensure word count 120-180 words. Let's aim ~150 words.\n\nWe'll write something like:\n\n\"markedjs/marked is a JavaScript library that parses Markdown text and compiles it into HTML, following the CommonMark spec and supporting GitHub Flavored Markdown extensions. In a landscape where many parsers are slow or incomplete, marked delivers high throughput with a lean implementation, making it suitable for real‑time rendering in web apps, CI pipelines, and documentation generators. You can import it directly via `import marked from 'marked'` and call `marked('# Title')` to get HTML. A practical side project is a minimal static‑site generator that reads `.md` files, runs them through marked, and writes output to a `dist` folder. For a deeper look, examine `src/Tokenizer.js`; its state‑",
+      "tags": [
+        "tag1",
+        "tag2",
+        "tag3",
+        "tag4",
+        "tag5"
+      ],
+      "link_label": "Explore the repo",
+      "scheduled_at": "2026-09-22T01:01:19Z",
+      "status": "pending"
     }
   ]
 }
