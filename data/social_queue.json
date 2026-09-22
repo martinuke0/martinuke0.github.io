@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-21T19:02:03Z",
+  "last_scheduled_at": "2026-09-22T00:01:19Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -24868,6 +24868,21 @@
       "status": "posted",
       "claimed_at": "2026-09-21T19:06:57Z",
       "post_urn": "urn:li:share:7507879332032262145"
+    },
+    {
+      "title": "Implementing Signal's Double Ratchet Protocol: Ephemeral Key Evolution and Forward Secrecy",
+      "url": "https://martinuke0.github.io/posts/2026-09-22-implementing-signal/",
+      "social_hook": "> TL;DR — Signal's Double Ratchet Algorithm combines a DH ratchet and a symmetric-key ratchet to ensure that every message uses a unique encryption key. Even if a long-term key is compromised, past messages remain unreadable (forward secrecy), and session keys self-heal after a single compromise event (break-in recovery).\n\nMost encryption systems rely on a static key pair. Alice and Bob generate a long-term identity key, exchange public components, and derive a shared secret. This model works—until the key is compromised. If an adversary obtains Alice's private key at any point in time, every message she has ever sent or received becomes decryptable.\n\nIn a messaging system like Signal, this is catastrophic. A seized device, a memory dump, or a forensic image should not expose an entire conversation history. The requirement is forward secrecy: the compromise of long-term keys at time t must not compromise messages sent before t.",
+      "tags": [
+        "cryptography",
+        "signal-protocol",
+        "forward-secrecy",
+        "ephemeral-keys",
+        "end-to-end-encryption",
+        "security-engineering"
+      ],
+      "scheduled_at": "2026-09-22T00:01:19Z",
+      "status": "pending"
     }
   ]
 }
