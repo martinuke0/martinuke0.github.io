@@ -24947,7 +24947,8 @@
       ],
       "link_label": "Explore the repo",
       "scheduled_at": "2026-09-22T04:01:19Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-22T04:03:58Z"
     },
     {
       "title": "Orca: Run any coding agent with your own subscription across desktop, mobile, and remote",
