@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-22T20:02:15Z",
+  "last_scheduled_at": "2026-09-22T21:02:31Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -25100,6 +25100,20 @@
       "status": "posted",
       "claimed_at": "2026-09-22T20:07:07Z",
       "post_urn": "urn:li:share:7508256865277882371"
+    },
+    {
+      "title": "The Hidden Cost of Microservices: Why Distributed Tracing Is Not Optional",
+      "url": "https://martinuke0.github.io/posts/2026-09-22-the-hidden-cost-of-microservices-why-distributed-tracing-is-not-optional/",
+      "social_hook": "> TL;DR — Microservices break requests into multiple hops, making it hard to pinpoint where latency or failures occur. Distributed tracing provides a single, end‑to‑end view of a request, but only if you instrument correctly. This post explains why tracing is non‑optional, how to design a tracing architecture, and the common pitfalls that can silently degrade its value.\n\nIn a monolith, a request lives and dies inside a single process. You can sprinkle `console.log` statements and grep for a correlation ID, and you’ll usually find the problem. In a microservices architecture, a single user action fans out into dozens of network calls, each with its own thread, language, and deployment lifecycle. The moment you lose the thread of a request, debugging becomes a treasure hunt across logs that may be in different time zones, different formats, and different retention windows.\n\nDistributed tracing solves this by attaching a trace context to every span of work, then stitching those spans together into a visual timeline. It’s the difference between reading a diary and reading a movie script. But tracing isn’t a magic bullet — it requires deliberate design, correct instrumentation, and an understanding of its costs. Below, we’ll walk through the architecture, production patterns, and the traps that turn a powerful tool into a noisy liability.",
+      "tags": [
+        "microservices",
+        "observability",
+        "distributed-tracing",
+        "debugging",
+        "production"
+      ],
+      "scheduled_at": "2026-09-22T21:02:31Z",
+      "status": "pending"
     }
   ]
 }
