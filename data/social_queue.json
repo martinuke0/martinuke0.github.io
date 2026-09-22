@@ -25015,8 +25015,9 @@
         "career-growth"
       ],
       "scheduled_at": "2026-09-22T12:01:39Z",
-      "status": "posting",
-      "claimed_at": "2026-09-22T12:07:06Z"
+      "status": "posted",
+      "claimed_at": "2026-09-22T12:07:06Z",
+      "post_urn": "urn:li:share:7508136060225323008"
     }
   ]
 }
