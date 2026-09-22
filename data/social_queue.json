@@ -24982,8 +24982,9 @@
       ],
       "link_label": "Explore the repo",
       "scheduled_at": "2026-09-22T06:01:19Z",
-      "status": "posting",
-      "claimed_at": "2026-09-22T08:03:43Z"
+      "status": "posted",
+      "claimed_at": "2026-09-22T08:03:43Z",
+      "post_urn": "urn:li:share:7508074808098664448"
     },
     {
       "title": "Build a KV Cache Eviction Engine for LLM Context Windows",
