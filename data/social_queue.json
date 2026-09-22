@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-22T06:01:19Z",
+  "last_scheduled_at": "2026-09-22T07:01:19Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -24975,6 +24975,21 @@
       ],
       "link_label": "Explore the repo",
       "scheduled_at": "2026-09-22T06:01:19Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting High-Performance Storage: Inside RocksDB's LSM-Tree Compaction Strategy",
+      "url": "https://martinuke0.github.io/posts/2026-09-22-architecting-high-performance-storage-inside-rocksdb/",
+      "social_hook": "> TL;DR — RocksDB achieves high write throughput by buffering writes in an in-memory memtable, flushing immutable sorted runs (SST files) to disk, and asynchronously merging them through configurable compaction strategies. Choosing between leveled, universal, and FIFO compaction involves navigating fundamental tradeoffs among write amplification, read amplification, and space amplification — and the wrong choice can cripple a production system under load.\n\nTraditional B-tree storage engines suffer from a structural weakness: every random insert requires an in-place update to a balanced tree node, often triggering page splits and write-ahead log flushes. Under heavy write loads — think tens of thousands of inserts per second — the random I/O pattern becomes the bottleneck.\n\nThe Log-Structured Merge-Tree (LSM-tree) sidesteps this entirely. Instead of modifying existing data on disk, all writes are appended sequentially. The engine maintains a small, in-memory sorted structure called a memtable. When the memtable fills, it becomes immutable and is flushed to disk as an immutable sorted run (stored as an SST file). Over time, these sorted runs accumulate and must be merged — a process called compaction.",
+      "tags": [
+        "RocksDB",
+        "LSM-Tree",
+        "Storage Engine",
+        "Compaction",
+        "Database Architecture",
+        "Performance Engineering"
+      ],
+      "scheduled_at": "2026-09-22T07:01:19Z",
       "status": "pending"
     }
   ]
