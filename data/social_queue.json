@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-22T18:02:15Z",
+  "last_scheduled_at": "2026-09-22T19:02:15Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -25067,6 +25067,20 @@
       "status": "posted",
       "claimed_at": "2026-09-22T18:07:48Z",
       "post_urn": "urn:li:share:7508226832417247233"
+    },
+    {
+      "title": "Implementing Passkey Authentication with WebAuthn: Secure Session Rotation and Recovery",
+      "url": "https://martinuke0.github.io/posts/2026-09-22-implementing-passkey-authentication-with-webauthn-secure-session-rotation-and-re/",
+      "social_hook": "> TL;DR — Passkeys built on WebAuthn eliminate password-based attack surfaces, but the real engineering challenge lies in session rotation and recovery. This guide covers the credential lifecycle, server-side session architecture, and recovery patterns you need to ship a production-grade passkey system.\n\nPasswords remain the dominant authentication vector for account compromise. The 2024 Verizon Data Breach Investigations Report found that credentials appeared in 84% of breaches. Passkeys — the consumer-facing name for passwordless authentication powered by WebAuthn — shift trust from shared secrets to public-key cryptography bound to a user's device.\n\nWhen a user registers a passkey, their authenticator generates a unique key pair. The private key never leaves the secure enclave or TPM. The public key is stored on your server alongside a credential ID. Every subsequent assertion is signed with the private key and verified server-side. There is no secret to phish, no credential to stuff, and no replay attack that works across domains.",
+      "tags": [
+        "WebAuthn",
+        "Passkeys",
+        "Authentication",
+        "Security",
+        "Session Management"
+      ],
+      "scheduled_at": "2026-09-22T19:02:15Z",
+      "status": "pending"
     }
   ]
 }
