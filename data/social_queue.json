@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-22T19:02:15Z",
+  "last_scheduled_at": "2026-09-22T20:02:15Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -25083,6 +25083,21 @@
       "status": "posted",
       "claimed_at": "2026-09-22T19:07:27Z",
       "post_urn": "urn:li:share:7508241841268555776"
+    },
+    {
+      "title": "Build a Blockwise INT4 Inference Engine: A Hands-On Portfolio Project",
+      "url": "https://martinuke0.github.io/posts/2026-09-22-build-a-blockwise-int4-inference-engine-a-hands-on-portfolio-project/",
+      "social_hook": "> TL;DR — Building a blockwise INT4 inference engine from scratch forces you to confront the full stack: quantization theory, memory layout optimization, SIMD-friendly kernel design, and fused operator implementation. This guide walks you through every step — packed-nibble weight storage, per-group scale/zero-point computation, and a fused dequantizing GEMM kernel — with real, runnable code you can ship to a GitHub repo and point to in interviews.\n\nQuantization-aware inference engines are the backbone of every major LLM serving stack today. From Meta's LLM.int8() to NVIDIA's TensorRT-LLM and the llama.cpp ecosystem, efficient low-precision inference is what makes large models run on consumer hardware. Building even a minimal version of this stack yourself is one of the most signal-rich projects an engineer can add to a portfolio — it demonstrates simultaneous fluency in numerical methods, memory architecture, and high-performance code.\n\nThis guide gives you a complete, step-by-step path to build a blockwise INT4 inference engine. You will implement packed-nibble weight storage, per-group quantization parameters, and — the centerpiece — a fused dequantizing GEMM kernel that avoids ever materializing full-precision weights in memory. Every code snippet is real and runnable.",
+      "tags": [
+        "machine-learning",
+        "quantization",
+        "inference-engine",
+        "c-plus-plus",
+        "python",
+        "systems-engineering"
+      ],
+      "scheduled_at": "2026-09-22T20:02:15Z",
+      "status": "pending"
     }
   ]
 }
