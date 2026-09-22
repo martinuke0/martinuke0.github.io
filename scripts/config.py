@@ -55,7 +55,7 @@ Full guide → {url}
 LINKEDIN_TEMPLATE = """{social_hook}
 
 {title}
-Read the full guide: {url}
+{link_label}: {url}
 
 {cta}{hashtags}"""
 

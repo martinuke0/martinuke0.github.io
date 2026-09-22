@@ -134,6 +134,7 @@ def main() -> None:
                 title=title, url=url,
                 social_hook=entry.get("social_hook", ""), tags=entry.get("tags", []),
                 cta=entry.get("cta"),  # explicit per-entry CTA flag (None => random 1/10)
+                link_label=entry.get("link_label", "Read the full guide"),
             )
             entry["status"] = "posted"
             if urn:
