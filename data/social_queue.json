@@ -25245,8 +25245,9 @@
         "pipelines"
       ],
       "scheduled_at": "2026-09-23T13:05:23Z",
-      "status": "posting",
-      "claimed_at": "2026-09-23T13:10:51Z"
+      "status": "posted",
+      "claimed_at": "2026-09-23T13:10:51Z",
+      "post_urn": "urn:li:share:7508514492406808578"
     }
   ]
 }
