@@ -25213,7 +25213,8 @@
         "Systems Engineering"
       ],
       "scheduled_at": "2026-09-23T10:02:02Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-23T10:07:32Z"
     }
   ]
 }
