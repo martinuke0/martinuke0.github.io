@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-23T10:02:02Z",
+  "last_scheduled_at": "2026-09-23T11:02:34Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -25216,6 +25216,20 @@
       "status": "posted",
       "claimed_at": "2026-09-23T10:07:32Z",
       "post_urn": "urn:li:share:7508468355583082497"
+    },
+    {
+      "title": "Building a Paged KV-Cache Simulator in Pure Python: A Portfolio Project for Systems Engineers",
+      "url": "https://martinuke0.github.io/posts/2026-09-23-building-a-paged-kv-cache-simulator-in-pure-python-a-portfolio-project-for-syste/",
+      "social_hook": "> TL;DR — This project implements a paged KV-cache simulator in pure Python, modeling memory management techniques used in production LLM serving systems like vLLM. By building pluggable eviction policies (LRU, FIFO, Clock) and collecting metrics, you demonstrate concrete systems skills—memory paging, cache replacement, and performance profiling—that hiring managers recognize as senior-level competencies.\n\nIn today's AI infrastructure landscape, efficient memory management is critical. Large language models (LLMs) generate key-value (KV) caches that can consume gigabytes of GPU memory. Production systems such as vLLM employ paged virtual memory to avoid fragmentation and enable efficient eviction. This post guides you through building a pure Python simulator that mimics these mechanisms, providing a portfolio piece that showcases your ability to reason about low-level systems concepts.\n\n- Demonstrates Virtual Memory Paging: You implement fixed-size pages and a page table, mirroring OS-level concepts that are often only theorized in coursework.",
+      "tags": [
+        "Python",
+        "Systems Design",
+        "Caching",
+        "Eviction Policies",
+        "Portfolio Project"
+      ],
+      "scheduled_at": "2026-09-23T11:02:34Z",
+      "status": "pending"
     }
   ]
 }
