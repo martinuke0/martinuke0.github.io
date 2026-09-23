@@ -25147,8 +25147,9 @@
         "deep-learning"
       ],
       "scheduled_at": "2026-09-23T00:01:18Z",
-      "status": "posting",
-      "claimed_at": "2026-09-23T00:06:56Z"
+      "status": "posted",
+      "claimed_at": "2026-09-23T00:06:56Z",
+      "post_urn": "urn:li:share:7508317211686707200"
     }
   ]
 }
