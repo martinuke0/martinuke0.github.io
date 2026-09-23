@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-23T13:05:23Z",
+  "last_scheduled_at": "2026-09-23T19:02:28Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -25248,6 +25248,21 @@
       "status": "posted",
       "claimed_at": "2026-09-23T13:10:51Z",
       "post_urn": "urn:li:share:7508514492406808578"
+    },
+    {
+      "title": "Building 'safe': A User Safety Engine That Signals Real Systems Skill",
+      "url": "https://martinuke0.github.io/posts/2026-09-23-building/",
+      "social_hook": "> TL;DR — Build `safe`, a user safety engine that processes user-generated content through a layered middleware pipeline: regex pattern matching, ML-based classification, PII detection, and rate limiting. It demonstrates middleware architecture, ML integration, observability, and fault tolerance — the exact skills hiring managers scan for on a CV. This guide gives you real, runnable code from first commit to production-ready extension.\n\nThe demand for engineers who can build systems that protect users is accelerating across every vertical — from social platforms to fintech to healthcare. But most portfolio projects showcase CRUD apps and todo lists, which signal very little about your ability to handle real-world constraints like latency budgets, failure modes, and adversarial input.\n\n`safe` changes that. It's a user safety engine: a middleware service that inspects user-generated content in real time, classifies it against configurable safety policies, and takes action — block, flag, or allow — while logging every decision for audit and improvement. The project is small enough to build in a weekend, deep enough to keep you learning for months, and concrete enough to discuss in any technical interview.",
+      "tags": [
+        "systems-engineering",
+        "python",
+        "safety-engine",
+        "middleware",
+        "portfolio-project",
+        "content-moderation"
+      ],
+      "scheduled_at": "2026-09-23T19:02:28Z",
+      "status": "pending"
     }
   ]
 }
