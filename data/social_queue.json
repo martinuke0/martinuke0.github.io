@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-23T11:02:34Z",
+  "last_scheduled_at": "2026-09-23T13:05:23Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -25232,6 +25232,20 @@
       "status": "posted",
       "claimed_at": "2026-09-23T11:08:07Z",
       "post_urn": "urn:li:share:7508483601139924992"
+    },
+    {
+      "title": "Deep Dive into Tekton Pipelines: Building Immutable CI/CD Workflows for Kubernetes",
+      "url": "https://martinuke0.github.io/posts/2026-09-23-deep-dive-into-tekton-pipelines-building-immutable-cicd-workflows-for-kubernetes/",
+      "social_hook": "> TL;DR — Tekton provides Kubernetes-native pipeline primitives that enable immutable, event-driven CI/CD workflows. By expressing stages as reusable Tasks and composing them into PipelineRuns, teams achieve auditability, repeatability, and zero-drift deployments across clusters.\n\nIn the previous decade, CI/CD on Kubernetes often meant stitching together bash scripts, Helm hooks, and ad-hoc operators. The result was pipelines that were \"working today\" but fragile under version bumps, secret rotations, or cluster upgrades. Tekton Pipelines, graduated as a CNCF project in 2022, shifts the paradigm by offering declarative, long-running custom resource definitions that live entirely within the cluster. This deep dive explores how Tekton’s architecture supports immutable CI/CD workflows, the concrete patterns that make pipelines audit-proof, and the production realities engineers face when scaling these patterns across teams and clusters.\n\nImmutability in CI/CD means every pipeline execution is a fresh, side-effect-free run that produces the same artifacts given the same inputs. Tekton enables this through its core design principles: tasks are reusable, idempotent units of work; pipeline runs are ephemeral instances tied to a git commit; and all state is externalized to cluster resources (ConfigMaps, Secrets, PersistentVolumeClaims) rather than embedded in script logic.",
+      "tags": [
+        "tekton",
+        "ci-cd",
+        "kubernetes",
+        "devops",
+        "pipelines"
+      ],
+      "scheduled_at": "2026-09-23T13:05:23Z",
+      "status": "pending"
     }
   ]
 }
