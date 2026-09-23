@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-23T05:02:09Z",
+  "last_scheduled_at": "2026-09-23T08:02:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -25183,6 +25183,20 @@
       "status": "posted",
       "claimed_at": "2026-09-23T05:06:53Z",
       "post_urn": "urn:li:share:7508392698928599040"
+    },
+    {
+      "title": "User Safety: safe — A Hands-On Build Guide for Your Portfolio",
+      "url": "https://martinuke0.github.io/posts/2026-09-23-user-safety-safe-a-hands-on-build-guide-for-your-portfolio/",
+      "social_hook": "> TL;DR — Build a real-time user safety pipeline: a layered system that ingests user-submitted content, runs it through configurable safety classifiers, queues decisions through a message broker, and stores outcomes with full audit trails. The project demonstrates distributed systems patterns, fault tolerance, and observability — exactly what hiring managers look for in senior engineering candidates.\n\nContent safety systems are among the most architecturally interesting challenges in modern software engineering. Every major platform — from social networks to marketplaces — needs to evaluate user-generated content against policies in real time. Building one from scratch forces you to confront the same problems that senior engineers solve daily: message queuing, state management, fault tolerance, and observability.\n\nThis guide walks you through constructing a complete user safety pipeline called safe. By the end, you'll have a runnable system with a REST ingestion layer, a configurable rule engine, a message queue for async processing, and a persistence layer with full audit logging. Let's get into it.",
+      "tags": [
+        "systems-engineering",
+        "content-safety",
+        "python",
+        "portfolio-project",
+        "distributed-systems"
+      ],
+      "scheduled_at": "2026-09-23T08:02:14Z",
+      "status": "pending"
     }
   ]
 }
