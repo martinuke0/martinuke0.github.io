@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-23T08:02:14Z",
+  "last_scheduled_at": "2026-09-23T10:02:02Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -25199,6 +25199,21 @@
       "status": "posted",
       "claimed_at": "2026-09-23T08:07:40Z",
       "post_urn": "urn:li:share:7508438195718553601"
+    },
+    {
+      "title": "Build a RAG Pipeline with From-Scratch BM25: A Hands-On Portfolio Project",
+      "url": "https://martinuke0.github.io/posts/2026-09-23-build-a-rag-pipeline-with-from-scratch-bm25-a-hands-on-portfolio-project/",
+      "social_hook": "> TL;DR — Building a RAG pipeline with a from-scratch BM25 ranker is one of the highest-signal side projects an engineer can ship. It forces you to understand information retrieval at the formula level, demonstrate systems architecture thinking, and produce a working demo that hiring managers can interrogate. This guide walks you through every line of code, the architecture decisions behind them, and a concrete roadmap to push it into senior-engineering territory.\n\nMost portfolio projects fall into one of two traps: they're too shallow (a todo app with a JWT auth layer) or they're too abstract (a research paper with no running code). A from-scratch BM25 RAG pipeline avoids both. Here's what it signals to a hiring manager:\n\n- Algorithmic depth. You didn't just call `retrieve_documents()` from a library. You implemented the probabilistic ranking function yourself, which means you understand TF, IDF, saturation curves, and parameter tuning at a level that separates engineers who use systems from those who build them.",
+      "tags": [
+        "RAG",
+        "BM25",
+        "Information Retrieval",
+        "Python",
+        "Portfolio Project",
+        "Systems Engineering"
+      ],
+      "scheduled_at": "2026-09-23T10:02:02Z",
+      "status": "pending"
     }
   ]
 }
