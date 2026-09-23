@@ -25262,7 +25262,8 @@
         "content-moderation"
       ],
       "scheduled_at": "2026-09-23T19:02:28Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-23T19:08:06Z"
     }
   ]
 }
