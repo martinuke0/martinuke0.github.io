@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-22T22:02:31Z",
+  "last_scheduled_at": "2026-09-23T00:01:18Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -25133,6 +25133,21 @@
       "status": "posted",
       "claimed_at": "2026-09-22T22:07:04Z",
       "post_urn": "urn:li:share:7508287055580540928"
+    },
+    {
+      "title": "Build a Mixture-of-Experts Router from Scratch: A Portfolio Project That Signals Real Systems Skill",
+      "url": "https://martinuke0.github.io/posts/2026-09-23-build-a-mixture-of-experts-router-from-scratch-a-portfolio-project-that-signals/",
+      "social_hook": "> TL;DR — Build a mixture-of-experts (MoE) router from scratch in Python with top-k gating, a capacity factor that prevents token overflow, and a load balancing loss that keeps experts evenly utilized. This project demonstrates systems design, distributed systems intuition, and ML engineering — exactly the combination hiring managers look for in senior ML infrastructure roles. The full implementation is ~200 lines of runnable code.\n\nA mixture-of-experts architecture is no longer just a research curiosity — it powers production systems like Mixtral 8x7B, Google's Switch Transformer, and the routing layers in modern recommendation engines. Understanding how a router decides which expert handles which token, how to prevent any single expert from becoming a bottleneck, and how to train the system to balance load across experts is a deep, multi-disciplinary problem that sits at the intersection of machine learning, distributed systems, and software engineering.\n\nThis guide walks you through building a complete MoE router from scratch. You'll implement the gating mechanism, the capacity factor that enforces practical limits, and the auxiliary load balancing loss that keeps the system healthy during training. By the end, you'll have a project that reads as a genuine systems prototype, not a toy notebook.",
+      "tags": [
+        "machine-learning",
+        "systems-design",
+        "python",
+        "mixture-of-experts",
+        "career-growth",
+        "deep-learning"
+      ],
+      "scheduled_at": "2026-09-23T00:01:18Z",
+      "status": "pending"
     }
   ]
 }
