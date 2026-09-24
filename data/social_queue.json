@@ -25311,8 +25311,9 @@
         "Metadata"
       ],
       "scheduled_at": "2026-09-24T05:01:38Z",
-      "status": "posting",
-      "claimed_at": "2026-09-24T05:07:17Z"
+      "status": "posted",
+      "claimed_at": "2026-09-24T05:07:17Z",
+      "post_urn": "urn:li:share:7508755187717525505"
     }
   ]
 }
