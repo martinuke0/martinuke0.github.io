@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-24T03:01:23Z",
+  "last_scheduled_at": "2026-09-24T05:01:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -25298,6 +25298,20 @@
       "status": "posted",
       "claimed_at": "2026-09-24T03:07:05Z",
       "post_urn": "urn:li:share:7508724941391986689"
+    },
+    {
+      "title": "Title Uniqueness: How to Avoid Duplicate Headings in Hugo and Beyond",
+      "url": "https://martinuke0.github.io/posts/2026-09-24-title-uniqueness-how-to-avoid-duplicate-headings-in-hugo-and-beyond/",
+      "social_hook": "> TL;DR — Duplicate titles in Hugo can tank SEO and confuse readers. This post shows how to audit your content, enforce uniqueness with frontmatter validation, and automate checks in CI so every title is guaranteed distinct before it ships.\n\nIn a Hugo-powered blog, the title is more than a heading—it’s the primary signal for search engines, social cards, and the user’s decision to click. When two pages share the same title, search engines may treat them as duplicates, splitting ranking signals and diluting authority. Readers, too, struggle to distinguish between similar-sounding articles, which hurts engagement and trust. The good news: enforcing title uniqueness is a mechanical problem with well‑understood tooling. Below, we’ll walk through detection, enforcement, and integration strategies that work at any scale—from a solo blog to a multi‑author editorial pipeline.\n\nSearch engines use the `<title>` element (derived from your Hugo frontmatter) as a top‑rank signal. When two URLs present identical titles, Google’s crawler must choose which one to canonicalize, often picking the first indexed page. The result is that the newer, potentially better article never gets the visibility it deserves. From a user perspective, seeing the same headline in search results erodes click‑through rates because the snippet fails to differentiate the content.",
+      "tags": [
+        "Hugo",
+        "SEO",
+        "Content Strategy",
+        "Publishing",
+        "Metadata"
+      ],
+      "scheduled_at": "2026-09-24T05:01:38Z",
+      "status": "pending"
     }
   ]
 }
