@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-24T01:01:29Z",
+  "last_scheduled_at": "2026-09-24T03:01:23Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -25282,6 +25282,20 @@
       "status": "posted",
       "claimed_at": "2026-09-24T01:06:58Z",
       "post_urn": "urn:li:share:7508694708479496192"
+    },
+    {
+      "title": "Deep Dive into NVIDIA Triton Inference Server: Scaling Multi‑Model GPU Workloads",
+      "url": "https://martinuke0.github.io/posts/2026-09-24-deep-dive-into-nvidia-triton-inference-server-scaling-multimodel-gpu-workloads/",
+      "social_hook": "> TL;DR — NVIDIA Triton Inference Server transforms how enterprises deploy AI by enabling concurrent execution of multiple models on a single GPU. By leveraging dynamic batching and model ensembles, Triton maximizes hardware utilization and slashes inference latency, making it the gold standard for production-scale machine learning.\n\nIn the early days of machine learning operations, serving models was a fragmented affair. Data scientists would train a model, wrap it in a Flask or FastAPI application, and deploy it to an isolated virtual machine or container. This approach led to severe GPU fragmentation, where multiple underutilized GPUs sat idle while a single model consumed an entire node. As models grew in complexity and volume, the infrastructure cost became unsustainable.\n\nNVIDIA Triton Inference Server emerged to solve this orchestration crisis. Rather than forcing a one-model-per-container paradigm, Triton provides a centralized, high-performance server that can execute multiple models concurrently across shared GPU resources. It abstracts away the underlying hardware complexities, allowing teams to serve TensorFlow, PyTorch, ONNX, and TensorRT models through a unified API. For organizations running massive-scale inference—whether powering real-time recommendation engines or generative AI assistants—Triton is not just an optimization; it is an architectural necessity.",
+      "tags": [
+        "NVIDIA",
+        "Triton",
+        "GPU",
+        "MLOps",
+        "Inference"
+      ],
+      "scheduled_at": "2026-09-24T03:01:23Z",
+      "status": "pending"
     }
   ]
 }
