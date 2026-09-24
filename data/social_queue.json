@@ -25295,8 +25295,9 @@
         "Inference"
       ],
       "scheduled_at": "2026-09-24T03:01:23Z",
-      "status": "posting",
-      "claimed_at": "2026-09-24T03:07:05Z"
+      "status": "posted",
+      "claimed_at": "2026-09-24T03:07:05Z",
+      "post_urn": "urn:li:share:7508724941391986689"
     }
   ]
 }
