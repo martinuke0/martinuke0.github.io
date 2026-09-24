@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-23T19:02:28Z",
+  "last_scheduled_at": "2026-09-24T01:01:29Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -25265,6 +25265,21 @@
       "status": "posted",
       "claimed_at": "2026-09-23T19:08:06Z",
       "post_urn": "urn:li:share:7508604397338120192"
+    },
+    {
+      "title": "User Safety: Building Systems That Protect by Default",
+      "url": "https://martinuke0.github.io/posts/2026-09-24-user-safety-building-systems-that-protect-by-default/",
+      "social_hook": "> TL;DR — User safety in software engineering means designing systems that prevent harm before it reaches the end user. From safe defaults and guardrail middleware to content moderation pipelines and consent architectures, the best teams treat safety as a first-class engineering concern — not an afterthought bolted on post-incident.\n\nThe conversation around user safety has shifted dramatically over the past decade. What once lived exclusively in legal disclaimers and privacy policy pages now sits at the core of system architecture, product design, and engineering decisions. Whether you are building a social platform, a fintech application, or an AI-powered tool, the systems you ship have the potential to cause real harm — financial, psychological, or physical — to the people who use them.\n\nTreating user safety as an afterthought is no longer viable. Regulatory frameworks like the EU Digital Services Act, GDPR, and emerging AI governance legislation are raising the floor. But more importantly, user trust — the currency that sustains any digital product — erodes quickly when safety fails. This post examines how engineering teams operationalize user safety, moving from abstract principles to concrete patterns that ship in production.",
+      "tags": [
+        "user-safety",
+        "software-engineering",
+        "security",
+        "design-patterns",
+        "responsible-ai",
+        "production-systems"
+      ],
+      "scheduled_at": "2026-09-24T01:01:29Z",
+      "status": "pending"
     }
   ]
 }
