@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-24T05:01:38Z",
+  "last_scheduled_at": "2026-09-24T08:02:18Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -25314,6 +25314,21 @@
       "status": "posted",
       "claimed_at": "2026-09-24T05:07:17Z",
       "post_urn": "urn:li:share:7508755187717525505"
+    },
+    {
+      "title": "Implementing Sigstore: Modern Cryptographic Signing for Secure Software Supply Chains",
+      "url": "https://martinuke0.github.io/posts/2026-09-24-implementing-sigstore-modern-cryptographic-signing-for-secure-software-supply-ch/",
+      "social_hook": "> TL;DR — Sigstore eliminates the complexity of traditional cryptographic signing by providing free, short-lived certificates and an immutable transparency log. Implementing Cosign, Fulcio, and Rekor in your CI/CD pipeline takes under an hour and dramatically raises the bar against supply chain attacks like dependency confusion and tampering.\n\nSoftware supply chain attacks have surged in recent years. The SolarWinds breach, the xz-utils backdoor attempt, and countless dependency confusion incidents share a common root cause: unsigned or poorly signed artifacts that cannot be reliably attributed or verified. Sigstore addresses this by making cryptographic signing as frictionless as HTTPS.\n\nAt its core, Sigstore is not a single tool but an ecosystem. It provides a free certificate authority (Fulcio), an immutable transparency log (Rekor), and a client tool for signing and verifying artifacts (Cosign). Together, these components form a complete signing infrastructure that would traditionally cost organizations hundreds of thousands of dollars in PKI setup and maintenance.",
+      "tags": [
+        "sigstore",
+        "cryptographic-signing",
+        "software-supply-chain",
+        "security",
+        "devsecops",
+        "slsa"
+      ],
+      "scheduled_at": "2026-09-24T08:02:18Z",
+      "status": "pending"
     }
   ]
 }
