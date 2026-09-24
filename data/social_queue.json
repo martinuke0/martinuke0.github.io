@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-24T08:02:18Z",
+  "last_scheduled_at": "2026-09-24T16:07:28Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -25331,6 +25331,20 @@
       "status": "posted",
       "claimed_at": "2026-09-24T08:07:44Z",
       "post_urn": "urn:li:share:7508800595026333696"
+    },
+    {
+      "title": "Hands‑On Build Guide: Speculative Decoding Inference Engine in Python",
+      "url": "https://martinuke0.github.io/posts/2026-09-24-handson-build-guide-speculative-decoding-inference-engine-in-python/",
+      "social_hook": "> TL;DR — Speculative decoding pairs a lightweight draft model with a target LLM to double token throughput; this guide walks you through building a fully runnable pure‑Python engine, benchmarking it, and extending it for production use.\n\nThis post walks you through creating a speculative decoding inference engine from scratch using only Python and popular ML frameworks such as PyTorch and Hugging Face Transformers. You’ll end up with a working script that accelerates text generation, measures speed‑ups, and serves as a tangible portfolio piece that signals systems‑level competence to hiring managers.\n\nA speculative decoding implementation demonstrates several skills that hiring managers look for in ML‑focused engineering roles:",
+      "tags": [
+        "python",
+        "machine-learning",
+        "inference",
+        "speculative-decoding",
+        "cv"
+      ],
+      "scheduled_at": "2026-09-24T16:07:28Z",
+      "status": "pending"
     }
   ]
 }
