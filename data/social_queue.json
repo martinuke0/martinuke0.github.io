@@ -25328,8 +25328,9 @@
         "slsa"
       ],
       "scheduled_at": "2026-09-24T08:02:18Z",
-      "status": "posting",
-      "claimed_at": "2026-09-24T08:07:44Z"
+      "status": "posted",
+      "claimed_at": "2026-09-24T08:07:44Z",
+      "post_urn": "urn:li:share:7508800595026333696"
     }
   ]
 }
