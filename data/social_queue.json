@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-25T07:01:25Z",
+  "last_scheduled_at": "2026-09-25T08:01:42Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -25432,6 +25432,21 @@
       "status": "posted",
       "claimed_at": "2026-09-25T07:06:57Z",
       "post_urn": "urn:li:share:7509147685128417280"
+    },
+    {
+      "title": "Mastering the WiredTiger Storage Engine: Configuring Checkpoint Compression for High‑Throughput OLTP",
+      "url": "https://martinuke0.github.io/posts/2026-09-25-mastering-the-wiredtiger-storage-engine-configuring-checkpoint-compression-for-h/",
+      "social_hook": "> TL;DR — WiredTiger checkpoint compression can slash I/O and storage costs, but only when you match the algorithm and interval to your workload. This guide walks through the architecture, configuration knobs, and monitoring tricks needed to push OLTP throughput past 100k ops/sec without saturating CPU or disk.\n\nHigh‑throughput OLTP systems demand low‑latency, durable writes. In MongoDB, the WiredTiger storage engine handles persistence via periodic checkpoints that flush dirty pages to disk. By default, these checkpoints are written uncompressed, which can become a bottleneck as data volume grows. Enabling compression reduces the amount of data written, but introduces CPU overhead and changes the trade‑off between I/O bandwidth and processor cycles. Understanding this balance is the first step toward a performant, cost‑effective storage layer.\n\n- I/O bandwidth is often the limiting factor on spinning disks or network‑attached storage. Compressed checkpoints can cut write volume by 30–70 %, freeing bandwidth for other operations.",
+      "tags": [
+        "WiredTiger",
+        "MongoDB",
+        "Storage Engine",
+        "Checkpoint Compression",
+        "OLTP",
+        "Performance"
+      ],
+      "scheduled_at": "2026-09-25T08:01:42Z",
+      "status": "pending"
     }
   ]
 }
