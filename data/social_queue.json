@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-25T11:01:22Z",
+  "last_scheduled_at": "2026-09-25T14:02:51Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -25466,6 +25466,20 @@
       "status": "posted",
       "claimed_at": "2026-09-25T11:06:56Z",
       "post_urn": "urn:li:share:7509208077062283264"
+    },
+    {
+      "title": "Hands‑On: Building a Zero‑Dependency Pure‑Python GGUF Model Loader with Memory‑Mapped Tensor Access",
+      "url": "https://martinuke0.github.io/posts/2026-09-25-handson-building-a-zerodependency-purepython-gguf-model-loader-with-memorymapped/",
+      "social_hook": "> TL;DR — In this post we build a zero‑dependency pure‑Python GGUF model loader that memory‑maps tensors and converts dtypes on the fly, giving you a lightweight, inspectable CV side project that demonstrates real‑world systems skills such as binary‑format parsing, mmap, and numpy‑based inference.\n\nBuilding a portable model loader from scratch is one of the most effective ways to signal to hiring managers that you understand how data moves from disk to compute, how binary formats are parsed, and how to wrangle dtypes without pulling in heavy frameworks. The GGUF format (used by llama.cpp and many local LLMs) is compact, well‑documented, and deliberately designed for zero‑dependency access — making it an ideal centrepiece for a portfolio project.\n\nRecruiters scanning dozens of “AI side projects” often see wrappers around PyTorch or TensorFlow. A custom loader that does not import anything beyond the standard library (plus NumPy for dtype conversion) immediately differentiates you. The skill set it demonstrates maps directly to roles that need low‑latency inference, custom serving pipelines, or embedded ML:",
+      "tags": [
+        "python",
+        "gguf",
+        "ml",
+        "mmap",
+        "cv"
+      ],
+      "scheduled_at": "2026-09-25T14:02:51Z",
+      "status": "pending"
     }
   ]
 }
