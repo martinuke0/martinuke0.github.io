@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-25T08:01:42Z",
+  "last_scheduled_at": "2026-09-25T11:01:22Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -25449,6 +25449,21 @@
       "status": "posted",
       "claimed_at": "2026-09-25T08:07:19Z",
       "post_urn": "urn:li:share:7509162876226449408"
+    },
+    {
+      "title": "Build a LoRA Trainer in Pure NumPy: A Portfolio Project That Signals Systems Mastery",
+      "url": "https://martinuke0.github.io/posts/2026-09-25-build-a-lora-trainer-in-pure-numpy-a-portfolio-project-that-signals-systems-mast/",
+      "social_hook": "> TL;DR — Building a LoRA adapter trainer from scratch in pure NumPy forces you to internalize low-rank decomposition, gradient fusion, and inference-time adapter routing at a level that framework abstractions never will. This project demonstrates numerical computing fluency, systems-level ML understanding, and production-aware engineering — exactly the trifecta hiring managers look for in senior ML infrastructure roles.\n\nThe demand for engineers who understand both the math and the machinery behind modern efficient fine-tuning is exploding. LoRA (Low-Rank Adaptation) has become the de facto standard for parameter-efficient fine-tuning of large models, and understanding it at the implementation level — not just the API level — separates candidates who can ship systems from those who can only call `fit()`.\n\nThis guide walks you through building a complete LoRA adapter trainer with fused low-rank gradient computation and adapter-aware inference, entirely in NumPy. No PyTorch, no JAX, no transformers library. Just you and NumPy's `einsum`, `dot`, and a stubborn commitment to understanding every gradient.",
+      "tags": [
+        "machine-learning",
+        "numpy",
+        "lora",
+        "deep-learning",
+        "portfolio",
+        "systems-engineering"
+      ],
+      "scheduled_at": "2026-09-25T11:01:22Z",
+      "status": "pending"
     }
   ]
 }
