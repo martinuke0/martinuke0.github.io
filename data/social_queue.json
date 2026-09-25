@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-25T00:02:09Z",
+  "last_scheduled_at": "2026-09-25T01:05:09Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -25364,6 +25364,20 @@
       "status": "posted",
       "claimed_at": "2026-09-25T00:07:41Z",
       "post_urn": "urn:li:share:7509042176107126785"
+    },
+    {
+      "title": "Hands-On Build Guide: Byte-Level BPE Tokenizer from Scratch",
+      "url": "https://martinuke0.github.io/posts/2026-09-25-hands-on-build-guide-byte-level-bpe-tokenizer-from-scratch/",
+      "social_hook": "> TL;DR — In this post we build a complete byte‑level BPE tokenizer from scratch in Python, adding Unicode normalization, byte‑fallback merging, a cached merge table, and round‑trip validation. The resulting code is ~120 lines, runs in under a second on real text, and can be extended with persistence, streaming, and benchmarking – a tangible side project that demonstrates low‑level systems competence.\n\nBuilding a tokenizer from the ground up is one of the most effective side projects for an engineer looking to signal deep systems knowledge. Hiring managers see a working implementation that touches encoding, data structures, caching, and validation – all within a single, runnable package. Below is a complete, hands‑on guide you can follow today.\n\n- Low‑level competence – You control every byte, showing you understand how text is stored, transformed, and transmitted.",
+      "tags": [
+        "bpe",
+        "tokenizer",
+        "unicode",
+        "cv-side-project",
+        "python"
+      ],
+      "scheduled_at": "2026-09-25T01:05:09Z",
+      "status": "pending"
     }
   ]
 }
