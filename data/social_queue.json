@@ -25429,8 +25429,9 @@
         "Telemetry Pipelines"
       ],
       "scheduled_at": "2026-09-25T07:01:25Z",
-      "status": "posting",
-      "claimed_at": "2026-09-25T07:06:57Z"
+      "status": "posted",
+      "claimed_at": "2026-09-25T07:06:57Z",
+      "post_urn": "urn:li:share:7509147685128417280"
     }
   ]
 }
