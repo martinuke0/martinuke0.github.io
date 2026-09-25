@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-24T16:07:28Z",
+  "last_scheduled_at": "2026-09-25T00:02:09Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -25347,6 +25347,21 @@
       "status": "posted",
       "claimed_at": "2026-09-24T16:13:06Z",
       "post_urn": "urn:li:share:7508922742356946944"
+    },
+    {
+      "title": "Building a Distributed Rate Limiter: A Portfolio Project That Signals Systems Skill",
+      "url": "https://martinuke0.github.io/posts/2026-09-25-building-a-distributed-rate-limiter-a-portfolio-project-that-signals-systems-ski/",
+      "social_hook": "> TL;DR — A distributed rate limiter is a compact, high-impact portfolio project that proves you can design, implement, and operate a concurrent, fault‑tolerant service backed by Redis. It signals real systems skill to hiring managers and can be extended into production‑grade territory with horizontal scaling, observability, and benchmarking.\n\nMost engineers can write a CRUD app, but hiring managers for backend, SRE, or platform roles look for evidence that you understand how systems behave at scale: concurrency, shared state, failure modes, and performance trade‑offs. A distributed rate limiter touches all of those areas while remaining small enough to build in a weekend. In this guide you’ll build a runnable Go service that enforces per‑client limits using Redis as the source of truth, exposes a gRPC API, and ships with Docker‑Compose scaffolding so you can demo it locally in minutes.\n\n- Concurrency & parallelism – You’ll implement a token‑bucket algorithm that handles thousands of requests per second without blocking, using Go routines and channels.",
+      "tags": [
+        "Go",
+        "Redis",
+        "Distributed Systems",
+        "Rate Limiting",
+        "gRPC",
+        "Docker"
+      ],
+      "scheduled_at": "2026-09-25T00:02:09Z",
+      "status": "pending"
     }
   ]
 }
