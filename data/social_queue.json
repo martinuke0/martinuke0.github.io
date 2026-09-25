@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-25T01:05:09Z",
+  "last_scheduled_at": "2026-09-25T02:05:09Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -25380,6 +25380,22 @@
       "status": "posted",
       "claimed_at": "2026-09-25T01:10:38Z",
       "post_urn": "urn:li:share:7509058021130620928"
+    },
+    {
+      "title": "Build a GGUF Parser and mmap-Based Tensor Loader: A Portfolio Project That Signals Real Systems Skill",
+      "url": "https://martinuke0.github.io/posts/2026-09-25-build-a-gguf-parser-and-mmap-based-tensor-loader-a-portfolio-project-that-signal/",
+      "social_hook": "> TL;DR — Building a GGUF parser with memory-mapped tensor loading and quantized dequantization is one of the most signal-rich side projects an engineer can ship. It demonstrates mastery of binary formats, zero-copy I/O, numerical computing, and ML infrastructure — the exact intersection where senior systems engineers live. This guide walks you from scratch to a working implementation with real, runnable Go code.\n\nThe demand for engineers who understand both the machine-learning stack and the systems underneath it has never been higher. Most candidates can call `transformers.from_pretrained()`. Far fewer can explain what happens when a 4-bit quantized weight tensor is loaded from disk into GPU memory, byte by byte.\n\nA GGUF parser with mmap-based loading and safetensors conversion forces you to confront binary format specification, memory-mapped I/O, SIMD-friendly dequantization kernels, and tensor serialization — all in a single, coherent project. It is the kind of work that separates candidates who have used ML infrastructure from those who have built it.",
+      "tags": [
+        "machine-learning-engineering",
+        "systems-programming",
+        "go",
+        "llms",
+        "quantization",
+        "portfolio-project",
+        "safetensors"
+      ],
+      "scheduled_at": "2026-09-25T02:05:09Z",
+      "status": "pending"
     }
   ]
 }
