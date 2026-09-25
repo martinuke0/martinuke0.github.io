@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-25T02:05:09Z",
+  "last_scheduled_at": "2026-09-25T03:05:09Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -25398,6 +25398,21 @@
       "status": "posted",
       "claimed_at": "2026-09-25T02:06:28Z",
       "post_urn": "urn:li:share:7509072073487699968"
+    },
+    {
+      "title": "Build a LoRA Fine-Tuning Engine from Scratch in Pure NumPy",
+      "url": "https://martinuke0.github.io/posts/2026-09-25-build-a-lora-fine-tuning-engine-from-scratch-in-pure-numpy/",
+      "social_hook": "> TL;DR — Build a full LoRA (Low-Rank Adaptation) fine-tuning engine using nothing but NumPy. No PyTorch, no TensorFlow, no JAX. You'll implement low-rank matrix decomposition, the full forward and backward passes, and adapter weight updates from first principles. The result is a portfolio project that signals deep numerical-computing and systems-ML engineering skill to any hiring manager.\n\nMost ML engineers can call `model.fit()`. Very few can explain what happens inside the matrix multiply. This project sits squarely in the gap between those two populations, and that's exactly why it works on a résumé.\n\n- Numerical linear algebra fluency — You've manually constructed gradient computations for low-rank updates, not just consumed them from an autograd engine.",
+      "tags": [
+        "machine-learning",
+        "numpy",
+        "lora",
+        "deep-learning",
+        "systems-engineering",
+        "portfolio-project"
+      ],
+      "scheduled_at": "2026-09-25T03:05:09Z",
+      "status": "pending"
     }
   ]
 }
