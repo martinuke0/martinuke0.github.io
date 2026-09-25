@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-25T03:05:09Z",
+  "last_scheduled_at": "2026-09-25T07:01:25Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -25415,6 +25415,21 @@
       "status": "posted",
       "claimed_at": "2026-09-25T03:07:18Z",
       "post_urn": "urn:li:share:7509087374010658816"
+    },
+    {
+      "title": "Implementing OpenTelemetry Context Propagation Across Distributed Traces and Metrics Pipelines",
+      "url": "https://martinuke0.github.io/posts/2026-09-25-implementing-opentelemetry-context-propagation-across-distributed-traces-and-met/",
+      "social_hook": "> TL;DR — OpenTelemetry context propagation is the invisible plumbing that ties a request's identity across service boundaries, letting you reconstruct a distributed trace and correlate metrics to the same root cause. Understanding W3C trace context, baggage, and the multi-format landscape is no longer optional — it is the difference between debugging blind and pinpointing failures in seconds.\n\nIn a distributed system, a single user request might traverse an API gateway, three microservices, a message queue, and a database — each instrumented independently. Without context propagation, every span and metric record appears as an isolated island. You see latency spikes, error rates, and saturation signals, but you cannot connect them to the originating request.\n\nContext propagation solves this by carrying a trace context (trace ID, span ID, trace flags) and optional baggage (key-value pairs scoped to the trace) across process and network boundaries. OpenTelemetry provides the specification, the API, and the SDK implementations for several propagation formats, with W3C Trace Context and W3C Baggage now serving as the industry defaults.",
+      "tags": [
+        "OpenTelemetry",
+        "Distributed Tracing",
+        "Context Propagation",
+        "Observability",
+        "Metrics",
+        "Telemetry Pipelines"
+      ],
+      "scheduled_at": "2026-09-25T07:01:25Z",
+      "status": "pending"
     }
   ]
 }
