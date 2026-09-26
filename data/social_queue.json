@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-26T15:02:26Z",
+  "last_scheduled_at": "2026-09-26T16:03:59Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -25581,6 +25581,20 @@
       "status": "posted",
       "claimed_at": "2026-09-26T15:08:04Z",
       "post_urn": "urn:li:share:7509631149778874368"
+    },
+    {
+      "title": "User Safety in Production Software Systems",
+      "url": "https://martinuke0.github.io/posts/2026-09-26-user-safety-in-production-software-systems/",
+      "social_hook": "> TL;DR — User safety in production systems hinges on authentication, authorization, and session hardening. Poor credential handling, missing rate limits, and implicit trust in session tokens are the top three failure modes that lead to account takeover and data exposure. Every layer from client to database must assume partial compromise and design accordingly.\n\nUser safety isn't a feature you bolt on after the fact — it's a systemic property that emerges from how you design identity, access, and trust across your stack. In this post, we'll walk through the concrete patterns that protect real users in production, from the first login handshake to rate-limited API consumption. We'll look at failure modes that have cost companies millions, the architectural defenses that mitigate them, and the day-to-day operational habits that keep systems safe without slowing down engineers.\n\nAuthentication is the front door to your system. When done poorly, it becomes the shortest path for an attacker to escalate from \"nobody\" to \"administrator.\" The industry has largely converged on OAuth 2.0 + OpenID Connect (OIDC) as the standard delegate-auth pattern, but the devil is in the implementation details.",
+      "tags": [
+        "security",
+        "software engineering",
+        "authentication",
+        "authorization",
+        "system design"
+      ],
+      "scheduled_at": "2026-09-26T16:03:59Z",
+      "status": "pending"
     }
   ]
 }
