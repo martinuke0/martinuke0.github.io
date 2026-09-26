@@ -25626,7 +25626,8 @@
         "infrastructure"
       ],
       "scheduled_at": "2026-09-26T20:03:22Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-26T20:07:25Z"
     }
   ]
 }
