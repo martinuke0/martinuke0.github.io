@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-25T14:02:51Z",
+  "last_scheduled_at": "2026-09-26T07:02:37Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -25482,6 +25482,21 @@
       "status": "posted",
       "claimed_at": "2026-09-25T14:09:01Z",
       "post_urn": "urn:li:share:7509253903394443264"
+    },
+    {
+      "title": "Build a LoRA Adapter Trainer from Scratch: A Portfolio Project That Signals Real Systems Skill",
+      "url": "https://martinuke0.github.io/posts/2026-09-26-build-a-lora-adapter-trainer-from-scratch-a-portfolio-project-that-signals-real/",
+      "social_hook": "> TL;DR — Building a LoRA adapter trainer from scratch forces you to confront every subsystem that makes modern fine-tuning pipelines work: memory-efficient backward passes, low-rank parameterization, and weight merging. This project demonstrates systems-level thinking — not just ML theory — and is the kind of artifact hiring managers in MLOps and infrastructure roles actually notice.\n\nFine-tuning large language models is table stakes knowledge, but understanding how the machinery works under the hood is what separates engineers who configure pipelines from those who build them. A from-scratch LoRA (Low-Rank Adaptation) trainer — implemented in pure Python with gradient checkpointing and low-rank matrix fusion — is exactly the kind of project that proves you understand the full stack: linear algebra, autograd mechanics, memory optimization, and production-grade engineering patterns.\n\nThis guide walks you through building it. Every code snippet is real and runnable. By the end, you'll have a working trainer, a portfolio piece, and a concrete mental model of the systems that power modern LLM fine-tuning infrastructure like that used in platforms such as Hugging Face's `peft` library and Microsoft's DeepSpeed.",
+      "tags": [
+        "machine-learning",
+        "lora",
+        "gradient-checkpointing",
+        "python",
+        "portfolio-project",
+        "deep-learning-systems"
+      ],
+      "scheduled_at": "2026-09-26T07:02:37Z",
+      "status": "pending"
     }
   ]
 }
