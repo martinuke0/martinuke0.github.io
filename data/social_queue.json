@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-26T19:03:22Z",
+  "last_scheduled_at": "2026-09-26T20:03:22Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -25613,6 +25613,20 @@
       "status": "posted",
       "claimed_at": "2026-09-26T19:08:55Z",
       "post_urn": "urn:li:share:7509691759648641024"
+    },
+    {
+      "title": "Mastering Containerd: A Deep Dive into Modern Container Runtimes",
+      "url": "https://martinuke0.github.io/posts/2026-09-26-mastering-containerd-a-deep-dive-into-modern-container-runtimes/",
+      "social_hook": "> TL;DR — Containerd has emerged as the de facto standard for container runtimes in production environments. This deep dive explores its architecture, integration patterns with Kubernetes, and strategies for optimizing performance and security at scale.\n\nIn the rapidly evolving landscape of cloud-native infrastructure, the container runtime has become the silent workhorse powering our applications. While Docker originally popularized containers, the industry shifted toward a more modular, leaner approach, culminating in the widespread adoption of containerd. Understanding how to master Containerd is no longer optional for infrastructure engineers; it is a fundamental requirement for building resilient, high-performance systems. By stripping away the abstractions that once obscured the underlying mechanics, containerd provides a direct interface to the Linux kernel's capabilities, enabling unprecedented control over container lifecycle management.\n\nThe transition from Docker Engine to containerd was driven by a need for stability and a cleaner separation of concerns. Docker Engine was a monolithic application that handled image building, networking, and orchestration. Containerd, on the other hand, focuses strictly on the lifecycle of containers—pulling images, executing containers, and managing storage and networking. This singular focus makes it an ideal candidate for integration with orchestrators like Kubernetes, where the Kubelet relies on the Container Runtime Interface (CRI) to manage pods.",
+      "tags": [
+        "containerd",
+        "containers",
+        "kubernetes",
+        "runtime",
+        "infrastructure"
+      ],
+      "scheduled_at": "2026-09-26T20:03:22Z",
+      "status": "pending"
     }
   ]
 }
