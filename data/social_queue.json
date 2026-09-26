@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-26T16:03:59Z",
+  "last_scheduled_at": "2026-09-26T19:03:22Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -25597,6 +25597,20 @@
       "status": "posted",
       "claimed_at": "2026-09-26T16:09:34Z",
       "post_urn": "urn:li:share:7509646625158561792"
+    },
+    {
+      "title": "Building a GGUF Parser with Memory-Mapped Lazy Tensor Loading in Pure Python",
+      "url": "https://martinuke0.github.io/posts/2026-09-26-building-a-gguf-parser-with-memory-mapped-lazy-tensor-loading-in-pure-python/",
+      "social_hook": "> TL;DR — This project showcases low‑level file‑format parsing, memory‑mapped I/O, and on‑the‑fly quantized block decompression in pure Python, giving hiring managers a concrete signal of systems engineering depth. It combines reverse engineering, lazy loading, and performance awareness into a single, runnable codebase.\n\nGGUF is the binary container used by llama.cpp and a growing ecosystem of inference engines to ship model weights. Parsing it efficiently—especially when weights are stored as quantized blocks—requires a blend of format reverse engineering, OS‑level memory management, and algorithmic decompression. In this post you will build a pure‑Python GGUF parser that memory‑maps the file, lazily materializes tensors only when accessed, and decompresses quantized blocks on demand. The result is a small but demonstrably “systems‑flavored” side project that speaks directly to hiring managers looking for evidence of low‑level proficiency.\n\n- File‑format reverse engineering – You will read and interpret a binary spec, extracting magic numbers, version fields, and a tensor metadata table. This skill is prized in roles that ingest or export proprietary data formats.",
+      "tags": [
+        "python",
+        "gguf",
+        "memory-mapping",
+        "quantization",
+        "systems"
+      ],
+      "scheduled_at": "2026-09-26T19:03:22Z",
+      "status": "pending"
     }
   ]
 }
