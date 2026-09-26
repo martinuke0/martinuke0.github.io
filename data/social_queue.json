@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-26T20:03:22Z",
+  "last_scheduled_at": "2026-09-26T22:01:44Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -25629,6 +25629,22 @@
       "status": "posted",
       "claimed_at": "2026-09-26T20:07:25Z",
       "post_urn": "urn:li:share:7509706482268139520"
+    },
+    {
+      "title": "Designing Multi-Cluster Kubernetes Autoscaling with Custom Metrics: Real-Time Production Strategies",
+      "url": "https://martinuke0.github.io/posts/2026-09-26-designing-multi-cluster-kubernetes-autoscaling-with-custom-metrics-real-time-pro/",
+      "social_hook": "> TL;DR — Multi-cluster Kubernetes autoscaling with custom metrics requires stitching together a metrics pipeline (Prometheus → Metrics Adapter → HPA), choosing the right scaling engine (HPA, VPA, or KEDA), and designing failover strategies that prevent cascading failures across clusters. This post walks through the production architecture, configuration patterns, and the real-world pitfalls that turn autoscaling from a promise into a liability.\n\nMost teams start with the default Horizontal Pod Autoscaler (HPA) — CPU and memory thresholds — and call it a day. That works until your application's real bottleneck is something the resource metrics can't see: queue depth, request latency p99, concurrent WebSocket connections, or RabbitMQ queue saturation.\n\nWhen default metrics stop reflecting reality, you need custom metrics. And when a single cluster can't absorb traffic spikes, you need multiple clusters. The intersection of these two requirements — custom metrics and multi-cluster scaling — is where most production Kubernetes systems either shine or collapse under load.",
+      "tags": [
+        "Kubernetes",
+        "Autoscaling",
+        "Custom Metrics",
+        "Multi-Cluster",
+        "HPA",
+        "KEDA",
+        "Production Engineering"
+      ],
+      "scheduled_at": "2026-09-26T22:01:44Z",
+      "status": "pending"
     }
   ]
 }
