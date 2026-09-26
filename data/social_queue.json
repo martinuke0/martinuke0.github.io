@@ -25530,7 +25530,8 @@
         "llm-inference"
       ],
       "scheduled_at": "2026-09-26T10:01:55Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-26T10:06:22Z"
     }
   ]
 }
