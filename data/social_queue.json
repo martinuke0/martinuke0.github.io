@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-26T07:02:37Z",
+  "last_scheduled_at": "2026-09-26T08:02:37Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -25499,6 +25499,21 @@
       "status": "posted",
       "claimed_at": "2026-09-26T07:08:11Z",
       "post_urn": "urn:li:share:7509510381808193536"
+    },
+    {
+      "title": "Build an HNSW Vector Index from Scratch in Pure Python",
+      "url": "https://martinuke0.github.io/posts/2026-09-26-build-an-hnsw-vector-index-from-scratch-in-pure-python/",
+      "social_hook": "> TL;DR — HNSW (Hierarchical Navigable Small World) is the graph-based vector index behind billion-scale approximate nearest neighbor search at companies like Meta, Spotify, and Qdrant. In this guide you'll build a fully working pure-Python implementation from scratch — including multi-layer graph construction, greedy search, and insertion — then extend it toward production with persistence, benchmarking, and observability hooks.\n\nA working HNSW implementation signals a rare combination of skills that hiring managers in ML infrastructure and data systems actively look for:\n\n- Algorithms fluency. You understand graph traversal, probabilistic data structures, and the trade-off between recall and latency — not just \"I used scikit-learn's NearestNeighbors.\"",
+      "tags": [
+        "HNSW",
+        "Vector Index",
+        "Python",
+        "Machine Learning Infrastructure",
+        "Systems Engineering",
+        "Nearest Neighbor Search"
+      ],
+      "scheduled_at": "2026-09-26T08:02:37Z",
+      "status": "pending"
     }
   ]
 }
