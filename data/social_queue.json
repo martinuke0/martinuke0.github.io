@@ -25546,8 +25546,9 @@
         "editing"
       ],
       "scheduled_at": "2026-09-26T11:02:19Z",
-      "status": "posting",
-      "claimed_at": "2026-09-26T11:07:47Z"
+      "status": "posted",
+      "claimed_at": "2026-09-26T11:07:47Z",
+      "post_urn": "urn:li:share:7509570679051014144"
     }
   ]
 }
