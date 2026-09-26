@@ -25513,8 +25513,9 @@
         "Nearest Neighbor Search"
       ],
       "scheduled_at": "2026-09-26T08:02:37Z",
-      "status": "posting",
-      "claimed_at": "2026-09-26T08:08:07Z"
+      "status": "posted",
+      "claimed_at": "2026-09-26T08:08:07Z",
+      "post_urn": "urn:li:share:7509525465389404160"
     }
   ]
 }
