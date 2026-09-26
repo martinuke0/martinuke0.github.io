@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-26T12:03:19Z",
+  "last_scheduled_at": "2026-09-26T15:02:26Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -25565,6 +25565,20 @@
       "status": "posted",
       "claimed_at": "2026-09-26T12:08:57Z",
       "post_urn": "urn:li:share:7509586078434226179"
+    },
+    {
+      "title": "Implementing Byzantine Fault Tolerance with Tendermint Core",
+      "url": "https://martinuke0.github.io/posts/2026-09-26-implementing-byzantine-fault-tolerance-with-tendermint-core/",
+      "social_hook": "> TL;DR — Tendermint Core implements a practical Byzantine Fault Tolerance (BFT) consensus engine that tolerates up to one-third of malicious or faulty validators while guaranteeing safety and liveness. Understanding its round-based protocol, locking rules, and validator set mechanics is essential for anyone building or evaluating production blockchain networks.\n\nDistributed systems have always wrestled with a fundamental question: how do you reach agreement when some participants may behave arbitrarily? This is the Byzantine Generals Problem, and its practical resolution underpins every blockchain that has achieved real-world adoption. Tendermint Core offers one of the most production-hardened answers to this question, combining academic rigor with engineering pragmatism.\n\nIn this post, we will walk through the architecture, protocol mechanics, and operational realities of implementing Byzantine Fault Tolerance with Tendermint Core.",
+      "tags": [
+        "tendermint",
+        "byzantine-fault-tolerance",
+        "blockchain",
+        "consensus",
+        "distributed-systems"
+      ],
+      "scheduled_at": "2026-09-26T15:02:26Z",
+      "status": "pending"
     }
   ]
 }
