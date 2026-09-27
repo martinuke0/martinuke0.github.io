@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-26T22:01:44Z",
+  "last_scheduled_at": "2026-09-27T00:04:33Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -25647,6 +25647,20 @@
       "status": "posted",
       "claimed_at": "2026-09-26T22:07:23Z",
       "post_urn": "urn:li:share:7509736680338132992"
+    },
+    {
+      "title": "User Safety in Production Systems: Designing for Trust and Resilience",
+      "url": "https://martinuke0.github.io/posts/2026-09-27-user-safety-in-production-systems-designing-for-trust-and-resilience/",
+      "social_hook": "> TL;DR — User safety in production systems isn’t a feature you bolt on later; it’s a set of architectural patterns, data guarantees, and observability loops that prevent harm before it reaches the user. From idempotent request handling in Kafka to transactional integrity in Postgres and circuit-breaking in service meshes, safe-by-design systems protect users even when things go wrong.\n\nWhen users interact with modern software, they expect continuity, privacy, and correctness. Behind those expectations lies a complex chain of services, databases, queues, and caches. A single unsafe assumption—an unhandled exception leaking personal data, a non-idempotent retry causing double-charge, or a silent data corruption propagating through a pipeline—can erode trust in minutes. This article maps the concrete patterns and production-proven practices that engineering teams use to embed user safety at the system level. We’ll walk through architecture decisions, failure-mode mitigation, data-protection strategies, and observability workflows that together form a defense-in-depth approach to user safety.\n\nSafety begins before the first line of production code is written. A safety-by-design architecture treats user protection as a first-class concern, on par with performance or scalability. Key principles include:",
+      "tags": [
+        "security",
+        "distributed-systems",
+        "user-safety",
+        "postgres",
+        "kafka"
+      ],
+      "scheduled_at": "2026-09-27T00:04:33Z",
+      "status": "pending"
     }
   ]
 }
