@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-27T17:04:59Z",
+  "last_scheduled_at": "2026-09-27T21:01:52Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -25776,6 +25776,20 @@
       "status": "posted",
       "claimed_at": "2026-09-27T17:10:47Z",
       "post_urn": "urn:li:share:7510024426097311744"
+    },
+    {
+      "title": "Deep Dive into eBPF Program Verification in the Linux Kernel",
+      "url": "https://martinuke0.github.io/posts/2026-09-27-deep-dive-into-ebpf-program-verification-in-the-linux-kernel/",
+      "social_hook": "> TL;DR — The eBPF verifier is the unsung hero that makes it safe to run arbitrary bytecode inside the Linux kernel. By constructing a control-flow graph, enforcing a strict type system, and proving termination and memory safety, it allows eBPF programs to power production networking, security, and observability workloads without risking kernel stability.\n\nSince its inception as a bare-bones packet filtering mechanism in 2014, eBPF has evolved into one of the most powerful extensibility mechanisms in the Linux kernel. Today, it underpins Cilium's networking stack, Falco's runtime security monitoring, and Facebook's Katran load balancer. But what makes it possible to hand untrusted, user-space-compiled bytecode to the kernel without fear of panics, memory corruption, or infinite loops?\n\nThe answer is the eBPF program verifier — a static analysis engine baked into the kernel that every eBPF program must pass before it is ever executed. Understanding the verifier is essential for anyone building serious eBPF-based systems, because its decisions directly determine what your programs can and cannot do.",
+      "tags": [
+        "eBPF",
+        "Linux Kernel",
+        "Systems Programming",
+        "Security",
+        "Networking"
+      ],
+      "scheduled_at": "2026-09-27T21:01:52Z",
+      "status": "pending"
     }
   ]
 }
