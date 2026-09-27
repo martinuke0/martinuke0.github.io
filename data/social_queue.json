@@ -25741,8 +25741,9 @@
         "content-strategy"
       ],
       "scheduled_at": "2026-09-27T12:03:38Z",
-      "status": "posting",
-      "claimed_at": "2026-09-27T12:08:00Z"
+      "status": "posted",
+      "claimed_at": "2026-09-27T12:08:00Z",
+      "post_urn": "urn:li:share:7509948217497640960"
     }
   ]
 }
