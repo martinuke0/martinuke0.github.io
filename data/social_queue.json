@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-27T14:04:36Z",
+  "last_scheduled_at": "2026-09-27T17:04:59Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -25760,6 +25760,20 @@
       "status": "posted",
       "claimed_at": "2026-09-27T14:10:47Z",
       "post_urn": "urn:li:share:7509979124065800192"
+    },
+    {
+      "title": "Building a Sliding Window Attention Block from Scratch: A Portfolio Project for Systems Engineers",
+      "url": "https://martinuke0.github.io/posts/2026-09-27-building-a-sliding-window-attention-block-from-scratch-a-portfolio-project-for-s/",
+      "social_hook": "> TL;DR — This guide walks you through building a sliding‑window attention block from scratch in PyTorch, providing complete, runnable code that you can drop into any transformer model. It demonstrates algorithmic understanding, performance engineering, and production‑ready extensions, making it a strong signal for systems or ML engineering roles.\n\nIn the race to build ever‑larger transformer models, efficient attention mechanisms have become a core differentiator for engineering teams. A sliding‑window attention block reduces the quadratic complexity of standard self‑attention to linear in sequence length, enabling longer contexts without exploding memory footprints. By implementing this block yourself, you showcase not only algorithmic fluency but also the ability to profile, optimize, and productionize deep‑learning components—skills that hiring managers value highly.\n\n- Algorithmic depth – You understand the mathematics behind attention, can derive the windowing mask, and know when to apply it.",
+      "tags": [
+        "deep-learning",
+        "attention",
+        "systems",
+        "portfolio",
+        "pytorch"
+      ],
+      "scheduled_at": "2026-09-27T17:04:59Z",
+      "status": "pending"
     }
   ]
 }
