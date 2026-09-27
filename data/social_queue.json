@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-27T11:03:38Z",
+  "last_scheduled_at": "2026-09-27T12:03:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -25728,6 +25728,20 @@
       "status": "posted",
       "claimed_at": "2026-09-27T11:09:13Z",
       "post_urn": "urn:li:share:7509933431536050176"
+    },
+    {
+      "title": "Why I Need to Avoid Any of These Exact Phrases in My Writing",
+      "url": "https://martinuke0.github.io/posts/2026-09-27-why-i-need-to-avoid-any-of-these-exact-phrases-in-my-writing/",
+      "social_hook": "> TL;DR — Exact phrases and buzzwords erode authenticity, dilute SEO value, and make technical content feel templated. By recognizing these patterns early and substituting them with precise, audience‑focused language, you can produce writing that ranks, resonates, and drives action.\n\nIn the rush to publish, many writers default to the same handful of phrases that have been overused across blogs, documentation, and marketing copy. These exact expressions—think “game‑changer,” “thought leader,” “synergy,” or “leveraging our core competencies”—feel comfortable because they are familiar, but they often signal a lack of original thought. When I review my own drafts, I find that avoiding these exact phrases is one of the simplest yet most powerful ways to elevate the quality of my output.\n\nExact phrases are problematic for three interrelated reasons: they diminish authenticity, they hurt search engine visibility, and they create reader fatigue.",
+      "tags": [
+        "writing",
+        "seo",
+        "communication",
+        "professional-writing",
+        "content-strategy"
+      ],
+      "scheduled_at": "2026-09-27T12:03:38Z",
+      "status": "pending"
     }
   ]
 }
