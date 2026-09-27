@@ -25789,7 +25789,8 @@
         "Networking"
       ],
       "scheduled_at": "2026-09-27T21:01:52Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-27T21:07:24Z"
     }
   ]
 }
