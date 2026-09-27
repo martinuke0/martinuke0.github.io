@@ -25741,7 +25741,8 @@
         "content-strategy"
       ],
       "scheduled_at": "2026-09-27T12:03:38Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-27T12:08:00Z"
     }
   ]
 }
