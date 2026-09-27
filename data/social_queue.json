@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-27T04:08:58Z",
+  "last_scheduled_at": "2026-09-27T09:02:05Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -25695,6 +25695,21 @@
       "status": "posted",
       "claimed_at": "2026-09-27T04:14:46Z",
       "post_urn": "urn:li:share:7509829128876003328"
+    },
+    {
+      "title": "Building a Pure-Python Token Sampler: Temperature, Top-k, Top-p, and Min-p Decoding from Scratch",
+      "url": "https://martinuke0.github.io/posts/2026-09-27-building-a-pure-python-token-sampler-temperature-top-k-top-p-and-min-p-decoding/",
+      "social_hook": "> TL;DR — You will build a production-flavored token sampler in pure Python that implements temperature scaling, top-k filtering, top-p (nucleus) sampling, and min-p filtering entirely from scratch. The project demonstrates systems-level thinking about probabilistic inference and gives hiring managers a concrete artifact to evaluate your depth in LLM engineering.\n\nLLM inference is fundamentally a sampling problem. After a model produces a logits vector, how you convert those raw scores into a token ID defines everything about the generated experience. A model using greedy decoding produces sterile, repetitive text; the same model with aggressive temperature scaling can hallucinate wildly. Yet most tutorials stop at `torch.argmax` or hand you a black-box wrapper from Hugging Face without revealing what happens inside.\n\nThis guide walks you through building every decoding strategy from first principles — no framework dependencies beyond NumPy. The result is a single-file, well-tested Python module that you can point to in an interview and actually explain line by line.",
+      "tags": [
+        "machine-learning",
+        "python",
+        "nlp",
+        "llm-inference",
+        "sampling-strategies",
+        "side-project"
+      ],
+      "scheduled_at": "2026-09-27T09:02:05Z",
+      "status": "pending"
     }
   ]
 }
