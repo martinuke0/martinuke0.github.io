@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-27T12:03:38Z",
+  "last_scheduled_at": "2026-09-27T14:04:36Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -25744,6 +25744,20 @@
       "status": "posted",
       "claimed_at": "2026-09-27T12:08:00Z",
       "post_urn": "urn:li:share:7509948217497640960"
+    },
+    {
+      "title": "Node.js Event Loop: Architecture, Patterns, and Performance",
+      "url": "https://martinuke0.github.io/posts/2026-09-27-nodejs-event-loop-architecture-patterns-and-performance/",
+      "social_hook": "> TL;DR — The Node.js event loop is a single‑threaded, non‑blocking I/O system that interleaves JavaScript execution with OS‑level I/O callbacks. Understanding its phases and the distinction between microtasks and macrotasks is crucial for avoiding blocking the loop and achieving high throughput.\n\nIn the world of server‑side JavaScript, the event loop is the beating heart that makes non‑blocking I/O possible. Whether you are building a REST API, a real‑time WebSocket service, or a microservice that handles thousands of concurrent connections, the way the event loop schedules work determines latency, throughput, and resource utilization. This post unpacks the inner workings of the Node.js event loop, explores its architecture, and shares production‑proven patterns that keep services responsive under load.\n\nNode.js wraps the libuv library, which provides a portable abstraction for asynchronous I/O. The event loop itself is a single thread that repeatedly pulls tasks from several queues and executes them. The loop can be visualized as a series of phases, each with its own FIFO queue of callbacks.",
+      "tags": [
+        "Node.js",
+        "Event Loop",
+        "JavaScript",
+        "Asynchronous",
+        "Performance"
+      ],
+      "scheduled_at": "2026-09-27T14:04:36Z",
+      "status": "pending"
     }
   ]
 }
