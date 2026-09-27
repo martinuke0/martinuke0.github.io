@@ -25773,8 +25773,9 @@
         "pytorch"
       ],
       "scheduled_at": "2026-09-27T17:04:59Z",
-      "status": "posting",
-      "claimed_at": "2026-09-27T17:10:47Z"
+      "status": "posted",
+      "claimed_at": "2026-09-27T17:10:47Z",
+      "post_urn": "urn:li:share:7510024426097311744"
     }
   ]
 }
