@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-27T21:01:52Z",
+  "last_scheduled_at": "2026-09-27T22:01:52Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -25792,6 +25792,21 @@
       "status": "posted",
       "claimed_at": "2026-09-27T21:07:24Z",
       "post_urn": "urn:li:share:7510083968575123456"
+    },
+    {
+      "title": "Backpressure and Flow Control in Distributed Systems: Why Your Pipeline Is One Spike Away from Meltdown",
+      "url": "https://martinuke0.github.io/posts/2026-09-27-backpressure-and-flow-control-in-distributed-systems-why-your-pipeline-is-one-sp/",
+      "social_hook": "> TL;DR — Backpressure isn't an optional optimization; it's the mechanism that decides whether your pipeline gracefully degrades or cascades into a full-blown outage. Whether you're using Kafka consumers, reactive streams, or custom worker queues, understanding how to propagate pressure upstream is the difference between a system that survives traffic spikes and one that melts down at 2× normal load.\n\nMost distributed systems are designed for the happy path. Engineers provision capacity for average load, write idempotent consumers, and call it a day — until a traffic spike, a downstream latency increase, or a slow consumer turns the architecture into a domino chain of failures.\n\nThe pattern is disturbingly consistent. A downstream service slows from 50ms to 500ms. The upstream producer keeps pushing messages at the original rate. The message queue fills. Memory pressure mounts. Consumers crash. The queue overflows. Data is lost. The entire pipeline is now dark.",
+      "tags": [
+        "distributed-systems",
+        "backpressure",
+        "architecture",
+        "resilience",
+        "kafka",
+        "engineering"
+      ],
+      "scheduled_at": "2026-09-27T22:01:52Z",
+      "status": "pending"
     }
   ]
 }
