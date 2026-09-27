@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-27T02:03:31Z",
+  "last_scheduled_at": "2026-09-27T04:08:58Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -25679,6 +25679,20 @@
       "status": "posted",
       "claimed_at": "2026-09-27T02:09:21Z",
       "post_urn": "urn:li:share:7509797566205763584"
+    },
+    {
+      "title": "Hands-On Build Guide: PagedAttention KV Cache Manager with Block Allocation and Copy-on-Write in Pure Python",
+      "url": "https://martinuke0.github.io/posts/2026-09-27-hands-on-build-guide-pagedattention-kv-cache-manager-with-block-allocation-and-c/",
+      "social_hook": "> TL;DR — This guide walks you through building a pure‑Python paged‑attention KV cache manager with block allocation and copy‑on‑write. You’ll end up with runnable code, a small test suite, and a concrete project you can point to on your CV to demonstrate systems‑level engineering chops.\n\nBuilding a portfolio project that doubles as a mini‑systems prototype is one of the fastest ways to catch a hiring manager’s eye. In this post we’ll implement a paged‑attention KV cache manager from scratch, using only the Python standard library. The design mirrors the block‑based allocation and copy‑on‑write techniques used in production LLM serving frameworks, yet stays compact enough to finish in an afternoon.\n\nHiring managers for backend, infra, and AI‑focused roles look for candidates who can reason about memory layout, resource allocation, and concurrency—skills that are rarely exercised in typical feature‑addition tasks. This project signals several concrete abilities:",
+      "tags": [
+        "python",
+        "systems",
+        "llm",
+        "caching",
+        "portfolio"
+      ],
+      "scheduled_at": "2026-09-27T04:08:58Z",
+      "status": "pending"
     }
   ]
 }
