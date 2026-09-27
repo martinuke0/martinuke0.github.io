@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-27T00:04:33Z",
+  "last_scheduled_at": "2026-09-27T02:03:31Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -25663,6 +25663,20 @@
       "status": "posted",
       "claimed_at": "2026-09-27T00:10:08Z",
       "post_urn": "urn:li:share:7509767575120031745"
+    },
+    {
+      "title": "Build a Pure-Python GGUF/Safetensors Weight Loader",
+      "url": "https://martinuke0.github.io/posts/2026-09-27-build-a-pure-python-ggufsafetensors-weight-loader/",
+      "social_hook": "> TL;DR — This project demonstrates low‑level binary parsing, cryptographic verification, and memory‑efficient tensor mapping in pure Python, showcasing skills that map directly to ML infrastructure and systems engineering roles.\n\nA hiring manager scanning a résumé looks for evidence that you can ship reliable, performant code that interacts with real data formats. Building a pure‑Python loader for GGUF and Safetensors gives you a concrete artifact that proves you understand file layouts, checksums, lazy evaluation, and quantization—all while staying dependency‑light and easy to review. In the following sections you’ll see why this side project stands out, how it fits together, and exactly how to implement it from scratch.\n\n- Binary format expertise – Parsing GGUF and Safetensors headers shows you can work with the on‑disk representations that frameworks like llama.cpp and Hugging Face rely on.",
+      "tags": [
+        "python",
+        "gguf",
+        "safetensors",
+        "numpy",
+        "machine-learning"
+      ],
+      "scheduled_at": "2026-09-27T02:03:31Z",
+      "status": "pending"
     }
   ]
 }
