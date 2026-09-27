@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-27T09:02:05Z",
+  "last_scheduled_at": "2026-09-27T11:03:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -25712,6 +25712,20 @@
       "status": "posted",
       "claimed_at": "2026-09-27T09:07:44Z",
       "post_urn": "urn:li:share:7509902856540368896"
+    },
+    {
+      "title": "Hands‑on build of a pure‑Python BPE tokenizer with Huffman merge tree, live visualizer, and tiny LM demo—great for showcasing systems skills",
+      "url": "https://martinuke0.github.io/posts/2026-09-27-handson-build-of-a-purepython-bpe-tokenizer-with-huffman-merge-tree-live-visuali/",
+      "social_hook": "> TL;DR — This post walks you through building a pure‑Python BPE tokenizer that constructs a Huffman‑coded merge tree, includes a live visualizer, and ends with a minimal character‑level language model demo. By the end you’ll have a runnable project that demonstrates algorithmic depth, visualization, and model integration—exactly the kind of systems skill that catches a hiring manager’s eye.\n\nIn a market crowded with “toy” projects, you need something that shows you can ship real, working code, understand data structures, and connect them to a downstream model. A byte‑pair‑encoding (BPE) tokenizer built from scratch, paired with a Huffman‑coded merge tree and a live visualizer, does exactly that. It forces you to confront the same problems that production tokenizers face—vocabulary growth, merge ordering, and efficient encoding—while giving you a concrete artifact to discuss in interviews.\n\n- Algorithmic depth – You implement a Huffman tree over merge operations, proving you understand priority queues, tree construction, and entropy‑based encoding.",
+      "tags": [
+        "tokenization",
+        "python",
+        "machine-learning",
+        "side-project",
+        "systems"
+      ],
+      "scheduled_at": "2026-09-27T11:03:38Z",
+      "status": "pending"
     }
   ]
 }
