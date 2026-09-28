@@ -25873,7 +25873,8 @@
         "gRPC"
       ],
       "scheduled_at": "2026-09-28T12:02:24Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-28T12:08:06Z"
     }
   ]
 }
