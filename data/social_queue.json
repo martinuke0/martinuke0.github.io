@@ -25822,7 +25822,8 @@
         "production-engineering"
       ],
       "scheduled_at": "2026-09-28T00:06:11Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-28T00:11:51Z"
     }
   ]
 }
