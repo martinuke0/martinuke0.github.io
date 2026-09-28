@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-28T12:02:24Z",
+  "last_scheduled_at": "2026-09-28T17:05:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -25876,6 +25876,20 @@
       "status": "posted",
       "claimed_at": "2026-09-28T12:08:06Z",
       "post_urn": "urn:li:share:7510310640071344128"
+    },
+    {
+      "title": "Pure-Python Top-P Nucleus Sampler with Adaptive Temperature Scheduling",
+      "url": "https://martinuke0.github.io/posts/2026-09-28-pure-python-top-p-nucleus-sampler-with-adaptive-temperature-scheduling/",
+      "social_hook": "> TL;DR — This post walks you through building a pure-Python top-p nucleus sampler with adaptive temperature scheduling and token-probability debugging tools. You'll end up with a runnable, extensible codebase that demonstrates ML systems engineering skills hiring managers actually look for.\n\nBuilding a custom sampling engine from scratch might sound like theory, but it's one of the most effective ways to prove you understand how LLMs actually generate text. This guide takes you from a minimal working prototype to a production-flavored implementation with adaptive temperature control, probability visualization, and a clear roadmap to senior-level systems skills.\n\nHiring managers for ML infrastructure and backend engineering roles see dozens of \"clone a GPT\" repos. What sets this project apart is that you're not just consuming a pipeline — you're designing one from first principles. A pure-Python nucleus sampler signals several concrete competencies:",
+      "tags": [
+        "python",
+        "nlp",
+        "sampling",
+        "ai",
+        "portfolio"
+      ],
+      "scheduled_at": "2026-09-28T17:05:38Z",
+      "status": "pending"
     }
   ]
 }
