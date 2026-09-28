@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-27T22:01:52Z",
+  "last_scheduled_at": "2026-09-28T00:06:11Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -25809,6 +25809,20 @@
       "status": "posted",
       "claimed_at": "2026-09-27T22:04:46Z",
       "post_urn": "urn:li:share:7510098410033696768"
+    },
+    {
+      "title": "Eight Production Patterns for Distributed Tracing on Kubernetes",
+      "url": "https://martinuke0.github.io/posts/2026-09-28-eight-production-patterns-for-distributed-tracing-on-kubernetes/",
+      "social_hook": "> TL;DR — Distributed tracing without context propagation is blind. These eight patterns, from edge injection to span batching, give you real observability in Kubernetes microservice fleets, cutting mean-time-to-resolution from hours to minutes.\n\nIn a typical Kubernetes deployment, a single user request may fan out across a dozen services, each exposing its own API, queue, or database call. Without a coherent tracing strategy, debugging latency spikes feels like assembling a puzzle with half the pieces missing. This post walks through eight production-ready patterns for distributed tracing, anchored on OpenTelemetry and GCP Cloud Trace, that fit naturally into existing CI/CD and runtime pipelines. Each pattern is concrete, grounded in real deployment experience, and designed to scale beyond the hobbyist phase.\n\nThe goal is not to add another abstraction but to instrument what already runs in production, with minimal friction and maximal signal. If you operate services on Kubernetes, manage a fleet of Go, Python, or Node.js workloads, and want to move from \"something is slow\" to \"this specific RPC call is blocked on this database lock,\" the patterns below will get you there.",
+      "tags": [
+        "observability",
+        "kubernetes",
+        "opentelemetry",
+        "distributed-systems",
+        "production-engineering"
+      ],
+      "scheduled_at": "2026-09-28T00:06:11Z",
+      "status": "pending"
     }
   ]
 }
