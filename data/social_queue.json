@@ -25873,8 +25873,9 @@
         "gRPC"
       ],
       "scheduled_at": "2026-09-28T12:02:24Z",
-      "status": "posting",
-      "claimed_at": "2026-09-28T12:08:06Z"
+      "status": "posted",
+      "claimed_at": "2026-09-28T12:08:06Z",
+      "post_urn": "urn:li:share:7510310640071344128"
     }
   ]
 }
