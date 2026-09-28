@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-28T06:02:10Z",
+  "last_scheduled_at": "2026-09-28T12:02:24Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -25859,6 +25859,21 @@
       "status": "posted",
       "claimed_at": "2026-09-28T06:07:48Z",
       "post_urn": "urn:li:share:7510219962528129024"
+    },
+    {
+      "title": "Build a Distributed Rate Limiter: A CV-Worthy Side Project",
+      "url": "https://martinuke0.github.io/posts/2026-09-28-build-a-distributed-rate-limiter-a-cv-worthy-side-project/",
+      "social_hook": "> TL;DR — Build a distributed rate limiter in Go backed by Redis, exposing a gRPC API with Prometheus metrics. This project demonstrates distributed systems, fault tolerance, and observability — exactly what senior engineering roles look for.\n\nA single-line side project that packs a punch: a distributed rate limiter. It’s the kind of thing that shows up in production at every scale‑aware company, and building one from scratch forces you to confront concurrency, network partitions, and observability in a way a toy app never will. This guide walks you through a complete, runnable implementation you can drop into your portfolio and talk about in interviews with confidence.\n\nA distributed rate limiter signals a specific cluster of skills that hiring managers actively seek:",
+      "tags": [
+        "go",
+        "distributed-systems",
+        "rate-limiting",
+        "redis",
+        "golang",
+        "gRPC"
+      ],
+      "scheduled_at": "2026-09-28T12:02:24Z",
+      "status": "pending"
     }
   ]
 }
