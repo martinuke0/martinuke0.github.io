@@ -25856,7 +25856,8 @@
         "Storage Systems"
       ],
       "scheduled_at": "2026-09-28T06:02:10Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-28T06:07:48Z"
     }
   ]
 }
