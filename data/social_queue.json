@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-28T00:06:11Z",
+  "last_scheduled_at": "2026-09-28T02:02:30Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -25825,6 +25825,21 @@
       "status": "posted",
       "claimed_at": "2026-09-28T00:11:51Z",
       "post_urn": "urn:li:share:7510130408995553280"
+    },
+    {
+      "title": "Building a Production-Grade Sampling Engine in Pure Python",
+      "url": "https://martinuke0.github.io/posts/2026-09-28-building-a-production-grade-sampling-engine-in-pure-python/",
+      "social_hook": "> TL;DR — A pure-Python sampling engine implementing temperature, top-k, top-p, and nucleus (top-p) sampling with deterministic logits post-processing is one of the most signal-rich side projects an engineer can build. It demonstrates fluency in probability theory, numerical stability, and production-grade software design — all in a single, runnable codebase you can point to in interviews.\n\nThis guide walks you through building the entire thing from scratch. Every section contains real, runnable code — no pseudocode, no stubs. By the end, you'll have a project that signals deep ML-systems fluency to hiring managers and gives you a concrete artifact to discuss in technical interviews.\n\nMost portfolio projects are either too toy-like (a to-do app) or too opaque (a fine-tuned model you didn't build). A sampling engine sits in the rare middle ground: it's the exact piece of infrastructure that sits between a trained model and its output, and getting it right requires a blend of skills that hiring managers actively look for.",
+      "tags": [
+        "python",
+        "llm",
+        "sampling",
+        "nlp",
+        "systems-engineering",
+        "portfolio"
+      ],
+      "scheduled_at": "2026-09-28T02:02:30Z",
+      "status": "pending"
     }
   ]
 }
