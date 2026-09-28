@@ -25905,8 +25905,9 @@
         "backend"
       ],
       "scheduled_at": "2026-09-28T18:07:33Z",
-      "status": "posting",
-      "claimed_at": "2026-09-28T18:13:08Z"
+      "status": "posted",
+      "claimed_at": "2026-09-28T18:13:08Z",
+      "post_urn": "urn:li:share:7510402503939866624"
     }
   ]
 }
