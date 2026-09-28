@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-28T17:05:38Z",
+  "last_scheduled_at": "2026-09-28T18:07:33Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -25892,6 +25892,20 @@
       "status": "posted",
       "claimed_at": "2026-09-28T17:11:12Z",
       "post_urn": "urn:li:share:7510386912927481856"
+    },
+    {
+      "title": "User Safety: safe – A Hands-On Build Guide for a Portfolio CV Project",
+      "url": "https://martinuke0.github.io/posts/2026-09-28-user-safety-safe-a-hands-on-build-guide-for-a-portfolio-cv-project/",
+      "social_hook": "> TL;DR — This guide walks you through building a runnable user safety incident tracking system from scratch. You'll get a Go backend, Postgres schema, API endpoints, Docker local run, CI-friendly testing, and a roadmap to production-grade features like persistence, scaling, and observability — all concrete enough to ship and talk about in interviews.\n\nBuilding a portfolio project that actually demonstrates production-system thinking is one of the fastest ways to stand out to hiring managers. Generic \"To-Do list\" clones are forgettable; a system that involves API design, database modeling, containerization, testing, and a clear upgrade path to production features signals that you can ship real code, not just pseudocode. In this post we’ll build safe, a user safety incident tracking system that an engineer can run locally, extend, and point to in interviews as a fully considered, production‑flavored piece of work.\n\nRecruiters and engineering managers scan dozens of GitHub profiles. A project with a clear architecture, runnable code, and a documented roadmap gives them concrete hooks for interview questions: “Why did you choose Postgres?” “How would you scale this?” “Show me the test you’re most proud of.” safe answers all of those without hand-waving.",
+      "tags": [
+        "go",
+        "systems-design",
+        "portfolio",
+        "cv-project",
+        "backend"
+      ],
+      "scheduled_at": "2026-09-28T18:07:33Z",
+      "status": "pending"
     }
   ]
 }
