@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-28T02:02:30Z",
+  "last_scheduled_at": "2026-09-28T06:02:10Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -25842,6 +25842,21 @@
       "status": "posted",
       "claimed_at": "2026-09-28T02:08:02Z",
       "post_urn": "urn:li:share:7510159622553448448"
+    },
+    {
+      "title": "Implementing LSM-Trie Caching in RocksDB: A Deep Dive into Write-Optimized Key-Value Performance",
+      "url": "https://martinuke0.github.io/posts/2026-09-28-implementing-lsm-trie-caching-in-rocksdb-a-deep-dive-into-write-optimized-key-va/",
+      "social_hook": "> TL;DR — LSM-Trie caching in RocksDB exploits the log-structured merge-tree's inherent write-amplification trade-off by layering in-memory tries atop immutable memtables, dramatically reducing read amplification while preserving sequential write throughput. The technique is particularly effective for workloads dominated by small, random writes that would otherwise stall traditional B-tree indexes.\n\nRocksDB has become the de facto embedded storage engine for write-heavy workloads at scale. From Facebook's MyRocks to Pinterest's infrastructure, the engine powers systems that ingest millions of writes per second. At its core, RocksDB is an implementation of the Log-Structured Merge-Tree (LSM-Tree), a design that defers all writes to an in-memory buffer before flushing sorted runs to disk. But the raw LSM-Tree alone doesn't solve every performance problem — particularly the read amplification that comes with deeply layered storage. This is where LSM-Trie caching enters the picture.\n\nAn LSM-Trie combines the write-optimality of an LSM-Tree with the prefix-search efficiency of a trie (prefix tree). When implemented as a caching layer in RocksDB, it allows hot key prefixes to be served from memory while cold data cascades through compaction tiers. The result is a system that delivers near-append-write throughput with sub-millisecond reads for frequently accessed key ranges.",
+      "tags": [
+        "RocksDB",
+        "LSM-Tree",
+        "Caching",
+        "Key-Value Stores",
+        "Performance Engineering",
+        "Storage Systems"
+      ],
+      "scheduled_at": "2026-09-28T06:02:10Z",
+      "status": "pending"
     }
   ]
 }
