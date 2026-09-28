@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-28T18:07:33Z",
+  "last_scheduled_at": "2026-09-28T20:05:54Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -25908,6 +25908,20 @@
       "status": "posted",
       "claimed_at": "2026-09-28T18:13:08Z",
       "post_urn": "urn:li:share:7510402503939866624"
+    },
+    {
+      "title": "Hierarchical Navigable Small World Vector Index: A Hands‑On Portfolio Project",
+      "url": "https://martinuke0.github.io/posts/2026-09-28-hierarchical-navigable-small-world-vector-index-a-handson-portfolio-project/",
+      "social_hook": "> TL;DR — In this post we build a production‑grade HNSW vector index in pure Python, expose a tiny HTTP API, benchmark recall versus speed, and add persistence and simple observability. The result is a runnable, extensible project you can ship on GitHub to signal systems‑level engineering skill.\n\nBuilding a fast, memory‑efficient approximate nearest‑neighbor search system from the ground up is a rare hands‑on opportunity that combines graph algorithms, data‑structure design, and production engineering. In this article we walk through creating an HNSW (Hierarchical Navigable Small World) index using the popular `hnswlib` Python bindings, persisting it to disk, and serving queries over HTTP. By the end you’ll have a complete, testable codebase you can showcase on your CV, plus a clear roadmap for scaling it to production workloads.\n\n- Systems‑level design: You choose the L2 distance space, graph parameters (`M`, `ef_construction`), and memory layout – decisions that directly affect latency and recall in real services.",
+      "tags": [
+        "hnsw",
+        "vector-search",
+        "python",
+        "systems",
+        "cv-project"
+      ],
+      "scheduled_at": "2026-09-28T20:05:54Z",
+      "status": "pending"
     }
   ]
 }
