@@ -26002,8 +26002,9 @@
         "observability"
       ],
       "scheduled_at": "2026-09-29T22:05:58Z",
-      "status": "posting",
-      "claimed_at": "2026-09-29T22:11:33Z"
+      "status": "posted",
+      "claimed_at": "2026-09-29T22:11:33Z",
+      "post_urn": "urn:li:share:7510824886550900737"
     }
   ]
 }
