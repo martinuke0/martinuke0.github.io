@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-29T08:05:38Z",
+  "last_scheduled_at": "2026-09-29T12:04:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -25956,6 +25956,20 @@
       "status": "posted",
       "claimed_at": "2026-09-29T08:11:17Z",
       "post_urn": "urn:li:share:7510613433592217600"
+    },
+    {
+      "title": "Build a Unigram Language Model Tokenizer from Scratch in Pure Python",
+      "url": "https://martinuke0.github.io/posts/2026-09-29-build-a-unigram-language-model-tokenizer-from-scratch-in-pure-python/",
+      "social_hook": "> TL;DR — Implementing a unigram language model tokenizer with EM training and subword regularization in pure Python demonstrates deep algorithmic understanding and systems engineering ability. The code is fully runnable and can be extended to production‑grade NLP pipelines.\n\nTokenization is the first step in any modern NLP pipeline, yet many engineers never look under the hood of the subword algorithms that power models like BERT and T5. In this post we build a complete unigram language model tokenizer from scratch, training it with an expectation‑maximization (EM) algorithm and adding subword regularization to produce robust, reversible token sequences. The implementation is intentionally minimal—no external libraries beyond the Python standard library—so you can see every moving part and easily adapt it for your own projects.\n\n- Algorithmic depth – You will implement EM, subword regularization, and a probabilistic segmentation model, showing you can derive and code core NLP techniques rather than just call APIs.",
+      "tags": [
+        "nlp",
+        "tokenization",
+        "python",
+        "machine-learning",
+        "systems"
+      ],
+      "scheduled_at": "2026-09-29T12:04:53Z",
+      "status": "pending"
     }
   ]
 }
