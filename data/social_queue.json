@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-29T05:03:00Z",
+  "last_scheduled_at": "2026-09-29T08:05:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -25940,6 +25940,20 @@
       "status": "posted",
       "claimed_at": "2026-09-29T05:08:33Z",
       "post_urn": "urn:li:share:7510567445007581184"
+    },
+    {
+      "title": "Hands-On Int4 Quantization Portfolio: Build a GPTQ/AWQ-Powered LLM CV Project",
+      "url": "https://martinuke0.github.io/posts/2026-09-29-hands-on-int4-quantization-portfolio-build-a-gptqawq-powered-llm-cv-project/",
+      "social_hook": "> TL;DR — You’ll quantize a LLM to int4 using GPTQ and AWQ, package a minimal Python demo, and end up with a tangible CV piece that signals production‑grade quantization know‑how to hiring managers. The guide walks through installing dependencies, running the quantization scripts, and testing inference locally. By the end you have a runnable side project that demonstrates low‑latency inference, model‑size reduction, and real‑world engineering patterns.\n\nA short introduction: This post is a hands‑on build guide for a portfolio‑ready side project. You’ll take a small open‑source language model, quantize it to 4‑bit (int4) with the GPTQ and AWQ algorithms, and expose a simple CLI that runs inference. The result is a lightweight, fast model you can demo in interviews, point to on GitHub, and discuss the engineering trade‑offs you made along the way. It’s concrete, runnable, and directly showcases skills that hiring managers for ML‑focused engineering roles look for.\n\n- Model optimization skill – You prove you can reduce a 7 B parameter model to ~4 GB while preserving > 85 % of original accuracy, a concrete metric interviewers can quiz you on.",
+      "tags": [
+        "quantization",
+        "gptq",
+        "awq",
+        "cv",
+        "side-project"
+      ],
+      "scheduled_at": "2026-09-29T08:05:38Z",
+      "status": "pending"
     }
   ]
 }
