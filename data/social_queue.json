@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-29T13:04:53Z",
+  "last_scheduled_at": "2026-09-29T22:05:58Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -25989,6 +25989,20 @@
       "status": "posted",
       "claimed_at": "2026-09-29T13:08:39Z",
       "post_urn": "urn:li:share:7510688270406541313"
+    },
+    {
+      "title": "Hands‑On: Build a Distributed Rate‑Limiter Service in Go",
+      "url": "https://martinuke0.github.io/posts/2026-09-29-handson-build-a-distributed-ratelimiter-service-in-go/",
+      "social_hook": "> TL;DR — In this post you’ll build a Go rate‑limiter backed by Redis, containerize it with Docker Compose, and expose Prometheus metrics for observability. The result is a runnable, extensible service that demonstrates concurrency, caching, and production‑grade tooling — exactly the kind of project hiring managers look for.\n\nBuilding a rate‑limiter from scratch might sound like a textbook exercise, but when you package it with Docker, instrument it with Prometheus, and ship it as a portable service, you’ve got a concrete artifact that proves you can design for concurrency, manage external state, and expose telemetry—three things every senior engineer is expected to handle. In the following sections you’ll move from a minimal Go HTTP handler to a fully Docker‑composed system you can run, test, and extend on your laptop (and later in production).\n\nHiring managers scanning dozens of GitHub repos look for signals that you understand how systems interact, not just syntax. This project demonstrates:",
+      "tags": [
+        "go",
+        "redis",
+        "docker",
+        "rate-limiting",
+        "observability"
+      ],
+      "scheduled_at": "2026-09-29T22:05:58Z",
+      "status": "pending"
     }
   ]
 }
