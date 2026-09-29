@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-29T12:04:53Z",
+  "last_scheduled_at": "2026-09-29T13:04:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -25972,6 +25972,21 @@
       "status": "posted",
       "claimed_at": "2026-09-29T12:10:29Z",
       "post_urn": "urn:li:share:7510673626753437696"
+    },
+    {
+      "title": "Building a Memory-Efficient Attention with Kernel Decomposition: A Hands-On Linformer Project",
+      "url": "https://martinuke0.github.io/posts/2026-09-29-building-a-memory-efficient-attention-with-kernel-decomposition-a-hands-on-linfo/",
+      "social_hook": "> TL;DR — This project implements Linformer attention, a kernel decomposition that cuts memory from O(n²) to O(nk). You'll build a reusable PyTorch module, benchmark it against standard attention, and learn how to extend it with persistence, distributed training, and observability to signal senior-level systems skills.\n\nStandard scaled dot‑product attention is the engine behind modern transformers, but its O(n²) memory footprint makes it impractical for long sequences. The Linformer architecture arXiv:2006.04768 shows that the attention matrix can be decomposed into a low‑rank product, reducing complexity to O(nk) where k ≪ n. In this post you will build a clean, reusable Linformer module in PyTorch, verify it numerically, and then layer on production‑grade extensions that hiring managers look for.\n\n- Algorithmic depth – You are not just calling `nn.MultiheadAttention`; you are implementing the kernel decomposition that provably lowers memory complexity.",
+      "tags": [
+        "deep-learning",
+        "attention",
+        "linformer",
+        "memory-efficiency",
+        "pytorch",
+        "systems-engineering"
+      ],
+      "scheduled_at": "2026-09-29T13:04:53Z",
+      "status": "pending"
     }
   ]
 }
