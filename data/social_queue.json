@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-28T20:05:54Z",
+  "last_scheduled_at": "2026-09-29T05:03:00Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -25924,6 +25924,20 @@
       "status": "posted",
       "claimed_at": "2026-09-28T20:11:28Z",
       "post_urn": "urn:li:share:7510432280662802432"
+    },
+    {
+      "title": "Streaming KV Cache with Attention Sinks for Infinite Context in Pure Python",
+      "url": "https://martinuke0.github.io/posts/2026-09-29-streaming-kv-cache-with-attention-sinks-for-infinite-context-in-pure-python/",
+      "social_hook": "> TL;DR — This post walks you through building a streaming KV cache with attention sinks in pure Python, showing how to handle infinite context without reprocessing the whole prompt. You'll end up with a runnable module that caches key‑value states and prunes low‑importance tokens, cutting memory use while preserving generation quality. The project highlights systems engineering skills that hiring managers look for in LLM infrastructure roles.\n\nLarge language models (LLMs) are increasingly used for tasks that require understanding of entire books, codebases, or long conversations. Naïve implementations keep the entire key‑value (KV) state in memory, which grows linearly with the prompt length and quickly becomes a bottleneck. A streaming KV cache with attention sinks solves this by keeping only the most relevant tokens, allowing the model to process arbitrarily long inputs without O(n) memory blow‑up.\n\n- Low‑level memory management – you implement a custom cache that explicitly controls allocation, eviction, and reuse, demonstrating an understanding of how memory pressure affects inference latency.",
+      "tags": [
+        "llm",
+        "kv-cache",
+        "attention",
+        "python",
+        "systems"
+      ],
+      "scheduled_at": "2026-09-29T05:03:00Z",
+      "status": "pending"
     }
   ]
 }
