@@ -25937,8 +25937,9 @@
         "systems"
       ],
       "scheduled_at": "2026-09-29T05:03:00Z",
-      "status": "posting",
-      "claimed_at": "2026-09-29T05:08:33Z"
+      "status": "posted",
+      "claimed_at": "2026-09-29T05:08:33Z",
+      "post_urn": "urn:li:share:7510567445007581184"
     }
   ]
 }
