@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-30T17:06:03Z",
+  "last_scheduled_at": "2026-09-30T19:02:03Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -26070,6 +26070,21 @@
       "status": "posted",
       "claimed_at": "2026-09-30T17:12:46Z",
       "post_urn": "urn:li:share:7511112085016236032"
+    },
+    {
+      "title": "Inside Dragonfly: Building a Multi-Threaded Redis-Compatible Cache Engine",
+      "url": "https://martinuke0.github.io/posts/2026-09-30-inside-dragonfly-building-a-multi-threaded-redis-compatible-cache-engine/",
+      "social_hook": "> TL;DR — Dragonfly reimagines the Redis data store as a multi-threaded, shared-nothing engine that scales horizontally while preserving full Redis protocol compatibility, making it a drop-in replacement for workloads that outgrow single-threaded Redis.\n\nRedis revolutionized in-memory caching with its simplicity and speed, but its single-threaded event loop has become a bottleneck in an era of multi-core servers and microsecond latency budgets. Dragonfly, an open-source project backed by a team of systems engineers, set out to build a cache engine that keeps the Redis API intact while unlocking linear scalability across CPU cores. In this post, we’ll dissect how Dragonfly achieves this, from its thread-per-core architecture to its lock-free memory allocator, and why it matters for production systems.\n\nRedis’s signature simplicity comes from its single-threaded event loop: all commands execute sequentially on one CPU core, eliminating locks, race conditions, and the overhead of context switching. For years this was enough—until applications started pushing millions of operations per second on a single instance. Even Redis 6’s incremental multi-threading (which offloads network I/O to background threads) leaves command execution serialized, so CPU-bound workloads like large dataset scans or Lua scripting still hit a hard throughput wall.",
+      "tags": [
+        "Dragonfly",
+        "Redis",
+        "Caching",
+        "Performance",
+        "Multi-threading",
+        "Systems"
+      ],
+      "scheduled_at": "2026-09-30T19:02:03Z",
+      "status": "pending"
     }
   ]
 }
