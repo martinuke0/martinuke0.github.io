@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-29T22:05:58Z",
+  "last_scheduled_at": "2026-09-30T04:03:40Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -26005,6 +26005,21 @@
       "status": "posted",
       "claimed_at": "2026-09-29T22:11:33Z",
       "post_urn": "urn:li:share:7510824886550900737"
+    },
+    {
+      "title": "Building a GGUF Model Loader with Built-in Dequant: A Portfolio Project for Systems Engineers",
+      "url": "https://martinuke0.github.io/posts/2026-09-30-building-a-gguf-model-loader-with-built-in-dequant-a-portfolio-project-for-syste/",
+      "social_hook": "> TL;DR — This post walks you through building a GGUF model loader with built-in dequantization from scratch in Python, giving you a concrete portfolio project that signals real systems skill to hiring managers. You will parse the binary GGUF format, load quantized tensors, and dequantize them on the fly, producing a runnable tool that works with any GGUF file and can be extended into a production model server.\n\nMost machine-learning portfolio projects stop at calling an API. They show you can use a library, not that you understand what happens under the hood. If you want to stand out in a crowded job market—especially for roles at companies that ship large-scale inference infrastructure (OpenAI, Anthropic, vLLM, llama.cpp teams)—you need a project that demonstrates you can work with raw model formats, manage memory efficiently, and reason about quantization trade-offs.\n\nThis guide will build a GGUF model loader with built-in dequantization. GGUF is the binary format used by llama.cpp, the dominant open-source inference engine for quantized large language models. By the end, you will have a reusable Python module that reads any GGUF file, extracts its tensors, and dequantizes them to floating-point arrays ready for inference. The code is real, runnable, and ships with tests.",
+      "tags": [
+        "gguf",
+        "machine-learning",
+        "systems-programming",
+        "model-serving",
+        "python",
+        "quantization"
+      ],
+      "scheduled_at": "2026-09-30T04:03:40Z",
+      "status": "pending"
     }
   ]
 }
