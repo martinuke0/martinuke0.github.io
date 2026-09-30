@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-30T04:03:40Z",
+  "last_scheduled_at": "2026-09-30T05:04:55Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -26022,6 +26022,20 @@
       "status": "posted",
       "claimed_at": "2026-09-30T04:09:13Z",
       "post_urn": "urn:li:share:7510914902866231296"
+    },
+    {
+      "title": "Hands‑On Build Guide: Memory‑Mapped Safetensors Loader with Lazy Tensor Slicing",
+      "url": "https://martinuke0.github.io/posts/2026-09-30-handson-build-guide-memorymapped-safetensors-loader-with-lazy-tensor-slicing/",
+      "social_hook": "> TL;DR — In this post we build a lightweight Python loader that memory‑maps safetensors files, returns lazy NumPy views for any tensor slice, and avoids copying data, giving you a ready‑to‑show project that demonstrates mmap, lazy evaluation, and low‑overhead tensor handling — a strong signal for data‑engineer or ML infra roles.\n\nBuilding a portfolio project that doubles as a concrete systems demo is one of the fastest ways to catch a hiring manager’s eye. In this post we’ll construct a memory‑mapped safetensors loader that (a) maps the file into process memory with `mmap`, (b) returns lazy slice objects that defer tensor access until needed, and (c) exposes zero‑copy NumPy views of the underlying data. The entire implementation fits into a single Python module (~80 LOC), runs on any machine with Python 3.10+ and the `safetensors` package, and can be extended with caching, benchmarking, or even remote access patterns.\n\nBelow is a step‑by‑step guide you can follow from a fresh terminal to a working, testable artifact—complete with code snippets, architecture notes, and a roadmap for turning the toy into a production‑grade component.",
+      "tags": [
+        "python",
+        "numpy",
+        "safetensors",
+        "ml",
+        "performance"
+      ],
+      "scheduled_at": "2026-09-30T05:04:55Z",
+      "status": "pending"
     }
   ]
 }
