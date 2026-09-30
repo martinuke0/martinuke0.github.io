@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-30T05:04:55Z",
+  "last_scheduled_at": "2026-09-30T07:02:43Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -26038,6 +26038,20 @@
       "status": "posted",
       "claimed_at": "2026-09-30T05:10:30Z",
       "post_urn": "urn:li:share:7510930317365383169"
+    },
+    {
+      "title": "Building a GGUF Tensor Dequantizer and Lazy Loader",
+      "url": "https://martinuke0.github.io/posts/2026-09-30-building-a-gguf-tensor-dequantizer-and-lazy-loader/",
+      "social_hook": "> TL;DR — This project teaches you how to parse the GGUF format, dequantize quantized tensors on demand, and stream them from disk without ever loading the full model into RAM. It demonstrates low‑level file I/O, memory mapping, and quantization math that hiring managers recognize as real systems skill.\n\nIn an era where large language models are routinely distributed as multi‑gigabyte GGUF files, the ability to read and dequantize weights lazily is a valuable engineering competency. This guide walks you through building a small, dependency‑light Python library that can open a GGUF file, locate any tensor by name, and yield its dequantized values as a NumPy array—while keeping memory usage proportional to the tensor size, not the file size. You will end up with a reusable component that can be dropped into a custom inference engine, a model inspection tool, or a low‑memory serving pipeline.\n\n- Low‑level I/O mastery – you will use `mmap`, file seeking, and binary parsing to read a structured binary format without loading it wholly into memory.",
+      "tags": [
+        "gguf",
+        "quantization",
+        "systems",
+        "python",
+        "memory-efficiency"
+      ],
+      "scheduled_at": "2026-09-30T07:02:43Z",
+      "status": "pending"
     }
   ]
 }
