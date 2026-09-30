@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-30T19:02:03Z",
+  "last_scheduled_at": "2026-09-30T23:05:23Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -26087,6 +26087,20 @@
       "status": "posted",
       "claimed_at": "2026-09-30T19:07:46Z",
       "post_urn": "urn:li:share:7511141024841523200"
+    },
+    {
+      "title": "Ensuring User Safety in Distributed Systems: Patterns, Telemetry, and Production Guardrails",
+      "url": "https://martinuke0.github.io/posts/2026-09-30-ensuring-user-safety-in-distributed-systems-patterns-telemetry-and-production-gu/",
+      "social_hook": "> TL;DR — User safety in software isn’t a feature you bolt on later; it’s an architectural commitment. From input validation at the edge to graceful degradation in the data plane, safe-by-default designs protect users from data loss, privacy leaks, and service disruption. This post walks through concrete patterns, real system lessons, and actionable takeaways for engineering teams building resilient platforms.\n\nUser safety in modern software systems spans input integrity, privacy preservation, and fault isolation. When a platform processes millions of requests per second, a single unvalidated field or an unhandled exception can cascade into a privacy breach or extended outage. Engineering teams that treat safety as a first-class concern embed it into schemas, routing logic, and observability pipelines from day one. In this post, we’ll explore architecture patterns that ship with safety built-in, examine how leading platforms operationalize these patterns, and distill lessons from real production incidents.\n\nAt the boundary between untrusted clients and your service, input validation is the first line of defense. Malformed JSON, oversized payloads, and unexpected types are not merely bugs—they are attack vectors. Modern API gateways such as Cloudflare Workers or Kong can enforce schema constraints before requests ever reach your application logic, reducing the attack surface and preventing downstream crashes. Beyond the edge, application-level validation using libraries like Pydantic for Python or Zod for TypeScript provides structured, runtime-checked models that integrate directly with API documentation and database schemas.",
+      "tags": [
+        "user-safety",
+        "distributed-systems",
+        "security",
+        "observability",
+        "engineering"
+      ],
+      "scheduled_at": "2026-09-30T23:05:23Z",
+      "status": "pending"
     }
   ]
 }
