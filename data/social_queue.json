@@ -26100,8 +26100,9 @@
         "engineering"
       ],
       "scheduled_at": "2026-09-30T23:05:23Z",
-      "status": "posting",
-      "claimed_at": "2026-09-30T23:10:53Z"
+      "status": "posted",
+      "claimed_at": "2026-09-30T23:10:53Z",
+      "post_urn": "urn:li:share:7511202209796362241"
     }
   ]
 }
