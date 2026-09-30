@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-09-30T07:02:43Z",
+  "last_scheduled_at": "2026-09-30T17:06:03Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -26054,6 +26054,20 @@
       "status": "posted",
       "claimed_at": "2026-09-30T07:08:16Z",
       "post_urn": "urn:li:share:7510959954648981505"
+    },
+    {
+      "title": "From‑Scratch Mixture‑of‑Experts Routing Layer in Pure Python",
+      "url": "https://martinuke0.github.io/posts/2026-09-30-fromscratch-mixtureofexperts-routing-layer-in-pure-python/",
+      "social_hook": "> TL;DR — In this post we build a minimal yet functional mixture‑of‑experts (MoE) routing layer from scratch in pure Python, using top‑k gating and capacity‑scaling. The resulting code is runnable, testable, and easy to extend, making it a concrete signal of systems‑level ML engineering skill for any CV.\n\nBuilding a MoE layer from the ground up is a great way to demonstrate how discrete routing decisions, load‑balancing, and capacity constraints are implemented in production ML systems. The following guide walks you through the entire pipeline—from architecture theory to a working Python package you can ship today.\n\nA from‑scratch MoE implementation signals several competencies that hiring managers look for in ML engineering and backend roles:",
+      "tags": [
+        "python",
+        "mixture-of-experts",
+        "cv",
+        "side-project",
+        "routing"
+      ],
+      "scheduled_at": "2026-09-30T17:06:03Z",
+      "status": "pending"
     }
   ]
 }
