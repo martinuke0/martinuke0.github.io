@@ -26067,7 +26067,8 @@
         "routing"
       ],
       "scheduled_at": "2026-09-30T17:06:03Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-30T17:12:46Z"
     }
   ]
 }
