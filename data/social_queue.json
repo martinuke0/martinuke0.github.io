@@ -26067,8 +26067,9 @@
         "routing"
       ],
       "scheduled_at": "2026-09-30T17:06:03Z",
-      "status": "posting",
-      "claimed_at": "2026-09-30T17:12:46Z"
+      "status": "posted",
+      "claimed_at": "2026-09-30T17:12:46Z",
+      "post_urn": "urn:li:share:7511112085016236032"
     }
   ]
 }
