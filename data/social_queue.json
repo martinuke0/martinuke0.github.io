@@ -26019,7 +26019,8 @@
         "quantization"
       ],
       "scheduled_at": "2026-09-30T04:03:40Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-09-30T04:09:13Z"
     }
   ]
 }
