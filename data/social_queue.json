@@ -26165,8 +26165,9 @@
         "Interconnect"
       ],
       "scheduled_at": "2026-10-01T15:01:54Z",
-      "status": "posting",
-      "claimed_at": "2026-10-01T15:07:48Z"
+      "status": "posted",
+      "claimed_at": "2026-10-01T15:07:48Z",
+      "post_urn": "urn:li:share:7511443024460013568"
     }
   ]
 }
