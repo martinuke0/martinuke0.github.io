@@ -26148,7 +26148,8 @@
         "Apache Lucene"
       ],
       "scheduled_at": "2026-10-01T12:01:55Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-10-01T12:07:31Z"
     }
   ]
 }
