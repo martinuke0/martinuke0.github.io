@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-01T03:01:46Z",
+  "last_scheduled_at": "2026-10-01T05:03:17Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -26119,6 +26119,20 @@
       "status": "posted",
       "claimed_at": "2026-10-01T03:07:23Z",
       "post_urn": "urn:li:share:7511261729713209345"
+    },
+    {
+      "title": "Building a PagedAttention KV Cache Manager with Continuous Batching from Scratch",
+      "url": "https://martinuke0.github.io/posts/2026-10-01-building-a-pagedattention-kv-cache-manager-with-continuous-batching-from-scratch/",
+      "social_hook": "> TL;DR — This guide walks you through building a paged attention KV cache manager with continuous batching from scratch using Python. The resulting code demonstrates memory efficiency, concurrent request handling, and a clean architecture, all of which are highly relevant for systems engineering positions.\n\nLarge language model (LLM) serving is no longer a simple “load model → generate” loop. Production systems such as vLLM, TensorRT‑LLM, and DeepSpeed‑Inference must handle thousands of concurrent requests while keeping memory usage predictable. At the heart of these systems lies a KV cache—the stored key/value vectors for each token that allow the model to avoid recomputation. Naïvely allocating a fixed block of memory for every possible sequence leads to fragmentation and under‑utilization. The PagedAttention algorithm solves this by treating the KV cache as a pool of fixed‑size pages, similar to virtual memory in an OS. Combined with continuous batching, where new requests are inserted into the running batch as soon as they arrive, the system achieves high throughput and low latency.\n\nIn this post you will build a minimal but functional implementation of a PagedAttention KV cache manager with continuous batching. The code uses only the Python standard library, so you can run it on any laptop. Along the way you will demonstrate skills in memory management, concurrency, and performance‑oriented design—exactly the attributes hiring managers look for in senior systems roles.",
+      "tags": [
+        "llm",
+        "inference",
+        "kv-cache",
+        "continuous-batching",
+        "python"
+      ],
+      "scheduled_at": "2026-10-01T05:03:17Z",
+      "status": "pending"
     }
   ]
 }
