@@ -26215,7 +26215,8 @@
         "llm"
       ],
       "scheduled_at": "2026-10-01T22:02:44Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-10-01T22:08:49Z"
     }
   ]
 }
