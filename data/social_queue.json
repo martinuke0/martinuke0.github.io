@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-01T17:08:36Z",
+  "last_scheduled_at": "2026-10-01T20:04:57Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -26185,6 +26185,20 @@
       "status": "posted",
       "claimed_at": "2026-10-01T17:14:21Z",
       "post_urn": "urn:li:share:7511474868736155651"
+    },
+    {
+      "title": "Hands‑On MoE Router: Top‑k Gating and Load‑Balancing in Pure Python",
+      "url": "https://martinuke0.github.io/posts/2026-10-01-handson-moe-router-topk-gating-and-loadbalancing-in-pure-python/",
+      "social_hook": "> TL;DR — This post walks you through building a minimal Mixture‑of‑Experts router in pure Python, showing how top‑k gating routes tokens to experts and how a simple load‑balancing term keeps expert usage fair. By the end you’ll have runnable code you can drop on your CV and extend into a production‑grade system.\n\nMixture‑of‑Experts (MoE) models have become a go‑to pattern for scaling dense networks while keeping compute efficient. In this post you’ll implement the core routing logic from scratch, using only pure Python (numpy‑style) so there are no hidden frameworks. The code is deliberately simple so you can run it, experiment, and then layer on persistence, scaling, and observability.\n\nHiring managers for machine‑learning infrastructure, backend services, and systems‑level roles look for concrete evidence that you can bridge research prototypes and production‑grade systems. This project signals several key competencies:",
+      "tags": [
+        "python",
+        "machine-learning",
+        "moe",
+        "cv",
+        "side-project"
+      ],
+      "scheduled_at": "2026-10-01T20:04:57Z",
+      "status": "pending"
     }
   ]
 }
