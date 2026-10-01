@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-01T05:03:17Z",
+  "last_scheduled_at": "2026-10-01T12:01:55Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -26135,6 +26135,20 @@
       "status": "posted",
       "claimed_at": "2026-10-01T05:08:56Z",
       "post_urn": "urn:li:share:7511292310257852416"
+    },
+    {
+      "title": "Deep Dive into BM25+: Tuning Parameters for Large‑Scale Enterprise Search",
+      "url": "https://martinuke0.github.io/posts/2026-10-01-deep-dive-into-bm25-tuning-parameters-for-largescale-enterprise-search/",
+      "social_hook": "> TL;DR — BM25+ adds term frequency saturation and document length normalization to classic BM25, delivering higher relevance in large corpora. By systematically tuning k1, b, and saturation parameters, you can achieve 10‑20% recall improvements while keeping indexing costs predictable.\n\nEnterprise search has become a critical backbone for knowledge workers who need to locate the right information across millions of documents. While full‑text search engines like Elasticsearch, OpenSearch, and Solr provide out‑of‑the‑box scoring, the underlying ranking algorithm often defaults to the Okapi BM25 model. BM25+ is a well‑known extension that refines BM25’s term‑frequency saturation and document‑length normalization, but most teams treat it as a “set‑and‑forget” configuration. In practice, the subtle adjustments of a handful of parameters can swing recall by double‑digits and shave seconds off query latency.\n\nThis article takes you through a deep dive into BM25+, covering the mathematical foundations, the impact of each tunable parameter, and the concrete ways these knobs are exposed in popular search stacks (Apache Lucene, Elasticsearch, and OpenSearch). We also explore patterns in production—incremental re‑indexing, A/B testing, and monitoring—so you can move from a “tuned‑once” mindset to a continuous relevance engineering workflow. By the end, you’ll have a practical playbook for turning raw BM25+ formulas into measurable improvements for your enterprise search.",
+      "tags": [
+        "BM25",
+        "Search Relevance",
+        "Information Retrieval",
+        "Elasticsearch",
+        "Apache Lucene"
+      ],
+      "scheduled_at": "2026-10-01T12:01:55Z",
+      "status": "pending"
     }
   ]
 }
