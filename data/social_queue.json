@@ -26182,7 +26182,8 @@
         "systems"
       ],
       "scheduled_at": "2026-10-01T17:08:36Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-10-01T17:14:21Z"
     }
   ]
 }
