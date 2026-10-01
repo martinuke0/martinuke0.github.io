@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-01T12:01:55Z",
+  "last_scheduled_at": "2026-10-01T15:01:54Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -26151,6 +26151,21 @@
       "status": "posted",
       "claimed_at": "2026-10-01T12:07:31Z",
       "post_urn": "urn:li:share:7511397658326880257"
+    },
+    {
+      "title": "Deep Dive into NVIDIA NVLink: Designing High-Bandwidth GPU Topologies for Clusters",
+      "url": "https://martinuke0.github.io/posts/2026-10-01-deep-dive-into-nvidia-nvlink-designing-high-bandwidth-gpu-topologies-for-cluster/",
+      "social_hook": "> TL;DR — NVIDIA NVLink provides the high-bandwidth, low-latency interconnect that makes multi‑GPU clusters viable for AI training and HPC. By combining NVLink with NVSwitch, engineers can build topologies that scale from 2‑GPU pairs to thousands of GPUs while keeping effective bandwidth high. This post walks through the architecture, design patterns, and production considerations you need to know to plan a modern GPU cluster.\n\nIn the last five years, the demand for compute has shifted from single‑core CPU performance to massive parallelism across GPUs. Models like GPT‑4, Stable Diffusion, and scientific simulations require not just raw FLOPs, but a fabric that can move tensors between devices faster than the compute units can consume them. NVIDIA NVLink is the technology that makes this possible, and understanding its design is essential for anyone building or operating GPU clusters.\n\nNVLink is a point‑to‑point, high‑speed serial interconnect that directly connects NVIDIA GPUs without going through the PCIe bus. Each NVLink lane operates at 25 Gbps (Gen 3) or 50 Gbps (Gen 4), and a single link can aggregate multiple lanes. In the latest H100 GPUs, a single NVLink link provides up to 900 GB/s of bidirectional bandwidth—roughly 12 times the bandwidth of PCIe 5.0.",
+      "tags": [
+        "NVLink",
+        "GPU",
+        "High-Performance Computing",
+        "Cluster Computing",
+        "NVIDIA",
+        "Interconnect"
+      ],
+      "scheduled_at": "2026-10-01T15:01:54Z",
+      "status": "pending"
     }
   ]
 }
