@@ -26165,7 +26165,8 @@
         "Interconnect"
       ],
       "scheduled_at": "2026-10-01T15:01:54Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-10-01T15:07:48Z"
     }
   ]
 }
