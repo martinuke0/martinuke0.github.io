@@ -26116,8 +26116,9 @@
         "key-exchange"
       ],
       "scheduled_at": "2026-10-01T03:01:46Z",
-      "status": "posting",
-      "claimed_at": "2026-10-01T03:07:23Z"
+      "status": "posted",
+      "claimed_at": "2026-10-01T03:07:23Z",
+      "post_urn": "urn:li:share:7511261729713209345"
     }
   ]
 }
