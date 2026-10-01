@@ -26215,8 +26215,9 @@
         "llm"
       ],
       "scheduled_at": "2026-10-01T22:02:44Z",
-      "status": "posting",
-      "claimed_at": "2026-10-01T22:08:49Z"
+      "status": "posted",
+      "claimed_at": "2026-10-01T22:08:49Z",
+      "post_urn": "urn:li:share:7511548972029845506"
     }
   ]
 }
