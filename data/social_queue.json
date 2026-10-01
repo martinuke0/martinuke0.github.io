@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-01T20:04:57Z",
+  "last_scheduled_at": "2026-10-01T22:02:44Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -26201,6 +26201,21 @@
       "status": "posted",
       "claimed_at": "2026-10-01T20:10:43Z",
       "post_urn": "urn:li:share:7511519256761655296"
+    },
+    {
+      "title": "From Scratch: Building a Paged Attention KV Cache for Transformer Inference",
+      "url": "https://martinuke0.github.io/posts/2026-10-01-from-scratch-building-a-paged-attention-kv-cache-for-transformer-inference/",
+      "social_hook": "> TL;DR — You will build a paged attention KV cache from scratch in pure Python, with real, runnable code that demonstrates memory management, algorithm design, and transformer internals. This project signals systems engineering depth to hiring managers and can be extended into a production-grade inference engine.\n\nMost transformer inference engines hide the KV cache behind abstractions, but the leap from \"it works\" to \"it scales\" lives in how you manage that cache. By implementing paged attention—a technique that eliminates fragmentation and wasted memory—you show you understand both the algorithm and the systems underneath. This guide walks you through a complete, buildable implementation, then maps out a roadmap to turn it into a senior-level portfolio piece.\n\nA paged attention KV cache is a rare project that exercises multiple skills hiring managers value:",
+      "tags": [
+        "transformers",
+        "inference",
+        "systems",
+        "python",
+        "kv-cache",
+        "llm"
+      ],
+      "scheduled_at": "2026-10-01T22:02:44Z",
+      "status": "pending"
     }
   ]
 }
