@@ -26231,8 +26231,9 @@
         "safetensors"
       ],
       "scheduled_at": "2026-10-02T01:04:35Z",
-      "status": "posting",
-      "claimed_at": "2026-10-02T01:10:14Z"
+      "status": "posted",
+      "claimed_at": "2026-10-02T01:10:14Z",
+      "post_urn": "urn:li:share:7511594633689214976"
     }
   ]
 }
