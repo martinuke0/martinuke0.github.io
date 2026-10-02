@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-02T16:02:28Z",
+  "last_scheduled_at": "2026-10-02T18:03:36Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -26266,6 +26266,20 @@
       "status": "posted",
       "claimed_at": "2026-10-02T16:08:05Z",
       "post_urn": "urn:li:share:7511820578945814528"
+    },
+    {
+      "title": "Inside LLVM's New Pass Manager: A Deep Dive into Its Architecture",
+      "url": "https://martinuke0.github.io/posts/2026-10-02-inside-llvm/",
+      "social_hook": "> TL;DR — LLVM's new pass manager replaces the legacy global manager with a modular, dependency-aware architecture that enables finer-grained optimization pipelines, better cost modeling, and seamless interoperability with modern tooling like MLIR. Its design centers on per-function pass sequences, explicit dependency tracking, and a cost-model-driven execution order that reduces redundant IR passes and improves compilation throughput.\n\nThe pass manager is the orchestration layer that decides when and in what order LLVM applies optimization transformations to the intermediate representation. Since LLVM 11, the project has been gradually transitioning from the legacy pass manager to a new design that addresses scalability bottlenecks, supports incremental compilation, and provides a cleaner API for pass authors. This article dives into the new pass manager's core architecture, the design patterns it leverages, and what it means for engineers building or extending compiler pipelines today.\n\nThe legacy pass manager, which shipped with LLVM's initial releases, relied on a globally registered list of passes. Pass authors would `registerPass()` their transformation, and the builder would stitch them together into a `PassManager` based on command-line flags `-passes` or optimization level `-O0` through `-O3`. While functional for many years, this design hit several walls as compiler workloads grew:",
+      "tags": [
+        "llvm",
+        "compilers",
+        "pass-manager",
+        "optimization",
+        "compiler-architecture"
+      ],
+      "scheduled_at": "2026-10-02T18:03:36Z",
+      "status": "pending"
     }
   ]
 }
