@@ -26231,7 +26231,8 @@
         "safetensors"
       ],
       "scheduled_at": "2026-10-02T01:04:35Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-10-02T01:10:14Z"
     }
   ]
 }
