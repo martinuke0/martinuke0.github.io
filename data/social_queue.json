@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-02T09:04:43Z",
+  "last_scheduled_at": "2026-10-02T16:02:28Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -26250,6 +26250,20 @@
       "status": "posted",
       "claimed_at": "2026-10-02T09:10:16Z",
       "post_urn": "urn:li:share:7511715432672858112"
+    },
+    {
+      "title": "Inside eBPF: Tracing Kernel Events with Minimal Overhead",
+      "url": "https://martinuke0.github.io/posts/2026-10-02-inside-ebpf-tracing-kernel-events-with-minimal-overhead/",
+      "social_hook": "> TL;DR — eBPF lets you run tiny, kernel-verified programs at hundreds of hook points — syscalls, scheduler events, network packets — with single-digit microsecond overhead and no kernel recompilation, turning the kernel into an instrumented observability layer that ships in tools like Falco, Pixie, and Cilium.\n\nFor years, if you wanted to know exactly what the Linux kernel was doing on a production box — which syscall a process hung in, how many page faults a workload triggered, when a TCP retransmit fired — you had two unappealing choices. You could patch the kernel, add `printk`s, recompile, and reboot, which is fine for a lab and toxic in production. Or you could reach for `strace`, `perf`, or `ftrace`, each of which works but carries a cost that scales badly: context-switch-heavy tracing, huge per-event overhead, or output formats that need post-processing before they're useful.\n\neBPF (extended Berkeley Packet Filter) changes the math. It is a miniature bytecode language and a safe execution engine built into the kernel that lets you attach small, just-in-time-compiled programs to real kernel events — tracepoints, kprobes, kretprobes, uprobes, XDP hooks, cgroup controllers — and stream the results out to userspace through high-throughput ring buffers. The programs are verified for safety before they run, so you can't crash the kernel, and the JIT compiler turns the bytecode into native instructions that execute at near-zero overhead.",
+      "tags": [
+        "eBPF",
+        "Linux Kernel",
+        "Observability",
+        "Performance",
+        "Tracing"
+      ],
+      "scheduled_at": "2026-10-02T16:02:28Z",
+      "status": "pending"
     }
   ]
 }
