@@ -26279,7 +26279,8 @@
         "compiler-architecture"
       ],
       "scheduled_at": "2026-10-02T18:03:36Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-10-02T18:09:15Z"
     }
   ]
 }
