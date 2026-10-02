@@ -26279,8 +26279,9 @@
         "compiler-architecture"
       ],
       "scheduled_at": "2026-10-02T18:03:36Z",
-      "status": "posting",
-      "claimed_at": "2026-10-02T18:09:15Z"
+      "status": "posted",
+      "claimed_at": "2026-10-02T18:09:15Z",
+      "post_urn": "urn:li:share:7511851081916903424"
     }
   ]
 }
