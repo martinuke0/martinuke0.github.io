@@ -26263,7 +26263,8 @@
         "Tracing"
       ],
       "scheduled_at": "2026-10-02T16:02:28Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-10-02T16:08:05Z"
     }
   ]
 }
