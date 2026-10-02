@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-02T01:04:35Z",
+  "last_scheduled_at": "2026-10-02T09:04:43Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -26234,6 +26234,20 @@
       "status": "posted",
       "claimed_at": "2026-10-02T01:10:14Z",
       "post_urn": "urn:li:share:7511594633689214976"
+    },
+    {
+      "title": "Hands‑On LoRA/PEFT Portfolio Project: From Scratch to Production‑Ready Fine‑Tuning",
+      "url": "https://martinuke0.github.io/posts/2026-10-02-handson-lorapeft-portfolio-project-from-scratch-to-productionready-finetuning/",
+      "social_hook": "> TL;DR — LoRA/PEFT lets you fine‑tune large models with a handful of parameters, and building a minimal, testable project from scratch demonstrates you can reduce compute, manage versioned adapters, and ship production‑ready inference pipelines. You’ll walk away with a reproducible notebook, a CI‑ready test suite, and a clear roadmap to scale the setup for real‑world workloads.\n\nIn this post we’ll build a complete, from‑scratch LoRA/PEFT portfolio project that you can clone, run, and extend. The goal is to produce a reusable codebase that showcases your ability to work with parameter‑efficient fine‑tuning, write production‑grade tests, and iterate on a real AI/ML pipeline—exactly the kind of hands‑on work hiring managers look for.\n\nA LoRA/PEFT portfolio project signals several high‑value skills that hiring managers for ML‑focused roles scan for:",
+      "tags": [
+        "python",
+        "pytorch",
+        "lora",
+        "peft",
+        "cv"
+      ],
+      "scheduled_at": "2026-10-02T09:04:43Z",
+      "status": "pending"
     }
   ]
 }
