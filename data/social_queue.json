@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-01T22:02:44Z",
+  "last_scheduled_at": "2026-10-02T01:04:35Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -26218,6 +26218,20 @@
       "status": "posted",
       "claimed_at": "2026-10-01T22:08:49Z",
       "post_urn": "urn:li:share:7511548972029845506"
+    },
+    {
+      "title": "From‑Scratch Safetensors & GGUF Weight Loader with mmap‑Backed Zero‑Copy Views",
+      "url": "https://martinuke0.github.io/posts/2026-10-02-fromscratch-safetensors-gguf-weight-loader-with-mmapbacked-zerocopy-views/",
+      "social_hook": "> TL;DR — We'll build a minimal Python package that memory‑maps safetensors and GGUF weight files, decodes dtypes and quantization parameters, and validates tensor shapes, all with zero‑copy views. The result is a reusable loader you can drop into any ML pipeline, and the code demonstrates mmap, struct parsing, and production‑grade error handling — exactly the kind of systems skill hiring managers look for.\n\nA lightweight yet fully functional weight‑loading library is a rare CV entry that simultaneously shows you can read binary formats, manage memory efficiently, and ship production‑ready code. Hiring managers for ML‑focused engineering roles (inference serving, tooling, data‑platform) prize candidates who can reduce latency, avoid unnecessary copies, and debug format‑level issues. This project ticks those boxes: it hands‑on experience with `mmap`, binary‑struct decoding, quantization scheme handling, and defensive shape validation—all in a single, importable module.\n\n- Low‑level systems fluency – You’ll work directly with OS‑level memory mapping (`mmap`), binary struct parsing (`struct`, `ctypes`), and avoid Python‑level loops over massive tensors.",
+      "tags": [
+        "python",
+        "ml",
+        "mmap",
+        "gguf",
+        "safetensors"
+      ],
+      "scheduled_at": "2026-10-02T01:04:35Z",
+      "status": "pending"
     }
   ]
 }
