@@ -26344,8 +26344,9 @@
         "attention-pruning"
       ],
       "scheduled_at": "2026-10-03T22:04:16Z",
-      "status": "posting",
-      "claimed_at": "2026-10-03T22:09:49Z"
+      "status": "posted",
+      "claimed_at": "2026-10-03T22:09:49Z",
+      "post_urn": "urn:li:share:7512273998647496704"
     }
   ]
 }
