@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-03T02:02:24Z",
+  "last_scheduled_at": "2026-10-03T08:04:20Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -26298,6 +26298,20 @@
       "status": "posted",
       "claimed_at": "2026-10-03T02:07:50Z",
       "post_urn": "urn:li:share:7511971515102486528"
+    },
+    {
+      "title": "Build a Distributed Data-Parallel Bucketed Gradient Synchronizer from Scratch",
+      "url": "https://martinuke0.github.io/posts/2026-10-03-build-a-distributed-data-parallel-bucketed-gradient-synchronizer-from-scratch/",
+      "social_hook": "> TL;DR — In this post we build a from‑scratch bucketed gradient synchronizer that groups per‑parameter gradients into buckets, overlaps compute and communication, and runs on multiple processes with pure Python. The result is a lightweight, runnable DDP primitive you can drop into any ML pipeline, plus concrete extensions that map directly to production‑grade frameworks like PyTorch Distributed and Ray.\n\nBuilding a portfolio project that demonstrates genuine systems skill is about more than just “it works.” Hiring managers look for evidence that you understand how data moves between processes, how to reduce communication overhead, and how to design extensions that map to real frameworks. A bucketed gradient synchronizer ticks those boxes: it’s a minimal, runnable DDP primitive, yet each extension (persistence, scaling, observability) mirrors the knobs you’d turn in production ML pipelines.\n\n- Distributed‑programming fundamentals – You show you can spawn processes, manage ranks, and orchestrate barrier‑style synchronization without a high‑level framework.",
+      "tags": [
+        "python",
+        "distributed-systems",
+        "machine-learning",
+        "cv-portfolio",
+        "gradient-synchronization"
+      ],
+      "scheduled_at": "2026-10-03T08:04:20Z",
+      "status": "pending"
     }
   ]
 }
