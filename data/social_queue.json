@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-03T08:04:20Z",
+  "last_scheduled_at": "2026-10-03T19:07:03Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -26314,6 +26314,20 @@
       "status": "posted",
       "claimed_at": "2026-10-03T08:09:55Z",
       "post_urn": "urn:li:share:7512062632296751104"
+    },
+    {
+      "title": "Hands-On Build Guide: Paged Attention KV Cache Manager with Block Allocation and Prefix Caching in Python",
+      "url": "https://martinuke0.github.io/posts/2026-10-03-hands-on-build-guide-paged-attention-kv-cache-manager-with-block-allocation-and/",
+      "social_hook": "> TL;DR — In this post we build a pure‑Python paged attention KV cache manager that allocates fixed‑size blocks, groups them into pages, and shares prefix blocks across requests. The result is a lightweight, runnable model‑serving cache that demonstrates block allocation, LRU eviction, and prefix caching — skills that catch the eye of AI‑infra and backend engineers.\n\nImplementing a paged attention cache from scratch may sound academic, but the pattern is exactly what production LLM servers (vLLM, TGI) use to keep latency low and throughput high. By writing the manager in pure Python you get full visibility into every allocation decision, can profile bottlenecks, and extend the logic without leaving the language.\n\nA paged‑attention KV‑cache manager is not a “toy” — it mirrors the core data structure that large‑scale serving systems use to keep token‑level latency sub‑millisecond while sustaining thousands of requests per second. Building it in pure Python signals several concrete competencies:",
+      "tags": [
+        "python",
+        "cache",
+        "systems",
+        "cv",
+        "machine-learning"
+      ],
+      "scheduled_at": "2026-10-03T19:07:03Z",
+      "status": "pending"
     }
   ]
 }
