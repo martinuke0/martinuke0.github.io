@@ -26344,7 +26344,8 @@
         "attention-pruning"
       ],
       "scheduled_at": "2026-10-03T22:04:16Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-10-03T22:09:49Z"
     }
   ]
 }
