@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-02T18:03:36Z",
+  "last_scheduled_at": "2026-10-03T02:02:24Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -26282,6 +26282,20 @@
       "status": "posted",
       "claimed_at": "2026-10-02T18:09:15Z",
       "post_urn": "urn:li:share:7511851081916903424"
+    },
+    {
+      "title": "Multi-Adapter LoRA Inference Engine with Weight Paging and Shared Base",
+      "url": "https://martinuke0.github.io/posts/2026-10-03-multi-adapter-lora-inference-engine-with-weight-paging-and-shared-base/",
+      "social_hook": "> TL;DR — This project builds a production‑grade LoRA inference engine that can serve multiple adapters from a single shared base model, paging weights in and out on demand. It demonstrates real systems skills—memory management, concurrent request handling, and modular architecture—that hiring managers look for.\n\nIn this guide you will construct a side project that not only runs inference with multiple LoRA adapters but also showcases your ability to design and implement systems that handle resource constraints, concurrency, and extensibility. The code is written in Python using PyTorch and Hugging Face Transformers, and it can be run on a single GPU or scaled across containers.\n\n- Memory‑efficient weight paging – You’ll implement a custom pager that loads/unloads adapter weights on demand, proving you understand virtual memory concepts in a deep‑learning context.",
+      "tags": [
+        "lora",
+        "inference",
+        "pytorch",
+        "weight-paging",
+        "systems"
+      ],
+      "scheduled_at": "2026-10-03T02:02:24Z",
+      "status": "pending"
     }
   ]
 }
