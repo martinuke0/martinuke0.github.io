@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-03T19:07:03Z",
+  "last_scheduled_at": "2026-10-03T22:04:16Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -26330,6 +26330,21 @@
       "status": "posted",
       "claimed_at": "2026-10-03T19:12:46Z",
       "post_urn": "urn:li:share:7512229450705694720"
+    },
+    {
+      "title": "Memory‑Aware KV Cache Eviction Engine for Long‑Context LLM Inference",
+      "url": "https://martinuke0.github.io/posts/2026-10-03-memoryaware-kv-cache-eviction-engine-for-longcontext-llm-inference/",
+      "social_hook": "> TL;DR — This post walks you through building a pure‑Python memory‑aware KV cache eviction engine for long‑context LLM inference. The engine uses attention‑based pruning to surface the most relevant keys, slashing memory usage while preserving answer quality. By the end you’ll have a runnable prototype, tests, and a roadmap to production‑grade features.\n\nBuilding a cache eviction engine from scratch is a rare chance to intersect systems performance, algorithm design, and LLM infrastructure. In this post we’ll implement a minimal yet functional engine in pure Python, demonstrate attention‑based key pruning, and show how to test and extend it.\n\nEmployers hunting for engineers who can ship reliable, low‑latency services love concrete, end‑to‑end projects that span data structures, algorithmic thinking, and system‑level concerns. This eviction engine signals several differentiators:",
+      "tags": [
+        "python",
+        "llm",
+        "caching",
+        "eviction",
+        "kv-cache",
+        "attention-pruning"
+      ],
+      "scheduled_at": "2026-10-03T22:04:16Z",
+      "status": "pending"
     }
   ]
 }
