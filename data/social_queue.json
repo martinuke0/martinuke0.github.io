@@ -26311,7 +26311,8 @@
         "gradient-synchronization"
       ],
       "scheduled_at": "2026-10-03T08:04:20Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-10-03T08:09:55Z"
     }
   ]
 }
