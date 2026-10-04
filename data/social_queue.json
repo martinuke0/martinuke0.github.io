@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-03T22:04:16Z",
+  "last_scheduled_at": "2026-10-04T00:05:05Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -26347,6 +26347,20 @@
       "status": "posted",
       "claimed_at": "2026-10-03T22:09:49Z",
       "post_urn": "urn:li:share:7512273998647496704"
+    },
+    {
+      "title": "Hands‑On Build Guide: Minimal Mixture‑of‑Experts Router with Softmax Gating in Python",
+      "url": "https://martinuke0.github.io/posts/2026-10-04-handson-build-guide-minimal-mixtureofexperts-router-with-softmax-gating-in-pytho/",
+      "social_hook": "> TL;DR — This post walks you through building a minimal, pure‑Python mixture‑of‑Experts router with softmax gating and load‑balanced expert routing. You’ll get runnable code, a quick test suite, and a roadmap to turn the toy into a production‑grade system.\n\nMixture‑of‑Experts (MoE) models power many large‑scale AI systems, from Switch Transformers to Gemini‑style routing. While production frameworks hide the details, building a minimal MoE from scratch in Python reveals the core ideas: a gating network that selects experts, softmax normalization, and a load‑balancing trick that prevents expert saturation. This guide walks you through every line, from the mathematical kernel to a runnable script you can extend, test, and evolve into a system‑level asset for your CV.\n\nHiring managers for ML‑focused engineering roles see dozens of “hello‑world” notebooks. A hand‑crafted MoE router signals that you understand three production‑grade concepts simultaneously:",
+      "tags": [
+        "python",
+        "mixture-of-experts",
+        "machine-learning",
+        "side-project",
+        "systems-design"
+      ],
+      "scheduled_at": "2026-10-04T00:05:05Z",
+      "status": "pending"
     }
   ]
 }
