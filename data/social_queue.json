@@ -26408,8 +26408,9 @@
         "airflow"
       ],
       "scheduled_at": "2026-10-04T15:03:28Z",
-      "status": "posting",
-      "claimed_at": "2026-10-04T15:09:08Z"
+      "status": "posted",
+      "claimed_at": "2026-10-04T15:09:08Z",
+      "post_urn": "urn:li:share:7512530526738632704"
     }
   ]
 }
