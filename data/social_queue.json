@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-04T00:05:05Z",
+  "last_scheduled_at": "2026-10-04T02:01:25Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -26363,6 +26363,20 @@
       "status": "posted",
       "claimed_at": "2026-10-04T00:10:36Z",
       "post_urn": "urn:li:share:7512304395712290816"
+    },
+    {
+      "title": "Hands‑On Activation Checkpointing for GPT Training From Scratch",
+      "url": "https://martinuke0.github.io/posts/2026-10-04-handson-activation-checkpointing-for-gpt-training-from-scratch/",
+      "social_hook": "> TL;DR — Activation checkpointing trades a modest amount of recomputation for a drastic reduction in GPU memory, letting you train GPT‑scale models on a single consumer GPU. We'll walk through a from‑scratch PyTorch implementation, prove it works, and show how to extend it for production.\n\nA short introduction: Building a minimal activation checkpointing module from the ground up is an excellent way to demonstrate that you understand how deep‑learning frameworks manage memory, gradients, and the forward‑backward pass. Unlike “just use `torch.utils.checkpoint`,” this guide walks you through the underlying mechanics, gives you runnable code, and provides a clear roadmap for turning the toy into a production‑ready component.\n\n- Memory‑optimization skill – You can explain and implement the trade‑off between recompute and GPU memory, a core concern for large‑scale training.",
+      "tags": [
+        "deep-learning",
+        "ml-engineering",
+        "gpt",
+        "checkpointing",
+        "python"
+      ],
+      "scheduled_at": "2026-10-04T02:01:25Z",
+      "status": "pending"
     }
   ]
 }
