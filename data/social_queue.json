@@ -26408,7 +26408,8 @@
         "airflow"
       ],
       "scheduled_at": "2026-10-04T15:03:28Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-10-04T15:09:08Z"
     }
   ]
 }
