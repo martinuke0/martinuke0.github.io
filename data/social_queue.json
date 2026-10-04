@@ -26360,7 +26360,8 @@
         "systems-design"
       ],
       "scheduled_at": "2026-10-04T00:05:05Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-10-04T00:10:36Z"
     }
   ]
 }
