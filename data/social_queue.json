@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-04T07:03:03Z",
+  "last_scheduled_at": "2026-10-04T15:03:28Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -26395,6 +26395,20 @@
       "status": "posted",
       "claimed_at": "2026-10-04T07:08:28Z",
       "post_urn": "urn:li:share:7512409560096301056"
+    },
+    {
+      "title": "User Safety in Production Systems: Engineering Trust at Scale",
+      "url": "https://martinuke0.github.io/posts/2026-10-04-user-safety-in-production-systems-engineering-trust-at-scale/",
+      "social_hook": "> TL;DR — User safety in software systems isn't a feature you bolt on later; it's an architectural commitment that starts with threat modeling, layered authorization, and observable pipelines. When production systems like Kafka, Airflow, and Postgres are designed with safety as a first-class concern, you prevent data leaks, unauthorized actions, and cascading outages before they impact end users.\n\nEvery engineer has felt the pressure of a production incident that could have been avoided. Whether it's an accidental data export, an unauthorized API call, or a silent data corruption that propagates through a pipeline, the cost of neglecting user safety is measured in lost trust, regulatory penalties, and reputational damage. In practice, user safety is not a single capability you toggle on—it is the cumulative result of architectural decisions, tooling choices, and an organizational mindset that treats safety as a first-class concern from day one. This post walks through concrete patterns and real-world systems that enforce safety at scale, moving from theory to the production realities that engineering teams face every day.\n\nSafety begins at the boundary where external requests enter your system. A defense-in-depth approach means no single layer trusts data coming from another. Rate limiting, input validation, and allowlist-based routing form the first ring. The second ring adds authentication and authorization checks, often via centralized identity providers (IdPs) such as OIDC or SAML. The outermost ring includes audit logging and alerting, so every decision is traceable.",
+      "tags": [
+        "systems-engineering",
+        "security",
+        "reliability",
+        "kubernetes",
+        "airflow"
+      ],
+      "scheduled_at": "2026-10-04T15:03:28Z",
+      "status": "pending"
     }
   ]
 }
