@@ -26424,8 +26424,9 @@
         "privacy"
       ],
       "scheduled_at": "2026-10-04T16:03:43Z",
-      "status": "posting",
-      "claimed_at": "2026-10-04T16:09:15Z"
+      "status": "posted",
+      "claimed_at": "2026-10-04T16:09:15Z",
+      "post_urn": "urn:li:share:7512545649033371649"
     }
   ]
 }
