@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-04T15:03:28Z",
+  "last_scheduled_at": "2026-10-04T16:03:43Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -26411,6 +26411,20 @@
       "status": "posted",
       "claimed_at": "2026-10-04T15:09:08Z",
       "post_urn": "urn:li:share:7512530526738632704"
+    },
+    {
+      "title": "User Safety in Production Systems: Authentication, Authorization, and Data Privacy",
+      "url": "https://martinuke0.github.io/posts/2026-10-04-user-safety-in-production-systems-authentication-authorization-and-data-privacy/",
+      "social_hook": "> TL;DR — User safety is a systemic property, not a feature flag. From proper session management and RBAC to defense-in-depth encryption and incident response, embedding safety at the architecture level prevents the most common failure modes that erode trust in production systems.\n\nBuilding safe user experiences isn't about checking a compliance box; it's about designing systems where authentication, authorization, and data protection are inseparable from the critical path. Engineers at scale grapple with credential leaks, token hijacking, and misconfigured permissions daily. This post walks through concrete architecture patterns, production antipatterns, and pragmatic mitigations that keep users safe without sacrificing velocity.\n\nThe first line of defense is a robust authentication strategy. In production, the choice between session cookies and JSON Web Tokens (JWTs) often comes down to trade-offs around scalability versus stateful revocation. Session cookies paired with a signed, server-side store (e.g., Redis with short TTLs) remain the simplest path for most web applications, while JWTs shine in distributed, microservice-oriented systems where stateless validation is a requirement.",
+      "tags": [
+        "security",
+        "authentication",
+        "authorization",
+        "systems-design",
+        "privacy"
+      ],
+      "scheduled_at": "2026-10-04T16:03:43Z",
+      "status": "pending"
     }
   ]
 }
