@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-04T16:03:43Z",
+  "last_scheduled_at": "2026-10-04T22:01:43Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -26427,6 +26427,20 @@
       "status": "posted",
       "claimed_at": "2026-10-04T16:09:15Z",
       "post_urn": "urn:li:share:7512545649033371649"
+    },
+    {
+      "title": "Goroutine Scheduling in Go: Inside the Runtime That Powers Production Services",
+      "url": "https://martinuke0.github.io/posts/2026-10-04-goroutine-scheduling-in-go-inside-the-runtime-that-powers-production-services/",
+      "social_hook": "> TL;DR — Go's scheduler maps goroutines to OS threads via the GMP model, using work‑stealing and P‑bound runqueues to achieve high concurrency without manual thread‑count tuning. When a goroutine blocks on I/O, the runtime frees its P, allowing another goroutine to run, making the system resilient under mixed workloads.\n\nGo’s concurrency model is one of the language’s most distinctive features, yet the inner workings of its scheduler remain opaque to many developers who rely on it daily. Beyond the syntax of `go func()` lies a sophisticated runtime that decides when a goroutine runs, when it yields, and how it recovers from blocking operations. In production services—from real‑time APIs to data‑processing pipelines—understanding the scheduler’s behavior translates directly into predictable latency, efficient resource use, and fewer surprising outages. This article peels back the layers of Go’s goroutine scheduling, from the GMP abstraction to concrete tuning levers you can apply today.\n\nGo’s concurrency primitive, the goroutine, is lightweight—often measured in kilobytes of stack space. The scheduler’s job is to multiplex many goroutines onto a smaller pool of OS threads. This multiplexing is embodied in the GMP model: Goroutines (G), Mach‑P (M), and Processors (P).",
+      "tags": [
+        "go",
+        "scheduler",
+        "concurrency",
+        "runtime",
+        "systems"
+      ],
+      "scheduled_at": "2026-10-04T22:01:43Z",
+      "status": "pending"
     }
   ]
 }
