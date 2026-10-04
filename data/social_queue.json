@@ -26424,7 +26424,8 @@
         "privacy"
       ],
       "scheduled_at": "2026-10-04T16:03:43Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-10-04T16:09:15Z"
     }
   ]
 }
