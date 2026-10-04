@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-04T02:01:25Z",
+  "last_scheduled_at": "2026-10-04T07:03:03Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -26379,6 +26379,20 @@
       "status": "posted",
       "claimed_at": "2026-10-04T02:08:58Z",
       "post_urn": "urn:li:share:7512334190777090048"
+    },
+    {
+      "title": "Hands-On Build Guide: Minimal LoRA Fine‑Tuning Engine for a 2‑Layer Transformer",
+      "url": "https://martinuke0.github.io/posts/2026-10-04-hands-on-build-guide-minimal-lora-finetuning-engine-for-a-2layer-transformer/",
+      "social_hook": "> TL;DR — LoRA lets you fine‑tune a tiny 2‑layer transformer with only a few extra parameters, making it a portable, low‑cost demo that showcases your ability to ship efficient ML pipelines. You’ll walk away with a runnable Python script, a clear architecture diagram, and a concrete roadmap to production‑grade fine‑tuning. This project signals systems competence without the overhead of massive models.\n\nBuilding a minimal LoRA‑enabled transformer from scratch is a compact yet powerful side project. It lets you demonstrate end‑to‑end machine‑learning engineering skills—data pipeline design, model architecture, efficient fine‑tuning, and production‑ready extensions—all within a few hundred lines of Python. In the following guide you’ll create a working script, explore the underlying architecture, and learn how to evolve the toy into a senior‑level system.\n\nHiring managers for ML‑focused roles see dozens of “train a GPT‑2” repos, but a minimal, from‑scratch LoRA engine signals several concrete competencies:",
+      "tags": [
+        "ml",
+        "transformers",
+        "lora",
+        "python",
+        "cv"
+      ],
+      "scheduled_at": "2026-10-04T07:03:03Z",
+      "status": "pending"
     }
   ]
 }
