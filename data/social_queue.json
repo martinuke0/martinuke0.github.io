@@ -26440,7 +26440,8 @@
         "systems"
       ],
       "scheduled_at": "2026-10-04T22:01:43Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-10-04T22:07:10Z"
     }
   ]
 }
