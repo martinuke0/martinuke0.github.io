@@ -26360,8 +26360,9 @@
         "systems-design"
       ],
       "scheduled_at": "2026-10-04T00:05:05Z",
-      "status": "posting",
-      "claimed_at": "2026-10-04T00:10:36Z"
+      "status": "posted",
+      "claimed_at": "2026-10-04T00:10:36Z",
+      "post_urn": "urn:li:share:7512304395712290816"
     }
   ]
 }
