@@ -26456,7 +26456,8 @@
         "elasticsearch"
       ],
       "scheduled_at": "2026-10-05T10:08:21Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-10-05T10:13:50Z"
     }
   ]
 }
