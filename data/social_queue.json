@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-05T11:08:21Z",
+  "last_scheduled_at": "2026-10-05T14:05:58Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -26475,6 +26475,21 @@
       "status": "posted",
       "claimed_at": "2026-10-05T11:11:03Z",
       "post_urn": "urn:li:share:7512832990016733186"
+    },
+    {
+      "title": "From‑Scratch Differentiable Sparse Mixture‑of‑Experts Gating Layer with Load Balancing in NumPy",
+      "url": "https://martinuke0.github.io/posts/2026-10-05-fromscratch-differentiable-sparse-mixtureofexperts-gating-layer-with-load-balanc/",
+      "social_hook": "> TL;DR — We’ll build a from‑scratch differentiable sparse Mixture‑of‑Experts (MoE) gating layer in NumPy, complete with a load‑balancing auxiliary loss. The implementation is fully runnable, gradient‑compatible, and signals systems‑level skill (custom autograd, sparsity, production‑grade patterns) to hiring managers.\n\nA custom MoE gating layer is not a vanilla library call; it forces you to confront three engineering realities that hiring managers love to see:\n\n1. Custom differentiable programming – you implement the forward pass and the accompanying backward pass by hand (or via NumPy’s `gradient`), proving you understand chain‑rule mechanics, not just `model.fit()`.",
+      "tags": [
+        "numpy",
+        "machine-learning",
+        "mixture-of-experts",
+        "differentiable",
+        "load-balancing",
+        "cv-portfolio"
+      ],
+      "scheduled_at": "2026-10-05T14:05:58Z",
+      "status": "pending"
     }
   ]
 }
