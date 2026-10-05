@@ -26472,7 +26472,8 @@
         "observability"
       ],
       "scheduled_at": "2026-10-05T11:08:21Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-10-05T11:11:03Z"
     }
   ]
 }
