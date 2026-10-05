@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-04T22:01:43Z",
+  "last_scheduled_at": "2026-10-05T10:08:21Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -26443,6 +26443,20 @@
       "status": "posted",
       "claimed_at": "2026-10-04T22:07:10Z",
       "post_urn": "urn:li:share:7512635725323034624"
+    },
+    {
+      "title": "Mastering BM25: How to Tune Search Relevance in Large‑Scale Indexes",
+      "url": "https://martinuke0.github.io/posts/2026-10-05-mastering-bm25-how-to-tune-search-relevance-in-largescale-indexes/",
+      "social_hook": "> TL;DR — In large‑scale search, BM25’s k1 and b parameters control term‑frequency saturation and document‑length bias; tuning them for your corpus can improve nDCG by 15‑30 % while keeping latency sub‑second. The key is to measure the average document length, inspect term‑frequency distributions, and iterate with A/B tests on real query traffic. When done right, BM25 becomes a low‑overhead, high‑quality ranking function that scales horizontally across shards and replicas.\n\nSearch relevance is the differentiator between a product users love and one they abandon. BM25, the default ranking function in many open‑source and commercial search engines, provides a small but powerful set of knobs that directly affect how terms are weighted relative to document length and collection statistics. Because it is based on a probabilistic model of term relevance, small, data‑driven adjustments often yield measurable gains without requiring a full learning‑to‑rank pipeline. In this post we will explore the mechanics of BM25, walk through concrete tuning steps for large‑scale indexes, and share patterns that production teams at companies such as Elastic, Netflix, and Airbnb use to keep search fast and relevant.\n\nBM25 (Okapi BM25) is the de‑facto standard ranking function used by Elasticsearch, OpenSearch, Solr, and many other search platforms. It scores a document d for a query q as",
+      "tags": [
+        "bm25",
+        "information retrieval",
+        "search tuning",
+        "large scale",
+        "elasticsearch"
+      ],
+      "scheduled_at": "2026-10-05T10:08:21Z",
+      "status": "pending"
     }
   ]
 }
