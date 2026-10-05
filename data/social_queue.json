@@ -26522,7 +26522,8 @@
         "engineering"
       ],
       "scheduled_at": "2026-10-05T23:01:58Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-10-05T23:08:04Z"
     }
   ]
 }
