@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-05T10:08:21Z",
+  "last_scheduled_at": "2026-10-05T11:08:21Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -26459,6 +26459,20 @@
       "status": "posted",
       "claimed_at": "2026-10-05T10:13:50Z",
       "post_urn": "urn:li:share:7512818597787004928"
+    },
+    {
+      "title": "Designing Collision-Free Data Pipelines: Naming Guardrails, Subsystem Awareness, and ET Patterns for Enterprise Teams",
+      "url": "https://martinuke0.github.io/posts/2026-10-05-designing-collision-free-data-pipelines-naming-guardrails-subsystem-awareness-an/",
+      "social_hook": "> TL;DR — Data pipeline titles that mirror existing subsystems or tools create silent deployment friction, confusing on‑call rotations, and costly rename cycles. By layer‑scoping names, prefix‑strategizing, and auditing against a canonical tool map, teams can design ET pipelines that scale without semantic collisions. This post walks concrete naming guardrails, anti‑pattern inspections, and architecture guardrails that keep pipelines unambiguous and maintainable.\n\nNaming a data pipeline often feels like a trivial administrative task—until it isn’t. In the span of a single quarter, a mid‑size e‑commerce company discovered that two different teams had independently named their “daily sales” pipeline `sales_daily`, one using Apache Airflow and the other using Prefect. The Airflow DAG populated a Kafka topic `sales_daily.v1`, while the Prefect flow wrote to a Snowflake schema `SALES_DAILY`. A downstream dbt model referencing `sales_daily` broke because the two systems were writing to different logical spaces. The incident took 14 engineer‑hours to untangle, not because the code was wrong, but because the names collided across subsystem boundaries.\n\nThis scenario repeats more often than most leaders admit. In a 2023 survey of 120 data engineering teams, 27 % reported that naming ambiguity had caused at least one production outage or delayed deployment in the previous year. The cost isn’t just runtime errors; it’s lost trust in the data, fragmented documentation, and on‑call fatigue when incidents are misrouted because the owning team can’t be identified from the pipeline name alone.",
+      "tags": [
+        "data-engineering",
+        "etl",
+        "data-pipelines",
+        "cloud-infrastructure",
+        "observability"
+      ],
+      "scheduled_at": "2026-10-05T11:08:21Z",
+      "status": "pending"
     }
   ]
 }
