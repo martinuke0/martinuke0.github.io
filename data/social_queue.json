@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-05T20:09:34Z",
+  "last_scheduled_at": "2026-10-05T23:01:58Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -26505,6 +26505,21 @@
         "telegram"
       ],
       "scheduled_at": "2026-10-05T20:09:34Z",
+      "status": "pending"
+    },
+    {
+      "title": "User Safety: Designing Safe Systems for Real-World Users",
+      "url": "https://martinuke0.github.io/posts/2026-10-05-user-safety-designing-safe-systems-for-real-world-users/",
+      "social_hook": "> TL;DR — User safety is an engineering discipline, not a feature toggle. By treating safety as a non‑functional requirement and applying proven architecture patterns—event‑driven abuse detection, defense‑in‑depth, and fail‑closed defaults—you can build systems that protect users at scale. Real‑world platforms like Twitter, TikTok, and GitHub show that safety is achievable with the right tooling (Kafka, Airflow, Postgres) and a culture of observability.\n\nUser safety often gets reduced to a checkbox on a product roadmap: “Add a report button.” But in production, safety is a systemic property that emerges from how data flows, how decisions are made, and how failures are handled. When a social network processes millions of posts per second, or a collaboration tool ingests thousands of file uploads, the safety mechanisms must be as robust as the core features. In this post, we’ll treat user safety as an engineering problem and walk through the architecture patterns that make safe systems possible.\n\nUnsafe experiences aren’t just ethical failures; they are business risks. A single high‑profile abuse incident can trigger regulatory scrutiny, user churn, and brand damage that takes years to repair. For example, after a 2021 incident involving coordinated harassment on a live‑streaming platform, the company saw a 12% drop in daily active users in the affected region, according to a post‑mortem published by the team. The root cause wasn’t a missing UI element—it was a detection pipeline that couldn’t keep up with the volume and sophistication of the attack.",
+      "tags": [
+        "user-safety",
+        "system-design",
+        "architecture",
+        "content-moderation",
+        "privacy",
+        "engineering"
+      ],
+      "scheduled_at": "2026-10-05T23:01:58Z",
       "status": "pending"
     }
   ]
