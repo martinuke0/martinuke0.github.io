@@ -26522,8 +26522,9 @@
         "engineering"
       ],
       "scheduled_at": "2026-10-05T23:01:58Z",
-      "status": "posting",
-      "claimed_at": "2026-10-05T23:08:04Z"
+      "status": "posted",
+      "claimed_at": "2026-10-05T23:08:04Z",
+      "post_urn": "urn:li:share:7513013464970190848"
     }
   ]
 }
