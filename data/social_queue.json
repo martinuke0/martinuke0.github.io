@@ -26456,8 +26456,9 @@
         "elasticsearch"
       ],
       "scheduled_at": "2026-10-05T10:08:21Z",
-      "status": "posting",
-      "claimed_at": "2026-10-05T10:13:50Z"
+      "status": "posted",
+      "claimed_at": "2026-10-05T10:13:50Z",
+      "post_urn": "urn:li:share:7512818597787004928"
     }
   ]
 }
