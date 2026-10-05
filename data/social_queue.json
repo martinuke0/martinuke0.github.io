@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-05T14:05:58Z",
+  "last_scheduled_at": "2026-10-05T20:09:34Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -26492,6 +26492,20 @@
       "status": "posted",
       "claimed_at": "2026-10-05T14:11:24Z",
       "post_urn": "urn:li:share:7512878384130064384"
+    },
+    {
+      "title": "Build a Portfolio CV Side Project with Real-Time WebSockets, Supabase, and Stripe",
+      "url": "https://martinuke0.github.io/posts/2026-10-05-build-a-portfolio-cv-side-project-with-real-time-websockets-supabase-and-stripe/",
+      "social_hook": "> TL;DR — This guide walks you through building a portfolio/CV side project that combines real-time WebSockets, a Supabase backend, Stripe payments, and a Telegram bot, giving you concrete, deployable code that signals strong systems skills to hiring managers.\n\nIn a crowded job market, a static résumé is no longer enough. A live, interactive portfolio demonstrates that you can ship full‑stack features, handle real‑time data, and integrate third‑party services—all skills that recruiters look for in senior engineering roles.\n\n- Real‑time data streaming – WebSockets show you understand persistent connections, back‑pressure, and event‑driven architecture.",
+      "tags": [
+        "portfolio",
+        "websockets",
+        "supabase",
+        "stripe",
+        "telegram"
+      ],
+      "scheduled_at": "2026-10-05T20:09:34Z",
+      "status": "pending"
     }
   ]
 }
