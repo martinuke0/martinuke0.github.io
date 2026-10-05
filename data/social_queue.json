@@ -26505,7 +26505,8 @@
         "telegram"
       ],
       "scheduled_at": "2026-10-05T20:09:34Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-10-05T23:08:04Z"
     },
     {
       "title": "User Safety: Designing Safe Systems for Real-World Users",
