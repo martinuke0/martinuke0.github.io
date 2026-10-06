@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-06T17:03:14Z",
+  "last_scheduled_at": "2026-10-06T19:06:18Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -26591,6 +26591,20 @@
       "status": "posted",
       "claimed_at": "2026-10-06T17:08:58Z",
       "post_urn": "urn:li:share:7513285458798276608"
+    },
+    {
+      "title": "safe: A Production-Grade User Safety & Authentication System",
+      "url": "https://martinuke0.github.io/posts/2026-10-06-safe-a-production-grade-user-safety-authentication-system/",
+      "social_hook": "> TL;DR — Build a production-grade user safety system with Go, Postgres, and Redis that demonstrates authentication, rate limiting, and audit logging — all containerized and ready to showcase on your CV.\n\nBuilding a portfolio project that actually demonstrates production engineering skills is harder than it looks. Many guides stop at a CRUD app with a login form, but hiring engineers and engineering managers look for depth: how you handle secrets, concurrency, failure, observability, and scaling. This guide walks you through building safe, a full-featured user safety and authentication system that goes well beyond a toy demo. You’ll work with Go for the backend, Postgres for persistent storage, Redis for rate limiting and caching, Docker for reproducible deployment, and OpenTelemetry for observability. By the end, you won’t just have a “login page”—you’ll have a system that mirrors the security and reliability patterns found in real-world services, and you’ll have concrete, runnable code to prove it.\n\nHiring managers see dozens of portfolio repos a week. Most are static site clones or “To-Do lists” with a Firebase backend. safe signals three distinct classes of skill:",
+      "tags": [
+        "authentication",
+        "security",
+        "go",
+        "postgres",
+        "docker"
+      ],
+      "scheduled_at": "2026-10-06T19:06:18Z",
+      "status": "pending"
     }
   ]
 }
