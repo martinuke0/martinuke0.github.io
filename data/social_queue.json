@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-06T11:03:47Z",
+  "last_scheduled_at": "2026-10-06T17:03:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -26574,6 +26574,21 @@
       "status": "posted",
       "claimed_at": "2026-10-06T11:09:23Z",
       "post_urn": "urn:li:share:7513194959123140608"
+    },
+    {
+      "title": "Building a User Safety Service: A Portfolio Project for Systems Engineers",
+      "url": "https://martinuke0.github.io/posts/2026-10-06-building-a-user-safety-service-a-portfolio-project-for-systems-engineers/",
+      "social_hook": "> TL;DR — This project teaches you to build a production‑grade user safety service that enforces rate limits, filters abusive content, and logs all actions. It demonstrates real systems skills like API design, concurrency control, and observability, making your CV stand out to hiring managers.\n\nIn today's SaaS landscape, protecting users from abuse is a first‑class concern. A well‑architected safety layer not only shields your platform but also showcases your ability to design scalable, observable systems. In this guide you will implement a complete user safety microservice from scratch, using Python, FastAPI, Redis, and PostgreSQL, and you will learn how to extend it toward production readiness.\n\n- End‑to‑end system design – You will wire together an HTTP API, a distributed cache, a relational database, and asynchronous logging, demonstrating the ability to architect a cohesive system.",
+      "tags": [
+        "user-safety",
+        "microservice",
+        "python",
+        "fastapi",
+        "rate-limiting",
+        "portfolio"
+      ],
+      "scheduled_at": "2026-10-06T17:03:14Z",
+      "status": "pending"
     }
   ]
 }
