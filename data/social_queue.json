@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-06T09:03:45Z",
+  "last_scheduled_at": "2026-10-06T10:03:45Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -26541,6 +26541,20 @@
       "status": "posted",
       "claimed_at": "2026-10-06T09:09:22Z",
       "post_urn": "urn:li:share:7513164761052938240"
+    },
+    {
+      "title": "Virtual Scrolling with Intersection: The Modern Approach to Rendering Large Lists",
+      "url": "https://martinuke0.github.io/posts/2026-10-06-virtual-scrolling-with-intersection-the-modern-approach-to-rendering-large-lists/",
+      "social_hook": "> TL;DR — Virtual scrolling with Intersection Observer reduces DOM size by rendering only visible items, achieving 60 FPS on lists with millions of rows. The API handles visibility detection efficiently, and a well-architected scroller reuses DOM nodes to minimize GC pressure. Production deployments should account for dynamic item heights, keyboard navigation, and scroll restoration.\n\nWhen your application needs to display a thousand, ten thousand, or even a million rows, the browser's layout engine becomes the bottleneck. Each `<div>` in the DOM consumes memory, triggers style recalculations, and contributes to paint time. Virtual scrolling solves this by rendering only the items that are currently visible in the viewport, plus a small buffer. The Intersection Observer API provides an efficient, native way to detect when items enter or leave the view, making it an ideal building block for a performant virtual scroller.\n\nConsider a chat application with 50,000 messages, a file explorer with 100,000 files, or an infinite-scroll social feed. If you render every item into the DOM, the browser must:",
+      "tags": [
+        "virtual-scrolling",
+        "intersection-observer",
+        "performance",
+        "web-development",
+        "frontend"
+      ],
+      "scheduled_at": "2026-10-06T10:03:45Z",
+      "status": "pending"
     }
   ]
 }
