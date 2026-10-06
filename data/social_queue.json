@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-05T23:01:58Z",
+  "last_scheduled_at": "2026-10-06T09:03:45Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -26525,6 +26525,20 @@
       "status": "posted",
       "claimed_at": "2026-10-05T23:08:04Z",
       "post_urn": "urn:li:share:7513013464970190848"
+    },
+    {
+      "title": "Build a Differentiable Top‑k Gating Network for MoE Layers from Scratch with NumPy",
+      "url": "https://martinuke0.github.io/posts/2026-10-06-build-a-differentiable-topk-gating-network-for-moe-layers-from-scratch-with-nump/",
+      "social_hook": "> TL;DR — We implement a top‑k gating network in NumPy that routes tokens to expert MLPs with a straight‑through estimator, and we provide runnable code and extension ideas so you can ship the project on your CV.\n\nHiring managers for deep‑learning and systems roles look for concrete evidence that you can move from idea to working prototype. This project signals several high‑value skills:\n\n NumPy‑level tensor reasoning** – you understand broadcasting, vectorized matrix multiplication, and can implement custom forward/backward passes without a framework.",
+      "tags": [
+        "numpy",
+        "mixture-of-experts",
+        "deep-learning",
+        "side-project",
+        "cv"
+      ],
+      "scheduled_at": "2026-10-06T09:03:45Z",
+      "status": "pending"
     }
   ]
 }
