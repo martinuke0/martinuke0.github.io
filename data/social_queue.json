@@ -26571,8 +26571,9 @@
         "Scheduling"
       ],
       "scheduled_at": "2026-10-06T11:03:47Z",
-      "status": "posting",
-      "claimed_at": "2026-10-06T11:09:23Z"
+      "status": "posted",
+      "claimed_at": "2026-10-06T11:09:23Z",
+      "post_urn": "urn:li:share:7513194959123140608"
     }
   ]
 }
