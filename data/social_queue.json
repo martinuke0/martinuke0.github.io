@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-06T10:03:45Z",
+  "last_scheduled_at": "2026-10-06T11:03:47Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -26557,6 +26557,21 @@
       "status": "posted",
       "claimed_at": "2026-10-06T10:08:51Z",
       "post_urn": "urn:li:share:7513179725398441985"
+    },
+    {
+      "title": "Mastering Zephyr RTOS Scheduling for Multi-Sensor Edge Nodes: Real-Time Performance Tuning",
+      "url": "https://martinuke0.github.io/posts/2026-10-06-mastering-zephyr-rtos-scheduling-for-multi-sensor-edge-nodes-real-time-performan/",
+      "social_hook": "> TL;DR — Multi-sensor edge nodes require deterministic scheduling to meet latency budgets. Zephyr RTOS offers fine-grained thread prioritization, interrupt offloading, and memory control, but only if you tune them for your specific sensor pipeline. This post walks through a production-proven architecture, shows concrete configuration examples, and highlights the failure modes that bite when you get it wrong.\n\nEdge nodes that aggregate data from multiple sensors—temperature, humidity, air quality, motion—must collect, timestamp, and forward samples within strict deadlines. A 50 ms stall can invalidate an entire data window. Zephyr RTOS, with its modular scheduler and small footprint, is a natural fit, yet its defaults are tuned for general-purpose embedded devices, not for the sustained I/O bursts of a multi-sensor aggregator. In this post, we’ll break down how to reshape Zephyr’s scheduling model to deliver real-time performance on resource-constrained MCUs like the Nordic nRF5340 or STM32H7.\n\nZephyr supports both cooperative and preemptive scheduling, but the real power comes from its thread-based abstraction. Each sensor acquisition can be modeled as a dedicated thread, and the scheduler decides which thread runs based on priority and state. Priorities range from 0 (highest) to 255 (lowest), and threads can be configured as user threads (with their own stack) or kernel threads (shared kernel stack). The scheduler is a bit-map scheduler for O(1) context switching, which is critical when you have dozens of threads.",
+      "tags": [
+        "Zephyr",
+        "RTOS",
+        "Edge Computing",
+        "Real-Time Systems",
+        "Embedded Systems",
+        "Scheduling"
+      ],
+      "scheduled_at": "2026-10-06T11:03:47Z",
+      "status": "pending"
     }
   ]
 }
