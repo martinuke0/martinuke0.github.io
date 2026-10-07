@@ -26670,7 +26670,8 @@
         "systems"
       ],
       "scheduled_at": "2026-10-07T13:04:02Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-10-07T13:09:40Z"
     }
   ]
 }
