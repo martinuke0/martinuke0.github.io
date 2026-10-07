@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-07T12:03:12Z",
+  "last_scheduled_at": "2026-10-07T13:04:02Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -26657,6 +26657,20 @@
       "status": "posted",
       "claimed_at": "2026-10-07T12:08:47Z",
       "post_urn": "urn:li:share:7513572298877104130"
+    },
+    {
+      "title": "Building a Pure‑Python Block‑Sparse Sliding‑Window Attention (Longformer‑Style)",
+      "url": "https://martinuke0.github.io/posts/2026-10-07-building-a-purepython-blocksparse-slidingwindow-attention-longformerstyle/",
+      "social_hook": "> TL;DR — This post walks you through building a pure‑Python block‑sparse sliding‑window attention module that replicates Longformer’s linear‑time behavior on long sequences. You’ll end up with runnable code, a test harness, and a roadmap to turn the prototype into a production‑grade component.\n\nIn a world where transformers are expected to ingest whole books, a naive O(N²) attention quickly becomes a bottleneck. Longformer introduced a block‑sparse pattern that keeps the cost linear in sequence length while preserving local context. By reimplementing that pattern from scratch in pure Python, you demonstrate a rare combination of algorithmic insight, low‑level coding skill, and systems awareness—exactly the profile hiring managers look for in ML infrastructure roles.\n\n- Algorithmic depth – you’ll write the core attention loop, not just call a library.",
+      "tags": [
+        "python",
+        "deep-learning",
+        "attention",
+        "longformer",
+        "systems"
+      ],
+      "scheduled_at": "2026-10-07T13:04:02Z",
+      "status": "pending"
     }
   ]
 }
