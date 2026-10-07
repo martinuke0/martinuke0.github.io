@@ -26654,8 +26654,9 @@
         "dithering"
       ],
       "scheduled_at": "2026-10-07T12:03:12Z",
-      "status": "posting",
-      "claimed_at": "2026-10-07T12:08:47Z"
+      "status": "posted",
+      "claimed_at": "2026-10-07T12:08:47Z",
+      "post_urn": "urn:li:share:7513572298877104130"
     }
   ]
 }
