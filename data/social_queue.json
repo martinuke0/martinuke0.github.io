@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-07T10:04:45Z",
+  "last_scheduled_at": "2026-10-07T12:03:12Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -26640,6 +26640,21 @@
       "status": "posted",
       "claimed_at": "2026-10-07T10:10:24Z",
       "post_urn": "urn:li:share:7513542510607130624"
+    },
+    {
+      "title": "Mini Post-Training Quantizer: FP32 to INT4 with Calibration and Dithering in Pure Python",
+      "url": "https://martinuke0.github.io/posts/2026-10-07-mini-post-training-quantizer-fp32-to-int4-with-calibration-and-dithering-in-pure/",
+      "social_hook": "> TL;DR — You will build a pure‑Python post‑training quantizer that compresses FP32 LLM weights to INT4, using a calibration pass to set per‑channel scales and optional dithering to reduce quantization error. The project is small enough to fit in a weekend, yet demonstrates real systems skills—tensor manipulation, numerical analysis, and benchmarking—that hiring managers look for.\n\nIn the race to deploy large language models on commodity hardware, weight quantization has moved from a research curiosity to a production necessity. This post gives you a hands‑on, end‑to‑end implementation of a post‑training quantizer that converts 32‑bit floating‑point weights to 4‑bit integers, complete with calibration and dithering. By following the steps below you will walk away with a runnable Python script, a set of unit tests, and a clear sense of how the pieces fit together—skills that map directly to roles in ML infrastructure, quantization engineering, and performance optimization.\n\n- Systems‑oriented ML engineering – You will manipulate raw tensor data, write efficient NumPy loops, and reason about memory layout, which is the daily bread of ML infrastructure teams.",
+      "tags": [
+        "quantization",
+        "llm",
+        "python",
+        "int4",
+        "calibration",
+        "dithering"
+      ],
+      "scheduled_at": "2026-10-07T12:03:12Z",
+      "status": "pending"
     }
   ]
 }
