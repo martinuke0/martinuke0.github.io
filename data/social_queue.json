@@ -26670,8 +26670,9 @@
         "systems"
       ],
       "scheduled_at": "2026-10-07T13:04:02Z",
-      "status": "posting",
-      "claimed_at": "2026-10-07T13:09:40Z"
+      "status": "posted",
+      "claimed_at": "2026-10-07T13:09:40Z",
+      "post_urn": "urn:li:share:7513587624410853378"
     }
   ]
 }
