@@ -26621,7 +26621,8 @@
         "Programming"
       ],
       "scheduled_at": "2026-10-07T08:03:51Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-10-07T08:09:23Z"
     }
   ]
 }
