@@ -26637,7 +26637,8 @@
         "systems-engineering"
       ],
       "scheduled_at": "2026-10-07T10:04:45Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-10-07T10:10:24Z"
     }
   ]
 }
