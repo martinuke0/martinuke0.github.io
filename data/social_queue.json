@@ -26654,7 +26654,8 @@
         "dithering"
       ],
       "scheduled_at": "2026-10-07T12:03:12Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-10-07T12:08:47Z"
     }
   ]
 }
