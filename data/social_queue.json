@@ -26621,8 +26621,9 @@
         "Programming"
       ],
       "scheduled_at": "2026-10-07T08:03:51Z",
-      "status": "posting",
-      "claimed_at": "2026-10-07T08:09:23Z"
+      "status": "posted",
+      "claimed_at": "2026-10-07T08:09:23Z",
+      "post_urn": "urn:li:share:7513512054670938114"
     }
   ]
 }
