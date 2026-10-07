@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-07T08:03:51Z",
+  "last_scheduled_at": "2026-10-07T10:04:45Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -26624,6 +26624,20 @@
       "status": "posted",
       "claimed_at": "2026-10-07T08:09:23Z",
       "post_urn": "urn:li:share:7513512054670938114"
+    },
+    {
+      "title": "Build a Pure-Python HNSW Graph: A Hands-On Portfolio CV Project",
+      "url": "https://martinuke0.github.io/posts/2026-10-07-build-a-pure-python-hnsw-graph-a-hands-on-portfolio-cv-project/",
+      "social_hook": "> TL;DR — In this guide you'll build a pure-Python HNSW graph from scratch, complete with hierarchical layering, neighbor selection, and approximate nearest-neighbor search. The resulting library is runnable, testable, and extensible — a concrete, portfolio-ready project that signals systems-engineering competence to hiring managers.\n\nBuilding a side project that actually works and demonstrates deep systems knowledge is one of the fastest ways to stand out to hiring managers. While many candidates can quote algorithms, few ship a runnable implementation that they can benchmark, extend, and discuss in production terms. A pure-Python HNSW (Hierarchical Navigable Small World) graph hits the sweet spot: it's rooted in a well-established ANN algorithm, it requires real engineering decisions around memory, graph structure, and search dynamics, and the entire codebase fits in a single file yet scales to thousands of vectors.\n\nIn this guide you'll construct a functional HNSW implementation from the ground up. We'll cover the algorithm's core ideas, walk through a step-by-step code build, verify correctness with simple tests, and finish with a roadmap of production-grade upgrades. Every code snippet is runnable, commented, and tagged for clarity. By the end you'll have a library you can drop into a portfolio, point to in interviews, and immediately extend for real-world use.",
+      "tags": [
+        "python",
+        "hnsw",
+        "graph-search",
+        "side-project",
+        "systems-engineering"
+      ],
+      "scheduled_at": "2026-10-07T10:04:45Z",
+      "status": "pending"
     }
   ]
 }
