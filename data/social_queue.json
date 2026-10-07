@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-06T19:06:18Z",
+  "last_scheduled_at": "2026-10-07T08:03:51Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -26607,6 +26607,21 @@
       "status": "posted",
       "claimed_at": "2026-10-06T19:11:46Z",
       "post_urn": "urn:li:share:7513316363134791680"
+    },
+    {
+      "title": "Deep Dive into Linux io_uring: Asynchronous I/O Without System Call Overhead",
+      "url": "https://martinuke0.github.io/posts/2026-10-07-deep-dive-into-linux-io_uring-asynchronous-io-without-system-call-overhead/",
+      "social_hook": "> TL;DR — io_uring removes the per‑operation syscall overhead of traditional asynchronous I/O by sharing memory with the kernel and using two ring buffers for submissions and completions. This lets applications achieve near‑zero context switch costs, dramatically improving throughput and latency for I/O‑bound workloads.\n\nTraditional Linux asynchronous I/O mechanisms—`aio_*` syscalls, `epoll`, and `libaio`—have long been the go‑to tools for building high‑performance servers. Yet each of them still forces a system call for every operation, which adds latency, consumes CPU, and limits scalability. The `io_uring` interface, introduced in kernel 5.1 and refined ever since, flips this model on its head: instead of making a syscall for each I/O request, the application and the kernel share a pair of ring buffers in memory. Submissions are written into the submission queue (SQ) by user space, and the kernel processes them asynchronously, posting completions into the completion queue (CQ). The only time a syscall is needed is to notify the kernel that new entries have been added, and even that can be batched.\n\nIn this post we’ll walk through the internals of `io_uring`, show how to get started with `liburing`, examine real‑world performance numbers, and discuss production patterns that have proven successful.",
+      "tags": [
+        "Linux",
+        "io_uring",
+        "Asynchronous I/O",
+        "Performance",
+        "Kernel",
+        "Programming"
+      ],
+      "scheduled_at": "2026-10-07T08:03:51Z",
+      "status": "pending"
     }
   ]
 }
