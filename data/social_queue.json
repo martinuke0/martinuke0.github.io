@@ -26765,8 +26765,9 @@
         "scalability"
       ],
       "scheduled_at": "2026-10-08T22:05:49Z",
-      "status": "posting",
-      "claimed_at": "2026-10-08T22:11:27Z"
+      "status": "posted",
+      "claimed_at": "2026-10-08T22:11:27Z",
+      "post_urn": "urn:li:share:7514086357930262528"
     }
   ]
 }
