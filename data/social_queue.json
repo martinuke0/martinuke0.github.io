@@ -26765,7 +26765,8 @@
         "scalability"
       ],
       "scheduled_at": "2026-10-08T22:05:49Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-10-08T22:11:27Z"
     }
   ]
 }
