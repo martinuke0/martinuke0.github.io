@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-08T04:03:12Z",
+  "last_scheduled_at": "2026-10-08T08:03:07Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -26688,6 +26688,20 @@
       "status": "posted",
       "claimed_at": "2026-10-08T04:08:45Z",
       "post_urn": "urn:li:share:7513813886530146304"
+    },
+    {
+      "title": "From Scratch: Building a LoRA Fine-Tuning Adapter in Pure PyTorch",
+      "url": "https://martinuke0.github.io/posts/2026-10-08-from-scratch-building-a-lora-fine-tuning-adapter-in-pure-pytorch/",
+      "social_hook": "> TL;DR — This post walks you through building a LoRA fine‑tuning adapter from scratch in pure PyTorch, providing runnable code that you can drop into any transformer. You’ll learn how the low‑rank decomposition works, how to hook it into attention and feed‑forward layers, and how to evolve the prototype into a production‑grade component with checkpointing, metrics, and distributed training.\n\nIn the race to fine‑tune large language models, parameter‑efficient methods like LoRA have become the de‑facto standard for teams that need to adapt a model without retraining all weights. By injecting trainable low‑rank matrices into the transformer blocks, LoRA slashes memory usage and enables rapid iteration. However, most tutorials stop at the Hugging Face wrapper; they hide the underlying mechanics. This guide pulls the curtain back, implementing the LoRA adapter from first principles in PyTorch, then showing how to turn that prototype into a resilient, observable service.\n\n- Low‑rank optimization expertise – you will write the math that decomposes a weight matrix into two smaller matrices, demonstrating a deep understanding of linear algebra and parameter‑efficient fine‑tuning.",
+      "tags": [
+        "deep-learning",
+        "pytorch",
+        "lora",
+        "fine-tuning",
+        "transformers"
+      ],
+      "scheduled_at": "2026-10-08T08:03:07Z",
+      "status": "pending"
     }
   ]
 }
