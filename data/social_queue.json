@@ -26733,8 +26733,9 @@
         "audit-logging"
       ],
       "scheduled_at": "2026-10-08T13:05:46Z",
-      "status": "posting",
-      "claimed_at": "2026-10-08T13:11:26Z"
+      "status": "posted",
+      "claimed_at": "2026-10-08T13:11:26Z",
+      "post_urn": "urn:li:share:7513950456000196608"
     }
   ]
 }
