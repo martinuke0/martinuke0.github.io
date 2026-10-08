@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-08T17:05:07Z",
+  "last_scheduled_at": "2026-10-08T22:05:49Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -26752,6 +26752,20 @@
       "status": "posted",
       "claimed_at": "2026-10-08T17:10:48Z",
       "post_urn": "urn:li:share:7514010692119859200"
+    },
+    {
+      "title": "How to Pick a Distributed Consensus Topic That Actually Solves Your Problem",
+      "url": "https://martinuke0.github.io/posts/2026-10-08-how-to-pick-a-distributed-consensus-topic-that-actually-solves-your-problem/",
+      "social_hook": "> TL;DR — Choosing a consensus algorithm isn't about picking the \"best\" one; it's about matching fault tolerance, latency, and operational overhead to your workload. Avoid the default Raft reach for scenarios with high write contention or partial failure domains, and instead consider leaderless logs, quorum-based writes, or hybrid approaches that keep latency sub‑10ms at scale.\n\nPicking a consensus strategy for a distributed system is often treated as a checkbox exercise—default to Raft, ship, and move on. In practice, the fault model, latency budget, and operational complexity of a consensus layer can become the dominant factor in whether a system feels responsive or constantly plays catch‑up with failures. This post walks through a decision framework that moves beyond the usual Paxos/Raft dichotomy, highlights underrated patterns that ship in production today, and anchors every recommendation in concrete numbers and real‑world failure modes.\n\nRaft and Paxos appear in nearly every \"choose a consensus algorithm\" flowchart because they provide strong consistency guarantees and a clear leader‑evolution path. Their dominance stems from two things: (1) battle‑tested implementations—etcd, Consul, and Kubernetes all ship with Raft, making it the path of least resistance; and (2) predictable semantics—linearizable reads and writes simplify reasoning about data correctness. However, the same traits that make them safe can make them expensive.",
+      "tags": [
+        "distributed-systems",
+        "consensus",
+        "systems-design",
+        "architecture",
+        "scalability"
+      ],
+      "scheduled_at": "2026-10-08T22:05:49Z",
+      "status": "pending"
     }
   ]
 }
