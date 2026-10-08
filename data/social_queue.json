@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-08T13:05:46Z",
+  "last_scheduled_at": "2026-10-08T17:05:07Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -26736,6 +26736,20 @@
       "status": "posted",
       "claimed_at": "2026-10-08T13:11:26Z",
       "post_urn": "urn:li:share:7513950456000196608"
+    },
+    {
+      "title": "Build Your Own Fused Low‑Rank LoRA Fine‑Tuning Engine From Scratch",
+      "url": "https://martinuke0.github.io/posts/2026-10-08-build-your-own-fused-lowrank-lora-finetuning-engine-from-scratch/",
+      "social_hook": "> TL;DR — Building a fused low‑rank LoRA engine from scratch lets you control every parameter, demonstrate low‑level PyTorch mastery, and ship a reusable fine‑tuning pipeline that hiring managers can inspect and run.\n\nThis post walks through creating a “Build‑Your‑Own‑X” project that fuses low‑rank adaptation (LoRA) with a custom fused matrix‑multiply kernel. The result is a small, runnable PyTorch codebase that you can extend, benchmark, and point to in interviews or on GitHub. Along the way you’ll exercise model‑loading, parameter‑efficient fine‑tuning, kernel optimization, and production‑grade extensions—all concrete skills that signal systems competence to engineering hiring managers.\n\n- Low‑level PyTorch fluency: You’ll write code that directly manipulates tensors, factorizes weight matrices, and implements custom CUDA‑compatible kernels.",
+      "tags": [
+        "machine-learning",
+        "deep-learning",
+        "lora",
+        "pytorch",
+        "cv"
+      ],
+      "scheduled_at": "2026-10-08T17:05:07Z",
+      "status": "pending"
     }
   ]
 }
