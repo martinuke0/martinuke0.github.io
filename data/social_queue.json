@@ -26717,8 +26717,9 @@
         "engineering"
       ],
       "scheduled_at": "2026-10-08T12:04:14Z",
-      "status": "posting",
-      "claimed_at": "2026-10-08T12:09:50Z"
+      "status": "posted",
+      "claimed_at": "2026-10-08T12:09:50Z",
+      "post_urn": "urn:li:share:7513934952149868545"
     }
   ]
 }
