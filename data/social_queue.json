@@ -26701,7 +26701,8 @@
         "transformers"
       ],
       "scheduled_at": "2026-10-08T08:03:07Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-10-08T08:08:39Z"
     }
   ]
 }
