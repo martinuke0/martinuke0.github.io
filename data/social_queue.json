@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-07T13:04:02Z",
+  "last_scheduled_at": "2026-10-08T04:03:12Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -26673,6 +26673,19 @@
       "status": "posted",
       "claimed_at": "2026-10-07T13:09:40Z",
       "post_urn": "urn:li:share:7513587624410853378"
+    },
+    {
+      "title": "Build a Pure‑Python Mixture‑of‑Experts Router from Scratch",
+      "url": "https://martinuke0.github.io/posts/2026-10-08-build-a-purepython-mixtureofexperts-router-from-scratch/",
+      "social_hook": "> TL;DR — This post walks you through building a pure‑Python Mixture‑of‑Experts router with top‑k gating and learned load‑balancing. You’ll get runnable code, a concrete CV project, and a clear path to production‑grade extensions.\n\nA mixture‑of‑experts (MoE) router is a pattern that appears in large‑scale systems such as Switch Transformers, GLaM, and many production ML serving pipelines. Implementing one from scratch in pure Python signals several capabilities that hiring managers look for:\n\n- Algorithmic engineering: You can translate a research paper into production‑ready code without relying on high‑level frameworks for the core logic.",
+      "tags": [
+        "python",
+        "machine-learning",
+        "systems",
+        "portfolio"
+      ],
+      "scheduled_at": "2026-10-08T04:03:12Z",
+      "status": "pending"
     }
   ]
 }
