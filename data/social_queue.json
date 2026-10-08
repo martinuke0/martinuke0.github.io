@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-08T12:04:14Z",
+  "last_scheduled_at": "2026-10-08T13:05:46Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -26720,6 +26720,20 @@
       "status": "posted",
       "claimed_at": "2026-10-08T12:09:50Z",
       "post_urn": "urn:li:share:7513934952149868545"
+    },
+    {
+      "title": "Build a User-Safety Portfolio Project: Secure Auth & Audit Logging with Go",
+      "url": "https://martinuke0.github.io/posts/2026-10-08-build-a-user-safety-portfolio-project-secure-auth-audit-logging-with-go/",
+      "social_hook": "> TL;DR — In this post we build a runnable Go-based \"safe\" project that encrypts user data, logs every action, and enforces rate-limited auth — a complete, hireable portfolio piece that signals secure-by-design competence without overengineering.\n\nBuilding a portfolio project that actually interviews well requires more than a TODO list and a README badge. Hiring managers want to see that you can ship production-adjacent code, reason about security boundaries, and add observability. This guide walks through building \"safe\", a Go command-line/service hybrid that handles user authentication, encrypted storage, and audit logging from day one. By the end you'll have a Dockerized binary, a test suite, and a clear roadmap to production hardening.\n\nHiring managers scan dozens of repos; a project that merely displays \"Hello World\" signals nothing. \"safe\" stands out because it connects three directly hireable skill clusters:",
+      "tags": [
+        "go",
+        "security",
+        "portfolio",
+        "auth",
+        "audit-logging"
+      ],
+      "scheduled_at": "2026-10-08T13:05:46Z",
+      "status": "pending"
     }
   ]
 }
