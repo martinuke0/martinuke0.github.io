@@ -26733,7 +26733,8 @@
         "audit-logging"
       ],
       "scheduled_at": "2026-10-08T13:05:46Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-10-08T13:11:26Z"
     }
   ]
 }
