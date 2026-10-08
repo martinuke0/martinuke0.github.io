@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-08T08:03:07Z",
+  "last_scheduled_at": "2026-10-08T12:04:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -26704,6 +26704,20 @@
       "status": "posted",
       "claimed_at": "2026-10-08T08:08:39Z",
       "post_urn": "urn:li:share:7513874251859247104"
+    },
+    {
+      "title": "User Safety: Safe-by-Design Patterns for Production Systems",
+      "url": "https://martinuke0.github.io/posts/2026-10-08-user-safety-safe-by-design-patterns-for-production-systems/",
+      "social_hook": "> TL;DR — User safety in production systems isn't a feature you bolt on later; it's a set of design patterns, runtime guardrails, and cultural habits that start at the API boundary and extend through the data layer. When you treat safety as a first-class concern—enforcing safe defaults, auditing every state change, and rate-limiting adversarial inputs—you reduce breach surface area, improve incident recovery time, and earn user trust. This post walks through concrete architectures, real failure modes, and tooling you can adopt today.\n\nUser safety in software begins long before a vulnerability is discovered. It starts with the assumptions baked into your architecture. The most foundational principle is deny-by-default: every endpoint, every resource, every privilege should be inaccessible unless explicitly permitted. This contrasts with the historically permissive \"power-on\" model that many legacy systems inherited.\n\nThe API gateway or ingress layer is the first point where user safety can be enforced. Consider a typical HTTP service receiving JSON payloads. Without strict schema validation, malformed or malicious data can cascade into downstream databases, caches, or other services. A concrete pattern is to validate before business logic runs.",
+      "tags": [
+        "user-safety",
+        "systems-design",
+        "reliability",
+        "security",
+        "engineering"
+      ],
+      "scheduled_at": "2026-10-08T12:04:14Z",
+      "status": "pending"
     }
   ]
 }
