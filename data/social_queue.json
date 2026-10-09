@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-08T22:05:49Z",
+  "last_scheduled_at": "2026-10-09T05:04:11Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -26768,6 +26768,20 @@
       "status": "posted",
       "claimed_at": "2026-10-08T22:11:27Z",
       "post_urn": "urn:li:share:7514086357930262528"
+    },
+    {
+      "title": "Building a Minimal Time-Series Database with Gorilla Compression",
+      "url": "https://martinuke0.github.io/posts/2026-10-09-building-a-minimal-time-series-database-with-gorilla-compression/",
+      "social_hook": "> TL;DR — This project teaches you to implement a minimal time‑series database with Gorilla compression, demonstrating storage efficiency, query speed, and systems design. It's a concrete portfolio piece that signals real database engineering skill to hiring managers.\n\nBuilding a small but production‑flavored time‑series store is a reliable way to show you understand data modeling, compression, persistence, and query planning—all skills that hiring managers look for in backend or data‑engineering roles. Unlike a generic vector index, a time‑series engine forces you to think about ordered data, timestamp semantics, and write‑heavy workloads, which are common in observability, IoT, and financial systems. In this guide you will implement a working database in Python, test it locally, and then outline a roadmap to turn the prototype into a scalable service.\n\n- Systems design – You will design a storage engine, compression layer, and query planner from scratch, showing you can think about data layout and I/O patterns.",
+      "tags": [
+        "time-series",
+        "database",
+        "compression",
+        "python",
+        "systems"
+      ],
+      "scheduled_at": "2026-10-09T05:04:11Z",
+      "status": "pending"
     }
   ]
 }
