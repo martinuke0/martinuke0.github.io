@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-09T21:03:54Z",
+  "last_scheduled_at": "2026-10-09T23:03:44Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -26864,6 +26864,20 @@
       "status": "posted",
       "claimed_at": "2026-10-09T21:09:27Z",
       "post_urn": "urn:li:share:7514433136752246784"
+    },
+    {
+      "title": "Deep Dive into Consul's Gossip Protocol for Resilient Service Discovery",
+      "url": "https://martinuke0.github.io/posts/2026-10-09-deep-dive-into-consul/",
+      "social_hook": "> TL;DR — Consul’s gossip protocol spreads membership and health state via rumor-mongering and anti-entropy, achieving eventually consistent service discovery without a single point of failure. In practice, it tolerates network partitions, scales to thousands of nodes, and integrates with Raft for strong metadata consistency where it matters.\n\nConsul has become a de facto standard for service discovery in dynamic, multi-cloud environments. At its heart lies a gossip protocol that keeps thousands of nodes synchronized about who’s alive, what services exist, and where they’re reachable. Unlike traditional client-server approaches, gossip propagates state in a decentralized, fault-tolerant manner—making it resilient exactly when you need it most.\n\nConsul operates as a distributed control plane for modern infrastructure. Its service-discovery layer solves a hard problem: how do services find each other when IP addresses change, nodes spin up and down by the minute, and networks span multiple regions? The answer lies in a combination of a gossip-based membership layer, a key-value store for metadata, and a Raft cluster for coordination of higher‑level state.",
+      "tags": [
+        "consul",
+        "gossip-protocol",
+        "service-discovery",
+        "distributed-systems",
+        "hashicorp"
+      ],
+      "scheduled_at": "2026-10-09T23:03:44Z",
+      "status": "pending"
     }
   ]
 }
