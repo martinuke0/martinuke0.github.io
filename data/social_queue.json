@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-09T07:06:38Z",
+  "last_scheduled_at": "2026-10-09T08:06:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -26800,6 +26800,20 @@
       "status": "posted",
       "claimed_at": "2026-10-09T07:12:13Z",
       "post_urn": "urn:li:share:7514222443524284416"
+    },
+    {
+      "title": "Architecting Real-time Data Pipelines with Materialize: A Streaming SQL Deep Dive",
+      "url": "https://martinuke0.github.io/posts/2026-10-09-architecting-real-time-data-pipelines-with-materialize-a-streaming-sql-deep-dive/",
+      "social_hook": "> TL;DR — Materialize’s incremental view maintenance turns traditional ETL on its head, delivering sub-second latency for real-time SQL queries over Kafka, Postgres, and other sources. By maintaining materialized views incrementally and push-based, it eliminates batch windows and complex stream-processing code. In this deep dive, we’ll walk through architecture patterns, production tactics, and concrete pitfalls when wiring Materialize into existing data pipelines.\n\nReal-time data pipelines have long been the domain of custom stream processors, but the rise of streaming SQL is changing the calculus. Materialize offers a declarative approach: define views over source streams, and it automatically maintains results incrementally. For engineering teams tired of managing Kafka consumer offsets, windowing logic, and state reconciliation, this represents a meaningful shift—one that trades some flexibility for dramatically reduced operational overhead and millisecond-level query responsiveness. In practice, this means you can write standard SQL against live data streams and get consistent, up-to-date results without building or maintaining a bespoke streaming backend.\n\nAt the heart of Materialize is an incremental view maintenance engine built on differential data flow (DDF). Traditional databases recompute views from scratch on each query, or rely on incremental algorithms that are complex to implement correctly. Materialize’s DFF layer tracks changes at the source level—inserts, updates, deletes—and propagates only the minimal deltas needed to keep each materialized view consistent. This means a `SELECT * FROM sales_by_region` query over a Kafka-backed source returns fresh results as soon as a new message arrives, without re-reading the entire topic.",
+      "tags": [
+        "materialize",
+        "streaming-sql",
+        "real-time-data-pipelines",
+        "data-engineering",
+        "apache-kafka"
+      ],
+      "scheduled_at": "2026-10-09T08:06:38Z",
+      "status": "pending"
     }
   ]
 }
