@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-09T17:05:06Z",
+  "last_scheduled_at": "2026-10-09T18:05:06Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -26832,6 +26832,20 @@
       "status": "posted",
       "claimed_at": "2026-10-09T17:10:31Z",
       "post_urn": "urn:li:share:7514373008145342464"
+    },
+    {
+      "title": "User Safety in Production Systems: Safe-by-Design Patterns for Engineers",
+      "url": "https://martinuke0.github.io/posts/2026-10-09-user-safety-in-production-systems-safe-by-design-patterns-for-engineers/",
+      "social_hook": "> TL;DR — User safety in production isn't a feature; it's a system property. From atomic input validation to cross-service audit trails, safe-by-design patterns in Kafka, Postgres, and Airflow prevent data corruption, injection, and privacy leaks at scale. Teams that embed guardrails into architecture, not just code, ship faster and keep users' trust intact.\n\nWhen we talk about \"user safety\" in software, we usually mean three interlocked properties: data integrity, privacy guarantees, and operational predictability. In a monolith, these are relatively straightforward—database constraints, session management, and error handling suffice. Distributed systems amplify risk because a single unsafe write can cascade across services, replicas, and time zones before any single component sees it.\n\n1. Input-layer safety — Rejecting or sanitizing data before it enters any processing path. This includes schema validation, rate limiting, and injection prevention.",
+      "tags": [
+        "security",
+        "systems-design",
+        "distributed-systems",
+        "postgres",
+        "kafka"
+      ],
+      "scheduled_at": "2026-10-09T18:05:06Z",
+      "status": "pending"
     }
   ]
 }
