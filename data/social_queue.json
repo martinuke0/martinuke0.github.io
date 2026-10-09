@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-09T05:04:11Z",
+  "last_scheduled_at": "2026-10-09T07:06:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -26784,6 +26784,20 @@
       "status": "posted",
       "claimed_at": "2026-10-09T05:09:57Z",
       "post_urn": "urn:li:share:7514191671438430208"
+    },
+    {
+      "title": "Implementing Consistent Bulk Operations Across Sharded MongoDB Clusters: A Deep Dive into Two-Phase Commits",
+      "url": "https://martinuke0.github.io/posts/2026-10-09-implementing-consistent-bulk-operations-across-sharded-mongodb-clusters-a-deep-d/",
+      "social_hook": "> TL;DR — Across sharded MongoDB clusters, bulk operations that span multiple documents or collections cannot rely on single-document atomicity. A two-phase commit pattern—using a coordination phase to prepare participants and a commit phase to finalize—ensures linearizable consistency without permanently sacrificing cluster throughput. This post walks through the pattern, practical implementation trade-offs, and production-ready alternatives when a full XA-style commit isn't feasible.\n\nSharding is the primary mechanism MongoDB uses to scale beyond the capacity of a single replica set. By partitioning data across multiple shards, each governed by its own replica set, you gain horizontal throughput and storage capacity. However, this architectural benefit comes with a significant consistency cost: operations that touch documents on different shards lose the atomic guarantee that a single-document write enjoys. If your workload requires bulk updates across sharded collections—or even across multiple documents on the same shard but outside a transaction boundary—you need a strategy to preserve consistency without grinding the cluster to a halt. The two-phase commit (2PC) pattern, borrowed from classic distributed systems, offers a structured way to coordinate atomicity across independent participants. In the following sections, we'll dissect why the default bulk story breaks, how 2PC re‑establishes it, and how to implement it pragmatically within the MongoDB ecosystem.\n\nIn a single-node MongoDB deployment, a `db.collection.insertMany()` or `db.collection.updateMany()` call is atomic across the documents it touches, provided they all reside in the same collection. The WiredTiger storage engine serializes the write operation on the primary, and the transaction log reflects a single, all-or-nothing change. Sharding disrupts this model immediately.",
+      "tags": [
+        "mongodb",
+        "distributed-systems",
+        "two-phase-commit",
+        "sharding",
+        "bulk-operations"
+      ],
+      "scheduled_at": "2026-10-09T07:06:38Z",
+      "status": "pending"
     }
   ]
 }
