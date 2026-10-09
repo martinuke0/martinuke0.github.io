@@ -26797,8 +26797,9 @@
         "bulk-operations"
       ],
       "scheduled_at": "2026-10-09T07:06:38Z",
-      "status": "posting",
-      "claimed_at": "2026-10-09T07:12:13Z"
+      "status": "posted",
+      "claimed_at": "2026-10-09T07:12:13Z",
+      "post_urn": "urn:li:share:7514222443524284416"
     }
   ]
 }
