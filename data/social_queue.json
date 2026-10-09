@@ -26877,8 +26877,9 @@
         "hashicorp"
       ],
       "scheduled_at": "2026-10-09T23:03:44Z",
-      "status": "posting",
-      "claimed_at": "2026-10-09T23:09:10Z"
+      "status": "posted",
+      "claimed_at": "2026-10-09T23:09:10Z",
+      "post_urn": "urn:li:share:7514463266698518529"
     }
   ]
 }
