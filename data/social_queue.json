@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-09T08:06:38Z",
+  "last_scheduled_at": "2026-10-09T17:05:06Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -26816,6 +26816,20 @@
       "status": "posted",
       "claimed_at": "2026-10-09T08:11:10Z",
       "post_urn": "urn:li:share:7514237276936380416"
+    },
+    {
+      "title": "Dynamic Sliding-Window Context Manager for LLM Prompt Histories",
+      "url": "https://martinuke0.github.io/posts/2026-10-09-dynamic-sliding-window-context-manager-for-llm-prompt-histories/",
+      "social_hook": "> TL;DR — In this post we build a from‑scratch Python context manager that scores each prompt token by attention weight, prunes the least‑salient tokens, and recompresses the remaining history so it always fits within any LLM context window, ready for immediate use.\n\nBuilding a portfolio project that demonstrates genuine systems skill is rare. Most candidates can claim “I used LangChain” or “I tweaked a prompt,” but few can show a self‑contained component that actively manages resource constraints while preserving informational value. A dynamic sliding‑window context manager that scores tokens by saliency, trims the history, and recompresses it into a bounded window proves you can design algorithms, optimise for real‑world constraints, and ship production‑ready code. Hiring managers see concrete evidence of Python proficiency, algorithmic thinking, and familiarity with LLM infrastructure—all without relying on opaque third‑party abstractions.\n\n- Algorithmic design: Implementing a saliency‑based pruning algorithm forces you to think about ranking, thresholds, and trade‑offs between context length and information retention.",
+      "tags": [
+        "python",
+        "llm",
+        "prompt-engineering",
+        "context-management",
+        "salient"
+      ],
+      "scheduled_at": "2026-10-09T17:05:06Z",
+      "status": "pending"
     }
   ]
 }
