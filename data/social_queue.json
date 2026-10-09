@@ -26845,8 +26845,9 @@
         "kafka"
       ],
       "scheduled_at": "2026-10-09T18:05:06Z",
-      "status": "posting",
-      "claimed_at": "2026-10-09T18:09:38Z"
+      "status": "posted",
+      "claimed_at": "2026-10-09T18:09:38Z",
+      "post_urn": "urn:li:share:7514387884204777472"
     }
   ]
 }
