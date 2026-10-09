@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-09T18:05:06Z",
+  "last_scheduled_at": "2026-10-09T21:03:54Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -26848,6 +26848,20 @@
       "status": "posted",
       "claimed_at": "2026-10-09T18:09:38Z",
       "post_urn": "urn:li:share:7514387884204777472"
+    },
+    {
+      "title": "From-Scratch Mini GPT Training Loop with Gradient Checkpointing, Mixed Precision, and a Custom CUDA‑Style Optimizer",
+      "url": "https://martinuke0.github.io/posts/2026-10-09-from-scratch-mini-gpt-training-loop-with-gradient-checkpointing-mixed-precision/",
+      "social_hook": "> TL;DR — In this post we build a from‑scratch mini GPT training loop in pure Python and NumPy, adding gradient checkpointing to trim memory, mixed‑precision (FP16) for speed, and a custom kernel‑free optimizer that mirrors Adam’s behaviour without any CUDA kernels. The result is a runnable, educational pipeline you can extend, profile, and cite as a concrete systems‑level project.\n\nBuilding a tiny GPT‑style model from the ground up is more than a coding exercise; it’s a signal to hiring managers that you understand the full stack—from algorithmic details to memory‑aware implementation and low‑level optimization. By working with only NumPy (and no deep‑learning framework), you demonstrate fluency in tensor algebra, awareness of production‑grade concerns such as gradient checkpointing and mixed‑precision, and the ability to roll your own optimizer that works without a CUDA kernel. The project is compact enough to finish in a weekend, yet each component can be swapped out or scaled up, making it a versatile talking point for roles ranging from ML engineer to systems architect.\n\n- Memory‑aware training: Gradient checkpointing shows you can trade compute for memory, a technique used in large‑scale GPT‑3/‑4 training pipelines.",
+      "tags": [
+        "deep-learning",
+        "numpy",
+        "cuda",
+        "portfolio",
+        "optimization"
+      ],
+      "scheduled_at": "2026-10-09T21:03:54Z",
+      "status": "pending"
     }
   ]
 }
