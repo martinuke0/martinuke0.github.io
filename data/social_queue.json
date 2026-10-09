@@ -26877,7 +26877,8 @@
         "hashicorp"
       ],
       "scheduled_at": "2026-10-09T23:03:44Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-10-09T23:09:10Z"
     }
   ]
 }
