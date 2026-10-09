@@ -26797,7 +26797,8 @@
         "bulk-operations"
       ],
       "scheduled_at": "2026-10-09T07:06:38Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-10-09T07:12:13Z"
     }
   ]
 }
