@@ -26845,7 +26845,8 @@
         "kafka"
       ],
       "scheduled_at": "2026-10-09T18:05:06Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-10-09T18:09:38Z"
     }
   ]
 }
