@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-10T17:02:57Z",
+  "last_scheduled_at": "2026-10-10T21:02:36Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -26929,6 +26929,21 @@
       "status": "posted",
       "claimed_at": "2026-10-10T17:08:31Z",
       "post_urn": "urn:li:share:7514734895118594048"
+    },
+    {
+      "title": "Build an Attention Block from Scratch: A Portfolio Project for Systems Engineers",
+      "url": "https://martinuke0.github.io/posts/2026-10-10-build-an-attention-block-from-scratch-a-portfolio-project-for-systems-engineers/",
+      "social_hook": "> TL;DR — This post walks you through building a transformer attention block from scratch in Python, packaging it as a FastAPI service, and adding production-grade extensions like horizontal scaling and observability. By the end, you have a portfolio project that demonstrates both ML implementation and systems engineering skills, appealing to hiring managers in AI infrastructure roles.\n\nBuilding a portfolio project that catches the eye of hiring managers requires more than a tutorial follow-along. It needs to showcase systems thinking — the ability to take a core algorithm, turn it into a runnable service, and then harden it for production. In this guide, you’ll build an attention block (the core of modern transformers) from the ground up, wrap it in a lightweight API, and then extend it with the kind of scalability and resilience metrics that senior engineers care about. We’ll use Python, PyTorch, FastAPI, Docker, and Kubernetes — all tools you’ll find in real AI infrastructure teams.\n\nMost candidates list “transformer” or “attention” on their résumé, but few can show the actual implementation or explain how it runs in a serving environment. This project demonstrates three layers of skill that hiring managers actively seek:",
+      "tags": [
+        "machine-learning",
+        "systems",
+        "portfolio",
+        "transformer",
+        "attention",
+        "python"
+      ],
+      "scheduled_at": "2026-10-10T21:02:36Z",
+      "status": "pending"
     }
   ]
 }
