@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-10T00:03:44Z",
+  "last_scheduled_at": "2026-10-10T02:04:54Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -26897,6 +26897,20 @@
       "status": "posted",
       "claimed_at": "2026-10-10T00:08:47Z",
       "post_urn": "urn:li:share:7514478267077263360"
+    },
+    {
+      "title": "Architecting a Lock-Free Scheduler for High-Throughput Actor Systems in Rust",
+      "url": "https://martinuke0.github.io/posts/2026-10-10-architecting-a-lock-free-scheduler-for-high-throughput-actor-systems-in-rust/",
+      "social_hook": "> TL;DR — Designing a lock-free scheduler for actor systems in Rust trades blocking waits for atomic work-stealing and channel-based dispatch, but naive implementations risk livelock, cache-coherency thrashing, and the ABA problem. This post walks through the core patterns, benchmark-backed pitfalls, and production-grade techniques for sustaining 500k+ messages/sec on commodity hardware.\n\nThe actor model has long been the go-to abstraction for concurrent systems that need to scale across cores without getting tangled in mutex-induced deadlocks. When throughput targets climb into the hundreds of thousands of messages per second, however, traditional blocking schedulers become bottlenecks. In Rust, the combination of zero-cost abstractions, a strict type system, and a growing ecosystem of actor runtimes makes it possible to build a lock-free scheduler that keeps actors moving, data flowing, and CPU caches happy. In this article, we’ll explore the architectural patterns that make this work, the pitfalls that catch even experienced Rust developers, and a concrete implementation sketch you can adapt for your own high-throughput system.\n\nActors encapsulate state and behavior, communicating exclusively via asynchronous messages. This isolation eliminates data races by construction, but it also introduces a scheduling problem: who decides which actor gets to process its next message, and when? In small systems, a single round-robin loop suffices. In systems targeting 100k+ messages/sec across multiple cores, you need a scheduler that minimizes contention, avoids unnecessary wakeups, and keeps work local to the core executing it.",
+      "tags": [
+        "rust",
+        "actor-model",
+        "lock-free",
+        "concurrency",
+        "scheduler"
+      ],
+      "scheduled_at": "2026-10-10T02:04:54Z",
+      "status": "pending"
     }
   ]
 }
