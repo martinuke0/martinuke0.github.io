@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-09T23:03:44Z",
+  "last_scheduled_at": "2026-10-10T00:03:44Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -26880,6 +26880,21 @@
       "status": "posted",
       "claimed_at": "2026-10-09T23:09:10Z",
       "post_urn": "urn:li:share:7514463266698518529"
+    },
+    {
+      "title": "Building a Pure Python HNSW Vector Index with Disk Persistence",
+      "url": "https://martinuke0.github.io/posts/2026-10-10-building-a-pure-python-hnsw-vector-index-with-disk-persistence/",
+      "social_hook": "> TL;DR — This post walks you through building a fully functional HNSW (Hierarchical Navigable Small World) vector index in pure Python, complete with incremental insertion and disk persistence. You will walk away with a runnable project that demonstrates graph algorithms, probabilistic data structures, and storage engineering—skills that directly translate to backend, ML infrastructure, and database roles.\n\nVector similarity search is the backbone of modern retrieval-augmented generation, recommendation engines, and anomaly detection. While libraries like FAISS or Annoy hide the complexity, hiring managers often look for candidates who can reason about the underlying data structures. Building an HNSW index from scratch in Python forces you to confront the same trade-offs—memory layout, graph connectivity, and disk I/O—that engineers face when scaling vector databases at companies like Pinecone, Weaviate, or Qdrant. In this guide, you will implement a minimal but production-flavored HNSW index that supports incremental insertion, nearest-neighbor search, and pickle-based persistence, giving you a concrete artifact to discuss in interviews.\n\nThis project signals several high-value competencies that recruiters actively seek:",
+      "tags": [
+        "vector-search",
+        "hnsw",
+        "python",
+        "systems",
+        "machine-learning",
+        "databases"
+      ],
+      "scheduled_at": "2026-10-10T00:03:44Z",
+      "status": "pending"
     }
   ]
 }
