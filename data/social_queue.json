@@ -26894,8 +26894,9 @@
         "databases"
       ],
       "scheduled_at": "2026-10-10T00:03:44Z",
-      "status": "posting",
-      "claimed_at": "2026-10-10T00:08:47Z"
+      "status": "posted",
+      "claimed_at": "2026-10-10T00:08:47Z",
+      "post_urn": "urn:li:share:7514478267077263360"
     }
   ]
 }
