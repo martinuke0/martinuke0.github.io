@@ -26894,7 +26894,8 @@
         "databases"
       ],
       "scheduled_at": "2026-10-10T00:03:44Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-10-10T00:08:47Z"
     }
   ]
 }
