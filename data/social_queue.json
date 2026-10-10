@@ -26910,7 +26910,8 @@
         "scheduler"
       ],
       "scheduled_at": "2026-10-10T02:04:54Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-10-10T02:10:32Z"
     }
   ]
 }
