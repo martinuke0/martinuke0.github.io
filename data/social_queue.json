@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-10T02:04:54Z",
+  "last_scheduled_at": "2026-10-10T17:02:57Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -26913,6 +26913,20 @@
       "status": "posted",
       "claimed_at": "2026-10-10T02:10:32Z",
       "post_urn": "urn:li:share:7514508907101257728"
+    },
+    {
+      "title": "Building a Self-Supervised Embedding Adapter for Arbitrary Vectors",
+      "url": "https://martinuke0.github.io/posts/2026-10-10-building-a-self-supervised-embedding-adapter-for-arbitrary-vectors/",
+      "social_hook": "> TL;DR — This project implements a self-supervised embedding adapter that learns a linear projection preserving cosine similarity across arbitrary input embeddings. It demonstrates end‑to‑end model design, training, evaluation, and scaling considerations, making it a concrete portfolio piece for ML engineering roles.\n\nIn many production systems you receive embeddings from a third‑party model (e.g., a sentence transformer, a vision backbone, or a graph neural network) and need to compare them efficiently. The raw vectors often live in a space where Euclidean distance does not reflect semantic similarity. A self‑supervised adapter can learn a mapping that aligns the geometry of the source space with a target similarity metric, without requiring labeled pairs. This post walks you through building such an adapter from scratch, with runnable PyTorch code, and shows how to evolve it into a production‑grade component.\n\n- Self‑supervised learning – you design a contrastive loss (NT‑Xent) that teaches the adapter to preserve similarity, a skill that appears in modern representation learning pipelines.",
+      "tags": [
+        "self-supervised",
+        "embeddings",
+        "pytorch",
+        "machine-learning",
+        "portfolio"
+      ],
+      "scheduled_at": "2026-10-10T17:02:57Z",
+      "status": "pending"
     }
   ]
 }
