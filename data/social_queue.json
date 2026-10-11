@@ -26976,7 +26976,8 @@
         "Production"
       ],
       "scheduled_at": "2026-10-11T06:03:15Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-10-11T06:08:51Z"
     }
   ]
 }
