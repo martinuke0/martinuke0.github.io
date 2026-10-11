@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-11T02:01:42Z",
+  "last_scheduled_at": "2026-10-11T06:03:15Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -26962,6 +26962,21 @@
       "status": "posted",
       "claimed_at": "2026-10-11T02:07:23Z",
       "post_urn": "urn:li:share:7514870502700736512"
+    },
+    {
+      "title": "User Safety: Engineering Patterns for Building Trustworthy Systems",
+      "url": "https://martinuke0.github.io/posts/2026-10-11-user-safety-engineering-patterns-for-building-trustworthy-systems/",
+      "social_hook": "> TL;DR — User safety is not a bolt-on feature but a foundational design principle. By integrating threat modeling, zero trust, privacy-by-design, and continuous monitoring into the architecture, engineering teams can build systems that protect users even under adversarial conditions. Real-world metrics and incident response loops turn safety from a vague goal into a measurable, improvable discipline.\n\nUser safety has shifted from a compliance checkbox to a competitive differentiator. As engineers, we’re no longer asked whether a system is safe, but how we prove it under load, under attack, and under the scrutiny of users who increasingly value their digital autonomy. This post explores the engineering patterns that turn user safety from an aspiration into an architectural constraint — with concrete examples from production systems you already know.\n\nSafety cannot be retrofitted. It must be designed into the system the same way scalability or durability is. The first step is to stop treating safety as a separate “phase” and start treating it as a non‑negotiable property of every component, from the database to the UI.",
+      "tags": [
+        "User Safety",
+        "Security",
+        "Privacy",
+        "Architecture",
+        "Engineering",
+        "Production"
+      ],
+      "scheduled_at": "2026-10-11T06:03:15Z",
+      "status": "pending"
     }
   ]
 }
