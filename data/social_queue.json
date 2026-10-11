@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-11T06:03:15Z",
+  "last_scheduled_at": "2026-10-11T20:03:36Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -26979,6 +26979,20 @@
       "status": "posted",
       "claimed_at": "2026-10-11T06:08:51Z",
       "post_urn": "urn:li:share:7514931272268525568"
+    },
+    {
+      "title": "Build a ColBERT‑Style Late‑Interaction Retriever in Pure Python",
+      "url": "https://martinuke0.github.io/posts/2026-10-11-build-a-colbertstyle-lateinteraction-retriever-in-pure-python/",
+      "social_hook": "> TL;DR — In this post we build a fully functional ColBERT‑style late‑interaction retriever in pure Python, using token‑level max‑sim scoring and a PLAID‑style inverted index. The code is runnable, lightweight, and extensible, giving you a concrete project that signals retrieval expertise to hiring managers.\n\nPortfolio projects that demonstrate deep systems knowledge are rare. This guide walks you through building a ColBERT‑style late‑interaction retriever from the ground up, using only the Python standard library and a few well‑known packages. By the end you’ll have a working search backend, a test harness, and a clear roadmap to production‑grade features.\n\nHiring managers for search‑engine, ML‑infra, and data‑engineer roles look for three concrete signals: (1) algorithmic implementation – you can translate a research paper into production code; (2) systems awareness – you understand index structures, latency budgets, and memory trade‑offs; (3) engineering rigor – you write testable, modular Python that can be shipped or extended. A ColBERT‑style retriever ticks all three: you implement token‑level max‑sim scoring, a PLAID‑style inverted index, and a ranking loop—all in pure Python. The project also lets you discuss trade‑offs between index size and query latency, and it can be benchmarked against established toolkits such as Pyserini, making it a tangible talking point in interviews.",
+      "tags": [
+        "python",
+        "information-retrieval",
+        "colbert",
+        "inverted-index",
+        "machine-learning"
+      ],
+      "scheduled_at": "2026-10-11T20:03:36Z",
+      "status": "pending"
     }
   ]
 }
