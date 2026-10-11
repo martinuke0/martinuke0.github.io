@@ -26959,7 +26959,8 @@
         "systems"
       ],
       "scheduled_at": "2026-10-11T02:01:42Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-10-11T02:07:23Z"
     }
   ]
 }
