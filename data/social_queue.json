@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-10T21:02:36Z",
+  "last_scheduled_at": "2026-10-11T02:01:42Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -26946,6 +26946,20 @@
       "status": "posted",
       "claimed_at": "2026-10-10T21:08:04Z",
       "post_urn": "urn:li:share:7514795174112374784"
+    },
+    {
+      "title": "From Scratch Decoding: Building a Pure-Python Sampler for Transformer Logits",
+      "url": "https://martinuke0.github.io/posts/2026-10-11-from-scratch-decoding-building-a-pure-python-sampler-for-transformer-logits/",
+      "social_hook": "> TL;DR — Building a decoding sampler from scratch in pure Python demonstrates algorithmic understanding and systems engineering skills that hiring managers value. This project implements temperature scaling, top-k, top-p, and typical-p decoding, providing a foundation for production-oriented extensions.\n\nThis project signals several concrete skills that recruiters and hiring managers look for in senior engineering roles:\n\n- Algorithmic implementation from first principles: Writing temperature scaling, top-k, top-p, and typical-p decoding without relying on frameworks like Hugging Face or PyTorch shows you understand the mathematical and probabilistic foundations, not just API calls.",
+      "tags": [
+        "python",
+        "machine-learning",
+        "transformers",
+        "sampling",
+        "systems"
+      ],
+      "scheduled_at": "2026-10-11T02:01:42Z",
+      "status": "pending"
     }
   ]
 }
