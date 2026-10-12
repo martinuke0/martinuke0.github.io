@@ -27024,7 +27024,8 @@
         "python"
       ],
       "scheduled_at": "2026-10-12T08:02:34Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-10-12T08:08:16Z"
     }
   ]
 }
