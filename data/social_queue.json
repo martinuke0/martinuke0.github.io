@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-12T20:02:44Z",
+  "last_scheduled_at": "2026-10-12T22:02:01Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -27059,6 +27059,20 @@
       "status": "posted",
       "claimed_at": "2026-10-12T20:07:49Z",
       "post_urn": "urn:li:share:7515504789611323392"
+    },
+    {
+      "title": "From‑Scratch Speculative Decoding Engine in Pure Python",
+      "url": "https://martinuke0.github.io/posts/2026-10-12-fromscratch-speculative-decoding-engine-in-pure-python/",
+      "social_hook": "> TL;DR — Speculative decoding with draft‑then‑verify sampling, temperature, top‑k and nucleus (top‑p) can accelerate text generation by 2‑3× while keeping output quality identical, and this post gives a complete, runnable Python implementation using only numpy.\n\nBuilding a fast LLM text generator doesn’t require a GPU‑accelerated framework. With just numpy you can prototype a speculative decoder that pairs a tiny “draft” model with a larger “verify” model, applies temperature scaling, top‑k and nucleus (top‑p) filtering, and reliably speeds up token production. This project signals fluency in low‑level tensor manipulation, algorithm design, and production‑ready engineering patterns—exactly the kind of hands‑on signal hiring managers look for on a CV.\n\nEmployers scanning side projects want to see three things: depth of technical knowledge, ability to ship working code, and awareness of production concerns. A speculative decoder ticks all three:",
+      "tags": [
+        "python",
+        "machine-learning",
+        "speculative-decoding",
+        "side-project",
+        "numpy"
+      ],
+      "scheduled_at": "2026-10-12T22:02:01Z",
+      "status": "pending"
     }
   ]
 }
