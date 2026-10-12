@@ -27040,8 +27040,9 @@
         "cv-portfolio"
       ],
       "scheduled_at": "2026-10-12T19:02:44Z",
-      "status": "posting",
-      "claimed_at": "2026-10-12T19:08:29Z"
+      "status": "posted",
+      "claimed_at": "2026-10-12T19:08:29Z",
+      "post_urn": "urn:li:share:7515489860393193472"
     }
   ]
 }
