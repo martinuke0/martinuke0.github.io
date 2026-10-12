@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-12T08:02:34Z",
+  "last_scheduled_at": "2026-10-12T19:02:44Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -27027,6 +27027,20 @@
       "status": "posted",
       "claimed_at": "2026-10-12T08:08:16Z",
       "post_urn": "urn:li:share:7515323705095487488"
+    },
+    {
+      "title": "Pure Python GGUF Weight Loader: Streaming Quantized Tensors via Memory-Mapped Files",
+      "url": "https://martinuke0.github.io/posts/2026-10-12-pure-python-gguf-weight-loader-streaming-quantized-tensors-via-memory-mapped-fil/",
+      "social_hook": "> TL;DR — This post walks you through building a pure Python loader for GGUF quantized model weights that streams tensors via memory‑mapped files. You’ll end up with a reusable module, ready-to-run scripts, and a concrete portfolio piece that signals low‑level systems competence to hiring managers.\n\nA portfolio project that touches real system‑level concerns—file I/O, memory mapping, quantized tensor formats, and streaming pipelines—immediately differentiates you from candidates who only showcase high‑level Python scripts. Recruiters scanning LinkedIn see:\n\n- Familiarity with production model formats (GGUF, GGML) that power local LLMs on CPUs and Apple Silicon.",
+      "tags": [
+        "python",
+        "gguf",
+        "quantization",
+        "memory-mapped",
+        "cv-portfolio"
+      ],
+      "scheduled_at": "2026-10-12T19:02:44Z",
+      "status": "pending"
     }
   ]
 }
