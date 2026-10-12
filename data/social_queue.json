@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-12T19:02:44Z",
+  "last_scheduled_at": "2026-10-12T20:02:44Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -27043,6 +27043,20 @@
       "status": "posted",
       "claimed_at": "2026-10-12T19:08:29Z",
       "post_urn": "urn:li:share:7515489860393193472"
+    },
+    {
+      "title": "Lazy Loading LLM Weights with Safetensors, Async Prefetch, and Checksum Verification",
+      "url": "https://martinuke0.github.io/posts/2026-10-12-lazy-loading-llm-weights-with-safetensors-async-prefetch-and-checksum-verificati/",
+      "social_hook": "> TL;DR — You will build a Python library that loads large LLM weights on demand from safetensors files, using asynchronous prefetching and SHA‑256 checksum verification. The implementation showcases concrete skills in memory management, concurrency, and data integrity, making it a strong portfolio piece for systems or ML engineering roles.\n\nThe rise of multi‑gigabyte language models has turned weight loading from a simple `torch.load` call into a systems problem. Naïve loading can exhaust RAM, stall training pipelines, and hide corrupted tensors behind opaque runtime errors. This post walks you through a hands‑on project that solves these issues: a safetensors‑based lazy weight loader with asynchronous prefetch and checksum verification. By the end you will have a runnable, testable codebase that demonstrates real‑world engineering chops—exactly the kind of artifact that catches a hiring manager’s eye on LinkedIn.\n\n- Explicit systems skills – you will implement memory‑mapped file access, background I/O, and cryptographic integrity checks, all core competencies for senior infrastructure or ML platform roles.",
+      "tags": [
+        "safetensors",
+        "llm",
+        "python",
+        "asyncio",
+        "systems"
+      ],
+      "scheduled_at": "2026-10-12T20:02:44Z",
+      "status": "pending"
     }
   ]
 }
