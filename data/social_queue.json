@@ -27040,7 +27040,8 @@
         "cv-portfolio"
       ],
       "scheduled_at": "2026-10-12T19:02:44Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-10-12T19:08:29Z"
     }
   ]
 }
