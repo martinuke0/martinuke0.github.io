@@ -27008,8 +27008,9 @@
         "postgres"
       ],
       "scheduled_at": "2026-10-12T04:03:09Z",
-      "status": "posting",
-      "claimed_at": "2026-10-12T04:08:40Z"
+      "status": "posted",
+      "claimed_at": "2026-10-12T04:08:40Z",
+      "post_urn": "urn:li:share:7515263413418283008"
     }
   ]
 }
