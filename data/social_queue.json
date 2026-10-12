@@ -27008,7 +27008,8 @@
         "postgres"
       ],
       "scheduled_at": "2026-10-12T04:03:09Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-10-12T04:08:40Z"
     }
   ]
 }
