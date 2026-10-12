@@ -27072,7 +27072,8 @@
         "numpy"
       ],
       "scheduled_at": "2026-10-12T22:02:01Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-10-12T22:07:31Z"
     }
   ]
 }
