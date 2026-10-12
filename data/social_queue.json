@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-12T04:03:09Z",
+  "last_scheduled_at": "2026-10-12T08:02:34Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -27011,6 +27011,20 @@
       "status": "posted",
       "claimed_at": "2026-10-12T04:08:40Z",
       "post_urn": "urn:li:share:7515263413418283008"
+    },
+    {
+      "title": "Building a User Safety Service for Your Portfolio",
+      "url": "https://martinuke0.github.io/posts/2026-10-12-building-a-user-safety-service-for-your-portfolio/",
+      "social_hook": "> TL;DR — This post walks you through building a user safety microservice in Python that validates user profiles, enforces content policies, and exposes a clean REST API. By the end you’ll have a runnable project that demonstrates API design, data validation, and production‑ready patterns—exactly what hiring managers look for.\n\nIn a competitive job market, a side project needs to do more than showcase syntax; it must signal that you understand how software behaves in production. A user safety service is an ideal vehicle because it touches on API design, data validation, policy enforcement, and scalability—all skills that recur in senior engineering interviews.\n\n- End‑to‑end service development – you ship a complete HTTP API, from request parsing to response formatting, which proves you can own a feature from spec to deployment.",
+      "tags": [
+        "portfolio",
+        "systems",
+        "safety",
+        "fastapi",
+        "python"
+      ],
+      "scheduled_at": "2026-10-12T08:02:34Z",
+      "status": "pending"
     }
   ]
 }
