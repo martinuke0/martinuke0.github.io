@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-11T20:03:36Z",
+  "last_scheduled_at": "2026-10-12T04:03:09Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -26995,6 +26995,20 @@
       "status": "posted",
       "claimed_at": "2026-10-11T20:09:13Z",
       "post_urn": "urn:li:share:7515142753878564864"
+    },
+    {
+      "title": "Hands‑On: Building a User‑Safety Portfolio Project with Safe",
+      "url": "https://martinuke0.github.io/posts/2026-10-12-handson-building-a-usersafety-portfolio-project-with-safe/",
+      "social_hook": "> TL;DR — In this post we’ll build a fully‑functional user‑safety tracking API in Go, persist incidents to PostgreSQL, containerise it with Docker, and add health checks, metrics and basic fault‑tolerance. The result is a reproducible, hire‑able side‑project that showcases production‑grade patterns.\n\nBuilding a tangible, end‑to‑end service is one of the fastest ways to signal to hiring managers that you can ship production‑grade code. In this guide you’ll create “safe”, a minimal yet complete user‑safety incident tracker that stores reports, validates input, exposes a REST API, and ships as a self‑contained Docker image. Along the way you’ll practice API design, persistence, observability, and fault‑tolerance patterns that appear in everyday backend work.\n\nHiring managers for backend, DevOps, and SRE roles look for concrete evidence that you can move from idea to running service. safe demonstrates several signal‑rich skills:",
+      "tags": [
+        "user-safety",
+        "portfolio",
+        "side-project",
+        "go",
+        "postgres"
+      ],
+      "scheduled_at": "2026-10-12T04:03:09Z",
+      "status": "pending"
     }
   ]
 }
