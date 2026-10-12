@@ -27056,8 +27056,9 @@
         "systems"
       ],
       "scheduled_at": "2026-10-12T20:02:44Z",
-      "status": "posting",
-      "claimed_at": "2026-10-12T20:07:49Z"
+      "status": "posted",
+      "claimed_at": "2026-10-12T20:07:49Z",
+      "post_urn": "urn:li:share:7515504789611323392"
     }
   ]
 }
