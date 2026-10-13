@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-13T10:02:55Z",
+  "last_scheduled_at": "2026-10-13T13:04:40Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -27124,6 +27124,20 @@
       "status": "posted",
       "claimed_at": "2026-10-13T10:08:31Z",
       "post_urn": "urn:li:share:7515716359410974721"
+    },
+    {
+      "title": "Mastering Bazel: Scalable Reproducible Build Systems for Modern Development",
+      "url": "https://martinuke0.github.io/posts/2026-10-13-mastering-bazel-scalable-reproducible-build-systems-for-modern-development/",
+      "social_hook": "> TL;DR — Bazel provides a deterministic, cache‑able build graph that works across languages and repositories, enabling fast incremental builds and reproducible CI pipelines even in large monorepos.\n\nModern development teams often juggle multiple languages, large codebases, and the pressure to ship features quickly. Traditional build systems such as Make, Gradle, or npm scripts become brittle as the project grows: they lack hermetic execution, struggle with cross‑language dependencies, and produce nondeterministic artifacts that break CI caches. Bazel, open‑source since 2015 and originally developed at Google, addresses these pain points by treating the build as a first‑class dataflow graph.\n\nAt its core, Bazel asks two questions for every artifact: what inputs produced it? and can those inputs be executed in a hermetic, reproducible environment? If the answer is yes, Bazel can cache the result keyed by a hash of the inputs, avoiding re‑execution on subsequent builds. This principle scales from a single developer’s laptop to a fleet of CI agents spanning dozens of machines.",
+      "tags": [
+        "bazel",
+        "build",
+        "reproducible",
+        "ci",
+        "go"
+      ],
+      "scheduled_at": "2026-10-13T13:04:40Z",
+      "status": "pending"
     }
   ]
 }
