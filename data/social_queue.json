@@ -27170,8 +27170,9 @@
         "cv-project"
       ],
       "scheduled_at": "2026-10-13T23:04:34Z",
-      "status": "posting",
-      "claimed_at": "2026-10-13T23:10:07Z"
+      "status": "posted",
+      "claimed_at": "2026-10-13T23:10:07Z",
+      "post_urn": "urn:li:share:7515913053117435905"
     }
   ]
 }
