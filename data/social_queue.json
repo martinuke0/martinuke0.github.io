@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-13T04:02:15Z",
+  "last_scheduled_at": "2026-10-13T05:02:15Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -27091,6 +27091,20 @@
       "status": "posted",
       "claimed_at": "2026-10-13T04:08:01Z",
       "post_urn": "urn:li:share:7515625639459213312"
+    },
+    {
+      "title": "Build Your Own Mixture-of-Experts Router with Top‑k Gating",
+      "url": "https://martinuke0.github.io/posts/2026-10-13-build-your-own-mixture-of-experts-router-with-topk-gating/",
+      "social_hook": "> TL;DR — You will implement a sparse mixture-of-experts router with top‑k gating in under 200 lines of PyTorch, run it on synthetic data, and see how to extend it to a production‑grade service. The project showcases model architecture, efficient routing, and system design skills that hiring managers look for.\n\nIn the race to scale language models, mixture-of-experts (MoE) has emerged as a way to increase capacity without linearly increasing compute. This post guides you through building a minimal but functional MoE router from scratch, focusing on top‑k gating and sparse routing. By the end you will have a runnable script, a clear architecture diagram, and a roadmap to turn this prototype into a production system.\n\n- Deep Learning Architecture – You will implement a custom layer (the router) that combines gating logic with expert selection, demonstrating understanding of conditional computation.",
+      "tags": [
+        "mixture-of-experts",
+        "deep-learning",
+        "pytorch",
+        "systems",
+        "portfolio-project"
+      ],
+      "scheduled_at": "2026-10-13T05:02:15Z",
+      "status": "pending"
     }
   ]
 }
