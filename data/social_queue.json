@@ -27104,7 +27104,8 @@
         "portfolio-project"
       ],
       "scheduled_at": "2026-10-13T05:02:15Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-10-13T05:07:57Z"
     }
   ]
 }
