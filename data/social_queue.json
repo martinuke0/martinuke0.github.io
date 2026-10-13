@@ -27154,8 +27154,9 @@
         "attention"
       ],
       "scheduled_at": "2026-10-13T15:04:38Z",
-      "status": "posting",
-      "claimed_at": "2026-10-13T15:10:19Z"
+      "status": "posted",
+      "claimed_at": "2026-10-13T15:10:19Z",
+      "post_urn": "urn:li:share:7515792318008991744"
     }
   ]
 }
