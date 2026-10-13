@@ -27088,7 +27088,8 @@
         "pipeline"
       ],
       "scheduled_at": "2026-10-13T04:02:15Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-10-13T04:08:01Z"
     }
   ]
 }
