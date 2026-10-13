@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-13T13:04:40Z",
+  "last_scheduled_at": "2026-10-13T15:04:38Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -27140,6 +27140,21 @@
       "status": "posted",
       "claimed_at": "2026-10-13T13:10:38Z",
       "post_urn": "urn:li:share:7515762197302689792"
+    },
+    {
+      "title": "Pure Python Paged Attention Engine with LRU KV‑Cache Eviction",
+      "url": "https://martinuke0.github.io/posts/2026-10-13-pure-python-paged-attention-engine-with-lru-kvcache-eviction/",
+      "social_hook": "> TL;DR — In this post we build a pure‑Python paged attention engine that manually implements LRU KV‑cache eviction, showing how token‑level paging and cache size limits map directly to LLM serving pipelines. The complete, runnable code demonstrates eviction, paging, and simple benchmarking, giving you a portable building block for production‑grade inference.\n\nBuilding a paged attention engine from scratch might sound like an academic exercise, but it mirrors the core mechanics of modern LLM serving systems such as vLLM, SGLang, and TensorRT‑LLM. By implementing LRU eviction, page management, and attention computation in pure Python you gain insight into memory layout, token‑level scheduling, and the trade‑offs that affect throughput and latency in real deployments.\n\nA hands‑on paged attention engine signals several concrete skills that hiring managers look for in ML‑focused engineering roles:",
+      "tags": [
+        "python",
+        "cv",
+        "machine-learning",
+        "caching",
+        "lru",
+        "attention"
+      ],
+      "scheduled_at": "2026-10-13T15:04:38Z",
+      "status": "pending"
     }
   ]
 }
