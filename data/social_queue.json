@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-13T15:04:38Z",
+  "last_scheduled_at": "2026-10-13T23:04:34Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -27157,6 +27157,20 @@
       "status": "posted",
       "claimed_at": "2026-10-13T15:10:19Z",
       "post_urn": "urn:li:share:7515792318008991744"
+    },
+    {
+      "title": "Build a LoRA Adapter from Scratch in PyTorch",
+      "url": "https://martinuke0.github.io/posts/2026-10-13-build-a-lora-adapter-from-scratch-in-pytorch/",
+      "social_hook": "> TL;DR — LoRA (Low‑Rank Adaptation) lets you fine‑tune huge transformers by updating only a tiny rank‑r matrix, cutting memory and compute. This post walks you through building a minimal, runnable PyTorch implementation from scratch, plus architecture, testing, and production‑grade extensions. By the end you’ll have a portable adapter you can plug into any HuggingFace model and a concrete project to showcase on your CV.\n\nImplementing a LoRA adapter from scratch is a portfolio‑grade project that signals you understand transformer internals, can write production‑ready PyTorch code, and care about memory‑efficient training—exactly the kind of signal hiring managers look for in ML engineers and systems‑focused researchers.\n\n- Low‑rank factorization: You demonstrate knowledge of matrix decomposition (SVD‑style) applied to attention weight updates, a technique used in production systems to reduce FLOPs by 10‑30×.",
+      "tags": [
+        "pytorch",
+        "loRA",
+        "transformer",
+        "fine-tuning",
+        "cv-project"
+      ],
+      "scheduled_at": "2026-10-13T23:04:34Z",
+      "status": "pending"
     }
   ]
 }
