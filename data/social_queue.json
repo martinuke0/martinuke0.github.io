@@ -27137,7 +27137,8 @@
         "go"
       ],
       "scheduled_at": "2026-10-13T13:04:40Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-10-13T13:10:38Z"
     }
   ]
 }
