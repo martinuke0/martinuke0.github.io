@@ -27154,7 +27154,8 @@
         "attention"
       ],
       "scheduled_at": "2026-10-13T15:04:38Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-10-13T15:10:19Z"
     }
   ]
 }
