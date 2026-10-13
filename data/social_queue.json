@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-12T22:02:01Z",
+  "last_scheduled_at": "2026-10-13T04:02:15Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -27075,6 +27075,20 @@
       "status": "posted",
       "claimed_at": "2026-10-12T22:07:31Z",
       "post_urn": "urn:li:share:7515534915531309056"
+    },
+    {
+      "title": "Designing Deterministic Test Environments Using Docker-in-Docker for CI Pipelines",
+      "url": "https://martinuke0.github.io/posts/2026-10-13-designing-deterministic-test-environments-using-docker-in-docker-for-ci-pipeline/",
+      "social_hook": "> TL;DR — Docker‑in‑Docker (DinD) gives each CI job its own ephemeral daemon, eliminating environment drift and enabling reproducible test runs, but it must be paired with strict resource limits, image caching strategies, and careful cleanup to avoid security leaks and performance bottlenecks.\n\nBuilding reliable CI pipelines hinges on one core promise: the same code produces the same result every time. In practice, environment drift, differing OS patches, and lingering state from previous runs turn that promise into a moving target. Docker‑in‑Docker (DinD) offers a straightforward way to sandbox each job behind its own daemon, yet the pattern introduces its own set of trade‑offs—network latency, storage bloat, and privilege management chief among them. This article walks through a complete design for deterministic test environments using DinD, from architectural fundamentals to production‑ready patterns, security knobs, and common pitfalls.\n\nFlaky tests cost teams both time and confidence. A 2023 study of 12 open‑source projects found that 38 % of test failures were attributable to non‑deterministic environment factors such as leftover files, race conditions on shared volumes, and mismatched library versions. When a pipeline runs on a shared runner, the cumulative effect of prior jobs can subtly alter the next build’s filesystem, network stack, or even kernel parameters.",
+      "tags": [
+        "docker",
+        "ci-cd",
+        "testing",
+        "docker-in-docker",
+        "pipeline"
+      ],
+      "scheduled_at": "2026-10-13T04:02:15Z",
+      "status": "pending"
     }
   ]
 }
