@@ -27121,7 +27121,8 @@
         "side-project"
       ],
       "scheduled_at": "2026-10-13T10:02:55Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-10-13T10:08:31Z"
     }
   ]
 }
