@@ -27137,8 +27137,9 @@
         "go"
       ],
       "scheduled_at": "2026-10-13T13:04:40Z",
-      "status": "posting",
-      "claimed_at": "2026-10-13T13:10:38Z"
+      "status": "posted",
+      "claimed_at": "2026-10-13T13:10:38Z",
+      "post_urn": "urn:li:share:7515762197302689792"
     }
   ]
 }
