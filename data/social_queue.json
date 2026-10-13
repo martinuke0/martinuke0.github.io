@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-13T05:02:15Z",
+  "last_scheduled_at": "2026-10-13T10:02:55Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -27107,6 +27107,21 @@
       "status": "posted",
       "claimed_at": "2026-10-13T05:07:57Z",
       "post_urn": "urn:li:share:7515640718753898496"
+    },
+    {
+      "title": "Build a Paged Attention KV Cache with H2O Eviction in Pure Python",
+      "url": "https://martinuke0.github.io/posts/2026-10-13-build-a-paged-attention-kv-cache-with-h2o-eviction-in-pure-python/",
+      "social_hook": "> TL;DR — This post walks through building a pure‑Python paged attention KV cache that uses a Heavy‑Hitter Oracle (H2O) eviction policy. You’ll get a runnable implementation, test harness, and a roadmap to production‑grade features like persistence and horizontal scaling.\n\nBuilding a KV cache that mimics what large LLM serving systems do under the hood is a fantastic CV side project. It touches memory layout, eviction policies, performance tuning, and system‑level design—all without needing a distributed cluster. Hiring managers can see that you understand why paged caches exist, how an eviction policy such as H2O keeps hot data alive, and how to translate a research idea into runnable code.\n\n- Systems‑level thinking: You design a page‑structured memory manager, showing you grasp how operating systems and database engines balance hit‑rate vs. memory pressure.",
+      "tags": [
+        "python",
+        "kv-cache",
+        "attention",
+        "h2o",
+        "cv",
+        "side-project"
+      ],
+      "scheduled_at": "2026-10-13T10:02:55Z",
+      "status": "pending"
     }
   ]
 }
