@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-14T06:02:59Z",
+  "last_scheduled_at": "2026-10-14T10:02:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -27238,6 +27238,21 @@
       "status": "posted",
       "claimed_at": "2026-10-14T06:08:11Z",
       "post_urn": "urn:li:share:7516018266469806080"
+    },
+    {
+      "title": "Architecting NVIDIA MIG: Virtualizing GPU Resources in Containerized Environments",
+      "url": "https://martinuke0.github.io/posts/2026-10-14-architecting-nvidia-mig-virtualizing-gpu-resources-in-containerized-environments/",
+      "social_hook": "> TL;DR — NVIDIA MIG partitions a single GPU into multiple isolated instances, each with dedicated memory and compute units, enabling fine-grained resource sharing in Kubernetes. By combining MIG with device plugins and scheduling policies, you can run mixed workloads (training, inference, data science) on the same GPU without interference. Production success depends on right-sizing MIG profiles, handling topology constraints, and monitoring instance-level utilization.\n\nNVIDIA's GPUs have become the de facto standard for AI workloads, but as models grow and teams multiply, the old approach of dedicating an entire GPU to a single tenant or job leaves hardware underutilized. Multi-Instance GPU (MIG) changes that calculus by slicing a physical GPU into several independent, isolated instances. Each instance behaves like a small, discrete GPU with its own memory bandwidth, L2 cache, and compute engines. When you pair MIG with Kubernetes, you can pack multiple containers onto the same physical GPU, enforce strict resource boundaries, and still give each workload the performance guarantees it expects. In this post, we'll walk through the architecture of MIG, show how to wire it into a Kubernetes cluster, and explore the patterns that production teams use to get the most out of their GPU estate.\n\nMIG is a firmware-level feature available on NVIDIA A100, H100, and later data-center GPUs. It partitions the GPU's streaming multiprocessors (SMs), L2 cache, and DRAM into up to seven simultaneous instances. Each instance is fully isolated: a crash or memory overflow in one instance cannot affect another. From the driver's perspective, each MIG instance appears as a separate PCIe device, which means the Linux kernel and container runtimes see it as a normal GPU.",
+      "tags": [
+        "NVIDIA",
+        "MIG",
+        "GPU",
+        "Kubernetes",
+        "Containers",
+        "Virtualization"
+      ],
+      "scheduled_at": "2026-10-14T10:02:53Z",
+      "status": "pending"
     }
   ]
 }
