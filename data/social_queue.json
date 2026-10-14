@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-14T05:02:59Z",
+  "last_scheduled_at": "2026-10-14T06:02:59Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -27222,6 +27222,20 @@
       "status": "posted",
       "claimed_at": "2026-10-14T05:08:15Z",
       "post_urn": "urn:li:share:7516003178723794944"
+    },
+    {
+      "title": "Build a Paged‑Attention KV Cache with Block‑Level LFU Eviction in Python",
+      "url": "https://martinuke0.github.io/posts/2026-10-14-build-a-pagedattention-kv-cache-with-blocklevel-lfu-eviction-in-python/",
+      "social_hook": "> TL;DR — In this post we build a from‑scratch Python KV cache that mimics paged‑attention’s block layout and uses block‑level LFU eviction. The result is a compact, runnable data structure you can drop into any LLM serving pipeline, plus a clear roadmap to production‑grade features.\n\nA paged‑attention cache (as used in frameworks like vLLM and SGLang) stores key/value states in fixed‑size blocks rather than as one giant tensor. This layout lets the system swap out inactive blocks without moving large amounts of memory, and a least‑frequently‑used (LFU) eviction policy can keep the most “hot” blocks resident. Building such a cache from the ground up is an excellent portfolio piece: it demonstrates low‑level memory reasoning, algorithm design, and familiarity with the kinds of data structures that real ML serving systems rely on.\n\nBelow is a complete, hands‑on guide you can follow, fork, and extend. Every code snippet is runnable Python, and the post ends with a roadmap of concrete upgrades that turn the toy into a production‑flavored component.",
+      "tags": [
+        "python",
+        "kv-cache",
+        "paged-attention",
+        "lfu",
+        "side-project"
+      ],
+      "scheduled_at": "2026-10-14T06:02:59Z",
+      "status": "pending"
     }
   ]
 }
