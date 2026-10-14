@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-14T11:04:12Z",
+  "last_scheduled_at": "2026-10-14T12:04:12Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -27271,6 +27271,20 @@
       "status": "posted",
       "claimed_at": "2026-10-14T11:09:47Z",
       "post_urn": "urn:li:share:7516094168482586624"
+    },
+    {
+      "title": "From Scratch: Sparse Mixture-of-Experts Router in PyTorch",
+      "url": "https://martinuke0.github.io/posts/2026-10-14-from-scratch-sparse-mixture-of-experts-router-in-pytorch/",
+      "social_hook": "> TL;DR — You will build a from‑scratch sparse mixture‑of‑experts (MoE) router in pure PyTorch, complete with a learned gating network and top‑k expert selection. The implementation is runnable, tested, and extensible, giving you a concrete portfolio piece that signals systems‑level model design and production readiness.\n\nBuilding a model that can dynamically allocate computation is a hallmark of modern deep learning systems. A sparse mixture‑of‑experts (MoE) layer lets you keep the parameter count large while only activating a small subset of experts per input, which is the key to scaling models efficiently on real hardware. In this post you’ll implement a minimal yet functional MoE router with learned gating and top‑k selection entirely in PyTorch, then test it, and finally outline a roadmap to turn this prototype into a production‑grade component.\n\n- Systems‑oriented model design – you’ll ship a component that decides which sub‑network handles each example, a skill that appears in production systems at Google, Meta, and OpenAI.",
+      "tags": [
+        "PyTorch",
+        "Mixture-of-Experts",
+        "DeepLearning",
+        "Systems",
+        "Portfolio"
+      ],
+      "scheduled_at": "2026-10-14T12:04:12Z",
+      "status": "pending"
     }
   ]
 }
