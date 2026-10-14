@@ -27300,7 +27300,8 @@
         "sampling"
       ],
       "scheduled_at": "2026-10-14T13:04:12Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-10-14T13:08:11Z"
     }
   ]
 }
