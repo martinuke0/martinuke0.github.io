@@ -27300,8 +27300,9 @@
         "sampling"
       ],
       "scheduled_at": "2026-10-14T13:04:12Z",
-      "status": "posting",
-      "claimed_at": "2026-10-14T13:08:11Z"
+      "status": "posted",
+      "claimed_at": "2026-10-14T13:08:11Z",
+      "post_urn": "urn:li:share:7516123963073126400"
     }
   ]
 }
