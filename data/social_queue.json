@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-14T04:02:59Z",
+  "last_scheduled_at": "2026-10-14T05:02:59Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -27205,6 +27205,21 @@
       "status": "posted",
       "claimed_at": "2026-10-14T04:08:34Z",
       "post_urn": "urn:li:share:7515988161051828224"
+    },
+    {
+      "title": "Build a LoRA Adapter Trainer from Scratch in Pure Python",
+      "url": "https://martinuke0.github.io/posts/2026-10-14-build-a-lora-adapter-trainer-from-scratch-in-pure-python/",
+      "social_hook": "> TL;DR — Building a LoRA adapter trainer from scratch in pure Python demonstrates both deep learning and systems engineering skills, making your CV stand out for ML infrastructure roles. This guide walks you through a fully runnable implementation, from model wrapping to training loops, and shows how to extend it for production‑grade features.\n\nIn a market crowded with “black‑box” model APIs, hiring managers increasingly value engineers who can own the training pipeline end‑to‑end. A LoRA (Low‑Rank Adaptation) adapter trainer is a compact yet powerful project that showcases your ability to manipulate transformer internals, manage GPU memory, and write performant training loops — all without relying on a heavyweight framework. Below you’ll find a step‑by‑step build that runs on a single GPU, produces measurable metrics, and can be extended into a distributed, observable system.\n\n- Parameter‑efficient fine‑tuning expertise – You’ll implement LoRA from first principles, proving you understand how low‑rank matrices interact with attention projections.",
+      "tags": [
+        "LoRA",
+        "Transformers",
+        "Machine Learning",
+        "Python",
+        "Portfolio Project",
+        "Systems Engineering"
+      ],
+      "scheduled_at": "2026-10-14T05:02:59Z",
+      "status": "pending"
     }
   ]
 }
