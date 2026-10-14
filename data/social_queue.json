@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-14T14:04:15Z",
+  "last_scheduled_at": "2026-10-14T15:05:25Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -27319,6 +27319,20 @@
       "status": "posted",
       "claimed_at": "2026-10-14T14:09:51Z",
       "post_urn": "urn:li:share:7516139485747736576"
+    },
+    {
+      "title": "Hands-On Build Guide: Sliding-Window Attention KV Cache with LRU Eviction",
+      "url": "https://martinuke0.github.io/posts/2026-10-14-hands-on-build-guide-sliding-window-attention-kv-cache-with-lru-eviction/",
+      "social_hook": "> TL;DR — A sliding‑window attention KV cache with LRU eviction caps prompt‑window memory usage while preserving recency, letting you run longer contexts on fixed‑size hardware. The implementation uses an OrderedDict for O(1) put/get, and the guide walks you through a runnable Python prototype, benchmarks, and production‑ready extensions. This project signals systems‑level skill (cache design, eviction policies, performance tuning) to hiring managers looking for engineers who can shrink‑down LLMs without sacrificing quality.\n\nPrompt‑window size is the biggest bottleneck when serving large language models. As models grow to 7 B, 13 B, or 70 B parameters, the quadratic cost of attention and the linear cost of storing key‑value pairs explode. A sliding‑window cache with LRU eviction lets you keep a fixed‑size buffer of the most recent tokens, discarding older ones as the window slides. This simple pattern reduces memory from O(N) to O(W) where W is the window width, and it can be dropped into any attention implementation with a few lines of code. In this post you’ll build a minimal, runnable Python prototype, measure its impact on a synthetic attention benchmark, and explore production‑grade extensions that take the idea from toy to telemetry‑rich service.\n\nHiring managers for ML infrastructure, LLM serving, and backend engineering roles see dozens of “toy neural‑network” repos. What sets this project apart is that it demonstrates real systems engineering rather than just model experimentation. Below are the specific skills it signals:",
+      "tags": [
+        "python",
+        "machine-learning",
+        "cache",
+        "lru",
+        "cv"
+      ],
+      "scheduled_at": "2026-10-14T15:05:25Z",
+      "status": "pending"
     }
   ]
 }
