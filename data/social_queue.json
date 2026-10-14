@@ -27332,8 +27332,9 @@
         "cv"
       ],
       "scheduled_at": "2026-10-14T15:05:25Z",
-      "status": "posting",
-      "claimed_at": "2026-10-14T15:11:02Z"
+      "status": "posted",
+      "claimed_at": "2026-10-14T15:11:02Z",
+      "post_urn": "urn:li:share:7516154885931757568"
     }
   ]
 }
