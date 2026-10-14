@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-14T00:04:34Z",
+  "last_scheduled_at": "2026-10-14T04:02:59Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -27189,6 +27189,20 @@
       "status": "posted",
       "claimed_at": "2026-10-14T00:08:06Z",
       "post_urn": "urn:li:share:7515927651165843456"
+    },
+    {
+      "title": "User Safety in Production Systems: Authentication, Authorization, and Data Privacy at Scale",
+      "url": "https://martinuke0.github.io/posts/2026-10-14-user-safety-in-production-systems-authentication-authorization-and-data-privacy/",
+      "social_hook": "> TL;DR — User safety in production systems hinges on three pillars: strong authentication, fine-grained authorization, and transparent data handling. When these are baked into architecture from the start, you reduce breach risk, preserve user trust, and keep compliance in check without slowing feature velocity.\n\nUser safety isn't a feature you bolt on after the first line of code ships; it's a set of design constraints that survive from prototype through decades of scale. In my years working on large-scale backend systems, I've seen how a single misconfigured authentication flow or an over-permissive authorization rule can cascade into a production incident that affects millions of users. The good news is that the industry has converged on a handful of repeatable patterns—OAuth 2.0 + OpenID Connect for auth, OPA for fine-grained access decisions, and data-minimization principles for privacy—that when implemented consistently, turn security from a bottleneck into a reliable foundation. This post walks through those patterns, grounded in concrete production scenarios and named failure modes, so you can apply them directly to your own systems.\n\nAuthentication is the first gate between a user and your service. Getting it right means adopting standards that have been battle-tested at internet scale, while getting it wrong means storing secrets in plaintext, trusting unverified tokens, or forcing users through cumbersome recovery flows that erode trust.",
+      "tags": [
+        "user-safety",
+        "authentication",
+        "authorization",
+        "data-privacy",
+        "production-engineering"
+      ],
+      "scheduled_at": "2026-10-14T04:02:59Z",
+      "status": "pending"
     }
   ]
 }
