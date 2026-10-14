@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-14T15:05:25Z",
+  "last_scheduled_at": "2026-10-14T17:02:43Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -27335,6 +27335,20 @@
       "status": "posted",
       "claimed_at": "2026-10-14T15:11:02Z",
       "post_urn": "urn:li:share:7516154885931757568"
+    },
+    {
+      "title": "Optimizing NVIDIA CUDA Graphs for Sparse Matrix Multiplication on GPU Clusters",
+      "url": "https://martinuke0.github.io/posts/2026-10-14-optimizing-nvidia-cuda-graphs-for-sparse-matrix-multiplication-on-gpu-clusters/",
+      "social_hook": "> TL;DR — NVIDIA CUDA Graphs eliminate kernel-launch overhead and enable dynamic graph execution, making them a powerful vehicle for optimizing sparse matrix multiplication (SpMM) on GPU clusters. By binding sparse matrix data as graph parameters, overlapping computation with inter-GPU communication, and chaining fused kernels, we can achieve up to 2.1x throughput improvement over static scheduling. This article walks through the architecture, implementation patterns, and pragmas needed to turn CUDA Graphs from a prototype acceleration into a production-grade SpMM pipeline.\n\nSparse matrix multiplication (SpMM) is the linchpin of iterative solvers, graph neural networks, and finite-element analysis. On GPUs, the challenge shifts from raw FLOPs to memory access patterns, format conversion overhead, and inter-node communication. In cluster settings, the sparsity pattern often dictates that no two nodes execute the same operation, rendering traditional static scheduling inefficient.\n\nWhen matrices exceed GPU memory capacity, domain decomposition becomes necessary. Each rank processes a slice of the matrix, requiring all-reduce or gather-scatter patterns to synchronize partial results. The kernel launch overhead—typically 0.5–2 ms per launch on modern H100s—compounds when the arithmetic intensity of SpMM is low (e.g., < 10 FLOPs/byte). Here, CUDA Graphs offer a structural solution: record a sequence of operations once, then launch it with mutated parameters for different matrix slices or right-hand sides.",
+      "tags": [
+        "cuda",
+        "sparse-matrix",
+        "gpu",
+        "performance",
+        "cluster"
+      ],
+      "scheduled_at": "2026-10-14T17:02:43Z",
+      "status": "pending"
     }
   ]
 }
