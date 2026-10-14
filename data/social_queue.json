@@ -27252,7 +27252,8 @@
         "Virtualization"
       ],
       "scheduled_at": "2026-10-14T10:02:53Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-10-14T10:08:35Z"
     }
   ]
 }
