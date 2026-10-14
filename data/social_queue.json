@@ -27348,7 +27348,8 @@
         "cluster"
       ],
       "scheduled_at": "2026-10-14T17:02:43Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-10-14T17:08:37Z"
     }
   ]
 }
