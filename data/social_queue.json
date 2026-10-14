@@ -27202,8 +27202,9 @@
         "production-engineering"
       ],
       "scheduled_at": "2026-10-14T04:02:59Z",
-      "status": "posting",
-      "claimed_at": "2026-10-14T04:08:34Z"
+      "status": "posted",
+      "claimed_at": "2026-10-14T04:08:34Z",
+      "post_urn": "urn:li:share:7515988161051828224"
     }
   ]
 }
