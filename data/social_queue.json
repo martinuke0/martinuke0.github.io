@@ -27268,8 +27268,9 @@
         "systems"
       ],
       "scheduled_at": "2026-10-14T11:04:12Z",
-      "status": "posting",
-      "claimed_at": "2026-10-14T11:09:47Z"
+      "status": "posted",
+      "claimed_at": "2026-10-14T11:09:47Z",
+      "post_urn": "urn:li:share:7516094168482586624"
     }
   ]
 }
