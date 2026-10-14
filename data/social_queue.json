@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-14T12:04:12Z",
+  "last_scheduled_at": "2026-10-14T13:04:12Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -27287,6 +27287,20 @@
       "status": "posted",
       "claimed_at": "2026-10-14T12:09:11Z",
       "post_urn": "urn:li:share:7516109113643249666"
+    },
+    {
+      "title": "Hands‑On Build Guide: Pure‑Python Token Sampler with Temperature, Top‑k, and Nucleus Sampling",
+      "url": "https://martinuke0.github.io/posts/2026-10-14-handson-build-guide-purepython-token-sampler-with-temperature-topk-and-nucleus-s/",
+      "social_hook": "> TL;DR — In this post we build a pure‑Python token sampler that implements temperature scaling, top‑k and nucleus (top‑p) filtering. You’ll get runnable code, testing tips, and a roadmap to production‑grade features.\n\nBuilding a token sampler from scratch is a great way to demonstrate fluency with probabilistic generation, low‑level control of language models, and production‑grade engineering practices. In this article we’ll walk through a complete, runnable Python implementation that applies temperature scaling, top‑k filtering, and nucleus (top‑p) sampling — the same primitives used in GPT‑2, GPT‑3, and many Hugging Face text‑generation pipelines. By the end you’ll have a reusable module, a simple CLI, unit tests, and a clear upgrade path toward a senior‑level production system.\n\nHiring managers for ML‑focused roles see many “toy notebooks” that merely load a pretrained model and generate a few sentences. This project distinguishes itself because it:",
+      "tags": [
+        "python",
+        "ml",
+        "generative-ai",
+        "cv-project",
+        "sampling"
+      ],
+      "scheduled_at": "2026-10-14T13:04:12Z",
+      "status": "pending"
     }
   ]
 }
