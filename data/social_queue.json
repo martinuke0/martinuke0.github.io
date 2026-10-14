@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-14T13:04:12Z",
+  "last_scheduled_at": "2026-10-14T14:04:15Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -27303,6 +27303,20 @@
       "status": "posted",
       "claimed_at": "2026-10-14T13:08:11Z",
       "post_urn": "urn:li:share:7516123963073126400"
+    },
+    {
+      "title": "Pure-Python INT8 Weight Quantizer for Transformer Inference: A Hands-On Build Guide",
+      "url": "https://martinuke0.github.io/posts/2026-10-14-pure-python-int8-weight-quantizer-for-transformer-inference-a-hands-on-build-gui/",
+      "social_hook": "> TL;DR — Building a pure‑Python INT8 weight quantizer with per‑channel scaling and dequantization hooks lets you shrink transformer models for fast, low‑latency inference while retaining most accuracy. The guide walks you through real, runnable code, from quantization logic to testing and extension. This project signals hands‑on systems skill that hiring managers notice.\n\nBuilding a transformer‑centric side project that demonstrates production‑grade systems thinking is a powerful way to stand out on a CV. Recruiters and engineering managers look for concrete, runnable code that mirrors the challenges of deploying large models in‑house or at the edge. A pure‑Python INT8 weight quantizer with per‑channel scaling and dequantization hooks ticks several boxes: you showcase low‑level optimization, understanding of model internals, ability to ship reusable libraries, and familiarity with the tooling that underpins modern AI pipelines. The roles you signal for include ML engineer, AI systems engineer, infrastructure engineer, and even quant‑focused research engineer positions.\n\nThis hands‑on guide demonstrates a set of marketable skills that hiring managers actively seek:",
+      "tags": [
+        "python",
+        "quantization",
+        "transformers",
+        "cv",
+        "performance"
+      ],
+      "scheduled_at": "2026-10-14T14:04:15Z",
+      "status": "pending"
     }
   ]
 }
