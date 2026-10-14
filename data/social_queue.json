@@ -27252,8 +27252,9 @@
         "Virtualization"
       ],
       "scheduled_at": "2026-10-14T10:02:53Z",
-      "status": "posting",
-      "claimed_at": "2026-10-14T10:08:35Z"
+      "status": "posted",
+      "claimed_at": "2026-10-14T10:08:35Z",
+      "post_urn": "urn:li:share:7516078769418252290"
     }
   ]
 }
