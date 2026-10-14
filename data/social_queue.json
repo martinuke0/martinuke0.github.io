@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-13T23:04:34Z",
+  "last_scheduled_at": "2026-10-14T00:04:34Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -27173,6 +27173,20 @@
       "status": "posted",
       "claimed_at": "2026-10-13T23:10:07Z",
       "post_urn": "urn:li:share:7515913053117435905"
+    },
+    {
+      "title": "Building a Pure-Python Top-p/Top-k Sampler with Temperature Scaling for LLM Logits",
+      "url": "https://martinuke0.github.io/posts/2026-10-14-building-a-pure-python-top-ptop-k-sampler-with-temperature-scaling-for-llm-logit/",
+      "social_hook": "> TL;DR — This guide shows how to implement a pure‑Python top‑p and top‑k sampler with temperature scaling for LLM logits. You’ll get runnable code, a clear architecture, and a roadmap to turn the prototype into a production‑grade component.\n\nBuilding a custom sampling routine is a concrete way to demonstrate low‑level algorithmic skill, probability knowledge, and software engineering discipline. In this post you will construct a self‑contained, pure‑Python module that takes raw logits, applies temperature scaling, filters by top‑k or top‑p (nucleus), and returns a sampled token. The implementation is deliberately free of external deep‑learning frameworks so you can reason about every line, but it plugs cleanly into any system that emits logits—think Hugging Face Transformers, a custom inference server, or a research prototype.\n\n- Algorithmic depth – You will write the core probability transformations (softmax, temperature, cumulative probability truncation) from scratch, showing you understand the math behind sampling rather than just calling a library.",
+      "tags": [
+        "python",
+        "llm",
+        "sampling",
+        "machine-learning",
+        "systems"
+      ],
+      "scheduled_at": "2026-10-14T00:04:34Z",
+      "status": "pending"
     }
   ]
 }
