@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-14T10:02:53Z",
+  "last_scheduled_at": "2026-10-14T11:04:12Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -27255,6 +27255,20 @@
       "status": "posted",
       "claimed_at": "2026-10-14T10:08:35Z",
       "post_urn": "urn:li:share:7516078769418252290"
+    },
+    {
+      "title": "Mastering eBPF for Kernel-Level Tracing: Techniques and Real-World Patterns",
+      "url": "https://martinuke0.github.io/posts/2026-10-14-mastering-ebpf-for-kernel-level-tracing-techniques-and-real-world-patterns/",
+      "social_hook": "> TL;DR — eBPF lets you run sandboxed programs in the kernel to safely trace, profile, and network‑filter without recompiling or loading custom kernel modules. By attaching to well‑defined hook points you can capture latency metrics, security events, or custom metrics at micro‑second granularity. The Rust ecosystem now makes writing verified eBPF code as easy as writing ordinary application code.\n\neBPF has become the de‑facto bridge between userspace observability and the kernel, offering a safe, programmable path to instrument nearly every kernel subsystem. What started as a modest extension for network packet filtering (via BPF) has evolved into a general‑purpose runtime that can run millions of lightweight programs per second. In this post we’ll walk through the core concepts, attachment points, and production‑ready patterns for writing eBPF programs in Rust, and we’ll illustrate how to stitch those programs into a full‑stack tracing pipeline that feels native to modern observability stacks.\n\neBPF (extended Berkeley Packet Filter) is a virtual machine embedded in the Linux kernel. Programs written in a restricted subset of C (or Rust via front‑ends) are verified for safety—no unbounded loops, no out‑of‑bounds memory access—and then JIT‑compiled to native instruction sets. Because the verifier guarantees memory safety, the kernel can load these programs at runtime without compromising stability.",
+      "tags": [
+        "ebpf",
+        "kernel",
+        "tracing",
+        "performance",
+        "systems"
+      ],
+      "scheduled_at": "2026-10-14T11:04:12Z",
+      "status": "pending"
     }
   ]
 }
