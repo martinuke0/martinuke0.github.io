@@ -27219,8 +27219,9 @@
         "Systems Engineering"
       ],
       "scheduled_at": "2026-10-14T05:02:59Z",
-      "status": "posting",
-      "claimed_at": "2026-10-14T05:08:15Z"
+      "status": "posted",
+      "claimed_at": "2026-10-14T05:08:15Z",
+      "post_urn": "urn:li:share:7516003178723794944"
     }
   ]
 }
