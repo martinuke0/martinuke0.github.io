@@ -27396,7 +27396,8 @@
         "software-architecture"
       ],
       "scheduled_at": "2026-10-15T04:02:42Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-10-15T04:08:14Z"
     }
   ]
 }
