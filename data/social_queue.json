@@ -27380,8 +27380,9 @@
         "best-practices"
       ],
       "scheduled_at": "2026-10-15T00:03:37Z",
-      "status": "posting",
-      "claimed_at": "2026-10-15T00:09:08Z"
+      "status": "posted",
+      "claimed_at": "2026-10-15T00:09:08Z",
+      "post_urn": "urn:li:share:7516290298163994624"
     }
   ]
 }
