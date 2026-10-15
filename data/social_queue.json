@@ -27380,7 +27380,8 @@
         "best-practices"
       ],
       "scheduled_at": "2026-10-15T00:03:37Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-10-15T00:09:08Z"
     }
   ]
 }
