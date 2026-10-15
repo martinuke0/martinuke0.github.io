@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-15T05:03:54Z",
+  "last_scheduled_at": "2026-10-15T10:03:13Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -27415,6 +27415,20 @@
       "status": "posted",
       "claimed_at": "2026-10-15T05:09:27Z",
       "post_urn": "urn:li:share:7516365872672694272"
+    },
+    {
+      "title": "Hands‑On Build Guide: Speculative Decoding Engine in Pure Python",
+      "url": "https://martinuke0.github.io/posts/2026-10-15-handson-build-guide-speculative-decoding-engine-in-pure-python/",
+      "social_hook": "> TL;DR — Speculative decoding accelerates inference by generating low‑cost draft tokens and accepting them with a sampling test; this pure‑Python prototype shows how to combine algorithmic cleverness with production‑grade patterns, making it an eye‑catching CV project that signals real systems skill.\n\nWelcome to a practical, end‑to‑end guide for building a speculative decoding engine from scratch in pure Python. Whether you’re an aspiring engineer looking to add a concrete, runnable project to your portfolio or a working professional wanting to sharpen your algorithmic chops, this post gives you a complete codebase, testing strategy, and a roadmap to turn the toy into a production‑grade component. The implementation is intentionally framework‑agnostic, so you can drop it into any Python‑based inference pipeline—TensorFlow, PyTorch, or a custom async server—without pulling in heavy dependencies.\n\nHiring managers for ML‑focused or systems‑engineer roles love to see projects that bridge algorithm design and production concerns. This speculative decoding engine demonstrates:",
+      "tags": [
+        "python",
+        "speculative-decoding",
+        "cv-side-project",
+        "performance",
+        "engineering"
+      ],
+      "scheduled_at": "2026-10-15T10:03:13Z",
+      "status": "pending"
     }
   ]
 }
