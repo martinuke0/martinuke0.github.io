@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-15T14:02:09Z",
+  "last_scheduled_at": "2026-10-15T15:03:31Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -27448,6 +27448,21 @@
       "status": "posted",
       "claimed_at": "2026-10-15T14:07:49Z",
       "post_urn": "urn:li:share:7516501358389207040"
+    },
+    {
+      "title": "Dynamic Prompt Compression System with Learned Importance Scores",
+      "url": "https://martinuke0.github.io/posts/2026-10-15-dynamic-prompt-compression-system-with-learned-importance-scores/",
+      "social_hook": "> TL;DR — We build a from‑scratch Python system that learns per‑token importance scores and truncates prompts to fit any fixed‑size LLM window, giving you full control over context budget without third‑party black boxes.\n\nBuilding LLM‑driven products often means hitting the hard ceiling of a model’s context window. Whether you’re prototyping with a 4 K token GPT‑3.5 deployment or working with a 32 K Claude model, you need a reliable way to squeeze useful information into the available space. This post walks you through a pure‑Python, minimal‑dependency implementation of a dynamic prompt compressor that learns an importance score for every token and then truncates or summarizes the prompt so it always fits the target window. The result is a portable utility you can ship, extend, and point to on a CV as a concrete signal of systems‑level engineering skill.\n\n- Python engineering & minimal‑dependency thinking – You demonstrate the ability to solve a non‑trivial problem using only the standard library and a single optional package (e.g., NumPy). Employers value engineers who can deliver working code without pulling in heavy frameworks.",
+      "tags": [
+        "python",
+        "llm",
+        "prompt-engineering",
+        "compression",
+        "cv",
+        "side-project"
+      ],
+      "scheduled_at": "2026-10-15T15:03:31Z",
+      "status": "pending"
     }
   ]
 }
