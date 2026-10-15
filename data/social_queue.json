@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-15T04:02:42Z",
+  "last_scheduled_at": "2026-10-15T05:03:54Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -27399,6 +27399,20 @@
       "status": "posted",
       "claimed_at": "2026-10-15T04:08:14Z",
       "post_urn": "urn:li:share:7516350464251281411"
+    },
+    {
+      "title": "Continuous Batching LLM Scheduler: Hands‑On Build Guide",
+      "url": "https://martinuke0.github.io/posts/2026-10-15-continuous-batching-llm-scheduler-handson-build-guide/",
+      "social_hook": "> TL;DR — In this post we build a lightweight continuous‑batching LLM scheduler in Python, showing how to group incoming requests into fixed‑size batches, keep latency low, and expose a simple HTTP API you can run locally and extend.\n\nBuilding a side project that feels like real production infrastructure is one of the fastest ways to signal to hiring managers that you understand how systems actually work. A continuous batching LLM scheduler ticks many boxes: it involves concurrent request handling, latency‑aware batching, API design, performance tuning, and optional observability hooks. Below is a complete, runnable guide you can follow today.\n\nHiring managers for backend, ML‑infra, and data‑engineer roles look for evidence that you can bridge software engineering with performance‑critical workloads. This project demonstrates:",
+      "tags": [
+        "python",
+        "llm",
+        "scheduler",
+        "continuous-batching",
+        "cv-project"
+      ],
+      "scheduled_at": "2026-10-15T05:03:54Z",
+      "status": "pending"
     }
   ]
 }
