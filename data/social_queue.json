@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-14T19:03:35Z",
+  "last_scheduled_at": "2026-10-15T00:03:37Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -27367,6 +27367,20 @@
       "status": "posted",
       "claimed_at": "2026-10-14T19:09:16Z",
       "post_urn": "urn:li:share:7516214834221322240"
+    },
+    {
+      "title": "User Safety in Distributed Systems: Building Safe Services at Scale",
+      "url": "https://martinuke0.github.io/posts/2026-10-15-user-safety-in-distributed-systems-building-safe-services-at-scale/",
+      "social_hook": "> TL;DR — User safety in distributed systems hinges on defense-in-depth: authenticate and authorize every request, validate all inputs, rate-limit aggressively, and design for fail-safe defaults. Production outages like the 2021 Fastly CDN incident show how a single misconfigured rule can cascade, but similarly, well-scoped RBAC and edge rate limits prevent abuse without impacting legitimate users. This post walks through concrete architecture patterns, real-world failure modes, and production strategies you can adopt today.\n\nUser safety isn't a feature you bolt on after the fact — it's a system property that emerges from every layer of your stack, from the edge router to the database. In this post, we'll explore how engineering teams can bake safety into distributed systems using proven patterns, concrete configurations, and real incident data. Whether you're running microservices on Kubernetes, managing a Postgres-backed API, or orchestrating batch jobs with Airflow, the principles are the same: minimize attack surface, enforce least privilege, and make failure modes obvious and safe.\n\nBefore diving into patterns, it's worth naming the adversary. User safety threats typically fall into four categories: identity usurpation, data exfiltration, service abuse, and privacy leakage. Each demands a different defensive layer, but all converge on the same architectural principle: reduce the trusted computing base (TCB) and isolate failures.",
+      "tags": [
+        "security",
+        "systems",
+        "architecture",
+        "reliability",
+        "best-practices"
+      ],
+      "scheduled_at": "2026-10-15T00:03:37Z",
+      "status": "pending"
     }
   ]
 }
