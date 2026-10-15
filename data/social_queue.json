@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-15T00:03:37Z",
+  "last_scheduled_at": "2026-10-15T04:02:42Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -27383,6 +27383,20 @@
       "status": "posted",
       "claimed_at": "2026-10-15T00:09:08Z",
       "post_urn": "urn:li:share:7516290298163994624"
+    },
+    {
+      "title": "User Safety in Production Systems: Designing for Secure, Reliable Interaction",
+      "url": "https://martinuke0.github.io/posts/2026-10-15-user-safety-in-production-systems-designing-for-secure-reliable-interaction/",
+      "social_hook": "> TL;DR — Safe-by-design systems combine least-privilege enforcement, strict input validation, and fault isolation to protect users from malicious input and cascading failures. In production, this means sandboxing untrusted workloads, validating every boundary, and making privilege escalation deliberately difficult. The cost of prevention is orders of magnitude lower than the cost of a breach.\n\nUser safety in software isn't just a checkbox — it's the difference between a system that withstands attack and one that becomes a vector. When users interact with your service, every API call, file upload, and configuration change is a potential entry point. In production environments handling millions of requests, the attack surface compounds rapidly. This article surveys concrete, production-proven patterns that engineers can adopt today to harden user-facing systems against the most common and damaging failure modes.\n\nThe foundation of user safety lies in architectural decisions that treat untrusted input as the norm, not the exception. Rather than bolting security on after the fact, safe-by-design systems embed protection into the core data path.",
+      "tags": [
+        "user-safety",
+        "systems-security",
+        "production-engineering",
+        "secure-design",
+        "software-architecture"
+      ],
+      "scheduled_at": "2026-10-15T04:02:42Z",
+      "status": "pending"
     }
   ]
 }
