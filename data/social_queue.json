@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-15T10:03:13Z",
+  "last_scheduled_at": "2026-10-15T14:02:09Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -27431,6 +27431,21 @@
       "status": "posted",
       "claimed_at": "2026-10-15T10:08:50Z",
       "post_urn": "urn:li:share:7516441211235373056"
+    },
+    {
+      "title": "Implementing Work-Stealing Runtimes: Building a Lock-Free Scheduler from Scratch",
+      "url": "https://martinuke0.github.io/posts/2026-10-15-implementing-work-stealing-runtimes-building-a-lock-free-scheduler-from-scratch/",
+      "social_hook": "> TL;DR — Work-stealing schedulers enable efficient parallel execution by allowing idle threads to steal tasks from busy threads' queues. This post explores the lock-free algorithms behind systems like Go's goroutine scheduler and Tokio, and walks through building a minimal implementation from scratch using atomic operations and a concurrent deque.\n\nIn the world of concurrent programming, the scheduler is the unsung hero. It decides which thread runs which task, and its efficiency can make or break an application's throughput. Traditional centralized schedulers, with a single queue and locks, quickly become bottlenecks as core counts scale. Work-stealing, popularized by systems like Cilk and now embedded in languages like Go and Rust's async runtimes, distributes work across per-thread deques, allowing idle threads to \"steal\" tasks from overloaded peers. This article dives into the lock-free algorithms that make this possible, and guides you through building a minimal scheduler from scratch.\n\nBefore diving into work-stealing, it's worth understanding why simpler approaches fail under load. A naive scheduler might use a single shared queue protected by a mutex. Every time a thread needs work, it locks the mutex, dequeues a task, and unlocks. This works fine for low contention, but as the number of threads grows, the mutex becomes a hotspot. Threads spend more time waiting for the lock than doing useful work. Even with atomic operations, a single queue still suffers from cache-line contention: all threads ping-ong on the same memory location, causing cache-coherence traffic that can dominate execution time.",
+      "tags": [
+        "concurrency",
+        "rust",
+        "systems-programming",
+        "scheduler",
+        "work-stealing",
+        "lock-free"
+      ],
+      "scheduled_at": "2026-10-15T14:02:09Z",
+      "status": "pending"
     }
   ]
 }
