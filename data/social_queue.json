@@ -27445,7 +27445,8 @@
         "lock-free"
       ],
       "scheduled_at": "2026-10-15T14:02:09Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-10-15T14:07:49Z"
     }
   ]
 }
