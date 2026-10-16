@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-16T04:09:39Z",
+  "last_scheduled_at": "2026-10-16T09:08:43Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -27481,6 +27481,20 @@
       "status": "posted",
       "claimed_at": "2026-10-16T04:15:15Z",
       "post_urn": "urn:li:share:7516714623568609280"
+    },
+    {
+      "title": "A Hands-On Build Guide: Pure-Python From-Scratch LLM Decoding Engine",
+      "url": "https://martinuke0.github.io/posts/2026-10-16-a-hands-on-build-guide-pure-python-from-scratch-llm-decoding-engine/",
+      "social_hook": "> TL;DR — Build a minimal pure‑Python LLM decoding engine that supports temperature scaling, top‑k, top‑p, and typical sampling via a pluggable logits‑warper pipeline. The resulting code is runnable, extensible, and demonstrates real‑world system‑design patterns that hiring managers notice.\n\nThis guide walks you through creating a from‑scratch decoding engine in pure Python. You’ll end up with a small library that can be imported into any project, a handful of unit tests, and a clear roadmap for turning the toy into a production‑grade component. Along the way you’ll practice API design, modular architecture, and performance‑aware coding—exactly the kind of signal that resonates with engineers hiring for data‑centric or infra roles.\n\nEmployers scanning CVs for LLM‑related side projects often see wrappers around Hugging Face or vLLM. A from‑scratch pure‑Python decoder demonstrates several differentiators:",
+      "tags": [
+        "python",
+        "llm",
+        "decoding",
+        "machine-learning",
+        "side-project"
+      ],
+      "scheduled_at": "2026-10-16T09:08:43Z",
+      "status": "pending"
     }
   ]
 }
