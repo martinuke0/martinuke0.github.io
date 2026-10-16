@@ -27511,7 +27511,8 @@
         "engineering"
       ],
       "scheduled_at": "2026-10-16T18:08:08Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-10-16T18:08:46Z"
     }
   ]
 }
