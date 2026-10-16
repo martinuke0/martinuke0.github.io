@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-15T15:03:31Z",
+  "last_scheduled_at": "2026-10-16T04:09:39Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -27465,6 +27465,20 @@
       "status": "posted",
       "claimed_at": "2026-10-15T15:09:07Z",
       "post_urn": "urn:li:share:7516516786025205760"
+    },
+    {
+      "title": "Build a Pure‑Python BPE Tokenizer for Your Portfolio CV",
+      "url": "https://martinuke0.github.io/posts/2026-10-16-build-a-purepython-bpe-tokenizer-for-your-portfolio-cv/",
+      "social_hook": "> TL;DR — Byte‑pair encoding (BPE) compresses raw text into a compact subword vocabulary by greedily merging the most frequent symbol pairs. This guide walks you through building a fully functional pure‑Python implementation, complete with testing, benchmarking, and production‑ready extensions you can showcase on a CV.\n\nA byte‑pair encoding (BPE) tokenizer is the subword scheme used by GPT‑2, LLaMA, and many production language models. While most engineers consume BPE through high‑level libraries, implementing the algorithm from the ground up reveals the inner mechanics of vocabulary compression, greedy merging, and efficient frequency counting. This project gives you a complete, runnable Python codebase that you can drop into a portfolio, extend with production features, and discuss confidently in technical interviews.\n\nBuilding a BPE tokenizer from scratch signals several concrete skills that hiring managers look for:",
+      "tags": [
+        "python",
+        "nlp",
+        "tokenizer",
+        "bpe",
+        "side-project"
+      ],
+      "scheduled_at": "2026-10-16T04:09:39Z",
+      "status": "pending"
     }
   ]
 }
