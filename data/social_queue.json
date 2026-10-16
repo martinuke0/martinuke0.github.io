@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-16T18:08:08Z",
+  "last_scheduled_at": "2026-10-16T22:08:41Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -27514,6 +27514,20 @@
       "status": "posted",
       "claimed_at": "2026-10-16T18:08:46Z",
       "post_urn": "urn:li:share:7516924381801967616"
+    },
+    {
+      "title": "Mastering Low-Latency Video Streaming with WebRTC and Janus: A Production Guide",
+      "url": "https://martinuke0.github.io/posts/2026-10-16-mastering-low-latency-video-streaming-with-webrtc-and-janus-a-production-guide/",
+      "social_hook": "> TL;DR — WebRTC gives sub‑second transport, Janus adds plugin‑based routing, and when you pair them with proper SDP handling, GPU‑accelerated transcoding, and network‑level congestion control you can push live video to thousands of viewers with under 500 ms end‑to‑end latency.\n\nModern web applications demand real‑time video with latency measured in single‑digit seconds, not minutes. Traditional RTMP or HLS pipelines add several seconds of buffer before a viewer sees anything, which is unacceptable for interactive use cases such as remote collaboration, live auctions, or interactive gaming. WebRTC provides a peer‑to‑peer transport that can deliver video in under 300 ms when conditions are optimal, but scaling that transport to many participants requires a signaling and media‑routing layer. Janus, an open‑source WebRTC gateway, fills that role by offering a modular plugin architecture that can record, mix, and route streams without exposing the full complexity of the underlying WebRTC stack to application developers.\n\nIn this guide we’ll walk through the concrete steps needed to turn WebRTC + Janus into a production‑grade low‑latency video streaming system. We’ll cover the core WebRTC concepts, how Janus plugs into the pipeline, a full end‑to‑end deployment model, performance‑tuning knobs, and patterns for scaling to many concurrent viewers. Throughout we keep the focus on real‑world numbers, named tools, and concrete failure modes you can actually encounter.",
+      "tags": [
+        "webrtc",
+        "janus",
+        "video-streaming",
+        "low-latency",
+        "real-time"
+      ],
+      "scheduled_at": "2026-10-16T22:08:41Z",
+      "status": "pending"
     }
   ]
 }
