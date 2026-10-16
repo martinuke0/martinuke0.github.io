@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-16T22:08:41Z",
+  "last_scheduled_at": "2026-10-16T23:08:41Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -27530,6 +27530,20 @@
       "status": "posted",
       "claimed_at": "2026-10-16T22:14:11Z",
       "post_urn": "urn:li:share:7516986141737218048"
+    },
+    {
+      "title": "From‑Scratch Paged Attention Engine: LRU KV‑Cache Eviction and GPU‑Free Sliding‑Window Simulation in Python",
+      "url": "https://martinuke0.github.io/posts/2026-10-16-fromscratch-paged-attention-engine-lru-kvcache-eviction-and-gpufree-slidingwindo/",
+      "social_hook": "> TL;DR — In this post we build a pure‑Python paged attention engine that uses an LRU‑driven KV‑cache with sliding‑window eviction, runs entirely on CPU, and can be extended to real‑world inference pipelines.\n\nBuilding a portfolio project that doubles as a functional ML component is a powerful way to signal systems competence. In this article we’ll walk through creating a from‑scratch paged attention engine in pure Python, complete with LRU‑based KV‑cache eviction and a GPU‑free sliding‑window simulation. The code is runnable, well‑commented, and designed to be extended.\n\nHiring managers for ML‑focused engineering roles look for three signals: ability to ship production‑grade code, deep understanding of the underlying compute pipeline, and experience with resource‑constrained optimization. A from‑scratch attention engine ticks all three:",
+      "tags": [
+        "python",
+        "machine-learning",
+        "systems",
+        "cv",
+        "caching"
+      ],
+      "scheduled_at": "2026-10-16T23:08:41Z",
+      "status": "pending"
     }
   ]
 }
