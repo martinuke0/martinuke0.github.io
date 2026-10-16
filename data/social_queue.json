@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-16T09:08:43Z",
+  "last_scheduled_at": "2026-10-16T18:08:08Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -27497,6 +27497,21 @@
       "status": "posted",
       "claimed_at": "2026-10-16T09:14:19Z",
       "post_urn": "urn:li:share:7516789880656498688"
+    },
+    {
+      "title": "User Safety: safe",
+      "url": "https://martinuke0.github.io/posts/2026-10-16-user-safety-safe/",
+      "social_hook": "> TL;DR — Prioritizing user safety means integrating threat modeling, secure defaults, and continuous monitoring into every stage of development. By treating safety as a first‑class concern, teams can prevent data breaches, privacy violations, and operational failures before they occur.\n\nIn modern software delivery, user safety is no longer an afterthought; it is a core engineering discipline. Engineers must balance functionality with protection, ensuring that data handling, authentication, and system behavior meet rigorous security and privacy standards. This post outlines a practical, end‑to‑end framework for embedding safety into architecture, design, and operations, drawing on proven patterns from industry leaders.\n\nA resilient safety architecture layers defenses, enforces least‑privilege principles, and centralizes identity management. The typical stack includes:",
+      "tags": [
+        "user safety",
+        "security",
+        "privacy",
+        "risk management",
+        "compliance",
+        "engineering"
+      ],
+      "scheduled_at": "2026-10-16T18:08:08Z",
+      "status": "pending"
     }
   ]
 }
