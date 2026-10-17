@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-16T23:08:41Z",
+  "last_scheduled_at": "2026-10-17T10:02:58Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -27546,6 +27546,21 @@
       "status": "posted",
       "claimed_at": "2026-10-17T01:14:36Z",
       "post_urn": "urn:li:share:7517031549373075456"
+    },
+    {
+      "title": "Minimal LoRA Fine-Tuning and Adapter Inference Engine in Pure Python",
+      "url": "https://martinuke0.github.io/posts/2026-10-17-minimal-lora-fine-tuning-and-adapter-inference-engine-in-pure-python/",
+      "social_hook": "> TL;DR — This post walks you through building a minimal LoRA fine‑tuning and adapter inference engine in pure Python, giving you a concrete project that showcases low‑level matrix operations, memory‑efficient adapter design, and inference serving patterns that hiring managers look for in systems‑oriented ML roles.\n\nIn a market crowded with fine‑tuning wrappers and cloud‑only services, a self‑contained LoRA engine written from scratch signals that you understand the underlying linear algebra, can manage GPU/CPU memory trade‑offs, and are comfortable shipping inference code that scales. The following sections break down why this project stands out on a CV, outline its architecture, provide step‑by‑step implementation, show how to run and test it, and map out senior‑level extensions that turn a toy into a production‑grade component.\n\n- Low‑level matrix ops – You implement forward passes, weight merging, and gradient updates with NumPy (or optionally PyTorch tensors), demonstrating comfort with the numerical primitives that underpin every deep‑learning model.",
+      "tags": [
+        "LoRA",
+        "fine-tuning",
+        "adapter",
+        "Python",
+        "machine-learning",
+        "systems"
+      ],
+      "scheduled_at": "2026-10-17T10:02:58Z",
+      "status": "pending"
     }
   ]
 }
