@@ -27543,8 +27543,9 @@
         "caching"
       ],
       "scheduled_at": "2026-10-16T23:08:41Z",
-      "status": "posting",
-      "claimed_at": "2026-10-17T01:14:36Z"
+      "status": "posted",
+      "claimed_at": "2026-10-17T01:14:36Z",
+      "post_urn": "urn:li:share:7517031549373075456"
     }
   ]
 }
