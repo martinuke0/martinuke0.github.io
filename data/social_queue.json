@@ -27543,7 +27543,8 @@
         "caching"
       ],
       "scheduled_at": "2026-10-16T23:08:41Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-10-17T01:14:36Z"
     }
   ]
 }
