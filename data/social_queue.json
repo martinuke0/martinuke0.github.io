@@ -27608,8 +27608,9 @@
         "side-project"
       ],
       "scheduled_at": "2026-10-18T16:10:56Z",
-      "status": "posting",
-      "claimed_at": "2026-10-18T16:16:36Z"
+      "status": "posted",
+      "claimed_at": "2026-10-18T16:16:36Z",
+      "post_urn": "urn:li:share:7517620931192664065"
     }
   ]
 }
