@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-17T10:02:58Z",
+  "last_scheduled_at": "2026-10-18T02:12:26Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -27563,6 +27563,20 @@
       "status": "posted",
       "claimed_at": "2026-10-17T10:08:32Z",
       "post_urn": "urn:li:share:7517165913201176576"
+    },
+    {
+      "title": "Speculative Decoding with Parallel Verification: A Hands-On Build Guide",
+      "url": "https://martinuke0.github.io/posts/2026-10-18-speculative-decoding-with-parallel-verification-a-hands-on-build-guide/",
+      "social_hook": "> TL;DR — In this post we build a speculative‑decoding prototype that runs several draft-model candidates in parallel, verifies each token batch against a target model, and achieves 2‑3× speed‑up. The code uses Hugging Face Transformers, a simple async worker pool, and can be extended for production serving.\n\nA speculative‑decoding project demonstrates several high‑value skills that hiring managers look for in ML‑focused engineering roles:\n\n Inference optimization** – you’ll understand how to squeeze more tokens per second out of a model without sacrificing correctness.",
+      "tags": [
+        "machine-learning",
+        "llm-inference",
+        "speculative-decoding",
+        "parallel-verification",
+        "cv-side-project"
+      ],
+      "scheduled_at": "2026-10-18T02:12:26Z",
+      "status": "pending"
     }
   ]
 }
