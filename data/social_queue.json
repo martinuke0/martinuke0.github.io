@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-18T03:12:26Z",
+  "last_scheduled_at": "2026-10-18T16:10:56Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -27595,6 +27595,20 @@
       "status": "posted",
       "claimed_at": "2026-10-18T03:17:11Z",
       "post_urn": "urn:li:share:7517424782532030464"
+    },
+    {
+      "title": "Hands‑On Build Guide: LoRA‑Augmented Transformer Attention Block in Pure Python",
+      "url": "https://martinuke0.github.io/posts/2026-10-18-handson-build-guide-loraaugmented-transformer-attention-block-in-pure-python/",
+      "social_hook": "> TL;DR — LoRA injects low‑rank adapters into a vanilla transformer attention block, letting you fine‑tune large models with minimal parameters. The pure‑Python implementation below is runnable, testable, and extensible, making it an impressive, concrete side‑project for CVs. You’ll walk away with a working model, a testing suite, and a clear roadmap to scale it.\n\nIn this post we’ll build a minimal yet fully functional transformer attention block augmented with LoRA (Low‑Rank Adaptation). Using only NumPy for linear algebra, you’ll see how a handful of extra matrices change the model’s behaviour, how to train the adapters, and how to extend the design for production use.\n\nHiring managers for ML‑focused roles see dozens of “implemented a BERT model” claims. What differentiates this project is that you own every line of the attention mechanism and you’ve deliberately inserted a low‑rank adaptation pathway. The signal it sends is multi‑fold:",
+      "tags": [
+        "python",
+        "machine-learning",
+        "transformers",
+        "lora",
+        "side-project"
+      ],
+      "scheduled_at": "2026-10-18T16:10:56Z",
+      "status": "pending"
     }
   ]
 }
