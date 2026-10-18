@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-18T02:12:26Z",
+  "last_scheduled_at": "2026-10-18T03:12:26Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -27579,6 +27579,20 @@
       "status": "posted",
       "claimed_at": "2026-10-18T02:18:06Z",
       "post_urn": "urn:li:share:7517409915464822784"
+    },
+    {
+      "title": "User Safety: A Hands‑On Build Guide for a Portfolio CV Project",
+      "url": "https://martinuke0.github.io/posts/2026-10-18-user-safety-a-handson-build-guide-for-a-portfolio-cv-project/",
+      "social_hook": "> TL;DR — In this post we build a Go CLI called `safe` that validates and sanitises user input using JSON Schema, logs decisions, and ships as a single binary. It demonstrates input‑validation patterns, observability, and Docker‑ready deployment – exactly the kind of concrete, runnable project hiring managers look for.\n\nBuilding a portfolio side project that hiring managers can instantly evaluate is a strategic move. The `safe` CLI solves a common pain point—unvalidated user input—while showcasing modern Go engineering: schema‑driven validation, structured logging, and containerised distribution. In the following sections you’ll see the full architecture, step‑by‑step implementation with runnable code, testing workflow, and a roadmap to turn the toy into a production‑grade tool.\n\nHiring managers scan dozens of CVs; a project that demonstrates real‑world skills instantly differentiates you. `safe` signals the following competencies:",
+      "tags": [
+        "go",
+        "cli",
+        "security",
+        "cv-project",
+        "docker"
+      ],
+      "scheduled_at": "2026-10-18T03:12:26Z",
+      "status": "pending"
     }
   ]
 }
