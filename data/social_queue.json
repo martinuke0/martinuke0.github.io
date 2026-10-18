@@ -27592,8 +27592,9 @@
         "docker"
       ],
       "scheduled_at": "2026-10-18T03:12:26Z",
-      "status": "posting",
-      "claimed_at": "2026-10-18T03:17:11Z"
+      "status": "posted",
+      "claimed_at": "2026-10-18T03:17:11Z",
+      "post_urn": "urn:li:share:7517424782532030464"
     }
   ]
 }
