@@ -27576,7 +27576,8 @@
         "cv-side-project"
       ],
       "scheduled_at": "2026-10-18T02:12:26Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-10-18T02:18:06Z"
     }
   ]
 }
