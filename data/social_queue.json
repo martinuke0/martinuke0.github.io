@@ -27592,7 +27592,8 @@
         "docker"
       ],
       "scheduled_at": "2026-10-18T03:12:26Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-10-18T03:17:11Z"
     }
   ]
 }
