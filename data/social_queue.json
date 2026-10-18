@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-18T16:10:56Z",
+  "last_scheduled_at": "2026-10-18T20:06:37Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -27611,6 +27611,21 @@
       "status": "posted",
       "claimed_at": "2026-10-18T16:16:36Z",
       "post_urn": "urn:li:share:7517620931192664065"
+    },
+    {
+      "title": "Hands-on Build Guide: Tiled Self-Attention Kernel with Online Softmax in Pure NumPy",
+      "url": "https://martinuke0.github.io/posts/2026-10-18-hands-on-build-guide-tiled-self-attention-kernel-with-online-softmax-in-pure-num/",
+      "social_hook": "> TL;DR — In this post we’ll tiled self‑attention with online softmax using only NumPy, matching FlashAttention’s asymptotic O(N) memory and speed, and walk through a complete, runnable code base you can ship to GitHub today.\n\nBuilding a portfolio project that double‑drops as a systems demo is a rare chance to signal both algorithmic depth and low‑level engineering skill. Below is a hands‑on guide to creating a FlashAttention‑style tiled self‑attention kernel entirely in pure NumPy, complete with online softmax, ready to be committed, benchmarked, and discussed in interviews.\n\n- Low‑level memory awareness: Tiling and online softmax teach you how to keep intermediate results in fast on‑chip memory, a skill directly transferable to GPU kernel authoring and high‑performance computing.",
+      "tags": [
+        "numpy",
+        "attention",
+        "flashattention",
+        "self-attention",
+        "performance",
+        "side-project"
+      ],
+      "scheduled_at": "2026-10-18T20:06:37Z",
+      "status": "pending"
     }
   ]
 }
