@@ -27673,8 +27673,9 @@
         "portfolio"
       ],
       "scheduled_at": "2026-10-19T09:03:04Z",
-      "status": "posting",
-      "claimed_at": "2026-10-19T09:08:50Z"
+      "status": "posted",
+      "claimed_at": "2026-10-19T09:08:50Z",
+      "post_urn": "urn:li:share:7517875665812094976"
     }
   ]
 }
