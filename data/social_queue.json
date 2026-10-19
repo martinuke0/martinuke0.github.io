@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-18T20:06:37Z",
+  "last_scheduled_at": "2026-10-19T03:05:34Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -27628,6 +27628,20 @@
       "status": "posted",
       "claimed_at": "2026-10-18T20:12:15Z",
       "post_urn": "urn:li:share:7517680232234020864"
+    },
+    {
+      "title": "Auditing Technical Prose: Beyond the Why/How Cadence",
+      "url": "https://martinuke0.github.io/posts/2026-10-19-auditing-technical-prose-beyond-the-whyhow-cadence/",
+      "social_hook": "> TL;DR — We audit our technical writing for the reflexive Why/How cadence, replacing it with What-Where-When-Who framing that aligns with production architecture and reader intent.\n\nTechnical documentation often falls into a reflexive pattern: every feature introduction begins with “Why we built this” and every API reference ends with “How to use this.” While those questions feel natural, they can flatten architectural depth and obscure the decision logic that matters to engineers building on top of your systems. In this post, we’ll systematically check for that cadence, explore why it limits reader takeaways, and replace it with a framework rooted in what, where, when, and who — anchored to real production tools like Kafka, Postgres, and Airflow.\n\nThe typical technical article or service README slides inevitably default to two interrogative patterns. “Why” frames the narrative around intent, but when overused it becomes a retrospective justification that can feel defensive or vague. “How” frames the mechanics, but when it’s the default, readers skim implementation details without internalizing the constraints, trade-offs, or operational realities that give those mechanics meaning.",
+      "tags": [
+        "technical-writing",
+        "systems-design",
+        "engineering-leadership",
+        "documentation",
+        "architecture"
+      ],
+      "scheduled_at": "2026-10-19T03:05:34Z",
+      "status": "pending"
     }
   ]
 }
