@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-19T22:02:04Z",
+  "last_scheduled_at": "2026-10-19T23:02:22Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -27692,6 +27692,21 @@
       "status": "posted",
       "claimed_at": "2026-10-19T22:07:50Z",
       "post_urn": "urn:li:share:7518071712333242368"
+    },
+    {
+      "title": "Hands‑On Build Guide: Pure‑Python GGUF Weight Loader & Minimal Transformer Inference Engine",
+      "url": "https://martinuke0.github.io/posts/2026-10-19-handson-build-guide-purepython-gguf-weight-loader-minimal-transformer-inference/",
+      "social_hook": "> TL;DR — In this post we build a pure‑Python GGUF weight loader that reads safetensors files and runs a minimal transformer inference engine from scratch. The result is a runnable, dependency‑light script you can drop on a CV and discuss in interviews, demonstrating low‑level weight handling, safetensors deserialization, and a working transformer forward pass.\n\nHiring managers for ML‑focused engineering roles see dozens of “Hello‑World” notebooks. What sets this project apart is that you own the entire data pipeline, from raw binary weight format to a functional forward pass, all in pure Python with no heavy framework dependencies. The skills it signals are:\n\n- Low‑level serialization & memory‑mapped I/O – reading GGUF headers, interpreting version‑specific flags, and streaming tensors with `safetensors` shows you can work close to the metal.",
+      "tags": [
+        "python",
+        "gguf",
+        "safetensors",
+        "transformer",
+        "inference",
+        "cv"
+      ],
+      "scheduled_at": "2026-10-19T23:02:22Z",
+      "status": "pending"
     }
   ]
 }
