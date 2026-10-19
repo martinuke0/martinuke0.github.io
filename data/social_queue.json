@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-19T09:03:04Z",
+  "last_scheduled_at": "2026-10-19T22:02:04Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -27676,6 +27676,20 @@
       "status": "posted",
       "claimed_at": "2026-10-19T09:08:50Z",
       "post_urn": "urn:li:share:7517875665812094976"
+    },
+    {
+      "title": "Build a From-Scratch IVF-Flat Vector Index with Exact Reconstruction and Greedy Search in Pure Python",
+      "url": "https://martinuke0.github.io/posts/2026-10-19-build-a-from-scratch-ivf-flat-vector-index-with-exact-reconstruction-and-greedy/",
+      "social_hook": "> TL;DR — In this post we build a pure‑Python IVF‑Flat vector index from the ground up, supporting exact reconstruction and greedy search. The complete, runnable code fits in under 150 lines and demonstrates algorithmic thinking, memory layout, and search performance that hiring managers notice.\n\nBuilding a portfolio project that tangibly demonstrates systems‑level thinking is rare. This guide walks you through constructing a minimal, pure‑Python IVF‑Flat (Inverted File with Flat) index that guarantees exact reconstruction and uses greedy search. The result is a self‑contained script you can drop into a CV, talk about in interviews, and extend into a production‑ready component.\n\n- Algorithmic engineering: You design and implement the core IVF pipeline—centroid generation, posting‑list assignment, and greedy traversal—from scratch.",
+      "tags": [
+        "python",
+        "vector-search",
+        "ivf",
+        "cv",
+        "portfolio"
+      ],
+      "scheduled_at": "2026-10-19T22:02:04Z",
+      "status": "pending"
     }
   ]
 }
