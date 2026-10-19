@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-19T04:05:34Z",
+  "last_scheduled_at": "2026-10-19T09:03:04Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -27660,6 +27660,20 @@
       "status": "posted",
       "claimed_at": "2026-10-19T04:08:38Z",
       "post_urn": "urn:li:share:7517800122479517697"
+    },
+    {
+      "title": "User Safety: safe",
+      "url": "https://martinuke0.github.io/posts/2026-10-19-user-safety-safe/",
+      "social_hook": "> TL;DR — This project delivers a real‑time user safety service that scores text for harmful content, demonstrating concurrency, API design, and observability—skills that directly map to backend and SRE roles.\n\nThe “User Safety: safe” side project is a compact yet production‑flavored microservice that accepts user‑generated text, evaluates it against a configurable set of safety rules, and returns a risk score. It is intentionally built with Go, Docker, Prometheus, and a clean separation of concerns so that you can point to concrete code, architecture diagrams, and test results in any interview. Below you’ll find the full build guide, from why this project catches a recruiter’s eye to the exact commands you need to run it today.\n\n- Real‑world API design – You will ship a RESTful endpoint with proper request validation, versioning, and OpenAPI documentation, which is a staple of any backend role.",
+      "tags": [
+        "user-safety",
+        "microservice",
+        "go",
+        "docker",
+        "portfolio"
+      ],
+      "scheduled_at": "2026-10-19T09:03:04Z",
+      "status": "pending"
     }
   ]
 }
