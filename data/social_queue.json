@@ -27657,7 +27657,8 @@
         "algorithms"
       ],
       "scheduled_at": "2026-10-19T04:05:34Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-10-19T04:08:38Z"
     }
   ]
 }
