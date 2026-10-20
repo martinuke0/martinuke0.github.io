@@ -27755,7 +27755,8 @@
         "architecture"
       ],
       "scheduled_at": "2026-10-20T12:02:03Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-10-20T12:07:39Z"
     }
   ]
 }
