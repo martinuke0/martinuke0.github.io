@@ -27771,8 +27771,9 @@
         "python"
       ],
       "scheduled_at": "2026-10-20T15:04:49Z",
-      "status": "posting",
-      "claimed_at": "2026-10-20T15:10:32Z"
+      "status": "posted",
+      "claimed_at": "2026-10-20T15:10:32Z",
+      "post_urn": "urn:li:share:7518329083034968064"
     }
   ]
 }
