@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-20T10:02:58Z",
+  "last_scheduled_at": "2026-10-20T12:02:03Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -27742,6 +27742,20 @@
       "status": "posted",
       "claimed_at": "2026-10-20T10:05:19Z",
       "post_urn": "urn:li:share:7518252276017467392"
+    },
+    {
+      "title": "Master",
+      "url": "https://martinuke0.github.io/posts/2026-10-20-master/",
+      "social_hook": "> TL;DR — The master node is a single point of coordination in distributed systems, but with proper leader election, heartbeat monitoring, and failover mechanisms, it can become a highly available component. Understanding the trade-offs between consistency, availability, and partition tolerance is essential when designing a master-based architecture.\n\nIn modern infrastructure, the term “master” often evokes images of a central controller orchestrating a swarm of workers. While this pattern can introduce a single point of failure, it also simplifies coordination, enforces ordering, and provides a clear authority for decision-making. Whether you’re building a distributed database, a task scheduler, or a consensus-based system, understanding how the master role emerges, how it fails, and how it recovers is critical for shipping resilient software.\n\nThe master pattern persists because many problems are inherently easier to solve with a single decision maker. Consider a distributed transaction that must be atomic across multiple shards: a central coordinator can serialize commits, resolve conflicts, and ensure that all participants reach the same outcome. Without a master, you would need a more complex protocol like Paxos or Raft to replicate the same guarantee, which adds latency and operational overhead.",
+      "tags": [
+        "distributed-systems",
+        "leader-election",
+        "high-availability",
+        "scalability",
+        "architecture"
+      ],
+      "scheduled_at": "2026-10-20T12:02:03Z",
+      "status": "pending"
     }
   ]
 }
