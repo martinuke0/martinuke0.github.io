@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-20T12:02:03Z",
+  "last_scheduled_at": "2026-10-20T15:04:49Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -27758,6 +27758,20 @@
       "status": "posted",
       "claimed_at": "2026-10-20T12:07:39Z",
       "post_urn": "urn:li:share:7518283060241604609"
+    },
+    {
+      "title": "Building a Block‑Sparse Sliding‑Window Attention Transformer with Reversible Layers in Pure Python",
+      "url": "https://martinuke0.github.io/posts/2026-10-20-building-a-blocksparse-slidingwindow-attention-transformer-with-reversible-layer/",
+      "social_hook": "> TL;DR — You will implement a block‑sparse sliding‑window attention transformer with reversible layers entirely in Python, without external ML frameworks. The project demonstrates algorithmic efficiency, memory optimization, and systems thinking, making it a strong signal for engineering roles. By the end you have a runnable model that can process sequences with reduced computational complexity and can be extended to production‑grade features.\n\nIn the competitive landscape of portfolio projects, standing out requires more than a simple demo. This guide shows how to build a transformer variant that combines two advanced techniques—block‑sparse sliding‑window attention and reversible layers—using only the standard library. The result is a compact, efficient, and extensible codebase that highlights your ability to reason about algorithmic complexity, memory usage, and software engineering best practices.\n\n- Algorithmic depth – You implement a custom attention mechanism that reduces quadratic complexity to linear‑ish, showing you understand the math behind Transformer efficiency.",
+      "tags": [
+        "transformer",
+        "attention",
+        "reversible",
+        "block-sparse",
+        "python"
+      ],
+      "scheduled_at": "2026-10-20T15:04:49Z",
+      "status": "pending"
     }
   ]
 }
