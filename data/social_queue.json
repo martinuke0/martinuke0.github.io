@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-19T23:02:22Z",
+  "last_scheduled_at": "2026-10-20T03:02:12Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -27709,6 +27709,20 @@
       "status": "posted",
       "claimed_at": "2026-10-19T23:07:59Z",
       "post_urn": "urn:li:share:7518086843624620032"
+    },
+    {
+      "title": "Hands‑On: Building a Chunk‑Based Document Store Portfolio Project",
+      "url": "https://martinuke0.github.io/posts/2026-10-20-handson-building-a-chunkbased-document-store-portfolio-project/",
+      "social_hook": "> TL;DR — In this post you’ll build a chunk‑based document store in Go, containerize it with Docker, and persist data in PostgreSQL, gaining a runnable, portfolio‑ready project that demonstrates real‑world systems skills.\n\nA portfolio project that doubles as a production‑grade system is one of the fastest ways to catch a hiring manager’s eye. In this guide you’ll hands‑on build a chunk‑based document store from scratch, using Go for the service, Docker for containerization, and PostgreSQL for persistence. By the end you’ll have a complete, runnable codebase, a clear architecture, and a set of extensions that showcase senior‑level engineering skills.\n\n- Go proficiency – You’ll write production‑grade services with static typing, error‑handling patterns, and idiomatic concurrency.",
+      "tags": [
+        "go",
+        "docker",
+        "postgresql",
+        "microservices",
+        "portfolio"
+      ],
+      "scheduled_at": "2026-10-20T03:02:12Z",
+      "status": "pending"
     }
   ]
 }
