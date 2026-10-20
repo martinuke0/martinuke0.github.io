@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-20T03:02:12Z",
+  "last_scheduled_at": "2026-10-20T10:02:58Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -27725,6 +27725,21 @@
       "status": "posted",
       "claimed_at": "2026-10-20T03:07:56Z",
       "post_urn": "urn:li:share:7518147228444741632"
+    },
+    {
+      "title": "Building a Scalable URL Shortener Service in Go",
+      "url": "https://martinuke0.github.io/posts/2026-10-20-building-a-scalable-url-shortener-service-in-go/",
+      "social_hook": "> TL;DR — In this post you'll build a production‑grade URL shortener in Go that handles millions of redirects per day, using PostgreSQL for durability, Redis for caching, and Docker Compose for local orchestration. The code is fully runnable, and you'll learn the architecture, testing, and extension patterns that hiring managers look for.\n\nBuilding a URL shortener is a classic interview project, but most tutorials stop at a single‑process script. In this guide you’ll treat it as a real distributed service: a Go microservice backed by PostgreSQL, fronted by Redis, containerized with Docker, and ready to scale horizontally. By the end you’ll have a portfolio piece that demonstrates systems thinking, production‑grade code, and a clear path to senior‑level improvements.\n\n- Concrete systems design – You’ll ship a service that combines an HTTP API, relational persistence, in‑memory caching, and container orchestration, showing you can hold a whole system in your head.",
+      "tags": [
+        "go",
+        "microservices",
+        "postgres",
+        "redis",
+        "docker",
+        "kubernetes"
+      ],
+      "scheduled_at": "2026-10-20T10:02:58Z",
+      "status": "pending"
     }
   ]
 }
