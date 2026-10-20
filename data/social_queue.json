@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-20T15:04:49Z",
+  "last_scheduled_at": "2026-10-20T22:02:37Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -27774,6 +27774,20 @@
       "status": "posted",
       "claimed_at": "2026-10-20T15:10:32Z",
       "post_urn": "urn:li:share:7518329083034968064"
+    },
+    {
+      "title": "Building a Speculative Decoding Engine in Pure Python: A CV-Worthy Side Project",
+      "url": "https://martinuke0.github.io/posts/2026-10-20-building-a-speculative-decoding-engine-in-pure-python-a-cv-worthy-side-project/",
+      "social_hook": "> TL;DR — Speculative decoding can cut LLM inference latency by 2–3× without sacrificing quality, and building a working engine in Python is a project that immediately signals systems programming, ML deployment, and algorithmic sophistication to any hiring manager. This guide gives you real, runnable code for the draft model, speculative sampling, and rejection sampling loop—plus a roadmap to turn it into a production-flavored artifact.\n\nLarge language models are fantastic at generating text, but their autoregressive nature makes them slow: each token depends on the previous one, so you cannot parallelize generation. Speculative decoding, introduced by Leviathan et al. (2022) and refined by Chen et al. (2023), uses a smaller “draft” model to propose several tokens at once, then a larger “target” model verifies them in a single forward pass. The result is a significant speedup with zero loss in output quality, thanks to a clever rejection sampling trick. In this post, I’ll walk you through building a complete speculative decoding engine in pure Python (with PyTorch for the models) that you can run on a laptop and extend for production.\n\nHiring managers for backend, ML infrastructure, or systems roles look for candidates who can ship efficient, correct, and observable code. A speculative decoding engine checks several boxes at once:",
+      "tags": [
+        "speculative-decoding",
+        "python",
+        "machine-learning",
+        "systems",
+        "side-project"
+      ],
+      "scheduled_at": "2026-10-20T22:02:37Z",
+      "status": "pending"
     }
   ]
 }
