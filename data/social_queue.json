@@ -27739,8 +27739,9 @@
         "kubernetes"
       ],
       "scheduled_at": "2026-10-20T10:02:58Z",
-      "status": "posting",
-      "claimed_at": "2026-10-20T10:05:19Z"
+      "status": "posted",
+      "claimed_at": "2026-10-20T10:05:19Z",
+      "post_urn": "urn:li:share:7518252276017467392"
     }
   ]
 }
