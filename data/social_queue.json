@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-20T22:02:37Z",
+  "last_scheduled_at": "2026-10-21T03:05:04Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -27790,6 +27790,20 @@
       "status": "posted",
       "claimed_at": "2026-10-20T22:08:11Z",
       "post_urn": "urn:li:share:7518434192196526080"
+    },
+    {
+      "title": "Hands‑On BPE Tokenizer: Pure‑Python Incremental Merge Learning with Trie Lookup",
+      "url": "https://martinuke0.github.io/posts/2026-10-21-handson-bpe-tokenizer-purepython-incremental-merge-learning-with-trie-lookup/",
+      "social_hook": "> TL;DR — This post walks you through building a pure‑Python BPE tokenizer with online incremental merge learning and a trie‑based lookup, giving you a runnable library that showcases real‑systems skill. You’ll learn how to train incrementally, tokenize fast, and extend the code for production use.\n\nBuilding a custom tokenizer from scratch is a rare hands‑on project that touches data structures, algorithms, and production‑grade performance tuning. In this post we’ll implement a pure‑Python BPE (Byte‑Pair Encoding) tokenizer that learns merges online and uses a trie for sub‑millisecond token lookup. The result is a lightweight library you can drop into any Python pipeline and point to on your CV.\n\nHiring managers scanning CVs look for concrete, production‑relevant signals. This project demonstrates several of them:",
+      "tags": [
+        "python",
+        "nlp",
+        "tokenizer",
+        "bpe",
+        "cv"
+      ],
+      "scheduled_at": "2026-10-21T03:05:04Z",
+      "status": "pending"
     }
   ]
 }
