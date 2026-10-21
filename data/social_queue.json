@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-21T03:05:04Z",
+  "last_scheduled_at": "2026-10-21T12:03:23Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -27806,6 +27806,20 @@
       "status": "posted",
       "claimed_at": "2026-10-21T03:10:55Z",
       "post_urn": "urn:li:share:7518510369716461568"
+    },
+    {
+      "title": "User Safety: Safe-by-Design Patterns for Modern Applications",
+      "url": "https://martinuke0.github.io/posts/2026-10-21-user-safety-safe-by-design-patterns-for-modern-applications/",
+      "social_hook": "> TL;DR — Building user safety into software isn't a checklist; it's a set of architectural patterns—from zero-trust auth to graceful degradation—that prevent data leaks, account takeovers, and service outages before they impact real people. In production, \"safe\" means default-deny, observable boundaries, and abuse-resistant design at scale.\n\nUser safety in digital products encompasses far more than HTTPS and password hashes. It spans the entire lifecycle of a user's interaction with a system, from the moment credentials are entered to the way data is stored, processed, and retired. Engineering teams that treat safety as a first-class concern see fewer security incidents, lower downtime, and higher trust from their user base. This article walks through concrete, production-proven patterns that make user-facing systems safe by default, illustrates how leading platforms implement them, and catalogs the named failure modes that catch engineers off guard when safety is treated as an afterthought.\n\nThe first line of defense for any user-facing system is a robust authentication and authorization layer. Yet in practice, many teams deploy generic auth solutions without considering the safety implications of their defaults. A zero-trust approach—where every request is verified regardless of origin—reduces the attack surface area significantly. This means moving beyond simple password checks to include multi-factor authentication (MFA), device fingerprinting, and short-lived, rotating tokens.",
+      "tags": [
+        "user-safety",
+        "systems-design",
+        "security",
+        "devops",
+        "best-practices"
+      ],
+      "scheduled_at": "2026-10-21T12:03:23Z",
+      "status": "pending"
     }
   ]
 }
