@@ -27819,8 +27819,9 @@
         "best-practices"
       ],
       "scheduled_at": "2026-10-21T12:03:23Z",
-      "status": "posting",
-      "claimed_at": "2026-10-21T12:08:55Z"
+      "status": "posted",
+      "claimed_at": "2026-10-21T12:08:55Z",
+      "post_urn": "urn:li:share:7518645766714859521"
     }
   ]
 }
