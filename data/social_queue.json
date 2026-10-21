@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-21T12:03:23Z",
+  "last_scheduled_at": "2026-10-21T14:05:29Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -27822,6 +27822,20 @@
       "status": "posted",
       "claimed_at": "2026-10-21T12:08:55Z",
       "post_urn": "urn:li:share:7518645766714859521"
+    },
+    {
+      "title": "Building a Production-Grade Byte-Level BPE Tokenizer in Pure Python",
+      "url": "https://martinuke0.github.io/posts/2026-10-21-building-a-production-grade-byte-level-bpe-tokenizer-in-pure-python/",
+      "social_hook": "> TL;DR — This guide shows how to implement a byte-level BPE tokenizer from scratch in pure Python, including regex pre‑tokenization, a trie‑based encoder, and JSON serialization. The resulting module is production‑grade, fully testable, and highlights systems‑engineering expertise for hiring managers. It can serve as a portfolio piece or be extended into a real‑world tokenization service.\n\nTokenization is the first step in any modern NLP pipeline, yet many engineers treat it as a black box. By building a byte‑level Byte Pair Encoding (BPE) tokenizer with regex pre‑tokenization, a trie‑based encoder, and `tokenizer.json` serialization, you demonstrate low‑level string processing, algorithm design, data‑structure engineering, and production‑ready serialization—all skills that hiring managers look for in ML infrastructure or senior software roles. In this post you will construct the entire tokenizer step by step, test it on real text, and outline concrete upgrades that turn a prototype into a scalable service.\n\n- Algorithmic depth – You implement BPE from scratch, including byte‑level vocabulary construction, frequency counting, and merge‑selection, which signals strong algorithmic foundations.",
+      "tags": [
+        "tokenization",
+        "bpe",
+        "python",
+        "nlp",
+        "systems"
+      ],
+      "scheduled_at": "2026-10-21T14:05:29Z",
+      "status": "pending"
     }
   ]
 }
