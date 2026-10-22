@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-22T03:06:52Z",
+  "last_scheduled_at": "2026-10-22T04:06:52Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -27871,6 +27871,20 @@
       "status": "posted",
       "claimed_at": "2026-10-22T03:12:30Z",
       "post_urn": "urn:li:share:7518873158054092800"
+    },
+    {
+      "title": "Build a Mini HNSW Vector Index from Scratch in Python",
+      "url": "https://martinuke0.github.io/posts/2026-10-22-build-a-mini-hnsw-vector-index-from-scratch-in-python/",
+      "social_hook": "> TL;DR — This post walks you through building a minimal Hierarchical Navigable Small World (HNSW) vector index in pure Python. You will implement layered graph construction, beam‑search expansion (ef‑search), and heuristic neighbor pruning, then validate it with synthetic data. The resulting code is a compact, runnable portfolio piece that signals hands‑on experience with approximate nearest‑neighbor (ANN) systems, graph algorithms, and performance‑oriented Python.\n\nBuilding an ANN index from scratch is a powerful way to demonstrate systems depth to hiring managers. Unlike calling a library, writing the core algorithm forces you to confront the trade‑offs between search speed, memory, and recall that production retrieval systems face daily. In this guide you will construct a mini HNSW index that can insert vectors, perform ef‑search, and prune neighbors—all without external dependencies. The implementation is deliberately small (≈150 lines) but captures the essential mechanics that power tools like FAISS, HNSWlib, and Annoy. By the end you will have a portfolio project that showcases algorithmic skill, testing discipline, and a clear path to production‑grade extensions.\n\n- Algorithmic depth – You will write the layered graph, beam expansion, and pruning logic yourself, proving you understand how hierarchical small‑world graphs achieve sub‑linear search.",
+      "tags": [
+        "vector-search",
+        "hnsw",
+        "python",
+        "systems",
+        "portfolio"
+      ],
+      "scheduled_at": "2026-10-22T04:06:52Z",
+      "status": "pending"
     }
   ]
 }
