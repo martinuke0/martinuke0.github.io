@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-22T19:28:18Z",
+  "last_scheduled_at": "2026-10-22T21:03:19Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -27933,6 +27933,21 @@
         "engineering"
       ],
       "scheduled_at": "2026-10-22T19:28:18Z",
+      "status": "pending"
+    },
+    {
+      "title": "User Safety: Building Safe Systems in Production",
+      "url": "https://martinuke0.github.io/posts/2026-10-22-user-safety-building-safe-systems-in-production/",
+      "social_hook": "> TL;DR — Safe user systems are built by embedding security and privacy into the architecture from day one, not as an afterthought. By combining strong authentication, least-privilege authorization, defense-in-depth data protection, and proactive monitoring, engineering teams can ship features without exposing users to preventable harm. The patterns below are battle-tested in production and can be applied to everything from startups to global platforms.\n\nUser safety is not a single feature; it is an emergent property of the system’s design. When engineers treat safety as a first-class requirement—on par with performance and scalability—they create products that users trust. This post walks through the core architectural patterns that make user systems safe, shows how they fit together in a real production environment, and provides concrete code snippets you can adapt immediately.\n\nSafety failures rarely stem from a single line of buggy code. Instead, they arise from systemic gaps: missing validation, over-privileged service accounts, unencrypted data at rest, or slow incident response. In production, these gaps compound. A misconfigured database bucket can leak millions of user records; an overly broad token scope can let an attacker pivot across the entire application.",
+      "tags": [
+        "security",
+        "architecture",
+        "production",
+        "privacy",
+        "user-experience",
+        "devops"
+      ],
+      "scheduled_at": "2026-10-22T21:03:19Z",
       "status": "pending"
     }
   ]
