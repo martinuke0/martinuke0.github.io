@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-22T10:02:22Z",
+  "last_scheduled_at": "2026-10-22T18:28:18Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -27904,6 +27904,20 @@
       "status": "posted",
       "claimed_at": "2026-10-22T10:07:56Z",
       "post_urn": "urn:li:share:7518977703878946816"
+    },
+    {
+      "title": "Hands‑On Guide: Building a User Safety Service for Your CV",
+      "url": "https://martinuke0.github.io/posts/2026-10-22-handson-guide-building-a-user-safety-service-for-your-cv/",
+      "social_hook": "> TL;DR — In this post you’ll build a runnable User Safety service using FastAPI and Open Policy Agent, validating user data against privacy policies and exposing a clean API for your CV.\n\nBuilding a portfolio project that demonstrates real‑world systems skills is a powerful way to stand out to hiring managers. In this guide you’ll create a User Safety service that validates incoming user data (email, age, etc.) against configurable policies written in OPA’s Rego language, serves the decisions through a FastAPI endpoint, and includes tests, Docker‑ready deployment steps, and a clear roadmap for production‑grade extensions. The project is small enough to finish in a weekend yet extensible enough to discuss policy‑as‑code, API design, and observability—topics that recur in senior‑level engineering interviews.\n\n- Policy‑as‑code: Writing Rego policies turns abstract safety rules into version‑controlled, testable artifacts—exactly the pattern used at companies like Stripe and HashiCorp.",
+      "tags": [
+        "python",
+        "fastapi",
+        "opa",
+        "cv",
+        "portfolio"
+      ],
+      "scheduled_at": "2026-10-22T18:28:18Z",
+      "status": "pending"
     }
   ]
 }
