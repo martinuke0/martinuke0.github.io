@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-22T18:28:18Z",
+  "last_scheduled_at": "2026-10-22T19:28:18Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -27920,6 +27920,20 @@
       "status": "posted",
       "claimed_at": "2026-10-22T18:34:06Z",
       "post_urn": "urn:li:share:7519105093657575426"
+    },
+    {
+      "title": "Hands-on Guide: Building a vLLM‑style Paged Attention Engine in Pure Python",
+      "url": "https://martinuke0.github.io/posts/2026-10-22-hands-on-guide-building-a-vllmstyle-paged-attention-engine-in-pure-python/",
+      "social_hook": "> TL;DR — In this post we build a pure‑Python paged attention engine that mirrors vLLM’s block‑level KV cache with LRU eviction. The code fits in a single file, runs on CPU, and can be extended with PyTorch kernels for real‑world use.\n\nBuilding a portfolio project that doubles as a functioning systems prototype is one of the fastest ways to signal depth of experience to hiring managers. A paged attention engine sits at the heart of modern LLM serving frameworks such as vLLM, and implementing one from scratch in pure Python lets you showcase knowledge of memory management, algorithmic design, and production‑grade patterns without needing a GPU cluster.\n\n- Systems‑level memory management – You design and maintain a block‑level cache, track usage with an LRU eviction policy, and handle fragmentation – skills directly transferable to database engines, streaming processors, or orchestration layers.",
+      "tags": [
+        "python",
+        "systems",
+        "cv",
+        "performance",
+        "engineering"
+      ],
+      "scheduled_at": "2026-10-22T19:28:18Z",
+      "status": "pending"
     }
   ]
 }
