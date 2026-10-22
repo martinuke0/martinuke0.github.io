@@ -27901,8 +27901,9 @@
         "self-attention"
       ],
       "scheduled_at": "2026-10-22T10:02:22Z",
-      "status": "posting",
-      "claimed_at": "2026-10-22T10:07:56Z"
+      "status": "posted",
+      "claimed_at": "2026-10-22T10:07:56Z",
+      "post_urn": "urn:li:share:7518977703878946816"
     }
   ]
 }
