@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-22T00:02:04Z",
+  "last_scheduled_at": "2026-10-22T03:06:52Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -27854,6 +27854,21 @@
       "status": "posted",
       "claimed_at": "2026-10-22T00:07:45Z",
       "post_urn": "urn:li:share:7518826661375586305"
+    },
+    {
+      "title": "Hands-On Build Guide: Batched LLM Token Sampler in Pure NumPy",
+      "url": "https://martinuke0.github.io/posts/2026-10-22-hands-on-build-guide-batched-llm-token-sampler-in-pure-numpy/",
+      "social_hook": "> TL;DR — This guide walks you through building a pure‑NumPy batched LLM token sampler that implements temperature scaling, top‑k, top‑p nucleus, and repetition penalty with vectorized cumulative‑sum filtering, giving you a runnable, extensible project you can showcase on a CV.\n\nBuilding a small but complete token sampler from scratch is a rare CV entry that simultaneously demonstrates numerical engineering, probabilistic algorithm design, and production‑ready code hygiene. Hiring managers see a candidate who can translate a research‑level sampling trick into a clean, vectorized implementation without relying on heavy frameworks. The project also signals familiarity with the kinds of low‑level optimizations that power LLM serving stacks (e.g., vLLM, TGI) and gives you a concrete talking point for interviews about trade‑offs between speed, memory, and output quality.\n\n- Vectorized Numerics: Implementing temperature scaling, top‑k, and nucleus sampling with pure NumPy shows you can work with array‑oriented thinking, avoid Python loops, and achieve performance that rivals compiled libraries.",
+      "tags": [
+        "numpy",
+        "python",
+        "llm",
+        "sampling",
+        "cv",
+        "portfolio"
+      ],
+      "scheduled_at": "2026-10-22T03:06:52Z",
+      "status": "pending"
     }
   ]
 }
