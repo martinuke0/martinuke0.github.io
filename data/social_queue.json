@@ -27851,7 +27851,8 @@
         "performance"
       ],
       "scheduled_at": "2026-10-22T00:02:04Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-10-22T00:07:45Z"
     }
   ]
 }
