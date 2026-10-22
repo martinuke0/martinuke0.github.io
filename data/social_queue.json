@@ -27901,7 +27901,8 @@
         "self-attention"
       ],
       "scheduled_at": "2026-10-22T10:02:22Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-10-22T10:07:56Z"
     }
   ]
 }
