@@ -27933,8 +27933,9 @@
         "engineering"
       ],
       "scheduled_at": "2026-10-22T19:28:18Z",
-      "status": "posting",
-      "claimed_at": "2026-10-22T21:09:14Z"
+      "status": "posted",
+      "claimed_at": "2026-10-22T21:09:14Z",
+      "post_urn": "urn:li:share:7519144125846204416"
     },
     {
       "title": "User Safety: Building Safe Systems in Production",
