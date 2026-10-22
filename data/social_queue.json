@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-21T14:05:29Z",
+  "last_scheduled_at": "2026-10-22T00:02:04Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -27838,6 +27838,20 @@
       "status": "posted",
       "claimed_at": "2026-10-21T14:11:01Z",
       "post_urn": "urn:li:share:7518676493296934912"
+    },
+    {
+      "title": "Building a FlashAttention-Style Tiled Self-Attention Block in NumPy",
+      "url": "https://martinuke0.github.io/posts/2026-10-22-building-a-flashattention-style-tiled-self-attention-block-in-numpy/",
+      "social_hook": "> TL;DR — You will implement a FlashAttention‑style tiled self‑attention block from scratch in NumPy, including a numerically stable online softmax and a KV cache. The project ships with benchmarks that quantify the memory and computational savings of tiling, giving you a concrete portfolio piece that signals real systems skill.\n\nThe rise of large transformer models has turned efficient attention from a research curiosity into a production requirement. While frameworks like PyTorch hide the underlying kernels, hiring managers often look for evidence that a candidate can reason about memory hierarchies, algorithmic stability, and I/O trade‑offs. In this guide you will build a self‑contained, NumPy‑only implementation that mirrors the key ideas of FlashAttention — tiling, online softmax, and KV caching — and then measure its complexity.\n\n- Low‑level algorithm design – you write an online softmax that avoids materializing the full attention matrix, demonstrating numerical know‑how.",
+      "tags": [
+        "machine-learning",
+        "systems",
+        "numpy",
+        "transformers",
+        "performance"
+      ],
+      "scheduled_at": "2026-10-22T00:02:04Z",
+      "status": "pending"
     }
   ]
 }
