@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-22T04:06:52Z",
+  "last_scheduled_at": "2026-10-22T10:02:22Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -27887,6 +27887,21 @@
       "status": "posted",
       "claimed_at": "2026-10-22T04:08:10Z",
       "post_urn": "urn:li:share:7518887166203174912"
+    },
+    {
+      "title": "Building a FlashAttention-Style Tiled Self-Attention Block in Pure NumPy",
+      "url": "https://martinuke0.github.io/posts/2026-10-22-building-a-flashattention-style-tiled-self-attention-block-in-pure-numpy/",
+      "social_hook": "> TL;DR — In this guide you will implement a FlashAttention‑style tiled self‑attention block with online softmax entirely in NumPy. The project demonstrates tiling, shared memory reuse, and numerically stable softmax, proving you can engineer efficient deep‑learning primitives.\n\nSelf‑attention is the computational heart of modern transformers, but a naive implementation quickly runs into memory‑bandwidth bottlenecks and numerical instability. By building a tiled, online‑softmax attention block from scratch in NumPy, you demonstrate the ability to reason about memory hierarchies, write numerically stable algorithms, and produce code that can be profiled and optimized—skills that hiring managers look for in senior or staff‑level systems roles. This post walks you through a complete, runnable implementation, explains the architecture behind it, and shows how you can extend the prototype into production‑flavored features.\n\n- Algorithmic depth – You implement the core attention operation with tiling and online softmax, showing you understand both the mathematics and the performance implications.",
+      "tags": [
+        "deep-learning",
+        "attention",
+        "numpy",
+        "systems",
+        "flash-attention",
+        "self-attention"
+      ],
+      "scheduled_at": "2026-10-22T10:02:22Z",
+      "status": "pending"
     }
   ]
 }
