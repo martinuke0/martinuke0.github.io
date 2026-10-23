@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-22T21:03:19Z",
+  "last_scheduled_at": "2026-10-23T02:03:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -27953,6 +27953,21 @@
       "status": "posted",
       "claimed_at": "2026-10-22T21:09:14Z",
       "post_urn": "urn:li:share:7519144146906005504"
+    },
+    {
+      "title": "User Safety: safe",
+      "url": "https://martinuke0.github.io/posts/2026-10-23-user-safety-safe/",
+      "social_hook": "> TL;DR — Build a real-time user safety service that scores text for toxicity using a FastAPI endpoint, a scikit-learn model, and Redis caching. This project demonstrates systems engineering, API design, and ML integration—skills that hiring managers look for in backend and platform roles.\n\nIn the race to stand out as a systems engineer, a side project that ships a working, scalable service is far more compelling than a theoretical blog post. This guide walks you through building User Safety: safe, a production-flavored microservice that classifies user-generated text for toxic language. By the end, you'll have a runnable FastAPI app, a trained toxicity classifier, and a caching layer that together signal real-world backend competence.\n\nThis project surfaces a cluster of skills that map directly to senior-level job descriptions:",
+      "tags": [
+        "user-safety",
+        "systems-engineering",
+        "python",
+        "fastapi",
+        "redis",
+        "machine-learning"
+      ],
+      "scheduled_at": "2026-10-23T02:03:14Z",
+      "status": "pending"
     }
   ]
 }
