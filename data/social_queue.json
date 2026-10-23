@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-23T02:03:14Z",
+  "last_scheduled_at": "2026-10-23T05:03:07Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -27970,6 +27970,20 @@
       "status": "posted",
       "claimed_at": "2026-10-23T02:08:50Z",
       "post_urn": "urn:li:share:7519219522608947200"
+    },
+    {
+      "title": "User Safety: A Hands‑On Build Guide for a Portfolio CV Side Project",
+      "url": "https://martinuke0.github.io/posts/2026-10-23-user-safety-a-handson-build-guide-for-a-portfolio-cv-side-project/",
+      "social_hook": "> TL;DR — This guide walks you through building a self‑hosted Go + SQLite service that validates user‑generated content against a policy, stores decisions, and ships as a Docker container. By the end you’ll have a runnable project that demonstrates backend engineering, security thinking and DevOps fundamentals — perfect for a CV.\n\nBuilding a portfolio project that hiring managers notice requires more than a “Hello, World” tutorial. You need a concrete, runnable system that lets you talk about architecture, trade‑offs, and production‑grade concerns in an interview. User Safety (shortened to safe) is a self‑hosted micro‑service that evaluates arbitrary text against a content‑policy, records the decision, and exposes a simple HTTP API. It’s written in Go, persists decisions in SQLite, and is fully containerised with Docker. The project touches on language fundamentals, web services, policy‑as‑code, testing, container orchestration, and observability — all topics that appear frequently in senior‑engineer interview tracks.\n\nHiring managers scan dozens of “To‑Do list” or “Clone of X” repos. What makes safe different?",
+      "tags": [
+        "go",
+        "docker",
+        "security",
+        "sqlite",
+        "side-project"
+      ],
+      "scheduled_at": "2026-10-23T05:03:07Z",
+      "status": "pending"
     }
   ]
 }
