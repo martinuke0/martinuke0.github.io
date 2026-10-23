@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-23T05:03:07Z",
+  "last_scheduled_at": "2026-10-23T21:02:03Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -27986,6 +27986,20 @@
       "status": "posted",
       "claimed_at": "2026-10-23T05:08:47Z",
       "post_urn": "urn:li:share:7519264808811253761"
+    },
+    {
+      "title": "Mastering Jaeger Tracing for Microservice Latency Analysis: End-to-End Workflow Optimization",
+      "url": "https://martinuke0.github.io/posts/2026-10-23-mastering-jaeger-tracing-for-microservice-latency-analysis-end-to-end-workflow-o/",
+      "social_hook": "> TL;DR — Jaeger's distributed tracing illuminates latency hotspots across microservice boundaries, letting you focus optimization efforts where they matter most. By instrumenting with OpenTelemetry and analyzing trace graphs, you can pinpoint bottlenecks and cut end-to-end response times. This guide covers end‑to‑end setup, query strategies, and production‑proven tuning tips.\n\nIn a microservice ecosystem, a single user request may traverse a dozen services, each adding its own processing time. Without visibility into these hops, latency issues become opaque and debugging turns into guesswork. Jaeger, an open‑source distributed tracing system, provides the end‑to‑end view you need to quantify, analyze, and reduce latency. This post walks through a complete workflow—from installing Jaeger to extracting actionable insights—so you can turn raw trace data into measurable performance gains.\n\n- End‑to‑end visibility: A trace captures the full path of a request, revealing where time is spent across service boundaries.",
+      "tags": [
+        "Jaeger",
+        "Tracing",
+        "Microservices",
+        "Performance",
+        "Observability"
+      ],
+      "scheduled_at": "2026-10-23T21:02:03Z",
+      "status": "pending"
     }
   ]
 }
