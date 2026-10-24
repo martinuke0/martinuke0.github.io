@@ -28064,8 +28064,9 @@
         "systems"
       ],
       "scheduled_at": "2026-10-24T16:02:15Z",
-      "status": "posting",
-      "claimed_at": "2026-10-24T16:07:55Z"
+      "status": "posted",
+      "claimed_at": "2026-10-24T16:07:55Z",
+      "post_urn": "urn:li:share:7519793075335098368"
     }
   ]
 }
