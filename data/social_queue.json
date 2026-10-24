@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-23T21:02:03Z",
+  "last_scheduled_at": "2026-10-24T02:02:23Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28002,6 +28002,20 @@
       "status": "posted",
       "claimed_at": "2026-10-23T21:07:33Z",
       "post_urn": "urn:li:share:7519506088334135296"
+    },
+    {
+      "title": "Building a LoRA Adapter Versioning & Conflict Resolver from Scratch",
+      "url": "https://martinuke0.github.io/posts/2026-10-24-building-a-lora-adapter-versioning-conflict-resolver-from-scratch/",
+      "social_hook": "> TL;DR — You will build a CLI that versions LoRA adapters, tracks their lineage, and resolves conflicts when multiple adapters target the same base model. The implementation uses Git‑like semantics, content‑addressed storage, and a deterministic merge strategy, giving you a concrete artifact to discuss in interviews. It signals systems engineering, ML ops, and tooling expertise.\n\nManaging fine‑tuned adapters for large language models quickly becomes a version‑control problem: you need to know which adapter version is deployed, how it differs from previous ones, and what to do when two adapters modify the same weight matrix. This post walks you through building a lightweight, from‑scratch LoRA adapter versioning & conflict resolver that you can put on your résumé and use as a talking point in technical interviews.\n\n- Version‑control expertise – you’ll implement content‑addressed storage, commit history, and branching semantics similar to Git, showing you understand distributed state management.",
+      "tags": [
+        "LoRA",
+        "Versioning",
+        "Conflict-Resolution",
+        "Python",
+        "MLOps"
+      ],
+      "scheduled_at": "2026-10-24T02:02:23Z",
+      "status": "pending"
     }
   ]
 }
