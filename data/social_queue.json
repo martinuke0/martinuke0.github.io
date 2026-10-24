@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-24T02:02:23Z",
+  "last_scheduled_at": "2026-10-24T09:03:03Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28018,6 +28018,21 @@
       "status": "posted",
       "claimed_at": "2026-10-24T02:08:02Z",
       "post_urn": "urn:li:share:7519581717586767872"
+    },
+    {
+      "title": "From GGUF to Safetensors: A Hands-On Converter Build Guide",
+      "url": "https://martinuke0.github.io/posts/2026-10-24-from-gguf-to-safetensors-a-hands-on-converter-build-guide/",
+      "social_hook": "> TL;DR — This project builds a GGUF to safetensors converter in pure Python, demonstrating skills in binary format parsing, memory-efficient streaming, and quantization-aware tensor remapping. It's a concrete showcase for ML infrastructure and systems engineering roles, with real, runnable code that handles large models without loading everything into memory.\n\nConverting model weights between binary formats is a cornerstone skill for ML infrastructure engineers. The GGUF format (used by llama.cpp) and the safetensors format (popularized by Hugging Face) are both prevalent in production LLM serving, yet they have fundamentally different layouts, metadata schemes, and quantization strategies. Building a converter that bridges them—not by loading the entire model into RAM, but by streaming tensors lazily and intelligently remapping quantization types—signals that you understand file I/O, memory management, and the practical realities of deploying large models. In this guide, you'll build a from-scratch, pure-Python converter that does exactly that, with every snippet designed to run and every architectural decision justified by production constraints.\n\nHiring managers for ML infrastructure, platform engineering, or applied ML roles often sift through hundreds of applications. A well-documented side project that tackles a concrete interoperability problem immediately differentiates you. This converter demonstrates:",
+      "tags": [
+        "GGUF",
+        "Safetensors",
+        "Quantization",
+        "Python",
+        "Systems Engineering",
+        "Machine Learning"
+      ],
+      "scheduled_at": "2026-10-24T09:03:03Z",
+      "status": "pending"
     }
   ]
 }
