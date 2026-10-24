@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-24T14:02:41Z",
+  "last_scheduled_at": "2026-10-24T16:02:15Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28051,6 +28051,20 @@
       "status": "posted",
       "claimed_at": "2026-10-24T14:08:27Z",
       "post_urn": "urn:li:share:7519763011168002048"
+    },
+    {
+      "title": "Adaptive Temperature‑Scaled Top‑p/k Sampler with Dynamic Entropy Throttling",
+      "url": "https://martinuke0.github.io/posts/2026-10-24-adaptive-temperaturescaled-toppk-sampler-with-dynamic-entropy-throttling/",
+      "social_hook": "> TL;DR — This project demonstrates a deep understanding of probabilistic decoding, entropy management, and production‑grade Python engineering. By implementing temperature scaling, top‑p nucleus sampling, and dynamic entropy throttling from scratch, you showcase the ability to reason about LLM inference quality and efficiency trade‑offs. The code is fully runnable, testable, and extensible, making it a concrete talking point in interviews.\n\nIn modern LLM serving, the decoder is the bridge between raw model logits and the text users read. A naive greedy or beam‑search decoder produces repetitive, low‑diversity output, while a poorly tuned sampling strategy can generate incoherent or unsafe content. An adaptive temperature‑scaled top‑p (nucleus) sampler with dynamic entropy throttling gives you a single, tunable knob that balances creativity, coherence, and latency. This post walks you through building a pure‑Python implementation that you can drop into any inference pipeline, demonstrate on a résumé, and extend toward production.\n\n- Probabilistic reasoning – You will manipulate logits, compute Shannon entropy, and apply temperature scaling, showing you understand the mathematics behind generative models.",
+      "tags": [
+        "python",
+        "machine-learning",
+        "sampling",
+        "llm",
+        "systems"
+      ],
+      "scheduled_at": "2026-10-24T16:02:15Z",
+      "status": "pending"
     }
   ]
 }
