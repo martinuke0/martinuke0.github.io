@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-24T16:02:15Z",
+  "last_scheduled_at": "2026-10-24T22:02:12Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28067,6 +28067,20 @@
       "status": "posted",
       "claimed_at": "2026-10-24T16:07:55Z",
       "post_urn": "urn:li:share:7519793075335098368"
+    },
+    {
+      "title": "Hands‑On User Safety: Build a Portfolio‑Ready Security Tool",
+      "url": "https://martinuke0.github.io/posts/2026-10-24-handson-user-safety-build-a-portfolioready-security-tool/",
+      "social_hook": "> TL;DR — This post walks you through building a hands‑on User Safety tool that sanitises, validates, and audit‑logs user input, giving you a runnable Python project that signals security‑focused engineering skill to hiring managers. You’ll learn concrete techniques for input sanitisation, schema‑level validation, and structured audit logging using battle‑tested libraries. By the end you’ll have a working CLI (or HTTP) service you can ship, test, and extend.\n\nBuilding a portfolio project that demonstrates real‑world security engineering is a powerful way to stand out to hiring managers. In this guide we’ll construct a User Safety utility that takes arbitrary user input, sanitises it against common injection vectors, validates it against a Pydantic schema, and writes an immutable audit record. The entire tool is ~150 lines of Python, runs locally with `pip install -r requirements.txt`, and can be containerised, tested, and extended into a production‑grade service.\n\nHiring managers for backend, security, and data‑engineering roles look for concrete evidence that you can handle input safely, reason about data contracts, and build observability from the start. This project signals several competencies:",
+      "tags": [
+        "security",
+        "python",
+        "side-project",
+        "cv",
+        "data-validation"
+      ],
+      "scheduled_at": "2026-10-24T22:02:12Z",
+      "status": "pending"
     }
   ]
 }
