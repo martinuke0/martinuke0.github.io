@@ -28032,8 +28032,9 @@
         "Machine Learning"
       ],
       "scheduled_at": "2026-10-24T09:03:03Z",
-      "status": "posting",
-      "claimed_at": "2026-10-24T09:08:44Z"
+      "status": "posted",
+      "claimed_at": "2026-10-24T09:08:44Z",
+      "post_urn": "urn:li:share:7519687588543262720"
     }
   ]
 }
