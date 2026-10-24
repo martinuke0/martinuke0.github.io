@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-24T09:03:03Z",
+  "last_scheduled_at": "2026-10-24T14:02:41Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28035,6 +28035,20 @@
       "status": "posted",
       "claimed_at": "2026-10-24T09:08:44Z",
       "post_urn": "urn:li:share:7519687588543262720"
+    },
+    {
+      "title": "From Scratch: Building an HNSW Vector Index with Product Quantization in Pure Python",
+      "url": "https://martinuke0.github.io/posts/2026-10-24-from-scratch-building-an-hnsw-vector-index-with-product-quantization-in-pure-pyt/",
+      "social_hook": "> TL;DR — We’ll construct a fully functional HNSW graph and a product‑quantization layer in pure Python, then test recall and search speed on synthetic data. The resulting library is tiny, dependency‑free, and can be extended with persistence, horizontal scaling, and observability — a concrete, hire‑worthy portfolio piece.\n\nBuilding a vector index from scratch is one of the most effective ways to signal to hiring managers that you understand the systems trade‑offs behind modern similarity search. Unlike dropping a ready‑made library into a notebook, a from‑scratch implementation forces you to confront graph navigation, memory layout, and compression — the very things that differentiate a “glue‑code” engineer from a systems‑oriented one. An HNSW graph gives you logarithmic‑time recall with low latency, while product quantization (PQ) slashes storage and improves throughput by operating on compressed codes. Together they form the backbone of many production vector services (FAISS, Milvus, Pinecone) and mastering them in Python shows you can work comfortably in the language that dominates data‑science pipelines yet also power back‑end services.\n\n- Graph algorithms expertise – You demonstrate ability to implement hierarchical navigable small‑world (HNSW) construction, edge pruning, and ef‑search parameters.",
+      "tags": [
+        "hnsw",
+        "vector-index",
+        "product-quantization",
+        "python",
+        "portfolio-project"
+      ],
+      "scheduled_at": "2026-10-24T14:02:41Z",
+      "status": "pending"
     }
   ]
 }
