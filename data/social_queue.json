@@ -28080,8 +28080,9 @@
         "data-validation"
       ],
       "scheduled_at": "2026-10-24T22:02:12Z",
-      "status": "posting",
-      "claimed_at": "2026-10-24T22:07:54Z"
+      "status": "posted",
+      "claimed_at": "2026-10-24T22:07:54Z",
+      "post_urn": "urn:li:share:7519883662335713280"
     }
   ]
 }
