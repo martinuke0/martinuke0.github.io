@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-25T17:02:52Z",
+  "last_scheduled_at": "2026-10-25T18:02:52Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28182,6 +28182,20 @@
       "status": "posted",
       "claimed_at": "2026-10-25T17:08:30Z",
       "post_urn": "urn:li:share:7520170703590146048"
+    },
+    {
+      "title": "User Safety: Engineering Secure and Reliable Systems for People",
+      "url": "https://martinuke0.github.io/posts/2026-10-25-user-safety-engineering-secure-and-reliable-systems-for-people/",
+      "social_hook": "> TL;DR — User safety in production systems isn't a feature you bolt on later; it's an architectural commitment to default-deny, data integrity, and transparent failure modes. By embedding guardrails at the Kafka, Airflow, and Postgres layers, engineering teams can prevent silent data corruption, limit blast radius, and keep user trust intact even when things go wrong.\n\nUser safety in software systems is often treated as a compliance checkbox, but at engineering scale it is a fundamental system property. When users entrust their data, identity, and workflows to a platform, they are implicitly trusting that the underlying architecture will protect them from corruption, leakage, and unexpected failure. This trust breaks down not only through malicious attacks but also through silent operational failures: a misrouted message in a streaming pipeline, a permission drift in a database, or an idempotency gap in a batch job. In this post, we explore how to embed user safety into the fabric of distributed systems using concrete architectural patterns, production-proven guardrails, and named tooling that engineering teams can adopt today.\n\nSafety by design begins with a threat model that extends beyond \"secure the perimeter.\" In practice, user safety spans three interlocked layers: data integrity, privacy enforcement, and operational transparency. Each layer has its own set of patterns, anti-failure modes, and tooling requirements.",
+      "tags": [
+        "user-safety",
+        "systems-engineering",
+        "security",
+        "reliability",
+        "kafka"
+      ],
+      "scheduled_at": "2026-10-25T18:02:52Z",
+      "status": "pending"
     }
   ]
 }
