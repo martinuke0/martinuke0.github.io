@@ -28130,8 +28130,9 @@
         "docker"
       ],
       "scheduled_at": "2026-10-25T12:03:08Z",
-      "status": "posting",
-      "claimed_at": "2026-10-25T12:08:47Z"
+      "status": "posted",
+      "claimed_at": "2026-10-25T12:08:47Z",
+      "post_urn": "urn:li:share:7520095277635227649"
     }
   ]
 }
