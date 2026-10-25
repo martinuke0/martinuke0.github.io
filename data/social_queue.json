@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-25T12:03:08Z",
+  "last_scheduled_at": "2026-10-25T14:02:16Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28133,6 +28133,20 @@
       "status": "posted",
       "claimed_at": "2026-10-25T12:08:47Z",
       "post_urn": "urn:li:share:7520095277635227649"
+    },
+    {
+      "title": "Hands‑On Build Guide: SafeCV – a User‑Safety Portfolio Project",
+      "url": "https://martinuke0.github.io/posts/2026-10-25-handson-build-guide-safecv-a-usersafety-portfolio-project/",
+      "social_hook": "> TL;DR — This post walks you through building a runnable user‑safety service that validates input, enforces policy rules, and logs every decision. You'll get a complete Go microservice, Dockerfile, CI pipeline, and a roadmap to production‑grade features. By the end, you'll have a portfolio project that signals real systems skill to hiring managers.\n\nIn this guide you'll create a minimal yet complete user‑safety microservice that can be cloned, built, and run in minutes. The service exposes a REST endpoint that accepts a JSON payload, validates it against a set of safety policies, and returns a verdict. All code is Go, containerised with Docker, and includes a GitHub Actions workflow for testing and linting. The project is deliberately small enough to finish in a weekend, but extensible enough to grow into a senior‑level system.\n\nHiring managers for backend, security‑focused, and SRE roles look for concrete evidence that you can take an idea from specification to runnable service. SafeCV demonstrates several high‑value skills:",
+      "tags": [
+        "go",
+        "security",
+        "docker",
+        "ci-cd",
+        "portfolio"
+      ],
+      "scheduled_at": "2026-10-25T14:02:16Z",
+      "status": "pending"
     }
   ]
 }
