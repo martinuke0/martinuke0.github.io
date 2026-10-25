@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-25T07:02:12Z",
+  "last_scheduled_at": "2026-10-25T12:03:08Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28117,6 +28117,20 @@
       "status": "posted",
       "claimed_at": "2026-10-25T07:07:51Z",
       "post_urn": "urn:li:share:7520019552097943552"
+    },
+    {
+      "title": "User Safety: A Hands‑On Build Guide for a Portfolio CV Side Project",
+      "url": "https://martinuke0.github.io/posts/2026-10-25-user-safety-a-handson-build-guide-for-a-portfolio-cv-side-project/",
+      "social_hook": "> TL;DR — This post walks you through building a concrete, runnable User Safety service that validates and sanitises user input, logs actions, and can be extended for production use. By the end you’ll have a working FastAPI app, Dockerfile, and test suite you can ship to GitHub to signal security‑focused engineering skill.\n\nBuilding a side project that doubles as a portfolio piece is one of the most effective ways to signal real‑world engineering chops to hiring managers. In this post we’ll construct User Safety, a small but complete FastAPI‑based service that takes raw user payloads, runs them through Pydantic‑driven validation + sanitisation, writes structured logs, and ships as a Docker image. The code is fully runnable, testable, and extensible – exactly the kind of tangible artifact that stands out on a CV.\n\nHiring managers scanning dozens of GitHub repos look for three signals: code quality, systems thinking, and production awareness. User Safety hits all three:",
+      "tags": [
+        "python",
+        "fastapi",
+        "security",
+        "side-project",
+        "docker"
+      ],
+      "scheduled_at": "2026-10-25T12:03:08Z",
+      "status": "pending"
     }
   ]
 }
