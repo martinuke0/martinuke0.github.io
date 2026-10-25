@@ -28162,7 +28162,8 @@
         "oauth"
       ],
       "scheduled_at": "2026-10-25T16:01:58Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-10-25T16:07:36Z"
     }
   ]
 }
