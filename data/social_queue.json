@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-25T04:01:06Z",
+  "last_scheduled_at": "2026-10-25T07:02:12Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28100,6 +28100,21 @@
       "status": "posted",
       "claimed_at": "2026-10-25T04:06:47Z",
       "post_urn": "urn:li:share:7519973980351492096"
+    },
+    {
+      "title": "Mastering Cache Stampede Prevention with Probabilistic Early Expiration",
+      "url": "https://martinuke0.github.io/posts/2026-10-25-mastering-cache-stampede-prevention-with-probabilistic-early-expiration/",
+      "social_hook": "> TL;DR — Cache stampede occurs when many requests simultaneously trigger a cache miss, overwhelming the backend. Probabilistic early expiration mitigates this by randomly refreshing entries slightly before their TTL expires, smoothing request load and preserving low latency.\n\nCache stampede is a silent performance killer in any system that relies on a caching layer to shield a backend database or service. When a popular key expires, a burst of incoming requests can all miss the cache at the same instant, creating a thundering herd that saturates the underlying store. The result is spiking latency, increased error rates, and often a cascade of timeouts that can bring down an entire microservice. In this post we’ll explore why stampede happens, how probabilistic early expiration provides a lightweight, statistically sound defense, and how to integrate this pattern into production architectures using real‑world examples and concrete metrics.\n\nA cache stampede—also called a thundering herd—occurs when a large number of requests arrive at the exact moment a cached entry becomes invalid. Each request sees a miss and proceeds to fetch the data from the source of truth, causing a sudden spike in load. The classic scenario is a session store where thousands of users log in simultaneously, or a product catalog that is updated at a fixed interval. Without any protection, the backend may see a 5‑10× increase in QPS for a few seconds, which can overwhelm connection pools, CPU, and network bandwidth.",
+      "tags": [
+        "caching",
+        "stampede",
+        "probabilistic",
+        "early-expiration",
+        "distributed-systems",
+        "performance"
+      ],
+      "scheduled_at": "2026-10-25T07:02:12Z",
+      "status": "pending"
     }
   ]
 }
