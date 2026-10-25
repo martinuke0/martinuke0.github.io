@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-24T22:02:12Z",
+  "last_scheduled_at": "2026-10-25T04:01:06Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28083,6 +28083,21 @@
       "status": "posted",
       "claimed_at": "2026-10-24T22:07:54Z",
       "post_urn": "urn:li:share:7519883662335713280"
+    },
+    {
+      "title": "Deep Dive into Nx: Building High-Performance Monorepo Build Pipelines",
+      "url": "https://martinuke0.github.io/posts/2026-10-25-deep-dive-into-nx-building-high-performance-monorepo-build-pipelines/",
+      "social_hook": "> TL;DR — Nx transforms monorepo builds into a deterministic task graph, enabling incremental builds, distributed caching, and parallel execution. By configuring targets correctly and leveraging remote caching, teams can reduce build times from hours to minutes. This post dives into the architecture, caching strategies, and production patterns that make Nx a powerhouse for high-performance build pipelines.\n\nMonorepos scale engineering velocity, but only if the build system keeps up. As codebases grow, naive `npm run build` scripts become bottlenecks—slow feedback loops, flaky CI, and developer frustration. Nx, the open-source toolkit for monorepo build orchestration, addresses this by modeling every build task as a node in a computation graph. The result: only what changed gets rebuilt, cached results are shared across machines, and parallelism is automatic.\n\nIn this deep dive, we’ll explore how Nx achieves this, with concrete configurations and production patterns you can apply today.",
+      "tags": [
+        "monorepo",
+        "nx",
+        "build-optimization",
+        "javascript",
+        "devops",
+        "performance"
+      ],
+      "scheduled_at": "2026-10-25T04:01:06Z",
+      "status": "pending"
     }
   ]
 }
