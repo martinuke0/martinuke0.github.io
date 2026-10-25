@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-25T14:02:16Z",
+  "last_scheduled_at": "2026-10-25T16:01:58Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28149,6 +28149,20 @@
       "status": "posted",
       "claimed_at": "2026-10-25T14:07:55Z",
       "post_urn": "urn:li:share:7520125262974377984"
+    },
+    {
+      "title": "User Safety: Building Guardrails for Production Systems",
+      "url": "https://martinuke0.github.io/posts/2026-10-25-user-safety-building-guardrails-for-production-systems/",
+      "social_hook": "> TL;DR — User safety in software systems isn’t a product feature; it’s a set of architecture guardrails—rate limiting, least-privilege auth, and CSP—that prevent harm before it reaches the user. When these layers are missing or misconfigured, production incidents cascade quickly. This post walks through concrete patterns, real failure modes, and how to build safety into the critical path.\n\nUser safety in modern software systems sits at the intersection of authentication, authorization, input validation, and rate-conscious traffic shaping. Unlike traditional security, which often focuses on perimeter defense, user safety emphasizes preventable harm to the end user: account hijacking, data overexposure, spam, and malicious automation. Engineering teams that treat safety as a first-class concern embed guardrails directly into the request path, making unsafe states nearly impossible to reach in production.\n\nAt its core, user safety is about bounded harm. A safe system ensures that no single user action, configuration error, or external attack can cascade into a broad breach or degrade the experience for others. This differs from pure security hardening: security asks \"can an attacker get in?\"; safety asks \"can a user or component cause damage beyond its intended scope?\".",
+      "tags": [
+        "user-safety",
+        "software-architecture",
+        "security",
+        "sre",
+        "oauth"
+      ],
+      "scheduled_at": "2026-10-25T16:01:58Z",
+      "status": "pending"
     }
   ]
 }
