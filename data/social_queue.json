@@ -28211,8 +28211,9 @@
         "performance"
       ],
       "scheduled_at": "2026-10-25T19:02:52Z",
-      "status": "posting",
-      "claimed_at": "2026-10-25T19:08:15Z"
+      "status": "posted",
+      "claimed_at": "2026-10-25T19:08:15Z",
+      "post_urn": "urn:li:share:7520200839265751040"
     }
   ]
 }
