@@ -28211,7 +28211,8 @@
         "performance"
       ],
       "scheduled_at": "2026-10-25T19:02:52Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-10-25T19:08:15Z"
     }
   ]
 }
