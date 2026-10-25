@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-25T18:02:52Z",
+  "last_scheduled_at": "2026-10-25T19:02:52Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28198,6 +28198,20 @@
       "status": "posted",
       "claimed_at": "2026-10-25T18:08:08Z",
       "post_urn": "urn:li:share:7520185714165309441"
+    },
+    {
+      "title": "Pure‑Python Paged Attention with LRU KV‑Cache: A Hands‑On Portfolio Project",
+      "url": "https://martinuke0.github.io/posts/2026-10-25-purepython-paged-attention-with-lru-kvcache-a-handson-portfolio-project/",
+      "social_hook": "> TL;DR — This post walks you through building a pure‑Python paged attention engine with LRU KV‑cache eviction, giving you a runnable transformer LLM component that demonstrates low‑level memory management, algorithm design, and production‑ready code patterns that hiring managers love.\n\nImplementing paged attention is a practical way to bridge the gap between textbook transformer code and the memory‑constrained reality of serving LLMs. In this guide you’ll create a minimal yet functional Python module that manages KV caches in fixed‑size pages, evicts the least‑recently‑used entries, and still produces correct attention scores. The project is small enough to finish in an afternoon, but rich enough to discuss at interview time.\n\nHiring managers for ML‑focused engineering roles see dozens of “I trained a GPT‑2 clone” projects. What sets this one apart is that you own the memory subsystem. By building a paged attention engine you demonstrate:",
+      "tags": [
+        "python",
+        "transformers",
+        "llm",
+        "caching",
+        "performance"
+      ],
+      "scheduled_at": "2026-10-25T19:02:52Z",
+      "status": "pending"
     }
   ]
 }
