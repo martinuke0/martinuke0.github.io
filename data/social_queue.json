@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-25T16:01:58Z",
+  "last_scheduled_at": "2026-10-25T17:02:52Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28165,6 +28165,21 @@
       "status": "posted",
       "claimed_at": "2026-10-25T16:07:36Z",
       "post_urn": "urn:li:share:7520155378769178624"
+    },
+    {
+      "title": "User Safety: safe – a Hands‑On Portfolio CV Project",
+      "url": "https://martinuke0.github.io/posts/2026-10-25-user-safety-safe-a-handson-portfolio-cv-project/",
+      "social_hook": "> TL;DR — This guide walks you through building a small but complete Flask service that enforces authentication, rate‑limits requests, and logs every action. You'll end up with a runnable project that proves you can ship production‑grade security features from day one.\n\nIn this post you'll create a minimal yet fully functional user‑safe API that can be cloned, run, and extended. The stack is deliberately lightweight—Flask, Flask‑JWT‑Extended, Redis, and PostgreSQL—so you can spin it up on a laptop or a cheap cloud VM in under an hour.\n\nHiring managers scan dozens of repos; a project that mirrors production‑grade patterns instantly differentiates you. User Safety: safe demonstrates the following concrete skills:",
+      "tags": [
+        "portfolio",
+        "cv",
+        "safety",
+        "systems",
+        "python",
+        "docker"
+      ],
+      "scheduled_at": "2026-10-25T17:02:52Z",
+      "status": "pending"
     }
   ]
 }
