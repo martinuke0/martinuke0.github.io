@@ -28162,8 +28162,9 @@
         "oauth"
       ],
       "scheduled_at": "2026-10-25T16:01:58Z",
-      "status": "posting",
-      "claimed_at": "2026-10-25T16:07:36Z"
+      "status": "posted",
+      "claimed_at": "2026-10-25T16:07:36Z",
+      "post_urn": "urn:li:share:7520155378769178624"
     }
   ]
 }
