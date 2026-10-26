@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-26T07:02:39Z",
+  "last_scheduled_at": "2026-10-26T14:06:08Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28230,6 +28230,20 @@
       "status": "posted",
       "claimed_at": "2026-10-26T07:08:18Z",
       "post_urn": "urn:li:share:7520382048939962369"
+    },
+    {
+      "title": "Hands-On Reservoir Computing for Time‑Series Forecasting",
+      "url": "https://martinuke0.github.io/posts/2026-10-26-hands-on-reservoir-computing-for-timeseries-forecasting/",
+      "social_hook": "> TL;DR — In this post we build a minimal yet production‑ready reservoir‑computing engine in Python, containerize it with Docker, add pytest‑based tests, and expose a REST API for real‑time time‑series forecasting, giving you a tangible signal of systems‑level skill for hiring managers.\n\nReservoir computing (RC) offers a lightweight alternative to deep RNNs for streaming data. By fixing a large, random recurrent network (the “reservoir”) and only training a simple readout, you get fast inference with modest compute. This guide walks you through building a complete RC pipeline—from data generation to Docker‑deployed API—so you can demo a working system in a weekend.\n\nHiring managers look for concrete evidence that you can take a research idea and turn it into a reliable, observable service. This project signals several production‑grade competencies:",
+      "tags": [
+        "reservoir-computing",
+        "python",
+        "docker",
+        "timeseries",
+        "machine-learning"
+      ],
+      "scheduled_at": "2026-10-26T14:06:08Z",
+      "status": "pending"
     }
   ]
 }
