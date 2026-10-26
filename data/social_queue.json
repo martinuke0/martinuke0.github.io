@@ -28227,7 +28227,8 @@
         "security"
       ],
       "scheduled_at": "2026-10-26T07:02:39Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-10-26T07:08:18Z"
     }
   ]
 }
