@@ -28227,8 +28227,9 @@
         "security"
       ],
       "scheduled_at": "2026-10-26T07:02:39Z",
-      "status": "posting",
-      "claimed_at": "2026-10-26T07:08:18Z"
+      "status": "posted",
+      "claimed_at": "2026-10-26T07:08:18Z",
+      "post_urn": "urn:li:share:7520382048939962369"
     }
   ]
 }
