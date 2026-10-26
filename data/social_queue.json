@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-26T19:01:56Z",
+  "last_scheduled_at": "2026-10-26T22:02:06Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28276,6 +28276,21 @@
         "ci-cd"
       ],
       "scheduled_at": "2026-10-26T19:01:56Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building a User Safety Service: A Portfolio Project for Aspiring Engineers",
+      "url": "https://martinuke0.github.io/posts/2026-10-26-building-a-user-safety-service-a-portfolio-project-for-aspiring-engineers/",
+      "social_hook": "> TL;DR — Build a user safety service that ingests user-generated content, applies rule‑based and ML‑based moderation, and returns safety decisions. This project demonstrates API design, asynchronous processing, and observability—skills that hiring managers look for in systems roles. You’ll end up with a runnable FastAPI application, Dockerized, and ready to extend.\n\nIn today's platforms, user safety is a first‑class concern. Whether you are building a forum, a chat app, or a marketplace, you need a pipeline that can evaluate content for toxicity, spam, and policy violations. This post walks you through building a compact yet realistic user safety service that you can put on your résumé and discuss in interviews.\n\n- End‑to‑end system design – You will ship a complete service that accepts HTTP requests, processes them asynchronously, persists results, and exposes metrics.",
+      "tags": [
+        "user-safety",
+        "portfolio",
+        "systems",
+        "fastapi",
+        "content-moderation",
+        "engineering"
+      ],
+      "scheduled_at": "2026-10-26T22:02:06Z",
       "status": "pending"
     }
   ]
