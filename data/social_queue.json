@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-26T22:02:06Z",
+  "last_scheduled_at": "2026-10-26T23:03:58Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28291,6 +28291,20 @@
         "engineering"
       ],
       "scheduled_at": "2026-10-26T22:02:06Z",
+      "status": "pending"
+    },
+    {
+      "title": "User Safety: Engineering Safe Systems in Production",
+      "url": "https://martinuke0.github.io/posts/2026-10-26-user-safety-engineering-safe-systems-in-production/",
+      "social_hook": "> TL;DR — \"Be safe\" is an engineering requirement, not a slogan. Translate it into concrete mechanisms — rate limiting, circuit breakers, canary releases, observability — then prove safety with metrics, not intentions.\n\nEvery time a product manager writes \"users must be safe\" on a ticket, an engineer hears a question: what does that actually buy me at 3 a.m. when the pager goes off? Safety is one of those words that sounds obvious until you try to implement it. Then it splinters into a dozen real questions: How much load can the system take before users see errors? What happens when the payment provider is down? How do we roll back a change that only breaks a specific cohort?\n\nThe uncomfortable truth is that most teams treat safety as a checklist item — \"add TLS, done\" — rather than as a property of the system that has to be designed in, tested, and continuously measured. This post reframes user safety as an engineering discipline and walks through the concrete patterns that turn the slogan into something you can ship, monitor, and defend in a post-mortem.",
+      "tags": [
+        "user-safety",
+        "systems-engineering",
+        "reliability",
+        "production",
+        "observability"
+      ],
+      "scheduled_at": "2026-10-26T23:03:58Z",
       "status": "pending"
     }
   ]
