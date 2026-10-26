@@ -28276,7 +28276,8 @@
         "ci-cd"
       ],
       "scheduled_at": "2026-10-26T19:01:56Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-10-26T22:39:40Z"
     },
     {
       "title": "Building a User Safety Service: A Portfolio Project for Aspiring Engineers",
