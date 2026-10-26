@@ -28276,7 +28276,8 @@
         "ci-cd"
       ],
       "scheduled_at": "2026-10-26T19:01:56Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-10-26T19:18:50Z"
     }
   ]
 }
