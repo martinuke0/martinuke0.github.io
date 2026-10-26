@@ -28243,7 +28243,8 @@
         "machine-learning"
       ],
       "scheduled_at": "2026-10-26T14:06:08Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-10-26T14:11:50Z"
     }
   ]
 }
