@@ -28259,7 +28259,8 @@
         "cv"
       ],
       "scheduled_at": "2026-10-26T17:02:55Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-10-26T17:08:32Z"
     }
   ]
 }
