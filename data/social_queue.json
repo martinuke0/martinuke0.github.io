@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-26T14:06:08Z",
+  "last_scheduled_at": "2026-10-26T17:02:55Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28246,6 +28246,20 @@
       "status": "posted",
       "claimed_at": "2026-10-26T14:11:50Z",
       "post_urn": "urn:li:share:7520488634538409984"
+    },
+    {
+      "title": "Build a LoRA Module from Scratch in Pure PyTorch",
+      "url": "https://martinuke0.github.io/posts/2026-10-26-build-a-lora-module-from-scratch-in-pure-pytorch/",
+      "social_hook": "> TL;DR — LoRA (Low‑Rank Adaptation) lets you fine‑tune huge language models by adding tiny trainable matrices to existing layers, freezing the bulk of the model. This post walks through a minimal, pure‑PyTorch implementation, shows how to train it on a toy dataset, and outlines a roadmap to turn the toy into a production‑grade, observable, horizontally‑scalable system.\n\nBuilding a side‑project that demonstrates genuine systems know‑how is a powerful CV signal. Hiring managers for ML‑focused engineering roles want to see that you can move beyond notebook experiments into code that is modular, testable, and extensible. A from‑scratch LoRA adapter ticks those boxes: you’ll exercise PyTorch’s module hierarchy, parameter‑efficient training, and the ability to reason about model internals. Moreover, the project can be incrementally upgraded with checkpointing, distributed training, and observability—exactly the kind of evolution that separates a “toy” from a portfolio piece that reads like production experience.\n\n- Parameter‑efficient fine‑tuning: You implement the core LoRA mathematics (rank‑k matrices, frozen base weights) without relying on heavyweight PEFT libraries, showing you understand the underlying linear algebra.",
+      "tags": [
+        "pytorch",
+        "lora",
+        "llm",
+        "side-project",
+        "cv"
+      ],
+      "scheduled_at": "2026-10-26T17:02:55Z",
+      "status": "pending"
     }
   ]
 }
