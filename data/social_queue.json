@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-26T17:02:55Z",
+  "last_scheduled_at": "2026-10-26T19:01:56Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28262,6 +28262,21 @@
       "status": "posted",
       "claimed_at": "2026-10-26T17:08:32Z",
       "post_urn": "urn:li:share:7520533111563251712"
+    },
+    {
+      "title": "Mastering Spinnaker: Advanced Deployment Strategies for Continuous Delivery",
+      "url": "https://martinuke0.github.io/posts/2026-10-26-mastering-spinnaker-advanced-deployment-strategies-for-continuous-delivery/",
+      "social_hook": "> TL;DR — Spinnaker's advanced deployment strategies, including canary, blue‑green, and rolling updates, let you reduce risk while accelerating release velocity. By integrating with Kubernetes, Istio, and cloud load balancers, you can automate traffic shifting, automated rollback, and multi‑cluster coordination. This post walks through the architecture and practical patterns you need to master for production‑grade continuous delivery.\n\nSpinnaker has evolved from a simple deployment tool into a full‑fledged continuous delivery platform that orchestrates releases across multiple clouds and on‑premises data centers. For engineering teams already running Kubernetes, Spinnaker offers a declarative way to define pipelines, enforce gating rules, and execute sophisticated deployment patterns without writing bespoke scripts. In this article we’ll explore the core components that make Spinnaker tick, then dive into canary, blue‑green, rolling, and A/B deployment strategies, and finally discuss patterns that have proven reliable in production environments.\n\nSpinnaker’s architecture is composed of several microservices that each own a slice of the pipeline lifecycle:",
+      "tags": [
+        "spinnaker",
+        "continuous-delivery",
+        "devops",
+        "kubernetes",
+        "deployment",
+        "ci-cd"
+      ],
+      "scheduled_at": "2026-10-26T19:01:56Z",
+      "status": "pending"
     }
   ]
 }
