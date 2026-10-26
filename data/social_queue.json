@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-25T19:02:52Z",
+  "last_scheduled_at": "2026-10-26T07:02:39Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28214,6 +28214,20 @@
       "status": "posted",
       "claimed_at": "2026-10-25T19:08:15Z",
       "post_urn": "urn:li:share:7520200839265751040"
+    },
+    {
+      "title": "Implementing Noise Protocol Framework: Designing Secure End-to-End Encrypted Communication Channels",
+      "url": "https://martinuke0.github.io/posts/2026-10-26-implementing-noise-protocol-framework-designing-secure-end-to-end-encrypted-comm/",
+      "social_hook": "> TL;DR — The Noise Protocol Framework provides a minimal, auditable building block for end‑to‑end encryption. By composing a handful of handshake patterns and a well‑defined state machine, you can construct secure channels that resist known attacks and are easy to verify. This post walks through the core concepts, an example implementation, and production‑grade deployment considerations.\n\nThe modern stack of distributed systems often relies on TLS for transport security, but many peer‑to‑peer or embedded scenarios demand a lighter, more composable alternative. The Noise Protocol Framework offers exactly that: a small set of primitives that let you build custom authenticated key exchange (AKE) and secure data transfer with clear security arguments. In this article we’ll dissect how Noise works, how to implement it correctly, and how to integrate it into production services without sacrificing performance or safety.\n\nTraditional protocols like TLS bundle certificate handling, cipher negotiation, and record framing into a monolithic stack. While robust, that monolith can be overkill for scenarios such as IoT device pairing, mesh networking, or micro‑service side‑car encryption. Noise distills the essential ingredients—key exchange, authentication, and encryption—into a few well‑defined patterns, each provably secure under standard assumptions.",
+      "tags": [
+        "noise",
+        "cryptography",
+        "end-to-end-encryption",
+        "protocol-design",
+        "security"
+      ],
+      "scheduled_at": "2026-10-26T07:02:39Z",
+      "status": "pending"
     }
   ]
 }
