@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-27T09:02:23Z",
+  "last_scheduled_at": "2026-10-27T11:02:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28339,6 +28339,20 @@
         "portfolio"
       ],
       "scheduled_at": "2026-10-27T09:02:23Z",
+      "status": "pending"
+    },
+    {
+      "title": "User Safety: Engineering Safe-by-Default Systems for the Modern Stack",
+      "url": "https://martinuke0.github.io/posts/2026-10-27-user-safety-engineering-safe-by-default-systems-for-the-modern-stack/",
+      "social_hook": "> TL;DR — Modern user safety isn't about adding more checks; it's about designing systems where safe behavior is the default path of least resistance. From input validation at the API gateway to graceful degradation during downstream failures, the most resilient platforms embed safety into architecture, not as an afterthought. This post walks through concrete patterns—rate limiting with Envoy, circuit breaking in Go, row-level security in Postgres—and shows how teams operationalize them without sacrificing developer velocity.\n\nEvery engineer has seen the aftermath: a production incident that started with a missing input validation, escalated through an unhandled exception, and ended with user data exposed or a service outage. The root cause is rarely a lack of tools; it's that safety was treated as an opt-in feature rather than a system property.\n\nConsider the classic pattern of blindly forwarding user payloads to a downstream database. In many web frameworks, the ORM makes it trivial to construct a query from raw JSON, which is convenient—until it isn't. A single unescaped string can bypass authentication, exfiltrate records, or corrupt schema. The 2022 breach of a major SaaS platform began exactly this way: a missing parameterized query allowed an attacker to dump customer PII via a seemingly benign API endpoint.",
+      "tags": [
+        "security",
+        "systems-design",
+        "devops",
+        "postgres",
+        "kafka"
+      ],
+      "scheduled_at": "2026-10-27T11:02:53Z",
       "status": "pending"
     }
   ]
