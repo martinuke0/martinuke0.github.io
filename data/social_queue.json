@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-27T09:02:23Z",
+  "last_scheduled_at": "2026-10-27T12:03:27Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28339,6 +28339,21 @@
         "portfolio"
       ],
       "scheduled_at": "2026-10-27T09:02:23Z",
+      "status": "pending"
+    },
+    {
+      "title": "Hands‑On Build Guide: Pure‑Python GGUF and Safetensors Loader",
+      "url": "https://martinuke0.github.io/posts/2026-10-27-handson-build-guide-purepython-gguf-and-safetensors-loader/",
+      "social_hook": "> TL;DR — In this post we build a pure‑Python GGUF and safetensors loader that validates file checksums, merges shards on‑the‑fly, and assembles a lightweight TensorContainer ready for offline LLM inference, all without external dependencies beyond the standard library.\n\nIn the era of runnable local LLMs, being able to load model weights quickly and safely on any machine is a valuable skill. This article walks you through building a minimal‑dependency, pure‑Python loader for GGUF and safetensors formats, complete with checksum verification, shard merging, and a custom TensorContainer that can be dropped into any inference pipeline.\n\nEmployers hunting for engineers who can ship reliable ML infrastructure value three concrete competencies: low‑level file I/O, deterministic data validation, and the ability to construct reusable data structures without heavy frameworks. This project signals exactly those:",
+      "tags": [
+        "python",
+        "gguf",
+        "safetensors",
+        "machine-learning",
+        "inference",
+        "portfolio"
+      ],
+      "scheduled_at": "2026-10-27T12:03:27Z",
       "status": "pending"
     }
   ]
