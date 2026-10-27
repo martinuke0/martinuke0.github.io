@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-27T05:02:46Z",
+  "last_scheduled_at": "2026-10-27T09:02:23Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28324,6 +28324,21 @@
         "Portfolio"
       ],
       "scheduled_at": "2026-10-27T05:02:46Z",
+      "status": "pending"
+    },
+    {
+      "title": "Fused AdamW Optimizer: A Hands-On Build Guide for Your CV",
+      "url": "https://martinuke0.github.io/posts/2026-10-27-fused-adamw-optimizer-a-hands-on-build-guide-for-your-cv/",
+      "social_hook": "> TL;DR — This project walks you through building a fused AdamW optimizer from scratch in PyTorch, combining decoupled weight decay with Adam's adaptive learning rates in a single, efficient update step. You'll walk away with a reusable custom optimizer that signals deep systems and ML infrastructure skills to hiring managers, and a portfolio piece you can extend into production-grade training systems.\n\nMost engineers rely on `torch.optim.AdamW` out of the box, but copying a few lines from a library never demonstrated that you understand what's happening under the hood. In this guide, you'll build a fused AdamW optimizer that applies weight decay and the Adam update in one tight loop, then test it on a real training task. The exercise surfaces concrete skills—custom optimizer development, memory-efficient update patterns, and profiling—that hiring managers look for in ML infrastructure and senior research roles.\n\n- Core algorithm implementation — Writing the optimizer from scratch proves you grasp the mathematics of adaptive learning rates and decoupled weight decay, not just the API.",
+      "tags": [
+        "machine-learning",
+        "optimization",
+        "pytorch",
+        "cuda",
+        "systems",
+        "portfolio"
+      ],
+      "scheduled_at": "2026-10-27T09:02:23Z",
       "status": "pending"
     }
   ]
