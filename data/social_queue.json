@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-27T19:03:00Z",
+  "last_scheduled_at": "2026-10-27T09:02:23Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28324,8 +28324,7 @@
         "Portfolio"
       ],
       "scheduled_at": "2026-10-27T05:02:46Z",
-      "status": "posting",
-      "claimed_at": "2026-10-27T18:58:35Z"
+      "status": "pending"
     },
     {
       "title": "Fused AdamW Optimizer: A Hands-On Build Guide for Your CV",
@@ -28342,20 +28341,6 @@
       "scheduled_at": "2026-10-27T09:02:23Z",
       "status": "posting",
       "claimed_at": "2026-10-27T14:14:23Z"
-    },
-    {
-      "title": "Hypervisors for Serverless and Edge: Firecracker, Cloud Hypervisor, and QEMU in Production",
-      "url": "https://martinuke0.github.io/posts/2026-10-27-hypervisors-for-serverless-and-edge-firecracker-cloud-hypervisor-and-qemu-in-pro/",
-      "social_hook": "> TL;DR — Firecracker, Cloud Hypervisor, and QEMU each solve different problems in the virtualization stack: Firecracker powers serverless microVMs with sub-100ms cold starts and strong isolation, Cloud Hypervisor offers a leaner, Rust-based alternative for edge and container-like workloads, while QEMU remains the universal emulator for full-system emulation and legacy compatibility. Choosing the right one depends on your latency budget, device model needs, and whether you're running containers, VMs, or edge agents.\n\nHypervisors have long been the boundary between guest operating systems and host hardware. In modern cloud-native and edge environments, the choice of hypervisor directly impacts cold-start latency, security surface area, and hardware utilization. This article walks through the architecture, trade-offs, and production patterns for Firecracker, Cloud Hypervisor, and QEMU, grounding each in real-world scenarios engineers face today.\n\nFirecracker was built at Amazon Web Services to power Lambda and Fargate. Its design philosophy centers on a tiny, hardened kernel—the Firecracker Virtual Machine Monitor (VMM)—that starts a Linux guest in under 100 milliseconds. The guest runs a minimal root filesystem (typically 5–15 MB) with a single network vNIC and a virtio-block device. Critical device models (block, network, console) are provided via virtio, which shifts I/O handling into the guest kernel using virtio-net and virtio-scsi, reducing the VMM’s privileged-path overhead.",
-      "tags": [
-        "virtualization",
-        "cloud-native",
-        "serverless",
-        "hypervisor",
-        "performance"
-      ],
-      "scheduled_at": "2026-10-27T19:03:00Z",
-      "status": "pending"
     }
   ]
 }
