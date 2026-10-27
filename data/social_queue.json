@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-27T17:02:46Z",
+  "last_scheduled_at": "2026-10-27T09:02:23Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28324,8 +28324,7 @@
         "Portfolio"
       ],
       "scheduled_at": "2026-10-27T05:02:46Z",
-      "status": "posting",
-      "claimed_at": "2026-10-27T17:02:49Z"
+      "status": "pending"
     },
     {
       "title": "Fused AdamW Optimizer: A Hands-On Build Guide for Your CV",
@@ -28342,21 +28341,6 @@
       "scheduled_at": "2026-10-27T09:02:23Z",
       "status": "posting",
       "claimed_at": "2026-10-27T14:14:23Z"
-    },
-    {
-      "title": "Streaming HNSW Vector Index with Sliding‑Window Pruning",
-      "url": "https://martinuke0.github.io/posts/2026-10-27-streaming-hnsw-vector-index-with-slidingwindow-pruning/",
-      "social_hook": "> TL;DR — This post walks through building a pure‑Python streaming HNSW vector index that supports incremental insertion and automatic pruning of stale embeddings via a sliding window. The implementation is small enough to embed in a microservice yet demonstrates core algorithmic concepts like layered graph navigation and distance‑based pruning. By the end you’ll have a runnable prototype that signals real systems skill to hiring managers.\n\nIn modern retrieval‑augmented generation pipelines, you often need to index new embeddings as they arrive while discarding old ones that drift out of relevance. A full‑blown vector database is overkill for a prototype, but a hand‑rolled HNSW index gives you insight into how these systems work and showcases your ability to ship a performant data structure in a few hundred lines of Python.\n\n- Algorithmic depth – implementing HNSW from scratch proves you understand approximate nearest‑neighbor search, hierarchical graph construction, and probabilistic layer assignment.",
-      "tags": [
-        "hnsw",
-        "vector-index",
-        "python",
-        "streaming",
-        "embeddings",
-        "real-time"
-      ],
-      "scheduled_at": "2026-10-27T17:02:46Z",
-      "status": "pending"
     }
   ]
 }
