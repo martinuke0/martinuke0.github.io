@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-27T04:02:46Z",
+  "last_scheduled_at": "2026-10-27T05:02:46Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28311,6 +28311,20 @@
       "status": "posted",
       "claimed_at": "2026-10-27T04:08:34Z",
       "post_urn": "urn:li:share:7520699207859765248"
+    },
+    {
+      "title": "Build a Continuous Batching LLM Serving Engine in Pure Python",
+      "url": "https://martinuke0.github.io/posts/2026-10-27-build-a-continuous-batching-llm-serving-engine-in-pure-python/",
+      "social_hook": "> TL;DR — In this post you will build a pure‑Python continuous batching LLM serving engine that implements a prefill‑decode batch scheduler with a shared KV cache and dynamic sequence grouping. The code is fully runnable, modular, and mirrors the core algorithms behind production systems like vLLM and TensorRT‑LLM. It’s a portfolio project that signals real systems skill to hiring managers.\n\nServing large language models (LLMs) in production is a different game from training them. The bottleneck is no longer raw FLOPs but memory bandwidth, scheduling latency, and the ability to batch requests efficiently. Frameworks like vLLM and TensorRT‑LLM introduced continuous batching and paged attention to push throughput from a few requests per second to hundreds. But reading their C++/CUDA code can feel like climbing a wall without a map.\n\nBuilding a simplified, pure‑Python version strips away the hardware‑specific complexity and exposes the core algorithms. You’ll walk away with a working engine that you can extend, deploy, and discuss confidently in interviews.",
+      "tags": [
+        "LLM",
+        "Python",
+        "Systems",
+        "Machine Learning",
+        "Portfolio"
+      ],
+      "scheduled_at": "2026-10-27T05:02:46Z",
+      "status": "pending"
     }
   ]
 }
