@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-26T22:02:06Z",
+  "last_scheduled_at": "2026-10-27T04:02:46Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28295,6 +28295,20 @@
       "scheduled_at": "2026-10-26T22:02:06Z",
       "status": "posting",
       "claimed_at": "2026-10-26T22:56:36Z"
+    },
+    {
+      "title": "Optimizing Tracing JIT Compilation in LuaJIT: A Deep Dive into Trace Stitching and Guard Optimization",
+      "url": "https://martinuke0.github.io/posts/2026-10-27-optimizing-tracing-jit-compilation-in-luajit-a-deep-dive-into-trace-stitching-an/",
+      "social_hook": "> TL;DR — LuaJIT’s tracing JIT compiles hot traces on‑the‑fly, stitches them across loop exits with minimal overhead, and aggressive guard optimization removes type‑checks that would otherwise stall the compiled path, delivering measurable speedups in production workloads. The stitching mechanism re‑uses guard results to avoid de‑optimization, while guard specialization folds constant type information into the generated code.\n\nThe LuaJIT tracer is one of the most aggressive just‑in‑time compilers for dynamic languages. By recording hot execution paths as traces and linking them together, it turns long‑running loops and function calls into native code that can approach the speed of statically compiled programs. In this article we dissect two of the tracer’s core mechanisms—trace stitching and guard optimization—showing how they interact, where they shine, and how you can harness them in a production‑grade service such as an OpenResty API gateway.\n\nLuaJIT’s tracing JIT works in two phases: recording and execution. During recording the tracer walks the interpreter’s bytecode, logging every instruction that belongs to a hot path. When it encounters a guard—a type check or a side‑exit condition—the trace stops at that point, and the guard is emitted as a runtime check. If the guard passes, execution jumps to the compiled trace; if it fails, the interpreter resumes, possibly recording a new trace from a different entry point.",
+      "tags": [
+        "luajit",
+        "jit-compilation",
+        "trace-stitching",
+        "guard-optimization",
+        "performance"
+      ],
+      "scheduled_at": "2026-10-27T04:02:46Z",
+      "status": "pending"
     }
   ]
 }
