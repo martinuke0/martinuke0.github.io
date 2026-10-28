@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-28T07:03:30Z",
+  "last_scheduled_at": "2026-10-28T06:02:07Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28371,8 +28371,7 @@
         "optimization"
       ],
       "scheduled_at": "2026-10-28T04:03:09Z",
-      "status": "posting",
-      "claimed_at": "2026-10-28T07:01:58Z"
+      "status": "pending"
     },
     {
       "title": "Inside Apache Pulsar: Segment-Centric Architecture and Tiered Storage",
@@ -28386,20 +28385,6 @@
         "Data Infrastructure"
       ],
       "scheduled_at": "2026-10-28T06:02:07Z",
-      "status": "pending"
-    },
-    {
-      "title": "Pure‑Python Product‑Quantized IVF Index for Fast ANN Search",
-      "url": "https://martinuke0.github.io/posts/2026-10-28-purepython-productquantized-ivf-index-for-fast-ann-search/",
-      "social_hook": "> TL;DR — In this post you’ll build a pure‑Python product‑quantized IVF index from scratch, achieving sub‑millisecond ANN queries on moderate datasets while keeping the entire implementation readable and extensible. The code uses NumPy for vector math, scikit‑learn’s quantizer interface, and can be dropped into any Python service for fast similarity search.\n\nApproximate nearest‑neighbor (ANN) search is the backbone of modern recommendation systems, semantic search, and image retrieval. While C++ libraries like FAISS dominate production, a clean, pure‑Python implementation lets you prototype quickly, audit every line, and tailor the pipeline to your own data—without pulling in heavy native dependencies.\n\nBuilding a pure‑Python product‑quantized IVF index signals several competencies that hiring managers look for in engineering candidates:",
-      "tags": [
-        "python",
-        "approximate-nearest-neighbor",
-        "vector-search",
-        "product-quantization",
-        "cv"
-      ],
-      "scheduled_at": "2026-10-28T07:03:30Z",
       "status": "pending"
     }
   ]
