@@ -28385,8 +28385,7 @@
         "Data Infrastructure"
       ],
       "scheduled_at": "2026-10-28T06:02:07Z",
-      "status": "posting",
-      "claimed_at": "2026-10-28T12:09:44Z"
+      "status": "pending"
     }
   ]
 }
