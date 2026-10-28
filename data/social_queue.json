@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-28T06:02:07Z",
+  "last_scheduled_at": "2026-10-28T14:03:56Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28385,6 +28385,20 @@
         "Data Infrastructure"
       ],
       "scheduled_at": "2026-10-28T06:02:07Z",
+      "status": "pending"
+    },
+    {
+      "title": "Architecting Fault‑Tolerant Service Discovery with etcd and Raft: A Deep Dive into Leader Election",
+      "url": "https://martinuke0.github.io/posts/2026-10-28-architecting-faulttolerant-service-discovery-with-etcd-and-raft-a-deep-dive-into/",
+      "social_hook": "> TL;DR — etcd uses the Raft consensus algorithm to elect a single leader among distributed nodes; if the leader fails, a new one is automatically selected, enabling resilient service discovery without a central point of failure.\n\nService discovery is the backbone of micro‑service architectures, allowing instances to locate each other dynamically. In fault‑tolerant systems, the discovery mechanism must survive node crashes, network partitions, and leader failures. etcd, the widely‑used key‑value store that powers Kubernetes’ internal data store, provides exactly that by leveraging the Raft consensus protocol. This article walks through etcd’s leader‑election mechanism, explains how it guarantees consistency, and shows how to wire it into a robust service‑discovery layer.\n\netcd bundles a Raft state machine that replicates a log of configuration changes across a cluster of odd‑sized nodes (typically three or five). The Raft algorithm divides responsibility into three roles: leader, follower, and candidate. The leader is the sole node that processes client writes and replicates them to followers; followers passively accept entries and respond to heartbeats; candidates emerge during leader loss and initiate a new election.",
+      "tags": [
+        "etcd",
+        "raft",
+        "service-discovery",
+        "leader-election",
+        "fault-tolerance"
+      ],
+      "scheduled_at": "2026-10-28T14:03:56Z",
       "status": "pending"
     }
   ]
