@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-28T04:03:09Z",
+  "last_scheduled_at": "2026-10-28T06:02:07Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28371,6 +28371,20 @@
         "optimization"
       ],
       "scheduled_at": "2026-10-28T04:03:09Z",
+      "status": "pending"
+    },
+    {
+      "title": "Inside Apache Pulsar: Segment-Centric Architecture and Tiered Storage",
+      "url": "https://martinuke0.github.io/posts/2026-10-28-inside-apache-pulsar-segment-centric-architecture-and-tiered-storage/",
+      "social_hook": "> TL;DR — Apache Pulsar's segment-centric architecture treats each topic as a stream of immutable segments, which decouples compute from storage and makes tiered storage a natural extension rather than a bolt-on feature. By offloading cold segments to cheap object storage like S3 or GCS, teams can retain years of message history without the exponential I/O penalty that comes from keeping everything on local disks.\n\nTraditional message brokers like Kafka have long relied on a log-structured storage model where each partition is a contiguous append-only file on local disk. That model works brilliantly until you need to retain data for compliance, feed downstream analytics pipelines, or replay weeks of history for debugging. Apache Pulsar approaches the problem from a different angle: it breaks the topic into segments, and segments become the unit of both replication and tiered storage.\n\nIn Kafka, a partition is a single directory of segment files, but those segments live on the broker's local filesystem. When you need to retain data for a long time, you either scale out horizontally with more brokers and more disks, or you accept that old segments will be deleted. Tiered storage in Kafka (via KIP-405) tries to solve this by offloading old segments to object storage, but the architecture still couples partition assignment to broker-local segments, which complicates rebalancing and replay.",
+      "tags": [
+        "Apache Pulsar",
+        "Messaging",
+        "Tiered Storage",
+        "Architecture",
+        "Data Infrastructure"
+      ],
+      "scheduled_at": "2026-10-28T06:02:07Z",
       "status": "pending"
     }
   ]
