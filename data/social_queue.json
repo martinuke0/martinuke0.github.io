@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-27T09:02:23Z",
+  "last_scheduled_at": "2026-10-28T01:04:29Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28343,6 +28343,20 @@
       "scheduled_at": "2026-10-27T09:02:23Z",
       "status": "posting",
       "claimed_at": "2026-10-27T14:14:23Z"
+    },
+    {
+      "title": "Building User-Safe Systems: Authentication, Authorization, and Defense-in-Depth Patterns",
+      "url": "https://martinuke0.github.io/posts/2026-10-28-building-user-safe-systems-authentication-authorization-and-defense-in-depth-pat/",
+      "social_hook": "> TL;DR — User safety in software systems isn’t a feature you bolt on later; it’s a foundational design principle that spans authentication, authorization, data privacy, and defense-in-depth. When authentication flows are compromised, when authorization checks are bypassed, or when data is mishandled, the real-world cost is user trust, regulatory penalties, and reputational damage. This post walks through concrete patterns—from OAuth2 and OIDC to rate-limiting and circuit-breaking—that make user safety an operational default, not an afterthought.\n\nIn the past decade, the cost of a single credential leak has risen from nuisance to existential threat for midsize companies. User safety—the umbrella term for protecting end-users from unauthorized access, data exposure, and abusive behavior—requires more than “add TLS and call it done.” It demands a systematic approach where every layer of the stack, from the API gateway to the database, contributes to a user’s safe experience. In this article, we’ll explore the engineering primitives that make systems user-safe by default, illustrate them with production-proven patterns, and highlight failure modes that have taken down services and damaged brands.\n\nAuthentication is the entry point of any user-facing system. Getting it right means verifying that a user is who they claim to be before any authorization or data access occurs. The industry has largely converged on federated identity protocols that offload credential storage, password hashing, and MFA logic to specialized identity providers, reducing the attack surface for every downstream service.",
+      "tags": [
+        "user-safety",
+        "security",
+        "authentication",
+        "authorization",
+        "distributed-systems"
+      ],
+      "scheduled_at": "2026-10-28T01:04:29Z",
+      "status": "pending"
     }
   ]
 }
