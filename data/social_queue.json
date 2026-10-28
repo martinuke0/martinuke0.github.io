@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-28T01:04:29Z",
+  "last_scheduled_at": "2026-10-28T04:03:09Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28359,6 +28359,19 @@
       "status": "posted",
       "claimed_at": "2026-10-28T01:10:10Z",
       "post_urn": "urn:li:share:7521016700465549312"
+    },
+    {
+      "title": "Building a Causal Self-Attention Block from Scratch in PyTorch",
+      "url": "https://martinuke0.github.io/posts/2026-10-28-building-a-causal-self-attention-block-from-scratch-in-pytorch/",
+      "social_hook": "> TL;DR — We'll implement a causal self-attention block from scratch in pure PyTorch, applying flashattention-inspired memory optimization and a custom KV cache. The result runs in under 100 lines, cuts FLOPs by ~3x, and serves as a portable, production-ready building block for larger transformers.\n\nBuilding a transformer from the ground up is a rite of passage, but doing it with an eye toward production efficiency sets a candidate apart. In this guide, we'll construct a causal self-attention block that incorporates flashattention-style IO-aware tiling and a custom KV cache, all in pure PyTorch without external dependencies beyond the framework itself. The implementation stays under 100 lines of core logic, runs on both CPU and GPU, and demonstrates systems-level thinking that hiring managers notice: memory-aware algorithm design, incremental state management, and performance-conscious patterns that transfer directly to larger inference or training pipelines.\n\nFor a working engineer, this project signals three categories of skill that hiring managers actively scout. First, low-level PyTorch fluency: writing custom attention from scratch requires intimate knowledge of tensor semantics, memory layouts, and autograd semantics beyond `nn.MultiheadAttention`. Second, memory-aware algorithm design: flashattention’s core insight—recomputing attention scores instead of materializing large intermediate matrices—is a pattern that scales to any IO-bound compute kernel. Third, systems thinking around state management: a custom KV cache demonstrates how to design incremental inference pipelines, a requirement for any production-facing LLM service. Roles that match this signal include ML engineer, AI infrastructure engineer, research engineer, and backend engineer specializing in model serving.",
+      "tags": [
+        "pytorch",
+        "attention",
+        "systems",
+        "optimization"
+      ],
+      "scheduled_at": "2026-10-28T04:03:09Z",
+      "status": "pending"
     }
   ]
 }
