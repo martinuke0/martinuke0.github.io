@@ -28371,7 +28371,8 @@
         "optimization"
       ],
       "scheduled_at": "2026-10-28T04:03:09Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-10-28T11:58:10Z"
     },
     {
       "title": "Inside Apache Pulsar: Segment-Centric Architecture and Tiered Storage",
