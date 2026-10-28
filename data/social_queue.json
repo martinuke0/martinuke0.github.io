@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-28T21:02:55Z",
+  "last_scheduled_at": "2026-10-28T06:02:07Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28371,8 +28371,7 @@
         "optimization"
       ],
       "scheduled_at": "2026-10-28T04:03:09Z",
-      "status": "posting",
-      "claimed_at": "2026-10-28T21:00:11Z"
+      "status": "pending"
     },
     {
       "title": "Inside Apache Pulsar: Segment-Centric Architecture and Tiered Storage",
@@ -28388,20 +28387,6 @@
       "scheduled_at": "2026-10-28T06:02:07Z",
       "status": "posting",
       "claimed_at": "2026-10-28T14:20:25Z"
-    },
-    {
-      "title": "Hands‑On Guide: Gradient Accumulation, Mixed Precision & Cosine Warmup for a Stand‑Out CV Project",
-      "url": "https://martinuke0.github.io/posts/2026-10-28-handson-guide-gradient-accumulation-mixed-precision-cosine-warmup-for-a-standout/",
-      "social_hook": "> TL;DR — This post walks you through building a minimal PyTorch training loop that uses gradient accumulation to simulate larger batch sizes, mixed‑precision (FP16) training with torch.cuda.amp, and a cosine learning‑rate warmup schedule. By the end you’ll have a runnable script, test commands, and a clear roadmap to production‑grade features.\n\nGradient accumulation, mixed precision, and cosine warmup are three core techniques that let you train bigger models on limited hardware. In this guide you’ll assemble them into a single, clean PyTorch project that you can drop into your CV and talk about in interviews.\n\nHiring managers for ML‑focused roles see many abstract \"toy\" notebooks, but a reproducible, end‑to‑end training script that tackles real constraints signals systems competence. This project demonstrates:",
-      "tags": [
-        "deep-learning",
-        "pytorch",
-        "ml-engineer",
-        "side-project",
-        "optimization"
-      ],
-      "scheduled_at": "2026-10-28T21:02:55Z",
-      "status": "pending"
     }
   ]
 }
