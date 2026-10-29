@@ -28433,7 +28433,8 @@
         "side-project"
       ],
       "scheduled_at": "2026-10-29T03:07:35Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-10-29T03:41:16Z"
     }
   ]
 }
