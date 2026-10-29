@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-29T03:07:35Z",
+  "last_scheduled_at": "2026-10-29T04:07:35Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28433,6 +28433,20 @@
         "side-project"
       ],
       "scheduled_at": "2026-10-29T03:07:35Z",
+      "status": "pending"
+    },
+    {
+      "title": "From-Scratch Logits Processor and Sampler: Temperature, Top‑k, Top‑p, and Min‑p Decoding in Pure Python",
+      "url": "https://martinuke0.github.io/posts/2026-10-29-from-scratch-logits-processor-and-sampler-temperature-topk-topp-and-minp-decodin/",
+      "social_hook": "> TL;DR — This post walks you through building a complete, pure‑Python logits processor and sampler that implements temperature scaling, top‑k, top‑p (nucleus) and min‑p decoding from scratch. The resulting code is runnable, testable, and perfect for a CV because it demonstrates low‑level systems skill with real‑world ML inference techniques.\n\nBuilding a custom sampler from the ground up is a rare chance to touch the exact mechanics that power every LLM inference engine. You’ll see how temperature sharpens or blunts the probability distribution, how top‑k truncates the tail, how top‑p keeps the smallest cumulative mass, and how min‑p adds a floor to avoid degenerate samples. By the end you’ll have a tiny library you can import, benchmark, and extend.\n\n- Low‑level Python proficiency – Writing pure‑Python code that manipulates tensors‑like arrays without external frameworks signals fluency in the language that underpins many production ML pipelines.",
+      "tags": [
+        "python",
+        "machine-learning",
+        "nlp",
+        "sampling",
+        "cv-project"
+      ],
+      "scheduled_at": "2026-10-29T04:07:35Z",
       "status": "pending"
     }
   ]
