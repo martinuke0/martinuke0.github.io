@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-29T12:05:14Z",
+  "last_scheduled_at": "2026-10-29T23:02:29Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28450,6 +28450,20 @@
       "scheduled_at": "2026-10-29T12:05:14Z",
       "status": "posting",
       "claimed_at": "2026-10-29T16:05:37Z"
+    },
+    {
+      "title": "Implementing Fine-Grained Seccomp BPF Filters for Container Isolation",
+      "url": "https://martinuke0.github.io/posts/2026-10-29-implementing-fine-grained-seccomp-bpf-filters-for-container-isolation/",
+      "social_hook": "> TL;DR — Seccomp BPF filters let you whitelist only the system calls your container actually needs, slashing the attack surface by 70–90% in production workloads. By building profiles with tools like bpffs or Docker’s seccomp profile compiler, you can harden isolation without sacrificing functionality, and enforce them declaratively in Kubernetes or containerd.\n\nContainer security is often reduced to `run as non-root` and `drop all capabilities`, but the kernel system call interface remains a broad attack surface. Every syscall a container can make is a potential exploit path—from `openat` and `unlink` to more subtle vectors like `futex` races or `ptrace`. Seccomp BPF (Berkeley Packet Filter) provides a mechanism to restrict that interface to a minimal, verified set. Fine-grained filters go beyond the default whitelist, surgically removing unnecessary calls and even emulating or blocking specific dangerous ones.\n\nIn this post, we’ll walk through how to design, build, and deploy fine-grained seccomp BPF filters for containerized workloads, with concrete patterns for Kubernetes, Docker, and containerd, and anti-patterns to avoid. We’ll cover the BPF model, profile construction, runtime integration, debugging techniques, and real-world profile examples you can adapt today.",
+      "tags": [
+        "container-security",
+        "seccomp",
+        "linux",
+        "container-isolation",
+        "kubernetes"
+      ],
+      "scheduled_at": "2026-10-29T23:02:29Z",
+      "status": "pending"
     }
   ]
 }
