@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-29T03:07:35Z",
+  "last_scheduled_at": "2026-10-29T12:05:14Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28435,6 +28435,20 @@
       "scheduled_at": "2026-10-29T03:07:35Z",
       "status": "posting",
       "claimed_at": "2026-10-29T05:12:18Z"
+    },
+    {
+      "title": "Mastering etcd Raft Election Tuning",
+      "url": "https://martinuke0.github.io/posts/2026-10-29-mastering-etcd-raft-election-tuning/",
+      "social_hook": "> TL;DR — By aligning etcd's Raft election timeouts with your network latency and workload characteristics, you can prevent unnecessary leader elections, reduce tail latency, and increase overall cluster throughput. Adjusting `election-timeout`, `heartbeat-interval`, and `max-election-timeout` in tandem yields a stable control plane for Kubernetes. Monitoring metrics such as `etcd_server_leader_changes` and `etcd_server_proposal_wait` helps you iterate safely.\n\netcd is the backbone of the Kubernetes control plane, providing a consistent key‑value store that all API servers read and write. Its correctness hinges on the Raft consensus algorithm, which ensures that a single leader is elected and that all changes are replicated to a majority of nodes. In practice, the default Raft timers are tuned for a typical data‑center environment, but production clusters often experience variable latency, bursty request patterns, and network partitions that can trigger spurious elections. This post explores the inner workings of Raft election in etcd, the parameters that control it, and concrete strategies for tuning them to match your production requirements.\n\nRaft divides time into terms, each beginning with an election. A node starts as a follower and waits for a heartbeat from the current leader. If no heartbeat arrives within its election timeout, the follower increments the term, becomes a candidate, and requests votes from other nodes. Receiving a majority of votes promotes the candidate to leader, which then sends periodic heartbeats to maintain authority. If a split vote occurs, the term ends without a leader and a new election begins. This loop guarantees that at most one leader exists per term, a property that underpins Raft’s safety guarantees [^1].",
+      "tags": [
+        "etcd",
+        "Raft",
+        "distributed-systems",
+        "tuning",
+        "Kubernetes"
+      ],
+      "scheduled_at": "2026-10-29T12:05:14Z",
+      "status": "pending"
     }
   ]
 }
