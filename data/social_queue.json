@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-29T02:07:35Z",
+  "last_scheduled_at": "2026-10-29T03:07:35Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28419,6 +28419,20 @@
         "portfolio-project"
       ],
       "scheduled_at": "2026-10-29T02:07:35Z",
+      "status": "pending"
+    },
+    {
+      "title": "Hands‑On: Build a Production‑Grade Metrics Pipeline with Go, Prometheus & Grafana",
+      "url": "https://martinuke0.github.io/posts/2026-10-29-handson-build-a-productiongrade-metrics-pipeline-with-go-prometheus-grafana/",
+      "social_hook": "> TL;DR — In this post you'll build a fully runnable metrics pipeline in Go that scrapes system metrics, stores them in PostgreSQL, and visualizes them with Grafana. The project uses Prometheus client libraries, Docker Compose for local orchestration, and demonstrates production‑grade patterns like health checks, error handling, and observability. By the end you'll have a portfolio piece that hiring managers can inspect, run, and extend.\n\nWelcome! A strong side project can turn a blank CV line into a concrete conversation starter. Hiring managers for backend, SRE, and data‑engineering roles love to see a runnable system that shows you can design, build, and operate real infrastructure. In this guide you’ll create a personal metrics pipeline: a Go service that exposes OS‑level metrics, a Prometheus server that scrapes and stores them, PostgreSQL (via TimescaleDB) for long‑term retention, and Grafana for beautiful dashboards. Everything runs locally with Docker Compose, so you can demo it in minutes and then extend it to production‑grade scale.\n\n- Go systems programming – You’ll write idiomatic Go, manage a module, and use the official Prometheus client library, proving you can ship production‑grade services.",
+      "tags": [
+        "go",
+        "systems",
+        "devops",
+        "monitoring",
+        "side-project"
+      ],
+      "scheduled_at": "2026-10-29T03:07:35Z",
       "status": "pending"
     }
   ]
