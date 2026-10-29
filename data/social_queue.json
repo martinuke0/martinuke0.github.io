@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-29T01:07:35Z",
+  "last_scheduled_at": "2026-10-29T02:07:35Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28405,6 +28405,21 @@
       "status": "posted",
       "claimed_at": "2026-10-29T01:13:09Z",
       "post_urn": "urn:li:share:7521379842685284352"
+    },
+    {
+      "title": "Building a Pure-Python MoE Router with Noisy Top-K Gating and Load Balancing",
+      "url": "https://martinuke0.github.io/posts/2026-10-29-building-a-pure-python-moe-router-with-noisy-top-k-gating-and-load-balancing/",
+      "social_hook": "> TL;DR — This post walks you through building a pure-Python Mixture of Experts (MoE) router with noisy top-k gating and load balancing loss. You'll write ~150 lines of runnable code, test it with synthetic data, and learn how to extend it into a production-grade component. It's a portfolio project that demonstrates both ML algorithm knowledge and systems engineering discipline — exactly what senior roles look for.\n\nHiring managers for senior ML engineer and ML systems roles often face a flood of applicants who can tune hyperparameters but few who can explain why a routing decision was made under load. A MoE router project directly signals four high-value competencies:\n\n- Transformer internals beyond attention. You've implemented the gating mechanism that modern models like Mixtral, Qwen-MoE, and GPT-4 rely on. This shows you understand the sparse-activation paradigm that's replacing dense transformers at scale.",
+      "tags": [
+        "mixture-of-experts",
+        "pytorch",
+        "transformers",
+        "machine-learning",
+        "systems-engineering",
+        "portfolio-project"
+      ],
+      "scheduled_at": "2026-10-29T02:07:35Z",
+      "status": "pending"
     }
   ]
 }
