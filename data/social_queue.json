@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-29T12:05:14Z",
+  "last_scheduled_at": "2026-10-29T14:02:32Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28448,6 +28448,20 @@
         "Kubernetes"
       ],
       "scheduled_at": "2026-10-29T12:05:14Z",
+      "status": "pending"
+    },
+    {
+      "title": "Build a Pure‑Python Transformer Encoder with RoPE and Learned KV Cache",
+      "url": "https://martinuke0.github.io/posts/2026-10-29-build-a-purepython-transformer-encoder-with-rope-and-learned-kv-cache/",
+      "social_hook": "> TL;DR — In this post you’ll build a pure‑Python transformer encoder from scratch, inserting rotary positional embeddings and a learned KV cache. The result is a single‑file, CPU‑runnable module you can drop into any pipeline and showcase on a CV.\n\nIn this tutorial you’ll create a minimal but fully functional transformer encoder implemented in pure Python (NumPy‑based, no PyTorch required for the core). You’ll see how rotary positional embeddings (RoPE) intertwine with multi‑head self‑attention, and how a lightweight, learned KV cache can be attached to each head. The code runs on a laptop CPU in seconds, fits into a single `rope_encoder.py` file, and can be imported from any project – an ideal side‑project that signals low‑level systems competence, attention‑mechanics fluency, and the ability to ship production‑ready components from scratch.\n\nHiring managers for ML‑focused engineering roles see dozens of “trained a BERT model” entries. What sets this apart:",
+      "tags": [
+        "python",
+        "transformer",
+        "machine-learning",
+        "side-project",
+        "cv"
+      ],
+      "scheduled_at": "2026-10-29T14:02:32Z",
       "status": "pending"
     }
   ]
