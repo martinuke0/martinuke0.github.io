@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-29T03:07:35Z",
+  "last_scheduled_at": "2026-10-29T05:02:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28433,6 +28433,20 @@
         "side-project"
       ],
       "scheduled_at": "2026-10-29T03:07:35Z",
+      "status": "pending"
+    },
+    {
+      "title": "Building a Sliding Window Attention Inference Engine with Compressed KV Cache in Pure Python",
+      "url": "https://martinuke0.github.io/posts/2026-10-29-building-a-sliding-window-attention-inference-engine-with-compressed-kv-cache-in/",
+      "social_hook": "> TL;DR — This project implements a sliding window attention inference engine with a compressed KV cache in pure Python, giving you a hands-on portfolio piece that demonstrates real systems skills. You'll build a runnable engine that reduces memory usage via quantized caching and processes long sequences efficiently, which directly signals competence in LLM inference and low-level optimization.\n\nIn the race to ship production LLMs, inference efficiency is the bottleneck that separates research demos from scalable services. Hiring managers look for evidence that you understand not just model architecture, but the systems layer where memory, latency, and throughput live. A sliding window attention engine with a compressed KV cache is a compact yet deep project that showcases exactly those skills: algorithm design, memory management, and performance awareness—all in a few hundred lines of Python.\n\nBelow, you’ll build the engine step by step, run it on synthetic data, and see how to extend it toward production-grade features. The code is real, runnable, and uses only NumPy (plus the standard library) so you can drop it into a portfolio repo today.",
+      "tags": [
+        "python",
+        "machine-learning",
+        "llm-inference",
+        "systems",
+        "portfolio"
+      ],
+      "scheduled_at": "2026-10-29T05:02:53Z",
       "status": "pending"
     }
   ]
