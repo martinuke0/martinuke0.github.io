@@ -28419,7 +28419,8 @@
         "portfolio-project"
       ],
       "scheduled_at": "2026-10-29T02:07:35Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-10-29T16:45:00Z"
     },
     {
       "title": "Hands‑On: Build a Production‑Grade Metrics Pipeline with Go, Prometheus & Grafana",
