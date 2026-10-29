@@ -28402,8 +28402,9 @@
         "CI/CD"
       ],
       "scheduled_at": "2026-10-29T01:07:35Z",
-      "status": "posting",
-      "claimed_at": "2026-10-29T01:13:09Z"
+      "status": "posted",
+      "claimed_at": "2026-10-29T01:13:09Z",
+      "post_urn": "urn:li:share:7521379842685284352"
     }
   ]
 }
