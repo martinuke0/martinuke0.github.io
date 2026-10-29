@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-28T06:02:07Z",
+  "last_scheduled_at": "2026-10-29T01:07:35Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28389,6 +28389,20 @@
       "scheduled_at": "2026-10-28T06:02:07Z",
       "status": "posting",
       "claimed_at": "2026-10-28T14:20:25Z"
+    },
+    {
+      "title": "Bazel Build Graph Pruning: Reducing Incremental Build Times at Scale",
+      "url": "https://martinuke0.github.io/posts/2026-10-29-bazel-build-graph-pruning-reducing-incremental-build-times-at-scale/",
+      "social_hook": "> TL;DR — Bazel build graph pruning avoids rebuilding the entire dependency graph by only evaluating targets affected by changed files. At monorepo scale, pruning is the difference between a two-minute incremental build and a forty-minute full rebuild, but it depends on accurate file ownership, correct output grouping, and disciplined use of `exports_files` and `filegroup`.\n\nBazel’s promise is reproducible, incremental builds, but that promise erodes as a monorepo grows. In a small repository, `bazel build //...` finishes fast enough that nobody notices. In a repository with thousands of packages and millions of lines of code, the same command can spend minutes just loading and analyzing BUILD files before a single compiler runs. The problem is rarely that Bazel is slow at executing actions; it is that Bazel spends too much time deciding what to execute.\n\nBuild graph pruning is Bazel’s answer to that decision cost. Instead of analyzing every target in the workspace, Bazel identifies the subset of the dependency graph touched by a change and ignores everything else. When it works, an incremental build touches only a few hundred targets instead of tens of thousands. When it does not work, you pay for a full rebuild and wonder why your CI queue is backed up.",
+      "tags": [
+        "Bazel",
+        "Build Systems",
+        "Incremental Builds",
+        "Monorepo",
+        "CI/CD"
+      ],
+      "scheduled_at": "2026-10-29T01:07:35Z",
+      "status": "pending"
     }
   ]
 }
