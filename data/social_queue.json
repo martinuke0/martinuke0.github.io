@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-30T21:03:14Z",
+  "last_scheduled_at": "2026-10-30T10:02:57Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28481,8 +28481,7 @@
         "hydration"
       ],
       "scheduled_at": "2026-10-30T02:06:56Z",
-      "status": "posting",
-      "claimed_at": "2026-10-30T20:59:14Z"
+      "status": "pending"
     },
     {
       "title": "Mastering NATS JetStream: Building Durable Event Streams with Subject Mapping",
@@ -28499,21 +28498,6 @@
       "scheduled_at": "2026-10-30T10:02:57Z",
       "status": "posting",
       "claimed_at": "2026-10-30T10:28:43Z"
-    },
-    {
-      "title": "From Scratch: Quantized Transformer Attention with Int4 Weights and Int8 GEMM in Pure Python",
-      "url": "https://martinuke0.github.io/posts/2026-10-30-from-scratch-quantized-transformer-attention-with-int4-weights-and-int8-gemm-in/",
-      "social_hook": "> TL;DR — This project implements a transformer attention block with int4 quantized weights and int8 GEMM in pure Python, proving your ability to optimize neural networks for memory and compute constraints. It signals systems engineering expertise to hiring managers by demonstrating low-precision arithmetic, efficient matrix operations, and hardware-aware design.\n\nIn an era where deploying models on edge devices or at scale demands aggressive compression, understanding quantization is no longer optional—it's a core systems skill. This guide walks you through building a quantized transformer attention block from the ground up in pure Python, using int4 weight storage and int8 integer matrix multiplication (GEMM). You'll write real, runnable code that not only works but also showcases the kind of deep, first-principles understanding that hiring managers value for roles in ML infrastructure, systems engineering, and quantitative development.\n\nBuilding a quantized attention block from scratch demonstrates several high-value skills:",
-      "tags": [
-        "quantization",
-        "transformer",
-        "systems",
-        "python",
-        "machine-learning",
-        "optimization"
-      ],
-      "scheduled_at": "2026-10-30T21:03:14Z",
-      "status": "pending"
     }
   ]
 }
