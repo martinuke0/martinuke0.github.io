@@ -28481,7 +28481,8 @@
         "hydration"
       ],
       "scheduled_at": "2026-10-30T02:06:56Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-10-30T05:53:28Z"
     }
   ]
 }
