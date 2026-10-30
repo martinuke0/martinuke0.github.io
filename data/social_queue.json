@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-29T12:05:14Z",
+  "last_scheduled_at": "2026-10-30T01:06:56Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28452,6 +28452,20 @@
       "scheduled_at": "2026-10-29T12:05:14Z",
       "status": "posting",
       "claimed_at": "2026-10-29T16:05:37Z"
+    },
+    {
+      "title": "Scaling Vespa: Architecting Real-Time Neural Search for Billion-Document Indexes",
+      "url": "https://martinuke0.github.io/posts/2026-10-30-scaling-vespa-architecting-real-time-neural-search-for-billion-document-indexes/",
+      "social_hook": "> TL;DR — Vespa achieves real-time neural search over billion-document indexes by combining HNSW approximate nearest neighbor search with distributed document routing, incremental embedding indexing on Kafka-backed pipelines, and fine-grained relevance tuning. Operators can maintain sub-100ms query latency even under traffic spikes by leveraging Vespa’s partitioning, replica-aware query routing, and jemalloc-tuned memory layers, while keeping the index fresh via API-driven document operations rather than batch rebuilds.\n\nIn the era of LLM-powered products, search has evolved from keyword matching to dense-vector similarity. But serving neural relevance at billion-document scale isn't just about a vector index—it's about distributed systems architecture, operational resilience, and the delicate balance between index freshness and query latency. This article walks through how Vespa tackles these constraints in production, from ingest pipelines to query serving patterns, and provides a practical checklist for engineering teams looking to scale neural search beyond prototype boundaries.\n\nVector search went from academic curiosity to production necessity almost overnight. Frameworks like FAISS, Milvus, and Pinecone made it trivial to prototype a similarity search over a few hundred thousand embeddings. But production neural search at billions of documents introduces constraints that pure ANN libraries don't address: distributed state, incremental indexing latency, query QPS saturation, and the operational overhead of keeping relevance models fresh.",
+      "tags": [
+        "vespa",
+        "neural-search",
+        "real-time",
+        "large-scale-index",
+        "search-engine"
+      ],
+      "scheduled_at": "2026-10-30T01:06:56Z",
+      "status": "pending"
     }
   ]
 }
