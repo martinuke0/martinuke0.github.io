@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-30T15:04:03Z",
+  "last_scheduled_at": "2026-10-30T10:02:57Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28481,8 +28481,7 @@
         "hydration"
       ],
       "scheduled_at": "2026-10-30T02:06:56Z",
-      "status": "posting",
-      "claimed_at": "2026-10-30T15:03:16Z"
+      "status": "pending"
     },
     {
       "title": "Mastering NATS JetStream: Building Durable Event Streams with Subject Mapping",
@@ -28499,19 +28498,6 @@
       "scheduled_at": "2026-10-30T10:02:57Z",
       "status": "posting",
       "claimed_at": "2026-10-30T10:28:43Z"
-    },
-    {
-      "title": "Building a Distributed Rate Limiter in Go: A Portfolio Project That Shows Systems Skills",
-      "url": "https://martinuke0.github.io/posts/2026-10-30-building-a-distributed-rate-limiter-in-go-a-portfolio-project-that-shows-systems/",
-      "social_hook": "> TL;DR — This guide walks you through building a distributed rate limiter in Go that runs on multiple instances, uses Redis for shared state, and includes health checks and metrics. You’ll end up with a runnable project that demonstrates scalability, fault tolerance, and observability—exactly the skills hiring managers look for in systems roles.\n\nIn a crowded job market, a side project must prove more than syntax fluency; it needs to show you can design, implement, and operate a system that scales. A distributed rate limiter is an ideal vehicle: it touches concurrency, network programming, persistence, and observability, all while being small enough to finish in a weekend but realistic enough to discuss in an interview.\n\n- Concurrency & parallelism – you’ll use Go routines and channels to handle thousands of requests per second.",
-      "tags": [
-        "Go",
-        "Redis",
-        "Distributed Systems",
-        "Rate Limiting"
-      ],
-      "scheduled_at": "2026-10-30T15:04:03Z",
-      "status": "pending"
     }
   ]
 }
