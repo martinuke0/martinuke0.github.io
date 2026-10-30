@@ -28496,7 +28496,8 @@
         "Message Queuing"
       ],
       "scheduled_at": "2026-10-30T10:02:57Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-10-30T10:06:15Z"
     }
   ]
 }
