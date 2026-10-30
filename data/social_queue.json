@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-30T01:06:56Z",
+  "last_scheduled_at": "2026-10-30T02:06:56Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28468,6 +28468,20 @@
       "status": "posted",
       "claimed_at": "2026-10-30T01:12:35Z",
       "post_urn": "urn:li:share:7521742085092241408"
+    },
+    {
+      "title": "Optimizing React Server Components: A Guide to Streaming Suspense and Selective Hydration",
+      "url": "https://martinuke0.github.io/posts/2026-10-30-optimizing-react-server-components-a-guide-to-streaming-suspense-and-selective-h/",
+      "social_hook": "> TL;DR — By leveraging streaming Suspense, React Server Components can send partial HTML as soon as it's ready, reducing Time to First Byte and improving perceived load times. Selective hydration then hydrates only the interactive portions of the UI, minimizing JavaScript execution on the client and boosting overall responsiveness.\n\nIn the evolution of React, the shift from client‑side rendering to server‑side rendering has been driven by the need for faster initial loads and better SEO. React Server Components (RSC) extend this by allowing components to render entirely on the server, producing HTML that can be streamed to the browser. However, the full potential of RSC is unlocked only when combined with streaming Suspense and selective hydration. This article explores these two techniques, their underlying architecture, and practical patterns you can apply in production.\n\nReact Server Components are functions that execute on the server and return JSX. Unlike traditional client components, they never ship JavaScript to the client; the server renders them to HTML and sends it directly. The React framework (for example, Next.js) orchestrates this process, ensuring that data fetching and rendering happen before the response is sent. For a deeper dive, see the React Server Components documentation.",
+      "tags": [
+        "react",
+        "server-components",
+        "streaming",
+        "suspense",
+        "hydration"
+      ],
+      "scheduled_at": "2026-10-30T02:06:56Z",
+      "status": "pending"
     }
   ]
 }
