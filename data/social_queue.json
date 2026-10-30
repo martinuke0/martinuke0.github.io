@@ -28465,8 +28465,9 @@
         "search-engine"
       ],
       "scheduled_at": "2026-10-30T01:06:56Z",
-      "status": "posting",
-      "claimed_at": "2026-10-30T01:12:35Z"
+      "status": "posted",
+      "claimed_at": "2026-10-30T01:12:35Z",
+      "post_urn": "urn:li:share:7521742085092241408"
     }
   ]
 }
