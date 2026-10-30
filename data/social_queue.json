@@ -28465,7 +28465,8 @@
         "search-engine"
       ],
       "scheduled_at": "2026-10-30T01:06:56Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-10-30T01:12:35Z"
     }
   ]
 }
