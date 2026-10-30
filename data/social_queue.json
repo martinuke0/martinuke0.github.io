@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-30T02:06:56Z",
+  "last_scheduled_at": "2026-10-30T10:02:57Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28481,6 +28481,21 @@
         "hydration"
       ],
       "scheduled_at": "2026-10-30T02:06:56Z",
+      "status": "pending"
+    },
+    {
+      "title": "Mastering NATS JetStream: Building Durable Event Streams with Subject Mapping",
+      "url": "https://martinuke0.github.io/posts/2026-10-30-mastering-nats-jetstream-building-durable-event-streams-with-subject-mapping/",
+      "social_hook": "> TL;DR — NATS JetStream provides durable, at-least-once delivery for event streams, and subject mapping lets you route and transform messages without writing custom code. By defining explicit subject patterns, you can enforce consistency, enable replay, and scale horizontally across clusters.\n\nEvent streaming is a cornerstone of modern microservice architectures, and NATS JetStream has emerged as a lightweight yet powerful platform for building durable pipelines. While the core publish/subscribe model of NATS is familiar, JetStream introduces persistent streams and the ability to map subjects, which unlocks a new level of flexibility. In this post, we’ll dive deep into subject mapping: why it matters, how to design it for production, and the patterns that keep your event bus resilient and observable.\n\nSubject mapping in JetStream is more than a routing convenience; it’s a contract that defines how events flow through your system. Without it, developers often resort to ad‑hoc topic names that quickly become a maintenance nightmare. A well‑crafted mapping strategy provides:",
+      "tags": [
+        "NATS",
+        "JetStream",
+        "Event Streaming",
+        "Subject Mapping",
+        "Durable",
+        "Message Queuing"
+      ],
+      "scheduled_at": "2026-10-30T10:02:57Z",
       "status": "pending"
     }
   ]
