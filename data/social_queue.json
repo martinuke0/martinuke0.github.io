@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-31T05:04:05Z",
+  "last_scheduled_at": "2026-10-31T09:05:09Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28517,6 +28517,20 @@
       "status": "posted",
       "claimed_at": "2026-10-31T05:09:48Z",
       "post_urn": "urn:li:share:7522164166946816000"
+    },
+    {
+      "title": "Byte‑Level BPE Tokenizer from Scratch: A Hands‑On Build Guide",
+      "url": "https://martinuke0.github.io/posts/2026-10-31-bytelevel-bpe-tokenizer-from-scratch-a-handson-build-guide/",
+      "social_hook": "> TL;DR — Build a byte‑level BPE tokenizer from scratch in pure Python, using suffix‑array pair counting and a lock‑free vocab cache. The result is a fast, memory‑efficient tokeniser you can ship in a side project and discuss in interviews.\n\nImplementing a tokenizer from the ground up is a rare chance to touch low‑level data structures, algorithmic performance, and concurrency patterns all at once. For a working engineer, the project doubles as a concrete demonstration of systems thinking and as a portable skill set that transfers to NLP pipelines, cache‑optimised services, or even custom compression tools.\n\n- Low‑level Python mastery – You work directly with `bytes`, `memoryview`, and built‑in data structures without relying on external C extensions.",
+      "tags": [
+        "python",
+        "bpe",
+        "tokenizer",
+        "suffix-array",
+        "performance"
+      ],
+      "scheduled_at": "2026-10-31T09:05:09Z",
+      "status": "pending"
     }
   ]
 }
