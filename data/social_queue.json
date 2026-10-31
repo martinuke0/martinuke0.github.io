@@ -28481,8 +28481,9 @@
         "hydration"
       ],
       "scheduled_at": "2026-10-30T02:06:56Z",
-      "status": "posting",
-      "claimed_at": "2026-10-30T23:59:08Z"
+      "status": "posted",
+      "claimed_at": "2026-10-30T23:59:08Z",
+      "post_urn": "urn:li:share:7522085982720913408"
     },
     {
       "title": "Mastering NATS JetStream: Building Durable Event Streams with Subject Mapping",
