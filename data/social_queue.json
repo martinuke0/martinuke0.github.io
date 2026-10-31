@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-31T11:05:40Z",
+  "last_scheduled_at": "2026-10-31T10:05:40Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28530,8 +28530,7 @@
         "performance"
       ],
       "scheduled_at": "2026-10-31T09:05:09Z",
-      "status": "posting",
-      "claimed_at": "2026-10-31T11:03:04Z"
+      "status": "pending"
     },
     {
       "title": "Hybrid Vector–Keyword Retriever with Reciprocal Rank Fusion",
@@ -28546,20 +28545,6 @@
         "systems"
       ],
       "scheduled_at": "2026-10-31T10:05:40Z",
-      "status": "pending"
-    },
-    {
-      "title": "Build a Mini GPT Training Loop from Scratch",
-      "url": "https://martinuke0.github.io/posts/2026-10-31-build-a-mini-gpt-training-loop-from-scratch/",
-      "social_hook": "> TL;DR — Training a GPT‑style model from scratch reveals the inner workings of attention, optimization, and data pipelines. You’ll end up with a runnable loop that trains a tiny transformer on text, and the code can be extended to real workloads. It’s a concrete, interview‑ready project that proves you can ship AI infrastructure.\n\nBuilding a minimal GPT‑style training loop is one of the most effective ways to move from “I used a library” to “I understand how the pieces fit together.” In this post we’ll walk through a complete, runnable PyTorch implementation that you can clone, train on a few sentences, and then iterate on. Along the way you’ll see how data, model, optimizer, and loss interlock, and you’ll walk away with a portfolio piece that hiring managers can inspect and run.\n\n- Deep‑learning fundamentals – You implement forward/backward passes, loss computation, and optimizer steps yourself, proving you understand the math behind modern LLMs.",
-      "tags": [
-        "deep-learning",
-        "python",
-        "ml",
-        "transformers",
-        "portfolio"
-      ],
-      "scheduled_at": "2026-10-31T11:05:40Z",
       "status": "pending"
     }
   ]
