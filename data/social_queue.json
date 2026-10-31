@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-31T10:05:40Z",
+  "last_scheduled_at": "2026-10-31T14:03:35Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28547,6 +28547,21 @@
       "scheduled_at": "2026-10-31T10:05:40Z",
       "status": "posting",
       "claimed_at": "2026-10-31T12:22:38Z"
+    },
+    {
+      "title": "Build a Mini LLM Inference Engine with Paged‑Attention KV Cache and Continuous Batching in Python",
+      "url": "https://martinuke0.github.io/posts/2026-10-31-build-a-mini-llm-inference-engine-with-pagedattention-kv-cache-and-continuous-ba/",
+      "social_hook": "> TL;DR — This post walks you through building a minimal yet production‑inspired LLM inference engine in pure Python, featuring a paged‑attention KV cache and continuous batching. By the end you’ll have a runnable prototype that demonstrates core systems concepts—perfect for a CV that stands out to hiring managers.\n\nBuilding a tiny LLM engine from scratch is a fantastic portfolio piece. It lets you showcase not just ML knowledge, but also systems‑level thinking: memory management, concurrent request handling, and algorithmic optimisations that production services rely on. Hiring managers love seeing a candidate who can translate a research idea into runnable, well‑structured code that scales conceptually toward real workloads.\n\n- Low‑level memory design – You’ll implement a paged KV cache that mimics how vLLM and other serving frameworks keep key/value memory efficient under long contexts.",
+      "tags": [
+        "python",
+        "llm",
+        "inference",
+        "caching",
+        "systems",
+        "portfolio"
+      ],
+      "scheduled_at": "2026-10-31T14:03:35Z",
+      "status": "pending"
     }
   ]
 }
