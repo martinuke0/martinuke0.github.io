@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-31T10:05:40Z",
+  "last_scheduled_at": "2026-10-31T23:02:40Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28549,6 +28549,20 @@
       "scheduled_at": "2026-10-31T10:05:40Z",
       "status": "posting",
       "claimed_at": "2026-10-31T12:22:38Z"
+    },
+    {
+      "title": "Building an HNSW Vector Index from Scratch in Python",
+      "url": "https://martinuke0.github.io/posts/2026-10-31-building-an-hnsw-vector-index-from-scratch-in-python/",
+      "social_hook": "> TL;DR — Implementing an HNSW index from scratch proves you understand graph-based approximate nearest neighbor algorithms, probabilistic data structures, and the performance trade-offs that matter in production vector search. It’s a concrete, runnable project that signals real systems skill to hiring managers for ML engineering, vector search, or data infrastructure roles.\n\nIn the era of embeddings, vector search is no longer a niche concern—it’s the backbone of recommendation engines, semantic search, and RAG pipelines. Among the dominant algorithms, Hierarchical Navigable Small World (HNSW) stands out for its balance of speed, recall, and memory efficiency. But reading the paper isn’t the same as building it. This post walks you through a pure‑Python HNSW implementation you can drop into a portfolio, complete with tests, benchmarks, and a roadmap for production hardening.\n\nA from‑scratch HNSW implementation demonstrates a rare blend of algorithmic depth and systems pragmatism:",
+      "tags": [
+        "hnsw",
+        "vector-search",
+        "python",
+        "machine-learning",
+        "systems"
+      ],
+      "scheduled_at": "2026-10-31T23:02:40Z",
+      "status": "pending"
     }
   ]
 }
