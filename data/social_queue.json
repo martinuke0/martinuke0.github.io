@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-31T09:05:09Z",
+  "last_scheduled_at": "2026-10-31T10:05:40Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28530,6 +28530,21 @@
         "performance"
       ],
       "scheduled_at": "2026-10-31T09:05:09Z",
+      "status": "pending"
+    },
+    {
+      "title": "Hybrid Vector–Keyword Retriever with Reciprocal Rank Fusion",
+      "url": "https://martinuke0.github.io/posts/2026-10-31-hybrid-vectorkeyword-retriever-with-reciprocal-rank-fusion/",
+      "social_hook": "> TL;DR — This post shows how to build a hybrid retriever that fuses dense vector embeddings with traditional BM25 keyword scores using reciprocal rank fusion, yielding robust search results. The implementation is fully runnable in Python, includes evaluation against a labeled set, and highlights the systems skills that catch a recruiter's eye.\n\nSearch engines are increasingly expected to understand both the exact wording of a query and its underlying semantics. A hybrid retriever that combines dense (vector) and sparse (keyword) signals is the industry‑standard way to achieve this, and reciprocal rank fusion (RRF) is a simple yet powerful method to merge the two rankings. In this guide you will build such a system from scratch, expose it via a FastAPI service, and learn how to evolve it into a production‑grade component.\n\n- End‑to‑end retrieval system design – you will own the full pipeline: corpus ingestion, indexing, ranking, fusion, and API exposure.",
+      "tags": [
+        "retrieval",
+        "vector-search",
+        "keyword-search",
+        "rrf",
+        "python",
+        "systems"
+      ],
+      "scheduled_at": "2026-10-31T10:05:40Z",
       "status": "pending"
     }
   ]
