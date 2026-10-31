@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-31T12:03:05Z",
+  "last_scheduled_at": "2026-10-31T10:05:40Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28530,8 +28530,7 @@
         "performance"
       ],
       "scheduled_at": "2026-10-31T09:05:09Z",
-      "status": "posting",
-      "claimed_at": "2026-10-31T11:59:54Z"
+      "status": "pending"
     },
     {
       "title": "Hybrid Vector–Keyword Retriever with Reciprocal Rank Fusion",
@@ -28546,21 +28545,6 @@
         "systems"
       ],
       "scheduled_at": "2026-10-31T10:05:40Z",
-      "status": "pending"
-    },
-    {
-      "title": "Building a Scalable URL Shortener: A Portfolio Project That Signals Systems Skill",
-      "url": "https://martinuke0.github.io/posts/2026-10-31-building-a-scalable-url-shortener-a-portfolio-project-that-signals-systems-skill/",
-      "social_hook": "> TL;DR — Building a URL shortener with Go, PostgreSQL, Redis, and a React dashboard demonstrates API design, data modeling, caching, and observability—skills that directly map to senior backend and systems roles. The project is fully runnable, includes automated tests, and can be extended with horizontal scaling, tracing, and fault tolerance.\n\nIn a crowded job market, you need a portfolio piece that does more than showcase syntax. Hiring managers for backend, infrastructure, or full‑stack roles look for evidence of how you think about data, concurrency, reliability, and scale. A URL shortener is a deceptively simple problem that touches all of these areas, and when built with production‑grade tooling it becomes a compelling conversation starter.\n\n- API design & middleware – You will implement REST endpoints, rate limiting, and authentication, demonstrating an understanding of HTTP semantics and cross‑cutting concerns.",
-      "tags": [
-        "Go",
-        "PostgreSQL",
-        "Redis",
-        "Docker",
-        "Systems",
-        "Portfolio"
-      ],
-      "scheduled_at": "2026-10-31T12:03:05Z",
       "status": "pending"
     }
   ]
