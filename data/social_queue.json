@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-30T10:02:57Z",
+  "last_scheduled_at": "2026-10-31T05:04:05Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28500,6 +28500,21 @@
       "scheduled_at": "2026-10-30T10:02:57Z",
       "status": "posting",
       "claimed_at": "2026-10-30T10:28:43Z"
+    },
+    {
+      "title": "From-Scratch LoRA Fine‑Tuning Trainer with Manual Gradient Checkpointing and Adapter Merging in Pure PyTorch",
+      "url": "https://martinuke0.github.io/posts/2026-10-31-from-scratch-lora-finetuning-trainer-with-manual-gradient-checkpointing-and-adap/",
+      "social_hook": "> TL;DR — Implement a minimal LoRA fine‑tuning loop in pure PyTorch with manual gradient checkpointing and adapter merging, enabling memory‑efficient training of large models on a single GPU. The trainer is fully scriptable, easy to extend, and ready for production‑style experimentation.\n\nBuilding a portfolio side‑project that demonstrates deep systems knowledge is a powerful way to stand out to hiring managers. This post walks you through creating a from‑scratch LoRA (Low‑Rank Adaptation) fine‑tuning trainer in pure PyTorch, complete with manual gradient checkpointing and adapter merging. The result is a lightweight, fully scriptable codebase you can run on a single GPU, extend for production workloads, and point to in interviews or LinkedIn posts.\n\nEmployers scanning CVs look for concrete, production‑relevant experience rather than abstract coursework. This project signals several high‑value skills:",
+      "tags": [
+        "PyTorch",
+        "LoRA",
+        "Fine-tuning",
+        "Gradient Checkpointing",
+        "Adapter Merging",
+        "CV"
+      ],
+      "scheduled_at": "2026-10-31T05:04:05Z",
+      "status": "pending"
     }
   ]
 }
