@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-31T13:03:06Z",
+  "last_scheduled_at": "2026-10-31T10:05:40Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28530,8 +28530,7 @@
         "performance"
       ],
       "scheduled_at": "2026-10-31T09:05:09Z",
-      "status": "posting",
-      "claimed_at": "2026-10-31T13:01:48Z"
+      "status": "pending"
     },
     {
       "title": "Hybrid Vector–Keyword Retriever with Reciprocal Rank Fusion",
@@ -28548,20 +28547,6 @@
       "scheduled_at": "2026-10-31T10:05:40Z",
       "status": "posting",
       "claimed_at": "2026-10-31T12:22:38Z"
-    },
-    {
-      "title": "From‑Scratch LoRA Adapter Implementation in Pure PyTorch",
-      "url": "https://martinuke0.github.io/posts/2026-10-31-fromscratch-lora-adapter-implementation-in-pure-pytorch/",
-      "social_hook": "> TL;DR — Implement a minimal LoRA (Low‑Rank Adaptation) module in pure PyTorch, inject low‑rank matrices into each transformer layer, and train only the adapter parameters while keeping the base model frozen. This yields a lightweight, transfer‑learning‑ready side project that demonstrates real‑world model‑tuning skill.\n\nA practical portfolio project that showcases low‑rank adaptation, PyTorch fluency, and end‑to‑end training pipelines. LoRA (Low‑Rank Adaptation) has become the de‑facto method for efficient fine‑tuning of large transformers. In this post we build a from‑scratch implementation in pure PyTorch, inject low‑rank matrices into each attention block, and train only the tiny adapter weights. The entire code base fits in a single file, making it an ideal portfolio piece that hiring managers can clone, run, and extend.\n\n- PyTorch proficiency – writing custom `nn.Module`s, parameter freezing, and optimizer config from scratch signals deep framework knowledge.",
-      "tags": [
-        "pytorch",
-        "lora",
-        "transformers",
-        "machine-learning",
-        "side-project"
-      ],
-      "scheduled_at": "2026-10-31T13:03:06Z",
-      "status": "pending"
     }
   ]
 }
