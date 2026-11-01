@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-01T02:03:39Z",
+  "last_scheduled_at": "2026-11-01T04:02:47Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28594,6 +28594,20 @@
         "side-project"
       ],
       "scheduled_at": "2026-11-01T02:03:39Z",
+      "status": "pending"
+    },
+    {
+      "title": "Deep Dive into WebAssembly Compilation: Wasmtime's Cranelift Backend",
+      "url": "https://martinuke0.github.io/posts/2026-11-01-deep-dive-into-webassembly-compilation-wasmtime/",
+      "social_hook": "> TL;DR — Wasmtime's Cranelift backend translates WebAssembly to native code through a multi-stage pipeline that emphasizes speed and safety. By leveraging a lightweight IR and aggressive late-stage optimizations, it delivers near-native performance while keeping compilation overhead low. Production deployments can benefit from its incremental compilation and robust error handling.\n\nWebAssembly (Wasm) has become the de facto standard for running high‑performance code in the browser and beyond. In server‑side and edge environments, the ability to compile Wasm to native code quickly is critical for latency‑sensitive workloads. Wasmtime, a standalone runtime from the Bytecode Alliance, provides just that, and its Cranelift backend is the engine that turns Wasm bytecode into executable native code. In this deep dive we'll explore how Cranelift works under the hood, the design choices that make it fast, and how you can leverage it in production.\n\nCranelift is a code generator that focuses on speed and safety. Unlike JIT compilers that spend seconds optimizing, Cranelift is designed to compile modules in milliseconds, making it ideal for environments where startup latency matters. The architecture can be broken down into three main phases: parsing, optimization, and code emission.",
+      "tags": [
+        "WebAssembly",
+        "Wasmtime",
+        "Cranelift",
+        "Compilation",
+        "Performance"
+      ],
+      "scheduled_at": "2026-11-01T04:02:47Z",
       "status": "pending"
     }
   ]
