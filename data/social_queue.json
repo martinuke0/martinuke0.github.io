@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-10-31T23:02:40Z",
+  "last_scheduled_at": "2026-11-01T01:02:25Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28565,6 +28565,20 @@
       "status": "posted",
       "claimed_at": "2026-10-31T23:58:30Z",
       "post_urn": "urn:li:share:7522448209290530816"
+    },
+    {
+      "title": "Implementing Word Count in Production Systems",
+      "url": "https://martinuke0.github.io/posts/2026-11-01-implementing-word-count-in-production-systems/",
+      "social_hook": "> TL;DR — Implementing word count in production is deceptively complex. Naive split-on-space algorithms break on Unicode, edge cases, and streaming data. Production systems need locale-aware parsing, efficient memory patterns, and integration hooks that align with existing pipelines like Kafka or Airflow. This post walks through the pitfalls, patterns, and performance levers you need to ship a robust word count service.\n\nImplementing a word counter feels like a “Hello, World” exercise. You split on whitespace, tally the tokens, and call it done. But in production—where text streams in from global users, flows through distributed pipelines, and must satisfy correctness, latency, and compliance constraints—the seemingly trivial problem unravels subtle engineering trade-offs. This article walks through the evolution from naive implementations to battle‑hardened, production‑grade word count systems, covering Unicode pitfalls, streaming architectures, performance optimizations, and patterns you can replicate today.\n\nOn ASCII‑only, single‑language content this works passably. But `str.split()` collapses any whitespace sequence and treats punctuation as part of the token. Consider the string:",
+      "tags": [
+        "word-count",
+        "implementation",
+        "production-engineering",
+        "data-pipelines",
+        "performance"
+      ],
+      "scheduled_at": "2026-11-01T01:02:25Z",
+      "status": "pending"
     }
   ]
 }
