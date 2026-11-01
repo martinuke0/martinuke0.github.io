@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-01T01:02:25Z",
+  "last_scheduled_at": "2026-11-01T02:03:39Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28581,6 +28581,20 @@
       "status": "posted",
       "claimed_at": "2026-11-01T01:08:05Z",
       "post_urn": "urn:li:share:7522465726993997824"
+    },
+    {
+      "title": "From‑Scratch LoRA Fine‑Tuning Engine for a Nano Transformer in Pure NumPy",
+      "url": "https://martinuke0.github.io/posts/2026-11-01-fromscratch-lora-finetuning-engine-for-a-nano-transformer-in-pure-numpy/",
+      "social_hook": "> TL;DR — You will build a minimal LoRA fine‑tuning engine for a nano transformer using only NumPy, step by step, with runnable code. The project showcases low‑level ML systems skills and can be extended with persistence, distributed training, and observability.\n\nIn the competitive landscape of AI engineering portfolios, a project that demonstrates both algorithmic depth and systems robustness stands out. This guide walks you through constructing a LoRA (Low‑Rank Adaptation) fine‑tuning engine for a tiny transformer, implemented entirely in NumPy. By the end you will have a working training loop, a modular architecture, and a clear path to production‑grade enhancements.\n\n- Hands‑on matrix algebra – You write forward and backward passes for attention, feed‑forward, and low‑rank adapters without relying on autograd libraries, proving you understand the math that underlies modern deep learning.",
+      "tags": [
+        "machine-learning",
+        "numpy",
+        "lora",
+        "transformer",
+        "side-project"
+      ],
+      "scheduled_at": "2026-11-01T02:03:39Z",
+      "status": "pending"
     }
   ]
 }
