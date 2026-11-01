@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-01T04:02:47Z",
+  "last_scheduled_at": "2026-11-01T14:03:50Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28610,6 +28610,20 @@
       "scheduled_at": "2026-11-01T04:02:47Z",
       "status": "posting",
       "claimed_at": "2026-11-01T08:40:54Z"
+    },
+    {
+      "title": "Build a FlashAttention Kernel with Online Softmax and KV Cache in Pure Python",
+      "url": "https://martinuke0.github.io/posts/2026-11-01-build-a-flashattention-kernel-with-online-softmax-and-kv-cache-in-pure-python/",
+      "social_hook": "> TL;DR — Implementing a FlashAttention kernel with online softmax and a KV cache in pure Python demonstrates both algorithmic insight and low‑level systems skill. The resulting code runs on a single CPU thread yet matches the numerical stability and speed of optimized C++ kernels, making it a compelling portfolio piece.\n\nIn the race to ship faster language models, the attention mechanism is often the bottleneck. A traditional implementation materializes the full `N×N` attention matrix, which wastes memory bandwidth and forces costly recomputation when the same keys and values are reused across tokens. FlashAttention solves this by fusing the softmax computation and using a KV cache to avoid redundant work. By reproducing these ideas in pure Python, you can showcase a deep understanding of algorithmic optimization, memory hierarchy, and numerical stability—skills that hiring managers value for ML infrastructure, systems, and performance engineering roles.\n\n- Algorithmic mastery – You’ll implement online softmax, a technique that computes softmax in a single pass without materializing the full exponent matrix, exactly as described in the FlashAttention paper.",
+      "tags": [
+        "FlashAttention",
+        "Python",
+        "Systems",
+        "Deep Learning",
+        "Performance"
+      ],
+      "scheduled_at": "2026-11-01T14:03:50Z",
+      "status": "pending"
     }
   ]
 }
