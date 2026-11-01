@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-01T16:03:10Z",
+  "last_scheduled_at": "2026-11-01T04:02:47Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28594,8 +28594,7 @@
         "side-project"
       ],
       "scheduled_at": "2026-11-01T02:03:39Z",
-      "status": "posting",
-      "claimed_at": "2026-11-01T15:59:31Z"
+      "status": "pending"
     },
     {
       "title": "Deep Dive into WebAssembly Compilation: Wasmtime's Cranelift Backend",
@@ -28611,20 +28610,6 @@
       "scheduled_at": "2026-11-01T04:02:47Z",
       "status": "posting",
       "claimed_at": "2026-11-01T08:40:54Z"
-    },
-    {
-      "title": "Hands-On Build Guide: Paged-Attention KV Cache Manager with Attention-Score-Aware Eviction",
-      "url": "https://martinuke0.github.io/posts/2026-11-01-hands-on-build-guide-paged-attention-kv-cache-manager-with-attention-score-aware/",
-      "social_hook": "> TL;DR — Paged attention splits the KV cache into fixed-size blocks, and an attention‑score‑aware eviction policy discards low‑importance pages before they cause OOM, giving you a memory‑efficient, ready‑to‑serve LLM cache in ~50 lines of NumPy. The implementation demonstrates how page tables, score aggregation, and selective flushes work together, which interviewers love to probe. You can run, extend, and showcase the code on GitHub to prove systems‑level thinking.\n\nBuilding a tiny but functional paged‑attention KV cache from scratch is a great way to signal that you understand the memory‑bandwidth bottlenecks that shape LLM serving performance. In this guide you’ll write pure Python/NumPy code that allocates pages, computes attention scores, and evicts the least‑relevant pages when the cache fills up. The result is a runnable module you can import, test, and later replace with a production system such as vLLM.\n\n- Systems‑level thinking – You design a page‑based memory manager, showing you can trade off latency vs. capacity, a skill sought after for backend and ML infra roles.",
-      "tags": [
-        "python",
-        "numpy",
-        "machine-learning",
-        "systems",
-        "cv"
-      ],
-      "scheduled_at": "2026-11-01T16:03:10Z",
-      "status": "pending"
     }
   ]
 }
