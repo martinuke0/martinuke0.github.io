@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-01T08:03:23Z",
+  "last_scheduled_at": "2026-11-01T04:02:47Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28594,8 +28594,7 @@
         "side-project"
       ],
       "scheduled_at": "2026-11-01T02:03:39Z",
-      "status": "posting",
-      "claimed_at": "2026-11-01T08:00:57Z"
+      "status": "pending"
     },
     {
       "title": "Deep Dive into WebAssembly Compilation: Wasmtime's Cranelift Backend",
@@ -28609,20 +28608,6 @@
         "Performance"
       ],
       "scheduled_at": "2026-11-01T04:02:47Z",
-      "status": "pending"
-    },
-    {
-      "title": "Building a Production‑Ready HNSW Vector Index from Scratch",
-      "url": "https://martinuke0.github.io/posts/2026-11-01-building-a-productionready-hnsw-vector-index-from-scratch/",
-      "social_hook": "> TL;DR — HNSW (Hierarchical Navigable Small World) gives you sub‑millisecond ANN search on modest hardware. This post walks you through a complete Go implementation, from the core navigation logic to benchmarking, Dockerisation, and production‑grade extensions, giving you a tangible portfolio project that signals real systems skill.\n\nBuilding a vector search index from scratch is one of the most impressive side projects you can add to a CV. It forces you to confront data structures, memory layout, concurrent access, and performance tuning—all topics that hiring managers love to discuss. In this article you’ll build a fully functional HNSW index in Go, run it against real datasets, and finish with a roadmap of upgrades that turn the toy into a production‑ready component.\n\nHiring managers for backend, data‑infrastructure, and ML‑related roles constantly scan for concrete evidence that you can take a theoretical algorithm and ship it. An HNSW implementation checks several boxes:",
-      "tags": [
-        "hnsw",
-        "vector-search",
-        "go",
-        "systems-project",
-        "cv-portfolio"
-      ],
-      "scheduled_at": "2026-11-01T08:03:23Z",
       "status": "pending"
     }
   ]
