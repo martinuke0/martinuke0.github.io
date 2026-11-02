@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-01T04:02:47Z",
+  "last_scheduled_at": "2026-11-02T20:03:05Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28610,6 +28610,20 @@
       "scheduled_at": "2026-11-01T04:02:47Z",
       "status": "posting",
       "claimed_at": "2026-11-01T08:40:54Z"
+    },
+    {
+      "title": "Building a Byte-Pair Encoding Tokenizer with Learned Merge Priorities and Vocabulary Pruning in Pure Python",
+      "url": "https://martinuke0.github.io/posts/2026-11-02-building-a-byte-pair-encoding-tokenizer-with-learned-merge-priorities-and-vocabu/",
+      "social_hook": "> TL;DR — This project delivers a complete, production‑style BPE tokenizer that learns merge priorities from data and prunes the vocabulary. It gives you a concrete artifact to demonstrate algorithmic design, memory management, and performance tuning to hiring managers.\n\nIn the era of large language models, tokenization is the first and often overlooked step that shapes model behavior. While many engineers rely on off‑the‑shelf tokenizers, building your own from scratch signals a deep understanding of how text is represented, how vocabulary size influences memory footprints, and how merge rules can be optimized for downstream tasks. This post walks you through a pure‑Python implementation that combines learned merge priorities with vocabulary pruning, providing a portfolio piece that is both runnable and extensible.\n\n- Algorithmic depth – You will implement the core BPE algorithm, including frequency counting, merge rule learning, and priority scoring, which showcases ability to translate research into code.",
+      "tags": [
+        "tokenization",
+        "python",
+        "nlp",
+        "systems",
+        "machine-learning"
+      ],
+      "scheduled_at": "2026-11-02T20:03:05Z",
+      "status": "pending"
     }
   ]
 }
