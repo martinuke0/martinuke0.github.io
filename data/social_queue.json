@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-02T02:03:26Z",
+  "last_scheduled_at": "2026-11-01T04:02:47Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28594,8 +28594,7 @@
         "side-project"
       ],
       "scheduled_at": "2026-11-01T02:03:39Z",
-      "status": "posting",
-      "claimed_at": "2026-11-02T02:02:25Z"
+      "status": "pending"
     },
     {
       "title": "Deep Dive into WebAssembly Compilation: Wasmtime's Cranelift Backend",
@@ -28611,20 +28610,6 @@
       "scheduled_at": "2026-11-01T04:02:47Z",
       "status": "posting",
       "claimed_at": "2026-11-01T08:40:54Z"
-    },
-    {
-      "title": "Hands‑On: Build a Production‑Ready Go CV API with Rate Limiting, Caching, and Observability",
-      "url": "https://martinuke0.github.io/posts/2026-11-02-handson-build-a-productionready-go-cv-api-with-rate-limiting-caching-and-observa/",
-      "social_hook": "> TL;DR — Build a Go‑based CV API that serves JSON résumé data, adds rate‑limiting and Redis caching, persists to PostgreSQL, and exposes Prometheus metrics and OpenTelemetry traces. By the end you’ll have a Dockerized service that showcases real‑world systems skills to hiring managers.\n\nHiring managers scan dozens of GitHub repos; a project that runs in production, exports metrics, and demonstrates production‑grade patterns instantly differentiates an engineer. In this post you’ll construct a self‑hosted Go service that serves your JSON résumé while weaving in rate limiting, caching, persistence, and observability. Every step uses real, runnable code and familiar tools—Go, Docker, PostgreSQL, Redis, Prometheus, and OpenTelemetry—so you can clone the repo, run it locally, and extend it into a senior‑level portfolio piece.\n\nThis project signals several high‑value skill sets that hiring managers look for in backend and SRE candidates:",
-      "tags": [
-        "go",
-        "docker",
-        "postgres",
-        "prometheus",
-        "observability"
-      ],
-      "scheduled_at": "2026-11-02T02:03:26Z",
-      "status": "pending"
     }
   ]
 }
