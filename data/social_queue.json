@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-02T07:04:08Z",
+  "last_scheduled_at": "2026-11-01T04:02:47Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28594,8 +28594,7 @@
         "side-project"
       ],
       "scheduled_at": "2026-11-01T02:03:39Z",
-      "status": "posting",
-      "claimed_at": "2026-11-02T07:04:24Z"
+      "status": "pending"
     },
     {
       "title": "Deep Dive into WebAssembly Compilation: Wasmtime's Cranelift Backend",
@@ -28611,20 +28610,6 @@
       "scheduled_at": "2026-11-01T04:02:47Z",
       "status": "posting",
       "claimed_at": "2026-11-01T08:40:54Z"
-    },
-    {
-      "title": "Building a Real‑Time Event Ingestion & Analytics Dashboard for Your CV",
-      "url": "https://martinuke0.github.io/posts/2026-11-02-building-a-realtime-event-ingestion-analytics-dashboard-for-your-cv/",
-      "social_hook": "> TL;DR — This post walks you through building a real‑time event ingestion and analytics dashboard using Kafka, FastAPI, and Postgres. You’ll end up with a Docker‑composable pipeline you can demo, extend, and discuss in interviews, signaling hands‑on distributed‑systems competence.\n\nBuilding a portfolio project that hiring managers notice is about more than “just code.” It’s about demonstrating that you can design, deploy, and operate a small but complete system that mirrors what teams do in production. The project below—a real‑time event ingestion and analytics dashboard—lets you showcase messaging, persistence, API design, and observability all in one place. It’s practical enough to run locally in minutes, yet extensible enough to become a talking point for senior‑level interviews.\n\nHiring managers scanning dozens of GitHub repos look for signals of three things: systems thinking, tool fluency, and delivery capability. This project hits each:",
-      "tags": [
-        "kafka",
-        "fastapi",
-        "postgresql",
-        "docker",
-        "monitoring"
-      ],
-      "scheduled_at": "2026-11-02T07:04:08Z",
-      "status": "pending"
     }
   ]
 }
