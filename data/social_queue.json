@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-02T18:03:08Z",
+  "last_scheduled_at": "2026-11-01T04:02:47Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28594,8 +28594,7 @@
         "side-project"
       ],
       "scheduled_at": "2026-11-01T02:03:39Z",
-      "status": "posting",
-      "claimed_at": "2026-11-02T18:03:20Z"
+      "status": "pending"
     },
     {
       "title": "Deep Dive into WebAssembly Compilation: Wasmtime's Cranelift Backend",
@@ -28611,20 +28610,6 @@
       "scheduled_at": "2026-11-01T04:02:47Z",
       "status": "posting",
       "claimed_at": "2026-11-01T08:40:54Z"
-    },
-    {
-      "title": "Hands‑On Build Guide: Speculative Decoding Inference Engine in Pure Python",
-      "url": "https://martinuke0.github.io/posts/2026-11-02-handson-build-guide-speculative-decoding-inference-engine-in-pure-python/",
-      "social_hook": "> TL;DR — Speculative decoding with a small draft transformer and a larger target transformer can accelerate inference by 2‑3× in pure Python, delivering a concrete, runnable project that signals systems‑design skill on a CV.\n\nBuilding a speculative decoding engine from scratch is one of the most effective ways to demonstrate to hiring managers that you understand both algorithmic innovation and production‑grade engineering. Unlike toy “Hello World” ML repos, this project forces you to grapple with model I/O, caching, latency measurement, and performance tuning—all within a single, readable Python codebase. The result is a portable inference pipeline you can run on a laptop, embed in a Flask service, or prototype with Ray, and it showcases skills that map directly to ML‑infra, backend, and AI‑product roles.\n\n- Systems‑level thinking: You design a two‑model pipeline (draft + target), manage a token‑cache, and implement acceptance logic that mimics real LLM serving layers.",
-      "tags": [
-        "python",
-        "machine-learning",
-        "inference",
-        "speculative-decoding",
-        "cv-project"
-      ],
-      "scheduled_at": "2026-11-02T18:03:08Z",
-      "status": "pending"
     }
   ]
 }
