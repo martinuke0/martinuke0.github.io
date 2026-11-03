@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-03T09:04:07Z",
+  "last_scheduled_at": "2026-11-01T04:02:47Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28594,8 +28594,7 @@
         "side-project"
       ],
       "scheduled_at": "2026-11-01T02:03:39Z",
-      "status": "posting",
-      "claimed_at": "2026-11-03T09:03:02Z"
+      "status": "pending"
     },
     {
       "title": "Deep Dive into WebAssembly Compilation: Wasmtime's Cranelift Backend",
@@ -28611,21 +28610,6 @@
       "scheduled_at": "2026-11-01T04:02:47Z",
       "status": "posting",
       "claimed_at": "2026-11-01T08:40:54Z"
-    },
-    {
-      "title": "Building a KV-Cache Eviction Policy Engine: H2O, SnapKV, and PyramidInfer in Pure Python",
-      "url": "https://martinuke0.github.io/posts/2026-11-03-building-a-kv-cache-eviction-policy-engine-h2o-snapkv-and-pyramidinfer-in-pure-p/",
-      "social_hook": "> TL;DR — You will implement three state‑of‑the‑art KV‑cache eviction policies—H2O, SnapKV, and PyramidInfer—in a single, pure‑Python module. The project demonstrates algorithmic depth, memory‑management expertise, and the ability to translate research into production‑ready code, making it a standout entry for systems or ML engineering roles.\n\nWhen you apply for a backend, infrastructure, or ML‑platform role, you need a portfolio piece that proves you can ship code that solves a real performance problem. A KV‑cache eviction engine does exactly that: it forces you to confront memory limits, latency budgets, and algorithmic trade‑offs while staying entirely in pure Python—no external C++ kernels or proprietary libraries required. In this guide you will build the engine from scratch, wire up the three most cited eviction policies from the 2023‑2024 LLM serving literature, and validate it with synthetic workloads that mimic production traffic.\n\n- Algorithmic rigor – You will implement H2O (Hybrid‑Order), SnapKV (token‑merging), and PyramidInfer (hierarchical decay) from first principles, showing you can read a paper and turn math into working code.",
-      "tags": [
-        "KV-cache",
-        "Eviction",
-        "LLM",
-        "Python",
-        "Systems",
-        "Portfolio"
-      ],
-      "scheduled_at": "2026-11-03T09:04:07Z",
-      "status": "pending"
     }
   ]
 }
