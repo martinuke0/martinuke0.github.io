@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-01T04:02:47Z",
+  "last_scheduled_at": "2026-11-03T07:03:01Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28610,6 +28610,20 @@
       "scheduled_at": "2026-11-01T04:02:47Z",
       "status": "posting",
       "claimed_at": "2026-11-01T08:40:54Z"
+    },
+    {
+      "title": "Hands-On Build Guide: PagedAttention KV Cache Manager with Continuous Batching in Pure Python",
+      "url": "https://martinuke0.github.io/posts/2026-11-03-hands-on-build-guide-pagedattention-kv-cache-manager-with-continuous-batching-in/",
+      "social_hook": "> TL;DR — This post walks you through building a pure‑Python paged‑attention KV cache manager with continuous batching. You'll get runnable code, test commands, and a roadmap to turn the prototype into a production‑grade system that hiring managers will notice.\n\nBuilding a side project that mirrors real infrastructure is one of the fastest ways to signal systems‑level competence to hiring managers. A paged‑attention KV cache manager with continuous batching touches memory allocation, eviction policies, request batching, and performance tuning—all without leaving the Python ecosystem. In this guide you’ll create a fully runnable prototype, learn how each piece fits together, and walk away with a clear roadmap to graduate the toy into a production‑grade component.\n\nEmployers scanning dozens of CVs look for concrete evidence that you understand how data moves through a system, not just that you can write syntax. This project demonstrates:",
+      "tags": [
+        "python",
+        "caching",
+        "ml",
+        "systems",
+        "side-project"
+      ],
+      "scheduled_at": "2026-11-03T07:03:01Z",
+      "status": "pending"
     }
   ]
 }
