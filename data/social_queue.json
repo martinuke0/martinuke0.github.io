@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-03T23:02:10Z",
+  "last_scheduled_at": "2026-11-01T04:02:47Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28594,8 +28594,7 @@
         "side-project"
       ],
       "scheduled_at": "2026-11-01T02:03:39Z",
-      "status": "posting",
-      "claimed_at": "2026-11-03T23:00:06Z"
+      "status": "pending"
     },
     {
       "title": "Deep Dive into WebAssembly Compilation: Wasmtime's Cranelift Backend",
@@ -28611,21 +28610,6 @@
       "scheduled_at": "2026-11-01T04:02:47Z",
       "status": "posting",
       "claimed_at": "2026-11-01T08:40:54Z"
-    },
-    {
-      "title": "BPE Vocabulary Compression via Optimal Merge Scheduling",
-      "url": "https://martinuke0.github.io/posts/2026-11-03-bpe-vocabulary-compression-via-optimal-merge-scheduling/",
-      "social_hook": "> TL;DR — This project implements a Byte Pair Encoding (BPE) tokenizer that uses an optimal merge scheduler to reduce vocabulary size by up to 40% without sacrificing token quality. You will build a working system in Python, learn the algorithmic core of merge scheduling, and see how to extend it to production with persistence, scaling, and observability.\n\nIn modern NLP pipelines, the tokenizer is the first and often most overlooked component. A well‑designed vocabulary can shrink model memory footprints, speed up inference, and even improve downstream performance. Yet many teams rely on off‑the‑shelf tokenizers that optimize for a single metric (e.g., frequency) while ignoring the global structure of the merge graph. This post walks you through building a BPE tokenizer that treats merge selection as an optimization problem: given a corpus, which merges should you apply to minimize vocabulary size while preserving token fidelity? The result is a compact, interpretable system that signals real systems skill to hiring managers and can be extended into a production‑grade service.\n\n- Algorithmic depth: You will implement a greedy/dynamic‑programming scheduler that balances merge frequency against token‑level loss, a non‑trivial optimization that appears in research papers but is rarely taught in standard ML courses.",
-      "tags": [
-        "BPE",
-        "tokenization",
-        "optimization",
-        "NLP",
-        "systems",
-        "machine-learning"
-      ],
-      "scheduled_at": "2026-11-03T23:02:10Z",
-      "status": "pending"
     }
   ]
 }
