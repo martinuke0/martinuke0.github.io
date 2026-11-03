@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-01T04:02:47Z",
+  "last_scheduled_at": "2026-11-03T14:02:28Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28610,6 +28610,20 @@
       "scheduled_at": "2026-11-01T04:02:47Z",
       "status": "posting",
       "claimed_at": "2026-11-01T08:40:54Z"
+    },
+    {
+      "title": "Pure‑Python LoRA Adapter: A Portfolio Project for Systems Engineers",
+      "url": "https://martinuke0.github.io/posts/2026-11-03-purepython-lora-adapter-a-portfolio-project-for-systems-engineers/",
+      "social_hook": "> TL;DR — This post walks you through building a pure‑Python LoRA adapter that injects trainable low‑rank matrices into a transformer, plus a minimal fine‑tuning pipeline you can run on a single GPU. By the end you’ll have a runnable project that demonstrates deep learning systems skills and can be extended for production use.\n\nIn the competitive landscape of AI engineering portfolios, a project that shows you can implement and train a parameter‑efficient fine‑tuning method stands out. LoRA (Low‑Rank Adaptation) is a technique that adds trainable low‑rank matrices to a frozen transformer, dramatically reducing the number of parameters that need to be updated. This guide provides a complete, from‑scratch implementation in pure Python using PyTorch, along with a training pipeline that you can run locally.\n\n- Parameter‑Efficient Fine‑Tuning – Demonstrates understanding of modern methods that cut compute and memory costs, a skill demanded by teams scaling large models.",
+      "tags": [
+        "deep-learning",
+        "pytorch",
+        "lora",
+        "fine-tuning",
+        "portfolio-project"
+      ],
+      "scheduled_at": "2026-11-03T14:02:28Z",
+      "status": "pending"
     }
   ]
 }
