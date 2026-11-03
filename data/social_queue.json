@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-01T04:02:47Z",
+  "last_scheduled_at": "2026-11-03T13:02:20Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28610,6 +28610,21 @@
       "scheduled_at": "2026-11-01T04:02:47Z",
       "status": "posting",
       "claimed_at": "2026-11-01T08:40:54Z"
+    },
+    {
+      "title": "From‑Scratch GGUF and safetensors Binary Weight Loader with Memory‑Mapped Q4_0 Dequantization in Pure Python",
+      "url": "https://martinuke0.github.io/posts/2026-11-03-fromscratch-gguf-and-safetensors-binary-weight-loader-with-memorymapped-q4_0-deq/",
+      "social_hook": "> TL;DR — This post walks through building a from‑scratch pure‑Python loader that memory‑maps GGUF and safetensors binary weights and performs Q4_0 dequantization on demand. You’ll get runnable code, a clear architecture, and concrete extensions that turn the script into a production‑ready utility, making it a standout project for any engineering CV.\n\nBuilding a custom weight loader from the ground up is a rare hands‑on project that simultaneously demonstrates low‑level file I/O, knowledge of model binary formats, and the ability to ship efficient inference pipelines. For a working or aspiring engineer, such a portfolio piece signals fluency with the same tools that power large language model serving: memory‑mapped files, per‑tensor scaling, and 4‑bit quantization. Hiring managers see a candidate who can read spec documents, translate them into working code, and iterate toward performance—exactly the skill set needed for roles in ML infrastructure, backend services, and systems engineering.\n\n- Low‑level system competence: You’ll work directly with `mmap`, binary headers, and struct packing—skills that differentiate you from developers who only ever call high‑level libraries.",
+      "tags": [
+        "python",
+        "gguf",
+        "safetensors",
+        "dequantization",
+        "memory-mapped",
+        "binary"
+      ],
+      "scheduled_at": "2026-11-03T13:02:20Z",
+      "status": "pending"
     }
   ]
 }
