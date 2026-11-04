@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-01T04:02:47Z",
+  "last_scheduled_at": "2026-11-04T00:03:20Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28610,6 +28610,20 @@
       "scheduled_at": "2026-11-01T04:02:47Z",
       "status": "posting",
       "claimed_at": "2026-11-01T08:40:54Z"
+    },
+    {
+      "title": "Build a continuous batching LLM inference engine with paged attention and block-based KV cache in pure Python",
+      "url": "https://martinuke0.github.io/posts/2026-11-04-build-a-continuous-batching-llm-inference-engine-with-paged-attention-and-block/",
+      "social_hook": "> TL;DR — This project implements a minimal continuous batching LLM inference engine using paged attention and a block‑based KV cache, all in pure Python. It showcases hands‑on experience with memory management, dynamic scheduling, and high‑throughput serving—skills that directly map to senior systems and ML infrastructure roles.\n\nThe rise of large language models (LLMs) has turned inference serving into a first‑class systems problem. Production frameworks such as vLLM, TensorRT‑LLM, and CTranslate2 all rely on two key ideas: continuous batching and paged attention with a block‑based KV cache. By building a small but functional engine from scratch, you demonstrate a deep understanding of these concepts and the ability to ship performant, memory‑efficient serving code—a strong signal for any hiring manager looking for systems‑oriented ML talent.\n\n- Concrete systems primitives – You implement paging, block allocation, and dynamic batch scheduling, which are core to modern serving stacks.",
+      "tags": [
+        "LLM",
+        "Inference",
+        "PagedAttention",
+        "KV-Cache",
+        "Python"
+      ],
+      "scheduled_at": "2026-11-04T00:03:20Z",
+      "status": "pending"
     }
   ]
 }
