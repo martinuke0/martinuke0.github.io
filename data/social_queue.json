@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-04T05:02:58Z",
+  "last_scheduled_at": "2026-11-01T04:02:47Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28594,8 +28594,7 @@
         "side-project"
       ],
       "scheduled_at": "2026-11-01T02:03:39Z",
-      "status": "posting",
-      "claimed_at": "2026-11-04T04:58:12Z"
+      "status": "pending"
     },
     {
       "title": "Deep Dive into WebAssembly Compilation: Wasmtime's Cranelift Backend",
@@ -28611,20 +28610,6 @@
       "scheduled_at": "2026-11-01T04:02:47Z",
       "status": "posting",
       "claimed_at": "2026-11-01T08:40:54Z"
-    },
-    {
-      "title": "Build a Mixture-of-Experts Routing Layer from Scratch with NumPy",
-      "url": "https://martinuke0.github.io/posts/2026-11-04-build-a-mixture-of-experts-routing-layer-from-scratch-with-numpy/",
-      "social_hook": "> TL;DR — This post walks through building a minimal Mixture‑of‑Experts routing layer in NumPy, complete with top‑k gating, per‑expert capacity constraints, and an auxiliary load‑balancing loss. You’ll end up with runnable code you can ship to a portfolio and discuss in interviews.\n\nMixture‑of‑Experts (MoE) models have become a cornerstone for scaling language models and other large‑scale systems. In this post you’ll implement a fully functional MoE routing layer from scratch using only NumPy, gaining hands‑on experience with top‑k gating, capacity constraints, and the auxiliary load‑balancing loss that keeps expert utilization balanced. The code is deliberately minimal so you can run it, experiment with it, and add it to your CV with confidence.\n\nImplementing an MoE routing layer from the ground up signals several high‑value skills to hiring managers:",
-      "tags": [
-        "numpy",
-        "machine-learning",
-        "mixture-of-experts",
-        "side-project",
-        "cv"
-      ],
-      "scheduled_at": "2026-11-04T05:02:58Z",
-      "status": "pending"
     }
   ]
 }
