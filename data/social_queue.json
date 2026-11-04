@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-04T22:02:24Z",
+  "last_scheduled_at": "2026-11-01T04:02:47Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28594,8 +28594,7 @@
         "side-project"
       ],
       "scheduled_at": "2026-11-01T02:03:39Z",
-      "status": "posting",
-      "claimed_at": "2026-11-04T22:02:13Z"
+      "status": "pending"
     },
     {
       "title": "Deep Dive into WebAssembly Compilation: Wasmtime's Cranelift Backend",
@@ -28611,20 +28610,6 @@
       "scheduled_at": "2026-11-01T04:02:47Z",
       "status": "posting",
       "claimed_at": "2026-11-01T08:40:54Z"
-    },
-    {
-      "title": "Hands‑On Speculative Decoding Pipeline in Pure Python",
-      "url": "https://martinuke0.github.io/posts/2026-11-04-handson-speculative-decoding-pipeline-in-pure-python/",
-      "social_hook": "> TL;DR — Speculative decoding pairs a lightweight draft model with a heavy target model to accelerate token generation by up to 3×, all implemented in pure Python with no external inference engine. The pipeline demonstrates model‑level optimization, concurrent inference, and acceptance‑rate tuning, making it a concrete signal of systems‑engineering skill. You can run, test, and extend the codebase to showcase production‑flavored ML engineering.\n\nA speculative decoding pipeline is a compact side project that doubles as a portfolio piece: it combines model architecture knowledge, Python performance engineering, and distributed‑systems patterns in a single runnable repository. Hiring managers can inspect the code, reproduce the speed‑up, and discuss the trade‑offs you chose.\n\n- Systems‑level ML engineering – You design a two‑model inference loop, manage model loading, and tune token‑acceptance thresholds, mirroring real‑world serving pipelines.",
-      "tags": [
-        "python",
-        "machine-learning",
-        "speculative-decoding",
-        "cv",
-        "side-project"
-      ],
-      "scheduled_at": "2026-11-04T22:02:24Z",
-      "status": "pending"
     }
   ]
 }
