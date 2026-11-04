@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-01T04:02:47Z",
+  "last_scheduled_at": "2026-11-04T15:02:51Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28610,6 +28610,20 @@
       "scheduled_at": "2026-11-01T04:02:47Z",
       "status": "posting",
       "claimed_at": "2026-11-01T08:40:54Z"
+    },
+    {
+      "title": "From Scratch: Building an int4 Quantized Transformer Decoder in Python",
+      "url": "https://martinuke0.github.io/posts/2026-11-04-from-scratch-building-an-int4-quantized-transformer-decoder-in-python/",
+      "social_hook": "> TL;DR — This post walks you through building a minimal int4 weight‑only quantized transformer decoder entirely in Python, covering calibration, per‑channel scaling, and a hand‑rolled GEMM. You’ll end up with a runnable prototype that demonstrates real systems skills—quantization, memory efficiency, and low‑level linear algebra—making it a strong portfolio piece.\n\nLarge language models are impressive, but their size makes them impractical for many production environments. Quantization to 4‑bit integers can shrink model footprints by 4× while preserving most accuracy, yet most tutorials stop at calling a library function. In this guide we build the core of a transformer decoder from scratch, implementing the quantization pipeline, per‑channel scaling, and a pure‑Python GEMM that actually runs. The result is a compact, interpretable artifact you can point to in interviews or on a GitHub résumé.\n\n- Low‑precision arithmetic – You’ll implement int4 quantization and dequantization manually, showing you understand fixed‑point representation, rounding, and overflow.",
+      "tags": [
+        "quantization",
+        "transformer",
+        "python",
+        "machine-learning",
+        "systems"
+      ],
+      "scheduled_at": "2026-11-04T15:02:51Z",
+      "status": "pending"
     }
   ]
 }
