@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-04T20:02:14Z",
+  "last_scheduled_at": "2026-11-01T04:02:47Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28594,8 +28594,7 @@
         "side-project"
       ],
       "scheduled_at": "2026-11-01T02:03:39Z",
-      "status": "posting",
-      "claimed_at": "2026-11-04T20:02:43Z"
+      "status": "pending"
     },
     {
       "title": "Deep Dive into WebAssembly Compilation: Wasmtime's Cranelift Backend",
@@ -28611,21 +28610,6 @@
       "scheduled_at": "2026-11-01T04:02:47Z",
       "status": "posting",
       "claimed_at": "2026-11-01T08:40:54Z"
-    },
-    {
-      "title": "Building a Paged KV-Cache Eviction Engine for Multi-Tenant LLM Inference",
-      "url": "https://martinuke0.github.io/posts/2026-11-04-building-a-paged-kv-cache-eviction-engine-for-multi-tenant-llm-inference/",
-      "social_hook": "> TL;DR — This project implements a paged KV-cache eviction engine with block-level prefix sharing for multi-tenant LLM inference, all in pure Python. It demonstrates advanced memory management, caching strategies, and multi-tenancy — skills that directly translate to senior infrastructure roles. You’ll walk away with a runnable, extensible codebase that proves you can build production-flavored inference infrastructure from scratch.\n\nWhen you’re an engineer looking to signal systems expertise, you need a project that’s both practical and conceptually deep. LLM inference is a hot area, but simply calling an API doesn’t show much. What hiring managers want to see is how you handle the hard problems: memory management under pressure, multi-tenant isolation, and efficient caching. This guide walks you through building a paged KV-cache eviction engine with block-level prefix sharing — a portfolio piece that’s small enough to complete in a weekend but rich enough to discuss in an interview.\n\n- Memory management & paging — You’ll implement a virtual-memory-like system for KV-caches, including block allocation, deallocation, and eviction.",
-      "tags": [
-        "LLM",
-        "Python",
-        "Systems",
-        "Performance",
-        "Caching",
-        "Inference"
-      ],
-      "scheduled_at": "2026-11-04T20:02:14Z",
-      "status": "pending"
     }
   ]
 }
