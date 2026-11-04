@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-01T04:02:47Z",
+  "last_scheduled_at": "2026-11-04T23:01:54Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28610,6 +28610,21 @@
       "scheduled_at": "2026-11-01T04:02:47Z",
       "status": "posting",
       "claimed_at": "2026-11-01T08:40:54Z"
+    },
+    {
+      "title": "Build a Medusa Speculative Decoding Engine in Pure Python",
+      "url": "https://martinuke0.github.io/posts/2026-11-04-build-a-medusa-speculative-decoding-engine-in-pure-python/",
+      "social_hook": "> TL;DR — Speculative decoding can halve LLM latency by generating multiple candidate tokens with a lightweight draft model and verifying them against the target. This post walks you through building a Medusa‑style decoder in pure Python, with runnable code, architecture diagrams, and a roadmap to production‑grade features. By the end you’ll have a portable engine you can demo, benchmark, and extend.\n\nBuilding a high‑performance LLM serving stack often means tackling the latency bottleneck head‑on. Speculative decoding addresses this by proposing several tokens with a small “draft” model and only paying the cost of the expensive target model when the proposals are accepted. A Medusa‑style engine takes this a step further: the draft model outputs a distribution over k future tokens, the verifier checks them in parallel, and the accepted tokens are flushed to the output buffer. The result is a pure‑Python implementation that you can run on a laptop, embed in a CI pipeline, or expand into a production‑grade service.\n\n- Algorithmic engineering: You design and implement a non‑trivial feedback loop (propose → verify → accept/reject) that mirrors real production decoders.",
+      "tags": [
+        "python",
+        "speculative-decoding",
+        "llm",
+        "medusa",
+        "portfolio",
+        "cv"
+      ],
+      "scheduled_at": "2026-11-04T23:01:54Z",
+      "status": "pending"
     }
   ]
 }
