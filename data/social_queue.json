@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-05T09:02:22Z",
+  "last_scheduled_at": "2026-11-01T04:02:47Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28594,8 +28594,7 @@
         "side-project"
       ],
       "scheduled_at": "2026-11-01T02:03:39Z",
-      "status": "posting",
-      "claimed_at": "2026-11-05T08:58:35Z"
+      "status": "pending"
     },
     {
       "title": "Deep Dive into WebAssembly Compilation: Wasmtime's Cranelift Backend",
@@ -28611,20 +28610,6 @@
       "scheduled_at": "2026-11-01T04:02:47Z",
       "status": "posting",
       "claimed_at": "2026-11-01T08:40:54Z"
-    },
-    {
-      "title": "Pure‑Python GGUF Weight Loader and Tensor Decoder: A Hands‑On CV Side Project",
-      "url": "https://martinuke0.github.io/posts/2026-11-05-purepython-gguf-weight-loader-and-tensor-decoder-a-handson-cv-side-project/",
-      "social_hook": "> TL;DR — This post walks you through building a pure‑Python GGUF weight loader and tensor decoder from scratch. You’ll learn how GGUF stores quantized tensors, how to parse its binary format, and how to de‑quantize weights into NumPy arrays – all with runnable code you can ship on a CV.\n\nBuilding a side project that demonstrates low‑level systems knowledge while staying firmly in the Python ecosystem is rare. Most ML‑focused GitHub repos either rely on C/C++ bindings or stay at the high‑level framework level. A pure‑Python GGUF weight loader forces you to confront binary file parsing, quantized type handling, and memory‑efficient tensor assembly – skills that hiring managers see as “real systems skill.” Roles such as ML engineer, inference engineer, and backend systems specialist particularly value candidates who can move between framework abstractions and the underlying data format.\n\n- Binary‑format competence – You read and interpret a custom binary header, enumerate tensors, and handle endianness without a high‑level library.",
-      "tags": [
-        "python",
-        "gguf",
-        "machine-learning",
-        "systems",
-        "cv"
-      ],
-      "scheduled_at": "2026-11-05T09:02:22Z",
-      "status": "pending"
     }
   ]
 }
