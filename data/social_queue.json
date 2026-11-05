@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-01T04:02:47Z",
+  "last_scheduled_at": "2026-11-05T07:02:27Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28610,6 +28610,20 @@
       "scheduled_at": "2026-11-01T04:02:47Z",
       "status": "posting",
       "claimed_at": "2026-11-01T08:40:54Z"
+    },
+    {
+      "title": "Dynamic Temperature Scheduler for LLM Sampling",
+      "url": "https://martinuke0.github.io/posts/2026-11-05-dynamic-temperature-scheduler-for-llm-sampling/",
+      "social_hook": "> TL;DR — This project implements a per‑token temperature scheduler that adjusts sampling temperature based on real‑time entropy estimates, combined with top‑k and top‑p filtering. It demonstrates advanced LLM inference control and is built with PyTorch and the Hugging Face Transformers library, providing a concrete portfolio piece for systems‑focused roles.\n\nLarge language models (LLMs) generate text by sampling from a probability distribution over tokens. The temperature parameter controls the sharpness of that distribution, but a static temperature often produces either overly deterministic or chaotic output. In this post we build a dynamic temperature scheduler that reacts to the entropy of the model's predicted distribution on a per‑token basis, and we combine it with top‑k and top‑p filtering to give fine‑grained, on‑the‑fly control over sampling. The implementation is fully runnable in Python, uses the popular Hugging Face Transformers library, and can be extended into a production‑grade inference service.\n\n- Systems‑level inference control – you are not just calling `model.generate()`; you are manipulating the sampling distribution at the token level, which signals deep understanding of how LLMs produce text.",
+      "tags": [
+        "LLM",
+        "Sampling",
+        "Entropy",
+        "Python",
+        "Systems"
+      ],
+      "scheduled_at": "2026-11-05T07:02:27Z",
+      "status": "pending"
     }
   ]
 }
