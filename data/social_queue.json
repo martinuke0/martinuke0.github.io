@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-01T04:02:47Z",
+  "last_scheduled_at": "2026-11-05T12:02:37Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28610,6 +28610,21 @@
       "scheduled_at": "2026-11-01T04:02:47Z",
       "status": "posting",
       "claimed_at": "2026-11-01T08:40:54Z"
+    },
+    {
+      "title": "Build a vLLM-Style PagedAttention Inference Engine in Pure Python",
+      "url": "https://martinuke0.github.io/posts/2026-11-05-build-a-vllm-style-pagedattention-inference-engine-in-pure-python/",
+      "social_hook": "> TL;DR — This post walks you through building a minimal paged attention inference engine in pure Python, complete with a block‑table KV cache and radix‑tree prefix caching. You’ll walk away with a runnable side project that demonstrates memory management, concurrent scheduling, and algorithmic optimization—skills that hiring managers look for in senior systems roles.\n\nLarge language models (LLMs) generate tokens one by one, and each forward pass requires storing intermediate key‑value (KV) states for every previous token. Naively keeping these states in a contiguous tensor quickly exhausts GPU memory and forces you to truncate context lengths. vLLM introduced PagedAttention, a virtual‑memory‑inspired approach that splits the KV cache into fixed‑size blocks and maps them with a block table, enabling near‑zero‑waste memory reuse. In this guide you’ll implement a stripped‑down version of that system in pure Python, adding a radix‑tree prefix cache so that common prompt prefixes are computed only once. The result is a small but realistic engine that you can drop into a portfolio, a technical interview, or a side project to showcase deep systems knowledge.\n\nThis project surfaces four high‑value skill clusters that recruiters associate with senior backend or ML‑infrastructure roles:",
+      "tags": [
+        "inference-engine",
+        "kv-cache",
+        "pagedattention",
+        "python",
+        "systems",
+        "portfolio"
+      ],
+      "scheduled_at": "2026-11-05T12:02:37Z",
+      "status": "pending"
     }
   ]
 }
