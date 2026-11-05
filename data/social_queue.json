@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-05T10:03:08Z",
+  "last_scheduled_at": "2026-11-01T04:02:47Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28594,8 +28594,7 @@
         "side-project"
       ],
       "scheduled_at": "2026-11-01T02:03:39Z",
-      "status": "posting",
-      "claimed_at": "2026-11-05T10:01:02Z"
+      "status": "pending"
     },
     {
       "title": "Deep Dive into WebAssembly Compilation: Wasmtime's Cranelift Backend",
@@ -28611,20 +28610,6 @@
       "scheduled_at": "2026-11-01T04:02:47Z",
       "status": "posting",
       "claimed_at": "2026-11-01T08:40:54Z"
-    },
-    {
-      "title": "Hands‑On Speculative Decoding Engine in Pure Python",
-      "url": "https://martinuke0.github.io/posts/2026-11-05-handson-speculative-decoding-engine-in-pure-python/",
-      "social_hook": "> TL;DR — Speculative decoding accelerates text generation by using a lightweight draft model to propose tokens, which a verifier quickly validates, achieving 2‑3× speed‑up with negligible quality loss. The engine is implemented in pure Python, making it runnable on any machine without external dependencies beyond the standard library. This project signals algorithm design, performance engineering, and system‑level thinking to hiring managers.\n\nSpeculative decoding is a technique that can dramatically speed up large language model inference by inserting a small, fast model in front of the main model. In this post we’ll build a fully functional prototype in pure Python, walk through every implementation step, and show how to extend it for production use.\n\nHiring managers for ML‑focused engineering roles look for concrete evidence that you can bridge research ideas and production‑ready code. This project signals several differentiators:",
-      "tags": [
-        "python",
-        "speculative-decoding",
-        "cv",
-        "systems",
-        "optimization"
-      ],
-      "scheduled_at": "2026-11-05T10:03:08Z",
-      "status": "pending"
     }
   ]
 }
