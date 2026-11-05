@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-05T17:03:43Z",
+  "last_scheduled_at": "2026-11-01T04:02:47Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28594,8 +28594,7 @@
         "side-project"
       ],
       "scheduled_at": "2026-11-01T02:03:39Z",
-      "status": "posting",
-      "claimed_at": "2026-11-05T17:00:12Z"
+      "status": "pending"
     },
     {
       "title": "Deep Dive into WebAssembly Compilation: Wasmtime's Cranelift Backend",
@@ -28611,21 +28610,6 @@
       "scheduled_at": "2026-11-01T04:02:47Z",
       "status": "posting",
       "claimed_at": "2026-11-01T08:40:54Z"
-    },
-    {
-      "title": "Continuous Batching LLM Serving Engine in Pure Python",
-      "url": "https://martinuke0.github.io/posts/2026-11-05-continuous-batching-llm-serving-engine-in-pure-python/",
-      "social_hook": "> TL;DR — This project implements a continuous batching LLM serving engine in pure Python, featuring a custom KV cache and token streaming. It demonstrates real systems skills such as memory management, concurrency, and latency optimization, making it a compelling portfolio piece for engineering roles.\n\nIn the race to ship generative AI features, the inference engine is often the bottleneck that determines whether a product feels responsive or sluggish. Building a performant serving stack from scratch forces you to confront low‑level concerns—memory layout, scheduling, and network I/O—that many engineers only read about. This guide walks you through constructing a minimal yet functional continuous batching LLM server with a custom KV cache and token streaming, all in pure Python. The result is a portfolio project that signals deep systems understanding to hiring managers looking for evidence of production‑ready engineering.\n\n- End‑to‑end ownership – You design the request scheduler, KV cache, and streaming output, showcasing ability to ship a complete subsystem rather than a single function.",
-      "tags": [
-        "LLM",
-        "Python",
-        "Systems",
-        "KV-Cache",
-        "Streaming",
-        "Performance"
-      ],
-      "scheduled_at": "2026-11-05T17:03:43Z",
-      "status": "pending"
     }
   ]
 }
