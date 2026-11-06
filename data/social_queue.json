@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-06T00:03:28Z",
+  "last_scheduled_at": "2026-11-01T04:02:47Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28594,8 +28594,7 @@
         "side-project"
       ],
       "scheduled_at": "2026-11-01T02:03:39Z",
-      "status": "posting",
-      "claimed_at": "2026-11-06T00:03:49Z"
+      "status": "pending"
     },
     {
       "title": "Deep Dive into WebAssembly Compilation: Wasmtime's Cranelift Backend",
@@ -28611,20 +28610,6 @@
       "scheduled_at": "2026-11-01T04:02:47Z",
       "status": "posting",
       "claimed_at": "2026-11-01T08:40:54Z"
-    },
-    {
-      "title": "From‑Scratch int4 Weight‑Only Quantizer with Per‑Group Scales and Zero‑Points for LLM Inference",
-      "url": "https://martinuke0.github.io/posts/2026-11-06-fromscratch-int4-weightonly-quantizer-with-pergroup-scales-and-zeropoints-for-ll/",
-      "social_hook": "> TL;DR — This post walks you through building a from‑scratch int4 weight‑only quantizer with per‑group scales and zero‑points entirely in pure Python. You’ll get runnable code, a test suite, and a portfolio project that signals deep LLM optimization skill to hiring managers. The implementation follows real‑world patterns used in GPTQ and AWQ, but stays fully in NumPy so it runs anywhere.\n\nBuilding a tiny, pure‑Python int4 quantizer might sound like a niche exercise, but for an engineer it’s a concrete way to demonstrate understanding of how modern LLMs squeeze memory footprints without sacrificing quality. In this guide you’ll implement per‑group scaling, zero‑point clipping, and a de‑quantization routine that you can drop into any NumPy‑based inference pipeline. By the end you’ll have a reusable module, a small test battery, and a tangible side‑project that recruiters can inspect and run.\n\nEmployers hunting for ML‑focused engineers value candidates who can move beyond “use the library” and actually understand the mechanics behind model compression. This project signals several concrete skills:",
-      "tags": [
-        "python",
-        "llm",
-        "quantization",
-        "machine-learning",
-        "side-project"
-      ],
-      "scheduled_at": "2026-11-06T00:03:28Z",
-      "status": "pending"
     }
   ]
 }
