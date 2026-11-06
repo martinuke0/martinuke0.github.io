@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-06T03:03:09Z",
+  "last_scheduled_at": "2026-11-01T04:02:47Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28594,8 +28594,7 @@
         "side-project"
       ],
       "scheduled_at": "2026-11-01T02:03:39Z",
-      "status": "posting",
-      "claimed_at": "2026-11-06T03:00:37Z"
+      "status": "pending"
     },
     {
       "title": "Deep Dive into WebAssembly Compilation: Wasmtime's Cranelift Backend",
@@ -28611,20 +28610,6 @@
       "scheduled_at": "2026-11-01T04:02:47Z",
       "status": "posting",
       "claimed_at": "2026-11-01T08:40:54Z"
-    },
-    {
-      "title": "From‑Scratch LLM Decoding Engine: Temperature, Top‑k, Top‑p, and Repetition Penalty",
-      "url": "https://martinuke0.github.io/posts/2026-11-06-fromscratch-llm-decoding-engine-temperature-topk-topp-and-repetition-penalty/",
-      "social_hook": "> TL;DR — You will build a compact, pure‑Python LLM decoding engine that implements temperature scaling, top‑k filtering, top‑p nucleus sampling, and repetition penalty. The resulting script runs on a CPU, produces coherent text from a small model, and demonstrates concrete systems and algorithmic skills that hiring managers look for.\n\nLarge language models are only as good as the way you sample their next token. While many tutorials stop at greedy decoding, a production‑grade system needs to control randomness, avoid repetitive loops, and balance diversity with coherence. In this guide you will implement a complete decoding pipeline in pure Python, covering temperature scaling, top‑k filtering, top‑p nucleus sampling, and repetition penalty. The code is self‑contained, runs on a single CPU, and can be dropped into any project that needs controlled generation.\n\n- Algorithmic depth – You will implement four distinct sampling strategies, each with its own mathematical justification, showing you can translate research into code.",
-      "tags": [
-        "llm",
-        "python",
-        "sampling",
-        "decoding",
-        "systems"
-      ],
-      "scheduled_at": "2026-11-06T03:03:09Z",
-      "status": "pending"
     }
   ]
 }
