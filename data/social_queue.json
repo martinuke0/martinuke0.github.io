@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-07T17:03:16Z",
+  "last_scheduled_at": "2026-11-01T04:02:47Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28594,8 +28594,7 @@
         "side-project"
       ],
       "scheduled_at": "2026-11-01T02:03:39Z",
-      "status": "posting",
-      "claimed_at": "2026-11-07T17:02:18Z"
+      "status": "pending"
     },
     {
       "title": "Deep Dive into WebAssembly Compilation: Wasmtime's Cranelift Backend",
@@ -28611,20 +28610,6 @@
       "scheduled_at": "2026-11-01T04:02:47Z",
       "status": "posting",
       "claimed_at": "2026-11-01T08:40:54Z"
-    },
-    {
-      "title": "Prompt‑Aware Dynamic Context Window Manager with LRU Eviction and Token Importance Scoring",
-      "url": "https://martinuke0.github.io/posts/2026-11-07-promptaware-dynamic-context-window-manager-with-lru-eviction-and-token-importanc/",
-      "social_hook": "> TL;DR — Build a pure‑Python context window manager that scores each token’s importance and evicts the least relevant entries with an LRU policy. This project gives you a tangible, runnable portfolio piece that signals systems‑engineering skill to hiring managers.\n\nBuilding a context window manager from scratch might sound like an academic exercise, but in production AI pipelines the ability to dynamically trim, score, and prioritize tokens directly translates to cost savings, lower latency, and more reliable model outputs. This post walks you through a complete, runnable Python implementation that you can clone, extend, and point to in interviews.\n\nHiring managers scanning dozens of portfolios look for signals that a candidate can operate at the intersection of language, data structures, and production concerns. This project demonstrates:",
-      "tags": [
-        "python",
-        "system-design",
-        "cv",
-        "project",
-        "lru"
-      ],
-      "scheduled_at": "2026-11-07T17:03:16Z",
-      "status": "pending"
     }
   ]
 }
