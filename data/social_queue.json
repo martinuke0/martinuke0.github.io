@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-01T04:02:47Z",
+  "last_scheduled_at": "2026-11-07T19:02:31Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28610,6 +28610,20 @@
       "scheduled_at": "2026-11-01T04:02:47Z",
       "status": "posting",
       "claimed_at": "2026-11-01T08:40:54Z"
+    },
+    {
+      "title": "Hands‑On BPE Tokenizer: Adaptive Merge Heuristics and Streaming Vocab Trainer in Pure Python",
+      "url": "https://martinuke0.github.io/posts/2026-11-07-handson-bpe-tokenizer-adaptive-merge-heuristics-and-streaming-vocab-trainer-in-p/",
+      "social_hook": "> TL;DR — In this post we build a pure‑Python BPE tokenizer with adaptive merge heuristics and a streaming vocab trainer, giving you a runnable CV side project that showcases real‑world data‑engineering patterns.\n\nBuilding a portfolio side project that hiring managers can immediately evaluate is a powerful way to signal systems‑level skill. A from‑scratch byte‑pair encoding (BPE) tokenizer implemented in pure Python demonstrates your ability to work with low‑level data structures, design adaptive algorithms, and think about streaming pipelines—all without relying on heavyweight frameworks. In this article you’ll walk away with a complete, tested codebase, an understanding of the architecture choices that make it production‑ready, and a clear roadmap for scaling the toy into a robust tool.\n\nEmployers scanning CVs for engineers who can operate at the intersection of data engineering and machine learning will notice several differentiators in a hand‑rolled BPE tokenizer:",
+      "tags": [
+        "python",
+        "byte-pair-encoding",
+        "tokenizer",
+        "cv-project",
+        "data-engineering"
+      ],
+      "scheduled_at": "2026-11-07T19:02:31Z",
+      "status": "pending"
     }
   ]
 }
