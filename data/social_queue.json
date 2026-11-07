@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-07T06:03:28Z",
+  "last_scheduled_at": "2026-11-01T04:02:47Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28594,8 +28594,7 @@
         "side-project"
       ],
       "scheduled_at": "2026-11-01T02:03:39Z",
-      "status": "posting",
-      "claimed_at": "2026-11-07T06:03:46Z"
+      "status": "pending"
     },
     {
       "title": "Deep Dive into WebAssembly Compilation: Wasmtime's Cranelift Backend",
@@ -28611,21 +28610,6 @@
       "scheduled_at": "2026-11-01T04:02:47Z",
       "status": "posting",
       "claimed_at": "2026-11-01T08:40:54Z"
-    },
-    {
-      "title": "Hands‑On Build Guide: Pure‑Python GGUF Loader for CV & Portfolio Projects",
-      "url": "https://martinuke0.github.io/posts/2026-11-07-handson-build-guide-purepython-gguf-loader-for-cv-portfolio-projects/",
-      "social_hook": "> TL;DR — In this post we build a pure‑Python GGUF loader that pulls quantized tensors and metadata into NumPy arrays, giving you a tiny, runnable side‑project that signals low‑level system skill and modern AI infrastructure knowledge to hiring managers.\n\nGGUF is the new binary format for large language models, designed for fast, memory‑efficient inference on CPUs and GPUs. Being able to read and manipulate these files in pure Python without external C extensions demonstrates both language fluency and systems awareness — exactly the kind of signal that catches a recruiter's eye.\n\nA pure‑Python GGUF loader demonstrates several competencies that hiring managers value in engineers targeting ML‑focused or systems‑oriented roles:",
-      "tags": [
-        "python",
-        "gguf",
-        "numpy",
-        "cv",
-        "side-project",
-        "performance"
-      ],
-      "scheduled_at": "2026-11-07T06:03:28Z",
-      "status": "pending"
     }
   ]
 }
