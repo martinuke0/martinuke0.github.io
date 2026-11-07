@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-07T03:03:09Z",
+  "last_scheduled_at": "2026-11-01T04:02:47Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28594,8 +28594,7 @@
         "side-project"
       ],
       "scheduled_at": "2026-11-01T02:03:39Z",
-      "status": "posting",
-      "claimed_at": "2026-11-07T03:02:36Z"
+      "status": "pending"
     },
     {
       "title": "Deep Dive into WebAssembly Compilation: Wasmtime's Cranelift Backend",
@@ -28611,20 +28610,6 @@
       "scheduled_at": "2026-11-01T04:02:47Z",
       "status": "posting",
       "claimed_at": "2026-11-01T08:40:54Z"
-    },
-    {
-      "title": "Build a Production-Ready Portfolio API: A Hands-On Guide",
-      "url": "https://martinuke0.github.io/posts/2026-11-07-build-a-production-ready-portfolio-api-a-hands-on-guide/",
-      "social_hook": "> TL;DR — This post walks you through building a production‑grade portfolio API using FastAPI, PostgreSQL, Docker, and GitHub Actions. You will end up with a runnable, tested, and deployable service that demonstrates systems engineering skills to hiring managers.\n\nBuilding a side project that looks like a real system is the fastest way to signal competence to recruiters. A portfolio API that stores your projects, skills, and experience in a relational database, serves JSON over HTTP, ships in a container, and runs through automated tests and CI/CD pipelines checks every box for “systems thinking.” Below is a complete, runnable implementation, plus a roadmap to turn it into a senior‑level artifact.\n\n- End‑to‑end ownership – You design the schema, write the API, containerize the service, and automate deployment. Hiring managers see a candidate who can ship a feature from idea to production.",
-      "tags": [
-        "portfolio",
-        "fastapi",
-        "docker",
-        "ci-cd",
-        "systems"
-      ],
-      "scheduled_at": "2026-11-07T03:03:09Z",
-      "status": "pending"
     }
   ]
 }
