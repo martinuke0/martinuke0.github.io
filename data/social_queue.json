@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-01T04:02:47Z",
+  "last_scheduled_at": "2026-11-07T21:02:33Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28610,6 +28610,20 @@
       "scheduled_at": "2026-11-01T04:02:47Z",
       "status": "posting",
       "claimed_at": "2026-11-01T08:40:54Z"
+    },
+    {
+      "title": "Mastering Tokio's Internal Work-Stealing Scheduler: A Deep Dive into Async Runtime Fairness",
+      "url": "https://martinuke0.github.io/posts/2026-11-07-mastering-tokio/",
+      "social_hook": "> TL;DR — Tokio’s work-stealing scheduler gives each worker a double-ended deque, pulling from the local tail and stealing from the remote head, which yields high throughput but can starve low-priority tasks if not tuned. Understanding the deque topology, priority injection, and the `task_size` heuristic lets you shape fairness in production async systems.\n\nTokio’s async runtime is built around a compact, high-performance scheduler that avoids the global lock bottleneck of early event loops. The core data structure is the double-ended deque (deque) attached to each worker thread. Incoming tasks are pushed to the local deque’s tail, and when a worker runs out of work, it steals from the head of another worker’s deque. This design gives O(1) task enqueue and dequeue, and—when combined with enough workers—near-optimal CPU utilization.\n\nThe stealing direction is intentional: pushing work to the tail and stealing from the head creates a push-pull dynamic. Stealing from the head of another deque tends to pull older, potentially longer-running tasks into the stealer’s context, which can redistribute load but also introduces subtle fairness effects depending on task duration and priority.",
+      "tags": [
+        "tokio",
+        "async-runtime",
+        "work-stealing",
+        "scheduler",
+        "fairness"
+      ],
+      "scheduled_at": "2026-11-07T21:02:33Z",
+      "status": "pending"
     }
   ]
 }
