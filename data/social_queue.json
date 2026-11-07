@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-01T04:02:47Z",
+  "last_scheduled_at": "2026-11-07T04:03:19Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28610,6 +28610,20 @@
       "scheduled_at": "2026-11-01T04:02:47Z",
       "status": "posting",
       "claimed_at": "2026-11-01T08:40:54Z"
+    },
+    {
+      "title": "Build a Pure‑Python HNSW Index for Your Portfolio",
+      "url": "https://martinuke0.github.io/posts/2026-11-07-build-a-purepython-hnsw-index-for-your-portfolio/",
+      "social_hook": "> TL;DR — You will implement a hierarchical navigable small world (HNSW) index entirely in Python, without external dependencies. The guide includes runnable code, testing strategies, and a roadmap to scale the index for real‑world vector workloads.\n\nBuilding an approximate nearest neighbor (ANN) search engine is a classic portfolio project that demonstrates both algorithmic depth and systems engineering maturity. In this post you will construct a pure‑Python HNSW graph index from scratch, verify its correctness with synthetic data, and outline concrete extensions that move the prototype toward production‑grade vector search. The implementation relies only on the Python standard library, making it easy to run on any machine, while the extension list maps directly to skills that hiring managers look for in senior roles.\n\n- Algorithmic rigor – you will implement a sophisticated graph‑based search algorithm (HNSW) that is widely used in modern vector databases such as Faiss, ScaNN, and Milvus.",
+      "tags": [
+        "hnsw",
+        "vector-search",
+        "python",
+        "approximate-nearest-neighbor",
+        "graph-index"
+      ],
+      "scheduled_at": "2026-11-07T04:03:19Z",
+      "status": "pending"
     }
   ]
 }
