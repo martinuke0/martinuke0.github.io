@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-07T23:02:18Z",
+  "last_scheduled_at": "2026-11-01T04:02:47Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28594,8 +28594,7 @@
         "side-project"
       ],
       "scheduled_at": "2026-11-01T02:03:39Z",
-      "status": "posting",
-      "claimed_at": "2026-11-07T22:59:53Z"
+      "status": "pending"
     },
     {
       "title": "Deep Dive into WebAssembly Compilation: Wasmtime's Cranelift Backend",
@@ -28611,20 +28610,6 @@
       "scheduled_at": "2026-11-01T04:02:47Z",
       "status": "posting",
       "claimed_at": "2026-11-01T08:40:54Z"
-    },
-    {
-      "title": "Mastering Erlang's Actor Model: Concurrency Patterns in Modern Runtimes",
-      "url": "https://martinuke0.github.io/posts/2026-11-07-mastering-erlang/",
-      "social_hook": "> TL;DR — Erlang’s actor model proves that isolated processes with immutable messages can scale to millions without locks; we’ll cover the core patterns, supervision strategies, and how modern runtimes like Elixir and the BEAM adapt these ideas for cloud-native workloads.\n\nErlang/OTP has powered some of the world’s most demanding telecom switches for over three decades, not because of raw speed, but because its actor-inspired runtime treats concurrency as a first-class contract. In an era where services must survive node failures, scale across cores, and avoid global locks, the principles behind Erlang’s processes, links, and supervisors are more relevant than ever. This post walks you through the actor model’s theoretical roots, the concrete patterns that make OTP production-ready, and how those ideas translate to modern runtimes and infrastructure.\n\nAt its core, the Erlang actor model diverges from the thread-based concurrency most systems inherit from Unix. An Erlang process is a lightweight abstraction—each consumes mere kilobytes of stack space, and the BEAM VM can schedule millions concurrently. Unlike OS threads, Erlang processes never share memory; communication occurs exclusively via asynchronous message passing through mailboxes.",
-      "tags": [
-        "erlang",
-        "actor-model",
-        "concurrency",
-        "functional-programming",
-        "distributed-systems"
-      ],
-      "scheduled_at": "2026-11-07T23:02:18Z",
-      "status": "pending"
     }
   ]
 }
