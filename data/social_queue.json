@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-01T04:02:47Z",
+  "last_scheduled_at": "2026-11-08T01:04:39Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28610,6 +28610,21 @@
       "scheduled_at": "2026-11-01T04:02:47Z",
       "status": "posting",
       "claimed_at": "2026-11-01T08:40:54Z"
+    },
+    {
+      "title": "Pure Python int4 Weight-Only Transformer Inference Engine: A Hands-On Build Guide",
+      "url": "https://martinuke0.github.io/posts/2026-11-08-pure-python-int4-weight-only-transformer-inference-engine-a-hands-on-build-guide/",
+      "social_hook": "> TL;DR — We build a pure Python int4 weight-only transformer inference engine using per-channel symmetric and blockwise quantization, achieving 2–3× CPU speedup with under 5% accuracy loss on a tiny GPT‑2‑style model. The complete, runnable codebase signals real systems engineering skills directly to hiring managers.\n\nBuilding a quantized inference engine from scratch is one of the most effective ways to demonstrate how deep learning systems actually work under the hood. Unlike tutorials that wrap everything in PyTorch’s `quantize_dynamic`, this guide walks you through every quantization decision—from per-channel symmetric scaling to blockwise integer matrix multiplication—using only Python and NumPy. By the end you’ll have a working model, performance numbers, and a portfolio piece that shows hiring managers you can bridge research and production.\n\nHiring managers for ML systems, inference, and infrastructure roles see dozens of projects that \"fine-tune a model\" or \"deploy with Docker.\" What they rarely see is evidence that you understand the systems layer: how memory layout affects throughput, why per-channel scaling matters for activation precision, or how blockwise quantization interacts with cache lines. This project signals several concrete competencies:",
+      "tags": [
+        "python",
+        "deep-learning",
+        "quantization",
+        "transformers",
+        "systems",
+        "cv"
+      ],
+      "scheduled_at": "2026-11-08T01:04:39Z",
+      "status": "pending"
     }
   ]
 }
