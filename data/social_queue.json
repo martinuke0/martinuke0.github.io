@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-01T04:02:47Z",
+  "last_scheduled_at": "2026-11-08T09:03:03Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28610,6 +28610,20 @@
       "scheduled_at": "2026-11-01T04:02:47Z",
       "status": "posting",
       "claimed_at": "2026-11-01T08:40:54Z"
+    },
+    {
+      "title": "Mastering QUIC for Real-Time Voice Pipelines: Datagram Transport in Embedded Networks",
+      "url": "https://martinuke0.github.io/posts/2026-11-08-mastering-quic-for-real-time-voice-pipelines-datagram-transport-in-embedded-netw/",
+      "social_hook": "> TL;DR — QUIC’s zero-RTT connection migration, built-in TLS 1.3, and granular congestion control make it a drop-in replacement for UDP in real-time voice pipelines, reducing handshake latency by up to 40% and jitter by an order of magnitude on lossy embedded links.\n\nReal-time voice over embedded networks demands sub-100 ms end-to-end latency, minimal jitter, and graceful degradation under packet loss. Traditional UDP-based stacks give developers raw datagram access but leave reliability, security, and transport efficiency entirely in application code. QUIC, originally developed at Google and now standardized by the IETF, converges the transport, security, and multiplexing layers into a single, kernel-bypassable protocol that speaks UDP but delivers TLS 1.3, stream multiplexing, and connection migration over lossy links. In this post we’ll walk through why QUIC matters for voice pipelines, how its core primitives map to embedded constraints, and what production patterns emerge when you replace raw UDP with QUIC on devices ranging from ARM Cortex‑M microcontrollers to single‑board computers running Linux‑based VoIP gateways.\n\nThe UDP baseline has served VoIP and WebRTC for two decades, but its “best‑effort” datagram semantics mean every component—retransmission, congestion control, TLS handshakes, and multi‑stream handling—must be re‑implemented in user space. That duplication introduces subtle bugs, larger code footprints, and inconsistent performance across platforms. QUIC moves these concerns into the protocol layer while preserving the low‑overhead, fire‑and‑forget datagram model that voice codecs expect.",
+      "tags": [
+        "QUIC",
+        "Real-Time Voice",
+        "Embedded Networks",
+        "Datagram Transport",
+        "Network Optimization"
+      ],
+      "scheduled_at": "2026-11-08T09:03:03Z",
+      "status": "pending"
     }
   ]
 }
