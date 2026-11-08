@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-01T04:02:47Z",
+  "last_scheduled_at": "2026-11-08T11:02:32Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28610,6 +28610,20 @@
       "scheduled_at": "2026-11-01T04:02:47Z",
       "status": "posting",
       "claimed_at": "2026-11-01T08:40:54Z"
+    },
+    {
+      "title": "Building a Self-Contained Sampling and Decoding Engine in Pure Python",
+      "url": "https://martinuke0.github.io/posts/2026-11-08-building-a-self-contained-sampling-and-decoding-engine-in-pure-python/",
+      "social_hook": "> TL;DR — This project teaches you to build a self‑contained decoding engine that implements temperature, top‑k, and top‑p sampling entirely in Python, giving you a concrete artifact to showcase algorithmic and systems skills. By following the step‑by‑step guide you will produce runnable code that can be extended with caching, batching, and observability, mirroring real‑world LLM serving pipelines.\n\nThe ability to control how a language model chooses its next token is a core competency for any engineer working on generative AI systems. Whether you are tuning a chatbot, building a code‑completion service, or simply want to understand the internals of modern LLMs, mastering temperature, top‑k, and top‑p (nucleus) sampling is a practical differentiator. In this post you will implement each of these techniques from scratch in pure Python, then see how to evolve the prototype into a production‑grade component.\n\n- Algorithmic depth – You will write softmax scaling, cumulative probability truncation, and stochastic token selection, demonstrating a solid grasp of probability theory and numerical stability.",
+      "tags": [
+        "python",
+        "machine-learning",
+        "sampling",
+        "top-k",
+        "top-p"
+      ],
+      "scheduled_at": "2026-11-08T11:02:32Z",
+      "status": "pending"
     }
   ]
 }
