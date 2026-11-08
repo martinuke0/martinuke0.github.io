@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-08T12:02:43Z",
+  "last_scheduled_at": "2026-11-01T04:02:47Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28594,8 +28594,7 @@
         "side-project"
       ],
       "scheduled_at": "2026-11-01T02:03:39Z",
-      "status": "posting",
-      "claimed_at": "2026-11-08T12:00:42Z"
+      "status": "pending"
     },
     {
       "title": "Deep Dive into WebAssembly Compilation: Wasmtime's Cranelift Backend",
@@ -28611,20 +28610,6 @@
       "scheduled_at": "2026-11-01T04:02:47Z",
       "status": "posting",
       "claimed_at": "2026-11-01T08:40:54Z"
-    },
-    {
-      "title": "Hands-On Build Guide: Tree‑Based Speculative Decoding Engine with Medusa‑Style Draft Heads",
-      "url": "https://martinuke0.github.io/posts/2026-11-08-hands-on-build-guide-treebased-speculative-decoding-engine-with-medusastyle-draf/",
-      "social_hook": "> TL;DR — This post walks through building a pure‑Python speculative decoder with Medusa‑style draft heads and parallel verification. You’ll get a runnable prototype, a clear architecture, and a roadmap to production‑grade performance.\n\nSpeculative decoding speeds up large language model inference by generating multiple tokens per step using a small draft model, then verifying them with the full model in parallel. In this article we’ll construct a self‑contained, pure‑Python implementation that uses a tree‑based draft head architecture (inspired by the Medusa paper) and verifies candidates with a parallel verification loop. The code is deliberately dependency‑free, runs on any Python 3.9+ interpreter, and can be dropped into a CV repo as a concrete, runnable project.\n\nHiring managers for ML‑focused engineering roles look for evidence that you can bridge research prototypes and production‑grade systems. This project signals several concrete skills:",
-      "tags": [
-        "python",
-        "speculative-decoding",
-        "medusa",
-        "cv",
-        "parallel"
-      ],
-      "scheduled_at": "2026-11-08T12:02:43Z",
-      "status": "pending"
     }
   ]
 }
