@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-01T04:02:47Z",
+  "last_scheduled_at": "2026-11-08T16:02:43Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28610,6 +28610,21 @@
       "scheduled_at": "2026-11-01T04:02:47Z",
       "status": "posting",
       "claimed_at": "2026-11-01T08:40:54Z"
+    },
+    {
+      "title": "From-Scratch Safetensors & GGUF Weight Loader with Lazy Memory-Mapped Tensor Streaming and Q4_0/Q8_0 Dequantization in Pure Python",
+      "url": "https://martinuke0.github.io/posts/2026-11-08-from-scratch-safetensors-gguf-weight-loader-with-lazy-memory-mapped-tensor-strea/",
+      "social_hook": "> TL;DR — In this post we build a pure‑Python loader that memory‑maps safetensors and GGUF weight files, streams tensors lazily, and applies Q4_0/Q8_0 dequantization with negligible overhead. The result is a ~200‑line script you can plug into any inference engine, showcasing memory‑efficiency, lazy evaluation, and dequantization know‑how—exactly the kind of systems skill hiring managers look for in ML infrastructure engineers.\n\nBuilding a custom weight loader from scratch might sound like over‑engineering, but for a working engineer it’s a concrete way to signal fluency with low‑level I/O, memory management, and model‑format intricacies. Hiring managers for ML infrastructure, tooling, and senior‑level dev roles frequently ask candidates to discuss how they’d efficiently load massive tensors without blowing RAM. This project ticks those boxes while delivering a runnable, reusable library you can point to in a CV or GitHub profile.\n\n- Memory‑mapped I/O: Demonstrates ability to work with OS‑level mmap, letting you address multi‑gigabyte weight files without loading them entirely into process memory.",
+      "tags": [
+        "python",
+        "deep-learning",
+        "safetensors",
+        "gguf",
+        "weight-loader",
+        "memory-mapped"
+      ],
+      "scheduled_at": "2026-11-08T16:02:43Z",
+      "status": "pending"
     }
   ]
 }
