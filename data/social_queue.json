@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-08T08:02:45Z",
+  "last_scheduled_at": "2026-11-01T04:02:47Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28594,8 +28594,7 @@
         "side-project"
       ],
       "scheduled_at": "2026-11-01T02:03:39Z",
-      "status": "posting",
-      "claimed_at": "2026-11-08T08:02:02Z"
+      "status": "pending"
     },
     {
       "title": "Deep Dive into WebAssembly Compilation: Wasmtime's Cranelift Backend",
@@ -28611,20 +28610,6 @@
       "scheduled_at": "2026-11-01T04:02:47Z",
       "status": "posting",
       "claimed_at": "2026-11-01T08:40:54Z"
-    },
-    {
-      "title": "From-Scratch Paged Attention Allocator: LRU-Blocked KV-Cache Recompute for LLM Inference in Pure Python",
-      "url": "https://martinuke0.github.io/posts/2026-11-08-from-scratch-paged-attention-allocator-lru-blocked-kv-cache-recompute-for-llm-in/",
-      "social_hook": "> TL;DR — In this post we build a from-scratch paged attention allocator in pure Python, complete with LRU block eviction and paged KV-cache recompute. You'll get a runnable implementation that models the core memory pattern of LLM inference engines like vLLM, and a roadmap to turn it into a production-grade system.\n\nBuilding a paged attention allocator from scratch is one of the most effective side projects for engineers targeting ML infrastructure, backend systems, or AI research roles. It forces you to confront the exact memory layout and eviction strategies that production LLM serving engines use under the hood, and the implementation is compact enough to complete in a weekend yet substantial enough to discuss in depth at interview.\n\nHiring managers for ML infrastructure and backend roles see dozens of \"ChatGPT clone\" repos. A from-scratch paged attention allocator signals that you understand the systems problems that separate research prototypes from production serving platforms. Specifically, it demonstrates:",
-      "tags": [
-        "llm",
-        "python",
-        "systems",
-        "inference",
-        "cv-project"
-      ],
-      "scheduled_at": "2026-11-08T08:02:45Z",
-      "status": "pending"
     }
   ]
 }
