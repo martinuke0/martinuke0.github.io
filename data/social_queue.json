@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-01T04:02:47Z",
+  "last_scheduled_at": "2026-11-09T03:02:42Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28610,6 +28610,20 @@
       "scheduled_at": "2026-11-01T04:02:47Z",
       "status": "posting",
       "claimed_at": "2026-11-01T08:40:54Z"
+    },
+    {
+      "title": "Build a pure‑Python HNSW vector index with dynamic insertion, deletion, and neighbor queries for efficient similarity search in high‑dimensional spaces.",
+      "url": "https://martinuke0.github.io/posts/2026-11-09-build-a-purepython-hnsw-vector-index-with-dynamic-insertion-deletion-and-neighbo/",
+      "social_hook": "> TL;DR — This post walks you through building a pure‑Python HNSW index that supports dynamic insertion, deletion, and k‑NN queries, giving you a concrete project that showcases algorithmic depth, performance engineering, and production‑ready design. You’ll end up with runnable code, test harnesses, and a clear roadmap to scale the prototype into a real‑world service.\n\nBuilding a vector similarity search engine from scratch is a proven way to demonstrate systems thinking, algorithmic skill, and the ability to ship production‑quality code. In this guide you will implement a Hierarchical Navigable Small World (HNSW) graph entirely in Python, without relying on external C++ libraries. The implementation will handle dynamic insertion, deletion, and neighbor queries, and it will be packaged so that you can run it locally, test its correctness, and extend it toward a production system.\n\n- Algorithmic depth – You will write the core HNSW insertion, layer selection, and pruning logic, showing you understand probabilistic skip‑list structures and graph‑based nearest‑neighbor search.",
+      "tags": [
+        "HNSW",
+        "Vector Search",
+        "Python",
+        "Algorithms",
+        "Data Structures"
+      ],
+      "scheduled_at": "2026-11-09T03:02:42Z",
+      "status": "pending"
     }
   ]
 }
