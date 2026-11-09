@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-09T13:02:38Z",
+  "last_scheduled_at": "2026-11-01T04:02:47Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28594,8 +28594,7 @@
         "side-project"
       ],
       "scheduled_at": "2026-11-01T02:03:39Z",
-      "status": "posting",
-      "claimed_at": "2026-11-09T13:03:07Z"
+      "status": "pending"
     },
     {
       "title": "Deep Dive into WebAssembly Compilation: Wasmtime's Cranelift Backend",
@@ -28611,21 +28610,6 @@
       "scheduled_at": "2026-11-01T04:02:47Z",
       "status": "posting",
       "claimed_at": "2026-11-01T08:40:54Z"
-    },
-    {
-      "title": "Temperature-Aware Top-P Nucleus Sampler with Top-K Fallback in Pure Python",
-      "url": "https://martinuke0.github.io/posts/2026-11-09-temperature-aware-top-p-nucleus-sampler-with-top-k-fallback-in-pure-python/",
-      "social_hook": "> TL;DR — This post walks you through building a temperature‑aware top‑p nucleus sampler with top‑k fallback in pure Python, giving you a concrete portfolio piece that demonstrates algorithmic understanding, performance tuning, and production‑ready engineering. You will end up with a runnable module that can be integrated into larger LLM inference pipelines and easily extended with persistence, observability, and scaling.\n\nThe rise of large language models has turned token sampling from a theoretical curiosity into a critical engineering challenge. Whether you are serving a model on a GPU‑cluster or embedding it in a mobile app, the choice of sampling strategy directly affects latency, diversity, and user perception. In this guide you will implement a temperature‑aware top‑p nucleus sampler with a top‑k fallback from scratch, using only the Python standard library. The resulting module is small enough to fit in a résumé bullet, yet powerful enough to be dropped into a real inference service.\n\n- Algorithmic depth – You will write the core probability transformations (softmax, temperature scaling, cumulative distribution) yourself, showing you understand the math behind modern LLM decoding.",
-      "tags": [
-        "python",
-        "llm",
-        "sampling",
-        "nucleus-sampling",
-        "top-k",
-        "portfolio"
-      ],
-      "scheduled_at": "2026-11-09T13:02:38Z",
-      "status": "pending"
     }
   ]
 }
