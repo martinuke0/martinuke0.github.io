@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-01T04:02:47Z",
+  "last_scheduled_at": "2026-11-09T22:01:49Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28610,6 +28610,20 @@
       "scheduled_at": "2026-11-01T04:02:47Z",
       "status": "posting",
       "claimed_at": "2026-11-01T08:40:54Z"
+    },
+    {
+      "title": "Build a Minimal Portfolio Product from Scratch",
+      "url": "https://martinuke0.github.io/posts/2026-11-09-build-a-minimal-portfolio-product-from-scratch/",
+      "social_hook": "> TL;DR — This guide walks you through building a minimal, production‑ready micro‑service (Flask + Docker + GitHub Actions) that you can ship today. It demonstrates API design, containerisation, automated testing, and basic observability—exactly the kind of hands‑on work hiring managers look for in a portfolio project.\n\nBuilding a personal portfolio piece that feels like real work is one of the most effective ways to signal engineering competence without needing a full‑time job. Hiring managers on LinkedIn and in technical interviews want to see that you can take an idea, package it, ship it, and iterate on it. The project we’ll create is a tiny but complete micro‑service: a JSON‑based “Hello, World” API with a health endpoint, containerised with Docker, CI‑tested via GitHub Actions, and instrumented with simple metrics. Along the way you’ll practice version‑controlled code, container best practices, and basic observability—skills that translate directly to roles in backend engineering, DevOps, and platform teams.\n\n- API design & HTTP semantics – You’ll define routes, request/response models, and status codes, showing you can build consumable services.",
+      "tags": [
+        "portfolio",
+        "side-project",
+        "backend",
+        "docker",
+        "microservices"
+      ],
+      "scheduled_at": "2026-11-09T22:01:49Z",
+      "status": "pending"
     }
   ]
 }
