@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-01T04:02:47Z",
+  "last_scheduled_at": "2026-11-09T17:03:46Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28610,6 +28610,20 @@
       "scheduled_at": "2026-11-01T04:02:47Z",
       "status": "posting",
       "claimed_at": "2026-11-01T08:40:54Z"
+    },
+    {
+      "title": "Building a Paged Attention Engine from Scratch in Python",
+      "url": "https://martinuke0.github.io/posts/2026-11-09-building-a-paged-attention-engine-from-scratch-in-python/",
+      "social_hook": "> TL;DR — Build a pure-Python paged attention engine with variable-size KV blocks and ghost-eviction. The project demonstrates memory-conscious data structures, cache eviction patterns, and transformer optimization — directly signaling LLM engineering and systems roles to hiring managers.\n\nBuilding a paged attention engine from scratch is one of the most effective portfolio projects for engineers targeting LLM infrastructure, backend systems, or ML platform roles. Unlike typical \"train a model\" notebooks, this project forces you to confront real production constraints: KV cache memory growth, fragmentation, eviction policies, and latency budgets. Hiring managers can run the code, inspect the data structures, and see that you understand how large-scale serving systems (vLLM, Ray Serve, TensorRT-LLM) actually manage attention state. The skills translate directly: memory allocators, LRU/LFU policies, block-level parallelism, and deterministic performance debugging. If you can explain why variable-size blocks reduce waste and how ghost-eviction preserves throughput under pressure, you’ve moved beyond tutorial-level Python into systems thinking that pays dividends in interviews and on the job.\n\nThis project signals systems engineering proficiency rather than just framework fluency. Recruiters and hiring managers see \"built a Transformer\" a dozen times a week; seeing \"engineered a KV cache allocator with eviction\" is rare. Specifically, you demonstrate:",
+      "tags": [
+        "python",
+        "deep-learning",
+        "systems",
+        "cv",
+        "performance"
+      ],
+      "scheduled_at": "2026-11-09T17:03:46Z",
+      "status": "pending"
     }
   ]
 }
