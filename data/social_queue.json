@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-01T04:02:47Z",
+  "last_scheduled_at": "2026-11-10T20:03:34Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28610,6 +28610,20 @@
       "scheduled_at": "2026-11-01T04:02:47Z",
       "status": "posting",
       "claimed_at": "2026-11-01T08:40:54Z"
+    },
+    {
+      "title": "Hands-On: Building a Minimal Speculative Decoding Inference Engine in Pure Python",
+      "url": "https://martinuke0.github.io/posts/2026-11-10-hands-on-building-a-minimal-speculative-decoding-inference-engine-in-pure-python/",
+      "social_hook": "> TL;DR — In this post we build a minimal speculative decoding engine in pure Python, pairing a lightweight draft model with a verification head. The implementation is runnable, extensible, and demonstrates real systems patterns—caching, acceptance sampling, and batched processing—that hiring managers look for in CV projects.\n\nSpeculative decoding is a proven technique to accelerate LLM token generation by using a smaller \"draft\" model to propose multiple candidate tokens, which a larger \"verification\" head then validates in parallel. Beyond the speedup, building the engine from scratch forces you to confront real engineering concerns: token-level state management, acceptance probability calculus, and structured output flow. This guide walks you through a complete, runnable Python implementation that you can drop on a CV and talk about in interviews.\n\nHiring managers for backend, infra, and ML engineering roles see dozens of \"Hello World\" LLM repos. This project signals three distinct capabilities:",
+      "tags": [
+        "speculative-decoding",
+        "python",
+        "inference-engine",
+        "systems-architecture",
+        "cv-project"
+      ],
+      "scheduled_at": "2026-11-10T20:03:34Z",
+      "status": "pending"
     }
   ]
 }
