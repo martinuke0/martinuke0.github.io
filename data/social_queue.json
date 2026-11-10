@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-10T03:03:09Z",
+  "last_scheduled_at": "2026-11-01T04:02:47Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28594,8 +28594,7 @@
         "side-project"
       ],
       "scheduled_at": "2026-11-01T02:03:39Z",
-      "status": "posting",
-      "claimed_at": "2026-11-10T03:00:37Z"
+      "status": "pending"
     },
     {
       "title": "Deep Dive into WebAssembly Compilation: Wasmtime's Cranelift Backend",
@@ -28611,20 +28610,6 @@
       "scheduled_at": "2026-11-01T04:02:47Z",
       "status": "posting",
       "claimed_at": "2026-11-01T08:40:54Z"
-    },
-    {
-      "title": "Build a Flash‑Attention Tiled Self‑Attention Block from Scratch in Pure NumPy",
-      "url": "https://martinuke0.github.io/posts/2026-11-10-build-a-flashattention-tiled-selfattention-block-from-scratch-in-pure-numpy/",
-      "social_hook": "> TL;DR — We build a pure‑NumPy tiled flash‑attention self‑attention block from scratch, achieving O(n²) memory reduction and a runnable reference implementation that can be benchmarked, extended, and discussed in interviews.\n\nImplementing a tiled flash‑attention block from the ground up using only NumPy is a fantastic side‑project for engineers who want to demonstrate both deep learning fundamentals and systems‑level thinking. Hiring managers see a concrete, runnable artifact that proves you can translate a research paper into production‑ready code, optimise memory usage, and reason about performance—all skills that matter for ML‑focused roles, data‑engineering pipelines, or low‑latency serving systems.\n\n- Low‑level optimisation: You explicitly tile the attention matrix, showing you understand how to work within memory bandwidth constraints—a skill valued at companies that run large‑scale inference (e.g., Cloud AI providers, fintech recommendation engines).",
-      "tags": [
-        "numpy",
-        "attention",
-        "flash-attention",
-        "cv",
-        "side-project"
-      ],
-      "scheduled_at": "2026-11-10T03:03:09Z",
-      "status": "pending"
     }
   ]
 }
