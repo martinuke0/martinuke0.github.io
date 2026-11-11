@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-11T03:02:52Z",
+  "last_scheduled_at": "2026-11-11T01:01:59Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28594,8 +28594,7 @@
         "side-project"
       ],
       "scheduled_at": "2026-11-01T02:03:39Z",
-      "status": "posting",
-      "claimed_at": "2026-11-11T03:00:32Z"
+      "status": "pending"
     },
     {
       "title": "Deep Dive into WebAssembly Compilation: Wasmtime's Cranelift Backend",
@@ -28625,21 +28624,6 @@
         "Linux"
       ],
       "scheduled_at": "2026-11-11T01:01:59Z",
-      "status": "pending"
-    },
-    {
-      "title": "From‑Scratch Paged Attention Engine with Variable‑Size KV Cache Blocks and Ghost Eviction",
-      "url": "https://martinuke0.github.io/posts/2026-11-11-fromscratch-paged-attention-engine-with-variablesize-kv-cache-blocks-and-ghost-e/",
-      "social_hook": "> TL;DR — You will implement a paged attention engine in pure Python, handling variable‑size KV cache blocks and a ghost eviction policy. The project demonstrates block management, memory efficiency, and algorithmic design that recruiters associate with senior systems roles.\n\nBuilding a system that can serve large language models efficiently is one of the most concrete ways to signal expertise in low‑level systems, memory management, and algorithmic design. In this post we construct a from‑scratch paged attention engine that mimics the block‑based KV cache used in production inference frameworks such as vLLM and TensorRT‑LLM. By the end you will have a runnable Python module that allocates variable‑size KV blocks, performs attention over those blocks, and applies a ghost eviction policy to keep memory bounded. The code is intentionally minimal so you can extend it, but it contains enough realism to discuss on a résumé.\n\n- Demonstrates hands‑on understanding of KV cache management, a core component of LLM inference.",
-      "tags": [
-        "python",
-        "systems",
-        "llm",
-        "attention",
-        "kv-cache",
-        "eviction"
-      ],
-      "scheduled_at": "2026-11-11T03:02:52Z",
       "status": "pending"
     }
   ]
