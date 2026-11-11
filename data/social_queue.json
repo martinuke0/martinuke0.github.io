@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-11T01:01:59Z",
+  "last_scheduled_at": "2026-11-11T09:02:36Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28626,6 +28626,20 @@
       "scheduled_at": "2026-11-11T01:01:59Z",
       "status": "posting",
       "claimed_at": "2026-11-11T04:39:44Z"
+    },
+    {
+      "title": "Build a Pure‑Python LLM Sampler: Temperature, Top‑k, and Top‑p from Scratch",
+      "url": "https://martinuke0.github.io/posts/2026-11-11-build-a-purepython-llm-sampler-temperature-topk-and-topp-from-scratch/",
+      "social_hook": "> TL;DR — This post walks you through building a pure‑Python LLM sampler that implements temperature scaling, top‑k truncation and nucleus (top‑p) filtering from scratch. The complete, runnable code fits in a single file, demonstrates core probabilistic sampling patterns, and becomes a concrete, talk‑able portfolio piece for engineering roles.\n\nA short paragraph: LLM sampling is the bridge between a model’s raw logits and the token you actually generate. By mastering temperature, top‑k and top‑p you gain fine‑grained control over creativity versus determinism — a skill that shows up in everything from chatbots to retrieval‑augmented generation.\n\nBuilding a sampler from the ground up signals more than “I can call `transformers`”. It demonstrates:",
+      "tags": [
+        "python",
+        "llm",
+        "sampling",
+        "cv",
+        "side-project"
+      ],
+      "scheduled_at": "2026-11-11T09:02:36Z",
+      "status": "pending"
     }
   ]
 }
