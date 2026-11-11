@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-11T01:01:59Z",
+  "last_scheduled_at": "2026-11-11T08:03:22Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28626,6 +28626,20 @@
       "scheduled_at": "2026-11-11T01:01:59Z",
       "status": "posting",
       "claimed_at": "2026-11-11T04:39:44Z"
+    },
+    {
+      "title": "Build a FlashAttention Kernel from Scratch with Python and NumPy",
+      "url": "https://martinuke0.github.io/posts/2026-11-11-build-a-flashattention-kernel-from-scratch-with-python-and-numpy/",
+      "social_hook": "> TL;DR — We'll implement a FlashAttention kernel in pure Python+NumPy, showing how tiling and memory‑aware compute reduces I/O, and walk through a runnable code base you can copy, run, and extend for your own projects.\n\nImplementing a FlashAttention kernel from scratch might sound academic, but the exercise reveals how attention's memory bottleneck can be mitigated by fusing compute and I/O. In this post you’ll produce a minimal, pure‑Python + NumPy version that runs on CPU, reproduces the core algorithm, and serves as a springboard for deeper experimentation or production integration.\n\n- Low‑level optimization skill – You demonstrate understanding of memory hierarchies, tiling, and kernel fusion, all highly valued by systems teams.",
+      "tags": [
+        "python",
+        "numpy",
+        "flashattention",
+        "deep learning",
+        "kernel"
+      ],
+      "scheduled_at": "2026-11-11T08:03:22Z",
+      "status": "pending"
     }
   ]
 }
