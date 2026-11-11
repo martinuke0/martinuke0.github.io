@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-01T04:02:47Z",
+  "last_scheduled_at": "2026-11-11T01:01:59Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28610,6 +28610,21 @@
       "scheduled_at": "2026-11-01T04:02:47Z",
       "status": "posting",
       "claimed_at": "2026-11-01T08:40:54Z"
+    },
+    {
+      "title": "Mastering eBPF: Implementing Kernel Probes for High-Throughput Packet Filtering",
+      "url": "https://martinuke0.github.io/posts/2026-11-11-mastering-ebpf-implementing-kernel-probes-for-high-throughput-packet-filtering/",
+      "social_hook": "> TL;DR — Attaching eBPF programs to kernel probe points lets you filter packets at line rate with sub‑microsecond latency. This guide walks through building a high‑throughput XDP filter, attaching it to a network interface, and profiling its performance in a real production environment.\n\nIn modern data‑center networks, the gap between line speed and CPU capacity is widening. A single 100 GbE interface can generate millions of packets per second, and traditional user‑space filtering (e.g., `libpcap` or `AF_PACKET`) introduces tens of microseconds of latency per packet. Kernel‑level probes built on extended Berkeley Packet Filter (eBPF) let you inspect and drop packets before they reach the network stack, achieving near‑wire‑rate throughput with minimal CPU overhead.\n\nWhen a packet arrives, the kernel first copies it into a shared ring buffer (e.g., `AF_PACKET`), then wakes up a user‑space process. Each copy and context switch consumes hundreds of nanoseconds, and the per‑packet overhead grows with traffic volume. In high‑throughput scenarios, this quickly saturates a core.",
+      "tags": [
+        "eBPF",
+        "kernel",
+        "packet-filtering",
+        "performance",
+        "observability",
+        "Linux"
+      ],
+      "scheduled_at": "2026-11-11T01:01:59Z",
+      "status": "pending"
     }
   ]
 }
