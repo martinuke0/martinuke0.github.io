@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-11T01:01:59Z",
+  "last_scheduled_at": "2026-11-12T17:02:56Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28626,6 +28626,20 @@
       "scheduled_at": "2026-11-11T01:01:59Z",
       "status": "posting",
       "claimed_at": "2026-11-11T04:39:44Z"
+    },
+    {
+      "title": "Pure-Python Continuous Batching LLM Serving Engine with Dynamic Slot Allocation and KV‑Cache Management",
+      "url": "https://martinuke0.github.io/posts/2026-11-12-pure-python-continuous-batching-llm-serving-engine-with-dynamic-slot-allocation/",
+      "social_hook": "> TL;DR — This post walks you through building a pure‑Python continuous‑batching LLM serving engine with dynamic slot allocation and KV‑cache management. You’ll end up with a runnable prototype that demonstrates production‑grade scheduling, slot reuse, and cache eviction—all in a few hundred lines of code. It’s an ideal portfolio piece that signals systems‑engineering chops to hiring managers.\n\nBuilding a personal LLM serving stack from scratch might sound like over‑engineering, but for a hiring manager scanning dozens of CVs, the right side project can be a differentiator. In this post we’ll construct a pure‑Python continuous batching serving engine that handles dynamic slot allocation and KV‑cache management. The code is runnable, the concepts map directly onto production systems such as vLLM, and the project gives you tangible talking points for interviews: concurrency, memory‑aware scheduling, and cache eviction strategies.\n\n- Systems‑level concurrency: You’ll use `asyncio` to multiplex I/O, manage back‑pressure, and keep the event loop busy—exactly the pattern required for high‑throughput services.",
+      "tags": [
+        "python",
+        "llm",
+        "serving",
+        "kvcache",
+        "batch"
+      ],
+      "scheduled_at": "2026-11-12T17:02:56Z",
+      "status": "pending"
     }
   ]
 }
