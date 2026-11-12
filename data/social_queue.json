@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-11T01:01:59Z",
+  "last_scheduled_at": "2026-11-12T02:03:00Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28626,6 +28626,20 @@
       "scheduled_at": "2026-11-11T01:01:59Z",
       "status": "posting",
       "claimed_at": "2026-11-11T04:39:44Z"
+    },
+    {
+      "title": "Building a LoRA Adapter with Fused Low-Rank Projections and Weight Merging in Pure Python",
+      "url": "https://martinuke0.github.io/posts/2026-11-12-building-a-lora-adapter-with-fused-low-rank-projections-and-weight-merging-in-pu/",
+      "social_hook": "> TL;DR — You will implement a LoRA adapter that fuses low‑rank projections and merges weights using only Python and NumPy. The resulting module plugs into any transformer block, reduces parameter count, and can be demonstrated with a simple test harness, making it a strong signal of systems skill on a CV.\n\nIn the race to fine‑tune large language models, parameter‑efficient methods have become a must‑have skill for engineers who want to show they can ship models under budget. This post walks you through building a LoRA adapter from scratch, focusing on the fused low‑rank projection and weight‑merging tricks that make it both memory‑efficient and fast. By the end you will have a reusable Python module, a set of tests, and a clear story to tell recruiters about your ability to design and optimize machine‑learning systems.\n\n- Low‑Rank Adaptation (LoRA) expertise – you will understand and implement the core mathematics behind LoRA, a technique now used in production at companies like OpenAI and Meta.",
+      "tags": [
+        "LoRA",
+        "machine-learning",
+        "python",
+        "portfolio",
+        "systems"
+      ],
+      "scheduled_at": "2026-11-12T02:03:00Z",
+      "status": "pending"
     }
   ]
 }
