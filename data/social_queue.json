@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-12T19:02:53Z",
+  "last_scheduled_at": "2026-11-11T01:01:59Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28594,8 +28594,7 @@
         "side-project"
       ],
       "scheduled_at": "2026-11-01T02:03:39Z",
-      "status": "posting",
-      "claimed_at": "2026-11-12T19:02:01Z"
+      "status": "pending"
     },
     {
       "title": "Deep Dive into WebAssembly Compilation: Wasmtime's Cranelift Backend",
@@ -28627,20 +28626,6 @@
       "scheduled_at": "2026-11-11T01:01:59Z",
       "status": "posting",
       "claimed_at": "2026-11-11T04:39:44Z"
-    },
-    {
-      "title": "Build a GPTQ Quantizer with Layerwise Weight Reconstruction in Pure Python",
-      "url": "https://martinuke0.github.io/posts/2026-11-12-build-a-gptq-quantizer-with-layerwise-weight-reconstruction-in-pure-python/",
-      "social_hook": "> TL;DR — This post walks you through building a GPTQ quantizer with layerwise weight reconstruction entirely in pure Python, giving you a concrete project that demonstrates quantization algorithms, low‑level linear algebra, and production‑ready testing. By the end you’ll have a runnable script that compresses a transformer block and reports per‑layer error, which you can showcase on GitHub or in interviews.\n\nQuantization is no longer a research curiosity; it is a production requirement for serving large language models on commodity hardware. The GPTQ algorithm, introduced by Frantar et al. in GPTQ: Accurate Post‑Training Quantization for Generative Pre‑trained Transformers, compresses model weights to 4‑bit precision while preserving perplexity by reconstructing each layer’s weight matrix sequentially. Implementing it from scratch in pure Python forces you to confront the numerical details—scales, rounding, and error propagation—that frameworks like Hugging Face Optimum normally hide. This article provides a complete, runnable implementation and explains why it is a compelling addition to your CV.\n\n- Algorithmic depth – You will write the core quantization loop, the per‑channel scale computation, and the reconstruction error minimization, demonstrating an understanding of numerical linear algebra beyond API calls.",
-      "tags": [
-        "quantization",
-        "gptq",
-        "machine-learning",
-        "python",
-        "systems"
-      ],
-      "scheduled_at": "2026-11-12T19:02:53Z",
-      "status": "pending"
     }
   ]
 }
