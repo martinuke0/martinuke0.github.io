@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-11T01:01:59Z",
+  "last_scheduled_at": "2026-11-12T06:02:43Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28626,6 +28626,20 @@
       "scheduled_at": "2026-11-11T01:01:59Z",
       "status": "posting",
       "claimed_at": "2026-11-11T04:39:44Z"
+    },
+    {
+      "title": "Hands-On Build Guide: A GPT‑2 Style BPE Tokenizer From Scratch in Python",
+      "url": "https://martinuke0.github.io/posts/2026-11-12-hands-on-build-guide-a-gpt2-style-bpe-tokenizer-from-scratch-in-python/",
+      "social_hook": "> TL;DR — We’ll build a complete, GPT‑2‑compatible BPE tokenizer in pure Python, starting from regex pre‑tokenization, iterating a merge‑rank loop over byte pairs, and falling back to raw bytes for any Unicode character. The result is a lossless encoder/decoder you can ship, test, and extend for real‑world projects.\n\nA custom tokenizer is a rare \"full‑stack\" side project that touches string parsing, algorithm design, Unicode handling, and performance tuning all at once. By implementing the GPT‑2 BPE algorithm from the ground up you demonstrate that you can read a research paper, translate its pseudocode into production‑ready code, and ship a runnable artifact that hiring managers can inspect, run, and test. In this guide you’ll get a step‑by‑step notebook‑style build, concrete code snippets, local test harnesses, and a roadmap for turning the toy into a production‑grade component.\n\n- Low‑level systems skill – You’re working directly with bytes, bit‑patterns, and Unicode code points, showing you’re comfortable beneath the abstraction layer.",
+      "tags": [
+        "bpe",
+        "tokenizer",
+        "python",
+        "cv",
+        "side-project"
+      ],
+      "scheduled_at": "2026-11-12T06:02:43Z",
+      "status": "pending"
     }
   ]
 }
