@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-11T01:01:59Z",
+  "last_scheduled_at": "2026-11-13T19:02:55Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28626,6 +28626,21 @@
       "scheduled_at": "2026-11-11T01:01:59Z",
       "status": "posting",
       "claimed_at": "2026-11-11T04:39:44Z"
+    },
+    {
+      "title": "From‑Scratch PagedAttention KV‑Cache Engine in Pure Python + NumPy",
+      "url": "https://martinuke0.github.io/posts/2026-11-13-fromscratch-pagedattention-kvcache-engine-in-pure-python-numpy/",
+      "social_hook": "> TL;DR — We build a pure‑Python+NumPy PagedAttention KV‑cache that uses fixed‑size blocks, a per‑sequence block table with non‑contiguous pages, copy‑on‑write sharing for beam search and common prefixes, and a paged batched decode kernel that gathers scattered pages into attention. The design mirrors serving‑system patterns (e.g., vLLM, SGLang) while staying runnable in a single file.\n\nA from‑scratch KV‑cache engine might sound like academic exercise, but it lands squarely in the sweet spot for hiring managers: you demonstrate that you understand how LLM serving systems actually keep memory bounded, how copy‑on‑write works for beam search, and how to write performance‑critical code in Python+NumPy without reaching for a C‑extension. The project is tiny enough to finish over a weekend, yet extensible enough to become a talking point in interviews for LLM serving, backend infrastructure, or research engineering roles.\n\n- Systems‑level memory management – Fixed‑size blocks, a per‑sequence block table, and non‑contiguous page allocation mirror the core KV‑cache strategy used in vLLM and SGLang. Employers see you can design a bounded‑memory data structure that prevents OOM under long generation runs.",
+      "tags": [
+        "python",
+        "numpy",
+        "kv-cache",
+        "paged-attention",
+        "llm",
+        "beam-search"
+      ],
+      "scheduled_at": "2026-11-13T19:02:55Z",
+      "status": "pending"
     }
   ]
 }
