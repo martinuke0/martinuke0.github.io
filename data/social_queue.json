@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-13T04:02:19Z",
+  "last_scheduled_at": "2026-11-11T01:01:59Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28594,8 +28594,7 @@
         "side-project"
       ],
       "scheduled_at": "2026-11-01T02:03:39Z",
-      "status": "posting",
-      "claimed_at": "2026-11-13T04:02:40Z"
+      "status": "pending"
     },
     {
       "title": "Deep Dive into WebAssembly Compilation: Wasmtime's Cranelift Backend",
@@ -28627,20 +28626,6 @@
       "scheduled_at": "2026-11-11T01:01:59Z",
       "status": "posting",
       "claimed_at": "2026-11-11T04:39:44Z"
-    },
-    {
-      "title": "From‑Scratch GGUF & Safetensors Weight Loader in Pure Python",
-      "url": "https://martinuke0.github.io/posts/2026-11-13-fromscratch-gguf-safetensors-weight-loader-in-pure-python/",
-      "social_hook": "> TL;DR — This post walks you through building a pure‑Python loader for GGUF and safetensors model weights. You’ll learn mmap‑backed zero‑copy reads, endianness and dtype conversion, tensor‑name remapping against a reference model, and chunk loading with CRC32 checksum verification. The result is a runnable script that can be extended for production model serving.\n\nA from‑scratch weight loader might sound like academic exercise, but for a hiring manager it signals that you understand how deep‑learning frameworks actually move bytes from disk to GPU memory. You’ll see how zero‑copy mmap eliminates unnecessary copies, how to handle the subtle endianness and precision quirks of GGUF, and how to map arbitrary tensor names to a canonical ordering—all while verifying data integrity with checksums. The project is small enough to finish in a weekend yet extensible enough to become a building block for custom inference pipelines.\n\n- Systems‑level Python fluency – Working with `mmap`, struct packing, and low‑level binary parsing demonstrates that you can write performance‑critical code in a high‑level language.",
-      "tags": [
-        "python",
-        "gguf",
-        "safetensors",
-        "machine learning",
-        "systems programming"
-      ],
-      "scheduled_at": "2026-11-13T04:02:19Z",
-      "status": "pending"
     }
   ]
 }
