@@ -28594,7 +28594,8 @@
         "side-project"
       ],
       "scheduled_at": "2026-11-01T02:03:39Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-11-13T18:15:13Z"
     },
     {
       "title": "Deep Dive into WebAssembly Compilation: Wasmtime's Cranelift Backend",
