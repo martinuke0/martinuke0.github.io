@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-13T11:03:51Z",
+  "last_scheduled_at": "2026-11-11T01:01:59Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28594,8 +28594,7 @@
         "side-project"
       ],
       "scheduled_at": "2026-11-01T02:03:39Z",
-      "status": "posting",
-      "claimed_at": "2026-11-13T11:03:38Z"
+      "status": "pending"
     },
     {
       "title": "Deep Dive into WebAssembly Compilation: Wasmtime's Cranelift Backend",
@@ -28627,20 +28626,6 @@
       "scheduled_at": "2026-11-11T01:01:59Z",
       "status": "posting",
       "claimed_at": "2026-11-11T04:39:44Z"
-    },
-    {
-      "title": "Build a Pure‑Python Mixture‑of‑Experts Router from Scratch",
-      "url": "https://martinuke0.github.io/posts/2026-11-13-build-a-purepython-mixtureofexperts-router-from-scratch/",
-      "social_hook": "> TL;DR — In this post we build a pure‑Python Mixture‑of‑Experts router that selects the top‑k experts per token, balances load with a softmax‑based penalty, and trains end‑to‑end – a compact, runnable project that demonstrates sparse routing, tensor manipulation, and production‑ready engineering patterns.\n\nImplementing a Mixture‑of‑Experts (MoE) router from scratch is a great way to deepen your understanding of sparse activation patterns, load‑balancing tricks, and the engineering trade‑offs that separate research prototypes from production systems. In the following sections you’ll see a complete, runnable Python implementation that uses only NumPy (and optionally PyTorch for acceleration), and you’ll walk away with a project you can demo, extend, and talk about in interviews.\n\nHiring managers for ML‑focused engineering roles see dozens of “hello‑world” transformer notebooks. A self‑contained MoE router signals that you can do more than import a high‑level library—you understand the inner mechanics of sparse routing, can implement load‑balancing penalties, and know how to structure code for reproducibility and extension. The project demonstrates:",
-      "tags": [
-        "python",
-        "machine-learning",
-        "transformers",
-        "mixture-of-experts",
-        "routing"
-      ],
-      "scheduled_at": "2026-11-13T11:03:51Z",
-      "status": "pending"
     }
   ]
 }
