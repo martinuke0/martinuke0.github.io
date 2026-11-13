@@ -28640,7 +28640,8 @@
         "beam-search"
       ],
       "scheduled_at": "2026-11-13T19:02:55Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-11-13T19:24:08Z"
     }
   ]
 }
