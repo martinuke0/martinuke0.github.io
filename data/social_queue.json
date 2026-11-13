@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-11T01:01:59Z",
+  "last_scheduled_at": "2026-11-13T01:02:24Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28626,6 +28626,20 @@
       "scheduled_at": "2026-11-11T01:01:59Z",
       "status": "posting",
       "claimed_at": "2026-11-11T04:39:44Z"
+    },
+    {
+      "title": "Build a From-Scratch LLM Serving Scheduler with Chunked Prefill, Prefix Caching, and Preemption",
+      "url": "https://martinuke0.github.io/posts/2026-11-13-build-a-from-scratch-llm-serving-scheduler-with-chunked-prefill-prefix-caching-a/",
+      "social_hook": "> TL;DR — This post walks you through building a minimal LLM scheduler in pure Python that supports chunked prefill, prefix caching, and preemption, giving you a concrete portfolio piece that showcases systems design, concurrency, and performance tuning. You’ll end up with runnable code, tests, and a clear roadmap to extend it toward production.\n\nIn a market where “I built an LLM serving system” can be a differentiator, you need a project that is more than a toy—it must demonstrate real systems thinking, concurrency control, and performance awareness. Below is a step‑by‑step guide to a compact, pure‑Python scheduler that implements three production‑relevant techniques: chunked prefill, prefix caching, and preemption. The code is intentionally lightweight so you can read, modify, and extend it in an afternoon, yet it captures the core mechanics that production inference engines (e.g., vLLM, TensorRT‑LLM) rely on.\n\n- Concrete systems primitives – you will implement a task queue, a chunking policy, a hash‑based prefix cache, and a preemption mechanism, each of which maps directly to components in real LLM serving stacks.",
+      "tags": [
+        "LLM",
+        "Scheduling",
+        "Python",
+        "Systems",
+        "Performance"
+      ],
+      "scheduled_at": "2026-11-13T01:02:24Z",
+      "status": "pending"
     }
   ]
 }
