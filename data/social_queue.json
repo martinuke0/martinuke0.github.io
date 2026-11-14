@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-13T19:02:55Z",
+  "last_scheduled_at": "2026-11-14T19:02:43Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28642,6 +28642,21 @@
       "scheduled_at": "2026-11-13T19:02:55Z",
       "status": "posting",
       "claimed_at": "2026-11-13T22:19:06Z"
+    },
+    {
+      "title": "Hands‑On Build Guide: FlashAttention‑Style Tiled Attention Kernel in Pure NumPy",
+      "url": "https://martinuke0.github.io/posts/2026-11-14-handson-build-guide-flashattentionstyle-tiled-attention-kernel-in-pure-numpy/",
+      "social_hook": "> TL;DR — In this post you’ll build a FlashAttention‑style tiled attention kernel from scratch using only NumPy, learning how online softmax reduces memory pressure and enables training on modest hardware. The step‑by‑step code is runnable, vectorised, and ready to extend with performance tweaks or integration into larger pipelines. By the end you’ll have a portfolio‑piece that signals genuine systems‑engineering skill.\n\nBuilding a tiled attention kernel from the ground up is a rare hands‑on project that lets you demonstrate low‑level optimization, memory‑aware design, and reproducibility—all traits hiring managers look for in ML‑focused engineering roles. You’ll walk away with a working NumPy implementation that mirrors the core ideas of FlashAttention, complete with performance benchmarks and a clear roadmap for productionisation.\n\n- Memory‑aware algorithm design: You implement online (tiling) softmax that never materialises the full \\(QK^\\top\\) matrix, a technique directly applicable to large‑scale training.",
+      "tags": [
+        "numpy",
+        "attention",
+        "flashattention",
+        "deep-learning",
+        "performance",
+        "kernel"
+      ],
+      "scheduled_at": "2026-11-14T19:02:43Z",
+      "status": "pending"
     }
   ]
 }
