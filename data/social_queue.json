@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-13T19:02:55Z",
+  "last_scheduled_at": "2026-11-14T06:02:42Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28642,6 +28642,20 @@
       "scheduled_at": "2026-11-13T19:02:55Z",
       "status": "posting",
       "claimed_at": "2026-11-13T22:19:06Z"
+    },
+    {
+      "title": "Hands‑On Build Guide: Pure‑Python Byte‑Level BPE Tokenizer with Trie‑Based Merges",
+      "url": "https://martinuke0.github.io/posts/2026-11-14-handson-build-guide-purepython-bytelevel-bpe-tokenizer-with-triebased-merges/",
+      "social_hook": "> TL;DR — We build a pure‑Python byte‑level BPE tokenizer that stores merge rules in a compact trie and serializes them to JSON. The resulting tokenizer can encode/decode text, supports fast lookup, and the whole implementation fits in ~100 lines of runnable code, making it an concrete, interview‑ready side project for NLP, data‑engineering, or systems roles.\n\nImplementing a tokenizer from scratch is a rare chance to touch low‑level byte handling, data‑structure design, and serialization all at once. For a working engineer, a portfolio piece that ships a functional, documented tokenizer signals you can move from abstract theory to production‑grade code without hand‑holding.\n\n- Low‑level byte manipulation – You work directly with `int` values 0‑255, mastering Python’s `bytes` ↔ `int` conversion and the `struct` module.",
+      "tags": [
+        "python",
+        "bpe",
+        "tokenizer",
+        "side-project",
+        "cv"
+      ],
+      "scheduled_at": "2026-11-14T06:02:42Z",
+      "status": "pending"
     }
   ]
 }
