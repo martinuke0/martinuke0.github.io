@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-14T18:01:56Z",
+  "last_scheduled_at": "2026-11-13T19:02:55Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28594,8 +28594,7 @@
         "side-project"
       ],
       "scheduled_at": "2026-11-01T02:03:39Z",
-      "status": "posting",
-      "claimed_at": "2026-11-14T18:00:17Z"
+      "status": "pending"
     },
     {
       "title": "Deep Dive into WebAssembly Compilation: Wasmtime's Cranelift Backend",
@@ -28643,20 +28642,6 @@
       "scheduled_at": "2026-11-13T19:02:55Z",
       "status": "posting",
       "claimed_at": "2026-11-13T22:19:06Z"
-    },
-    {
-      "title": "Building a Pure‑Python RAG Pipeline with a Lightweight Transformer and KV‑Cached Attention",
-      "url": "https://martinuke0.github.io/posts/2026-11-14-building-a-purepython-rag-pipeline-with-a-lightweight-transformer-and-kvcached-a/",
-      "social_hook": "> TL;DR — In this post we build a pure‑Python RAG pipeline that uses a lightweight transformer (DistilBERT) for embeddings, a brute‑force cosine‑similarity index, and a KV‑cached attention layer to fuse retrieved context with generation. The result is a runnable, educational project that showcases systems thinking—embedding pipelines, index design, and attention caching—without external vector databases, making it an impressive talking point for hiring managers.\n\nA portfolio‑level RAG project does more than “just work”; it signals that you understand the full stack of retrieval‑augmented generation: how to turn text into vectors, how to search those vectors efficiently (or deliberately simply), and how to merge retrieved snippets with a language model’s context using attention. Hiring managers see a concrete codebase, measurable performance numbers, and a clear roadmap for scaling—exactly the kind of evidence that separates a junior candidate from someone ready for production‑grade ML roles.\n\n- Embedding pipeline design – You choose a transformer, decide on token‑level pooling, and handle tokenization, batching, and CPU‑/GPU‑aware inference. This demonstrates familiarity with deep‑learning serving fundamentals.",
-      "tags": [
-        "python",
-        "rag",
-        "transformers",
-        "ml",
-        "information-retrieval"
-      ],
-      "scheduled_at": "2026-11-14T18:01:56Z",
-      "status": "pending"
     }
   ]
 }
