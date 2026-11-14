@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-14T22:03:09Z",
+  "last_scheduled_at": "2026-11-13T19:02:55Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28594,8 +28594,7 @@
         "side-project"
       ],
       "scheduled_at": "2026-11-01T02:03:39Z",
-      "status": "posting",
-      "claimed_at": "2026-11-14T22:01:31Z"
+      "status": "pending"
     },
     {
       "title": "Deep Dive into WebAssembly Compilation: Wasmtime's Cranelift Backend",
@@ -28643,20 +28642,6 @@
       "scheduled_at": "2026-11-13T19:02:55Z",
       "status": "posting",
       "claimed_at": "2026-11-13T22:19:06Z"
-    },
-    {
-      "title": "Architecting Change Data Capture Pipelines with Debezium: From Postgres WAL to Kafka Topics",
-      "url": "https://martinuke0.github.io/posts/2026-11-14-architecting-change-data-capture-pipelines-with-debezium-from-postgres-wal-to-ka/",
-      "social_hook": "> TL;DR — Change Data Capture from PostgreSQL's WAL to Kafka via Debezium gives you real-time, schema-aware event streams without polling. By reading the WAL through the Debezium connector, you capture every INSERT, UPDATE, and DELETE as an Avro/JSON record on a Kafka topic, enabling downstream consumers to react instantly. Combined with Kafka Connect and a Schema Registry, you get exactly-once semantics, backpressure resilience, and a decoupled architecture that scales from a single service to enterprise-wide data mesh domains.\n\nChange Data Capture (CDC) has become the nervous system of modern data architectures. Whether you're synchronizing a data warehouse, powering a search index, or building event-driven microservices, the ability to react to data changes as they happen—rather than on a schedule—is a competitive imperative. PostgreSQL's write-ahead log (WAL) is the source of truth for all modifications, but extracting that stream efficiently and reliably requires the right tooling. Debezium, built on top of Kafka Connect, provides a battle-tested connector framework that reads the WAL, normalizes change events, and publishes them to Kafka topics. In this post, we'll walk through the architecture, configuration, and production patterns for wiring Postgres WAL changes to Kafka, and highlight the pitfalls and guardrails that separate a fragile prototype from a robust pipeline.\n\nAt its core, CDC is the practice of detecting and propagating data changes in real time. Traditional extract-transform-load (ETL) pipelines rely on periodic snapshots or trigger-based mechanisms, both of which introduce latency, increased load on the source database, and fragile state management. Log-based CDC, by contrast, reads the native transaction log of the database, which records every row-level modification before it becomes visible to applications.",
-      "tags": [
-        "debezium",
-        "postgres",
-        "kafka",
-        "change-data-capture",
-        "data-engineering"
-      ],
-      "scheduled_at": "2026-11-14T22:03:09Z",
-      "status": "pending"
     }
   ]
 }
