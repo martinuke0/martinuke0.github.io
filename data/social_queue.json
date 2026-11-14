@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-13T19:02:55Z",
+  "last_scheduled_at": "2026-11-14T23:01:56Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28642,6 +28642,20 @@
       "scheduled_at": "2026-11-13T19:02:55Z",
       "status": "posting",
       "claimed_at": "2026-11-13T22:19:06Z"
+    },
+    {
+      "title": "GGUF Parser and Dequantizer: A Hands‑On Portfolio Project",
+      "url": "https://martinuke0.github.io/posts/2026-11-14-gguf-parser-and-dequantizer-a-handson-portfolio-project/",
+      "social_hook": "> TL;DR — In this post we build a from‑scratch GGUF parser and dequantizer in pure Python, producing numpy‑compatible tensors that can be inspected, plotted, or fed directly into inference pipelines, giving you a concrete, runnable project that signals low‑level systems skill to hiring managers.\n\nGGUF is the file format used by Llama.cpp and many local LLM runners to store quantized model weights efficiently. Being able to read, de‑quantize, and inspect those files without relying on heavy C++ runtimes demonstrates your ability to work with binary formats, low‑level memory layout, and numerical precision — skills that hiring managers love to see on a CV. In this hands‑on guide you’ll write a complete Python module that parses the GGUF header, walks the tensor array, applies the correct de‑quantization formula for each quantization level, and outputs readable numpy arrays. Along the way we’ll cover architecture, testing, and a roadmap for turning the toy into a production‑grade tool.\n\nRecruiters scanning dozens of portfolios look for concrete, demonstrable systems knowledge. A GGUF parser ticks several boxes:",
+      "tags": [
+        "python",
+        "gguf",
+        "llm",
+        "parser",
+        "dequantization"
+      ],
+      "scheduled_at": "2026-11-14T23:01:56Z",
+      "status": "pending"
     }
   ]
 }
