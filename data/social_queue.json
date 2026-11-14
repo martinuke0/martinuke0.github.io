@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-14T10:02:18Z",
+  "last_scheduled_at": "2026-11-13T19:02:55Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28594,8 +28594,7 @@
         "side-project"
       ],
       "scheduled_at": "2026-11-01T02:03:39Z",
-      "status": "posting",
-      "claimed_at": "2026-11-14T10:02:28Z"
+      "status": "pending"
     },
     {
       "title": "Deep Dive into WebAssembly Compilation: Wasmtime's Cranelift Backend",
@@ -28643,20 +28642,6 @@
       "scheduled_at": "2026-11-13T19:02:55Z",
       "status": "posting",
       "claimed_at": "2026-11-13T22:19:06Z"
-    },
-    {
-      "title": "Build a Pure‑NumPy LLM Sampling Engine for Your Portfolio",
-      "url": "https://martinuke0.github.io/posts/2026-11-14-build-a-purenumpy-llm-sampling-engine-for-your-portfolio/",
-      "social_hook": "> TL;DR — This post walks you through building a pure‑NumPy LLM sampling engine from the ground up, implementing temperature scaling, top‑k and top‑p (nucleus) filtering, min‑p, repetition penalty and a reproducible logit‑warping pipeline. By the end you’ll have a runnable script that can generate tokens, prove reproducibility with a fixed seed, and serve as a concrete portfolio piece that signals low‑level ML engineering skill.\n\nA portfolio project that demonstrates you can move beyond high‑level frameworks and actually understand the mechanics of token sampling is a strong signal to hiring managers. In this article we’ll build a minimal yet fully functional sampling engine using only NumPy, covering the most common decoding strategies used in production LLMs. The code is self‑contained, runs on any machine with NumPy installed, and can be extended or integrated into larger inference pipelines.\n\n- Low‑level ML engineering: Implementing sampling from scratch forces you to confront numerical precision, RNG state management and vectorised operations—skills that separate senior engineers from casual framework users.",
-      "tags": [
-        "numpy",
-        "llm",
-        "sampling",
-        "python",
-        "portfolio"
-      ],
-      "scheduled_at": "2026-11-14T10:02:18Z",
-      "status": "pending"
     }
   ]
 }
