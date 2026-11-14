@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-14T15:02:42Z",
+  "last_scheduled_at": "2026-11-13T19:02:55Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28594,8 +28594,7 @@
         "side-project"
       ],
       "scheduled_at": "2026-11-01T02:03:39Z",
-      "status": "posting",
-      "claimed_at": "2026-11-14T15:02:40Z"
+      "status": "pending"
     },
     {
       "title": "Deep Dive into WebAssembly Compilation: Wasmtime's Cranelift Backend",
@@ -28643,20 +28642,6 @@
       "scheduled_at": "2026-11-13T19:02:55Z",
       "status": "posting",
       "claimed_at": "2026-11-13T22:19:06Z"
-    },
-    {
-      "title": "Building a SentencePiece-Style Unigram Tokenizer in Pure Python",
-      "url": "https://martinuke0.github.io/posts/2026-11-14-building-a-sentencepiece-style-unigram-tokenizer-in-pure-python/",
-      "social_hook": "> TL;DR — Implement a unigram tokenizer from scratch using the Expectation-Maximization algorithm and Viterbi decoding, providing a concrete portfolio piece that showcases algorithmic depth, probabilistic modeling, and production‑ready Python.\n\nTokenization is the first bottleneck in any NLP pipeline, and a hand‑crafted unigram model forces you to confront the same probability‑estimation and dynamic‑programming problems that power modern subword tokenizers like SentencePiece and BPE‑level systems. In this guide you will build a minimal yet functional tokenizer in pure Python, train it with the EM algorithm, and decode new text with Viterbi segmentation. The result is a self‑contained project that demonstrates systems‑level thinking, algorithmic rigor, and the ability to ship reusable code.\n\n- Algorithmic depth – You will implement the Expectation‑Maximization algorithm for maximum‑likelihood estimation of subword probabilities, a technique used in Gaussian mixture models and hidden Markov models.",
-      "tags": [
-        "tokenization",
-        "NLP",
-        "Python",
-        "EM-algorithm",
-        "Viterbi"
-      ],
-      "scheduled_at": "2026-11-14T15:02:42Z",
-      "status": "pending"
     }
   ]
 }
