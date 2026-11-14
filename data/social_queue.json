@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-14T01:02:46Z",
+  "last_scheduled_at": "2026-11-13T19:02:55Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28594,8 +28594,7 @@
         "side-project"
       ],
       "scheduled_at": "2026-11-01T02:03:39Z",
-      "status": "posting",
-      "claimed_at": "2026-11-14T01:01:28Z"
+      "status": "pending"
     },
     {
       "title": "Deep Dive into WebAssembly Compilation: Wasmtime's Cranelift Backend",
@@ -28643,20 +28642,6 @@
       "scheduled_at": "2026-11-13T19:02:55Z",
       "status": "posting",
       "claimed_at": "2026-11-13T22:19:06Z"
-    },
-    {
-      "title": "From-Scratch LoRA Fine-Tuning Library in Pure NumPy",
-      "url": "https://martinuke0.github.io/posts/2026-11-14-from-scratch-lora-fine-tuning-library-in-pure-numpy/",
-      "social_hook": "> TL;DR — This post walks you through building a from‑scratch LoRA fine‑tuning library in pure NumPy, covering hand‑derived forward/backward passes, rank/alpha scaling, merged‑weight zero‑overhead inference, and DoRA. The result is a runnable, extensible codebase that showcases low‑level ML systems skill perfect for a CV.\n\nImplementing LoRA (Low‑Rank Adaptation) from the ground up is a rare CV/ML side project that moves beyond “plug‑and‑play” fine‑tuning. It forces you to confront the exact linear‑algebra that underpins modern adapter modules, and the resulting library can be dropped into any NumPy‑based pipeline, benchmarked, and extended with production‑grade features. Hiring managers see a candidate who understands both the theory of parameter‑efficient transfer and the practicalities of merged‑weight inference, gradient flow, and modular design.\n\n- Low‑level ML engineering: You implement the exact matrix factorisation that LoRA papers describe, demonstrating fluency with weight‑gradient coupling and parameter‑count reduction.",
-      "tags": [
-        "numpy",
-        "machine-learning",
-        "lora",
-        "cv",
-        "side-project"
-      ],
-      "scheduled_at": "2026-11-14T01:02:46Z",
-      "status": "pending"
     }
   ]
 }
