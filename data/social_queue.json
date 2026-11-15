@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-15T04:01:56Z",
+  "last_scheduled_at": "2026-11-13T19:02:55Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28594,8 +28594,7 @@
         "side-project"
       ],
       "scheduled_at": "2026-11-01T02:03:39Z",
-      "status": "posting",
-      "claimed_at": "2026-11-15T04:00:43Z"
+      "status": "pending"
     },
     {
       "title": "Deep Dive into WebAssembly Compilation: Wasmtime's Cranelift Backend",
@@ -28643,20 +28642,6 @@
       "scheduled_at": "2026-11-13T19:02:55Z",
       "status": "posting",
       "claimed_at": "2026-11-13T22:19:06Z"
-    },
-    {
-      "title": "From-Scratch Parameter-Efficient Fine-Tuning Library: LoRA, QLoRA, and DoRA in Pure PyTorch",
-      "url": "https://martinuke0.github.io/posts/2026-11-15-from-scratch-parameter-efficient-fine-tuning-library-lora-qlora-and-dora-in-pure/",
-      "social_hook": "> TL;DR — This post walks you through building a minimal, from‑scratch PyTorch library that implements LoRA, QLoRA (NF4 blockwise quantization), and DoRA weight‑decomposed adapters. You’ll get runnable code, a clear architecture diagram, and a roadmap to turn the toy into a production‑grade PEFT toolkit that signals real systems skill on any CV.\n\nBuilding a parameter‑efficient fine‑tuning library from the ground up is a great way to demonstrate deep understanding of modern deep‑learning systems. In this post we’ll implement three core techniques—LoRA, QLoRA with NF4 blockwise quantization, and DoRA—using only pure PyTorch, no external PEFT framework. The result is a portable, educational codebase you can run, extend, and talk about in interviews.\n\nHiring managers for ML engineering and research roles see dozens of “fine‑tuning” repos, but few contain a complete, from‑scratch implementation of the three most‑wanted PEFT methods. This project signals:",
-      "tags": [
-        "pytorch",
-        "lora",
-        "qlora",
-        "dora",
-        "peft"
-      ],
-      "scheduled_at": "2026-11-15T04:01:56Z",
-      "status": "pending"
     }
   ]
 }
