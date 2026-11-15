@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-15T10:01:51Z",
+  "last_scheduled_at": "2026-11-13T19:02:55Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28594,8 +28594,7 @@
         "side-project"
       ],
       "scheduled_at": "2026-11-01T02:03:39Z",
-      "status": "posting",
-      "claimed_at": "2026-11-15T09:58:11Z"
+      "status": "pending"
     },
     {
       "title": "Deep Dive into WebAssembly Compilation: Wasmtime's Cranelift Backend",
@@ -28643,20 +28642,6 @@
       "scheduled_at": "2026-11-13T19:02:55Z",
       "status": "posting",
       "claimed_at": "2026-11-13T22:19:06Z"
-    },
-    {
-      "title": "Hands-On Build Guide: Custom GGUF & safetensors Weight Loader with Lazy Memory Mapping and Quantization in Pure Python",
-      "url": "https://martinuke0.github.io/posts/2026-11-15-hands-on-build-guide-custom-gguf-safetensors-weight-loader-with-lazy-memory-mapp/",
-      "social_hook": "> TL;DR — This post walks you through building a from‑scratch Python loader for GGUF and safetensors model weights that uses lazy memory‑mapped files and supports common quantizations (Q4_K_M, Q5_K_M). The resulting library is ~200 LOC, fully runnable, and demonstrates low‑level file I/O, struct parsing, and quantization math—exactly the kind of concrete system‑level skill that catches hiring managers’ eyes.\n\nBuilding a custom weight loader from the ground up is one of the most effective ways to signal deep systems knowledge on a CV. Recruiters see “Python weight loader” and instantly recognize that you understand how models are stored on disk, how to map large tensors into memory without copying, and how quantized representations reduce bandwidth. This project ticks several boxes that hiring managers love: it involves real file‑format parsing, memory‑mapped I/O, algorithmic quantization, and a clean Python API that can be imported like any other library. Moreover, the codebase is small enough to be tinkered with in a weekend yet complete enough to be listed under “Projects” with a concrete demo and test suite.\n\n- Low‑level file‑format literacy – You parse the GGUF header (magic, version, tensor count) and the safetensors metadata, showing you can work with binary formats that most high‑level ML libraries abstract away.",
-      "tags": [
-        "python",
-        "gguf",
-        "safetensors",
-        "machine-learning",
-        "cv"
-      ],
-      "scheduled_at": "2026-11-15T10:01:51Z",
-      "status": "pending"
     }
   ]
 }
