@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-15T03:02:04Z",
+  "last_scheduled_at": "2026-11-13T19:02:55Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28594,8 +28594,7 @@
         "side-project"
       ],
       "scheduled_at": "2026-11-01T02:03:39Z",
-      "status": "posting",
-      "claimed_at": "2026-11-15T02:56:58Z"
+      "status": "pending"
     },
     {
       "title": "Deep Dive into WebAssembly Compilation: Wasmtime's Cranelift Backend",
@@ -28643,20 +28642,6 @@
       "scheduled_at": "2026-11-13T19:02:55Z",
       "status": "posting",
       "claimed_at": "2026-11-13T22:19:06Z"
-    },
-    {
-      "title": "Build a FlashAttention Kernel in Pure NumPy: Tiled Attention with Online Softmax",
-      "url": "https://martinuke0.github.io/posts/2026-11-15-build-a-flashattention-kernel-in-pure-numpy-tiled-attention-with-online-softmax/",
-      "social_hook": "> TL;DR — FlashAttention's core trick is computing exact attention without ever materializing the full N×N attention matrix. By tiling Q/K/V into blocks and maintaining running softmax statistics (max and sum), we can stream through memory in O(N) space. This post walks you through building a pure NumPy implementation that demonstrates the algorithm end-to-end, with runnable code you can drop into a repo today.\n\nStandard attention is an O(N²) memory bottleneck. For a sequence of length 4096, the attention matrix alone is 16M entries; for 32K tokens it balloons to 1B entries, and for 128K it becomes 16B — far too large for any single GPU. FlashAttention Dao et al., 2022 solves this by tiling the computation and using an online softmax that rescales partial results on the fly, reducing memory to O(N) without sacrificing exactness. In this post, you'll build that algorithm from scratch in pure NumPy — no CUDA required, no PyTorch autograd, just raw array operations that make the memory savings visible and verifiable.\n\nThis project signals three distinct skill clusters that hiring managers actively hunt for:",
-      "tags": [
-        "flashattention",
-        "numpy",
-        "systems-programming",
-        "machine-learning",
-        "cuda"
-      ],
-      "scheduled_at": "2026-11-15T03:02:04Z",
-      "status": "pending"
     }
   ]
 }
