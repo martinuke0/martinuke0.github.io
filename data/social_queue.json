@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-13T19:02:55Z",
+  "last_scheduled_at": "2026-11-16T07:02:49Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28642,6 +28642,20 @@
       "scheduled_at": "2026-11-13T19:02:55Z",
       "status": "posting",
       "claimed_at": "2026-11-13T22:19:06Z"
+    },
+    {
+      "title": "Building a Pure-Python HNSW Index from Scratch",
+      "url": "https://martinuke0.github.io/posts/2026-11-16-building-a-pure-python-hnsw-index-from-scratch/",
+      "social_hook": "> TL;DR — This guide walks you through building a pure‑Python HNSW graph index for approximate nearest neighbor search, with fully runnable code. The implementation showcases algorithmic skill, testing discipline, and a clear path to production, making it a compelling CV project.\n\nVector similarity search underpins modern retrieval‑augmented generation, recommendation engines, and anomaly detection. While production‑grade libraries such as FAISS or Annoy hide the complexity behind C++ kernels, the ability to reason about and implement the underlying algorithm is a strong signal for senior engineering roles. In this post you will build a compact, dependency‑light HNSW (Hierarchical Navigable Small World) index entirely in Python, from data structures to a test harness, and then explore concrete extensions that turn the prototype into a production‑ready service.\n\n- Algorithmic depth – you implement a probabilistic graph structure (HNSW) that provides logarithmic‑scale search complexity, demonstrating grasp of advanced data structures.",
+      "tags": [
+        "hnsw",
+        "vector-search",
+        "python",
+        "machine-learning",
+        "systems"
+      ],
+      "scheduled_at": "2026-11-16T07:02:49Z",
+      "status": "pending"
     }
   ]
 }
