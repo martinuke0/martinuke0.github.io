@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-16T15:02:48Z",
+  "last_scheduled_at": "2026-11-13T19:02:55Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28594,8 +28594,7 @@
         "side-project"
       ],
       "scheduled_at": "2026-11-01T02:03:39Z",
-      "status": "posting",
-      "claimed_at": "2026-11-16T14:58:51Z"
+      "status": "pending"
     },
     {
       "title": "Deep Dive into WebAssembly Compilation: Wasmtime's Cranelift Backend",
@@ -28643,21 +28642,6 @@
       "scheduled_at": "2026-11-13T19:02:55Z",
       "status": "posting",
       "claimed_at": "2026-11-13T22:19:06Z"
-    },
-    {
-      "title": "Build a paged attention KV cache with block‑wise LRU eviction in pure Python, demonstrating advanced systems engineering skills for machine learning engineer roles",
-      "url": "https://martinuke0.github.io/posts/2026-11-16-build-a-paged-attention-kv-cache-with-blockwise-lru-eviction-in-pure-python-demo/",
-      "social_hook": "> TL;DR — This project builds a paged attention KV cache with block‑wise LRU eviction in pure Python, giving you a hands‑on artifact that proves you understand memory hierarchy, cache replacement, and LLM inference internals. It is small enough to showcase in an interview yet realistic enough to discuss trade‑offs like fragmentation, latency, and throughput.\n\nLarge language models (LLMs) rely on a key‑value (KV) cache to avoid recomputing attention for every token. In production, this cache can consume tens of gigabytes, so systems engineers employ paging and eviction policies to fit it into GPU memory. This post walks you through building a minimal but functional paged attention KV cache with block‑wise LRU eviction entirely in Python. By the end you will have a runnable prototype that demonstrates memory management, cache replacement, and the intersection of algorithm design with hardware constraints.\n\n- Block – a fixed‑size container that stores a slice of key and value vectors for a contiguous range of tokens.",
-      "tags": [
-        "kv-cache",
-        "attention",
-        "llm",
-        "python",
-        "systems",
-        "performance"
-      ],
-      "scheduled_at": "2026-11-16T15:02:48Z",
-      "status": "pending"
     }
   ]
 }
