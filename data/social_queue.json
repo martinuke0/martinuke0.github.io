@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-16T14:03:00Z",
+  "last_scheduled_at": "2026-11-13T19:02:55Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28594,8 +28594,7 @@
         "side-project"
       ],
       "scheduled_at": "2026-11-01T02:03:39Z",
-      "status": "posting",
-      "claimed_at": "2026-11-16T14:00:15Z"
+      "status": "pending"
     },
     {
       "title": "Deep Dive into WebAssembly Compilation: Wasmtime's Cranelift Backend",
@@ -28643,20 +28642,6 @@
       "scheduled_at": "2026-11-13T19:02:55Z",
       "status": "posting",
       "claimed_at": "2026-11-13T22:19:06Z"
-    },
-    {
-      "title": "Designing a Tokio Work-Stealing Scheduler: Task Queues, Reactors, and Waker Plumbing in Rust",
-      "url": "https://martinuke0.github.io/posts/2026-11-16-designing-a-tokio-work-stealing-scheduler-task-queues-reactors-and-waker-plumbin/",
-      "social_hook": "> TL;DR — Tokio’s work-stealing scheduler relies on double-ended deques per worker, reactor-driven waker callbacks to rouse blocked tasks, and a global queue for cross-thread stealing. Understanding the interplay between task queues, the event reactor, and waker plumbing reveals how async Rust achieves high throughput with minimal latency.\n\nTokio has become the de facto foundation for async networking, scheduling, and composability in Rust. While the public API feels ergonomic, the internals that turn `.await` into actual thread execution involve a carefully tuned scheduler, per-thread task deques, and a reactor that bridges I/O readiness to task wakeups. In this post, we pull back the curtain on those mechanics, tracing a task from spawn to execution, through stealing and waker registration, and into the reactor’s epoll/kqueue loop. We’ll also highlight common pitfalls and production‑proven patterns so you can write async code that’s both correct and fast.\n\nAt the heart of Tokio lies a runtime that orchestrates many lightweight tasks across a pool of OS threads. The scheduler’s job is to map each `Waker`-armed future to a thread where it can make progress, minimizing contention and maximizing CPU utilization. Tokio achieves this through a combination of three core pillars: task deques, reactor‑driven wakeups, and waker plumbing that connects the two.",
-      "tags": [
-        "tokio",
-        "rust",
-        "concurrency",
-        "scheduler",
-        "work-stealing"
-      ],
-      "scheduled_at": "2026-11-16T14:03:00Z",
-      "status": "pending"
     }
   ]
 }
