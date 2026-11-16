@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-16T21:02:24Z",
+  "last_scheduled_at": "2026-11-13T19:02:55Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28594,8 +28594,7 @@
         "side-project"
       ],
       "scheduled_at": "2026-11-01T02:03:39Z",
-      "status": "posting",
-      "claimed_at": "2026-11-16T20:59:38Z"
+      "status": "pending"
     },
     {
       "title": "Deep Dive into WebAssembly Compilation: Wasmtime's Cranelift Backend",
@@ -28643,20 +28642,6 @@
       "scheduled_at": "2026-11-13T19:02:55Z",
       "status": "posting",
       "claimed_at": "2026-11-13T22:19:06Z"
-    },
-    {
-      "title": "Dynamic Prompt‑Window Manager with Sliding‑Window Context Caching",
-      "url": "https://martinuke0.github.io/posts/2026-11-16-dynamic-promptwindow-manager-with-slidingwindow-context-caching/",
-      "social_hook": "> TL;DR — This post walks through building a lightweight Python‑based prompt‑window manager that keeps a sliding‑window of recent LLM tokens, scores each token’s importance, and evicts the least‑important when the context budget is exceeded. The result is a runnable cache that cuts token counts by 30‑50 % on 8 k‑token prompts while preserving answer quality, and it doubles as a concrete portfolio project that signals systems‑level engineering skill.\n\nBuilding a dynamic prompt‑window manager is a tangible way to demonstrate that you can bridge pure‑ML code with production‑grade systems concerns—memory budgets, eviction policies, and measurable performance gains. The project is small enough to finish in a weekend yet extensible enough to discuss in senior‑level interviews.\n\nHiring managers for ML‑focused backend or infrastructure roles look for candidates who can think beyond `model.load()` and address the surrounding ecosystem. This project signals several concrete competencies:",
-      "tags": [
-        "LLM",
-        "caching",
-        "Python",
-        "systems",
-        "performance"
-      ],
-      "scheduled_at": "2026-11-16T21:02:24Z",
-      "status": "pending"
     }
   ]
 }
