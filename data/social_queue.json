@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-13T19:02:55Z",
+  "last_scheduled_at": "2026-11-16T18:02:02Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28642,6 +28642,20 @@
       "scheduled_at": "2026-11-13T19:02:55Z",
       "status": "posting",
       "claimed_at": "2026-11-13T22:19:06Z"
+    },
+    {
+      "title": "Hands-On Build Guide: Pure Python BPE Tokenizer for Your Portfolio CV",
+      "url": "https://martinuke0.github.io/posts/2026-11-16-hands-on-build-guide-pure-python-bpe-tokenizer-for-your-portfolio-cv/",
+      "social_hook": "> TL;DR — Implementing a byte-pair encoding tokenizer from scratch in pure Python gives you deep insight into how large language models handle sub‑word units, demonstrates algorithmic engineering skill, and produces a portable, dependency‑free library you can ship or extend for production NLP pipelines.\n\nBuilding a portfolio project that actually works—and that you can talk about in an interview—is one of the fastest ways to differentiate yourself. In this post we’ll build a complete, pure‑Python BPE (byte‑pair encoding) tokenizer from the ground up. You’ll get a working `tokenize()` and `detokenize()` pair, a concrete vocabulary, and a clear roadmap for turning the toy into a production‑ready component.\n\n- Algorithmic engineering – You design and implement a non‑trivial greedy merge algorithm, showing you can translate a research paper into production code.",
+      "tags": [
+        "python",
+        "nlp",
+        "tokenizer",
+        "bpe",
+        "cv-project"
+      ],
+      "scheduled_at": "2026-11-16T18:02:02Z",
+      "status": "pending"
     }
   ]
 }
