@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-17T07:02:32Z",
+  "last_scheduled_at": "2026-11-13T19:02:55Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28594,8 +28594,7 @@
         "side-project"
       ],
       "scheduled_at": "2026-11-01T02:03:39Z",
-      "status": "posting",
-      "claimed_at": "2026-11-17T07:02:20Z"
+      "status": "pending"
     },
     {
       "title": "Deep Dive into WebAssembly Compilation: Wasmtime's Cranelift Backend",
@@ -28643,20 +28642,6 @@
       "scheduled_at": "2026-11-13T19:02:55Z",
       "status": "posting",
       "claimed_at": "2026-11-13T22:19:06Z"
-    },
-    {
-      "title": "Build a Switch Transformer Router with Top‑k Gating and Auxiliary Load‑Balancing in Pure Python",
-      "url": "https://martinuke0.github.io/posts/2026-11-17-build-a-switch-transformer-router-with-topk-gating-and-auxiliary-loadbalancing-i/",
-      "social_hook": "> TL;DR — This post walks you through building a minimal, pure‑Python switch‑transformer router with top‑k gating, expert capacity, and an auxiliary load‑balancing loss. You’ll get runnable code, a clear architecture diagram, and concrete extensions that turn the toy into a production‑ready building block, all of which looks impressive on a CV for ML‑engineer or backend roles.\n\nHiring managers for machine‑learning infrastructure and backend engineering roles look for two things: (1) familiarity with large‑scale model‑parallel patterns, and (2) the ability to ship working, idiomatic code without relying on heavy frameworks. A switch‑transformer router hits both signals.\n\n- Sparse‑expert routing – demonstrates understanding of top‑k gating, load‑balancing, and capacity‑aware routing, the core pattern behind Switch‑Transformer, GShard, and Mixture‑of‑Experts serving pipelines.",
-      "tags": [
-        "python",
-        "machine-learning",
-        "transformers",
-        "side-project",
-        "cv"
-      ],
-      "scheduled_at": "2026-11-17T07:02:32Z",
-      "status": "pending"
     }
   ]
 }
