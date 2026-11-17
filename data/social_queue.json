@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-13T19:02:55Z",
+  "last_scheduled_at": "2026-11-17T09:02:23Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28642,6 +28642,20 @@
       "scheduled_at": "2026-11-13T19:02:55Z",
       "status": "posting",
       "claimed_at": "2026-11-13T22:19:06Z"
+    },
+    {
+      "title": "Build a Pure‑Python Mixture‑of‑Experts Router with Dynamic Load‑Aware Routing and Soft Capacity Sharing",
+      "url": "https://martinuke0.github.io/posts/2026-11-17-build-a-purepython-mixtureofexperts-router-with-dynamic-loadaware-routing-and-so/",
+      "social_hook": "> TL;DR — In this post we build a pure‑Python Mixture‑of‑Experts router that dynamically balances load across expert modules and applies soft capacity sharing, giving you a runnable, testable side‑project that signals systems‑level design skill to hiring managers.\n\nBuilding a Mixture‑of‑Experts (MoE) router from scratch is a fantastic way to showcase your ability to design scalable routing logic, manage resource constraints, and write clean, extensible code. The project below walks you through every layer—from the high‑level architecture down to the tiny functions that decide which expert handles each input. By the end you’ll have a working Python package, a suite of tests, and a clear roadmap to turn the prototype into a production‑grade component.\n\n- Systems‑level thinking: You design a router that must respect per‑expert capacity, track load in real time, and gracefully degrade—exactly the trade‑offs faced in distributed services.",
+      "tags": [
+        "python",
+        "mixture-of-experts",
+        "cv",
+        "side-project",
+        "routing"
+      ],
+      "scheduled_at": "2026-11-17T09:02:23Z",
+      "status": "pending"
     }
   ]
 }
