@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-17T13:03:19Z",
+  "last_scheduled_at": "2026-11-13T19:02:55Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28594,8 +28594,7 @@
         "side-project"
       ],
       "scheduled_at": "2026-11-01T02:03:39Z",
-      "status": "posting",
-      "claimed_at": "2026-11-17T12:58:22Z"
+      "status": "pending"
     },
     {
       "title": "Deep Dive into WebAssembly Compilation: Wasmtime's Cranelift Backend",
@@ -28643,21 +28642,6 @@
       "scheduled_at": "2026-11-13T19:02:55Z",
       "status": "posting",
       "claimed_at": "2026-11-13T22:19:06Z"
-    },
-    {
-      "title": "Mastering vLLM's PagedAttention: Continuous Batching for High-Throughput LLM Inference",
-      "url": "https://martinuke0.github.io/posts/2026-11-17-mastering-vllm/",
-      "social_hook": "> TL;DR — vLLM's PagedAttention treats the KV cache as a pool of virtual memory pages, eliminating the fragmentation that plagues naive LLM serving. Combined with continuous batching—which adds new requests as soon as a single token is decoded rather than waiting for an entire sequence to finish—this approach delivers 10–20x throughput improvements over static batching. If you're running LLM inference in production, understanding these two mechanisms is the difference between paying for idle GPU memory and squeezing every FLOP out of your hardware.\n\nServing a large language model is fundamentally different from serving a traditional REST API. When a model generates a response, it must attend to every token it has produced so far. The mechanism for storing these intermediate computations is the KV cache—a tensor of key and value vectors that grows linearly with each decoded token. For a 70B-parameter model with a context window of 4,096 tokens, a single request can consume several gigabytes of GPU memory just for this cache. Multiply that by a few hundred concurrent users and you're looking at tens of gigabytes per GPU, easily exceeding the 24–80 GB capacity of a single A100 or H100.\n\nThe naive approach is to pre-allocate a fixed block of KV cache for each request at the moment it arrives. This is simple, but it has two crippling problems. First, fragmentation: if you allocate a contiguous chunk for each request's maximum possible length, you waste enormous amounts of memory because most requests finish well before hitting the limit. Second, underutilization: in a static batch, the GPU sits idle waiting for the longest-running sequence to finish, even if every other request in the batch has already completed.",
-      "tags": [
-        "vLLM",
-        "LLM Inference",
-        "PagedAttention",
-        "Continuous Batching",
-        "GPU Memory",
-        "High-Throughput"
-      ],
-      "scheduled_at": "2026-11-17T13:03:19Z",
-      "status": "pending"
     }
   ]
 }
