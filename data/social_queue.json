@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-17T08:02:45Z",
+  "last_scheduled_at": "2026-11-13T19:02:55Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28594,8 +28594,7 @@
         "side-project"
       ],
       "scheduled_at": "2026-11-01T02:03:39Z",
-      "status": "posting",
-      "claimed_at": "2026-11-17T08:00:43Z"
+      "status": "pending"
     },
     {
       "title": "Deep Dive into WebAssembly Compilation: Wasmtime's Cranelift Backend",
@@ -28643,20 +28642,6 @@
       "scheduled_at": "2026-11-13T19:02:55Z",
       "status": "posting",
       "claimed_at": "2026-11-13T22:19:06Z"
-    },
-    {
-      "title": "Build a From‑Scratch FlashAttention in Pure NumPy",
-      "url": "https://martinuke0.github.io/posts/2026-11-17-build-a-fromscratch-flashattention-in-pure-numpy/",
-      "social_hook": "> TL;DR — Implement block‑tiled Q/K/V matmuls with online softmax in pure NumPy, achieving exact naive‑attention outputs while using O(N) memory instead of O(N²). The reference implementation runs in ~30 ms on a 512‑token sequence and demonstrates how tiling, a running max, and log‑sum‑exp rescaling enable memory‑efficient exact attention, a pattern directly applicable to LLM inference and production kernels.\n\nA practical, from‑scratch NumPy implementation of FlashAttention gives you concrete experience with low‑level kernel design, memory‑aware algorithms, and exact numerical equivalence—all skills that hiring managers see on a CV for ML engineer, LLM inference, or systems roles. In this post you’ll build a complete, runnable code base, benchmark its performance, and learn a clear roadmap to production‑grade extensions.\n\n- Low‑level optimization: You design block‑tiled matrix multiplications that respect cache hierarchies, a skill directly transferable to GPU kernels, vectorized libraries, and performance‑critical services.",
-      "tags": [
-        "numpy",
-        "attention",
-        "flashattention",
-        "machine-learning",
-        "performance"
-      ],
-      "scheduled_at": "2026-11-17T08:02:45Z",
-      "status": "pending"
     }
   ]
 }
