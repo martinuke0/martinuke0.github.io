@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-17T20:02:42Z",
+  "last_scheduled_at": "2026-11-13T19:02:55Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28594,8 +28594,7 @@
         "side-project"
       ],
       "scheduled_at": "2026-11-01T02:03:39Z",
-      "status": "posting",
-      "claimed_at": "2026-11-17T20:02:05Z"
+      "status": "pending"
     },
     {
       "title": "Deep Dive into WebAssembly Compilation: Wasmtime's Cranelift Backend",
@@ -28643,19 +28642,6 @@
       "scheduled_at": "2026-11-13T19:02:55Z",
       "status": "posting",
       "claimed_at": "2026-11-13T22:19:06Z"
-    },
-    {
-      "title": "Build a GPT-2‑Compatible BPE Tokenizer from Scratch in Pure Python",
-      "url": "https://martinuke0.github.io/posts/2026-11-17-build-a-gpt-2compatible-bpe-tokenizer-from-scratch-in-pure-python/",
-      "social_hook": "> TL;DR — We'll build a pure‑Python byte‑level BPE tokenizer that mirrors GPT‑2's pretraining pipeline, from regex pre‑tokenization through merge‑rank encoding, and verify the resulting vocab bit‑for‑bit against tiktoken, delivering a tangible, hiring‑manager‑friendly portfolio piece.\n\nBuilding a tokenizer from the ground up is a rare chance to touch the exact data‑flow that powers every modern LLM. By reproducing GPT‑2’s BPE pipeline in pure Python you demonstrate low‑level string manipulation, algorithmic thinking, reproducibility, and familiarity with the internals that hiring managers look for in NLP engineers, ML infrastructure roles, and even backend positions that deal with data pipelines.\n\n- Algorithmic implementation – You’ll implement the classic BPE merge loop, frequency counting, and pair‑selection logic, showing you can translate a research paper into production code.",
-      "tags": [
-        "python",
-        "nlp",
-        "tokenizer",
-        "bpe"
-      ],
-      "scheduled_at": "2026-11-17T20:02:42Z",
-      "status": "pending"
     }
   ]
 }
