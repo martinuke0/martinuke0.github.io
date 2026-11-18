@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-13T19:02:55Z",
+  "last_scheduled_at": "2026-11-18T10:03:03Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28642,6 +28642,20 @@
       "scheduled_at": "2026-11-13T19:02:55Z",
       "status": "posting",
       "claimed_at": "2026-11-13T22:19:06Z"
+    },
+    {
+      "title": "Pure‑Python GGUF & Safetensors Weight Loader",
+      "url": "https://martinuke0.github.io/posts/2026-11-18-purepython-gguf-safetensors-weight-loader/",
+      "social_hook": "> TL;DR — This post walks you through building a pure‑Python loader for GGUF and Safetensor weight files, parsing binary headers and mapping quantized tensors to NumPy arrays. You’ll end up with a runnable script you can ship, test, and extend, signaling low‑level ML engineering chops to hiring managers. It’s a lightweight, dependency‑light project that fits any CV.\n\nWeight loading is the invisible glue that connects model files to runtime frameworks. In this article we’ll construct a minimal, pure‑Python implementation that can read both GGUF and Safetensor binary formats, decode quantized tensor data, and hand off NumPy arrays for further processing. The code is deliberately self‑contained, requiring only the standard library and NumPy, making it an ideal side‑project for engineers who want to demonstrate system‑level competence without pulling in heavy frameworks.\n\nHiring managers for ML‑focused roles see dozens of “hello‑world” notebooks. What sets this loader apart is the concrete system‑level skill set it showcases:",
+      "tags": [
+        "python",
+        "gguf",
+        "safetensors",
+        "numpy",
+        "ml"
+      ],
+      "scheduled_at": "2026-11-18T10:03:03Z",
+      "status": "pending"
     }
   ]
 }
