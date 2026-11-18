@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-13T19:02:55Z",
+  "last_scheduled_at": "2026-11-18T14:03:26Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28642,6 +28642,21 @@
       "scheduled_at": "2026-11-13T19:02:55Z",
       "status": "posting",
       "claimed_at": "2026-11-13T22:19:06Z"
+    },
+    {
+      "title": "Architecting Hermetic Bazel Remote Caching for Reproducible CI Builds at Scale",
+      "url": "https://martinuke0.github.io/posts/2026-11-18-architecting-hermetic-bazel-remote-caching-for-reproducible-ci-builds-at-scale/",
+      "social_hook": "> TL;DR — Bazel's remote caching can turn your CI from a slow, flaky bottleneck into a fast, deterministic feedback loop, but only if you architect it with hermeticity, authentication, and storage backend selection in mind from day one. In this post, we'll walk through the design decisions, failure modes, and production patterns that make remote caching work at scale.\n\nAt scale, CI isn't just about running tests—it's about feedback velocity. Every push triggers dozens of jobs, each potentially rebuilding the same artifacts over and over. Without a shared cache, each CI worker starts from scratch, wasting minutes (or hours) on actions that have already been executed on an identical machine. Bazel's hermeticity is the key that unlocks a safe, shared cache: because every action's inputs are hashed and the execution is sandboxed, the output is deterministic. That determinism means you can store the output once and reuse it everywhere, turning redundant work into a cache hit.\n\nBut the jump from \"works on my laptop\" to \"reproducible at scale\" is where many teams stumble. A misconfigured remote cache can silently produce wrong results, leak secrets, or become a single point of failure. The goal of this post is to give you a concrete blueprint for a remote cache that is fast, safe, and resilient.",
+      "tags": [
+        "bazel",
+        "ci",
+        "remote-caching",
+        "build-systems",
+        "reproducibility",
+        "devops"
+      ],
+      "scheduled_at": "2026-11-18T14:03:26Z",
+      "status": "pending"
     }
   ]
 }
