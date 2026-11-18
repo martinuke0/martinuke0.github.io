@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-18T04:02:59Z",
+  "last_scheduled_at": "2026-11-13T19:02:55Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28594,8 +28594,7 @@
         "side-project"
       ],
       "scheduled_at": "2026-11-01T02:03:39Z",
-      "status": "posting",
-      "claimed_at": "2026-11-18T03:59:57Z"
+      "status": "pending"
     },
     {
       "title": "Deep Dive into WebAssembly Compilation: Wasmtime's Cranelift Backend",
@@ -28643,24 +28642,6 @@
       "scheduled_at": "2026-11-13T19:02:55Z",
       "status": "posting",
       "claimed_at": "2026-11-13T22:19:06Z"
-    },
-    {
-      "title": "Build a 7B PEFT Trainer in 800 Lines of PyTorch: LoRA, DoRA, rsLoRA, NF4, and Zero-Copy Merging",
-      "url": "https://martinuke0.github.io/posts/2026-11-18-build-a-7b-peft-trainer-in-800-lines-of-pytorch-lora-dora-rslora-nf4-and-zero-co/",
-      "social_hook": "> TL;DR — This post walks you through building a from-scratch PEFT trainer in roughly 800 lines of PyTorch that implements LoRA, DoRA, and rsLoRA scaling on top of NF4 double-quantized frozen base weights. You'll wire up gradient checkpointing for memory efficiency and zero-copy merging back into a 7B model. The project demonstrates real systems skill — quantization, memory management, distributed training patterns — and is practical enough to run on a single 24GB GPU.\n\nIf you've ever wanted to stand out in the crowded LLM fine-tuning space, you need a portfolio piece that goes beyond `pip install peft` and `model.train()`. This guide builds a parameter-efficient fine-tuning (PEFT) trainer from first principles: you'll implement LoRA, DoRA, and rsLoRA adapters, quantize a 7B base model to NF4 with double quantization, enable gradient checkpointing, and merge adapters back into the base weights with a zero-copy operation. Every line is real PyTorch — no pseudocode, no Hugging Face `peft` library shortcuts. By the end, you'll have a project that signals systems-level ML engineering skill to any hiring manager.\n\nMost candidates list \"fine-tuned LLMs with LoRA\" on their résumé. This project proves you understand the machinery underneath:",
-      "tags": [
-        "PEFT",
-        "LoRA",
-        "DoRA",
-        "rsLoRA",
-        "NF4",
-        "PyTorch",
-        "LLM",
-        "Quantization",
-        "Gradient Checkpointing"
-      ],
-      "scheduled_at": "2026-11-18T04:02:59Z",
-      "status": "pending"
     }
   ]
 }
