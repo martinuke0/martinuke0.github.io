@@ -28656,7 +28656,8 @@
         "devops"
       ],
       "scheduled_at": "2026-11-18T14:03:26Z",
-      "status": "pending"
+      "status": "posting",
+      "claimed_at": "2026-11-18T14:52:27Z"
     }
   ]
 }
