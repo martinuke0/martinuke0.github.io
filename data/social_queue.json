@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-18T12:03:12Z",
+  "last_scheduled_at": "2026-11-13T19:02:55Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28594,8 +28594,7 @@
         "side-project"
       ],
       "scheduled_at": "2026-11-01T02:03:39Z",
-      "status": "posting",
-      "claimed_at": "2026-11-18T12:02:59Z"
+      "status": "pending"
     },
     {
       "title": "Deep Dive into WebAssembly Compilation: Wasmtime's Cranelift Backend",
@@ -28643,20 +28642,6 @@
       "scheduled_at": "2026-11-13T19:02:55Z",
       "status": "posting",
       "claimed_at": "2026-11-13T22:19:06Z"
-    },
-    {
-      "title": "Byte‑Level BPE Tokenizer from Scratch in Pure Python",
-      "url": "https://martinuke0.github.io/posts/2026-11-18-bytelevel-bpe-tokenizer-from-scratch-in-pure-python/",
-      "social_hook": "> TL;DR — In this post we build a pure‑Python byte‑level BPE tokenizer that follows GPT‑2’s regex pre‑tokenization, uses merge‑rank encoding for lossless byte round‑trip decoding, and can be dropped into any CV as a concrete, runnable signal of systems‑level skill.\n\nImplementing a tokenizer from the ground up is one of the most effective side‑projects for engineers targeting ML, dev‑tools, or data‑pipeline roles. Hiring managers can see that you understand how text is transformed into token IDs, you can write production‑grade Python without heavy dependencies, and you care about edge‑cases like round‑trip fidelity. The project also demonstrates algorithmic thinking (merge‑rank statistics), low‑level byte handling, and the ability to document and test code — all traits that separate junior scripts from senior‑level work.\n\n- Low‑level systems insight – You manipulate raw bytes (0‑255) and understand encoding boundaries, a skill valued by backend and infrastructure engineers.",
-      "tags": [
-        "python",
-        "bpe",
-        "tokenizer",
-        "cv",
-        "side-project"
-      ],
-      "scheduled_at": "2026-11-18T12:03:12Z",
-      "status": "pending"
     }
   ]
 }
