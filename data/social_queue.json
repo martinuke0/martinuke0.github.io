@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-13T19:02:55Z",
+  "last_scheduled_at": "2026-11-18T06:03:34Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28642,6 +28642,21 @@
       "scheduled_at": "2026-11-13T19:02:55Z",
       "status": "posting",
       "claimed_at": "2026-11-13T22:19:06Z"
+    },
+    {
+      "title": "Building a GPTQ Quantizer in NumPy: A Portfolio Project for Systems Engineers",
+      "url": "https://martinuke0.github.io/posts/2026-11-18-building-a-gptq-quantizer-in-numpy-a-portfolio-project-for-systems-engineers/",
+      "social_hook": "> TL;DR — GPTQ quantization compresses neural network weights to 4-bit integers using second-order Hessian-based error compensation, and you can implement it from scratch in pure NumPy. This project demonstrates systems engineering skills like numerical precision management, algorithmic efficiency, and model compression, making it stand out on any CV. By building a grouped-scale fake-quant dequant loop, you'll have a runnable artifact that proves you understand the intersection of ML and systems.\n\nQuantization is a critical technique for deploying large language models on resource-constrained devices. Among various methods, GPTQ stands out for its ability to compress weights to 4-bit integers with minimal accuracy loss by leveraging second-order information. In this post, we'll build a from-scratch implementation of GPTQ in pure NumPy, including grouped scales and a fake-quant dequant loop. This project is designed to be a portfolio piece that signals real systems skill to hiring managers.\n\nThis project demonstrates several high-value skills that are often hard to showcase in a traditional resume. First, it involves numerical linear algebra—computing Hessian approximations and managing numerical stability—which is core to many advanced ML roles. Second, it requires algorithmic design: the GPTQ algorithm greedily quantizes columns in an order determined by sensitivity and compensates errors using second-order information, which shows you can implement research-level optimizations. Third, it highlights memory efficiency and systems thinking, as you'll handle large matrices in-place and optimize for speed and footprint.",
+      "tags": [
+        "quantization",
+        "gptq",
+        "numpy",
+        "machine-learning",
+        "side-project",
+        "systems"
+      ],
+      "scheduled_at": "2026-11-18T06:03:34Z",
+      "status": "pending"
     }
   ]
 }
