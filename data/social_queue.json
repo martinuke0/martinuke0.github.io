@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-18T14:03:26Z",
+  "last_scheduled_at": "2026-11-19T16:03:23Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28658,6 +28658,20 @@
       "scheduled_at": "2026-11-18T14:03:26Z",
       "status": "posting",
       "claimed_at": "2026-11-18T15:22:13Z"
+    },
+    {
+      "title": "FlashAttention Kernel from Scratch in Pure Python with Tiling and Online Softmax",
+      "url": "https://martinuke0.github.io/posts/2026-11-19-flashattention-kernel-from-scratch-in-pure-python-with-tiling-and-online-softmax/",
+      "social_hook": "> TL;DR — In this guide you'll implement a FlashAttention kernel from scratch in pure Python, using tiling and online softmax to compute attention with O(1) memory overhead. The resulting code is runnable, testable, and showcases the low‑level systems skills that hiring managers look for.\n\nAttention mechanisms are at the heart of modern transformer models, but naive implementations materialize an N×N matrix that quickly exhausts GPU memory. By breaking the computation into tiles and maintaining a running softmax, we can reduce memory usage to constant while preserving numerical accuracy. This post walks you through building such a kernel entirely in Python, giving you a concrete artifact to discuss in interviews.\n\n- Algorithmic depth – you will design and code tiling strategies and an online softmax, demonstrating the ability to turn a research idea into an efficient implementation.",
+      "tags": [
+        "Python",
+        "Systems",
+        "Performance",
+        "Machine Learning",
+        "GPU"
+      ],
+      "scheduled_at": "2026-11-19T16:03:23Z",
+      "status": "pending"
     }
   ]
 }
