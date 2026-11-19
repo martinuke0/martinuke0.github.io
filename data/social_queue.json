@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-19T10:02:16Z",
+  "last_scheduled_at": "2026-11-18T14:03:26Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28594,8 +28594,7 @@
         "side-project"
       ],
       "scheduled_at": "2026-11-01T02:03:39Z",
-      "status": "posting",
-      "claimed_at": "2026-11-19T09:59:49Z"
+      "status": "pending"
     },
     {
       "title": "Deep Dive into WebAssembly Compilation: Wasmtime's Cranelift Backend",
@@ -28659,20 +28658,6 @@
       "scheduled_at": "2026-11-18T14:03:26Z",
       "status": "posting",
       "claimed_at": "2026-11-18T15:22:13Z"
-    },
-    {
-      "title": "Hands-on LoRA Trainer from Scratch in Pure Python",
-      "url": "https://martinuke0.github.io/posts/2026-11-19-hands-on-lora-trainer-from-scratch-in-pure-python/",
-      "social_hook": "> TL;DR — LoRA (Low‑Rank Adaptation) lets you fine‑tune large models with a handful of parameters, and building it from scratch in pure Python gives you full control over the training loop, memory usage, and extensibility. You’ll walk away with a runnable script that works on a laptop GPU, a clear architecture diagram, and a roadmap to production‑grade features like checkpointing and distributed training. This project signals to hiring managers that you understand both the math and the engineering behind modern fine‑tuning pipelines.\n\nBuilding a LoRA trainer from the ground up is a great way to demonstrate that you can bridge theory and practice. Instead of relying on a high‑level library, you’ll implement the core adaptation mechanism, the optimizer step, and checkpoint logic using only NumPy‑compatible PyTorch tensors. The result is a lightweight, inspectable codebase you can extend, benchmark, and talk about in interviews.\n\nHiring managers for ML‑focused roles (research engineer, ML systems engineer, MLOps) look for concrete evidence that you can move beyond “hello‑world” notebooks. This project signals several competencies:",
-      "tags": [
-        "python",
-        "machine-learning",
-        "loRA",
-        "cv",
-        "side-project"
-      ],
-      "scheduled_at": "2026-11-19T10:02:16Z",
-      "status": "pending"
     }
   ]
 }
