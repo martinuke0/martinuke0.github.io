@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-18T14:03:26Z",
+  "last_scheduled_at": "2026-11-20T10:03:56Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28658,6 +28658,20 @@
       "scheduled_at": "2026-11-18T14:03:26Z",
       "status": "posting",
       "claimed_at": "2026-11-18T15:22:13Z"
+    },
+    {
+      "title": "From Scratch to Vector Search: Building an IVF-PQ Index in Pure Python",
+      "url": "https://martinuke0.github.io/posts/2026-11-20-from-scratch-to-vector-search-building-an-ivf-pq-index-in-pure-python/",
+      "social_hook": "> TL;DR — You will implement a complete IVF-PQ (Inverted File with Product Quantization) vector index in under 300 lines of pure Python and NumPy. The project exercises k-means clustering, residual quantization, asymmetric distance computation (ADC) with lookup tables, and rigorous recall@k benchmarking against brute force. It signals genuine systems engineering skill to any hiring manager looking for vector database or ML infrastructure experience.\n\nMost candidates dump a FAISS one-liner on their résumé and call it a day. That gets ignored. What hiring managers actually want to see is evidence that you understand the machinery underneath the abstraction: how a coarse quantizer partitions space, how product quantization compresses vectors into bytes, and how a lookup table turns a distance computation into a handful of integer additions. This post gives you a from-scratch implementation you can ship as a portfolio piece, complete with real code, measurable trade-offs, and a roadmap to turn the prototype into something production-grade.\n\nBuilding an IVF-PQ index from scratch demonstrates three distinct skill clusters that map directly to senior roles:",
+      "tags": [
+        "vector-search",
+        "python",
+        "machine-learning",
+        "systems",
+        "side-projects"
+      ],
+      "scheduled_at": "2026-11-20T10:03:56Z",
+      "status": "pending"
     }
   ]
 }
