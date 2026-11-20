@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-20T12:03:27Z",
+  "last_scheduled_at": "2026-11-18T14:03:26Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28594,8 +28594,7 @@
         "side-project"
       ],
       "scheduled_at": "2026-11-01T02:03:39Z",
-      "status": "posting",
-      "claimed_at": "2026-11-20T12:00:35Z"
+      "status": "pending"
     },
     {
       "title": "Deep Dive into WebAssembly Compilation: Wasmtime's Cranelift Backend",
@@ -28659,20 +28658,6 @@
       "scheduled_at": "2026-11-18T14:03:26Z",
       "status": "posting",
       "claimed_at": "2026-11-18T15:22:13Z"
-    },
-    {
-      "title": "Paged KV Cache with Radix‑Tree Prefix Caching for LLM Inference",
-      "url": "https://martinuke0.github.io/posts/2026-11-20-paged-kv-cache-with-radixtree-prefix-caching-for-llm-inference/",
-      "social_hook": "> TL;DR — We build a pure‑Python paged KV cache backed by a radix‑tree prefix cache, giving LLM inference a low‑latency lookup path and a concrete project you can ship on GitHub to impress hiring managers.\n\nIn this article we turn the abstract idea of “prefix caching for LLM tokens” into a runnable Python library. The cache splits keys into fixed‑size pages, uses a radix tree (compact trie) to map key prefixes to their pages, and provides O(log n) prefix look‑ups that translate directly into faster token‑level cache hits during inference. Along the way you’ll get a minimal but complete codebase, a testing suite, and a roadmap of upgrades that morph the toy into a production‑grade component.\n\n- Data‑structure mastery – Implementing a radix tree from scratch demonstrates understanding of tries, prefix sharing, and memory‑efficient node design.",
-      "tags": [
-        "python",
-        "llm",
-        "cache",
-        "data-structures",
-        "cv-project"
-      ],
-      "scheduled_at": "2026-11-20T12:03:27Z",
-      "status": "pending"
     }
   ]
 }
