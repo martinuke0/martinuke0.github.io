@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-18T14:03:26Z",
+  "last_scheduled_at": "2026-11-20T14:02:55Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28658,6 +28658,20 @@
       "scheduled_at": "2026-11-18T14:03:26Z",
       "status": "posting",
       "claimed_at": "2026-11-18T15:22:13Z"
+    },
+    {
+      "title": "Speculative Decoding Inference Engine in Pure Python",
+      "url": "https://martinuke0.github.io/posts/2026-11-20-speculative-decoding-inference-engine-in-pure-python/",
+      "social_hook": "> TL;DR — Speculative decoding uses a tiny draft model to propose multiple candidate tokens, then verifies them autoregressively against a larger target model. The result is 2–3× faster token generation with identical output quality, all implementable in a few hundred lines of pure Python.\n\nBuilding a personal inference engine from scratch is one of the most effective ways to signal systems‑level competence to hiring managers. This post walks through a complete, runnable prototype: a speculative decoding pipeline that pairs a miniature draft model with an autoregressive verification step and a compact KV cache, all written in plain Python. No external frameworks beyond the standard library and a small NN library (e.g., `torch` or `jax`) are required for the core logic, making the project instantly cloneable and demonstrable on a laptop.\n\n- Systems‑level thinking: You design a mini‑pipeline that balances model size, memory (KV cache), and CPU/GPU throughput—exactly the trade‑offs senior engineers face when optimizing inference services.",
+      "tags": [
+        "python",
+        "machine-learning",
+        "speculative-decoding",
+        "inference",
+        "cv"
+      ],
+      "scheduled_at": "2026-11-20T14:02:55Z",
+      "status": "pending"
     }
   ]
 }
