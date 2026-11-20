@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-18T14:03:26Z",
+  "last_scheduled_at": "2026-11-20T07:02:30Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28658,6 +28658,20 @@
       "scheduled_at": "2026-11-18T14:03:26Z",
       "status": "posting",
       "claimed_at": "2026-11-18T15:22:13Z"
+    },
+    {
+      "title": "Production-Grade HNSW Vector Index in Pure Python: A Hands-On Portfolio CV Guide",
+      "url": "https://martinuke0.github.io/posts/2026-11-20-production-grade-hnsw-vector-index-in-pure-python-a-hands-on-portfolio-cv-guide/",
+      "social_hook": "> TL;DR — We build a minimal but production‑grade HNSW index in pure Python, complete with hierarchical graph navigation, layer promotion, and neighbor pruning. The resulting index can be queried in milliseconds on a laptop and forms a concrete portfolio piece that signals systems‑level expertise to hiring managers.\n\nImplementing a high‑performance approximate nearest‑neighbor (ANN) search structure from scratch is a rare opportunity to touch many systems fundamentals—graph data structures, memory layout, algorithmic pruning, and performance tuning—all within a single, runnable codebase. For an engineer looking to signal competence to hiring managers, an HNSW portfolio project demonstrates that you can move beyond library wrappers and reason about the internals of production search systems.\n\n- Graph algorithm design: You implement hierarchical navigable small‑world (HNSW) graph construction, edge insertion, and layer promotion, showing you understand probabilistic graph theory.",
+      "tags": [
+        "python",
+        "hnsw",
+        "vector-search",
+        "cv-project",
+        "systems-engineering"
+      ],
+      "scheduled_at": "2026-11-20T07:02:30Z",
+      "status": "pending"
     }
   ]
 }
