@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-18T14:03:26Z",
+  "last_scheduled_at": "2026-11-21T22:01:41Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28658,6 +28658,20 @@
       "scheduled_at": "2026-11-18T14:03:26Z",
       "status": "posting",
       "claimed_at": "2026-11-18T15:22:13Z"
+    },
+    {
+      "title": "Build a Mini GPT Trainer: Hand‑Roll Autograd + Data‑Parallel All‑Reduce in Pure NumPy",
+      "url": "https://martinuke0.github.io/posts/2026-11-21-build-a-mini-gpt-trainer-handroll-autograd-dataparallel-allreduce-in-pure-numpy/",
+      "social_hook": "> TL;DR — In this post we’ll hand‑roll a minimal autograd engine in NumPy, train a tiny GPT‑style language model, and add a data‑parallel gradient all‑reduce that scales across processes. The result is a runnable, educational pipeline that demonstrates low‑level training mechanics, distributed gradient aggregation, and production‑ready patterns—all in a single notebook you can fork and extend.\n\nBuilding a portfolio project that ticks both “works from scratch” and “scales” is rare. This guide walks you through creating a mini GPT trainer entirely with NumPy: a custom autograd engine, a forward‑backward pass for a transformer‑style model, and a data‑parallel gradient all‑reduce that you can run on a laptop with multiple processes. The code is fully runnable, well‑commented, and designed so you can swap in real datasets, optimizers, and scaling back‑ends later.\n\nHiring managers for ML engineering, systems, and research roles look for three signals: depth of low‑level understanding, ability to ship production‑grade pipelines, and experience with distributed coordination. A hand‑rolled autograd engine proves you understand the chain rule, tensor flow, and memory layout without relying on a framework’s black box. Adding a data‑parallel all‑reduce shows you can think about gradient synchronization, communication overhead, and scaling—skills directly applicable to frameworks like Horovod, PyTorch Distributed, or TensorFlow Strategy‑2. Roles that particularly value this mix include:",
+      "tags": [
+        "numpy",
+        "machine-learning",
+        "distributed-training",
+        "autograd",
+        "cv-portfolio"
+      ],
+      "scheduled_at": "2026-11-21T22:01:41Z",
+      "status": "pending"
     }
   ]
 }
