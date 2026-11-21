@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-21T15:02:33Z",
+  "last_scheduled_at": "2026-11-18T14:03:26Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28594,8 +28594,7 @@
         "side-project"
       ],
       "scheduled_at": "2026-11-01T02:03:39Z",
-      "status": "posting",
-      "claimed_at": "2026-11-21T14:57:31Z"
+      "status": "pending"
     },
     {
       "title": "Deep Dive into WebAssembly Compilation: Wasmtime's Cranelift Backend",
@@ -28659,20 +28658,6 @@
       "scheduled_at": "2026-11-18T14:03:26Z",
       "status": "posting",
       "claimed_at": "2026-11-18T15:22:13Z"
-    },
-    {
-      "title": "Implementing SPIFFE Workload Identity for Zero Trust Networks",
-      "url": "https://martinuke0.github.io/posts/2026-11-21-implementing-spiffe-workload-identity-for-zero-trust-networks/",
-      "social_hook": "> TL;DR — SPIFFE provides a standards-based framework for workload identity, replacing static secrets with dynamic mTLS. In zero trust networks, every service authenticates its workload identity via SPIRE, enabling fine-grained access control and automatic certificate rotation without human intervention.\n\nZero trust networks reject the assumption that anything inside the perimeter is trusted. Instead, every request must be authenticated and authorized, ideally at the workload level. SPIFFE (Secure Production Identity Framework For Everyone) and its runtime SPIRE are purpose-built for this shift, offering a vendor-neutral way to distribute X.509 certificates to services based on their identity rather than their network location. In this post, we’ll walk through the practical steps of deploying SPIFFE workload identity, integrating it with service meshes, hardening certificate operations, and establishing a zero trust posture that scales across Kubernetes clusters, VMs, and cloud environments.\n\nTraditional zero trust implementations often rely on network segmentation, VPNs, or static API tokens. These approaches break down as microservices multiply, clusters span regions, and workloads become ephemeral. A workload’s IP address can change pod restarts; a static token can be leaked in a container image; a VPN gateway becomes a single point of failure.",
-      "tags": [
-        "SPIFFE",
-        "Zero Trust",
-        "Workload Identity",
-        "mTLS",
-        "Service Mesh"
-      ],
-      "scheduled_at": "2026-11-21T15:02:33Z",
-      "status": "pending"
     }
   ]
 }
