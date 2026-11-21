@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-18T14:03:26Z",
+  "last_scheduled_at": "2026-11-21T11:02:43Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28658,6 +28658,20 @@
       "scheduled_at": "2026-11-18T14:03:26Z",
       "status": "posting",
       "claimed_at": "2026-11-18T15:22:13Z"
+    },
+    {
+      "title": "From-Scratch Mixture-of-Experts Routing Layer with Noisy Top‑k Gating and Load‑Balancing Auxiliary Loss",
+      "url": "https://martinuke0.github.io/posts/2026-11-21-from-scratch-mixture-of-experts-routing-layer-with-noisy-topk-gating-and-loadbal/",
+      "social_hook": "> TL;DR — This post walks you through building a from‑scratch Mixture‑of‑Experts (MoE) layer in pure PyTorch, complete with noisy top‑k gating, a load‑balancing auxiliary loss, and expert‑capacity token dispatch. You’ll end up with a runnable module you can plug into any model, plus a portfolio‑ready project that demonstrates systems‑level deep‑learning engineering.\n\nBuilding a CV‑side project that actually works and showcases real‑world systems skills is rare. A custom MoE layer ticks many boxes: it involves stochastic routing, capacity‑aware token dispatch, and a custom loss that balances load across experts—exactly the kind of subtle engineering interviewers look for in senior‑level candidates. Moreover, the code you write is fully runnable, can be version‑controlled, and can be extended with profiling, checkpointing, or even a tiny serving wrapper. On a LinkedIn feed, a repo titled “Pure‑PyTorch MoE with noisy top‑k gating” immediately signals that you understand both model architecture and the practical concerns (memory layout, gradient flow, scalability) that production systems demand.\n\n- Systems‑level deep‑learning competence – You design the routing graph, manage tensor shapes, and implement capacity constraints without relying on high‑level libraries that hide the details.",
+      "tags": [
+        "pytorch",
+        "mixture-of-experts",
+        "deep-learning",
+        "cv-side-project",
+        "systems-engineering"
+      ],
+      "scheduled_at": "2026-11-21T11:02:43Z",
+      "status": "pending"
     }
   ]
 }
