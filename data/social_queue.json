@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-21T01:02:54Z",
+  "last_scheduled_at": "2026-11-18T14:03:26Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28594,8 +28594,7 @@
         "side-project"
       ],
       "scheduled_at": "2026-11-01T02:03:39Z",
-      "status": "posting",
-      "claimed_at": "2026-11-21T01:00:50Z"
+      "status": "pending"
     },
     {
       "title": "Deep Dive into WebAssembly Compilation: Wasmtime's Cranelift Backend",
@@ -28659,20 +28658,6 @@
       "scheduled_at": "2026-11-18T14:03:26Z",
       "status": "posting",
       "claimed_at": "2026-11-18T15:22:13Z"
-    },
-    {
-      "title": "Optimizing ClickHouse MergeTree Compaction: Streaming Ingestion at High Throughput",
-      "url": "https://martinuke0.github.io/posts/2026-11-21-optimizing-clickhouse-mergetree-compaction-streaming-ingestion-at-high-throughpu/",
-      "social_hook": "> TL;DR — MergeTree compaction can become a bottleneck under high-throughput streaming ingestion. By tuning the background merge pool, controlling part sizes, and optimizing disk I/O, you can sustain millions of rows per second without query latency degradation. This post walks through the architecture and provides concrete configuration changes for production ClickHouse clusters.\n\nWhen you're ingesting streaming data into ClickHouse at scale—think Kafka topics with millions of events per second—the MergeTree table engine's compaction mechanism can quickly become the limiting factor. Compaction is essential for query performance: without it, small parts accumulate, queries slow down, and memory pressure increases. But naive compaction can consume I/O bandwidth, starve inserts, and cause latency spikes. In this post, we'll break down how MergeTree compaction works under heavy load, identify the key knobs you can turn, and share patterns from production deployments that sustain high throughput without breaking the bank.\n\nEvery INSERT in ClickHouse creates a new part. For streaming ingestion, you might be inserting small batches frequently, leading to many small parts. The MergeTree engine periodically merges these parts in the background to reduce their count and improve compression and query efficiency.",
-      "tags": [
-        "ClickHouse",
-        "MergeTree",
-        "Performance",
-        "Streaming",
-        "Database"
-      ],
-      "scheduled_at": "2026-11-21T01:02:54Z",
-      "status": "pending"
     }
   ]
 }
