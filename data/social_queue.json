@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-18T14:03:26Z",
+  "last_scheduled_at": "2026-11-21T06:02:29Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28658,6 +28658,20 @@
       "scheduled_at": "2026-11-18T14:03:26Z",
       "status": "posting",
       "claimed_at": "2026-11-18T15:22:13Z"
+    },
+    {
+      "title": "Hands‑On Build Guide: Minimal Mixture‑of‑Experts Inference Engine in Python",
+      "url": "https://martinuke0.github.io/posts/2026-11-21-handson-build-guide-minimal-mixtureofexperts-inference-engine-in-python/",
+      "social_hook": "> TL;DR — In a few lines of pure Python you can assemble a top‑k gated mixture‑of‑experts inference engine that demonstrates load‑balancing, routing logic, and performance‑aware design — a compact yet impressive addition to any engineer’s portfolio.\n\nBuilding a minimal mixture‑of‑experts (MoE) system from scratch is a rare hands‑on project that lets you explore gating networks, dynamic routing, and parallel computation all within a single Python file. The following guide walks you through every layer, from the high‑level architecture down to runnable code you can spin up in under a minute.\n\nHiring managers for ML‑focused engineering roles see dozens of “hello‑world” notebooks. A self‑contained MoE engine signals that you can:",
+      "tags": [
+        "python",
+        "machine-learning",
+        "mixture-of-experts",
+        "inference",
+        "cv-side-project"
+      ],
+      "scheduled_at": "2026-11-21T06:02:29Z",
+      "status": "pending"
     }
   ]
 }
