@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-18T14:03:26Z",
+  "last_scheduled_at": "2026-11-21T00:02:42Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28658,6 +28658,20 @@
       "scheduled_at": "2026-11-18T14:03:26Z",
       "status": "posting",
       "claimed_at": "2026-11-18T15:22:13Z"
+    },
+    {
+      "title": "From‑Scratch Mixture‑of‑Experts Router with Top‑K Gating in Python",
+      "url": "https://martinuke0.github.io/posts/2026-11-21-fromscratch-mixtureofexperts-router-with-topk-gating-in-python/",
+      "social_hook": "> TL;DR — In this post we build a pure‑Python Mixture‑of‑Experts router with top‑k gating and dynamic expert allocation, giving you a tangible, runnable project that showcases systems‑level design, code quality, and machine‑learning fundamentals for hiring managers.\n\nHiring managers for ML‑focused engineering roles see dozens of notebooks that import `torch` or `tensorflow` and call `model.fit()`. A from‑scratch router demonstrates that you understand the mechanics behind the black box: how gating scores are computed, why top‑k selection reduces compute, and how expert allocation can be dynamically reshaped at runtime.\n\n- Algorithmic design – you designed a top‑k selection routine, handled ties, and implemented softmax over a subset.",
+      "tags": [
+        "python",
+        "machine-learning",
+        "systems",
+        "portfolio",
+        "cv"
+      ],
+      "scheduled_at": "2026-11-21T00:02:42Z",
+      "status": "pending"
     }
   ]
 }
