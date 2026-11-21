@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-21T18:02:27Z",
+  "last_scheduled_at": "2026-11-18T14:03:26Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28594,8 +28594,7 @@
         "side-project"
       ],
       "scheduled_at": "2026-11-01T02:03:39Z",
-      "status": "posting",
-      "claimed_at": "2026-11-21T17:59:43Z"
+      "status": "pending"
     },
     {
       "title": "Deep Dive into WebAssembly Compilation: Wasmtime's Cranelift Backend",
@@ -28659,20 +28658,6 @@
       "scheduled_at": "2026-11-18T14:03:26Z",
       "status": "posting",
       "claimed_at": "2026-11-18T15:22:13Z"
-    },
-    {
-      "title": "From-Scratch Paged KV-Cache with Block-Table Virtual Memory and Eviction Policies in Python",
-      "url": "https://martinuke0.github.io/posts/2026-11-21-from-scratch-paged-kv-cache-with-block-table-virtual-memory-and-eviction-policie/",
-      "social_hook": "> TL;DR — We build a pure‑Python paged KV‑cache with a block‑table virtual memory layer and two eviction policies (LRU and attention‑sink‑aware). Benchmarking on a 7 B‑parameter model shows the attention‑sink‑aware policy retains 23 % more salient tokens than naive truncation, demonstrating a concrete, runnable project that signals systems‑level skill to hiring managers.\n\nBuilding a paged KV‑cache from scratch is a rare hands‑on project that lets you explore virtual‑memory design, eviction heuristics, and ML‑inference optimization all in one script. For a working engineer, it signals fluency in low‑level systems thinking, Python performance tuning, and the ability to prototype production‑relevant components without relying on heavyweight frameworks. Hiring managers see a candidate who can bridge theory and code, understand memory pressure, and iterate quickly—exactly the profile many AI‑infra and backend roles seek.\n\n- Systems‑level design: You design a block‑table that maps virtual page numbers to physical cache frames, mirroring OS paging concepts.",
-      "tags": [
-        "python",
-        "systems",
-        "cache",
-        "ml",
-        "benchmark"
-      ],
-      "scheduled_at": "2026-11-21T18:02:27Z",
-      "status": "pending"
     }
   ]
 }
