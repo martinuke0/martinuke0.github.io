@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-18T14:03:26Z",
+  "last_scheduled_at": "2026-11-22T18:02:09Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28658,6 +28658,20 @@
       "scheduled_at": "2026-11-18T14:03:26Z",
       "status": "posting",
       "claimed_at": "2026-11-18T15:22:13Z"
+    },
+    {
+      "title": "A Hands-On Build Guide: Mixture-of-Experts Router with Top-K Gating and Auxiliary Load-Balancing Loss",
+      "url": "https://martinuke0.github.io/posts/2026-11-22-a-hands-on-build-guide-mixture-of-experts-router-with-top-k-gating-and-auxiliary/",
+      "social_hook": "> TL;DR — Build a functional Mixture-of-Experts router from scratch using top-k gating and auxiliary load-balancing loss. This guide walks through the math, runnable Python/NumPy implementation, local testing, and six concrete extensions that transform the toy into a production-flavored system — perfect for signaling systems deep learning skill on a CV.\n\nBuilding a mixture-of-experts (MoE) model from scratch is one of the most effective portfolio projects for an aspiring or working engineer. It combines numerical computing, architecture design, loss engineering, and systems thinking about compute routing — all within a self-contained codebase you can run, test, and extend in a single afternoon. Hiring managers see \"I used PyTorch's MoE layer\" as framework familiarity; they see \"I built the router and loss from scratch\" as demonstrable depth. This post gives you the complete, runnable implementation and a roadmap to production quality.\n\nRecruiters and engineering leads scan dozens of ML portfolio projects. Most contain notebooks that import `torch.nn.Moe` or `tf.moe` and report a perplexity number. That signals \"I can call an API,\" not \"I understand the system.\" Building the router, top-k gating, and auxiliary load-balancing loss from first principles demonstrates several hiring-signaling skills:",
+      "tags": [
+        "mixture-of-experts",
+        "deep-learning",
+        "systems-engineering",
+        "cv-side-project",
+        "python"
+      ],
+      "scheduled_at": "2026-11-22T18:02:09Z",
+      "status": "pending"
     }
   ]
 }
