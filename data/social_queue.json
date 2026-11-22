@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-18T14:03:26Z",
+  "last_scheduled_at": "2026-11-22T19:02:04Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28658,6 +28658,20 @@
       "scheduled_at": "2026-11-18T14:03:26Z",
       "status": "posting",
       "claimed_at": "2026-11-18T15:22:13Z"
+    },
+    {
+      "title": "From‑Scratch MoE Transformer Block with Sinkhorn Routing in NumPy",
+      "url": "https://martinuke0.github.io/posts/2026-11-22-fromscratch-moe-transformer-block-with-sinkhorn-routing-in-numpy/",
+      "social_hook": "> TL;DR — In this post we build a from‑scratch MoE transformer block in pure NumPy, using a Sinkhorn‑based routing network to evenly distribute tokens across experts, and we prove balanced load with a simple loss term — all in a single runnable script.\n\nImplementing a Mixture‑of‑Experts (MoE) block from scratch is a rare portfolio piece that signals more than “I can import a library.” It demonstrates your ability to (1) translate algorithmic research into production‑ready NumPy code, (2) design a differentiable routing mechanism that respects resource constraints, (3) engineer a balanced load‑balancing loss that can be dropped into any training loop, and (4) benchmark and profile a custom model component—skills that hiring managers for ML engineer, research engineer, and systems engineer roles value highly.\n\n- Algorithmic implementation: You wrote the entire attention‑mixing and routing pipeline without relying on high‑level frameworks, showing deep understanding of transformer mechanics.",
+      "tags": [
+        "numpy",
+        "transformer",
+        "mixture-of-experts",
+        "sinkhorn",
+        "python"
+      ],
+      "scheduled_at": "2026-11-22T19:02:04Z",
+      "status": "pending"
     }
   ]
 }
