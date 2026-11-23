@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-18T14:03:26Z",
+  "last_scheduled_at": "2026-11-23T20:02:02Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28658,6 +28658,21 @@
       "scheduled_at": "2026-11-18T14:03:26Z",
       "status": "posting",
       "claimed_at": "2026-11-18T15:22:13Z"
+    },
+    {
+      "title": "GGUF Parser with Q4_K/Q8_0 Dequantization Kernels in Python",
+      "url": "https://martinuke0.github.io/posts/2026-11-23-gguf-parser-with-q4_kq8_0-dequantization-kernels-in-python/",
+      "social_hook": "> TL;DR — You’ll build a pure‑Python GGUF parser with Q4_K and Q8_0 dequantization kernels, producing numpy arrays ready for inference, and walk away with a concrete, testable project that showcases low‑level ML engineering skill on your CV. The implementation uses only the standard library and NumPy, so it runs anywhere Python runs.\n\nBuilding a portfolio‑side project that actually runs and demonstrates real systems knowledge is a rare find. In this article we’ll walk through creating a GGUF format parser in pure Python that implements the Q4_K and Q8_0 dequantization kernels. GGUF (Google‑Generated Unified Format) is the container format used by llama.cpp and many other LLM runtimes; parsing it and correctly dequantizing tensors forces you to deal with binary file layout, memory‑efficient arithmetic, and production‑grade edge cases—all without leaving the Python ecosystem. By the end you’ll have a runnable module, a test suite, and a clear roadmap to turn the toy into a production‑ready library.\n\nHiring managers for data‑engineering, ML‑infra, and backend roles look for concrete evidence that you can move from a high‑level description to a working implementation that respects performance, correctness, and maintainability. This project signals several of those competencies:",
+      "tags": [
+        "python",
+        "gguf",
+        "dequantization",
+        "performance",
+        "cv",
+        "side-project"
+      ],
+      "scheduled_at": "2026-11-23T20:02:02Z",
+      "status": "pending"
     }
   ]
 }
