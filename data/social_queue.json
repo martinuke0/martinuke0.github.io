@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-18T14:03:26Z",
+  "last_scheduled_at": "2026-11-23T13:02:28Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28658,6 +28658,20 @@
       "scheduled_at": "2026-11-18T14:03:26Z",
       "status": "posting",
       "claimed_at": "2026-11-18T15:22:13Z"
+    },
+    {
+      "title": "From-Scratch GGUF/Safetensors Weight Loader with mmap Streaming and Tensor‑Name Remapping",
+      "url": "https://martinuke0.github.io/posts/2026-11-23-from-scratch-ggufsafetensors-weight-loader-with-mmap-streaming-and-tensorname-re/",
+      "social_hook": "> TL;DR — This post walks you through building a from‑scratch GGUF/Safetensors weight loader that uses mmap streaming, parses model metadata, and remaps tensor names for llama.cpp‑style models. You’ll end up with a runnable Python library you can ship in a CV‑ready portfolio. The code is under 200 lines, fully typed, and works out‑of‑the‑box on Linux.\n\nA portfolio project that demonstrates low‑level systems competence is a powerful signal to hiring managers. This article provides a complete, hands‑on guide to implementing a GGUF/Safetensors weight loader from the ground up, using Python, NumPy, and mmap. By the end you’ll have a working tool, test suite, and a clear roadmap for production‑grade extensions.\n\nHiring managers for ML‑focused engineering roles see dozens of “hello‑world” notebooks. A from‑scratch weight loader signals that you understand the bottlenecks that matter in production: memory‑mapped I/O, binary format semantics, and zero‑copy tensor access. The project showcases the following concrete skills:",
+      "tags": [
+        "gguf",
+        "safetensors",
+        "ml",
+        "systems",
+        "python"
+      ],
+      "scheduled_at": "2026-11-23T13:02:28Z",
+      "status": "pending"
     }
   ]
 }
