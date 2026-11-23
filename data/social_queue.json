@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-18T14:03:26Z",
+  "last_scheduled_at": "2026-11-23T16:03:11Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28658,6 +28658,20 @@
       "scheduled_at": "2026-11-18T14:03:26Z",
       "status": "posting",
       "claimed_at": "2026-11-18T15:22:13Z"
+    },
+    {
+      "title": "Speculative Decoding Inference Engine with Adaptive Draft and Early-Exit Verification",
+      "url": "https://martinuke0.github.io/posts/2026-11-23-speculative-decoding-inference-engine-with-adaptive-draft-and-early-exit-verific/",
+      "social_hook": "> TL;DR — This guide walks you through building a pure‑Python speculative decoding inference engine that adaptively selects draft length and stops early when the verifier is confident. The implementation cuts average latency by 30–50 % while preserving output quality, and the codebase demonstrates the systems skills hiring managers look for. You’ll end up with a runnable project that you can extend into a production‑grade serving system.\n\nSpeculative decoding is a technique for accelerating autoregressive language models by generating multiple tokens in parallel using a cheaper draft model, then verifying them with the target model. In this post, you will implement a complete engine in pure Python, adding two production‑relevant twists: an adaptive draft length that changes based on observed acceptance rates, and an early‑exit verifier that stops drafting once confidence is high. The result is a small, readable codebase that you can showcase on your résumé and use as a foundation for a real serving service.\n\n- Inference optimization expertise – You’ll demonstrate a deep understanding of model serving latency, a skill that is rare in typical ML portfolios.",
+      "tags": [
+        "speculative-decoding",
+        "python",
+        "ml-inference",
+        "systems",
+        "side-project"
+      ],
+      "scheduled_at": "2026-11-23T16:03:11Z",
+      "status": "pending"
     }
   ]
 }
