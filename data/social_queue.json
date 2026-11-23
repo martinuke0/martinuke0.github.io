@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-18T14:03:26Z",
+  "last_scheduled_at": "2026-11-23T02:02:17Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28658,6 +28658,20 @@
       "scheduled_at": "2026-11-18T14:03:26Z",
       "status": "posting",
       "claimed_at": "2026-11-18T15:22:13Z"
+    },
+    {
+      "title": "From‑Scratch Radix‑Tree KV Cache with Copy‑on‑Write Blocks and LRU Eviction in Pure Python",
+      "url": "https://martinuke0.github.io/posts/2026-11-23-fromscratch-radixtree-kv-cache-with-copyonwrite-blocks-and-lru-eviction-in-pure/",
+      "social_hook": "> TL;DR — This post builds a pure‑Python radix‑tree based KV cache that shares common prefixes across entries, allocates blocks with copy‑on‑write, and evicts the least‑recently‑used entry. The result is a runnable, minimal library you can drop into any project and a concrete story to discuss systems‑level design in interviews.\n\nBuilding a custom cache from the ground up is one of the most effective ways to signal to hiring managers that you understand how production systems manage memory, locality, and eviction policies. This project combines three classic systems concepts—radix‑tree prefix sharing, copy‑on‑write block allocation, and LRU eviction—into a single, coherent Python implementation that you can run, test, and extend. The code is deliberately pure Python (no C extensions), so it works on any environment and serves as a portable demo you can embed in a portfolio website, a GitHub README, or even a live coding interview.\n\nBelow you’ll find a step‑by‑step build guide, architecture rationale, and a roadmap for taking the toy to a production‑grade cache.",
+      "tags": [
+        "python",
+        "data-structures",
+        "caching",
+        "kv-cache",
+        "radix-tree"
+      ],
+      "scheduled_at": "2026-11-23T02:02:17Z",
+      "status": "pending"
     }
   ]
 }
