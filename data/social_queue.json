@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-18T14:03:26Z",
+  "last_scheduled_at": "2026-11-23T00:02:22Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28658,6 +28658,20 @@
       "scheduled_at": "2026-11-18T14:03:26Z",
       "status": "posting",
       "claimed_at": "2026-11-18T15:22:13Z"
+    },
+    {
+      "title": "Build a Minimal Paged Attention Inference Engine with Sliding-Window KV-Cache Eviction in Python",
+      "url": "https://martinuke0.github.io/posts/2026-11-23-build-a-minimal-paged-attention-inference-engine-with-sliding-window-kv-cache-ev/",
+      "social_hook": "> TL;DR — In this post we build a minimal paged attention inference engine in pure Python, implementing sliding-window KV-cache eviction and page-based memory management. The result is a runnable 80-line core that mirrors the memory layout of production LLM serving systems like vLLM and TensorRT-LLM, making it a concrete portfolio piece that signals systems engineering skill.\n\nBuilding an attention engine from scratch is a rite of passage for ML engineers, but most tutorials stop at dense quadratic attention. Real LLM serving requires paging, KV-cache eviction, and windowed memory management—techniques that let a single GPU serve dozens of concurrent requests. This guide walks you through building a minimal, pure-Python implementation of paged attention with sliding-window KV-cache eviction. The code is complete, runnable, and structured to mirror the page-table + cache-page pattern used in vLLM, TensorRT-LLM, and other production inference engines. By the end, you’ll have a working prototype you can extend, benchmark, and talk about in interviews.\n\nHiring managers for backend ML and infra roles see dozens of \"image captioning\" or \"ChatGPT clone\" repos. What sets this project apart is that it demonstrates systems-level engineering: memory layout design, algorithmic optimization under constraints, and patterns that directly map to production serving stacks. Specifically, you’ll be signaling proficiency in:",
+      "tags": [
+        "python",
+        "inference",
+        "kv-cache",
+        "attention",
+        "systems"
+      ],
+      "scheduled_at": "2026-11-23T00:02:22Z",
+      "status": "pending"
     }
   ]
 }
