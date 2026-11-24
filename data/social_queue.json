@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-24T08:01:44Z",
+  "last_scheduled_at": "2026-11-18T14:03:26Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28594,8 +28594,7 @@
         "side-project"
       ],
       "scheduled_at": "2026-11-01T02:03:39Z",
-      "status": "posting",
-      "claimed_at": "2026-11-24T07:57:42Z"
+      "status": "pending"
     },
     {
       "title": "Deep Dive into WebAssembly Compilation: Wasmtime's Cranelift Backend",
@@ -28659,20 +28658,6 @@
       "scheduled_at": "2026-11-18T14:03:26Z",
       "status": "posting",
       "claimed_at": "2026-11-18T15:22:13Z"
-    },
-    {
-      "title": "Inside CSS Containment: Eliminating Layout Thrash in Complex Frontend Renders",
-      "url": "https://martinuke0.github.io/posts/2026-11-24-inside-css-containment-eliminating-layout-thrash-in-complex-frontend-renders/",
-      "social_hook": "> TL;DR — CSS containment lets you declare isolation boundaries so the browser skips expensive layout passes across unrelated DOM subtrees. By using `contain: layout`, `contain: style`, `contain: paint`, or `contain: size` strategically, you can eliminate layout thrash in complex interfaces and keep 60fps renders even under heavy DOM churn.\n\nIn large single-page applications, the DOM can grow to thousands of nodes, and every script-driven style or structural change risks triggering a full-page layout recalculation. When the browser has to verify that a change in one corner of the page didn't affect another, it forces a layout thrash cycle that janks scrolling, blocks animation frames, and degrades perceived performance. CSS containment provides a declarative way to draw an isolation boundary around a subtree, telling the browser that styles, layout, paint, and size inside that boundary cannot leak out. In this post, we'll explore what each containment type actually guarantees, how the browser leverages those guarantees to skip work, and practical patterns for applying them in production frontend codebases without over-constraining your UI.\n\nLayout thrash occurs when the browser interleaves style recalculation and layout computation in a tight loop, forcing the engine to traverse the entire DOM tree repeatedly because changes in one area are presumed to potentially affect others. In a deeply nested component tree—common in dashboard widgets, admin panels, or rich text editors—a single `className` toggle or a style injection can cascade, triggering a forced reflow.",
-      "tags": [
-        "css",
-        "web-performance",
-        "frontend-optimization",
-        "layout-thrash",
-        "css-containment"
-      ],
-      "scheduled_at": "2026-11-24T08:01:44Z",
-      "status": "pending"
     }
   ]
 }
