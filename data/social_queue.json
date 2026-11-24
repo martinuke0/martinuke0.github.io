@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-24T07:02:07Z",
+  "last_scheduled_at": "2026-11-18T14:03:26Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28594,8 +28594,7 @@
         "side-project"
       ],
       "scheduled_at": "2026-11-01T02:03:39Z",
-      "status": "posting",
-      "claimed_at": "2026-11-24T06:58:52Z"
+      "status": "pending"
     },
     {
       "title": "Deep Dive into WebAssembly Compilation: Wasmtime's Cranelift Backend",
@@ -28659,20 +28658,6 @@
       "scheduled_at": "2026-11-18T14:03:26Z",
       "status": "posting",
       "claimed_at": "2026-11-18T15:22:13Z"
-    },
-    {
-      "title": "Inside Tokio's Work-Stealing Scheduler: Task Sharding, Core Affinity, and Fairness",
-      "url": "https://martinuke0.github.io/posts/2026-11-24-inside-tokio/",
-      "social_hook": "title: \"Inside Tokio's Work-Stealing Scheduler: Task Sharding, Core Affinity, and Fairness\"\n\ndescription: \"Tokio's work-stealing scheduler under the hood: how task sharding, core affinity, and fairness guarantees shape performance in production Rust async applications.\"\n\nsummary: \"A deep dive into Tokio's scheduler mechanics, from double-ended deques to NUMA-aware core binding, with practical patterns for high-throughput async services.\"",
-      "tags": [
-        "tokio",
-        "rust",
-        "concurrency",
-        "work-stealing",
-        "scheduler"
-      ],
-      "scheduled_at": "2026-11-24T07:02:07Z",
-      "status": "pending"
     }
   ]
 }
