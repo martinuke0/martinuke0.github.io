@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-18T14:03:26Z",
+  "last_scheduled_at": "2026-11-24T13:03:08Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28658,6 +28658,20 @@
       "scheduled_at": "2026-11-18T14:03:26Z",
       "status": "posting",
       "claimed_at": "2026-11-18T15:22:13Z"
+    },
+    {
+      "title": "Building a Paged KV Cache Block Manager with Continuous Batching and Prefix Sharing in Pure Python",
+      "url": "https://martinuke0.github.io/posts/2026-11-24-building-a-paged-kv-cache-block-manager-with-continuous-batching-and-prefix-shar/",
+      "social_hook": "> TL;DR — This project implements a paged KV cache block manager with continuous batching and prefix sharing in pure Python, mirroring techniques used in production LLM inference systems like vLLM. It provides hands-on experience with memory management, scheduling, and optimization—skills that directly translate to backend and infrastructure roles. Build it, run it, and showcase it on your CV.\n\nIn the race to ship efficient LLM inference, the KV cache is often the silent bottleneck. It stores the key-value pairs of previous tokens so that transformers can avoid recomputing them during autoregressive generation. Without careful management, this cache can balloon memory usage, stall on long prompts, and force you to choose between throughput and latency. This post walks you through building a paged KV cache block manager with continuous batching and prefix sharing entirely in pure Python—a portfolio project that signals real systems skill to hiring managers in ML infrastructure, backend engineering, and platform roles.\n\nA hiring manager scanning your résumé wants evidence that you can design and optimize the guts of a production system. This project delivers exactly that:",
+      "tags": [
+        "Python",
+        "Systems",
+        "LLM",
+        "Inference",
+        "KV-Cache"
+      ],
+      "scheduled_at": "2026-11-24T13:03:08Z",
+      "status": "pending"
     }
   ]
 }
