@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-18T14:03:26Z",
+  "last_scheduled_at": "2026-11-25T05:01:53Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28658,6 +28658,20 @@
       "scheduled_at": "2026-11-18T14:03:26Z",
       "status": "posting",
       "claimed_at": "2026-11-18T15:22:13Z"
+    },
+    {
+      "title": "Hybrid BM25 + Dense Retrieval Engine with Reciprocal Rank Fusion in Pure Python",
+      "url": "https://martinuke0.github.io/posts/2026-11-25-hybrid-bm25-dense-retrieval-engine-with-reciprocal-rank-fusion-in-pure-python/",
+      "social_hook": "> TL;DR — In this post we build a pure‑Python hybrid search engine that combines BM25 lexical scoring with dense vector similarity, then fuses the two rankings using Reciprocal Rank Fusion. The result is a lightweight, runnable prototype that demonstrates core retrieval patterns you can discuss in interviews and extend into production systems.\n\nBuilding a search prototype from scratch is one of the most effective ways to signal to hiring managers that you understand how modern production systems work under the hood. By combining a classic lexical model (BM25) with a learned dense retriever and fusing their results via Reciprocal Rank Fusion (RRF), you demonstrate knowledge of ranking algorithms, vector math, and system integration—all in a single, runnable Python script. The project is small enough to finish in a weekend yet extensible enough to discuss persistence, scaling, and observability in an interview.\n\n- Systems thinking: You designed a multi‑component pipeline (ingestion → scoring → fusion) rather than calling a single API.",
+      "tags": [
+        "information-retrieval",
+        "python",
+        "bm25",
+        "dense-retrieval",
+        "reciprocal-rank-fusion"
+      ],
+      "scheduled_at": "2026-11-25T05:01:53Z",
+      "status": "pending"
     }
   ]
 }
