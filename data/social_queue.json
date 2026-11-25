@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-18T14:03:26Z",
+  "last_scheduled_at": "2026-11-25T04:02:06Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28658,6 +28658,20 @@
       "scheduled_at": "2026-11-18T14:03:26Z",
       "status": "posting",
       "claimed_at": "2026-11-18T15:22:13Z"
+    },
+    {
+      "title": "Pure‑NumPy LoRA Fine‑Tuning Engine: From Frozen Weights to Merged Checkpoint",
+      "url": "https://martinuke0.github.io/posts/2026-11-25-purenumpy-lora-finetuning-engine-from-frozen-weights-to-merged-checkpoint/",
+      "social_hook": "> TL;DR — This guide walks you through building a pure‑NumPy LoRA fine‑tuning engine: freeze a base weight matrix, insert a rank‑r low‑rank adapter, back‑propagate gradients through the adapter, and merge the resulting delta back into a single checkpoint. The entire pipeline is ~70 lines of runnable code, no frameworks required.\n\nLoRA (Low‑Rank Adaptation) is a parameter‑efficient technique for fine‑tuning large models. In this post you’ll implement the core mathematics from scratch using only NumPy, giving you a portable, educational, and CV‑worthy project.\n\n- Low‑rank adaptation mathematics – you demonstrate understanding of matrix factorisation, gradient flow through thin adapter layers, and delta merging, all core concepts in modern parameter‑efficient fine‑tuning.",
+      "tags": [
+        "numpy",
+        "machine-learning",
+        "lora",
+        "deep-learning",
+        "cv"
+      ],
+      "scheduled_at": "2026-11-25T04:02:06Z",
+      "status": "pending"
     }
   ]
 }
