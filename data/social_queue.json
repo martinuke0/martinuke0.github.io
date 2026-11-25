@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-25T21:02:20Z",
+  "last_scheduled_at": "2026-11-18T14:03:26Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28594,8 +28594,7 @@
         "side-project"
       ],
       "scheduled_at": "2026-11-01T02:03:39Z",
-      "status": "posting",
-      "claimed_at": "2026-11-25T20:57:59Z"
+      "status": "pending"
     },
     {
       "title": "Deep Dive into WebAssembly Compilation: Wasmtime's Cranelift Backend",
@@ -28659,21 +28658,6 @@
       "scheduled_at": "2026-11-18T14:03:26Z",
       "status": "posting",
       "claimed_at": "2026-11-18T15:22:13Z"
-    },
-    {
-      "title": "Hands-On Build: Speculative Draft‑Then‑Verify Inference Engine with Sliding‑Window KV Cache Eviction in Pure Python",
-      "url": "https://martinuke0.github.io/posts/2026-11-25-hands-on-build-speculative-draftthenverify-inference-engine-with-slidingwindow-k/",
-      "social_hook": "> TL;DR — This post walks you through building a pure‑Python inference engine that drafts token candidates, then verifies them with a sliding‑window KV‑cache eviction strategy. The design showcases production‑grade caching, token‑level speculation, and deterministic eviction — all in a runnable script you can extend for interviews or side‑projects.\n\nIn the past year, several AI‑focused side‑projects have landed engineers interviews at top tech firms. What sets this one apart is that you aren’t just wiring together a high‑level library; you’re implementing the low‑level caching and eviction logic that real model‑serving systems (e.g., TensorRT, vLLM, and serving kernels in PyTorch) rely on. By writing the entire pipeline in pure Python, you demonstrate both systems thinking and language fluency — a rare combo that hiring managers notice.\n\n- Systems‑level insight: You design and implement a sliding‑window KV cache, including eviction order, window size management, and memory reuse — the same concerns that appear in production inference engines.",
-      "tags": [
-        "python",
-        "inference",
-        "kv-cache",
-        "sliding-window",
-        "cv",
-        "systems"
-      ],
-      "scheduled_at": "2026-11-25T21:02:20Z",
-      "status": "pending"
     }
   ]
 }
