@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-26T07:01:50Z",
+  "last_scheduled_at": "2026-11-18T14:03:26Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28594,8 +28594,7 @@
         "side-project"
       ],
       "scheduled_at": "2026-11-01T02:03:39Z",
-      "status": "posting",
-      "claimed_at": "2026-11-26T07:01:23Z"
+      "status": "pending"
     },
     {
       "title": "Deep Dive into WebAssembly Compilation: Wasmtime's Cranelift Backend",
@@ -28659,20 +28658,6 @@
       "scheduled_at": "2026-11-18T14:03:26Z",
       "status": "posting",
       "claimed_at": "2026-11-18T15:22:13Z"
-    },
-    {
-      "title": "Byte‑Level BPE Tokenizer with GPT‑4 Pre‑tokenization and tiktoken‑Compatible Serialization in Pure Python",
-      "url": "https://martinuke0.github.io/posts/2026-11-26-bytelevel-bpe-tokenizer-with-gpt4-pretokenization-and-tiktokencompatible-seriali/",
-      "social_hook": "> TL;DR — This post walks you through building a fully pure‑Python byte‑level BPE tokenizer that mirrors GPT‑4’s regex pre‑tokenization and outputs tiktoken‑compatible JSON. You’ll get runnable code, test harnesses, and a roadmap to production‑grade features like persistence and benchmarking, all in under 200 lines of core logic.\n\nBuilding a tokenizer from scratch signals more than “I used tiktoken.” It demonstrates:\n\n- Low‑level understanding of encoding – byte‑pair encoding, regex pre‑tokenization, and the subtle differences between word‑piece and BPE.",
-      "tags": [
-        "python",
-        "tokenizer",
-        "bpe",
-        "gpt",
-        "tiktoken"
-      ],
-      "scheduled_at": "2026-11-26T07:01:50Z",
-      "status": "pending"
     }
   ]
 }
