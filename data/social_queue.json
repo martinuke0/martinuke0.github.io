@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-18T14:03:26Z",
+  "last_scheduled_at": "2026-11-26T03:01:58Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28658,6 +28658,20 @@
       "scheduled_at": "2026-11-18T14:03:26Z",
       "status": "posting",
       "claimed_at": "2026-11-18T15:22:13Z"
+    },
+    {
+      "title": "From-Scratch Speculative Decoding Engine in Pure Python",
+      "url": "https://martinuke0.github.io/posts/2026-11-26-from-scratch-speculative-decoding-engine-in-pure-python/",
+      "social_hook": "> TL;DR — Speculative decoding lets a tiny draft model propose tokens that a large target model verifies, accelerating generation while keeping output distribution identical. We'll build a minimal pure‑Python engine that uses rejection‑sampling to guarantee correctness and adapts draft length on the fly.\n\nSpeculative decoding is a pattern that can cut LLM latency by 2‑3× without sacrificing quality. In this post you'll create a self‑contained Python package that spawns a micro draft model, runs exact rejection‑sampling checks against a heavier target, and automatically tunes the number of draft tokens so the overall token distribution stays faithful to the target. The result is a runnable prototype you can drop into any generation pipeline, plus a clear roadmap for turning it into a production‑grade component.\n\nHiring managers for ML‑focused engineering roles look for concrete evidence that you can bridge research ideas and production systems. This project signals several high‑value skills:",
+      "tags": [
+        "speculative-decoding",
+        "python",
+        "machine-learning",
+        "systems",
+        "cv-side-project"
+      ],
+      "scheduled_at": "2026-11-26T03:01:58Z",
+      "status": "pending"
     }
   ]
 }
