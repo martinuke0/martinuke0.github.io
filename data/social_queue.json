@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-18T14:03:26Z",
+  "last_scheduled_at": "2026-11-26T08:02:52Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28658,6 +28658,19 @@
       "scheduled_at": "2026-11-18T14:03:26Z",
       "status": "posting",
       "claimed_at": "2026-11-18T15:22:13Z"
+    },
+    {
+      "title": "Build a Sparse Mixture-of-Experts Router from Scratch in Python",
+      "url": "https://martinuke0.github.io/posts/2026-11-26-build-a-sparse-mixture-of-experts-router-from-scratch-in-python/",
+      "social_hook": "> TL;DR — We build a minimal sparse Mixture‑of‑Experts router in pure Python using top‑k gating, a load‑balancing loss, and capacity‑based token dropping, producing a runnable codebase that showcases systems‑level engineering skills for a standout CV.\n\nBuilding a portfolio side‑project that actually runs, can be inspected, and extends naturally gives you something concrete to discuss in interviews. A sparse Mixture‑of‑Experts (MoE) router demonstrates your ability to work with parallel computation, custom loss functions, and token‑level resource management—skills that hiring managers for ML infrastructure, systems, and research engineering roles value highly.\n\nA sparse MoE router signals three distinct competency clusters that recruiters look for:",
+      "tags": [
+        "python",
+        "machine-learning",
+        "mixture-of-experts",
+        "side-project"
+      ],
+      "scheduled_at": "2026-11-26T08:02:52Z",
+      "status": "pending"
     }
   ]
 }
