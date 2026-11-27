@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-18T14:03:26Z",
+  "last_scheduled_at": "2026-11-27T07:02:15Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28658,6 +28658,20 @@
       "scheduled_at": "2026-11-18T14:03:26Z",
       "status": "posting",
       "claimed_at": "2026-11-18T15:22:13Z"
+    },
+    {
+      "title": "From‑Scratch Mixture‑of‑Experts Layer in Pure NumPy",
+      "url": "https://martinuke0.github.io/posts/2026-11-27-fromscratch-mixtureofexperts-layer-in-pure-numpy/",
+      "social_hook": "> TL;DR — In this post we build a pure‑NumPy Mixture‑of‑Experts layer with noisy top‑k gating, an auxiliary load‑balancing loss, and expert‑capacity token dropping, then train a tiny MoE transformer on character‑level text. The result is a fully runnable, educational project that showcases systems‑level thinking and can be extended to production‑grade pipelines.\n\nA portfolio project that demonstrates you can go from first‑principles code to a working model while also handling the engineering concerns that hiring managers care about: resource allocation, load‑balancing, and extensible architecture. Below is a complete, step‑by‑step guide you can clone, run, and tweak today.\n\n- Low‑level optimization: You write training loops and custom operations using only NumPy, proving you understand memory layout, vectorization, and numerical stability.",
+      "tags": [
+        "numpy",
+        "machine-learning",
+        "mixture-of-experts",
+        "transformers",
+        "python"
+      ],
+      "scheduled_at": "2026-11-27T07:02:15Z",
+      "status": "pending"
     }
   ]
 }
