@@ -1,5 +1,5 @@
 {
-  "last_scheduled_at": "2026-11-18T14:03:26Z",
+  "last_scheduled_at": "2026-11-27T12:02:04Z",
   "posts": [
     {
       "title": "Agentic Workflows in 2026",
@@ -28658,6 +28658,20 @@
       "scheduled_at": "2026-11-18T14:03:26Z",
       "status": "posting",
       "claimed_at": "2026-11-18T15:22:13Z"
+    },
+    {
+      "title": "From-Scratch IVF-PQ Vector Index in Pure Python: A Hands-On Portfolio Guide",
+      "url": "https://martinuke0.github.io/posts/2026-11-27-from-scratch-ivf-pq-vector-index-in-pure-python-a-hands-on-portfolio-guide/",
+      "social_hook": "> TL;DR — In under 80 lines of pure Python, you can construct an IVF-PQ index that coarse-quantizes vectors with k-means, compresses them with product quantization, and answers nearest-neighbor queries via asymmetric distance lookup. This project lands on a CV because it mirrors the core architecture of production vector search engines like Milvus and Qdrant, demonstrating your ability to translate algorithmic theory into runnable, production‑inspired code.\n\nVector search is the backbone of modern recommendation, retrieval, and LLM augmentation systems. While libraries like FAISS and Milvus make searching at scale trivial, the engineering decisions inside — coarse quantization, inverted lists, product codebooks — are rarely exposed at the source level. Building an IVF-PQ index from scratch in pure Python pulls back the curtain. You’ll implement the exact same pipeline that powers petabyte-scale search, but on your laptop, using only NumPy. By the end, you won’t just “use” vector search; you’ll understand why it works, where it fails, and how to extend it.\n\nHiring managers for ML engineering, systems, and data‑intensive roles see dozens of “hello world” notebooks. This project signals three concrete competencies:",
+      "tags": [
+        "python",
+        "vector-search",
+        "machine-learning",
+        "portfolio-project",
+        "systems-engineering"
+      ],
+      "scheduled_at": "2026-11-27T12:02:04Z",
+      "status": "pending"
     }
   ]
 }
